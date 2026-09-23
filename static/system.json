@@ -1,0 +1,58 @@
+{
+  "id": "holocron",
+  "title": "Holocron: Saga Edition",
+  "description": "Star Wars Saga Edition for Foundry VTT v14, built on the Episode VII house rules.",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "14.368",
+    "verified": "14.368",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "Brianthas",
+      "url": "https://github.com/Brianthas"
+    }
+  ],
+  "url": "https://github.com/Brianthas/Holocron",
+  "manifest": "https://github.com/Brianthas/Holocron/releases/latest/download/system.json",
+  "download": "https://github.com/Brianthas/Holocron/releases/download/v0.0.1/holocron-v0.0.1.zip",
+  "esmodules": ["holocron.mjs"],
+  "styles": ["holocron.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {
+        "htmlFields": ["details.biography"]
+      },
+      "npc": {
+        "htmlFields": ["details.biography"]
+      }
+    },
+    "Item": {
+      "species": { "htmlFields": ["description"] },
+      "class": { "htmlFields": ["description"] },
+      "feat": { "htmlFields": ["description"] },
+      "talent": { "htmlFields": ["description"] },
+      "forcePower": { "htmlFields": ["description"] },
+      "feature": { "htmlFields": ["description"] },
+      "weapon": { "htmlFields": ["description"] },
+      "armor": { "htmlFields": ["description"] },
+      "equipment": { "htmlFields": ["description"] }
+    }
+  },
+  "packs": [],
+  "primaryTokenAttribute": "hp",
+  "secondaryTokenAttribute": "resources.forcePoints",
+  "socket": true,
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  }
+}

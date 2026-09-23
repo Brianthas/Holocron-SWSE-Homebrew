@@ -1,0 +1,22 @@
+{
+  "HOLOCRON": {
+    "Title": "Holocron: Saga Edition"
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "Character",
+      "npc": "NPC"
+    },
+    "Item": {
+      "species": "Species",
+      "class": "Class",
+      "feat": "Feat",
+      "talent": "Talent",
+      "forcePower": "Force Power",
+      "feature": "Feature",
+      "weapon": "Weapon",
+      "armor": "Armor",
+      "equipment": "Equipment"
+    }
+  }
+}

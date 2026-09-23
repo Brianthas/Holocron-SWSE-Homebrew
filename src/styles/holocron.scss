@@ -1,0 +1,32 @@
+// Design tokens. Colours are custom properties so a character's accent can override --hc-accent on
+// its own sheet root; every tint is mixed from it. Light theme is the default token set, dark
+// redefines it, following Foundry's .theme-light / .theme-dark classes.
+
+.holocron {
+  --hc-accent: #7b4fd6;
+  --hc-on-accent: #ffffff;
+  --hc-accent-soft: color-mix(in oklab, var(--hc-accent) 18%, transparent);
+  --hc-accent-strong: color-mix(in oklab, var(--hc-accent) 80%, black);
+
+  --hc-bg: #eef0f5;
+  --hc-surface: #ffffff;
+  --hc-text: #141824;
+  --hc-muted: #5b6275;
+  --hc-border: #c9cedb;
+
+  --hc-success: #1f8a4c;
+  --hc-failure: #c0392b;
+  --hc-critical: #d4a017;
+
+  --hc-font-body: "Roboto", system-ui, sans-serif;
+  --hc-font-display: "Eczar", Georgia, serif;
+}
+
+.theme-dark .holocron,
+.holocron.theme-dark {
+  --hc-bg: #0e111a;
+  --hc-surface: #171b27;
+  --hc-text: #e6e9f2;
+  --hc-muted: #98a0b5;
+  --hc-border: #2b3142;
+}

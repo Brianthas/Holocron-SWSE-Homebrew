@@ -1,0 +1,32 @@
+{
+  "name": "holocron",
+  "private": true,
+  "type": "module",
+  "description": "Holocron: Saga Edition, a Star Wars Saga Edition system for Foundry VTT v14 built on the Episode VII house rules.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . && node tools/lint-text.ts",
+    "lint:text": "node tools/lint-text.ts",
+    "test": "vitest run",
+    "link": "node tools/link.ts",
+    "verify:live": "node tools/verify-live.ts",
+    "rules:snapshot": "node tools/snapshot-rules.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@foundryvtt/foundryvtt-cli": "3.0.4",
+    "@types/node": "24.13.6",
+    "eslint": "10.11.0",
+    "fvtt-types": "^14.366.0-beta.20260923202018",
+    "sass": "1.105.0",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.70.1",
+    "vite": "8.3.0",
+    "vitest": "5.0.1"
+  }
+}
