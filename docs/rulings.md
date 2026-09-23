@@ -3,11 +3,19 @@
 Clarifications to the rules in `docs/rules/`, made by Bryan (with tovec where noted). Where a ruling
 and a snapshot differ, the ruling wins. Code and tests cite the ruling by its heading.
 
+## Content
+
+- **The SWSE wiki's "Homebrew Content" is not part of this system.** Any talent, feat, species or
+  affiliation the wiki tags Homebrew Content, or credits to a fan creator ("... Creations"), is
+  left out: 22 whole talent trees (e.g. Midi-chlorian, Jumptrooper, Mistryl Shadow Guard), 17
+  feats, 43 species, 3 affiliations. tovec's rules are not Homebrew Content and are never labelled
+  as homebrew.
+
 ## Talent trees
 
 - **Force Sensitivity** grants the general Force talent trees: Alter, Control, Dark Side, Guardian
-  Spirit, Light Side, Midi-chlorian, Sense. (The packs' "Force Talent Trees" minus "Force Tradition
-  Talent Trees".) Anyone may take Force Sensitivity.
+  Spirit, Light Side, Sense. (The packs' "Force Talent Trees" minus "Force Tradition Talent Trees",
+  minus Homebrew Content.) Anyone may take Force Sensitivity.
 - **Jedi Order** grants Jedi Consular, Jedi Guardian and Jedi Sentinel.
 - **Another tradition** replaces those three with the tradition's tree. Where the tradition lists
   several ("Believer Disciple, Blazing Chain, or Krath"), the character picks one. Traditions other
