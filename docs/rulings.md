@@ -75,6 +75,8 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 - Force of Personality uses Charisma instead of Wisdom for Will Defense. The Episode VII line saying
   it swaps the Force ability is a typo.
 - Charismatic Force uses Charisma instead of Wisdom for Use the Force. (Text to follow.)
+- Move Object against a resisting creature: the Use the Force check must exceed its **Will
+  Defense**, as the power says. (DT+5 is not used for Move Object.)
 - Move Object: the check sets the largest size you can lift. Damage is set by the size of what is
   moved (Medium 2d6, Large 4d6, Huge 6d6, Gargantuan 8d6, Colossal 10d6), not by the check.
 
