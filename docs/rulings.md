@@ -36,6 +36,11 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 - Critical hits multiply by 2 unless a weapon or feat says otherwise. A natural 1 always misses and
   a natural 20 always hits.
 - Half level is added to damage on attacks.
+- **Dueling Stance** (Bryan, 2026-09-24): a successful Block negates a melee attack and a successful
+  Deflect negates a ranged attack, for no damage. Half damage on a hit and none on a miss applies
+  only to Block against a melee area attack (such as Whirlwind Attack) and to Deflect against a
+  weapon on autofire or Force Lightning. Deflect has no effect on other area attacks (grenades,
+  missiles, flamethrowers). Sonic damage cannot be deflected (weapon table, Sonic Pistol).
 - Armor has no armor bonus to Reflex or Fortitude. It replaces the Dexterity term of Reflex: Assault
   uses the Strength modifier, Battle 4, Mesh 5, Power 4.
 
