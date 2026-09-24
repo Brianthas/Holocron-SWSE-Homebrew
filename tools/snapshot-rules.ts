@@ -3,7 +3,7 @@
 // the source, the fetch date and the licence. Re-run before each milestone and diff the result.
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const PAGES = ["episode-vii", "level-up-guide"];
+const PAGES = ["episode-vii", "level-up-guide", "species-rarity", "droids"];
 const START = '<div id="page-content">';
 const END_MARKERS = ['id="wad-tier3-below-content"', 'id="page-info-break"', 'id="page-options-container"'];
 
