@@ -49,6 +49,16 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
   Constitution modifier.
 - Second Wind: 1 use unless a feat adds more; heals Hit Die + Constitution modifier + level.
 
+## Languages
+
+- Understanding is shown as a tier only: Commons (INT 12), Commons and Rares (INT 16), Commons,
+  Rares and Secrets (INT 20). The GM decides which specific languages a character knows; the system
+  keeps no language lists. Secrets are languages such as Rakatan or Sith.
+
+## Attacks
+
+- Attack and damage may use STR, DEX, INT, WIS or CHA, as feats and Force talents allow.
+
 ## Character creation
 
 - 25 point buy with Pathfinder costs: 8 -2, 9 -1, 10 0, 11 1, 12 2, 13 3, 14 5, 15 7, 16 10, 17 13,
