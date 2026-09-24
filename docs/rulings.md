@@ -65,6 +65,11 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 - Move Object: the check sets the largest size you can lift. Damage is set by the size of what is
   moved (Medium 2d6, Large 4d6, Huge 6d6, Gargantuan 8d6, Colossal 10d6), not by the check.
 
+## Tokens
+
+- Token size follows the creature's size, as PF2e does it: Fine, Diminutive and Tiny 0.5 squares;
+  Small and Medium 1; Large 2; Huge 3; Gargantuan 4; Colossal 6.
+
 ## Equipment
 
 - Only the weapons in the Episode VII weapon tables exist.
