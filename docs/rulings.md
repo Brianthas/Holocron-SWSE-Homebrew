@@ -3,6 +3,11 @@
 Clarifications to the rules in `docs/rules/`, made by Bryan (with tovec where noted). Where a ruling
 and a snapshot differ, the ruling wins. Code and tests cite the ruling by its heading.
 
+## General
+
+- **Round down** (Bryan, 2026-09-24): any fraction or division rounds down unless a specific rule
+  says otherwise (the Dark Side maximum, half Wisdom rounded up, is one that does).
+
 ## Content
 
 - **The SWSE wiki's "Homebrew Content" is not part of this system.** Any talent, feat, species or
@@ -51,9 +56,10 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 - **Ammunition is not tracked** (Bryan, 2026-09-24): no shots, slugs or reloads.
 - **Dueling Stance** (Bryan, 2026-09-24): a successful Block negates a melee attack and a successful
   Deflect negates a ranged attack, for no damage. Half damage on a hit and none on a miss applies
-  only to Block against a melee area attack (such as Whirlwind Attack) and to Deflect against a
-  weapon on autofire or Force Lightning. Deflect has no effect on other area attacks (grenades,
-  missiles, flamethrowers). Sonic damage cannot be deflected (weapon table, Sonic Pistol).
+  only to Block against a melee area attack (such as Whirlwind Attack) and to Deflect against an
+  autofire area attack or Force Lightning. Burst Fire attacks one creature, so Deflect negates it.
+  Deflect has no effect on other area attacks (grenades, missiles, flamethrowers). Sonic damage
+  cannot be deflected (weapon table, Sonic Pistol).
 - Armor has no armor bonus to Reflex or Fortitude. It replaces the Dexterity term of Reflex: Assault
   uses the Strength modifier, Battle 4, Mesh 5, Power 4.
 
