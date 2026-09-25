@@ -103,6 +103,11 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
   multiclassing into it (Bryan, 2026-09-24; the feats and proficiencies are in the class table).
 - **A granted feat the character already picked frees that pick** (Bryan, 2026-09-24): the slot
   where it was taken is chosen again, for a different feat.
+- **Tree names in the house text** (Bryan, 2026-09-25): "Brawl" for Martial Arts Masters is the
+  Brawler tree, "Melkite Poisoner" is the Malkite Poisoner tree, and "Kilian Rangers" is the Kilian
+  Ranger tree.
+- **"Any Force Tradition, with some limitations"** for Force Disciples, Jedi Masters and Sith Lords
+  means any Force Tradition tree with GM approval (Bryan, 2026-09-25).
 
 ## The Force
 
