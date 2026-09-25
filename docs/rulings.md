@@ -48,13 +48,13 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 - **DR applies to every damage type, Stun included**, except what the armor names (Bryan,
   2026-09-24). Battle Armor's DR 2/Lightsabers stops everything but lightsabers. A DR written /-
   (every Beskar upgrade in the armor table) stops everything, lightsabers included.
-- **Autofire** follows the wiki's Autofire page (Bryan, 2026-09-24; the house rules do not mention
-  it): an area attack against a 2x2-square area, one attack roll at -5 compared to each
-  creature's Reflex Defense; a hit deals full damage and a miss half. Bracing an Autofire-only
-  weapon (two Swift Actions immediately before the attack; heavy weapons, rifles, and pistols with
-  an extended Retractable Stock) makes the penalty -2. Burst Fire targets one creature at -5 for
-  +2 dice and is not an area attack. Evasion against Autofire: half damage on a hit, none on a
-  miss.
+- **Autofire** follows the core rulebook, page 156 (Bryan, 2026-09-24; the house rules do not
+  mention it): an area attack against a 2x2-square area, one attack roll at -5 compared to each
+  creature's Reflex Defense; a hit deals full damage and a miss half. Bracing an autofire-only
+  weapon (two swift actions in the same round immediately before the attack; heavy weapons,
+  rifles, and pistols with an extended stock) makes the penalty -2 for an autofire attack or
+  Burst Fire. Burst Fire targets one creature at -5 for +2 dice and is not an area attack.
+  Evasion against Autofire: half damage on a hit, none on a miss.
 - **Ammunition is not tracked** (Bryan, 2026-09-24): no shots, slugs or reloads.
 - **Dueling Stance** (Bryan, 2026-09-24): a successful Block negates a melee attack and a successful
   Deflect negates a ranged attack, for no damage. Half damage on a hit and none on a miss applies
