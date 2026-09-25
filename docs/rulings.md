@@ -107,7 +107,8 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
   Brawler tree, "Melkite Poisoner" is the Malkite Poisoner tree, and "Kilian Rangers" is the Kilian
   Ranger tree.
 - **"Any Force Tradition, with some limitations"** for Force Disciples, Jedi Masters and Sith Lords
-  means any Force Tradition tree with GM approval (Bryan, 2026-09-25).
+  (Bryan, 2026-09-25): they get their stated trees automatically, and may also take a talent from
+  any Force Tradition tree they have no access to, one talent at a time, with GM approval.
 
 ## The Force
 
