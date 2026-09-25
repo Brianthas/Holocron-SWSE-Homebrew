@@ -14,9 +14,9 @@
       "url": "https://github.com/Brianthas"
     }
   ],
-  "url": "https://github.com/Brianthas/Holocron",
-  "manifest": "https://github.com/Brianthas/Holocron/releases/latest/download/system.json",
-  "download": "https://github.com/Brianthas/Holocron/releases/download/v0.0.1/holocron-v0.0.1.zip",
+  "url": "https://github.com/Brianthas/Holocron-SWSE-Homebrew",
+  "manifest": "https://github.com/Brianthas/Holocron-SWSE-Homebrew/releases/latest/download/system.json",
+  "download": "https://github.com/Brianthas/Holocron-SWSE-Homebrew/releases/download/v0.0.1/holocron-v0.0.1.zip",
   "esmodules": ["holocron.mjs"],
   "styles": ["holocron.css"],
   "languages": [
