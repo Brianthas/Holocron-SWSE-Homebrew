@@ -5,6 +5,10 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 
 ## General
 
+- **Source order** (Bryan, 2026-09-25): the house rules and these rulings supersede the Saga
+  Edition books and WotC's official errata. Where they are silent, the official errata supersedes
+  the printed book (Surge is a free action, core rulebook errata to p100, not the printed swift
+  action).
 - **Round down** (Bryan, 2026-09-24): any fraction or division rounds down unless a specific rule
   says otherwise (the Dark Side maximum, half Wisdom rounded up, is one that does).
 - **Meeting a defense or DC beats it** (Bryan, 2026-09-24), including where a power or talent
