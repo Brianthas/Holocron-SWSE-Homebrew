@@ -103,6 +103,9 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
   multiclassing into it (Bryan, 2026-09-24; the feats and proficiencies are in the class table).
 - **A granted feat the character already picked frees that pick** (Bryan, 2026-09-24): the slot
   where it was taken is chosen again, for a different feat.
+- **A tradition prerequisite** ("a member of The Krath") **is met when the character has that
+  tradition's tree unlocked** (Bryan, 2026-09-25): by the tradition they chose, by a class that
+  grants the tree, or by the GM adding it by hand.
 - **A prerequisite naming a feat that no longer exists is met** (Bryan, 2026-09-25): Dodge, Melee
   Defense, Point Blank Shot, Power Attack, Power Blast, Precise Shot, Unstoppable Combatant, Vitality
   Surge and Weapon Finesse.
