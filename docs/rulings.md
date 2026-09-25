@@ -107,6 +107,9 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 - Charismatic Force uses Charisma instead of Wisdom for Use the Force. (Text to follow.)
 - Move Object against a resisting creature: the Use the Force check must also meet or beat its
   **Will Defense** (the power says "exceed"; see General). DT+5 is not used for Move Object.
+- **Force power damage adds the casting modifier** (Bryan, 2026-09-24): every Force power that
+  deals damage adds the modifier of the ability Use the Force uses, Wisdom, or Charisma with
+  Charismatic Force.
 - Move Object: the check sets the largest size you can lift. Damage is set by the size of what is
   moved (Medium 2d6, Large 4d6, Huge 6d6, Gargantuan 8d6, Colossal 10d6), not by the check.
 
