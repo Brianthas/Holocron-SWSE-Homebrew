@@ -23,10 +23,6 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 
 ## Talent trees
 
-- **An unlocked tree is open to every talent** (Bryan, 2026-09-25). Once a class, Force
-  Sensitivity or a tradition unlocks a tree, any talent the character gains may come from it,
-  whatever class level grants the talent. The core rulebook's multiclass rule (page 54), where a
-  level's talent comes only from that class's trees or the Force trees, does not apply.
 - **Force Sensitivity** grants the general Force talent trees: Alter, Control, Dark Side, Guardian
   Spirit, Light Side, Sense. (The packs' "Force Talent Trees" minus "Force Tradition Talent Trees",
   minus Homebrew Content.) Anyone may take Force Sensitivity.
