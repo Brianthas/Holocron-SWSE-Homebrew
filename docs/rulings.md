@@ -60,6 +60,10 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
   autofire area attack or Force Lightning. Burst Fire attacks one creature, so Deflect negates it.
   Deflect has no effect on other area attacks (grenades, missiles, flamethrowers). Sonic damage
   cannot be deflected (weapon table, Sonic Pistol).
+- **Redirection Stance** (Bryan, 2026-09-24): Redirect Shot's attack roll is the defender's own
+  ranged attack, and a hit deals the damage the deflected bolt would have dealt, dice and
+  modifiers: a 3d8+15 shot comes back as 3d8+15. Only a single blaster bolt can be redirected.
+  Riposte is a normal Lightsaber attack.
 - Armor has no armor bonus to Reflex or Fortitude. It replaces the Dexterity term of Reflex: Assault
   uses the Strength modifier, Battle 4, Mesh 5, Power 4.
 
