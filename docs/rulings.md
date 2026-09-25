@@ -97,6 +97,13 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 - 25 point buy with Pathfinder costs: 8 -2, 9 -1, 10 0, 11 1, 12 2, 13 3, 14 5, 15 7, 16 10, 17 13,
   18 17. A score below 8 refunds the same as 8.
 
+## Classes
+
+- **A base class grants its starting feat and weapon proficiencies at its level 1**, including when
+  multiclassing into it (Bryan, 2026-09-24; the feats and proficiencies are in the class table).
+- **A granted feat the character already picked frees that pick** (Bryan, 2026-09-24): the slot
+  where it was taken is chosen again, for a different feat.
+
 ## The Force
 
 - Force Points per day: by level, +1 for Force Sensitivity, +2 for Force Boon.
