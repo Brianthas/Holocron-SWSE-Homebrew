@@ -43,6 +43,8 @@ function characterSchema() {
       Object.fromEntries(SKILL_KEYS.map((key) => [key, trained()])) as Record<SkillKey, ReturnType<typeof trained>>,
     ),
     hp: new fields.SchemaField({ value: int(0), temp: int(0, 0) }),
+    /** Second Wind uses left today. */
+    secondWind: pool(),
     forcePoints: pool(),
     destiny: pool(),
     /** Force Points pooled from a Destiny Point, at most 3 (episode-vii, Destiny Points). */
@@ -83,6 +85,8 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
   declare skillTotals: Record<SkillKey, Breakdown>;
   declare hpMax: Breakdown;
   declare hpState: HpState;
+  /** Second Wind uses per day: 1 unless a feat adds more (rulings.md, Hit points and healing). */
+  declare secondWindMax: Breakdown;
   declare forcePointsPerDay: Breakdown;
   declare destinyMax: number;
   declare pooledForceMax: number;
@@ -218,6 +222,7 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
       bonuses: this.modifiers["hp.max"] ?? [],
     });
     this.hpState = hpState(this.hp.value, this.hpMax.total);
+    this.secondWindMax = total([{ label: "Base", value: 1, type: null }, ...(this.modifiers["secondWind"] ?? [])]);
 
     this.forcePointsPerDay = forcePointsPerDay(this.level, this.modifiers["forcePoints"] ?? []);
     this.destinyMax = destinyMax(this.forcePointsPerDay.total);

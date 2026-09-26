@@ -7,7 +7,7 @@
 
   {{#if problems.length}}<ul class="debug-problems">{{#each problems}}<li>{{this}}</li>{{/each}}</ul>{{/if}}
 
-  <h3>Resources</h3>
+  <h3>Resources <button type="button" data-action="rest">Rest</button></h3>
   <table class="debug-table">
     {{#each resources}}<tr data-resource="{{key}}"><td>{{label}}</td><td class="total" {{#if tooltip}}data-tooltip-html="{{tooltip}}"{{/if}}>{{shown}}</td></tr>{{/each}}
   </table>

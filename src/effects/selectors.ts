@@ -19,6 +19,7 @@ const GRAMMAR: RegExp[] = [
   /^speed$/,
   /^healing\.received$/,
   /^forcePoints$/,
+  /^secondWind$/,
   /^languages\.int$/,
   /^slots\.(light|kit)$/,
 ];

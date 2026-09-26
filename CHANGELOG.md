@@ -44,3 +44,7 @@
 - A bonus's value can be a formula over the character ("@level"), resolved when the effect applies;
   one that does not resolve is reported, not read as 0. New bonus selectors: forcePoints,
   languages.int, slots.light, slots.kit; new grant kind: flag.
+- Rest is a long rest: hit points to full, Force Points to their per-day number, Second Wind to its
+  per-day uses (1 plus `secondWind` bonuses), and every Force power's copies ready. The debug
+  sheet's Rest button rests one character and posts what changed; `game.holocron.newDay()` (GM)
+  rests every character a player owns and posts one summary.

@@ -85,6 +85,9 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 - Later levels: roll the class die + Constitution modifier, or take floor(die / 2) + 1 +
   Constitution modifier.
 - Second Wind: 1 use unless a feat adds more; heals Hit Die + Constitution modifier + level.
+- **Rest is a long rest** (Bryan, 2026-09-25): hit points to full, Force Points to their per-day
+  number, every Force power ready, Second Wind and per-day uses restored. The sheet's Rest does this
+  for one character; the GM's New Day does it for every player character.
 - **Death** (Bryan, 2026-09-25): a character at exactly minus their maximum hit points is still
   dying; below that, they are dead ("You can have a maximum number of negative HP equal to your full
   normal HP before you die").

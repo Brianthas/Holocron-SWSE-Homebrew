@@ -2,6 +2,7 @@ import { ABILITIES, ABILITY_LABELS } from "../config/abilities.ts";
 import { SKILLS, SKILL_KEYS } from "../config/skills.ts";
 import type { CharacterModel, WeaponData } from "../data/actor/character.ts";
 import { rollAttack, rollDamage } from "../dice/attack.ts";
+import { longRest } from "../rest.ts";
 import { DEFENSES, DEFENSE_LABELS } from "../rules/defenses.ts";
 import type { Breakdown, Modifier } from "../rules/modifiers.ts";
 
@@ -34,7 +35,7 @@ export class DebugSheet extends HandlebarsApplicationMixin(foundry.applications.
     classes: ["holocron", "debug-sheet"],
     position: { width: 460, height: 600 },
     window: { resizable: true },
-    actions: { attack: DebugSheet.#attack, damage: DebugSheet.#damage },
+    actions: { attack: DebugSheet.#attack, damage: DebugSheet.#damage, rest: DebugSheet.#rest },
   };
 
   static override PARTS = {
@@ -63,6 +64,8 @@ export class DebugSheet extends HandlebarsApplicationMixin(foundry.applications.
         { key: "hp", label: "Hit points", shown: `${system.hp.value} / ${system.hpMax.total}`, tooltip: breakdownHtml("Hit points", system.hpMax) },
         { key: "hpState", label: "State", shown: system.hpState, tooltip: "" },
         { key: "forcePoints", label: "Force Points per day", shown: `${system.forcePointsPerDay.total}`, tooltip: breakdownHtml("Force Points per day", system.forcePointsPerDay) },
+        { key: "forcePointsLeft", label: "Force Points left", shown: `${system.forcePoints.value} / ${system.forcePointsPerDay.total}`, tooltip: "" },
+        { key: "secondWind", label: "Second Wind", shown: `${system.secondWind.value} / ${system.secondWindMax.total}`, tooltip: breakdownHtml("Second Wind per day", system.secondWindMax) },
         { key: "destiny", label: "Destiny Points, most", shown: `${system.destinyMax}`, tooltip: "" },
         { key: "darkSide", label: "Dark Side", shown: `${system.darkSide.value} / ${system.darkSideMax}`, tooltip: "" },
         { key: "understands", label: "Understands", shown: system.languageTier.understands, tooltip: breakdownHtml("INT for languages", system.languageTier.effectiveInt) },
@@ -97,6 +100,10 @@ export class DebugSheet extends HandlebarsApplicationMixin(foundry.applications.
     const actor = this.actor as Actor.Implementation;
     const weapon = actor.items.get(target.dataset["itemId"] ?? "");
     if (weapon) await rollAttack(actor, weapon);
+  }
+
+  static async #rest(this: DebugSheet): Promise<void> {
+    await longRest(this.actor as Actor.Implementation);
   }
 
   static async #damage(this: DebugSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {

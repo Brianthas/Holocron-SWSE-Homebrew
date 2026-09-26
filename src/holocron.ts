@@ -4,6 +4,7 @@ import { ITEM_MODELS } from "./data/item/models.ts";
 import { registerChanges } from "./effects/changes.ts";
 import { HolocronEffectModel } from "./effects/model.ts";
 import { registerMigrations } from "./migrations.ts";
+import { longRest, newDay } from "./rest.ts";
 import { DebugSheet } from "./sheets/debug-sheet.ts";
 
 /** System-wide configuration, read by tools/verify-live.ts to confirm which build the client loaded. */
@@ -40,5 +41,9 @@ Hooks.once("init", () => {
     });
   });
   register("migrations", registerMigrations);
+  // The system's API: New Day (GM) until it has a button; the sheet's Rest calls longRest.
+  register("api", () => {
+    (game as unknown as Record<string, unknown>)["holocron"] = { longRest, newDay };
+  });
   console.log(`holocron | init, build ${HOLOCRON.buildId}`);
 });
