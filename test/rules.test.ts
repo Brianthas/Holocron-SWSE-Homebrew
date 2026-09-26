@@ -6,7 +6,7 @@ const DEX = (mod: number) => ({ label: "DEX", mod });
 const rangedAttack = ({ bab, dexMod }: { bab: number; dexMod: number }) => weaponAttack({ bab, ability: DEX(dexMod) });
 const rangedDamage = ({ dice, dexMod, heroicLevel }: { dice: string; dexMod: number; heroicLevel: number }) =>
   weaponDamage({ dice, ability: DEX(dexMod), heroicLevel });
-import { defense } from "../src/rules/defenses.ts";
+import { defense, maneuverDefense, reflexAbilityTerm } from "../src/rules/defenses.ts";
 import { total, untyped, type Modifier } from "../src/rules/modifiers.ts";
 import { skill } from "../src/rules/skills.ts";
 import { REFLEX_SIZE_MODIFIER } from "../src/config/sizes.ts";
@@ -87,5 +87,25 @@ describe("half level rounds down", () => {
   });
   it("writes a negative modifier as a subtraction", () => {
     expect(rangedDamage({ dice: "3d6", dexMod: -1, heroicLevel: 1 }).formula).toBe("3d6 - 1");
+  });
+});
+
+describe("armor and DT+5 (rulings.md, Combat; house armor table)", () => {
+  const dex = { label: "DEX", mod: 3 };
+  it("keeps DEX when no armor is worn", () => {
+    expect(reflexAbilityTerm(dex, null)).toEqual(dex);
+  });
+  it("replaces the DEX term with a flat number or an ability", () => {
+    expect(reflexAbilityTerm(dex, { name: "Battle Armor", ability: null, flat: 4 })).toEqual({ label: "Battle Armor", mod: 4 });
+    expect(reflexAbilityTerm(dex, { name: "Assault Armor", ability: { label: "STR", mod: 1 }, flat: 0 }))
+      .toEqual({ label: "Assault Armor (STR)", mod: 1 });
+  });
+  it("gives Reflex no armor bonus: a DEX 16 wearer of Battle Armor has 10 + 1 + 4", () => {
+    const worn = reflexAbilityTerm(dex, { name: "Battle Armor", ability: null, flat: 4 });
+    expect(defense({ heroicLevel: 1, ability: worn, points: 0 }).total).toBe(15);
+  });
+  it("makes DT+5 Fortitude + 5, plus DT bonuses", () => {
+    expect(maneuverDefense(14).total).toBe(19);
+    expect(maneuverDefense(14, [untyped("Improved Damage Threshold", 5)]).total).toBe(24);
   });
 });

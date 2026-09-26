@@ -2,7 +2,7 @@ import { ABILITIES, ABILITY_LABELS, type AbilityKey } from "../../config/abiliti
 import { SKILLS, SKILL_KEYS, type SkillKey } from "../../config/skills.ts";
 import { REFLEX_SIZE_MODIFIER, SIZES, type SizeKey } from "../../config/sizes.ts";
 import { abilityMod, abilityScore } from "../../rules/abilities.ts";
-import { DEFENSES, defense, type DefenseKey } from "../../rules/defenses.ts";
+import { DEFENSES, defense, maneuverDefense, reflexAbilityTerm, type DefenseKey } from "../../rules/defenses.ts";
 import type { EffectTargets } from "../../effects/changes.ts";
 import type { Breakdown, Modifier } from "../../rules/modifiers.ts";
 import { skill } from "../../rules/skills.ts";
@@ -52,6 +52,8 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
   declare grants: EffectTargets["grants"];
   declare dice: EffectTargets["dice"];
   declare defenses: Record<DefenseKey, Breakdown>;
+  /** DT+5: the Defense against forced movement, grapple and disarm. */
+  declare maneuver: Breakdown;
   declare skillTotals: Record<SkillKey, Breakdown>;
 
   override prepareBaseData(): void {
@@ -126,16 +128,24 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
     this.parent.applyActiveEffects("derived");
 
     const DEFENSE_ABILITY: Record<DefenseKey, AbilityKey> = { reflex: "dex", fortitude: "con", will: "wis" };
+    const worn = items.find((i) => i.type === "armor" && (i.system as { worn?: boolean }).worn === true);
+    const armor = worn ? (() => {
+      const r = (worn.system as { reflex: { ability: string; flat: number } }).reflex;
+      const a = (ABILITIES as readonly string[]).includes(r.ability) ? (r.ability as AbilityKey) : null;
+      return { name: worn.name, ability: a ? { label: ABILITY_LABELS[a], mod: this.scores[a].mod } : null, flat: r.flat };
+    })() : null;
     this.defenses = Object.fromEntries(DEFENSES.map((d) => {
       const a = DEFENSE_ABILITY[d];
+      const term = { label: ABILITY_LABELS[a], mod: this.scores[a].mod };
       return [d, defense({
         heroicLevel: this.heroicLevel,
-        ability: { label: ABILITY_LABELS[a], mod: this.scores[a].mod },
+        ability: d === "reflex" ? reflexAbilityTerm(term, armor) : term,
         points: this.defensePoints[d],
         size: d === "reflex" ? REFLEX_SIZE_MODIFIER[this.size] : 0,
         bonuses: this.modifiers[`defense.${d}`] ?? [],
       })];
     })) as Record<DefenseKey, Breakdown>;
+    this.maneuver = maneuverDefense(this.defenses.fortitude.total, this.modifiers["dt"] ?? []);
 
     this.skillTotals = Object.fromEntries(SKILL_KEYS.map((key) => {
       const a = SKILLS[key].ability;

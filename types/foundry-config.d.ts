@@ -4,7 +4,9 @@
 // instead of failing silently at the table.
 
 import type { CharacterModel } from "../src/data/actor/character.ts";
-import type { ClassModel, FeatModel, SpeciesModel, WeaponModel } from "../src/data/item/models.ts";
+import type {
+  ArmorModel, ClassModel, EquipmentModel, FeatModel, FeatureModel, ForcePowerModel, SpeciesModel, TalentModel, WeaponModel,
+} from "../src/data/item/models.ts";
 import type { HolocronEffectModel } from "../src/effects/model.ts";
 
 declare module "fvtt-types/configuration" {
@@ -20,7 +22,12 @@ declare module "fvtt-types/configuration" {
       species: typeof SpeciesModel;
       class: typeof ClassModel;
       feat: typeof FeatModel;
+      talent: typeof TalentModel;
+      forcePower: typeof ForcePowerModel;
+      feature: typeof FeatureModel;
       weapon: typeof WeaponModel;
+      armor: typeof ArmorModel;
+      equipment: typeof EquipmentModel;
     };
     ActiveEffect: {
       base: typeof HolocronEffectModel;

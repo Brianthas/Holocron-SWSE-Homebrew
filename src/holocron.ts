@@ -1,6 +1,6 @@
 import "./styles/holocron.scss";
 import { CharacterModel } from "./data/actor/character.ts";
-import { ClassModel, FeatModel, SpeciesModel, WeaponModel } from "./data/item/models.ts";
+import { ITEM_MODELS } from "./data/item/models.ts";
 import { registerChanges } from "./effects/changes.ts";
 import { HolocronEffectModel } from "./effects/model.ts";
 import { registerMigrations } from "./migrations.ts";
@@ -26,7 +26,7 @@ Hooks.once("init", () => {
   (CONFIG as unknown as Record<string, unknown>)["HOLOCRON"] = HOLOCRON;
   register("data models", () => {
     Object.assign(CONFIG.Actor.dataModels, { character: CharacterModel });
-    Object.assign(CONFIG.Item.dataModels, { species: SpeciesModel, class: ClassModel, feat: FeatModel, weapon: WeaponModel });
+    Object.assign(CONFIG.Item.dataModels, ITEM_MODELS);
   });
   register("effects", () => {
     Object.assign(CONFIG.ActiveEffect.dataModels, { base: HolocronEffectModel });

@@ -24,3 +24,10 @@
 - Melee attacks use STR until the per-weapon ability choice exists; ranged attacks use DEX.
 - Weapon groups follow the house weapon tables: Simple, Advanced Melee, Lightsabers, Pistols,
   Rifles and Heavy Weapons. The Bow and the Grenade are Simple.
+- Item models for talents, Force powers (descriptors, action, DC bands, cumulative, copies and
+  ready uses), features (Force techniques, secrets, regimens, species traits, class features),
+  armor and equipment; classes carry the house class table's fields and their technique and
+  secret levels; weapons carry two-handed, thrown, half damage on a miss, area, slot and carry.
+- Worn armor replaces the DEX term of Reflex with its own (Assault Armor STR, Battle 4, Mesh 5,
+  Power 4); armor gives no armor bonus. DT+5, the Defense against forced movement, grapple and
+  disarm, is Fortitude + 5 plus any DT bonuses.

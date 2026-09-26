@@ -14,6 +14,7 @@ npm run link         # junction Foundry's systems/holocron to dist/
 npm run verify:live  # confirm the running client loaded this build
 npm run verify:f1       # F1 acceptance checks in the holocron-testing world
 npm run verify:effects  # effect change types, read off the rendered sheet
+npm run verify:models   # every item type embeds; armor and DT+5 on the sheet
 ```
 
 `npm run typecheck`, `npm run lint` and `npm test` run in CI on every push.

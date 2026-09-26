@@ -62,12 +62,15 @@ export class DebugSheet extends HandlebarsApplicationMixin(foundry.applications.
       bab: signed(system.bab),
       size: system.size,
       abilities: ABILITIES.map((a) => ({ label: ABILITY_LABELS[a], value: system.scores[a].value, mod: signed(system.scores[a].mod) })),
-      defenses: DEFENSES.map((d) => ({
-        key: d,
-        label: DEFENSE_LABELS[d],
-        total: system.defenses[d].total,
-        tooltip: breakdownHtml(DEFENSE_LABELS[d], system.defenses[d]),
-      })),
+      defenses: [
+        ...DEFENSES.map((d) => ({
+          key: d,
+          label: DEFENSE_LABELS[d],
+          total: system.defenses[d].total,
+          tooltip: breakdownHtml(DEFENSE_LABELS[d], system.defenses[d]),
+        })),
+        { key: "maneuver", label: "DT+5", total: system.maneuver.total, tooltip: breakdownHtml("DT+5", system.maneuver) },
+      ],
       skills: SKILL_KEYS.map((k) => ({
         key: k,
         label: SKILLS[k].label,
