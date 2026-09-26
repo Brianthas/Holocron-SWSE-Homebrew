@@ -85,6 +85,9 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 - Later levels: roll the class die + Constitution modifier, or take floor(die / 2) + 1 +
   Constitution modifier.
 - Second Wind: 1 use unless a feat adds more; heals Hit Die + Constitution modifier + level.
+- **Death** (Bryan, 2026-09-25): a character at exactly minus their maximum hit points is still
+  dying; below that, they are dead ("You can have a maximum number of negative HP equal to your full
+  normal HP before you die").
 
 ## Languages
 

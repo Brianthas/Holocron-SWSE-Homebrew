@@ -45,13 +45,13 @@ export function hitPointMax({ firstLevel, firstLabel, laterRolls, conMod, bonuse
 export type HpState = "healthy" | "staggered" | "dying" | "dead";
 
 /**
- * Staggered "when at exactly 0 HP"; dying below 0; dead at minus the maximum or lower ("You can have
- * a maximum number of negative HP equal to your full normal HP before you die"; episode-vii, Healing).
+ * Staggered "when at exactly 0 HP" (episode-vii, Healing); dying below 0, down to and including minus
+ * the maximum; dead below that (rulings.md, Hit points and healing: Death).
  */
 export function hpState(value: number, max: number): HpState {
   if (value > 0) return "healthy";
   if (value === 0) return "staggered";
-  return value <= -max ? "dead" : "dying";
+  return value < -max ? "dead" : "dying";
 }
 
 /**

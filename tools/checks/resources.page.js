@@ -10,6 +10,7 @@
 //   Languages: INT 12 + Linguist 4 = 16: "Commons and Rares".
 //   Slots: Light 12, Kit 1 + 1 = 2; Extended Capacity doubles both: 24 / 4.
 //   Heroic level 4 (the fifth level's class is missing), level 5; the missing class is reported.
+//   HP state: 0 staggered; -1 and -68 dying; -69 dead.
 //
 // Refuses any world but holocron-testing. Its documents carry flags.holocron.resourcesFixture.
 
@@ -72,13 +73,14 @@ check("Dark Side maximum 7", shown("darkSide") === "0 / 7", { shown: shown("dark
 check("languages: INT 12 + Linguist understands Commons and Rares", shown("understands") === "Commons and Rares", { shown: shown("understands") });
 check("slots 24 / 4 with Extended Capacity", shown("slots") === "24 / 4", { shown: shown("slots") });
 
-// Dying and dead at the edges: -1 is dying; -68 (minus the maximum) is dead.
-await actor.update({ "system.hp.value": -1 });
-await sheet.render({ force: true });
-const dying = shown("hpState");
-await actor.update({ "system.hp.value": -68 });
-await sheet.render({ force: true });
-check("below 0 is dying, minus the maximum is dead", dying === "dying" && shown("hpState") === "dead", { atMinus1: dying, atMinus68: shown("hpState") });
+// The edges (rulings.md, Death): -1 is dying; -68 (exactly minus the maximum) is still dying; -69 is dead.
+const stateAt = async (value) => {
+  await actor.update({ "system.hp.value": value });
+  await sheet.render({ force: true });
+  return shown("hpState");
+};
+const edges = { atMinus1: await stateAt(-1), atMinus68: await stateAt(-68), atMinus69: await stateAt(-69) };
+check("dying down to minus the maximum, dead below it", edges.atMinus1 === "dying" && edges.atMinus68 === "dying" && edges.atMinus69 === "dead", edges);
 
 await sheet.close();
 return JSON.stringify({ world: game.world.id, build: globalThis.CONFIG?.HOLOCRON?.buildId, results });

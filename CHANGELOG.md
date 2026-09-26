@@ -35,7 +35,8 @@
   increases. Level, heroic level, base attack bonus, hit points and ability increases derive from
   it; a level naming a missing class is reported on the sheet.
 - Hit points: the starting class's level-1 hit points, each later level's result, CON per level,
-  and bonuses; state is staggered at exactly 0, dying below, dead at minus the maximum. Force Points
+  and bonuses; state is staggered at exactly 0, dying down to and including minus the maximum,
+  dead below it. Force Points
   per day by level (1 to 4) plus bonuses, Destiny capped at that, pooled Force Points at 3, Dark
   Side maximum half WIS rounded up. Languages understood by INT, with Linguist and Primitive as
   bonuses of +4 and -4. Light slots equal STR, Kit slots STR modifier + 1 (minimum 1, one fewer per

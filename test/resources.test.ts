@@ -34,8 +34,8 @@ describe("hit points (rulings.md)", () => {
 });
 
 describe("HP state (episode-vii, Healing)", () => {
-  it("is staggered at exactly 0, dying below, dead at minus the maximum", () => {
-    expect([1, 0, -1, -29, -30, -31].map((v) => hpState(v, 30))).toEqual(["healthy", "staggered", "dying", "dying", "dead", "dead"]);
+  it("is staggered at exactly 0, dying down to minus the maximum, dead below it", () => {
+    expect([1, 0, -1, -29, -30, -31].map((v) => hpState(v, 30))).toEqual(["healthy", "staggered", "dying", "dying", "dying", "dead"]);
   });
 });
 
