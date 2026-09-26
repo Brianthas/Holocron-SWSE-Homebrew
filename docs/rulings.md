@@ -135,6 +135,8 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
   Charismatic Force. Half level is not added. Powers that deal half damage on a failed check add
   it too; the modifier is part of the damage that is halved (see Damage order). The GM plans to
   add this to the house rules page.
+- **"Force Cloak is removed"** means the Cloak Force power (Bryan, 2026-09-25). Anything that
+  grants invisibility is removed too; which items that covers is still to be settled.
 - Move Object: the check sets the largest size you can lift. Damage is set by the size of what is
   moved (Medium 2d6, Large 4d6, Huge 6d6, Gargantuan 8d6, Colossal 10d6), not by the check.
 
