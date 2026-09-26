@@ -5,7 +5,8 @@ import { isGrantKind, isSelector, type GrantKind } from "./selectors.ts";
  * Holocron's Active Effect change types. None writes data: each adds to a collection on the actor's
  * model that the statistics read when they total, so everything an effect does shows in a breakdown.
  *
- *   bonus  key: a selector ("defense.reflex"), value: a number; bonusType and condition optional.
+ *   bonus  key: a selector ("defense.reflex"), value: a number or a formula ("@level"); bonusType
+ *          and condition optional.
  *   grant  key: a grant kind ("skill.trained"), value: what is granted ("stealth").
  *   dice   key: a damage selector ("damage.unarmed"), value: extra dice of the weapon's size.
  *
@@ -36,7 +37,7 @@ export function registerChanges(): void {
     label: "Derived",
     hint: "After ability scores and levels, before Defenses, skills and attacks are totalled.",
   };
-  const register = (type: "bonus" | "grant" | "dice", label: string, handler: (target: Target, change: Change) => void) => {
+  const register = (type: "bonus" | "grant" | "dice", label: string, handler: (target: Target, change: Change, options?: { replacementData?: object }) => void) => {
     CONFIG.ActiveEffect.changeTypes[type] = { label, defaultPriority: 20, handler: handler as never, render: null };
   };
   register("bonus", "Bonus", applyBonus);
@@ -52,12 +53,28 @@ const report = (target: Target, change: Change, problem: string) =>
   console.error(`holocron | ${change.effect?.name ?? "an effect"} on ${target.name ?? "a document"}: ${problem} (key "${change.key}", value ${JSON.stringify(change.value)})`);
 const label = (change: Change) => change.effect?.name ?? "Effect";
 
-function applyBonus(target: Target, change: Change): void {
+/**
+ * A change's number: a number, or a formula over the character's data ("@level", "5 + @level"),
+ * resolved against the roll data Foundry passes the handler (Actor#getRollData, the character's
+ * model with its levels and scores already derived). An unresolved reference is not read as 0.
+ */
+function numeric(value: unknown, data: object | undefined): number {
+  if (typeof value === "number") return value;
+  const text = String(value ?? "").trim();
+  if (!text.includes("@")) return text === "" ? NaN : Number(text);
+  try {
+    return Number(Roll.safeEval(Roll.replaceFormulaData(text, (data ?? {}) as Record<string, unknown>)));
+  } catch {
+    return NaN;
+  }
+}
+
+function applyBonus(target: Target, change: Change, options?: { replacementData?: object }): void {
   const t = targets(target);
   if (!t) return; // an Item target, or an actor type with no statistics
   if (!isSelector(change.key)) return report(target, change, "not a bonus selector");
-  const value = Number(change.value);
-  if (!Number.isFinite(value)) return report(target, change, "value is not a number");
+  const value = numeric(change.value, options?.replacementData);
+  if (!Number.isFinite(value)) return report(target, change, "value is not a number or a formula that resolves to one");
   (t.modifiers[change.key] ??= []).push({
     label: label(change),
     value,

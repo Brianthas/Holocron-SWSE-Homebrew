@@ -1,4 +1,4 @@
-/* global game, Actor */
+/* global game, foundry, Actor */
 // F2 item-model check, evaluated inside the running client by tools/checks/run.ts. It embeds one item
 // of every type on a character, confirms none fell out of the collection (an invalid document is
 // absent from actor.items but kept in _source), then wears two armors in turn and reads Reflex and
@@ -17,9 +17,10 @@ const old = game.actors.filter((a) => a.getFlag("holocron", "modelsFixture")).ma
 if (old.length) await Actor.deleteDocuments(old.map((a) => a.id));
 check("previous fixtures deleted", old.every((a) => !game.actors.get(a.id)), { deleted: old });
 
+const jediId = foundry.utils.randomID();
 const items = [
   { name: "Human", type: "species", system: { size: "medium", traits: [{ name: "Bonus Feat", description: "" }] } },
-  { name: "Jedi", type: "class", system: { levels: 1, category: "base", heroic: true, hitDie: 10, hpFirstLevel: 30, trainedSkills: 4,
+  { _id: jediId, name: "Jedi", type: "class", system: { category: "base", heroic: true, hitDie: 10, hpFirstLevel: 30, trainedSkills: 4,
     weaponProficiencies: ["advancedMelee", "lightsabers", "pistols", "simple"], startingFeat: "Force Sensitivity", talentTrees: ["Jedi Consular"] } },
   { name: "Weapon Focus", type: "feat", system: { repeatable: true, choice: "pistols", prerequisite: { text: "Proficient with the chosen weapon", nodes: null } } },
   { name: "Dueling Stance", type: "talent", system: { tree: "Lightsaber Combat", action: "Reaction" } },
@@ -34,7 +35,7 @@ const actor = await Actor.create({
   name: "Models Probe",
   type: "character",
   flags: { holocron: { modelsFixture: true } },
-  system: { abilities: { str: { base: 12 }, dex: { base: 16 }, con: { base: 14 } } },
+  system: { abilities: { str: { base: 12 }, dex: { base: 16 }, con: { base: 14 } }, progression: [{ class: jediId }] },
   items,
 });
 const types = [...new Set(actor.items.map((i) => i.type))].sort();

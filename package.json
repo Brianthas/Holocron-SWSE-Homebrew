@@ -18,6 +18,7 @@
     "verify:f1": "node tools/checks/run.ts f1",
     "verify:effects": "node tools/checks/run.ts effects",
     "verify:models": "node tools/checks/run.ts models",
+    "verify:resources": "node tools/checks/run.ts resources",
     "rules:snapshot": "node tools/snapshot-rules.ts"
   },
   "devDependencies": {

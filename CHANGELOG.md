@@ -31,3 +31,15 @@
 - Worn armor replaces the DEX term of Reflex with its own (Assault Armor STR, Battle 4, Mesh 5,
   Power 4); armor gives no armor bonus. DT+5, the Defense against forced movement, grapple and
   disarm, is Fortitude + 5 plus any DT bonuses.
+- The character stores its levels in order: each level's class, hit die result and ability
+  increases. Level, heroic level, base attack bonus, hit points and ability increases derive from
+  it; a level naming a missing class is reported on the sheet.
+- Hit points: the starting class's level-1 hit points, each later level's result, CON per level,
+  and bonuses; state is staggered at exactly 0, dying below, dead at minus the maximum. Force Points
+  per day by level (1 to 4) plus bonuses, Destiny capped at that, pooled Force Points at 3, Dark
+  Side maximum half WIS rounded up. Languages understood by INT, with Linguist and Primitive as
+  bonuses of +4 and -4. Light slots equal STR, Kit slots STR modifier + 1 (minimum 1, one fewer per
+  size below Medium); Extended Capacity doubles both.
+- A bonus's value can be a formula over the character ("@level"), resolved when the effect applies;
+  one that does not resolve is reported, not read as 0. New bonus selectors: forcePoints,
+  languages.int, slots.light, slots.kit; new grant kind: flag.

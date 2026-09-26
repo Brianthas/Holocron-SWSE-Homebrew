@@ -1,4 +1,4 @@
-/* global game, canvas, Actor, Scene, Hooks */
+/* global game, canvas, foundry, Actor, Scene, Hooks */
 // F1 acceptance, evaluated inside the running client by tools/checks/run.ts. It builds the slice (a
 // Human Jedi 1 and a target), then reads every result off what the user sees: the rendered sheet,
 // the rendered chat card, the roll. Each check reports pass or fail.
@@ -33,7 +33,9 @@ const improvedDefenses = {
     system: { changes: ["reflex", "fortitude", "will"].map((d) => ({ key: `defense.${d}`, type: "bonus", value: 1, phase: "derived" })) },
   }],
 };
-const classItem = { name: "Jedi", type: "class", system: { levels: 1, heroic: true, hitDie: 10 } };
+// The class item gets a fixed id so the progression (one entry per level) can name it.
+const jediId = foundry.utils.randomID();
+const classItem = { _id: jediId, name: "Jedi", type: "class", system: { heroic: true, hitDie: 10, hpFirstLevel: 30 } };
 const jedi = await Actor.create({
   name: "F1 Jedi",
   type: "character",
@@ -41,6 +43,7 @@ const jedi = await Actor.create({
   system: {
     abilities: { str: { base: 10 }, dex: { base: 14 }, con: { base: 12 }, int: { base: 10 }, wis: { base: 13 }, cha: { base: 10 } },
     speciesChoice: "wis",
+    progression: [{ class: jediId }],
     defensePoints: { reflex: 2, fortitude: 1, will: 1 },
     skills: { stealth: { trained: true } },
   },
@@ -55,7 +58,7 @@ const target = await Actor.create({
   name: "F1 Target",
   type: "character",
   flags: FLAG,
-  system: { abilities: { dex: { base: 12 } }, defensePoints: { reflex: 1 } },
+  system: { abilities: { dex: { base: 12 } }, defensePoints: { reflex: 1 }, progression: [{ class: jediId }] },
   items: [{ name: "Human", type: "species", system: { size: "medium" } }, classItem],
 });
 check("slice created", jedi && target, { jedi: jedi?.id, target: target?.id });

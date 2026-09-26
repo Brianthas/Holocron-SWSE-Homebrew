@@ -59,6 +59,16 @@ export class DebugSheet extends HandlebarsApplicationMixin(foundry.applications.
     return Object.assign(context, {
       name: actor.name,
       level: system.level,
+      resources: [
+        { key: "hp", label: "Hit points", shown: `${system.hp.value} / ${system.hpMax.total}`, tooltip: breakdownHtml("Hit points", system.hpMax) },
+        { key: "hpState", label: "State", shown: system.hpState, tooltip: "" },
+        { key: "forcePoints", label: "Force Points per day", shown: `${system.forcePointsPerDay.total}`, tooltip: breakdownHtml("Force Points per day", system.forcePointsPerDay) },
+        { key: "destiny", label: "Destiny Points, most", shown: `${system.destinyMax}`, tooltip: "" },
+        { key: "darkSide", label: "Dark Side", shown: `${system.darkSide.value} / ${system.darkSideMax}`, tooltip: "" },
+        { key: "understands", label: "Understands", shown: system.languageTier.understands, tooltip: breakdownHtml("INT for languages", system.languageTier.effectiveInt) },
+        { key: "slots", label: "Light / Kit slots", shown: `${system.slots.light.total} / ${system.slots.kit.total}`, tooltip: breakdownHtml("Kit slots", system.slots.kit) },
+      ],
+      problems: system.problems,
       bab: signed(system.bab),
       size: system.size,
       abilities: ABILITIES.map((a) => ({ label: ABILITY_LABELS[a], value: system.scores[a].value, mod: signed(system.scores[a].mod) })),

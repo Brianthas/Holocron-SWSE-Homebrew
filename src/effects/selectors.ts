@@ -18,6 +18,9 @@ const GRAMMAR: RegExp[] = [
   new RegExp(`^(attack|damage)\\.(all|melee|ranged|unarmed|group\\.(${alternatives(WEAPON_GROUP_KEYS)}))$`),
   /^speed$/,
   /^healing\.received$/,
+  /^forcePoints$/,
+  /^languages\.int$/,
+  /^slots\.(light|kit)$/,
 ];
 
 export const isSelector = (key: string): boolean => GRAMMAR.some((re) => re.test(key));
@@ -26,6 +29,7 @@ export const isSelector = (key: string): boolean => GRAMMAR.some((re) => re.test
  * Grants: facts a document gives a character, as a kind and a value. The kinds are closed; the
  * values are checked where each kind is read (a skill key, a weapon group key).
  */
-export const GRANT_KINDS = ["proficiency.weapon", "proficiency.armor", "skill.trained"] as const;
+/** "flag" values are named where they are read: "extendedCapacity" doubles carrying (episode-vii). */
+export const GRANT_KINDS = ["proficiency.weapon", "proficiency.armor", "skill.trained", "flag"] as const;
 export type GrantKind = (typeof GRANT_KINDS)[number];
 export const isGrantKind = (key: string): key is GrantKind => (GRANT_KINDS as readonly string[]).includes(key);

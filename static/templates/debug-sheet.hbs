@@ -5,6 +5,13 @@
     <p class="debug-note">F1 debug sheet. Hover a number for its parts.</p>
   </header>
 
+  {{#if problems.length}}<ul class="debug-problems">{{#each problems}}<li>{{this}}</li>{{/each}}</ul>{{/if}}
+
+  <h3>Resources</h3>
+  <table class="debug-table">
+    {{#each resources}}<tr data-resource="{{key}}"><td>{{label}}</td><td class="total" {{#if tooltip}}data-tooltip-html="{{tooltip}}"{{/if}}>{{shown}}</td></tr>{{/each}}
+  </table>
+
   <h3>Abilities</h3>
   <table class="debug-table">
     {{#each abilities}}<tr><td>{{label}}</td><td>{{value}}</td><td>{{mod}}</td></tr>{{/each}}

@@ -41,8 +41,7 @@ export class SpeciesModel extends foundry.abstract.TypeDataModel<ReturnType<type
 function classSchema() {
   return {
     description: new fields.HTMLField(),
-    /** Levels taken in this class. */
-    levels: int(1, 1),
+    // Levels taken are not stored here: the character's progression lists each level's class.
     category: new fields.StringField({ required: true, blank: false, initial: "base", choices: ["base", "prestige", "nonheroic", "beast"] }),
     /** Counts toward heroic level: base and prestige classes, including Agent, Engineer and Operative (episode-vii). */
     heroic: new fields.BooleanField({ initial: true }),

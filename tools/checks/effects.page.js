@@ -1,4 +1,4 @@
-/* global game, Actor, console */
+/* global game, foundry, Actor, console */
 // F2 effect-breadth check, evaluated inside the running client by tools/checks/run.ts. It builds one
 // character whose effects exercise each change type and field, then reads the results off the
 // rendered sheet. Expected values are worked out below from the character, not read from the code:
@@ -18,6 +18,7 @@ const old = game.actors.filter((a) => a.getFlag("holocron", "effectsFixture")).m
 if (old.length) await Actor.deleteDocuments(old.map((a) => a.id));
 check("previous fixtures deleted", old.every((a) => !game.actors.get(a.id)), { deleted: old });
 
+const jediId = foundry.utils.randomID();
 const effect = (name, changes) => ({ name, type: "feat", effects: [{ name, transfer: true, system: { changes } }] });
 const bonus = (key, value, extra = {}) => ({ key, type: "bonus", value, phase: "derived", ...extra });
 
@@ -32,10 +33,10 @@ try {
     name: "Effects Probe",
     type: "character",
     flags: { holocron: { effectsFixture: true } },
-    system: { abilities: { dex: { base: 14 } } },
+    system: { abilities: { dex: { base: 14 } }, progression: [{ class: jediId }] },
     items: [
       { name: "Human", type: "species", system: { size: "medium" } },
-      { name: "Jedi", type: "class", system: { levels: 1, heroic: true, hitDie: 10 } },
+      { _id: jediId, name: "Jedi", type: "class", system: { heroic: true, hitDie: 10, hpFirstLevel: 30 } },
       { name: "Blaster Pistol", type: "weapon", system: { category: "ranged", group: "pistols", damage: "3d6", damageTypes: ["Energy"] } },
       effect("Probe Morale 1", [bonus("defense.will", 1, { bonusType: "morale" })]),
       effect("Probe Morale 2", [bonus("defense.will", 2, { bonusType: "morale" })]),
