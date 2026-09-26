@@ -2,3 +2,4 @@ node_modules/
 dist/
 types/foundry/
 *.log
+tools/convert/out/
