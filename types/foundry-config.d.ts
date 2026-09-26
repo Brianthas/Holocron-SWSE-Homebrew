@@ -5,6 +5,7 @@
 
 import type { CharacterModel } from "../src/data/actor/character.ts";
 import type { ClassModel, FeatModel, SpeciesModel, WeaponModel } from "../src/data/item/models.ts";
+import type { HolocronEffectModel } from "../src/effects/model.ts";
 
 declare module "fvtt-types/configuration" {
   interface AssumeHookRan {
@@ -21,6 +22,9 @@ declare module "fvtt-types/configuration" {
       feat: typeof FeatModel;
       weapon: typeof WeaponModel;
     };
+    ActiveEffect: {
+      base: typeof HolocronEffectModel;
+    };
   }
 
   interface SettingConfig {
@@ -33,6 +37,8 @@ declare global {
     namespace ActiveEffect {
       interface ChangeTypes {
         bonus: foundry.documents.ActiveEffect.ChangeTypeConfig;
+        grant: foundry.documents.ActiveEffect.ChangeTypeConfig;
+        dice: foundry.documents.ActiveEffect.ChangeTypeConfig;
       }
       interface Phases {
         derived: foundry.documents.ActiveEffect.ChangePhaseConfig;

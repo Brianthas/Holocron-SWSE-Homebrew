@@ -16,3 +16,11 @@
   DEX + half heroic level) posted to chat.
 - A throwaway debug sheet showing each total with its breakdown as a tooltip, until the signed-off
   sheet is built.
+- Effects: changes carry a bonus type and a condition. A conditional bonus is listed with its total
+  and never added to it. "grant" changes give weapon or armor proficiency or a trained skill;
+  "dice" changes add damage dice of the weapon's size. A bonus key must be one of a closed set of
+  selectors (defense, skill, attack and damage by category or weapon group, and a few more); a key
+  outside it is reported in the console and ignored.
+- Melee attacks use STR until the per-weapon ability choice exists; ranged attacks use DEX.
+- Weapon groups follow the house weapon tables: Simple, Advanced Melee, Lightsabers, Pistols,
+  Rifles and Heavy Weapons. The Bow and the Grenade are Simple.

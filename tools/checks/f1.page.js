@@ -1,5 +1,5 @@
 /* global game, canvas, Actor, Scene, Hooks */
-// F1 acceptance, evaluated inside the running client by tools/f1/accept.ts. It builds the slice (a
+// F1 acceptance, evaluated inside the running client by tools/checks/run.ts. It builds the slice (a
 // Human Jedi 1 and a target), then reads every result off what the user sees: the rendered sheet,
 // the rendered chat card, the roll. Each check reports pass or fail.
 //
@@ -48,7 +48,7 @@ const jedi = await Actor.create({
     { name: "Human", type: "species", system: { size: "medium" } },
     classItem,
     improvedDefenses,
-    { name: "Blaster Pistol", type: "weapon", system: { category: "ranged", group: "Pistols", damage: "3d6", damageTypes: ["Energy", "Stun"] } },
+    { name: "Blaster Pistol", type: "weapon", system: { category: "ranged", group: "pistols", damage: "3d6", damageTypes: ["Energy", "Stun"] } },
   ],
 });
 const target = await Actor.create({

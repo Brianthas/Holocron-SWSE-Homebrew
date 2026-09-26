@@ -1,10 +1,9 @@
 import { ABILITIES, ABILITY_LABELS } from "../config/abilities.ts";
 import { SKILLS, SKILL_KEYS } from "../config/skills.ts";
-import type { CharacterModel } from "../data/actor/character.ts";
+import type { CharacterModel, WeaponData } from "../data/actor/character.ts";
 import { rollAttack, rollDamage } from "../dice/attack.ts";
-import { rangedAttack, rangedDamage } from "../rules/attacks.ts";
 import { DEFENSES, DEFENSE_LABELS } from "../rules/defenses.ts";
-import type { Breakdown } from "../rules/modifiers.ts";
+import type { Breakdown, Modifier } from "../rules/modifiers.ts";
 
 /**
  * F1's throwaway character sheet: enough to show the derived numbers with their breakdowns and to
@@ -14,11 +13,16 @@ import type { Breakdown } from "../rules/modifiers.ts";
 const signed = (n: number) => (n < 0 ? `${n}` : `+${n}`);
 const escape = (s: string) => foundry.utils.escapeHTML(s);
 
-/** A breakdown as tooltip HTML: each counted term, then any typed bonus that did not stack. */
+/**
+ * A breakdown as tooltip HTML: each counted term, then any typed bonus that did not stack, then the
+ * conditional bonuses, which are not in the total.
+ */
 export function breakdownHtml(title: string, b: Breakdown): string {
-  const rows = b.applied.map((m) => `<tr><td>${escape(m.label)}</td><td>${signed(m.value)}</td></tr>`).join("");
-  const unused = b.suppressed.map((m) => `<tr class="suppressed"><td>${escape(m.label)} (does not stack)</td><td>${signed(m.value)}</td></tr>`).join("");
-  return `<div class="holocron-breakdown"><strong>${escape(title)} ${b.total}</strong><table>${rows}${unused}</table></div>`;
+  const typed = (m: Modifier) => (m.type ? ` (${escape(m.type)})` : "");
+  const rows = b.applied.map((m) => `<tr><td>${escape(m.label)}${typed(m)}</td><td>${signed(m.value)}</td></tr>`).join("");
+  const unused = b.suppressed.map((m) => `<tr class="suppressed"><td>${escape(m.label)}${typed(m)}: does not stack</td><td>${signed(m.value)}</td></tr>`).join("");
+  const when = b.situational.map((m) => `<tr class="situational"><td>${escape(m.label)}: ${escape(m.condition ?? "")}</td><td>${signed(m.value)}</td></tr>`).join("");
+  return `<div class="holocron-breakdown"><strong>${escape(title)} ${b.total}</strong><table>${rows}${unused}${when}</table></div>`;
 }
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
@@ -42,14 +46,14 @@ export class DebugSheet extends HandlebarsApplicationMixin(foundry.applications.
     const actor = this.actor as Actor.Implementation;
     const system = actor.system as CharacterModel;
     const weapons = actor.items.filter((i) => i.type === "weapon").map((w) => {
-      const attack = rangedAttack({ bab: system.bab, dexMod: system.scores.dex.mod });
-      const { damage } = w.system as { damage: string };
+      const data = w.system as WeaponData;
+      const attack = system.attackFor(data);
       return {
         id: w.id,
         name: w.name,
         attack: signed(attack.total),
         attackTooltip: breakdownHtml("Attack", attack),
-        damage: rangedDamage({ dice: damage, dexMod: system.scores.dex.mod, heroicLevel: system.heroicLevel }).formula,
+        damage: system.damageFor(data).formula,
       };
     });
     return Object.assign(context, {
@@ -67,7 +71,7 @@ export class DebugSheet extends HandlebarsApplicationMixin(foundry.applications.
       skills: SKILL_KEYS.map((k) => ({
         key: k,
         label: SKILLS[k].label,
-        trained: system.skills[k].trained,
+        trained: system.isTrained(k),
         total: signed(system.skillTotals[k].total),
         tooltip: breakdownHtml(SKILLS[k].label, system.skillTotals[k]),
       })),

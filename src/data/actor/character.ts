@@ -3,8 +3,13 @@ import { SKILLS, SKILL_KEYS, type SkillKey } from "../../config/skills.ts";
 import { REFLEX_SIZE_MODIFIER, SIZES, type SizeKey } from "../../config/sizes.ts";
 import { abilityMod, abilityScore } from "../../rules/abilities.ts";
 import { DEFENSES, defense, type DefenseKey } from "../../rules/defenses.ts";
+import type { EffectTargets } from "../../effects/changes.ts";
 import type { Breakdown, Modifier } from "../../rules/modifiers.ts";
 import { skill } from "../../rules/skills.ts";
+import { weaponAttack, weaponDamage } from "../../rules/attacks.ts";
+
+/** The weapon fields an attack reads. */
+export interface WeaponData { category: string; group: string; damage: string }
 
 const fields = foundry.data.fields;
 const int = (initial: number, min?: number) =>
@@ -42,13 +47,54 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
   declare heroicLevel: number;
   declare bab: number;
   declare scores: Record<AbilityKey, { value: number; mod: number }>;
-  /** Labelled bonuses from Active Effects, by selector ("defense.reflex"); filled by the bonus change type. */
-  declare modifiers: Record<string, Modifier[]>;
+  /** What Active Effects add, by selector or kind; filled by the change types in src/effects/changes.ts. */
+  declare modifiers: EffectTargets["modifiers"];
+  declare grants: EffectTargets["grants"];
+  declare dice: EffectTargets["dice"];
   declare defenses: Record<DefenseKey, Breakdown>;
   declare skillTotals: Record<SkillKey, Breakdown>;
 
   override prepareBaseData(): void {
     this.modifiers = {};
+    this.grants = {};
+    this.dice = {};
+  }
+
+  /** Whether a skill is trained: marked on the sheet, or granted by an effect (a species trait, a feat). */
+  isTrained(key: SkillKey): boolean {
+    return this.skills[key].trained || (this.grants["skill.trained"] ?? []).some((g) => g.value === key);
+  }
+
+  /** The bonuses an attack or damage roll with this weapon collects: all, melee or ranged, its group. */
+  weaponModifiers(roll: "attack" | "damage", weapon: { category: string; group: string }): Modifier[] {
+    return [`${roll}.all`, `${roll}.${weapon.category}`, ...(weapon.group ? [`${roll}.group.${weapon.group}`] : [])]
+      .flatMap((selector) => this.modifiers[selector] ?? []);
+  }
+
+  /** Extra damage dice of the weapon's size, from damage.* dice changes. */
+  weaponExtraDice(weapon: { category: string; group: string }): number {
+    return ["damage.all", `damage.${weapon.category}`, ...(weapon.group ? [`damage.group.${weapon.group}`] : [])]
+      .flatMap((selector) => this.dice[selector] ?? []).reduce((n, d) => n + d.value, 0);
+  }
+
+  /** Ranged weapons use DEX; melee weapons STR until the per-weapon ability choice exists (src/rules/attacks.ts). */
+  private weaponAbility(weapon: WeaponData) {
+    const a: AbilityKey = weapon.category === "ranged" ? "dex" : "str";
+    return { label: ABILITY_LABELS[a], mod: this.scores[a].mod };
+  }
+
+  attackFor(weapon: WeaponData): Breakdown {
+    return weaponAttack({ bab: this.bab, ability: this.weaponAbility(weapon), bonuses: this.weaponModifiers("attack", weapon) });
+  }
+
+  damageFor(weapon: WeaponData): { flat: Breakdown; formula: string } {
+    return weaponDamage({
+      dice: weapon.damage,
+      ability: this.weaponAbility(weapon),
+      heroicLevel: this.heroicLevel,
+      bonuses: this.weaponModifiers("damage", weapon),
+      extraDice: this.weaponExtraDice(weapon),
+    });
   }
 
   override prepareDerivedData(): void {
@@ -95,9 +141,9 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
       const a = SKILLS[key].ability;
       return [key, skill({
         level: this.level,
-        trained: this.skills[key].trained,
+        trained: this.isTrained(key),
         ability: { label: ABILITY_LABELS[a], mod: this.scores[a].mod },
-        bonuses: this.modifiers[`skill.${key}`] ?? [],
+        bonuses: [...(this.modifiers["skill.all"] ?? []), ...(this.modifiers[`skill.${key}`] ?? [])],
       })];
     })) as Record<SkillKey, Breakdown>;
   }

@@ -1,7 +1,8 @@
 import "./styles/holocron.scss";
 import { CharacterModel } from "./data/actor/character.ts";
 import { ClassModel, FeatModel, SpeciesModel, WeaponModel } from "./data/item/models.ts";
-import { registerEffects } from "./effects/bonus.ts";
+import { registerChanges } from "./effects/changes.ts";
+import { HolocronEffectModel } from "./effects/model.ts";
 import { registerMigrations } from "./migrations.ts";
 import { DebugSheet } from "./sheets/debug-sheet.ts";
 
@@ -27,7 +28,10 @@ Hooks.once("init", () => {
     Object.assign(CONFIG.Actor.dataModels, { character: CharacterModel });
     Object.assign(CONFIG.Item.dataModels, { species: SpeciesModel, class: ClassModel, feat: FeatModel, weapon: WeaponModel });
   });
-  register("effects", registerEffects);
+  register("effects", () => {
+    Object.assign(CONFIG.ActiveEffect.dataModels, { base: HolocronEffectModel });
+    registerChanges();
+  });
   register("sheets", () => {
     foundry.applications.apps.DocumentSheetConfig.registerSheet(Actor, "holocron", DebugSheet as never, {
       types: ["character"],

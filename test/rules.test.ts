@@ -1,6 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { abilityMod, abilityScore } from "../src/rules/abilities.ts";
-import { rangedAttack, rangedDamage } from "../src/rules/attacks.ts";
+import { weaponAttack, weaponDamage } from "../src/rules/attacks.ts";
+
+const DEX = (mod: number) => ({ label: "DEX", mod });
+const rangedAttack = ({ bab, dexMod }: { bab: number; dexMod: number }) => weaponAttack({ bab, ability: DEX(dexMod) });
+const rangedDamage = ({ dice, dexMod, heroicLevel }: { dice: string; dexMod: number; heroicLevel: number }) =>
+  weaponDamage({ dice, ability: DEX(dexMod), heroicLevel });
 import { defense } from "../src/rules/defenses.ts";
 import { total, untyped, type Modifier } from "../src/rules/modifiers.ts";
 import { skill } from "../src/rules/skills.ts";

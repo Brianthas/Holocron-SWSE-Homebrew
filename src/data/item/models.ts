@@ -1,4 +1,5 @@
 import { SIZES } from "../../config/sizes.ts";
+import { WEAPON_GROUP_KEYS } from "../../config/weapons.ts";
 
 // Item models for the F1 slice: the fields the character's derivation reads. F2 widens them.
 
@@ -45,8 +46,8 @@ function weaponSchema() {
   return {
     description: new fields.HTMLField(),
     category: new fields.StringField({ required: true, blank: false, initial: "ranged", choices: ["melee", "ranged"] }),
-    /** Weapon group, as the house weapon tables name it: "Pistols", "Rifles", "Lightsabers". */
-    group: new fields.StringField({ required: true, blank: true, initial: "" }),
+    /** Weapon group (src/config/weapons.ts), as the house weapon tables divide them. */
+    group: new fields.StringField({ required: true, blank: true, initial: "", choices: [...WEAPON_GROUP_KEYS] }),
     /** Damage dice, e.g. "3d6". */
     damage: new fields.StringField({ required: true, blank: false, initial: "1d6" }),
     damageTypes: new fields.ArrayField(new fields.StringField({ required: true, blank: false })),

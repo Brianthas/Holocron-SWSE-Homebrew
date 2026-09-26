@@ -1,5 +1,4 @@
-import type { CharacterModel } from "../data/actor/character.ts";
-import { rangedAttack, rangedDamage } from "../rules/attacks.ts";
+import type { CharacterModel, WeaponData } from "../data/actor/character.ts";
 import type { Breakdown } from "../rules/modifiers.ts";
 
 /** What an attack card records, so later cards and tests read results instead of re-deriving them. */
@@ -18,13 +17,13 @@ const labelledFormula = (die: string, parts: Breakdown) =>
   [die, ...parts.applied.filter((m) => m.value !== 0).map((m) => `${m.value < 0 ? "-" : "+"} ${Math.abs(m.value)}[${m.label}]`)].join(" ");
 
 /**
- * Rolls a ranged weapon attack against each targeted token's Reflex Defense. The attack hits when
- * the result equals or beats the defense; a natural 20 always hits and a natural 1 always misses
- * (core rulebook p144-145; rulings.md, Combat).
+ * Rolls a weapon attack against each targeted token's Reflex Defense. The attack hits when the
+ * result equals or beats the defense; a natural 20 always hits and a natural 1 always misses (core
+ * rulebook p144-145; rulings.md, Combat).
  */
 export async function rollAttack(actor: Actor.Implementation, weapon: Item.Implementation): Promise<void> {
   const system = actor.system as CharacterModel;
-  const parts = rangedAttack({ bab: system.bab, dexMod: system.scores.dex.mod });
+  const parts = system.attackFor(weapon.system as WeaponData);
   const roll = await new Roll(labelledFormula("1d20", parts)).evaluate();
   const natural = roll.dice[0]?.total ?? 0;
   const total = roll.total ?? 0;
@@ -48,15 +47,14 @@ export async function rollAttack(actor: Actor.Implementation, weapon: Item.Imple
   } as never);
 }
 
-/** Rolls a ranged weapon's damage: weapon dice + DEX modifier + half heroic level. */
+/** Rolls a weapon's damage: weapon dice + the damage ability + half heroic level + bonuses. */
 export async function rollDamage(actor: Actor.Implementation, weapon: Item.Implementation): Promise<void> {
   const system = actor.system as CharacterModel;
-  const { damage, damageTypes } = weapon.system as { damage: string; damageTypes: string[] };
-  const { formula } = rangedDamage({ dice: damage, dexMod: system.scores.dex.mod, heroicLevel: system.heroicLevel });
-  const roll = await new Roll(formula).evaluate();
+  const data = weapon.system as WeaponData & { damageTypes: string[] };
+  const roll = await new Roll(system.damageFor(data).formula).evaluate();
   await ChatMessage.create({
     speaker: ChatMessage.getSpeaker({ actor: actor as Actor.Stored }),
     rolls: [roll],
-    flavor: `${escape(weapon.name)}: damage${damageTypes.length ? ` (${escape(damageTypes[0] ?? "")})` : ""}`,
+    flavor: `${escape(weapon.name)}: damage${data.damageTypes.length ? ` (${escape(data.damageTypes[0] ?? "")})` : ""}`,
   } as never);
 }
