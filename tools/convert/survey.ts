@@ -1,11 +1,13 @@
 // Surveys the SWSE fork's pack sources before the converter maps them: for each pack, the document
 // types, every system field with how many documents fill it, every change key with its modes and
 // example values, prerequisite node types, and embedded effects. Writes the full report to
-// tools/convert/out/survey.json and prints a summary. Set FORK_PACKS to the fork's packs/_source.
+// tools/convert/out/survey.json and prints a summary. Reads the fork checked out beside this repo, or
+// FORK_PACKS if set to the fork's packs/_source.
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const ROOT = process.env["FORK_PACKS"] ?? "C:/Users/bryan/Documents/Code Repos/SWSE-Homebrew-Edition/packs/_source";
+const ROOT = process.env["FORK_PACKS"] ?? fileURLToPath(new URL("../../../SWSE-Homebrew-Edition/packs/_source", import.meta.url));
 const PACKS = ["species", "classes", "feats", "talents", "force-powers", "force-techniques", "force-secrets", "force-regimens",
   "weapon", "armor", "equipment", "droid-system", "traits"];
 
