@@ -41,11 +41,13 @@ class ProbeModel extends foundry.abstract.TypeDataModel<ReturnType<typeof define
 void ProbeModel;
 
 // 4. ApplicationV2 actor sheet. fvtt-types 14.366 beta reports TS2321 (excessive stack depth) on
-// any subclass of HandlebarsApplicationMixin(ActorSheetV2), even an empty one; the ItemSheetV2 and
-// ApplicationV2 forms compile. The suppression is confined to the class line: members stay typed,
-// which the two inner checks prove.
+// a subclass of HandlebarsApplicationMixin(ActorSheetV2), even an empty one; the ItemSheetV2 and
+// ApplicationV2 forms compile. The checker reports it once per compile, on the first such class it
+// meets, and src/ is checked before types/: so the suppression sits on src/sheets/debug-sheet.ts
+// and this class compiles clean behind it. When fvtt-types fixes the defect, that suppression goes
+// unused and typecheck fails there. If src/ ever has no actor sheet, move the suppression back here.
+// Members stay typed either way, which the two inner checks prove.
 const { HandlebarsApplicationMixin } = foundry.applications.api;
-// @ts-expect-error fvtt-types beta: TS2321 on HandlebarsApplicationMixin(ActorSheetV2)
 class ProbeActorSheet extends HandlebarsApplicationMixin(foundry.applications.sheets.ActorSheetV2) {
   static override PARTS: Record<string, foundry.applications.api.HandlebarsApplicationMixin.HandlebarsTemplatePart> = {
     body: { template: "systems/holocron/templates/probe.hbs" },

@@ -30,3 +30,60 @@
   --hc-muted: #98a0b5;
   --hc-border: #2b3142;
 }
+
+// F1 debug sheet. Foundry's .window-content does not scroll, so the body is the bounded scroller.
+.holocron.debug-sheet {
+  .window-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .debug-body {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 8px 12px;
+  }
+
+  .debug-note {
+    color: var(--hc-muted);
+    font-size: 12px;
+  }
+
+  .debug-table {
+    width: 100%;
+
+    .total {
+      font-weight: 700;
+      text-align: right;
+      cursor: help;
+    }
+  }
+
+  .debug-weapon {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    span {
+      flex: 1;
+    }
+  }
+}
+
+.holocron-breakdown {
+  table {
+    margin-top: 4px;
+  }
+
+  td + td {
+    text-align: right;
+    padding-left: 12px;
+  }
+
+  .suppressed {
+    opacity: 0.6;
+    text-decoration: line-through;
+  }
+}

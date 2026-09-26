@@ -15,6 +15,7 @@
     "test": "vitest run",
     "link": "node tools/link.ts",
     "verify:live": "node tools/verify-live.ts",
+    "verify:f1": "node tools/f1/accept.ts",
     "rules:snapshot": "node tools/snapshot-rules.ts"
   },
   "devDependencies": {

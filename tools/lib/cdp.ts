@@ -28,14 +28,14 @@ export async function findGameTarget(): Promise<CdpTarget> {
   return game;
 }
 
-export async function evaluate(expression: string): Promise<unknown> {
+export async function evaluate(expression: string, timeoutMs = TIMEOUT_MS): Promise<unknown> {
   const target = await findGameTarget();
   const socket = new WebSocket(target.webSocketDebuggerUrl as string);
   return new Promise((resolvePromise, rejectPromise) => {
     const timer = setTimeout(() => {
       socket.close();
-      rejectPromise(new Error(`CDP evaluate timed out after ${TIMEOUT_MS}ms`));
-    }, TIMEOUT_MS);
+      rejectPromise(new Error(`CDP evaluate timed out after ${timeoutMs}ms; the page may still be running it`));
+    }, timeoutMs);
     socket.addEventListener("open", () => {
       socket.send(JSON.stringify({
         id: 1,

@@ -1,0 +1,34 @@
+<section class="debug-body">
+  <header class="debug-head">
+    <h2>{{name}}</h2>
+    <p>Level {{level}} · BAB {{bab}} · {{size}}</p>
+    <p class="debug-note">F1 debug sheet. Hover a number for its parts.</p>
+  </header>
+
+  <h3>Abilities</h3>
+  <table class="debug-table">
+    {{#each abilities}}<tr><td>{{label}}</td><td>{{value}}</td><td>{{mod}}</td></tr>{{/each}}
+  </table>
+
+  <h3>Defenses</h3>
+  <table class="debug-table">
+    {{#each defenses}}<tr data-defense="{{key}}"><td>{{label}}</td><td class="total" data-tooltip-html="{{tooltip}}">{{total}}</td></tr>{{/each}}
+  </table>
+
+  <h3>Weapons</h3>
+  {{#each weapons}}
+  <div class="debug-weapon" data-item-id="{{id}}">
+    <span>{{name}}</span>
+    <button type="button" data-action="attack" data-item-id="{{id}}" data-tooltip-html="{{attackTooltip}}">Attack {{attack}}</button>
+    <button type="button" data-action="damage" data-item-id="{{id}}">Damage {{damage}}</button>
+  </div>
+  {{else}}<p>No weapons.</p>{{/each}}
+
+  <h3>Feats</h3>
+  <ul class="debug-feats">{{#each feats}}<li data-item-id="{{id}}">{{name}}</li>{{else}}<li>None.</li>{{/each}}</ul>
+
+  <h3>Skills</h3>
+  <table class="debug-table">
+    {{#each skills}}<tr data-skill="{{key}}"><td>{{#if trained}}&#9679;{{else}}&#9675;{{/if}} {{label}}</td><td class="total" data-tooltip-html="{{tooltip}}">{{total}}</td></tr>{{/each}}
+  </table>
+</section>

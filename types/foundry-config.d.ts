@@ -3,9 +3,24 @@
 // here is a compile error, which is the point: a misspelled setting or phase fails the build
 // instead of failing silently at the table.
 
+import type { CharacterModel } from "../src/data/actor/character.ts";
+import type { ClassModel, FeatModel, SpeciesModel, WeaponModel } from "../src/data/item/models.ts";
+
 declare module "fvtt-types/configuration" {
   interface AssumeHookRan {
     ready: never;
+  }
+
+  interface DataModelConfig {
+    Actor: {
+      character: typeof CharacterModel;
+    };
+    Item: {
+      species: typeof SpeciesModel;
+      class: typeof ClassModel;
+      feat: typeof FeatModel;
+      weapon: typeof WeaponModel;
+    };
   }
 
   interface SettingConfig {

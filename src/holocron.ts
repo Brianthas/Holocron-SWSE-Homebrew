@@ -1,13 +1,40 @@
 import "./styles/holocron.scss";
+import { CharacterModel } from "./data/actor/character.ts";
+import { ClassModel, FeatModel, SpeciesModel, WeaponModel } from "./data/item/models.ts";
+import { registerEffects } from "./effects/bonus.ts";
 import { registerMigrations } from "./migrations.ts";
+import { DebugSheet } from "./sheets/debug-sheet.ts";
 
 /** System-wide configuration, read by tools/verify-live.ts to confirm which build the client loaded. */
 export const HOLOCRON = {
   buildId: __HOLOCRON_BUILD__,
 };
 
+// Each registration reports its own failure, so one throwing step cannot silently take the rest
+// down with it (standing rule 4).
+function register(label: string, step: () => void): void {
+  try {
+    step();
+  } catch (error) {
+    console.error(`holocron | init: ${label} failed`, error);
+    ui.notifications?.error(`Holocron: ${label} failed at init; see the console.`);
+  }
+}
+
 Hooks.once("init", () => {
   (CONFIG as unknown as Record<string, unknown>)["HOLOCRON"] = HOLOCRON;
-  registerMigrations();
+  register("data models", () => {
+    Object.assign(CONFIG.Actor.dataModels, { character: CharacterModel });
+    Object.assign(CONFIG.Item.dataModels, { species: SpeciesModel, class: ClassModel, feat: FeatModel, weapon: WeaponModel });
+  });
+  register("effects", registerEffects);
+  register("sheets", () => {
+    foundry.applications.apps.DocumentSheetConfig.registerSheet(Actor, "holocron", DebugSheet as never, {
+      types: ["character"],
+      makeDefault: true,
+      label: "Holocron debug sheet (F1)",
+    });
+  });
+  register("migrations", registerMigrations);
   console.log(`holocron | init, build ${HOLOCRON.buildId}`);
 });
