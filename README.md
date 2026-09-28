@@ -17,6 +17,7 @@ npm run verify:effects  # effect change types, read off the rendered sheet
 npm run verify:models   # every item type embeds; armor and DT+5 on the sheet
 npm run verify:resources # levels, hit points, Force Points, languages, slots
 npm run verify:rest     # the sheet's Rest and the GM's New Day
+npm run verify:expiry   # effects lasting 1 and 2 rounds end on the right round
 ```
 
 `npm run typecheck`, `npm run lint` and `npm test` run in CI on every push.
