@@ -28,6 +28,10 @@ export async function longRest(actor: Actor.Implementation, { chat = true }: { c
     changed.push(`Force powers ready: ${powers.map(({ item }) => item.name).join(", ")}`);
   }
 
+  // Effects that last until a rest end now. Core expires effects only on the active GM's client
+  // (ActiveEffectRegistry#refresh); a player's Rest reaches the GM through its chat message instead.
+  if (game.users.activeGM?.isSelf) await expireRestEffects(actor);
+
   if (chat) {
     const escape = (text: string) => foundry.utils.escapeHTML(text);
     await ChatMessage.create({
@@ -38,6 +42,26 @@ export async function longRest(actor: Actor.Implementation, { chat = true }: { c
     } as never);
   }
   return changed;
+}
+
+/** The "rest" expiry event: an effect with a duration ending on a long rest. */
+export function registerRestExpiry(): void {
+  CONFIG.ActiveEffect.expiryEvents["rest"] = "Long rest";
+}
+
+function expireRestEffects(actor: Actor.Implementation): Promise<void> {
+  return foundry.documents.ActiveEffect.registry.refresh("rest", { actors: new Set([actor]) });
+}
+
+/**
+ * On the active GM's client, a long rest posted by someone else ends that character's rest effects.
+ * The GM's own Rest and New Day expire them directly in longRest.
+ */
+export function onRestMessage(message: ChatMessage.Implementation): void {
+  if (!game.users.activeGM?.isSelf || message.author?.isSelf) return;
+  if (message.getFlag("holocron", "rest") === undefined) return;
+  const actor = ChatMessage.getSpeakerActor(message.speaker);
+  if (actor) void expireRestEffects(actor);
 }
 
 /** New Day: a long rest for every character a player owns, posted as one summary. GM only. */

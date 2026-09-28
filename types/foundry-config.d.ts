@@ -1,9 +1,11 @@
-// Declaration merging for fvtt-types: registers Holocron's settings, Active Effect change types and
-// phases, and states that system code runs after the ready hook. A key used in code but missing
+// Declaration merging for fvtt-types: registers Holocron's settings, Active Effect change types,
+// phases and expiry events, and chat message flags, and states that system code runs after the ready
+// hook. A key used in code but missing
 // here is a compile error, which is the point: a misspelled setting or phase fails the build
 // instead of failing silently at the table.
 
 import type { CharacterModel } from "../src/data/actor/character.ts";
+import type { AttackFlag } from "../src/dice/attack.ts";
 import type {
   ArmorModel, ClassModel, EquipmentModel, FeatModel, FeatureModel, ForcePowerModel, SpeciesModel, TalentModel, WeaponModel,
 } from "../src/data/item/models.ts";
@@ -37,6 +39,18 @@ declare module "fvtt-types/configuration" {
   interface SettingConfig {
     "holocron.migrationVersion": number;
   }
+
+  interface FlagConfig {
+    ChatMessage: {
+      holocron: {
+        attack?: AttackFlag;
+        /** A long rest's changes, one line each (src/rest.ts). */
+        rest?: string[];
+        /** New Day's changes per character name. */
+        newDay?: Record<string, string[]>;
+      };
+    };
+  }
 }
 
 declare global {
@@ -49,6 +63,9 @@ declare global {
       }
       interface Phases {
         derived: foundry.documents.ActiveEffect.ChangePhaseConfig;
+      }
+      interface ExpiryEvents {
+        rest: string;
       }
     }
   }

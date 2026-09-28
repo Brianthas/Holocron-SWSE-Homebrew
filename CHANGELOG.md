@@ -48,3 +48,6 @@
   per-day uses (1 plus `secondWind` bonuses), and every Force power's copies ready. The debug
   sheet's Rest button rests one character and posts what changed; `game.holocron.newDay()` (GM)
   rests every character a player owns and posts one summary.
+- Effects can last until a long rest: a "Long rest" expiry ends an effect applied to a character
+  when that character rests, whether the GM or a player clicked Rest. Expiry happens on the active
+  GM's client, so it needs a GM connected. An item's own effects are never tracked and never expire.

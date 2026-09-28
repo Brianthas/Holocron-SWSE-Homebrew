@@ -1,4 +1,4 @@
-/* global game, foundry, Actor, User, Hooks */
+/* global game, foundry, Actor, User, Hooks, CONFIG, ChatMessage, setTimeout */
 // F2 rest check, evaluated inside the running client by tools/checks/run.ts (rulings.md, Rest).
 //
 //   Rest Probe: Jedi 1 (level-1 HP 30), CON 12 (+1): HP max 31. Force Sensitivity: 2 Force Points per
@@ -6,8 +6,13 @@
 //   Move Object 0 of 2 ready, Surge 1 of 1 ready. The sheet's Rest must restore 31, 2, 2 and Move
 //   Object 2 of 2, and list Surge nowhere. A second Rest has nothing to restore.
 //
+//   Rest effects: "Until Rest" (Will +2, applied to the character, expiry "rest") must end on Rest;
+//   "Standing" (Fortitude +1, no duration) and "Rest Talent" (Reflex +1, a feat's own effect with a
+//   rest expiry) must not. Read off the sheet's Defenses.
+//
 //   New Day: a player owns Party Probe; nobody owns Loner Probe. Both start at 1 HP of 31. New Day must
-//   restore Party Probe and leave Loner Probe at 1.
+//   restore Party Probe and leave Loner Probe at 1. Then a Rest message authored by the player must
+//   end Party Probe's rest effect through this (GM) client.
 //
 // Refuses any world but holocron-testing. Its documents carry flags.holocron.restFixture, including one
 // player user, "Rest Check Player", which New Day needs to find an owned character.
@@ -47,11 +52,26 @@ const probe = await character("Rest Probe", { hp: { value: 5 }, forcePoints: { v
   feat("Extra Second Wind", [bonus("secondWind", 1)]),
   { name: "Move Object", type: "forcePower", system: { copies: 2, ready: 0 } },
   { name: "Surge", type: "forcePower", system: { copies: 1, ready: 1 } },
+  // A talent's own effect with a rest expiry: item effects get no start, so core never tracks them.
+  { name: "Rest Talent", type: "feat", effects: [{ name: "Rest Talent", transfer: true, duration: { expiry: "rest" },
+    system: { changes: [bonus("defense.reflex", 1)] } }] },
 ]);
+// Effects applied to the character after it exists, as at the table, so core stamps their start.
+const [untilRest, standing] = await probe.createEmbeddedDocuments("ActiveEffect", [
+  { name: "Until Rest", duration: { expiry: "rest" }, system: { changes: [bonus("defense.will", 2)] } },
+  { name: "Standing", system: { changes: [bonus("defense.fortitude", 1)] } },
+]);
+const registry = foundry.documents.ActiveEffect.registry;
+check("the rest expiry event is registered and offered", CONFIG.ActiveEffect.expiryEvents.rest === "Long rest"
+  && foundry.documents.ActiveEffect.EXPIRY_EVENTS.some((e) => e.value === "rest"), {});
+check("the rest effect is tracked, the others are not", registry.has(untilRest) && !registry.has(standing)
+  && !probe.items.getName("Rest Talent").effects.some((e) => registry.has(e)), { start: untilRest.start });
 const sheet = probe.sheet;
 await sheet.render({ force: true });
 const shown = (key) => sheet.element.querySelector(`[data-resource="${key}"] .total`)?.textContent.trim();
+const defense = (key) => Number(sheet.element.querySelector(`[data-defense="${key}"] .total`)?.textContent);
 const before = { hp: shown("hp"), fp: shown("forcePointsLeft"), sw: shown("secondWind") };
+const defensesBefore = { will: defense("will"), fortitude: defense("fortitude"), reflex: defense("reflex") };
 
 const restMessage = () => new Promise((resolve) => Hooks.once("createChatMessage", resolve));
 let posted = restMessage();
@@ -61,6 +81,11 @@ await sheet.render({ force: true });
 const after = { hp: shown("hp"), fp: shown("forcePointsLeft"), sw: shown("secondWind") };
 check("the sheet's Rest heals to full and restores Force Points and Second Wind", before.hp === "5 / 31" && after.hp === "31 / 31"
   && after.fp === "2 / 2" && after.sw === "2 / 2", { before, after });
+const defensesAfter = { will: defense("will"), fortitude: defense("fortitude"), reflex: defense("reflex") };
+check("Rest ends the rest effect (Will -2 on the sheet) and leaves the others", probe.effects.get(untilRest.id)._source.duration.expired === true
+  && !probe.effects.get(standing.id)._source.duration.expired
+  && defensesAfter.will === defensesBefore.will - 2 && defensesAfter.fortitude === defensesBefore.fortitude
+  && defensesAfter.reflex === defensesBefore.reflex, { defensesBefore, defensesAfter });
 check("every Force power is ready again, and only the spent one is listed", probe.items.getName("Move Object").system.ready === 2
   && first.getFlag("holocron", "rest").some((c) => c.includes("Move Object")) && !first.getFlag("holocron", "rest").some((c) => c.includes("Surge")), {
   changed: first.getFlag("holocron", "rest"),
@@ -83,6 +108,19 @@ check("New Day rests the player's character and not the unowned one", party.syst
   && Object.keys(summary).includes("Party Probe") && !Object.keys(summary).includes("Loner Probe"), {
   party: party.system.hp.value, loner: loner.system.hp.value, summary,
 });
+
+// A player's Rest: their client posts the message, and the GM's client (this one) ends the effects.
+// Imitated here by a message whose author is the player; the second client is not exercised.
+const [playerEffect] = await party.createEmbeddedDocuments("ActiveEffect", [
+  { name: "Until Rest", duration: { expiry: "rest" }, system: { changes: [bonus("defense.will", 2)] } },
+]);
+const expired = new Promise((resolve) => Hooks.once("updateActiveEffect", resolve));
+const timeout = new Promise((resolve) => setTimeout(() => resolve("timeout"), 3000));
+await ChatMessage.create({ author: player.id, speaker: { actor: party.id }, flavor: "Long rest", content: "<p>Nothing to restore.</p>",
+  flags: { holocron: { rest: [] } } });
+const outcome = await Promise.race([expired, timeout]);
+check("a player's Rest message ends their rest effects on the GM's client", outcome !== "timeout"
+  && party.effects.get(playerEffect.id)._source.duration.expired === true, { outcome: outcome === "timeout" ? "timeout" : "updated" });
 
 return JSON.stringify({ world: game.world.id, build: globalThis.CONFIG?.HOLOCRON?.buildId, results });
 })();
