@@ -57,13 +57,16 @@ const probe = await character("Rest Probe", { hp: { value: 5 }, forcePoints: { v
     system: { changes: [bonus("defense.reflex", 1)] } }] },
 ]);
 // Effects applied to the character after it exists, as at the table, so core stamps their start.
-const [untilRest, standing] = await probe.createEmbeddedDocuments("ActiveEffect", [
+// Found by name: the created array's order is not the order passed in.
+const applied = await probe.createEmbeddedDocuments("ActiveEffect", [
   { name: "Until Rest", duration: { expiry: "rest" }, system: { changes: [bonus("defense.will", 2)] } },
   { name: "Standing", system: { changes: [bonus("defense.fortitude", 1)] } },
 ]);
+const untilRest = applied.find((e) => e.name === "Until Rest");
+const standing = applied.find((e) => e.name === "Standing");
 const registry = foundry.documents.ActiveEffect.registry;
 check("the rest expiry event is registered and offered", CONFIG.ActiveEffect.expiryEvents.rest === "Long rest"
-  && foundry.documents.ActiveEffect.EXPIRY_EVENTS.some((e) => e.value === "rest"), {});
+  && foundry.documents.ActiveEffect.EXPIRY_EVENTS.rest === "Long rest", {});
 check("the rest effect is tracked, the others are not", registry.has(untilRest) && !registry.has(standing)
   && !probe.items.getName("Rest Talent").effects.some((e) => registry.has(e)), { start: untilRest.start });
 const sheet = probe.sheet;

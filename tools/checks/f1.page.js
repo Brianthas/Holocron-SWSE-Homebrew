@@ -70,7 +70,9 @@ const tokens = await scene.createEmbeddedDocuments("Token", [
   (await jedi.getTokenDocument({ x: 200, y: 300 })).toObject(),
   (await target.getTokenDocument({ x: 700, y: 300 })).toObject(),
 ]);
-canvas.tokens.get(tokens[1].id).setTarget(true, { releaseOthers: true });
+// Found by actor: the created array's order is not the order passed in.
+const targetToken = tokens.find((t) => t.actorId === target.id);
+canvas.tokens.get(targetToken.id).setTarget(true, { releaseOthers: true });
 check("target set", game.user.targets.size === 1 && [...game.user.targets][0].actor?.id === target.id, { targets: game.user.targets.size });
 
 // 4. The rendered sheet: Reflex 16 and a tooltip that names Improved Defenses.
