@@ -1,0 +1,21 @@
+{
+  "_id": "E1xPWHfUp8SF8iTp",
+  "_key": "!items!E1xPWHfUp8SF8iTp",
+  "name": "Improved Move Light Object",
+  "type": "feature",
+  "system": {
+    "description": "<p>You may make a Use the Force check to Move Light Object as a Swift Action instead of a Move Action. Using the light object as a projectile weapon requires a Move Action (instead of a Standard Action). </p>",
+    "category": "forceTechnique",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ORC2L5LAjl2Pf02w",
+      "sourceBook": ""
+    }
+  }
+}

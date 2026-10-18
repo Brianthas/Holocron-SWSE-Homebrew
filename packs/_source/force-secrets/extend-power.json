@@ -1,0 +1,21 @@
+{
+  "_id": "5h2JfWwEWwCzGBnq",
+  "_key": "!items!5h2JfWwEWwCzGBnq",
+  "name": "Extend Power",
+  "type": "feature",
+  "system": {
+    "description": "<p>When using a Force Power that allows you to maintain your concentration (such as <i>Force Grip</i>), you can spend a Force Point to sustain the Force Power as a Swift Action instead of a Standard Action for a number of rounds equal to your Charisma modifier. </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TwXQWiaAkVKSYy2b",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "3I5D4W3OhGWE6eEY",
+  "_key": "!items!3I5D4W3OhGWE6eEY",
+  "name": "Training Remote",
+  "type": "feature",
+  "system": {
+    "description": "<p>You hone your skill at deflecting blaster bolts using your&nbsp;Lightsaber. This Force Regimen is performed blind, often with the help of a helmet equipped with an opaque blast shield. </p>\n <p><b>Time:</b> 1 Hour </p>\n <p><b>Targets:</b> Self </p>\n <p><b>Requirements:</b> Lightsaber, BCA-11/X Training Droid, and a Blinding Helmet. </p>\n <p><b>Make a Use the Force check.</b> The result of the check determines the benefits of the regimen: </p> \n <table> \n  <tbody>\n   <tr> \n    <th>DC </th> \n    <th> </th> \n    <th>EFFECT </th>\n   </tr> \n   <tr> \n    <td>18-22 </td> \n    <td> </td> \n    <td>You hone your Lightsaber skills, but the training remote gets several hits on you. You can spend a Force Point to add to the result of a Use the Force check made to activate the <b>Deflect </b>Talent. This does not count toward the \"One Force Point per round\" limit. </td>\n   </tr> \n   <tr> \n    <td>23-27 </td> \n    <td> </td> \n    <td>You hone your Lightsaber skills, and the remote gets in a few small hits on you. You can spend a Force Point to add to the result of a Use the Force check made to activate the <b>Deflect </b>Talent. This does not count toward the \"One Force Point per round\" limit. You also gain 1 temporary Force Point, which can only be used to add to the result of a Use the Force check made to activate the <b>Deflect </b>Talent. </td>\n   </tr> \n   <tr> \n    <td>28+ </td> \n    <td> </td> \n    <td>You hone your Lightsaber skills, and the remote never harms you. You can spend a Force Point to add to the result of a Use the Force check made to activate the <b>Deflect</b> Talent. This does not count toward the \"One Force Point per round\" limit. You also gain 2 temporary Force Points, which can only be used to add to the result of a Use the Force check made to activate the <b>Deflect </b>Talent. </td>\n   </tr>\n  </tbody>\n </table> <!-- \nNewPP limit report\nCached time: 20220322021648\nCache expiry: 1209600\nDynamic content: false\nCPU time usage: 0.007 seconds\nReal time usage: 0.009 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n--> <!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n--> <!-- Saved in parser cache with key prod:swse:pcache:idhash:6944-0!canonical!FandomDesktop!LegacyGalleries and timestamp 20220322021648 and revision id 73685\n -->",
+    "category": "forceRegimen",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RtuZzcKBB5ndMgko",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

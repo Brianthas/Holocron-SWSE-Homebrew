@@ -1,0 +1,21 @@
+{
+  "_id": "4eWf9ANMt4fZreWx",
+  "_key": "!items!4eWf9ANMt4fZreWx",
+  "name": "Enlarged Power",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use a Force Power that affects targets within an area (such as a radius or a cone), you can spend a Force Point to double the distance that the effect extends from your square (for example, a 6-square cone can be made into a 12-square cone). Alternatively, you can spend a Destiny Point to multiply the distance the effect extends by 5 (making a 6-square cone into a 30-square cone). </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yPQctXz4Fr9Ug1Rv",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

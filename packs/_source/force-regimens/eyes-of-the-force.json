@@ -1,0 +1,21 @@
+{
+  "_id": "LFoL4Zy8LOctLlOr",
+  "_key": "!items!LFoL4Zy8LOctLlOr",
+  "name": "Eyes of the Force",
+  "type": "feature",
+  "system": {
+    "description": "<p>This Training Regimen trains you to sense images that you cannot normally see by reading the surface thoughts of others. During this Force Regimen, an assistant holds a two-dimensional image viewer so that you can't see the images being displayed in the screen. As the image viewer cycles through different images of common objects, you must read the surface thoughts of the assistant to determine what image is being displayed on the screen at that time. </p>\n <p><b>Time:</b> 1 Hour </p>\n <p><b>Targets:</b> Self </p>\n <p><b>Requirements:</b> A two-dimensional image display and an assistant. </p>\n <p><b>Make a Use the Force check.</b> The result of the check determines the benefits of the regimen: </p> \n <table> \n  <tbody>\n   <tr> \n    <th>DC </th> \n    <th> </th> \n    <th>EFFECT </th>\n   </tr> \n   <tr> \n    <td>13-17 </td> \n    <td> </td> \n    <td>You successfully read one-third of the assistant's surface thoughts. You gain a +1 Force bonus on Use the Force checks made to use the Telepathy application of the Use the Force skill. </td>\n   </tr> \n   <tr> \n    <td>18-22 </td> \n    <td> </td> \n    <td>You successfully read two-thirds of the assistant's surface thoughts. You gain a +2 Force bonus on Use the Force checks made to use the Telepathy application of the Use the Force skill. </td>\n   </tr> \n   <tr> \n    <td>23+ </td> \n    <td> </td> \n    <td>You successfully read all of the assistant's surface thoughts. You gain a +2 Force bonus on Use the Force checks made to use the Telepathy application of the Use the Force skill. In addition, if you successfully use Telepathy against an unwilling target, you can also sense the target's surface emotions and stray thoughts (As determined by the Gamemaster). </td>\n   </tr>\n  </tbody>\n </table> <!-- \nNewPP limit report\nCached time: 20220313014837\nCache expiry: 1209600\nDynamic content: false\nCPU time usage: 0.007 seconds\nReal time usage: 0.008 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n--> <!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n--> <!-- Saved in parser cache with key prod:swse:pcache:idhash:6871-0!canonical!FandomDesktop!LegacyGalleries and timestamp 20220313014837 and revision id 16516\n -->",
+    "category": "forceRegimen",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TwyJpw6fy7zA9Rrm",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

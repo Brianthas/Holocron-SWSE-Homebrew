@@ -1,0 +1,21 @@
+{
+  "_id": "tOELjlDKJ6jwsW85",
+  "_key": "!items!tOELjlDKJ6jwsW85",
+  "name": "Improved Energy Resistance",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you activate <i>Energy Resistance</i>, you can choose to have it affect one of your allies within 6 squares of you instead. </p>",
+    "category": "forceTechnique",
+    "power": "Energy Resistance",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wPRTSW2gomiCjpR3",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

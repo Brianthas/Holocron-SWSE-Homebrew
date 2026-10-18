@@ -1,0 +1,21 @@
+{
+  "_id": "wiVyvLntqKwqG0Et",
+  "_key": "!items!wiVyvLntqKwqG0Et",
+  "name": "Extended Force Thrust",
+  "type": "feature",
+  "system": {
+    "description": "<p>The base range of your <i>Force Thrust</i> Force Power increases to 18 squares (instead of 12 squares). </p>",
+    "category": "forceTechnique",
+    "power": "Force Thrust",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uWmHKnAHyU0I0KeL",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "YhJl7pEJ9sKaS5Tv",
+  "_key": "!items!YhJl7pEJ9sKaS5Tv",
+  "name": "Improved Levitate",
+  "type": "feature",
+  "system": {
+    "description": "<p>If you are moved into a pit or off another elevated surface involuntarily, such as being the target of a <i>Force Thrust</i> or Bantha Rush, you can spend a Force Point to activate the <i>Levitate</i> Force Power as a Reaction. If you do so, you end your forced movement in the last square before the edge of the precipice. </p>",
+    "category": "forceTechnique",
+    "power": "Force Thrust",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UIqGWO1WMzW7XTHQ",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

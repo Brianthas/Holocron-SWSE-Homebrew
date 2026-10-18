@@ -1,0 +1,21 @@
+{
+  "_id": "344Swfq0NNM7cFiv",
+  "_key": "!items!344Swfq0NNM7cFiv",
+  "name": "Improved Dark Rage",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Dark Rage</i> Force Power, you ignore the restriction that prevents you from using Skills or performing tasks that require patience and concentration. Additionally, you can always activate <i>Dark Rage</i> in the Surprise Round, even if you are considered Surprised. </p>",
+    "category": "forceTechnique",
+    "power": "Dark Rage",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7BYSPJq80PpTYfZv",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

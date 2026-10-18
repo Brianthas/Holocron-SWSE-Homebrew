@@ -1,0 +1,21 @@
+{
+  "_id": "3McW0Ale1H35WHlX",
+  "_key": "!items!3McW0Ale1H35WHlX",
+  "name": "Improved Lightning Burst",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Lightning Burst</i> Force Power, also compare the result of your Use the Force check to each target's Fortitude Defense. If your check result equals or exceeds both a target's Reflex Defense and its Fortitude Defense, you push the target 1 square away from you and knock the target Prone. This movement does not provoke Attacks of Opportunity. </p>",
+    "category": "forceTechnique",
+    "power": "Lightning Burst",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hPBbI2ysJb7VU1GI",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

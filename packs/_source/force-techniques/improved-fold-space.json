@@ -1,0 +1,21 @@
+{
+  "_id": "zlVGtG4zYptN0UsQ",
+  "_key": "!items!zlVGtG4zYptN0UsQ",
+  "name": "Improved Fold Space",
+  "type": "feature",
+  "system": {
+    "description": "<p>Whenever you use <i>Fold Space</i>, you can spend a Force Point to move the object anywhere within your line of sight. Alternatively, you can spend a Destiny Point to move the object anywhere within the same star system. </p>",
+    "category": "forceTechnique",
+    "power": "Fold Space",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xm7oXQgLMPOsypZ6",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

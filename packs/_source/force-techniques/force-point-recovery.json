@@ -1,0 +1,21 @@
+{
+  "_id": "bcH157kP9qmMedTH",
+  "_key": "!items!bcH157kP9qmMedTH",
+  "name": "Force Point Recovery",
+  "type": "feature",
+  "system": {
+    "description": "<p>At the end of an encounter, you automatically recover 1 Force Point spent during the encounter. </p>",
+    "category": "forceTechnique",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ketHeSzQPsgUZV15",
+      "sourceBook": ""
+    }
+  }
+}

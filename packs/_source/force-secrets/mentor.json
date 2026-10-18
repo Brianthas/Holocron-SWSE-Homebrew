@@ -1,0 +1,21 @@
+{
+  "_id": "4cAgZgjAvQfRNMOb",
+  "_key": "!items!4cAgZgjAvQfRNMOb",
+  "name": "Mentor",
+  "type": "feature",
+  "system": {
+    "description": "<p>Whenever you activate a Force Power, you can spend a Force Point to add one use of that Force Power to the Force Power Suite of one ally within 12 squares of you and in your line of sight. Once used, the Force Power cannot be regained by any means, and if the Force Power is not used by the end of the ally's next turn, it is lost. You or the ally can spend a Destiny Point to have the Force Power lost at the end of the encounter, instead of the end of the ally's next turn. </p><p>You can take this Force Secret only if you have successfully trained an Apprentice to knighthood (or the equivalent rank for other Force Traditions). </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jvXt0VpcaJiHbyWI",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

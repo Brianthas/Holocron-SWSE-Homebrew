@@ -1,0 +1,21 @@
+{
+  "_id": "MAEQbrSCw3nhWiTo",
+  "_key": "!items!MAEQbrSCw3nhWiTo",
+  "name": "Improved Force Stun",
+  "type": "feature",
+  "system": {
+    "description": "<p>Your successful <i>Force Stun</i> also temporarily Immobilizes the target for one round. </p>",
+    "category": "forceTechnique",
+    "power": "Force Stun",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GPShxt4x1Wui4Q5f",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

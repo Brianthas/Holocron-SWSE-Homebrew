@@ -1,0 +1,21 @@
+{
+  "_id": "VdpDRuSKZVv8aZly",
+  "_key": "!items!VdpDRuSKZVv8aZly",
+  "name": "Improved Force Trance",
+  "type": "feature",
+  "system": {
+    "description": "<p>Each hour you remain in a Force Trance, you regain a number of Hit Points equal to 2 x your Character Level. </p>",
+    "category": "forceTechnique",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Msk2lD3xgMZ27VHK",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "5wswfHE86r2JPZky",
+  "_key": "!items!5wswfHE86r2JPZky",
+  "name": "Improved Battle Strike",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Battle Strike</i> Force Power, you can apply the bonus to attack and damage rolls for all attacks made during a Full Attack Action. </p>",
+    "category": "forceTechnique",
+    "power": "Battle Strike",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jiPwm0Wyn82Mvo7O",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

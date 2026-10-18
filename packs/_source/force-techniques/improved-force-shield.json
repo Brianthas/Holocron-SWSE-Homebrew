@@ -1,0 +1,21 @@
+{
+  "_id": "WW9LvDa1Te8xFl5R",
+  "_key": "!items!WW9LvDa1Te8xFl5R",
+  "name": "Improved Force Shield",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Force Shield</i> Force Power, you can spend a Force Point to expand the radius of the <i>Force Shield</i> so that it protects you and all allies adjacent to you. Alternatively, you can spend a Destiny Point to have the <i>Force Shield</i> protect a Vehicle you occupy, regardless of the Vehicle's size. If the Vehicle already has a Shield Rating, the SR of the Vehicle and the SR granted by this Force Power do not stack. </p>",
+    "category": "forceTechnique",
+    "power": "Force Shield",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2QDkbexK1t5wRMi3",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

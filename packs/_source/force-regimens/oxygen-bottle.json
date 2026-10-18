@@ -1,0 +1,21 @@
+{
+  "_id": "8dyzLpeiyOayTntT",
+  "_key": "!items!8dyzLpeiyOayTntT",
+  "name": "Oxygen Bottle",
+  "type": "feature",
+  "system": {
+    "description": "<p>This difficult Training Regimen trains you to master environmental manipulation through&nbsp;The Force. You must first empty a glass bottle of air, creating a perfect vacuum inside. Then you must allow only oxygen to slip past the seal created by The Force, eventually filling the bottle with pure oxygen before placing the vac-seal stopper. This Force Regimen requires you to use The Force in a nearly molecular level, as well as the Sense aspect of The Force to determine what molecules are making their way into the bottle. </p>\n <p><b>Time:</b> 1 Hour </p>\n <p><b>Targets:</b> Self </p>\n <p><b>Requirements:</b> A glass bottle with a vac-seal stopper. </p>\n <p><b>Make a Use the Force check.</b> The result of the check determines the benefits of the regimen: </p> \n <table> \n  <tbody>\n   <tr> \n    <th>DC </th> \n    <th> </th> \n    <th>EFFECT </th>\n   </tr> \n   <tr> \n    <td>26-31 </td> \n    <td> </td> \n    <td>You fail to create a vacuum in the bottle before the regimen begins, resulting in an imperfect mixture. You gain a +2 Force bonus to your Fortitude Defense against inhaled Poisons and non-corrosive Atmospheric Hazards. </td>\n   </tr> \n   <tr> \n    <td>32-37 </td> \n    <td> </td> \n    <td>You create a vacuum in the bottle, but let other molecules enter through your Force seal, creating an imperfect mixture. You gain a +5 Force bonus to your Fortitude Defense against inhaled Poisons and non-corrosive Atmospheric Hazards. </td>\n   </tr> \n   <tr> \n    <td>38+ </td> \n    <td> </td> \n    <td>You complete this regimen perfectly, resulting in a bottle full of nothing but pure oxygen. You become immune to inhaled Poisons and non-corrosive Atmospheric Hazards. </td>\n   </tr>\n  </tbody>\n </table> <!-- \nNewPP limit report\nCached time: 20220326231712\nCache expiry: 1209600\nDynamic content: false\nCPU time usage: 0.007 seconds\nReal time usage: 0.008 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n--> <!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n--> <!-- Saved in parser cache with key prod:swse:pcache:idhash:6878-0!canonical!FandomDesktop!LegacyGalleries and timestamp 20220326231712 and revision id 24585\n -->",
+    "category": "forceRegimen",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MjztYUHtMUIpGhYX",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

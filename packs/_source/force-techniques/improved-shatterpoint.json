@@ -1,0 +1,21 @@
+{
+  "_id": "S5di6dZcfUnXWtHT",
+  "_key": "!items!S5di6dZcfUnXWtHT",
+  "name": "Improved Shatterpoint",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you move a target down the Condition Track with an attack benefiting from the <i>Shatterpoint</i> Force Power, you can spend a Force Point to make the target's Condition Persistent. This Persistent Condition can only be removed if the target receives Surgery (for living beings) or Repairs (for Droids, objects, and Vehicles). </p>",
+    "category": "forceTechnique",
+    "power": "Shatterpoint",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yGq427WaUCA5dCxQ",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

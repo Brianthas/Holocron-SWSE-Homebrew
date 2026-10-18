@@ -1,0 +1,21 @@
+{
+  "_id": "Q2BigAhBjhwtQ13a",
+  "_key": "!items!Q2BigAhBjhwtQ13a",
+  "name": "Unconditional Power",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you activate a Force Power that targets only you, you ignore all Condition Track penalties to your Use the Force check to activate that Force Power. </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Iubk6bJ3Og1bkvI4",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

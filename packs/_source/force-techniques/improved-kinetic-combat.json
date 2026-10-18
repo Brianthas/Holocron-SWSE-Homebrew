@@ -1,0 +1,21 @@
+{
+  "_id": "4MpqcsscS1OhZlxe",
+  "_key": "!items!4MpqcsscS1OhZlxe",
+  "name": "Improved Kinetic Combat",
+  "type": "feature",
+  "system": {
+    "description": "<p>You can wield up to three Weapons simultaneously using the <i>Kinetic Combat</i> Force Power, though moving and attacking with one of the Weapons is still a Standard Action. </p>",
+    "category": "forceTechnique",
+    "power": "Kinetic Combat",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2N1zt4PKCYAgVPOs",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

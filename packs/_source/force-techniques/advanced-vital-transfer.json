@@ -1,0 +1,21 @@
+{
+  "_id": "hlhib6wQyuKgUsIZ",
+  "_key": "!items!hlhib6wQyuKgUsIZ",
+  "name": "Advanced Vital Transfer",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Vital Transfer</i> Force Power, you can spend a Destiny Point to fully heal the target of all damage and remove all of the target's debilitating Conditions. </p>",
+    "category": "forceTechnique",
+    "power": "Vital Transfer",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jSlcsGosYKrnsk3g",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

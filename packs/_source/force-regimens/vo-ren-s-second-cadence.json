@@ -1,0 +1,21 @@
+{
+  "_id": "tM0ocPKUeE0c654B",
+  "_key": "!items!tM0ocPKUeE0c654B",
+  "name": "Vo'ren's Second Cadence",
+  "type": "feature",
+  "system": {
+    "description": "<p><i>Vo'ren's Second Cadence</i>&nbsp;teaches not only control, but also spacial awareness. You must set up 72 wax cylinders at 5-degree intervals around your body, each one approximately 1.5 meters away. Atop each cylinder, one metal ball bearing is placed. Like <i>Vo'ren's First Cadence</i>, you must place the cylinders and ball bearings one at a time until all 72 have been placed. However, unlike the first cadence, you must strike at all of the cylinders in a full 360-degree arc without turning your body to face the cylinders to the rear, honing your ability to strike at enemies coming from all sides. </p>\n <p><b>Time:</b> 2 Hours </p>\n <p><b>Targets:</b> Self </p>\n <p><b>Requirements:</b> Lightsaber, 72 wax cylinders, and 2,701 ball bearings. </p>\n <p><b>Make a Use the Force check.</b> You take a penalty on your Use the Force check equal to your Dark Side Score. The result of the check determines the benefits of the regimen: </p> \n <table> \n  <tbody>\n   <tr> \n    <th>DC </th> \n    <th> </th> \n    <th>EFFECT </th>\n   </tr> \n   <tr> \n    <td>18-22 </td> \n    <td> </td> \n    <td>You damage two cylinders. You gain a +1 Force bonus on Lightsaber attack rolls against creatures that Flank you. </td>\n   </tr> \n   <tr> \n    <td>23-27 </td> \n    <td> </td> \n    <td>You damage one cylinder. You gain a +2 Force bonus on Lightsaber attack rolls against creatures that Flank you. </td>\n   </tr> \n   <tr> \n    <td>28+ </td> \n    <td> </td> \n    <td>You complete the cadence without damaging any cylinders. You gain a +2 Force bonus on Lightsaber attack rolls against creatures that Flank you, and you gain the benefits of the Whirlwind Attack Feat (If you do not already know it). </td>\n   </tr>\n  </tbody>\n </table> <!-- \nNewPP limit report\nCached time: 20220315185529\nCache expiry: 1209600\nDynamic content: false\nCPU time usage: 0.008 seconds\nReal time usage: 0.009 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n--> <!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n--> <!-- Saved in parser cache with key prod:swse:pcache:idhash:6947-0!canonical!FandomDesktop!LegacyGalleries and timestamp 20220315185529 and revision id 57930\n -->",
+    "category": "forceRegimen",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zzA1Ch4DR6Qg8gAV",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

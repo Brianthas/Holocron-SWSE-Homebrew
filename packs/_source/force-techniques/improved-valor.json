@@ -1,0 +1,21 @@
+{
+  "_id": "xY7wIsUWhikcepdI",
+  "_key": "!items!xY7wIsUWhikcepdI",
+  "name": "Improved Valor",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you activate <i>Valor</i>, you gain the benefits of that Force Power as well. </p>",
+    "category": "forceTechnique",
+    "power": "Valor",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RJP6dJRIQviE09BJ",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

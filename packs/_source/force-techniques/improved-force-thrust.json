@@ -1,0 +1,21 @@
+{
+  "_id": "ylMrzW2AmHrEmhA3",
+  "_key": "!items!ylMrzW2AmHrEmhA3",
+  "name": "Improved Force Thrust",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Force Thrust</i> Force Power, you can change the time it takes to activate it to a Full-Round Action and spend a Force Point in order to target all creatures in a 6-square cone that originates from your square. </p>",
+    "category": "forceTechnique",
+    "power": "Force Thrust",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UjXqgNvd97CYD7QF",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

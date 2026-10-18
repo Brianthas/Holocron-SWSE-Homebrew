@@ -1,0 +1,21 @@
+{
+  "_id": "nQbh9T9LBpTfsal8",
+  "_key": "!items!nQbh9T9LBpTfsal8",
+  "name": "Improved Detonate",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Detonate</i> Force Power, you also damage enemies near the targeted object. Compare the result of your Use the Force check to the Reflex Defense of all enemies within 2 squares of the object. If your check equals or exceeds the enemy's Reflex Defense, the enemy takes slashing damage equal to one-half the damage sustained by the object. This is an Area Attack. </p>",
+    "category": "forceTechnique",
+    "power": "Detonate",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qyb4GvuTfJZCU0Z1",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

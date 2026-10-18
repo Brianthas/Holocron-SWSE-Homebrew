@@ -1,0 +1,21 @@
+{
+  "_id": "CsTJ6ax2j8cWqdbH",
+  "_key": "!items!CsTJ6ax2j8cWqdbH",
+  "name": "Force Power Mastery",
+  "type": "feature",
+  "system": {
+    "description": "<p>Choose a single Force Power. You may Take 10 on Use the Force checks to activate this Force Power even when distracted or threatened. You may select this Force Technique multiple times; each time you select this Force Technique, it applies to a different Force Power. </p>",
+    "category": "forceTechnique",
+    "power": "",
+    "repeatable": true
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "znUtqxeSNkwAPZYd",
+      "sourceBook": ""
+    }
+  }
+}

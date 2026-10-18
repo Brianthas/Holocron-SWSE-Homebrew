@@ -1,0 +1,21 @@
+{
+  "_id": "6VfK0NewKpv4Kl7L",
+  "_key": "!items!6VfK0NewKpv4Kl7L",
+  "name": "Improved Ionize",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Ionize</i> Force Power, you can spend a Force Point to have the target take full Ion damage (instead of halving the Ion damage after comparing it to the target's Damage Threshold, as normal). </p>",
+    "category": "forceTechnique",
+    "power": "Ionize",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "woE2XDYC42qsIGkf",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

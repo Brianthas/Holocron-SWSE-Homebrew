@@ -1,0 +1,21 @@
+{
+  "_id": "I0rcCxKvmyc6oBU5",
+  "_key": "!items!I0rcCxKvmyc6oBU5",
+  "name": "Improved Mind Trick",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Mind Trick</i> Force Power, you can change the time it takes to activate it to a Full-Round Action in order to target all creatures in a 6-square Cone that originates from your square. Additionally, you can spend a Force Point to increase the area to a 12-square Cone that originates from your square. </p>",
+    "category": "forceTechnique",
+    "power": "Mind Trick",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MNVv0EmQ0bQrHkhY",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

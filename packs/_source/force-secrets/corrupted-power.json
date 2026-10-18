@@ -1,0 +1,21 @@
+{
+  "_id": "8KgCc2v0DGihhQDK",
+  "_key": "!items!8KgCc2v0DGihhQDK",
+  "name": "Corrupted Power",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you activate a Force Power, you can spend a Force Point to corrupt the Force Power. The Force Power gains the [<i>Dark Side</i>] descriptor, and opponents who have a Dark Side Score lower than yours take a -2 penalty to all Defense Scores against this activation of the Force Power. </p><p>Alternatively, you can spend a Destiny Point to increase the penalty to opponents' Defense Scores to -5. You cannot use this Force Secret unless your Dark Side Score equals your Wisdom score. </p><p>Force Powers that have the [<i>Light Side</i>] descriptor cannot be corrupted by the use of this Force Secret. </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9k7YNZcyXUjdX9JG",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "fzze26dNJNpmYckR",
+  "_key": "!items!fzze26dNJNpmYckR",
+  "name": "Improved Rend",
+  "type": "feature",
+  "system": {
+    "description": "<p>The range of your <i>Rend</i> Force Power increases to 12 squares. When using <i>Rend</i> on an object or creature, you can ignore the object's or creature's Damage Reduction. </p>",
+    "category": "forceTechnique",
+    "power": "Rend",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PuyEp36qqQtzsbIb",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

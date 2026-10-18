@@ -1,0 +1,21 @@
+{
+  "_id": "Q6KUjpKHKpQ6v4FA",
+  "_key": "!items!Q6KUjpKHKpQ6v4FA",
+  "name": "Improved Vital Transfer",
+  "type": "feature",
+  "system": {
+    "description": "<p>You can use the <i>Vital Transfer</i> Force Power against a target within 6 squares, and within your line of sight. </p>",
+    "category": "forceTechnique",
+    "power": "Vital Transfer",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eF0mUQaYS0GEUTcp",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

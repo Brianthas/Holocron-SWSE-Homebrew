@@ -1,0 +1,21 @@
+{
+  "_id": "6fc7pMwIsVo5ajRK",
+  "_key": "!items!6fc7pMwIsVo5ajRK",
+  "name": "Improved Force Disarm",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Force Disarm</i> Force Power, you can change the time it takes to activate it to a Full-Round Action; if you do so, your opponent does not gain the normal +10 bonus to Reflex Defense normally associated with Disarming. </p>",
+    "category": "forceTechnique",
+    "power": "Force Disarm",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "u6jmcyjTZIakhB02",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "lzIgIMShC41g9y0G",
+  "_key": "!items!lzIgIMShC41g9y0G",
+  "name": "Improved Sense Force",
+  "type": "feature",
+  "system": {
+    "description": "<p>You may use the Sense Force ability of the Use the Force Skill as a Move Action rather than a Full-Round Action. </p>",
+    "category": "forceTechnique",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "k03Z5Ksglt92zKph",
+      "sourceBook": ""
+    }
+  }
+}

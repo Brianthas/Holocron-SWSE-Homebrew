@@ -1,0 +1,21 @@
+{
+  "_id": "HTzk501TFMQEcgOh",
+  "_key": "!items!HTzk501TFMQEcgOh",
+  "name": "Shaped Power",
+  "type": "feature",
+  "system": {
+    "description": "<p>When using a Force Power with a Cone Area Effect (such as <i>Force Slam</i>), you can spend a Force Point to instead affect a 1 square wide and (5 x Cone's length) squares long. Alternatively, when using a Force Power with a Cone Area Effect, you can spend a Destiny Point to instead affect one or more targets of your choice within a number of squares of you equal to the Cone's length. </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ErGC8Ie0kdlnH0cK",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "0ThEI3JaTJipPw9J",
+  "_key": "!items!0ThEI3JaTJipPw9J",
+  "name": "Extended Blind",
+  "type": "feature",
+  "system": {
+    "description": "<p>The base range of your <i>Blind</i> Force Power increases to 18 squares (instead of 12 squares). </p>",
+    "category": "forceTechnique",
+    "power": "Blind",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "D7r9mXsBaf2cEvlo",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

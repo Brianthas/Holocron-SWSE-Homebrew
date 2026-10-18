@@ -1,0 +1,21 @@
+{
+  "_id": "vOiFclpYpmza8RF4",
+  "_key": "!items!vOiFclpYpmza8RF4",
+  "name": "Vo'ren's Fifth Cadence",
+  "type": "feature",
+  "system": {
+    "description": "<p>In Vo'ren's fifth and final cadence, you must demonstrate true mastery over yourself and your&nbsp;Lightsaber. No wax cylinders are required; you simply know when you have made a correct strike. Unlike the other cadences, this Force Regimen requires you to use The Force to manipulate your Lightsaber, an act of pure telekinetic power in which your hands never touch the weapon. This technique brings together the Control, Sense, and Alter aspects of The Force into one training regimen. </p>\n <p><b>Time:</b> 3 Hours </p>\n <p><b>Targets:</b> Self </p>\n <p><b>Requirements:</b> Lightsaber </p>\n <p><b>Make a Use the Force check.</b> You take a penalty on your Use the Force check equal to your Dark Side Score. The result of the check determines the benefits of the regimen: </p> \n <table> \n  <tbody>\n   <tr> \n    <th>DC </th> \n    <th> </th> \n    <th>EFFECT </th>\n   </tr> \n   <tr> \n    <td>31-36 </td> \n    <td> </td> \n    <td>You make a mistake during the first hour. You gain a +1 Force bonus on Use the Force checks made to use the Move Light Object application of the skill. </td>\n   </tr> \n   <tr> \n    <td>37-42 </td> \n    <td> </td> \n    <td>You make a mistake during the second hour. You gain a +2 Force bonus on Use the Force checks made to use the Move Light Object application of the skill. </td>\n   </tr> \n   <tr> \n    <td>43+ </td> \n    <td> </td> \n    <td>You complete the cadence without making a single mistake. You gain a +2 Force bonus on Use the Force checks made to use the Move Light Object application of the skill, and you add the <i>Kinetic Combat</i> Force Power to your Force Power Suite. Additionally, you can spend a Force Point to reroll any Use the Force check made to activate a Force Power with the [<i>Telekinetic</i>] descriptor, keeping the better of the two results. </td>\n   </tr>\n  </tbody>\n </table> <!-- \nNewPP limit report\nCached time: 20220313015750\nCache expiry: 1209600\nDynamic content: false\nCPU time usage: 0.007 seconds\nReal time usage: 0.009 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n--> <!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n--> <!-- Saved in parser cache with key prod:swse:pcache:idhash:7011-0!canonical!FandomDesktop!LegacyGalleries and timestamp 20220313015750 and revision id 16770\n -->",
+    "category": "forceRegimen",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "X4arWkk1WD3BrjHm",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

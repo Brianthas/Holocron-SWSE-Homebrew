@@ -1,0 +1,21 @@
+{
+  "_id": "Dg49Mpc4dnH1muAX",
+  "_key": "!items!Dg49Mpc4dnH1muAX",
+  "name": "Extended Move Object",
+  "type": "feature",
+  "system": {
+    "description": "<p>The base range of your <i>Move Object</i> Force Power increases to 18 squares (instead of 12 squares). </p>",
+    "category": "forceTechnique",
+    "power": "Move Object",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tVaH37FtR9H4kQXE",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

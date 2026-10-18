@@ -1,0 +1,21 @@
+{
+  "_id": "TzM8VynC6tAMMtcO",
+  "_key": "!items!TzM8VynC6tAMMtcO",
+  "name": "Improved Resist Force",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you activate <i>Resist Force</i>, you can choose to have it affect one of your allies within 6 squares of you instead. </p>",
+    "category": "forceTechnique",
+    "power": "Resist Force",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JX0tqwWwlvu8xlaF",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

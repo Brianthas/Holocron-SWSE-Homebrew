@@ -1,0 +1,21 @@
+{
+  "_id": "V9FjIYM9cZsdhlU7",
+  "_key": "!items!V9FjIYM9cZsdhlU7",
+  "name": "Holocron Loremaster",
+  "type": "feature",
+  "system": {
+    "description": "<p>Whenever you activate a Force Power, you can spend a Force Point to add one use of any Force Power known by any ally within 12 squares of you (whether you know that Force Power or not) to your Force Power Suite. Once used, the Force Power cannot be regained by any means, and if the Force Power is not used by the end of your next turn, it is lost. You can spend a Destiny Point to have the Force Power lost at the end of the encounter instead of the end of your next turn. </p><p>Additionally, you can enhance any Holocron you possess, adding your knowledge to it's memory. You can create a Holocron Gatekeeper in your own image in that Holocron. </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sflxpVZaMqjshtrt",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

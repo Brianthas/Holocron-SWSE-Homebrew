@@ -1,0 +1,21 @@
+{
+  "_id": "qudSCR36B7ks7Csf",
+  "_key": "!items!qudSCR36B7ks7Csf",
+  "name": "Improved Phase",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Phase</i> Force Power, you can end a single Move Action inside an occupied square, but you must still end your turn in a legal, unoccupied square. </p>",
+    "category": "forceTechnique",
+    "power": "Phase",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IO8Jg4ZMg660YYt1",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

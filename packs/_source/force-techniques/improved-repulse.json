@@ -1,0 +1,21 @@
+{
+  "_id": "YckU7ngUIkmN7z8m",
+  "_key": "!items!YckU7ngUIkmN7z8m",
+  "name": "Improved Repulse",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Repulse</i> Force Power, you can change the time it takes to activate it to a Full-Round Action in order to target all creatures in a 2-square radius Burst that originates from your square. Additionally, you can spend a Force Point to increase the area to a 4-square radius Burst that originates from your square. </p>",
+    "category": "forceTechnique",
+    "power": "Repulse",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zx02MPsD9Y3B8GOL",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

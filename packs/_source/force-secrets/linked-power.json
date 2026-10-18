@@ -1,0 +1,21 @@
+{
+  "_id": "QIj9IIY99S7VfAPD",
+  "_key": "!items!QIj9IIY99S7VfAPD",
+  "name": "Linked Power",
+  "type": "feature",
+  "system": {
+    "description": "<p>You can spend a Force Point to link a Force Power to the Force Power you use in the current round so that it goes off in the following round. You must choose two Force Powers- one for the current and one for the next round. Both selected Force Powers cannot be altered in any way, such as through Force Techniques, Force Secrets, or the use of Force Points. However, the second Force Power goes off in the following round as a Free Action at the start of your turn. </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vE8W4ddfwQ22yhAP",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

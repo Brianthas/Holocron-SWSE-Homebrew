@@ -1,0 +1,21 @@
+{
+  "_id": "grjNZd8Of68r7CgG",
+  "_key": "!items!grjNZd8Of68r7CgG",
+  "name": "Improved Crucitorn",
+  "type": "feature",
+  "system": {
+    "description": "<p>If you use <i>Crucitorn</i> and the attack or Force Power still deals more damage than your Damage Threshold, you do not expend this use of <i>Crucitorn</i>, and it remains in your Force Power Suite. </p>",
+    "category": "forceTechnique",
+    "power": "Crucitorn",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "r2dGHxrv6WC0qGYv",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

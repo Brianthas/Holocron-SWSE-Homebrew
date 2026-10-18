@@ -1,0 +1,21 @@
+{
+  "_id": "rsbQBpVEy19qWCDA",
+  "_key": "!items!rsbQBpVEy19qWCDA",
+  "name": "Improved Force Storm",
+  "type": "feature",
+  "system": {
+    "description": "<p>You can spend a Force Point when you activate <i>Force Storm</i> to to fill the storm with <i>Force Lightning</i>. When you activate the <i>Force Storm</i>, and again whenever you spend a Standard Action to maintain the Force Power, compare the results of your Use the Force check to the Reflex Defense of one target within the <i>Force Storm's</i> area. If the Use the Force check result equals or exceeds the target's Reflex Defense, the target takes 3d6 points of Force damage. You can spend a Destiny Point to increase the damage to 6d6 points of Force damage. </p>",
+    "category": "forceTechnique",
+    "power": "Force Storm",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VKdoFmqaQmyZK1iS",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

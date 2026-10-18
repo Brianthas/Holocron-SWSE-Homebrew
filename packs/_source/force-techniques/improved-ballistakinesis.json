@@ -1,0 +1,21 @@
+{
+  "_id": "MBVYFZUNBMRqNglE",
+  "_key": "!items!MBVYFZUNBMRqNglE",
+  "name": "Improved Ballistakinesis",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use <i>Ballistakinesis</i>, you may spend a Force Point to target a 3x3 square area instead of a 2x2 square area. </p>",
+    "category": "forceTechnique",
+    "power": "Ballistakinesis",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WvJ3eLqrRehOq9Wi",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

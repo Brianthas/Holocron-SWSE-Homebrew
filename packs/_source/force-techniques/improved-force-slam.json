@@ -1,0 +1,21 @@
+{
+  "_id": "giv0AbXwVIsaNZ5C",
+  "_key": "!items!giv0AbXwVIsaNZ5C",
+  "name": "Improved Force Slam",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Force Slam</i> Force Power, you can change the time it takes to activate to a Full-Round Action in order to target all targets within a 2-square radius originating in your square. Additionally, you can spend a Force Point to increase the area to a 4-square radius Burst that originates from your square. </p>",
+    "category": "forceTechnique",
+    "power": "Force Slam",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xIq8AF8AZLWQteJp",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

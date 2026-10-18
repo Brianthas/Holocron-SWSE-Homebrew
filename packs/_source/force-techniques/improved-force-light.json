@@ -1,0 +1,21 @@
+{
+  "_id": "uGbikFwtQAzUS9kW",
+  "_key": "!items!uGbikFwtQAzUS9kW",
+  "name": "Improved Force Light",
+  "type": "feature",
+  "system": {
+    "description": "<p>You can spend a Force Point to cause your <i>Force Light</i> to blind those it harms; any creature that takes damage from <i>Force Light</i> grants Concealment to all other targets until the end of it's next turn. You can spend a Destiny Point to change this to Total Concealment instead. </p>",
+    "category": "forceTechnique",
+    "power": "Force Light",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9oYj44mbYVr6ampn",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

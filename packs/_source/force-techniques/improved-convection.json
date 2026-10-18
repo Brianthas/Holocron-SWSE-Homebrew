@@ -1,0 +1,21 @@
+{
+  "_id": "ndN1HkVK65dbxiZu",
+  "_key": "!items!ndN1HkVK65dbxiZu",
+  "name": "Improved Convection",
+  "type": "feature",
+  "system": {
+    "description": "<p>When your target takes Fire damage from <i>Convection</i>, the Fire attacks the target's Fortitude Defense using your Base Attack Bonus instead of the normal +5 bonus. </p>",
+    "category": "forceTechnique",
+    "power": "Convection",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OAusWlcszTt0O2B2",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

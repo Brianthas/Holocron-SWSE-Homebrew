@@ -1,0 +1,21 @@
+{
+  "_id": "piPhewLwkdTw96yG",
+  "_key": "!items!piPhewLwkdTw96yG",
+  "name": "Telekinetic Practice",
+  "type": "feature",
+  "system": {
+    "description": "<p>This Training Regimen hones your skill with the Alter aspect of&nbsp;The Force&nbsp;and enhances telekinetic precision. You begin by placing a deep bowl on the ground, with an orb at the bottom of the bowl. First, you must use The Force to hold the bowl perfectly still and pin it to the ground. Then you roll the orb slowly up the side of the bowl, keeping it in contact with the bowl at all times, until it reaches the upper rim. The orb is held there for 5 minutes, and must remain perfectly still. You then roll the orb slowly back to the bottom of the bowl, moving it with The Force and not allowing the orb to move under gravity's power. </p>\n <p><b>Time:</b> 1 Hour </p>\n <p><b>Targets:</b> Self </p>\n <p><b>Requirements:</b> A deep bowl and a polished stone orb. </p>\n <p><b>Make a Use the Force check.</b> The result of the check determines the benefits of the regimen: </p> \n <table> \n  <tbody>\n   <tr> \n    <th>DC </th> \n    <th> </th> \n    <th>EFFECT </th>\n   </tr> \n   <tr> \n    <td>18-22 </td> \n    <td> </td> \n    <td>You let the bowl move during the regimen. You gain 1 temporary Force Point which you can apply only to a Use the Force check made to activate a Force Power with the [<i>Telekinetic</i>] descriptor. </td>\n   </tr> \n   <tr> \n    <td>23-27 </td> \n    <td> </td> \n    <td>You let the orb roll under gravity's power back to it's starting position. You gain 2 temporary Force Points which you can apply only to Use the Force checks made to activate Force Powers with the [<i>Telekinetic</i>] descriptor. </td>\n   </tr> \n   <tr> \n    <td>28+ </td> \n    <td> </td> \n    <td>You complete the regimen perfectly. You gain 2 temporary Force Points which you can apply only to Use the Force checks made to activate Force Powers with the [<i>Telekinetic</i>] descriptor or use to reroll a Use the Force check made to activate a Force Power with the [<i>Telekinetic</i>] descriptor (You must keep the second result, even if it is worse). </td>\n   </tr>\n  </tbody>\n </table> <!-- \nNewPP limit report\nCached time: 20220320063200\nCache expiry: 1209600\nDynamic content: false\nCPU time usage: 0.007 seconds\nReal time usage: 0.008 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n--> <!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n--> <!-- Saved in parser cache with key prod:swse:pcache:idhash:6880-0!canonical!FandomDesktop!LegacyGalleries and timestamp 20220320063200 and revision id 16519\n -->",
+    "category": "forceRegimen",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qmjHRhiTHm9n2U79",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

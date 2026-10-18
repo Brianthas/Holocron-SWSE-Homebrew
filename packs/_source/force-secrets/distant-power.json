@@ -1,0 +1,21 @@
+{
+  "_id": "TSCnfxPcspjRhCoj",
+  "_key": "!items!TSCnfxPcspjRhCoj",
+  "name": "Distant Power",
+  "type": "feature",
+  "system": {
+    "description": "<p>When using a Force Power that has a range expressed numerically, you can spend a Force Point to multiply the range by 10. Alternatively, you can spend a Destiny Point to increase the range to anywhere in the same Star System. This Force Secret does not remove the line of sight requirements. </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3KfuTCWCo9Tmr26q",
+      "sourceBook": ""
+    }
+  }
+}

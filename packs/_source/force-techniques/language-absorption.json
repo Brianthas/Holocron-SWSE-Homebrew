@@ -1,0 +1,21 @@
+{
+  "_id": "anlRhJ8AeArbeBPN",
+  "_key": "!items!anlRhJ8AeArbeBPN",
+  "name": "Language Absorption",
+  "type": "feature",
+  "system": {
+    "description": "<p>You can use telepathy to forcibly learn a language from another creature. If the target is unwilling, you must succeed a Use the Force check against the target's Will Defense, as with the Telepathy aspect of the Use the Force Skill. You retain the ability to speak and understand this language for 24 hours. </p>",
+    "category": "forceTechnique",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OEmCie9eSBubw6f8",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

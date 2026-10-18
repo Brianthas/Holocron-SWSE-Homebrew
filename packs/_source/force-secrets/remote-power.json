@@ -1,0 +1,21 @@
+{
+  "_id": "UnJY0LPHcFWLl0US",
+  "_key": "!items!UnJY0LPHcFWLl0US",
+  "name": "Remote Power",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use a Force Power that has a Cone, line, or radius effect that originates from your square, you can spend a Force Point to have the Force Power originate from a square within 6 squares of you. Alternatively, you can spend a Destiny Point to have the Force Power originate from any square within your line of sight. You still choose the direction of the Force Power as though you were standing in the chosen square. </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "M83P34FPDSHq6pjN",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

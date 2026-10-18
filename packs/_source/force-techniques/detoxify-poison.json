@@ -1,0 +1,21 @@
+{
+  "_id": "cKOI3VE8S4WniK9g",
+  "_key": "!items!cKOI3VE8S4WniK9g",
+  "name": "Detoxify Poison",
+  "type": "feature",
+  "system": {
+    "description": "<p>You can use the <i>Vital Transfer</i> Force Power to treat a Poison affecting the target. Instead of the normal effects of the <i>Vital Transfer</i> Force Power, you can compare the result of your Use the Force check to the Poison's DC. If you equal or exceed the Poison's DC, you detoxify the Poison as per the use of the Treat Injury Skill. </p>",
+    "category": "forceTechnique",
+    "power": "Vital Transfer",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KVXgwpVu9YFfEGXH",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

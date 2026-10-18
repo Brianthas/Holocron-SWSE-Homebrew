@@ -1,0 +1,21 @@
+{
+  "_id": "43mXS39EZ52LjCZs",
+  "_key": "!items!43mXS39EZ52LjCZs",
+  "name": "Improved Plant Surge",
+  "type": "feature",
+  "system": {
+    "description": "<p>You can spend a Force Point to have <i>Plant Surge</i> target all enemies in a 5x5 square area; at least one square must be within the Force Power's range. Alternatively, you can spend a Destiny Point to target all enemies in a 10x10 square area. </p>",
+    "category": "forceTechnique",
+    "power": "Plant Surge",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ez95B3GKtkAkkgsQ",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

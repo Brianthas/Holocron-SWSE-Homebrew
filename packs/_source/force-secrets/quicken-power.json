@@ -1,0 +1,21 @@
+{
+  "_id": "S19oA5c77cjbRB75",
+  "_key": "!items!S19oA5c77cjbRB75",
+  "name": "Quicken Power",
+  "type": "feature",
+  "system": {
+    "description": "<p>When using a Force Power that requires a Standard Action or Move Action to activate, you can spend a Force Point to activate the Force Power as a Swift Action instead. Alternatively, you can spend a Destiny Point to activate the Force Power as a Reaction instead. </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BDkuI1AC6ew32cX8",
+      "sourceBook": ""
+    }
+  }
+}

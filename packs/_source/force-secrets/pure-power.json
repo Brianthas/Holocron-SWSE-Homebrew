@@ -1,0 +1,21 @@
+{
+  "_id": "b9dAXL1OGTgPW3yS",
+  "_key": "!items!b9dAXL1OGTgPW3yS",
+  "name": "Pure Power",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use a Force Power, you can spend a Force Point to purify the Force Power. The Force Power gains the [<i>Light Side</i>] descriptor, and opponents who have a Dark Side Score of 1 or higher take a -2 penalty to all Defense Scores against this activation of the Force Power. </p><p>Alternatively, you can spend a Destiny Point to increase the penalty to opponents' Defense Scores to -5. You cannot use this Force Secret if you have a Dark Side Score of 1 or higher. </p><p>Force Powers that have the [<i>Dark Side</i>] descriptor cannot be purified with this Force Secret. </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4Rrf7hYLbNNrL8QB",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

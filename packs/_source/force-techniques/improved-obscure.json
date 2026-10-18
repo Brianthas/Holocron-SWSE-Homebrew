@@ -1,0 +1,21 @@
+{
+  "_id": "k2doeuZd1OO6lJfB",
+  "_key": "!items!k2doeuZd1OO6lJfB",
+  "name": "Improved Obscure",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Obscure</i> Force Power, you may spend a Force Point to gain a +5 Force bonus on your Use the Force check. </p>",
+    "category": "forceTechnique",
+    "power": "Obscure",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Xp9SBTBueaBSkspJ",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "FuP32Cc3YO6bgTea",
+  "_key": "!items!FuP32Cc3YO6bgTea",
+  "name": "Devastating Power",
+  "type": "feature",
+  "system": {
+    "description": "<p>When using a Force Power that deals damage, you can spend a Force Point to increase the Power's damage dice by 50%. Alternatively, you can spend a Destiny Point to double the amount of damage dice. </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TklCg3NQ7Lge7o2E",
+      "sourceBook": ""
+    }
+  }
+}

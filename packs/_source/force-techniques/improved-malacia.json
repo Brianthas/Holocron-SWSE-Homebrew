@@ -1,0 +1,21 @@
+{
+  "_id": "Kf7QjVgeAuFT9bm7",
+  "_key": "!items!Kf7QjVgeAuFT9bm7",
+  "name": "Improved Malacia",
+  "type": "feature",
+  "system": {
+    "description": "<p>You can maintain the Damage Threshold penalty of the <i>Malacia</i> Force Power as a Swift Action, instead of as a Standard Action. </p>",
+    "category": "forceTechnique",
+    "power": "Malacia",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "weEl2E0IBL17LTqj",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

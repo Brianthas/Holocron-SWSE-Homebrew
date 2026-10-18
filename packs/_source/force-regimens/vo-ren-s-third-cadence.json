@@ -1,0 +1,21 @@
+{
+  "_id": "aphF0ymGXGrPa4Kd",
+  "_key": "!items!aphF0ymGXGrPa4Kd",
+  "name": "Vo'ren's Third Cadence",
+  "type": "feature",
+  "system": {
+    "description": "<p><i>Vo'ren's Third Cadence</i>&nbsp;teaches advanced precision through control of one's body and sensory awareness. You set up 180 wax cylinders at 2-degree intervals around your body, each one approximately 1.5 meters away. Atop each cylinder, one metal ball bearing is placed. Unlike <i>Vo'ren's Second Cadence</i>, in the third cadence you must strike every fifth ball bearing, making a rotation around your body several times over the course of this Force Regimen. This prepares you for irregular attack patterns from all sides. </p>\n <p><b>Time:</b> 3 Hours </p>\n <p><b>Targets:</b> Self </p>\n <p><b>Requirements:</b> Lightsaber, 180 wax cylinders, and 16,290 ball bearings. </p>\n <p><b>Make a Use the Force check.</b> You take a penalty on your Use the Force check equal to your Dark Side Score. The result of the check determines the benefits of the regimen: </p> \n <table> \n  <tbody>\n   <tr> \n    <th>DC </th> \n    <th> </th> \n    <th>EFFECT </th>\n   </tr> \n   <tr> \n    <td>23-27 </td> \n    <td> </td> \n    <td>You damage two cylinders. You gain a +1 Force bonus on ranged attack rolls made when using the <b>Redirect Shot</b> Talent. </td>\n   </tr> \n   <tr> \n    <td>28-32 </td> \n    <td> </td> \n    <td>You damage one cylinder. You gain a +2 Force bonus on ranged attack rolls made when using the <b>Redirect Shot</b> Talent. </td>\n   </tr> \n   <tr> \n    <td>33+ </td> \n    <td> </td> \n    <td>You complete the cadence without damaging any cylinders. You gain a +2 Force bonus on ranged attack rolls made when using the <b>Redirect Shot</b> Talent., and you can spend Force Points to enhance Use the Force checks to <b>Block</b> or <b>Deflect</b>, even when it is not your turn. Furthermore, Force Points spent in this manner do not count toward the \"One Force Point per round\" limit normally applied to spending Force Points. </td>\n   </tr>\n  </tbody>\n </table> <!-- \nNewPP limit report\nCached time: 20220322070857\nCache expiry: 1209600\nDynamic content: false\nCPU time usage: 0.007 seconds\nReal time usage: 0.009 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n--> <!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n--> <!-- Saved in parser cache with key prod:swse:pcache:idhash:6981-0!canonical!FandomDesktop!LegacyGalleries and timestamp 20220322070857 and revision id 16661\n -->",
+    "category": "forceRegimen",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Bp47DYiwSAP7RsMu",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "DIW91uqnrm6b9tZR",
+  "_key": "!items!DIW91uqnrm6b9tZR",
+  "name": "Improved Force Grip",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Force Grip</i> Force Power, you can spend a Force Point as a Free Action to maintain the <i>Force Grip</i> for 1 additional round without the need to concentrate. However, after this additional round you may not resume concentrating on the <i>Force Grip</i>. </p>",
+    "category": "forceTechnique",
+    "power": "Force Grip",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fSogjRNS7tzbpkF4",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

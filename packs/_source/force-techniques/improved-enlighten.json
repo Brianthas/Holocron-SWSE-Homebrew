@@ -1,0 +1,21 @@
+{
+  "_id": "0eG4ZxNseOH1pK5s",
+  "_key": "!items!0eG4ZxNseOH1pK5s",
+  "name": "Improved Enlighten",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Enlighten</i> Force Power, you may spend a Force Point to affect one additional ally. </p>",
+    "category": "forceTechnique",
+    "power": "Enlighten",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SXHZYFD4ztAvn5hx",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

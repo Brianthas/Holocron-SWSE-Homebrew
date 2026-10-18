@@ -1,0 +1,21 @@
+{
+  "_id": "NTbzyq30p0gOq9Bp",
+  "_key": "!items!NTbzyq30p0gOq9Bp",
+  "name": "Improved Sense Surroundings",
+  "type": "feature",
+  "system": {
+    "description": "<p>You may use the Sense Surroundings application of the Use the Force Skill as a Free Action rather than a Swift Action. </p><h2>Additional Line of Sight</h2><p>Many Force Powers require that the target be both within line of sight and within a certain range. The Sense Surroundings application of the Use the Force Skill can be used to perceive targets despite the presence of Cover such as walls and doors or Concealment such as fog and smoke. By the strictest interpretation of the rules, using Sense Surroundings to ignore penalties to Perception checks does not grant line of sight; it merely allows one to perceive the target (just as hearing someone coming around the corner doesn't grant line of sight.) </p><p>However, in some situations a Gamemaster may wish to allow a character to use Sense Surroundings to gain line of sight. If a character has the Improved Sense Surroundings Force Technique, the Gamemaster can allow a character that has perceived a target to also have line of sight to that target, provided that the character used the Sense Surroundings application of the Use the Force Skill earlier in the character's turn. </p>",
+    "category": "forceTechnique",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "K0O3L26bzgYgYJUZ",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

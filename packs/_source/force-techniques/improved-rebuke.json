@@ -1,0 +1,21 @@
+{
+  "_id": "g1cgz63sDuvIDJaI",
+  "_key": "!items!g1cgz63sDuvIDJaI",
+  "name": "Improved Rebuke",
+  "type": "feature",
+  "system": {
+    "description": "<p>When an ally within 12 squares and within line of sight of you is the target of a Force Power, you can use the <i>Rebuke</i> Force Power as though you were the target of that Force Power instead. </p>",
+    "category": "forceTechnique",
+    "power": "Rebuke",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qimHNk5TSIOUIgit",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

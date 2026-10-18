@@ -1,0 +1,21 @@
+{
+  "_id": "nPxOF3jwgzbzj07N",
+  "_key": "!items!nPxOF3jwgzbzj07N",
+  "name": "Extended Force Disarm",
+  "type": "feature",
+  "system": {
+    "description": "<p>The base range of your <i>Force Disarm</i> Force Power increases to 18 squares (instead of 12 squares). </p>",
+    "category": "forceTechnique",
+    "power": "Force Disarm",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YnTzxmhRPfFggWp4",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

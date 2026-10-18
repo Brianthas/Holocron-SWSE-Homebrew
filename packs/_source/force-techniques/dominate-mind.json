@@ -1,0 +1,21 @@
+{
+  "_id": "cN4pe5rWzVd6TZdV",
+  "_key": "!items!cN4pe5rWzVd6TZdV",
+  "name": "Dominate Mind",
+  "type": "feature",
+  "system": {
+    "description": "<p>When using <i>Mind Trick</i>, if you exceed your target's Will Defense by 10 or more points, you can choose what your target does with its Standard Action on its next turn. </p>",
+    "category": "forceTechnique",
+    "power": "Mind Trick",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gBe7N8ycoPADcnaH",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

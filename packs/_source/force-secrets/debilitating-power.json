@@ -1,0 +1,21 @@
+{
+  "_id": "fHajj93IgtrxrluD",
+  "_key": "!items!fHajj93IgtrxrluD",
+  "name": "Debilitating Power",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use a Force Power that successfully deals damage to the target, you can spend a Force Point to move the target -1 step along the Condition Track (in addition to any movement along the Condition Track imposed by the Force Power normally) provided your Use the Force check equals or exceeds the target's Damage Threshold. Alternatively, you can spend a Destiny Point to move the target -3 steps along the Condition Track. </p>",
+    "category": "forceSecret",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MhQKWlwfOHmxqqvQ",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

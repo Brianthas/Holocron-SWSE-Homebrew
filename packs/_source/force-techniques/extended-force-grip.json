@@ -1,0 +1,21 @@
+{
+  "_id": "vTCdAggLbJqV0WaS",
+  "_key": "!items!vTCdAggLbJqV0WaS",
+  "name": "Extended Force Grip",
+  "type": "feature",
+  "system": {
+    "description": "<p>The base range of your <i>Force Grip</i> Force Power increases to 18 squares (instead of 12 squares). </p>",
+    "category": "forceTechnique",
+    "power": "Force Grip",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WZKgVSbUgkFv6p4D",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

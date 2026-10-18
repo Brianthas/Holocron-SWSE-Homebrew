@@ -1,0 +1,21 @@
+{
+  "_id": "DhAMlIWfi9AegjUM",
+  "_key": "!items!DhAMlIWfi9AegjUM",
+  "name": "Improved Telepathy",
+  "type": "feature",
+  "system": {
+    "description": "<p>Whenever you use the Telepathy ability of the Use the Force Skill, you can reroll your Use the Force check, keeping the better of the two results. </p>",
+    "category": "forceTechnique",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "U9hfGY8Kx1AwOfQ8",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "qtQJuTuAtWF5DFHx",
+  "_key": "!items!qtQJuTuAtWF5DFHx",
+  "name": "Improved Force Lightning",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Force Lightning</i> Force Power, you can choose to change the time it takes to activate to a Full-Round Action. If you do, your target must make a Strength check. If your Use the Force check result beats the target's Strength check, you push the target back 1 square plus 1 additional square for every 5 points by which you exceed the target's check result. If you push the target into a larger object, the target takes 1d6 points of damage. </p><p>The target adds it's Base Attack Bonus and size modifier to its Strength check: Colossal, +20; Gargantuan, +15; Huge, +10; Large, +5; Medium, +0; Small, -5; Tiny, -10; Diminutive, -15; Fine, -20. In addition, the target gets a +5 stability bonus if it has more than two legs or is otherwise exceptionally stable. </p>",
+    "category": "forceTechnique",
+    "power": "Force Lightning",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hUscOcyYgt8opCrK",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

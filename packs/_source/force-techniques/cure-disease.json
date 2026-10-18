@@ -1,0 +1,21 @@
+{
+  "_id": "c2BQ34BR8bmJLsxb",
+  "_key": "!items!c2BQ34BR8bmJLsxb",
+  "name": "Cure Disease",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Vital Transfer</i> Force Power, if your Use the Force check equals or exceeds the Treat Injury DC of a Disease currently ailing the target, you can spend a Force Point to cure that Disease. </p>",
+    "category": "forceTechnique",
+    "power": "Vital Transfer",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "erMY3yRndiWeOz8V",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

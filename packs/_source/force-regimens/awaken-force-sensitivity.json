@@ -1,0 +1,21 @@
+{
+  "_id": "5WuceIeBEE85yKFc",
+  "_key": "!items!5WuceIeBEE85yKFc",
+  "name": "Awaken Force Sensitivity",
+  "type": "feature",
+  "system": {
+    "description": "<p>This Training Regimen is used to awaken another character to the larger world of&nbsp;Force Sensitivity. You and the beneficiary of this Force Regimen practice meditation, quieting your minds and listening to The Force. </p>\n <p><b>Time:</b> 1 Hour </p>\n <p><b>Targets:</b> One willing ally who does not possess the Force Sensitivity Feat. </p>\n <p><b>Make a Use the Force check.</b> The result of the check determines the benefits of the regimen: </p> \n <table> \n  <tbody>\n   <tr> \n    <th>DC </th> \n    <th> </th> \n    <th>EFFECT </th>\n   </tr> \n   <tr> \n    <td>13-17 </td> \n    <td> </td> \n    <td>You gain the benefit of the <b>Gauge Force Potential</b> Talent (If you do not already have it). </td>\n   </tr> \n   <tr> \n    <td>18-22 </td> \n    <td> </td> \n    <td>You gain the benefit of the <b>Gauge Force Potential</b> Talent (If you do not already have it). Additionally, you awaken the first glimmers of Force Sensitivity in the target. For the next 24 hours, the target can make Untrained Use the Force checks as though he or she possesses the Force Sensitivity Feat. </td>\n   </tr> \n   <tr> \n    <td>23-27 </td> \n    <td> </td> \n    <td>You gain the benefit of the <b>Gauge Force Potential</b> Talent (If you do not already have it). Additionally, you awaken the first glimmers of Force Sensitivity in the target. For the next 24 hours, the target can make Untrained Use the Force checks, with a +1 Force bonus, as though he or she possesses the Force Sensitivity Feat. </td>\n   </tr> \n   <tr> \n    <td>28+ </td> \n    <td> </td> \n    <td>You gain the benefit of the <b>Gauge Force Potential</b> Talent (If you do not already have it). Additionally, you awaken the first glimmers of Force Sensitivity in the target. For the next 24 hours, the target can make Untrained Use the Force checks, with a +2 Force bonus, as though he or she possesses the Force Sensitivity Feat. </td>\n   </tr>\n  </tbody>\n </table> <!-- \nNewPP limit report\nCached time: 20220326231711\nCache expiry: 1209600\nDynamic content: false\nCPU time usage: 0.005 seconds\nReal time usage: 0.007 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n--> <!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n--> <!-- Saved in parser cache with key prod:swse:pcache:idhash:6870-0!canonical!FandomDesktop!LegacyGalleries and timestamp 20220326231711 and revision id 16515\n -->",
+    "category": "forceRegimen",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ubowEUTNH2IlDvFr",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

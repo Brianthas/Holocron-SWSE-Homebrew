@@ -1,0 +1,21 @@
+{
+  "_id": "YwmWDPEA75JhvdOg",
+  "_key": "!items!YwmWDPEA75JhvdOg",
+  "name": "Improved Cryokinesis",
+  "type": "feature",
+  "system": {
+    "description": "<p>You can use <i>Cryokinesis</i> on occupied Vehicles within range; however, the Vehicle only moves down the Condition Track if your Use the Force check also exceeds the Vehicle's Fortitude Defense. </p>",
+    "category": "forceTechnique",
+    "power": "Cryokinesis",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7RGCgyPkUOpyqBEK",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

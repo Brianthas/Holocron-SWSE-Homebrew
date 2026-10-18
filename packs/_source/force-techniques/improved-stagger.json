@@ -1,0 +1,21 @@
+{
+  "_id": "YsKsCuQuFuTP6axo",
+  "_key": "!items!YsKsCuQuFuTP6axo",
+  "name": "Improved Stagger",
+  "type": "feature",
+  "system": {
+    "description": "<p>When you use the <i>Stagger</i> Force Power, you may spend a Force Point to push your target 2 squares away from you, instead of just 1 square. </p>",
+    "category": "forceTechnique",
+    "power": "Stagger",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YA0rZTs5oqJjRWOF",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "CnD7bzJMnwbyRPD3",
+  "_key": "!items!CnD7bzJMnwbyRPD3",
+  "name": "Vo'ren's First Cadence",
+  "type": "feature",
+  "system": {
+    "description": "<p><i>Vo'ren's First Cadence</i>&nbsp;teaches precision through control of one's body and sensory awareness. You set up 19 wax cylinders at 10-degree intervals around your body, each one approximately 1.5 meters away, forming a semicircle. Atop each cylinder, one metal ball bearing is placed. You must then use your Lightsaber to strike each ball bearing without making contact with the wax cylinder beneath it. You must place the cylinders and ball bearings one at a time until all 19 have been placed. </p>\n <p><b>Time:</b> 1 Hour </p>\n <p><b>Targets:</b> Self </p>\n <p><b>Requirements:</b> Lightsaber, 19 wax cylinders, and 190 ball bearings. </p>\n <p><b>Make a Use the Force check.</b> You take a penalty on your Use the Force check equal to your Dark Side Score. The result of the check determines the benefits of the regimen: </p> \n <table> \n  <tbody>\n   <tr> \n    <th>DC </th> \n    <th> </th> \n    <th>EFFECT </th>\n   </tr> \n   <tr> \n    <td>13-17 </td> \n    <td> </td> \n    <td>You damage two cylinders. You gain a +1 Force bonus to your Will Defense. </td>\n   </tr> \n   <tr> \n    <td>18-22 </td> \n    <td> </td> \n    <td>You damage one cylinder. You gain a +2 Force bonus to your Will Defense. </td>\n   </tr> \n   <tr> \n    <td>23+ </td> \n    <td> </td> \n    <td>You complete the cadence without damaging any cylinders. You gain a +2 Force bonus to your Will Defense, and you gain the benefits of the <b>Severing Strike</b> Talent (If you do not already know it). </td>\n   </tr>\n  </tbody>\n </table> <!-- \nNewPP limit report\nCached time: 20220319230041\nCache expiry: 1209600\nDynamic content: false\nCPU time usage: 0.006 seconds\nReal time usage: 0.008 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n--> <!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n--> <!-- Saved in parser cache with key prod:swse:pcache:idhash:6945-0!canonical!FandomDesktop!LegacyGalleries and timestamp 20220319230041 and revision id 16552\n -->",
+    "category": "forceRegimen",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "06gFCGjVpTYur9kV",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

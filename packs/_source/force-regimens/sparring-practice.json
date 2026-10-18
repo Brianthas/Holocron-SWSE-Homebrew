@@ -1,0 +1,21 @@
+{
+  "_id": "7p4XiFgBytTVy6k3",
+  "_key": "!items!7p4XiFgBytTVy6k3",
+  "name": "Sparring Practice",
+  "type": "feature",
+  "system": {
+    "description": "<p>This simple Lightsaber Regimen allows you to practice against another living opponent, simulating one-on-one combat. During Sparring Practice, each combatant attempts to strike the other while exercising restraint and control. If you use a Training Lightsaber, you can spar without fear of harming your opponent. </p>\n <p><b>Time:</b> 2 Hours </p>\n <p><b>Targets:</b> Self </p>\n <p><b>Requirements:</b> Lightsaber (Or Training Lightsaber) and a sparring partner. </p>\n <p><b>Make a Use the Force check.</b> The result of the check determines the benefits of the regimen: </p> \n <table> \n  <tbody>\n   <tr> \n    <th>DC </th> \n    <th> </th> \n    <th>EFFECT </th>\n   </tr> \n   <tr> \n    <td>18-22 </td> \n    <td> </td> \n    <td>You hone your Lightsaber skills but see little in the way of improvement. You can spend a Force Point to add to the result of a Use the Force check made to activate the <b>Block</b> Talent. This does not count toward the \"One Force Point per round\" limit. </td>\n   </tr> \n   <tr> \n    <td>23-27 </td> \n    <td> </td> \n    <td>You hone your Lightsaber skills, improving your technique by small degrees. You can spend a Force Point to add to the result of a Use the Force check made to activate the <b>Block</b> Talent. This does not count toward the \"One Force Point per round\" limit. You also gain 1 temporary Force Point, which can only be used to add to the result of a Use the Force check made to activate the <b>Block</b> Talent. </td>\n   </tr> \n   <tr> \n    <td>28+ </td> \n    <td> </td> \n    <td>You hone your Lightsaber skills and see significant improvement in your technique. You can spend a Force Point to add to the result of a Use the Force check made to activate the <b>Block</b> Talent. This does not count toward the \"One Force Point per round\" limit. You also gain 2 temporary Force Points, which can only be used to add to the result of a Use the Force check made to activate the <b>Block</b> Talent. </td>\n   </tr>\n  </tbody>\n </table> <!-- \nNewPP limit report\nCached time: 20220313015257\nCache expiry: 1209600\nDynamic content: false\nCPU time usage: 0.005 seconds\nReal time usage: 0.007 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n--> <!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n--> <!-- Saved in parser cache with key prod:swse:pcache:idhash:6935-0!canonical!FandomDesktop!LegacyGalleries and timestamp 20220313015257 and revision id 31151\n -->",
+    "category": "forceRegimen",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "18gnFbgz2VkcUN0l",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "s7sWgOVNzqcZU5TV",
+  "_key": "!items!s7sWgOVNzqcZU5TV",
+  "name": "Improved Thought Bomb",
+  "type": "feature",
+  "system": {
+    "description": "<p>You can spend a Force Point to have <i>Thought Bomb</i> target all enemies within 5 squares of you. Alternatively, you can spend a Destiny Point to target all enemies within your line of sight. </p>",
+    "category": "forceTechnique",
+    "power": "Thought Bomb",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zsimNGCAJs41mbwh",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

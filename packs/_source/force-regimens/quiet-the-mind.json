@@ -1,0 +1,21 @@
+{
+  "_id": "bt14XPZXXZJVQxVl",
+  "_key": "!items!bt14XPZXXZJVQxVl",
+  "name": "Quiet the Mind",
+  "type": "feature",
+  "system": {
+    "description": "<p>This Training Regimen trains you to block out distractions and stray thoughts. It requires little more than finding a quiet, secluded spot and slipping into a meditative trance to clear your mind of doubt, questions, fear, and the chaos of the galaxy. Jedi use this technique to open themselves to the flow of The Force, allowing them to see distant places and events. </p>\n <p><b>Time:</b> 1 Hour </p>\n <p><b>Targets:</b> Self </p>\n <p><b>Make a Use the Force check.</b> The result of the check determines the benefits of the regimen: </p> \n <table> \n  <tbody>\n   <tr> \n    <th>DC </th> \n    <th> </th> \n    <th>EFFECT </th>\n   </tr> \n   <tr> \n    <td>13-17 </td> \n    <td> </td> \n    <td>You meditate, but your mind is still clouded by external stimuli. You can add one use of the <i>Farseeing</i> Force Power to your Force Power Suite, but once it is used, it cannot be regained by any means. </td>\n   </tr> \n   <tr> \n    <td>18-22 </td> \n    <td> </td> \n    <td>You meditate, quieting your mind except for but a few small distractions. You can add one use of the <i>Farseeing</i> Force Power to your Force Power Suite. </td>\n   </tr> \n   <tr> \n    <td>23+ </td> \n    <td> </td> \n    <td>You meditate, quieting your mind entirely. You can add one use of the <i>Farseeing</i> Force Power to your Force Power Suite, and you gain the benefits of the <b>Visions</b> Talent (If you do not already know it). </td>\n   </tr>\n  </tbody>\n </table> <!-- \nNewPP limit report\nCached time: 20220322094714\nCache expiry: 1209600\nDynamic content: false\nCPU time usage: 0.005 seconds\nReal time usage: 0.007 seconds\nPreprocessor visited node count: 1/1000000\nPreprocessor generated node count: 0/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/40\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n--> <!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n--> <!-- Saved in parser cache with key prod:swse:pcache:idhash:6879-0!canonical!FandomDesktop!LegacyGalleries and timestamp 20220322094714 and revision id 16518\n -->",
+    "category": "forceRegimen",
+    "power": "",
+    "repeatable": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OYD57FFuA5rekXOY",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}
