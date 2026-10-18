@@ -1,0 +1,26 @@
+{
+  "_id": "feAHfIqv0jExwTtp",
+  "_key": "!items!feAHfIqv0jExwTtp",
+  "name": "Negate Energy",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You spontaneously negate a single attack that deals Energy damage, such as a Lightsaber or Blaster. </p><p><b>Time:</b> Reaction </p><p><b>Targets:</b> One attack made against you that deals Energy damage. </p><p><b>Make a Use the Force check.</b> <i>Homebrew (tovec.wikidot.com/episode-vii):</i> your check result is damage reduction against that one attack. It still applies to a single hit, as your Reaction, and cannot negate Physical damage. You can use Negate Energy in the same round as Dueling Stance, but in place of that roll and before the damage is known. </p><p><b>Special:</b> You must be aware of the attack (and not Flat-Footed) to negate it. If you are successful, you can spend a Force Point to regain Hit Points equal to the damage of the negated attack, up to a maximum of your full normal Hit Points. </p>",
+    "descriptors": [],
+    "action": "Reaction",
+    "target": "One attack made against you that deals Energy damage.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3jlZIpo5UvJgfAGh",
+      "sourceBook": ""
+    }
+  }
+}

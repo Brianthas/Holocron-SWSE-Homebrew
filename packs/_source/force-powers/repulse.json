@@ -1,0 +1,28 @@
+{
+  "_id": "NWPOcliVNafQz1oN",
+  "_key": "!items!NWPOcliVNafQz1oN",
+  "name": "Repulse",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use&nbsp;The Force&nbsp;to clear an area around yourself. </p><p><b>[<i>Telekinetic</i>]</b> </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> All adjacent targets. </p><p><b>Make a Use the Force check.</b> The targets make opposing Strength checks, adding their Base Attack Bonus. If you exceed a target's Strength check, you push it back 1 square plus 1 additional square for every 5 points by which you exceeded the target's check result. If you push the target into a larger object, the target takes 1d6 points of damage. </p><p>The target adds a size modifier to its&nbsp;Strength check: Colossal, +20; Gargantuan, +15; Huge, +10; Large, +5; Medium, +0; Small, -5; Tiny, -10; Diminutive, -15; Fine, -20. In addition, it gets a +5 stability bonus if it has more than two legs or is otherwise exceptionally stable. </p><p><b>Special:</b>&nbsp;You can spend a&nbsp;Force Point&nbsp;to apply a -5 penalty to the target's&nbsp;Strength&nbsp;check to resist your&nbsp;<i>Repulse</i>. Additionally, after spending a Force Point, if you successfully push the target into a larger object, you deal an extra 2d6 points of damage from the extreme force of the pulse. </p>",
+    "descriptors": [
+      "telekinetic"
+    ],
+    "action": "Standard Action",
+    "target": "All adjacent targets.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AdaFgRDczplxE6Vg",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "kvBcSCd73yHmKQT4",
+  "_key": "!items!kvBcSCd73yHmKQT4",
+  "name": "Force Whirlwind",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You call upon The Force to surround an enemy in a swirling vortex of Force energy. The whirlwind lifts them about half a meter off the ground, spinning them in the air and buffeting them with Force energy. </p><p><b>[<i>Telekinetic</i>]</b> </p><p><b>Time:</b>&nbsp;Standard Action </p><p><b>Targets:</b>&nbsp;One creature or Droid within 12 squares, and within line of sight. </p><p><b>Make a&nbsp;Use the Force&nbsp;check. </b>The result of the check determines the effects, if any: </p><p>Compare the result of the check to the target's&nbsp;Fortitude Defense. If the check result equals or exceeds the target's&nbsp;Fortitude Defense, the target is captured within the whirlwind and immobilized until the beginning of your next turn. Any attack rolls or Skill Checks the target attempts while within the whirlwind are at a -5 penalty. The target falls Prone when the effect ends. The target also sustains damage at the end of your turn as determined by the results of your Use the Force check: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>The target takes 1d6 points of Force damage. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>The target takes 2d6 points of Force damage. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>The target takes 3d6 points of Force damage. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>The target takes 4d6 points of Force damage. </td>\n  </tr>\n </tbody>\n</table><p>The target adds a size modifier to its Fortitude Defense for purposes of this Force Power: Colossal, +50; Gargantuan, +20; Huge, +10; Large, +5; Medium and smaller, +0. </p><p><b>Special:&nbsp;</b>You can spend a&nbsp;Force Point&nbsp;to increase the penalty to the target's attack rolls and Skill Checks while inside the whirlwind from a -5 penalty to a -10 penalty. </p><p>You can maintain&nbsp;<i>Force Whirlwind</i>&nbsp;from round to round, extending the normal duration. Maintaining the&nbsp;<i>Force Whirlwind</i>&nbsp;Force Power&nbsp;is a&nbsp;Move Action, and you must make a new&nbsp;Use the Force&nbsp;check each round. If you take damage while maintaining&nbsp;<i>Force Whirlwind</i>, you must succeed on a&nbsp;Use the Force&nbsp;check (DC = 15 + damage taken) to continue maintaining the&nbsp;<i>Force Whirlwind</i>. If a target within a <i>Force Whirlwind</i> is attacked or otherwise damaged or moved down the Condition Track by you or one of your allies, the effects of the <i>Force Whirlwind</i> end immediately. </p>",
+    "descriptors": [
+      "telekinetic"
+    ],
+    "action": "Standard Action",
+    "target": "One creature or Droid within 12 squares, and within line of sight.",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "The target takes 1d6 points of Force damage."
+      },
+      {
+        "dc": 20,
+        "text": "The target takes 2d6 points of Force damage."
+      },
+      {
+        "dc": 25,
+        "text": "The target takes 3d6 points of Force damage."
+      },
+      {
+        "dc": 30,
+        "text": "The target takes 4d6 points of Force damage."
+      }
+    ],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wQsAMnO2h9F6vGLy",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

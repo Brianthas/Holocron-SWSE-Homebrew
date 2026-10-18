@@ -1,0 +1,26 @@
+{
+  "_id": "yx84FRf9TlbnmzH1",
+  "_key": "!items!yx84FRf9TlbnmzH1",
+  "name": "Rebuke",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You harmlessly absorb or deflect one Force Power used against you, perhaps even turning it against its creator. </p><p><b>Time:</b> Reaction </p><p><b>Targets:</b>&nbsp;One Force Power directed at you. </p><p><b>Make a Use the Force check.</b> If your result equals or exceeds the check result of the Force Power directed at you, you harmlessly redirect it and suffer no ill effects. If your result exceeds the check result of the Force Power directed at you by 5 or more, you may choose to turn the Force Power against its creator, who suffers the effect based on the creator’s original Use the Force check. </p><p><b>Special:</b> If you successfully reflect a Force Power back at its originator, the originator may attempt to <i>Rebuke</i> the Force Power as well, expending a use of the <i>Rebuke</i> Force Power and using your Use the Force check as its target DC. If they reflect it back again, both you and the originator are affected by the Force Power. You can spend a Force Point as a Reaction to suffer no effects from a Force Power that has been Rebuked twice- once by you and once by the Force Power's originator. </p>",
+    "descriptors": [],
+    "action": "Reaction",
+    "target": "One Force Power directed at you.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dqSqhg5Pids29HIY",
+      "sourceBook": ""
+    }
+  }
+}

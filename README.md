@@ -32,8 +32,8 @@ characters.
 ### Content
 
 `npm run packs:convert` builds `packs/_source` from the SWSE fork's `packs/_source`, read from a
-checkout beside this repo (or `FORK_PACKS`). Converted so far: Force techniques, secrets and
-regimens. Ids are derived from each item's pack and name, so a rebuild never changes them; the
+checkout beside this repo (or `FORK_PACKS`). Converted so far: Force powers, techniques,
+secrets and regimens. Ids are derived from each item's pack and name, so a rebuild never changes them; the
 fork's id is kept in `flags.holocron.sourceId`. The run fails on a source field it has no mapping
 for, on a duplicate id, and on a file in an output pack it did not write (`--prune` deletes those).
 `tools/convert/out/report.json` lists every document left out, with the rule that removes it.

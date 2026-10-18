@@ -1,0 +1,28 @@
+{
+  "_id": "0rcLbt0xeghDzKuF",
+  "_key": "!items!0rcLbt0xeghDzKuF",
+  "name": "Unbalancing Block",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You catch an opponent's weapon on your blade before deactivating your blade momentarily, causing them to stumble. </p><p><b>Time:</b> Reaction (when an adjacent enemy makes a melee attack against you) </p><p><b>Targets:</b> Self </p><p><b>Make a Use the Force check.</b> Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack deals half damage on a hit. Additionally, if your Use the Force check equals or exceeds the target's Will Defense, the target is considered Flat-Footed until the end of your next turn. </p><p>L<b>ightsaber Form (Trakata):</b> If you have the <b>Trakata</b> Talent, you deal +2 dice of damage with the first attack you make on your next turn against your attacker. </p><p><b>Special:</b> You can spend a Force Point to take no damage from the incoming attack if your check equals or exceeds the attack roll of the incoming attack. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Reaction (when an adjacent enemy makes a melee attack against you)",
+    "target": "Self",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6XoBPLoHxMeby8mF",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

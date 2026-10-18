@@ -9,17 +9,17 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, unlinkSync, writeFile
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { slugify } from "./lib/ids.ts";
-import { readPack, Report, type OutputDoc } from "./lib/pack.ts";
+import { Report, type OutputDoc } from "./lib/pack.ts";
 import { convertForceFeatures } from "./packs/force-features.ts";
-import { REMOVED_POWERS } from "./rules.ts";
+import { convertForcePowers } from "./packs/force-powers.ts";
 
 const OUT = fileURLToPath(new URL("../../packs/_source", import.meta.url));
 const REPORT = fileURLToPath(new URL("./out/report.json", import.meta.url));
 const prune = process.argv.includes("--prune");
 const report = new Report();
 
-const powerNames = readPack("force-powers").map((d) => d.name).filter((name) => !REMOVED_POWERS.has(name));
-const packs = new Map<string, OutputDoc[]>([...convertForceFeatures(powerNames, report)]);
+const powers = convertForcePowers(report);
+const packs = new Map<string, OutputDoc[]>([["force-powers", powers], ...convertForceFeatures(powers.map((p) => p.name), report)]);
 
 const stale: { pack: string; file: string }[] = [];
 const written: Record<string, number> = {};

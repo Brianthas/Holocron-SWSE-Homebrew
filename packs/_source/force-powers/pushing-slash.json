@@ -1,0 +1,46 @@
+{
+  "_id": "OvoOWpBeTSIYZI3E",
+  "_key": "!items!OvoOWpBeTSIYZI3E",
+  "name": "Pushing Slash",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form, Telekinetic</i>]</b> </p><p>You strike at your target with your Lightsaber, then hurl them away from you with The Force. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One enemy within reach </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>You can make a single melee attack with a Lightsaber against the target. If the attack hits, in addition to dealing damage, compare the result of your Use the Force check with the target's Fortitude Defense. If your Use the Force check equals or exceeds the target's Fortitude Defense, you push the target 2 squares away from you. This movement does not provoke Attacks of Opportunity. You cannot move the target if it is Grabbed or Grappled. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>You can make a single melee attack with a Lightsaber against the target. If the attack hits, in addition to dealing damage, compare the result of your Use the Force check with the target's Fortitude Defense. If your Use the Force check equals or exceeds the target's Fortitude Defense, you push the target 3 squares away from you. This movement does not provoke Attacks of Opportunity. You cannot move the target if it is Grabbed or Grappled. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>You can make a single melee attack with a Lightsaber against the target. If the attack hits, in addition to dealing damage, compare the result of your Use the Force check with the target's Fortitude Defense. If your Use the Force check equals or exceeds the target's Fortitude Defense, you push the target 4 squares away from you. This movement does not provoke Attacks of Opportunity. You cannot move the target if it is Grabbed or Grappled. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>You can make a single melee attack with a Lightsaber against the target. If the attack hits, in addition to dealing damage, compare the result of your Use the Force check with the target's Fortitude Defense. If your Use the Force check equals or exceeds the target's Fortitude Defense, you push the target 5 squares away from you. This movement does not provoke Attacks of Opportunity. You cannot move the target if it is Grabbed or Grappled. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Niman)</b>: If you have the <b>Niman</b> Talent, you also compare the results of your Use the Force check to all other adjacent enemies; if your Use the Force result equals or exceeds an enemy's Fortitude Defense, it is pushed away 1 square. This is an Area Attack. </p><p><b>Special:</b> You can spend a Force Point to knock the target prone at the end of its forced movement. (This applies only to the target of your Lightsaber attack). </p>",
+    "descriptors": [
+      "lightsaberForm",
+      "telekinetic"
+    ],
+    "action": "Standard Action",
+    "target": "One enemy within reach",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "You can make a single melee attack with a Lightsaber against the target. If the attack hits, in addition to dealing damage, compare the result of your Use the Force check with the target's Fortitude Defense. If your Use the Force check equals or exceeds the target's Fortitude Defense, you push the target 2 squares away from you. This movement does not provoke Attacks of Opportunity. You cannot move the target if it is Grabbed or Grappled."
+      },
+      {
+        "dc": 20,
+        "text": "You can make a single melee attack with a Lightsaber against the target. If the attack hits, in addition to dealing damage, compare the result of your Use the Force check with the target's Fortitude Defense. If your Use the Force check equals or exceeds the target's Fortitude Defense, you push the target 3 squares away from you. This movement does not provoke Attacks of Opportunity. You cannot move the target if it is Grabbed or Grappled."
+      },
+      {
+        "dc": 25,
+        "text": "You can make a single melee attack with a Lightsaber against the target. If the attack hits, in addition to dealing damage, compare the result of your Use the Force check with the target's Fortitude Defense. If your Use the Force check equals or exceeds the target's Fortitude Defense, you push the target 4 squares away from you. This movement does not provoke Attacks of Opportunity. You cannot move the target if it is Grabbed or Grappled."
+      },
+      {
+        "dc": 30,
+        "text": "You can make a single melee attack with a Lightsaber against the target. If the attack hits, in addition to dealing damage, compare the result of your Use the Force check with the target's Fortitude Defense. If your Use the Force check equals or exceeds the target's Fortitude Defense, you push the target 5 squares away from you. This movement does not provoke Attacks of Opportunity. You cannot move the target if it is Grabbed or Grappled."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "l0vvZoALG1Ofmu1W",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

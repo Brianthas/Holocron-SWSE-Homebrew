@@ -1,0 +1,42 @@
+{
+  "_id": "zmB9wCBudO1lXuiV",
+  "_key": "!items!zmB9wCBudO1lXuiV",
+  "name": "Force Grip",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use The Force to choke or crush your enemy. </p><p><b>[<i>Telekinetic</i>]</b> </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One target within 12 squares and within Line of Sight. </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>If your Use the Force check equals or exceeds the target’s Fortitude Defense, the target takes 2d6 points of damage and can only take a single Swift Action on their next turn. Otherwise, the target takes half damage and may act normally, and you may not maintain the power. Targets larger than Medium add a size modifier to Fortitude Defense against this Force Power: Colossal +50, Gargantuan +20, Huge +10, Large +5. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>If your Use the Force check equals or exceeds the target’s Fortitude Defense, the target takes 4d6 points of damage and can only take a single Swift Action on their next turn. Otherwise, the target takes half damage and may act normally, and you may not maintain the power. Targets larger than Medium add a size modifier to Fortitude Defense against this Force Power: Colossal +50, Gargantuan +20, Huge +10, Large +5. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>If your Use the Force check equals or exceeds the target’s Fortitude Defense, the target takes 6d6 points of damage and can only take a single Swift Action on their next turn. Otherwise, the target takes half damage and may act normally, and you may not maintain the power. Targets larger than Medium add a size modifier to Fortitude Defense against this Force Power: Colossal +50, Gargantuan +20, Huge +10, Large +5. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> You may maintain your concentration on the targeted creature to continue damaging it from round to round. Maintaining the <i>Force Grip</i> Power is a Standard Action, and you must make a new Use the Force check each round. If you suffer damage while maintaining a <i>Force Grip</i>, you must succeed on a Use the Force check (DC = 15 + damage taken) to continue concentrating. </p><p>You can spend a Force Point to deal an additional 2d6 points of damage with your <i>Force Grip</i>. </p>",
+    "descriptors": [
+      "darkSide",
+      "telekinetic"
+    ],
+    "action": "Standard Action",
+    "target": "One target within 12 squares and within Line of Sight.",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "If your Use the Force check equals or exceeds the target’s Fortitude Defense, the target takes 2d6 points of damage and can only take a single Swift Action on their next turn. Otherwise, the target takes half damage and may act normally, and you may not maintain the power. Targets larger than Medium add a size modifier to Fortitude Defense against this Force Power: Colossal +50, Gargantuan +20, Huge +10, Large +5."
+      },
+      {
+        "dc": 20,
+        "text": "If your Use the Force check equals or exceeds the target’s Fortitude Defense, the target takes 4d6 points of damage and can only take a single Swift Action on their next turn. Otherwise, the target takes half damage and may act normally, and you may not maintain the power. Targets larger than Medium add a size modifier to Fortitude Defense against this Force Power: Colossal +50, Gargantuan +20, Huge +10, Large +5."
+      },
+      {
+        "dc": 25,
+        "text": "If your Use the Force check equals or exceeds the target’s Fortitude Defense, the target takes 6d6 points of damage and can only take a single Swift Action on their next turn. Otherwise, the target takes half damage and may act normally, and you may not maintain the power. Targets larger than Medium add a size modifier to Fortitude Defense against this Force Power: Colossal +50, Gargantuan +20, Huge +10, Large +5."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qhLXZIwGNOxORW45",
+      "sourceBook": ""
+    }
+  }
+}

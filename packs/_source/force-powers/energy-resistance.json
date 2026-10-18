@@ -1,0 +1,43 @@
+{
+  "_id": "LEQ8sLLW0emVNMvr",
+  "_key": "!items!LEQ8sLLW0emVNMvr",
+  "name": "Energy Resistance",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use The Force to protect you from damage caused by energy, sonic, fire, cold, and electrical sources. </p><p><b>Time:</b>&nbsp;Standard Action </p><p><b>Targets:</b>&nbsp;Self </p><p><b>Make a&nbsp;Use the Force&nbsp;check. </b>The result of the check determines the effects, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You gain Damage Reduction 5 against Energy damage until the beginning of your next turn. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You gain Damage Reduction 10 against Energy damage until the beginning of your next turn. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>You gain Damage Reduction 15 against Energy damage until the beginning of your next turn. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>You gain Damage Reduction 20 against Energy damage until the beginning of your next turn. </td>\n  </tr>\n </tbody>\n</table><p><b>Special: </b>You can spend a Force Point to use this Force Power as a Swift Action, rather than a Standard Action. </p><p>You can maintain&nbsp;<i>Energy Resistance</i>&nbsp;from round to round, extending the normal duration. Maintaining the&nbsp;<i>Energy Resistance</i>&nbsp;Force Power&nbsp;is a&nbsp;Swift Action. If you take damage while maintaining&nbsp;<i>Energy Resistance</i>, you must succeed on a&nbsp;Use the Force&nbsp;check (DC = 15 + damage taken) to continue maintaining the&nbsp;<i>Energy Resistance</i>. </p>",
+    "descriptors": [],
+    "action": "Standard Action",
+    "target": "Self",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 20,
+        "text": "You gain Damage Reduction 5 against Energy damage until the beginning of your next turn."
+      },
+      {
+        "dc": 25,
+        "text": "You gain Damage Reduction 10 against Energy damage until the beginning of your next turn."
+      },
+      {
+        "dc": 30,
+        "text": "You gain Damage Reduction 15 against Energy damage until the beginning of your next turn."
+      },
+      {
+        "dc": 35,
+        "text": "You gain Damage Reduction 20 against Energy damage until the beginning of your next turn."
+      }
+    ],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NafB1hdOaeS3QWMF",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

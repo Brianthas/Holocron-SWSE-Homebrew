@@ -1,0 +1,39 @@
+{
+  "_id": "l1ozG3uOUx303B3t",
+  "_key": "!items!l1ozG3uOUx303B3t",
+  "name": "Surge",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>The Force enables you to jump great heights and distances as well as move quickly. </p><p><b>Time:</b> Free Action </p><p><b>Targets:</b> Self </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>10 </td> \n   <td> </td> \n   <td>You gain a +10 Force bonus on Jump checks and your speed increases by 2 squares until the start of your next turn. The Force bonus on Jump checks includes the adjustment for increased speed. </td>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>You gain a +20 Force bonus on Jump checks and your speed increases by 4 squares until the start of your next turn. The Force bonus on Jump checks includes the adjustment for increased speed. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You gain a +30 Force bonus on Jump checks and your speed increases by 6 squares until the start of your next turn. The Force bonus on Jump checks includes the adjustment for increased speed. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> Using the <i>Surge</i> Force Power counts as a Running Start for determining a Jump DC. You can spend a Force Point to increase the Force Power's bonus on Jump checks by 10 and increase your speed by an additional 2 squares. </p><p>You may spend a Destiny Point to gain an additional 4 squares of movement; when you do so, you may also use any and all movement for the round as a part of a Jump (no Jump check required). </p>",
+    "descriptors": [],
+    "action": "Free Action",
+    "target": "Self",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 10,
+        "text": "You gain a +10 Force bonus on Jump checks and your speed increases by 2 squares until the start of your next turn. The Force bonus on Jump checks includes the adjustment for increased speed."
+      },
+      {
+        "dc": 15,
+        "text": "You gain a +20 Force bonus on Jump checks and your speed increases by 4 squares until the start of your next turn. The Force bonus on Jump checks includes the adjustment for increased speed."
+      },
+      {
+        "dc": 20,
+        "text": "You gain a +30 Force bonus on Jump checks and your speed increases by 6 squares until the start of your next turn. The Force bonus on Jump checks includes the adjustment for increased speed."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JwgqJmon5I1Lu1o3",
+      "sourceBook": ""
+    }
+  }
+}

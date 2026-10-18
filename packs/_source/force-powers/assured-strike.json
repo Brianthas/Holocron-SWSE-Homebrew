@@ -1,0 +1,45 @@
+{
+  "_id": "ZSjeUR2YmtnbU5Ti",
+  "_key": "!items!ZSjeUR2YmtnbU5Ti",
+  "name": "Assured Strike",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You trade power for accuracy. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One enemy within reach </p><p><b>Make a Use the Force check.</b> The result of the check determines the effects, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>You make a single melee attack with a Lightsaber against the target, rolling twice and keeping the higher result. However, you take a -5 penalty on your damage roll. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>You make a single melee attack with a Lightsaber against the target, rolling twice and keeping the higher result. However, you take a -2 penalty on your damage roll. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>You make a single melee attack with a Lightsaber against the target, rolling twice and keeping the higher result. However, you take a -1 penalty on your damage roll. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>You make a single melee attack with a Lightsaber against the target, rolling twice and keeping the higher result. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Juyo):</b> If you have the <b>Juyo</b> Talent and miss with both attack rolls, this Form Power remains in your Force Power Suite instead of being spent as normal. </p><p><b>Special:</b> You can spend a Force Point to roll your attack roll three times, keeping the highest result. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Standard Action",
+    "target": "One enemy within reach",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "You make a single melee attack with a Lightsaber against the target, rolling twice and keeping the higher result. However, you take a -5 penalty on your damage roll."
+      },
+      {
+        "dc": 20,
+        "text": "You make a single melee attack with a Lightsaber against the target, rolling twice and keeping the higher result. However, you take a -2 penalty on your damage roll."
+      },
+      {
+        "dc": 25,
+        "text": "You make a single melee attack with a Lightsaber against the target, rolling twice and keeping the higher result. However, you take a -1 penalty on your damage roll."
+      },
+      {
+        "dc": 30,
+        "text": "You make a single melee attack with a Lightsaber against the target, rolling twice and keeping the higher result."
+      }
+    ],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "u5cwTuqIMpdiCtMs",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

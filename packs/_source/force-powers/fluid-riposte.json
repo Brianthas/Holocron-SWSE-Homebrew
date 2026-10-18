@@ -1,0 +1,28 @@
+{
+  "_id": "HFhldaUROci1fMeQ",
+  "_key": "!items!HFhldaUROci1fMeQ",
+  "name": "Fluid Riposte",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You smoothly turn aside your opponent's melee attack, stepping in to deliver your own attack. </p><p><b>Time: </b>Reaction (when an adjacent opponent makes a melee attack against you) </p><p><b>Targets:</b> Self, plus one enemy within reach </p><p><b>Make a Use the Force check.</b> Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the the incoming attack roll, the attack deals half damage on a hit. You can then immediately move to any other square adjacent to your attacker and make a single melee attack with a Lightsaber against it. This movement does not provoke Attacks of Opportunity. </p><p><b>Lightsaber Form (Djem So)</b>: If you have the <b>Djem So</b> Talent, after successfully activating this Form Power, you gain one temporary Force Point which can only be used to activate the <b>Djem So</b> talent. If this temporary Force Point is not used before the end of the encounter, it is lost. </p><p><b>Special:</b> You can spend a Force Point to treat the attacker as Flat-Footed for purposes of your Lightsaber attack. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Reaction (when an adjacent opponent makes a melee attack against you)",
+    "target": "Self, plus one enemy within reach",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "89KCYqYAWuXtYYe2",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

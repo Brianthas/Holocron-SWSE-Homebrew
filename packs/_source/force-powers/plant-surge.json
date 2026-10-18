@@ -1,0 +1,26 @@
+{
+  "_id": "a5VOWRnKjTYaC84c",
+  "_key": "!items!a5VOWRnKjTYaC84c",
+  "name": "Plant Surge",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You reach out with The Force to entreat the aid of plants, causing them to lash out at your opponents. </p><p><b>Time:</b>&nbsp;Standard Action </p><p><b>Targets:</b>&nbsp;One creature within 12 squares of you, and within your line of sight. </p><p><b>Make a&nbsp;Use the Force&nbsp;check.&nbsp;</b>Compare the result of the Use the Force check to the Fortitude Defense of the target. If your Use the Force check equals or exceeds the target's Fortitude Defense, the target's Speed is reduced to 0, until the start of your next turn. A creature can escape (restoring its normal Speed) by making a Grapple check as a Standard Action, opposed by your Use the Force check result. (If the target cannot make Grapple checks, that target cannot escape.) </p><p><b>Special: </b>There must be one or more plants adjacent to the target, or else this Force Power fails automatically. </p><p>You can spend a Force Point to impose a -10 penalty to the target's Grapple checks made to escape the <i>Plant Surge</i>. </p><p>You can maintain&nbsp;<i>Plant Surge</i>&nbsp;from round to round, extending the normal duration. Maintaining the&nbsp;<i>Plant Surge</i>&nbsp;Force Power&nbsp;is a&nbsp;Swift Action, and you must make a new&nbsp;Use the Force&nbsp;check each round. If you take damage while maintaining&nbsp;<i>Plant Surge</i>, you must succeed on a&nbsp;Use the Force&nbsp;check (DC = 15 + damage taken) to continue maintaining the&nbsp;<i>Plant Surge</i>. </p>",
+    "descriptors": [],
+    "action": "Standard Action",
+    "target": "One creature within 12 squares of you, and within your line of sight.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "31M82qnmDo5Ejeit",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

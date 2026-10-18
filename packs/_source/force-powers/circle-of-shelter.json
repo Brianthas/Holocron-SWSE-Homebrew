@@ -1,0 +1,41 @@
+{
+  "_id": "eJBOJ7rbOHj8OqM1",
+  "_key": "!items!eJBOJ7rbOHj8OqM1",
+  "name": "Circle of Shelter",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You create a protected area around yourself, through which enemies have difficulty reaching you or your allies. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> Self, plus all adjacent allies </p><p><b>Make a Use the Force check.</b> The result of the check determines the effects, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>Until the end of your next turn, you and all adjacent allies gain a +1 deflection bonus to Reflex Defense. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>Until the end of your next turn, you and all adjacent allies gain a +2 deflection bonus to Reflex Defense. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>Until the end of your next turn, you and all adjacent allies gain a +5 deflection bonus to Reflex Defense. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Soresu)</b>: If you have the <b>Soresu</b> Talent, you can add the deflection bonus on Use the Force checks made to use the <b>Block</b> and <b>Deflect</b> Talents until the end of your next turn. </p><p><b>Special:</b> You can spend a Force Point to also apply the deflection bonus from this Form Power to the Fortitude Defense of all adjacent allies. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Standard Action",
+    "target": "Self, plus all adjacent allies",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 20,
+        "text": "Until the end of your next turn, you and all adjacent allies gain a +1 deflection bonus to Reflex Defense."
+      },
+      {
+        "dc": 25,
+        "text": "Until the end of your next turn, you and all adjacent allies gain a +2 deflection bonus to Reflex Defense."
+      },
+      {
+        "dc": 30,
+        "text": "Until the end of your next turn, you and all adjacent allies gain a +5 deflection bonus to Reflex Defense."
+      }
+    ],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "f4iqmNo3RS6slj20",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

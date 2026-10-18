@@ -1,0 +1,28 @@
+{
+  "_id": "GmrjhTTRTYJgRwnx",
+  "_key": "!items!GmrjhTTRTYJgRwnx",
+  "name": "Force Lightning",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You blast an enemy with deadly arcs of Force energy. </p><p><b>[<i>Dark Side</i>]</b> </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One target in line of sight and within 6 squares of user. </p><p><b>Make a Use the Force check.</b> Make one roll and compare the result to the target's Reflex Defense. If your Use the Force check equals or exceeds the target’s Reflex Defense, the target takes 8d6 points of Force damage and moves -1 step along the Condition Track. Otherwise, the target takes half damage and does not move along the Condition Track. </p><p><b>Special:</b> You can spend a Force Point to move a target an additional -1 step along the Condition Track when you successfully hit it with<i> Force Lightning</i>. </p>",
+    "descriptors": [
+      "darkSide"
+    ],
+    "action": "Standard Action",
+    "target": "One target in line of sight and within 6 squares of user.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5SvpN7YXN9RT3fGO",
+      "sourceBook": ""
+    }
+  }
+}

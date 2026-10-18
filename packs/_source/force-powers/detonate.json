@@ -1,0 +1,45 @@
+{
+  "_id": "5zjQpHN5ofI3K4gJ",
+  "_key": "!items!5zjQpHN5ofI3K4gJ",
+  "name": "Detonate",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You can perceive points of weakness within an object and use&nbsp;The Force&nbsp;to telekinetically press on one of those points, shattering the object. </p><p><b>[<i>Telekinetic</i>]</b> </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One unattended object within 12 squares of you and in your line of sight. </p><p><b>Make a Use the Force check.</b> The result of the check determines the result, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>The object takes 4d6 points of damage. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>The object takes 6d6 points of damage. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>The object takes 8d6 points of damage. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>The object takes 10d6 points of damage. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> You may spend a Force Point when you activate this Force Power to increase the damage dealt to the object by +2d6. </p>",
+    "descriptors": [
+      "telekinetic"
+    ],
+    "action": "Standard Action",
+    "target": "One unattended object within 12 squares of you and in your line of sight.",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 20,
+        "text": "The object takes 4d6 points of damage."
+      },
+      {
+        "dc": 25,
+        "text": "The object takes 6d6 points of damage."
+      },
+      {
+        "dc": 30,
+        "text": "The object takes 8d6 points of damage."
+      },
+      {
+        "dc": 35,
+        "text": "The object takes 10d6 points of damage."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FK3gLEpqk5mKFEcZ",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

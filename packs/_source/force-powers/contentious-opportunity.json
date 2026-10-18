@@ -1,0 +1,45 @@
+{
+  "_id": "ZigRO9eSI4TqQD0H",
+  "_key": "!items!ZigRO9eSI4TqQD0H",
+  "name": "Contentious Opportunity",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You seize the moment when your opponent gives you an opening, darting in to strike. </p><p><b>Time:</b> Free Action (when you make an Attack of Opportunity) </p><p><b>Targets:</b> One enemy within reach </p><p><b>Make a Use the Force check.</b> The result of the check determines the effects, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>If you hit with your Attack of Opportunity, you deal an additional +1 die of damage. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>If you hit with your Attack of Opportunity, you deal an additional +2 dice of damage. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>If you hit with your Attack of Opportunity, you deal an additional +3 dice of damage. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td>If you hit with your Attack of Opportunity, you deal an additional +4 dice of damage. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Makashi)</b>: If you have the <b>Makashi</b> Talent, you gain a +2 Force bonus on Attacks of Opportunity (including this one) until the end of your next turn. </p><p><b>Special:</b> If you hit with the Attack of Opportunity, you can immediately spend a Force Point as a Reaction to reduce the target's Speed by 2 squares until the end of its next turn. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Free Action (when you make an Attack of Opportunity)",
+    "target": "One enemy within reach",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 20,
+        "text": "If you hit with your Attack of Opportunity, you deal an additional +1 die of damage."
+      },
+      {
+        "dc": 25,
+        "text": "If you hit with your Attack of Opportunity, you deal an additional +2 dice of damage."
+      },
+      {
+        "dc": 30,
+        "text": "If you hit with your Attack of Opportunity, you deal an additional +3 dice of damage."
+      },
+      {
+        "dc": 35,
+        "text": "If you hit with your Attack of Opportunity, you deal an additional +4 dice of damage."
+      }
+    ],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7OhLbvC5tHxZU1VZ",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

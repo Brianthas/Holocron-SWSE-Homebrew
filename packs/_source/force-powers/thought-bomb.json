@@ -1,0 +1,28 @@
+{
+  "_id": "gP45WDAkq21vQMC4",
+  "_key": "!items!gP45WDAkq21vQMC4",
+  "name": "Thought Bomb",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use The Force to radiate out harmful waves of telepathy, damaging the minds of nearby foes. </p><p><b>[<i>Mind-Affecting</i>]</b> </p><p><b>Time:</b>&nbsp;Standard Action </p><p><b>Targets:</b>&nbsp;All opponents within 2 squares of you. </p><p><b>Make a&nbsp;Use the Force&nbsp;check. </b>Compare the result of the Use the Force check to each target's Will Defense. If the result equals or exceeds the target's Will Defense, the target takes 2d6 points of Force damage, and loses its Swift Action on its next turn. This is an Area Effect. </p><p><b>Special: </b>You can spend a Force Point to increase the damage dealt by this Force Power by an additional +2d6 points of Force damage. </p>",
+    "descriptors": [
+      "mindAffecting"
+    ],
+    "action": "Standard Action",
+    "target": "All opponents within 2 squares of you.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GTr2c9nuomXt9cgs",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

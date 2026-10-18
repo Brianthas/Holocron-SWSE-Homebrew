@@ -1,0 +1,45 @@
+{
+  "_id": "LdeJwSlivvV1Wbhv",
+  "_key": "!items!LdeJwSlivvV1Wbhv",
+  "name": "Mind Shard",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use The Force to splinter the mind of an opponent, wracking it with pain. </p><p><b>[<i>Mind-Affecting</i>]</b> </p><p><b>Time:</b>&nbsp;Standard Action </p><p><b>Targets:</b>&nbsp;One creature within 12 squares of you, and within your line of sight. </p><p><b>Make a&nbsp;Use the Force&nbsp;check.&nbsp;</b>The result of the check determines the effects, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>Compare your Use the Force check result to the target's Will Defense. If your Use the Force check result equals or exceeds the target's Will Defense, the target takes 2d8 points of Force damage, and moves -1 step down the Condition Track. Furthermore, the target cannot improve its Condition until the end of your next turn (although other creatures may use abilities to improve the target's Condition). </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>Compare your Use the Force check result to the target's Will Defense. If your Use the Force check result equals or exceeds the target's Will Defense, the target takes 3d8 points of Force damage, and moves -1 step down the Condition Track. Furthermore, the target cannot improve its Condition until the end of your next turn (although other creatures may use abilities to improve the target's Condition). </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>Compare your Use the Force check result to the target's Will Defense. If your Use the Force check result equals or exceeds the target's Will Defense, the target takes 4d8 points of Force damage, and moves -1 step down the Condition Track. Furthermore, the target cannot improve its Condition until the end of your next turn (although other creatures may use abilities to improve the target's Condition). </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>Compare your Use the Force check result to the target's Will Defense. If your Use the Force check result equals or exceeds the target's Will Defense, the target takes 5d8 points of Force damage, and moves -1 step down the Condition Track. Furthermore, the target cannot improve its Condition until the end of your next turn (although other creatures may use abilities to improve the target's Condition). </td>\n  </tr>\n </tbody>\n</table><p><b>Special: </b>You can spend a Force Point to increase the damage dealt by an additional +2d8 points of Force damage. </p>",
+    "descriptors": [
+      "mindAffecting"
+    ],
+    "action": "Standard Action",
+    "target": "One creature within 12 squares of you, and within your line of sight.",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "Compare your Use the Force check result to the target's Will Defense. If your Use the Force check result equals or exceeds the target's Will Defense, the target takes 2d8 points of Force damage, and moves -1 step down the Condition Track. Furthermore, the target cannot improve its Condition until the end of your next turn (although other creatures may use abilities to improve the target's Condition)."
+      },
+      {
+        "dc": 20,
+        "text": "Compare your Use the Force check result to the target's Will Defense. If your Use the Force check result equals or exceeds the target's Will Defense, the target takes 3d8 points of Force damage, and moves -1 step down the Condition Track. Furthermore, the target cannot improve its Condition until the end of your next turn (although other creatures may use abilities to improve the target's Condition)."
+      },
+      {
+        "dc": 25,
+        "text": "Compare your Use the Force check result to the target's Will Defense. If your Use the Force check result equals or exceeds the target's Will Defense, the target takes 4d8 points of Force damage, and moves -1 step down the Condition Track. Furthermore, the target cannot improve its Condition until the end of your next turn (although other creatures may use abilities to improve the target's Condition)."
+      },
+      {
+        "dc": 30,
+        "text": "Compare your Use the Force check result to the target's Will Defense. If your Use the Force check result equals or exceeds the target's Will Defense, the target takes 5d8 points of Force damage, and moves -1 step down the Condition Track. Furthermore, the target cannot improve its Condition until the end of your next turn (although other creatures may use abilities to improve the target's Condition)."
+      }
+    ],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OFhjLsUDoc48wNHD",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

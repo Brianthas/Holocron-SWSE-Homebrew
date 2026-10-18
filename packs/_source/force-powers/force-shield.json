@@ -1,0 +1,45 @@
+{
+  "_id": "XVvDE8LVYVwhU58T",
+  "_key": "!items!XVvDE8LVYVwhU58T",
+  "name": "Force Shield",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use&nbsp;The Force&nbsp;to create a bubble of telekinetic energy around yourself, protecting you from harm. </p><p><b>[<i>Telekinetic</i>]</b> </p><p><b>Time:</b> Reaction </p><p><b>Targets:</b> Self </p><p><b>Make a Use the Force check.</b> The result of the check determines the result, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>You gain a Shield Rating (SR) of 5 until the beginning of your next turn. unlike other Shield Ratings, this Shield Rating is made of pure telekinetic energy and cannot be recharged by any means. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You gain a Shield Rating (SR) of 10 until the beginning of your next turn. unlike other Shield Ratings, this Shield Rating is made of pure telekinetic energy and cannot be recharged by any means. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You gain a Shield Rating (SR) of 15 until the beginning of your next turn. unlike other Shield Ratings, this Shield Rating is made of pure telekinetic energy and cannot be recharged by any means. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>You gain a Shield Rating (SR) of 20 until the beginning of your next turn. unlike other Shield Ratings, this Shield Rating is made of pure telekinetic energy and cannot be recharged by any means. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:&nbsp;</b>You can spend a&nbsp;Force Point&nbsp;when you activate this Force Power to increase the <i>Force Shield's</i> Shield Rating by 5. </p><p>You can maintain&nbsp;<i>Force Shield</i>&nbsp;from round to round, extending the normal duration. Maintaining the&nbsp;<i>Force Shield</i>&nbsp;Force Power&nbsp;is a&nbsp;Standard Action. If the <i>Force Shield's</i> Shield Rating is ever reduced to 0, the Force Power's effect ends. </p>",
+    "descriptors": [
+      "telekinetic"
+    ],
+    "action": "Reaction",
+    "target": "Self",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "You gain a Shield Rating (SR) of 5 until the beginning of your next turn. unlike other Shield Ratings, this Shield Rating is made of pure telekinetic energy and cannot be recharged by any means."
+      },
+      {
+        "dc": 20,
+        "text": "You gain a Shield Rating (SR) of 10 until the beginning of your next turn. unlike other Shield Ratings, this Shield Rating is made of pure telekinetic energy and cannot be recharged by any means."
+      },
+      {
+        "dc": 25,
+        "text": "You gain a Shield Rating (SR) of 15 until the beginning of your next turn. unlike other Shield Ratings, this Shield Rating is made of pure telekinetic energy and cannot be recharged by any means."
+      },
+      {
+        "dc": 30,
+        "text": "You gain a Shield Rating (SR) of 20 until the beginning of your next turn. unlike other Shield Ratings, this Shield Rating is made of pure telekinetic energy and cannot be recharged by any means."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lfKKuqr3SUyqH9P0",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

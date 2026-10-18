@@ -1,0 +1,47 @@
+{
+  "_id": "Er2I5zAtmgakJkMH",
+  "_key": "!items!Er2I5zAtmgakJkMH",
+  "name": "Fold Space",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You can use The Force to bend space, transporting an object almost instantaneously from one place to another. </p><p><b>Time:</b>&nbsp;Full-Round Action </p><p><b>Targets:</b>&nbsp;One held or unattended object within 6 squares and line of sight, or one Vehicle you occupy. </p><p><b>Make a&nbsp;Use the Force&nbsp;check. </b>The result of the check determines the maximum size of the object you can transport, and the distance you can transport it: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You can move a Medium or smaller object up to 6 squares. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You can move a Large or smaller object up to 12 squares. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>You can move a Huge or smaller object up to 18 squares. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>You can move a Gargantuan or smaller object up to 24 squares. </td>\n  </tr> \n  <tr> \n   <td>40 </td> \n   <td> </td> \n   <td>You can move a Colossal or smaller object up to 30 squares. </td>\n  </tr>\n </tbody>\n</table><p><b>Special: </b>If the object you are transporting contains other objects or creatures (such as a Starship), everything contained within the object is transported as well. </p><p>You can spend a Force Point to increase the maximum size of the object you can move by two categories, up to Colossal (Cruiser) in size, or double the distance the object is transported. </p>",
+    "descriptors": [],
+    "action": "Full-Round Action",
+    "target": "One held or unattended object within 6 squares and line of sight, or one Vehicle you occupy.",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 20,
+        "text": "You can move a Medium or smaller object up to 6 squares."
+      },
+      {
+        "dc": 25,
+        "text": "You can move a Large or smaller object up to 12 squares."
+      },
+      {
+        "dc": 30,
+        "text": "You can move a Huge or smaller object up to 18 squares."
+      },
+      {
+        "dc": 35,
+        "text": "You can move a Gargantuan or smaller object up to 24 squares."
+      },
+      {
+        "dc": 40,
+        "text": "You can move a Colossal or smaller object up to 30 squares."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rarPWKRSKAb8VnPN",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -24,7 +24,7 @@ const items = [
     weaponProficiencies: ["advancedMelee", "lightsabers", "pistols", "simple"], startingFeat: "Force Sensitivity", talentTrees: ["Jedi Consular"] } },
   { name: "Weapon Focus", type: "feat", system: { repeatable: true, choice: "pistols", prerequisite: { text: "Proficient with the chosen weapon", nodes: null } } },
   { name: "Dueling Stance", type: "talent", system: { tree: "Lightsaber Combat", action: "Reaction" } },
-  { name: "Move Object", type: "forcePower", system: { descriptors: ["Telekinetic"], action: "Standard", bands: [{ dc: 15, text: "Medium" }, { dc: 20, text: "Large" }], copies: 2, ready: 1 } },
+  { name: "Move Object", type: "forcePower", system: { descriptors: ["telekinetic"], action: "Standard", bands: [{ dc: 15, text: "Medium" }, { dc: 20, text: "Large" }], copies: 2, ready: 1 } },
   { name: "Extended Move Object", type: "feature", system: { category: "forceTechnique", power: "Move Object" } },
   { name: "Blaster Pistol", type: "weapon", system: { category: "ranged", group: "pistols", damage: "3d6", damageTypes: ["Energy", "Stun"], slot: "light" } },
   { name: "Battle Armor", type: "armor", system: { reflex: { ability: "", flat: 4 }, damageReduction: 2, drBypass: "lightsabers" } },

@@ -1,0 +1,39 @@
+{
+  "_id": "PPHjKXjOHfRg7dYd",
+  "_key": "!items!PPHjKXjOHfRg7dYd",
+  "name": "Ionize",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You call upon The Force to overload electrical systems and&nbsp;Droids, damaging or even destroying the unit. </p><p><b>Time:</b>&nbsp;Standard Action </p><p><b>Targets:</b>&nbsp;One target within 6 squares and within line of sight </p><p><b>Make a&nbsp;Use the Force&nbsp;check.&nbsp;</b>Compare the result of the check to the target's&nbsp;Reflex Defense. If the check equals or exceeds the target's&nbsp;Reflex Defense, the target sustains damage as determined by the results of your check: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>The target takes 4d6 points of Ion damage. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>The target takes 5d6 points of Ion damage. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>The target takes 6d6 points of Ion damage. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:&nbsp;</b>You can spend a&nbsp;Force Point&nbsp;to increase the Ion damage dealt by this Force Power by an additional 2d6 points of Ion damage.</p>",
+    "descriptors": [],
+    "action": "Standard Action",
+    "target": "One target within 6 squares and within line of sight",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 20,
+        "text": "The target takes 4d6 points of Ion damage."
+      },
+      {
+        "dc": 25,
+        "text": "The target takes 5d6 points of Ion damage."
+      },
+      {
+        "dc": 30,
+        "text": "The target takes 6d6 points of Ion damage."
+      }
+    ],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "X9ywyupQlCYnowFE",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

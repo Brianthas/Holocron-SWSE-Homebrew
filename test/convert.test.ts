@@ -3,6 +3,7 @@ import { cleanDescription } from "../tools/convert/lib/html.ts";
 import { idFor, slugify } from "../tools/convert/lib/ids.ts";
 import { checkKeys, Report, type SourceDoc } from "../tools/convert/lib/pack.ts";
 import { techniquePower } from "../tools/convert/packs/force-features.ts";
+import { parseBand } from "../tools/convert/packs/force-powers.ts";
 
 // Extended Move Object's description exactly as the fork stores it.
 const EXTENDED_MOVE_OBJECT = '<p><i>Reference Book:&nbsp;<a href="https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual" title="Star Wars Saga Edition Jedi Academy Training Manual">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also:&nbsp;<a href="https://swse.fandom.com/wiki/Force_Techniques" title="Force Techniques">Force Techniques</a></i> </p><p>The base range of your <i><a href="https://swse.fandom.com/wiki/Move_Object" title="Move Object">Move Object</a></i> Force Power increases to 18 squares (instead of 12 squares). </p>';
@@ -55,6 +56,18 @@ describe("converter key check", () => {
     expect(problems(doc({ cost: "5" }, { effects: [{}], flags: { swse: { x: 1 } } }))).toEqual([
       'cost is "5", expected "0"', "1 embedded effects not mapped", 'unmapped flags: {"swse":{"x":1}}',
     ]);
+  });
+});
+
+describe("Force power bands", () => {
+  it("parse the fork's DC:text checks", () => {
+    expect(parseBand("15:The target heals Hit Points equal to 2 x its Character Level."))
+      .toEqual({ dc: 15, text: "The target heals Hit Points equal to 2 x its Character Level." });
+    expect(parseBand("25:Line one:\nline two")).toEqual({ dc: 25, text: "Line one:\nline two" });
+  });
+  it("refuse anything else", () => {
+    expect(parseBand("DC 15: text")).toBeNull();
+    expect(parseBand(true)).toBeNull();
   });
 });
 

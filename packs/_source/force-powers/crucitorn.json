@@ -1,0 +1,43 @@
+{
+  "_id": "gGDXdefkqQkfVxFY",
+  "_key": "!items!gGDXdefkqQkfVxFY",
+  "name": "Crucitorn",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You ignore the debilitating effects of physical pain, and focus despite great physical trauma. </p><p><b>Time:</b>&nbsp;Reaction (to an attack or Force Power) </p><p><b>Targets:</b>&nbsp;Self </p><p><b>Make a&nbsp;Use the Force&nbsp;check. </b>The result of the check determines the effects, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>You gain a +5 Force bonus to your Damage Threshold against any damage you take from the attack or Force Power. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You gain a +10 Force bonus to your Damage Threshold against any damage you take from the attack or Force Power. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You gain a +15 Force bonus to your Damage Threshold against any damage you take from the attack or Force Power. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>You gain a +20 Force bonus to your Damage Threshold against any damage you take from the attack or Force Power. </td>\n  </tr>\n </tbody>\n</table><p><b>Special: </b>You can spend a Force Point to increase the bonus to your Damage Threshold by an additional +5. </p>",
+    "descriptors": [],
+    "action": "Reaction (to an attack or Force Power)",
+    "target": "Self",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "You gain a +5 Force bonus to your Damage Threshold against any damage you take from the attack or Force Power."
+      },
+      {
+        "dc": 20,
+        "text": "You gain a +10 Force bonus to your Damage Threshold against any damage you take from the attack or Force Power."
+      },
+      {
+        "dc": 25,
+        "text": "You gain a +15 Force bonus to your Damage Threshold against any damage you take from the attack or Force Power."
+      },
+      {
+        "dc": 30,
+        "text": "You gain a +20 Force bonus to your Damage Threshold against any damage you take from the attack or Force Power."
+      }
+    ],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SKVaYpLuaWQzW0vR",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

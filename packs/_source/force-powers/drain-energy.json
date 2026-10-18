@@ -1,0 +1,43 @@
+{
+  "_id": "PglCd37GvExdVoCA",
+  "_key": "!items!PglCd37GvExdVoCA",
+  "name": "Drain Energy",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You can draw the energy out of a powered object, such as a blaster's Power Pack or a Power Generator. </p><p><b>Time:</b>&nbsp;Standard Action </p><p><b>Targets:</b>&nbsp;One powered weapon or object within 6 squares of you, and within range of sight. </p><p><b>Make a&nbsp;Use the Force&nbsp;check. </b>The result of the check determines the effects, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You drain the energy from the energy cell or cells powering a Small or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its Energy Cells are replaced. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You drain the energy from the energy cell or cells powering a Medium or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its Energy Cells are replaced. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>You drain the energy from the energy cell or cells powering a Large or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its Energy Cells are replaced. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>You drain the energy from the energy cell or cells powering a Huge or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its Energy Cells are replaced. If the object is being powered by a Power Generator, you drain all of the power from that instead. </td>\n  </tr>\n </tbody>\n</table><p><b>Special: </b>You can spend a Force Point to increase the size of the object that can be drained by one size category (up to Gargantuan). </p>",
+    "descriptors": [],
+    "action": "Standard Action",
+    "target": "One powered weapon or object within 6 squares of you, and within range of sight.",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 20,
+        "text": "You drain the energy from the energy cell or cells powering a Small or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its Energy Cells are replaced."
+      },
+      {
+        "dc": 25,
+        "text": "You drain the energy from the energy cell or cells powering a Medium or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its Energy Cells are replaced."
+      },
+      {
+        "dc": 30,
+        "text": "You drain the energy from the energy cell or cells powering a Large or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its Energy Cells are replaced."
+      },
+      {
+        "dc": 35,
+        "text": "You drain the energy from the energy cell or cells powering a Huge or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its Energy Cells are replaced. If the object is being powered by a Power Generator, you drain all of the power from that instead."
+      }
+    ],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QAPL32tFAekxQKxM",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

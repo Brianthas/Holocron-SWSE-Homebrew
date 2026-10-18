@@ -1,0 +1,28 @@
+{
+  "_id": "zOCffiOj0uPRKSnL",
+  "_key": "!items!zOCffiOj0uPRKSnL",
+  "name": "Force Thrust",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use The Force to push a target away from you. </p><p><b>[<i>Telekinetic</i>]</b> </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One object or character within 12 squares and within line of sight. </p><p><b>Make a Use the Force check.</b> The target makes a Strength check. If you beat the target's Strength check, you push it back 1 square plus an additional square for every 5 points by which you exceed the target's check result. If you push the target into a larger object, the target takes 1d6 points of damage. </p><p>The target adds its Base Attack Bonus and its size modifier to its Strength check: Colossal, +20; Gargantuan, +15; Huge, +10; Large, +5; Medium, +0; Small, -5; Tiny, -10; Diminutive, -15; Fine, -20. In addition, it gets a +5 stability bonus if it has more than two legs or is otherwise exceptionally stable. </p><p><b>Special:</b> You can spend a Force Point to apply a -5 penalty to the target's Strength check to resist your <i>Force Thrust</i>. Additionally, if you successfully push the target into a larger object, you deal an additional 2d6 points of damage from the extreme force of the thrust. </p>",
+    "descriptors": [
+      "telekinetic"
+    ],
+    "action": "Standard Action",
+    "target": "One object or character within 12 squares and within line of sight.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "N3Z6r9b3o5DWmh8y",
+      "sourceBook": ""
+    }
+  }
+}

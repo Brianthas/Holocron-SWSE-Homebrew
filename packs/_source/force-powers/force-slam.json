@@ -1,0 +1,28 @@
+{
+  "_id": "7SvKRSNhOi5fZJxu",
+  "_key": "!items!7SvKRSNhOi5fZJxu",
+  "name": "Force Slam",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You pound one or more creatures with The Force. </p><p><b>[<i>Telekinetic</i>]</b> </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> All targets within a 6 square cone and within line of sight. </p><p><b>Make a Use the Force check.</b> Make one roll and compare the result to each target's Fortitude Defense. If the result equals or exceeds a target's Fortitude Defense, it takes 4d6 points of Force damage and is knocked Prone. If the result is less than a target's Fortitude Defense, it takes half damage and is not knocked Prone. Targets larger than Medium add a size modifier to Fortitude Defense against this Force Power: Colossal +50, Gargantuan +20, Huge +10, Large +5. This is an Area Attack. </p><p><b>Special:</b> When you use this Force Power, you can spend a Force Point to deal an additional 2d6 points of damage to targets in the area. </p>",
+    "descriptors": [
+      "telekinetic"
+    ],
+    "action": "Standard Action",
+    "target": "All targets within a 6 square cone and within line of sight.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0JaasjVz2RqlzPLo",
+      "sourceBook": ""
+    }
+  }
+}

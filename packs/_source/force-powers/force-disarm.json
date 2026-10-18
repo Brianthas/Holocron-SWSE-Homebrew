@@ -1,0 +1,28 @@
+{
+  "_id": "3KsmjBGJlCZOWH85",
+  "_key": "!items!3KsmjBGJlCZOWH85",
+  "name": "Force Disarm",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You Disarm an opponent by using The Force to pull the weapon from their grasp. </p><p><b>[<i>Telekinetic</i>]</b> </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One target within 12 squares, and within line of sight. </p><p><b>Make a Use the Force check.</b> Use this check in place of your attack roll when attempting to Disarm the target. If your Disarm attempt succeeds, you may choose to let the item drop to the ground in the target's fighting space or have the item fly into your hand (in which case you must have a free hand to catch it). </p><p><b>Special: </b>You can spend a Force Point to damage or destroy the target weapon instead. If your Disarm attempt succeeds, the weapon takes damage equal to your Use the Force check result. You must declare that you are using this option before making your Disarm attempt. </p><h2>&nbsp;Additional Force Disarm Effects</h2><p><b>Combined Feat (Force Training + Improved Disarm):</b>&nbsp;When you use the <i>Force Disarm</i> power, you gain the +5 bonus from Improved Disarm on your Use the Force check as though you were making an attack roll. </p>",
+    "descriptors": [
+      "telekinetic"
+    ],
+    "action": "Standard Action",
+    "target": "One target within 12 squares, and within line of sight.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5QbWrn30Wk4ThuE4",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

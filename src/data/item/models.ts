@@ -1,4 +1,5 @@
 import { ABILITIES } from "../../config/abilities.ts";
+import { FORCE_DESCRIPTOR_KEYS } from "../../config/force.ts";
 import { SIZES } from "../../config/sizes.ts";
 import { WEAPON_GROUP_KEYS } from "../../config/weapons.ts";
 
@@ -102,7 +103,7 @@ export class TalentModel extends foundry.abstract.TypeDataModel<ReturnType<typeo
 function forcePowerSchema() {
   return {
     description: new fields.HTMLField(),
-    descriptors: strings(),
+    descriptors: new fields.ArrayField(new fields.StringField({ required: true, blank: false, choices: [...FORCE_DESCRIPTOR_KEYS] })),
     action: text(),
     target: text(),
     /** The skill the power rolls; Use the Force unless the power names another (Bryan's fork, v1.4.7). */

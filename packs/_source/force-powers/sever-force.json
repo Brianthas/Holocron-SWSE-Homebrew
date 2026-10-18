@@ -1,0 +1,41 @@
+{
+  "_id": "leq7gu0sWqauweqL",
+  "_key": "!items!leq7gu0sWqauweqL",
+  "name": "Sever Force",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You can block another Force-user's access to The Force, preventing them from spending Force Points and making it difficult for them to use Force Powers. </p><p><b>[<i>Light Side</i>]</b> </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One Force-using creature with a Dark Side Score of 1 or higher that is within 12 squares and within line of sight. </p><p><b>Make a Use the Force check.</b> If your Use the Force check equals or exceeds the target's Will Defense, the effect (if any) is determined by your check result: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>The target cannot spend Force Points for a number of hours equal to its Dark Side Score. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>The target cannot spend Force Points for a number of hours equal to its Dark Side Score. In addition, the target moves -1 step along the Condition Track each time they use a Force Power in the same time frame. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>The target cannot spend Force Points for a number of hours equal to its Dark Side Score. In addition, the target moves -2 step along the Condition Track each time they use a Force Power in the same time frame. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> This Force Power has no effect on targets with a Dark Side Score of 0. </p><p>You can spend a Force Point to double the duration of the effect. Alternatively, you can spend a Destiny Point to increase the duration to a number of days equal to the target's Dark Side Score. </p>",
+    "descriptors": [
+      "lightSide"
+    ],
+    "action": "Standard Action",
+    "target": "One Force-using creature with a Dark Side Score of 1 or higher that is within 12 squares and within line of sight.",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 25,
+        "text": "The target cannot spend Force Points for a number of hours equal to its Dark Side Score."
+      },
+      {
+        "dc": 30,
+        "text": "The target cannot spend Force Points for a number of hours equal to its Dark Side Score. In addition, the target moves -1 step along the Condition Track each time they use a Force Power in the same time frame."
+      },
+      {
+        "dc": 35,
+        "text": "The target cannot spend Force Points for a number of hours equal to its Dark Side Score. In addition, the target moves -2 step along the Condition Track each time they use a Force Power in the same time frame."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dT6vC9CNrn0gT1zT",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "Ah5fUr8gu99GesLC",
+  "_key": "!items!Ah5fUr8gu99GesLC",
+  "name": "Battle Strike",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use The Force to enhance your battle prowess. </p><p><b>Time:</b> Swift Action </p><p><b>Targets:</b> Self </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>Gain a +1 Force bonus on your next attack roll made before the end of your next turn and deal an additional 1d6 points of damage if the attack hits. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>Gain a +1 Force bonus on your next attack roll made before the end of your next turn and deal an additional 2d6 points of damage if the attack hits. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>Gain a +1 Force bonus on your next attack roll made before the end of your next turn and deal an additional 3d6 points of damage if the attack hits. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> You can spend a Force Point to deal an additional 2d6 points of damage on your next attack. </p>",
+    "descriptors": [],
+    "action": "Swift Action",
+    "target": "Self",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "Gain a +1 Force bonus on your next attack roll made before the end of your next turn and deal an additional 1d6 points of damage if the attack hits."
+      },
+      {
+        "dc": 20,
+        "text": "Gain a +1 Force bonus on your next attack roll made before the end of your next turn and deal an additional 2d6 points of damage if the attack hits."
+      },
+      {
+        "dc": 25,
+        "text": "Gain a +1 Force bonus on your next attack roll made before the end of your next turn and deal an additional 3d6 points of damage if the attack hits."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QQ8ufP0f4BQrLxdx",
+      "sourceBook": ""
+    }
+  }
+}

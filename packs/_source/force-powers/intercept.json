@@ -1,0 +1,28 @@
+{
+  "_id": "j0OKZifDow4bnTRz",
+  "_key": "!items!j0OKZifDow4bnTRz",
+  "name": "Intercept",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use The Force to telekinetically hurl a small object in the path of an incoming projectile, preventing it from striking you. </p><p><b>[<i>Telekinetic</i>]</b> </p><p><b>Time:</b>&nbsp;Reaction </p><p><b>Targets:</b>&nbsp;One incoming ranged attack targeting you. </p><p><b>Make a&nbsp;Use the Force&nbsp;check. </b>If your Use the Force check equals or exceeds the attack roll result of the incoming ranged attack (including all modifiers), you negate the attack against you. </p><p><b>Special: </b>You can use this Force Power to negate an object being used as a projectile weapon with the Move Light Object application of the Use the Force skill, or the <i>Move Object</i> Force Power. In both cases, the DC for your Use the Force check is equal to the Use the Force check made by the opponent targeting you with the projectile. If you are successful, the object being used as a projectile weapon does not hit you, and deals no damage to you. Additionally, if the object was moved with the <i>Move Object</i> Force Power, the activator of that Force Power can no longer maintain the <i>Move Object</i> Force Power on that object. </p><p>You can spend a Force Point to use this Force Power to intercept some of the barrage of shots from a ranged weapon set on Autofire. If you succeed on the Use the Force check, you take half damage if the Autofire attack hits, and no damage if the Autofire attack misses. </p>",
+    "descriptors": [
+      "telekinetic"
+    ],
+    "action": "Reaction",
+    "target": "One incoming ranged attack targeting you.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pwqr01Lkm0HhmEto",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

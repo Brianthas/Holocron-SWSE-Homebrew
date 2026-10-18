@@ -1,0 +1,45 @@
+{
+  "_id": "qoRI6mfgqwdX8mpU",
+  "_key": "!items!qoRI6mfgqwdX8mpU",
+  "name": "Disarming Slash",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You strike at your opponent's weapon, attempting to rip it from their grasp. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One enemy within reach </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>Make a single melee attack with a Lightsaber against an adjacent opponent. If the attack deals damage, you can use your Use the Force check result in place of an attack roll to make an immediate Disarm attempt against the target. If you succeed at your disarm attempt, you can have the weapon drop to the ground or call it to your own hand (assuming you have a free hand with which to hold the weapon). </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>Make a single melee attack with a Lightsaber against an adjacent opponent. If the attack deals damage, you can use your Use the Force check result in place of an attack roll to make an immediate Disarm attempt against the target, and your target gains only a +5 bonus to its Reflex Defense to resist (instead of a +10 bonus). If you succeed at your disarm attempt, you can have the weapon drop to the ground or call it to your own hand (assuming you have a free hand with which to hold the weapon). </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>Make a single melee attack with a Lightsaber against an adjacent opponent. If the attack deals damage, you can use your Use the Force check result in place of an attack roll to make an immediate Disarm attempt against the target, and your target gains only a +2 bonus to its Reflex Defense to resist (instead of a +10 bonus). If you succeed at your disarm attempt, you can have the weapon drop to the ground or call it to your own hand (assuming you have a free hand with which to hold the weapon). </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>Make a single melee attack with a Lightsaber against an adjacent opponent. If the attack deals damage, you can use your Use the Force check result in place of an attack roll to make an immediate Disarm attempt against the target, and your target does not receive a bonus to its Reflex Defense to resist (instead of a +10 bonus). If you succeed at your disarm attempt, you can have the weapon drop to the ground or call it to your own hand (assuming you have a free hand with which to hold the weapon). </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Shii-Cho):</b> If you have the <b>Shii-Cho</b> Talent, you can use this Form Power as a Reaction to being attacked by an adjacent opponent. </p><p><b>Special:</b> You can spend a Force Point to deal damage to the target's weapon equal to the damage you dealt to the target, provided you successfully Disarm that opponent. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Standard Action",
+    "target": "One enemy within reach",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "Make a single melee attack with a Lightsaber against an adjacent opponent. If the attack deals damage, you can use your Use the Force check result in place of an attack roll to make an immediate Disarm attempt against the target. If you succeed at your disarm attempt, you can have the weapon drop to the ground or call it to your own hand (assuming you have a free hand with which to hold the weapon)."
+      },
+      {
+        "dc": 20,
+        "text": "Make a single melee attack with a Lightsaber against an adjacent opponent. If the attack deals damage, you can use your Use the Force check result in place of an attack roll to make an immediate Disarm attempt against the target, and your target gains only a +5 bonus to its Reflex Defense to resist (instead of a +10 bonus). If you succeed at your disarm attempt, you can have the weapon drop to the ground or call it to your own hand (assuming you have a free hand with which to hold the weapon)."
+      },
+      {
+        "dc": 25,
+        "text": "Make a single melee attack with a Lightsaber against an adjacent opponent. If the attack deals damage, you can use your Use the Force check result in place of an attack roll to make an immediate Disarm attempt against the target, and your target gains only a +2 bonus to its Reflex Defense to resist (instead of a +10 bonus). If you succeed at your disarm attempt, you can have the weapon drop to the ground or call it to your own hand (assuming you have a free hand with which to hold the weapon)."
+      },
+      {
+        "dc": 30,
+        "text": "Make a single melee attack with a Lightsaber against an adjacent opponent. If the attack deals damage, you can use your Use the Force check result in place of an attack roll to make an immediate Disarm attempt against the target, and your target does not receive a bonus to its Reflex Defense to resist (instead of a +10 bonus). If you succeed at your disarm attempt, you can have the weapon drop to the ground or call it to your own hand (assuming you have a free hand with which to hold the weapon)."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SYQ9pFSbynNR4Ro5",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

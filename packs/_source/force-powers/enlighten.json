@@ -1,0 +1,29 @@
+{
+  "_id": "GNgUtMJeW3hs9Jgf",
+  "_key": "!items!GNgUtMJeW3hs9Jgf",
+  "name": "Enlighten",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You reach out to an ally telepathically, sharing visions of the near future to give the ally an edge or to protect the ally from harm. </p><p><b>[<i>Light Side</i>, <i>Mind-Affecting</i>]</b> </p><p><b>Time:</b> Reaction or Swift Action </p><p><b>Targets:</b> One ally within 12 squares of you and in your line of sight. </p><p><b>Make a Use the Force check.</b> The target may use the check result instead of one attack roll, Skill Check, or opposed check it makes before the start of your next turn, or the target can use the check result in place of one of its Defenses until the start of your next turn. </p><p><b>Special:</b> You may spend a Force Point when you activate this Force Power to prolong the effect until the end of your next turn. </p>",
+    "descriptors": [
+      "lightSide",
+      "mindAffecting"
+    ],
+    "action": "Reaction or Swift Action",
+    "target": "One ally within 12 squares of you and in your line of sight.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mBHgxNVZe4DSlMIz",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

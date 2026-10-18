@@ -1,0 +1,46 @@
+{
+  "_id": "hPK0vbqmwmr8sCTM",
+  "_key": "!items!hPK0vbqmwmr8sCTM",
+  "name": "Vornskr's Ferocity",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form, Dark Side</i>]</b> </p><p>You walk the thin line between darkness and light as you ferociously attack your foe. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One enemy within reach </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>You make a single melee attack with a Lightsaber against the target, dealing +1 die of damage if you hit. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>You make a single melee attack with a Lightsaber against the target, dealing +2 dice of damage if you hit. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>You make a single melee attack with a Lightsaber against the target, dealing +3 dice of damage if you hit. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td>You make a single melee attack with a Lightsaber against the target, dealing +4 dice of damage if you hit. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Juyo):</b> If you have the <b>Juyo</b> Talent, this Form Power does not have the [<i>Dark Side</i>] descriptor for you. </p><p><b>Special:</b> You can spend a Force Point to use this Form Power at the end of a Charge. </p>",
+    "descriptors": [
+      "darkSide",
+      "lightsaberForm"
+    ],
+    "action": "Standard Action",
+    "target": "One enemy within reach",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 20,
+        "text": "You make a single melee attack with a Lightsaber against the target, dealing +1 die of damage if you hit."
+      },
+      {
+        "dc": 25,
+        "text": "You make a single melee attack with a Lightsaber against the target, dealing +2 dice of damage if you hit."
+      },
+      {
+        "dc": 30,
+        "text": "You make a single melee attack with a Lightsaber against the target, dealing +3 dice of damage if you hit."
+      },
+      {
+        "dc": 35,
+        "text": "You make a single melee attack with a Lightsaber against the target, dealing +4 dice of damage if you hit."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KhVH7mqZcBTvUPv6",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

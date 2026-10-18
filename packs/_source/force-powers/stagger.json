@@ -1,0 +1,28 @@
+{
+  "_id": "Dj3fXTNwP00ca3ch",
+  "_key": "!items!Dj3fXTNwP00ca3ch",
+  "name": "Stagger",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use&nbsp;The Force&nbsp;to lash out at a nearby enemy, causing it to stumble. </p><p><b>[<i>Telekinetic</i>]</b> </p><p><b>Time:</b> Swift Action </p><p><b>Targets:</b> One target adjacent to you. </p><p><b>Make a Use the Force check.</b> Compare the result to the target's Fortitude Defense. If the check result equals or exceeds the target's Fortitude Defense, the target takes 2d6 points of Force damage and is pushed 1 square away from you. This movement does not provoke Attacks of Opportunity. </p><p><b>Special:</b> You can spend a Force Point when you activate this Force Power to affect all enemies adjacent to you, in which case compare your Use the Force check result to each target's Fortitude Defense. </p>",
+    "descriptors": [
+      "telekinetic"
+    ],
+    "action": "Swift Action",
+    "target": "One target adjacent to you.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rYIaFatEk9lbBsBo",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "_id": "4EDd1bQ51wLBkS3U",
+  "_key": "!items!4EDd1bQ51wLBkS3U",
+  "name": "Shatterpoint",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You can see the critical point of something, whether it is a person or object, that would shatter if struck at the right time. </p><p><b>Time:</b> Swift Action </p><p><b>Targets:</b> Self </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>If your next attack made before the end of the encounter hits, treat the target's Damage Threshold against the attack as though it were 5 points lower than normal. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>If your next attack made before the end of the encounter hits, treat the target's Damage Threshold against the attack as though it were 10 points lower than normal. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>If your next attack made before the end of the encounter hits, treat the target's Damage Threshold against the attack as though it were 15 points lower than normal. </td>\n  </tr> \n  <tr> \n   <td>40 </td> \n   <td> </td> \n   <td>If your next attack made before the end of the encounter hits, treat the target's Damage Threshold against the attack as though it were 20 points lower than normal. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> You can spend a Force Point to ignore the target's Damage Reduction in addition to gaining the normal effects of <i>Shatterpoint</i>.</p>",
+    "descriptors": [],
+    "action": "Swift Action",
+    "target": "Self",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 25,
+        "text": "If your next attack made before the end of the encounter hits, treat the target's Damage Threshold against the attack as though it were 5 points lower than normal."
+      },
+      {
+        "dc": 30,
+        "text": "If your next attack made before the end of the encounter hits, treat the target's Damage Threshold against the attack as though it were 10 points lower than normal."
+      },
+      {
+        "dc": 35,
+        "text": "If your next attack made before the end of the encounter hits, treat the target's Damage Threshold against the attack as though it were 15 points lower than normal."
+      },
+      {
+        "dc": 40,
+        "text": "If your next attack made before the end of the encounter hits, treat the target's Damage Threshold against the attack as though it were 20 points lower than normal."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GNgXU1If6NvvGqHN",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

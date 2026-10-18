@@ -1,0 +1,28 @@
+{
+  "_id": "Do3mDeqjgXdMM3E8",
+  "_key": "!items!Do3mDeqjgXdMM3E8",
+  "name": "Ballistakinesis",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use&nbsp;The Force&nbsp;to spray an area with dangerous debris. </p><p><b>[<i>Telekinetic</i>]</b> </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> All targets within a 2x2 square area (the entire area must be within 12 squares of you and in your line of sight). </p><p><b>Make a Use the Force check.</b> Compare the result to the Reflex Defense of each target in the affected area. If the check result equals or exceeds a target's Reflex Defense, the target takes 3d8 points of Bludgeoning, Piercing, or Slashing damage (your choice) and takes a -2 penalty on all attack rolls until the start of your next turn. This is an Area Attack. </p><p><b>Special:</b> You may spend a Force Point when you activate this Force Power, in which case targets whose Reflex Defense you fail to exceed with your Use the Force check take half damage. </p>",
+    "descriptors": [
+      "telekinetic"
+    ],
+    "action": "Standard Action",
+    "target": "All targets within a 2x2 square area (the entire area must be within 12 squares of you and in your line of sight).",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eSuFCFMVOLacHE57",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

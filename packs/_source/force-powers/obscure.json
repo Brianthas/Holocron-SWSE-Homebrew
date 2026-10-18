@@ -1,0 +1,28 @@
+{
+  "_id": "6pKMLZgkssHPdJlb",
+  "_key": "!items!6pKMLZgkssHPdJlb",
+  "name": "Obscure",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use&nbsp;The Force&nbsp;to cloud an enemy's mind, making it harder for the enemy to see its target. </p><p><b>[<i>Mind-Affecting</i>]</b> </p><p><b>Time:</b> Reaction </p><p><b>Targets:</b> One target within 12 squares of you and in your line of sight that just made an attack roll. </p><p><b>Make a Use the Force check.</b> Compare the result to the target's Will Defense. If the check result equals or exceeds the target's Will Defense, the target takes a -5 penalty on the attack roll. If the target misses with the attack, you can choose to make the target reroll the attack against another creature adjacent to it; this attack is also at a -5 penalty. </p><p><b>Special:</b> You may spend a Force Point when you activate this Force Power to apply the penalty to all of the target's attack rolls made until the start of its next turn. </p>",
+    "descriptors": [
+      "mindAffecting"
+    ],
+    "action": "Reaction",
+    "target": "One target within 12 squares of you and in your line of sight that just made an attack roll.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QOZpUiyC1bXIRDyc",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

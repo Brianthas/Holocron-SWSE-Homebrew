@@ -1,0 +1,28 @@
+{
+  "_id": "Kt1Yq8embRQ93f4X",
+  "_key": "!items!Kt1Yq8embRQ93f4X",
+  "name": "Rend",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You can move a single target, whether it is a creature or object, in two different directions simultaneously. </p><p><b>[<i>Dark Side</i>]</b> </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One target in your line of sight and within 6 squares of you. </p><p><b>Make a Use the Force check.</b> Compare the result with the target's Reflex Defense. If the check equals or exceeds the target's Reflex Defense, the target takes 3d6 points of damage. If your Use the Force check is a Natural 20, you score the equivalent of a Critical Hit, and the target takes double damage. If you deal enough damage to reduce the target to 0 Hit Points, you rip the target into two separate parts (living creatures are automatically killed). </p><p><b>Special:</b> If your Use the Force check succeeds, you can spend a Force Point to deal an additional 2d6 points of damage to the target. </p>",
+    "descriptors": [
+      "darkSide"
+    ],
+    "action": "Standard Action",
+    "target": "One target in your line of sight and within 6 squares of you.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rq7AG87jjsS16K8X",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

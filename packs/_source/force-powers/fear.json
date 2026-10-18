@@ -1,0 +1,46 @@
+{
+  "_id": "WgycHoXY4XL4vH9p",
+  "_key": "!items!WgycHoXY4XL4vH9p",
+  "name": "Fear",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You summon The Dark Side to instill fear in your enemies. </p><p><b>[<i>Dark Side, Mind-Affecting</i>]</b> </p><p><b>Time:</b>&nbsp;Swift Action </p><p><b>Targets:</b>&nbsp;One creature within 12 squares and within line of sight </p><p><b>Make a&nbsp;Use the Force&nbsp;check.&nbsp;</b>This is a Fear effect. The result of the check determines the effects, if any: </p><p>Compare the result of the check to the target's Will Defense. If the check result equals or exceeds the target's Will Defense, the target is affected as determined by the results of your Use the Force check. </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>The target can take only one Standard Action on its next turn. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>The target can take only one Move Action on its next turn. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>The target can take only one Swift Action on its next turn. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>The target can take no Actions on its next turn. </td>\n  </tr>\n </tbody>\n</table><p><b>Special: </b>When you successfully use this Force Power on an opponent, you can spend a Force Point to impose a -2 penalty on all of the target's Defenses until the beginning of your next turn.</p>",
+    "descriptors": [
+      "darkSide",
+      "mindAffecting"
+    ],
+    "action": "Swift Action",
+    "target": "One creature within 12 squares and within line of sight",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "The target can take only one Standard Action on its next turn."
+      },
+      {
+        "dc": 20,
+        "text": "The target can take only one Move Action on its next turn."
+      },
+      {
+        "dc": 25,
+        "text": "The target can take only one Swift Action on its next turn."
+      },
+      {
+        "dc": 30,
+        "text": "The target can take no Actions on its next turn."
+      }
+    ],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZtLLBeBWcHp3iehA",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

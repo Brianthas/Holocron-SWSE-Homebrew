@@ -1,0 +1,45 @@
+{
+  "_id": "hULsfY18PcQWn4UI",
+  "_key": "!items!hULsfY18PcQWn4UI",
+  "name": "Falling Avalanche",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You raise your Lightsaber above your head then bring it crashing down on your opponent with incredible force. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> Self, plus one enemy within reach </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>You can make a single melee attack with a Lightsaber against the target, provided that it is no more than one size category larger than you. If your attack does damage, you can push the target 1 square away from you, and then move into the space your enemy just vacated. Neither your movement nor the target's movement provoke Attacks of Opportunity. You cannot move a target that is Grabbed or Grappled. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>You can make a single melee attack with a Lightsaber against the target, provided that it is no more than one size category larger than you. If your attack does damage, you can push the target 2 squares away from you, and then move through spaces your target passed through to end adjacent to your target. Neither your movement nor the target's movement provoke Attacks of Opportunity. You cannot move a target that is Grabbed or Grappled. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>You can make a single melee attack with a Lightsaber against the target, provided that it is no more than one size category larger than you. If your attack does damage, you can push the target 3 squares away from you, and then move through spaces your target passed through to end adjacent to your target. Neither your movement nor the target's movement provoke Attacks of Opportunity. You cannot move a target that is Grabbed or Grappled. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>You can make a single melee attack with a Lightsaber against the target, provided that it is no more than one size category larger than you. If your attack does damage, you can push the target 4 squares away from you, and then move through spaces your target passed through to end adjacent to your target. Neither your movement nor the target's movement provoke Attacks of Opportunity. You cannot move a target that is Grabbed or Grappled. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Djem So)</b>: If you have the <b>Djem So</b> Talent, after successfully activating this Form Power, you gain one temporary Force Point which can only be used to activate the <b>Djem So</b> Talent. If this temporary Force Point is not used before the end of the encounter, it is lost. </p><p><b>Special:</b> You can spend a Force Point to knock your opponent prone after its forced movement. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Standard Action",
+    "target": "Self, plus one enemy within reach",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "You can make a single melee attack with a Lightsaber against the target, provided that it is no more than one size category larger than you. If your attack does damage, you can push the target 1 square away from you, and then move into the space your enemy just vacated. Neither your movement nor the target's movement provoke Attacks of Opportunity. You cannot move a target that is Grabbed or Grappled."
+      },
+      {
+        "dc": 20,
+        "text": "You can make a single melee attack with a Lightsaber against the target, provided that it is no more than one size category larger than you. If your attack does damage, you can push the target 2 squares away from you, and then move through spaces your target passed through to end adjacent to your target. Neither your movement nor the target's movement provoke Attacks of Opportunity. You cannot move a target that is Grabbed or Grappled."
+      },
+      {
+        "dc": 25,
+        "text": "You can make a single melee attack with a Lightsaber against the target, provided that it is no more than one size category larger than you. If your attack does damage, you can push the target 3 squares away from you, and then move through spaces your target passed through to end adjacent to your target. Neither your movement nor the target's movement provoke Attacks of Opportunity. You cannot move a target that is Grabbed or Grappled."
+      },
+      {
+        "dc": 30,
+        "text": "You can make a single melee attack with a Lightsaber against the target, provided that it is no more than one size category larger than you. If your attack does damage, you can push the target 4 squares away from you, and then move through spaces your target passed through to end adjacent to your target. Neither your movement nor the target's movement provoke Attacks of Opportunity. You cannot move a target that is Grabbed or Grappled."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TgWfN4mwGCob01IR",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

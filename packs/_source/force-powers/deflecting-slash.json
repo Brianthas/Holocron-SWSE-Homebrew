@@ -1,0 +1,45 @@
+{
+  "_id": "IUh19Asvgt9bUhKe",
+  "_key": "!items!IUh19Asvgt9bUhKe",
+  "name": "Deflecting Slash",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You use the momentum from your effort to deflect a projectile to strike at an adjacent opponent. </p><p><b>Time:</b> Reaction (when targeted by a non-Area Attack ranged attack) </p><p><b>Targets:</b> Self, plus one enemy within reach </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. Additionally, you can make a single melee attack with a Lightsaber against any one target within your reach after the damage is resolved. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. Additionally, you can make a single melee attack with a Lightsaber against any one target within your reach after the damage is resolved. This attack deals +1 point of damage on a hit. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. Additionally, you can make a single melee attack with a Lightsaber against any one target within your reach after the damage is resolved. This attack deals +3 points of damage on a hit. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. Additionally, you can make a single melee attack with a Lightsaber against any one target within your reach after the damage is resolved. This attack deals +5 points of damage on a hit. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Soresu)</b>: If you have the <b>Soresu</b> talent, you can spend a Force Point as a Reaction to redirect the incoming attack (as per the <b>Redirect Shot</b> Talent) at any other target within 6 squares of you. </p><p><b>Special:</b> You can spend a Force Point to take no damage from the incoming attack if your check equals or exceeds its attack roll. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Reaction (when targeted by a non-Area Attack ranged attack)",
+    "target": "Self, plus one enemy within reach",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. Additionally, you can make a single melee attack with a Lightsaber against any one target within your reach after the damage is resolved."
+      },
+      {
+        "dc": 20,
+        "text": "Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. Additionally, you can make a single melee attack with a Lightsaber against any one target within your reach after the damage is resolved. This attack deals +1 point of damage on a hit."
+      },
+      {
+        "dc": 25,
+        "text": "Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. Additionally, you can make a single melee attack with a Lightsaber against any one target within your reach after the damage is resolved. This attack deals +3 points of damage on a hit."
+      },
+      {
+        "dc": 30,
+        "text": "Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. Additionally, you can make a single melee attack with a Lightsaber against any one target within your reach after the damage is resolved. This attack deals +5 points of damage on a hit."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "34jtUeCB7Wr3bEZM",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

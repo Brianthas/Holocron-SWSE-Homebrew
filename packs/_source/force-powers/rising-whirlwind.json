@@ -1,0 +1,45 @@
+{
+  "_id": "hl9lWqYw3LpF1hsm",
+  "_key": "!items!hl9lWqYw3LpF1hsm",
+  "name": "Rising Whirlwind",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You swing your Lightsabers around your body, creating a brilliant whirlwind of deadly light. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> Two enemies within reach </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>You can make two Lightsaber melee attacks, each against a different target. If both attacks hit, you gain 10 Bonus Hit Points. Damage is subtracted from Bonus Hit Points first, and any remaining Bonus Hit Points disappear at the end of the encounter. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>You can make two Lightsaber melee attacks, each against a different target. If both attacks hit, you gain 15 Bonus Hit Points. Damage is subtracted from Bonus Hit Points first, and any remaining Bonus Hit Points disappear at the end of the encounter. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>You can make two Lightsaber melee attacks, each against a different target. If both attacks hit, you gain 20 Bonus Hit Points. Damage is subtracted from Bonus Hit Points first, and any remaining Bonus Hit Points disappear at the end of the encounter. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>You can make two Lightsaber melee attacks, each against a different target. If both attacks hit, you gain 25 Bonus Hit Points. Damage is subtracted from Bonus Hit Points first, and any remaining Bonus Hit Points disappear at the end of the encounter. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Jar'Kai)</b>: If you have the <b>Jar'Kai</b> Talent, you can move up to 2 squares between the two attacks. This movement does not provoke Attacks of Opportunity, </p><p><b>Special:</b> You must be wielding two Lightsabers to use this Form Power. You can spend a Force Point to deal +1d6 damage to each target you hit. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Standard Action",
+    "target": "Two enemies within reach",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "You can make two Lightsaber melee attacks, each against a different target. If both attacks hit, you gain 10 Bonus Hit Points. Damage is subtracted from Bonus Hit Points first, and any remaining Bonus Hit Points disappear at the end of the encounter."
+      },
+      {
+        "dc": 20,
+        "text": "You can make two Lightsaber melee attacks, each against a different target. If both attacks hit, you gain 15 Bonus Hit Points. Damage is subtracted from Bonus Hit Points first, and any remaining Bonus Hit Points disappear at the end of the encounter."
+      },
+      {
+        "dc": 25,
+        "text": "You can make two Lightsaber melee attacks, each against a different target. If both attacks hit, you gain 20 Bonus Hit Points. Damage is subtracted from Bonus Hit Points first, and any remaining Bonus Hit Points disappear at the end of the encounter."
+      },
+      {
+        "dc": 30,
+        "text": "You can make two Lightsaber melee attacks, each against a different target. If both attacks hit, you gain 25 Bonus Hit Points. Damage is subtracted from Bonus Hit Points first, and any remaining Bonus Hit Points disappear at the end of the encounter."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Z2a51WZWdNOkVKDw",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

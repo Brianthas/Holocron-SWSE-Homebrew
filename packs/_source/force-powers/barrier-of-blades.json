@@ -1,0 +1,28 @@
+{
+  "_id": "bVss7y48BhLpBsLy",
+  "_key": "!items!bVss7y48BhLpBsLy",
+  "name": "Barrier of Blades",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You whip your Lightsaber around you, creating a barrier through which blaster fire rarely penetrates. </p><p><b>Time</b>: Swift Action </p><p><b>Targets:</b> Self </p><p><b>Make a Use the Force check.</b> Until the start of your next turn, you can use the results of the Use the Force check in place of your Reflex Defense against incoming non-Area Attack ranged attacks. </p><p><b>Lightsaber Form (Shien)</b>: If you have the <b>Shien</b> Talent, you can redirect (as per the Redirect Shot Talent) one blaster bolt that misses you while this Form Power is in effect. </p><p><b>Special:</b> You can spend a Force Point to have this Form Power also apply to attacks from ranged weapons set to Autofire. If such an attack hits you while this Form Power is in effect, you take half damage; if it misses you, you take no damage. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Swift Action",
+    "target": "Self",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dknYKzKEcA9f0rev",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

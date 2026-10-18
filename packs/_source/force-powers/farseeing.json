@@ -1,0 +1,26 @@
+{
+  "_id": "L1nGXRMpHSISh8OB",
+  "_key": "!items!L1nGXRMpHSISh8OB",
+  "name": "Farseeing",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You gain a vague, momentary impression of events happening around a particular being in some distant place. </p><p><b>Time:</b> Full-Round Action </p><p><b>Targets:</b> One creature you know or have met with before. </p><p><b>Make a Use the Force check.</b> If your result is less than the target's Will Defense, you gain no information (including whether the target is alive or dead) and cannot use this Force Power against the same target for 24 hours. If your check result equals or exceeds the target's Will Defense, you can sense whether the target is alive or dead and gain a vague sense of its immediate surroundings, what it's currently doing, and any strong emotions it is presently feeling. A dead target has a Will Defense of 30 for purposes of this Force Power. </p><p><b>Special:</b> If you successfully use this Force Power, you can spend a Force Point to gain a clear mental image of the target's surroundings, as well as other creatures and objects within 6 squares of it. </p>",
+    "descriptors": [],
+    "action": "Full-Round Action",
+    "target": "One creature you know or have met with before.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OIwYjiF9XpY3M6d1",
+      "sourceBook": ""
+    }
+  }
+}

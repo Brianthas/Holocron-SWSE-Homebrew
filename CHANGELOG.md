@@ -51,3 +51,8 @@
 - Effects can last until a long rest: a "Long rest" expiry ends an effect applied to a character
   when that character rests, whether the GM or a player clicked Rest. Expiry happens on the active
   GM's client, so it needs a GM connected. An item's own effects are never tracked and never expire.
+- Force power descriptors are a fixed list: Dark Side, Light Side, Lightsaber Form, Mind-Affecting,
+  Telekinetic.
+- Content converted from the SWSE fork into `packs/_source`: 86 Force powers, 55 techniques, 15
+  secrets and 12 regimens. Cloak, Improved Cloak and Improved Dark Transfer are left out with
+  their powers (episode-vii, Force Power Changes). Not yet built into compendium packs.

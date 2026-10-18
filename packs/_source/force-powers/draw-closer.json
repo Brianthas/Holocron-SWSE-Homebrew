@@ -1,0 +1,46 @@
+{
+  "_id": "PSXaANw0ID2vklar",
+  "_key": "!items!PSXaANw0ID2vklar",
+  "name": "Draw Closer",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form, Telekinetic</i>]</b> </p><p>You grab an opponent with The Force, drawing him or her into the path of your weapon. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One enemy within 6 squares of you and in your line of sight. </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>If your target is Medium or smaller in size and is neither Grabbed nor Grappled, you immediately pull it into the nearest unoccupied space adjacent to you (if no space adjacent to you is a legal space for the target due to its size, the power fails). You can then make a single melee attack with a Lightsaber against the target. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>If your target is Large or smaller in size and is neither Grabbed nor Grappled, you immediately pull it into the nearest unoccupied space adjacent to you (if no space adjacent to you is a legal space for the target due to its size, the power fails). You can then make a single melee attack with a Lightsaber against the target. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>If your target is Huge or smaller in size and is neither Grabbed nor Grappled, you immediately pull it into the nearest unoccupied space adjacent to you (if no space adjacent to you is a legal space for the target due to its size, the power fails). You can then make a single melee attack with a Lightsaber against the target. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>If your target is Gargantuan or smaller in size and is neither Grabbed nor Grappled, you immediately pull it into the nearest unoccupied space adjacent to you (if no space adjacent to you is a legal space for the target due to its size, the power fails). You can then make a single melee attack with a Lightsaber against the target. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Niman)</b>: If you have the <b>Niman</b> Talent, you can target a creature within 12 squares (instead of 6 squares). </p><p><b>Special:</b> You can spend a Force Point to pull the target into any adjacent space. </p>",
+    "descriptors": [
+      "lightsaberForm",
+      "telekinetic"
+    ],
+    "action": "Standard Action",
+    "target": "One enemy within 6 squares of you and in your line of sight.",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "If your target is Medium or smaller in size and is neither Grabbed nor Grappled, you immediately pull it into the nearest unoccupied space adjacent to you (if no space adjacent to you is a legal space for the target due to its size, the power fails). You can then make a single melee attack with a Lightsaber against the target."
+      },
+      {
+        "dc": 20,
+        "text": "If your target is Large or smaller in size and is neither Grabbed nor Grappled, you immediately pull it into the nearest unoccupied space adjacent to you (if no space adjacent to you is a legal space for the target due to its size, the power fails). You can then make a single melee attack with a Lightsaber against the target."
+      },
+      {
+        "dc": 25,
+        "text": "If your target is Huge or smaller in size and is neither Grabbed nor Grappled, you immediately pull it into the nearest unoccupied space adjacent to you (if no space adjacent to you is a legal space for the target due to its size, the power fails). You can then make a single melee attack with a Lightsaber against the target."
+      },
+      {
+        "dc": 30,
+        "text": "If your target is Gargantuan or smaller in size and is neither Grabbed nor Grappled, you immediately pull it into the nearest unoccupied space adjacent to you (if no space adjacent to you is a legal space for the target due to its size, the power fails). You can then make a single melee attack with a Lightsaber against the target."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "z308ghiHzHOkX816",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "ZO3UjIfTP7jk8rGE",
+  "_key": "!items!ZO3UjIfTP7jk8rGE",
+  "name": "Wound",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You cause spasms in the lungs of your targets, painfully injuring them. </p><p><b>[<i>Dark Side</i>]</b> </p><p><b>Time:</b>&nbsp;Standard Action </p><p><b>Targets:</b>&nbsp;One creature within 6 squares of you, and within your line of sight. </p><p><b>Make a&nbsp;Use the Force&nbsp;check.&nbsp;</b>Make one roll and compare the result to the target's Fortitude Defense. If the result equals or exceeds the target's Fortitude Defense, the target receives 4d6 points of Force damage. The target adds a size modifier to it's&nbsp;Fortitude Defense&nbsp;for purposes of this&nbsp;Force Power: Colossal, +50; Gargantuan, +20; Huge, +10; Large, +5; Medium or smaller, +0. </p><p><b>Special: </b>You can spend a Force Point to increase the damage dealt by an additional +2d6 points of Force damage. </p><p>If the target moves 1 or more steps down the Condition Track as a result of being damaged by this Force Power, the Condition becomes Persistent until the target is treated with a DC 20 Treat Injury check to perform Surgery. </p>",
+    "descriptors": [
+      "darkSide"
+    ],
+    "action": "Standard Action",
+    "target": "One creature within 6 squares of you, and within your line of sight.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jKbbdi1awNl6W9ND",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

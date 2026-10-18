@@ -1,0 +1,45 @@
+{
+  "_id": "pku8FAKiU8sjnT5j",
+  "_key": "!items!pku8FAKiU8sjnT5j",
+  "name": "Force Light",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You can draw The Force into yourself, turning you into a beacon of light that purges the taint of The Dark Side. </p><p><b>[<i>Light Side</i>]</b> </p><p><b>Time:</b>&nbsp;Standard Action </p><p><b>Targets:</b>&nbsp;All creatures with a Dark Side Score of 1+, within 6 squares of you. </p><p><b>Make a&nbsp;Use the Force&nbsp;check. </b>The results of the check determines the effects, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>Until the start of your next turn, any creature with a Dark Side Score of 1+, that begins its turn within 6 squares of you, automatically takes 1d6 points of Force damage, and takes a -1 penalty on attack rolls. This is an Area Effect. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>Until the start of your next turn, any creature with a Dark Side Score of 1+, that begins its turn within 6 squares of you, automatically takes 2d6 points of Force damage, and takes a -1 penalty on attack rolls. This is an Area Effect. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>Until the start of your next turn, any creature with a Dark Side Score of 1+, that begins its turn within 6 squares of you, automatically takes 3d6 points of Force damage, and takes a -1 penalty on attack rolls. This is an Area Effect. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>Until the start of your next turn, any creature with a Dark Side Score of 1+, that begins its turn within 6 squares of you, automatically takes 4d6 points of Force damage, and takes a -1 penalty on attack rolls. This is an Area Effect. </td>\n  </tr>\n </tbody>\n</table><p><b>Special: </b>You can spend a Force Point to increase the damage dealt by an additional +1d6 points of Force damage. </p><p>You can maintain <i>Force Light</i> from round to round, extending the normal duration. Maintaining the&nbsp;<i>Force Light </i>Force Power is a Swift Action, and you must make a new Use the Force check each round. If you take damage while maintaining <i>Force Light</i>, you must succeed on a Use the Force check (DC = 15 + damage taken) to continue maintaining the <i>Force Light</i>. </p>",
+    "descriptors": [
+      "lightSide"
+    ],
+    "action": "Standard Action",
+    "target": "All creatures with a Dark Side Score of 1+, within 6 squares of you.",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 20,
+        "text": "Until the start of your next turn, any creature with a Dark Side Score of 1+, that begins its turn within 6 squares of you, automatically takes 1d6 points of Force damage, and takes a -1 penalty on attack rolls. This is an Area Effect."
+      },
+      {
+        "dc": 25,
+        "text": "Until the start of your next turn, any creature with a Dark Side Score of 1+, that begins its turn within 6 squares of you, automatically takes 2d6 points of Force damage, and takes a -1 penalty on attack rolls. This is an Area Effect."
+      },
+      {
+        "dc": 30,
+        "text": "Until the start of your next turn, any creature with a Dark Side Score of 1+, that begins its turn within 6 squares of you, automatically takes 3d6 points of Force damage, and takes a -1 penalty on attack rolls. This is an Area Effect."
+      },
+      {
+        "dc": 35,
+        "text": "Until the start of your next turn, any creature with a Dark Side Score of 1+, that begins its turn within 6 squares of you, automatically takes 4d6 points of Force damage, and takes a -1 penalty on attack rolls. This is an Area Effect."
+      }
+    ],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6XUIzTn237WEeOED",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

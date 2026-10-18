@@ -1,0 +1,39 @@
+{
+  "_id": "eCBBZaRW2SkpnsOV",
+  "_key": "!items!eCBBZaRW2SkpnsOV",
+  "name": "Prescience",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>The Force&nbsp;grants you a flash of insight in dealing with your enemies. </p><p><b>Time:</b> Swift Action </p><p><b>Targets:</b> One target within your line of sight. </p><p><b>Make a Use the Force check.</b> The result of the check determines the result, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>Until the end of your next turn, you gain a +1 insight bonus to all Defenses against attacks or effects originating from the target, as well as a +1 insight bonus on attack rolls made against the target. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>Until the end of your next turn, you gain a +2 insight bonus to all Defenses against attacks or effects originating from the target, as well as a +2 insight bonus on attack rolls made against the target. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>Until the end of your next turn, you gain a +3 insight bonus to all Defenses against attacks or effects originating from the target, as well as a +3 insight bonus on attack rolls made against the target. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> You can spend a Force Point when you activate this Force Power to affect one additional target in your line of sight. </p>",
+    "descriptors": [],
+    "action": "Swift Action",
+    "target": "One target within your line of sight.",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "Until the end of your next turn, you gain a +1 insight bonus to all Defenses against attacks or effects originating from the target, as well as a +1 insight bonus on attack rolls made against the target."
+      },
+      {
+        "dc": 20,
+        "text": "Until the end of your next turn, you gain a +2 insight bonus to all Defenses against attacks or effects originating from the target, as well as a +2 insight bonus on attack rolls made against the target."
+      },
+      {
+        "dc": 25,
+        "text": "Until the end of your next turn, you gain a +3 insight bonus to all Defenses against attacks or effects originating from the target, as well as a +3 insight bonus on attack rolls made against the target."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NbH3xudMUt7bjAvm",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "1UloGaSDkMYwyRgR",
+  "_key": "!items!1UloGaSDkMYwyRgR",
+  "name": "High Ground Defense",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You know how to take advantage of the terrain and gain a defensive advantage from it. </p><p><b>Time:</b> Swift Action </p><p><b>Targets:</b> Self </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>Until the start of your next turn, if you are standing on a low object or in Difficult Terrain, any creature that moves adjacent to you provokes an Attack of Opportunity from you. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>Until the start of your next turn, if you are standing on a low object or in Difficult Terrain, any creature that moves adjacent to you provokes an Attack of Opportunity from you. Additionally, you gain a +1 Force bonus on Attacks of Opportunity (including this one) until the start of your next turn. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>Until the start of your next turn, if you are standing on a low object or in Difficult Terrain, any creature that moves adjacent to you provokes an Attack of Opportunity from you. Additionally, you gain a +2 Force bonus on Attacks of Opportunity (including this one) until the start of your next turn. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>Until the start of your next turn, if you are standing on a low object or in Difficult Terrain, any creature that moves adjacent to you provokes an Attack of Opportunity from you. Additionally, you gain a +5 Force bonus on Attacks of Opportunity (including this one) until the start of your next turn. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Sokan)</b>: If you have the <b>Sokan</b> Talent, you deal +1 die of damage on Attacks of Opportunity until the start of your next turn. </p><p><b>Special:</b> You can spend a Force Point to move 1 square each time you make an Attack of Opportunity until the start of your next turn. This movement does not provoke Attacks of Opportunity. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Swift Action",
+    "target": "Self",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "Until the start of your next turn, if you are standing on a low object or in Difficult Terrain, any creature that moves adjacent to you provokes an Attack of Opportunity from you."
+      },
+      {
+        "dc": 20,
+        "text": "Until the start of your next turn, if you are standing on a low object or in Difficult Terrain, any creature that moves adjacent to you provokes an Attack of Opportunity from you. Additionally, you gain a +1 Force bonus on Attacks of Opportunity (including this one) until the start of your next turn."
+      },
+      {
+        "dc": 25,
+        "text": "Until the start of your next turn, if you are standing on a low object or in Difficult Terrain, any creature that moves adjacent to you provokes an Attack of Opportunity from you. Additionally, you gain a +2 Force bonus on Attacks of Opportunity (including this one) until the start of your next turn."
+      },
+      {
+        "dc": 30,
+        "text": "Until the start of your next turn, if you are standing on a low object or in Difficult Terrain, any creature that moves adjacent to you provokes an Attack of Opportunity from you. Additionally, you gain a +5 Force bonus on Attacks of Opportunity (including this one) until the start of your next turn."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OFQucvmn2Zq7DyhB",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

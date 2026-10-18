@@ -1,0 +1,45 @@
+{
+  "_id": "JH1CXxF989gwQuNf",
+  "_key": "!items!JH1CXxF989gwQuNf",
+  "name": "Hawk-Bat Swoop",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You leap into action against your foe, striking with your Lightsaber before other enemies have a chance to react. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> Self, plus one enemy within reach </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>You move up to 2 squares; this movement does not provoke Attacks of Opportunity. If you end your movement adjacent to a target, you can make a single melee attack with a Lightsaber against that target. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>You move up to 4 squares; this movement does not provoke Attacks of Opportunity. If you end your movement adjacent to a target, you can make a single melee attack with a Lightsaber against that target. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>You move up to 6 squares; this movement does not provoke Attacks of Opportunity. If you end your movement adjacent to a target, you can make a single melee attack with a Lightsaber against that target. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>You move up to 8 squares; this movement does not provoke Attacks of Opportunity. If you end your movement adjacent to a target, you can make a single melee attack with a Lightsaber against that target. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Ataru)</b>: If you have the <b>Ataru</b> Talent, you can also move up to 2 squares after you resolve your Lightsaber attack. This movement does not provoke Attacks of Opportunity. </p><p><b>Special:</b> You can spend a Force Point to deal +2 dice of damage with your Lightsaber attack. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Standard Action",
+    "target": "Self, plus one enemy within reach",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "You move up to 2 squares; this movement does not provoke Attacks of Opportunity. If you end your movement adjacent to a target, you can make a single melee attack with a Lightsaber against that target."
+      },
+      {
+        "dc": 20,
+        "text": "You move up to 4 squares; this movement does not provoke Attacks of Opportunity. If you end your movement adjacent to a target, you can make a single melee attack with a Lightsaber against that target."
+      },
+      {
+        "dc": 25,
+        "text": "You move up to 6 squares; this movement does not provoke Attacks of Opportunity. If you end your movement adjacent to a target, you can make a single melee attack with a Lightsaber against that target."
+      },
+      {
+        "dc": 30,
+        "text": "You move up to 8 squares; this movement does not provoke Attacks of Opportunity. If you end your movement adjacent to a target, you can make a single melee attack with a Lightsaber against that target."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TH3MNgtCdlAfk3Gq",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

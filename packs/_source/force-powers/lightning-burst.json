@@ -1,0 +1,28 @@
+{
+  "_id": "O8eLeDwEd0qhGpcq",
+  "_key": "!items!O8eLeDwEd0qhGpcq",
+  "name": "Lightning Burst",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You call upon The&nbsp;Dark Side&nbsp;to cause lightning to arc out from your body, striking adjacent enemies. </p><p><b>[<i>Dark Side</i>]</b> </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> All enemies adjacent to you. </p><p><b>Make a Use the Force check.</b> Compare the result to each target's Reflex Defense. If the attack hits, the target takes 3d6 points of Force damage and moves -1 step along the Condition Track. If the attack misses, the target takes half damage and does not move along the Condition Track. </p><p><b>Special:</b> You may spend a Force Point when you activate this Force Power to increase the damage dealt by +2d6. </p><p>You can maintain the <i>Lightning Burst</i> Force Power as a Standard Action, provided you haven't moved since activating the Force Power. When you maintain a <i>Lightning Burst</i>, make a new Use the Force check and compare the result to the Reflex Defense of each target in range (as described above). </p>",
+    "descriptors": [
+      "darkSide"
+    ],
+    "action": "Standard Action",
+    "target": "All enemies adjacent to you.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PNBwaqychzn84Qwx",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

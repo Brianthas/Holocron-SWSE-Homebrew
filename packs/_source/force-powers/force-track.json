@@ -1,0 +1,43 @@
+{
+  "_id": "7DxuWBcaFhObIbFn",
+  "_key": "!items!7DxuWBcaFhObIbFn",
+  "name": "Force Track",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You peer into The Force for guidance, picking up the trail of your quarry. </p><p><b>Time:</b>&nbsp;Swift Action </p><p><b>Targets:</b>&nbsp;Self </p><p><b>Make a&nbsp;Use the Force&nbsp;check.&nbsp;</b>The result of the check determines the result, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>You determine the path taken by a specific creature you designate, provided you are within line of sight to the creature's trail. You can Track the creature without needing to make Survival checks for up to 1 hour, provided the creature you are Tracking passed through the area within the last minute. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You determine the path taken by a specific creature you designate, provided you are within line of sight to the creature's trail. You can Track the creature without needing to make Survival checks for up to 1 hour, provided the creature you are Tracking passed through the area within the last 10 minutes. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You determine the path taken by a specific creature you designate, provided you are within line of sight to the creature's trail. You can Track the creature without needing to make Survival checks for up to 1 hour, provided the creature you are Tracking passed through the area within the last hour. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>You determine the path taken by a specific creature you designate, provided you are within line of sight to the creature's trail. You can Track the creature without needing to make Survival checks for up to 1 hour, provided the creature you are Tracking passed through the area within the last day. </td>\n  </tr>\n </tbody>\n</table><p><b>Special: </b>You can spend a Force Point to Track up to two targets simultaneously. </p>",
+    "descriptors": [],
+    "action": "Swift Action",
+    "target": "Self",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "You determine the path taken by a specific creature you designate, provided you are within line of sight to the creature's trail. You can Track the creature without needing to make Survival checks for up to 1 hour, provided the creature you are Tracking passed through the area within the last minute."
+      },
+      {
+        "dc": 20,
+        "text": "You determine the path taken by a specific creature you designate, provided you are within line of sight to the creature's trail. You can Track the creature without needing to make Survival checks for up to 1 hour, provided the creature you are Tracking passed through the area within the last 10 minutes."
+      },
+      {
+        "dc": 25,
+        "text": "You determine the path taken by a specific creature you designate, provided you are within line of sight to the creature's trail. You can Track the creature without needing to make Survival checks for up to 1 hour, provided the creature you are Tracking passed through the area within the last hour."
+      },
+      {
+        "dc": 30,
+        "text": "You determine the path taken by a specific creature you designate, provided you are within line of sight to the creature's trail. You can Track the creature without needing to make Survival checks for up to 1 hour, provided the creature you are Tracking passed through the area within the last day."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Z4hpoS1Uh2gExWWk",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

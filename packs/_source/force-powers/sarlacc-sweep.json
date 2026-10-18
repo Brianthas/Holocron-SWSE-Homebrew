@@ -1,0 +1,45 @@
+{
+  "_id": "kVwq5tKSnfLyqzAa",
+  "_key": "!items!kVwq5tKSnfLyqzAa",
+  "name": "Sarlacc Sweep",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You lash out at multiple enemies, striking at them with a sweeping motion. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One enemy within reach (the primary target), one other enemy within reach (the secondary target) </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>You can make a single melee attack with a Lightsaber against the primary target. The attack does normal damage to the primary target and 5 points of damage to the secondary target if the attack hits. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>You can make a single melee attack with a Lightsaber against the primary target. The attack does normal damage to the primary target and 5 +1d6 points of damage to the secondary target if the attack hits. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>You can make a single melee attack with a Lightsaber against the primary target. The attack does normal damage to the primary target and 5 +2d6 points of damage to the secondary target if the attack hits. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>You can make a single melee attack with a Lightsaber against the primary target. The attack does normal damage to the primary target and 5 +3d6 points of damage to the secondary target if the attack hits. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Shii-Cho)</b>: If you have the <b>Shii-Cho</b> Talent, you can use this Form Power in place of a melee attack at the end of a Charge. You gain the benefits of the Powerful Charge Feat on the initial attack only if you use this Form Power in that way. </p><p><b>Special:</b> You can spend a Force Point to affect two secondary attacks, provided both enemies are within your reach and adjacent to the primary target of your Lightsaber attack. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Standard Action",
+    "target": "One enemy within reach (the primary target), one other enemy within reach (the secondary target)",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "You can make a single melee attack with a Lightsaber against the primary target. The attack does normal damage to the primary target and 5 points of damage to the secondary target if the attack hits."
+      },
+      {
+        "dc": 20,
+        "text": "You can make a single melee attack with a Lightsaber against the primary target. The attack does normal damage to the primary target and 5 +1d6 points of damage to the secondary target if the attack hits."
+      },
+      {
+        "dc": 25,
+        "text": "You can make a single melee attack with a Lightsaber against the primary target. The attack does normal damage to the primary target and 5 +2d6 points of damage to the secondary target if the attack hits."
+      },
+      {
+        "dc": 30,
+        "text": "You can make a single melee attack with a Lightsaber against the primary target. The attack does normal damage to the primary target and 5 +3d6 points of damage to the secondary target if the attack hits."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jTMfTubRAddhduEL",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

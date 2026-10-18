@@ -1,0 +1,45 @@
+{
+  "_id": "bpG6KUpdrVoBBmdm",
+  "_key": "!items!bpG6KUpdrVoBBmdm",
+  "name": "Saber Swarm",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You slash at your opponent rapidly, aiming many short strikes at the target's body. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One enemy within reach </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>You can make two Lightsaber melee attacks against a single target. Each of these attacks is made at a -5 penalty. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>You can make two Lightsaber melee attacks against a single target. Each of these attacks is made at a -2 penalty. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>You can make two Lightsaber melee attacks against a single target. Each of these attacks is made at a -1 penalty. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td>You can make two Lightsaber melee attacks against a single target. You suffer no additional penalties for these attacks. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Ataru)</b>: If you have the <b>Ataru</b> Talent, your opponent takes a -5 penalty on all Use the Force checks made to block your attacks with the <b>Block</b> Talent or the <i>Makashi Riposte</i> Form Power. </p><p><b>Special:</b> You can spend a Force Point to move up to 2 squares before or after you use this Form Power. This movement does not provoke Attacks of Opportunity. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Standard Action",
+    "target": "One enemy within reach",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 20,
+        "text": "You can make two Lightsaber melee attacks against a single target. Each of these attacks is made at a -5 penalty."
+      },
+      {
+        "dc": 25,
+        "text": "You can make two Lightsaber melee attacks against a single target. Each of these attacks is made at a -2 penalty."
+      },
+      {
+        "dc": 30,
+        "text": "You can make two Lightsaber melee attacks against a single target. Each of these attacks is made at a -1 penalty."
+      },
+      {
+        "dc": 35,
+        "text": "You can make two Lightsaber melee attacks against a single target. You suffer no additional penalties for these attacks."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0ypg4krC88q6fNH6",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

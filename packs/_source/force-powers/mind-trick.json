@@ -1,0 +1,28 @@
+{
+  "_id": "1T49iCyHV3SNk3g1",
+  "_key": "!items!1T49iCyHV3SNk3g1",
+  "name": "Mind Trick",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use The Force to alter a target's perceptions or plant a suggestion in its mind. </p><p><b>[<i>Mind-Affecting</i>]</b> </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One creature with an Intelligence score of 3 or higher that is both within 12 squares, and within line of sight. </p><p><b>Make a Use the Force check.</b> If you equal or exceed the target's Will Defense, you may choose one of the following effects: </p><ul>\n <li>You create a fleeting hallucination that distracts the target and enables you to use the Stealth skill even if the target is aware of you.</li> \n <li>You perform a Feint so that the next attack you make against the target ignores its Dexterity bonus to Reflex Defense (if any).</li> \n <li>You make an otherwise unpalatable suggestion seem completely reasonable to the target. You must be able to communicate with the target, and the suggestion can't obviously threaten the target's life. The target won't realize later that what they did is unacceptable.</li> \n <li>You fill the target with terror, causing it to flee from you at top speed for 1 minute. The affected creature stops fleeing if it is wounded. The effect is negated if the target's level is equal to or higher than your Character Level. This is a Fear effect.</li>\n</ul><p><b>Special:</b> If you are making a suggestion, you may spend a Force Point to improve the target's Attitude by one step, plus one additional step for every 5 points by which your Use the Force check exceeds the target's Will Defense. </p>",
+    "descriptors": [
+      "mindAffecting"
+    ],
+    "action": "Standard Action",
+    "target": "One creature with an Intelligence score of 3 or higher that is both within 12 squares, and within line of sight.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "s5qpZ9QS0cCYsVze",
+      "sourceBook": ""
+    }
+  }
+}

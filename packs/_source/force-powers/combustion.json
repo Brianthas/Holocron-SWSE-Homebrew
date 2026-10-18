@@ -1,0 +1,26 @@
+{
+  "_id": "is0aiMYpgjJemu25",
+  "_key": "!items!is0aiMYpgjJemu25",
+  "name": "Combustion",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use&nbsp;The Force&nbsp;to agitate particles in the air to create a pyrokinetic spray of sparks. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> All targets within a 2x2 square area (the entire area must be within 12 squares of you and in your line of sight). </p><p><b>Make a Use the Force check.</b> Compare the result to the Fortitude Defense of each target in the affected area. If the check result equals or exceeds a target's Fortitude Defense, the target takes 4d6 points of Fire damage and catches on Fire. This is an Area Attack. </p><p>The result of your Use the Force check determines the attack bonus of the Fire each round it burns. This replaces the Fire's normal attack bonus. </p><p><b>Special:</b> You can spend a Force Point to move one target hit by this Force Power -1 step along the Condition Track. </p>",
+    "descriptors": [],
+    "action": "Standard Action",
+    "target": "All targets within a 2x2 square area (the entire area must be within 12 squares of you and in your line of sight).",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "U4HGs4PzJPscsHvx",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

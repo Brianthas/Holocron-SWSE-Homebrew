@@ -1,0 +1,43 @@
+{
+  "_id": "KK6rUIfhV60sILnh",
+  "_key": "!items!KK6rUIfhV60sILnh",
+  "name": "Inertia",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You can use The Force to shift your body's inertia, allowing you to perform impossible stunts. </p><p><b>Time:</b>&nbsp;Move Action </p><p><b>Targets:</b>&nbsp;Self. </p><p><b>Make a&nbsp;Use the Force&nbsp;check.&nbsp;</b>The result of the check determines the effects, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>You can move up to half your Speed along a wall, as though it were the ground, ignoring the normal effects of Gravity for the duration of this movement. If you are not on the ground when you end this movement, you Fall to the ground. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You can move up to your full Speed along a wall, as though it were the ground, ignoring the normal effects of Gravity for the duration of this movement. If you are not on the ground when you end this movement, you Fall to the ground. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You can move up to your full Speed, +2 additional squares, along a wall, as though it were the ground, ignoring the normal effects of Gravity for the duration of this movement. If you are not on the ground when you end this movement, you Fall to the ground. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>You can move up to your full Speed, +4 additional squares, along a wall, as though it were the ground, ignoring the normal effects of Gravity for the duration of this movement. If you are not on the ground when you end this movement, you Fall to the ground. </td>\n  </tr>\n </tbody>\n</table><p><b>Special: </b>You can spend a Force Point to increase the Speed you move along the wall by an additional +2 squares. </p>",
+    "descriptors": [],
+    "action": "Move Action",
+    "target": "Self.",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "You can move up to half your Speed along a wall, as though it were the ground, ignoring the normal effects of Gravity for the duration of this movement. If you are not on the ground when you end this movement, you Fall to the ground."
+      },
+      {
+        "dc": 20,
+        "text": "You can move up to your full Speed along a wall, as though it were the ground, ignoring the normal effects of Gravity for the duration of this movement. If you are not on the ground when you end this movement, you Fall to the ground."
+      },
+      {
+        "dc": 25,
+        "text": "You can move up to your full Speed, +2 additional squares, along a wall, as though it were the ground, ignoring the normal effects of Gravity for the duration of this movement. If you are not on the ground when you end this movement, you Fall to the ground."
+      },
+      {
+        "dc": 30,
+        "text": "You can move up to your full Speed, +4 additional squares, along a wall, as though it were the ground, ignoring the normal effects of Gravity for the duration of this movement. If you are not on the ground when you end this movement, you Fall to the ground."
+      }
+    ],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "T5daJrYbS8u55zUe",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

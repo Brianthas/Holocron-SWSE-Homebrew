@@ -1,0 +1,45 @@
+{
+  "_id": "pktimMf4ibeUtBa6",
+  "_key": "!items!pktimMf4ibeUtBa6",
+  "name": "Pass the Blade",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You deactivate your Lightsaber as your opponent tries to block it, reactivating it just after it passes by their blade. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> Self, plus one enemy within reach </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>You can make a single melee attack with a Lightsaber against the target. Your opponent takes a -2 penalty on Use the Force checks made to <b>Block</b> the attack. (This penalty also applies to the <b>Primitive Block</b> Talent). </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>You can make a single melee attack with a Lightsaber against the target. Your opponent takes a -5 penalty on Use the Force checks made to <b>Block</b> the attack. (This penalty also applies to the <b>Primitive Block</b> Talent). </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>You can make a single melee attack with a Lightsaber against the target. Your opponent takes a -10 penalty on Use the Force checks made to <b>Block</b> the attack. (This penalty also applies to the <b>Primitive Block</b> Talent). </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>You can make a single melee attack with a Lightsaber against the target. Your opponent cannot make Use the Force checks to <b>Block</b> the attack. (This also applies to the <b>Primitive Block</b> Talent). </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Trakata)</b>: If you have the <b>Trakata</b> Talent, you also ignore any deflection bonus the target has from the <b>Lightsaber Defense</b> Talent. </p><p><b>Special:</b> You can spend a Force Point to deal +2d6 points of damage with your Lightsaber attack if it hits. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Standard Action",
+    "target": "Self, plus one enemy within reach",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "You can make a single melee attack with a Lightsaber against the target. Your opponent takes a -2 penalty on Use the Force checks made to Block the attack. (This penalty also applies to the Primitive Block Talent)."
+      },
+      {
+        "dc": 20,
+        "text": "You can make a single melee attack with a Lightsaber against the target. Your opponent takes a -5 penalty on Use the Force checks made to Block the attack. (This penalty also applies to the Primitive Block Talent)."
+      },
+      {
+        "dc": 25,
+        "text": "You can make a single melee attack with a Lightsaber against the target. Your opponent takes a -10 penalty on Use the Force checks made to Block the attack. (This penalty also applies to the Primitive Block Talent)."
+      },
+      {
+        "dc": 30,
+        "text": "You can make a single melee attack with a Lightsaber against the target. Your opponent cannot make Use the Force checks to Block the attack. (This also applies to the Primitive Block Talent)."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zS9RJYbra2dYVVpF",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

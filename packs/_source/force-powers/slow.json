@@ -1,0 +1,45 @@
+{
+  "_id": "jfbhnG3VGh0Ke3bs",
+  "_key": "!items!jfbhnG3VGh0Ke3bs",
+  "name": "Slow",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>The Force enables you to slow your targets as if they are encumbered by an extremely heavy load, making it difficult for them to move. </p><p><b>[<i>Telekinetic</i>]</b> </p><p><b>Time:</b>&nbsp;Standard Action </p><p><b>Targets:</b>&nbsp;One creature or Droid within 12 squares, and within line of sight. </p><p><b>Make a&nbsp;Use the Force&nbsp;check. </b>If your result equals or exceeds your target's Fortitude Defense, they take the following effects as determined by your check result: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>Target's Speed is reduced by 1 square until the beginning of your next turn. The target is also Encumbered, as though carrying a Heavy Load, taking a -10 penalty on Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, and Swim checks. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>Target's Speed is reduced by 2 squares until the beginning of your next turn. The target is also Encumbered, as though carrying a Heavy Load, taking a -10 penalty on Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, and Swim checks. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>Target's Speed is reduced by 3 squares until the beginning of your next turn. The target is also Encumbered, as though carrying a Heavy Load, taking a -10 penalty on Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, and Swim checks. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>Target's Speed is reduced by 4 squares until the beginning of your next turn. The target is also Encumbered, as though carrying a Heavy Load, taking a -10 penalty on Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, and Swim checks. </td>\n  </tr>\n </tbody>\n</table><p>The target adds a size modifier to its&nbsp;Fortitude Defense&nbsp;for purposes of this&nbsp;Force Power: Colossal, +50; Gargantuan, +20; Huge, +10; Large, +5; Medium or smaller, +0. </p><p><b>Special: </b>You can spend a Force Point to impose a -5 penalty to your target's Fortitude Defense against the use of this Force Power. </p>",
+    "descriptors": [
+      "telekinetic"
+    ],
+    "action": "Standard Action",
+    "target": "One creature or Droid within 12 squares, and within line of sight.",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "Target's Speed is reduced by 1 square until the beginning of your next turn. The target is also Encumbered, as though carrying a Heavy Load, taking a -10 penalty on Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, and Swim checks."
+      },
+      {
+        "dc": 20,
+        "text": "Target's Speed is reduced by 2 squares until the beginning of your next turn. The target is also Encumbered, as though carrying a Heavy Load, taking a -10 penalty on Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, and Swim checks."
+      },
+      {
+        "dc": 25,
+        "text": "Target's Speed is reduced by 3 squares until the beginning of your next turn. The target is also Encumbered, as though carrying a Heavy Load, taking a -10 penalty on Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, and Swim checks."
+      },
+      {
+        "dc": 30,
+        "text": "Target's Speed is reduced by 4 squares until the beginning of your next turn. The target is also Encumbered, as though carrying a Heavy Load, taking a -10 penalty on Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, and Swim checks."
+      }
+    ],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5k8isWBhMEwzKP0p",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

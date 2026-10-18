@@ -1,0 +1,28 @@
+{
+  "_id": "XpWKcGWq9IAUapBs",
+  "_key": "!items!XpWKcGWq9IAUapBs",
+  "name": "Blind",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You hurl dirt, dust, and debris at your foe, affecting its sight. </p><p><b>[<i>Telekinetic</i>]</b> </p><p><b>Time:</b>&nbsp;Swift Action </p><p><b>Targets:</b> One creature within 12 squares of you, and in your line of sight. </p><p><b>Make a&nbsp;Use the Force&nbsp;check.</b> Make one roll and compare the result to the target's Reflex Defense. If the result equals or exceeds the target's Reflex Defense, the target is considered Flat-Footed, and all other creatures have Concealment from your target until the start of your next turn. </p><p>Creatures that do not rely on eyesight to perceive (such as Miraluka) are immune to this effect. </p><p><b>Special:</b> You can spend a Force Point to use this Force Power as a Free Action, rather than a Swift Action. </p>",
+    "descriptors": [
+      "telekinetic"
+    ],
+    "action": "Swift Action",
+    "target": "One creature within 12 squares of you, and in your line of sight.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qsmPpI8kcg1HiCMx",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

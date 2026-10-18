@@ -1,0 +1,41 @@
+{
+  "_id": "KRkqDpK4xtmrNb11",
+  "_key": "!items!KRkqDpK4xtmrNb11",
+  "name": "Twin Strike",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You swing both of your Lightsabers in an arc toward the target, slamming them home with great force. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One enemy within reach </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>You make a single melee attack with a Lightsaber against your target. If this attack hits, add the base damage of your other Lightsaber to the damage roll. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>You make a single melee attack with a Lightsaber against your target, with a +1 Force bonus to the attack roll. If this attack hits, add the base damage of your other Lightsaber to the damage roll. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>You make a single melee attack with a Lightsaber against your target, with a +2 Force bonus to the attack roll. If this attack hits, add the base damage of your other Lightsaber to the damage roll. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Jar'Kai):</b> If you have the <b>Jar'Kai</b> Talent, you triple your deflection bonus from the <b>Lightsaber Defense</b> Talent instead of doubling it until the end of your next turn. </p><p><b>Special:</b> You must be wielding two Lightsabers to use this Form Power. You can spend a Force Point to add +1 die of damage to the damage from your Lightsaber attack. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Standard Action",
+    "target": "One enemy within reach",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "You make a single melee attack with a Lightsaber against your target. If this attack hits, add the base damage of your other Lightsaber to the damage roll."
+      },
+      {
+        "dc": 25,
+        "text": "You make a single melee attack with a Lightsaber against your target, with a +1 Force bonus to the attack roll. If this attack hits, add the base damage of your other Lightsaber to the damage roll."
+      },
+      {
+        "dc": 30,
+        "text": "You make a single melee attack with a Lightsaber against your target, with a +2 Force bonus to the attack roll. If this attack hits, add the base damage of your other Lightsaber to the damage roll."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rb3q1QCXGjSJAfcv",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

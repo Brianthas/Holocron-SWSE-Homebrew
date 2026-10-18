@@ -1,0 +1,45 @@
+{
+  "_id": "tUk7bTEPyRPQH50N",
+  "_key": "!items!tUk7bTEPyRPQH50N",
+  "name": "Shien Deflection",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You deflect an incoming attack and leap toward your attacker with fierce abandon. </p><p><b>Time:</b> Reaction (when an enemy makes a non-Area Attack ranged attack against you) </p><p><b>Targets:</b> Self, plus one enemy within reach </p><p><b>Make a Use the Force check.</b> The result of the check determines the effect, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a Lightsaber against that target. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed, +2 squares, toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a Lightsaber against that target. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed, +4 squares, toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a Lightsaber against that target. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed, +6 squares, toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a Lightsaber against that target. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (Shien):</b> If you have the <b>Shien</b> Talent, until the start of your next turn, you take no cumulative penalties on your Use the Force checks for multiple <b>Deflect</b> attempts. </p><p><b>Special:</b> You can spend a Force Point to take no damage from the incoming attack if your check equals or exceeds the attack roll of the incoming attack. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Reaction (when an enemy makes a non-Area Attack ranged attack against you)",
+    "target": "Self, plus one enemy within reach",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a Lightsaber against that target."
+      },
+      {
+        "dc": 20,
+        "text": "Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed, +2 squares, toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a Lightsaber against that target."
+      },
+      {
+        "dc": 25,
+        "text": "Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed, +4 squares, toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a Lightsaber against that target."
+      },
+      {
+        "dc": 30,
+        "text": "Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed, +6 squares, toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a Lightsaber against that target."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "g0zOM5ZDtM6DqKEH",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

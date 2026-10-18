@@ -1,0 +1,26 @@
+{
+  "_id": "Ju0aZeHoyxsrQraO",
+  "_key": "!items!Ju0aZeHoyxsrQraO",
+  "name": "Technometry",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You can tap into and read technological devices and, in some cases, control them. </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One Droid or electronic device touched. </p><p><b>Make a Use the Force check.</b> Compare the result to the target's Will Defense. If the check equals or exceeds the target's Will Defense, you discover one piece of information contained within the target's memory as determined by the Access Information application of the Use Computer Skill. For every 5 points by which you exceed the target's Will Defense, you can learn one additional piece of information. </p><p>Alternatively, if you target a Droid and succeed at your Use the Force check, you may choose one of the following effects and apply it to the targeted Droid: </p><ul>\n <li>The Droid's senses are jammed, allowing you to make Stealth checks against the Droid until the end of your next turn, even though it is aware of you.</li> \n <li>The Droid is denied its Dexterity bonus to its Reflex Defense against your next attack made before the end of your next turn.</li> \n <li>On its next two turns, the Droid does nothing except flee from you at top speed.</li>\n</ul><p><b>Special:</b> You can spend a Force Point to learn two more pieces of information or extend one of the Droid-specific effects of this Force Power by one additional round. </p>",
+    "descriptors": [],
+    "action": "Standard Action",
+    "target": "One Droid or electronic device touched.",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qSGD1QfCXQaqtaMv",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

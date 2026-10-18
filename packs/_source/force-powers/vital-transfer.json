@@ -1,0 +1,41 @@
+{
+  "_id": "CurbEu1tKPVnA5hQ",
+  "_key": "!items!CurbEu1tKPVnA5hQ",
+  "name": "Vital Transfer",
+  "type": "forcePower",
+  "system": {
+    "description": "<p>You use your own life force to heal another living creature, using The Force as a conduit. </p><p><b>[<i>Light Side</i>]</b> </p><p><b>Time:</b> Standard Action </p><p><b>Targets:</b> One creature within reach. </p><p><b>Make a Use the Force check.</b> The result of the check determines the result, if any: </p><table> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>The target heals Hit Points equal to 2 x its Character Level. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>The target heals Hit Points equal to 3 x its Character Level. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>The target heals Hit Points equal to 4 x its Character Level. </td>\n  </tr>\n </tbody>\n</table><p>Each time you use <i>Vital Transfer</i>, you take half as much damage as you heal (rounded down). You may choose to heal less than the result of your Use the Force check allows. You may not heal yourself with this Force Power. </p><p><b>Special:</b> You may spend a Force Point to avoid taking any damage when you use this Force Power. You may spend a Destiny Point to move the target +5 steps on the Condition Track in addition to healing them normally. </p><h2>Additional Variant Rules</h2><p>You might scale back the benefits of <i>Vital Transfer</i> so that groups with multiple Force-users aren't quite so far ahead of the rest. You might want to use either or both of the following variant rules: </p><h3>Vital Sacrifice</h3><p>A character that uses the <i><strong class=\"mw-selflink selflink\">Vital Transfer</strong></i> Force Power to heal another character cannot benefit from the use of <i><strong class=\"mw-selflink selflink\">Vital Transfer</strong></i> in the same 24- hour period. </p><h3>Vital Limits</h3><p>A character can benefit from <i><strong class=\"mw-selflink selflink\">Vital Transfer</strong></i> only once in a 24-hour period, but you can use a Force Point to overcome this restriction when you activate <i><strong class=\"mw-selflink selflink\">Vital Transfer</strong></i>. (Since you can spend only one Force Point per round, you cannot also spend a Force Point to avoid taking damage from the use of <i><strong class=\"mw-selflink selflink\">Vital Transfer</strong></i>.) </p>",
+    "descriptors": [
+      "lightSide"
+    ],
+    "action": "Standard Action",
+    "target": "One creature within reach.",
+    "skill": "useTheForce",
+    "bands": [
+      {
+        "dc": 15,
+        "text": "The target heals Hit Points equal to 2 x its Character Level."
+      },
+      {
+        "dc": 20,
+        "text": "The target heals Hit Points equal to 3 x its Character Level."
+      },
+      {
+        "dc": 25,
+        "text": "The target heals Hit Points equal to 4 x its Character Level."
+      }
+    ],
+    "cumulative": false,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sHVKCCWIFwWUuyFm",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements (Jedi Counseling)"
+    }
+  }
+}

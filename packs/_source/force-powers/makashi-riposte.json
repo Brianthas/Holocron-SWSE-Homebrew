@@ -1,0 +1,28 @@
+{
+  "_id": "EzY9fFtqIAl49f6E",
+  "_key": "!items!EzY9fFtqIAl49f6E",
+  "name": "Makashi Riposte",
+  "type": "forcePower",
+  "system": {
+    "description": "<p><b>[<i>Lightsaber Form</i>]</b> </p><p>You are trained in a <b>Makashi</b> technique that allows you to slightly change the angle of an opponent's attack before striking with a decisive riposte of your own. </p><p><b>Time:</b> Reaction (when an adjacent opponent makes a melee attack against you) </p><p><b>Targets:</b> Self, plus one enemy within reach </p><p><b>Make a Use the Force check.</b> Compare the results of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack deals half damage on a hit. Additionally, you can make a single melee attack with a Lightsaber against your target after the damage is resolved. You deal half damage to the target on a miss. </p><p><b>Lightsaber Form (Makashi)</b>: If you have the <b>Makashi</b> Talent, until the end of your next turn, the target provokes an Attack of Opportunity from you if it makes an attack and is within your reach. </p><p><b>Special:</b> You can spend a Force Point to take no damage from the incoming attack if your check equals or exceeds the attack roll of the incoming attack. </p>",
+    "descriptors": [
+      "lightsaberForm"
+    ],
+    "action": "Reaction (when an adjacent opponent makes a melee attack against you)",
+    "target": "Self, plus one enemy within reach",
+    "skill": "useTheForce",
+    "bands": [],
+    "cumulative": true,
+    "copies": 1,
+    "ready": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lRmXTZ863wUQIcSf",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}
