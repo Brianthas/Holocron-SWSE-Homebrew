@@ -1,7 +1,7 @@
 /* global game, foundry, Actor, __PACK_DOCS__ */
 // Converted talents on a character, read off the rendered sheet. The talents are the converter's own
 // files in packs/_source, not hand-built fixtures.
-// pack-docs: talents/jedi-consular--force-of-will, talents/duelist--greater-weapon-focus-lightsabers, talents/lightsaber-combat--weapon-specialization-lightsabers, talents/duelist--greater-weapon-specialization-lightsabers, talents/commando--tough-as-nails, talents/5th-degree-droid--cargo-hauler, talents/assassin--murderous-arts, talents/lightsaber-combat--dueling-stance, talents/beastwarden--charm-beast, talents/dathomiri-witch--charm-beast
+// pack-docs: talents/jedi-consular--force-of-will, talents/duelist--greater-weapon-focus-lightsabers, talents/lightsaber-combat--weapon-specialization-lightsabers, talents/duelist--greater-weapon-specialization-lightsabers, talents/commando--tough-as-nails, talents/5th-degree-droid--cargo-hauler, talents/assassin--murderous-arts, talents/lightsaber-combat--dueling-stance, talents/beastwarden--charm-beast, talents/dathomiri-witch--charm-beast, talents/zeison-sha--telekinetic-vigilance
 //
 //   Talent Probe: Jedi 1, all abilities 10, a melee Lightsaber (2d8, group lightsabers).
 //   Will 10 + level 1 + WIS 0 + Force of Will 2 (insight) = 13.
@@ -14,6 +14,7 @@
 //   Control: the same character without the talents: Will 11, Attack +1, Damage 2d8, Second Wind 1,
 //   Athletics +0, slots 10 / 1.
 //   Charm Beast from two trees embeds as two talents named "Charm Beast" in different trees.
+//   Telekinetic Vigilance, written by the converter from the ruling, embeds in the Zeison Sha tree.
 
 (async () => {
 if (game.world.id !== "holocron-testing" || game.system.id !== "holocron") {
@@ -81,6 +82,10 @@ check("Cargo Hauler: Athletics +5 and slots 20 / 2", p.athletics === "+5" && p.s
 const stance = probe.items.find((i) => i.name === "Dueling Stance");
 check("Dueling Stance keeps Bryan's merged text and no house label", stance?.system.description.includes("Block and Deflect are combined into this single talent")
   && !/Homebrew|tovec/.test(stance?.system.description ?? ""), { start: stance?.system.description.slice(0, 120) });
+
+const vigilance = probe.items.find((i) => i.name === "Telekinetic Vigilance");
+check("Telekinetic Vigilance, written from the ruling, embeds in the Zeison Sha tree with its Intercept prerequisite",
+  vigilance?.system.tree === "Zeison Sha" && vigilance.system.prerequisite.text === "Intercept", { tree: vigilance?.system.tree, prerequisite: vigilance?.system.prerequisite });
 
 return JSON.stringify({ world: game.world.id, build: globalThis.CONFIG?.HOLOCRON?.buildId, results });
 })();

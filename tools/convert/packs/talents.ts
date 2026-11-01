@@ -11,7 +11,7 @@ import {
   type ChangeOut, type Context, type Mapper, type Prerequisite,
 } from "../lib/changes.ts";
 import { cleanDescription } from "../lib/html.ts";
-import { slugify } from "../lib/ids.ts";
+import { idFor, slugify } from "../lib/ids.ts";
 import { checkKeys, itemDoc, readPack, type OutputDoc, type Report, type SourceDoc } from "../lib/pack.ts";
 
 const PACK = "talents";
@@ -108,6 +108,32 @@ export const TALENT_KEYS: Record<string, Mapper> = {
   penetratingAttack: dropped(CHOICE),
 };
 
+/**
+ * Talents the house rules allow that the fork does not have, written from the ruling's text. Who
+ * may take one is the class's access (rulings.md, Talent trees), not the item's.
+ */
+export const HOUSE_TALENTS = [
+  {
+    name: "Telekinetic Vigilance",
+    tree: "Zeison Sha",
+    description: "<p><b>Prerequisite:</b> Intercept</p><p>You can return the Intercept Force Power to your Force Power Suite as a Swift Action, without spending a Force Point.</p>",
+    prerequisite: { text: "Intercept", nodes: { text: "Intercept", requirement: "Intercept", type: "FORCE POWER" } },
+    sourceBook: "Star Wars Saga Edition Jedi Academy Training Manual",
+    source: "rulings.md, Talent trees: Zeison Sha (Bryan, from tovec, 2026-11-01)",
+  },
+];
+
+function houseTalent(entry: (typeof HOUSE_TALENTS)[number], report: Report): OutputDoc {
+  const seed = `${PACK}:${slugify(entry.tree)}:${slugify(entry.name)}`;
+  const id = idFor(seed);
+  report.note("house talents", `${entry.tree}/${entry.name}: ${entry.source}`);
+  return {
+    _id: id, _key: `!items!${id}`, name: entry.name, type: "talent", effects: [], folder: null, sort: 0,
+    system: { description: entry.description, tree: entry.tree, prerequisite: entry.prerequisite, repeatable: false, maxTimes: 0, choice: "", action: "" },
+    flags: { holocron: { sourceBook: entry.sourceBook } },
+  };
+}
+
 /** Effects the fork embeds on a talent, each read and dropped by name. */
 const EMBEDDED_EFFECTS: Record<string, string> = {
   "Spacehound": "Low Gravity, a disabled status effect; gravity is not modelled",
@@ -167,6 +193,10 @@ export function convertTalents(report: Report): OutputDoc[] {
     }, doc, { sourceBook: String(doc.system["source"] ?? "") || cleaned.sourceBook });
     attachEffect(item, seed, ctx.changes);
     out.push(item);
+  }
+  for (const entry of HOUSE_TALENTS) {
+    if (out.some((t) => t.name === entry.name && t.system["tree"] === entry.tree)) report.problems.push({ pack: PACK, name: entry.name, message: "house talent also converted from the fork" });
+    out.push(houseTalent(entry, report));
   }
   return out;
 }

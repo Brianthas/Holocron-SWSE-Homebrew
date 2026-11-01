@@ -1,0 +1,30 @@
+{
+  "_id": "HfcgT8ySFbtXeea6",
+  "_key": "!items!HfcgT8ySFbtXeea6",
+  "name": "Telekinetic Vigilance",
+  "type": "talent",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "system": {
+    "description": "<p><b>Prerequisite:</b> Intercept</p><p>You can return the Intercept Force Power to your Force Power Suite as a Swift Action, without spending a Force Point.</p>",
+    "tree": "Zeison Sha",
+    "prerequisite": {
+      "text": "Intercept",
+      "nodes": {
+        "text": "Intercept",
+        "requirement": "Intercept",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "flags": {
+    "holocron": {
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

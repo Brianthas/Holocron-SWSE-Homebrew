@@ -67,6 +67,8 @@
   (one more Second Wind), Cargo Hauler (+5 Athletics, double carrying), and from the house rules
   Murderous Arts (+1 damage die; the Mark half is not applied). Move Object's description now
   carries the house damage rule the fork kept only in a summary field.
+- Telekinetic Vigilance, the one Zeison Sha talent the house rules keep, is written from the ruling
+  (the fork has no Zeison Sha tree). Only a Force Disciple, Jedi Master or Sith Lord can take it.
 - Feats carry their mechanics as effects: Improved Defenses, Toughness (5 hit points once, 1 per
   level, +1 healing received), Martial Arts I to III (one unarmed die each, no dodge bonus), Improved
   Damage Threshold, Extra Second Wind, Extended Capacity, and from the house rules Force

@@ -37,6 +37,12 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 - **Lightsaber Combat** stays open to every Jedi, whatever the tradition. (Bryan and tovec,
   2026-09-23.)
 - **Ithorian Priesthood** is not offered: no tree exists for it.
+- **Zeison Sha** (Bryan, from tovec, 2026-11-01): every talent in the tree is banned except
+  Telekinetic Vigilance, which only a Force Disciple, Jedi Master or Sith Lord can take, the way
+  those classes gain Many Shades of the Force independent from the banned Aing-Tii Monk tree
+  (episode-vii, New Prestige Classes). The house text's "Zeison Sha Warrior" is this tree. Its text,
+  from tovec: "Prerequisite: Intercept. You can return the Intercept Force Power to your Force
+  Power Suite as a Swift Action, without spending a Force Point."
 - Trees can be added or removed on a character by hand; each hand edit is marked.
 
 ## Combat
