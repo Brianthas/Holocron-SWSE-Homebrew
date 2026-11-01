@@ -101,6 +101,9 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 ## Attacks
 
 - Attack and damage may use STR, DEX, INT, WIS or CHA, as feats and Force talents allow.
+- **Martial Arts I, II and III give no dodge bonus** (Bryan, from tovec, 2026-11-01): each only adds
+  one die to unarmed damage ("increases the number of dice by one per feat", episode-vii, Feats).
+  Martial Arts I still keeps unarmed attacks from provoking attacks of opportunity.
 
 ## Character creation
 

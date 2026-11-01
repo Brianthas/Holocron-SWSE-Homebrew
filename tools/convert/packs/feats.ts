@@ -20,6 +20,51 @@ export const HOUSE_CHANGES: Record<string, { changes: ChangeOut[]; source: strin
   "Force Boon": { changes: [bonus("forcePoints", 2)], source: 'episode-vii, The Force: "Force Boon gain 2 extra Force Points per day."' },
   "Linguist": { changes: [bonus("languages.int", 4)], source: 'episode-vii, Languages: "Linguist effectively considers the Intelligence of the character to be 4 higher"' },
 };
+/**
+ * Paragraphs the house rules rewrite: each entry replaces one paragraph of the cleaned text, and
+ * the run fails if that paragraph is not there, so a change in the fork's text cannot slip past.
+ * An empty replacement removes the paragraph.
+ */
+const MARTIAL_ARTS_SPECIAL = "<p><b>Special:</b> A situation that makes you lose your Dexterity bonus to Reflex Defense (";
+export const HOUSE_TEXT: Record<string, { replace: [string, string][]; source: string }> = {
+  "Martial Arts I": {
+    replace: [
+      ["<p><b>Effect:</b> Damage dealt by your Unarmed Attacks increases by one die step.", "<p><b>Effect:</b> Your Unarmed attacks deal one more die of damage. Additionally, you do not provoke Attacks of Opportunity with Unarmed Attacks.</p>"],
+      [MARTIAL_ARTS_SPECIAL, ""],
+    ],
+    source: "rulings.md, Attacks: no dodge bonus, one die per feat",
+  },
+  "Martial Arts II": {
+    replace: [
+      ["<p><b>Effect:</b> Damage dealt by your Unarmed attacks increases by one die step.", "<p><b>Effect:</b> Your Unarmed attacks deal one more die of damage, in addition to Martial Arts I.</p>"],
+      [MARTIAL_ARTS_SPECIAL, ""],
+    ],
+    source: "rulings.md, Attacks: no dodge bonus, one die per feat",
+  },
+  "Martial Arts III": {
+    replace: [
+      ["<p><b>Effect:</b> Damage dealt by your Unarmed attacks increases by one die step.", "<p><b>Effect:</b> Your Unarmed attacks deal one more die of damage, in addition to Martial Arts I and II.</p>"],
+      [MARTIAL_ARTS_SPECIAL, ""],
+    ],
+    source: "rulings.md, Attacks: no dodge bonus, one die per feat",
+  },
+};
+
+/** Replaces each paragraph that starts with a given prefix; returns the prefixes it could not find. */
+export function rewriteParagraphs(html: string, replace: [string, string][]): { html: string; missing: string[] } {
+  const missing: string[] = [];
+  for (const [prefix, replacement] of replace) {
+    const start = html.indexOf(prefix);
+    const end = start < 0 ? -1 : html.indexOf("</p>", start);
+    if (end < 0) {
+      missing.push(prefix);
+      continue;
+    }
+    html = html.slice(0, start) + replacement + html.slice(end + "</p>".length);
+  }
+  return { html, missing };
+}
+
 /** Repeatable by the house rules though the fork does not mark it. */
 const HOUSE_REPEATABLE: Record<string, string> = {
   "Toughness": 'episode-vii, Feats: "You can take Toughness more than once."',
@@ -57,11 +102,7 @@ export const FEAT_KEYS: Record<string, Mapper> = {
   fortitudeDefenseBonus: flatOrSwap("defense.fortitude"),
   willDefenseBonus: flatOrSwap("defense.will"),
   damageThresholdBonus: flatOrSwap("dt"),
-  bonusDodgeReflexDefense: (value, ctx) => {
-    const n = number(value);
-    if (n === null) return ctx.fail(`bonusDodgeReflexDefense ${JSON.stringify(value)}`);
-    ctx.changes.push(bonus("defense.reflex", n, "dodge"));
-  },
+  bonusDodgeReflexDefense: dropped("Martial Arts gives no dodge bonus (rulings.md, Attacks)"),
   bonusUnarmedDamageDieCount: (value, ctx) => {
     const n = number(value);
     if (n === null) return ctx.fail(`bonusUnarmedDamageDieCount ${JSON.stringify(value)}`);
@@ -166,7 +207,15 @@ export function convertFeats(report: Report): OutputDoc[] {
 
     const cleaned = cleanDescription(String(doc.system["description"] ?? ""));
     report.sections(PACK, doc, cleaned);
-    const { html, sourceBook } = cleaned;
+    let { html } = cleaned;
+    const { sourceBook } = cleaned;
+    const houseText = HOUSE_TEXT[doc.name];
+    if (houseText) {
+      const rewritten = rewriteParagraphs(html, houseText.replace);
+      for (const prefix of rewritten.missing) report.problem(PACK, doc, `house text: no paragraph starts ${JSON.stringify(prefix.slice(0, 60))}`);
+      html = rewritten.html;
+      report.note("house text", `${doc.name}: ${houseText.source}`);
+    }
     let prerequisite = (doc.system["prerequisite"] ?? null) as Prerequisite | null;
     const housePrerequisite = HOUSE_PREREQUISITES[doc.name];
     if (housePrerequisite) {

@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { cleanDescription } from "../tools/convert/lib/html.ts";
 import { idFor, slugify } from "../tools/convert/lib/ids.ts";
 import { checkKeys, Report, type SourceDoc } from "../tools/convert/lib/pack.ts";
-import { FEAT_KEYS, type ChangeOut } from "../tools/convert/packs/feats.ts";
+import { FEAT_KEYS, rewriteParagraphs, type ChangeOut } from "../tools/convert/packs/feats.ts";
 import { techniquePower } from "../tools/convert/packs/force-features.ts";
 import { parseBand } from "../tools/convert/packs/force-powers.ts";
 
@@ -118,6 +118,15 @@ describe("feat change keys", () => {
   });
   it("read takeMultipleTimes as repeatable", () => {
     expect(run("takeMultipleTimes", "true").repeatable).toBe(true);
+  });
+});
+
+describe("house text rewrites", () => {
+  it("replace or remove each paragraph by its opening, and report one that is missing", () => {
+    const html = "<p>Intro.</p><p><b>Effect:</b> Old effect.</p><p><b>Special:</b> Old special.</p>";
+    expect(rewriteParagraphs(html, [["<p><b>Effect:</b> Old", "<p><b>Effect:</b> New.</p>"], ["<p><b>Special:</b>", ""]]))
+      .toEqual({ html: "<p>Intro.</p><p><b>Effect:</b> New.</p>", missing: [] });
+    expect(rewriteParagraphs(html, [["<p><b>Effect:</b> Different", "x"]]).missing).toEqual(["<p><b>Effect:</b> Different"]);
   });
 });
 

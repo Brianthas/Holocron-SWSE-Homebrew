@@ -59,7 +59,7 @@
   to a fan creator are left out (rulings.md, Content), as are fan sections the wiki appended to
   official pages. Not yet built into compendium packs.
 - Feats carry their mechanics as effects: Improved Defenses, Toughness (5 hit points once, 1 per
-  level, +1 healing received), Martial Arts (a dodge bonus to Reflex and an unarmed die), Improved
+  level, +1 healing received), Martial Arts I to III (one unarmed die each, no dodge bonus), Improved
   Damage Threshold, Extra Second Wind, Extended Capacity, and from the house rules Force
   Sensitivity and Force Boon (Force Points) and Linguist (+4 INT for languages). Force Sensitivity
   has no prerequisite. Choice feats (Weapon Focus, Skill Focus and the rest) are converted without

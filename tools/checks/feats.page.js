@@ -6,7 +6,8 @@
 //   Feat Probe: Jedi 1 (level-1 HP 30), STR 10, DEX 10, CON 12, INT 12, WIS 10, CHA 14, no Defense
 //   points. Each total is the engine's rule plus the feats' changes:
 //   HP 30 + CON 1 + Toughness 5 + Toughness 1 per level = 37.
-//   Reflex 10 + level 1 + DEX 0 + Improved Defenses 1 + Martial Arts I dodge 1 = 13.
+//   Reflex 10 + level 1 + DEX 0 + Improved Defenses 1 = 12; Martial Arts I adds nothing to it
+//   (rulings.md, Attacks: no dodge bonus).
 //   Fortitude 10 + 1 + CON 1 + Improved Defenses 1 = 13. Will 10 + 1 + WIS 0 + 1 = 12 (Force of
 //   Personality carries no change, so CHA 14 must not reach it).
 //   DT+5 = Fortitude 13 + 5 + Improved Damage Threshold 5 = 23.
@@ -71,8 +72,10 @@ const c = await read(control);
 const { reflexTooltip, ...shown } = p;
 check("control reads the engine's base numbers", c.hp === "0 / 31" && c.reflex === "11" && c.will === "11" && c.fp === "1" && c.slots === "10 / 1", c);
 check("hit points 37 (Toughness 5 and 1 per level)", p.hp === "0 / 37", shown);
-check("Reflex 13 with Improved Defenses and the Martial Arts I dodge bonus named", p.reflex === "13"
-  && reflexTooltip.includes("Improved Defenses") && reflexTooltip.includes("Martial Arts I"), { reflex: p.reflex, reflexTooltip });
+check("Reflex 12: Improved Defenses named, Martial Arts I absent", p.reflex === "12"
+  && reflexTooltip.includes("Improved Defenses") && !reflexTooltip.includes("Martial Arts"), { reflex: p.reflex, reflexTooltip });
+check("Martial Arts I carries only its unarmed die", JSON.stringify(probe.items.getName("Martial Arts I").effects.contents[0]?.system.changes.map((c) => [c.type, c.key, c.value]))
+  === JSON.stringify([["dice", "damage.unarmed", 1]]), { changes: probe.items.getName("Martial Arts I").effects.contents[0]?.system.changes });
 check("Fortitude 13, Will 12 (Force of Personality adds nothing)", p.fortitude === "13" && p.will === "12", shown);
 check("DT+5 23 with Improved Damage Threshold", p.maneuver === "23", shown);
 check("Force Points per day 2, Second Wind 2", p.fp === "2" && p.secondWind === "0 / 2", shown);

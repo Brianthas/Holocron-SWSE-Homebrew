@@ -4,7 +4,7 @@
   "name": "Martial Arts III",
   "type": "feat",
   "system": {
-    "description": "<p>Your Martial Arts prowess is second to none.</p><p><b>Prerequisites:</b> Martial Arts I, Martial Arts II, Base Attack Bonus +6</p><p><b>Effect:</b> Damage dealt by your Unarmed attacks increases by one die step. In addition, you gain a +1 dodge bonus to your Reflex Defense (Which stacks with the dodge bonuses granted by the Martial Arts I and Martial Arts II Feats).</p><p><b>Special:</b> A situation that makes you lose your Dexterity bonus to Reflex Defense (If any) also makes you lose any dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses.</p>",
+    "description": "<p>Your Martial Arts prowess is second to none.</p><p><b>Prerequisites:</b> Martial Arts I, Martial Arts II, Base Attack Bonus +6</p><p><b>Effect:</b> Your Unarmed attacks deal one more die of damage, in addition to Martial Arts I and II.</p>",
     "prerequisite": {
       "text": "Martial Arts I feat, Martial Arts II feat, and Base Attack Bonus 6",
       "nodes": {
@@ -43,14 +43,6 @@
       "disabled": false,
       "system": {
         "changes": [
-          {
-            "key": "defense.reflex",
-            "type": "bonus",
-            "value": 1,
-            "phase": "derived",
-            "bonusType": "dodge",
-            "condition": ""
-          },
           {
             "key": "damage.unarmed",
             "type": "dice",
