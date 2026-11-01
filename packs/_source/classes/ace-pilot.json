@@ -1,0 +1,37 @@
+{
+  "_id": "VG2tkVA30W4DuotX",
+  "_key": "!items!VG2tkVA30W4DuotX",
+  "name": "Ace Pilot",
+  "type": "class",
+  "system": {
+    "description": "<p>The Ace Pilot is to Vehicle combat what the Elite Trooper is to personal weapons combat. Her arms and armor are the weapons and shields of a sleek starship roaring through space, or an airspeeder shrieking through the atmosphere. A veteran of countless engagements, the Ace Pilot has proven her skill again and again by virtue of facing the enemy and surviving- and making sure the enemy did not. She has several kills to her credit, and her combat maneuvers are occasionally studied and discussed in training academies for their ingenuity and effectiveness. </p><p>For her part, the Ace Pilot only feels truly alive in the cockpit, where she can pit herself against her peers in a life-and-death contest to see who is the better pilot. For some Ace Pilots, the contest is enough, and they don't care whether they win or simply get away with their lives. For others, the important thing is the kill. The adrenaline surge they feel when finishing off an enemy brings them back again and again. The best Ace Pilots learn to stop enemies without destroying them, but those Ace Pilots are rare, and their exploits are legendary. </p><p>Ace Pilots define themselves by the Vehicles they fly. Some are starfighter aces, while others fly space transporters. Ace Pilots can also be found at the controls of a podracer, Coruscant air taxi, or even a large assault Vehicle such as an AT-AT. </p><h4><b>Examples of Ace Pilots in Star Wars</b></h4><p>Han Solo, Wedge Antilles, Sebulba, Wes Jansen, Tycho Celchu, Baron Fel, Corran Horn. </p><h4><b>Prerequisites</b></h4><p>To qualify to become an Ace Pilot, a character must fulfill the following criteria: </p><ul>\n <li><b>Minimum Level: </b>7th</li> \n <li><b>Trained Skills: </b>Pilot</li> \n <li><b>Feats:</b> Vehicular Combat</li>\n</ul><h3>Game Rule Information</h3><p>The following are the features of the Ace Pilot Prestige Class: </p><table> \n <caption>\n  Ace Pilot Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+0 </td> \n   <td>Defense Bonuses, Talent </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+1 </td> \n   <td>Vehicle Dodge +1 </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+2 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+3 </td> \n   <td>Vehicle Dodge +2 </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+3 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+4 </td> \n   <td>Vehicle Dodge +3 </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+5 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+6 </td> \n   <td>Vehicle Dodge +4 </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+6 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+7 </td> \n   <td>Vehicle Dodge +5 </td>\n  </tr>\n </tbody>\n</table><h4><b>Hit Points</b></h4><p>At each level, Ace Pilots gain 1d8 hit points + their Constitution modifier. </p><h4><b>Force Points</b></h4><p>Ace Pilots gain a number of Force Points equal to 6 + one-half their Character Level, rounded down, each time they gain a new level in this Prestige Class. </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, Ace Pilots gain a +4 Class bonus to their Reflex Defense, and a +2 Class bonus to their Fortitude Defense. </p><h4><b>Talents</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), an Ace Pilot gains an additional Talent. An Ace Pilot may choose a Talent from any of the Talent Trees (Ace Pilot) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Vehicle Dodge</b></h4><p>Beginning at 2nd level, you apply a dodge bonus to the Reflex Defense of any Vehicle you Pilot. The dodge bonus is equal to one-half your Class Level, rounded down. Any condition that makes you lose your Dexterity bonus to Reflex Defense also makes you lose dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses. </p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 8,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Blockade Runner",
+      "Expert Pilot",
+      "Gunner",
+      "Spacer",
+      "Squadron Leader",
+      "Wingman"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5otfNOvF1nwfvoet",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

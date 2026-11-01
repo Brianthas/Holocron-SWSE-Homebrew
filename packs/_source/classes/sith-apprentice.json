@@ -1,0 +1,47 @@
+{
+  "_id": "GayjrqJOU0kRahGm",
+  "_key": "!items!GayjrqJOU0kRahGm",
+  "name": "Sith Apprentice",
+  "type": "class",
+  "system": {
+    "description": "<p>The Sith Apprentice combines combat mastery with the power of The Dark Side, to create a living embodiment of rage and savagery. Physical conditioning and punishing discipline make the Sith Apprentice into a formidable opponent, and facility with the powers of The Dark Side add a wicked barb to an otherwise deadly weapon. The Sith Apprentice is dedicated to the conquest and subjugation of any obstacle to The Sith. Throughout history, a single Sith Apprentice has usually been more than a match for most Jedi. When Sith Apprentices gathered in numbers, as they did four thousand years before the days of Darth Maul and Darth Tyranus, the galaxy trembled. </p><p>But those times are gone, and the few Sith Apprentices to appear since the rule of Darth Bane have worked in secrecy to preserve The Sith, and prepare for their ultimate conquest of the galaxy. In the thousand years since Bane established the rule of \"One Master and One Apprentice,\" foot soldiers, outlaws, warlords, mercenaries, pirates, fighter pilots, survivalists, duelists, and even the occasional Jedi Knight have turned to The Dark Side and embraced the way of The Sith, becoming mighty warriors, dying brutal deaths, or both. The way of the Sith Apprentice is a constant, unforgiving test of will and ability, honing each into a blade fearsome enough to cut through the heart of the hated Jedi Order. Every Sith Apprentice dreams of being the one who will destroy this ancient foe of The Sith. </p><p>The training of a Sith Apprentice is always one of deprivation and hardship. Mercy and forbearance create a weak weapon, and such a weapon is useless. The Sith Apprentice is subjugated to endless conditioning and drilling. Displays of fear or uncertainty are rewarded with painful and educational punishment. Displays of strength and ruthlessness are rewarded with another day's survival. The Sith Apprentice learns to live for the precious few words of encouragement their Master gives, and the dream that they will one day stand atop a pile of slain Jedi. For the Sith Apprentice, furious battle is it's own reward. </p><h4><b>Examples of Sith Apprentices in Star Wars</b></h4><p>Lumiya, Darth Maul, Count Dooku, Darth Bandon, Darth Sion, Visas Marr, Carnor Jax, Warb Null, etc. </p><h4><b>Prerequisites</b></h4><p>To qualify to become a Sith Apprentice, a character must fulfill the following criteria: </p><ul>\n <li><b>Minimum Level:</b> 7th</li> \n <li><b>Trained Skills:</b> Use the Force</li> \n <li><b>Feats:</b> Force Sensitivity, Weapon Proficiency (Lightsabers)</li> \n <li><b>Dark Side Score:</b> Your Dark Side Score must be equal to your Wisdom score (if your Dark Side Score ever becomes less than your Wisdom score, you lose access to all class features granted by this class (including Talents), until your Dark Side Score again equals your Wisdom Score)</li> \n <li><b>Special:</b> Must be a member of The Sith</li>\n</ul><h3>Game Rule Information</h3><p>The following are the features of the Sith Apprentice&nbsp;Prestige Class: </p><table> \n <caption>\n  Sith Apprentice Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td>Defense Bonuses, Talent </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+6 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+7 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+8 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+9 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+10 </td> \n   <td>Force Technique </td>\n  </tr>\n </tbody>\n</table><h4><b>Hit Points</b></h4><p>At each level, Sith Apprentices gain 1d10 hit points + their Constitution modifier. </p><h4><b>Force Points</b></h4><p>Sith Apprentices gain a number of Force Points equal to 6 + one-half their Character Level, rounded down, each time they gain a new level in this Prestige Class. </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, Sith Apprentices gain a +2 Class bonus to their Will Defense, Reflex Defense, and Fortitude Defense. </p><h4><b>Talents</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Sith Apprentice gains an additional Talent. A Sith Apprentice may choose a Talent from any of the Talent Trees (Sith Apprentice) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Force Techniques</b></h4><p>You have learned improved techniques to feel the rhythm of The Force. At every even-numbered level (2nd, 4th, 6th, and so on), a Sith Apprentice gains one Force Technique that, once selected, cannot be changed. </p><h3>Fallen Jedi</h3><p>A Jedi who turns to the Dark Side and becomes a Sith Apprentice retains all of their Jedi class features, including Talents, Force Powers, bonus Feats, and other abilities. The only exceptions are Force Powers with the [<i>Light Side</i>] descriptor, which the character can no longer use. </p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 10,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Armor Specialist",
+      "Believer Disciple",
+      "Blazing Chain",
+      "Duelist",
+      "Krath",
+      "Lightsaber Combat",
+      "Lightsaber Forms",
+      "Sith",
+      "Sith Alchemy",
+      "Sith Commander"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZkB3gk3YuPBPj72b",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

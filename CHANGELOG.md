@@ -74,6 +74,13 @@
   field; the character stores the size picked at creation (`speciesSize`). A Killik picks Small,
   Medium or Large, and the sheet reports a Killik with no size chosen. Human keeps its Bonus Feat
   and Bonus Trained Skill. The 14 droid models wait for the droid rules.
+- 23 classes converted: the four base classes, held to the house class table, and 19 prestige
+  classes. Each carries its hit die, its talent trees (the fork's class trees, without banned
+  trees), and the levels that give a Force technique or secret. Force Disciples, Jedi Masters and
+  Sith Lords keep the trees the house rules name for them, plus a `traditionApproval` flag for
+  other Force Tradition talents with GM approval, and a `talents` list of single talents open to
+  them (Many Shades of the Force, Telekinetic Vigilance). Follower, beast, nonheroic and
+  independent droid classes wait for NPCs.
 - Feats carry their mechanics as effects: Improved Defenses, Toughness (5 hit points once, 1 per
   level, +1 healing received), Martial Arts I to III (one unarmed die each, no dodge bonus), Improved
   Damage Threshold, Extra Second Wind, Extended Capacity, and from the house rules Force

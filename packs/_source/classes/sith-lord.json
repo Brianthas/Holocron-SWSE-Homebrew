@@ -1,0 +1,46 @@
+{
+  "_id": "7PynEJvFCK0gho3E",
+  "_key": "!items!7PynEJvFCK0gho3E",
+  "name": "Sith Lord",
+  "type": "class",
+  "system": {
+    "description": "<p>Sith Lords do not gain Fearless or Temptation. They may select talents from any Force Tradition, with some limitations, and gain access to Many Shades of the Force and the Believer Disciple, Duelist, Lightsaber Forms, Sith Alchemy, Sith Commander and Krath talent trees.</p><p>The Sith Lord is the pinnacle of The Sith tradition. Their most sacred tasks include preserving the lore and glory of the Sith, and plotting their eventual ascendance to their place as rulers of the galaxy. The Sith Lord must allow nothing to stand in the way of this goal: not all the forces of the Republic military, nor the entirety of The Jedi Order. When the time comes, the Sith Lord must be prepared to ruthlessly crush all opposition, leaving no traces behind. </p><p>The Sith Lord cultivates individuals with the potential for both great power and great evil, training them from childhood, when possible, to be every bit as ruthless as themselves. The training can be better described as physical and mental torture, but it is designed to create someone strong, fast, cunning, and deadly. The Sith Lord passes on their knowledge of The Dark Side of The Force, instilling in their Sith Apprentice both a lust for power, and a fear of failure. </p><p>Arguably, only the truly ambitious or deeply twisted ever seek to become Sith Lords. Following the path of The Sith dominates one's Destiny, requiring a constant devotion to engineering the ascendance of The Sith. A Sith Lord cannot afford the luxury of friends, mercy, or even rest. The Dark Side sustains them through decades of scheming and planning, of masterminding plots subtle and grandiose. Even then, a Sith Lord may meet their end without ever seeing their contributions to the Sith grand scheme come to fruition. Each must content themselves with knowing their Sith Apprentice, or a descendant of their Sith Apprentice a hundred generations down the line, will one day honor their sacrifice by destroying The Jedi Order, and replacing it with the dark empire of The Sith. </p><p>In the early days of The Sith, only one of their rank could ever gain the title \"Dark Lord of the Sith.\" Seizing this prestigious position generally required the support of a significant portion of The Sith- and the death of the previous Sith Lord. With the twilight of The Sith and the rise of Darth Bane, the rules of the old Sith were supplanted by new rules. There could only be two Sith at any time: One was the Master, and the other was the Apprentice. While both of these could be Sith Lords, neither could take on a Sith Apprentice until the other was dead. Sometimes this resulted in vicious battles between Master and Apprentice. But more commonly, the Master would pass on all they knew before expiring, leaving the Apprentice to become the Master, taking on a new Apprentice, and thus continue the tradition of The Sith. </p><h4><b>Examples of Sith Lords in Star Wars</b></h4><p>Darth Bane, Darth Sidious, Darth Maul, Darth Tyranus, Darth Vader, Darth Malak, Darth Nihilus, Darth Krayt, Exar Kun. </p><h4><b>Prerequisites</b></h4><p>To qualify to become a Sith Lord, a character must fulfill the following criteria: </p><ul>\n <li><b>Minimum Level:</b> 12th</li> \n <li><b>Trained Skills:</b> Use the Force</li> \n <li><b>Feats:</b> Force Sensitivity, Weapon Proficiency (Lightsabers)</li> \n <li><b>Force Techniques:</b> At least one</li> \n <li><b>Dark Side Score:</b> Your Dark Side Score must be equal to your Wisdom score (if your Dark Side Score ever becomes less than your Wisdom score, you lose access to all class features granted by this class (including Talents), until your Dark Side Score again equals your Wisdom Score)</li> \n <li><b>Special:</b> Must be a member of The Sith</li>\n</ul><h3>Game Rule Information</h3><p>The following are the features of the Sith Lord Prestige Class: </p><table> \n <caption>\n  Sith Lord Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td>Defense Bonuses, Fearless, Talent, Temptation </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td>Force Secret </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td>Force Secret, Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td>Force Secret </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td>Force Secret, Talent </td>\n  </tr>\n </tbody>\n</table><h4><b>Hit Points</b></h4><p>At each level, Sith Lords gain 1d10 hit points + their Constitution modifier. </p><h4><b>Force Points</b></h4><p>Sith Lords gain a number of Force Points equal to 7 + one-half their Character Level, rounded down, each time they gain a new level in this Prestige Class (Due to their strong connection to The Force, Sith Lords gain more Force Points than most other Prestige Classes). </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, Sith Lords gain a +3 Class bonus to their Will Defense, Reflex Defense, and Fortitude Defense. </p><h4><b>Fearless</b></h4><p>Sith Lords are immune to Fear effects. </p><h4><b>Talents</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Sith Lord gains an additional Talent. A Sith Lord may choose a Talent from any of the Talent Trees (Sith Lord) or Force Talent Trees (including Force Tradition Talent Trees) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Temptation</b></h4><p>You are adept at using Dun Möch, an ancient and vile technique for tempting others to tap into The Dark Side of The Force. As a Standard Action, a Sith Lord can make a Persuasion check and compare it to the Will Defense of a single opponent within line of sight. If the check succeeds, the target is filled with fear or anger, briefly giving in to The Dark Side. </p><p>If the target spends a Force Point before your next turn, it must either add 1 point to its Dark Side Score, or move -1 step on the Condition Track, as it is overcome by doubt and remorse. If the target spends a Destiny Point before your next turn, it instead must either add 2 points to its Dark Side Score, or move -2 steps on the Condition Track. </p><h4><b>Force Secrets</b></h4><p>You have glimpsed an eternal truth through your contemplation of The Force. At 2nd level, and every level thereafter, the Sith Lord gains one Force Secret that, once selected, cannot be changed. </p><hr /><p>May select talents from any Force Tradition, subject to GM approval. This includes talents such as Many Shades of the Force (normally part of the Aing-Tii Monk talent tree), independent of that tree.</p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 10,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Believer Disciple",
+      "Duelist",
+      "Krath",
+      "Lightsaber Forms",
+      "Sith",
+      "Sith Alchemy",
+      "Sith Commander"
+    ],
+    "talents": [
+      "Many Shades of the Force",
+      "Telekinetic Vigilance"
+    ],
+    "traditionApproval": true,
+    "techniqueLevels": [],
+    "secretLevels": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zh5pVk7xX6tM8LU0",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "IzzrEBC9NXIQgsiK",
+  "_key": "!items!IzzrEBC9NXIQgsiK",
+  "name": "Operative",
+  "type": "class",
+  "system": {
+    "description": "<p>Consolidates the Assassin, Infiltrator, and Vanguard prestige classes. Grants access to the Assassin, Awareness, Bothan SpyNet, Camouflage, GenoHaradan, Infiltration, Malkite Poisoner, Spy, and Vanguard talent trees.</p><p>At 1st level, chooses one of Lead Infiltrator, Surprise Attack, Mark, or Unarmed Stun as a free class ability. The others may be taken as talents.</p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 8,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Assassin",
+      "Awareness",
+      "Bothan SpyNet",
+      "Camouflage",
+      "GenoHaradan",
+      "Infiltration",
+      "Malkite Poisoner",
+      "Spy",
+      "Vanguard"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "b6ByqutYnncBKlUZ",
+      "sourceBook": ""
+    }
+  }
+}

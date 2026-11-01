@@ -139,6 +139,25 @@ const EMBEDDED_EFFECTS: Record<string, string> = {
   "Spacehound": "Low Gravity, a disabled status effect; gravity is not modelled",
 };
 
+/**
+ * The fork's tree groups ("Jedi Talent Trees", "Force Tradition Talent Trees"): each group, and the
+ * trees whose non-fan talents list it in categories or possibleProviders. Classes provide groups.
+ */
+export function talentTreeGroups(): Map<string, Set<string>> {
+  const all = readPack(PACK);
+  const folders = new Map(all.filter((d) => String(d["_key"]).startsWith("!folders!")).map((f) => [f._id, f.name]));
+  const groups = new Map<string, Set<string>>();
+  for (const talent of all.filter((d) => !String(d["_key"]).startsWith("!folders!") && !isFanContent(d))) {
+    const tree = treeName(folders.get(talent.folder ?? "") ?? "");
+    const tags = [
+      ...((talent.system["categories"] ?? []) as { value?: string }[]).map((c) => c.value ?? ""),
+      ...((talent.system["possibleProviders"] ?? []) as unknown[]).map(String),
+    ];
+    for (const tag of tags.filter((t) => / Talent Trees$/.test(t))) (groups.get(tag) ?? groups.set(tag, new Set()).get(tag))?.add(tree);
+  }
+  return groups;
+}
+
 export function convertTalents(report: Report): OutputDoc[] {
   const all = readPack(PACK);
   const folders = new Map(all.filter((d) => String(d["_key"]).startsWith("!folders!")).map((f) => [f._id, f.name]));

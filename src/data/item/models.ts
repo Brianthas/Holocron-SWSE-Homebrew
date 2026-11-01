@@ -58,6 +58,10 @@ function classSchema() {
     weaponProficiencies: new fields.ArrayField(new fields.StringField({ required: true, blank: false, choices: [...WEAPON_GROUP_KEYS] })),
     startingFeat: text(),
     talentTrees: strings(),
+    /** Single talents open to the class outside their trees (Many Shades of the Force; rulings.md, Talent trees). */
+    talents: strings(),
+    /** May take a talent from any other Force Tradition tree, one at a time, with GM approval (rulings.md, Classes). */
+    traditionApproval: new fields.BooleanField({ initial: false }),
     /** Class levels that give a Force technique or secret (core rulebook Tables 12-6 to 12-13; Legacy Era 3-3). */
     techniqueLevels: new fields.ArrayField(new fields.NumberField({ required: true, nullable: false, integer: true, min: 1 })),
     secretLevels: new fields.ArrayField(new fields.NumberField({ required: true, nullable: false, integer: true, min: 1 })),

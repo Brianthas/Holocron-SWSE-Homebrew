@@ -1,0 +1,51 @@
+{
+  "_id": "DeY5FpERQM99aHZe",
+  "_key": "!items!DeY5FpERQM99aHZe",
+  "name": "Soldier",
+  "type": "class",
+  "system": {
+    "description": "<p>Soldiers combine discipline with martial skills to become the best pure warriors in the galaxy. Soldiers can be stalwart defenders of those in need, cruel marauders, or brave adventurers. They can be hired guns, noble champions, or cold-hearted killers. They fight for glory, for honor, to right wrongs, to gain power, to acquire wealth, or simply for the thrill of battle. </p><h3>Adventurers</h3><p>Many Soldiers see adventures, raids on enemy strongholds, and dangerous missions as their jobs. Some want to defend those who can't defend themselves; others seek to use their muscle to carve their own place of importance in the galaxy. Whatever their initial motivation, most Soldiers wind up living for the thrill of combat and the excitement of adventure. Adventuring Soldiers call themselves guards, bodyguards, champions, enforcers, mercenaries, warriors, soldiers of fortune, or simple adventurers. </p><h3>Characteristics</h3><p>Soldiers have the best all-around fighting abilities, and an individual Soldier develops styles and techniques that set him apart from their peers. A given Soldier might be especially capable with certain weapons, another trained to execute specific combat maneuvers. As Soldiers gain experience, they get more opportunities to develop their fighting skills. </p><h3>Backgrounds</h3><p>Most Soldiers come to the profession after receiving at least some amount of formal training from a military organization, local militia, or private army. Some attend formal academies; others are self-taught and well tested. A Soldier may have taken up his weapon to escape a mundane life. Another may be following a proud family tradition. Soldiers in a particular unit share certain camaraderie, but most have nothing in common except battle prowess and the desire to apply it to a given situation. </p><h4><b>Examples of Soldiers in <i>Star Wars</i></b></h4><p>Admiral Ackbar, Corran Horn, Captain Panaka, Captain Typho, General Crix Madine, Kyle Katarn, Wedge Antilles, Zam Wesell </p><h3>Game Rule Information</h3><p>Soldiers have the following game statistics: </p><table> \n <tbody>\n  <tr> \n   <th>CLASS LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td>Defense Bonuses, Starting Feats, Talent </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td>Bonus Feat (Soldier) </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td>Bonus Feat (Soldier) </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+6 </td> \n   <td>Bonus Feat (Soldier) </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+7 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+8 </td> \n   <td>Bonus Feat (Soldier) </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+9 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+10 </td> \n   <td>Bonus Feat (Soldier) </td>\n  </tr> \n  <tr> \n   <td>11th </td> \n   <td>+11 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>12th </td> \n   <td>+12 </td> \n   <td>Bonus Feat (Soldier) </td>\n  </tr> \n  <tr> \n   <td>13th </td> \n   <td>+13 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>14th </td> \n   <td>+14 </td> \n   <td>Bonus Feat (Soldier) </td>\n  </tr> \n  <tr> \n   <td>15th </td> \n   <td>+15 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>16th </td> \n   <td>+16 </td> \n   <td>Bonus Feat (Soldier) </td>\n  </tr> \n  <tr> \n   <td>17th </td> \n   <td>+17 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>18th </td> \n   <td>+18 </td> \n   <td>Bonus Feat (Soldier) </td>\n  </tr> \n  <tr> \n   <td>19th </td> \n   <td>+19 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>20th </td> \n   <td>+20 </td> \n   <td>Bonus Feat (Soldier) </td>\n  </tr>\n </tbody>\n</table><h4><b>Abilities</b></h4><p>Since most combat in the <i>Star Wars</i> universe uses blasters and other ranged weapons, Dexterity is the Soldier's most important Ability Score, followed closely by Constitution and Strength. Don't underestimate the importance of Intelligence and Wisdom, however, since many of a Soldier's useful Skills are based on these abilities. </p><h4><b>Class Skills </b></h4><p>Trained in 3 + Intelligence modifier: </p><ul>\n <li>Climb</li> \n <li>Endurance</li> \n <li>Initiative</li> \n <li>Jump</li> \n <li>Knowledge (Tactics)</li> \n <li>Mechanics</li> \n <li>Perception</li> \n <li>Pilot</li> \n <li>Swim</li> \n <li>Treat Injury</li> \n <li>Use Computer</li>\n</ul><h4><b>Hit Points</b></h4><p>Soldiers begin play at 1st level with a number of hit points equal to 30 + their Constitution modifier. At each level after 1st, Soldiers gain 1d10 hit points + their Constitution modifier. </p><h4><b>Force Points</b></h4><p>Soldiers gain a number of Force Points equal to 5 + one-half their Character Level (rounded down) at 1st level, and every time they gain a new level in this class. Any Force Points left over from previous levels are lost. </p><h3>Class Features.</h3><p>All of the following are features of the Soldier class. </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, a Soldier gains a +1 Class bonus to their Reflex Defense and a +2 Class bonus to their Fortitude Defense. </p><h4><b>Starting Feats</b></h4><p>A Soldier begins play with the following bonus Feats: </p><ul>\n <li>Armor Proficiency (Light)</li> \n <li>Armor Proficiency (Medium)</li> \n <li>Weapon Proficiency (Pistols)</li> \n <li>Weapon Proficiency (Rifles)</li> \n <li>Weapon Proficiency (Simple Weapons)</li>\n</ul><h4><b>Talent Trees</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Soldier gains an additional Talent. A Soldier may choose a Talent from any of the Talent Trees (Soldier) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Bonus Feats</b></h4><p>At every even-numbered level (2nd, 4th, 6th, etc.), a Soldier gains a bonus Feat. This&nbsp;Feat&nbsp;must be selected from the related page (Bonus Feats (Soldier)). As with normal&nbsp;Feats, you must meet the prerequisites to select the&nbsp;Feat. The Bonus&nbsp;Feat&nbsp;must be from the&nbsp;Bonus Feats (Soldier), unless explicitly stated otherwise. </p><h4><b>Credits</b></h4><p>A 1st-level Soldier starts play with 3d4 x 250 credits. </p>",
+    "category": "base",
+    "heroic": true,
+    "hitDie": 10,
+    "hpFirstLevel": 30,
+    "trainedSkills": 4,
+    "weaponProficiencies": [
+      "advancedMelee",
+      "pistols",
+      "rifles",
+      "simple"
+    ],
+    "startingFeat": "Armor Proficiency",
+    "talentTrees": [
+      "Ambusher",
+      "Armor Specialist",
+      "Awareness",
+      "Brawler",
+      "Brute Squad",
+      "Commando",
+      "Mercenary",
+      "Opportunist",
+      "Rocket Jumper",
+      "Shockboxer",
+      "Squad Leader",
+      "Trooper",
+      "Veteran",
+      "Warrior",
+      "Weapon Specialist"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GIY3MFbgiA5PvvZq",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

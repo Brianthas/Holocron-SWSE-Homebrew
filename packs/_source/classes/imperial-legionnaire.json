@@ -1,0 +1,48 @@
+{
+  "_id": "29SIy5Impr6kmBe9",
+  "_key": "!items!29SIy5Impr6kmBe9",
+  "name": "Imperial Legionnaire",
+  "type": "class",
+  "system": {
+    "description": "<p>The Imperial Knights are Jedi who dedicate themselves to the preservation of The Fel Empire and the defense of Emperor Roan Fel- not unlike the Royal Guard that once protected Emperor Palpatine, though their training in The Force distinguishes them from that organization. Despite opinions to the contrary, Imperial Knights are every bit as capable in the use of The Force as their Jedi counterparts, though their training has considerably more martial focus. During the height of the Sith-Imperial War, The Imperial Knights were forbidden from participating in the fighting. Instead, they served as the Emperor's personal guard. </p><p>At any given time, there are as few as a dozen Imperial Knights or as many as three score. Casualties within the Order have been high since Darth Krayt declared himself Emperor. The remaining Imperial Knights continue to serve Roan Fel closely, with many fighting an insurgent war against The Sith and their Imperial forces. </p><p>Recruitment within The Imperial Knights is limited to individuals who demonstrate both Force potential and loyalty to Roan Fel. Like The Jedi, Imperial Knights are permitted to take on apprentices, but only one at a time and only once they have mastered their own skills to a sufficient degree. Apprenticeships are personally approved by the Emperor, as are promotions within the structure of the Order. Only the highest ranking Imperial Knight is designated as a \"Master,\" subject to Roan Fel's approval. </p><p>Imperial Knights reject the use of The Dark Side of The Force, yet true Jedi still feel that The Imperial Knights lack a balanced approach to their use of The Force. Controlling fear and managing one's emotions in the face of adversity is paramount to the ideology of The Imperial Knights, as is loyalty to their Emperor. They are warriors first and foremost, not negotiators, and they make no excuses for this fact. </p><h4><b>Examples of Imperial Knights in Star Wars</b></h4><p>Sigel Dare, Antares Draco, Marasiah Fel, Mohrgan Fel, Roan Fel, Ganner Krieg, Azlyn Rae, Treis Sinde, Elke Vetter. </p><h4><b>Prerequisites</b></h4><p>To qualify to become an Imperial Knight, a character must fulfill the following criteria: </p><ul>\n <li><b>Base Attack Bonus:</b> +7</li> \n <li><b>Trained Skills</b><b>:</b> Use the Force</li> \n <li><b>Feats:</b> Armor Proficiency (Light),&nbsp;Armor Proficiency (Medium), Force Sensitivity, Weapon Proficiency (Lightsabers)</li> \n <li><b>Special:</b> Must be a sworn defender of Emperor Roan Fel.</li>\n</ul><h3>Game Rule Information</h3><p>The following are the features of the Imperial Knight&nbsp;Prestige Class: </p><table> \n <caption>\n  Imperial Knight Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td>Defense Bonuses, Talent </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+6 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+7 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+8 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+9 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+10 </td> \n   <td>Force Technique </td>\n  </tr>\n </tbody>\n</table><h4><b>Hit Points</b></h4><p>At each level, Imperial Knights gain 1d10 Hit Points + their Constitution modifier. </p><h4><b>Force Points</b></h4><p>Imperial Knights gain a number of Force Points equal to 6 + one-half their Character Level, rounded down, each time they gain a new level in this Prestige Class. </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, Imperial Knights gain a +2 Class bonus to their Will Defense, Reflex Defense, and Fortitude Defense. </p><h4><b>Talents</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), an Imperial Knight gains an additional Talent. An Imperial Knight may choose a Talent from any of the Talent Trees (Imperial Knight) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Force Techniques</b></h4><p>You have learned improved techniques to attune yourself to The Force. At every even-numbered level (2nd, 4th, 6th, and so on), an Imperial Knight gains one Force Technique that, once selected, cannot be changed. </p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 10,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Armor Specialist",
+      "Bando Gora Captain",
+      "Believer Disciple",
+      "Blazing Chain",
+      "Duelist",
+      "Jensaarai Defender",
+      "Kilian Ranger",
+      "Knight's Armor",
+      "Knight's Resolve",
+      "Lightsaber Combat",
+      "Lightsaber Forms"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Cq6gliYfIS9mhfTl",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

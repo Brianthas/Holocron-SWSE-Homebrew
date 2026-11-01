@@ -1,0 +1,52 @@
+{
+  "_id": "h4wfxJmDlhYd5MxK",
+  "_key": "!items!h4wfxJmDlhYd5MxK",
+  "name": "Jedi Knight",
+  "type": "class",
+  "system": {
+    "description": "<p>Among the Jedi, those of the order who have proven capable, wise, self-sufficient, and stable are given the rank of Knight. A Jedi apprentice must learn to use The Force without instability or strain, build their own Lightsaber, and show an understanding of the Jedi Code (though such understanding may shift from era to era, as the nature of the Jedi differs somewhat in each era). During most eras, a Jedi must pass a series of tests before becoming a Jedi Knight, which may be as simple as fulfilling a single important mission assigned by a Jedi Master, or as complex as a series of trials to test the Jedi's mettle, ethics, and dedication. In a few of chaos and uncertainty, Jedi apprentices are forced by circumstance to push themselves past the normal boundaries of their training and become Knights in function, if not in name, with no formal testing. In these rare cases, the ruling Jedi generally acknowledge the Jedi's status as a Knight as soon as circumstances allow. </p><p>Jedi Knights are trusted to teach apprentices, carry out missions with little aid or support, and use their best judgment when handling the unexpected. A Jedi Knight is expected to deal with any problem in a manner that reflects well on the Jedi as a whole, and carry out the Jedi goals of defending justice and maintaining peace. Jedi are the guardians of the galaxy, and the Jedi Knight is a skilled individual expected to uphold that trust. </p><h4><b>Examples of Jedi Knights in Star Wars</b></h4><p>Anakin Skywalker (Episode III), Barriss Offee, Bastila Shan, Kyle Katarn, Luke Skywalker (Episode VI), Nomi Sunrider, Ulic Qel-Droma. </p><h4><b>Prerequisites</b></h4><p>To qualify to become a Jedi Knight, a character must fulfill the following criteria: </p><ul>\n <li><b>Base Attack Bonus:</b> +7</li> \n <li><b>Trained Skills</b><b>:</b> Use the Force</li> \n <li><b>Feats</b><b>:</b> Force Sensitivity, Weapon Proficiency (Lightsabers)</li> \n <li><b>Special: </b>Must have built their own Lightsaber.</li> \n <li><b>Special:</b> Must be a member of The Jedi Force Tradition.</li>\n</ul><h3>Game Rule Information</h3><p>The following are the features of the Jedi Knight&nbsp;Prestige Class: </p><table> \n <caption>\n  Jedi Knight Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td>Defense Bonuses, Talent </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+6 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+7 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+8 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+9 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+10 </td> \n   <td>Force Technique </td>\n  </tr>\n </tbody>\n</table><h4><b>Hit Points</b></h4><p>At each level, Jedi Knights gain 1d10 hit points + their Constitution modifier. </p><h4><b>Force Points</b></h4><p>Jedi Knights gain a number of Force Points equal to 6 + one-half their Character Level, rounded down, each time they gain a new level in this Prestige Class. </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, Jedi Knights gain a +2 Class bonus to their Will Defense, Reflex Defense, and Fortitude Defense. </p><h4><b>Talents</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Jedi Knight gains an additional Talent. A Jedi Knight may choose a Talent from any of the Talent Trees (Jedi Knight) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Force Techniques</b></h4><p>You have learned improved techniques to feel the rhythm of The Force. At every even-numbered level (2nd, 4th, 6th, and so on), a Jedi Knight gains one Force Technique that, once selected, cannot be changed. </p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 10,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Armor Specialist",
+      "Duelist",
+      "Jedi Archivist",
+      "Jedi Artisan",
+      "Jedi Battlemaster",
+      "Jedi Healer",
+      "Jedi Instructor",
+      "Jedi Investigator",
+      "Jedi Refugee",
+      "Jedi Shadow",
+      "Jedi Watchman",
+      "Jedi Weapon Master",
+      "Lightsaber Combat",
+      "Lightsaber Forms",
+      "Tyia Adept"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kBpC6UrbbZZzyW2y",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

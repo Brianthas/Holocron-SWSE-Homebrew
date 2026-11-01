@@ -1,0 +1,40 @@
+{
+  "_id": "MLMcUdMhibkpzCdX",
+  "_key": "!items!MLMcUdMhibkpzCdX",
+  "name": "Agent",
+  "type": "class",
+  "system": {
+    "description": "<p>Consolidates the Assassin, Corporate Agent, Enforcer, Pathfinder, and Master Privateer prestige classes. Grants access to the Assassin, Corporate Power, Enforcement, Infamy, Leadership, Pathfinder, Piracy, Privateer, and Spy talent trees.</p><p>At 1st level, chooses one of Create Cover, Executive Leadership, Targeted Suspect, or Veteran Privateer as a free class ability. The others may be taken as talents.</p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 8,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Assassin",
+      "Corporate Power",
+      "Enforcement",
+      "Infamy",
+      "Leadership",
+      "Pathfinder",
+      "Piracy",
+      "Privateer",
+      "Spy"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Cb5fsnX380Fx0RhS",
+      "sourceBook": ""
+    }
+  }
+}

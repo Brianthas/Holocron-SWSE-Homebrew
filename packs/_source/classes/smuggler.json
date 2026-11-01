@@ -1,0 +1,62 @@
+{
+  "_id": "wycuskpveMPXhhsv",
+  "_key": "!items!wycuskpveMPXhhsv",
+  "name": "Smuggler",
+  "type": "class",
+  "system": {
+    "description": "<p>The Smuggler combines the Scoundrel and Scout classes into one - quick-witted operators equally at home talking their way out of trouble or navigating the wild regions of the galaxy. A Smuggler gains access to all talent trees and bonus feats associated with either Scoundrel or Scout (except Malkite Poisoner and Yuuzhan Vong Biotech), choosing one Talent every odd level and one Bonus Feat every even level from either pool.</p>",
+    "category": "base",
+    "heroic": true,
+    "hitDie": 8,
+    "hpFirstLevel": 24,
+    "trainedSkills": 5,
+    "weaponProficiencies": [
+      "advancedMelee",
+      "pistols",
+      "rifles",
+      "simple"
+    ],
+    "startingFeat": "Quick Draw",
+    "talentTrees": [
+      "Advance Patrol",
+      "Awareness",
+      "Brigand",
+      "Camouflage",
+      "Espionage",
+      "Fortune",
+      "Fringer",
+      "Hyperspace Explorer",
+      "Master Scout",
+      "Misfortune",
+      "Mobile Scout",
+      "Opportunist",
+      "Outlaw Tech",
+      "Outsider",
+      "Recklessness",
+      "Reconnaissance",
+      "Revolutionary",
+      "Run and Gun",
+      "Slicer",
+      "Smuggling",
+      "Spacer",
+      "Spy",
+      "Surveillance",
+      "Survivor",
+      "Unpredictable",
+      "Versatility"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tFMnvnN2IdsvjMa9",
+      "sourceBook": ""
+    }
+  }
+}

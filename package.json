@@ -24,6 +24,7 @@
     "verify:feats": "node tools/checks/run.ts feats",
     "verify:talents": "node tools/checks/run.ts talents",
     "verify:species": "node tools/checks/run.ts species",
+    "verify:classes": "node tools/checks/run.ts classes",
     "rules:snapshot": "node tools/snapshot-rules.ts",
     "packs:convert": "node tools/convert/convert.ts"
   },

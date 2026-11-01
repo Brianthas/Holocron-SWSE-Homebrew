@@ -1,0 +1,33 @@
+{
+  "_id": "X1jmdc4gDu8IIr8C",
+  "_key": "!items!X1jmdc4gDu8IIr8C",
+  "name": "Droid Commander",
+  "type": "class",
+  "system": {
+    "description": "<p>All armies need an established hierarchy to ensure that objectives are achieved successfully. Even Battle Droids, with their network connection to a central command computer, must sometimes have specific movements dictated to them by a separate Droid designated as a field commander. The Droid Commander, through the course of its career as a soldier for its organisation, proves itself through its actions and is promoted to lead others of its kind to support the unit's mission and the organisation's cause. </p><p>Droid Commanders are easy to spot on the battlefield. They bear command colors and are positioned within the ranks to receive maximum protection from the enemy. Although they might be easy to find, they are rarely easy to eliminate. Because these Droids are prized by their superiors, they are augmented and improved to increase the likelihood of their survival and continued service to their masters. Better weapons, armor and equipment in addition to upgraded systems make the Droid Commander a formidable foe on its own. Its ability to effectively lead troops on the battlefield make the Droid Commander and its squad a force to be reckoned with. </p><h4><b>Examples of Droid Commanders in Star Wars</b></h4><p>OLR-4, OOM-9, OOM-14. </p><h4><b>Prerequisites</b></h4><p>To qualify to become a Droid Commander, a character must fulfill the following criteria: </p><ul>\n <li><b>Minimum Level:</b>&nbsp;7th.</li> \n <li><b>Trained Skills:</b>&nbsp;Knowledge (Tactics), Use Computer.</li> \n <li><b>Talents:</b>&nbsp;At least one Talent from the Leadership Talent Tree&nbsp;or the Commando Talent Tree.</li> \n <li><b>Special:</b>&nbsp;Must be a Droid.</li>\n</ul><h3>Game Rule Information</h3><p>Droid Commanders have the following game statistics: </p><table> \n <caption>\n  Droid Commander Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td>Defense Bonuses, Talent </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td>Networked Mind (1 Droid Ally) </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td>Networked Mind (2 Droid Allies) </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+6 </td> \n   <td>Networked Mind (3 Droid Allies) </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+7 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+8 </td> \n   <td>Networked Mind (4 Droid Allies) </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+9 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+10 </td> \n   <td>Networked Mind (5 Droid Allies) </td>\n  </tr>\n </tbody>\n</table><h4><b>Hit Points</b></h4><p>At each level, Droid Commanders gain 1d10 Hit Points. </p><h4><b>Force Points</b></h4><p>Droid Commanders gain a number of Force Points equal to 6 + one-half their Character Level, rounded down, every time they gain a new level in this Prestige Class. </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, Droid Commanders gain a +2 Class bonus to their Reflex Defense, Fortitude Defense, and Will Defense. </p><h4><b>Talents</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Droid Commander gains an additional Talent. A Droid Commander may choose a Talent from any of the Talent Trees (Droid Commander) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Networked Mind</b></h4><p>A Droid Commander can designate a number of its Droid Allies equal to one-half its Class Level as being networked with it. A Networked Droid Ally can receive beneficial Mind-Affecting effects from the Droid Commander. Once the&nbsp;Droid Commander designates a Droid Ally as the recipient of this benefit, it cannot change the Droid beneficiary until after the end of the encounter, and designating a Droid to benefit from this Class Feature is a Free Action. </p><p>Additionally, the Droid Commander is considered to have line of sight to a Networked Droid Ally as long as they both have an active Comlink (if the Comlinks are subject to communications jamming, it loses this benefit). </p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 10,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Droid Commander",
+      "Override"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dKMjfju7pKlAm1xO",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

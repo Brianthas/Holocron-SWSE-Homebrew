@@ -1,0 +1,37 @@
+{
+  "_id": "usZI0fTCtBGIEwqQ",
+  "_key": "!items!usZI0fTCtBGIEwqQ",
+  "name": "Officer",
+  "type": "class",
+  "system": {
+    "description": "<p>Even the best-trained troops need someone to make decisions and provide direction. The Officer fills that role, but also takes responsibility when the troops fail in their appointed tasks. They frequently also suffer the disrespect of their subordinates, who often see the uniform as a symbol of oppression. Many soldiers can't perceive the honor of the person inside the uniform. Very few Officers earn the universal respect of their troops and their superiors, but to those who understand the concepts of leadership and valor, it often just comes naturally. </p><p>An Officer must be comfortable in command, willing to make tough decisions when their men need guidance, and occasionally ordering individual soldiers to their deaths so that the unit can survive. A good Officer learns to do so without hesitation, and only agonizes over their decision when lives are no longer at stake. The best Officers don't let their distaste for life-or-death decisions paralyze them when their troops are counting on them. Those who can't find the courage to face such dilemmas rarely stay Officers for long- though certainly, a few somehow manage to avoid the issue by shifting blame elsewhere. </p><h4><b>Examples of Officers in Star Wars</b></h4><p>Admiral Ackbar, Captain Needa, General Dodonna, General Grievous, General Rieekan, General Veers. </p><h4><b>Prerequisites</b></h4><p>To qualify to become an Officer, a character must fulfill the following criteria: </p><ul>\n <li><b>Minimum Level: </b>7th</li> \n <li><b>Trained Skills: </b>Knowledge (Tactics)</li> \n <li><b>Talents: </b>At least one Talent from either the Leadership Talent Tree, the Commando Talent Tree, or the Veteran Talent Tree</li> \n <li><b>Special: </b>Must belong to an organization with a military or paramilitary division, examples include the Trade Federation, the Galactic Empire, the Rebel Alliance, and the New Republic</li>\n</ul><h3>Game Rule Information</h3><p>The following are the features of the Officer&nbsp;Prestige Class: </p><table> \n <caption>\n  <b>Officer Leveling Statistics</b> \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td>Defense Bonuses, Talent </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td>Command Cover +1, Share Talent </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td>Command Cover +2, Share Talent </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+6 </td> \n   <td>Command Cover +3, Share Talent </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+7 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+8 </td> \n   <td>Command Cover +4, Share Talent </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+9 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+10 </td> \n   <td>Command Cover +5, Share Talent </td>\n  </tr>\n </tbody>\n</table><h4><b>Hit Points</b></h4><p>At each level, Officers gain 1d8 hit points + their Constitution modifier. </p><h4><b>Force Points</b></h4><p>Officers gain a number of Force Points equal to 6 + one-half their Character Level, rounded down, each time they gain a new level in this Prestige Class. </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, Officers gain a +2 Class bonus to their Reflex Defense, and a +4 Class bonus to their Will Defense. </p><h4><b>Talents</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), an Officer gains an additional Talent. An Officer may choose a Talent from any of the Talent Trees (Officer) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Command Cover</b></h4><p>Starting at 2nd level, an Officer can use their allies to shield them from harm. You can gain a +1 Cover bonus to your Reflex Defense for each ally that is adjacent to you, up to a maximum bonus equal to one-half your Class Level (maximum +5 at 10th level). </p><h4><b>Share Talent</b></h4><p>At every even-number level, choose a Talent that you already possess. The Talent you select must be under the Commando Talent Tree, the Influence Talent Tree, the Inspiration Talent Tree, or the Military Tactics Talent Tree. Once per day, as a Standard Action, you can impart the benefits of the chosen Talent to one or more allies, effectively granting them the Talent (even if they don't meet the prerequisites). An ally must be within 10 squares of you, and must be able to see and hear you to gain the Talent; once gained, its benefits last until the end of the encounter. </p><p>You can share the Talent with a number of allies equal to one-half your Class Level (rounded down). </p><p>Each time you gain this ability, it applies to a different Talent. By 10th level, an Officer will have five different Talents, that they can share with up to five allies at a time. </p><p>Once you select a Shared Talent, it cannot be changed. </p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 8,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Commando",
+      "Fugitive Commander",
+      "Leadership",
+      "Military Tactics",
+      "Naval Officer",
+      "Rebel Recruiter"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rswT1P7GUYrGFKyR",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -139,6 +139,10 @@ describe("talent names and short descriptions", () => {
     expect(textNotIn("Damage dealt is always capped to the size of the object. You move a target up to 6 squares.", original))
       .toEqual(["damage dealt is always capped to the size of the object"]);
   });
+  it("drop the bare house label and a book line after a line break", () => {
+    expect(cleanDescription("<p><i>Homebrew Class</i></p><p>The Smuggler combines two classes.</p><p><br> <i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p>").html)
+      .toBe("<p>The Smuggler combines two classes.</p>");
+  });
   it("drop the bold house label and capitalise what follows", () => {
     expect(cleanDescription("<p><b>Homebrew:</b> murderous Arts I and II are one talent.</p>").html).toBe("<p>Murderous Arts I and II are one talent.</p>");
   });

@@ -1,0 +1,41 @@
+{
+  "_id": "9nyMR9YkasmVe2he",
+  "_key": "!items!9nyMR9YkasmVe2he",
+  "name": "Elite Trooper",
+  "type": "class",
+  "system": {
+    "description": "<p>The Elite Trooper represents an individual who has received advanced combat training. More than a mere Soldier, the Elite Trooper is highly trained and capable of taking on any number of combat-related missions, such as guarding an important location, assaulting an enemy base, or participating in a stealthy insertion into enemy territory. They're a crack shot and, though trained in the use of armor, can easily operate without it if the situation warrants. When the fighting gets particularly brutal, the Elite Trooper can dispatch foes hand-to-hand as easily as they can with a blaster. </p><p>Elite Troopers exist in a variety of roles, but unlike Imperial Stormtroopers- the \"Elite Troops\" of the Empire, they rely on skill and ingenuity more than sheer force and blind obedience to the Empire's will. Thus, the best missions for them involve penetrating attacks deep behind enemy lines, or guerrilla warfare conducted on enemy-held worlds- situations where versatility and sheer determination are the Elite Trooper's best armaments and armor. </p><h4><b>Examples of Elite Troopers in Star Wars</b></h4><p>General Madine, Major Derlin, Kyle Katarn, Lieutenant Page, Kell Tainer, ARC Trooper Alpha-02. </p><h4><b>Prerequisites</b></h4><p>To qualify to become an Elite Trooper, a character must fulfill the following criteria: </p><ul>\n <li><b>Base Attack Bonus:</b> +7</li> \n <li><b>Feats:</b> Armor Proficiency (Light), Armor Proficiency (Medium), Martial Arts I, Point-Blank Shot or Flurry</li> \n <li><b>Talents:</b> At least one Talent from the Armor Specialist Talent Tree, Commando Talent Tree, Mercenary Talent Tree, or Weapon Specialist Talent Tree</li>\n</ul><h3>Game Rule Information</h3><p>The following are the features of the Elite Trooper&nbsp;Prestige Class: </p><table> \n <caption>\n  <b>Elite Trooper Leveling Statistics</b> \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td>Defense Bonuses, Delay Damage, Talent </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td>Damage Reduction 1 </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td>Damage Reduction 2 </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+6 </td> \n   <td>Damage Reduction 3 </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+7 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+8 </td> \n   <td>Damage Reduction 4 </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+9 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+10 </td> \n   <td>Damage Reduction 5 </td>\n  </tr>\n </tbody>\n</table><h4><b>Hit Points</b></h4><p>At each level, Elite Troopers gain 1d12 hit points + their Constitution modifier. </p><h4><b>Force Points</b></h4><p>Elite Troopers gain a number of Force Points equal to 6 + one-half their Character Level, rounded down, each time they gain a new level in this Prestige Class. </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, Elite Troopers gain a +2 Class bonus to their Reflex Defense, and a +4 Class bonus to their Fortitude Defense. </p><h4><b>Delay Damage</b></h4><p>Elite Troopers are among the toughest individuals in the galaxy. After being exposed to numerous threats, foes, and combat situations, you've developed the ability to delay effects that would drop lesser creatures. </p><p>Once per encounter as a Reaction, you can choose to delay the effect of a single attack, ability, or effect used against you. The damage or effect does not take hold until the end of your next turn. </p><h4><b>Talents</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), an Elite Trooper gains an additional Talent. An Elite Trooper may choose a Talent from any of the Talent Trees (Elite Trooper) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Damage Reduction</b></h4><p>At 2nd level, you gain Damage Reduction 1 (DR 1), which means that you reduce the damage you take from any attack by 1. </p><p>At every even-numbered level after 2nd, your Damage Reduction improves by 1 (DR 2 at 4th level, DR 3 at 6th level, and so on). </p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 12,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Camouflage",
+      "Commando",
+      "Critical Master",
+      "Mandalorian Warrior",
+      "Master of Teräs Käsi",
+      "Melee Specialist",
+      "Protection",
+      "Republic Commando",
+      "Squad Leader",
+      "Weapon Master"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "W4m1QjJ6zIe5vuku",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

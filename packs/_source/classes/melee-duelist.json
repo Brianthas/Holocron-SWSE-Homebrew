@@ -1,0 +1,37 @@
+{
+  "_id": "m2WZB34vurwyqcwm",
+  "_key": "!items!m2WZB34vurwyqcwm",
+  "name": "Melee Duelist",
+  "type": "class",
+  "system": {
+    "description": "<p>Throughout the history of the galaxy, dueling has seen many degrees of acceptability, militarily, legally, and socially. Some cultures or subcultures regard dueling as an honorable and civilized method of settling disputes, but others see dueling as barbaric. During The Old Republic Era, melee combat has resurged, forcing many to study dueling as a means to survive on the battlefield. In addition, dueling is still regarded as a sport on many planets. In fact, dueling is allowed on more civilized worlds than gladiatorial combat, given the higher cultural status dueling enjoys. </p><p>The Melee Duelist specializes in fighting a single opponent. The Melee Duelist selects a primary weapon of choice, studying and practicing maneuvers, feints, and tricks to perfection. Competitive duelists train with several types of weapons because they may not know ahead of time which types of weapons will be used in a duel. Battlefield duelists expand their abilities to take on small groups, because they cannot depend on the luxury of fighting a single opponent in the middle of a skirmish. Jedi can also become Melee Duelists to improve their Lightsaber combat, and expand their knowledge beyond the standard Jedi Lightsaber Forms. Sith of all ranks and types can specialize in Melee Duelist, as many of them do not have direct access to learning Lightsaber Forms. </p><h4><b>Examples of Melee Duelists in Star Wars</b></h4><p>Ice, Marl, Qesya Vth'naar, Tabor. </p><h4><b>Prerequisites</b></h4><p>To qualify to become a Melee Duelist, a character must fulfill the following criteria: </p><ul>\n <li>Minimum Level: 7th</li> \n <li><b>Base Attack Bonus:</b> +7</li> \n <li><b>Feats:</b> Melee Defense, Rapid Strike, Weapon Focus (Melee Weapon)</li>\n</ul><h3>&nbsp;Game Rule Information</h3><p>The following are the features of the Melee Duelist&nbsp;Prestige Class: </p><table> \n <caption>\n  <b>Melee Duelist Leveling Statistics</b> \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td>Defense Bonuses, Talent </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td>Master of Movement (1/Encounter) </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td>Master of Movement (2/Encounter) </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+6 </td> \n   <td>Master of Movement (3/Encounter) </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+7 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+8 </td> \n   <td>Master of Movement (4/Encounter) </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+9 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+10 </td> \n   <td>Master of Movement (5/Encounter) </td>\n  </tr>\n </tbody>\n</table><h4><b>Hit Points</b></h4><p>At each level, Melee Duelists gain 1d8 hit points + their Constitution modifier. </p><h4><b>Force Points</b></h4><p>Melee Duelists gain a number of Force Points equal to 6 + one-half their Character Level, rounded down, each time they gain a new level in this Prestige Class. </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, Melee Duelists gain a +4 Class bonus to their Reflex Defense, and a +2 Class bonus to their Will Defense. </p><h4><b>Talents</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Melee Duelist gains an additional Talent. A Melee Duelist may choose a Talent from any of the Talent Trees (Melee Duelist) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Master of Movement</b></h4><p>You know how to take advantage of whatever terrain you are fighting in. A number of times per encounter equal to half your Melee Duelist level, you can either ignore the movement penalty for moving through Difficult Terrain or over low objects on a single Move Action, or reroll a single Jump or Acrobatics check, keeping the better of the two results. </p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 8,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Brawler",
+      "Fortune",
+      "Melee Duelist",
+      "Privateer",
+      "Trickery",
+      "Weapon Specialist"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AfMW9vFEQmfn9c4h",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

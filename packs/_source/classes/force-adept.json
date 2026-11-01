@@ -1,0 +1,47 @@
+{
+  "_id": "0gcUNqxkXceN9onl",
+  "_key": "!items!0gcUNqxkXceN9onl",
+  "name": "Force Adept",
+  "type": "class",
+  "system": {
+    "description": "<p>The Force Adept is strong in The Force, but follows a different path than that of the Jedi. To the Force Adept, The Force and the aid it provides are more mysterious, and more supernatural. A Force Adept comes from a different Force Tradition, with different beliefs and codes of conduct than those of the Jedi. There are precious few Force Adepts in the galaxy, and even fewer become adventurers. Some call The Force by it's familiar name, while others refer to it by some other term entirely. </p><p>Some Force Adepts become adventurers as part of a quest to learn more about The Force (or whatever they choose to call it). Others do so out of necessity. They are forced from their world, hunted by unscrupulous agents, or are interested in what the galaxy has to offer them. Force Adepts might be called wizards, shamans, witches, or prophets, depending on where they come from, and what Force Tradition they follow. Most Force Adepts follow the Light Side (or at least a variation of it), but some fully embrace the Dark Side and use The Force for evil or selfish intent. </p><p>Force Adepts usually hail from primitive cultures that revere or fear them for their Force powers. Some strive to keep their powers secret, both because they do not fully understand them, and because they are afraid of how others might treat them. </p><h4><b>Examples of Force Adepts in Star Wars</b></h4><p>Asajj Ventress, Inquisitor Tremayne, Maarek Stele, Sly Moore, Teneniel Djo. </p><h4><b>Prerequisites</b></h4><p>To qualify to become a Force Adept, a character must fulfill the following criteria: </p><ul>\n <li><b>Minimum Level:</b> 7th</li> \n <li><b>Trained Skills</b><b>:</b> Use the Force</li> \n <li><b>Feats</b><b>:</b> Force Sensitivity</li> \n <li><b>Talents</b><b>:</b> At least three Force Talents</li>\n</ul><h3>Game Rule Information</h3><p>The following are the features of the Force Adept&nbsp;Prestige Class: </p><table> \n <caption>\n  Force Adept Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+0 </td> \n   <td>Defense Bonuses, Talent </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+1 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+2 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+3 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+3 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+4 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+5 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+6 </td> \n   <td>Force Technique </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+6 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+7 </td> \n   <td>Force Technique </td>\n  </tr>\n </tbody>\n</table><h4><b>Hit Points</b></h4><p>At each level, Force Adepts gain 1d8 hit points + their Constitution modifier. </p><h4><b>Force Points</b></h4><p>Force Adepts gain a number of Force Points equal to 6 + one-half their Character Level, rounded down, each time they gain a new level in this Prestige Class. </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, Force Adepts gain a +4 Class bonus to their Will Defense, and a +2 Class bonus to both their Reflex Defense and their Fortitude Defense. </p><h4><b>Talents</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Force Adept gains an additional Talent. A Force Adept may choose a Talent from any of the Talent Trees (Force Adept) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Force Techniques</b></h4><p>You have learned improved techniques to feel the rhythm of The Force. At every even-numbered level (2nd, 4th, 6th, and so on), a Force Adept gains one Force Technique that, once selected, cannot be changed. </p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 8,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Beastwarden",
+      "Dark Side Devotee",
+      "Duelist",
+      "Force Adept",
+      "Force Item",
+      "Imperial Inquisitor",
+      "Korunnai Adept",
+      "Lightsaber Forms",
+      "Mystic",
+      "Telepath"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1C1WFlAy5r46aNHj",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

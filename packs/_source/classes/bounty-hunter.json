@@ -1,0 +1,37 @@
+{
+  "_id": "EwyImJwIhkBl98J3",
+  "_key": "!items!EwyImJwIhkBl98J3",
+  "name": "Bounty Hunter",
+  "type": "class",
+  "system": {
+    "description": "<p><br> The Bounty Hunter capitalizes on the vendettas of others, tracking down fugitives for their enemies, their masters, or simply for justice. The best Bounty Hunters are the ones who can stay emotionally detached from either their employers or their quarry- although Bounty Hunters who hate their prey often make more spectacular kills. </p><p>Not all Bounty Hunters kill. Some employers reserve that pleasure for themselves, or plan to give the quarry a more or less fair trial. Some Bounty Hunters have reservations about taking lives unnecessarily. Regardless of their methods, a Bounty Hunter still has to produce the quarry in order to receive payment. Overkill is generally not a good idea. </p><p>At one time, organized Bounty Hunter guilds appropriated contracts and policed their membership. They dwindled in both power and organization during the rise of Emperor Palpatine. </p><p>Whether working alone or in groups, Bounty Hunters revel in the thrill of the hunt. Given the nature of their work, it goes without saying that few Bounty Hunters die of boredom. </p><h4><b>Examples of Bounty Hunters in Star Wars</b></h4><p>Aurra Sing, Boba Fett, Bossk, Dengar, 4-LOM, Greedo, IG-88, Zuckuss. </p><h4><b>Prerequisites</b></h4><p>To qualify to become a Bounty Hunter, a character must fulfill the following criteria: </p><ul>\n <li><b>Minimum Level:</b> 7th</li> \n <li><b>Trained Skills:</b> Survival</li> \n <li><b>Talents:</b> At least two Talents from the Awareness Talent Tree</li>\n</ul><h3>Game Rule Information</h3><p>The following are the features of the Bounty Hunter&nbsp;Prestige Class: </p><table> \n <caption>\n  <b>Bounty Hunter Leveling Statistics</b> \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td>Defense Bonuses, Talent </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td>Familiar Foe +1 </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td>Familiar Foe +2 </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+6 </td> \n   <td>Familiar Foe +3 </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+7 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+8 </td> \n   <td>Familiar Foe +4 </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+9 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+10 </td> \n   <td>Familiar Foe +5 </td>\n  </tr>\n </tbody>\n</table><h4><b>Hit Points</b></h4><p>At each level, Bounty Hunters gain 1d10 Hit Points + their Constitution modifier. </p><h4><b>Force Points</b></h4><p>Bounty Hunters gain a number of Force Points equal to 6 + one-half their Character Level, rounded down, each time they gain a new level in this Prestige Class. </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, Bounty Hunters gain a +4 Class bonus to their Reflex Defense, and a +2 Class bonus to their Fortitude Defense. </p><h4><b>Talents</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Bounty Hunter gains an additional Talent. A Bounty Hunter may choose a Talent from any of the Talent Trees (Bounty Hunter) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Familiar Foe</b></h4><p>By observing your opponent in combat, you know how to defeat them more easily. If you spend a Full-Round Action observing an opponent in combat, you gain a bonus on attack rolls against that opponent, and a bonus to your Reflex Defense against attacks made by that opponent equal to one-half your Class Level (rounded down). </p><p>The effects last until the end of the encounter. You cannot use this ability until after your opponent has acted during the combat. </p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 10,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Awareness",
+      "Bounty Hunter",
+      "Force Hunter",
+      "Gand Findsman",
+      "Gladiatorial Combat",
+      "Misfortune"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fApbZIeS1h7Zs4Gb",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "HmEvhmjwbbN1fLpT",
+  "_key": "!items!HmEvhmjwbbN1fLpT",
+  "name": "Gunslinger",
+  "type": "class",
+  "system": {
+    "description": "<p>Since the first primitive Slugthrower was developed thousands of years ago, there have been soldiers of fortune focused on Pistol fighting. The tradition grew with the technology, creating a special breed of blaster-wielding freelancers who shoot first, and ask questions later. Often wandering guns-for-hire, bodyguards in fringe areas, professional duelists, or even assassins, these fighters know about pistols of all descriptions. </p><p>They can draw faster, shoot faster, and aim more accurately with their weapons of choice than any other category of warrior. Some use their prowess to defend the weak and battle injustice, while others use their skill to gain fast and easy credits. Regardless of motivation, Gunslingers seek to use their focused combat techniques to gain greater fame, and wield that fame as a weapon against less well-known foes. </p><h4><b>Examples of Gunslingers in Star Wars</b></h4><p>Dash Rendar, Gallandro, Han Solo, Jango Fett. </p><h4><b>Prerequisites</b></h4><p>To qualify to become a Gunslinger, a character must fulfill the following criteria: </p><ul>\n <li><b>Minimum Level: </b>7th</li> \n <li><b>Feats: </b>Point-Blank Shot, Precise Shot, Quick Draw, Weapon Proficiency (Pistols)</li>\n</ul><h3>Game Rule Information</h3><p>The following are the features of the Gunslinger&nbsp;Prestige Class: </p><table> \n <caption>\n  <b>Gunslinger Leveling Statistics</b> \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td>Defense Bonuses, Talent </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td>Trusty Sidearm +1 </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td>Trusty Sidearm +2 </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+6 </td> \n   <td>Trusty Sidearm +3 </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+7 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+8 </td> \n   <td>Trusty Sidearm +4 </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+9 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+10 </td> \n   <td>Trusty Sidearm +5 </td>\n  </tr>\n </tbody>\n</table><h4><b>Hit Points</b></h4><p>At each level, Gunslingers gain 1d8 hit points + their Constitution modifier. </p><h4><b>Force Points</b></h4><p>Gunslingers gain a number of Force Points equal to 6 + one-half their Character Level, rounded down, each time they gain a new level in this Prestige Class. </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, Gunslingers gain a +4 Class bonus to their Reflex Defense, and a +2 Class bonus to their Will Defense. </p><h4><b>Talents</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Gunslinger gains an additional Talent. A Gunslinger may choose a Talent from any of the Talent Trees (Gunslinger) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Trusty Sidearm</b></h4><p>Starting at 2nd level, the Gunslinger gains a bonus on Damage rolls equal to one-half their Class Level (rounded down) when wielding a Pistol. This damage is in addition to the character's usual level bonus to damage. This damage is doubled on a successful Critical Hit, as normal. </p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 8,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Awareness",
+      "Carbineer",
+      "Fortune",
+      "Gunslinger",
+      "Pistoleer",
+      "Sharpshooter"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tWGM0A8Re3poIKQx",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

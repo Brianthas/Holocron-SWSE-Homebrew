@@ -18,13 +18,15 @@ export interface CleanedDescription {
 }
 
 const WIKI_WRAPPER = /^\s*<div class="mw-parser-output">([\s\S]*)<\/div>\s*$/;
-const LABELLED_LINE = /<p>\s*(?:<i>\s*)?(Reference Book|See also):(?:&nbsp;|\s)*([\s\S]*?)(?:<\/i>\s*)?<\/p>/g;
+const LABELLED_LINE = /<p>\s*(?:<br\s*\/?>\s*)*(?:<i>\s*)?(Reference Book|See also):(?:&nbsp;|\s)*([\s\S]*?)(?:<\/i>\s*)?<\/p>/g;
 // The fork's own label on house content, "Homebrew Talent (tovec.wikidot.com/episode-vii)", as a
 // paragraph or inline before the house text: house rules are the rules here, so nothing is
 // labelled by origin.
 const HOUSE_LABEL_PARAGRAPH = /<p>\s*<i>\s*Homebrew [^<]*\(tovec\.wikidot\.com\/episode-vii\)\s*<\/i>\s*<\/p>/g;
 // Captures the letter after the label, which led into the house text in lower case.
 const HOUSE_LABEL_INLINE = /<i>\s*Homebrew[^<]*\(tovec\.wikidot\.com\/episode-vii\):?\s*<\/i>\s*([a-z])?/g;
+// The bare form on a house class: "<p><i>Homebrew Class</i></p>".
+const HOUSE_LABEL_BARE = /<p>\s*<i>\s*Homebrew(?: [A-Za-z]+)?\s*<\/i>\s*<\/p>/g;
 // Bryan's own form on merged house text: "<b>Homebrew:</b> Murderous Arts I and II have been ...".
 const HOUSE_LABEL_BOLD = /<b>\s*Homebrew:\s*<\/b>\s*([a-z])?/g;
 const FAN_PAGE_NOTICE = /<table\b[^>]*>(?:(?!<\/table>)[\s\S])*?You may be looking for(?:(?!<\/table>)[\s\S])*<\/table>\s*/g;
@@ -114,7 +116,7 @@ export function cleanDescription(source: string): CleanedDescription {
     return "";
   });
   const capitalise = (_label: string, letter?: string) => letter?.toUpperCase() ?? "";
-  html = html.replace(HOUSE_LABEL_PARAGRAPH, "").replace(HOUSE_LABEL_INLINE, capitalise).replace(HOUSE_LABEL_BOLD, capitalise);
+  html = html.replace(HOUSE_LABEL_PARAGRAPH, "").replace(HOUSE_LABEL_BARE, "").replace(HOUSE_LABEL_INLINE, capitalise).replace(HOUSE_LABEL_BOLD, capitalise);
   const links: string[] = [];
   html = html.replace(ANCHOR, (_anchor, text: string) => {
     links.push(plain(text));

@@ -1,0 +1,36 @@
+{
+  "_id": "aThmISthxODbTHQ9",
+  "_key": "!items!aThmISthxODbTHQ9",
+  "name": "Martial Arts Master",
+  "type": "class",
+  "system": {
+    "description": "<p>Most warriors become proficient with a variety of weapons, but Martial Arts Masters strive to master various styles of hand-to-hand combat, shunning blasters and turning their bodies into powerful weapons. Although other combatants are satisfied with learning the basics of unarmed combat, Martial Arts Masters learn the techniques and philosophies of many different styles of martial arts, incorporating different elements and techniques into unique personal styles. They are among the most self-sufficient and the most dangerous fighters in the galaxy. </p><p>Martial Arts Masters focus on perfecting their art, but many different paths lead to that goal. Some Martial Arts Masters withdraw from the galaxy, honing their skills in small, isolated enclaves. Others use their prowess in the defense of the helpless and innocent in a manner befitting a Jedi Knight. Some make their lethal skills available to the highest bidder, and still others hold positions of influence with criminal cartels, using their deadly fighting abilities to ruthlessly maintain their rank. </p><h4><b>Examples of Martial Arts Masters in Star Wars</b></h4><p>Anoon Bondara, Arden Lyn, Bultar Swan, the Pike sisters, the Five Masters of Cularin. </p><h4><b>Prerequisites</b></h4><p>To qualify to become a Martial Arts Master, a character must fulfill the following criteria: </p><ul>\n <li><b>Base Attack Bonus:</b> +7</li> \n <li><b>Feats:</b> Martial Arts I, Martial Arts II, Melee Defense, and at least one of the following Feats: Echani Training, Hijkata Training, K'tara Training, K'thri Training, Stava Training, Tae-Jitsu Training, Teräs Käsi Training, or Wrruushi Training</li> \n <li><b>Talents:</b> Any one Talent from either the Brawler Talent Tree or the Survivor Talent Tree</li>\n</ul><h3>Game Rule Information</h3><p>The following are the features of the Martial Arts Master Prestige Class: </p><table> \n <caption>\n  Martial Arts Master Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td>Defense Bonuses, Talent </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td>Tough as Durasteel +2 </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td>Tough as Durasteel +4 </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+6 </td> \n   <td>Tough as Durasteel +6 </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+7 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+8 </td> \n   <td>Tough as Durasteel +8 </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+9 </td> \n   <td>Talent </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+10 </td> \n   <td>Tough as Durasteel +10 </td>\n  </tr>\n </tbody>\n</table><h4><b>Hit Points</b></h4><p>At each level, Martial Arts Masters gain 1d10 Hit Points + their Constitution modifier. </p><h4><b>Force Points</b></h4><p>Martial Arts Masters gain a number of Force Points equal to 6 + one-half their Character Level, rounded down, each time they gain a new level in this Prestige Class. </p><h4><b>Defense Bonuses</b></h4><p>At 1st level, Martial Arts Masters gain a +2 Class bonus to their Reflex Defense, and a +4 Class bonus to their Fortitude Defense. </p><h4><b>Talents</b></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Martial Arts Master gains an additional Talent. A Martial Arts Master may choose a Talent from any of the Talent Trees (Martial Arts Master) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. </p><h4><b>Tough as Durasteel</b></h4><p>At 2nd level as part of their training, a Martial Arts Master learned how to ready themselves for the attacks, reducing the effectiveness of the attacker's blows. Whenever a Martial Arts Master damages a target with an Unarmed Attack while wearing Light Armor or no Armor, they gain Bonus Hit Points equal to their Class Level. The number of Bonus Hit Points gained with an Unarmed Attack increases for every other level you gain in this Prestige Class. </p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 10,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Awareness",
+      "Brawler",
+      "Martial Arts Forms",
+      "Master of Teräs Käsi",
+      "Unarmed Mastery"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "b26OM6anyt57TAkr",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

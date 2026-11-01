@@ -1,0 +1,40 @@
+{
+  "_id": "8MgQqkxmxVbBIWlQ",
+  "_key": "!items!8MgQqkxmxVbBIWlQ",
+  "name": "Engineer",
+  "type": "class",
+  "system": {
+    "description": "<p>Consolidates the Improviser, Military Engineer, Outlaw, and Saboteur prestige classes. Grants access to the Improviser, Military Engineer, Misfortune, Outlaw, Outlaw Tech, Procurement, Sabotage, Slicer, and Turret talent trees.</p><p>At 1st level, chooses one of Destructive, Field-Created Weapon, Fugitive, or No Tools Required as a free class ability. The others may be taken as talents.</p>",
+    "category": "prestige",
+    "heroic": true,
+    "hitDie": 8,
+    "hpFirstLevel": 0,
+    "trainedSkills": 0,
+    "weaponProficiencies": [],
+    "startingFeat": "",
+    "talentTrees": [
+      "Improviser",
+      "Military Engineer",
+      "Misfortune",
+      "Outlaw",
+      "Outlaw Tech",
+      "Procurement",
+      "Sabotage",
+      "Slicer",
+      "Turret"
+    ],
+    "talents": [],
+    "traditionApproval": false,
+    "techniqueLevels": [],
+    "secretLevels": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Jn0lUDaQJjOUp56z",
+      "sourceBook": ""
+    }
+  }
+}
