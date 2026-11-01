@@ -1,0 +1,33 @@
+{
+  "_id": "oCfWp59YGegTTwBu",
+  "_key": "!items!oCfWp59YGegTTwBu",
+  "name": "Grenade",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Half damage on a miss. 2-square burst is at -5.</p>",
+    "category": "ranged",
+    "group": "simple",
+    "damage": "4d6",
+    "damageTypes": [
+      "Physical",
+      "Energy",
+      "Stun",
+      "Ion"
+    ],
+    "twoHanded": false,
+    "thrown": true,
+    "halfOnMiss": true,
+    "area": false,
+    "slot": "light",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eotcsOOOnv3AImzy",
+      "sourceBook": ""
+    }
+  }
+}

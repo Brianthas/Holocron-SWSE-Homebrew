@@ -1,0 +1,30 @@
+{
+  "_id": "1zpj4B8RKED8kJmM",
+  "_key": "!items!1zpj4B8RKED8kJmM",
+  "name": "Bow and Crystal Arrows",
+  "type": "weapon",
+  "system": {
+    "description": "",
+    "category": "ranged",
+    "group": "simple",
+    "damage": "2d8",
+    "damageTypes": [
+      "Physical"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "twoKits",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "s5t0A1HqeXN7BQlr",
+      "sourceBook": ""
+    }
+  }
+}

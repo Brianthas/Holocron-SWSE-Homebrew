@@ -1,0 +1,30 @@
+{
+  "_id": "7BOT0lFTm3pTgzaG",
+  "_key": "!items!7BOT0lFTm3pTgzaG",
+  "name": "Lightsaber Staff",
+  "type": "weapon",
+  "system": {
+    "description": "<p>3d6/3d6 as a double weapon (base damage set to one head's value). Reduces dual-wielding penalties by 2, min 0.</p>",
+    "category": "melee",
+    "group": "lightsabers",
+    "damage": "3d6",
+    "damageTypes": [
+      "Energy"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "light",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hJg4t04YGB9cCaxh",
+      "sourceBook": ""
+    }
+  }
+}

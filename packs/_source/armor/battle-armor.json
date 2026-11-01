@@ -1,0 +1,27 @@
+{
+  "_id": "OxJQc6i1WhcuuMXv",
+  "_key": "!items!OxJQc6i1WhcuuMXv",
+  "name": "Battle Armor",
+  "type": "armor",
+  "system": {
+    "description": "<p>Replaces your Dexterity modifier with a flat +4 for Reflex Defense.</p><p>Damage Reduction 2 (does not apply against lightsabers). Reduces speed by 5 feet and imposes a -2 Armor Check Penalty to Acrobatics, Athletics, Endurance, Initiative and Stealth. Has 1 Upgrade Point. Without Armor Proficiency you gain none of this armor's benefits; its penalties still apply.</p><p><b>Beskar'gam Upgrade</b> (Mandalorians only): Damage Reduction 5.</p>",
+    "reflex": {
+      "ability": "",
+      "flat": 4
+    },
+    "damageReduction": 2,
+    "drBypass": "lightsabers",
+    "speedPenalty": 5,
+    "armorCheckPenalty": 2,
+    "worn": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DOqpGGwih50hGwK7",
+      "sourceBook": ""
+    }
+  }
+}

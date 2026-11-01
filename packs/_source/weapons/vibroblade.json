@@ -1,0 +1,30 @@
+{
+  "_id": "sZ75CY8NbDDdcTHV",
+  "_key": "!items!sZ75CY8NbDDdcTHV",
+  "name": "Vibroblade",
+  "type": "weapon",
+  "system": {
+    "description": "<p>May be wielded one- or two-handed.</p>",
+    "category": "melee",
+    "group": "advancedMelee",
+    "damage": "3d8",
+    "damageTypes": [
+      "Physical"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "twoLight",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UHuCiYBaplxCKGlY",
+      "sourceBook": ""
+    }
+  }
+}

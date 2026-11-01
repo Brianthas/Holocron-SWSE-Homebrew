@@ -1,0 +1,27 @@
+{
+  "_id": "aEMh0or8320cxeuC",
+  "_key": "!items!aEMh0or8320cxeuC",
+  "name": "Assault Armor",
+  "type": "armor",
+  "system": {
+    "description": "<p>Uses your Strength modifier in place of your Dexterity modifier for Reflex Defense.</p><p>Reduces speed by 5 feet and imposes a -2 Armor Check Penalty to Acrobatics, Athletics, Endurance, Initiative and Stealth. Has 1 Upgrade Point. Without Armor Proficiency you gain none of this armor's benefits; its penalties still apply.</p><p><b>Beskar'gam Upgrade</b> (Mandalorians only): Damage Reduction 2.</p>",
+    "reflex": {
+      "ability": "str",
+      "flat": 0
+    },
+    "damageReduction": 0,
+    "drBypass": "",
+    "speedPenalty": 5,
+    "armorCheckPenalty": 2,
+    "worn": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XmfmHNCz5vfHAMru",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "zZpd3z1XPZMjoUZY",
+  "_key": "!items!zZpd3z1XPZMjoUZY",
+  "name": "Stun Baton",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Switch between Physical and Stun damage as a Swift Action.</p>",
+    "category": "melee",
+    "group": "advancedMelee",
+    "damage": "3d6",
+    "damageTypes": [
+      "Physical",
+      "Stun"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "light",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "H3zOE3JWupsMOSWE",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "EuhwYa7TxxN4Tvqo",
+  "_key": "!items!EuhwYa7TxxN4Tvqo",
+  "name": "Vibroknife",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Can be thrown. Provides +5 to Stealth checks to conceal. Reduces dual-wielding penalties by 2, min 0.</p>",
+    "category": "melee",
+    "group": "advancedMelee",
+    "damage": "3d4",
+    "damageTypes": [
+      "Physical"
+    ],
+    "twoHanded": false,
+    "thrown": true,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "light",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sMnwzvKDPY3sa6et",
+      "sourceBook": ""
+    }
+  }
+}

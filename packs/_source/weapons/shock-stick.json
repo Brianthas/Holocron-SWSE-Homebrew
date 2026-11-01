@@ -1,0 +1,31 @@
+{
+  "_id": "pKOvqGBpwkK3l4xT",
+  "_key": "!items!pKOvqGBpwkK3l4xT",
+  "name": "Shock Stick",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Requires two hands. Switch between Physical and Stun damage as a Swift Action.</p>",
+    "category": "melee",
+    "group": "advancedMelee",
+    "damage": "3d8",
+    "damageTypes": [
+      "Physical",
+      "Stun"
+    ],
+    "twoHanded": true,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "kit",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IILVeySeWbEPtcXD",
+      "sourceBook": ""
+    }
+  }
+}

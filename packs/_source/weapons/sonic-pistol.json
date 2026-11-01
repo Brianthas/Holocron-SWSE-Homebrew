@@ -1,0 +1,30 @@
+{
+  "_id": "agSBuLiY8P8GVp7O",
+  "_key": "!items!agSBuLiY8P8GVp7O",
+  "name": "Sonic Pistol",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Sonic damage cannot be deflected. Has shorter range.</p>",
+    "category": "ranged",
+    "group": "pistols",
+    "damage": "2d6",
+    "damageTypes": [
+      "Sonic"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "light",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pl8L9tgDpf0RuoA1",
+      "sourceBook": ""
+    }
+  }
+}

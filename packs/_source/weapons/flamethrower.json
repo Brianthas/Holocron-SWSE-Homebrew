@@ -1,0 +1,30 @@
+{
+  "_id": "gHxcN14PRBfkA7Ln",
+  "_key": "!items!gHxcN14PRBfkA7Ln",
+  "name": "Flamethrower",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Requires a fuel tank. 30-foot line. Half damage on a miss.</p>",
+    "category": "ranged",
+    "group": "heavyWeapons",
+    "damage": "4d6",
+    "damageTypes": [
+      "Burn"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": true,
+    "area": true,
+    "slot": "twoKits",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xSXuno5rOYxYlarK",
+      "sourceBook": ""
+    }
+  }
+}

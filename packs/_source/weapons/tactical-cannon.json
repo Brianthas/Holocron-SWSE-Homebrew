@@ -1,0 +1,30 @@
+{
+  "_id": "HThJLGFCfTSYM2c7",
+  "_key": "!items!HThJLGFCfTSYM2c7",
+  "name": "Tactical Cannon",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Requires a power generator. Must be placed on a tripod as a Standard Action before use.</p>",
+    "category": "ranged",
+    "group": "heavyWeapons",
+    "damage": "4d12",
+    "damageTypes": [
+      "Energy"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "twoKits",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BB4DARQsL1jnRoSz",
+      "sourceBook": ""
+    }
+  }
+}

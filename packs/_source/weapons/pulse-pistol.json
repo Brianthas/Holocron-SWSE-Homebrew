@@ -1,0 +1,30 @@
+{
+  "_id": "n335I5PImfB8imAt",
+  "_key": "!items!n335I5PImfB8imAt",
+  "name": "Pulse Pistol",
+  "type": "weapon",
+  "system": {
+    "description": "",
+    "category": "ranged",
+    "group": "pistols",
+    "damage": "3d8",
+    "damageTypes": [
+      "Energy"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "light",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wSUozCEo6saPQkIi",
+      "sourceBook": ""
+    }
+  }
+}

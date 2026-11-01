@@ -1,0 +1,30 @@
+{
+  "_id": "s7kfD14BOXBlAK2v",
+  "_key": "!items!s7kfD14BOXBlAK2v",
+  "name": "Crystal Macuahuitl",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Damage is 2d8 one-handed or 2d10 two-handed (use the Attack dialog's custom damage die for two-handed use).</p><p>Damage is 2d8 (1 handed) or 2d10 (2 handed)</p>",
+    "category": "melee",
+    "group": "simple",
+    "damage": "2d8",
+    "damageTypes": [
+      "Physical"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "kit",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "y0lPK6Okb3Xj0qkP",
+      "sourceBook": ""
+    }
+  }
+}

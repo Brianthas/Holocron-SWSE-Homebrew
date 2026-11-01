@@ -109,3 +109,15 @@ describe("armor and DT+5 (rulings.md, Combat; house armor table)", () => {
     expect(maneuverDefense(14, [untyped("Improved Damage Threshold", 5)]).total).toBe(24);
   });
 });
+
+describe("two-handed melee damage (episode-vii, Weapons: STR x 2)", () => {
+  const STR = (mod: number) => ({ label: "STR", mod });
+  it("adds the ability twice with two hands, once with one", () => {
+    expect(weaponDamage({ dice: "3d10", ability: STR(1), heroicLevel: 1, twoHanded: true }).formula).toBe("3d10 + 2");
+    expect(weaponDamage({ dice: "3d10", ability: STR(1), heroicLevel: 1 }).formula).toBe("3d10 + 1");
+    expect(weaponDamage({ dice: "3d10", ability: STR(3), heroicLevel: 4, twoHanded: true }).formula).toBe("3d10 + 6 + 2");
+  });
+  it("names the doubled term in the breakdown", () => {
+    expect(weaponDamage({ dice: "3d10", ability: STR(2), heroicLevel: 1, twoHanded: true }).flat.applied[0]).toMatchObject({ label: "STR x 2", value: 4 });
+  });
+});

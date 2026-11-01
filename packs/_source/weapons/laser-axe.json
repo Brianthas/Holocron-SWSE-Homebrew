@@ -1,0 +1,30 @@
+{
+  "_id": "xvKvUFS7jMZ6Z9sS",
+  "_key": "!items!xvKvUFS7jMZ6Z9sS",
+  "name": "Laser Axe",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Requires two hands.</p>",
+    "category": "melee",
+    "group": "advancedMelee",
+    "damage": "3d10",
+    "damageTypes": [
+      "Energy"
+    ],
+    "twoHanded": true,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "kit",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dFbOxOzp5hGM0Kc9",
+      "sourceBook": ""
+    }
+  }
+}

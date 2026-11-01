@@ -1,0 +1,30 @@
+{
+  "_id": "C4qT0mDGVdhK7Jks",
+  "_key": "!items!C4qT0mDGVdhK7Jks",
+  "name": "Shotosaber",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Cannot be wielded two-handed. Reduces dual-wielding penalties by 2, min 0.</p>",
+    "category": "melee",
+    "group": "lightsabers",
+    "damage": "3d6",
+    "damageTypes": [
+      "Energy"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "light",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Q1W5LORP36vUnz9C",
+      "sourceBook": ""
+    }
+  }
+}

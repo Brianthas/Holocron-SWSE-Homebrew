@@ -1,0 +1,30 @@
+{
+  "_id": "Afbfx9X9omc6xdXB",
+  "_key": "!items!Afbfx9X9omc6xdXB",
+  "name": "Vibroaxe",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Requires two hands.</p>",
+    "category": "melee",
+    "group": "advancedMelee",
+    "damage": "3d10",
+    "damageTypes": [
+      "Physical"
+    ],
+    "twoHanded": true,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "kit",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dKX5lBEUNQDOUUuh",
+      "sourceBook": ""
+    }
+  }
+}

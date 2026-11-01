@@ -1,0 +1,30 @@
+{
+  "_id": "prGkH1dvyJqA7kIe",
+  "_key": "!items!prGkH1dvyJqA7kIe",
+  "name": "Repeating Cannon",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Requires a power generator. Half damage on a miss. 1-square burst is at -5.</p>",
+    "category": "ranged",
+    "group": "heavyWeapons",
+    "damage": "3d10",
+    "damageTypes": [
+      "Energy"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": true,
+    "area": false,
+    "slot": "twoKits",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fCIjxTTJs85qM965",
+      "sourceBook": ""
+    }
+  }
+}

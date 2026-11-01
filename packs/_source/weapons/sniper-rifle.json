@@ -1,0 +1,30 @@
+{
+  "_id": "hCwB9t08sH6d58Na",
+  "_key": "!items!hCwB9t08sH6d58Na",
+  "name": "Sniper Rifle",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Must aim. Provokes attacks of opportunity in melee range. Also comes in Ion and Stun varieties.</p>",
+    "category": "ranged",
+    "group": "rifles",
+    "damage": "3d12",
+    "damageTypes": [
+      "Energy"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "kit",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qPA0E5d7lXaaUxLZ",
+      "sourceBook": ""
+    }
+  }
+}

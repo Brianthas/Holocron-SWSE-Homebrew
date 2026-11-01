@@ -1,0 +1,30 @@
+{
+  "_id": "GMsHgcLkcHj9G6g9",
+  "_key": "!items!GMsHgcLkcHj9G6g9",
+  "name": "Crystal Tepoztopilli",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Damage becomes 2d10 if using a launcher (separate kit).</p>",
+    "category": "melee",
+    "group": "simple",
+    "damage": "2d8",
+    "damageTypes": [
+      "Physical"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "kit",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "g8jkPloAniShZO6H",
+      "sourceBook": ""
+    }
+  }
+}

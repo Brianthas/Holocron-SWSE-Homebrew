@@ -1,0 +1,31 @@
+{
+  "_id": "clhtHB0Kx2VsPf5T",
+  "_key": "!items!clhtHB0Kx2VsPf5T",
+  "name": "Blaster Pistol",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Switch between Energy and Stun damage as a Swift Action.</p>",
+    "category": "ranged",
+    "group": "pistols",
+    "damage": "3d6",
+    "damageTypes": [
+      "Energy",
+      "Stun"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "light",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "puMjDyd58dCejFuI",
+      "sourceBook": ""
+    }
+  }
+}

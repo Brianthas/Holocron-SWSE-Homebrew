@@ -1,0 +1,30 @@
+{
+  "_id": "VdFPMd6WCfQIQZfl",
+  "_key": "!items!VdFPMd6WCfQIQZfl",
+  "name": "Crystal Tomahawk",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Can be thrown.</p><p>Can be thrown. Reduces penalties for dual-wielding by 2, min 0.</p>",
+    "category": "melee",
+    "group": "simple",
+    "damage": "2d6",
+    "damageTypes": [
+      "Physical"
+    ],
+    "twoHanded": false,
+    "thrown": true,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "light",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GPh1YTmClRlknYuL",
+      "sourceBook": ""
+    }
+  }
+}

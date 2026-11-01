@@ -1,0 +1,30 @@
+{
+  "_id": "b8iLBXOue7nR1byd",
+  "_key": "!items!b8iLBXOue7nR1byd",
+  "name": "Pulse Rifle",
+  "type": "weapon",
+  "system": {
+    "description": "",
+    "category": "ranged",
+    "group": "rifles",
+    "damage": "3d10",
+    "damageTypes": [
+      "Energy"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "kit",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vWsqETMatWkoQrbx",
+      "sourceBook": ""
+    }
+  }
+}

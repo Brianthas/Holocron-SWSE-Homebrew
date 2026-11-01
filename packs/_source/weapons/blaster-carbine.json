@@ -1,0 +1,30 @@
+{
+  "_id": "t884cSNL5S8gaC8B",
+  "_key": "!items!t884cSNL5S8gaC8B",
+  "name": "Blaster Carbine",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Half damage on a miss.</p>",
+    "category": "ranged",
+    "group": "rifles",
+    "damage": "3d6",
+    "damageTypes": [
+      "Energy"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": true,
+    "area": false,
+    "slot": "kit",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UUigDDaSzp2rSFqp",
+      "sourceBook": ""
+    }
+  }
+}

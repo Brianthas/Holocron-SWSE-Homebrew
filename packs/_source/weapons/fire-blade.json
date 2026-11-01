@@ -1,0 +1,30 @@
+{
+  "_id": "jFwrYbZCsHkfadAc",
+  "_key": "!items!jFwrYbZCsHkfadAc",
+  "name": "Fire Blade",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Provides +5 to Stealth checks to conceal.</p>",
+    "category": "melee",
+    "group": "advancedMelee",
+    "damage": "3d4",
+    "damageTypes": [
+      "Energy"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "light",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ShasrP8MN7HvZaqi",
+      "sourceBook": ""
+    }
+  }
+}

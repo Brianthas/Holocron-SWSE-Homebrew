@@ -1,0 +1,30 @@
+{
+  "_id": "KLW8JP17yJeM9FqT",
+  "_key": "!items!KLW8JP17yJeM9FqT",
+  "name": "Lightsaber",
+  "type": "weapon",
+  "system": {
+    "description": "<p>May be wielded one- or two-handed.</p>",
+    "category": "melee",
+    "group": "lightsabers",
+    "damage": "3d8",
+    "damageTypes": [
+      "Energy"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "light",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JDuBllIBAG7S1HXj",
+      "sourceBook": ""
+    }
+  }
+}

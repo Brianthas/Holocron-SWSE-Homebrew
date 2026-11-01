@@ -15,17 +15,20 @@ export function weaponAttack({ bab, ability, bonuses = [] }: { bab: number; abil
 /**
  * A weapon's damage: weapon dice (plus any extra dice of the same size) + the damage ability's
  * modifier + half heroic level, rounded down, + bonuses (core rulebook p144; episode-vii, as above;
- * rulings.md: half level is added to damage on attacks). Returns the flat part as a breakdown and the
- * roll formula; zero terms are left out.
+ * rulings.md: half level is added to damage on attacks). A two-handed weapon adds the ability twice
+ * (episode-vii, Weapons: "Two-handed weapons cannot use DEX but provide STR x 2 damage instead of
+ * STR"). Returns the flat part as a breakdown and the roll formula; zero terms are left out.
  */
-export function weaponDamage({ dice, ability, heroicLevel, bonuses = [], extraDice = 0 }: {
+export function weaponDamage({ dice, ability, heroicLevel, bonuses = [], extraDice = 0, twoHanded = false }: {
   dice: string;
   ability: AbilityTerm;
   heroicLevel: number;
   bonuses?: readonly Modifier[];
   extraDice?: number;
+  twoHanded?: boolean;
 }): { flat: Breakdown; formula: string } {
-  const flat = total([untyped(ability.label, ability.mod), untyped("Half heroic level", Math.floor(heroicLevel / 2)), ...bonuses]);
+  const abilityTerm = twoHanded ? untyped(`${ability.label} x 2`, ability.mod * 2) : untyped(ability.label, ability.mod);
+  const flat = total([abilityTerm, untyped("Half heroic level", Math.floor(heroicLevel / 2)), ...bonuses]);
   const terms = flat.applied.filter((m) => m.value !== 0).map((m) => (m.value > 0 ? ` + ${m.value}` : ` - ${-m.value}`));
   return { flat, formula: `${addDice(dice, extraDice)}${terms.join("")}` };
 }

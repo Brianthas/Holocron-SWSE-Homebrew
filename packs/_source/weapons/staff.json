@@ -1,0 +1,30 @@
+{
+  "_id": "e2JTZVEFsAftlyhI",
+  "_key": "!items!e2JTZVEFsAftlyhI",
+  "name": "Staff",
+  "type": "weapon",
+  "system": {
+    "description": "<p>1d6/1d6 as a double weapon, or 1d8 wielded two-handed (double-weapon dual-attack not yet mechanically implemented; base damage set to the two-handed value).</p>",
+    "category": "melee",
+    "group": "simple",
+    "damage": "1d8",
+    "damageTypes": [
+      "Physical"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "kit",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wip3jkJ8XQKxP23P",
+      "sourceBook": ""
+    }
+  }
+}

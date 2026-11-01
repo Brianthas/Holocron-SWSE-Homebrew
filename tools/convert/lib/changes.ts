@@ -5,8 +5,10 @@ import { cleanDescription, textNotIn } from "./html.ts";
 import { idFor } from "./ids.ts";
 import type { OutputDoc, Report, SourceDoc } from "./pack.ts";
 
-export interface ChangeOut { key: string; type: "bonus" | "grant" | "dice"; value: number | string; phase: "derived"; bonusType: string; condition: string }
-export const bonus = (key: string, value: number | string, bonusType = ""): ChangeOut => ({ key, type: "bonus", value, phase: "derived", bonusType, condition: "" });
+export interface ChangeOut { key: string; type: "bonus" | "grant" | "dice"; value: number | string; phase: "initial" | "derived"; bonusType: string; condition: string }
+/** Ability bonuses apply in core's "initial" phase, before ability scores are derived (character.ts); the rest in "derived". */
+export const bonus = (key: string, value: number | string, bonusType = ""): ChangeOut =>
+  ({ key, type: "bonus", value, phase: key.startsWith("ability.") ? "initial" : "derived", bonusType, condition: "" });
 export const grant = (key: string, value: string): ChangeOut => ({ key, type: "grant", value, phase: "derived", bonusType: "", condition: "" });
 export const dice = (key: string, value: number): ChangeOut => ({ key, type: "dice", value, phase: "derived", bonusType: "", condition: "" });
 

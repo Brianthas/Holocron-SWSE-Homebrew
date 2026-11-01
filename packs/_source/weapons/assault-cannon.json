@@ -1,0 +1,30 @@
+{
+  "_id": "XyafMBUn8UVOKoGp",
+  "_key": "!items!XyafMBUn8UVOKoGp",
+  "name": "Assault Cannon",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Requires a power generator. May deal half damage on a miss at -5.</p>",
+    "category": "ranged",
+    "group": "heavyWeapons",
+    "damage": "3d12",
+    "damageTypes": [
+      "Energy"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "twoKits",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YPQkwpDnOepOd5Vj",
+      "sourceBook": ""
+    }
+  }
+}

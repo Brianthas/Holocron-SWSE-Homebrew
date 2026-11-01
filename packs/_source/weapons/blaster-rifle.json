@@ -1,0 +1,31 @@
+{
+  "_id": "BQOkLWqjWJ6Q4Fan",
+  "_key": "!items!BQOkLWqjWJ6Q4Fan",
+  "name": "Blaster Rifle",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Switch between Energy and Stun damage as a Swift Action.</p>",
+    "category": "ranged",
+    "group": "rifles",
+    "damage": "3d8",
+    "damageTypes": [
+      "Energy",
+      "Stun"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "kit",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OUyB0DyZPqaEmop7",
+      "sourceBook": ""
+    }
+  }
+}

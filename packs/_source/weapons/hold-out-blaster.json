@@ -1,0 +1,30 @@
+{
+  "_id": "VVytwzV20v2fohkk",
+  "_key": "!items!VVytwzV20v2fohkk",
+  "name": "Hold-out Blaster",
+  "type": "weapon",
+  "system": {
+    "description": "<p>Provides +5 to Stealth checks to conceal.</p>",
+    "category": "ranged",
+    "group": "pistols",
+    "damage": "3d4",
+    "damageTypes": [
+      "Energy"
+    ],
+    "twoHanded": false,
+    "thrown": false,
+    "halfOnMiss": false,
+    "area": false,
+    "slot": "light",
+    "carry": "carried"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2ehTF1T2yLPYTvvi",
+      "sourceBook": ""
+    }
+  }
+}

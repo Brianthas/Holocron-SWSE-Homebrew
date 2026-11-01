@@ -12,7 +12,7 @@ import {
 import { skill } from "../../rules/skills.ts";
 
 /** The weapon fields an attack reads. */
-export interface WeaponData { category: string; group: string; damage: string }
+export interface WeaponData { category: string; group: string; damage: string; twoHanded?: boolean }
 
 const fields = foundry.data.fields;
 const int = (initial: number, min?: number) =>
@@ -143,6 +143,7 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
       heroicLevel: this.heroicLevel,
       bonuses: this.weaponModifiers("damage", weapon),
       extraDice: this.weaponExtraDice(weapon),
+      twoHanded: weapon.twoHanded === true && weapon.category === "melee",
     });
   }
 

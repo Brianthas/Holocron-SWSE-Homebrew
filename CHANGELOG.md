@@ -81,6 +81,13 @@
   other Force Tradition talents with GM approval, and a `talents` list of single talents open to
   them (Many Shades of the Force, Telekinetic Vigilance). Follower, beast, nonheroic and
   independent droid classes wait for NPCs.
+- 31 weapons and 4 armors converted, each checked against the house weapon and armor tables read
+  from the rules snapshot: group, slot, damage, damage types (Stun settings included), two-handed,
+  thrown, half damage on a miss. The gloves wait for worn gear. Armor carries its Reflex term, DR
+  and bypass, and penalties (none for Mesh); Power Armor's +2 Strength is an effect.
+- Armor applies its effects only while worn.
+- Two-handed melee weapons add STR x 2 to damage (episode-vii, Weapons); before this they added
+  STR once.
 - Feats carry their mechanics as effects: Improved Defenses, Toughness (5 hit points once, 1 per
   level, +1 healing received), Martial Arts I to III (one unarmed die each, no dodge bonus), Improved
   Damage Threshold, Extra Second Wind, Extended Capacity, and from the house rules Force
