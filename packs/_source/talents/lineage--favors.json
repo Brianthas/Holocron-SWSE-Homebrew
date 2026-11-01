@@ -1,0 +1,42 @@
+{
+  "_id": "aZv6TOqtHXoCa42f",
+  "_key": "!items!aZv6TOqtHXoCa42f",
+  "name": "Favors",
+  "type": "talent",
+  "system": {
+    "description": "You have the ability to acquire aid and information from a long list of people. You may reroll any&nbsp;Gather Information check, but the result of the reroll must be accepted, even if it is worse. Additionally, the DC for any Persuasion checks made to reduce the cost of Bribery is reduced by 5.",
+    "tree": "Lineage",
+    "prerequisite": {
+      "text": "Educated talent, and Intelligence 13",
+      "nodes": {
+        "children": [
+          {
+            "text": "Educated talent",
+            "requirement": "Educated",
+            "type": "TALENT"
+          },
+          {
+            "text": "Intelligence 13",
+            "requirement": "Intelligence 13",
+            "type": "ATTRIBUTE"
+          }
+        ],
+        "text": "Educated talent, and Intelligence 13",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dgkAoSb0FKBDSnze",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

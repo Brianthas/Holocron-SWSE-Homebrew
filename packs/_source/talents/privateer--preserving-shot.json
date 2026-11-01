@@ -1,0 +1,27 @@
+{
+  "_id": "x0iSpb8vqGHKsJIk",
+  "_key": "!items!x0iSpb8vqGHKsJIk",
+  "name": "Preserving Shot",
+  "type": "talent",
+  "system": {
+    "description": "When you deal damage with a Vehicle Weapon that is equal to or greater than both the target Vehicle's current Hit Points and the target Vehicle's Damage Threshold (that is, when you would deal enough damage to destroy the target Vehicle), you can choose to use this Talent.<br><br>Instead of dealing full damage, you instead deal half damage to your target and move it -1 step along the Condition Track. In addition, you disable the ship's sublight engines and Hyperdrive. The ship cannot move or make a jump to lightspeed until it receives repairs.",
+    "tree": "Privateer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "w3SLSuShROrwYFaE",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "9GGQoE6f01XfpEhX",
+  "_key": "!items!9GGQoE6f01XfpEhX",
+  "name": "Close Maneuvering",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn, you can use a Swift Action to designate a target. Until the start of your next turn, your movement does not provoke Attacks of Opportunity from that target, provided that you end your movement adjacent to that target.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0zTww3JRUCtjco84",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "FI58gcnSk9xMxhAr",
+  "_key": "!items!FI58gcnSk9xMxhAr",
+  "name": "Urgency",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can spend three Swift Actions on consecutive turns to increase the speed of all allies within your line of sight of you by 2. The increased speed lasts until the start of your next turn after the third Swift Action is spent.",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "Impel Ally I talent, and Impel Ally II talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Impel Ally I talent",
+            "requirement": "Impel Ally I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Impel Ally II talent",
+            "requirement": "Impel Ally II",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Impel Ally I talent, and Impel Ally II talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gVuFAksrufGy5JP8",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

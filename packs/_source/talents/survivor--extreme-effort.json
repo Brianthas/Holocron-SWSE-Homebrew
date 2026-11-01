@@ -1,0 +1,27 @@
+{
+  "_id": "ek9Aifx0w87vxOzq",
+  "_key": "!items!ek9Aifx0w87vxOzq",
+  "name": "Extreme Effort",
+  "type": "talent",
+  "system": {
+    "description": "You can spend two Swift Actions to gain a +5 bonus on a single Strength check or Strength-based Skill Check made during the same round.",
+    "tree": "Survivor",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XbJnP8VdvD6J9myq",
+      "sourceBook": ""
+    }
+  }
+}

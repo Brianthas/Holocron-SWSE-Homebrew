@@ -1,0 +1,27 @@
+{
+  "_id": "BwK6Zok4Gtd8MfxI",
+  "_key": "!items!BwK6Zok4Gtd8MfxI",
+  "name": "Shoulder to Shoulder",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you begin your turn adjacent to an ally, you gain a number of bonus Hit Points equal to your Heroic Level. Damage is subtracted from the bonus Hit Points first, and any bonus Hit Points remaining at the end of the encounter go away. Bonus Hit Points from various sources do not stack.",
+    "tree": "Republic Commando",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "m15b6yo4ca47x26i",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

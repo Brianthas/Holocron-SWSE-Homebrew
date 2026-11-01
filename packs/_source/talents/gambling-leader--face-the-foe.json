@@ -1,0 +1,27 @@
+{
+  "_id": "gMmbl0sXdOWBWVXQ",
+  "_key": "!items!gMmbl0sXdOWBWVXQ",
+  "name": "Face the Foe",
+  "type": "talent",
+  "system": {
+    "description": "If you do not have Cover from a target, you gain a +1 morale bonus to attack rolls against that target.",
+    "tree": "Gambling Leader",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tCNxRbuV4wRET4jB",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "W571WcgHXb7e2Mhp",
+  "_key": "!items!W571WcgHXb7e2Mhp",
+  "name": "Jedi Quarry",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can designate a single target creature as the focus of your attentions. You gain a +2 bonus to your Speed any time you spend a Move Action to Move, provided that you end your movement adjacent to the target.<br><br>You retain this bonus (and may not use this Talent again) until your target surrenders, is reduced to 0 Hit Points, moves to the bottom of the Condition Track, or until the encounter ends.",
+    "tree": "Jedi Investigator",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "92WX97OMkYN6LzPh",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

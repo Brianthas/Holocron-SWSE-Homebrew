@@ -1,0 +1,27 @@
+{
+  "_id": "cnESBdZWsbquEZNM",
+  "_key": "!items!cnESBdZWsbquEZNM",
+  "name": "Hyperdriven",
+  "type": "talent",
+  "system": {
+    "description": "Once per day while aboard a Starship, you can add your Class Level as a bonus on a single attack roll, Skill Check, or Ability Check. The decision to add this bonus can be made after the result of the check is known.",
+    "tree": "Spacer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Yydl1LTcvE7IkKLV",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

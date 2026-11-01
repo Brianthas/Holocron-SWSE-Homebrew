@@ -1,0 +1,42 @@
+{
+  "_id": "698EMZCi9Q9eMdxo",
+  "_key": "!items!698EMZCi9Q9eMdxo",
+  "name": "Animal Companion",
+  "type": "talent",
+  "system": {
+    "description": "You gain the service of a loyal <b>Animal Companion</b>. This Beast is generated using the Standard Score Package, has levels of the Beast class equal to one-half your Character Level (rounded down, minimum of 1), a Natural Armor bonus of +1, a single type of natural attack, and a single Beast Trait.<br><br>The <b>Animal Companion</b> may be any size up to Large. Unlike normal Beasts, the <b>Animal Companion</b> adds its Beast Class Level to Defenses.",
+    "tree": "Beastwarden",
+    "prerequisite": {
+      "text": "Calming Aura talent, and Nature Sense talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Calming Aura talent",
+            "requirement": "Calming Aura",
+            "type": "TALENT"
+          },
+          {
+            "text": "Nature Sense talent",
+            "requirement": "Nature Sense",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Calming Aura talent, and Nature Sense talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UM8vqrIkM2iYtciQ",
+      "sourceBook": "Saga Edition All-Purpose Sourcebook"
+    }
+  }
+}

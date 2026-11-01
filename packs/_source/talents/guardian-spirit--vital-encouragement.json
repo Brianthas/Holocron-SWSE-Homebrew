@@ -1,0 +1,27 @@
+{
+  "_id": "1Yp8MbAytZHTWdoO",
+  "_key": "!items!1Yp8MbAytZHTWdoO",
+  "name": "Vital Encouragement",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, your Guardian Spirit offers you <b>Vital Encouragement</b>, urging you to press on despite adversity. As a Free Action, you gain Bonus Hit Points equal to 10 + one-half your Heroic Level. Damage is subtracted from Bonus Hit Points first, and any Bonus Hit Points remaining at the end of the encounter are lost. Bonus Hit Points from multiple sources do not stack.",
+    "tree": "Guardian Spirit",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "K2O2r6tTptak0CFg",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

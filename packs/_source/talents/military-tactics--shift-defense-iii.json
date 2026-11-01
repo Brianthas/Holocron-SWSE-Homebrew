@@ -1,0 +1,42 @@
+{
+  "_id": "bobSKIJKN1xtS4Wf",
+  "_key": "!items!bobSKIJKN1xtS4Wf",
+  "name": "Shift Defense III",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can gain a +5 competence bonus to one Defense (Reflex, Fortitude, or Will) by taking a -5 penalty to your other two Defenses.",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "Shift Defense I talent, and Shift Defense II talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Shift Defense I talent",
+            "requirement": "Shift Defense I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Shift Defense II talent",
+            "requirement": "Shift Defense II",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Shift Defense I talent, and Shift Defense II talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mOqXJnuskoOjdTKM",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "482TAbKk7fqCm7fX",
+  "_key": "!items!482TAbKk7fqCm7fX",
+  "name": "Shadow Armor",
+  "type": "talent",
+  "system": {
+    "description": "You use The Force to bend light around yourself, wrapping you in shadows and making it difficult for enemies to tell where you end and the shadows begin. As a Swift Action, you grant yourself a +1 Force bonus to your Reflex Defense until the start of your next turn.<br><br>You may select this Talent multiple times. Each time you select it, the Force bonus it provides increases by +1 (to a maximum of +4).",
+    "tree": "Disciple of Twilight",
+    "prerequisite": {
+      "text": "a member of The Disciples of Twilight",
+      "nodes": {
+        "text": "a member of The Disciples of Twilight",
+        "requirement": "The Disciples of Twilight",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yn8i1uGS4tRQzJNe",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

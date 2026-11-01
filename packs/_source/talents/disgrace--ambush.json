@@ -1,0 +1,31 @@
+{
+  "_id": "BKiaDnNS5us1lsPA",
+  "_key": "!items!BKiaDnNS5us1lsPA",
+  "name": "Ambush",
+  "type": "talent",
+  "system": {
+    "description": "During a Surprise Round, before combat begins, if you are not Surprised you can give up your Standard Action to allow all non-Surprised allies within your line of sight to take an extra Move Action during the Surprise Round.<br><br>Allies can spend this Move Action to instead reroll their Initiative checks and take the better of the two results as a Free Action before combat begins.",
+    "tree": "Disgrace",
+    "prerequisite": {
+      "text": "Dirty Tactics talent",
+      "nodes": {
+        "text": "Dirty Tactics talent",
+        "requirement": "Dirty Tactics",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nZGmn8HdgqA7wZWO",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

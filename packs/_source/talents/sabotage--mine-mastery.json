@@ -1,0 +1,27 @@
+{
+  "_id": "YCCbw4WDIMCB9S5V",
+  "_key": "!items!YCCbw4WDIMCB9S5V",
+  "name": "Mine Mastery",
+  "type": "talent",
+  "system": {
+    "description": "You can place a Mine as a Standard Action instead of a Full-Round Action.",
+    "tree": "Sabotage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gTydx50ToBqKyBii",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

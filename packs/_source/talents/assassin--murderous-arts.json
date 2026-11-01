@@ -1,0 +1,51 @@
+{
+  "_id": "yj9DaRoIxhSNys7N",
+  "_key": "!items!yj9DaRoIxhSNys7N",
+  "name": "Murderous Arts",
+  "type": "talent",
+  "system": {
+    "description": "<p>Murderous Arts I and II have been consolidated into this single talent with no prerequisites. On a successful attack, the target takes an additional +1 die of damage (matching your weapon's damage die). If the target is Marked (per the Mark ability), this increases to +2 dice instead.</p>",
+    "tree": "Assassin",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [
+    {
+      "_id": "EsanYgoh1ORityjD",
+      "_key": "!items.effects!yj9DaRoIxhSNys7N.EsanYgoh1ORityjD",
+      "name": "Murderous Arts",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "damage.all",
+            "type": "dice",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yInt38che30tovRA",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "fpCaxPNNBSqCDJ2P",
+  "_key": "!items!fpCaxPNNBSqCDJ2P",
+  "name": "Wan-Shen Kata",
+  "type": "talent",
+  "system": {
+    "description": "You treat the Wan-Shen as a Medium Weapon instead of a Large Weapon. You can use the Pin and Trip feats with a Wan-Shen, substituting your attack bonus with the Wan-Shen for your Grapple check. You must have your Wan-Shen in hand to use this Talent.<br><br>In addition, when you use the Wan-Shen as a Double Weapon, you reduce all attack penalties for attacking with both ends of the weapon by 1.",
+    "tree": "Matukai Adept",
+    "prerequisite": {
+      "text": "a member of The Matukai",
+      "nodes": {
+        "text": "a member of The Matukai",
+        "requirement": "The Matukai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "35lQSjwOO4xCQrYy",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

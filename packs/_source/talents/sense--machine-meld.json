@@ -1,0 +1,31 @@
+{
+  "_id": "wZBCQadecgtKTxlO",
+  "_key": "!items!wZBCQadecgtKTxlO",
+  "name": "Machine Meld",
+  "type": "talent",
+  "system": {
+    "description": "As a Full-Round Action, you may attempt to merge your consciousness with am adjacent complex machine such as a computer, Droid or Vehicle by treating a Use the Force check as the Improve Access function of the Use Computer skill. Failure to beat the machine's Will Defense results in 1d4 Force damage dealt directly to your Hit Points. Success is treated as normal, though you may spend a Force Point as a Reaction upon success to move the system's Attitude an additional step. When a system is Helpful you are considered merged, and remain so until you chose to return to your natural body.<br><br>While merged you are considered helpless and unaware of your body's surroundings.&nbsp;However, on your turn, you are in control of the merged machine.&nbsp;You are able to use the Access Information ability of the Use Computer Skill at a +10 bonus.&nbsp;In the case of a Vehicle or Droid, you are able to operate any single Vehicle or Droid system as if you were at the appropriate station, but at a +5 bonus to the associated check (attack roll or Skill Check). Further, when a merged Force-user uses the Reroute Power Action, their Vehicle moves an additional +1 step up the Condition Track.<br><br>Upon returning to their natural body, a Force-user suffers a -5 penalty to all Use the Force checks made for 1d4 hours for every round they spent merged, and cannot spend Force Points unless accepting a Dark Side Point. If the player was merged for longer than an hour, they suffer a -10 penalty to all Use the Force checks for 1d4 days for every hour spent merged, and cannot spend Force Points or Destiny Points unless accepting a Dark Side Point.",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "Technometry force power",
+      "nodes": {
+        "text": "Technometry force power",
+        "requirement": "Technometry",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5BxXvHgGX6lS3daK",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - Force Users"
+    }
+  }
+}

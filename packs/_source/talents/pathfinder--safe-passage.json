@@ -1,0 +1,31 @@
+{
+  "_id": "ofPUmCiLodHIUFu4",
+  "_key": "!items!ofPUmCiLodHIUFu4",
+  "name": "Safe Passage",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn, you can spend a Move Action to allow one ally within line of sight to move up to its speed as a Reaction. If a target makes an Attack of Opportunity against the ally during its movement, you can make an Attack of Opportunity against that target.",
+    "tree": "Pathfinder",
+    "prerequisite": {
+      "text": "Escort Fighter talent",
+      "nodes": {
+        "text": "Escort Fighter talent",
+        "requirement": "Escort Fighter",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6MNXB5H16lckjAuH",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

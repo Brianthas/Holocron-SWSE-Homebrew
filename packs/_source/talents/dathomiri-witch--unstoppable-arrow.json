@@ -1,0 +1,31 @@
+{
+  "_id": "0tcxwd0DttNbgDQV",
+  "_key": "!items!0tcxwd0DttNbgDQV",
+  "name": "Unstoppable Arrow",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you may make a single attack with an Energy Bow against a target you sensed through the Sense Surroundings aspect of the Use the Force skill since the beginning of your turn. That attack ignores all Concealment and Cover from any source that is not resistant to Lightsaber attacks. Attacks made in this way that pass through Cover to reach the target deal one less die of damage.",
+    "tree": "Dathomiri Witch",
+    "prerequisite": {
+      "text": "a member of The Witches of Dathomir",
+      "nodes": {
+        "text": "a member of The Witches of Dathomir",
+        "requirement": "The Witches of Dathomir",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "P9ihxEFf7dOTaTE2",
+      "sourceBook": "Dathomir Field Guide"
+    }
+  }
+}

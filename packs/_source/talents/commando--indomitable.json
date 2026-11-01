@@ -1,0 +1,27 @@
+{
+  "_id": "YLVYaCczEcUOsbMP",
+  "_key": "!items!YLVYaCczEcUOsbMP",
+  "name": "Indomitable",
+  "type": "talent",
+  "system": {
+    "description": "Once per day as a Swift Action, you can move +5 steps on the Condition Track. This does not remove any Persistent Conditions that may be affecting you. This Talent does not affect the Condition Track of a Vehicle.<br><br>You can select this talent multiple times. Each time you select this Talent, you can use it one additional time per day.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iAR7hweBAA0hbilU",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

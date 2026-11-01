@@ -1,0 +1,31 @@
+{
+  "_id": "FJh4esbie1ogxjau",
+  "_key": "!items!FJh4esbie1ogxjau",
+  "name": "Telekinetic Prodigy",
+  "type": "talent",
+  "system": {
+    "description": "When you take the Force Training Feat and select <i>Move Object</i> as one of your Force Powers, you can also select one extra Force Power to add to your Force Power Suite for free. This extra Force Power must contain the [<i>Telekinetic</i>] descriptor.<br><br>You can only gain one extra Force Power each time you take the Force Training Feat, regardless of how many times you choose the <i>Move Object</i> Force Power. If you increase your Wisdom score at a later time and select the <i>Move Object</i> power, you only gain an additional power if you did not take the <i>Move Object</i> power when you first chose that Feat. Otherwise, you gain an additional Force Power as normal.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "Telekinetic Savant talent",
+      "nodes": {
+        "text": "Telekinetic Savant talent",
+        "requirement": "Telekinetic Savant",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qZKVfMd8j4TnQyKk",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

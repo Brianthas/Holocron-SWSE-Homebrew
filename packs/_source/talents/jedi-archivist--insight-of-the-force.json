@@ -1,0 +1,27 @@
+{
+  "_id": "B9BiyI8BqnThgcsi",
+  "_key": "!items!B9BiyI8BqnThgcsi",
+  "name": "Insight of the Force",
+  "type": "talent",
+  "system": {
+    "description": "You can make a Use the Force check in place of a Knowledge check for any Knowledge skill you are not Trained in. You are considered Trained in that Knowledge skill for the purposes of using this Talent. If you are entitled to a Knowledge check reroll, you can reroll your Use the Force check instead (subject to the same circumstances and limitations).",
+    "tree": "Jedi Archivist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bKdWZeGthAFoGWpS",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

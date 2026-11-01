@@ -1,0 +1,27 @@
+{
+  "_id": "Uto1cY0IMW8fJjdi",
+  "_key": "!items!Uto1cY0IMW8fJjdi",
+  "name": "Multiattack Proficiency (Rifles)",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you make multiple attacks with any type of Rifle as a Full-Round Action (see Full Attack), you reduce the penalty on your attack rolls by 2. You can take this Talent multiple times; each time you take this Talent, you reduce the penalty on your attack rolls by an additional 2.",
+    "tree": "Carbineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "H8R68QHQPVhCt2rX",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

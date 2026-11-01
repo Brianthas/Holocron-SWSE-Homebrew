@@ -1,0 +1,31 @@
+{
+  "_id": "fmd7cUF8no8STWBg",
+  "_key": "!items!fmd7cUF8no8STWBg",
+  "name": "Knowledge of the Force",
+  "type": "talent",
+  "system": {
+    "description": "You can use your scholarly knowledge of The Force to help others reach their full potential. You can spend a Force Point as a Reaction to Aid Another ally within 6 squares on a Use the Force check, following the normal rules for the Aid Another Action as usual.",
+    "tree": "Jal Shey",
+    "prerequisite": {
+      "text": "a member of The Jal Shey",
+      "nodes": {
+        "text": "a member of The Jal Shey",
+        "requirement": "The Jal Shey",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xXmL93lxtnLIIikc",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

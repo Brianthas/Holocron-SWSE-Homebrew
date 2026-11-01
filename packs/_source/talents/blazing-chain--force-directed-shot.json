@@ -1,0 +1,31 @@
+{
+  "_id": "dhizaGhxtOrwhEjd",
+  "_key": "!items!dhizaGhxtOrwhEjd",
+  "name": "Force Directed Shot",
+  "type": "talent",
+  "system": {
+    "description": "You use The Force to alter the flight of your blaster bolt, projectile, or similar missile from a thrown or ranged weapon. As a Swift Action, select one square within 12 squares of you and within your line of sight.<br><br>You treat that square as the origin square for your next ranged attack with an Energy weapon made before the end of your next turn, and determine Cover and Concealment as though you were firing from that square. You must have line of sight to the target of the attack from the square you occupy.",
+    "tree": "Blazing Chain",
+    "prerequisite": {
+      "text": "a member of The Blazing Chain",
+      "nodes": {
+        "text": "a member of The Blazing Chain",
+        "requirement": "The Blazing Chain",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Fq9kXjQHPCnTPuAd",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

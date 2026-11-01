@@ -1,0 +1,31 @@
+{
+  "_id": "TOzH5kpS9u2Fko4B",
+  "_key": "!items!TOzH5kpS9u2Fko4B",
+  "name": "Slippery Strike",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can designate an opponent you have just damaged as a Reaction; that opponent cannot make Attacks of Opportunity against you until the end of your next turn.<br><br>You may use this in conjunction with the <b>Strike and Run</b> Talent, allowing you to benefit from both Talents as a single Reaction.",
+    "tree": "Run and Gun",
+    "prerequisite": {
+      "text": "Strike and Run talent",
+      "nodes": {
+        "text": "Strike and Run talent",
+        "requirement": "Strike and Run",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RsYHdfh8FBHSEMMa",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

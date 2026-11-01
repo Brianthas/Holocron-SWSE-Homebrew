@@ -1,0 +1,31 @@
+{
+  "_id": "V2ofxmgMubPHbXfa",
+  "_key": "!items!V2ofxmgMubPHbXfa",
+  "name": "Form Up",
+  "type": "talent",
+  "system": {
+    "description": "As a Move Action, you give all Squad members a +2 morale bonus to their Reflex Defense until the end of your next turn, as long as they are within 6 squares of another Squad member.",
+    "tree": "Squad Leader",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "umB0l4R4iOq9HjRu",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

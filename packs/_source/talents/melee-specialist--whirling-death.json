@@ -1,0 +1,42 @@
+{
+  "_id": "ObIDdvHAHLC86JNe",
+  "_key": "!items!ObIDdvHAHLC86JNe",
+  "name": "Whirling Death",
+  "type": "talent",
+  "system": {
+    "description": "You twirl your Weapon around you in a blur, creating a circle of death around you. Any enemy target that begins its turn adjacent to you takes damage equal to your Strength bonus. You must be wielding a Melee Weapon to be using this Talent.",
+    "tree": "Melee Specialist",
+    "prerequisite": {
+      "text": "Melee Smash talent, and Unrelenting Assault talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Melee Smash talent",
+            "requirement": "Melee Smash",
+            "type": "TALENT"
+          },
+          {
+            "text": "Unrelenting Assault talent",
+            "requirement": "Unrelenting Assault",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Melee Smash talent, and Unrelenting Assault talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YQgQ3U5stlIATrL8",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

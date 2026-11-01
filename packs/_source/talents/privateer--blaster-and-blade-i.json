@@ -1,0 +1,47 @@
+{
+  "_id": "35TU11a6mDkhbQ2l",
+  "_key": "!items!35TU11a6mDkhbQ2l",
+  "name": "Blaster and Blade I",
+  "type": "talent",
+  "system": {
+    "description": "When you make a single attack with an Advanced Melee Weapon as a Standard Action, you can immediately make an attack with a Pistol as a Free Action, provided you have both the Advanced Melee Weapon and the Pistol in your hands when the melee attack is made. You apply the normal penalties for fighting with two weapons to both of these attacks.",
+    "tree": "Privateer",
+    "prerequisite": {
+      "text": "Dual Weapon Mastery I feat, Weapon Proficiency (Advanced Melee), and Weapon Proficiency (Pistols)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dual Weapon Mastery I feat",
+            "requirement": "Dual Weapon Mastery I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Proficiency (Advanced Melee)",
+            "requirement": "Weapon Proficiency (Advanced Melee)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Proficiency (Pistols)",
+            "requirement": "Weapon Proficiency (Pistols)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Dual Weapon Mastery I feat, Weapon Proficiency (Advanced Melee), and Weapon Proficiency (Pistols)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AwBZdfkOsTiDv0Hu",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

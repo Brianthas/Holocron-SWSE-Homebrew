@@ -1,0 +1,31 @@
+{
+  "_id": "kLCbqmjCDTnZOnJc",
+  "_key": "!items!kLCbqmjCDTnZOnJc",
+  "name": "Trust the Force",
+  "type": "talent",
+  "system": {
+    "description": "Once per day, you can spend a Force Point as a Free Action to treat the next attack roll or skill check you make during your current turn as a modified 20, in effect Taking 20 on the roll, even if you would normally be prevented from doing so.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "Strong in the Force feat",
+      "nodes": {
+        "text": "Strong in the Force feat",
+        "requirement": "Strong in the Force",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kc2UxvbtjV3L3u3n",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

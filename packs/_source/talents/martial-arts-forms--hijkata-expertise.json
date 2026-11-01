@@ -1,0 +1,27 @@
+{
+  "_id": "LwGncasMKWIuodza",
+  "_key": "!items!LwGncasMKWIuodza",
+  "name": "Hijkata Expertise",
+  "type": "talent",
+  "system": {
+    "description": "When you damage a creature or Droid with an Unarmed attack, the target takes a penalty to its next attack roll equal to your Strength bonus.",
+    "tree": "Martial Arts Forms",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8mVmfjT4VlIJmmgv",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

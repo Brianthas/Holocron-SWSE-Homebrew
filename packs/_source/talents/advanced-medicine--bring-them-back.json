@@ -1,0 +1,27 @@
+{
+  "_id": "4NFbgGOY4xleCXOb",
+  "_key": "!items!4NFbgGOY4xleCXOb",
+  "name": "Bring Them Back",
+  "type": "talent",
+  "system": {
+    "description": "You can use the Revivify application of the Treat Injury skill on a target that has died anytime within a number of rounds equal to one-half your Heroic Level.",
+    "tree": "Advanced Medicine",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XRL9SjwOqf2JRKuc",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

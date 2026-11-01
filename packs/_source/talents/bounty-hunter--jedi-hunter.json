@@ -1,0 +1,27 @@
+{
+  "_id": "YeXnalNgJrOEAJGc",
+  "_key": "!items!YeXnalNgJrOEAJGc",
+  "name": "Jedi Hunter",
+  "type": "talent",
+  "system": {
+    "description": "You are skilled at fighting Jedi and other Force-users. You gain a +1 insight bonus to your Fortitude Defense and Will Defense, and deal +1 die of damage against characters who have the Force Sensitivity feat.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "67jDvmvApFFKMOHz",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

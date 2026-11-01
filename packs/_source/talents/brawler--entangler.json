@@ -1,0 +1,27 @@
+{
+  "_id": "4irsFVFYlf9tM7bZ",
+  "_key": "!items!4irsFVFYlf9tM7bZ",
+  "name": "Entangler",
+  "type": "talent",
+  "system": {
+    "description": "When Grabbing a target, you take a -2 penalty to your attack roll (instead of the normal -5 penalty). Until the target breaks the Grab, it takes a -5 penalty to attack rolls, including those made with Natural and Light Weapons (instead of the normal -2 penalty).",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "h09didw03RVwAYLC",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

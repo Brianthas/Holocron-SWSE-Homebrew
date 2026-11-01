@@ -1,0 +1,27 @@
+{
+  "_id": "BpcziXShwfYcdN0J",
+  "_key": "!items!BpcziXShwfYcdN0J",
+  "name": "Natural Healing",
+  "type": "talent",
+  "system": {
+    "description": "Your extensive knowledge of Natural Healing allows you to make First Aid, Treat Disease, and Treat Poison checks without a Medical Kit, if you have access to appropriate natural substitutes (as determined by the Gamemaster).",
+    "tree": "Advanced Medicine",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "idKKzFotzLiZSQsB",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

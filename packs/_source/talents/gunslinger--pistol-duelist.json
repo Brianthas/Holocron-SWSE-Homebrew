@@ -1,0 +1,27 @@
+{
+  "_id": "u7ITnqfDUoZKqqE4",
+  "_key": "!items!u7ITnqfDUoZKqqE4",
+  "name": "Pistol Duelist",
+  "type": "talent",
+  "system": {
+    "description": "You are a master of the elegant, if archaic, custom of dueling with Pistols. You can use each of the following Actions once per encounter as a Standard Action:",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UbaU797qmr9U8I0u",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "qDX7UeytbIae7Amo",
+  "_key": "!items!qDX7UeytbIae7Amo",
+  "name": "Silent Movement",
+  "type": "talent",
+  "system": {
+    "description": "You know how to move silently in almost any environment. You never suffer from unfavorable circumstances from environmental effects associated with noise when you Sneak using the Stealth skill. Once per round, when you make a Stealth check, you can automatically use the Aid Another Action on one ally's Stealth check.",
+    "tree": "Hyperspace Explorer",
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "nodes": {
+        "text": "Trained in Stealth",
+        "requirement": "Stealth",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4UcevxvMFqwAmr9f",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

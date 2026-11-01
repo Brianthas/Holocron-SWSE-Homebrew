@@ -1,0 +1,27 @@
+{
+  "_id": "9ohOEgViU7BbMQ9c",
+  "_key": "!items!9ohOEgViU7BbMQ9c",
+  "name": "Focused Attack",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point to reroll an attack against a creature with a Dark Side Score of 1 or higher, keeping the better of the two results.",
+    "tree": "Light Side",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2xjW4BlR71DDzj6i",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

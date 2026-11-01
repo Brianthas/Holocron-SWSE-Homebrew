@@ -1,0 +1,27 @@
+{
+  "_id": "gjEpJcZEjXWb2qvB",
+  "_key": "!items!gjEpJcZEjXWb2qvB",
+  "name": "Defensive Electronics",
+  "type": "talent",
+  "system": {
+    "description": "You defend your independence from all. When someone tries to Reprogram you, add your Independent Droid Class Level to your Will Defense.",
+    "tree": "Autonomy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "87gpNqcplDLJ1nTa",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

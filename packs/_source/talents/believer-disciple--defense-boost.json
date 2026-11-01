@@ -1,0 +1,31 @@
+{
+  "_id": "StdubC0W4fBQpp6V",
+  "_key": "!items!StdubC0W4fBQpp6V",
+  "name": "Defense Boost",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can make a DC 15 Use the Force check. If the check succeeds, you gain a +1 Force bonus to your Fortitude Defense until the end of the encounter. Before you make your Use the Force check, you can increase the target number to DC 20 to gain a +1 Force bonus to all your Defenses.",
+    "tree": "Believer Disciple",
+    "prerequisite": {
+      "text": "a member of The Believers",
+      "nodes": {
+        "text": "a member of The Believers",
+        "requirement": "The Believers",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GuYH3UoECDD23Axc",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

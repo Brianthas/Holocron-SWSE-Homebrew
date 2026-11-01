@@ -1,0 +1,27 @@
+{
+  "_id": "yhLitg1xEUWmlmLE",
+  "_key": "!items!yhLitg1xEUWmlmLE",
+  "name": "Melee Smash",
+  "type": "talent",
+  "system": {
+    "description": "You deal +1 point of damage with melee attacks.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9VVbDj2de3CYZ6Kb",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

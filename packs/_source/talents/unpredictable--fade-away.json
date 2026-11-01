@@ -1,0 +1,27 @@
+{
+  "_id": "IdLeFuS0tyrOVuL9",
+  "_key": "!items!IdLeFuS0tyrOVuL9",
+  "name": "Fade Away",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn when you are damaged by an enemy's attack, as a Reaction you can move up to half your speed. This movement does not provoke Attacks of Opportunity.",
+    "tree": "Unpredictable",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YKAhFDMejvk3e5zH",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

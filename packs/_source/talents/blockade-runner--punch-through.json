@@ -1,0 +1,27 @@
+{
+  "_id": "EXaM7SJtnVqOAI52",
+  "_key": "!items!EXaM7SJtnVqOAI52",
+  "name": "Punch Through",
+  "type": "talent",
+  "system": {
+    "description": "If you are the Pilot of a Vehicle, smaller Vehicles that attempt to engage you in a Dogfight take a -10 penalty on their Pilot checks, instead of the normal -5.",
+    "tree": "Blockade Runner",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TRRmrCrPbKtdecvQ",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

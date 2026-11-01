@@ -1,0 +1,42 @@
+{
+  "_id": "YkXSHKJOsTeTnyUt",
+  "_key": "!items!YkXSHKJOsTeTnyUt",
+  "name": "Unseen Eyes",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use the <b>Force Haze</b> Talent, allies hidden by the <b>Force Haze</b> can reroll any Perception check, keeping the better of the two results. Additionally, allies hidden by the <b>Force Haze</b> gain a +2 bonus on all damage rolls against foes that are unaware of them.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "Clear Mind talent, and Force Haze talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Clear Mind talent",
+            "requirement": "Clear Mind",
+            "type": "TALENT"
+          },
+          {
+            "text": "Force Haze talent",
+            "requirement": "Force Haze",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Clear Mind talent, and Force Haze talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vMjwn0SKjFPEopRm",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

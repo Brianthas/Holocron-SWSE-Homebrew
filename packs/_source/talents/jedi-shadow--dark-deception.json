@@ -1,0 +1,27 @@
+{
+  "_id": "uF08geo1ybF0FQUh",
+  "_key": "!items!uF08geo1ybF0FQUh",
+  "name": "Dark Deception",
+  "type": "talent",
+  "system": {
+    "description": "You can cloak your intentions with a veil of anger and hate. When another character attempts to sense you through The Force in any way, you can choose to act as though your Dark Side Score equals your Wisdom score.<br><br>Additionally, Deception is now a Class Skill for you.",
+    "tree": "Jedi Shadow",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JU04zTemr0qJ57Cw",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

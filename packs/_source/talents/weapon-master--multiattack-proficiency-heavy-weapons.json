@@ -1,0 +1,27 @@
+{
+  "_id": "NapxAcTqd7tfCCna",
+  "_key": "!items!NapxAcTqd7tfCCna",
+  "name": "Multiattack Proficiency (Heavy Weapons)",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you make multiple attacks with any type of Heavy Weapon as a Full-Round Action (see Full Attack), you reduce the penalty on your attack rolls by 2.<br><br>You can take this Talent multiple times; each time you take this Talent, you reduce the penalty on your attack rolls by an additional 2.",
+    "tree": "Weapon Master",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "z8WmeYKCVpllGmfr",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

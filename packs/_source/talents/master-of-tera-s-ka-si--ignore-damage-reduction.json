@@ -1,0 +1,42 @@
+{
+  "_id": "aOoQzERWi2yAgL7Z",
+  "_key": "!items!aOoQzERWi2yAgL7Z",
+  "name": "Ignore Damage Reduction",
+  "type": "talent",
+  "system": {
+    "description": "When you make an Unarmed attack against a target that has Damage Reduction, and you deal more damage than the target's DR, you ignore the target's DR completely.",
+    "tree": "Master of Teräs Käsi",
+    "prerequisite": {
+      "text": "Teräs Käsi Basics talent, and Martial Arts I feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Teräs Käsi Basics talent",
+            "requirement": "Teräs Käsi Basics",
+            "type": "TALENT"
+          },
+          {
+            "text": "Martial Arts I feat",
+            "requirement": "Martial Arts I",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Teräs Käsi Basics talent, and Martial Arts I feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BvpZ1XnVSLozC25r",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

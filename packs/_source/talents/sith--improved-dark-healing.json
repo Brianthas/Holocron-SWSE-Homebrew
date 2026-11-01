@@ -1,0 +1,31 @@
+{
+  "_id": "Nt3qKqPjPZazRn41",
+  "_key": "!items!Nt3qKqPjPZazRn41",
+  "name": "Improved Dark Healing",
+  "type": "talent",
+  "system": {
+    "description": "Your <b>Dark Healing</b> Talent improves. The range of this ability increases to 12 squares, and even if that attack fails, the target takes half damage, while you heal an equal amount of damage.",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "Dark Healing talent",
+      "nodes": {
+        "text": "Dark Healing talent",
+        "requirement": "Dark Healing",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "agVvyK6tWyiw4zVO",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

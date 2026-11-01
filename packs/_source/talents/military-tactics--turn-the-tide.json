@@ -1,0 +1,42 @@
+{
+  "_id": "gu0Ye0fEAXeh9gxw",
+  "_key": "!items!gu0Ye0fEAXeh9gxw",
+  "name": "Turn the Tide",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, after the first round of combat, you can make a Knowledge (Tactics) check as a Full-Round Action and compare the result to the Will Defense of all enemies with in 12 squares of you and within your line of sight. If your check is successful, affected enemies must reroll their Initiative checks at the start of the next round. Allies within your line of sight can choose whether to reroll their check. Rerolls and other modifiers to the Initiative skill apply normally to this check for all affected targets.",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "Commander's Prerogative talent, and Trained in Initiative",
+      "nodes": {
+        "children": [
+          {
+            "text": "Commander's Prerogative talent",
+            "requirement": "Commander's Prerogative",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Initiative",
+            "requirement": "Initiative",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Commander's Prerogative talent, and Trained in Initiative",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gMJOkk7hDbChmq1j",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

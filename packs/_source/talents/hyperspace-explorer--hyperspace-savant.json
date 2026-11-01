@@ -1,0 +1,31 @@
+{
+  "_id": "ctNua0phLJ2FNtdn",
+  "_key": "!items!ctNua0phLJ2FNtdn",
+  "name": "Hyperspace Savant",
+  "type": "talent",
+  "system": {
+    "description": "You can substitute your Pilot skill for the Use Computer check made to Astrogate, or Use Sensors while you are the Pilot of a Vehicle.",
+    "tree": "Hyperspace Explorer",
+    "prerequisite": {
+      "text": "Trained in Pilot",
+      "nodes": {
+        "text": "Trained in Pilot",
+        "requirement": "Pilot",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4TisuGblACRQRfsg",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

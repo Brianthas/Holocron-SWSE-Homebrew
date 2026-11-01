@@ -1,0 +1,27 @@
+{
+  "_id": "e1PM3aI650VunZCx",
+  "_key": "!items!e1PM3aI650VunZCx",
+  "name": "Ghost Assailant",
+  "type": "talent",
+  "system": {
+    "description": "If you start your turn with Total Concealment or Total Cover from a target, during that turn you can make a Stealth check as a Swift Action, opposed by the target's Perception check. If you succeed, the target is considered Flat-Footed against you until the end of your turn.",
+    "tree": "Camouflage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DplsjKITyfc3QHxw",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

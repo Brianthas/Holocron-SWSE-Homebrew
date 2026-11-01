@@ -1,0 +1,31 @@
+{
+  "_id": "UvgP2Uz5CEdoO1Ep",
+  "_key": "!items!UvgP2Uz5CEdoO1Ep",
+  "name": "Greater Weapon Focus",
+  "type": "talent",
+  "system": {
+    "description": "Choose one Exotic Weapon or weapon group with which you're proficient. You gain a +1 bonus on attack rolls with the chosen Exotic Weapon or weapon from the chosen group. This bonus stacks with the bonus granted by the Weapon Focus feat.<br><br>You may select this Talent multiple times. Each time you select this Talent, it applies to a different Exotic Weapon or weapon group.",
+    "tree": "Weapon Master",
+    "prerequisite": {
+      "text": "Weapon Focus (#payload#)",
+      "nodes": {
+        "text": "Weapon Focus (#payload#)",
+        "requirement": "Weapon Focus (#payload#)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": true,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xBTsa1bT013gBuod",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

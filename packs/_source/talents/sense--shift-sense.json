@@ -1,0 +1,27 @@
+{
+  "_id": "qAfWa2H2kd1QdQUq",
+  "_key": "!items!qAfWa2H2kd1QdQUq",
+  "name": "Shift Sense",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point to gain Low-Light Vision (see Visibility) for 1 minute or until the end of the encounter, whichever is longer.",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xLBc8fsoBcldT4hm",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

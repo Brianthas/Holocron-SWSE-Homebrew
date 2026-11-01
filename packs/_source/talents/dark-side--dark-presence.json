@@ -1,0 +1,42 @@
+{
+  "_id": "0VEo8qTRWlCDj8f2",
+  "_key": "!items!0VEo8qTRWlCDj8f2",
+  "name": "Dark Presence",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you grant yourself and all allies within 6 squares of you a +1 Force bonus to all Defenses until the end of the encounter. These bonuses are lost if you fall unconscious or die. Affected allies that move out of range lose the benefits for as long as they remain out of range.",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "Power of the Dark Side talent, and Charisma 13",
+      "nodes": {
+        "children": [
+          {
+            "text": "Power of the Dark Side talent",
+            "requirement": "Power of the Dark Side",
+            "type": "TALENT"
+          },
+          {
+            "text": "Charisma 13",
+            "requirement": "Charisma 13",
+            "type": "ATTRIBUTE"
+          }
+        ],
+        "text": "Power of the Dark Side talent, and Charisma 13",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sf1HLtmgVQLsWhyN",
+      "sourceBook": ""
+    }
+  }
+}

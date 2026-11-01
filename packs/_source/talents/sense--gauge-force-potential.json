@@ -1,0 +1,31 @@
+{
+  "_id": "U1fLMvVgcXKHbCTf",
+  "_key": "!items!U1fLMvVgcXKHbCTf",
+  "name": "Gauge Force Potential",
+  "type": "talent",
+  "system": {
+    "description": "By focusing on a specific creature in your line of sight, you can gauge how strong in The Force they are. This takes a Standard Action and requires a Use the Force check. If your check result meets or beats the target's Will Defense, you know whether or not they have the Force Sensitivity feat, you know how many Force Powers they know (but not which ones specifically), and you know how many Force Points they currently have.",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "Force Perception talent",
+      "nodes": {
+        "text": "Force Perception talent",
+        "requirement": "Force Perception",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "abxhVThPXJNOrBJ1",
+      "sourceBook": ""
+    }
+  }
+}

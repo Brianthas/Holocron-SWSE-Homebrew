@@ -1,0 +1,59 @@
+{
+  "_id": "wPa3FtfaoIfdhmWE",
+  "_key": "!items!wPa3FtfaoIfdhmWE",
+  "name": "Trakata",
+  "type": "talent",
+  "system": {
+    "description": "By harnessing the unique characteristics of a Lightsaber, you can catch your opponent off guard by quickly shutting off and reigniting the blade. When wielding a Lightsaber, you may spend two Swift Actions to make a Deception check to Feint in combat.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "Weapon Focus (Lightsabers), Weapon Specialization (Lightsabers), and Base Attack Bonus 12",
+      "nodes": {
+        "children": [
+          {
+            "text": "Weapon Focus (Lightsabers)",
+            "requirement": "Weapon Focus (Lightsabers)",
+            "type": "FEAT"
+          },
+          {
+            "children": [
+              {
+                "text": "Weapon Specialization (Lightsabers) talent",
+                "requirement": "Weapon Specialization (Lightsabers)",
+                "type": "TALENT"
+              },
+              {
+                "text": "Weapon Specialization (Lightsabers) feat",
+                "requirement": "Weapon Specialization (Lightsabers)",
+                "type": "FEAT"
+              }
+            ],
+            "count": 1,
+            "text": "Weapon Specialization (Lightsabers)",
+            "type": "OR"
+          },
+          {
+            "text": "Base Attack Bonus 12",
+            "requirement": "12",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Weapon Focus (Lightsabers), Weapon Specialization (Lightsabers), and Base Attack Bonus 12",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YKWIKX9yGxC2y0Bq",
+      "sourceBook": ""
+    }
+  }
+}

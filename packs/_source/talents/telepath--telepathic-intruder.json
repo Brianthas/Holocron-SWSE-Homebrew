@@ -1,0 +1,27 @@
+{
+  "_id": "0eMbs6Bwa3Y3aDhQ",
+  "_key": "!items!0eMbs6Bwa3Y3aDhQ",
+  "name": "Telepathic Intruder",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use a Force Power with the [<i>Mind-Affecting</i>] descriptor successfully against a target, until the end of your next turn you gain a +2 Force bonus on Skill Checks made to activate [<i>Mind-Affecting</i>] Force Powers and Force Talents against that same target.",
+    "tree": "Telepath",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vvfMauE0viXU4g6J",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

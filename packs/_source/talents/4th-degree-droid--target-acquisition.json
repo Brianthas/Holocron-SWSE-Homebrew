@@ -1,0 +1,27 @@
+{
+  "_id": "jifL9WHo9jeUpTHq",
+  "_key": "!items!jifL9WHo9jeUpTHq",
+  "name": "Target Acquisition",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Swift Action, designate an enemy target within line of sight as an acquired target. You gain a +1 circumstance bonus to attack rolls and damage rolls for all attacks against that target until the end of the encounter, as long as the target remains within your line of sight.",
+    "tree": "4th-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tOf2EF8k4vu4WmMo",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

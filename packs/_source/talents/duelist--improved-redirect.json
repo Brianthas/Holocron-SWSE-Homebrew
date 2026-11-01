@@ -1,0 +1,42 @@
+{
+  "_id": "34sy1SOXOHj9ISuC",
+  "_key": "!items!34sy1SOXOHj9ISuC",
+  "name": "Improved Redirect",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn, when you successfully Redirect an attack using the <b>Redirect Shot</b> Talent, you do not count the <b>Deflect</b> Talent use that triggered the redirected attack (thus, you take no cumulative penalty to Use the Force checks from that <b>Deflect</b> attempt).<br><br>Subsequent <b>Deflect</b> attempts before the beginning of your next turn impose these penalties as normal.",
+    "tree": "Duelist",
+    "prerequisite": {
+      "text": "Dueling Stance talent, and Redirection Stance talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dueling Stance talent",
+            "requirement": "Dueling Stance",
+            "type": "TALENT"
+          },
+          {
+            "text": "Redirection Stance talent",
+            "requirement": "Redirection Stance",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Dueling Stance talent, and Redirection Stance talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rszKyYCc6heWG8Jm",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

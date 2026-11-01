@@ -1,0 +1,54 @@
+{
+  "_id": "ldU5EFNIQNPj8kHE",
+  "_key": "!items!ldU5EFNIQNPj8kHE",
+  "name": "Master of Elegance",
+  "type": "talent",
+  "system": {
+    "description": "You may add your Dexterity bonus (instead of your Strength bonus) on damage rolls when wielding a light melee weapon. When you wield a light melee weapon two-handed, you may apply double your Dexterity bonus (instead of double your Strength bonus) to the damage.",
+    "tree": "Melee Duelist",
+    "prerequisite": {
+      "text": "(Dual Weapon Flourish I or Single Weapon Flourish I), and Weapon Finesse feat",
+      "nodes": {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Dual Weapon Flourish I talent",
+                "requirement": "Dual Weapon Flourish I",
+                "type": "TALENT"
+              },
+              {
+                "text": "Single Weapon Flourish I talent",
+                "requirement": "Single Weapon Flourish I",
+                "type": "TALENT"
+              }
+            ],
+            "count": 1,
+            "text": "Dual Weapon Flourish I or Single Weapon Flourish I",
+            "type": "OR"
+          },
+          {
+            "text": "Weapon Finesse feat",
+            "requirement": "Weapon Finesse",
+            "type": "FEAT"
+          }
+        ],
+        "text": "(Dual Weapon Flourish I or Single Weapon Flourish I), and Weapon Finesse feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oXXe5ivZQopyQ4L9",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

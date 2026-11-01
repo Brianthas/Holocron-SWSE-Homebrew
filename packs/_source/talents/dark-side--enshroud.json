@@ -1,0 +1,31 @@
+{
+  "_id": "FqgCBaYogBliZVhS",
+  "_key": "!items!FqgCBaYogBliZVhS",
+  "name": "Enshroud",
+  "type": "talent",
+  "system": {
+    "description": "Whenever your character moves 3 or more squares in a round you gain Concealment; you may choose not to use this Talent when you move.",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "Power of the Dark Side talent",
+      "nodes": {
+        "text": "Power of the Dark Side talent",
+        "requirement": "Power of the Dark Side",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZlUGsWusMHWPG6Y6",
+      "sourceBook": "Dathomir Field Guide"
+    }
+  }
+}

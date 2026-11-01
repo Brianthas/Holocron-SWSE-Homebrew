@@ -1,0 +1,27 @@
+{
+  "_id": "qHbMmGjENdx9YGvP",
+  "_key": "!items!qHbMmGjENdx9YGvP",
+  "name": "Disarm and Engage",
+  "type": "talent",
+  "system": {
+    "description": "When you successfully Disarm an opponent, you can make an immediate free attack with the disarmed weapon at a -5 penalty. If you are not proficient with the weapon, you take the penalty for nonproficiency as well.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WCY2Qcv47vkJGFDK",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

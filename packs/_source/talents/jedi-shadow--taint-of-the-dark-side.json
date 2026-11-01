@@ -1,0 +1,31 @@
+{
+  "_id": "undIM8aXRH8kYzX9",
+  "_key": "!items!undIM8aXRH8kYzX9",
+  "name": "Taint of the Dark Side",
+  "type": "talent",
+  "system": {
+    "description": "Add one Force Power with the [<i>Dark Side</i>] descriptor to your Force Power Suite. Once per encounter you can use that Force Power with the [<i>Dark Side</i>] descriptor without increasing your Dark Side Score. If you spend a Force Point or Destiny Point to modify this Force Power in any way, you increase your Dark Side Score as normal.",
+    "tree": "Jedi Shadow",
+    "prerequisite": {
+      "text": "Dark Deception talent",
+      "nodes": {
+        "text": "Dark Deception talent",
+        "requirement": "Dark Deception",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RzhwUI6UEVqIbzxM",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

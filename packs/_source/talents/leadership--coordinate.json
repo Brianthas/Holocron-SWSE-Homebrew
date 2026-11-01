@@ -1,0 +1,27 @@
+{
+  "_id": "trHJ32QcpULK34Zd",
+  "_key": "!items!trHJ32QcpULK34Zd",
+  "name": "Coordinate",
+  "type": "talent",
+  "system": {
+    "description": "A Noble with this talent has a knack for getting people to work together. When you use this Talent as a Standard Action, all allies within your line of sight grant an additional +1 bonus when they use the Aid Another Action until the start of your next turn.<br><br>You may select this Talent multiple times; each time you do, the bonus granted by the coordinate ability increases by 1 (to a maximum of +5).",
+    "tree": "Leadership",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nP4evinq56i4gnXa",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

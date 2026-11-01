@@ -1,0 +1,31 @@
+{
+  "_id": "KSX1fzpAs9bCCLej",
+  "_key": "!items!KSX1fzpAs9bCCLej",
+  "name": "Impart Knowledge",
+  "type": "talent",
+  "system": {
+    "description": "You can Aid Another on the Knowledge checks of an ally within 6 squares of you as a Reaction for Knowledge skills you are Trained in.",
+    "tree": "Jedi Archivist",
+    "prerequisite": {
+      "text": "Skilled Advisor talent",
+      "nodes": {
+        "text": "Skilled Advisor talent",
+        "requirement": "Skilled Advisor",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "V641LCYGbqMHeSby",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

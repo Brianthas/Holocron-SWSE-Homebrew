@@ -1,0 +1,27 @@
+{
+  "_id": "syWpRFqqOgxuG75k",
+  "_key": "!items!syWpRFqqOgxuG75k",
+  "name": "Clip",
+  "type": "talent",
+  "system": {
+    "description": "When you use the Ram Action, you reduce the size of your Vehicle by two categories for the purposes of taking Collision damage. The Rammed Vehicle takes damage appropriate to the actual size of your Vehicle.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "q3MjaTWXz8cKGDBH",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

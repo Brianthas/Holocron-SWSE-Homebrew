@@ -1,0 +1,31 @@
+{
+  "_id": "mzC0XV6fcSbWx1sK",
+  "_key": "!items!mzC0XV6fcSbWx1sK",
+  "name": "Squad Actions",
+  "type": "talent",
+  "system": {
+    "description": "You and your squad have learned to work together as a team, and have an established set of tactics that you have practiced to perfection. You can use any of the following Actions on your turn.",
+    "tree": "Squad Leader",
+    "prerequisite": {
+      "text": "Commanding Officer talent",
+      "nodes": {
+        "text": "Commanding Officer talent",
+        "requirement": "Commanding Officer",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "txy9mjo2RKlny1y0",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

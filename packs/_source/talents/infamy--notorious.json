@@ -1,0 +1,27 @@
+{
+  "_id": "HCWHOLzE7tWkVShn",
+  "_key": "!items!HCWHOLzE7tWkVShn",
+  "name": "Notorious",
+  "type": "talent",
+  "system": {
+    "description": "Your reputation as a Crime Lord is known throughout the galaxy, even on fringe worlds. When you are not Disguised, you may reroll any Persuasion checks made to Intimidate, keeping the better of the two results.",
+    "tree": "Infamy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "06rqWSLAMNw3PZaF",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "iMvl06djCmugB9Fx",
+  "_key": "!items!iMvl06djCmugB9Fx",
+  "name": "Leading Feint",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you successfully damage an opponent with a melee attack, you can make a Deception check to Feint against that target as a Swift Action. If successful, you designate an ally within 12 squares; your target is designated Flat-Footed against the first attack that ally makes against your target before the beginning of your next turn.",
+    "tree": "Fencing",
+    "prerequisite": {
+      "text": "Noble Fencing Style talent",
+      "nodes": {
+        "text": "Noble Fencing Style talent",
+        "requirement": "Noble Fencing Style",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7PlWY3aPBXHyvaIb",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

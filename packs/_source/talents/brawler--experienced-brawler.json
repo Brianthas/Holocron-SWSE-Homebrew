@@ -1,0 +1,42 @@
+{
+  "_id": "uBSihF4bSvl4zAoc",
+  "_key": "!items!uBSihF4bSvl4zAoc",
+  "name": "Experienced Brawler",
+  "type": "talent",
+  "system": {
+    "description": "You know how to fight when the odds are against you. You can use each of the following actions as a Standard Action once per encounter:",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "Melee Smash talent, and Stunning Strike talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Melee Smash talent",
+            "requirement": "Melee Smash",
+            "type": "TALENT"
+          },
+          {
+            "text": "Stunning Strike talent",
+            "requirement": "Stunning Strike",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Melee Smash talent, and Stunning Strike talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KuA8onhDcHKO9H62",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

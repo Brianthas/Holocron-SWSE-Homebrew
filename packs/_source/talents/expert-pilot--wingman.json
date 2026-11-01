@@ -1,0 +1,31 @@
+{
+  "_id": "ecYfk0pJfWEmLG6A",
+  "_key": "!items!ecYfk0pJfWEmLG6A",
+  "name": "Wingman",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can make a DC 15 Pilot check to assist any allied Starfighter or Airspeeder within 2 squares at Starship Scale. If you succeed, the Pilot of that Vehicle gains a +5 bonus on all opposed Pilot checks relating to the Dogfight Action until the start of your next turn.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "Wisdom 13",
+      "nodes": {
+        "text": "Wisdom 13",
+        "requirement": "Wisdom 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sdJo7s05nwHDUVrQ",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

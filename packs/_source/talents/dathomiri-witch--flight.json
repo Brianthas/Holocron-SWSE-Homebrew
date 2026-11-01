@@ -1,0 +1,31 @@
+{
+  "_id": "LYCp0AMokg5ccidl",
+  "_key": "!items!LYCp0AMokg5ccidl",
+  "name": "Flight",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can spend a Force Point to fly. You gain a fly speed equal to your base speed, and you can ascend at half speed or descend at double speed. The flight lasts until the start of your next turn; if you're still airborne at that time, you fall.",
+    "tree": "Dathomiri Witch",
+    "prerequisite": {
+      "text": "a member of The Witches of Dathomir",
+      "nodes": {
+        "text": "a member of The Witches of Dathomir",
+        "requirement": "The Witches of Dathomir",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cPSDUVu30Aa9bLka",
+      "sourceBook": ""
+    }
+  }
+}

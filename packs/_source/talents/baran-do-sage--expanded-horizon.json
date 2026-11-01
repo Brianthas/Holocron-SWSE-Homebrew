@@ -1,0 +1,31 @@
+{
+  "_id": "IE7KyMwauEhGsDxX",
+  "_key": "!items!IE7KyMwauEhGsDxX",
+  "name": "Expanded Horizon",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use the Search Your Feelings application of the Use the Force skill, you can sense the consequences of your actions out to 1 hour into the future (instead of the normal 10 minutes). You can spend a Force Point when you do so to expand this window out to 8 hours, or a Destiny Point to expand this window out to 24 hours.",
+    "tree": "Baran Do Sage",
+    "prerequisite": {
+      "text": "a member of The Baran Do Sages",
+      "nodes": {
+        "text": "a member of The Baran Do Sages",
+        "requirement": "The Baran Do Sages",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eLl2nqTAGv0uHsfU",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

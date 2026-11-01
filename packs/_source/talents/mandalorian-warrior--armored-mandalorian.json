@@ -1,0 +1,47 @@
+{
+  "_id": "ICfn6fcx8TtK1r1c",
+  "_key": "!items!ICfn6fcx8TtK1r1c",
+  "name": "Armored Mandalorian",
+  "type": "talent",
+  "system": {
+    "description": "Mandalorians wear armor constantly and learn to adjust to take an impact on the strongest section of their armor. You add your armor's Fortitude Defense bonus as an Equipment bonus to your Elite Trooper Damage Reduction (with a maximum bonus equal to your base Elite Trooper DR).<br><br>Additionally, if a Lightsaber does not ignore the DR of the armor you are wearing (such as Cortosis Weave/Phrik Alloy General Template), a Lightsaber does not ignore your Elite Trooper Damage Reduction.",
+    "tree": "Mandalorian Warrior",
+    "prerequisite": {
+      "text": "Dexterity 13, Mandalorian Glory talent, and Proficient with Armor",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dexterity 13",
+            "requirement": "Dexterity 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Mandalorian Glory talent",
+            "requirement": "Mandalorian Glory",
+            "type": "TALENT"
+          },
+          {
+            "text": "Proficient with Armor",
+            "requirement": "Armor",
+            "type": "PROFICIENCY"
+          }
+        ],
+        "text": "Dexterity 13, Mandalorian Glory talent, and Proficient with Armor",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oFxXAlt2CcmMiGPB",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

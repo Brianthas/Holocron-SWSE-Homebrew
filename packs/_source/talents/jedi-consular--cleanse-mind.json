@@ -1,0 +1,27 @@
+{
+  "_id": "bcuPsHRghfoI5ynB",
+  "_key": "!items!bcuPsHRghfoI5ynB",
+  "name": "Cleanse Mind",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn as a Swift Action, you can remove one ongoing Mind-Affecting effect (such as the effects of <b>Demand Surrender</b> or <b>Weaken Resolve</b> Talents, or the effect of being moved to the end of the Condition Track by the <b>Adept Negotiator</b> Talent, or the ongoing effects of the <i>Mind Trick</i> Force Power) from a single allied target within line of sight.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "I8UkLEHNpFk8aiYW",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

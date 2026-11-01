@@ -1,0 +1,31 @@
+{
+  "_id": "oRLuEwkjOCniDy5B",
+  "_key": "!items!oRLuEwkjOCniDy5B",
+  "name": "Stunning Strike",
+  "type": "talent",
+  "system": {
+    "description": "When you damage an opponent with a melee attack, your opponents move an additional -1 step along the Condition Track if your damage roll result equals or exceeds the target's Damage Threshold.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "Melee Smash talent",
+      "nodes": {
+        "text": "Melee Smash talent",
+        "requirement": "Melee Smash",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rMLg1x4XEBhz19j6",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

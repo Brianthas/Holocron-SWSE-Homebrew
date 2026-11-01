@@ -1,0 +1,31 @@
+{
+  "_id": "snWfx6vJ90wiFCCp",
+  "_key": "!items!snWfx6vJ90wiFCCp",
+  "name": "Stifle Conflict",
+  "type": "talent",
+  "system": {
+    "description": "You can choose to have any Force Power you activate deal Stun Damage instead of normal damage.",
+    "tree": "Tyia Adept",
+    "prerequisite": {
+      "text": "a member of The Tyia",
+      "nodes": {
+        "text": "a member of The Tyia",
+        "requirement": "The Tyia",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tnJq2iSxxn8do8qw",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

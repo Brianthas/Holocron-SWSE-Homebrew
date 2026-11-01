@@ -1,0 +1,27 @@
+{
+  "_id": "wcjuMNbia2wHPhtC",
+  "_key": "!items!wcjuMNbia2wHPhtC",
+  "name": "Incite Rage",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Swift Action, you can channel your anger and hatred into your allies. All allies within 12 squares of you and in your line of sight gain a +1 rage bonus on attack rolls, but take a -2 penalty to their Reflex Defense. This effect lasts until the encounter ends, or until you are knocked unconscious or killed.",
+    "tree": "Sith Commander",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "W0vCBf6roM03v042",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

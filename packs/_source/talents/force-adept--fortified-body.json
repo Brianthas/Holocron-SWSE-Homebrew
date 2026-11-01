@@ -1,0 +1,31 @@
+{
+  "_id": "Ych8nrjbb9SeQbHc",
+  "_key": "!items!Ych8nrjbb9SeQbHc",
+  "name": "Fortified Body",
+  "type": "talent",
+  "system": {
+    "description": "The Force shields you against ailments, toxins, and radiation poisoning, making you immune to Disease, Poison, and Radiation.",
+    "tree": "Force Adept",
+    "prerequisite": {
+      "text": "Equilibrium talent",
+      "nodes": {
+        "text": "Equilibrium talent",
+        "requirement": "Equilibrium",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7XCjq1HGRnh3483R",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

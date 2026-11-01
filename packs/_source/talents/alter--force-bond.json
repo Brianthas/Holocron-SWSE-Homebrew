@@ -1,0 +1,31 @@
+{
+  "_id": "cmofqva8IHEj5gUW",
+  "_key": "!items!cmofqva8IHEj5gUW",
+  "name": "Force Bond",
+  "type": "talent",
+  "system": {
+    "description": "<i>Force Bond Talent created by TheSagaContinues user fairytalejedi.</i><br><br>A <b>Telepathic Link</b> becomes permanent between yourself and another possessing the Force Sensitivity Feat. While out of combat, you and the bonded individual can freely speak as if in the same location. By spending a Force Point to make a DC 25 Use the Force check, you may give or take a single item of Diminutive size or smaller.<br><br>Alternatively, by spending a Destiny Point, a bonded individual may make an attack roll against their partner, ignoring the effects of line of sight and line of effect (including Cover and Concealment). If the bonded individual dies, or you spend a Destiny Point to sever the bond, the <b>Force Bond</b> may be given to any other willing being possessing the Force Sensitivity feat.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "Telepathic Link talent",
+      "nodes": {
+        "text": "Telepathic Link talent",
+        "requirement": "Telepathic Link",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "i30bsU2nCHWqIQva",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

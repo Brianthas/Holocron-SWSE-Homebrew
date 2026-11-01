@@ -1,0 +1,27 @@
+{
+  "_id": "j3v07WXMuLej30KT",
+  "_key": "!items!j3v07WXMuLej30KT",
+  "name": "Lightsaber Evasion",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an enemy misses you with a melee attack with a Lightsaber, you may move up to 2 squares in any direction. This movement does not provoke Attacks of Opportunity.",
+    "tree": "Force Hunter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "luSDLIAb4qx0XqKM",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "b40aopjaoKaQFZuy",
+  "_key": "!items!b40aopjaoKaQFZuy",
+  "name": "Improved Jury-Rig",
+  "type": "talent",
+  "system": {
+    "description": "You can use the Jury-Rig application of the Mechanics Skill as a Standard Action instead of as a Full-Round Action. Additionally, you are not required to make a Skill Check to successfully Jury-Rig a device or Vehicle, and the device or Vehicle moves +3 steps on the Condition Track instead of +2.",
+    "tree": "Improviser",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5c50cWZE2N9Y67FY",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

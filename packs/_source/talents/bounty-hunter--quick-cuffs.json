@@ -1,0 +1,31 @@
+{
+  "_id": "S1BXZpPj1vChv6fA",
+  "_key": "!items!S1BXZpPj1vChv6fA",
+  "name": "Quick Cuffs",
+  "type": "talent",
+  "system": {
+    "description": "You are fast with the binders. As a Swift Action, when you successfully use the Grab Action against a target, you can use Binder Cuffs or similar restraints to bind one of the target's arms to one of your arms or to an adjacent object.<br><br>You cannot use improvised materials, such as Mesh Tape, for this Talent, and the binders must be in your hands or readily available. You and the target both take a -2 penalty to attack rolls and Reflex Defense while bound together.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "Quick Draw feat",
+      "nodes": {
+        "text": "Quick Draw feat",
+        "requirement": "Quick Draw",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sIGwJuOBysK2eAhL",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

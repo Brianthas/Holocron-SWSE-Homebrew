@@ -1,0 +1,31 @@
+{
+  "_id": "cdHBDVnUGjInff8H",
+  "_key": "!items!cdHBDVnUGjInff8H",
+  "name": "Deception Awareness",
+  "type": "talent",
+  "system": {
+    "description": "Realizing how devastating the consequences would have been if the Sith had successfully deceived her and her companions during the Jedi Civil War, Shasa has developed a technique for using The Force to detect deceptions. You gain +5 to your Will Defense against uses of the Deception skill.<br><br>Additionally, you can make a Use the Force check instead of a Perception check to Sense Deception and Sense Influence. You are considered Trained in Perception for the purposes of using this Talent. If you are entitled to a Perception check reroll, you may reroll your Use the Force check instead (subject to the same circumstances and limitations).",
+    "tree": "Order of Shasa",
+    "prerequisite": {
+      "text": "a member of The Order of Shasa",
+      "nodes": {
+        "text": "a member of The Order of Shasa",
+        "requirement": "The Order of Shasa",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "K2UKnxVKRtwDbsk9",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

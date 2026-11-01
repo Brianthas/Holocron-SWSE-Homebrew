@@ -1,0 +1,31 @@
+{
+  "_id": "RmHp4X4CtywLnXjA",
+  "_key": "!items!RmHp4X4CtywLnXjA",
+  "name": "Sith Reverence",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +1 morale bonus on your attack rolls while you are within 20 squares and in line of sight of an ally with a Dark Side Score equal to or greater than your own.",
+    "tree": "Believer Disciple",
+    "prerequisite": {
+      "text": "a member of The Believers",
+      "nodes": {
+        "text": "a member of The Believers",
+        "requirement": "The Believers",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HSeznTd6oqaLiuTq",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

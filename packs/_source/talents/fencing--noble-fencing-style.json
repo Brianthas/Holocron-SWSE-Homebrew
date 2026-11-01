@@ -1,0 +1,42 @@
+{
+  "_id": "yke6SuhyuwAR58Mk",
+  "_key": "!items!yke6SuhyuwAR58Mk",
+  "name": "Noble Fencing Style",
+  "type": "talent",
+  "system": {
+    "description": "This style of swordplay uses wit and force of personality to increase accuracy, taunting and distracting an opponent with feints, misdirection, and deception. When using a light melee weapon or a Lightsaber that you are proficient with, you can use your Charisma modifier instead of your Strength modifier on attack rolls.<hr /><p>This talent now applies to both attack AND damage rolls (not attack-only), and is selected as a per-attack toggle rather than automatic. It works only on a weapon wielded single-handed.</p>",
+    "tree": "Fencing",
+    "prerequisite": {
+      "text": "Trained in Deception and Persuasion",
+      "nodes": {
+        "children": [
+          {
+            "text": "Trained in Deception",
+            "requirement": "Deception",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Trained in Persuasion",
+            "requirement": "Persuasion",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Trained in Deception and Persuasion",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sxtmjBR6lvJrtKGq",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

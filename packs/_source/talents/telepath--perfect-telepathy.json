@@ -1,0 +1,27 @@
+{
+  "_id": "ro5rUdXSIafZEKSo",
+  "_key": "!items!ro5rUdXSIafZEKSo",
+  "name": "Perfect Telepathy",
+  "type": "talent",
+  "system": {
+    "description": "You can communicate in full sentences and complete thoughts when you use the Telepathy aspect of the Use the Force skill, instead of just in basic phrases. However, the target of your Telepathy can still only communicate in basic emotions or single thoughts.",
+    "tree": "Telepath",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Bvaj0lMGKwJoN79E",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

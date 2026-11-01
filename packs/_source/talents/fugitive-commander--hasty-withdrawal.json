@@ -1,0 +1,27 @@
+{
+  "_id": "i6aOYcTnHk8T7xA0",
+  "_key": "!items!i6aOYcTnHk8T7xA0",
+  "name": "Hasty Withdrawal",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action once per turn, you target a number of allies equal to your Charisma bonus (minimum 1). Each targeted ally must be within 12 squares of you and in your line of sight. Each ally you target can take the Withdraw Action immediately as a Free Action. The normal rules for Withdrawing otherwise apply.",
+    "tree": "Fugitive Commander",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XW73relmfDCjzenS",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

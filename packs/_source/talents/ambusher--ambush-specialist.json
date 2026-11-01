@@ -1,0 +1,27 @@
+{
+  "_id": "p3AqfFPqbbA6FcRN",
+  "_key": "!items!p3AqfFPqbbA6FcRN",
+  "name": "Ambush Specialist",
+  "type": "talent",
+  "system": {
+    "description": "If you are not Surprised on the first round of combat in an encounter, you can treat the first round of combat as if it were the Surprise Round for the purposes of Talents and Feats that trigger only during the Surprise Round.<br><br>Additionally, during the Surprise Round as a Free Action you can designate a target as your Prime Target. You gain a +2 morale bonus to attack rolls against your Prime Target until the end of the encounter.",
+    "tree": "Ambusher",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6AvKpJQjuJqMx8Ta",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

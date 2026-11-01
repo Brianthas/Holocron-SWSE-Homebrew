@@ -1,0 +1,31 @@
+{
+  "_id": "vTcXqy32ImAtUdso",
+  "_key": "!items!vTcXqy32ImAtUdso",
+  "name": "Lucky Stop",
+  "type": "talent",
+  "system": {
+    "description": "A successful hit against you is mitigated by an item you just happen to be wearing or carrying, or glances off your armor or clothing in just the right way. Once per encounter, as a Reaction, you can negate the damage from a single attack that would normally reduce you to 0 Hit Points.",
+    "tree": "Fortune",
+    "prerequisite": {
+      "text": "Knack talent",
+      "nodes": {
+        "text": "Knack talent",
+        "requirement": "Knack",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RfyrPMwgniJEzC2V",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

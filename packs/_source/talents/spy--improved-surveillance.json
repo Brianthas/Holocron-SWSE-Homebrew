@@ -1,0 +1,42 @@
+{
+  "_id": "W3a8jGs13L6U71qe",
+  "_key": "!items!W3a8jGs13L6U71qe",
+  "name": "Improved Surveillance",
+  "type": "talent",
+  "system": {
+    "description": "When you successfully use the <b>Surveillance</b> Talent, you grant yourself and your allies a +1 insight bonus to all Defenses against the target.",
+    "tree": "Spy",
+    "prerequisite": {
+      "text": "Surveillance talent, and Trained in Perception",
+      "nodes": {
+        "children": [
+          {
+            "text": "Surveillance talent",
+            "requirement": "Surveillance",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Perception",
+            "requirement": "Perception",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Surveillance talent, and Trained in Perception",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ysDf2jDv2dxw8cq6",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

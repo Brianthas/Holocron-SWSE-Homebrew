@@ -1,0 +1,31 @@
+{
+  "_id": "YpyxmQEZUNOrF7Tt",
+  "_key": "!items!YpyxmQEZUNOrF7Tt",
+  "name": "Retaliation",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you move down the Condition Track as a result of taking damage that equals or exceeds your Damage Threshold, the next time you hit and damage a creature or a Droid with a melee or a ranged attack before the end of your next turn, you automatically move the target -1 step on the Condition Track.",
+    "tree": "Master of Intrigue",
+    "prerequisite": {
+      "text": "Advanced Planning talent",
+      "nodes": {
+        "text": "Advanced Planning talent",
+        "requirement": "Advanced Planning",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "l5uofM0kYaNh3QSd",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

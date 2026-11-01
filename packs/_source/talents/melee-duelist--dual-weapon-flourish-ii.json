@@ -1,0 +1,57 @@
+{
+  "_id": "J56gaNBhEDOmVUdL",
+  "_key": "!items!J56gaNBhEDOmVUdL",
+  "name": "Dual Weapon Flourish II",
+  "type": "talent",
+  "system": {
+    "description": "When wielding only two light melee weapons or two Lightsabers, once per turn on your turn, you can make a Full Attack Action as a Standard Action, rather than a Full-Round Action, provided you attack with both weapons during the attack. You apply the normal penalties for fighting with two weapons to both of these attacks.",
+    "tree": "Melee Duelist",
+    "prerequisite": {
+      "text": "Dual Weapon Mastery I feat, Dual Weapon Mastery II feat, Dual Weapon Flourish I talent, Master of Elegance talent, and Weapon Finesse feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dual Weapon Mastery I feat",
+            "requirement": "Dual Weapon Mastery I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Dual Weapon Mastery II feat",
+            "requirement": "Dual Weapon Mastery II",
+            "type": "FEAT"
+          },
+          {
+            "text": "Dual Weapon Flourish I talent",
+            "requirement": "Dual Weapon Flourish I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Master of Elegance talent",
+            "requirement": "Master of Elegance",
+            "type": "TALENT"
+          },
+          {
+            "text": "Weapon Finesse feat",
+            "requirement": "Weapon Finesse",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Dual Weapon Mastery I feat, Dual Weapon Mastery II feat, Dual Weapon Flourish I talent, Master of Elegance talent, and Weapon Finesse feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VvMGUYQyO0F3W8RN",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

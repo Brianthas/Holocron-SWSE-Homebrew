@@ -1,0 +1,31 @@
+{
+  "_id": "NkJVSlagJkJ4sY6R",
+  "_key": "!items!NkJVSlagJkJ4sY6R",
+  "name": "Rebuke the Dark",
+  "type": "talent",
+  "system": {
+    "description": "When using the <i>Rebuke</i> Force Power against a Force Power with the [<i>Dark Side</i>] descriptor, roll two dice for the <i>Rebuke</i> attempt, keeping the better of the two results.",
+    "tree": "Jedi Shadow",
+    "prerequisite": {
+      "text": "Rebuke force power",
+      "nodes": {
+        "text": "Rebuke force power",
+        "requirement": "Rebuke",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Qifn2t5SjDxERwF3",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

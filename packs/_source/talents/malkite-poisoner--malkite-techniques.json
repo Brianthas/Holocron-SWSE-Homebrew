@@ -1,0 +1,27 @@
+{
+  "_id": "xN7MIc9VVjwLpYJR",
+  "_key": "!items!xN7MIc9VVjwLpYJR",
+  "name": "Malkite Techniques",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can apply a toxin to any non-Energy Slashing or Piercing weapon as a Standard Action. If an attack roll with that weapon also exceeds the target's Fortitude Defense, that target is Poisoned.<br><br>Each round on the creature's turn, the Poison makes an attack roll (1d20 + your Heroic Level) against the target's Fortitude Defense. If the attack succeeds, the target takes damage equal to 1d6 + one-half your Heroic Level and moves -1 step along the Condition Track.<br><br>A target moved to the end of the Condition Track by the Poison is unconscious but continues to take damage as long as the Poison continues to attack. The Poison attacks each round until it misses, or until the victim is cured with a Treat Injury check (DC 10 + your Heroic Level).",
+    "tree": "Malkite Poisoner",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PAGgvAKoVkAU6izA",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

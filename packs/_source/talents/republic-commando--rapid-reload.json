@@ -1,0 +1,27 @@
+{
+  "_id": "PzfgyzTCPGCnSF4v",
+  "_key": "!items!PzfgyzTCPGCnSF4v",
+  "name": "Rapid Reload",
+  "type": "talent",
+  "system": {
+    "description": "You can retrieve a stored Energy Cell or Power Pack and reload your Weapon as a single Swift Action.",
+    "tree": "Republic Commando",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TO1IjY827xikfFv2",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

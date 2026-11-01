@@ -1,0 +1,27 @@
+{
+  "_id": "dlRohuhmRxlFtobr",
+  "_key": "!items!dlRohuhmRxlFtobr",
+  "name": "Task Optimization",
+  "type": "talent",
+  "system": {
+    "description": "Select a Skill you are Trained in. Once per encounter, you can perform any application of that Skill as one action quicker than normal, but as at least a Swift Action (for example, a Full-Round Action becomes a Standard Action, a Standard Action becomes a Move Action, and a Move Action becomes a Swift Action). Tasks requiring more than one round cannot be optimized with this Talent.",
+    "tree": "5th-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QR65ZAyA5D3vetEN",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

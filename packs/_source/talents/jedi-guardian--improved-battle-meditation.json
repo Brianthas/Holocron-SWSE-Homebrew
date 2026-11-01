@@ -1,0 +1,31 @@
+{
+  "_id": "Kcm34eK8Z6mcgS0J",
+  "_key": "!items!Kcm34eK8Z6mcgS0J",
+  "name": "Improved Battle Meditation",
+  "type": "talent",
+  "system": {
+    "description": "You may activate your <b>Battle Meditation</b> Talent as a Swift Action, instead of as a Full-Round Action. The range of the <b>Battle Meditation</b> extends out to 12 squares. Opponents within the radius of your <b>Battle Meditation</b> suffer a -1 penalty to all attack rolls.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "Battle Meditation talent",
+      "nodes": {
+        "text": "Battle Meditation talent",
+        "requirement": "Battle Meditation",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BHspJ9qf0A9IpCjY",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

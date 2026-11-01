@@ -1,0 +1,42 @@
+{
+  "_id": "KLdz4yAmlb7nCFy9",
+  "_key": "!items!KLdz4yAmlb7nCFy9",
+  "name": "Small Favor",
+  "type": "talent",
+  "system": {
+    "description": "You can call in a small favor from someone who owes you. Once per day, make a DC 25 Persuasion check. If the check is successful, an informant gives you information, granting you a +10 competence bonus to one Gather Information or Knowledge check made within the next 24 hours.",
+    "tree": "Infamy",
+    "prerequisite": {
+      "text": "Notorious (Infamy Talent Tree) talent, and Trained in Persuasion",
+      "nodes": {
+        "children": [
+          {
+            "text": "Notorious (Infamy Talent Tree) talent",
+            "requirement": "Notorious (Infamy Talent Tree)",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Persuasion",
+            "requirement": "Persuasion",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Notorious (Infamy Talent Tree) talent, and Trained in Persuasion",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QaYkhkbQbvsldDuU",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

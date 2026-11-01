@@ -1,0 +1,47 @@
+{
+  "_id": "zBUobvKQP0vVHwwe",
+  "_key": "!items!zBUobvKQP0vVHwwe",
+  "name": "Legendary Commander",
+  "type": "talent",
+  "system": {
+    "description": "When you are the Commander of a Capital Ship, calculate its Reflex Defense using your Heroic Level plus one-half the ship's armor bonus (rounded down), the Pilot's Heroic Level, or the ship's Armor bonus, whichever is highest.<br><br>In addition, all Gunners on your ship add one-half your Heroic Level, or one-half their Heroic Level, whichever is more, to damage rolls with Vehicle Weapons. Finally, you treat any generic crew as being one quality level higher (maximum of Ace, see Crew Quality).",
+    "tree": "Naval Officer",
+    "prerequisite": {
+      "text": "Charisma 13, Intelligence 13, and Born Leader talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Charisma 13",
+            "requirement": "Charisma 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Intelligence 13",
+            "requirement": "Intelligence 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Born Leader talent",
+            "requirement": "Born Leader",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Charisma 13, Intelligence 13, and Born Leader talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "htMNbhrUaa23pc4I",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

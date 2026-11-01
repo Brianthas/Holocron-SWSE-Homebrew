@@ -1,0 +1,27 @@
+{
+  "_id": "7vix7bHwynQqr8X1",
+  "_key": "!items!7vix7bHwynQqr8X1",
+  "name": "Multiattack Proficiency (Simple Weapons)",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you make multiple attacks with any type of Simple Weapon as a Full-Round Action (see Full Attack), you reduce the penalty on your attack rolls by 2.<br><br>You can take this Talent multiple times; each time you take this Talent, you reduce the penalty on your attack rolls by an additional 2.",
+    "tree": "Weapon Master",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uUOQ3J9bjFzG8up9",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

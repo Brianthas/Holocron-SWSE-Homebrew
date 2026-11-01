@@ -1,0 +1,27 @@
+{
+  "_id": "WgWvVlKXeps0bAQe",
+  "_key": "!items!WgWvVlKXeps0bAQe",
+  "name": "Assault Gambit",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn, as a Standard Action, you can designate one ally and one enemy that have line of effect to each other. The ally and the enemy make opposed Initiative checks, and the winner can make a single immediate melee or ranged attack against the loser. No character can benefit from this Talent more than once per round.",
+    "tree": "Gambling Leader",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uZkUpwXI8KelWTCi",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

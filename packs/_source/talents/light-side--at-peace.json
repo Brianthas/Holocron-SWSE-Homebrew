@@ -1,0 +1,27 @@
+{
+  "_id": "6uEdl3AUdfcn4M2y",
+  "_key": "!items!6uEdl3AUdfcn4M2y",
+  "name": "At Peace",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point to gain a +2 Force bonus to all Defenses until the end of the encounter or until you attack, whichever comes first.",
+    "tree": "Light Side",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RIHcQRaONsHOJRZ8",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

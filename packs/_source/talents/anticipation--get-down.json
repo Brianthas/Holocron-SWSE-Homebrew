@@ -1,0 +1,27 @@
+{
+  "_id": "nraFtvnnh7ONcFZY",
+  "_key": "!items!nraFtvnnh7ONcFZY",
+  "name": "Get Down",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction, when an ally is targeted by a ranged attack, you can enable that ally to drop Prone immediately (imposing the normal -5 penalty for a ranged attack against a Prone target to the triggering attack roll) as a Free Action.",
+    "tree": "Anticipation",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "t61bjtVjRWNFFqE2",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

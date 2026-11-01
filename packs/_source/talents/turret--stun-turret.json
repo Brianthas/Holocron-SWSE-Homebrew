@@ -1,0 +1,31 @@
+{
+  "_id": "2L8nNFG6geBEXBQ1",
+  "_key": "!items!2L8nNFG6geBEXBQ1",
+  "name": "Stun Turret",
+  "type": "talent",
+  "system": {
+    "description": "You can construct a nonlethal Turret. The Turret deals Stun damage instead of normal damage.",
+    "tree": "Turret",
+    "prerequisite": {
+      "text": "Blaster Turret I talent",
+      "nodes": {
+        "text": "Blaster Turret I talent",
+        "requirement": "Blaster Turret I",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zATWLqcUcaziF1dP",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

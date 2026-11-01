@@ -1,0 +1,31 @@
+{
+  "_id": "rFmRW7j9uOdyDlok",
+  "_key": "!items!rFmRW7j9uOdyDlok",
+  "name": "Foresight",
+  "type": "talent",
+  "system": {
+    "description": "You may spend a Force Point to reroll an Initiative check, keeping the better of the two rolls. Additionally, if you roll a natural 20 on the Initiative check reroll, you immediately regain the Force Point spent to activate this talent.",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "Force Perception talent",
+      "nodes": {
+        "text": "Force Perception talent",
+        "requirement": "Force Perception",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ouv9S0n1lbRjA6w4",
+      "sourceBook": ""
+    }
+  }
+}

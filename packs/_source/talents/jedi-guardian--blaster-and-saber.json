@@ -1,0 +1,52 @@
+{
+  "_id": "8te78D8fQBERaS7W",
+  "_key": "!items!8te78D8fQBERaS7W",
+  "name": "Blaster and Saber",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you make a single attack with a Lightsaber as a Standard Action, you can immediately make an attack with a Pistol as a Free Action, provided you have both weapons in hand when you make the Lightsaber attack. The normal penalties for using two weapons apply to both attacks.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "Dual Weapon Mastery I feat, Weapon Proficiency (Lightsabers), Weapon Proficiency (Pistols), and Base Attack Bonus 5",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dual Weapon Mastery I feat",
+            "requirement": "Dual Weapon Mastery I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Proficiency (Lightsabers)",
+            "requirement": "Weapon Proficiency (Lightsabers)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Proficiency (Pistols)",
+            "requirement": "Weapon Proficiency (Pistols)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 5",
+            "requirement": "5",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Dual Weapon Mastery I feat, Weapon Proficiency (Lightsabers), Weapon Proficiency (Pistols), and Base Attack Bonus 5",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DgjizrHdMQfJEP1E",
+      "sourceBook": "New Jedi Order Campaign Guide"
+    }
+  }
+}

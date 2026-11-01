@@ -1,0 +1,27 @@
+{
+  "_id": "6inYbcqQcJ2sSsuX",
+  "_key": "!items!6inYbcqQcJ2sSsuX",
+  "name": "Force Warning",
+  "type": "talent",
+  "system": {
+    "description": "Allies within 12 squares can choose to reroll their Initiative checks at the start of combat, but must keep the result of the reroll, even if it is worse.<br><br>Furthermore, if any allies within 12 squares are Surprised at the start of an encounter, but you are not, you can designate a number of those allies equal to your Wisdom modifier (minimum 1); those allies are no longer considered Surprised, and can act normally during the Surprise Round.",
+    "tree": "Jedi Watchman",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5i2VITvU5ivXJABg",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

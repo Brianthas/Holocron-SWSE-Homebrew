@@ -1,0 +1,31 @@
+{
+  "_id": "WRJXwrtiJIXkQkYi",
+  "_key": "!items!WRJXwrtiJIXkQkYi",
+  "name": "Soothing Presence",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you encounter a Beast with an Unfriendly Attitude toward you, you automatically shift its Attitude to Indifferent (no Skill Check required).",
+    "tree": "Beastwarden",
+    "prerequisite": {
+      "text": "Charm Beast (Beastwarden Talent Tree) talent",
+      "nodes": {
+        "text": "Charm Beast (Beastwarden Talent Tree) talent",
+        "requirement": "Charm Beast (Beastwarden Talent Tree)",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MAYPNnUxc1TpHRiV",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

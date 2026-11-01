@@ -1,0 +1,27 @@
+{
+  "_id": "Kc0SuthcHfnHdKbf",
+  "_key": "!items!Kc0SuthcHfnHdKbf",
+  "name": "Droid Jammer",
+  "type": "talent",
+  "system": {
+    "description": "You can construct a short-range Jammer that affects Droids. As a Full-Round Action, you make a Mechanics check to build the Jammer. When a Droid comes within 6 squares of you, compare the result of your Mechanics check to the Droid's Will Defense. If your check result equals or exceeds the Droid's Will Defense, the Droid can only take Swift Actions as long as it remains within the radius of the Jammer.<br><br>Droids that are immune to the effect of a Restraining Bolt are immune to the effects of this Talent. The Jammer functions for the remainder of the encounter. You may only have one Jammer (Device or Droid) active at a time.",
+    "tree": "Sabotage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oGw8jdck08Oo2NUY",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

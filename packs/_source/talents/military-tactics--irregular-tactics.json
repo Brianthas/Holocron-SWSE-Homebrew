@@ -1,0 +1,31 @@
+{
+  "_id": "SrcwYd0GnfsrgDO5",
+  "_key": "!items!SrcwYd0GnfsrgDO5",
+  "name": "Irregular Tactics",
+  "type": "talent",
+  "system": {
+    "description": "Your tactics confuse enemy commanders and tacticians that can see or otherwise observe your forces in action, such as when using sensors. After using the Share Talent special quality, make a Knowledge (Tactics) check as a Free Action. The result replaces the DC of any Talents that use Knowledge (Tactics) from the Military Tactics Talent Tree used against your or your allies.",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "Share Talent (Any)",
+      "nodes": {
+        "text": "Share Talent (Any)",
+        "requirement": "Share Talent",
+        "type": "TRAIT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "k1Wttv0Sj1Ta3FsY",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

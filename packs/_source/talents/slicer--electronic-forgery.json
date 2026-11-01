@@ -1,0 +1,31 @@
+{
+  "_id": "WAkep83Bc98E0UNr",
+  "_key": "!items!WAkep83Bc98E0UNr",
+  "name": "Electronic Forgery",
+  "type": "talent",
+  "system": {
+    "description": "You can use your Use Computer modifier in place of your Deception modifier to create a deceptive appearance with forged electronic documents.",
+    "tree": "Slicer",
+    "prerequisite": {
+      "text": "Trained in Use Computer",
+      "nodes": {
+        "text": "Trained in Use Computer",
+        "requirement": "Use Computer",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CpbsfUs17WzUrvKM",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

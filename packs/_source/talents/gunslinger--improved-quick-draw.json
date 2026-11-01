@@ -1,0 +1,27 @@
+{
+  "_id": "ifwDmYzf0Xn1JZeH",
+  "_key": "!items!ifwDmYzf0Xn1JZeH",
+  "name": "Improved Quick Draw",
+  "type": "talent",
+  "system": {
+    "description": "If you are carrying a Pistol (either in your hand or in a holster), you may draw the Pistol and make a single attack during a Surprise Round, even if you are Surprised.<br><br>If you are not Surprised, you may take any single Action of your choice, as normal.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BU8fv9jr3MqYxlKv",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

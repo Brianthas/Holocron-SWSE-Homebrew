@@ -1,0 +1,27 @@
+{
+  "_id": "r159gVhh3UUDfc0m",
+  "_key": "!items!r159gVhh3UUDfc0m",
+  "name": "Shoot from the Hip",
+  "type": "talent",
+  "system": {
+    "description": "You can always use a Rifle to make Attacks of Opportunity.",
+    "tree": "Carbineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rF9im3UUbW7x2cMn",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

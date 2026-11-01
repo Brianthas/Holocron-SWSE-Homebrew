@@ -1,0 +1,27 @@
+{
+  "_id": "mQxV3ZvmOdjVryCq",
+  "_key": "!items!mQxV3ZvmOdjVryCq",
+  "name": "Spotter",
+  "type": "talent",
+  "system": {
+    "description": "As a Move Action, you can make a Perception check with a DC equal to 10 + the CL of a single target enemy in your line of sight. If you succeed on the check, you and all your allies that can hear and understand you gain a +1 insight bonus on attack rolls against that target until the end of your next turn.",
+    "tree": "Surveillance",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sZOJHWlxiZd1RM2L",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

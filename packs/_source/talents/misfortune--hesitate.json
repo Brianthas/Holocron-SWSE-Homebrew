@@ -1,0 +1,27 @@
+{
+  "_id": "7sfeBwcEZcHVe32y",
+  "_key": "!items!7sfeBwcEZcHVe32y",
+  "name": "Hesitate",
+  "type": "talent",
+  "system": {
+    "description": "You can fill your opponent with doubt by making a Persuasion check as a Standard Action against a single target that can hear and understand you within 12 squares of you. If your check result equals or exceeds the target's Will Defense, the target takes a -2 penalty to its base speed, and if the target takes a Standard Action, it must also spend its Swift Action.<br><br>This penalty lasts until the end of the target's next turn.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uiLHe8jyUYpqOvwN",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

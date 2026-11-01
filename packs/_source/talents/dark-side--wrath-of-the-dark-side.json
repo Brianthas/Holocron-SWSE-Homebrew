@@ -1,0 +1,31 @@
+{
+  "_id": "VBTNvb35hLbylSGf",
+  "_key": "!items!VBTNvb35hLbylSGf",
+  "name": "Wrath of the Dark Side",
+  "type": "talent",
+  "system": {
+    "description": "When you roll a Natural 20 on a Use the Force check to activate a Force Power that directly deals damage to a target, you can choose not to regain all of your spent Force Powers as normal and instead the targets damaged by the Force Power take half that damage again at the start of their next turn.<br><br>Only Force Powers that directly damage the target are subject to this Talent, including <i>Corruption</i>, <i>Force Blast</i>, <i>Force Grip</i>, <i>Force Lightning</i>, <i>Force Slam</i>, <i>Force Thrust</i> (only when spending a Force Point), and <i>Repulse</i> (only when spending a Force Point).",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "Power of the Dark Side talent",
+      "nodes": {
+        "text": "Power of the Dark Side talent",
+        "requirement": "Power of the Dark Side",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UAyaGmkIYPZiXfsr",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

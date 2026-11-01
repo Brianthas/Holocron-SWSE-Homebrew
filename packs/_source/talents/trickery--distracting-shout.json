@@ -1,0 +1,31 @@
+{
+  "_id": "3qYGG0V7KgvSuqNr",
+  "_key": "!items!3qYGG0V7KgvSuqNr",
+  "name": "Distracting Shout",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Reaction to one of your allies being attacked, you can make a Deception check, replacing the Defense Scores of that ally with the result of your Deception check for the resolution of that attack. If any Defense Scores are higher than the Deception check result, your ally can use that Defense Score instead. If the attack still hits, this does not count as the one use per encounter aspect of this Talent.",
+    "tree": "Trickery",
+    "prerequisite": {
+      "text": "Cunning Distraction talent",
+      "nodes": {
+        "text": "Cunning Distraction talent",
+        "requirement": "Cunning Distraction",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "92u6IuuaNQ7T7PFk",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

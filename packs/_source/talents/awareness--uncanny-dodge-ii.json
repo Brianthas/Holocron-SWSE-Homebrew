@@ -1,0 +1,47 @@
+{
+  "_id": "ew0MyWeAAFQ5XFMl",
+  "_key": "!items!ew0MyWeAAFQ5XFMl",
+  "name": "Uncanny Dodge II",
+  "type": "talent",
+  "system": {
+    "description": "You cannot be Flanked. You can react to opponents on opposite sides of you as easily as you can react to a single attacker.<br><br>If you are the Pilot, this Talent applies to your Vehicle.",
+    "tree": "Awareness",
+    "prerequisite": {
+      "text": "Acute Senses talent, Improved Initiative talent, and Uncanny Dodge I talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Acute Senses talent",
+            "requirement": "Acute Senses",
+            "type": "TALENT"
+          },
+          {
+            "text": "Improved Initiative talent",
+            "requirement": "Improved Initiative",
+            "type": "TALENT"
+          },
+          {
+            "text": "Uncanny Dodge I talent",
+            "requirement": "Uncanny Dodge I",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Acute Senses talent, Improved Initiative talent, and Uncanny Dodge I talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Wr7vuyNDq9HF55SY",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

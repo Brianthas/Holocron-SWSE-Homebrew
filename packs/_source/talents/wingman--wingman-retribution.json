@@ -1,0 +1,31 @@
+{
+  "_id": "xn2u0S0GYTc64bHY",
+  "_key": "!items!xn2u0S0GYTc64bHY",
+  "name": "Wingman Retribution",
+  "type": "talent",
+  "system": {
+    "description": "When a Vehicle of Colossal size or smaller that is Piloted by an ally is damaged by an attack, once per round as a Reaction you can make a Vehicle Weapon attack with a -5 penalty against your ally's attacker.",
+    "tree": "Wingman",
+    "prerequisite": {
+      "text": "Escort Pilot talent",
+      "nodes": {
+        "text": "Escort Pilot talent",
+        "requirement": "Escort Pilot",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "q2RzHo8oJpPWfj1B",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

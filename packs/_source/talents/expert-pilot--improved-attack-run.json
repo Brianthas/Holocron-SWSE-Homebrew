@@ -1,0 +1,27 @@
+{
+  "_id": "aUrAjfgmDgtp0Jfq",
+  "_key": "!items!aUrAjfgmDgtp0Jfq",
+  "name": "Improved Attack Run",
+  "type": "talent",
+  "system": {
+    "description": "You do not have to move in a straight line when using the Attack Run Action.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4LfdqWQtdWm2O1lG",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

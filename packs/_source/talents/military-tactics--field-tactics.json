@@ -1,0 +1,31 @@
+{
+  "_id": "3q4e2rdv6TQRtolE",
+  "_key": "!items!3q4e2rdv6TQRtolE",
+  "name": "Field Tactics",
+  "type": "talent",
+  "system": {
+    "description": "You know how to use existing terrain to your best advantage. By using a Move Action, you can make a DC 15 Knowledge (Tactics) check. If the check succeeds, you and all allies within 10 squares of you can use whatever Cover is available to gain a +10 Cover bonus to Reflex Defense (instead of the normal +5 Cover bonus). Allies must be able to hear and understand you to gain this benefit, and the bonus lasts until the start of your next turn. This Talent provides no benefit to anyone who doesn't have Cover. This is a Mind-Affecting effect.",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "Deployment Tactics talent",
+      "nodes": {
+        "text": "Deployment Tactics talent",
+        "requirement": "Deployment Tactics",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wKL2oeBDejFdGN9b",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

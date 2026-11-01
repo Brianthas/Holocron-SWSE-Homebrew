@@ -1,0 +1,31 @@
+{
+  "_id": "6Mt6zvqCPDk0cAd4",
+  "_key": "!items!6Mt6zvqCPDk0cAd4",
+  "name": "Earth Buckle",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point as a Swift Action to create a 3x3 square area of Difficult Terrain centered on you. You ignore any penalties for moving on Difficult Terrain that you create using this Talent.",
+    "tree": "Shaper of Kro Var",
+    "prerequisite": {
+      "text": "a member of The Shapers of Kro Var",
+      "nodes": {
+        "text": "a member of The Shapers of Kro Var",
+        "requirement": "The Shapers of Kro Var",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mToq92Hky7pWxrzO",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "ZgfLaSq3AkFG0lJz",
+  "_key": "!items!ZgfLaSq3AkFG0lJz",
+  "name": "Out of Nowhere",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Free Action on your turn, you can make an attack with a light melee weapon or Lightsaber after a successful Feint.",
+    "tree": "Melee Duelist",
+    "prerequisite": {
+      "text": "Trained in Deception, and Weapon Finesse feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Trained in Deception",
+            "requirement": "Deception",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Weapon Finesse feat",
+            "requirement": "Weapon Finesse",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Trained in Deception, and Weapon Finesse feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CD95NB3Tr6Tuu2YK",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "3CvTgfwA13PR6nI6",
+  "_key": "!items!3CvTgfwA13PR6nI6",
+  "name": "Search and Destroy",
+  "type": "talent",
+  "system": {
+    "description": "As a Move Action, you give all Squad members a +2 morale bonus to Perception checks until the end of your next turn.",
+    "tree": "Squad Leader",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FGq9DVetFNQYtH0h",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

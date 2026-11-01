@@ -1,0 +1,27 @@
+{
+  "_id": "eIvjDTq8Vzh1O7fu",
+  "_key": "!items!eIvjDTq8Vzh1O7fu",
+  "name": "Keep Them at Bay",
+  "type": "talent",
+  "system": {
+    "description": "When you use the Aid Another Action to Suppress an Enemy, that enemy takes a -5 penalty on its next attack instead of the normal -2 penalty. Only 1 character may gain the benefits of this Talent against a given target at a time.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JmD70EIm4TH5FpiZ",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

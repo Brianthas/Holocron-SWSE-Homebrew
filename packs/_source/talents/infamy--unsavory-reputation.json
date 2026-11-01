@@ -1,0 +1,52 @@
+{
+  "_id": "6lpcQcsjPaAuJzzD",
+  "_key": "!items!6lpcQcsjPaAuJzzD",
+  "name": "Unsavory Reputation",
+  "type": "talent",
+  "system": {
+    "description": "Any opponent that is reduced to half Hit Points or fewer while within 6 squares of you takes a -2 penalty on all attack rolls and Skill Checks for the duration of the encounter. This is a Mind-Affecting Fear effect.",
+    "tree": "Infamy",
+    "prerequisite": {
+      "text": "Inspire Fear I talent, Inspire Fear II talent, Inspire Fear III talent, and Notorious (Infamy Talent Tree) talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Inspire Fear I talent",
+            "requirement": "Inspire Fear I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Inspire Fear II talent",
+            "requirement": "Inspire Fear II",
+            "type": "TALENT"
+          },
+          {
+            "text": "Inspire Fear III talent",
+            "requirement": "Inspire Fear III",
+            "type": "TALENT"
+          },
+          {
+            "text": "Notorious (Infamy Talent Tree) talent",
+            "requirement": "Notorious (Infamy Talent Tree)",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Inspire Fear I talent, Inspire Fear II talent, Inspire Fear III talent, and Notorious (Infamy Talent Tree) talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "b80ZZJOTOKNvIILR",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

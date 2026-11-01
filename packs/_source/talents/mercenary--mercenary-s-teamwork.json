@@ -1,0 +1,42 @@
+{
+  "_id": "XzidgIGmvM10vGD3",
+  "_key": "!items!XzidgIGmvM10vGD3",
+  "name": "Mercenary's Teamwork",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +2 bonus to damage rolls for each ally that has damaged your target since the end of your last turn (to a maximum of +10).",
+    "tree": "Mercenary",
+    "prerequisite": {
+      "text": "Combined Fire (Mercenary Talent Tree) talent, and Coordinated Attack feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Combined Fire (Mercenary Talent Tree) talent",
+            "requirement": "Combined Fire (Mercenary Talent Tree)",
+            "type": "TALENT"
+          },
+          {
+            "text": "Coordinated Attack feat",
+            "requirement": "Coordinated Attack",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Combined Fire (Mercenary Talent Tree) talent, and Coordinated Attack feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Un32qf5ehaUZltkC",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

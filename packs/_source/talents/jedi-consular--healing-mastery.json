@@ -1,0 +1,31 @@
+{
+  "_id": "eUphqXk8JvuV9VdW",
+  "_key": "!items!eUphqXk8JvuV9VdW",
+  "name": "Healing Mastery",
+  "type": "talent",
+  "system": {
+    "description": "You may reroll any Treat Injury check, but the result of the reroll must be accepted, even if it is worse. In addition, you can use the First Aid, Treat Disease, Treat Poison, and Treat Radiation applications without the requisite Medical Kit or Medpac.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "Jedi Healer talent",
+      "nodes": {
+        "text": "Jedi Healer talent",
+        "requirement": "Jedi Healer",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wr5FxBaON9unm1DZ",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

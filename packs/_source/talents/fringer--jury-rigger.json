@@ -1,0 +1,27 @@
+{
+  "_id": "MPxpC0vU5XoXTxUA",
+  "_key": "!items!MPxpC0vU5XoXTxUA",
+  "name": "Jury-Rigger",
+  "type": "talent",
+  "system": {
+    "description": "You may reroll any Mechanics check made to Jury-Rig. You must, however, accept the result of the reroll, even if it is worse.",
+    "tree": "Fringer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JsItX1faahfC41Fe",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

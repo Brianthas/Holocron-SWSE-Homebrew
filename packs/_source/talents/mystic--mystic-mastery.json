@@ -1,0 +1,27 @@
+{
+  "_id": "pzcCzMCfzWxpibaO",
+  "_key": "!items!pzcCzMCfzWxpibaO",
+  "name": "Mystic Mastery",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you gain a level, you also gain a number of additional Force Points equal to the number of Force Talents you possess (maximum +6).",
+    "tree": "Mystic",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Mqy5CmSo53lX9EI1",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

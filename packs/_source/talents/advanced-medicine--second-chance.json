@@ -1,0 +1,31 @@
+{
+  "_id": "rHt5lG1r5J02wkoL",
+  "_key": "!items!rHt5lG1r5J02wkoL",
+  "name": "Second Chance",
+  "type": "talent",
+  "system": {
+    "description": "If you fail your Treat Injury check, your patient does not take any additional damage, nor does it die, even if the failed check would normally require it.",
+    "tree": "Advanced Medicine",
+    "prerequisite": {
+      "text": "Steady Under Pressure talent",
+      "nodes": {
+        "text": "Steady Under Pressure talent",
+        "requirement": "Steady Under Pressure",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GkyoTWu87eRUKg9p",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "6qM65dweMEvxBN6d",
+  "_key": "!items!6qM65dweMEvxBN6d",
+  "name": "Deep Space Raider",
+  "type": "talent",
+  "system": {
+    "description": "Whether you are taking on military targets on behalf of a resistance movement or you are out for personal gain, you are experienced at raiding Starships and similar targets. You can use each if the following Actions once per encounter:",
+    "tree": "Spacer",
+    "prerequisite": {
+      "text": "Spacehound talent, and Starship Raider talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Spacehound talent",
+            "requirement": "Spacehound",
+            "type": "TALENT"
+          },
+          {
+            "text": "Starship Raider talent",
+            "requirement": "Starship Raider",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Spacehound talent, and Starship Raider talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hvtA9oTvn3FDypa0",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

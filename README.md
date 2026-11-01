@@ -19,6 +19,7 @@ npm run verify:resources # levels, hit points, Force Points, languages, slots
 npm run verify:rest     # the sheet's Rest and the GM's New Day
 npm run verify:expiry   # effects lasting 1 and 2 rounds end on the right round
 npm run verify:feats    # converted feats from packs/_source, read off the sheet
+npm run verify:talents  # converted talents from packs/_source, read off the sheet
 ```
 
 `npm run typecheck`, `npm run lint` and `npm test` run in CI on every push.
@@ -34,7 +35,7 @@ characters.
 
 `npm run packs:convert` builds `packs/_source` from the SWSE fork's `packs/_source`, read from a
 checkout beside this repo (or `FORK_PACKS`). Converted so far: Force powers, techniques,
-secrets, regimens and feats. Ids are derived from each item's pack and name, so a rebuild never changes them; the
+secrets, regimens, feats and talents. Ids are derived from each item's pack and name, so a rebuild never changes them; the
 fork's id is kept in `flags.holocron.sourceId`. The run fails on a source field it has no mapping
 for, on a duplicate id, and on a file in an output pack it did not write (`--prune` deletes those).
 `tools/convert/out/report.json` lists every document left out, with the rule that removes it.

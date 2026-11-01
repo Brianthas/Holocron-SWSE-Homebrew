@@ -1,0 +1,27 @@
+{
+  "_id": "w9TVEVetNqyzPQfu",
+  "_key": "!items!w9TVEVetNqyzPQfu",
+  "name": "Force Fortification",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction, you can spend a Force Point to negate a Critical Hit scored against you, and take normal damage instead. You can spend this Force Point even if you've already spent a Force Point earlier in the round.",
+    "tree": "Duelist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XTwaRLNmDL5rTiSK",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

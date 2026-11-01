@@ -25,6 +25,8 @@ const LABELLED_LINE = /<p>\s*(?:<i>\s*)?(Reference Book|See also):(?:&nbsp;|\s)*
 const HOUSE_LABEL_PARAGRAPH = /<p>\s*<i>\s*Homebrew [^<]*\(tovec\.wikidot\.com\/episode-vii\)\s*<\/i>\s*<\/p>/g;
 // Captures the letter after the label, which led into the house text in lower case.
 const HOUSE_LABEL_INLINE = /<i>\s*Homebrew[^<]*\(tovec\.wikidot\.com\/episode-vii\):?\s*<\/i>\s*([a-z])?/g;
+// Bryan's own form on merged house text: "<b>Homebrew:</b> Murderous Arts I and II have been ...".
+const HOUSE_LABEL_BOLD = /<b>\s*Homebrew:\s*<\/b>\s*([a-z])?/g;
 const FAN_PAGE_NOTICE = /<table\b[^>]*>(?:(?!<\/table>)[\s\S])*?You may be looking for(?:(?!<\/table>)[\s\S])*<\/table>\s*/g;
 const REVIEW_NOTICE = "has not been reviewed in a meaningful manner";
 const HEADING = /<h([1-6])[^>]*>([\s\S]*?)<\/h\1>/g;
@@ -59,6 +61,46 @@ function removeFanSections(html: string, removed: string[], unclear: string[]): 
   }
 }
 
+const words = (html: string) => html.replace(TAG, " ").replace(/&nbsp;/g, " ").toLowerCase().match(/[a-z0-9]+/g) ?? [];
+
+/**
+ * Runs of six or more words in `copy` that `original` does not contain. A word counts as present
+ * when some four-word window through it appears in `original`, so reflowed tables and spacing do
+ * not count as differences. The fork's shortDescription is usually a flattened copy of the
+ * description; this finds where it is not.
+ */
+export function textNotIn(copy: string, original: string): string[] {
+  const ow = words(original);
+  const grams = new Set(ow.map((_, i) => ow.slice(i, i + 4).join(" ")));
+  const cw = words(copy);
+  const covered = cw.map(() => false);
+  for (let i = 0; i + 4 <= cw.length; i++) if (grams.has(cw.slice(i, i + 4).join(" "))) for (let k = i; k < i + 4; k++) covered[k] = true;
+  const runs: string[] = [];
+  for (let i = 0; i < cw.length;) {
+    if (covered[i]) { i++; continue; }
+    let j = i;
+    while (j < cw.length && !covered[j]) j++;
+    if (j - i >= 6) runs.push(cw.slice(i, j).join(" "));
+    i = j;
+  }
+  return runs;
+}
+
+/** Replaces each paragraph that starts with a given prefix; returns the prefixes it could not find. */
+export function rewriteParagraphs(html: string, replace: [string, string][]): { html: string; missing: string[] } {
+  const missing: string[] = [];
+  for (const [prefix, replacement] of replace) {
+    const start = html.indexOf(prefix);
+    const end = start < 0 ? -1 : html.indexOf("</p>", start);
+    if (end < 0) {
+      missing.push(prefix);
+      continue;
+    }
+    html = html.slice(0, start) + replacement + html.slice(end + "</p>".length);
+  }
+  return { html, missing };
+}
+
 export function cleanDescription(source: string): CleanedDescription {
   const removedSections: string[] = [];
   const unclearSections: string[] = [];
@@ -69,7 +111,8 @@ export function cleanDescription(source: string): CleanedDescription {
     if (label === "Reference Book" && !sourceBook) sourceBook = plain(value);
     return "";
   });
-  html = html.replace(HOUSE_LABEL_PARAGRAPH, "").replace(HOUSE_LABEL_INLINE, (_label, letter?: string) => letter?.toUpperCase() ?? "");
+  const capitalise = (_label: string, letter?: string) => letter?.toUpperCase() ?? "";
+  html = html.replace(HOUSE_LABEL_PARAGRAPH, "").replace(HOUSE_LABEL_INLINE, capitalise).replace(HOUSE_LABEL_BOLD, capitalise);
   const links: string[] = [];
   html = html.replace(ANCHOR, (_anchor, text: string) => {
     links.push(plain(text));

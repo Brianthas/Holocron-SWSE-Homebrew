@@ -1,0 +1,27 @@
+{
+  "_id": "Ua3LN7VV1amGtJTv",
+  "_key": "!items!Ua3LN7VV1amGtJTv",
+  "name": "Reliable Boon",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you spend a Force Point to add to a Skill Check, you always reroll a result of 1 on any of your Force Point dice, and continue to reroll until you get a result of 2 or higher.",
+    "tree": "Superior Skills",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Gk9Esnu5n8SWRzZ9",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

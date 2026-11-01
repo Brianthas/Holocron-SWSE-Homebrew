@@ -1,0 +1,27 @@
+{
+  "_id": "21HgfO1l1TRWLAkb",
+  "_key": "!items!21HgfO1l1TRWLAkb",
+  "name": "Call Weapon",
+  "type": "talent",
+  "system": {
+    "description": "You can use the Move Light Object application of the Use the Force Skill to call a Lightsaber you built into your hand and ignite it as a Free Action. The Weapon must be in your line of sight to call it to your hand.",
+    "tree": "Jedi Artisan",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TD9MPmjfUeNmva0b",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

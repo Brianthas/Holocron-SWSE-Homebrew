@@ -1,0 +1,27 @@
+{
+  "_id": "6qdBnmDdAVx4FYyA",
+  "_key": "!items!6qdBnmDdAVx4FYyA",
+  "name": "Computer Master",
+  "type": "talent",
+  "system": {
+    "description": "You can reroll any opposed Use Computer check, keeping the better of the two results.",
+    "tree": "Specialized Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "M5r1jrPHQQKn2Vqo",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "DhMyyV1HlRqkTe6F",
+  "_key": "!items!DhMyyV1HlRqkTe6F",
+  "name": "Multiattack Proficiency (Exotic Weapons)",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you make multiple attacks with Exotic Weapons as a Full Attack Action, you reduce the penalty on your attack rolls by 2 points.<br><br>You can take this Talent multiple times; each time you take this Talent, you reduce the penalty on your attack rolls by an additional 2 points.",
+    "tree": "Gladiatorial Combat",
+    "prerequisite": {
+      "text": "Exotic Weapons Master talent",
+      "nodes": {
+        "text": "Exotic Weapons Master talent",
+        "requirement": "Exotic Weapons Master",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "s72tBTyrZ9VZ1zv8",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

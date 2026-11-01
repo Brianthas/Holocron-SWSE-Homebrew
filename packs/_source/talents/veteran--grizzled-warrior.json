@@ -1,0 +1,42 @@
+{
+  "_id": "0eoZ0zABWeunivAO",
+  "_key": "!items!0eoZ0zABWeunivAO",
+  "name": "Grizzled Warrior",
+  "type": "talent",
+  "system": {
+    "description": "You can draw upon your extensive battlefield experience to encourage your comrades and drive your enemies before you. You can use each of the following Actions once per encounter as a Standard Action:",
+    "tree": "Veteran",
+    "prerequisite": {
+      "text": "Seen It All talent, and Tested in Battle talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Seen It All talent",
+            "requirement": "Seen It All",
+            "type": "TALENT"
+          },
+          {
+            "text": "Tested in Battle talent",
+            "requirement": "Tested in Battle",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Seen It All talent, and Tested in Battle talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "V9RtmdDDQYkNQVyj",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

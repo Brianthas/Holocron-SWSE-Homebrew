@@ -1,0 +1,42 @@
+{
+  "_id": "4SLEmFY4h3qLam4x",
+  "_key": "!items!4SLEmFY4h3qLam4x",
+  "name": "Extended Critical Range (Heavy Weapons)",
+  "type": "talent",
+  "system": {
+    "description": "When you are using a Heavy Weapon, you extend the weapon's critical range by 1 (for example, 19-20 instead of 20). However, anything other than a Natural 20 is not considered an automatic hit; if you roll anything other than a Natural 20 and still miss the target, you do not score a Critical Hit.",
+    "tree": "Critical Master",
+    "prerequisite": {
+      "text": "Base Attack Bonus 10, and Weapon Proficiency (Heavy Weapons)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Base Attack Bonus 10",
+            "requirement": "10",
+            "type": "BASE ATTACK BONUS"
+          },
+          {
+            "text": "Weapon Proficiency (Heavy Weapons)",
+            "requirement": "Weapon Proficiency (Heavy Weapons)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Base Attack Bonus 10, and Weapon Proficiency (Heavy Weapons)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kcUZBLOr1OTXwLFV",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

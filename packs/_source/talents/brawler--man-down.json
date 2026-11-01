@@ -1,0 +1,27 @@
+{
+  "_id": "8g09Okgj3lemAe08",
+  "_key": "!items!8g09Okgj3lemAe08",
+  "name": "Man Down",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an ally within 6 squares is reduced to 0 Hit Points, you can immediately move up to your speed toward that ally as a Reaction. This movement does not provoke Attacks of Opportunity.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eYGfy3lFFsJczorp",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

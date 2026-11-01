@@ -1,0 +1,31 @@
+{
+  "_id": "VOznQW9ZutaXY3n0",
+  "_key": "!items!VOznQW9ZutaXY3n0",
+  "name": "Synchronized Fire",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you may ready to fire a single weapon at the same target as an ally, and you coordinate with a single weapon of your ally.<br><br>If both attacks hit, you add the damage of the two weapons together before applying the target's Shield Rating or Damage Reduction, and treat it as a single attack for purposes of exceeding the target's Damage Threshold.",
+    "tree": "Gunner",
+    "prerequisite": {
+      "text": "Expert Gunner talent",
+      "nodes": {
+        "text": "Expert Gunner talent",
+        "requirement": "Expert Gunner",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OeLyrk33S2NtwGb1",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

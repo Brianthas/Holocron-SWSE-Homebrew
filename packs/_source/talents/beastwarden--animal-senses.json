@@ -1,0 +1,42 @@
+{
+  "_id": "K6t4xYaVZXT9TMOA",
+  "_key": "!items!K6t4xYaVZXT9TMOA",
+  "name": "Animal Senses",
+  "type": "talent",
+  "system": {
+    "description": "You ignore Concealment (including Total Concealment) from darkness. However, you cannot perceive colors in total darkness. Additionally, at close range (within 10 squares), you ignore Concealment and Cover for purposes of Perception checks, and take no penalty from poor visibility while Tracking.",
+    "tree": "Beastwarden",
+    "prerequisite": {
+      "text": "Trained in Perception, and Nature Sense talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Trained in Perception",
+            "requirement": "Perception",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Nature Sense talent",
+            "requirement": "Nature Sense",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Trained in Perception, and Nature Sense talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ODCqjJd15iaI0RXn",
+      "sourceBook": "Saga Edition All-Purpose Sourcebook"
+    }
+  }
+}

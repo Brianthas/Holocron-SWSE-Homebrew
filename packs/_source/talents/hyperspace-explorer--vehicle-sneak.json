@@ -1,0 +1,31 @@
+{
+  "_id": "EdGebrx6GSUsDDMy",
+  "_key": "!items!EdGebrx6GSUsDDMy",
+  "name": "Vehicle Sneak",
+  "type": "talent",
+  "system": {
+    "description": "You know how to fly and operate your Vehicle in order to hide its approach visually, decrease the noise it produces, and minimize its sensor signature. Treat your ship as two size categories smaller when attempting Stealth checks.",
+    "tree": "Hyperspace Explorer",
+    "prerequisite": {
+      "text": "Trained in Pilot",
+      "nodes": {
+        "text": "Trained in Pilot",
+        "requirement": "Pilot",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lMEQSQt2LPOHtaFa",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

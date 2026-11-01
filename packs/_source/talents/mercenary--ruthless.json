@@ -1,0 +1,31 @@
+{
+  "_id": "HE6Bo6E72SBG3RGi",
+  "_key": "!items!HE6Bo6E72SBG3RGi",
+  "name": "Ruthless",
+  "type": "talent",
+  "system": {
+    "description": "When you deal damage to a target with a melee or ranged attack roll that exceeds the target's Damage Threshold, you gain a +2 bonus on damage rolls against that target for the remainder of the encounter.",
+    "tree": "Mercenary",
+    "prerequisite": {
+      "text": "Dirty Fighting talent",
+      "nodes": {
+        "text": "Dirty Fighting talent",
+        "requirement": "Dirty Fighting",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Eix4HCAlmbpkrVHv",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

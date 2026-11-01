@@ -1,0 +1,42 @@
+{
+  "_id": "XxKyVqmUOA36DuNf",
+  "_key": "!items!XxKyVqmUOA36DuNf",
+  "name": "Frighten",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can designate a minion as a Free Action to spread fear among your enemies. At any point before the end of the encounter, you can activate this ability to force all enemies adjacent to your minion to move 1 square away from the minion. This movement does not provoke Attacks of Opportunity. This is a Mind-Affecting effect.",
+    "tree": "Infamy",
+    "prerequisite": {
+      "text": "Attract Minion talent, and Inspire Fear I talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Attract Minion talent",
+            "requirement": "Attract Minion",
+            "type": "TALENT"
+          },
+          {
+            "text": "Inspire Fear I talent",
+            "requirement": "Inspire Fear I",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Attract Minion talent, and Inspire Fear I talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rAVUZoa3An66JfLK",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

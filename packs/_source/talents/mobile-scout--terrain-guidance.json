@@ -1,0 +1,31 @@
+{
+  "_id": "tQBVeFuxwrWeTdk6",
+  "_key": "!items!tQBVeFuxwrWeTdk6",
+  "name": "Terrain Guidance",
+  "type": "talent",
+  "system": {
+    "description": "You effectively guide your mount through rough terrain. When in control of your mount, you can make a DC 20 Ride check as a Swift Action to negate the effect of Difficult Terrain on your mount's Speed.",
+    "tree": "Mobile Scout",
+    "prerequisite": {
+      "text": "Trained in Ride",
+      "nodes": {
+        "text": "Trained in Ride",
+        "requirement": "Ride",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3fKEwjwaf1FOIN26",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "HaqTdmzb628ZgaSs",
+  "_key": "!items!HaqTdmzb628ZgaSs",
+  "name": "Dark Healing Field",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point to heal wounds by drawing life energy from up to three targeted creatures within 12 squares of you. Once per encounter, you can make a Use the Force check. If the check result equals or exceeds a target's Fortitude Defense, the target takes 1d6 points of Force damage per every Sith Apprentice and Sith Lord Class Level you possess.<br><br>You heal half the total damage dealt (cumulative from all targets). If the attack fails, the target takes half damage, and you heal that amount.",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "Dark Healing talent, and Improved Dark Healing talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dark Healing talent",
+            "requirement": "Dark Healing",
+            "type": "TALENT"
+          },
+          {
+            "text": "Improved Dark Healing talent",
+            "requirement": "Improved Dark Healing",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Dark Healing talent, and Improved Dark Healing talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vwmUQUdgYC5aKyTL",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

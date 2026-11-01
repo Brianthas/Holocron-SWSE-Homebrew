@@ -1,0 +1,31 @@
+{
+  "_id": "Lmf78lzCTxGBMcLq",
+  "_key": "!items!Lmf78lzCTxGBMcLq",
+  "name": "Hive Mind",
+  "type": "talent",
+  "system": {
+    "description": "You can use the Telepathy application of the Use the Force skill as a Swift Action, and you automatically succeed (no roll required) if your target is a willing recipient on the same planet.",
+    "tree": "Felucian Shaman",
+    "prerequisite": {
+      "text": "a member of The Felucian Shamans",
+      "nodes": {
+        "text": "a member of The Felucian Shamans",
+        "requirement": "The Felucian Shamans",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VsclWc6B8Xo9Bd9F",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

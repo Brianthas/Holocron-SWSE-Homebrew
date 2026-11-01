@@ -1,0 +1,55 @@
+{
+  "_id": "aO1P4xFNNMTz0dZA",
+  "_key": "!items!aO1P4xFNNMTz0dZA",
+  "name": "Weapon Specialization (Lightsabers)",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +2 bonus on melee damage rolls with Lightsabers.",
+    "tree": "Lightsaber Combat",
+    "prerequisite": {
+      "text": "Weapon Focus (Lightsabers)",
+      "nodes": {
+        "text": "Weapon Focus (Lightsabers)",
+        "requirement": "Weapon Focus (Lightsabers)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [
+    {
+      "_id": "pPLUSnn2bDES9d60",
+      "_key": "!items.effects!aO1P4xFNNMTz0dZA.pPLUSnn2bDES9d60",
+      "name": "Weapon Specialization (Lightsabers)",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "damage.group.lightsabers",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "n2rdH8HFHIqKnecj",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

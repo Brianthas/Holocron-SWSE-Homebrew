@@ -1,0 +1,31 @@
+{
+  "_id": "wS2ZuUEBsgx9oQOj",
+  "_key": "!items!wS2ZuUEBsgx9oQOj",
+  "name": "Regimen Mastery",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +5 Force bonus on Skill Checks made to perform a Force Regimen.",
+    "tree": "Mystic",
+    "prerequisite": {
+      "text": "Force Regimen Mastery feat",
+      "nodes": {
+        "text": "Force Regimen Mastery feat",
+        "requirement": "Force Regimen Mastery",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kViz7KytLuUgiVA1",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

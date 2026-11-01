@@ -1,0 +1,31 @@
+{
+  "_id": "YOmXQRtQ4H8d3QaK",
+  "_key": "!items!YOmXQRtQ4H8d3QaK",
+  "name": "One for the Team",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction, you can choose to take one-half or all of the damage dealt to an adjacent ally by a single attack. Similarly, as a Reaction, an adjacent ally can choose to take one-half or all of the damage dealt to you by a single attack (even if they don't have this Talent).",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "Deployment Tactics talent",
+      "nodes": {
+        "text": "Deployment Tactics talent",
+        "requirement": "Deployment Tactics",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pEAU1LG5bK4gdNQo",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "fQdZ6FJykb87iCoa",
+  "_key": "!items!fQdZ6FJykb87iCoa",
+  "name": "Traceless Tampering",
+  "type": "talent",
+  "system": {
+    "description": "Spies specialize in leaving no evidence of their presence when they tamper with advanced electronics or basic mechanical systems. When using Mechanics to Disable Device, you automatically leave no trace when tampering (with no DC increase), and you must fail by 10 or more (instead of 5 or more) before something goes wrong.",
+    "tree": "Spy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WZExM0XPmy5SsvZb",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "xwdaKs9A3bC0eFIE",
+  "_key": "!items!xwdaKs9A3bC0eFIE",
+  "name": "Blind Shot",
+  "type": "talent",
+  "system": {
+    "description": "You ignore the penalties on your ranged attack rolls when a target has Concealment or Total Concealment.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TexGKQOhqfiOJbxD",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

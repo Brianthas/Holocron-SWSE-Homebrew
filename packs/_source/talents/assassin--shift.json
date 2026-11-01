@@ -1,0 +1,27 @@
+{
+  "_id": "YIfrdrvR1pj45N5D",
+  "_key": "!items!YIfrdrvR1pj45N5D",
+  "name": "Shift",
+  "type": "talent",
+  "system": {
+    "description": "As a Move Action, you can move 1 square without provoking an Attack of Opportunity.",
+    "tree": "Assassin",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "t5CjTchOURnO0KT5",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

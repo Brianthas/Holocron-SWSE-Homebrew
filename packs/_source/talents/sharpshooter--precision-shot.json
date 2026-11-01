@@ -1,0 +1,31 @@
+{
+  "_id": "JgheEeXhqxZYzj7n",
+  "_key": "!items!JgheEeXhqxZYzj7n",
+  "name": "Precision Shot",
+  "type": "talent",
+  "system": {
+    "description": "When using the Aim Action, you gain the benefit of the Point-Blank Shot feat against your target, regardless of Range category.",
+    "tree": "Sharpshooter",
+    "prerequisite": {
+      "text": "Far Shot feat",
+      "nodes": {
+        "text": "Far Shot feat",
+        "requirement": "Far Shot",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "drVqB7ztLUYYJL21",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

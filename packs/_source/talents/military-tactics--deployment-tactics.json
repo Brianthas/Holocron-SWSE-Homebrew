@@ -1,0 +1,27 @@
+{
+  "_id": "w4iv3pYKS99MSG0m",
+  "_key": "!items!w4iv3pYKS99MSG0m",
+  "name": "Deployment Tactics",
+  "type": "talent",
+  "system": {
+    "description": "You can use your tactical knowledge to direct allies in battle. As a Move Action, you can make a DC 15 Knowledge (Tactics) check. If the check succeeds, you and any allies that can see, hear, and understand you gain a +1 competence bonus on attack rolls against Flanked opponents, or a +1 dodge bonus to Reflex Defense against Attacks of Opportunity (character's choice). The bonus lasts until the start of your next turn. This is a Mind-Affecting effect.<br><br>If you have the <b>Born Leader</b> Talent or the <b>Battle Analysis</b> Talent, the bonus granted by this Talent increases to +2.",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DuEJk0pTvHOdEiJZ",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

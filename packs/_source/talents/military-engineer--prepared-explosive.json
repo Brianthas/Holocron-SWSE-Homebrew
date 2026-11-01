@@ -1,0 +1,27 @@
+{
+  "_id": "a5WCqiaCiS5WY9pv",
+  "_key": "!items!a5WCqiaCiS5WY9pv",
+  "name": "Prepared Explosive",
+  "type": "talent",
+  "system": {
+    "description": "When you use a Mine or other fixed (non-Grenade) Explosive, you can choose to have the Burst radius of the Explosive become Difficult Terrain after the Explosive has detonated. Alternatively, if you plant a Mine or fixed Explosive in an area of Difficult Terrain, you can have the Explosive deal no damage and instead turn the Difficult Terrain into normal terrain.",
+    "tree": "Military Engineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ps8RpYIdiyD2450L",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

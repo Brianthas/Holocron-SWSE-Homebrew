@@ -1,0 +1,27 @@
+{
+  "_id": "I8iYEJVfTGFclHBd",
+  "_key": "!items!I8iYEJVfTGFclHBd",
+  "name": "Guardian Strike",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use a Lightsaber to deal damage to a target, that target takes a -2 penalty on attack rolls against any target other than you until the beginning of your next turn.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yFD8Ziyv29vfQwiO",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

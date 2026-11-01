@@ -1,0 +1,31 @@
+{
+  "_id": "SuZTHM39ZDiKbW6u",
+  "_key": "!items!SuZTHM39ZDiKbW6u",
+  "name": "Greater Dark Side Talisman",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point to imbue a Weapon or some other portable object with the Dark Side of The Force, creating a Talisman that grants you protection from the Light Side. Creating the <b>Greater Dark Side Talisman</b> takes a Full-Round Action.<br><br>While you wear or carry the Talisman, you gain a +2 Force bonus to all of your Defenses against Force Powers with the [<i>Light Side</i>] descriptor.<br><br>You can only have one Greater <b>Dark Side Talisman</b>, or <b>Dark Side Talisman</b>, active at a given time (though you can have both a <b>Greater Dark Side Talisman</b> and a <b>Greater Force Talisman</b> active at the same time), and if your <b>Greater Dark Side Talisman</b> is destroyed, you cannot create another one for 24 hours.",
+    "tree": "Dark Side Devotee",
+    "prerequisite": {
+      "text": "Dark Side Talisman talent",
+      "nodes": {
+        "text": "Dark Side Talisman talent",
+        "requirement": "Dark Side Talisman",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OOQurxhTHDtw9zSt",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

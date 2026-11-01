@@ -1,0 +1,27 @@
+{
+  "_id": "dSdhKNqrOIQDfSKz",
+  "_key": "!items!dSdhKNqrOIQDfSKz",
+  "name": "Attract Privateer",
+  "type": "talent",
+  "system": {
+    "description": "You attract a loyal Privateer Lieutenant. The Lieutenant is a Nonheroic character who has a Class Level equal to three-quarters of your Character Level, rounded down.<br><br>You can select this Talent multiple times. Each time you do so, you gain another Privateer. Each Privateer who accompanies you on an adventure is entitled to an equal share of the total Experience Points earned for the adventure. For example, a Privateer who accompanies a party of five heroes on an adventure receives one-sixth of the XP that the group earns.",
+    "tree": "Privateer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oV9hPodbFGF2yJmV",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

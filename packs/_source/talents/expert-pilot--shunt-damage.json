@@ -1,0 +1,27 @@
+{
+  "_id": "VQcu1a3OOCD9pfOc",
+  "_key": "!items!VQcu1a3OOCD9pfOc",
+  "name": "Shunt Damage",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, if your Vehicle takes damage, make a Pilot check and compare the result to the Reflex Defense of one adjacent allied Vehicle. If your check result is higher, the allied Vehicle takes the damage instead.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AutYItJdk3P2KL7M",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

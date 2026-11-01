@@ -1,0 +1,27 @@
+{
+  "_id": "lvrVehs4LDsHDAdj",
+  "_key": "!items!lvrVehs4LDsHDAdj",
+  "name": "Seize the Moment",
+  "type": "talent",
+  "system": {
+    "description": "Once per round, whenever an ally successfully damages an opponent, you can take a Swift Action as a Reaction.",
+    "tree": "Outlaw",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YJqKBmwrjTUJGzeD",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "CADDUaBcX47UC2Kj",
+  "_key": "!items!CADDUaBcX47UC2Kj",
+  "name": "Distress to Discord",
+  "type": "talent",
+  "system": {
+    "description": "You encourage your allies to sow discord among your enemies by fighting with renewed vigor. Whenever an ally within your line of sight takes its Second Wind, all enemies within 2 squares of that ally lose their Dexterity bonuses to their Reflex Defense until the end of your next turn.",
+    "tree": "Provocateur",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3yrkeL6M1hxNii2O",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

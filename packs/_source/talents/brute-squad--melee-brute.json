@@ -1,0 +1,27 @@
+{
+  "_id": "hL8mqVw8NLGTayHT",
+  "_key": "!items!hL8mqVw8NLGTayHT",
+  "name": "Melee Brute",
+  "type": "talent",
+  "system": {
+    "description": "When you make a melee attack against a target that has one or more of your allies adjacent to it, compare the result to the target's Fortitude Defense as well as its Reflex Defense. If the attack hits both Defenses, the target's Speed is reduced by 2 squares and it takes a -2 penalty to its Reflex Defense until the end of your next turn.",
+    "tree": "Brute Squad",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0fcjnbOks3vIeht6",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

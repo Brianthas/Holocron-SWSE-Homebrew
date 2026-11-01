@@ -1,0 +1,31 @@
+{
+  "_id": "Fq5nXoFn9uMi8dbd",
+  "_key": "!items!Fq5nXoFn9uMi8dbd",
+  "name": "Second Strike",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter when you miss a target with a single melee or ranged attack, as a Free Action you can move up to half your speed and make a second attack of the same type against a different target. This movement doesn't provoke Attacks of Opportunity.<br><br>If you have the Combat Reflexes feat, you may use this Talent a number of times per encounter equal to your Dexterity bonus (minimum 1). You may still only use this Talent once per round.",
+    "tree": "Unpredictable",
+    "prerequisite": {
+      "text": "Blast Back talent",
+      "nodes": {
+        "text": "Blast Back talent",
+        "requirement": "Blast Back",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "G17ouhc87c9YJ7Bv",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

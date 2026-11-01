@@ -1,0 +1,31 @@
+{
+  "_id": "mH5JGzkfYiDxj2RR",
+  "_key": "!items!mH5JGzkfYiDxj2RR",
+  "name": "Dogfight Gunner",
+  "type": "talent",
+  "system": {
+    "description": "While your Vehicle is engaged in a Dogfight, you take no penalty on your attack rolls with Vehicle Weapons, even if you are not the Pilot.",
+    "tree": "Gunner",
+    "prerequisite": {
+      "text": "Expert Gunner talent",
+      "nodes": {
+        "text": "Expert Gunner talent",
+        "requirement": "Expert Gunner",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QCUZZw6M5ifasblk",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

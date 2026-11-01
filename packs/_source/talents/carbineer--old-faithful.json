@@ -1,0 +1,27 @@
+{
+  "_id": "bu0Ln35UAKPlZyw8",
+  "_key": "!items!bu0Ln35UAKPlZyw8",
+  "name": "Old Faithful",
+  "type": "talent",
+  "system": {
+    "description": "The Trusty Sidearm Class Feature of the Gunslinger Prestige Class also applies to any Rifle or Carbine that you use.",
+    "tree": "Carbineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CGftp45NjWNDgj4P",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

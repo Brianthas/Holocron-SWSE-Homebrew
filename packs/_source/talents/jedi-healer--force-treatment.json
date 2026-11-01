@@ -1,0 +1,27 @@
+{
+  "_id": "rlJiYKba6nECLrv8",
+  "_key": "!items!rlJiYKba6nECLrv8",
+  "name": "Force Treatment",
+  "type": "talent",
+  "system": {
+    "description": "You can make a Use the Force check in place of a Treat Injury check. You are considered Trained in the Treat Injury Skill for purposes of using this Talent. If you are entitled to a&nbsp;Treat Injury check reroll, you can reroll your&nbsp;Use the Force&nbsp;check instead (subject to the same circumstances and limitations).",
+    "tree": "Jedi Healer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fqq4YTpXd3m6tqYB",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

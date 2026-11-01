@@ -1,0 +1,27 @@
+{
+  "_id": "i1Se9lfEA305s1SJ",
+  "_key": "!items!i1Se9lfEA305s1SJ",
+  "name": "Jedi Ready",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Swift Action when you are Fighting Defensively to gain a +2 competence bonus on Attacks of Opportunity as well as Use the Force checks made to activate the <b>Block</b> and <b>Deflect</b> Talents.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fhKMclFrWbBXDxZ2",
+      "sourceBook": "Dark Forces Campaign Guide"
+    }
+  }
+}

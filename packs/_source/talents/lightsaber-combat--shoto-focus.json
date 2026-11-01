@@ -1,0 +1,27 @@
+{
+  "_id": "b4hCn5lLV4wM5SC1",
+  "_key": "!items!b4hCn5lLV4wM5SC1",
+  "name": "Shoto Focus",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you wield both a one-handed Lightsaber and a Short Lightsaber (or Guard Shoto), you gain a +2 competence bonus on attack rolls made with the Short Lightsaber (or Guard Shoto).",
+    "tree": "Lightsaber Combat",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HCqQrzN4wI1bml3Y",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

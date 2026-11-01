@@ -1,0 +1,42 @@
+{
+  "_id": "oC36NCNocJ7X1xrT",
+  "_key": "!items!oC36NCNocJ7X1xrT",
+  "name": "Dual Weapon Flourish I",
+  "type": "talent",
+  "system": {
+    "description": "When wielding only two light melee weapons or two Lightsabers, whenever you make a single attack as a Standard Action with one weapon, you can make a single attack with the other weapon as a Free Action against the same target. You apply the normal penalties for fighting with two weapons with this attack.",
+    "tree": "Melee Duelist",
+    "prerequisite": {
+      "text": "Dual Weapon Mastery I feat, and Weapon Finesse feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dual Weapon Mastery I feat",
+            "requirement": "Dual Weapon Mastery I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Finesse feat",
+            "requirement": "Weapon Finesse",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Dual Weapon Mastery I feat, and Weapon Finesse feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HqwJVr6MJcUgbSf5",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

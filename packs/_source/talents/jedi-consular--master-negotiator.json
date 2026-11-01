@@ -1,0 +1,31 @@
+{
+  "_id": "R7XHfFOeKoieqjPO",
+  "_key": "!items!R7XHfFOeKoieqjPO",
+  "name": "Master Negotiator",
+  "type": "talent",
+  "system": {
+    "description": "If you successfully use the <b>Adept Negotiator</b> Talent, your target moves an additional -1 step along the Condition Track. This is a Mind-Affecting effect. You affect the Condition Track of the specific character (usually the Vehicle's Commander), not a Starship.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "Adept Negotiator talent",
+      "nodes": {
+        "text": "Adept Negotiator talent",
+        "requirement": "Adept Negotiator",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "caMAVaKgPW8NEykA",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

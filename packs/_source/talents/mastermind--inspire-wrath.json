@@ -1,0 +1,42 @@
+{
+  "_id": "XwGJMIeFkQWfpaqU",
+  "_key": "!items!XwGJMIeFkQWfpaqU",
+  "name": "Inspire Wrath",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can designate a target to be the object of your allies' wrath. While your allies have line of sight to you or until you are unconscious or dead, your allies gain a +2 morale bonus on attack rolls against the target and a +2 morale bonus on Skill Checks against that target. You can designate a new target on any round by using another Standard Action. You can only use this Talent against one opponent at a time.",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "Impel Ally I talent, and Impel Ally II talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Impel Ally I talent",
+            "requirement": "Impel Ally I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Impel Ally II talent",
+            "requirement": "Impel Ally II",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Impel Ally I talent, and Impel Ally II talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UArsPkngTiIf3rYH",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

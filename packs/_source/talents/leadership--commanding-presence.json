@@ -1,0 +1,42 @@
+{
+  "_id": "eUFojKbq8rCZOmuU",
+  "_key": "!items!eUFojKbq8rCZOmuU",
+  "name": "Commanding Presence",
+  "type": "talent",
+  "system": {
+    "description": "You excel at leading others into battle, issuing quick commands, demonstrating a gift for strategy, decimating your enemies, and impressing your peers. You can use each of the following Actions once per encounter as a Standard Action:",
+    "tree": "Leadership",
+    "prerequisite": {
+      "text": "Born Leader talent, and Tactical Savvy talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Born Leader talent",
+            "requirement": "Born Leader",
+            "type": "TALENT"
+          },
+          {
+            "text": "Tactical Savvy talent",
+            "requirement": "Tactical Savvy",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Born Leader talent, and Tactical Savvy talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1py3JWLbKPqOHCy2",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

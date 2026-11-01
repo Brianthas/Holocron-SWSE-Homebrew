@@ -1,0 +1,31 @@
+{
+  "_id": "tUcp9obqevTmY3un",
+  "_key": "!items!tUcp9obqevTmY3un",
+  "name": "Unsettling Presence",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point as a Standard Action to create an aura of unsettling discomfort around you. You make a Use the Force check when you activate this Talent and compare the check result to the Will Defense of any creature that comes within 6 squares of you.<br><br>If your Use the Force check result equals or exceeds the creature's Will Defense, that target takes a -2 penalty on attack rolls and Skill Checks while within 6 squares of you. This aura lasts for the remainder of the encounter.",
+    "tree": "Imperial Inquisitor",
+    "prerequisite": {
+      "text": "a member of The Inquisitorius",
+      "nodes": {
+        "text": "a member of The Inquisitorius",
+        "requirement": "The Inquisitorius",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ggXKXgBu3g4t2UJ2",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

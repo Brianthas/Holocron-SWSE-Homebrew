@@ -1,0 +1,31 @@
+{
+  "_id": "Y1MevCKqxDt4mCBM",
+  "_key": "!items!Y1MevCKqxDt4mCBM",
+  "name": "Cortosis Retaliation",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you successfully use a Cortosis Gauntlet to parry an attack made with a Lightsaber, you may make an immediate Attack of Opportunity against the attacker.",
+    "tree": "Knight's Armor",
+    "prerequisite": {
+      "text": "Cortosis Defense talent",
+      "nodes": {
+        "text": "Cortosis Defense talent",
+        "requirement": "Cortosis Defense",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yRVK8uYDrw4OWB2F",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

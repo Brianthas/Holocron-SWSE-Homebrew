@@ -1,0 +1,31 @@
+{
+  "_id": "sHiISNbPeQWzVVd4",
+  "_key": "!items!sHiISNbPeQWzVVd4",
+  "name": "Unclouded Judgement",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are the target of a Mind-Affecting Force Power or Force Talent, you can spend a Force Point as a Reaction to negate the effects of that Force Power or Force Talent (no Skill Check required).",
+    "tree": "Jedi Investigator",
+    "prerequisite": {
+      "text": "Sense Deception talent",
+      "nodes": {
+        "text": "Sense Deception talent",
+        "requirement": "Sense Deception",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BfHFA5CvtpuC7rkq",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

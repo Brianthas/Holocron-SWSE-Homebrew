@@ -1,0 +1,27 @@
+{
+  "_id": "a5Vs1l3ektzf0Ar7",
+  "_key": "!items!a5Vs1l3ektzf0Ar7",
+  "name": "Melee Opportunist",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, when an ally makes a successful melee attack against a target adjacent to you, you can make a melee attack against that target as a Reaction, with a +2 bonus on the attack roll.",
+    "tree": "Brute Squad",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cZheeiVDVv2AzLpF",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

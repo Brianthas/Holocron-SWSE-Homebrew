@@ -58,6 +58,15 @@
   with their powers (episode-vii, Force Power Changes); 18 feats tagged Homebrew Content or credited
   to a fan creator are left out (rulings.md, Content), as are fan sections the wiki appended to
   official pages. Not yet built into compendium packs.
+- 1285 talents converted, each with its tree (the fork's tree folder, without "Talent Tree"). A name
+  the wiki repeats across trees ("Charm Beast (Beastwarden Talent Tree)") is the plain name in each
+  tree. 113 talents tagged Homebrew Content are left out, which removes 22 whole trees; the banned
+  trees stay. Talents carry their mechanics as effects where the text states a number: Force of
+  Will (+2 insight to Will), Weapon Specialization and Greater Weapon Specialization with
+  lightsabers (+2 damage each), Greater Weapon Focus with lightsabers (+1 attack), Tough as Nails
+  (one more Second Wind), Cargo Hauler (+5 Athletics, double carrying), and from the house rules
+  Murderous Arts (+1 damage die; the Mark half is not applied). Move Object's description now
+  carries the house damage rule the fork kept only in a summary field.
 - Feats carry their mechanics as effects: Improved Defenses, Toughness (5 hit points once, 1 per
   level, +1 healing received), Martial Arts I to III (one unarmed die each, no dodge bonus), Improved
   Damage Threshold, Extra Second Wind, Extended Capacity, and from the house rules Force

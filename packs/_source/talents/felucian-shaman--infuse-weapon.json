@@ -1,0 +1,31 @@
+{
+  "_id": "wuA4V3IB1KqaFFjg",
+  "_key": "!items!wuA4V3IB1KqaFFjg",
+  "name": "Infuse Weapon",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point to infuse an unpowered melee weapon (one that does not require an Energy Cell) with the strength of The Force, making it resistant to the attacks of other Weapons. Infusing the weapon takes a Full-Round Action.<br><br>From that point forward, when you wield the weapon, its Damage Reduction is doubled, and Lightsabers do not ignore the weapon's Damage Reduction. When you spend a Force Point to modify the attack roll of an <b>Infused Weapon</b>, you also add 2 x the Force Point's result to the damage roll if the attack succeeds.",
+    "tree": "Felucian Shaman",
+    "prerequisite": {
+      "text": "a member of The Felucian Shamans",
+      "nodes": {
+        "text": "a member of The Felucian Shamans",
+        "requirement": "The Felucian Shamans",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vPmiNySGsOMaexil",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

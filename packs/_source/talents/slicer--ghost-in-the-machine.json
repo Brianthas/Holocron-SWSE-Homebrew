@@ -1,0 +1,27 @@
+{
+  "_id": "ksSm5dE9JSfhVsoI",
+  "_key": "!items!ksSm5dE9JSfhVsoI",
+  "name": "Ghost in the Machine",
+  "type": "talent",
+  "system": {
+    "description": "When making a Use Computer check to Access Information, Disable or Erase Program, Improve Access, or Issue Routine Command, you may make a DC 25 Use Computer check before making the command. If successful, the effects of Cover Tracks are automatically applied regardless of the actual check DC.",
+    "tree": "Slicer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SN1WneV7zLRWrTkm",
+      "sourceBook": "New Republic Campaign Guide"
+    }
+  }
+}

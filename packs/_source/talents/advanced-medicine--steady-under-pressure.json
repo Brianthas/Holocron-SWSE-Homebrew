@@ -1,0 +1,27 @@
+{
+  "_id": "j9Rv9syabycsnoxM",
+  "_key": "!items!j9Rv9syabycsnoxM",
+  "name": "Steady Under Pressure",
+  "type": "talent",
+  "system": {
+    "description": "You can choose to reroll any Treat Injury check, keeping the better of the two results.",
+    "tree": "Advanced Medicine",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0jmMlPeAyg5jh1lW",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

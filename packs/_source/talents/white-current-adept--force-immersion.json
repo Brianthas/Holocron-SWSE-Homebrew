@@ -1,0 +1,31 @@
+{
+  "_id": "R8vzatTleOgLIvli",
+  "_key": "!items!R8vzatTleOgLIvli",
+  "name": "Force Immersion",
+  "type": "talent",
+  "system": {
+    "description": "You can use the Sneak application of the Stealth skill to hide from electronic surveillance and sensors. Any opponent attempting to detect you with sensors or electronic surveillance must beat your Stealth check with a Use Computer check.<br><br>You need only roll a single Stealth check to avoid both electronic notice and notice by conventional means, using the same result as the DC for both Perception checks and Use Computer checks made to detect you.",
+    "tree": "White Current Adept",
+    "prerequisite": {
+      "text": "a member of The Fallanassi",
+      "nodes": {
+        "text": "a member of The Fallanassi",
+        "requirement": "The Fallanassi",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AXINSa6Thv1JIlCj",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

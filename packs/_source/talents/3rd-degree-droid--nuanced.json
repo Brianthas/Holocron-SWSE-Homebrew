@@ -1,0 +1,27 @@
+{
+  "_id": "ZiaSanq25z6fRRcx",
+  "_key": "!items!ZiaSanq25z6fRRcx",
+  "name": "Nuanced",
+  "type": "talent",
+  "system": {
+    "description": "You are skilled in the nuances of diplomatic speech and gestures. Once per encounter, you can add your Wisdom bonus to a Persuasion check in addition to your Charisma bonus.",
+    "tree": "3rd-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CtWvAfhJ6oRDGZJ5",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

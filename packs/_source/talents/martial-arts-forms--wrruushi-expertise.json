@@ -1,0 +1,27 @@
+{
+  "_id": "hrxJB0Kmaseyjtrd",
+  "_key": "!items!hrxJB0Kmaseyjtrd",
+  "name": "Wrruushi Expertise",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn, when you damage a creature or Droid with an Unarmed attack, you can make an attack against the target's Fortitude Defense as a Free Action. If that attack is successful, the target can only take a single Swift Action on their next turn. You can use this Talent only while wearing Light Armor or no Armor.",
+    "tree": "Martial Arts Forms",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yhsTwoVgi1yGErm1",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

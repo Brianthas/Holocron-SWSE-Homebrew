@@ -1,0 +1,31 @@
+{
+  "_id": "ReCVa6U8f70J38eV",
+  "_key": "!items!ReCVa6U8f70J38eV",
+  "name": "Advantageous Positioning",
+  "type": "talent",
+  "system": {
+    "description": "Any opponent that you are Flanking is considered Flat-Footed and is denied its Dexterity bonus to its Reflex Defense against you.",
+    "tree": "Assassin",
+    "prerequisite": {
+      "text": "Shift talent",
+      "nodes": {
+        "text": "Shift talent",
+        "requirement": "Shift",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ShkdA6mrb6rv98JN",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

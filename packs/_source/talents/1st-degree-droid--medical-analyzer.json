@@ -1,0 +1,42 @@
+{
+  "_id": "viYBE6Z9kiFGS3kU",
+  "_key": "!items!viYBE6Z9kiFGS3kU",
+  "name": "Medical Analyzer",
+  "type": "talent",
+  "system": {
+    "description": "You use your medical knowledge and advanced Droid processor to improve your treatment of medical conditions. When making a Treat Injury check to Treat Disease, Treat Poison, or Treat Radiation, you can also add your Intelligence modifier to your roll.",
+    "tree": "1st-Degree Droid",
+    "prerequisite": {
+      "text": "Medical Droid species, and Trained in Knowledge (Life Sciences)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Medical Droid species",
+            "requirement": "Medical Droid",
+            "type": "SPECIES"
+          },
+          {
+            "text": "Trained in Knowledge (Sciences)",
+            "requirement": "Knowledge (Sciences)",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Medical Droid species, and Trained in Knowledge (Life Sciences)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sGdMnNoYphebWez8",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

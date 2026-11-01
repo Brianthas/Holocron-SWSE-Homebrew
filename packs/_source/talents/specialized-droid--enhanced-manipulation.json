@@ -1,0 +1,31 @@
+{
+  "_id": "xBHW6iZ78J2gebTV",
+  "_key": "!items!xBHW6iZ78J2gebTV",
+  "name": "Enhanced Manipulation",
+  "type": "talent",
+  "system": {
+    "description": "You have improved appendage manipulation routines. You can Take 10 when making any Dexterity-based Skill Check, even if you are threatened or would not normally be able to Take 10.",
+    "tree": "Specialized Droid",
+    "prerequisite": {
+      "text": "Dexterity 15",
+      "nodes": {
+        "text": "Dexterity 15",
+        "requirement": "Dexterity 15",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kgAHnbckd2FSuMiS",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

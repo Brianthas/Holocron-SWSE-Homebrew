@@ -1,0 +1,27 @@
+{
+  "_id": "vfZcaPpuWfJumL6y",
+  "_key": "!items!vfZcaPpuWfJumL6y",
+  "name": "Calming Aura",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you may use The Force to calm Hostile and Unfriendly Beasts. Make a Persuasion check; if the result equals or exceeds the targets' Will Defense, its Attitude immediately shifts to Indifferent. You can affect a number of creatures whose total combined levels do not exceed your Character Level. This is a Mind-Affecting effect.",
+    "tree": "Beastwarden",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Hg4ZEoZ8KiIeIUBe",
+      "sourceBook": "Saga Edition All-Purpose Sourcebook"
+    }
+  }
+}

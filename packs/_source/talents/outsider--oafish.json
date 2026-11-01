@@ -1,0 +1,27 @@
+{
+  "_id": "R8G3MFVdJKyOyzOc",
+  "_key": "!items!R8G3MFVdJKyOyzOc",
+  "name": "Oafish",
+  "type": "talent",
+  "system": {
+    "description": "Whether you come by oafishness naturally or it is all an act, you use your lack of sophistication and finesse as an excuse to bluff your way into or out of delicate situations. Once per encounter, when you fail either a Deception or a Persuasion check, you can add a bonus equal to 1d6 + your Wisdom modifier to your Deception or Persuasion check result.",
+    "tree": "Outsider",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OoZAM50wud2BRc01",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

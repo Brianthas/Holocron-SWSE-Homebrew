@@ -1,0 +1,31 @@
+{
+  "_id": "7qev9onGDjaeNqI5",
+  "_key": "!items!7qev9onGDjaeNqI5",
+  "name": "Share Force Technique",
+  "type": "talent",
+  "system": {
+    "description": "When you take this Talent, choose one Force Technique that you know. Once per turn as a Swift Action, you can grant the use of this Force Technique to one ally within 12 squares of you who is Trained in the Use the Force Skill.<br><br>The target gains the benefit of this Force Technique until the end of your next turn. You cannot choose the Force Point Recovery Technique for this Talent.",
+    "tree": "Jedi Instructor",
+    "prerequisite": {
+      "text": "At least one Force Technique",
+      "nodes": {
+        "text": "At least one Force Technique",
+        "requirement": "1",
+        "type": "FORCE TECHNIQUE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dvqmNz3QN8p8A7Qk",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

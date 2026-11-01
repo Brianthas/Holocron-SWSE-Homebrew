@@ -1,0 +1,27 @@
+{
+  "_id": "H8fACGTAbNLVmV5E",
+  "_key": "!items!H8fACGTAbNLVmV5E",
+  "name": "Breach Cover",
+  "type": "talent",
+  "system": {
+    "description": "When you fire or throw a Weapon with a Burst or Splash radius at a target with Cover, you ignore that Cover.",
+    "tree": "Military Engineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Js4KB4wd8MkH0zTU",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

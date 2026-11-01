@@ -1,0 +1,31 @@
+{
+  "_id": "BmqsEIUgIQLv7oM8",
+  "_key": "!items!BmqsEIUgIQLv7oM8",
+  "name": "Stunning Shockboxer",
+  "type": "talent",
+  "system": {
+    "description": "When you deal Stun damage to a target with an Unarmed attack, after the Stun is halved, roll one extra die of damage and add that to the damage subtracted from the target's Hit Points.",
+    "tree": "Shockboxer",
+    "prerequisite": {
+      "text": "Stinging Jab talent",
+      "nodes": {
+        "text": "Stinging Jab talent",
+        "requirement": "Stinging Jab",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bzVpzyHNRiizOsCE",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

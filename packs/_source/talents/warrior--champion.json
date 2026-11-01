@@ -1,0 +1,42 @@
+{
+  "_id": "OEuy3hp4bihze9Be",
+  "_key": "!items!OEuy3hp4bihze9Be",
+  "name": "Champion",
+  "type": "talent",
+  "system": {
+    "description": "You fight for protection, honor, or glory for yourself and others. You can use each of the following Actions once per encounter:",
+    "tree": "Warrior",
+    "prerequisite": {
+      "text": "Warrior's Awareness talent, and Warrior's Determination talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Warrior's Awareness talent",
+            "requirement": "Warrior's Awareness",
+            "type": "TALENT"
+          },
+          {
+            "text": "Warrior's Determination talent",
+            "requirement": "Warrior's Determination",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Warrior's Awareness talent, and Warrior's Determination talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cZoQiE95R4JbBzur",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

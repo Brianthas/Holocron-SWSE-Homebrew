@@ -1,0 +1,42 @@
+{
+  "_id": "fzwv6VXCrfn9Irqm",
+  "_key": "!items!fzwv6VXCrfn9Irqm",
+  "name": "Improved Weaken Resolve",
+  "type": "talent",
+  "system": {
+    "description": "As <b>Weaken Resolve</b>, except that the target doesn't stop fleeing from you if it is wounded.",
+    "tree": "Influence",
+    "prerequisite": {
+      "text": "Presence talent, and Weaken Resolve talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Presence talent",
+            "requirement": "Presence",
+            "type": "TALENT"
+          },
+          {
+            "text": "Weaken Resolve talent",
+            "requirement": "Weaken Resolve",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Presence talent, and Weaken Resolve talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tZ2VDoSARS3TLBWz",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

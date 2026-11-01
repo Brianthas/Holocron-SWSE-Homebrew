@@ -1,0 +1,31 @@
+{
+  "_id": "dhFNcJgdVY1comCM",
+  "_key": "!items!dhFNcJgdVY1comCM",
+  "name": "Tech Savant",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can increase the speed of one adjacent Droid or Vehicle that you occupy by 1 square (applied to any method of Locomotion) until the end of your next turn. Any Droid or Vehicle can only benefit from this Talent once per round.",
+    "tree": "Military Engineer",
+    "prerequisite": {
+      "text": "Trained in Knowledge (Technology)",
+      "nodes": {
+        "text": "Trained in Knowledge (Technology)",
+        "requirement": "Knowledge (Technology)",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pkEzxN8yvWvcFwB5",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "woqcYB0E2wwbajK8",
+  "_key": "!items!woqcYB0E2wwbajK8",
+  "name": "Call Out",
+  "type": "talent",
+  "system": {
+    "description": "When you use the <b>Personal Vendetta</b> Talent, you may designate one target of that Talent to take a -5 penalty to attacks against targets other than you, instead of the normal -2 penalty.",
+    "tree": "Gladiatorial Combat",
+    "prerequisite": {
+      "text": "Personal Vendetta talent",
+      "nodes": {
+        "text": "Personal Vendetta talent",
+        "requirement": "Personal Vendetta",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZFcwBmv0MVYFmYAn",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

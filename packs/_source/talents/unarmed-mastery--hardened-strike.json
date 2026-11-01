@@ -1,0 +1,27 @@
+{
+  "_id": "UrcXkFciwYtatxs3",
+  "_key": "!items!UrcXkFciwYtatxs3",
+  "name": "Hardened Strike",
+  "type": "talent",
+  "system": {
+    "description": "If you deal damage with an Unarmed attack to a creature or Droid that has Damage Reduction, you reduce the value of that Damage Reduction by 1 until the end of the encounter. Cumulative attacks against the same target do not stack.",
+    "tree": "Unarmed Mastery",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CMYBfWjEbPpguwWG",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

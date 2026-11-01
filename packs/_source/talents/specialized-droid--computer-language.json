@@ -1,0 +1,31 @@
+{
+  "_id": "aqnTrxhkWHIDzyts",
+  "_key": "!items!aqnTrxhkWHIDzyts",
+  "name": "Computer Language",
+  "type": "talent",
+  "system": {
+    "description": "You can use your Persuasion modifier instead of your Use Computer modifier when making Use Computer checks. You are considered Trained in the Use Computer skill for the purpose of using this Talent. If you are entitled to a Use Computer check reroll, you can reroll your Persuasion check instead (subject to the same circumstances and limitations).",
+    "tree": "Specialized Droid",
+    "prerequisite": {
+      "text": "Must have Binary as a learned language",
+      "nodes": {
+        "text": "Must have Binary as a learned language",
+        "requirement": "Binary",
+        "type": "LANGUAGE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "C2SGiswhcIF99X4l",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

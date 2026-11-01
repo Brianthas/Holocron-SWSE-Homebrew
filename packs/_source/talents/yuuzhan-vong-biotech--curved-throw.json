@@ -1,0 +1,31 @@
+{
+  "_id": "1ucwENUP4z9NfWMn",
+  "_key": "!items!1ucwENUP4z9NfWMn",
+  "name": "Curved Throw",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Swift Action to ignore Cover (But not Total Cover) with your next attack with a Thud Bug or a Razor Bug made before the end of your turn.",
+    "tree": "Yuuzhan Vong Biotech",
+    "prerequisite": {
+      "text": "Bugbite talent",
+      "nodes": {
+        "text": "Bugbite talent",
+        "requirement": "Bugbite",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NXDExPbuhvKgCjTj",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "ImUG2vRd4nJtKri7",
+  "_key": "!items!ImUG2vRd4nJtKri7",
+  "name": "Multiattack Proficiency (Advanced Melee)",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you make multiple attacks with any type of&nbsp;Advanced Melee Weapon&nbsp;as a&nbsp;Full-Round Action&nbsp;(see&nbsp;Full Attack), you reduce the penalty on your attack rolls by 2.<br><br>You can take this Talent multiple times; each time you take this Talent, you reduce the penalty on your attack rolls by an additional 2.",
+    "tree": "Privateer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SgtBYxUaqpB1oEdm",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "8fGSaxY8iKDgcdqo",
+  "_key": "!items!8fGSaxY8iKDgcdqo",
+  "name": "Keen Shot",
+  "type": "talent",
+  "system": {
+    "description": "You take no penalty on your attack roll when attacking a target with Concealment (but not Total Concealment).",
+    "tree": "Awareness",
+    "prerequisite": {
+      "text": "Acute Senses talent",
+      "nodes": {
+        "text": "Acute Senses talent",
+        "requirement": "Acute Senses",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lPlng9iwlBkqYyOZ",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

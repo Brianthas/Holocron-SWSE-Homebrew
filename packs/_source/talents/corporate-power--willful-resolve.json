@@ -1,0 +1,27 @@
+{
+  "_id": "LNZbe3MaFktaSscw",
+  "_key": "!items!LNZbe3MaFktaSscw",
+  "name": "Willful Resolve",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can negate the effects of a single attack roll or Skill Check made against you that targets your Will Defense.",
+    "tree": "Corporate Power",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9KHCrCISSjjWsf1L",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

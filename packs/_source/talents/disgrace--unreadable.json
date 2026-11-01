@@ -1,0 +1,27 @@
+{
+  "_id": "JwaM5EcUDWBpDA5U",
+  "_key": "!items!JwaM5EcUDWBpDA5U",
+  "name": "Unreadable",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +5 bonus to your Will Defense against Skill Checks made to read your emotions and influence your Attitude. In addition, whenever you successfully Feint a target in combat, that target is Flat-Footed against all your attacks until the end of your next turn.",
+    "tree": "Disgrace",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fNYyOEJV4WPc0aJ4",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

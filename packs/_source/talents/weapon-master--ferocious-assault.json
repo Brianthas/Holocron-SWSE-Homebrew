@@ -1,0 +1,42 @@
+{
+  "_id": "gLQ4fKfnqRslER6V",
+  "_key": "!items!gLQ4fKfnqRslER6V",
+  "name": "Ferocious Assault",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, when making an Autofire attack, you can treat the attack as a 6-Square Cone. Making this attack consumes 20 shots from the weapon's Power Pack.",
+    "tree": "Weapon Master",
+    "prerequisite": {
+      "text": "Controlled Burst talent, and Base Attack Bonus 12",
+      "nodes": {
+        "children": [
+          {
+            "text": "Controlled Burst talent",
+            "requirement": "Controlled Burst",
+            "type": "TALENT"
+          },
+          {
+            "text": "Base Attack Bonus 12",
+            "requirement": "12",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Controlled Burst talent, and Base Attack Bonus 12",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GHyGOAxAcGPdYGnd",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "pKa8OSfaX4aHF8uF",
+  "_key": "!items!pKa8OSfaX4aHF8uF",
+  "name": "Imbue Item",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point to imbue a specifically crafted weapon, armor, or article of clothing with the power of The Force. Imbuing the item requires a Full-Round Action. As a Full-Round Action, the wearer of such an item can open themselves to The Force, transferring one of their Force Points into the item. You can then use a Swift Action to spend a stored Force Point at any later time, even in the same round that you spend a Force Point of your own.<br><br>You can attune only one item per 24 hours, the item functions only for you, and a given item can only store one Force Point at a time. You cannot wear more than one attuned item at a time, and you can spend only up to a maximum of two Force Points in a round (one of your own, plus one from an imbued item).",
+    "tree": "Jal Shey",
+    "prerequisite": {
+      "text": "a member of The Jal Shey",
+      "nodes": {
+        "text": "a member of The Jal Shey",
+        "requirement": "The Jal Shey",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "noyzPUzLI4tlRqF1",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

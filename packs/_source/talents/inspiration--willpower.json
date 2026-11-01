@@ -1,0 +1,31 @@
+{
+  "_id": "PRo9pTyRL4sv959E",
+  "_key": "!items!PRo9pTyRL4sv959E",
+  "name": "Willpower",
+  "type": "talent",
+  "system": {
+    "description": "You can share your strength of will with your allies. Once per encounter as a Swift Action, you can grant all allies within line of sight a +2 morale bonus to their Will Defense. This bonus lasts for the remainder of the encounter, and once it is granted your allies need not remain within line of sight of you to retain this bonus.<br><br>You can not use <b>Willpower</b> on yourself.",
+    "tree": "Inspiration",
+    "prerequisite": {
+      "text": "Inspire Confidence talent",
+      "nodes": {
+        "text": "Inspire Confidence talent",
+        "requirement": "Inspire Confidence",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nDywF0qEfeEWx9gC",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

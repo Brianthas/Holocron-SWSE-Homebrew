@@ -1,0 +1,42 @@
+{
+  "_id": "3bfKe14iDYoJ07p3",
+  "_key": "!items!3bfKe14iDYoJ07p3",
+  "name": "Sniping Master",
+  "type": "talent",
+  "system": {
+    "description": "By taking only a single Swift Action, you can Aim at a target that is not within Point-Blank Range.",
+    "tree": "Assassin",
+    "prerequisite": {
+      "text": "Sniping Assassin talent, and Sniping Marksman talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Sniping Assassin talent",
+            "requirement": "Sniping Assassin",
+            "type": "TALENT"
+          },
+          {
+            "text": "Sniping Marksman talent",
+            "requirement": "Sniping Marksman",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Sniping Assassin talent, and Sniping Marksman talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0gkFV9ctQnXJifFt",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

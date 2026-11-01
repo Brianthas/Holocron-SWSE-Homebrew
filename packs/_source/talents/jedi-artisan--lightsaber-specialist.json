@@ -1,0 +1,31 @@
+{
+  "_id": "8jibEvKxG4YG9H85",
+  "_key": "!items!8jibEvKxG4YG9H85",
+  "name": "Lightsaber Specialist",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are armed with a Lightsaber that you built, you gain a +2 morale bonus on Use the Force checks made to use the <b>Block</b> and <b>Deflect</b> Talents.",
+    "tree": "Jedi Artisan",
+    "prerequisite": {
+      "text": "Masterwork Lightsaber talent",
+      "nodes": {
+        "text": "Masterwork Lightsaber talent",
+        "requirement": "Masterwork Lightsaber",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0uAt3b1Wni0QUQtY",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "Zk2lUwc1L2hbhTaU",
+  "_key": "!items!Zk2lUwc1L2hbhTaU",
+  "name": "Hold Steady",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Standard Action, you move all members of your Squad +1 step on the Condition Track.",
+    "tree": "Squad Leader",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OgRofQv2kux5bml1",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

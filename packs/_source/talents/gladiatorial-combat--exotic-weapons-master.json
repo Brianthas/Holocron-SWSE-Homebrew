@@ -1,0 +1,31 @@
+{
+  "_id": "awshJgwHTGJrzoJA",
+  "_key": "!items!awshJgwHTGJrzoJA",
+  "name": "Exotic Weapons Master",
+  "type": "talent",
+  "system": {
+    "description": "You treat all Exotic Weapons as a single weapon group. If you already have Feats or Talents that grant you proficiency with, or augment the use of, one Exotic Weapon, those Feats now apply to all Exotic Weapons. For example, if you already had Exotic Weapon Proficiency (Shyarn), and Weapon Focus (Shyarn), you are now proficient with, and possess the Weapon Focus Feat for, all Exotic Weapons.",
+    "tree": "Gladiatorial Combat",
+    "prerequisite": {
+      "text": "Exotic Weapon Proficiency (Any)",
+      "nodes": {
+        "text": "Exotic Weapon Proficiency (Any)",
+        "requirement": "Exotic Weapon Proficiency (Any)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wsYjIBERJOHJZ0Ae",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

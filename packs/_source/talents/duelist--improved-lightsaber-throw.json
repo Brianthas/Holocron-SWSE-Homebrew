@@ -1,0 +1,31 @@
+{
+  "_id": "Y4JjblzqaGkIJXfl",
+  "_key": "!items!Y4JjblzqaGkIJXfl",
+  "name": "Improved Lightsaber Throw",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point as a Standard Action to throw your Lightsaber at a group of opponents. You make a single ranged attack roll (treating the Lightsaber as a Thrown Weapon) and compare the result to the Reflex Defense of all targets in a 6-square line originating in your square.<br><br>If your attack roll result exceeds a target's Reflex Defense, you deal normal Lightsaber damage to that target (dealing half damage if you fail to exceed the target's Reflex Defense). This attack is considered an Area Attack.<br><br>You can pull your Lightsaber back to your hand as a Swift Action by making a DC 20 Use the Force check.",
+    "tree": "Duelist",
+    "prerequisite": {
+      "text": "Lightsaber Throw talent",
+      "nodes": {
+        "text": "Lightsaber Throw talent",
+        "requirement": "Lightsaber Throw",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XZ0mG9VFZe7o0xv9",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

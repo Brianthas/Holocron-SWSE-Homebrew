@@ -1,0 +1,27 @@
+{
+  "_id": "lV6cdwtmXxZTbeoZ",
+  "_key": "!items!lV6cdwtmXxZTbeoZ",
+  "name": "Blend In",
+  "type": "talent",
+  "system": {
+    "description": "You know how to blend into a variety of cultures and groups with ease. As a Swift Action, you gain Total Concealment when adjacent to at least two other creatures. This benefit does not apply to attacks from adjacent creatures.",
+    "tree": "Master of Intrigue",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BQYfb7ZsoNvn0iln",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

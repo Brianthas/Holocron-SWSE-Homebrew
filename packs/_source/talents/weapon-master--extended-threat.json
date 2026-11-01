@@ -1,0 +1,31 @@
+{
+  "_id": "8KOIj18RGuGr0IgA",
+  "_key": "!items!8KOIj18RGuGr0IgA",
+  "name": "Extended Threat",
+  "type": "talent",
+  "system": {
+    "description": "When using a ranged weapon eligible to make Attacks of Opportunity, you Threaten all squares within a 2-square radius.",
+    "tree": "Weapon Master",
+    "prerequisite": {
+      "text": "Weapon Focus (#payload#)",
+      "nodes": {
+        "text": "Weapon Focus (#payload#)",
+        "requirement": "Weapon Focus (#payload#)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "B8diZkmotl78Hvfa",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

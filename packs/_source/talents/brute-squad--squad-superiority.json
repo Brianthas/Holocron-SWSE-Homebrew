@@ -1,0 +1,27 @@
+{
+  "_id": "Yl0XrihqY0IO0Lmz",
+  "_key": "!items!Yl0XrihqY0IO0Lmz",
+  "name": "Squad Superiority",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you and at least two allies are adjacent to the same target, that target is considered Flat-Footed against you.",
+    "tree": "Brute Squad",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4oV1SLejiIKPao5s",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

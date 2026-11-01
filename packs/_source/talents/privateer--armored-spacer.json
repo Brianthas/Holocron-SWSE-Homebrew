@@ -1,0 +1,27 @@
+{
+  "_id": "nTqLxSmWh9UcyUHl",
+  "_key": "!items!nTqLxSmWh9UcyUHl",
+  "name": "Armored Spacer",
+  "type": "talent",
+  "system": {
+    "description": "You can use Armored Space Suits as if you had the Armor Proficiency (Heavy) Feat.",
+    "tree": "Privateer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WnJf4k8mJoKQKGeG",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

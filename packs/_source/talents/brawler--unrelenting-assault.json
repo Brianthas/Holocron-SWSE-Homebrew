@@ -1,0 +1,31 @@
+{
+  "_id": "OfvJNqbzrQ37PvXW",
+  "_key": "!items!OfvJNqbzrQ37PvXW",
+  "name": "Unrelenting Assault",
+  "type": "talent",
+  "system": {
+    "description": "You launch yourself at your foe, attacking with weapons, limbs, or anything else available. Whenever you miss with a melee attack or the attack is negated, you still deal your Strength bonus in damage to the target (minimum 1), or 2 x your Strength bonus if you attack with a weapon you are wielding two-handed.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "Melee Smash talent",
+      "nodes": {
+        "text": "Melee Smash talent",
+        "requirement": "Melee Smash",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OfRUBepd2qQDX9uy",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

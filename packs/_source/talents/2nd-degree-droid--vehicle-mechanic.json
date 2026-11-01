@@ -1,0 +1,27 @@
+{
+  "_id": "wLWt9tugpbqasS01",
+  "_key": "!items!wLWt9tugpbqasS01",
+  "name": "Vehicle Mechanic",
+  "type": "talent",
+  "system": {
+    "description": "Once per day you can spend three Swift Actions in successive rounds to make a DC 20 Mechanics check to restore 1d8 Hit Points to a Vehicle and move it +1 step along the Condition Track. You also restore 1 Hit Point to the Vehicle for every point by which you exceed the Mechanics DC.",
+    "tree": "2nd-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5WOSe7Uzb0oB7toi",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

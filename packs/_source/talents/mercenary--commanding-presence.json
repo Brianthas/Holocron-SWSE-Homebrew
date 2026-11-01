@@ -1,0 +1,27 @@
+{
+  "_id": "LbrIPQM4ALMLuymU",
+  "_key": "!items!LbrIPQM4ALMLuymU",
+  "name": "Commanding Presence",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can activate this Talent as a Swift Action. Until the end of the encounter, all your opponents within 6 squares of you take a -2 penalty to their Will Defense. This is a Mind-Affecting Fear effect.<br><br>Additionally, Persuasion is now considered a Class Skill for you.",
+    "tree": "Mercenary",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "apB9yohdomuogIGL",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

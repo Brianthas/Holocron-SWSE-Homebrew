@@ -1,0 +1,42 @@
+{
+  "_id": "8MIRYcj7QNxmA6Ib",
+  "_key": "!items!8MIRYcj7QNxmA6Ib",
+  "name": "Beloved",
+  "type": "talent",
+  "system": {
+    "description": "Your allies hold you in such esteem that when you are threatened or injured, you can impel them to action. You can use each of the following actions once per encounter:",
+    "tree": "Inspiration",
+    "prerequisite": {
+      "text": "Bolster Ally talent, and Inspire Confidence talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Bolster Ally talent",
+            "requirement": "Bolster Ally",
+            "type": "TALENT"
+          },
+          {
+            "text": "Inspire Confidence talent",
+            "requirement": "Inspire Confidence",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Bolster Ally talent, and Inspire Confidence talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ImryiLuxriK7Dm2g",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

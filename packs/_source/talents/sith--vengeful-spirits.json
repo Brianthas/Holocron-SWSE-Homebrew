@@ -1,0 +1,42 @@
+{
+  "_id": "dgc9ltFpluGGn2jv",
+  "_key": "!items!dgc9ltFpluGGn2jv",
+  "name": "Vengeful Spirits",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can spend a Force Point as a Standard Action to call upon the vengeful spirits of the ancient Sith. Doing so grants you 3 Followers with the Vengeful Spirit Template. These Followers appear in any unoccupied square adjacent to you, and last until the end of the encounter (at which point they vanish).",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "Dark Side Adept talent, and Dark Side Master talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dark Side Adept talent",
+            "requirement": "Dark Side Adept",
+            "type": "TALENT"
+          },
+          {
+            "text": "Dark Side Master talent",
+            "requirement": "Dark Side Master",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Dark Side Adept talent, and Dark Side Master talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xi90hMOE5iyhSrk1",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

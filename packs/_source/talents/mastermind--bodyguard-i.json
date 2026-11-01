@@ -1,0 +1,31 @@
+{
+  "_id": "8xLb2dAmPCvEAikq",
+  "_key": "!items!8xLb2dAmPCvEAikq",
+  "name": "Bodyguard I",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are adjacent to a minion gained with the <b>Attract Minion</b> Talent, once per turn as a Reaction to being attacked you can redirect the attack against that minion. Compare the attack roll to the minion's Defenses and resolve the attack as normal.",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "Attract Minion talent",
+      "nodes": {
+        "text": "Attract Minion talent",
+        "requirement": "Attract Minion",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KhXEjt6hupVLVKwL",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

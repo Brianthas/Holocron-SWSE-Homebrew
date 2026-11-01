@@ -1,0 +1,31 @@
+{
+  "_id": "oyahxd5gMbzNjZvh",
+  "_key": "!items!oyahxd5gMbzNjZvh",
+  "name": "Bothan Resources",
+  "type": "talent",
+  "system": {
+    "description": "Your status within the SpyNet gives you access to additional resources, and you know the best sources for Restricted or Rare items. With a successful DC 20 Gather Information check, you can purchase standard weapons, Equipment, and transport services at 50% of the going rate, or Rare and Restricted weapons, Equipment, and transport services at 75% of the going rate.",
+    "tree": "Bothan SpyNet",
+    "prerequisite": {
+      "text": "SpyNet Agent talent",
+      "nodes": {
+        "text": "SpyNet Agent talent",
+        "requirement": "SpyNet Agent",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8dqaeZicBQjYpA0K",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

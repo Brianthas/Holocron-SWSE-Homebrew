@@ -1,0 +1,31 @@
+{
+  "_id": "eag1i6XOfc7kJDpa",
+  "_key": "!items!eag1i6XOfc7kJDpa",
+  "name": "Tyia Adept",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can spend a Force Point to designate one non-Droid ally within 12 squares of you and in your line of sight. Until the end of your next turn, whenever you or the targeted ally takes damage from any source, you take half of the damage and your ally takes half of the damage.<br><br>This halving of damage takes place before the damage is compared to your respective Damage Thresholds.",
+    "tree": "Tyia Adept",
+    "prerequisite": {
+      "text": "a member of The Tyia",
+      "nodes": {
+        "text": "a member of The Tyia",
+        "requirement": "The Tyia",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gCQoOQImLXuYqsin",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

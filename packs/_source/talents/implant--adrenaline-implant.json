@@ -1,0 +1,27 @@
+{
+  "_id": "5YPOfyfDXpzmxnbG",
+  "_key": "!items!5YPOfyfDXpzmxnbG",
+  "name": "Adrenaline Implant",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Standard Action, you can give one adjacent living creature an <b>Adrenaline Implant</b>. The target must be willing to receive this Implant, which grants the target 10 bonus Hit Points at the start of each of it's turns. These bonus Hit Points do not accumulate. Damage is subtracted from the bonus Hit Points first, and any bonus Hit Points remaining at the end of the encounter go away. Bonus Hit Points from different sources do not stack.",
+    "tree": "Implant",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "s9QQM0092XxaWnTf",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "ntTZZncABNikeKur",
+  "_key": "!items!ntTZZncABNikeKur",
+  "name": "Lockdown Strike",
+  "type": "talent",
+  "system": {
+    "description": "When you hit a moving opponent that is one size category larger than you or smaller with an Attack of Opportunity, you immediately end its current movement.",
+    "tree": "Gladiatorial Combat",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "EmPu2W0U42qhjHl1",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

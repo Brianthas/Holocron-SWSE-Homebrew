@@ -1,0 +1,31 @@
+{
+  "_id": "12KAhgKRJG9tMELz",
+  "_key": "!items!12KAhgKRJG9tMELz",
+  "name": "Pick a Fight",
+  "type": "talent",
+  "system": {
+    "description": "During the Surprise Round, you and all allies within 6 squares of you gain a +1 morale bonus on attack rolls. Additionally, until the end of the encounter, you retain this bonus to attack rolls against any target you or your allies damage during the Surprise Round.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "Cantina Brawler talent",
+      "nodes": {
+        "text": "Cantina Brawler talent",
+        "requirement": "Cantina Brawler",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "x39NpzUVZL84nPbT",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "4n1eZyVit1ZZNVbE",
+  "_key": "!items!4n1eZyVit1ZZNVbE",
+  "name": "Quick Study",
+  "type": "talent",
+  "system": {
+    "description": "You excel at turning an enemy's tricks against it. Once per encounter, if an enemy attacks you using a non-Force Talent, you can use the same Talent against it on your next turn. You must use an appropriate Weapon or item, if required by the Talent, although you do not have to have the prerequisites. You can take this Action even if your enemy's attack misses you.",
+    "tree": "Warrior",
+    "prerequisite": {
+      "text": "Warrior's Awareness talent",
+      "nodes": {
+        "text": "Warrior's Awareness talent",
+        "requirement": "Warrior's Awareness",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "c6mGiiv2FCS7cxVF",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

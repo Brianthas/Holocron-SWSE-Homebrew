@@ -1,0 +1,27 @@
+{
+  "_id": "BnyZNahzRZx4RNYg",
+  "_key": "!items!BnyZNahzRZx4RNYg",
+  "name": "Acute Senses",
+  "type": "talent",
+  "system": {
+    "description": "You may reroll any Perception check, but the result of the reroll must be accepted, even if it is worse. This Talent applies to Use Computer checks made to perceive enemy ships (see Use Sensors).",
+    "tree": "Awareness",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BwWMBgsJdud13GfH",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "0baW3KSf2U8nr1RZ",
+  "_key": "!items!0baW3KSf2U8nr1RZ",
+  "name": "Lure Closer",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn, as a Move Action, you can make a Deception check against the Will Defense of one enemy within 12 squares and within your line of sight. If you check results equals or exceeds the target's Will Defense, the target must move a number of squares equal to half its speed, and each square of movement must bring the target closer to you (though the target does avoid Hazards and obstacles).<br><br>If the target cannot avoid a Hazard (such as a pit), it stops moving in the nearest safe square. This movement is considered involuntary and does not provoke Attacks of Opportunity. This is a Mind-Affecting effect.",
+    "tree": "Recklessness",
+    "prerequisite": {
+      "text": "Trick Step talent",
+      "nodes": {
+        "text": "Trick Step talent",
+        "requirement": "Trick Step",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5W8AIOCXY93jibRJ",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

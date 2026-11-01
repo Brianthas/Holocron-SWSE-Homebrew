@@ -1,0 +1,31 @@
+{
+  "_id": "aZ4GqfacVGkYe5ZD",
+  "_key": "!items!aZ4GqfacVGkYe5ZD",
+  "name": "Reactive Stealth",
+  "type": "talent",
+  "system": {
+    "description": "When you are missed by a ranged attack and have Concealment or Cover from the attacker, you can move up to half your Speed as a Reaction and make a Stealth check to become hidden from your attacker, provided you still have Concealment or Cover at the end of your movement.",
+    "tree": "Espionage",
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "nodes": {
+        "text": "Trained in Stealth",
+        "requirement": "Stealth",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tDx4yYMm73wrYtfZ",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "2I9PVJ5ctGHkQJNf",
+  "_key": "!items!2I9PVJ5ctGHkQJNf",
+  "name": "Warrior's Awareness",
+  "type": "talent",
+  "system": {
+    "description": "You learn your enemy's preferred tactics quickly. When an enemy character makes a melee attack against you for at least the second time in an encounter, make a Perception check as a Reaction. If the check is successful, you gain a +1 bonus to your Reflex Defense and Fortitude Defense against that character until the end of the encounter.<br><br>You can use this against only one character at a time, until that character is incapacitated or killed, or until you voluntarily switch targets by dropping the use of this Talent for one full round (you can take other Actions normally).",
+    "tree": "Warrior",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "a3oMi6yFrNAiJ75f",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

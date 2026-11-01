@@ -1,0 +1,31 @@
+{
+  "_id": "btSujC94U0yG8wty",
+  "_key": "!items!btSujC94U0yG8wty",
+  "name": "Praetoria Vonil",
+  "type": "talent",
+  "system": {
+    "description": "You have mastered the offensive Lightsaber style favored by The Imperial Knights. When wielding a single Lightsaber with two hands, you deal +1 die of damage if you move at least 1 square on your turn before making the attack.",
+    "tree": "Knight's Resolve",
+    "prerequisite": {
+      "text": "Weapon Focus (Lightsabers)",
+      "nodes": {
+        "text": "Weapon Focus (Lightsabers)",
+        "requirement": "Weapon Focus (Lightsabers)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "g87QLJNSFmiEJSDq",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "uBelrt1EsYxb2vBO",
+  "_key": "!items!uBelrt1EsYxb2vBO",
+  "name": "Rising Panic",
+  "type": "talent",
+  "system": {
+    "description": "You start a <b>Rising Panic</b> in an enemy who observes your attacks and actions, inhibiting the enemy's ability to respond. Once per round as a Reaction to an enemy damaging one of your allies or moving one of your allies down the Condition Track, you can make a Use the Force check against the target's Will Defense.<br><br>If the check equals or exceeds the target's Will Defense, you move the target -1 step on the Condition Track. An enemy moved to the bottom of the Condition Track by this Talent does not fall unconscious, but instead must spend its actions fleeing combat for one minute or until it moves up the Condition Track.<br><br>This is a Mind-Affecting Fear effect.",
+    "tree": "Blazing Chain",
+    "prerequisite": {
+      "text": "a member of The Blazing Chain",
+      "nodes": {
+        "text": "a member of The Blazing Chain",
+        "requirement": "The Blazing Chain",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "39T30YoRh9stT66M",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

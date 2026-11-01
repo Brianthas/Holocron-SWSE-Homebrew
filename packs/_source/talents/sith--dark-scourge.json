@@ -1,0 +1,27 @@
+{
+  "_id": "glR30EYWWH9fyfLo",
+  "_key": "!items!glR30EYWWH9fyfLo",
+  "name": "Dark Scourge",
+  "type": "talent",
+  "system": {
+    "description": "You have dedicated your life to wiping out the Jedi, and your hatred of them knows no bounds. Against Jedi characters (that is, characters belonging to The Jedi), you gain a +1 Dark Side bonus on attack rolls.",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9l8mJfx3aINGviQg",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

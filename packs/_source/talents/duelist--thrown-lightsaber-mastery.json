@@ -1,0 +1,42 @@
+{
+  "_id": "7yk5sU0SpQXmI289",
+  "_key": "!items!7yk5sU0SpQXmI289",
+  "name": "Thrown Lightsaber Mastery",
+  "type": "talent",
+  "system": {
+    "description": "Any target successfully struck by a Lightsaber you Throw moves at half Speed (round down) until the beginning of your next turn.",
+    "tree": "Duelist",
+    "prerequisite": {
+      "text": "Improved Lightsaber Throw talent, and Lightsaber Throw talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Improved Lightsaber Throw talent",
+            "requirement": "Improved Lightsaber Throw",
+            "type": "TALENT"
+          },
+          {
+            "text": "Lightsaber Throw talent",
+            "requirement": "Lightsaber Throw",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Improved Lightsaber Throw talent, and Lightsaber Throw talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "G7nScPvxOtay7S0g",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

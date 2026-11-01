@@ -1,0 +1,27 @@
+{
+  "_id": "stT9JYWYrWn4f7Ub",
+  "_key": "!items!stT9JYWYrWn4f7Ub",
+  "name": "Skillful Recovery",
+  "type": "talent",
+  "system": {
+    "description": "When you select this Talent, choose one Trained Skill. Whenever you fail a Skill Check with that Skill, you gain one temporary Force Point. That Force Point can only be spent to add to a Skill Check with the Skill you chose for this Talent. If the Force Point is not spent by the end of the encounter, it is lost.<br><br>For the purposes of this Talent, failing a Skill Check means failing to get the minimum possible result from the Skill Check. You can select this Talent multiple times. Each time you do so, you must choose a different Skill to gain the benefits of this Talent.",
+    "tree": "Superior Skills",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xkFLEK0KxPOrB7xM",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

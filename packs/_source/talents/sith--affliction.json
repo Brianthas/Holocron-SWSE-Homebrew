@@ -1,0 +1,27 @@
+{
+  "_id": "xwWk54AbemAcF2HD",
+  "_key": "!items!xwWk54AbemAcF2HD",
+  "name": "Affliction",
+  "type": "talent",
+  "system": {
+    "description": "Your Force Powers carries the taint of The Dark Side more so than even other Dark Side users. When you damage a single opponent with one of your Force Powers, that target also takes 2d6 points of Force damage at the beginning of its next turn, before taking any Actions.",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lPjTbO8vuoFgcfwN",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

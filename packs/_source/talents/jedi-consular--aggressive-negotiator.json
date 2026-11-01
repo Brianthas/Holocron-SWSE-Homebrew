@@ -1,0 +1,31 @@
+{
+  "_id": "K9kVfExWgKW2UxHo",
+  "_key": "!items!K9kVfExWgKW2UxHo",
+  "name": "Aggressive Negotiator",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you damage an opponent with a Lightsaber attack, you can Take 10 on any Persuasion checks you make before the end of your next turn, even if you would not normally be able to.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "Adept Negotiator talent",
+      "nodes": {
+        "text": "Adept Negotiator talent",
+        "requirement": "Adept Negotiator",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fHh6EfJkRz5oWZ3Q",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "EuKA0WGcTOo1wWSW",
+  "_key": "!items!EuKA0WGcTOo1wWSW",
+  "name": "Savage Reputation",
+  "type": "talent",
+  "system": {
+    "description": "You have cultivated a <b>Savage Reputation</b>, and when you are recognized, you instill fear in your enemies. All opponents within 6 squares of you take a -1 penalty to all their attack rolls. This is a Mind-Affecting Fear effect.",
+    "tree": "Piracy",
+    "prerequisite": {
+      "text": "Bloodthirsty talent",
+      "nodes": {
+        "text": "Bloodthirsty talent",
+        "requirement": "Bloodthirsty",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "W8pSj11gp5YnbTh9",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

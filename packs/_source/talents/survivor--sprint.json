@@ -1,0 +1,27 @@
+{
+  "_id": "FeDnqcnr1T4FyTuJ",
+  "_key": "!items!FeDnqcnr1T4FyTuJ",
+  "name": "Sprint",
+  "type": "talent",
+  "system": {
+    "description": "When you use the Run action, you can move up to five times your Speed (instead of up to four times).",
+    "tree": "Survivor",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zBKQPSm7C92ueJ9G",
+      "sourceBook": ""
+    }
+  }
+}

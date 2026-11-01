@@ -1,0 +1,27 @@
+{
+  "_id": "m83mB5yGhAMrrepD",
+  "_key": "!items!m83mB5yGhAMrrepD",
+  "name": "Improvised Device",
+  "type": "talent",
+  "system": {
+    "description": "You can create a temporary piece of almost any type of Equipment from the spare parts you have around. To do so, you must make a DC 25 Mechanics check and spend one hour building the device. The object can have a maximum value of 200 credits x your Class Level, it cannot have an availability of Rare or Illegal, and it cannot be unique.<br><br>The device you create must be something that you would be reasonably familiar with, and after 24 hours the object is destroyed. You can use this Talent once per day.",
+    "tree": "Improviser",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Z3pup2mLtQmapqp5",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

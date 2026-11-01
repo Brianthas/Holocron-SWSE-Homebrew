@@ -1,0 +1,31 @@
+{
+  "_id": "61niF0i24iC02NG4",
+  "_key": "!items!61niF0i24iC02NG4",
+  "name": "Sniping Marksman",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, when you make a ranged attack against a target that is not at Point-Blank Range, you can ignore your target's Armor bonus to their Reflex Defense.",
+    "tree": "Assassin",
+    "prerequisite": {
+      "text": "Sniping Assassin talent",
+      "nodes": {
+        "text": "Sniping Assassin talent",
+        "requirement": "Sniping Assassin",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uJSyLvqhC5GsVOBt",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

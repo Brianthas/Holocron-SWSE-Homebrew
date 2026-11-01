@@ -1,0 +1,27 @@
+{
+  "_id": "N7aKeRc9GBEllqUg",
+  "_key": "!items!N7aKeRc9GBEllqUg",
+  "name": "Shoto Master",
+  "type": "talent",
+  "system": {
+    "description": "When you wield both a One-Handed Lightsaber and a Light Lightsaber (typically a Shoto Lightsaber or a Guard Shoto), you can consider the One-Handed Lightsaber to be a Light Weapon.<br><br>Additionally, if you have the <b>Lightsaber Defense</b> Talent, you can activate the Talent as a Free Action on your turn (instead of a Swift Action) whenever you wield both a One-Handed Lightsaber and a Light Lightsaber.<p>Because the One-Handed Lightsaber counts as Light, it also reduces the dual-wielding penalty by 2, as the Light Lightsaber does.</p>",
+    "tree": "Duelist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "R1IhSOQFl64tHH64",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "QjLVJPylY8ydcsMm",
+  "_key": "!items!QjLVJPylY8ydcsMm",
+  "name": "Lead From the Front",
+  "type": "talent",
+  "system": {
+    "description": "If you do not have Cover from a target that you damaged with a ranged attack, all your allies gain a +2 morale bonus to attack rolls against that target and a +5 circumstance bonus to opposed Initiative checks against that target until the start of your next turn.",
+    "tree": "Gambling Leader",
+    "prerequisite": {
+      "text": "Face the Foe talent",
+      "nodes": {
+        "text": "Face the Foe talent",
+        "requirement": "Face the Foe",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xEAH94lffbn2McuQ",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

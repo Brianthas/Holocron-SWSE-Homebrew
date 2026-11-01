@@ -1,0 +1,27 @@
+{
+  "_id": "8tKS1ljsREC04KmF",
+  "_key": "!items!8tKS1ljsREC04KmF",
+  "name": "Preternatural Senses",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Reaction, you can add one-half your Class Level to the Defense Score of your choice.",
+    "tree": "Outlaw",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jqYu8pkua4xv4Ki5",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "LumwOVihav963xse",
+  "_key": "!items!LumwOVihav963xse",
+  "name": "Body Control",
+  "type": "talent",
+  "system": {
+    "description": "You can add your Charisma modifier instead of your Constitution modifier to your Fortitude Defense. Additionally, you can spend a Force Point as a Swift Action to become immune to Poison, Radiation, and Disease until the end of the encounter.",
+    "tree": "Matukai Adept",
+    "prerequisite": {
+      "text": "a member of The Matukai",
+      "nodes": {
+        "text": "a member of The Matukai",
+        "requirement": "The Matukai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "B57Z0Z4ht0VDnwBd",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

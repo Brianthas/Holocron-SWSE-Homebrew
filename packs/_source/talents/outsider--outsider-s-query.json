@@ -1,0 +1,31 @@
+{
+  "_id": "Pw9xd6b7mmVrgesr",
+  "_key": "!items!Pw9xd6b7mmVrgesr",
+  "name": "Outsider's Query",
+  "type": "talent",
+  "system": {
+    "description": "You use your outsider status as an excuse for mistakes, missteps, and social offenses. If you fail a Persuasion check to change a target's Attitude, the target's Attitude toward you does not change. You can also attempt to change the target's Attitude one additional time per encounter.",
+    "tree": "Outsider",
+    "prerequisite": {
+      "text": "Trained in Persuasion",
+      "nodes": {
+        "text": "Trained in Persuasion",
+        "requirement": "Persuasion",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0O2hfaORzifbxiEx",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

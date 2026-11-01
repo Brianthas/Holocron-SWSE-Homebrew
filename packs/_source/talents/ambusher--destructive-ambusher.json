@@ -1,0 +1,31 @@
+{
+  "_id": "FUOXM8B9ytXcQu76",
+  "_key": "!items!FUOXM8B9ytXcQu76",
+  "name": "Destructive Ambusher",
+  "type": "talent",
+  "system": {
+    "description": "After you designate a Prime Target, you deal +1 die of damage on attacks against the Prime Target until the end of the encounter.",
+    "tree": "Ambusher",
+    "prerequisite": {
+      "text": "Ambush Specialist talent",
+      "nodes": {
+        "text": "Ambush Specialist talent",
+        "requirement": "Ambush Specialist",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ntDBj3hPP2PCvG5q",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

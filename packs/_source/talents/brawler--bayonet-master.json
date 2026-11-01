@@ -1,0 +1,31 @@
+{
+  "_id": "ON1s2XQcsV1q5n4l",
+  "_key": "!items!ON1s2XQcsV1q5n4l",
+  "name": "Bayonet Master",
+  "type": "talent",
+  "system": {
+    "description": "When you take a Full Attack Action, you can treat a ranged weapon with a Bayonet (or Vibrobayonet) as a Double Weapon. You can attack with the Bayonet (or Vibrobayonet) and club a target with your ranged Weapon (as with the <b>Gun Club</b> Talent), ignoring the normal penalties for attacking with both ends of a Double Weapon.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "Gun Club talent",
+      "nodes": {
+        "text": "Gun Club talent",
+        "requirement": "Gun Club",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "S7xqigIFWZ7pNRMb",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

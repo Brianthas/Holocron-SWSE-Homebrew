@@ -1,0 +1,27 @@
+{
+  "_id": "9fFyH740Uyuq7Syr",
+  "_key": "!items!9fFyH740Uyuq7Syr",
+  "name": "Allure",
+  "type": "talent",
+  "system": {
+    "description": "You may reroll any Deception check to activate <b>Seducer</b> or any Persuasion check to Change Attitude, but the result of the reroll must be accepted, even if it is worse.",
+    "tree": "Influence",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OaLpfSP1oGjl6Mxf",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

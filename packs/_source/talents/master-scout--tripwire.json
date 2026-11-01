@@ -1,0 +1,42 @@
+{
+  "_id": "Uleusl17FoYcl1G9",
+  "_key": "!items!Uleusl17FoYcl1G9",
+  "name": "Tripwire",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can set up a simple snare or trap across an opening up to 3 squares wide. You must have the required items to set the trap. Make a successful DC 20 Mechanics check to set the trap. Make a Deception check to conceal the wire. Compare the result of the Deception check to the Perception check of the next creature that passes through that square (-10 if it observes you setting the trap).<br><br>If the creature fails the Perception check, it takes the indicated use of the trap. If the creature succeeds, it can make a DC 10 Acrobatics check to avoid the wire. Select one of the following options:",
+    "tree": "Master Scout",
+    "prerequisite": {
+      "text": "Jury-Rigger talent, and Trained in Mechanics",
+      "nodes": {
+        "children": [
+          {
+            "text": "Jury-Rigger talent",
+            "requirement": "Jury-Rigger",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Mechanics",
+            "requirement": "Mechanics",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Jury-Rigger talent, and Trained in Mechanics",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xtrdNeDBkIv8fN2J",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

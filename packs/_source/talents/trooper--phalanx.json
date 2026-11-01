@@ -1,0 +1,31 @@
+{
+  "_id": "UzH2TaPDFh6B0dLq",
+  "_key": "!items!UzH2TaPDFh6B0dLq",
+  "name": "Phalanx",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you provide Soft Cover to an ally within 3 squares, you are considered to be providing Improved Cover.",
+    "tree": "Trooper",
+    "prerequisite": {
+      "text": "Watch Your Back talent",
+      "nodes": {
+        "text": "Watch Your Back talent",
+        "requirement": "Watch Your Back",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pGdzTZCvdgCDCQzA",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

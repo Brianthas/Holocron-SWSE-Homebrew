@@ -1,0 +1,31 @@
+{
+  "_id": "dKhtGQiRdO36wqUQ",
+  "_key": "!items!dKhtGQiRdO36wqUQ",
+  "name": "Impenetrable Cover",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you have Cover against a target, you gain Damage Reduction equal to your Class Level against that target until the start of your next turn, provided you still have Cover from the target at the time the attack is made.",
+    "tree": "Vanguard",
+    "prerequisite": {
+      "text": "Maximize Cover talent",
+      "nodes": {
+        "text": "Maximize Cover talent",
+        "requirement": "Maximize Cover",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KPDbPIOvSYZuQyuF",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

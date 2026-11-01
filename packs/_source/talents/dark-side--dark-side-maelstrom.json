@@ -1,0 +1,47 @@
+{
+  "_id": "E8eMwzjbB7cbaZUg",
+  "_key": "!items!E8eMwzjbB7cbaZUg",
+  "name": "Dark Side Maelstrom",
+  "type": "talent",
+  "system": {
+    "description": "You create a wound in The Force itself, tearing open space in a vortex of intense Dark Side energy. Use of this Talent expends the <i>Force Storm</i> and <i>Hatred</i> Force Powers from your Force Power Suite. As a Full-Round Action, you may make a DC 25 Use the Force check. If the check succeeds, you create a <b>Dark Side Maelstrom</b> within your line of sight one square in size that deals 2d8 Force damage to all targets within its affected area. The maelstrom can only be controlled by the creator and is capable of movement up to 6 squares per round. The maelstrom requires a Use the Force check with a Standard Action to maintain from round to round.<br><br>The DC to maintain the maelstrom increases by one, the damage increases by +1d8 and it expands in size by one square area each round (1-square becomes 2x2 squares, etc.). If at any time a Use the Force check fails, the maelstrom disperses immediately. If the check fails by 10 or more, the maelstrom turns on its creator, dealing damage equal to its current damage die that round. If you take damage while maintaining <b>Dark Side Maelstrom</b>, you must succeed on a Use the Force check (DC = current round DC + damage taken) to continue maintaining the Talent and prevent it from turning on its creator.",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "Talent from the Dark Side Talent Tree, Force Storm force power, and Hatred force power",
+      "nodes": {
+        "children": [
+          {
+            "text": "Talent from the Dark Side Talent Tree",
+            "requirement": "Dark Side Talent Tree",
+            "type": "TALENT"
+          },
+          {
+            "text": "Force Storm force power",
+            "requirement": "Force Storm",
+            "type": "FORCE POWER"
+          },
+          {
+            "text": "Hatred force power",
+            "requirement": "Hatred",
+            "type": "FORCE POWER"
+          }
+        ],
+        "text": "Talent from the Dark Side Talent Tree, Force Storm force power, and Hatred force power",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pdGNGTycnRQFPWo3",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - The Dark Side"
+    }
+  }
+}

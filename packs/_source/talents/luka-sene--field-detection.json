@@ -1,0 +1,31 @@
+{
+  "_id": "RaXF4q8VffACg6mi",
+  "_key": "!items!RaXF4q8VffACg6mi",
+  "name": "Field Detection",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, make a DC 15 Use the Force check. If the check succeeds, you can detect the presence, general strength, and origin (or direction of origin if the source is out of range) of electromagnetic and energy fields within 12 squares of you. You can also determine the type of field, allowing you to detect Communications Devices, Detection and Surveillance Devices, and other electronic Equipment.<br><br>When dealing damage to a person or Droid using a personal shield, or to a Vehicle with shields active, a successful check allows you to detect minute fluctuations in the shield, reducing their Shield Rating by -5 against your attacks until the end of your turn.",
+    "tree": "Luka Sene",
+    "prerequisite": {
+      "text": "a member of The Luka Sene",
+      "nodes": {
+        "text": "a member of The Luka Sene",
+        "requirement": "The Luka Sene",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Z67MBr4Msta7vHVu",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

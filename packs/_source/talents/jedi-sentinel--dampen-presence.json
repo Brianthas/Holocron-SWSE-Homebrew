@@ -1,0 +1,27 @@
+{
+  "_id": "bk0agNfSuZldzxOb",
+  "_key": "!items!bk0agNfSuZldzxOb",
+  "name": "Dampen Presence",
+  "type": "talent",
+  "system": {
+    "description": "When you interact with another sentient creature, you can use a Swift Action to reduce the impression you leave on it. When you have finished interacting with the creature, you make a Use the Force check, and if the check result exceeds the target's Will Defense, it does not remember interacting with you once you are gone.<br><br>A target that is higher in level than you gains a +5 bonus to its Will Defense to resist this ability. This is a Mind-Affecting effect.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fzUefWOu6qiOGDyR",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

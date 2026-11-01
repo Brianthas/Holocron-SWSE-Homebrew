@@ -1,0 +1,31 @@
+{
+  "_id": "jdb8sfk2H0VyVYvt",
+  "_key": "!items!jdb8sfk2H0VyVYvt",
+  "name": "Veiled Biotech",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +10 competence bonus on Deception and Stealth checks made to conceal any Biotechnology or any Bio-Implants you possess. Additionally, you may draw a concealed Biotech item or Weapon as a Swift Action instead of a Standard Action; if you then make an attack with the Biotech Weapon before the end of your turn, your opponent loses it's Dexterity bonus to it's Reflex Defense against the first attack you make with that Weapon.",
+    "tree": "Yuuzhan Vong Biotech",
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "nodes": {
+        "text": "Trained in Stealth",
+        "requirement": "Stealth",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "393uGxbbnDWHwt3J",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

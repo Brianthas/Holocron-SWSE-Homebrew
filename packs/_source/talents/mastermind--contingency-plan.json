@@ -1,0 +1,27 @@
+{
+  "_id": "q3OiBxdNou5Du1pf",
+  "_key": "!items!q3OiBxdNou5Du1pf",
+  "name": "Contingency Plan",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, if you fail an attack roll, a Skill Check, or the use of a Talent that requires an opposed check, you can move up to your Speed as a Reaction.",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3wJZoChZSfP95w22",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

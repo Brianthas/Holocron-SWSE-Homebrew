@@ -1,0 +1,47 @@
+{
+  "_id": "VxlRvHgyy570w4dv",
+  "_key": "!items!VxlRvHgyy570w4dv",
+  "name": "Terrify",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can make a Persuasion check against a target that is within your line of sight and that is also affected by your <b>Inspire Fear</b> Talent. If you equal or exceed the target's Will Defense, then on its next turn the target must spend at least one Move Action to move away from you. If the target is somehow prevented from doing so, then the penalty from the <b>Inspire Fear</b> Talent doubles until the start of your next turn. This is a Mind-Affecting Fear effect.",
+    "tree": "Infamy",
+    "prerequisite": {
+      "text": "Frighten talent, Inspire Fear I talent, and Inspire Fear II talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Frighten talent",
+            "requirement": "Frighten",
+            "type": "TALENT"
+          },
+          {
+            "text": "Inspire Fear I talent",
+            "requirement": "Inspire Fear I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Inspire Fear II talent",
+            "requirement": "Inspire Fear II",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Frighten talent, Inspire Fear I talent, and Inspire Fear II talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PMKpE3v8a0400wUI",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

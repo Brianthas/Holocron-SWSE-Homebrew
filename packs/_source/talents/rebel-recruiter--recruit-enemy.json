@@ -1,0 +1,27 @@
+{
+  "_id": "F1qnYl0JNGIqBetJ",
+  "_key": "!items!F1qnYl0JNGIqBetJ",
+  "name": "Recruit Enemy",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter when you deal damage to a living creature that is equal to or greater than the target's current Hit Points and the target's Damage Threshold (that is, when you deal enough damage to kill the target), you can use this Talent. Make a Persuasion check against the target's Will Defense; if your result equals or exceeds the target's Will Defense, instead of dealing full damage, you deal half damage to the target and move it -1 step on the Condition Track.<br><br>In addition, the target becomes your ally, and its Attitude toward you immediately shifts to Friendly. The target fights on your side until the end of the encounter, at which point it departs (or, if the GM wishes, the target might become your ally permanently and join your party). Anyone Hostile to you becomes Hostile to the target.<br><br>This is a Mind-Affecting effect. If the target is a higher level than you, it gains a +5 bonus to its Will Defense. Enemies that cannot be bribed, blackmailed, or seduced (such as Stormtroopers) are immune to this effect.",
+    "tree": "Rebel Recruiter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7TrKYtG9x5aeWvK0",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "IPvxAOjo0ym1scaI",
+  "_key": "!items!IPvxAOjo0ym1scaI",
+  "name": "Master of the Great Hunt",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +1 Force bonus on attack rolls and deal +1 die of damage on Lightsaber attacks made against a Beast with a Dark Side Score of 1+.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9VljaTJ5Yy3pIz73",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

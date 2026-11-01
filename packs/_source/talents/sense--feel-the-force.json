@@ -1,0 +1,27 @@
+{
+  "_id": "ePeWFmN28qg6mPgS",
+  "_key": "!items!ePeWFmN28qg6mPgS",
+  "name": "Feel the Force",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can spend a Force Point to ignore all Concealment for 1 minute.",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KWp57lk0Clgz60SY",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

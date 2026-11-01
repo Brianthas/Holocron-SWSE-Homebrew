@@ -1,0 +1,31 @@
+{
+  "_id": "pwepdqRe9EEYn6cA",
+  "_key": "!items!pwepdqRe9EEYn6cA",
+  "name": "Echani Expertise",
+  "type": "talent",
+  "system": {
+    "description": "When making an Unarmed attack, you extend your critical threat range by 1 (for example, 19-20 instead of 20). However, anything other than a Natural 20 is not considered an automatic hit; if you roll anything other than a Natural 20 and still miss the target, you do not score a Critical Hit.",
+    "tree": "Martial Arts Forms",
+    "prerequisite": {
+      "text": "Base Attack Bonus 10",
+      "nodes": {
+        "text": "Base Attack Bonus 10",
+        "requirement": "10",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2RvRqsmXoXWjKEFE",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

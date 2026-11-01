@@ -1,0 +1,31 @@
+{
+  "_id": "zEUypU29TV9DLGak",
+  "_key": "!items!zEUypU29TV9DLGak",
+  "name": "Improved Force Sight",
+  "type": "talent",
+  "system": {
+    "description": "Your natural Force Sight is more precise than that of your fellow Miraluka. You can use the Search application of the Perception skill as a Swift Action. Additionally, you always succeed when using the Sense Surroundings application of the Use the Force skill (no roll required).",
+    "tree": "Luka Sene",
+    "prerequisite": {
+      "text": "a member of The Luka Sene",
+      "nodes": {
+        "text": "a member of The Luka Sene",
+        "requirement": "The Luka Sene",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "U7rFir7aGlRNFmJN",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

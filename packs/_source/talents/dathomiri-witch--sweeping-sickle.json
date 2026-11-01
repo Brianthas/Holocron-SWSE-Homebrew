@@ -1,0 +1,31 @@
+{
+  "_id": "d4dWZ1plB0v7DmSW",
+  "_key": "!items!d4dWZ1plB0v7DmSW",
+  "name": "Sweeping Sickle",
+  "type": "talent",
+  "system": {
+    "description": "When you miss with an attack made with a Chain Sickle, or fail a Grapple attempt made with one, the target of that attack or attempt takes damage equal to your Dexterity modifier (minimum +1).",
+    "tree": "Dathomiri Witch",
+    "prerequisite": {
+      "text": "a member of The Witches of Dathomir",
+      "nodes": {
+        "text": "a member of The Witches of Dathomir",
+        "requirement": "The Witches of Dathomir",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sVAy9ghZLfYgROxu",
+      "sourceBook": "Dathomir Field Guide"
+    }
+  }
+}

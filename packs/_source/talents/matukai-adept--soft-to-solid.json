@@ -1,0 +1,31 @@
+{
+  "_id": "LEXzRXKp6awvZxso",
+  "_key": "!items!LEXzRXKp6awvZxso",
+  "name": "Soft to Solid",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction when you are damaged by an attack, you can spend a Force Point to increase the rigidity of your skin, gaining Damage Reduction 10 until the end of your next turn.",
+    "tree": "Matukai Adept",
+    "prerequisite": {
+      "text": "a member of The Matukai",
+      "nodes": {
+        "text": "a member of The Matukai",
+        "requirement": "The Matukai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3fn1JpLfYW3lsNgG",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

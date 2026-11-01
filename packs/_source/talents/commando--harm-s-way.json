@@ -1,0 +1,31 @@
+{
+  "_id": "Usf3L7hNpNiw8Ctz",
+  "_key": "!items!Usf3L7hNpNiw8Ctz",
+  "name": "Harm's Way",
+  "type": "talent",
+  "system": {
+    "description": "Once per round, you may spend a Swift Action to shield a single adjacent ally from attacks, taking the damage and suffering the ill effects in your ally's stead.<br><br>Until the start of your next turn, any attack made against the protected ally targets you instead. You may elect not to shield your protected ally against a given attack, provided the decision is made before the attack roll is made.<br><br>If you are the Pilot of a Vehicle, you may use this Talent to protect allied Vehicles. You may use it to protect Vehicles no more than one size category larger than your own.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "Trained in Initiative",
+      "nodes": {
+        "text": "Trained in Initiative",
+        "requirement": "Initiative",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FLm7bs5QAD1mriIk",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

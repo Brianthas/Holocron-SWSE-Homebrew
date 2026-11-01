@@ -1,0 +1,42 @@
+{
+  "_id": "8ey5qnbzbdHBMJE3",
+  "_key": "!items!8ey5qnbzbdHBMJE3",
+  "name": "Dumb Luck",
+  "type": "talent",
+  "system": {
+    "description": "You are possessed of incredible luck and an uncanny ability to succeed where others would fail. You can use each of the following actions once per encounter as a Standard Action:",
+    "tree": "Fortune",
+    "prerequisite": {
+      "text": "Knack talent, and Lucky Shot talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Knack talent",
+            "requirement": "Knack",
+            "type": "TALENT"
+          },
+          {
+            "text": "Lucky Shot talent",
+            "requirement": "Lucky Shot",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Knack talent, and Lucky Shot talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wYLMVDcIONfjxo4y",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

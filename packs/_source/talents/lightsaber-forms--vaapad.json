@@ -1,0 +1,64 @@
+{
+  "_id": "sISnFjcaojpd9H1B",
+  "_key": "!items!sISnFjcaojpd9H1B",
+  "name": "Vaapad",
+  "type": "talent",
+  "system": {
+    "description": "When attacking with a Lightsaber, you score a critical hit on a natural roll of 19 or 20. However, a natural 19 is not considered an automatic hit; if you roll a natural 19 and still miss the target, you do not score a critical hit.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "Juyo talent, Weapon Focus (Lightsabers), Weapon Specialization (Lightsabers), and Base Attack Bonus 12",
+      "nodes": {
+        "children": [
+          {
+            "text": "Juyo talent",
+            "requirement": "Juyo",
+            "type": "TALENT"
+          },
+          {
+            "text": "Weapon Focus (Lightsabers)",
+            "requirement": "Weapon Focus (Lightsabers)",
+            "type": "FEAT"
+          },
+          {
+            "children": [
+              {
+                "text": "Weapon Specialization (Lightsabers) talent",
+                "requirement": "Weapon Specialization (Lightsabers)",
+                "type": "TALENT"
+              },
+              {
+                "text": "Weapon Specialization (Lightsabers) feat",
+                "requirement": "Weapon Specialization (Lightsabers)",
+                "type": "FEAT"
+              }
+            ],
+            "count": 1,
+            "text": "Weapon Specialization (Lightsabers)",
+            "type": "OR"
+          },
+          {
+            "text": "Base Attack Bonus 12",
+            "requirement": "12",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Juyo talent, Weapon Focus (Lightsabers), Weapon Specialization (Lightsabers), and Base Attack Bonus 12",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iP8sgH3wqpZyxgwO",
+      "sourceBook": ""
+    }
+  }
+}

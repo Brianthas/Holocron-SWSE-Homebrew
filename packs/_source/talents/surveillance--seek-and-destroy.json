@@ -1,0 +1,31 @@
+{
+  "_id": "Gfym2QdqrXYZADVi",
+  "_key": "!items!Gfym2QdqrXYZADVi",
+  "name": "Seek and Destroy",
+  "type": "talent",
+  "system": {
+    "description": "If you make a Charge attack against a target that is unaware of you, that target cannot make a Perception check to notice you until after the attack is resolved, even if you move away from Cover or Concealment.",
+    "tree": "Surveillance",
+    "prerequisite": {
+      "text": "Hidden Eyes talent",
+      "nodes": {
+        "text": "Hidden Eyes talent",
+        "requirement": "Hidden Eyes",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mA0TuowIiNlULCmO",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

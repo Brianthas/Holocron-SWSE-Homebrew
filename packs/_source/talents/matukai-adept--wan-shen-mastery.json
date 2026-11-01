@@ -1,0 +1,31 @@
+{
+  "_id": "Q7HyW25NlmIWHWHQ",
+  "_key": "!items!Q7HyW25NlmIWHWHQ",
+  "name": "Wan-Shen Mastery",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you make two attacks with your Wan-Shen, each one against a different target within your reach. You must have your Wan-Shen in hand to use this Talent.",
+    "tree": "Matukai Adept",
+    "prerequisite": {
+      "text": "a member of The Matukai",
+      "nodes": {
+        "text": "a member of The Matukai",
+        "requirement": "The Matukai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "09ts29pYdJhhVBYp",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

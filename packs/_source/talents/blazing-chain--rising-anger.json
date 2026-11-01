@@ -1,0 +1,31 @@
+{
+  "_id": "QCZFBSaJK9VdGQFp",
+  "_key": "!items!QCZFBSaJK9VdGQFp",
+  "name": "Rising Anger",
+  "type": "talent",
+  "system": {
+    "description": "You tap directly into your anger to increase the effectiveness of your attacks. Once per round as a Reaction to an ally taking damage or being moved down the Condition Track by an enemy, you gain a +1 morale bonus to your next attack roll.<br><br>If you use this Talent again before you make an attack, the bonus increases by 1, up to a maximum of +5.",
+    "tree": "Blazing Chain",
+    "prerequisite": {
+      "text": "a member of The Blazing Chain",
+      "nodes": {
+        "text": "a member of The Blazing Chain",
+        "requirement": "The Blazing Chain",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ayjFV1jZIMWmX8Rb",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

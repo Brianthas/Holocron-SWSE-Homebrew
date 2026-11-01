@@ -1,0 +1,38 @@
+{
+  "_id": "epGnDlTGwj8q4waU",
+  "_key": "!items!epGnDlTGwj8q4waU",
+  "name": "Malicious Glitches",
+  "type": "talent",
+  "system": {
+    "description": "<i>Malicious Glitches Talent created by Wikia user Admire Lucas.</i><br><br>Whenever Unexpected Results would trigger, the wielder must choose to either take half the damage that would have been dealt against you, or roll 2d20 for a result on the Glitch table, below.",
+    "tree": "Sabotage",
+    "prerequisite": {
+      "text": "Any two Talents from the Sabotage Talent Tree",
+      "nodes": {
+        "children": [
+          {
+            "text": "Talent from the Sabotage Talent Tree",
+            "requirement": "Sabotage Talent Tree",
+            "type": "TALENT"
+          }
+        ],
+        "count": 2,
+        "text": "Any two Talents from the Sabotage Talent Tree",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "T54IyYFQ7tQuZcEI",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

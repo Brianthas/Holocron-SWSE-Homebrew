@@ -1,0 +1,31 @@
+{
+  "_id": "huDlw2zXIbO2i815",
+  "_key": "!items!huDlw2zXIbO2i815",
+  "name": "Attuned",
+  "type": "talent",
+  "system": {
+    "description": "When you roll a Natural 20 on an attack roll against a target with a Dark Side Score of 1 or higher, you can activate a single Force Power with the [<i>Light Side</i>] descriptor immediately as a Free Action.",
+    "tree": "Light Side",
+    "prerequisite": {
+      "text": "Focused Attack talent",
+      "nodes": {
+        "text": "Focused Attack talent",
+        "requirement": "Focused Attack",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "C2kzQfdaGLNTeQVO",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "38KpFXIPhoZb8VaN",
+  "_key": "!items!38KpFXIPhoZb8VaN",
+  "name": "Healing Boost",
+  "type": "talent",
+  "system": {
+    "description": "When healing somebody through <i>Vital Transfer</i>, the amount of damage healed increases by 1 point per your Class Level.",
+    "tree": "Jedi Healer",
+    "prerequisite": {
+      "text": "Vital Transfer force power",
+      "nodes": {
+        "text": "Vital Transfer force power",
+        "requirement": "Vital Transfer",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GaAsoAME6mWsyXzp",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

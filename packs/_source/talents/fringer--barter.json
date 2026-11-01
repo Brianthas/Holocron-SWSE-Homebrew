@@ -1,0 +1,27 @@
+{
+  "_id": "idGMCrQonMaSCiFm",
+  "_key": "!items!idGMCrQonMaSCiFm",
+  "name": "Barter",
+  "type": "talent",
+  "system": {
+    "description": "You may reroll any Persuasion check made to Haggle. You must, however, accept the results of the reroll, even if it is worse.",
+    "tree": "Fringer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "P4JMKKqVcvIwF6V1",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

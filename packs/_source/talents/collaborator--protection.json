@@ -1,0 +1,31 @@
+{
+  "_id": "Ebks8qSOGu4dr2ti",
+  "_key": "!items!Ebks8qSOGu4dr2ti",
+  "name": "Protection",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can designate one ally and make a Persuasion check, comparing the result against the Will Defense of all enemies in your line of sight who can hear and understand you. If your check result equals or exceeds a target's Will Defense, that target cannot attack the ally you designated until the beginning of your next turn.<br><br>Characters that use this Talent or the <b>Draw Fire</b> Talent cannot be targeted by or benefit from this Talent. You may not benefit from this Talent at the same time as the <b>Misplaced Loyalty</b> Talent.",
+    "tree": "Collaborator",
+    "prerequisite": {
+      "text": "Double Agent talent",
+      "nodes": {
+        "text": "Double Agent talent",
+        "requirement": "Double Agent",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dY2JBPFnTQU4Dai3",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

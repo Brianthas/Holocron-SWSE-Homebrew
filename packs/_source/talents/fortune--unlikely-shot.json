@@ -1,0 +1,42 @@
+{
+  "_id": "G5a3VDYM1ayWS99q",
+  "_key": "!items!G5a3VDYM1ayWS99q",
+  "name": "Unlikely Shot",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can reroll the damage of one attack, keeping the better of the two results.",
+    "tree": "Fortune",
+    "prerequisite": {
+      "text": "Knack talent, and Lucky Shot talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Knack talent",
+            "requirement": "Knack",
+            "type": "TALENT"
+          },
+          {
+            "text": "Lucky Shot talent",
+            "requirement": "Lucky Shot",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Knack talent, and Lucky Shot talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "z8ZgvFJV6MdohjND",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

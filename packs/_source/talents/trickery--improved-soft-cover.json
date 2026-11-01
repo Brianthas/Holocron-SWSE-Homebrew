@@ -1,0 +1,31 @@
+{
+  "_id": "1BsRaRF0ySOOU2Md",
+  "_key": "!items!1BsRaRF0ySOOU2Md",
+  "name": "Improved Soft Cover",
+  "type": "talent",
+  "system": {
+    "description": "While you occupy a square adjacent to another creature, you can use a Swift Action to gain a +2 Cover bonus to your Reflex Defense until the start of your next turn or until you are no longer adjacent to another creature, whichever comes first.",
+    "tree": "Trickery",
+    "prerequisite": {
+      "text": "Innocuous talent",
+      "nodes": {
+        "text": "Innocuous talent",
+        "requirement": "Innocuous",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7M5VbZxc99xcMR4J",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "mmpfbms8UQhYg4xJ",
+  "_key": "!items!mmpfbms8UQhYg4xJ",
+  "name": "Skilled Advisor",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Full-Round Action advising an ally, thereby granting them a +5 bonus on their next Skill Check. If you spend a Force Point, the bonus increases to +10. The target must be able to (and willing) to hear and understand your voice. You cannot advise yourself. This is a Mind-Affecting effect.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Q6iVWX99kCImedjo",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

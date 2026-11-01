@@ -1,0 +1,27 @@
+{
+  "_id": "Sa1URFcK6KJP5Jxs",
+  "_key": "!items!Sa1URFcK6KJP5Jxs",
+  "name": "Strong Grab",
+  "type": "talent",
+  "system": {
+    "description": "When you successfully Grab an opponent, they must use a Full-Round Action instead of a Standard Action to break the Grab.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "s4WHKWQaXcETtNv5",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "K3UvnH4twkoYNVs2",
+  "_key": "!items!K3UvnH4twkoYNVs2",
+  "name": "Trailblazer",
+  "type": "talent",
+  "system": {
+    "description": "During your turn, you can spend a Swift Action to allow all allies within 6 square of you and within your line of sight to count the first square of Difficult Terrain as normal terrain each time they move.",
+    "tree": "Advance Patrol",
+    "prerequisite": {
+      "text": "Trained in Survival",
+      "nodes": {
+        "text": "Trained in Survival",
+        "requirement": "Survival",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lOGznQ95clhALb5z",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

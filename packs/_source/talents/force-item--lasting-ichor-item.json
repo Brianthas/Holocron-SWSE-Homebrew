@@ -1,0 +1,27 @@
+{
+  "_id": "ovWBTBkWfQ1ncqje",
+  "_key": "!items!ovWBTBkWfQ1ncqje",
+  "name": "Lasting Ichor Item",
+  "type": "talent",
+  "system": {
+    "description": "Items you create through the <i>Ichor Creation</i> Force Power last for a number of days equal to your Character Level before dissipating. Instead, you can choose to spend a Force Point when creating the item to give it an indefinite duration.",
+    "tree": "Force Item",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BMHoNqcoQUrVGcN7",
+      "sourceBook": "Dathomir Field Guide"
+    }
+  }
+}

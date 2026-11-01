@@ -1,0 +1,27 @@
+{
+  "_id": "XbZqqybOgmwMczb5",
+  "_key": "!items!XbZqqybOgmwMczb5",
+  "name": "Improvised Weapon Mastery",
+  "type": "talent",
+  "system": {
+    "description": "You take no penalty on attack rolls made with Improvised Weapons.",
+    "tree": "Jedi Weapon Master",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SKxVnLlaRC7VFUgH",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

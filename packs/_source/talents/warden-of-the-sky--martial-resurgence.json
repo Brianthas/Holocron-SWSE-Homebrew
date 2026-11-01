@@ -1,0 +1,31 @@
+{
+  "_id": "nfw2AXsbkNSzAM7k",
+  "_key": "!items!nfw2AXsbkNSzAM7k",
+  "name": "Martial Resurgence",
+  "type": "talent",
+  "system": {
+    "description": "You recover all spent Force Powers, adding them to your Force Power Suite again, whenever you roll a Natural 20 on an Unarmed attack.",
+    "tree": "Warden of the Sky",
+    "prerequisite": {
+      "text": "a member of The Wardens of the Sky",
+      "nodes": {
+        "text": "a member of The Wardens of the Sky",
+        "requirement": "The Wardens of the Sky",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "L2826lvahObBGWVr",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

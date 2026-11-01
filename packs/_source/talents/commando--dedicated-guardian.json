@@ -1,0 +1,42 @@
+{
+  "_id": "k7ISkFOpAacNbf8e",
+  "_key": "!items!k7ISkFOpAacNbf8e",
+  "name": "Dedicated Guardian",
+  "type": "talent",
+  "system": {
+    "description": "You can use each of the following Actions once per encounter:",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "Dedicated Protector talent, and Harm's Way talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dedicated Protector talent",
+            "requirement": "Dedicated Protector",
+            "type": "TALENT"
+          },
+          {
+            "text": "Harm's Way talent",
+            "requirement": "Harm's Way",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Dedicated Protector talent, and Harm's Way talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fnx2njolcdug783C",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

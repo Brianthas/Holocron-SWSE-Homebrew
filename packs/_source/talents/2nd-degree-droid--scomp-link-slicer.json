@@ -1,0 +1,43 @@
+{
+  "_id": "UC6EKfyWtiDGbe3M",
+  "_key": "!items!UC6EKfyWtiDGbe3M",
+  "name": "Scomp Link Slicer",
+  "type": "talent",
+  "system": {
+    "description": "Your inherent speed and advanced skill reduce the danger of slicing computer systems. You must be physically linked to the system you are slicing. You can use each of the following actions once per encounter:",
+    "tree": "2nd-Degree Droid",
+    "prerequisite": {
+      "text": "Any two Talents from the Slicer Talent Tree, Burst Transfer can be one of these Talents",
+      "nodes": {
+        "children": [
+          {
+            "text": "Any two Talents from the Slicer Talent Tree, Burst Transfer can be one of these Talents",
+            "requirement": "Slicer Talent Tree",
+            "type": "TALENT"
+          },
+          {
+            "text": "Any two Talents from the Slicer Talent Tree, Burst Transfer can be one of these Talents",
+            "requirement": "Burst Transfer",
+            "type": "TALENT"
+          }
+        ],
+        "count": 2,
+        "text": "Any two Talents from the Slicer Talent Tree, Burst Transfer can be one of these Talents",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1RLNL5cGAxPicgao",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

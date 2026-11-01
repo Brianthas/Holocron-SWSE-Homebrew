@@ -1,0 +1,27 @@
+{
+  "_id": "fh929TAKACV2MNAj",
+  "_key": "!items!fh929TAKACV2MNAj",
+  "name": "Takedown",
+  "type": "talent",
+  "system": {
+    "description": "When you successfully make a melee attack and deal damage at the end of a Charge, you knock your target Prone as well, provided your opponent is no more than one size category larger than you.",
+    "tree": "Enforcement",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zr4PytNxxwPYNpkN",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

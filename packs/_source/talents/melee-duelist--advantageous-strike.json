@@ -1,0 +1,27 @@
+{
+  "_id": "yGmuMHJ5P5Jo7KHB",
+  "_key": "!items!yGmuMHJ5P5Jo7KHB",
+  "name": "Advantageous Strike",
+  "type": "talent",
+  "system": {
+    "description": "You take advantage of your opponent's haste. You gain a +5 bonus on Attacks of Opportunity with melee weapons you are proficient with.",
+    "tree": "Melee Duelist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0486jfhtTjIJKKPD",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

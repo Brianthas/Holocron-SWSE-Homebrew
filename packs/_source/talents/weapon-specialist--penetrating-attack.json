@@ -1,0 +1,31 @@
+{
+  "_id": "RD7rXMX2soAlE6FP",
+  "_key": "!items!RD7rXMX2soAlE6FP",
+  "name": "Penetrating Attack",
+  "type": "talent",
+  "system": {
+    "description": "Choose a single Exotic Weapon or weapon group with which you are proficient. Whenever you make a successful attack against a target with such a weapon, you treat your target's Damage Reduction as if it were 5 points lower when determining the result of your attack. If you select Heavy Weapons as the weapon group this Talent applies to, you may also use the Talent with Vehicle Weapon attacks.<br><br>You may select this Talent multiple times. Each time you select this Talent, it applies to a different Exotic Weapon or weapon group.",
+    "tree": "Weapon Specialist",
+    "prerequisite": {
+      "text": "Weapon Focus with chosen Exotic Weapon or Weapon Group",
+      "nodes": {
+        "text": "Weapon Focus with chosen Exotic Weapon or Weapon Group",
+        "requirement": "Weapon Focus (#payload#)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": true,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "y75aRySp2Efjja7Q",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "3e3IQwyEcwojB91u",
+  "_key": "!items!3e3IQwyEcwojB91u",
+  "name": "Sly Combatant",
+  "type": "talent",
+  "system": {
+    "description": "You quickly move about the battlefield, taking advantage of the chaos of battle. You can use each of the following Actions once per encounter as a Standard Action:",
+    "tree": "Brigand",
+    "prerequisite": {
+      "text": "Cheap Trick talent, and Easy Prey talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Cheap Trick talent",
+            "requirement": "Cheap Trick",
+            "type": "TALENT"
+          },
+          {
+            "text": "Easy Prey talent",
+            "requirement": "Easy Prey",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Cheap Trick talent, and Easy Prey talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5mpY0gYmxi5Aaf18",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

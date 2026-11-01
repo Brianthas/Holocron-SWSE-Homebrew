@@ -1,0 +1,31 @@
+{
+  "_id": "ZzPALRBs28B57Oft",
+  "_key": "!items!ZzPALRBs28B57Oft",
+  "name": "Crippling Strike",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you score a Critical Hit, you may spend a Force Point to also reduce the target's Speed by half until they are fully healed (that is, restored to maximum Hit Points).",
+    "tree": "Dark Side Devotee",
+    "prerequisite": {
+      "text": "Channel Aggression talent",
+      "nodes": {
+        "text": "Channel Aggression talent",
+        "requirement": "Channel Aggression",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GLmdd8op87jLtF54",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

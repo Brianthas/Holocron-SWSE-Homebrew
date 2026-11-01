@@ -1,0 +1,31 @@
+{
+  "_id": "ag9DIhnFcDWyMCwU",
+  "_key": "!items!ag9DIhnFcDWyMCwU",
+  "name": "Improved Initiative",
+  "type": "talent",
+  "system": {
+    "description": "You may choose to reroll any Initiative check, but the result of the reroll must be accepted, even if it is worse.",
+    "tree": "Awareness",
+    "prerequisite": {
+      "text": "Acute Senses talent",
+      "nodes": {
+        "text": "Acute Senses talent",
+        "requirement": "Acute Senses",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oJRpzQhyyNwmRKUp",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

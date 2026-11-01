@@ -1,0 +1,47 @@
+{
+  "_id": "Iki6eFX9WcAG4786",
+  "_key": "!items!Iki6eFX9WcAG4786",
+  "name": "Defensive Circle",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you and any allies affected by your <b>Battle Meditation</b> gain a +2 insight bonus to their Reflex Defense, lasting as long as they are affected by your <b>Battle Meditation</b>. Additionally, you gain a +1 bonus to your Use the Force checks to <b>Block</b> and <b>Deflect</b> (as per the Talents) for each adjacent ally wielding a Lightsaber.",
+    "tree": "Jedi Battlemaster",
+    "prerequisite": {
+      "text": "Battle Meditation talent, and Dueling Stance talent, and Jedi Battle Commander talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Battle Meditation talent",
+            "requirement": "Battle Meditation",
+            "type": "TALENT"
+          },
+          {
+            "text": "Dueling Stance talent",
+            "requirement": "Dueling Stance",
+            "type": "TALENT"
+          },
+          {
+            "text": "Jedi Battle Commander talent",
+            "requirement": "Jedi Battle Commander",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Battle Meditation talent, and Dueling Stance talent, and Jedi Battle Commander talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PZrQCFR3QeILfcCC",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

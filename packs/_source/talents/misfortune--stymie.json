@@ -1,0 +1,27 @@
+{
+  "_id": "CeYEijuCikacgtkw",
+  "_key": "!items!CeYEijuCikacgtkw",
+  "name": "Stymie",
+  "type": "talent",
+  "system": {
+    "description": "Once per round, as a Swift Action, you can designate a target within 12 squares of you and in your line of sight as the target of this Talent. Until the beginning of your turn, you can cause that target to take a -5 penalty on all checks made with a single Skill.<br><br>You must have line of sight to your target to make use of this Talent, and declare which Skill is to be penalized at the time this Talent is activated. This is a Mind-Affecting effect.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "D5QUW9JFENHmKEkt",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

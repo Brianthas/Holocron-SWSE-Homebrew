@@ -1,0 +1,27 @@
+{
+  "_id": "rnrRFNdDCu78bJbp",
+  "_key": "!items!rnrRFNdDCu78bJbp",
+  "name": "Outrun",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use the All-Out Movement Action as the Pilot of a Vehicle, your Vehicle gains a +2 dodge bonus to its Reflex Defense.",
+    "tree": "Blockade Runner",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "V0iWORcO6EsKBcDt",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

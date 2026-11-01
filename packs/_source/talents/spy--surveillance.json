@@ -1,0 +1,31 @@
+{
+  "_id": "A9ea8PXymXK3liSA",
+  "_key": "!items!A9ea8PXymXK3liSA",
+  "name": "Surveillance",
+  "type": "talent",
+  "system": {
+    "description": "As a Full-Round Action, you can make a Perception check against a single target within line of sight. The DC is equal to 15 or the target's Stealth check result (if the target is actively trying to remain hidden), whichever is greater.<br><br>If the check is successful, you grant yourself and all allies within line of sight a +2 insight bonus on attack rolls against that target until the end of your next turn. Your allies must be able to hear and understand you to benefit from this bonus, and they do not lose the benefit if they move out of line of sight after it is used.",
+    "tree": "Spy",
+    "prerequisite": {
+      "text": "Trained in Perception",
+      "nodes": {
+        "text": "Trained in Perception",
+        "requirement": "Perception",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eTeszcWuSFoXYwIK",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

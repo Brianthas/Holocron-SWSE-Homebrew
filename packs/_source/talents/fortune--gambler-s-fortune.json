@@ -1,0 +1,31 @@
+{
+  "_id": "5sFNOqNd0pAUlzVk",
+  "_key": "!items!5sFNOqNd0pAUlzVk",
+  "name": "Gambler's Fortune",
+  "type": "talent",
+  "system": {
+    "description": "<i>Gambler's Fortune Talent data created by Sterling Hershey (source).</i><br><br>You may reroll any Wisdom check when you Gamble, but must take the second result, even if it is worse. When Gambling against other characters, you must decide to reroll before the results of your opponents are revealed.",
+    "tree": "Fortune",
+    "prerequisite": {
+      "text": "Gambler talent",
+      "nodes": {
+        "text": "Gambler talent",
+        "requirement": "Gambler",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1ucM7dARXeiTGAXg",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "rjjagWFNdQ00Q4Ks",
+  "_key": "!items!rjjagWFNdQ00Q4Ks",
+  "name": "Strong-Willed",
+  "type": "talent",
+  "system": {
+    "description": "You are trained to resist Jedi mind tricks. You add your Class Level to your Will Defense against Use the Force checks.",
+    "tree": "Force Hunter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yKQPiLz85SioIo2c",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "XVWsJLSWm5Rpme5Z",
+  "_key": "!items!XVWsJLSWm5Rpme5Z",
+  "name": "Difficult to Sense",
+  "type": "talent",
+  "system": {
+    "description": "You are skilled at concealing your presence from other Force-users. You may reroll any opposed Use the Force check made to conceal your presence from someone who attempts to sense other Force-users, keeping the better of the two results.",
+    "tree": "Jedi Refugee",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ttHyxSvPD8NLKuDI",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

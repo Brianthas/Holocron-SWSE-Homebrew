@@ -1,0 +1,27 @@
+{
+  "_id": "msTdRXqy9u7CWadG",
+  "_key": "!items!msTdRXqy9u7CWadG",
+  "name": "Strength Implant",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Standard Action, you can give one adjacent living creature a <b>Strength Implant</b>. The target must be willing to receive this Implant, which allows the target to deal +1 die of damage whenever it hits with a melee attack until the end of the encounter.",
+    "tree": "Implant",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jcAJkZRMf5BycBTV",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

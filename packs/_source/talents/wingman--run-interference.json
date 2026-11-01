@@ -1,0 +1,31 @@
+{
+  "_id": "a25rMOalYzlOYknZ",
+  "_key": "!items!a25rMOalYzlOYknZ",
+  "name": "Run Interference",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction, you can use your Vehicular Combat Feat to negate an attack against an adjacent Vehicle of Colossal size or smaller that is Piloted by an ally. If you can use Vehicular Combat more than once per round, each use to negate an attack counts toward your limit of uses per round.",
+    "tree": "Wingman",
+    "prerequisite": {
+      "text": "Escort Pilot talent",
+      "nodes": {
+        "text": "Escort Pilot talent",
+        "requirement": "Escort Pilot",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nfw8ADUplCh1YOHf",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

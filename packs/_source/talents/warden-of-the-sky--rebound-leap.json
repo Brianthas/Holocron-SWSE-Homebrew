@@ -1,0 +1,31 @@
+{
+  "_id": "Hn614YthKu8w708e",
+  "_key": "!items!Hn614YthKu8w708e",
+  "name": "Rebound Leap",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you reduce an opponent to 0 Hit Points with an Unarmed attack, you can make a Jump check as a Free Action, moving a distance as determined by the results of your Jump check. You can use the <i>Surge</i> Force Power as normal to enhance this Jump check, increasing the distance you move.",
+    "tree": "Warden of the Sky",
+    "prerequisite": {
+      "text": "a member of The Wardens of the Sky",
+      "nodes": {
+        "text": "a member of The Wardens of the Sky",
+        "requirement": "The Wardens of the Sky",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LaoIOTkOAnJRVxR3",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

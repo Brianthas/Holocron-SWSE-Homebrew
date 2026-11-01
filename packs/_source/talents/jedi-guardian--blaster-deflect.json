@@ -1,0 +1,27 @@
+{
+  "_id": "B6P1YCbljAq16Wlk",
+  "_key": "!items!B6P1YCbljAq16Wlk",
+  "name": "Blaster Deflect",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction, you can negate a single ranged attack by making a Use the Force check. The DC of the check is equal to the result of the attack roll you wish to negate, and you take a -5 cumulative penalty for every time you have used this Talent, <b>Block</b>, <b>Deflect</b>, or <b>Grenade Defense</b> since the beginning of your last turn.<br><br>You must have a blaster drawn in order to use this Talent, and you must be aware of the attack and not be Flat-Footed. Using this Talent consumes one shot from the blaster for each attack you negate.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zBWnhRv79JxYDZDv",
+      "sourceBook": "New Jedi Order Campaign Guide"
+    }
+  }
+}

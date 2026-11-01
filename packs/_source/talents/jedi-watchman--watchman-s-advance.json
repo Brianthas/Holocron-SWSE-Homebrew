@@ -1,0 +1,31 @@
+{
+  "_id": "kQ0ZeZJJEgAeAFvT",
+  "_key": "!items!kQ0ZeZJJEgAeAFvT",
+  "name": "Watchman's Advance",
+  "type": "talent",
+  "system": {
+    "description": "When acting in the Surprise Round, you and your allies can take an extra Move Action. Any character can gain only one extra Move Action during the Surprise Round, regardless of the number of characters with this Talent in your group.",
+    "tree": "Jedi Watchman",
+    "prerequisite": {
+      "text": "Force Warning talent",
+      "nodes": {
+        "text": "Force Warning talent",
+        "requirement": "Force Warning",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AmmW8yAOK8oJmZBO",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

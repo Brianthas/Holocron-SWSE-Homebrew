@@ -1,0 +1,27 @@
+{
+  "_id": "qfCZDJhBWUePmHJB",
+  "_key": "!items!qfCZDJhBWUePmHJB",
+  "name": "Just a Droid",
+  "type": "talent",
+  "system": {
+    "description": "You are adept at passing yourself off as an ordinary Droid. You can use each of the following Actions once per encounter.",
+    "tree": "Autonomy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "c9TEpIP0cQpEkyVg",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

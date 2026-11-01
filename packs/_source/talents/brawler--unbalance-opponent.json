@@ -1,0 +1,31 @@
+{
+  "_id": "dKJyRAdtLuhTgISp",
+  "_key": "!items!dKJyRAdtLuhTgISp",
+  "name": "Unbalance Opponent",
+  "type": "talent",
+  "system": {
+    "description": "You are skilled at keeping your opponents off balance in melee combat. At the beginning of your turn, you can choose to designate an opponent no more than one size category larger or smaller than you. That opponent doesn't get to add their Strength bonus on attack rolls when targeting you.<br><br>(If the opponent has a Strength penalty, they still suffer from that penalty.) The opponent's Strength modifier applies to damage, as usual. You can select a new opponent on your next turn.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "Expert Grappler talent",
+      "nodes": {
+        "text": "Expert Grappler talent",
+        "requirement": "Expert Grappler",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JKUmb4WfumUChqam",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

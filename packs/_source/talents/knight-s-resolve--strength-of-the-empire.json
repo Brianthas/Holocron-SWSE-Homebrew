@@ -1,0 +1,31 @@
+{
+  "_id": "KI27kYtBVxnp01tR",
+  "_key": "!items!KI27kYtBVxnp01tR",
+  "name": "Strength of the Empire",
+  "type": "talent",
+  "system": {
+    "description": "When an ally within 12 squares of you and in your line of sight hits with a Lightsaber attack, you deal +1 die of damage with the next Lightsaber attack you make before the end of your next turn.",
+    "tree": "Knight's Resolve",
+    "prerequisite": {
+      "text": "Knight's Morale talent",
+      "nodes": {
+        "text": "Knight's Morale talent",
+        "requirement": "Knight's Morale",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4lKXZVuZEip0Smk2",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "VuZ6e80l4RqgvNLf",
+  "_key": "!items!VuZ6e80l4RqgvNLf",
+  "name": "Weaken Resolve",
+  "type": "talent",
+  "system": {
+    "description": "Once per round, when you deal damage equal to or greater than the target's Damage Threshold, you can make a Persuasion check as a Free Action; if the result equals or exceeds the target's Will Defense, you fill the target with terror, causing it to flee from you at top speed for 1 minute. The target can't take Standard Actions, Swift Actions, or Full-Round Actions while fleeing, but the target stops fleeing and can act normally if it is wounded. As a Free Action or Reaction, the target can spend a Force Point (if it has not already spent one earlier in the round) to negate the effect. The effect is automatically negated if the target's level is equal to or higher than your Character Level. This is a Mind-Affecting fear effect.<br><br>Unlike with other Mind-Affecting effects, you need only to hail a Vehicle to weaken the crew's resolve. When you deal damage that equals or exceeds a Vehicle's Damage Threshold, you may use this Talent; in addition, you may Ready an Action to use this Talent after any Gunner on your Vehicle deals damage that equals or exceeds a Vehicle's Damage Threshold. You make your check against the Vehicle's Commander; all Nonheroic crews are assumed to have a Will Defense of 10. The effect is automatically negated if the target Vehicle's Challenge Level is greater than your Heroic Level or your Vehicle's Challenge Level.",
+    "tree": "Influence",
+    "prerequisite": {
+      "text": "Presence talent",
+      "nodes": {
+        "text": "Presence talent",
+        "requirement": "Presence",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "woVuS6EO5XEkrGui",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

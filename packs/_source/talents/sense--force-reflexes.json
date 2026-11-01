@@ -1,0 +1,42 @@
+{
+  "_id": "hptYBwgi661O8UGD",
+  "_key": "!items!hptYBwgi661O8UGD",
+  "name": "Force Reflexes",
+  "type": "talent",
+  "system": {
+    "description": "When activating a Starship Maneuver, you may spend a Force Point to reroll your Pilot check, keeping the better of the two results.",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "Force Pilot talent, and Starship Tactics feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Force Pilot talent",
+            "requirement": "Force Pilot",
+            "type": "TALENT"
+          },
+          {
+            "text": "Starship Tactics feat",
+            "requirement": "Starship Tactics",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Force Pilot talent, and Starship Tactics feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tygHi81eoQzxLwiv",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

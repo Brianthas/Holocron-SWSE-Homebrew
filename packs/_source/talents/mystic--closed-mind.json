@@ -1,0 +1,27 @@
+{
+  "_id": "KYGzhzRGGlq7kiR5",
+  "_key": "!items!KYGzhzRGGlq7kiR5",
+  "name": "Closed Mind",
+  "type": "talent",
+  "system": {
+    "description": "Whenever a creature uses a Mind-Affecting effect on you that targets your Will Defense, it must roll the attack roll or Skill Check twice, taking the lower result.",
+    "tree": "Mystic",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RmUwaLMZhxJIzc9A",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

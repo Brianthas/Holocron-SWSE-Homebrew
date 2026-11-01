@@ -1,0 +1,31 @@
+{
+  "_id": "d9pQDTnwJ53I4JBd",
+  "_key": "!items!d9pQDTnwJ53I4JBd",
+  "name": "Hailfire",
+  "type": "talent",
+  "system": {
+    "description": "When you are wielding two Pistols, as a Standard Action you can make an Autofire attack with one of the Pistols as though the Weapon were set to Autofire, even if the Pistol would not normally be capable of Autofire.<br><br>The normal penalties for Autofire still apply to this attack roll, and you may split the number of shots consumed between the two Pistols.",
+    "tree": "Pistoleer",
+    "prerequisite": {
+      "text": "Dual Weapon Mastery I feat",
+      "nodes": {
+        "text": "Dual Weapon Mastery I feat",
+        "requirement": "Dual Weapon Mastery I",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jhoq2RbAflJel6A0",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

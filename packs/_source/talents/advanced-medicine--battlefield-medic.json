@@ -1,0 +1,31 @@
+{
+  "_id": "E9wOitAPs03VCWNa",
+  "_key": "!items!E9wOitAPs03VCWNa",
+  "name": "Battlefield Medic",
+  "type": "talent",
+  "system": {
+    "description": "You can use the First Aid application of the Treat Injury skill on a creature as a Standard Action instead of a Full-Round Action.",
+    "tree": "Advanced Medicine",
+    "prerequisite": {
+      "text": "Steady Under Pressure talent",
+      "nodes": {
+        "text": "Steady Under Pressure talent",
+        "requirement": "Steady Under Pressure",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lqIMoiqP6W2E4PbN",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

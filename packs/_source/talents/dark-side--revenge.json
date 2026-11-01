@@ -1,0 +1,42 @@
+{
+  "_id": "vE72Icpv1MCIOZSg",
+  "_key": "!items!vE72Icpv1MCIOZSg",
+  "name": "Revenge",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an ally of equal or higher level than you is killed or reduced to 0 hit points within your line of sight, you gain a +2 Force bonus on attack rolls and damage rolls until the end of the encounter. (Since Force bonuses do not stack, you don't get a higher bonus if more than one ally falls in the same encounter.)",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "Dark Presence talent, and Power of the Dark Side talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dark Presence talent",
+            "requirement": "Dark Presence",
+            "type": "TALENT"
+          },
+          {
+            "text": "Power of the Dark Side talent",
+            "requirement": "Power of the Dark Side",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Dark Presence talent, and Power of the Dark Side talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "g7Il7a7h2ffWRNWO",
+      "sourceBook": ""
+    }
+  }
+}

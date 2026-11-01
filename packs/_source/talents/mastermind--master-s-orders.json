@@ -1,0 +1,42 @@
+{
+  "_id": "T5wTLUAnek5rse8Y",
+  "_key": "!items!T5wTLUAnek5rse8Y",
+  "name": "Master's Orders",
+  "type": "talent",
+  "system": {
+    "description": "When an ally uses an Action granted to him or her by you, the ally can reroll any attack or check made during that Action, taking the better result.",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "Impel Ally I talent, and Impel Ally II talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Impel Ally I talent",
+            "requirement": "Impel Ally I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Impel Ally II talent",
+            "requirement": "Impel Ally II",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Impel Ally I talent, and Impel Ally II talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KoeLgdFjxKOJdyfO",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

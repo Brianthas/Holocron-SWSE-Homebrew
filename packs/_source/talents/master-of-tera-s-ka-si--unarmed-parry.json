@@ -1,0 +1,47 @@
+{
+  "_id": "edBojmnWAHxVsigH",
+  "_key": "!items!edBojmnWAHxVsigH",
+  "name": "Unarmed Parry",
+  "type": "talent",
+  "system": {
+    "description": "When you Fight Defensively, as a Reaction you can negate a melee attack by making a successful Unarmed attack roll. If your attack roll equals or exceeds the attack roll of the incoming melee attack, the attack is negated. You must be aware of the attack, and not be Flat-Footed, and you take a cumulative -2 penalty to all attack rolls for each attack roll made since the beginning of your last turn.",
+    "tree": "Master of Teräs Käsi",
+    "prerequisite": {
+      "text": "Teräs Käsi Basics talent, Martial Arts I feat, and Martial Arts II feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Teräs Käsi Basics talent",
+            "requirement": "Teräs Käsi Basics",
+            "type": "TALENT"
+          },
+          {
+            "text": "Martial Arts I feat",
+            "requirement": "Martial Arts I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Martial Arts II feat",
+            "requirement": "Martial Arts II",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Teräs Käsi Basics talent, Martial Arts I feat, and Martial Arts II feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Co70MDEEFqz18Xnl",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

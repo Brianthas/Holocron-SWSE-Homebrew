@@ -1,0 +1,31 @@
+{
+  "_id": "SZs6LyICfUuDJ8Mp",
+  "_key": "!items!SZs6LyICfUuDJ8Mp",
+  "name": "Keep it Together",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you successfully Jury-Rig a device or Vehicle, the item does not move -5 steps along the Condition Track at the end of the encounter, though it does move -2 Persistent steps down the Condition Track.",
+    "tree": "Fringer",
+    "prerequisite": {
+      "text": "Jury-Rigger talent",
+      "nodes": {
+        "text": "Jury-Rigger talent",
+        "requirement": "Jury-Rigger",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jeLqEaOHlEQxF6dM",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

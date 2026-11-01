@@ -1,0 +1,31 @@
+{
+  "_id": "dbq0HDEm2Ypa3vyF",
+  "_key": "!items!dbq0HDEm2Ypa3vyF",
+  "name": "Defensive Measures",
+  "type": "talent",
+  "system": {
+    "description": "All enemies treat your <b>Safe Zone</b> as Difficult Terrain.",
+    "tree": "Pathfinder",
+    "prerequisite": {
+      "text": "Safe Zone talent",
+      "nodes": {
+        "text": "Safe Zone talent",
+        "requirement": "Safe Zone",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vmJKGIx5yeAgNxrX",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

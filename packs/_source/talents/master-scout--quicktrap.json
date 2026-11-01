@@ -1,0 +1,42 @@
+{
+  "_id": "WLMoOaJzEwAnZ3p4",
+  "_key": "!items!WLMoOaJzEwAnZ3p4",
+  "name": "Quicktrap",
+  "type": "talent",
+  "system": {
+    "description": "You can use the <b>Tripwire</b> Talent as a Move Action instead of a Standard Action.",
+    "tree": "Master Scout",
+    "prerequisite": {
+      "text": "Jury-Rigger talent, and Tripwire talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Jury-Rigger talent",
+            "requirement": "Jury-Rigger",
+            "type": "TALENT"
+          },
+          {
+            "text": "Tripwire talent",
+            "requirement": "Tripwire",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Jury-Rigger talent, and Tripwire talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oR0RoMLktgqqpB3Z",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

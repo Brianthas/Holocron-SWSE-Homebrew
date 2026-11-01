@@ -1,0 +1,27 @@
+{
+  "_id": "E2ohdUHNqlAGN0VH",
+  "_key": "!items!E2ohdUHNqlAGN0VH",
+  "name": "Spring the Trap",
+  "type": "talent",
+  "system": {
+    "description": "If you and all your allies roll higher Initiative checks to start combat than do all your opponents, you automatically gain a Surprise Round, even if the opponents are aware of you when combat begins.",
+    "tree": "Ambusher",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FhyVWA5kB2YEXswS",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

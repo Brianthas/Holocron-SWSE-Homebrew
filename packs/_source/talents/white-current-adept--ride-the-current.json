@@ -1,0 +1,31 @@
+{
+  "_id": "DSvjcYxFtq7tfPpD",
+  "_key": "!items!DSvjcYxFtq7tfPpD",
+  "name": "Ride the Current",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction to being damaged by an attack or Force Power, you can spend a Force Point to gain Total Concealment from all targets until the end of your next turn. Additionally, if you have not yet taken your Second Wind, you can do so immediately as part of this Reaction.",
+    "tree": "White Current Adept",
+    "prerequisite": {
+      "text": "a member of The Fallanassi",
+      "nodes": {
+        "text": "a member of The Fallanassi",
+        "requirement": "The Fallanassi",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2YzkvR8wUE2PzKDc",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

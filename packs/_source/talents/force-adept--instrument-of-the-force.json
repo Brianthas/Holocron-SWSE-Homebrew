@@ -1,0 +1,27 @@
+{
+  "_id": "I8629vLHaYX1ytnO",
+  "_key": "!items!I8629vLHaYX1ytnO",
+  "name": "Instrument of the Force",
+  "type": "talent",
+  "system": {
+    "description": "You are particularly in tune with The Living Force. When you successfully use Search Your Feelings, you gain a Force Point that must be used before the end of the encounter.<br><br>If you use this Force Point in a manner that would end in unfavorable results (per Search Your Feelings), you raise your Dark Side Score by 1. lf you use the Force Point in an action that would normally raise your Dark Side Score, you raise your Dark Side Score by 2 instead.",
+    "tree": "Force Adept",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "N5WVFs7L5OnAkf6L",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

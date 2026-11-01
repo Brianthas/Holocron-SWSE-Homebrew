@@ -1,0 +1,27 @@
+{
+  "_id": "QU6BhAhuwSGWT5sD",
+  "_key": "!items!QU6BhAhuwSGWT5sD",
+  "name": "Boarder",
+  "type": "talent",
+  "system": {
+    "description": "You are skilled at boarding hostile vessels. You ignore Cover (but not Improved Cover) with your Character Scale ranged attacks while aboard a Starship or Space Station.",
+    "tree": "Privateer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rnVlUTUEQSknJNSc",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

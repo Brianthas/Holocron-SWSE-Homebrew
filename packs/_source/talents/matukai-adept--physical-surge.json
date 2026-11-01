@@ -1,0 +1,31 @@
+{
+  "_id": "9fSVhdrV63ZJKEmU",
+  "_key": "!items!9fSVhdrV63ZJKEmU",
+  "name": "Physical Surge",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you roll an Initiative check at the start of combat, you can spend a Swift Action immediately, regardless of whether or not you are Surprised.",
+    "tree": "Matukai Adept",
+    "prerequisite": {
+      "text": "a member of The Matukai",
+      "nodes": {
+        "text": "a member of The Matukai",
+        "requirement": "The Matukai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9NPj5Jlnoek547ho",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

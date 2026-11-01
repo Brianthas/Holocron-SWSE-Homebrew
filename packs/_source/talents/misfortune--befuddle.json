@@ -1,0 +1,27 @@
+{
+  "_id": "6jUIjhYzJjDz1dSr",
+  "_key": "!items!6jUIjhYzJjDz1dSr",
+  "name": "Befuddle",
+  "type": "talent",
+  "system": {
+    "description": "If you succeed on a Deception check against a target's Will Defense as a Swift Action, until the start of your next turn you can move though the Threatened Area of that target as part of your Move Action without provoking an Attack of Opportunity.<br><br>Each Threatened square that you move through counts as 2 squares of movement.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KrjCWrsDz9x0ALPq",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

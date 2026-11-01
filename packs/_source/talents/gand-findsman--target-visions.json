@@ -1,0 +1,31 @@
+{
+  "_id": "P9p411uSXsW4KoUR",
+  "_key": "!items!P9p411uSXsW4KoUR",
+  "name": "Target Visions",
+  "type": "talent",
+  "system": {
+    "description": "You have visions that tell you what your enemies are likely to do even before they do it. Once per encounter, when an enemy creature moves within 6 squares of you, you may make a melee or ranged attack against that target as a Reaction to their movement.",
+    "tree": "Gand Findsman",
+    "prerequisite": {
+      "text": "Findsman Ceremonies talent",
+      "nodes": {
+        "text": "Findsman Ceremonies talent",
+        "requirement": "Findsman Ceremonies",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wvQ0px4CuEeQFH3z",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

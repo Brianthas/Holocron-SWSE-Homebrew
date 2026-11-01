@@ -1,0 +1,27 @@
+{
+  "_id": "niGpLVExx6Qk2BT8",
+  "_key": "!items!niGpLVExx6Qk2BT8",
+  "name": "Disruptive",
+  "type": "talent",
+  "system": {
+    "description": "By spending two Swift Actions, you can use your knack for causing trouble and instigating chaos to disrupt your enemies. Until the start of your next turn, you suppress all morale and insight bonuses applied to enemies in your line of sight.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nAQOyrDxaUWeLRhV",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

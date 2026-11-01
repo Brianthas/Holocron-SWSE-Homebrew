@@ -1,0 +1,27 @@
+{
+  "_id": "66X58W1t1eYNqhIb",
+  "_key": "!items!66X58W1t1eYNqhIb",
+  "name": "Sabotage Device",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can sabotage any object or weapon that is powered by an Energy Cell or Power Pack so that it becomes a Grenade. The object or Weapon is then considered to be a Frag Grenade in all ways, but it can be turned back into its original form with another Swift Action.",
+    "tree": "Military Engineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wFEMTVnSkugwRLrA",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "41OnKZJgLSKej6wp",
+  "_key": "!items!41OnKZJgLSKej6wp",
+  "name": "Praetoria Ishu",
+  "type": "talent",
+  "system": {
+    "description": "You can use the <b>Block</b> Talent to negate a melee attack made against an adjacent ally. In addition, you can use the <b>Deflect</b> Talent to negate a ranged attack made against an adjacent ally.",
+    "tree": "Knight's Resolve",
+    "prerequisite": {
+      "text": "Dueling Stance talent",
+      "nodes": {
+        "text": "Dueling Stance talent",
+        "requirement": "Dueling Stance",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BvqImxRpN1J8yNir",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

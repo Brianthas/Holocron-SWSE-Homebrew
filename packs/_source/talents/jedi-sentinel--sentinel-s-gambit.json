@@ -1,0 +1,27 @@
+{
+  "_id": "3HIaHh8NEcluB6yY",
+  "_key": "!items!3HIaHh8NEcluB6yY",
+  "name": "Sentinel's Gambit",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Swift Action, you can designate an adjacent opponent with a Dark Side Score of 1 or higher as the target of this Talent. The designated opponent loses its Dexterity bonus to Reflex Defense against your attacks until the end of your next turn.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6mw2iS2ahE0qF8O8",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

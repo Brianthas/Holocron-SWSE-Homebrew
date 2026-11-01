@@ -1,0 +1,47 @@
+{
+  "_id": "HE9LDrKLk2Fmi6zu",
+  "_key": "!items!HE9LDrKLk2Fmi6zu",
+  "name": "Force Commander",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use the <b>Begin Attack Run</b> Talent, make a DC 20 Use the Force check as a Free Action. Success indicates that in addition to the regular benefit of <b>Begin Attack Run</b>, Vehicles in your squadron deal +1 die of damage against the designated target.",
+    "tree": "Squadron Leader",
+    "prerequisite": {
+      "text": "Force Sensitivity feat, Begin Attack Run talent, and Charisma 13",
+      "nodes": {
+        "children": [
+          {
+            "text": "Force Sensitivity feat",
+            "requirement": "Force Sensitivity",
+            "type": "FEAT"
+          },
+          {
+            "text": "Begin Attack Run talent",
+            "requirement": "Begin Attack Run",
+            "type": "TALENT"
+          },
+          {
+            "text": "Charisma 13",
+            "requirement": "Charisma 13",
+            "type": "ATTRIBUTE"
+          }
+        ],
+        "text": "Force Sensitivity feat, Begin Attack Run talent, and Charisma 13",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "j9r3JUaYb47M69Aj",
+      "sourceBook": "New Jedi Order Campaign Guide"
+    }
+  }
+}

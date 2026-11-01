@@ -1,0 +1,27 @@
+{
+  "_id": "S52ghMUkiq1jJ4K4",
+  "_key": "!items!S52ghMUkiq1jJ4K4",
+  "name": "Hit the Deck",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you make an Area Attack, each ally in the area takes no damage if your attack roll fails to overcome his or her Reflex Defense, and takes half damage if the attack hits.",
+    "tree": "Recklessness",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XwH5AOkzvfoiGs56",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

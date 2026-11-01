@@ -1,0 +1,31 @@
+{
+  "_id": "NBbbksW0CSRTcmda",
+  "_key": "!items!NBbbksW0CSRTcmda",
+  "name": "Wild Sense",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action once per turn, you can make a Use the Force check to touch the mind of a Beast with an Indifferent or better Attitude toward you, provided it is within 12 squares of you and in your line of sight. When you do so, the Beast makes an immediate active Perception check, and you are considered to perceive everything the Beast does, including noticing targets, as though you had made the check.<br><br>Additionally, until the end of your turn, you are considered to have line of sight to anything the Beast has line of sight to.",
+    "tree": "Beastwarden",
+    "prerequisite": {
+      "text": "Charm Beast (Beastwarden Talent Tree) talent",
+      "nodes": {
+        "text": "Charm Beast (Beastwarden Talent Tree) talent",
+        "requirement": "Charm Beast (Beastwarden Talent Tree)",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2lHllESW1BV4bQXZ",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

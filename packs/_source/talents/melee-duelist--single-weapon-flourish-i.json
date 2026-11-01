@@ -1,0 +1,59 @@
+{
+  "_id": "fPj3fBptWBkGa3Vd",
+  "_key": "!items!fPj3fBptWBkGa3Vd",
+  "name": "Single Weapon Flourish I",
+  "type": "talent",
+  "system": {
+    "description": "When you wield only a single light melee weapon, or a single Lightsaber, and use the Full Attack Action, once per turn; you can Move up to your Speed as a Free Action at any time during your turn.",
+    "tree": "Melee Duelist",
+    "prerequisite": {
+      "text": "(Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers), and Weapon Finesse feat",
+      "nodes": {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers",
+                "requirement": "Double Attack (Advanced Melee Weapon)",
+                "type": "FEAT"
+              },
+              {
+                "text": "Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers",
+                "requirement": "Double Attack (#payload#)",
+                "type": "FEAT"
+              },
+              {
+                "text": "Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers",
+                "requirement": "Double Attack (Lightsabers)",
+                "type": "FEAT"
+              }
+            ],
+            "count": 1,
+            "text": "Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers",
+            "type": "OR"
+          },
+          {
+            "text": "Weapon Finesse feat",
+            "requirement": "Weapon Finesse",
+            "type": "FEAT"
+          }
+        ],
+        "text": "(Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers), and Weapon Finesse feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7aFidkaCRPJLZd6h",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

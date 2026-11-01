@@ -1,0 +1,31 @@
+{
+  "_id": "VvsXM6ckH93UNa20",
+  "_key": "!items!VvsXM6ckH93UNa20",
+  "name": "Nature Sense",
+  "type": "talent",
+  "system": {
+    "description": "You may Take 10 on any Survival check made for Basic Survival.",
+    "tree": "Beastwarden",
+    "prerequisite": {
+      "text": "Trained in Survival",
+      "nodes": {
+        "text": "Trained in Survival",
+        "requirement": "Survival",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "J1syrert4KYjWSFQ",
+      "sourceBook": "Saga Edition All-Purpose Sourcebook"
+    }
+  }
+}

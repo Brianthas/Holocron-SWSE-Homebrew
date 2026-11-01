@@ -1,0 +1,31 @@
+{
+  "_id": "jdo7kz6bWKs8cLPX",
+  "_key": "!items!jdo7kz6bWKs8cLPX",
+  "name": "Always Ready",
+  "type": "talent",
+  "system": {
+    "description": "You are accustomed to operating in response to enemy actions. When your Readied Action is triggered, it does not change your Initiative Count.",
+    "tree": "Infiltration",
+    "prerequisite": {
+      "text": "Trained in Initiative",
+      "nodes": {
+        "text": "Trained in Initiative",
+        "requirement": "Initiative",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ngU53syoUxbKCYTr",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

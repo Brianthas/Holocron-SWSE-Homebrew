@@ -1,0 +1,31 @@
+{
+  "_id": "R8NiewQZXINx4Yjw",
+  "_key": "!items!R8NiewQZXINx4Yjw",
+  "name": "Vehicle Focus",
+  "type": "talent",
+  "system": {
+    "description": "Choose a single type of Vehicle from the following list:<br><br>When you are the Pilot or Gunner of that type of Vehicle, you gain a +2 bonus to all attack rolls with its Vehicle Weapons, and may Take 10 on any Pilot checks made while piloting that type of Vehicle, even when you are otherwise unable to.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "Wisdom 13",
+      "nodes": {
+        "text": "Wisdom 13",
+        "requirement": "Wisdom 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bn46M1ZA0gvYeBMP",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

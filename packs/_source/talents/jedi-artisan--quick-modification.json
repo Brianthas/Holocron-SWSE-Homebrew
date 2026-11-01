@@ -1,0 +1,31 @@
+{
+  "_id": "fggmfOXgzdFNdv8H",
+  "_key": "!items!fggmfOXgzdFNdv8H",
+  "name": "Quick Modification",
+  "type": "talent",
+  "system": {
+    "description": "You can spend 1 minute modifying a Lightsaber you have built, removing one Lightsaber Accessory or Lightsaber Modification and putting a different one its place.<br><br>Gamemasters may rule that some modifications cannot be added or removed in this way due to rarity of materials or the difficulty of the Lightsaber Modification (such as adding or removing the Electrum Detail).",
+    "tree": "Jedi Artisan",
+    "prerequisite": {
+      "text": "Masterwork Lightsaber talent",
+      "nodes": {
+        "text": "Masterwork Lightsaber talent",
+        "requirement": "Masterwork Lightsaber",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0b64smVsOFcPyqbv",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

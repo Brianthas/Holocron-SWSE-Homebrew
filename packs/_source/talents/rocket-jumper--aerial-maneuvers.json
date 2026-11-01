@@ -1,0 +1,27 @@
+{
+  "_id": "KDc0eg2Rdfthm0pi",
+  "_key": "!items!KDc0eg2Rdfthm0pi",
+  "name": "Aerial Maneuvers",
+  "type": "talent",
+  "system": {
+    "description": "Once per round (as a Reaction), when you are airborne with a Jet Pack or Rocket Pack, you may negate a successful attack by making a Pilot check. The DC of the check is equal to the result of the attack roll you wish to negate. In addition, when flying a Jet Pack, you are considered proficient with its integrated weapons.<br><br>This includes any piece of equipment integrated to the Jet Pack, though it does not apply to equipment integrated into armor to which the Jet Pack might be mounted. If you have taken the Starship Tactics feat, you may activate Starship Maneuvers as appropriate while flying a Jet Pack.",
+    "tree": "Rocket Jumper",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "l74lGi7964M71Oz9",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - Clones"
+    }
+  }
+}

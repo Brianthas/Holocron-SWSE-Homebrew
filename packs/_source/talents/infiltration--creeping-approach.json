@@ -1,0 +1,31 @@
+{
+  "_id": "8Xv28AAEasHf9tWi",
+  "_key": "!items!8Xv28AAEasHf9tWi",
+  "name": "Creeping Approach",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can designate a single opponent within 12 squares that is unaware of you as the target of this Talent. Until the beginning of your next turn, that target may not make Perception checks to notice you, even if you enter the target's line of sight. If you or any of your allies attack the target, the effect of this Talent ends.",
+    "tree": "Infiltration",
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "nodes": {
+        "text": "Trained in Stealth",
+        "requirement": "Stealth",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xQP2YfjhVnO4bcIb",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

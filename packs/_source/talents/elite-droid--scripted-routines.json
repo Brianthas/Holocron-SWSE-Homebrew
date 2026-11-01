@@ -1,0 +1,31 @@
+{
+  "_id": "swgcujqQjsovAIiZ",
+  "_key": "!items!swgcujqQjsovAIiZ",
+  "name": "Scripted Routines",
+  "type": "talent",
+  "system": {
+    "description": "Your extensive experience allows you to preset specific routines that give you an advantage in some situations. Once per encounter you can use each of the following Actions:",
+    "tree": "Elite Droid",
+    "prerequisite": {
+      "text": "Base Attack Bonus 5",
+      "nodes": {
+        "text": "Base Attack Bonus 5",
+        "requirement": "5",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "j8zOFU43O3ERf1w1",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

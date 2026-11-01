@@ -1,0 +1,31 @@
+{
+  "_id": "9vz1dV3ZBhLjNZVC",
+  "_key": "!items!9vz1dV3ZBhLjNZVC",
+  "name": "Weapons Power Surge",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Free Action, you can increase the damage dealt by one of your weapons by 1 or 2 damage dice in exchange for moving -1 step down the Condition Track for each die increased. The weapon must be permanently mounted to your chassis (as a Tool), and it must use your internal power supply. Handheld weapons, such as Blaster Rifles, do not qualify for this Talent.",
+    "tree": "4th-Degree Droid",
+    "prerequisite": {
+      "text": "Equipped with a Weapon Tool",
+      "nodes": {
+        "text": "Equipped with a Weapon Tool",
+        "requirement": "a Weapon Tool",
+        "type": "EQUIPPED"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FCUpu0ysuK97eARw",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

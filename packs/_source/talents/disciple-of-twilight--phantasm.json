@@ -1,0 +1,31 @@
+{
+  "_id": "KOaSvKNoKWpo1UUV",
+  "_key": "!items!KOaSvKNoKWpo1UUV",
+  "name": "Phantasm",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you successfully use a Force Power with the [<i>Mind-Affecting</i>] descriptor against a target, any time before the end of encounter you can spend a Force Point as a Swift Action to create illusory phantoms around that target.<br><br>When you do this, you and all of your allies within the target's line of sight have Concealment from the target until the end of your next turn.",
+    "tree": "Disciple of Twilight",
+    "prerequisite": {
+      "text": "a member of The Disciples of Twilight",
+      "nodes": {
+        "text": "a member of The Disciples of Twilight",
+        "requirement": "The Disciples of Twilight",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7EFQJilPQ1EVrj0l",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

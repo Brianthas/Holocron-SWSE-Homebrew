@@ -1,0 +1,27 @@
+{
+  "_id": "ZeRuUkzc6foXUDaV",
+  "_key": "!items!ZeRuUkzc6foXUDaV",
+  "name": "Art of Concealment",
+  "type": "talent",
+  "system": {
+    "description": "Some smugglers are adept at hiding contraband and weapons, even on their person. When making a Stealth check to Conceal an item, you can Take 10 even under pressure. Additionally, you can Conceal an item as a Swift Action.",
+    "tree": "Smuggling",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CoMqrZgSkjJZLpkh",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

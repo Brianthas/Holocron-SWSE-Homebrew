@@ -1,0 +1,27 @@
+{
+  "_id": "cNKD2NGofU5AwjT9",
+  "_key": "!items!cNKD2NGofU5AwjT9",
+  "name": "Link",
+  "type": "talent",
+  "system": {
+    "description": "You can lend your strength in The Force to another character, creating a bond between you through which The Force flows. As a Standard Action, you can designate one willing ally within 12 squares of you and in your line of sight. This ally must be Trained in the Use the Force skill.<br><br>As long as you remain within 12 squares of each other, you can aid each other on Use the Force checks as a Reaction. However, the character using the Aid Another Reaction takes a -5 penalty on all Use the Force checks until the end of their next turn.<br><br>This <b>Link</b> lasts until the end of the encounter, or until you or your ally ends the <b>Link</b> (a Free Action). You can have only one active <b>Link</b> at a time.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Fr5S6CmVR3qvPgTN",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

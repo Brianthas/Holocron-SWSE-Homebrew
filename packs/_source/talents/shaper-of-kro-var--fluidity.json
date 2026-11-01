@@ -1,0 +1,31 @@
+{
+  "_id": "1HMnfWzi4MjYmp0h",
+  "_key": "!items!1HMnfWzi4MjYmp0h",
+  "name": "Fluidity",
+  "type": "talent",
+  "system": {
+    "description": "You can use your Use the Force check modifier in place of your Acrobatics check modifier when making Acrobatics checks. If you are entitled to an Acrobatics check reroll, you may reroll your Use the Force check instead (subject to the same circumstances and limitations).<br><br>Additionally, when you attempt a Grapple or attempt to break free of a Grapple, you can spend a Force Point to be treated as if you were one size category larger.",
+    "tree": "Shaper of Kro Var",
+    "prerequisite": {
+      "text": "a member of The Shapers of Kro Var",
+      "nodes": {
+        "text": "a member of The Shapers of Kro Var",
+        "requirement": "The Shapers of Kro Var",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mZu80NpmRsIjPpmF",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

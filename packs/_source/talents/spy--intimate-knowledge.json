@@ -1,0 +1,31 @@
+{
+  "_id": "lGjRNH3O3vg8UYU8",
+  "_key": "!items!lGjRNH3O3vg8UYU8",
+  "name": "Intimate Knowledge",
+  "type": "talent",
+  "system": {
+    "description": "Experienced spies and Scouts remember many details from previous assignments, providing insights on later missions. Once per encounter as a Standard Action, you can Take 20 on a check involving a Knowledge skill you are Trained in, or Take 10 on a check involving a Knowledge skill you are Untrained in, even if circumstances would not normally allow you to Take 10 or Take 20.",
+    "tree": "Spy",
+    "prerequisite": {
+      "text": "Surveillance talent",
+      "nodes": {
+        "text": "Surveillance talent",
+        "requirement": "Surveillance",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ktWf8KwnnaJ1viUt",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

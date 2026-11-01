@@ -1,0 +1,27 @@
+{
+  "_id": "YBy4AbeqAKJaCa1Q",
+  "_key": "!items!YBy4AbeqAKJaCa1Q",
+  "name": "Expanded Sensors",
+  "type": "talent",
+  "system": {
+    "description": "If you or any of your Droid allies has line of sight to, and is aware of, a target, all Droid allies that can hear and understand you are also considered to have line of sight (but not necessarily line of effect) to that target.",
+    "tree": "Droid Commander",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aag3jrFMWLrBxih0",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "YlRncyg0i2fXTZ5Q",
+  "_key": "!items!YlRncyg0i2fXTZ5Q",
+  "name": "Make Do",
+  "type": "talent",
+  "system": {
+    "description": "When fighting with an Improvised Weapon, you take no penalty on your attack rolls.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tUIr1pG82rLX1KvE",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

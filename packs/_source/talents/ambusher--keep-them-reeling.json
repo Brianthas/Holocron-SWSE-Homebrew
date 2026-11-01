@@ -1,0 +1,31 @@
+{
+  "_id": "x1GKrYvCcCsyStJm",
+  "_key": "!items!x1GKrYvCcCsyStJm",
+  "name": "Keep Them Reeling",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn as a Swift Action, you can make an Initiative check, opposed by the Initiative check of your Prime Target. If your check result equals or exceeds your Prime Target's check result, your target is Flat-Footed against all attacks you make before the end of your turn.",
+    "tree": "Ambusher",
+    "prerequisite": {
+      "text": "Ambush Specialist talent",
+      "nodes": {
+        "text": "Ambush Specialist talent",
+        "requirement": "Ambush Specialist",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "e005VjuOt2uu0mkv",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

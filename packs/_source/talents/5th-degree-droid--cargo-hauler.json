@@ -1,0 +1,59 @@
+{
+  "_id": "rLyOzu6WfanGZ93Y",
+  "_key": "!items!rLyOzu6WfanGZ93Y",
+  "name": "Cargo Hauler",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +5 bonus on Strength-based Skill Checks. Additionally, you double your Carrying Capacity.",
+    "tree": "5th-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [
+    {
+      "_id": "QBm3ptfURhS7ehNg",
+      "_key": "!items.effects!rLyOzu6WfanGZ93Y.QBm3ptfURhS7ehNg",
+      "name": "Cargo Hauler",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "skill.athletics",
+            "type": "bonus",
+            "value": 5,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          },
+          {
+            "key": "flag",
+            "type": "grant",
+            "value": "extendedCapacity",
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6UK8xvYbKsnWrrGc",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

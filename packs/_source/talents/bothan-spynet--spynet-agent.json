@@ -1,0 +1,38 @@
+{
+  "_id": "yPNJUaVa7ziUmLYw",
+  "_key": "!items!yPNJUaVa7ziUmLYw",
+  "name": "SpyNet Agent",
+  "type": "talent",
+  "system": {
+    "description": "You can use your Gather Information check modifier instead of your Knowledge (Galactic Lore) check modifier when making Knowledge (Galactic Lore) checks. You are considered Trained in the Knowledge (Galactic Lore) skill for the purpose of using this Talent. If you are entitled to a Knowledge (Galactic Lore) reroll, you can reroll your Gather Information check instead (subject to the same circumstances and limitations).",
+    "tree": "Bothan SpyNet",
+    "prerequisite": {
+      "text": "Bothan, or two Talents from the Infiltration Talent Tree",
+      "nodes": {
+        "children": [
+          {
+            "text": "Talent from the Infiltration Talent Tree",
+            "requirement": "Infiltration Talent Tree",
+            "type": "TALENT"
+          }
+        ],
+        "count": 2,
+        "text": "Bothan, or two Talents from the Infiltration Talent Tree",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NqFcTDur0YDtydjQ",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

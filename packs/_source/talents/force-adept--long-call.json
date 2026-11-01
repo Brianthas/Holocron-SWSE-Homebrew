@@ -1,0 +1,31 @@
+{
+  "_id": "yiRE6XgtbPbuThBc",
+  "_key": "!items!yiRE6XgtbPbuThBc",
+  "name": "Long Call",
+  "type": "talent",
+  "system": {
+    "description": "When using the Telepathy ability of Use the Force, you reduce the DC of the Use the Force check by half, as do those Force-users for whom you are a willing telepathic recipient. When attempting to contact an unwilling target, you can reroll and take the better result.<br><br>By spending a Force Point, you can simultaneously contact a number of targets equal to your Charisma modifier (minimum two) with a single Use the Force check.",
+    "tree": "Force Adept",
+    "prerequisite": {
+      "text": "Mystical Link talent",
+      "nodes": {
+        "text": "Mystical Link talent",
+        "requirement": "Mystical Link",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GYojOs150TVp9guR",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

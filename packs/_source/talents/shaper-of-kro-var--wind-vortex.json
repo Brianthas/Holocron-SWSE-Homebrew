@@ -1,0 +1,31 @@
+{
+  "_id": "ncaIDusQzvaSnMvV",
+  "_key": "!items!ncaIDusQzvaSnMvV",
+  "name": "Wind Vortex",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point as a Swift Action to surround yourself with whirling winds. You gain Concealment from all other targets and gain a +2 circumstance bonus to your Reflex Defense against Thrown Weapons. This effect lasts until the end of the encounter.",
+    "tree": "Shaper of Kro Var",
+    "prerequisite": {
+      "text": "a member of The Shapers of Kro Var",
+      "nodes": {
+        "text": "a member of The Shapers of Kro Var",
+        "requirement": "The Shapers of Kro Var",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9lQBHrBxEb3EZFNA",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

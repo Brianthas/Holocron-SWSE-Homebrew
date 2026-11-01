@@ -1,0 +1,31 @@
+{
+  "_id": "km5ec31wTrE5N8tA",
+  "_key": "!items!km5ec31wTrE5N8tA",
+  "name": "Sickening Blast",
+  "type": "talent",
+  "system": {
+    "description": "When you use the <i>Force Blast</i> Force Power, if your Use the Force check exceeds the target's Fortitude Defense, you can choose to move the target -1 step along the Condition Track. Doing so increases your Dark Side Score by 1.",
+    "tree": "Felucian Shaman",
+    "prerequisite": {
+      "text": "a member of The Felucian Shamans",
+      "nodes": {
+        "text": "a member of The Felucian Shamans",
+        "requirement": "The Felucian Shamans",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rcCdp4m7HwwIjDni",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

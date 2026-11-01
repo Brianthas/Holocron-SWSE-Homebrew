@@ -1,0 +1,27 @@
+{
+  "_id": "DzcWspe4anldk6RE",
+  "_key": "!items!DzcWspe4anldk6RE",
+  "name": "Revolutionary Rhetoric",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can do or say something that causes an enemy to doubt its motives. Choose one enemy within 12 squares and in your line of sight, and make a Persuasion check against the target’s Will Defense. If you succeed, the target can take only Move Actions and Swift Actions until the end of your next turn. This effect ends if you attack the target. This is a Mind-Affecting effect.",
+    "tree": "Revolutionary",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wJZF0D2V45HVUvIX",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

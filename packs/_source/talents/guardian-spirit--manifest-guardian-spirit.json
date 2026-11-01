@@ -1,0 +1,27 @@
+{
+  "_id": "LkNlm2Jy7tEraffE",
+  "_key": "!items!LkNlm2Jy7tEraffE",
+  "name": "Manifest Guardian Spirit",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point as a Swift Action to have your Guardian Spirit manifest for the duration of the encounter. Your Guardian Spirit appears in any square within 6 squares of you. A Guardian Spirit occupies a space, but creatures can move through the Guardian Spirit without obstruction.<br><br>As long as the Guardian Spirit remains within 12 squares of you, you gain a +1 morale bonus on attack rolls, a +2 morale bonus on Use the Force checks, and a +2 morale bonus to your Will Defense. You can move the Guardian Spirit up to 6 squares as a Swift Action once per turn.",
+    "tree": "Guardian Spirit",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uAGn4JmKdxetvLb9",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "rVQ247ZJsczf2pqg",
+  "_key": "!items!rVQ247ZJsczf2pqg",
+  "name": "Telepathic Link",
+  "type": "talent",
+  "system": {
+    "description": "You form an enhanced <b>Telepathic Link</b> with a willing ally, that possesses the Force Sensitivity feat, as a Swift Action. The <b>Telepathic Link</b> is maintained until you choose to remove it (no Action required). As long as you remain within one kilometer of your target, you and the target can communicate telepathically as though you were speaking.<br><br>Once per encounter, you may use a Force Power from your target's Force Power Suite (if the target consents), or you may allow the target to use one of your Force Powers. You may only have one <b>Telepathic Link</b> active at a time.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CZTrEjZNLOXTpyye",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

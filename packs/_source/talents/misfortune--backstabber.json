@@ -1,0 +1,31 @@
+{
+  "_id": "FOsvJWTserCDEvY7",
+  "_key": "!items!FOsvJWTserCDEvY7",
+  "name": "Backstabber",
+  "type": "talent",
+  "system": {
+    "description": "You can take advantage of your adversary's distractions, no matter how momentary or fleeting. Once per turn, when you Flank a target, you can treat that target as if they were Flat-Footed for one of your attacks.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "Sneak Attack talent",
+      "nodes": {
+        "text": "Sneak Attack talent",
+        "requirement": "Sneak Attack",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DwutS44U4mRWVw1W",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

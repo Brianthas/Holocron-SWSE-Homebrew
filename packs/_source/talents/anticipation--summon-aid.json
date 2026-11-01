@@ -1,0 +1,31 @@
+{
+  "_id": "ISth1K5TGPjxftZm",
+  "_key": "!items!ISth1K5TGPjxftZm",
+  "name": "Summon Aid",
+  "type": "talent",
+  "system": {
+    "description": "Once per round, as a Reaction, when an enemy moves adjacent to you, you can enable one ally within your line of sight to immediately make a Charge attack against the triggering enemy. The ally you choose must be able to Charge the enemy from his or her current square under normal Charge rules.",
+    "tree": "Anticipation",
+    "prerequisite": {
+      "text": "Get Down talent",
+      "nodes": {
+        "text": "Get Down talent",
+        "requirement": "Get Down",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iP7ony2sdwtvmy75",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

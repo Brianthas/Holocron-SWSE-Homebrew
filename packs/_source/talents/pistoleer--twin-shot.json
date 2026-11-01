@@ -1,0 +1,42 @@
+{
+  "_id": "DgHMoI57iwwYdOh0",
+  "_key": "!items!DgHMoI57iwwYdOh0",
+  "name": "Twin Shot",
+  "type": "talent",
+  "system": {
+    "description": "When you are wielding two Pistols, you gain a +2 bonus to damage rolls when using the Rapid Shot feat.",
+    "tree": "Pistoleer",
+    "prerequisite": {
+      "text": "Dual Weapon Mastery I feat, and Rapid Shot feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dual Weapon Mastery I feat",
+            "requirement": "Dual Weapon Mastery I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Rapid Shot feat",
+            "requirement": "Rapid Shot",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Dual Weapon Mastery I feat, and Rapid Shot feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZLRO2RgNEDxXZ6yd",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

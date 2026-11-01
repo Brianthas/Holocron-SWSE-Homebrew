@@ -1,0 +1,31 @@
+{
+  "_id": "7h2ucjGavDsbNzMS",
+  "_key": "!items!7h2ucjGavDsbNzMS",
+  "name": "Charm Beast",
+  "type": "talent",
+  "system": {
+    "description": "You may use a Use the Force check in place of a Persuasion check when attempting to change the Attitude of an undomesticated creature with an Intelligence of 2 or less. Additionally, you do not take the normal -5 penalty on the check if the creature can't speak or understand your language.",
+    "tree": "Felucian Shaman",
+    "prerequisite": {
+      "text": "a member of The Felucian Shamans",
+      "nodes": {
+        "text": "a member of The Felucian Shamans",
+        "requirement": "The Felucian Shamans",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FktgqVAW6hRz2gIH",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

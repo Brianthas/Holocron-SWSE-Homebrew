@@ -1,0 +1,31 @@
+{
+  "_id": "H4RDMExeuG4QFN87",
+  "_key": "!items!H4RDMExeuG4QFN87",
+  "name": "Omens",
+  "type": "talent",
+  "system": {
+    "description": "You see <b>Omens</b> in both success and failure. Whenever an ally within 10 squares and line of sight of you rolls a Natural 1 or a Natural 20 on an attack roll, you gain a +2 insight bonus to either your next attack roll made before the end of your next turn, or a +2 insight bonus to your Reflex Defense until the end of your next turn (your choice).",
+    "tree": "Gand Findsman",
+    "prerequisite": {
+      "text": "Findsman Ceremonies talent",
+      "nodes": {
+        "text": "Findsman Ceremonies talent",
+        "requirement": "Findsman Ceremonies",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "a3BgSBwwqLHfx0NN",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

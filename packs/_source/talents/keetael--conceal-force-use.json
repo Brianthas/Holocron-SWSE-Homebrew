@@ -1,0 +1,31 @@
+{
+  "_id": "b4bMOxUrCGJGLRDf",
+  "_key": "!items!b4bMOxUrCGJGLRDf",
+  "name": "Conceal Force Use",
+  "type": "talent",
+  "system": {
+    "description": "You have learned to use The Force without telltale gestures, reducing the disturbances created in the process. Whenever you make a Use the Force check, as a Swift Action you can make a Deception check to convey deceptive appearances in order to conceal the effects of your Use the Force use.<br><br>Normal modifiers for the Deception's Complexity still apply.",
+    "tree": "Keetael",
+    "prerequisite": {
+      "text": "a member of The Keetael",
+      "nodes": {
+        "text": "a member of The Keetael",
+        "requirement": "The Keetael",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PY04k1x4RIUCZ5c0",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

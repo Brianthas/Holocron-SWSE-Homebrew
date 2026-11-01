@@ -1,0 +1,42 @@
+{
+  "_id": "BXg2h5FIEHZF60YI",
+  "_key": "!items!BXg2h5FIEHZF60YI",
+  "name": "Shadow Striker",
+  "type": "talent",
+  "system": {
+    "description": "You excel at fighting from the shadows, hitting your opponents when they least expect it. You can use each of the following actions once per encounter as a Standard Action:",
+    "tree": "Camouflage",
+    "prerequisite": {
+      "text": "Hidden Movement talent, and Improved Stealth talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Hidden Movement talent",
+            "requirement": "Hidden Movement",
+            "type": "TALENT"
+          },
+          {
+            "text": "Improved Stealth talent",
+            "requirement": "Improved Stealth",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Hidden Movement talent, and Improved Stealth talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kk5nX0UrDYtxOSnb",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

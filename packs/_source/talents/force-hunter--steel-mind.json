@@ -1,0 +1,27 @@
+{
+  "_id": "PWKjgdeCdbiIQ4Sn",
+  "_key": "!items!PWKjgdeCdbiIQ4Sn",
+  "name": "Steel Mind",
+  "type": "talent",
+  "system": {
+    "description": "If you resist the effects of a [<i>Mind-Affecting</i>] Force Power, the user of that Force Power cannot attempt to use the same Force Power against you for the remainder of the encounter.",
+    "tree": "Force Hunter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4H55tDA5yFpb9MO7",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

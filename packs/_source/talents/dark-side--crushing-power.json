@@ -1,0 +1,42 @@
+{
+  "_id": "kBWclA5KZSaKbhKZ",
+  "_key": "!items!kBWclA5KZSaKbhKZ",
+  "name": "Crushing Power",
+  "type": "talent",
+  "system": {
+    "description": "When using a Force Power that directly inflicts damage, you treat the target's Damage Threshold as though it were 5 points lower when determining if the target moves along the Condition Track.",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "Power of the Dark Side talent, and Swift Power talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Power of the Dark Side talent",
+            "requirement": "Power of the Dark Side",
+            "type": "TALENT"
+          },
+          {
+            "text": "Swift Power talent",
+            "requirement": "Swift Power",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Power of the Dark Side talent, and Swift Power talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZYEqwwa7TwkvGb0y",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

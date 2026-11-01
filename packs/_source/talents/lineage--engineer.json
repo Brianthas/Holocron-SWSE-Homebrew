@@ -1,0 +1,42 @@
+{
+  "_id": "PTJaFxdtT39exXtO",
+  "_key": "!items!PTJaFxdtT39exXtO",
+  "name": "Engineer",
+  "type": "talent",
+  "system": {
+    "description": "You are Trained in the Mechanics skill. Additionally, when installing new systems into a Vehicle, the efficiency of your designs reduces the time it takes to install the system by 25%.",
+    "tree": "Lineage",
+    "prerequisite": {
+      "text": "Educated talent, and Trained in Knowledge (Technology)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Educated talent",
+            "requirement": "Educated",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Knowledge (Technology)",
+            "requirement": "Knowledge (Technology)",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Educated talent, and Trained in Knowledge (Technology)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "05UV2DWcNFkqAdFB",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

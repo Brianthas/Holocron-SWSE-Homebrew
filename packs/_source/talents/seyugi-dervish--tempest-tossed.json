@@ -1,0 +1,31 @@
+{
+  "_id": "kV7UhBOZzNoIHROa",
+  "_key": "!items!kV7UhBOZzNoIHROa",
+  "name": "Tempest Tossed",
+  "type": "talent",
+  "system": {
+    "description": "When you damage a target with a Whirlwind Attack, you can choose to move that target 1 square in any direction as a Free Action. You can't move a target that's being Grabbed or Grappled, and you can't move the opponent into a solid object or another creature's Fighting Space. This forced movement does not provoke Attacks of Opportunity.",
+    "tree": "Seyugi Dervish",
+    "prerequisite": {
+      "text": "a member of The Seyugi Dervishes",
+      "nodes": {
+        "text": "a member of The Seyugi Dervishes",
+        "requirement": "The Seyugi Dervishes",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "l2oQQjO9qMrKhx0V",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

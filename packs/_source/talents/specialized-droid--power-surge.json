@@ -1,0 +1,27 @@
+{
+  "_id": "VTEEbNEUB43yNZXB",
+  "_key": "!items!VTEEbNEUB43yNZXB",
+  "name": "Power Surge",
+  "type": "talent",
+  "system": {
+    "description": "You temporarily surge your power systems to enhance your physical abilities. When you initiate a <b>Power Surge</b> (a Swift Action), you gain a +1 circumstance bonus on melee attack rolls, +1 die of damage on melee damage rolls, and an increase of 2 square to your speed. A <b>Power Surge</b> lasts for a number of rounds equal to one-half your Heroic Level (rounded down). When the <b>Power Surge</b> ends, you move -1 Persistent step along the Condition Track. The penalties imposed by this condition persist until you receive Repairs.",
+    "tree": "Specialized Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MJSwbbNxgNEaR60O",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

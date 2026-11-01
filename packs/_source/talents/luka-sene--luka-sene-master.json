@@ -1,0 +1,31 @@
+{
+  "_id": "sMPipSOxwXKrqYtP",
+  "_key": "!items!sMPipSOxwXKrqYtP",
+  "name": "Luka Sene Master",
+  "type": "talent",
+  "system": {
+    "description": "You are a Master of Luka Sene techniques and an expert in using sense-related Talents and Force Powers. Once per encounter, you gain a temporary Force Point that you must spend when activating a Talent from either the Sense Talent Tree or Luka Sene Talent Tree, when using the <i>Farseeing</i> Force Power, or on a Use the Force check made to use the Search Your Feelings or Sense Force applications of the skill.<br><br>The Force Point is lost if not used before the end of the encounter.",
+    "tree": "Luka Sene",
+    "prerequisite": {
+      "text": "a member of The Luka Sene",
+      "nodes": {
+        "text": "a member of The Luka Sene",
+        "requirement": "The Luka Sene",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "783oEZRbp70dYalf",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "abxfDb12wVU7ejCq",
+  "_key": "!items!abxfDb12wVU7ejCq",
+  "name": "Uncanny Instincts",
+  "type": "talent",
+  "system": {
+    "description": "Once per round whenever an opponent successfully deals damage to you, you can move 1 square as a Reaction. This movement does not provoke Attacks of Opportunity.",
+    "tree": "Outlaw",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ltFGJxZ8YSuz0yL1",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

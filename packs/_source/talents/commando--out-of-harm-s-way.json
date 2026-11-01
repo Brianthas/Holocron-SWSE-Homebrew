@@ -1,0 +1,42 @@
+{
+  "_id": "2C05UKvNwd3Lck7B",
+  "_key": "!items!2C05UKvNwd3Lck7B",
+  "name": "Out of Harm's Way",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction, when you use the <b>Harm's Way</b> Talent (which still requires a Swift Action to activate), you can move into the square of the ally you are protecting, and move the ally to any legal square adjacent to you. This movement does not provoke Attacks of Opportunity.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "Harm's Way talent, and Trained in Initiative",
+      "nodes": {
+        "children": [
+          {
+            "text": "Harm's Way talent",
+            "requirement": "Harm's Way",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Initiative",
+            "requirement": "Initiative",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Harm's Way talent, and Trained in Initiative",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "esem1DuyZAT9RvQp",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

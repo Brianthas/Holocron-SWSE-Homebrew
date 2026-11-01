@@ -1,0 +1,42 @@
+{
+  "_id": "W6wl1wnMGMsdbYCs",
+  "_key": "!items!W6wl1wnMGMsdbYCs",
+  "name": "Triage Scan",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can make a DC 20 Treat Injury check. If the check succeeds, you know if the organic characters within 6 squares and within your line of sight are below one half of their Hit Points and at what step they are along the Condition Track.",
+    "tree": "1st-Degree Droid",
+    "prerequisite": {
+      "text": "Medical Droid species, and Trained in Treat Injury",
+      "nodes": {
+        "children": [
+          {
+            "text": "Medical Droid species",
+            "requirement": "Medical Droid",
+            "type": "SPECIES"
+          },
+          {
+            "text": "Trained in Treat Injury",
+            "requirement": "Treat Injury",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Medical Droid species, and Trained in Treat Injury",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WTg19bz4FlBnzlzv",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

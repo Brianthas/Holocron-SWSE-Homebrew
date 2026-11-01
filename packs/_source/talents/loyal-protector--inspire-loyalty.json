@@ -1,0 +1,27 @@
+{
+  "_id": "TBvkdgfpMLLWvzfn",
+  "_key": "!items!TBvkdgfpMLLWvzfn",
+  "name": "Inspire Loyalty",
+  "type": "talent",
+  "system": {
+    "description": "You gain a single Follower. Choose either the aggressive, defensive, or utility Follower Template for your follower, generating the follower's statistics based on the rules found in the Followers section. This Follower gains one Armor Proficiency Feat of your choice and becomes Trained in the Perception skill. The Follower must meet the prerequisites for the Armor Proficiency Feat you select.<br><br>You can select this Talent multiple times. Each time you do, you gain one additional Follower (maximum of 3 Followers).",
+    "tree": "Loyal Protector",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": true,
+    "maxTimes": 3,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IzR6LKlZiOTtgWCX",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

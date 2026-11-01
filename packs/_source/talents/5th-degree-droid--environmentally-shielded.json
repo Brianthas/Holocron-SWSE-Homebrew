@@ -1,0 +1,27 @@
+{
+  "_id": "vTMZCREJvaRcL1Oz",
+  "_key": "!items!vTMZCREJvaRcL1Oz",
+  "name": "Environmentally Shielded",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +5 Equipment bonus to your Fortitude Defense against environmental Hazards, including Atmospheric Hazards, and Acid.",
+    "tree": "5th-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qtUqnj6B8uM6RiHJ",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

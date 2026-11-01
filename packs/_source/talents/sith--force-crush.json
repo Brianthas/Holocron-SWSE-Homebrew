@@ -1,0 +1,42 @@
+{
+  "_id": "XtJ8LAFdBh1Rrrti",
+  "_key": "!items!XtJ8LAFdBh1Rrrti",
+  "name": "Force Crush",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you successfully activate a Force Power with the [<i>Dark Side</i>] descriptor that causes the target to move down the Condition Track, they gain a Persistent Condition, which can only be removed if the target receives Surgery (for living beings) or Repairs (for Droids, Vehicles, and objects).",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "At least one Force Technique, and Dark Side Adept talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "At least one Force Technique",
+            "requirement": "1",
+            "type": "FORCE TECHNIQUE"
+          },
+          {
+            "text": "Dark Side Adept talent",
+            "requirement": "Dark Side Adept",
+            "type": "TALENT"
+          }
+        ],
+        "text": "At least one Force Technique, and Dark Side Adept talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mWUmmP14tSbOollH",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

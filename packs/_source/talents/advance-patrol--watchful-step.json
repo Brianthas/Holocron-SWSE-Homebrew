@@ -1,0 +1,27 @@
+{
+  "_id": "CL6BVgJwAxcvxxQh",
+  "_key": "!items!CL6BVgJwAxcvxxQh",
+  "name": "Watchful Step",
+  "type": "talent",
+  "system": {
+    "description": "You can use your Perception check modifier instead of your Initiative modifier when making Initiative checks. If you are entitled to an Initiative check reroll, you can reroll your Perception check instead (subject to the same circumstances and limitations). You are considered to be Trained in Initiative.",
+    "tree": "Advance Patrol",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KDeEXlkhvk9v8Z8q",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

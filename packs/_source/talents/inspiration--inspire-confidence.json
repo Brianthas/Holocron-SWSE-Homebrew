@@ -1,0 +1,27 @@
+{
+  "_id": "hAhhn3si9Et2FV53",
+  "_key": "!items!hAhhn3si9Et2FV53",
+  "name": "Inspire Confidence",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can inspire confidence in all allies in your line of sight, granting them a +1 morale bonus on attack rolls, and a +1 morale bonus on Skill Checks for the rest of the encounter, or until you're unconscious or dead. Once <b>Inspired</b>, your allies don't need to remain within line of sight of you.<br><br>You can't <b>Inspire Confidence</b> in yourself.",
+    "tree": "Inspiration",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IDIJHOFynlSTEy7v",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

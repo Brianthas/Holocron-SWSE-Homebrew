@@ -1,0 +1,31 @@
+{
+  "_id": "pPZFeekcIhKDz98g",
+  "_key": "!items!pPZFeekcIhKDz98g",
+  "name": "Security Slicer",
+  "type": "talent",
+  "system": {
+    "description": "You are an expert in electronic security. When you make a Mechanics check to Disable Device, you can do so without the help of a Security Kit. Additionally, something goes wrong only when you fail the Mechanics check by 10 or more.",
+    "tree": "Slicer",
+    "prerequisite": {
+      "text": "Trained in Mechanics",
+      "nodes": {
+        "text": "Trained in Mechanics",
+        "requirement": "Mechanics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KCh39tvMWE0HRzkS",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

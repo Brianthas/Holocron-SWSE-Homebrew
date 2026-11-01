@@ -1,0 +1,27 @@
+{
+  "_id": "V3DnbzZuwW74rszD",
+  "_key": "!items!V3DnbzZuwW74rszD",
+  "name": "Power Supply",
+  "type": "talent",
+  "system": {
+    "description": "You have learned to reroute power through your system to act as a Power Generator, providing power to an E-Web Repeating Blaster (or similar weapon requiring a Power Generator). Additionally, whenever you would normally spend three Swift Actions to recharge shields or reroute power on a Vehicle or Starship, you need spend only two Swift Actions instead.",
+    "tree": "5th-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Gy4Xxyqo0UPqn00n",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

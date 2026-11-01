@@ -1,0 +1,31 @@
+{
+  "_id": "RABxG18g3Z0mTXhg",
+  "_key": "!items!RABxG18g3Z0mTXhg",
+  "name": "Expert Rider",
+  "type": "talent",
+  "system": {
+    "description": "You can reroll any Ride check, but the result of the reroll must be accepted, even if it is worse.",
+    "tree": "Mobile Scout",
+    "prerequisite": {
+      "text": "Trained in Ride",
+      "nodes": {
+        "text": "Trained in Ride",
+        "requirement": "Ride",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2LhhOOnbvdelPrna",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

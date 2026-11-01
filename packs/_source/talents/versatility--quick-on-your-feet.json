@@ -1,0 +1,27 @@
+{
+  "_id": "hWKXzmbX5Z8eejpY",
+  "_key": "!items!hWKXzmbX5Z8eejpY",
+  "name": "Quick on Your Feet",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you may move up to your Speed as a Reaction.",
+    "tree": "Versatility",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5ePctCi9ImOdGELD",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

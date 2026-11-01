@@ -1,0 +1,42 @@
+{
+  "_id": "0eaMf18bt61XTgAQ",
+  "_key": "!items!0eaMf18bt61XTgAQ",
+  "name": "Cramped Quarters Fighting",
+  "type": "talent",
+  "system": {
+    "description": "When adjacent to an obstacle or barrier, you gain a +2 Cover bonus to your Reflex Defense.",
+    "tree": "Spacer",
+    "prerequisite": {
+      "text": "Spacehound talent, and Starship Raider talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Spacehound talent",
+            "requirement": "Spacehound",
+            "type": "TALENT"
+          },
+          {
+            "text": "Starship Raider talent",
+            "requirement": "Starship Raider",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Spacehound talent, and Starship Raider talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "M280XjlvglIrupZN",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "RegiEcHNTAWMrpLH",
+  "_key": "!items!RegiEcHNTAWMrpLH",
+  "name": "Force Revive",
+  "type": "talent",
+  "system": {
+    "description": "When an ally affected by your <b>Battle Meditation</b> is reduced to 0 hit points, you can spend a Force Point as a Reaction, allowing that ally to take its Second Wind as a Reaction immediately (though the target still falls Unconscious before the Second Wind is triggered).",
+    "tree": "Jedi Battlemaster",
+    "prerequisite": {
+      "text": "Battle Meditation talent, and Jedi Battle Commander talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Battle Meditation talent",
+            "requirement": "Battle Meditation",
+            "type": "TALENT"
+          },
+          {
+            "text": "Jedi Battle Commander talent",
+            "requirement": "Jedi Battle Commander",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Battle Meditation talent, and Jedi Battle Commander talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3UXMyrzL6dgeBgcF",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "odF2pEx9kEDsfNBh",
+  "_key": "!items!odF2pEx9kEDsfNBh",
+  "name": "Load Launcher",
+  "type": "talent",
+  "system": {
+    "description": "You are considered proficient with Improvised Thrown Weapons when making a ranged attack by throwing an object. Objects up to one size category larger than you can be Thrown up to a number of squares equal to 2 x your Strength bonus (minimum 1 square). Additionally, you add your Strength bonus to any damage dealt.",
+    "tree": "5th-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2tLIY8VNoeHM5dgc",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

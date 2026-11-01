@@ -1,0 +1,27 @@
+{
+  "_id": "2nLt59bk4ADhBcxm",
+  "_key": "!items!2nLt59bk4ADhBcxm",
+  "name": "Unflinching",
+  "type": "talent",
+  "system": {
+    "description": "<p>Your training has made you very difficult to intimidate or deter. For a number of times equal to half your character level (rounded down) per encounter, you may add your character level to either your Fortitude Defense (and Damage Threshold), or Will Defense until the start of your next turn as a Reaction; you can choose which Defense to apply the bonus to when you use the ability, but you must declare the use of this feature before you know the outcome of the effect targeting you.</p>",
+    "tree": "Gladiatorial Combat",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oM80XGKOqobUTI6b",
+      "sourceBook": ""
+    }
+  }
+}

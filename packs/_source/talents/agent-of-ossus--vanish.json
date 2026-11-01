@@ -1,0 +1,31 @@
+{
+  "_id": "QZw6d776mpRotMdQ",
+  "_key": "!items!QZw6d776mpRotMdQ",
+  "name": "Vanish",
+  "type": "talent",
+  "system": {
+    "description": "You can make a Use the Force check as a Swift Action to vanish from the sight of a single target within line of sight. If the result of your Use the Force check exceeds the target's Will Defense, you gain Total Concealment from that target until the beginning of your next turn, or until you make an attack roll or Skill Check against the target.",
+    "tree": "Agent of Ossus",
+    "prerequisite": {
+      "text": "a member of The Agents of Ossus",
+      "nodes": {
+        "text": "a member of The Agents of Ossus",
+        "requirement": "The Agents of Ossus",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8ABdvuaZhVVY59em",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

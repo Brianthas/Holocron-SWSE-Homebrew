@@ -1,0 +1,42 @@
+{
+  "_id": "HAKqkuZm7MZ4ar5q",
+  "_key": "!items!HAKqkuZm7MZ4ar5q",
+  "name": "Inspire Fear III",
+  "type": "talent",
+  "system": {
+    "description": "As <b>Inspire Fear I</b>, except that the penalty increases to -5.",
+    "tree": "Infamy",
+    "prerequisite": {
+      "text": "Inspire Fear I talent, and Inspire Fear II talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Inspire Fear I talent",
+            "requirement": "Inspire Fear I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Inspire Fear II talent",
+            "requirement": "Inspire Fear II",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Inspire Fear I talent, and Inspire Fear II talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hZ8LMeHUqvibErh5",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

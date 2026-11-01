@@ -1,0 +1,27 @@
+{
+  "_id": "txwLX9UFiBhaCF35",
+  "_key": "!items!txwLX9UFiBhaCF35",
+  "name": "Capture Droid",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can use this Talent on an adjacent enemy Droid that has been reduced to 0 Hit Points or moved to the bottom of the Condition Track, but not destroyed.<br><br>As a Standard Action, make a Mechanics check against the Droid's Will Defense. If your result equals or exceeds the Droid's Will Defense, the Droid moves +2 steps on the Condition Track, regains 1d8 Hit Points, becomes your ally, and it's Attitude toward you immediately shifts to Friendly.<br><br>The Droid fights on your side until the end of the encounter, at which point it is destroyed.",
+    "tree": "Improviser",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "41XyD3wuPC0Lkj2k",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

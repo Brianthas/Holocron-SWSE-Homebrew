@@ -1,0 +1,27 @@
+{
+  "_id": "6NlpHZbvAQt9LZx0",
+  "_key": "!items!6NlpHZbvAQt9LZx0",
+  "name": "Rapid Alchemy",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can perform minor alchemical alterations to a Melee Weapon you wield. For the remainder of the encounter, you gain a +2 Equipment bonus on attack rolls with that Weapon. Additionally, once before the end of the encounter, you can sacrifice this bonus as a Free Action to gain a +5 Equipment bonus on a single damage roll you make with that Weapon.",
+    "tree": "Sith Alchemy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PPQYAcQ09PyJbAsr",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

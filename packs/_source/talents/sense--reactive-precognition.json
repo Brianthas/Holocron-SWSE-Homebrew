@@ -1,0 +1,31 @@
+{
+  "_id": "BVnAzwnDYK2IYsXL",
+  "_key": "!items!BVnAzwnDYK2IYsXL",
+  "name": "Reactive Precognition",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you may spend a Force Point to gain a +1 insight bonus to your Reflex Defense and Will Defense for the remainder of the encounter, or until you are knocked unconscious.",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "Force Perception talent",
+      "nodes": {
+        "text": "Force Perception talent",
+        "requirement": "Force Perception",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "duWPpxwUpL6YWMag",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

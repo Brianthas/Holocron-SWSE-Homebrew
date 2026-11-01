@@ -1,0 +1,31 @@
+{
+  "_id": "KNHMzmO0o5Wq9hZo",
+  "_key": "!items!KNHMzmO0o5Wq9hZo",
+  "name": "Deny Move",
+  "type": "talent",
+  "system": {
+    "description": "When you score a Critical Hit with a melee or ranged attack, your target cannot Move on its next turn.",
+    "tree": "Critical Master",
+    "prerequisite": {
+      "text": "Reduce Mobility talent",
+      "nodes": {
+        "text": "Reduce Mobility talent",
+        "requirement": "Reduce Mobility",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WY8e6p7xF9DShsaa",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

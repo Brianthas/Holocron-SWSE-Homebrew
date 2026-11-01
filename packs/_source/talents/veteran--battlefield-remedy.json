@@ -1,0 +1,31 @@
+{
+  "_id": "qa2xbZJsHQiP4ocu",
+  "_key": "!items!qa2xbZJsHQiP4ocu",
+  "name": "Battlefield Remedy",
+  "type": "talent",
+  "system": {
+    "description": "You have learned a variety of different ways to treat combat injuries in the field. When you succeed on a Treat Injury check to administer First Aid, the tended creature also moves +1 step on the Condition Track.",
+    "tree": "Veteran",
+    "prerequisite": {
+      "text": "Trained in Treat Injury",
+      "nodes": {
+        "text": "Trained in Treat Injury",
+        "requirement": "Treat Injury",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mlRt9Sz25A6Z1to8",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

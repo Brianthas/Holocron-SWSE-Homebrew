@@ -1,0 +1,27 @@
+{
+  "_id": "Z1B6FvCPGXdkiU1t",
+  "_key": "!items!Z1B6FvCPGXdkiU1t",
+  "name": "Jedi Network",
+  "type": "talent",
+  "system": {
+    "description": "You have access to a network of Jedi sympathizers. While in a civilized area, you can call upon this network of allies once per game session for one of the following purposes:",
+    "tree": "Jedi Refugee",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sz48XnG18sUty44a",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

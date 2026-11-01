@@ -1,0 +1,27 @@
+{
+  "_id": "9EddMIs8mY50RvzM",
+  "_key": "!items!9EddMIs8mY50RvzM",
+  "name": "Niman",
+  "type": "talent",
+  "system": {
+    "description": "When wielding a Lightsaber, you gain a +1 bonus to your Reflex Defense and Will Defense.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "D9OIgnzpZHhaglo9",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "sqs9meLWKGYUaCQt",
+  "_key": "!items!sqs9meLWKGYUaCQt",
+  "name": "Entreat Aid",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn as a Swift Action, you can spend a Force Point to let one adjacent ally use the Aid Another Action (as a Reaction) to assist you with a Skill Check. You must make the Skill Check before the end of your turn, or the benefit of the Aid Another Action is lost.<br><br>An ally that has already used the Aid Another Action to assist you since the end of your last turn may not be targeted by this Talent.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1BnBBEBOJRnuFfAk",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

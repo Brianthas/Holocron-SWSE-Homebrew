@@ -1,0 +1,42 @@
+{
+  "_id": "8avXf7CV8bZ67Dp9",
+  "_key": "!items!8avXf7CV8bZ67Dp9",
+  "name": "Redirection Stance",
+  "type": "talent",
+  "system": {
+    "description": "<p>Redirect Shot and Riposte are combined into this single talent. It allows one free counter-attack per turn, assuming you manage to negate the attack.</p><h4>Redirect Shot <span style=\"font-weight:normal\"><i>(after negating a ranged attack)</i></span></h4>This Talent allows you to redirect a deflected blaster bolt along a specific trajectory, so that it damages another creature or object in its path. Using your one free counter-attack for the turn, when you successfully deflect a blaster bolt with <b>Dueling Stance</b>, you can make an immediate ranged attack against another target with which you have line of sight.<br><br>Apply the normal range penalties to the attack roll, not counting the distance the bolt traveled to reach you. If the attack succeeds, it deals normal weapon damage to the target. Only single blaster bolts can be redirected in this manner. Barrages from Autofire weapons and other types of projectiles can't be redirected.<h4>Riposte <span style=\"font-weight:normal\"><i>(after negating a melee attack)</i></span></h4>Using your one free counter-attack for the turn, you can make a Lightsaber attack against a being whose attack you successfully negated using <b>Dueling Stance</b>. Only non-area melee attacks can be <b>Riposted</b> in this manner; you cannot use this Talent when negating the damage from melee Area Attacks (such as those made with the Whirlwind Attack feat).",
+    "tree": "Lightsaber Combat",
+    "prerequisite": {
+      "text": "Dueling Stance talent, and Base Attack Bonus 5",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dueling Stance talent",
+            "requirement": "Dueling Stance",
+            "type": "TALENT"
+          },
+          {
+            "text": "Base Attack Bonus 5",
+            "requirement": "5",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Dueling Stance talent, and Base Attack Bonus 5",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gQ3jZ3xFW5tluCyg",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "PuCC9T0eScNdtIVV",
+  "_key": "!items!PuCC9T0eScNdtIVV",
+  "name": "Expert Gunner",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +1 bonus on attack rolls made using Vehicle Weapons.",
+    "tree": "Gunner",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jXWX8jC97yJuVHEz",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

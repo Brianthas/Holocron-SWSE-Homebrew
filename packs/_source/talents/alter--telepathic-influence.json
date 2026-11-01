@@ -1,0 +1,31 @@
+{
+  "_id": "GDykFt17jxnfkeI1",
+  "_key": "!items!GDykFt17jxnfkeI1",
+  "name": "Telepathic Influence",
+  "type": "talent",
+  "system": {
+    "description": "You naturally and unconsciously influence those who are regularly around you. Whenever you roll a natural 20 on an attack roll or Use the Force check, instead of regaining all your spent Force Powers, you may instead choose to grant one ally within 12 squares of you a temporary Force Point.<br><br>If your ally does not use this temporary Force Point before the end of the encounter, it is lost.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "Telepathic Link talent",
+      "nodes": {
+        "text": "Telepathic Link talent",
+        "requirement": "Telepathic Link",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KioBZh72nE2lXMpV",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

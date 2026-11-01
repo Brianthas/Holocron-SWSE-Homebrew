@@ -1,0 +1,27 @@
+{
+  "_id": "UqZtTZo8IKfhkcXl",
+  "_key": "!items!UqZtTZo8IKfhkcXl",
+  "name": "Telekinetic Resistance",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are targeted by a Force Power that moves you, you reduce the distance you are moved by half.",
+    "tree": "Force Hunter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "c39GwPY85W0BkGBL",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

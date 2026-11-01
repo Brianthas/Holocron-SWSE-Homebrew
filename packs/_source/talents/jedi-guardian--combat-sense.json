@@ -1,0 +1,31 @@
+{
+  "_id": "HbKhJMxDZ6j8TXq1",
+  "_key": "!items!HbKhJMxDZ6j8TXq1",
+  "name": "Combat Sense",
+  "type": "talent",
+  "system": {
+    "description": "The Jedi focuses on those around them, mentally highlighting each opponent. At the beginning of an encounter, you may roll a DC 20 Use the Force check. If successful, you may adjust your Initiative Count by up to +5 or down to -5.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "Force Intuition (Jedi Guardian Talent Tree) talent",
+      "nodes": {
+        "text": "Force Intuition (Jedi Guardian Talent Tree) talent",
+        "requirement": "Force Intuition (Jedi Guardian Talent Tree)",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2qi1rB4yOYGMH19q",
+      "sourceBook": "New Republic Campaign Guide"
+    }
+  }
+}

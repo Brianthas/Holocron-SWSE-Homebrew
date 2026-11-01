@@ -1,0 +1,31 @@
+{
+  "_id": "YoAXB1EafcZMMvE9",
+  "_key": "!items!YoAXB1EafcZMMvE9",
+  "name": "Force Interrogation",
+  "type": "talent",
+  "system": {
+    "description": "When you deal damage to one or more creatures by using a Force Power, you can immediately make a Persuasion check as a Free Action to Intimidate a single target you damaged.",
+    "tree": "Imperial Inquisitor",
+    "prerequisite": {
+      "text": "a member of The Inquisitorius",
+      "nodes": {
+        "text": "a member of The Inquisitorius",
+        "requirement": "The Inquisitorius",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mAay6hCngwxpaPPg",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

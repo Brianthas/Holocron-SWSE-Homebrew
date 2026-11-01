@@ -1,0 +1,27 @@
+{
+  "_id": "tNjnYaOUp2xZ5pi7",
+  "_key": "!items!tNjnYaOUp2xZ5pi7",
+  "name": "Gifted Entertainer",
+  "type": "talent",
+  "system": {
+    "description": "Select one type of performance, such as acting, dancing, singing, or playing a musical instrument. You gain a +5 bonus on Persuasion checks to entertain for that type of performance.",
+    "tree": "Lineage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UmtAr6eqnEv3npm5",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

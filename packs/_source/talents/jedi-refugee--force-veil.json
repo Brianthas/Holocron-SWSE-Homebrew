@@ -1,0 +1,31 @@
+{
+  "_id": "7A3pUih6Z0ErXBY7",
+  "_key": "!items!7A3pUih6Z0ErXBY7",
+  "name": "Force Veil",
+  "type": "talent",
+  "system": {
+    "description": "Your ability to conceal yourself from other Force-users allows you to reduce the radius within which you can be detected to 10 kilometers (instead of 100 kilometers).",
+    "tree": "Jedi Refugee",
+    "prerequisite": {
+      "text": "Difficult to Sense talent",
+      "nodes": {
+        "text": "Difficult to Sense talent",
+        "requirement": "Difficult to Sense",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uL9ftt9pwr250PoP",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "1O5CaZvYXAIfCfSZ",
+  "_key": "!items!1O5CaZvYXAIfCfSZ",
+  "name": "Science Analyzer",
+  "type": "talent",
+  "system": {
+    "description": "You use your extensive databanks to better analyze scientific data. You can add double your Intelligence modifier to your Knowledge (Life Sciences) and Knowledge (Physical Sciences) skill checks.",
+    "tree": "1st-Degree Droid",
+    "prerequisite": {
+      "text": "Trained in Knowledge (Life Sciences) and Knowledge (Physical Sciences)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Trained in Knowledge (Sciences)",
+            "requirement": "Knowledge (Sciences)",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Trained in Knowledge (Sciences)",
+            "requirement": "Knowledge (Sciences)",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Trained in Knowledge (Life Sciences) and Knowledge (Physical Sciences)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "phQboLPt3JJD9mBv",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

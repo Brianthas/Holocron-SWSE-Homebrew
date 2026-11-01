@@ -1,0 +1,31 @@
+{
+  "_id": "EFnOkqfE844dkdiA",
+  "_key": "!items!EFnOkqfE844dkdiA",
+  "name": "Break Program",
+  "type": "talent",
+  "system": {
+    "description": "You can use your ability to circumvent Behavioral Inhibitors to temporarily break the programming of a Droid that you have a data link with. Make a Use Computer check opposed by the Droid's Will Defense. Breaking the Droid's programming overrides its Behavioral Inhibitors for a number of rounds equal to your Intelligence bonus.",
+    "tree": "Elite Droid",
+    "prerequisite": {
+      "text": "Trained in Use Computer",
+      "nodes": {
+        "text": "Trained in Use Computer",
+        "requirement": "Use Computer",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4bbgWqh8JCxQT3Ue",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

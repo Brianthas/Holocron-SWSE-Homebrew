@@ -1,0 +1,27 @@
+{
+  "_id": "TNbQHa8prM7Psqxa",
+  "_key": "!items!TNbQHa8prM7Psqxa",
+  "name": "Directed Movement",
+  "type": "talent",
+  "system": {
+    "description": "As a Move Action, you allow one Droid that can hear and understand you to move up to its Speed. The Droid can make Acrobatics, Climb, Jump, Stealth, or Swim checks during this movement, and can replace its own relevant Ability Score modifier for that check with your Intelligence modifier.",
+    "tree": "Override",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PdvBFObKbv49QEtf",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

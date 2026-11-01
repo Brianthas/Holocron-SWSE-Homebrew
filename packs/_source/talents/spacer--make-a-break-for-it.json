@@ -1,0 +1,42 @@
+{
+  "_id": "Y5NJTJmysmwR3UMT",
+  "_key": "!items!Y5NJTJmysmwR3UMT",
+  "name": "Make a Break for It",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, while on or in a Vehicle, you can move up to one-half your speed, or move the Vehicle up to one-half its speed if you are the Pilot, as a Swift Action. This movement does not provoke Attacks of Opportunity.",
+    "tree": "Spacer",
+    "prerequisite": {
+      "text": "Spacehound talent, and Stellar Warrior talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Spacehound talent",
+            "requirement": "Spacehound",
+            "type": "TALENT"
+          },
+          {
+            "text": "Stellar Warrior talent",
+            "requirement": "Stellar Warrior",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Spacehound talent, and Stellar Warrior talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mgckvWlcZyl4b3EV",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

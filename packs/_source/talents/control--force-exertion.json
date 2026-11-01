@@ -1,0 +1,31 @@
+{
+  "_id": "MqcqP3ydPBq2s4h4",
+  "_key": "!items!MqcqP3ydPBq2s4h4",
+  "name": "Force Exertion",
+  "type": "talent",
+  "system": {
+    "description": "When you select this Talent, choose one Force Power that you have in your Force Power Suite. As a Reaction, you can remove any one Force Power from your active Force Power Suite to add an extra use of the Force Power designated by this Talent.<br><br>Doing so moves you -1 Persistent step along the Condition Track. This Persistent Condition is removed by resting for 1 minute. You can select this Talent multiple times. Each time you do so, you choose a different Force Power to be gained by using this Talent.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "Force Training feat",
+      "nodes": {
+        "text": "Force Training feat",
+        "requirement": "Force Training",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0mq1Uq2A4LmxYaUt",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

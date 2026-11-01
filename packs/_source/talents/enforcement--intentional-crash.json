@@ -1,0 +1,31 @@
+{
+  "_id": "1gGAnXigUvqO7qYc",
+  "_key": "!items!1gGAnXigUvqO7qYc",
+  "name": "Intentional Crash",
+  "type": "talent",
+  "system": {
+    "description": "You know how to intentionally crash an opponent's moving Vehicle. When you successfully deal damage to a Vehicle by Ramming it, your Vehicle takes half damage from the Ram. Additionally, if the target Vehicle is the same size as your Vehicle or smaller, that Vehicle cannot move in the following round.",
+    "tree": "Enforcement",
+    "prerequisite": {
+      "text": "Trained in Pilot",
+      "nodes": {
+        "text": "Trained in Pilot",
+        "requirement": "Pilot",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ECBZwH79wsljvNOM",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

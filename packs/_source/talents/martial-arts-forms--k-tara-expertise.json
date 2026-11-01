@@ -1,0 +1,27 @@
+{
+  "_id": "6uWyoybcHppl4eiP",
+  "_key": "!items!6uWyoybcHppl4eiP",
+  "name": "K'tara Expertise",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn, when you damage a creature or Droid with an Unarmed attack, you can make an attack to Disarm as a Swift Action. Also, you do not take the -5 penalty to your attack roll if the target is wielding a Weapon with more than one hand.",
+    "tree": "Martial Arts Forms",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "V35www4mzdUW6hlc",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

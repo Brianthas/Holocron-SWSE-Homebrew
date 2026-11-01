@@ -1,0 +1,31 @@
+{
+  "_id": "5DhorNxRTrb1GW5C",
+  "_key": "!items!5DhorNxRTrb1GW5C",
+  "name": "Tangle Up",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can make a non-Area Attack melee or ranged attack against an opponent within Range. If the attack hits, you deal half your normal damage (minimum 1 point), but your opponent loses its next Move Action.",
+    "tree": "Outlaw",
+    "prerequisite": {
+      "text": "Uncanny Instincts talent",
+      "nodes": {
+        "text": "Uncanny Instincts talent",
+        "requirement": "Uncanny Instincts",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "B2O9aIspVwaIWYIY",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

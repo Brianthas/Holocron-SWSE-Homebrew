@@ -1,0 +1,31 @@
+{
+  "_id": "tEIxovPdkD1XaovW",
+  "_key": "!items!tEIxovPdkD1XaovW",
+  "name": "Negate and Redirect",
+  "type": "talent",
+  "system": {
+    "description": "When you successfully use the <i>Negate Energy</i> Force Power against a ranged Energy weapon (such as a blaster), you can redirect some of the shot's energy at an enemy target, in addition to the Force Power's usual benefit.<br><br>As a Free Action immediately following your successful use of the <i>Negate Energy</i> Force Power, choose one enemy within your line of sight, and within 6 squares of you, and make a Use the Force check against the target's Fortitude Defense.<br><br>If your Use the Force check equals or exceeds the target's Fortitude Defense, the target takes Energy damage equal to one-half of the damage you negated.",
+    "tree": "Blazing Chain",
+    "prerequisite": {
+      "text": "a member of The Blazing Chain",
+      "nodes": {
+        "text": "a member of The Blazing Chain",
+        "requirement": "The Blazing Chain",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jMXO7D149HAwkM47",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

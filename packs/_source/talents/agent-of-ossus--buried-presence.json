@@ -1,0 +1,31 @@
+{
+  "_id": "aRhbdNLBEjC5v4bZ",
+  "_key": "!items!aRhbdNLBEjC5v4bZ",
+  "name": "Buried Presence",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point as a Standard Action to become immune to detection by The Force for 1 hour. During this time, you always avoid detection by characters who are using the Sense Force application of the Use the Force skill, and you cannot be the target of the <i>Farseeing</i> Force Power.<br><br>You may use this as a Reaction to another character attempting to locate you with Sense Force (but before the character locates you). If you make a Use the Force check, this Talent's effect immediately ends.",
+    "tree": "Agent of Ossus",
+    "prerequisite": {
+      "text": "a member of The Agents of Ossus",
+      "nodes": {
+        "text": "a member of The Agents of Ossus",
+        "requirement": "The Agents of Ossus",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "m0QgNArNf9tH1Huz",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

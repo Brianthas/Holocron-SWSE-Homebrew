@@ -1,0 +1,31 @@
+{
+  "_id": "qeloi1JDferUyMiZ",
+  "_key": "!items!qeloi1JDferUyMiZ",
+  "name": "Intuitive Aim",
+  "type": "talent",
+  "system": {
+    "description": "When you take the Aim Action with an Energy Bow, you need only spend a single Swift Action (instead of the normal two Swift Actions) as long as you have used the Sense Surroundings aspect of the Use the Force skill since the beginning of your turn.",
+    "tree": "Dathomiri Witch",
+    "prerequisite": {
+      "text": "a member of The Witches of Dathomir",
+      "nodes": {
+        "text": "a member of The Witches of Dathomir",
+        "requirement": "The Witches of Dathomir",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pmFrCFd0SWNyf8Qc",
+      "sourceBook": "Dathomir Field Guide"
+    }
+  }
+}

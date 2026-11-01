@@ -1,0 +1,31 @@
+{
+  "_id": "sXjzraqFPPdh35Vf",
+  "_key": "!items!sXjzraqFPPdh35Vf",
+  "name": "Fearsome",
+  "type": "talent",
+  "system": {
+    "description": "Your reputation precedes you, striking fear in your target. Any opponent within 6 squares whose level is equal to or less than your Heroic Level takes a -1 penalty on attack rolls made against you.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "Notorious (Bounty Hunter Talent Tree) talent",
+      "nodes": {
+        "text": "Notorious (Bounty Hunter Talent Tree) talent",
+        "requirement": "Notorious (Bounty Hunter Talent Tree)",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ArCBBwDRdMWlOjFd",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

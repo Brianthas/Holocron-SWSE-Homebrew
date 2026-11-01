@@ -1,0 +1,31 @@
+{
+  "_id": "zQwzirhUUT4I5Nse",
+  "_key": "!items!zQwzirhUUT4I5Nse",
+  "name": "Conceal Other",
+  "type": "talent",
+  "system": {
+    "description": "When you use either the <b>Buried Presence</b> Talent or the <b>Vanish</b> Talent, you affect one other willing adjacent target, granting it the effect of that Talent as well. You can select this Talent multiple times. Each time you do so, it increases the number of adjacent willing targets you affect by one.",
+    "tree": "Agent of Ossus",
+    "prerequisite": {
+      "text": "a member of The Agents of Ossus",
+      "nodes": {
+        "text": "a member of The Agents of Ossus",
+        "requirement": "The Agents of Ossus",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LbekKAuwoNEeTaGF",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

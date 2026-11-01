@@ -1,0 +1,31 @@
+{
+  "_id": "Mdryq05Ip1ZggyUv",
+  "_key": "!items!Mdryq05Ip1ZggyUv",
+  "name": "Shellshock",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you damage a target that is unaware of you with an Area Attack, that target is considered Flat-Footed until the start of your next turn.",
+    "tree": "Vanguard",
+    "prerequisite": {
+      "text": "Soften the Target talent",
+      "nodes": {
+        "text": "Soften the Target talent",
+        "requirement": "Soften the Target",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7EZb0oCmQeTnAAsb",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

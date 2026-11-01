@@ -1,0 +1,31 @@
+{
+  "_id": "5UhvhgeUFcI5aiHq",
+  "_key": "!items!5UhvhgeUFcI5aiHq",
+  "name": "Impose Confusion",
+  "type": "talent",
+  "system": {
+    "description": "Increase the area of <b>Impose Hesitation</b> to a 12-Square Cone. Also, once per encounter, after making the Persuasion check for <b>Impose Hesitation</b>, you can instead choose to have the targets lose a Standard Action on their next turn.",
+    "tree": "Corporate Power",
+    "prerequisite": {
+      "text": "Impose Hesitation talent",
+      "nodes": {
+        "text": "Impose Hesitation talent",
+        "requirement": "Impose Hesitation",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Me1Bes7VMirtLD5d",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

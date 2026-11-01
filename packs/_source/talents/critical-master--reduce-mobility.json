@@ -1,0 +1,27 @@
+{
+  "_id": "Nskg3J4JYwCpPsXQ",
+  "_key": "!items!Nskg3J4JYwCpPsXQ",
+  "name": "Reduce Mobility",
+  "type": "talent",
+  "system": {
+    "description": "When you score a Critical Hit with a melee or ranged attack, you reduce the target's speed by half until it is fully healed (at maximum Hit Points).",
+    "tree": "Critical Master",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "j1OmslkHxjHQ9uHh",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

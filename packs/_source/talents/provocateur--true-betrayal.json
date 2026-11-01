@@ -1,0 +1,42 @@
+{
+  "_id": "84eE1HqTnYWcFtxC",
+  "_key": "!items!84eE1HqTnYWcFtxC",
+  "name": "True Betrayal",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, make a Persuasion check against the Will Defense of one enemy within your line of sight that can hear and understand you. If your check result equals or exceeds the target's Will Defense, that target immediately makes an attack (as a Free Action) against another target of your choice.<br><br>This can be a melee attack against an adjacent target or a ranged attack against a target within the attacker's Point-Blank Range. The target gains a +5 bonus to its Will Defense if it is of a higher level than you. This is a Mind-Affecting effect.",
+    "tree": "Provocateur",
+    "prerequisite": {
+      "text": "Cast Suspicion talent, and Friend or Foe talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Cast Suspicion talent",
+            "requirement": "Cast Suspicion",
+            "type": "TALENT"
+          },
+          {
+            "text": "Friend or Foe talent",
+            "requirement": "Friend or Foe",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Cast Suspicion talent, and Friend or Foe talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3AMLJlnaUS1vh4h4",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

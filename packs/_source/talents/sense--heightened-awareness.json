@@ -1,0 +1,27 @@
+{
+  "_id": "r70IkFVd81NDsthF",
+  "_key": "!items!r70IkFVd81NDsthF",
+  "name": "Heightened Awareness",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point to add your Charisma bonus to your Perception check. You can select this Talent multiple times. Each time you select this Talent, you add your Charisma bonus an additional time.",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "T62CU6ag8LLyI4nC",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

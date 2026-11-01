@@ -1,0 +1,140 @@
+{
+  "_id": "PC7f7UngzEUEsRY0",
+  "_key": "!items!PC7f7UngzEUEsRY0",
+  "name": "Tripzest",
+  "type": "talent",
+  "system": {
+    "description": "<i>Tripzest Lightsaber Form Talent created by Wikia user Droidscotty.</i><br><br>You know how to take advantage of your capacity to hit and fly. When wielding a Lightsaber while flying around your opponents, you gain a +2 bonus to your attack rolls but a -1 penalty to your Defenses. You lose this bonus when landing.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "Inherent Fly Speed or Jet Pack Training",
+      "nodes": {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 1",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 2",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 3",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 4",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 5",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 6",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 7",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 8",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 9",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 10",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 11",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 12",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 13",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 14",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 15",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 16",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 17",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 18",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Inherent Fly Speed",
+                "requirement": "Fly Speed 19",
+                "type": "TRAIT"
+              }
+            ],
+            "count": 1,
+            "text": "Inherent Fly Speed",
+            "type": "OR"
+          },
+          {
+            "text": "Jet Pack Training talent",
+            "requirement": "Jet Pack Training",
+            "type": "TALENT"
+          }
+        ],
+        "count": 1,
+        "text": "Inherent Fly Speed or Jet Pack Training",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jmdNHTQKiw0iPDd7",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - The Dark Side"
+    }
+  }
+}

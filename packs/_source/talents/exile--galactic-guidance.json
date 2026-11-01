@@ -1,0 +1,31 @@
+{
+  "_id": "EoG4SabiflpJsBeW",
+  "_key": "!items!EoG4SabiflpJsBeW",
+  "name": "Galactic Guidance",
+  "type": "talent",
+  "system": {
+    "description": "You share your considerable galactic knowledge to inform others' actions and decisions. Once per encounter, as a Reaction, if you succeed on a DC 25 Knowledge (Galactic Lore) check, you enable one ally within 6 squares of you to reroll a failed Intelligence or Wisdom based Skill Check (other than Perception).",
+    "tree": "Exile",
+    "prerequisite": {
+      "text": "Trained in Knowledge (Galactic Lore)",
+      "nodes": {
+        "text": "Trained in Knowledge (Galactic Lore)",
+        "requirement": "Knowledge (Galactic Lore)",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9360omFPDrjqDPIz",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

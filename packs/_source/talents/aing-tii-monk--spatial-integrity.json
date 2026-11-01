@@ -1,0 +1,31 @@
+{
+  "_id": "fVAUAWp6AHjkm0a9",
+  "_key": "!items!fVAUAWp6AHjkm0a9",
+  "name": "Spatial Integrity",
+  "type": "talent",
+  "system": {
+    "description": "While you are aboard a Vehicle, you can spend a Force Point as a Reaction to the Vehicle taking damage; you make a Use the Force check and reduce the damage the Vehicle takes by the check result.<br><br>This reduction occurs after both DR and SR are applied to the damage.",
+    "tree": "Aing-Tii Monk",
+    "prerequisite": {
+      "text": "a member of The Aing-Tii Monks",
+      "nodes": {
+        "text": "a member of The Aing-Tii Monks",
+        "requirement": "The Aing-Tii Monks",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CTAPvQkikvm3J9OG",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

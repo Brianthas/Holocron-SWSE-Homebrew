@@ -1,0 +1,31 @@
+{
+  "_id": "RIcRtMhNfgoxNMze",
+  "_key": "!items!RIcRtMhNfgoxNMze",
+  "name": "Force Stabilize",
+  "type": "talent",
+  "system": {
+    "description": "You can designate an ally within 12 squares of you and in your line of sight once per turn as a Swift Action; that ally immediately takes its Second Wind if it has not yet done so in this encounter.",
+    "tree": "Tyia Adept",
+    "prerequisite": {
+      "text": "a member of The Tyia",
+      "nodes": {
+        "text": "a member of The Tyia",
+        "requirement": "The Tyia",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fmUDFZXvLivGO8PI",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

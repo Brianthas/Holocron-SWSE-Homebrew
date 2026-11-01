@@ -1,0 +1,27 @@
+{
+  "_id": "u2lafQaIU1XT0VoG",
+  "_key": "!items!u2lafQaIU1XT0VoG",
+  "name": "Etiquette",
+  "type": "talent",
+  "system": {
+    "description": "When you succeed on a Persuasion check to change a character's Attitude, you adjust the target's Attitude by one additional step.",
+    "tree": "3rd-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KE7szXLDKZ3ifMnK",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "_id": "4u2btYdWMjo0fxSA",
+  "_key": "!items!4u2btYdWMjo0fxSA",
+  "name": "Greater Penetrating Attack",
+  "type": "talent",
+  "system": {
+    "description": "Choose a single Exotic Weapon or weapon group with which you're proficient. Whenever you make a successful attack against a target using the chosen Exotic Weapon or weapon from the chosen group, you treat your target's Damage Reduction as if it were 10 points lower when determining the results of your attack.<br><br>This replaces the effects of the <b>Penetrating Attack</b> Talent.",
+    "tree": "Weapon Master",
+    "prerequisite": {
+      "text": "Greater Weapon Focus (#payload#), and Penetrating Attack (#payload#)",
+      "nodes": {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Greater Weapon Focus (#payload#) talent",
+                "requirement": "Greater Weapon Focus (#payload#)",
+                "type": "TALENT"
+              },
+              {
+                "text": "Greater Weapon Focus (#payload#) feat",
+                "requirement": "Greater Weapon Focus (#payload#)",
+                "type": "FEAT"
+              }
+            ],
+            "count": 1,
+            "text": "Greater Weapon Focus (#payload#)",
+            "type": "OR"
+          },
+          {
+            "text": "Penetrating Attack (#payload#)",
+            "requirement": "Penetrating Attack (#payload#)",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Greater Weapon Focus (#payload#), and Penetrating Attack (#payload#)",
+        "type": "AND"
+      }
+    },
+    "repeatable": true,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lACB3zqCsL3hn4nN",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "kyss3DpGQXD7MxPw",
+  "_key": "!items!kyss3DpGQXD7MxPw",
+  "name": "Dark Side Master",
+  "type": "talent",
+  "system": {
+    "description": "Force Powers that are strongly tied to the Dark Side flow through you more easily. You can reroll any Use the Force check made when activating Force Powers with the [<i>Dark Side</i>] descriptor, and can spend a Force Point to keep the better of the two results.",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "Dark Side Adept talent",
+      "nodes": {
+        "text": "Dark Side Adept talent",
+        "requirement": "Dark Side Adept",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DcoIbDCczC1Wc83e",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "QqiUrNfZonMTYMdX",
+  "_key": "!items!QqiUrNfZonMTYMdX",
+  "name": "Swift Power",
+  "type": "talent",
+  "system": {
+    "description": "Once per day, you can use a Force Power that normally takes a Standard Action or a Move Action as a Swift Action.",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "Power of the Dark Side talent",
+      "nodes": {
+        "text": "Power of the Dark Side talent",
+        "requirement": "Power of the Dark Side",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gIz0h0C3tZ65tSwP",
+      "sourceBook": ""
+    }
+  }
+}

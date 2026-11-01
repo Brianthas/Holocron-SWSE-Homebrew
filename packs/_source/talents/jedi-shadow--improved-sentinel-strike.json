@@ -1,0 +1,31 @@
+{
+  "_id": "VveM5OH3i3Fgwkpa",
+  "_key": "!items!VveM5OH3i3Fgwkpa",
+  "name": "Improved Sentinel Strike",
+  "type": "talent",
+  "system": {
+    "description": "Increase the damage dice of your <b>Sentinel Strike</b> to d8, instead of d6.",
+    "tree": "Jedi Shadow",
+    "prerequisite": {
+      "text": "Sentinel Strike talent",
+      "nodes": {
+        "text": "Sentinel Strike talent",
+        "requirement": "Sentinel Strike",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "w6Ym1i5GEzAFhCjJ",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

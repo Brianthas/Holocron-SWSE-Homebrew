@@ -1,0 +1,31 @@
+{
+  "_id": "CgZyGtuddH4nA7qg",
+  "_key": "!items!CgZyGtuddH4nA7qg",
+  "name": "System Hit",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you deal damage to a Vehicle that equals or exceeds its Damage Threshold, you move that Vehicle an additional -1 step on the Condition Track.",
+    "tree": "Gunner",
+    "prerequisite": {
+      "text": "Expert Gunner talent",
+      "nodes": {
+        "text": "Expert Gunner talent",
+        "requirement": "Expert Gunner",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "p1SAEpJ8NXwU7A5e",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "DggyYDQzge3gmPk7",
+  "_key": "!items!DggyYDQzge3gmPk7",
+  "name": "Dig In",
+  "type": "talent",
+  "system": {
+    "description": "When Prone, you can spend a Swift Action to gain Concealment until the start of your next turn. If you stand up or move, you lose this benefit.",
+    "tree": "Camouflage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gcQVr01WZhTwLmTp",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

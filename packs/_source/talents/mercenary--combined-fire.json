@@ -1,0 +1,31 @@
+{
+  "_id": "wxUWVqqaUOq7Buba",
+  "_key": "!items!wxUWVqqaUOq7Buba",
+  "name": "Combined Fire",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +2 bonus to damage rolls on attacks against targets that have been damaged by an ally since the end of your last turn.",
+    "tree": "Mercenary",
+    "prerequisite": {
+      "text": "Coordinated Attack feat",
+      "nodes": {
+        "text": "Coordinated Attack feat",
+        "requirement": "Coordinated Attack",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MNwUAQ5RGq2qDB3H",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

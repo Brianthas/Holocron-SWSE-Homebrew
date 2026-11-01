@@ -1,0 +1,27 @@
+{
+  "_id": "GRdV0Epnv23uUtzt",
+  "_key": "!items!GRdV0Epnv23uUtzt",
+  "name": "Inspire Fear I",
+  "type": "talent",
+  "system": {
+    "description": "Your infamy and reputation are such that any opponent whose level is equal to or less than your Character Level takes a -1 penalty on attack rolls and opposed Skill Checks made against you, as well as Use the Force checks made to activate Force Powers against you. This is a Mind-Affecting Fear effect.",
+    "tree": "Infamy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OLhpH5sMGMn9oqIo",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

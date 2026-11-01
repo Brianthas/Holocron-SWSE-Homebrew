@@ -1,0 +1,27 @@
+{
+  "_id": "Hv5jZPoakOtM13sl",
+  "_key": "!items!Hv5jZPoakOtM13sl",
+  "name": "Adversary Lore",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can peer into The Force and search for weaknesses in the defenses of your enemies. Make a Use the Force check against the Will Defense of a target creature within 12 squares of you and in your line of sight.<br><br>If the Skill Check equals or exceeds the target's Will Defense, that target takes a -2 penalty to their Reflex Defense against you and all allies who can hear and understand you until the end of your next turn.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rzOlbbbPOWyzEp9A",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

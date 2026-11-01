@@ -1,0 +1,31 @@
+{
+  "_id": "jW0a2iAxB6zWQBTe",
+  "_key": "!items!jW0a2iAxB6zWQBTe",
+  "name": "Swerve",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter when an enemy makes an Attack of Opportunity against you, as a Reaction you can automatically negate the attack and immediately move up to half your speed. This movement does not provoke Attacks of Opportunity.<br><br>If you have the Combat Reflexes feat, you may use this Talent a number of times per encounter equal to your Dexterity bonus (minimum 1). You may still only use this Talent once per round.",
+    "tree": "Unpredictable",
+    "prerequisite": {
+      "text": "Fade Away talent",
+      "nodes": {
+        "text": "Fade Away talent",
+        "requirement": "Fade Away",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "D6QZYylurSRMpCqt",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

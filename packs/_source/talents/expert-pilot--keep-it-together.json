@@ -1,0 +1,27 @@
+{
+  "_id": "wJY36dEb5t30fznB",
+  "_key": "!items!wJY36dEb5t30fznB",
+  "name": "Keep it Together",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, when a Vehicle you're Piloting takes damage that equals or exceeds its Damage Threshold, your Vehicle avoids moving down the Condition Track.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Errtk8ofxyE3bsTw",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

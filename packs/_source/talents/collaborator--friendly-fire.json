@@ -1,0 +1,31 @@
+{
+  "_id": "cIrgrZf97xmikmda",
+  "_key": "!items!cIrgrZf97xmikmda",
+  "name": "Friendly Fire",
+  "type": "talent",
+  "system": {
+    "description": "If you are engaged in melee combat with an adjacent enemy and are the target of a ranged attack that misses you, compare the attack roll to the Reflex Defense of one adjacent enemy; if the attack equals or exceeds the target's Reflex Defense, that enemy becomes the new target of the attack, which is resolved as normal.",
+    "tree": "Collaborator",
+    "prerequisite": {
+      "text": "Enemy Tactics talent",
+      "nodes": {
+        "text": "Enemy Tactics talent",
+        "requirement": "Enemy Tactics",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tH8sReXam4pLZD7N",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

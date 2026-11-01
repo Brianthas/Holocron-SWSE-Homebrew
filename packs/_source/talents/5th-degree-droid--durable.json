@@ -1,0 +1,27 @@
+{
+  "_id": "9a9TduLP2IXsFHmz",
+  "_key": "!items!9a9TduLP2IXsFHmz",
+  "name": "Durable",
+  "type": "talent",
+  "system": {
+    "description": "You are particularly durable and continue to function when a lesser Droid would become Disabled. The first time during an encounter that you would be moved to the bottom of the Condition Track by any effect, you instead stop at the -4 step (move at Half Speed; -10 Penalty to all Defenses; -10 Penalty on Attack Rolls,&nbsp;Ability Checks, and&nbsp;Skill Checks). Additionally, if a single attack causes you to move multiple steps down the Condition Track, you can spend a Force Point as a Reaction to only move -1 step down the Condition Track.",
+    "tree": "5th-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "md1bxvdrDfEfK91Z",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

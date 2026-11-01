@@ -1,0 +1,31 @@
+{
+  "_id": "lWISrc6NRq6LB98E",
+  "_key": "!items!lWISrc6NRq6LB98E",
+  "name": "Psychiatric Caregiver",
+  "type": "talent",
+  "system": {
+    "description": "When making a Knowledge (Social Sciences) check to Mentop (see Complications), if you beat the target’s Will Defense by 5 or more, you can decrease their disorder’s attack bonus an additional point.",
+    "tree": "Advanced Medicine",
+    "prerequisite": {
+      "text": "Trained in Knowledge (Sciences)",
+      "nodes": {
+        "text": "Trained in Knowledge (Sciences)",
+        "requirement": "Knowledge (Sciences)",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wUeoqEZzoNwFiG6m",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - Grand Army of the Republic (Part 1)"
+    }
+  }
+}

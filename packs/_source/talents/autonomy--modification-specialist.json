@@ -1,0 +1,27 @@
+{
+  "_id": "9DcJ0tS9wCsw1rqK",
+  "_key": "!items!9DcJ0tS9wCsw1rqK",
+  "name": "Modification Specialist",
+  "type": "talent",
+  "system": {
+    "description": "You have become skilled at Reprogramming and modifying your own Droid Systems. You do not incur the normal -5 penalty on Mechanics and Use Computer checks to Reprogram yourself or perform self-modifications.",
+    "tree": "Autonomy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bz8Cb8ve3RXXXpOr",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

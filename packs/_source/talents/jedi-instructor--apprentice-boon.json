@@ -1,0 +1,27 @@
+{
+  "_id": "h4pP2NVo42qxv2Op",
+  "_key": "!items!h4pP2NVo42qxv2Op",
+  "name": "Apprentice Boon",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an ally within 12 squares with a lower Use the Force skill bonus than you makes a Use the Force check, you can spend a Force Point as a Reaction to add to that Use the Force check.<br><br>Use your level to determine how many dice to roll for the Force Point.",
+    "tree": "Jedi Instructor",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Ob4yVfq82nM5iDHj",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

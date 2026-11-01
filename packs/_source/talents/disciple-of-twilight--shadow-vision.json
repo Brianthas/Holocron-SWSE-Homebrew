@@ -1,0 +1,31 @@
+{
+  "_id": "DqUqCUFCHLvQjgx6",
+  "_key": "!items!DqUqCUFCHLvQjgx6",
+  "name": "Shadow Vision",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you gain Low-Light Vision, allowing you to ignore Concealment (but not Total Concealment) from darkness. This benefit lasts for 5 minutes or until the end of the encounter, whichever comes first.",
+    "tree": "Disciple of Twilight",
+    "prerequisite": {
+      "text": "a member of The Disciples of Twilight",
+      "nodes": {
+        "text": "a member of The Disciples of Twilight",
+        "requirement": "The Disciples of Twilight",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "I7aTnZ3y4kxvyZPz",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

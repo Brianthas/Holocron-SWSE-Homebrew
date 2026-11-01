@@ -1,0 +1,27 @@
+{
+  "_id": "jNS3kVu6F9Rbbnm0",
+  "_key": "!items!jNS3kVu6F9Rbbnm0",
+  "name": "Nonlethal Tactics",
+  "type": "talent",
+  "system": {
+    "description": "When you are using a ranged weapon set to Stun, Stun Grenades, Nets, Riot Shields, or Stun Batons, you gain a +1 bonus on your attack roll and deal +1 die of Stun Damage.",
+    "tree": "Enforcement",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Mw3QGn6U5j7JPhSm",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

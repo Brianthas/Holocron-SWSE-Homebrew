@@ -1,0 +1,27 @@
+{
+  "_id": "r9pfxN5SXGg0AMD2",
+  "_key": "!items!r9pfxN5SXGg0AMD2",
+  "name": "Assault Tactics",
+  "type": "talent",
+  "system": {
+    "description": "As a Move Action, you may designate a single creature or object as the target of an assault. If you succeed on a DC 15 Knowledge (Tactics) check, you and all allies able to hear and understand you deal an additional 1d6 points of damage to the target with each successful melee or ranged attack, until the start of your next turn. This is a Mind-Affecting effect.",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ugonUMYZ8tfIKQcF",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

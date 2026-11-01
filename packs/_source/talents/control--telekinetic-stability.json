@@ -1,0 +1,27 @@
+{
+  "_id": "6u8QoPdjc9mnYUFy",
+  "_key": "!items!6u8QoPdjc9mnYUFy",
+  "name": "Telekinetic Stability",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an attack or effect would normally move you against your will (such as being targeted by a Bantha Rush, or being moved by the <i>Force Thrust</i> Force Power), you can spend a Force Point to negate that movement.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MEgVKQrNPNni0O8x",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

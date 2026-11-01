@@ -1,0 +1,27 @@
+{
+  "_id": "lS3gKG0cSZfzF8DT",
+  "_key": "!items!lS3gKG0cSZfzF8DT",
+  "name": "Castigate",
+  "type": "talent",
+  "system": {
+    "description": "You deliver a scathing rebuke against a target to erode its will and fill it with doubt. Make a Persuasion check as a Standard Action against the target's Will Defense. If successful, you impose a -2 penalty to all the target's Defenses until the end of your next turn.<br><br>You can use this ability only against targets that can clearly hear and understand your language.",
+    "tree": "Disgrace",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "poUYULPakGuYch0l",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

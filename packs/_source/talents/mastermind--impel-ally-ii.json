@@ -1,0 +1,31 @@
+{
+  "_id": "9wnl3K6fVvhBOUsF",
+  "_key": "!items!9wnl3K6fVvhBOUsF",
+  "name": "Impel Ally II",
+  "type": "talent",
+  "system": {
+    "description": "You can spend two Swift Actions to grant one ally the ability to take a Standard Action or Move Action. The ally must move immediately on your turn, before you do anything else, or else the opportunity is wasted.",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "Impel Ally I talent",
+      "nodes": {
+        "text": "Impel Ally I talent",
+        "requirement": "Impel Ally I",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AyUeimwKhMyQ5uib",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

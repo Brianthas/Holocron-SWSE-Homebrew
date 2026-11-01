@@ -1,0 +1,27 @@
+{
+  "_id": "j7zs5Bii3m8ghgr9",
+  "_key": "!items!j7zs5Bii3m8ghgr9",
+  "name": "Sense Primal Force",
+  "type": "talent",
+  "system": {
+    "description": "Jedi who spend time in a diverse wilderness learn the nuances of The Living Force at work within a wild ecosystem. When within a natural wilderness area, such as a jungle, a forest, a swamp, or plains, you tap into the vibrant Living Force of the area and can use the Sense Surroundings aspect of the Use the Force skill to detect targets out to a 30-square radius, regardless of line of sight.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CnnjcXzeuYynZXxS",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

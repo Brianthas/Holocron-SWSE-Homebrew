@@ -1,0 +1,31 @@
+{
+  "_id": "tmWKyN0Yk7ez1Gst",
+  "_key": "!items!tmWKyN0Yk7ez1Gst",
+  "name": "Protector Actions",
+  "type": "talent",
+  "system": {
+    "description": "You and your Followers have learned to work together to great effect, ensuring that you remain safe while allowing them to do their duty. You can use any of the following actions on your turn:",
+    "tree": "Loyal Protector",
+    "prerequisite": {
+      "text": "Inspire Loyalty talent",
+      "nodes": {
+        "text": "Inspire Loyalty talent",
+        "requirement": "Inspire Loyalty",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VSs5RCHEGUhmtRHy",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "tTfNRrKOD6xsEh43",
+  "_key": "!items!tTfNRrKOD6xsEh43",
+  "name": "Entreat Beast",
+  "type": "talent",
+  "system": {
+    "description": "You can use The Force to convince a small Beast to carry objects, deliver messages, or perform other minor tasks for you. If you are near a Beast that is at least Indifferent to you (whether this be a pet you bring with you or a Beast encountered in the wild), you can make a Use the Force check against the Beast's Will Defense as a Swift Action.<br><br>If your Skill Check equals or exceeds the Beast's Will Defense, the Beast performs one task for you from the following list:",
+    "tree": "Beastwarden",
+    "prerequisite": {
+      "text": "Charm Beast (Beastwarden Talent Tree) talent",
+      "nodes": {
+        "text": "Charm Beast (Beastwarden Talent Tree) talent",
+        "requirement": "Charm Beast (Beastwarden Talent Tree)",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lrY1JPjlxZdodIi7",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

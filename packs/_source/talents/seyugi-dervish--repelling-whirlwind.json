@@ -1,0 +1,31 @@
+{
+  "_id": "O4JiHRieVaNxf8or",
+  "_key": "!items!O4JiHRieVaNxf8or",
+  "name": "Repelling Whirlwind",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +2 circumstance bonus to your Reflex Defense against any target hit by your Whirlwind Attack until the start of your next turn.",
+    "tree": "Seyugi Dervish",
+    "prerequisite": {
+      "text": "a member of The Seyugi Dervishes",
+      "nodes": {
+        "text": "a member of The Seyugi Dervishes",
+        "requirement": "The Seyugi Dervishes",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "i0oDGnKeUADW0QoD",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

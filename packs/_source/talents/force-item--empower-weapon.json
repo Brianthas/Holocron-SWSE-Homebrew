@@ -1,0 +1,27 @@
+{
+  "_id": "aQE4guMX6RXU5bE4",
+  "_key": "!items!aQE4guMX6RXU5bE4",
+  "name": "Empower Weapon",
+  "type": "talent",
+  "system": {
+    "description": "You may spend a Force Point to empower a melee weapon. Empowering the weapon takes a Full-Round Action. From that point forward, the Empowered Weapon deals an additional die of damage, but only when wielded by you.<br><br>For example, an empowered Lightsaber deals 3d8 points of damage, instead of 2d8 points of damage. Others who wield the weapon do not gain the bonus damage die.",
+    "tree": "Force Item",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3zktfscjUb8RU14h",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

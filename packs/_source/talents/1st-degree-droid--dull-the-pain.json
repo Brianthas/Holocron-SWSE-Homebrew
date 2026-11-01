@@ -1,0 +1,31 @@
+{
+  "_id": "QRtIbYuEeSfvVG2f",
+  "_key": "!items!QRtIbYuEeSfvVG2f",
+  "name": "Dull the Pain",
+  "type": "talent",
+  "system": {
+    "description": "As a Full-Round Action, you can make a DC 15 Treat Injury check on an adjacent living creature to move it +1 step along the Condition Track.",
+    "tree": "1st-Degree Droid",
+    "prerequisite": {
+      "text": "Medical Droid species",
+      "nodes": {
+        "text": "Medical Droid species",
+        "requirement": "Medical Droid",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7B7xi7NazkwEMHzM",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

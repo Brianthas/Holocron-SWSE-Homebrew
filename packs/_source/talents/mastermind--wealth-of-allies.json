@@ -1,0 +1,31 @@
+{
+  "_id": "0wdO9ye6eztFtBC9",
+  "_key": "!items!0wdO9ye6eztFtBC9",
+  "name": "Wealth of Allies",
+  "type": "talent",
+  "system": {
+    "description": "Whenever one of your minions is killed, he or she is replaced by another minion of the same level. This replacement occurs 24 hours later.",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "Attract Minion talent",
+      "nodes": {
+        "text": "Attract Minion talent",
+        "requirement": "Attract Minion",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qDd62GYRSJlaNvne",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "etfUfInp5YR5KoXm",
+  "_key": "!items!etfUfInp5YR5KoXm",
+  "name": "Extra First Aid",
+  "type": "talent",
+  "system": {
+    "description": "You can use the First Aid application of the Treat Injury skill one additional time per day on a target that has already received First Aid for the day.",
+    "tree": "Advanced Medicine",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OFu3n4M1ftQVTmga",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

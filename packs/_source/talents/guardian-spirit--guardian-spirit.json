@@ -1,0 +1,27 @@
+{
+  "_id": "YAt0YaqxSlquf2u1",
+  "_key": "!items!YAt0YaqxSlquf2u1",
+  "name": "Guardian Spirit",
+  "type": "talent",
+  "system": {
+    "description": "You have a <b>Guardian Spirit</b> watching over you from the realm of The Force, providing you with insight and advice. Your <b>Guardian Spirit</b> might be an old mentor or an ancient member of your Force Tradition who has chosen to guide your Destiny.<br><br>When you use the Search Your Feelings application of the Use the Force Skill, you can instead choose to consult your <b>Guardian Spirit</b>. When you do so, you learn more than just whether the results of your actions will be favorable or unfavorable; you also learn the nature of any immediate consequences, including potential encounters, and whether or not certain actions will bring you closer to achieving your Destiny.&nbsp;<br><br>Additionally, you gain one bonus Force Point each day (available after you rest for at least 6 hours). This bonus Force Point can only be used to improve a Force Power or activate a Force Technique or a Force Secret. If you do not spend your bonus Force Point in a given day, it is lost at the start of the next day.&nbsp;",
+    "tree": "Guardian Spirit",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rbNepeEKYeMRwV1v",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

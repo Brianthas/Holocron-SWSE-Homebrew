@@ -1,0 +1,27 @@
+{
+  "_id": "gbEIzjTiSXD9ykKF",
+  "_key": "!items!gbEIzjTiSXD9ykKF",
+  "name": "Rifle Master",
+  "type": "talent",
+  "system": {
+    "description": "You treat all Rifles as though they were Accurate Weapons, taking no penalty when firing at targets at Short Range.",
+    "tree": "Carbineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GC3iNK1PrdP1J0tC",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

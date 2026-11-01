@@ -1,0 +1,31 @@
+{
+  "_id": "jKqoSFmfShUZXnsI",
+  "_key": "!items!jKqoSFmfShUZXnsI",
+  "name": "Primitive Block",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction, you may negate a melee attack by making a successful Use the Force check. The DC of the Use the Force check is equal to the result of the attack roll you wish to negate, and you take a cumulative -5 penalty on your Use the Force checks to use this Talent for every time you have used <b>Primitive Block</b> since the beginning of your last turn.<br><br>You must have an <b>Empowered</b> <b>Weapon</b> drawn to use this Talent, and you must be aware of the attack and not Flat-Footed. You may spend a Force Point to use this Talent to negate an attack against an adjacent character.<br><br>You may use the <b>Primitive Block</b> Talent to negate melee Area Attacks, such as those made by the Whirlwind Attack feat. If you succeed on the Use the Force check, you take half damage if the attack hit, and no damage if the attack missed.",
+    "tree": "Force Item",
+    "prerequisite": {
+      "text": "Empower Weapon talent",
+      "nodes": {
+        "text": "Empower Weapon talent",
+        "requirement": "Empower Weapon",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LHSirF8DglCINYh7",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

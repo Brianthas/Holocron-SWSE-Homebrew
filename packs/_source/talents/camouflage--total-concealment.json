@@ -1,0 +1,42 @@
+{
+  "_id": "Dy7YmaKNa3AVVZiP",
+  "_key": "!items!Dy7YmaKNa3AVVZiP",
+  "name": "Total Concealment",
+  "type": "talent",
+  "system": {
+    "description": "Any situation that would give you Concealment grants you Total Concealment instead.",
+    "tree": "Camouflage",
+    "prerequisite": {
+      "text": "Hidden Movement talent, and Improved Stealth talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Hidden Movement talent",
+            "requirement": "Hidden Movement",
+            "type": "TALENT"
+          },
+          {
+            "text": "Improved Stealth talent",
+            "requirement": "Improved Stealth",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Hidden Movement talent, and Improved Stealth talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pEhLZMZVpHBtKCJ3",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

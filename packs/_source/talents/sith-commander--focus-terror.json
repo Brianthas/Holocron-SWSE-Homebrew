@@ -1,0 +1,27 @@
+{
+  "_id": "XPeDtoaPGpbm0iHS",
+  "_key": "!items!XPeDtoaPGpbm0iHS",
+  "name": "Focus Terror",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Swift Action, you can harness the fear felt by your allies and transform it into a powerful motivational tool. All allies within 12 squares of you and in your line of sight move +2 steps along the Condition Track, but suffer a -2 penalty on attack rolls and Skill Checks for a number of rounds equal to your Character Level.",
+    "tree": "Sith Commander",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ktLTz3WbXAr7pow5",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "6DkF3I05G87yNQVX",
+  "_key": "!items!6DkF3I05G87yNQVX",
+  "name": "Repairs on the Fly",
+  "type": "talent",
+  "system": {
+    "description": "You can use the Repair application of the Mechanics skill to Repair Droid or Repair Object as a Standard Action. You can gain the benefits of this Talent only once per day per Droid, object, or Vehicle Repaired.",
+    "tree": "Military Engineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GEeT50IPxMTfqhsP",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

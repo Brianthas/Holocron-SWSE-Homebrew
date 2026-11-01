@@ -1,0 +1,27 @@
+{
+  "_id": "q6wyXy4v8SPjq2BC",
+  "_key": "!items!q6wyXy4v8SPjq2BC",
+  "name": "Medical Droid",
+  "type": "talent",
+  "system": {
+    "description": "When you use a Medpac to perform First Aid with the Treat Injury skill, the creature gains 2 Hit Points for every point by which your check exceeds the DC (rather than the normal 1 Hit Point).",
+    "tree": "1st-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VoYmqsVBzdH0yubD",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

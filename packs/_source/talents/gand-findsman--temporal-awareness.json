@@ -1,0 +1,31 @@
+{
+  "_id": "h3XcGuGZMEjxG4Qn",
+  "_key": "!items!h3XcGuGZMEjxG4Qn",
+  "name": "Temporal Awareness",
+  "type": "talent",
+  "system": {
+    "description": "Timing is crucial to a Findsman. Once per encounter, as a Reaction to any enemy's attack, you can move up to your speed.",
+    "tree": "Gand Findsman",
+    "prerequisite": {
+      "text": "Findsman Ceremonies talent",
+      "nodes": {
+        "text": "Findsman Ceremonies talent",
+        "requirement": "Findsman Ceremonies",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DRMYZLL2LgZXnm53",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

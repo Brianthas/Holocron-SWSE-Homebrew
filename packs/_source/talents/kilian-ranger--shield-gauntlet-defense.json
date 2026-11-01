@@ -1,0 +1,31 @@
+{
+  "_id": "hdDMvQSZeTtM3Tq3",
+  "_key": "!items!hdDMvQSZeTtM3Tq3",
+  "name": "Shield Gauntlet Defense",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn as a Reaction, you can gain a +2 deflection bonus to your Reflex Defense against any one ranged attack. To use this Talent, you must be wearing an active Shield Gauntlet, you must be aware of the attack, and you must not be Flat-Footed.",
+    "tree": "Kilian Ranger",
+    "prerequisite": {
+      "text": "a member of The Kilian Rangers",
+      "nodes": {
+        "text": "a member of The Kilian Rangers",
+        "requirement": "The Kilian Rangers",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5zZeJVq5qZ8NL2KF",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

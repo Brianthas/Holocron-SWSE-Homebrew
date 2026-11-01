@@ -1,0 +1,31 @@
+{
+  "_id": "37hKJtlfSmCjm5pk",
+  "_key": "!items!37hKJtlfSmCjm5pk",
+  "name": "Knowledge and Defense",
+  "type": "talent",
+  "system": {
+    "description": "You add your Wisdom bonus to your Reflex Defense whenever your Dexterity bonus would normally be denied to you.",
+    "tree": "Baran Do Sage",
+    "prerequisite": {
+      "text": "a member of The Baran Do Sages",
+      "nodes": {
+        "text": "a member of The Baran Do Sages",
+        "requirement": "The Baran Do Sages",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "INWgd94FsVZEWx01",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

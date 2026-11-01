@@ -1,0 +1,31 @@
+{
+  "_id": "prVMHbaTuxTKexzg",
+  "_key": "!items!prVMHbaTuxTKexzg",
+  "name": "Shield Gauntlet Redirect",
+  "type": "talent",
+  "system": {
+    "description": "This Talent allows you to redirect a deflected blaster bolt along a specific trajectory so that it damages another creature or object in its path. When you successfully perform a <b>Shield Gauntlet Deflect</b>, you can make an immediate ranged attack against another target within 6 squares of you which you have line of sight. If the attack succeeds, it deals normal weapon damage to the target.<br><br>Only single blaster bolts can be redirected in this manner. You cannot use this Talent to redirect barrages from Autofire weapons and other types of projectiles. To use this Talent, you must be wearing an active Shield Gauntlet, you must be aware of the attack, and you must not be Flat-Footed.",
+    "tree": "Kilian Ranger",
+    "prerequisite": {
+      "text": "a member of The Kilian Rangers",
+      "nodes": {
+        "text": "a member of The Kilian Rangers",
+        "requirement": "The Kilian Rangers",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "d7CMHWL0EIauUCtQ",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

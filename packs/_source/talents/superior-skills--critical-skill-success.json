@@ -1,0 +1,27 @@
+{
+  "_id": "qaAkSQHmw1v3cEX0",
+  "_key": "!items!qaAkSQHmw1v3cEX0",
+  "name": "Critical Skill Success",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you roll a Natural 20 on a Skill Check, choose one other Skill. Once before the end of your next turn, you can choose to gain a +5 competence bonus to a check with that Skill as a Free Action.",
+    "tree": "Superior Skills",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nNqvIyImmdNdFy6B",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

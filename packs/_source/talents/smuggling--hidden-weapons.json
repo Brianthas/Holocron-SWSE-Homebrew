@@ -1,0 +1,31 @@
+{
+  "_id": "C9uSeEnXVTiQtyd8",
+  "_key": "!items!C9uSeEnXVTiQtyd8",
+  "name": "Hidden Weapons",
+  "type": "talent",
+  "system": {
+    "description": "If you draw a concealed weapon and, before the end of the same round, make an attack against a target that failed to notice the item, the target is considered Flat-Footed against you. You can draw a concealed item or a stowed item as a Move Action. Additionally, if you have the Quick Draw feat, you can reduce this to a Swift Action.",
+    "tree": "Smuggling",
+    "prerequisite": {
+      "text": "Art of Concealment talent",
+      "nodes": {
+        "text": "Art of Concealment talent",
+        "requirement": "Art of Concealment",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RdB2IAyynMTXFPx5",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

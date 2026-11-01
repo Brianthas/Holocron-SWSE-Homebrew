@@ -1,0 +1,27 @@
+{
+  "_id": "dG8iT1fWa53PdNg5",
+  "_key": "!items!dG8iT1fWa53PdNg5",
+  "name": "Enhance Cover",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can designate a single ally within your line of sight who has Cover from one or more enemies. That ally is considered instead to have Improved Cover against those enemies until the start of your next turn as long as the ally still has Cover.",
+    "tree": "Pathfinder",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RNRMto6o0H24I8ME",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

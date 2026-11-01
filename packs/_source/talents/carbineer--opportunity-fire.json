@@ -1,0 +1,27 @@
+{
+  "_id": "175sWrRfQieILRCn",
+  "_key": "!items!175sWrRfQieILRCn",
+  "name": "Opportunity Fire",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +2 bonus on Attacks of Opportunity made with Rifles.",
+    "tree": "Carbineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ltSzmvfRWgQCo3Ix",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

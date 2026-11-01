@@ -1,0 +1,27 @@
+{
+  "_id": "o3YUdBGhfnCdGCyW",
+  "_key": "!items!o3YUdBGhfnCdGCyW",
+  "name": "Dark Side Talisman",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point to imbue a Weapon or some other portable object with the Dark Side of The Force, creating a Talisman that grants you protection from the Light Side. Creating the <b>Dark Side Talisman</b> takes a Full-Round Action.<br><br>While you wear or carry the Talisman, you gain a +2 Force bonus to one of your Defenses (Reflex, Fortitude, or Will) against Force Powers with the [<i>Light Side</i>] descriptor.<br><br>You can only have one Dark Side Talisman active at a given time (though you can have both a <b>Dark Side Talisman</b> and a <b>Force Talisman</b> active at the same time), and if your <b>Dark Side Talisman</b> is destroyed, you cannot create another one for 24 hours.",
+    "tree": "Dark Side Devotee",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wl5tiWauSNC6YPi5",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

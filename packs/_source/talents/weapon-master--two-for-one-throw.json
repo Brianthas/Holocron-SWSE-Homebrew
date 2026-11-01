@@ -1,0 +1,31 @@
+{
+  "_id": "irM45NfRaVp48Mea",
+  "_key": "!items!irM45NfRaVp48Mea",
+  "name": "Two-For-One Throw",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can throw two weapons simultaneously. Both weapons target the same enemy or target square and are thrown with one hand. Make separate attack rolls for each weapon, each at a -10 penalty.<br><br>The weapons must be similar, such as two Grenades or two Knives, and they must be no larger than one size category smaller than you. The attack cannot exceed Short Range (typically 8 squares).",
+    "tree": "Weapon Master",
+    "prerequisite": {
+      "text": "Weapon Focus (Simple Weapons)",
+      "nodes": {
+        "text": "Weapon Focus (Simple Weapons)",
+        "requirement": "Weapon Focus (Simple Weapons)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NoX1LOIOOlK5usOK",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

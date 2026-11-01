@@ -1,0 +1,27 @@
+{
+  "_id": "5YDBfKZ6KTrEkOb4",
+  "_key": "!items!5YDBfKZ6KTrEkOb4",
+  "name": "Multiattack Proficiency (Lightsabers)",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you make multiple attacks with any type of Lightsaber as part of a Full Attack, you reduce the penalty on your attack rolls by 2.<br><br>You can take this Talent multiple times; each time you take this Talent, you reduce the penalty on your attack rolls by an additional 2.",
+    "tree": "Duelist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cU7HUREObwUNWhwU",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

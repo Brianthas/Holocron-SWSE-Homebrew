@@ -1,0 +1,27 @@
+{
+  "_id": "u8cuoVUvKmwOhoEP",
+  "_key": "!items!u8cuoVUvKmwOhoEP",
+  "name": "Cast Suspicion",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can select one enemy within your line of sight. That enemy loses all morale and insight bonuses on attack rolls and cannot be aided (using the Aid Another Action) by its allies until the end of your next turn.",
+    "tree": "Provocateur",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6dHMqw7nIw5Rx6wY",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

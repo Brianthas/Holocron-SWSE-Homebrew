@@ -1,0 +1,31 @@
+{
+  "_id": "4jVyRdK1LLkhcvUH",
+  "_key": "!items!4jVyRdK1LLkhcvUH",
+  "name": "Second Skin",
+  "type": "talent",
+  "system": {
+    "description": "When wearing Armor with which you are proficient, your Armor bonus to your Reflex Defense and Equipment bonus to your Fortitude Defense each increases by +1.",
+    "tree": "Armor Specialist",
+    "prerequisite": {
+      "text": "Armored Defense talent",
+      "nodes": {
+        "text": "Armored Defense talent",
+        "requirement": "Armored Defense",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mglklysmFLewrQ9n",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

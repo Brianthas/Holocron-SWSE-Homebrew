@@ -1,0 +1,31 @@
+{
+  "_id": "DKb82yFZ4MFKjZIP",
+  "_key": "!items!DKb82yFZ4MFKjZIP",
+  "name": "Dedicated Protector",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can designate one ally within 6 squares of you. Until the end of the encounter, that ally gains a +1 morale bonus to their Reflex Defense as long as it remains adjacent to you. Any individual can only be the target of this Talent once per encounter.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "Harm's Way talent",
+      "nodes": {
+        "text": "Harm's Way talent",
+        "requirement": "Harm's Way",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZMpBhwuXjFCuGXG2",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

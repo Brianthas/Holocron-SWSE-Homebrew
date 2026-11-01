@@ -1,0 +1,27 @@
+{
+  "_id": "c4iZW0wAdyNOLLij",
+  "_key": "!items!c4iZW0wAdyNOLLij",
+  "name": "Find Openings",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are missed by an attack, you gain a +2 morale bonus to your next attack roll before the end of your next turn.",
+    "tree": "Recklessness",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WgjoDTrlSemtQYNB",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

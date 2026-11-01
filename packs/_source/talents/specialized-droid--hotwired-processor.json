@@ -1,0 +1,27 @@
+{
+  "_id": "mLqcdaQhb1kIkgQq",
+  "_key": "!items!mLqcdaQhb1kIkgQq",
+  "name": "Hotwired Processor",
+  "type": "talent",
+  "system": {
+    "description": "You gain temporary processing power, enhancing your mental attributes. When you <b>Hotwire</b> your Processor (a Swift Action), you gain a +5 circumstance bonus on Intelligence and Wisdom based Skill Checks, and a +1 circumstance bonus on ranged attack rolls. A <b>Hotwiring</b> lasts for a number of rounds equal to one-half your Heroic Level (rounded down). When the <b>Hotwiring</b> ends, you move -1 Persistent step along the Condition Track. The penalties imposed by this condition persist until you receive Repairs.",
+    "tree": "Specialized Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rQt2KrvHOytZUqI7",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

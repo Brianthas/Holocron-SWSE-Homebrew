@@ -1,0 +1,31 @@
+{
+  "_id": "2yVnyTp2EL8WcTbV",
+  "_key": "!items!2yVnyTp2EL8WcTbV",
+  "name": "Improved Armored Defense",
+  "type": "talent",
+  "system": {
+    "description": "When calculating your Reflex Defense, you may add your Heroic Level plus one-half your Armor bonus (rounded down), or your Armor bonus, whichever is higher. You must be proficient with the Armor you are wearing to gain this benefit.",
+    "tree": "Armor Specialist",
+    "prerequisite": {
+      "text": "Armored Defense talent",
+      "nodes": {
+        "text": "Armored Defense talent",
+        "requirement": "Armored Defense",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aHdHk5ukKqWe0wha",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

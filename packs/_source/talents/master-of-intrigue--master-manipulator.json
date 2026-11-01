@@ -1,0 +1,42 @@
+{
+  "_id": "PW4bYlp6eqH2XCw6",
+  "_key": "!items!PW4bYlp6eqH2XCw6",
+  "name": "Master Manipulator",
+  "type": "talent",
+  "system": {
+    "description": "You are a master of making things happen the way you want them to. You can use each of the following Actions once per encounter as a Swift Action on your turn:",
+    "tree": "Master of Intrigue",
+    "prerequisite": {
+      "text": "Advanced Planning talent, and Get Into Position (Master of Intrigue Talent Tree) talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Advanced Planning talent",
+            "requirement": "Advanced Planning",
+            "type": "TALENT"
+          },
+          {
+            "text": "Get Into Position (Master of Intrigue Talent Tree) talent",
+            "requirement": "Get Into Position (Master of Intrigue Talent Tree)",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Advanced Planning talent, and Get Into Position (Master of Intrigue Talent Tree) talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IJ6RuEGuN7voComd",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

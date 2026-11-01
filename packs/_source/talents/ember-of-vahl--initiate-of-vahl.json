@@ -1,0 +1,31 @@
+{
+  "_id": "HODtSX8YQCjDqnYR",
+  "_key": "!items!HODtSX8YQCjDqnYR",
+  "name": "Initiate of Vahl",
+  "type": "talent",
+  "system": {
+    "description": "Having been formally initiated into Vahl's priesthood, you are resistant to the effects of Fire and Extreme Heat. You take half damage from attacks that deal Fire damage, or no damage on a miss (if the Fire damage is part of an Area Attack).",
+    "tree": "Ember of Vahl",
+    "prerequisite": {
+      "text": "a member of The Ember of Vahl",
+      "nodes": {
+        "text": "a member of The Ember of Vahl",
+        "requirement": "The Ember of Vahl",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NOgyveLyd6ZwnaAQ",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

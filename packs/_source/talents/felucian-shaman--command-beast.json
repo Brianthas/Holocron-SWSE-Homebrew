@@ -1,0 +1,31 @@
+{
+  "_id": "q1qzfR9JW2CBDtYS",
+  "_key": "!items!q1qzfR9JW2CBDtYS",
+  "name": "Command Beast",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you manage to shift the Attitude of a Beast to Indifferent or Friendly, you may treat that creature as a domesticated animal- but for you only (it remains undomesticated in its response to other creatures). Additionally, you may use this Beast as a Mount, as per the Ride skill, provided that it is at least one size category larger than you and has a comfortable place for you to sit.",
+    "tree": "Felucian Shaman",
+    "prerequisite": {
+      "text": "a member of The Felucian Shamans",
+      "nodes": {
+        "text": "a member of The Felucian Shamans",
+        "requirement": "The Felucian Shamans",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9VxFrcYQT1Jtxj93",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

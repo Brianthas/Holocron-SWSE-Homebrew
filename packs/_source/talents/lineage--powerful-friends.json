@@ -1,0 +1,42 @@
+{
+  "_id": "zTBTjR2OStAVjPWA",
+  "_key": "!items!zTBTjR2OStAVjPWA",
+  "name": "Powerful Friends",
+  "type": "talent",
+  "system": {
+    "description": "You have a powerful contact who has an extended sphere of influence. The contact could be an Imperial Senator, a high-level military officer, a regional governor, an infamous crime lord, or another person of similar significance.<br><br>Once per encounter, you can invoke the name or office of your powerful contact and Take 20 on one Persuasion check, with no increase in the time needed to make the check.",
+    "tree": "Lineage",
+    "prerequisite": {
+      "text": "Connections talent, and Influential Friends talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Connections talent",
+            "requirement": "Connections",
+            "type": "TALENT"
+          },
+          {
+            "text": "Influential Friends talent",
+            "requirement": "Influential Friends",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Connections talent, and Influential Friends talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dO3F2aYfSPua0qUy",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

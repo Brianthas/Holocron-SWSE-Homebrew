@@ -1,0 +1,27 @@
+{
+  "_id": "LdlJ8M7aK1KHaDNM",
+  "_key": "!items!LdlJ8M7aK1KHaDNM",
+  "name": "Double Agent",
+  "type": "talent",
+  "system": {
+    "description": "When you roll Initiative at the beginning of combat, also roll a Deception check, comparing the result to the Will Defense of all enemies in line of sight. If your Deception check is successful, that target cannot attack you and does not believe you to be an enemy (though they do not consider you an ally) while this effect is active.<br><br>If you attack or otherwise obviously harm or hinder a target under the effect of this Talent, or one of that target's allies, this effect ends. This is a Mind-Affecting effect.",
+    "tree": "Collaborator",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jOKkHO17FuJSOr3j",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

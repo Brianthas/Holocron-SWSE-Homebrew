@@ -1,0 +1,52 @@
+{
+  "_id": "uf9HQr8yqEjHWO6S",
+  "_key": "!items!uf9HQr8yqEjHWO6S",
+  "name": "Blaster and Blade II",
+  "type": "talent",
+  "system": {
+    "description": "When you are wielding both an Advanced Melee Weapon and a Pistol, you treat the Advanced Melee Weapon as though you were wielding it two-handed (including doubling your Strength bonus on damage rolls).",
+    "tree": "Privateer",
+    "prerequisite": {
+      "text": "Blaster and Blade I talent, Dual Weapon Mastery I feat, Weapon Proficiency (Advanced Melee), and Weapon Proficiency (Pistols)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Blaster and Blade I talent",
+            "requirement": "Blaster and Blade I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Dual Weapon Mastery I feat",
+            "requirement": "Dual Weapon Mastery I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Proficiency (Advanced Melee)",
+            "requirement": "Weapon Proficiency (Advanced Melee)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Proficiency (Pistols)",
+            "requirement": "Weapon Proficiency (Pistols)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Blaster and Blade I talent, Dual Weapon Mastery I feat, Weapon Proficiency (Advanced Melee), and Weapon Proficiency (Pistols)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AYixRmOWRGXft4Am",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "4ZgT0k6BYYIvjebe",
+  "_key": "!items!4ZgT0k6BYYIvjebe",
+  "name": "Share Talent",
+  "type": "talent",
+  "system": {
+    "description": "Choose a&nbsp;Talent&nbsp;that you already possess. The Talent you select must be from the&nbsp;Lightsaber Combat Talent Tree, the&nbsp;Duelist Talent Tree, or the&nbsp;Lightsaber Forms Talent Tree. Once per day, as a&nbsp;Standard Action, you can spend a Force Point to impart the benefits of the chosen&nbsp;Talent&nbsp;to one or more allies, effectively granting them the&nbsp;Talent&nbsp;(even if they don't meet the prerequisites).<br><br>An ally must be within 12 squares of you, and must be able to see and hear you to gain the&nbsp;Talent; once gained, its benefits last until the end of the encounter.<br><br>You can share the&nbsp;Talent&nbsp;with a number of allies equal to one-half your Class Level (rounded down). Only allies who are Trained in the Use the Force Skill can gain the benefits of the Shared Talent.<br><br>You can take this Talent multiple times. Each time you do so, you must select a different Talent to share with this ability. You can share each Talent with your allies only once per day.",
+    "tree": "Jedi Instructor",
+    "prerequisite": {
+      "text": "At least 1 Talent from Lightsaber Combat Talent Tree, Duelist Talent Tree, or Lightsaber Forms Talent Tree",
+      "nodes": {
+        "children": [
+          {
+            "text": "Talent from the Lightsaber Combat Talent Tree",
+            "requirement": "Lightsaber Combat Talent Tree",
+            "type": "TALENT"
+          },
+          {
+            "text": "Talent from the Duelist Talent Tree",
+            "requirement": "Duelist Talent Tree",
+            "type": "TALENT"
+          },
+          {
+            "text": "Talent from the Lightsaber Forms Talent Tree",
+            "requirement": "Lightsaber Forms Talent Tree",
+            "type": "TALENT"
+          }
+        ],
+        "count": 1,
+        "text": "At least 1 Talent from Lightsaber Combat Talent Tree, Duelist Talent Tree, or Lightsaber Forms Talent Tree",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BKPfxnSGUckIujje",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

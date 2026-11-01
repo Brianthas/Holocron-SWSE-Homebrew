@@ -1,0 +1,27 @@
+{
+  "_id": "LcxOZoObpVhsEOOt",
+  "_key": "!items!LcxOZoObpVhsEOOt",
+  "name": "Force Power Adept",
+  "type": "talent",
+  "system": {
+    "description": "You are skilled at using a particular Force Power. Select one Force Power you know. When using that Force Power, you have the option of spending a Force Point to make two Use the Force checks, keeping the better result.<br><br>This Talent may be selected multiple times. Its effects do not stack. Each time you select this Talent, you must choose a different Force Power.",
+    "tree": "Force Adept",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zLN53u6RcBchqarf",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

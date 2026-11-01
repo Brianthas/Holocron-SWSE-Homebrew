@@ -1,0 +1,31 @@
+{
+  "_id": "i8BkxiE8as2wneeS",
+  "_key": "!items!i8BkxiE8as2wneeS",
+  "name": "Hard Target",
+  "type": "talent",
+  "system": {
+    "description": "You can Catch a Second Wind as a Reaction, instead of as a Swift Action.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "Tough as Nails talent",
+      "nodes": {
+        "text": "Tough as Nails talent",
+        "requirement": "Tough as Nails",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rUlxOhy3eYRJNyJp",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

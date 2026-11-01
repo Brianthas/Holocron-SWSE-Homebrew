@@ -1,0 +1,31 @@
+{
+  "_id": "xm0shfvhHzjc4U2A",
+  "_key": "!items!xm0shfvhHzjc4U2A",
+  "name": "Fast Repairs",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you Jury-Rig an object or Vehicle, the Vehicle gains a number of temporary Hit Points equal to the result of your Mechanics check. Damage is subtracted from these temporary Hit Points first, and temporary Hit Points go away at the conclusion of the encounter.",
+    "tree": "Outlaw Tech",
+    "prerequisite": {
+      "text": "Trained in Mechanics",
+      "nodes": {
+        "text": "Trained in Mechanics",
+        "requirement": "Mechanics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "EzNgVuTYaTInxpYB",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

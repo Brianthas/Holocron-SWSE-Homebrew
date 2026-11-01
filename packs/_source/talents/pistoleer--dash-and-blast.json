@@ -1,0 +1,42 @@
+{
+  "_id": "ebGR2m8woM0e04ca",
+  "_key": "!items!ebGR2m8woM0e04ca",
+  "name": "Dash and Blast",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Full-Round Action, when you are wielding two Pistols, you may move up to twice your speed and make a ranged attack with each Pistol. The normal penalties for attacking with two Weapons apply to these attacks.",
+    "tree": "Pistoleer",
+    "prerequisite": {
+      "text": "Dual Weapon Mastery I feat, and Running Attack feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dual Weapon Mastery I feat",
+            "requirement": "Dual Weapon Mastery I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Running Attack feat",
+            "requirement": "Running Attack",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Dual Weapon Mastery I feat, and Running Attack feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "awY5lT5108l6ODUh",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "OXuE5np87jfOpFS0",
+  "_key": "!items!OXuE5np87jfOpFS0",
+  "name": "Tested in Battle",
+  "type": "talent",
+  "system": {
+    "description": "When you catch a Second Wind, you move +2 steps on the Condition Track in addition to regaining Hit Points.",
+    "tree": "Veteran",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FLn82A5I82GYsUOA",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "rTdjPNFQpQYFcbe2",
+  "_key": "!items!rTdjPNFQpQYFcbe2",
+  "name": "Roll With It",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you take damage on behalf of an ally through the use of a Talent (including <b>Harm's Way</b>), you gain Damage Reduction equal to your Class Level until the end of your next turn.",
+    "tree": "Protection",
+    "prerequisite": {
+      "text": "Bodyguard's Sacrifice talent, and Take the Hit talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Bodyguard's Sacrifice talent",
+            "requirement": "Bodyguard's Sacrifice",
+            "type": "TALENT"
+          },
+          {
+            "text": "Take the Hit talent",
+            "requirement": "Take the Hit",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Bodyguard's Sacrifice talent, and Take the Hit talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BdDFRB2UCNvFXYvv",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

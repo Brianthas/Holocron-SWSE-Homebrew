@@ -1,0 +1,27 @@
+{
+  "_id": "yGqBJB5ghAbr32tI",
+  "_key": "!items!yGqBJB5ghAbr32tI",
+  "name": "Close-Quarters Fighter",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you occupy the same square as your target or are adjacent to your target, you gain a +1 circumstance bonus to your melee attack rolls against that target.",
+    "tree": "Melee Specialist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1kjgrx6PexypGHcy",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

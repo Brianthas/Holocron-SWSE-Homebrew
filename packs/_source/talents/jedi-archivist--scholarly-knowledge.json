@@ -1,0 +1,27 @@
+{
+  "_id": "CpeLJzqT0BHMgnVW",
+  "_key": "!items!CpeLJzqT0BHMgnVW",
+  "name": "Scholarly Knowledge",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can reroll a Knowledge check and keep the better of the two results. This can be used with any Knowledge skill you are Trained in.",
+    "tree": "Jedi Archivist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cxTycNQuEbfTLWqg",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

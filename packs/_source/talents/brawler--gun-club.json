@@ -1,0 +1,27 @@
+{
+  "_id": "rGIASZWsbDaBb3ty",
+  "_key": "!items!rGIASZWsbDaBb3ty",
+  "name": "Gun Club",
+  "type": "talent",
+  "system": {
+    "description": "You can use a ranged weapon as a melee weapon without taking a penalty on your attack roll. The weapon is otherwise treated as a Club in all respects.<br><br>If you are using a Rifle with a mounted Bayonet or Vibrobayonet, you may wield that weapon as a Double Weapon. The Bayonet or Vibrobayonet end is treated normally, and the other end is treated as a Club.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ByPQofdwOsxarwrZ",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

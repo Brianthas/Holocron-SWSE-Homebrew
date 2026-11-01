@@ -1,0 +1,27 @@
+{
+  "_id": "HoAHhdACsw07dG8X",
+  "_key": "!items!HoAHhdACsw07dG8X",
+  "name": "Aversion",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can spend a Force Point to radiate an invisible aura that makes other beings want to avoid you. Until the end of the encounter, all squares within 2 squares of you are considered Difficult Terrain for your enemies. This is a Mind-Affecting effect.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Nv4uYpNwgbhfDPEr",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

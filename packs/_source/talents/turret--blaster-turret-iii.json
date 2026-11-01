@@ -1,0 +1,42 @@
+{
+  "_id": "g1zCU6AIrurVWHXq",
+  "_key": "!items!g1zCU6AIrurVWHXq",
+  "name": "Blaster Turret III",
+  "type": "talent",
+  "system": {
+    "description": "<p>Your Turret has the capabilities of Blaster Turret II and can fire twice per round.</p>",
+    "tree": "Turret",
+    "prerequisite": {
+      "text": "Blaster Turret I talent, and Blaster Turret II talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Blaster Turret I talent",
+            "requirement": "Blaster Turret I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Blaster Turret II talent",
+            "requirement": "Blaster Turret II",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Blaster Turret I talent, and Blaster Turret II talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pN1KtQJdORrLNqLC",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

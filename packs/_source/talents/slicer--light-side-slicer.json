@@ -1,0 +1,27 @@
+{
+  "_id": "ar8cWAv8vyF8Sdoy",
+  "_key": "!items!ar8cWAv8vyF8Sdoy",
+  "name": "Light Side Slicer",
+  "type": "talent",
+  "system": {
+    "description": "You may grant a +2 bonus to a computer's Will Defense against Use Computer checks to Improve Access. If the attacking slicer fails their Use Computer check by 5 or more, the Attitude of the computer moves 2 steps toward Hostile (Instead of the normal 1 step towards Hostile).",
+    "tree": "Slicer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RFI5HZJ40cVs6aJQ",
+      "sourceBook": "New Republic Campaign Guide"
+    }
+  }
+}

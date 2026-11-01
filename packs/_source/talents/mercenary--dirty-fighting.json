@@ -1,0 +1,27 @@
+{
+  "_id": "pmAa2XWzb2wr6LWy",
+  "_key": "!items!pmAa2XWzb2wr6LWy",
+  "name": "Dirty Fighting",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, if you successfully damage an opponent with a melee or ranged attack, you reduce the target's Damage Threshold by 2 points for the remainder of the encounter.",
+    "tree": "Mercenary",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bBHoDrWvYDjiurW2",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

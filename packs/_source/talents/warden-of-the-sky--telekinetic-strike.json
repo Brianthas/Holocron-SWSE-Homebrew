@@ -1,0 +1,31 @@
+{
+  "_id": "P1hBoHOtOmPeOAHq",
+  "_key": "!items!P1hBoHOtOmPeOAHq",
+  "name": "Telekinetic Strike",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you make a successful Unarmed attack, you can add the result of a Force Point roll to the damage roll instead of the attack roll.",
+    "tree": "Warden of the Sky",
+    "prerequisite": {
+      "text": "a member of The Wardens of the Sky",
+      "nodes": {
+        "text": "a member of The Wardens of the Sky",
+        "requirement": "The Wardens of the Sky",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cTs65ndmqCAOtbio",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

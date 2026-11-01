@@ -1,0 +1,27 @@
+{
+  "_id": "py8TSuhDUmspF47c",
+  "_key": "!items!py8TSuhDUmspF47c",
+  "name": "Persuasive",
+  "type": "talent",
+  "system": {
+    "description": "You receive a +2 competence bonus to all Deception and Persuasion checks. Additionally, you are also considered Trained in those skill if not already.",
+    "tree": "Influence",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bOOm06GNi3UV91qz",
+      "sourceBook": "New Republic Campaign Guide"
+    }
+  }
+}

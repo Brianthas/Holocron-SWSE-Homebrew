@@ -1,0 +1,27 @@
+{
+  "_id": "fi2zfjhGSxSfX0ne",
+  "_key": "!items!fi2zfjhGSxSfX0ne",
+  "name": "Sith Alchemy",
+  "type": "talent",
+  "system": {
+    "description": "Your knowledge of <b>Sith Alchemy</b> allows you to imbue certain objects with the power of the Dark Side. You can perform any of the following Alchemical Transformations, though each time you do so, increase your Dark Side Score by 1.",
+    "tree": "Sith Alchemy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "E3GSGzzEkAAeqz3Z",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

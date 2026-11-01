@@ -1,0 +1,31 @@
+{
+  "_id": "BpJrQcF9FbsJ1F15",
+  "_key": "!items!BpJrQcF9FbsJ1F15",
+  "name": "Dathomiri Hunter",
+  "type": "talent",
+  "system": {
+    "description": "When you use a Chain Sickle or an Energy Bow, your damage die increases by one step (from d8s to d10s). In addition, you gain a +2 bonus to Use the Force checks made to Sense Surroundings.",
+    "tree": "Dathomiri Witch",
+    "prerequisite": {
+      "text": "a member of The Witches of Dathomir",
+      "nodes": {
+        "text": "a member of The Witches of Dathomir",
+        "requirement": "The Witches of Dathomir",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VlsBGeeTXkjZNT4t",
+      "sourceBook": "Dathomir Field Guide"
+    }
+  }
+}

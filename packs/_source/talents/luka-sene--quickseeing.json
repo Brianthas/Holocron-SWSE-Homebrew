@@ -1,0 +1,31 @@
+{
+  "_id": "Xj4ETJTg7zh2xEjS",
+  "_key": "!items!Xj4ETJTg7zh2xEjS",
+  "name": "Quickseeing",
+  "type": "talent",
+  "system": {
+    "description": "As a Free Action on your turn, you can make a Use the Force check against a living creature within 12 squares, removing one use of the <i>Farseeing</i> Force Power from your active Force Power Suite (as though you had activated the Force Power).<br><br>If your check result equals or exceeds the Will Defense of the target, you gain a +2 insight bonus on attack rolls against that target until the end of your turn. This counts as using the <i>Farseeing</i> Force Power against that target, but this Talent replaces the normal rules and effects of that Force Power.",
+    "tree": "Luka Sene",
+    "prerequisite": {
+      "text": "a member of The Luka Sene",
+      "nodes": {
+        "text": "a member of The Luka Sene",
+        "requirement": "The Luka Sene",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kP5pBx4DV8ylRSqB",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

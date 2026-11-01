@@ -1,0 +1,27 @@
+{
+  "_id": "OxltlSp4uLd0bIAq",
+  "_key": "!items!OxltlSp4uLd0bIAq",
+  "name": "Bunker Buster",
+  "type": "talent",
+  "system": {
+    "description": "If you are adjacent to an object that can provide you with Cover from a target, you can Aim at that target as a Move Action.",
+    "tree": "Pathfinder",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OXoDwnHjzowrR5lT",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

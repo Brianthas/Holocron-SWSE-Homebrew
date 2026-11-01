@@ -1,0 +1,31 @@
+{
+  "_id": "C3QEnUCKHGQp9tNS",
+  "_key": "!items!C3QEnUCKHGQp9tNS",
+  "name": "Flee",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can designate a single opponent and move up to your Speed away from that opponent; this movement does not provoke Attacks of Opportunity from that opponent, though it might provoke as normal for all other opponents.<br><br>In addition, your Speed increases by 2 until the end of your next turn.",
+    "tree": "Fringer",
+    "prerequisite": {
+      "text": "Long Stride talent",
+      "nodes": {
+        "text": "Long Stride talent",
+        "requirement": "Long Stride",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cDviPnbJEdnkPqof",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

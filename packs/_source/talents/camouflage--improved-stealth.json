@@ -1,0 +1,27 @@
+{
+  "_id": "EflsiRRNM6TmsAfH",
+  "_key": "!items!EflsiRRNM6TmsAfH",
+  "name": "Improved Stealth",
+  "type": "talent",
+  "system": {
+    "description": "You may choose to reroll any Stealth check, but the result of the reroll must be accepted, even if it is worse. This Talent applies to Stealth checks made while Piloting a Starship (see Starship Stealth).",
+    "tree": "Camouflage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Gpl9YeTu2PdJvYMw",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

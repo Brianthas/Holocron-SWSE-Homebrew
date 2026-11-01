@@ -1,0 +1,27 @@
+{
+  "_id": "nrStxFN7sEmQxffS",
+  "_key": "!items!nrStxFN7sEmQxffS",
+  "name": "Channel Vitality",
+  "type": "talent",
+  "system": {
+    "description": "You can fuel your mastery of The Force with your own vitality. As a Swift Action, you can move -1 step down the Condition Track to gain a temporary Force Point. This temporary Force Point lasts until the end of your turn, at which point it is lost if it has not been used.",
+    "tree": "Mystic",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fpQc8cxu8LEwjs5C",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

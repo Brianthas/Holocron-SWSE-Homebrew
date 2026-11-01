@@ -1,0 +1,27 @@
+{
+  "_id": "XvLFh26ZZrqLSgcC",
+  "_key": "!items!XvLFh26ZZrqLSgcC",
+  "name": "Tactical Edge",
+  "type": "talent",
+  "system": {
+    "description": "You can use the <b>Assault Tactics</b>, <b>Deployment Tactics</b>, or <b>Field Tactics</b> Talent as a Swift Action, instead of a Move Action (provided you have the Talent in question).",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "btZy6IWCE93pKxPs",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

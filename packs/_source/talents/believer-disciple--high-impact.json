@@ -1,0 +1,31 @@
+{
+  "_id": "yHwrz3GbVULfsdqT",
+  "_key": "!items!yHwrz3GbVULfsdqT",
+  "name": "High Impact",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, make a DC 15 Use the Force check. If your check succeeds, double your Strength bonus to the next melee damage roll you make before the end of your turn.",
+    "tree": "Believer Disciple",
+    "prerequisite": {
+      "text": "a member of The Believers",
+      "nodes": {
+        "text": "a member of The Believers",
+        "requirement": "The Believers",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aSTFlJlDekQ6zGbY",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

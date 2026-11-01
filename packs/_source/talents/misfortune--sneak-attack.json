@@ -1,0 +1,27 @@
+{
+  "_id": "6J6KFTnpanPRJ3CP",
+  "_key": "!items!6J6KFTnpanPRJ3CP",
+  "name": "Sneak Attack",
+  "type": "talent",
+  "system": {
+    "description": "Any time your opponent is Flat-Footed or otherwise denied its Dexterity bonus to Reflex Defense, you deal one additional die of your weapon's damage with a successful melee or ranged attack. You must be within 6 squares of the target to make a <b>Sneak Attack</b> with a ranged weapon.<br><br>You may select this Talent multiple times. Each time you select it, your <b>Sneak Attack</b> damage increases by one more die (maximum +10 dice).",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": true,
+    "maxTimes": 10,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HvVnvydEHR8Y5Y7f",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "PVXMQlgM7O2HJM8v",
+  "_key": "!items!PVXMQlgM7O2HJM8v",
+  "name": "Blast Back",
+  "type": "talent",
+  "system": {
+    "description": "Once per round when you are damaged by an enemy's Area Attack, as a Reaction you can make an immediate melee or ranged attack against the source of the Area Attack, provided that you have line of sight to the attacker and the target is within your melee or ranged reach.",
+    "tree": "Unpredictable",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PRKMh4AuvZHIGjY5",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "A2prgLNtFatrwAww",
+  "_key": "!items!A2prgLNtFatrwAww",
+  "name": "Master Defender",
+  "type": "talent",
+  "system": {
+    "description": "When you Fight Defensively, either your Vehicle gains a +5 dodge bonus to its Reflex Defense if you and your Gunners take a -2 penalty to attack rolls, or it gains a +10 dodge bonus if you and your Gunners take a -5 penalty to attack rolls.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sIAiw7trwT9ptEQX",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

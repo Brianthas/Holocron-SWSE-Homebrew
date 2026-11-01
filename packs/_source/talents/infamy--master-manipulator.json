@@ -1,0 +1,42 @@
+{
+  "_id": "52xeFm5HYQxnqAP3",
+  "_key": "!items!52xeFm5HYQxnqAP3",
+  "name": "Master Manipulator",
+  "type": "talent",
+  "system": {
+    "description": "When you make a successful Persuasion check, you can immediately make a second Persuasion check against the same target, even if it is not normally allowed. The second Persuasion check need not be for the same use of the Persuasion skill as the first. For example, if you successfully Change Attitude of the target, you can immediately attempt to Change Attitude a second time, or you can attempt to Intimidate the target instead.",
+    "tree": "Infamy",
+    "prerequisite": {
+      "text": "Notorious (Infamy Talent Tree) talent, and Skill Focus (Persuasion)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Notorious (Infamy Talent Tree) talent",
+            "requirement": "Notorious (Infamy Talent Tree)",
+            "type": "TALENT"
+          },
+          {
+            "text": "Skill Focus (Persuasion)",
+            "requirement": "Skill Focus (Persuasion)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Notorious (Infamy Talent Tree) talent, and Skill Focus (Persuasion)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SDLs7L0wwq6PQFjD",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

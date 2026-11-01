@@ -1,0 +1,27 @@
+{
+  "_id": "bivazwkNoSk69RXM",
+  "_key": "!items!bivazwkNoSk69RXM",
+  "name": "Adept Negotiator",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can weaken the resolve of one opponent with your words. The target must have an Intelligence of 3 or higher, and it must be able to see, hear, and understand you. Make a Persuasion check; if the result equals or exceeds the target's Will Defense, it moves -1 step along the Condition Track. The target gets a +5 bonus to its Will Defense if it is higher level than you.<br><br>If the target reaches the end of its Condition Track, it does not fall unconscious, instead, it cannot attack you or your allies for the remainder of the encounter unless you or one of your allies attacks it or one of its allies first. This is a Mind-Affecting effect.<br><br>You affect the Condition Track of the specific character (usually the Vehicle's Commander), not a Starship.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Fn9KE4iYKGOaBmrp",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

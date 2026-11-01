@@ -1,0 +1,47 @@
+{
+  "_id": "dhwQqoBTQ94R3xfH",
+  "_key": "!items!dhwQqoBTQ94R3xfH",
+  "name": "Nowhere to Run",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn, whenever an opponent whom you selected for your <b>Hunter's Target</b> attempts to Withdraw, you can make an Attack of Opportunity against that target.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "Hunter's Mark talent, Hunter's Target talent, and Nowhere to Hide talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Hunter's Mark talent",
+            "requirement": "Hunter's Mark",
+            "type": "TALENT"
+          },
+          {
+            "text": "Hunter's Target talent",
+            "requirement": "Hunter's Target",
+            "type": "TALENT"
+          },
+          {
+            "text": "Nowhere to Hide talent",
+            "requirement": "Nowhere to Hide",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Hunter's Mark talent, Hunter's Target talent, and Nowhere to Hide talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lSJnsMIYbIvPv5Ke",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

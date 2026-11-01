@@ -1,0 +1,42 @@
+{
+  "_id": "GCsUAet9vRCSEOjj",
+  "_key": "!items!GCsUAet9vRCSEOjj",
+  "name": "Harrying Shot",
+  "type": "talent",
+  "system": {
+    "description": "When you make a successful ranged attack against an enemy that you have Aimed at and the attack deals damage, the target cannot use a Standard Action to make an attack roll on his or her next turn. This is a Stunning effect.",
+    "tree": "Sharpshooter",
+    "prerequisite": {
+      "text": "Pinning Shot talent, and Precision Shot talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Pinning Shot talent",
+            "requirement": "Pinning Shot",
+            "type": "TALENT"
+          },
+          {
+            "text": "Precision Shot talent",
+            "requirement": "Precision Shot",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Pinning Shot talent, and Precision Shot talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "L6iombmncdRt10xj",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "GJjsNv6cAgCSLo6B",
+  "_key": "!items!GJjsNv6cAgCSLo6B",
+  "name": "Easy Prey",
+  "type": "talent",
+  "system": {
+    "description": "When you make an attack as a Standard Action and successfully hit an enemy, you can choose to reduce the damage you deal by half. That target is then denied its Dexterity bonus to its Reflex Defense against your attacks until the end of your next turn.",
+    "tree": "Brigand",
+    "prerequisite": {
+      "text": "Cheap Trick talent",
+      "nodes": {
+        "text": "Cheap Trick talent",
+        "requirement": "Cheap Trick",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OCdJvqI1slqxCATO",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

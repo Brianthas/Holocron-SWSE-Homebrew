@@ -1,0 +1,42 @@
+{
+  "_id": "hmhnN4aNF275jK6D",
+  "_key": "!items!hmhnN4aNF275jK6D",
+  "name": "Mobile Combatant",
+  "type": "talent",
+  "system": {
+    "description": "You know that the key to winning a fight is keeping your enemies from pinning you down. You can use each of the following Actions once per encounter:",
+    "tree": "Advance Patrol",
+    "prerequisite": {
+      "text": "Forward Patrol talent, and Watchful Step talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Forward Patrol talent",
+            "requirement": "Forward Patrol",
+            "type": "TALENT"
+          },
+          {
+            "text": "Watchful Step talent",
+            "requirement": "Watchful Step",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Forward Patrol talent, and Watchful Step talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xfonM8QeWJB3Zwh4",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "L3iFl2drqWnjEOgh",
+  "_key": "!items!L3iFl2drqWnjEOgh",
+  "name": "Skilled Demolitionist",
+  "type": "talent",
+  "system": {
+    "description": "You can set a Detonator as a Swift Action, and your Explosives never go off as the Detonator is being placed, even if you fail the check by 10 or more. You must still roll to determine if the charge otherwise goes off as planned (see Handle Explosives).",
+    "tree": "Sabotage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XFW6FoLVAqc7LL8N",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

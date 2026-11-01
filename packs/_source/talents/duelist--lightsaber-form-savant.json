@@ -1,0 +1,27 @@
+{
+  "_id": "H6xg2Wi8biRhGsDf",
+  "_key": "!items!H6xg2Wi8biRhGsDf",
+  "name": "Lightsaber Form Savant",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Swift Action, you can return any one spent Force Power with the [<i>Lightsaber Form</i>] descriptor to your Force Power Suite without spending a Force Point.<br><br>You can select this Talent multiple times. Each time you select it, you can use it one additional time per encounter.",
+    "tree": "Duelist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9YfbTsIRNNZ7OguE",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

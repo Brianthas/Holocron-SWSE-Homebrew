@@ -1,0 +1,27 @@
+{
+  "_id": "jdkgtWXRSccevMbI",
+  "_key": "!items!jdkgtWXRSccevMbI",
+  "name": "Enhanced Vision",
+  "type": "talent",
+  "system": {
+    "description": "When actively looking for hidden enemies, you can make a Perception check as a Swift Action instead of a Standard Action.",
+    "tree": "Vanguard",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hdgjXPxuIPlIWqVA",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

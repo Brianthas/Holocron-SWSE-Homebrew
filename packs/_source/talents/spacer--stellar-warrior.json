@@ -1,0 +1,31 @@
+{
+  "_id": "weRTDHE2RpOxhJsI",
+  "_key": "!items!weRTDHE2RpOxhJsI",
+  "name": "Stellar Warrior",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you roll a Natural 20 on an attack roll made aboard a Starship, you gain one temporary Force Point. If the Force Point is not used before the end of the encounter, it is lost. This Talent works with both Weapon Systems and personal weapons used aboard a Starship.",
+    "tree": "Spacer",
+    "prerequisite": {
+      "text": "Spacehound talent",
+      "nodes": {
+        "text": "Spacehound talent",
+        "requirement": "Spacehound",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Iqk8t4SdjyfkwyJR",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

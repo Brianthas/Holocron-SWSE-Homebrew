@@ -1,0 +1,27 @@
+{
+  "_id": "MhUDZXQYdVhtxkr0",
+  "_key": "!items!MhUDZXQYdVhtxkr0",
+  "name": "Black Market Buyer",
+  "type": "talent",
+  "system": {
+    "description": "When seeking an item from the Black Market, you do not need to make a Gather Information check to locate a Black Market merchant; you automatically succeed.",
+    "tree": "Procurement",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Yhq4RQB8V6263e0g",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

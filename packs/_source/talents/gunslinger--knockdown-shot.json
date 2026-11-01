@@ -1,0 +1,27 @@
+{
+  "_id": "iH4mvgNzxwrJEdvl",
+  "_key": "!items!iH4mvgNzxwrJEdvl",
+  "name": "Knockdown Shot",
+  "type": "talent",
+  "system": {
+    "description": "If you Aim before making a ranged attack, and the attack hits, you knock the target Prone in addition to dealing damage. You can't use this Talent to knock down targets two or more size categories bigger than you.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "om85xGyUvCBgyPH6",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

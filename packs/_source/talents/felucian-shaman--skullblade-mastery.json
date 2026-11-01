@@ -1,0 +1,31 @@
+{
+  "_id": "LUr6YfFuUv0XA43d",
+  "_key": "!items!LUr6YfFuUv0XA43d",
+  "name": "Skullblade Mastery",
+  "type": "talent",
+  "system": {
+    "description": "<i>Skullblade Mastery Talent created by Wikia user LilLiteralist.</i><br><br>You treat a Felucian Skullblade as a Simple Weapon (Melee) instead of as an Exotic Weapon (Melee). Additionally, you gain a +1 bonus to attack rolls with a Felucian Skullblade. This Talent counts as the Weapon Focus (Felucian Skullblade) feat for the purpose of satisfying prerequisites.<br><br>If you also have the Weapon Focus (Simple Weapons) feat, the attack bonus provided by this Talent does not stack with the attack bonus provided by Weapon Focus (Simple Weapons).",
+    "tree": "Felucian Shaman",
+    "prerequisite": {
+      "text": "a member of The Felucian Shamans",
+      "nodes": {
+        "text": "a member of The Felucian Shamans",
+        "requirement": "The Felucian Shamans",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jNT2SVziGucWVWdF",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "jOgU7aMgwrbWmOt4",
+  "_key": "!items!jOgU7aMgwrbWmOt4",
+  "name": "Improved Consular's Vitality",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you damage a target with a successful Lightsaber attack, you may use the <b>Consular's Vitality</b> Talent as a Free Action instead of a Swift Action until the start of your next turn.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "Consular's Vitality talent",
+      "nodes": {
+        "text": "Consular's Vitality talent",
+        "requirement": "Consular's Vitality",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sk1y5YK6XHlE6otv",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

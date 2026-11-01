@@ -1,0 +1,42 @@
+{
+  "_id": "INPPimnQb6yz9GRT",
+  "_key": "!items!INPPimnQb6yz9GRT",
+  "name": "Uncanny Dodge I",
+  "type": "talent",
+  "system": {
+    "description": "You retain your Dexterity bonus to your Reflex Defense regardless of being caught Flat-Footed or struck by a hidden attacker. You still lose your Dexterity bonus to your Reflex Defense if you are Immobilized.<br><br>If you are the Pilot, this Talent applies to your Vehicle.",
+    "tree": "Awareness",
+    "prerequisite": {
+      "text": "Acute Senses talent, and Improved Initiative talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Acute Senses talent",
+            "requirement": "Acute Senses",
+            "type": "TALENT"
+          },
+          {
+            "text": "Improved Initiative talent",
+            "requirement": "Improved Initiative",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Acute Senses talent, and Improved Initiative talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "d6fvNwNrCnygfnKr",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

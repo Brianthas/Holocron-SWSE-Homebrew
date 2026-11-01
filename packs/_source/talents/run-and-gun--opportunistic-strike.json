@@ -1,0 +1,27 @@
+{
+  "_id": "mqxX95wiMvqmfUAP",
+  "_key": "!items!mqxX95wiMvqmfUAP",
+  "name": "Opportunistic Strike",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can make an Attack of Opportunity against an opponent within Point-Blank Range (even using a ranged weapon), if that opponent provokes an Attack of Opportunity from one of your allies.",
+    "tree": "Run and Gun",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6DyiyMJ2wC8vMEqn",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

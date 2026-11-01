@@ -1,0 +1,27 @@
+{
+  "_id": "hOfKELM1u5te4xId",
+  "_key": "!items!hOfKELM1u5te4xId",
+  "name": "Hyperdrive Tinkerer",
+  "type": "talent",
+  "system": {
+    "description": "If you fail a Use Computer check to Astrogate, and the rerolled check results in a damaged ship, you may make a DC 20 Mechanics check in order to repair the Hyperdrive immediately and arrive normally at the plotted destination.<br><br>If this check fails, the Hyperdrive becomes disabled and the ship immediately drops from Hyperspace.",
+    "tree": "Hyperspace Explorer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8QkitIzxDR9QiaD7",
+      "sourceBook": "New Republic Campaign Guide"
+    }
+  }
+}

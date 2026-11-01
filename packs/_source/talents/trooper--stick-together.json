@@ -1,0 +1,31 @@
+{
+  "_id": "3TsQ0TEY4KA5zoeg",
+  "_key": "!items!3TsQ0TEY4KA5zoeg",
+  "name": "Stick Together",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Move Action to activate this Talent. Until the beginning of your next turn, if an ally Moves you can immediately move up to your speed, provided you end your movement within 3 squares of that ally.",
+    "tree": "Trooper",
+    "prerequisite": {
+      "text": "Comrades in Arms talent",
+      "nodes": {
+        "text": "Comrades in Arms talent",
+        "requirement": "Comrades in Arms",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qMd4uUncch95hTrP",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

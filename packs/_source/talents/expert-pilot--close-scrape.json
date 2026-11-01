@@ -1,0 +1,27 @@
+{
+  "_id": "VXCGQtWWCyvyBuQX",
+  "_key": "!items!VXCGQtWWCyvyBuQX",
+  "name": "Close Scrape",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are Piloting a Vehicle of Colossal size or smaller, you may make a Pilot check as a Reaction to turn a Critical Hit into a normal hit. The DC for the Pilot check is equal to the attack roll total of the Critical Hit.<br><br>If you are successful, the damage from the attack is not doubled (though it is still considered an automatic hit).",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "G1k0G7lrxmrsZSgL",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

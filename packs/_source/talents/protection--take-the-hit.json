@@ -1,0 +1,31 @@
+{
+  "_id": "Jbcl8SsQ0Six4aMy",
+  "_key": "!items!Jbcl8SsQ0Six4aMy",
+  "name": "Take the Hit",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you take damage on behalf of an ally through the use of a Talent (including <b>Harm's Way</b>), your Damage Threshold is increased by 5 points.",
+    "tree": "Protection",
+    "prerequisite": {
+      "text": "Bodyguard's Sacrifice talent",
+      "nodes": {
+        "text": "Bodyguard's Sacrifice talent",
+        "requirement": "Bodyguard's Sacrifice",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dO5DxxSCX7QeiePu",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "sSK7FZ15ecfoyHGc",
+  "_key": "!items!sSK7FZ15ecfoyHGc",
+  "name": "Surprise Strike",
+  "type": "talent",
+  "system": {
+    "description": "Sometimes a smuggler has to fight his way out of a bad situation. If you fail any Deception check to convey deceptive information, you can initiate combat and make a single Unarmed attack as a Free Action in the Surprise Round (or with a melee or ranged weapon, if you have the Quick Draw feat); all other combatants are considered Surprised even if they are aware of you.",
+    "tree": "Smuggling",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5DjbNm2x18owfxA2",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

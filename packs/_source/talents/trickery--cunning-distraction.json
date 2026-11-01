@@ -1,0 +1,27 @@
+{
+  "_id": "D4ScCLtiGV8nKWZ9",
+  "_key": "!items!D4ScCLtiGV8nKWZ9",
+  "name": "Cunning Distraction",
+  "type": "talent",
+  "system": {
+    "description": "When you successfully Feint an opponent in combat, you can immediately move up to one-half your speed.",
+    "tree": "Trickery",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7uuLon9V00e9AV0V",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

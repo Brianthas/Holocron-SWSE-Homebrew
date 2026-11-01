@@ -1,0 +1,59 @@
+{
+  "_id": "5YdkiMdlpN2l2kyR",
+  "_key": "!items!5YdkiMdlpN2l2kyR",
+  "name": "Disarming Attack",
+  "type": "talent",
+  "system": {
+    "description": "Choose a single Exotic Weapon or weapon group with which you are proficient. You ignore a target's armor bonus to Reflex Defense when Disarming with such a weapon. Additionally, as a Free Action, once per encounter, you can grant yourself a +10 bonus on your attack roll when attempting to Disarm an opponent while using such a weapon.",
+    "tree": "Weapon Specialist",
+    "prerequisite": {
+      "text": "Intelligence 13, Improved Disarm feat, and Weapon Specialization (#payload#)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Intelligence 13",
+            "requirement": "Intelligence 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Improved Disarm feat",
+            "requirement": "Improved Disarm",
+            "type": "FEAT"
+          },
+          {
+            "children": [
+              {
+                "text": "Weapon Specialization (#payload#) talent",
+                "requirement": "Weapon Specialization (#payload#)",
+                "type": "TALENT"
+              },
+              {
+                "text": "Weapon Specialization (#payload#) feat",
+                "requirement": "Weapon Specialization (#payload#)",
+                "type": "FEAT"
+              }
+            ],
+            "count": 1,
+            "text": "Weapon Specialization (#payload#)",
+            "type": "OR"
+          }
+        ],
+        "text": "Intelligence 13, Improved Disarm feat, and Weapon Specialization (#payload#)",
+        "type": "AND"
+      }
+    },
+    "repeatable": true,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "EEgob14rMC6ei27N",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

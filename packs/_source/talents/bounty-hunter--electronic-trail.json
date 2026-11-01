@@ -1,0 +1,42 @@
+{
+  "_id": "jlv4mrJJ8aleoaZm",
+  "_key": "!items!jlv4mrJJ8aleoaZm",
+  "name": "Electronic Trail",
+  "type": "talent",
+  "system": {
+    "description": "Once you have located a target using Gather Information, you can track its electronic presence. Once per day, you receive a catalog of the target's <b>Electronic Trail</b>, which includes the amount and location of credits spent, the routes of any public transportation taken, and the sites viewed on the HoloNet while the target was logged in using its primary identity.<br><br>To receive this information, you must have access to a computer or Datapad plus access to a network or The HoloNet. This <b>Electronic Trail</b> does not reveal bank balances or other secret information, which requires a separate Gather Information check.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "Nowhere to Hide talent, and Trained in Use Computer",
+      "nodes": {
+        "children": [
+          {
+            "text": "Nowhere to Hide talent",
+            "requirement": "Nowhere to Hide",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Use Computer",
+            "requirement": "Use Computer",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Nowhere to Hide talent, and Trained in Use Computer",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QR2620cJAqNQCDoQ",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

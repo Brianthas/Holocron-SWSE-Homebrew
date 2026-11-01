@@ -1,0 +1,27 @@
+{
+  "_id": "BUJYbzuLP2v0OMfS",
+  "_key": "!items!BUJYbzuLP2v0OMfS",
+  "name": "Crucial Advice",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, when you fail a Skill Check, you can reroll the Skill Check with a +2 circumstance bonus. (In the case of Skill Checks with multiple possible results, such as when activating a Force Power with multiple effects, failing a Skill Check is defined as achieving less than the minimum DC for that check.)",
+    "tree": "Guardian Spirit",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cVPlvbI83f9uk1N4",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

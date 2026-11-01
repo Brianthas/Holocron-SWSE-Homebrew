@@ -1,0 +1,42 @@
+{
+  "_id": "kskphBuvKngUH1qg",
+  "_key": "!items!kskphBuvKngUH1qg",
+  "name": "Psychometry",
+  "type": "talent",
+  "system": {
+    "description": "When you use the <i>Farseeing</i> Force Power, you can choose to target an object you hold instead of a character or creature. You can look into the targeted item's past, up to a maximum of 5 years per your Character Level.<br><br>Any information gained about the object's past is based on the thoughts and emotions of the person holding or carrying the object at the time you perceive, which can skew the results of the vision.",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "Force Perception talent, and Farseeing force power",
+      "nodes": {
+        "children": [
+          {
+            "text": "Force Perception talent",
+            "requirement": "Force Perception",
+            "type": "TALENT"
+          },
+          {
+            "text": "Farseeing force power",
+            "requirement": "Farseeing",
+            "type": "FORCE POWER"
+          }
+        ],
+        "text": "Force Perception talent, and Farseeing force power",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xgwPChszbDsHrne1",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

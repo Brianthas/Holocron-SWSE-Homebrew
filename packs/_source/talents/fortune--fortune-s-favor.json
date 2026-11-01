@@ -1,0 +1,27 @@
+{
+  "_id": "he8aWcGeF4IXRtFk",
+  "_key": "!items!he8aWcGeF4IXRtFk",
+  "name": "Fortune's Favor",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you score a Critical Hit with a melee or ranged attack, you gain a free Standard Action. You must take the extra Standard Action before the end of your turn, or else it is lost.",
+    "tree": "Fortune",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eIHyxj0vWeEjQtnD",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "HSFJxOf05eoehrtX",
+  "_key": "!items!HSFJxOf05eoehrtX",
+  "name": "Quick Astrogation",
+  "type": "talent",
+  "system": {
+    "description": "Your speedy electronic Astrogation-calculation routines allow you to cut calculation time in half. Additionally, when attempting a Use Computer check to Astrogate, you can make the calculation as a Standard Action instead of a Full-Round Action.",
+    "tree": "2nd-Degree Droid",
+    "prerequisite": {
+      "text": "Trained in Use Computer",
+      "nodes": {
+        "text": "Trained in Use Computer",
+        "requirement": "Use Computer",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GBJFrfVGwoj6Lfhc",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

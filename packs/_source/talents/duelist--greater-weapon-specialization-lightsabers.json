@@ -1,0 +1,67 @@
+{
+  "_id": "ZDJzaMZ6EZZQABkf",
+  "_key": "!items!ZDJzaMZ6EZZQABkf",
+  "name": "Greater Weapon Specialization (Lightsabers)",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +2 bonus on melee damage rolls with Lightsabers. This bonus stacks with the bonus granted by the <b>Weapon Specialization (Lightsabers)</b> Talent.",
+    "tree": "Duelist",
+    "prerequisite": {
+      "text": "Weapon Specialization (Lightsabers)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Weapon Specialization (Lightsabers) talent",
+            "requirement": "Weapon Specialization (Lightsabers)",
+            "type": "TALENT"
+          },
+          {
+            "text": "Weapon Specialization (Lightsabers) feat",
+            "requirement": "Weapon Specialization (Lightsabers)",
+            "type": "FEAT"
+          }
+        ],
+        "count": 1,
+        "text": "Weapon Specialization (Lightsabers)",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [
+    {
+      "_id": "Vhpu0RrKxzFhhlwj",
+      "_key": "!items.effects!ZDJzaMZ6EZZQABkf.Vhpu0RrKxzFhhlwj",
+      "name": "Greater Weapon Specialization (Lightsabers)",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "damage.group.lightsabers",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ackWx3vhHwLfnPmi",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

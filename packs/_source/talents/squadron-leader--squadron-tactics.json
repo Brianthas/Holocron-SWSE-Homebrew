@@ -1,0 +1,52 @@
+{
+  "_id": "dTtkEikYuRL8mBiC",
+  "_key": "!items!dTtkEikYuRL8mBiC",
+  "name": "Squadron Tactics",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, when you use a non-attack pattern Starship Maneuver, you grant all ships in your squadron the ability to use the same Starship Maneuver once on their next turn. The Pilot of each ship that chooses to use the Starship Maneuver must make any Pilot checks or attack rolls the Starship Maneuver requires- your success or failure with the Starship Maneuver has no bearing on the success of other units in your squadron.",
+    "tree": "Squadron Leader",
+    "prerequisite": {
+      "text": "Charisma 13, Wisdom 13, Starship Tactics feat, and Squadron Maneuvers talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Charisma 13",
+            "requirement": "Charisma 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Wisdom 13",
+            "requirement": "Wisdom 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Starship Tactics feat",
+            "requirement": "Starship Tactics",
+            "type": "FEAT"
+          },
+          {
+            "text": "Squadron Maneuvers talent",
+            "requirement": "Squadron Maneuvers",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Charisma 13, Wisdom 13, Starship Tactics feat, and Squadron Maneuvers talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0jLlLVMk7OZdtdo1",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

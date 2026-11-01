@@ -1,0 +1,27 @@
+{
+  "_id": "SgFBUUhNM4JNBS18",
+  "_key": "!items!SgFBUUhNM4JNBS18",
+  "name": "The Will to Resist",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn, as a Reaction to being targeted by a Force Power or other ability that targets your Will Defense, you can make a Use the Force check and replace your Will Defense with the result of the Use the Force check.<br><br>After you make this check, until the end of your next turn, you take a -5 penalty on all Use the Force checks.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "y60dVHFCYu1HyLAh",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

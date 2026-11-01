@@ -1,0 +1,31 @@
+{
+  "_id": "J3lupmng4QrQGqic",
+  "_key": "!items!J3lupmng4QrQGqic",
+  "name": "Greater Weapon Focus (Fira)",
+  "type": "talent",
+  "system": {
+    "description": "You have mastered the chosen weapon of The Order of Shasa. You gain a +1 bonus on melee attack rolls with a Fira. This bonus stacks with the bonus granted by the Weapon Focus (Fira) feat.",
+    "tree": "Order of Shasa",
+    "prerequisite": {
+      "text": "a member of The Order of Shasa",
+      "nodes": {
+        "text": "a member of The Order of Shasa",
+        "requirement": "The Order of Shasa",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QAYE1PypyCflGkJ2",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

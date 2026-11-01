@@ -1,0 +1,27 @@
+{
+  "_id": "SMvMDJHdXP806gcu",
+  "_key": "!items!SMvMDJHdXP806gcu",
+  "name": "Elusive Dogfighter",
+  "type": "talent",
+  "system": {
+    "description": "When engaged in a Dogfight, any enemy pilot engaged in the same Dogfight takes a -10 penalty on attack rolls when you succeed on the opposed Pilot check.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PWsL8Q8gO3EhyIry",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

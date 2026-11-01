@@ -1,0 +1,42 @@
+{
+  "_id": "axFNlFAswGyGkaIu",
+  "_key": "!items!axFNlFAswGyGkaIu",
+  "name": "Relentless",
+  "type": "talent",
+  "system": {
+    "description": "This Talent applies only to an opponent you've designated as your Hunter's Target. Any attack or effect originating from the target that would normally move you along the Condition Track does not, in fact, move you along the Condition Track.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "Hunter's Mark talent, and Hunter's Target talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Hunter's Mark talent",
+            "requirement": "Hunter's Mark",
+            "type": "TALENT"
+          },
+          {
+            "text": "Hunter's Target talent",
+            "requirement": "Hunter's Target",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Hunter's Mark talent, and Hunter's Target talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xvcu0vSS1JWXfaiz",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

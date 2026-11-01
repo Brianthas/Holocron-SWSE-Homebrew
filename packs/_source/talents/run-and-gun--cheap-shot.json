@@ -1,0 +1,31 @@
+{
+  "_id": "bCI33iyIRfnwKkAw",
+  "_key": "!items!bCI33iyIRfnwKkAw",
+  "name": "Cheap Shot",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can make an Attack of Opportunity against an opponent that takes the Withdraw Action to Withdraw from a space threatened by one of your allies within Point-Blank Range.",
+    "tree": "Run and Gun",
+    "prerequisite": {
+      "text": "Opportunistic Strike talent",
+      "nodes": {
+        "text": "Opportunistic Strike talent",
+        "requirement": "Opportunistic Strike",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oYOTDuUuyuwvA0wy",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

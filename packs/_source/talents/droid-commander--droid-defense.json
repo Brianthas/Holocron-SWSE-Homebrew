@@ -1,0 +1,27 @@
+{
+  "_id": "MWGbm2towih2rJ4z",
+  "_key": "!items!MWGbm2towih2rJ4z",
+  "name": "Droid Defense",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can transmit tactical information to all Droid allies that can hear and understand you, granting them a bonus equal to your Intelligence modifier to one of their Defenses (your choice) until the beginning of your next turn.",
+    "tree": "Droid Commander",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dRaIrxFA06NaeeQx",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "I12mi2XbAWgja9gR",
+  "_key": "!items!I12mi2XbAWgja9gR",
+  "name": "Droid Expert",
+  "type": "talent",
+  "system": {
+    "description": "When you Repair a Droid, you Repair 1 additional Hit Point for each point by which your Mechanics check beats the base DC of 20.",
+    "tree": "Military Engineer",
+    "prerequisite": {
+      "text": "Repairs on the Fly talent",
+      "nodes": {
+        "text": "Repairs on the Fly talent",
+        "requirement": "Repairs on the Fly",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "D3xEhPSeMYQ7aM4d",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

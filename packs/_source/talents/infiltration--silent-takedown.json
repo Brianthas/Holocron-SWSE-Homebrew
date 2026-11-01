@@ -1,0 +1,31 @@
+{
+  "_id": "9Qf0oBYGSIa1tRfG",
+  "_key": "!items!9Qf0oBYGSIa1tRfG",
+  "name": "Silent Takedown",
+  "type": "talent",
+  "system": {
+    "description": "You are skilled at quietly knocking out or eliminating guards and others when they are caught unaware. If you damage an opponent that is unaware of you, that opponent cannot speak or make other noises until the end of your next turn. This is a Stun effect.",
+    "tree": "Infiltration",
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "nodes": {
+        "text": "Trained in Stealth",
+        "requirement": "Stealth",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FIxhufYXz64xCljS",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

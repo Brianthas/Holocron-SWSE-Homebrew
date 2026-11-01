@@ -1,0 +1,27 @@
+{
+  "_id": "4Wx2ezhyxMrhwp0K",
+  "_key": "!items!4Wx2ezhyxMrhwp0K",
+  "name": "Connections",
+  "type": "talent",
+  "system": {
+    "description": "You are able to obtain Licensed, Restricted, Military, or Illegal equipment without having to pay a licensing fee or endure a background check, provided the total cost of the desired Equipment is equal to or less than your Character Level x 1,000 credits.<br><br>In addition, when obtaining Equipment or Services through the Black Market, you reduce the black market cost multiplier by 1.",
+    "tree": "Lineage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gOqTusQCKdhxeksi",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

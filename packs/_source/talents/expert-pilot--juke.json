@@ -1,0 +1,31 @@
+{
+  "_id": "Jfo2ha5DhqYfaOt2",
+  "_key": "!items!Jfo2ha5DhqYfaOt2",
+  "name": "Juke",
+  "type": "talent",
+  "system": {
+    "description": "When you Fly Defensively as the Pilot of a Vehicle, you may negate a weapon hit on your Vehicle using the Vehicular Combat feat one additional time per round.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "Vehicular Evasion talent",
+      "nodes": {
+        "text": "Vehicular Evasion talent",
+        "requirement": "Vehicular Evasion",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "R2xVmfMWuOTPoA26",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

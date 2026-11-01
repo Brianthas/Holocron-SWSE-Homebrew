@@ -1,0 +1,42 @@
+{
+  "_id": "CDTzhL9UjZcc3Ja1",
+  "_key": "!items!CDTzhL9UjZcc3Ja1",
+  "name": "Dark Dream",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use the <i>Farseeing</i> Force Power on a sleeping target, you can spend a Force Point and extend the casting time to a Full-Round Action. Doing so allows you to impose nightmares upon the target in the form of present or upcoming disasters. These nightmares are disguised as premonitions in The Force, and can take any form you choose (such as a loved one dying in childbirth, or a betrayal by a close friend).<br><br>When the target awakens from these nightmares, he or she moves -1 Persistent step down the Condition Track, which can only be removed by resting for 8 hours without being further interrupted by the use of this Talent. The use of this Talent increases your Dark Side Score by 1.",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "Force Perception talent, and Farseeing force power",
+      "nodes": {
+        "children": [
+          {
+            "text": "Force Perception talent",
+            "requirement": "Force Perception",
+            "type": "TALENT"
+          },
+          {
+            "text": "Farseeing force power",
+            "requirement": "Farseeing",
+            "type": "FORCE POWER"
+          }
+        ],
+        "text": "Force Perception talent, and Farseeing force power",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cCXtMQ4F9R1b1x0l",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

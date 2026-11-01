@@ -1,0 +1,31 @@
+{
+  "_id": "9ilpd7lFJPSUZrFv",
+  "_key": "!items!9ilpd7lFJPSUZrFv",
+  "name": "Biotech Mastery",
+  "type": "talent",
+  "system": {
+    "description": "When using the Biotech Specialist Feat to modify Biotech, you are able to make the appropriate modification in half of the normal time for half the normal cost. In addition, you can Take 10 on the Mechanics check (even when distracted or threatened), but you cannot Take 20.",
+    "tree": "Shaper",
+    "prerequisite": {
+      "text": "Biotech Specialist feat",
+      "nodes": {
+        "text": "Biotech Specialist feat",
+        "requirement": "Biotech Specialist",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "EV58OIC0j6XrD92T",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

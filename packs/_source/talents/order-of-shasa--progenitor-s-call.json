@@ -1,0 +1,31 @@
+{
+  "_id": "JTUByKwghejzIfhS",
+  "_key": "!items!JTUByKwghejzIfhS",
+  "name": "Progenitor's Call",
+  "type": "talent",
+  "system": {
+    "description": "You have learned to sense the call of your ancestors and wield it through The Force. Once per encounter, you can telepathically disrupt an opponent by making a Use the Force check against the target's Will Defense. If you succeed, the target is confused by the call, moving -1 Persistent step down the Condition Track and losing its Standard Action on its next turn.<br><br>A creature can only be affected by this power once per encounter, and the Persistent Condition can be removed with a DC 15 Treat Injury check or by resting for 8 hours. This is a Mind-Affecting effect.",
+    "tree": "Order of Shasa",
+    "prerequisite": {
+      "text": "a member of The Order of Shasa",
+      "nodes": {
+        "text": "a member of The Order of Shasa",
+        "requirement": "The Order of Shasa",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "li7hdTGWIiR0W8At",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

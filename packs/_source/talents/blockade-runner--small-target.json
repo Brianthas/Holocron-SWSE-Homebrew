@@ -1,0 +1,27 @@
+{
+  "_id": "1z6Fmbyy2XUgJc6j",
+  "_key": "!items!1z6Fmbyy2XUgJc6j",
+  "name": "Small Target",
+  "type": "talent",
+  "system": {
+    "description": "When you are the Pilot of a Colossal or smaller Vehicle, Capital Ship Weapons that take a -20 penalty on attack rolls against your Vehicle (such as Turbolasers) do not automatically score a Critical Hit on your Vehicle on a Natural 20. The attack is only a Critical Hit if the total attack roll (20 + the weapon's attack bonus) would normally hit your Vehicle. Otherwise, the attack deals normal damage.",
+    "tree": "Blockade Runner",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "a6MWrIneRfpxGlYV",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

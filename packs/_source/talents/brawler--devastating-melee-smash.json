@@ -1,0 +1,31 @@
+{
+  "_id": "m2VkvVHpPgXUdjPj",
+  "_key": "!items!m2VkvVHpPgXUdjPj",
+  "name": "Devastating Melee Smash",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can attempt a <b>Devastating Melee Smash</b>. You must declare this special melee attack before making the attack roll. If the attack rolls succeeds, add half your level to the damage, instead of the normal +1 bonus for the <b>Melee Smash</b> Talent.<br><br>The damage from this Talent does not stack with any damage bonus provided by the Powerful Charge feat.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "Melee Smash talent",
+      "nodes": {
+        "text": "Melee Smash talent",
+        "requirement": "Melee Smash",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2jUCGzHcTBI9qmTA",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

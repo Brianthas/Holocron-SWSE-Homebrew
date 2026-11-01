@@ -1,0 +1,47 @@
+{
+  "_id": "w1sXeiN6sAhApzBo",
+  "_key": "!items!w1sXeiN6sAhApzBo",
+  "name": "Heavy Gunner",
+  "type": "talent",
+  "system": {
+    "description": "When attacking with an Autofire-capable weapon, you may deal +1 die of damage. This increased damage die stacks with the increased damage from the Burst Fire and Rapid Shot Feats.",
+    "tree": "Weapon Master",
+    "prerequisite": {
+      "text": "Controlled Burst talent, Weapon Proficiency (Heavy Weapons), and Strength 15",
+      "nodes": {
+        "children": [
+          {
+            "text": "Controlled Burst talent",
+            "requirement": "Controlled Burst",
+            "type": "TALENT"
+          },
+          {
+            "text": "Weapon Proficiency (Heavy Weapons)",
+            "requirement": "Weapon Proficiency (Heavy Weapons)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Strength 15",
+            "requirement": "Strength 15",
+            "type": "ATTRIBUTE"
+          }
+        ],
+        "text": "Controlled Burst talent, Weapon Proficiency (Heavy Weapons), and Strength 15",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ikhQykcw8gFAkR2o",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "hUIV911cLyohaiQL",
+  "_key": "!items!hUIV911cLyohaiQL",
+  "name": "Roll Out",
+  "type": "talent",
+  "system": {
+    "description": "You are an expert at escaping Dogfights. When making an opposed check to Disengage from a Dogfight, you can reroll your Pilot check, taking the better result.<br><br>If you fail, you remain in the Dogfight, but the Gunners on your Vehicle do not take penalties to their attack rolls.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "Elusive Dogfighter talent",
+      "nodes": {
+        "text": "Elusive Dogfighter talent",
+        "requirement": "Elusive Dogfighter",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bbZ2SCO3RNwTGA6x",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

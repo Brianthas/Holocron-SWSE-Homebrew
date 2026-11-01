@@ -1,0 +1,54 @@
+{
+  "_id": "N2HDxp0BzbEdDYqg",
+  "_key": "!items!N2HDxp0BzbEdDYqg",
+  "name": "Wicked Strike",
+  "type": "talent",
+  "system": {
+    "description": "When you score a critical hit with a Lightsaber, you may spend a Force Point to move the target -2 steps along the Condition Track.",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "Weapon Focus (Lightsabers), and Weapon Specialization (Lightsabers)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Weapon Focus (Lightsabers)",
+            "requirement": "Weapon Focus (Lightsabers)",
+            "type": "FEAT"
+          },
+          {
+            "children": [
+              {
+                "text": "Weapon Specialization (Lightsabers) talent",
+                "requirement": "Weapon Specialization (Lightsabers)",
+                "type": "TALENT"
+              },
+              {
+                "text": "Weapon Specialization (Lightsabers) feat",
+                "requirement": "Weapon Specialization (Lightsabers)",
+                "type": "FEAT"
+              }
+            ],
+            "count": 1,
+            "text": "Weapon Specialization (Lightsabers)",
+            "type": "OR"
+          }
+        ],
+        "text": "Weapon Focus (Lightsabers), and Weapon Specialization (Lightsabers)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XMJGfVcTGrWlFJuQ",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

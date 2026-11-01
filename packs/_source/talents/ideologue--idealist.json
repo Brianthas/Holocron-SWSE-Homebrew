@@ -1,0 +1,31 @@
+{
+  "_id": "k4BI1p3ETMK8Pigl",
+  "_key": "!items!k4BI1p3ETMK8Pigl",
+  "name": "Idealist",
+  "type": "talent",
+  "system": {
+    "description": "Your confidence empowers you, giving you the ability to withstand the harmful influence of others. You can add your Charisma modifier in place of your Wisdom modifier to your Will Defense.",
+    "tree": "Ideologue",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5uvBpi7On3tbBI99",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

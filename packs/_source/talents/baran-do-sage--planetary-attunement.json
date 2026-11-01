@@ -1,0 +1,31 @@
+{
+  "_id": "O1dyixuPsJ1RRnRS",
+  "_key": "!items!O1dyixuPsJ1RRnRS",
+  "name": "Planetary Attunement",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you arrive on a new planet, you can spend 10 minutes and a Force Point to acclimate yourself to the planet's unique ebb and flow of Force energy.<br><br>While on the planet, you gain a +2 Force bonus to all Defenses against naturally occurring Hazards on the world, your Speed increases by 1 square, and you can sense what the weather will be like to the immediate area up to 24 hours in advance as a Full-Round Action.",
+    "tree": "Baran Do Sage",
+    "prerequisite": {
+      "text": "a member of The Baran Do Sages",
+      "nodes": {
+        "text": "a member of The Baran Do Sages",
+        "requirement": "The Baran Do Sages",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oxpk3BNOanuO1Qr7",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "K6KNNsnCtty5hAev",
+  "_key": "!items!K6KNNsnCtty5hAev",
+  "name": "Extended Ambush",
+  "type": "talent",
+  "system": {
+    "description": "During a Surprise Round, if you make a ranged attack against a target that is Surprised, you can Aim at the target as a Free Action.",
+    "tree": "Camouflage",
+    "prerequisite": {
+      "text": "Improved Stealth talent",
+      "nodes": {
+        "text": "Improved Stealth talent",
+        "requirement": "Improved Stealth",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nW5t8sbzWlDaHuAo",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

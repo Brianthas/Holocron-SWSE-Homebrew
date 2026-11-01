@@ -1,0 +1,31 @@
+{
+  "_id": "sCXCub7zIrndG1Mh",
+  "_key": "!items!sCXCub7zIrndG1Mh",
+  "name": "Resist the Dark Side",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +5 Force bonus to all Defense scores against Force Powers with the [<i>Dark Side</i>] descriptor, and Force Powers originating from any dark Force-user (that is, any Force-use whose Dark Side Score equals their Wisdom score).",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "Dark Side Sense talent",
+      "nodes": {
+        "text": "Dark Side Sense talent",
+        "requirement": "Dark Side Sense",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4TDo2waegsvhl9fh",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

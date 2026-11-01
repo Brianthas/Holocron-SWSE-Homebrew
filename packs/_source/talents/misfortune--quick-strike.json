@@ -1,0 +1,31 @@
+{
+  "_id": "7MctaJXfbcvnbF2V",
+  "_key": "!items!7MctaJXfbcvnbF2V",
+  "name": "Quick Strike",
+  "type": "talent",
+  "system": {
+    "description": "When attacking with a Light Melee weapon, a Lightsaber, or any other weapon that benefits from the Weapon Finesse Feat, you may add an additional point of damage on a successful attack.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "Weapon Finesse feat",
+      "nodes": {
+        "text": "Weapon Finesse feat",
+        "requirement": "Weapon Finesse",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QuHZ6YBrqTnnZ36H",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

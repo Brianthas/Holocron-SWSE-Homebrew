@@ -1,0 +1,31 @@
+{
+  "_id": "IrZUB7aReW0FTqOa",
+  "_key": "!items!IrZUB7aReW0FTqOa",
+  "name": "Damaging Disarm",
+  "type": "talent",
+  "system": {
+    "description": "If you successfully Disarm an opponent using a ranged attack, the target also takes half damage from the attack.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "Ranged Disarm talent",
+      "nodes": {
+        "text": "Ranged Disarm talent",
+        "requirement": "Ranged Disarm",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "p6LO7PhZb4229JLv",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

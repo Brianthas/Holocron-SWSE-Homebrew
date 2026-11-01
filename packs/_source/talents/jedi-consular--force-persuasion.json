@@ -1,0 +1,31 @@
+{
+  "_id": "5NX0Z76QJhoJ08Km",
+  "_key": "!items!5NX0Z76QJhoJ08Km",
+  "name": "Force Persuasion",
+  "type": "talent",
+  "system": {
+    "description": "You can use your Use the Force modifier instead of your Persuasion check modifier when making a Persuasion check. You are considered Trained in the Persuasion skill. If you are entitled to a Persuasion check reroll, you may reroll your Use the Force check instead (subject to the same circumstances and limitations).",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "Adept Negotiator talent",
+      "nodes": {
+        "text": "Adept Negotiator talent",
+        "requirement": "Adept Negotiator",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FI2h85r3E0Pk8OKA",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

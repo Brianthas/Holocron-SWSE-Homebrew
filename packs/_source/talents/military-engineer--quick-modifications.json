@@ -1,0 +1,42 @@
+{
+  "_id": "W6epvEbPVOQxXcJa",
+  "_key": "!items!W6epvEbPVOQxXcJa",
+  "name": "Quick Modifications",
+  "type": "talent",
+  "system": {
+    "description": "When you create a Field-Created Weapon, you can choose one Weapon Modification from the Tech Specialist feat to apply to the created Weapon at the time of creation.",
+    "tree": "Military Engineer",
+    "prerequisite": {
+      "text": "Repairs on the Fly talent, and Tech Specialist feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Repairs on the Fly talent",
+            "requirement": "Repairs on the Fly",
+            "type": "TALENT"
+          },
+          {
+            "text": "Tech Specialist feat",
+            "requirement": "Tech Specialist",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Repairs on the Fly talent, and Tech Specialist feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xxnQYU8mihgP3B0l",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

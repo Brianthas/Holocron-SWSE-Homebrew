@@ -1,0 +1,31 @@
+{
+  "_id": "8V7aWFRVRy8FROa4",
+  "_key": "!items!8V7aWFRVRy8FROa4",
+  "name": "Detonate",
+  "type": "talent",
+  "system": {
+    "description": "When you use the <i>Force Blast</i> Force Power, you can spend a Force Point to compare the result of your Use the Force check to the Reflex Defense of all other characters, creatures, and Droids within 2 squares of your target. If you exceed the Reflex Defense of those secondary targets, they also take damage from the <i>Force Blast</i>, and if you fail to exceed their Reflex Defense, they take half damage instead.<br><br>This is considered to be an Area Attack against the secondary targets (but not against the original target).",
+    "tree": "Felucian Shaman",
+    "prerequisite": {
+      "text": "a member of The Felucian Shamans",
+      "nodes": {
+        "text": "a member of The Felucian Shamans",
+        "requirement": "The Felucian Shamans",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zWNaXZnw8uiy3jc6",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

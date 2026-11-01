@@ -1,0 +1,31 @@
+{
+  "_id": "bjDLEzRw9S0YCCxM",
+  "_key": "!items!bjDLEzRw9S0YCCxM",
+  "name": "Forward Patrol",
+  "type": "talent",
+  "system": {
+    "description": "At the start of a Surprise Round in which you are not caught by Surprise, you can designate one ally within 6 squares of you as able to retain his or her Dexterity bonus to Reflex Defense during the Surprise Round.",
+    "tree": "Advance Patrol",
+    "prerequisite": {
+      "text": "Watchful Step talent",
+      "nodes": {
+        "text": "Watchful Step talent",
+        "requirement": "Watchful Step",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KvUMq7p3vB09kmOp",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

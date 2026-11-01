@@ -1,0 +1,31 @@
+{
+  "_id": "Y7wSuJEwg9dtowxf",
+  "_key": "!items!Y7wSuJEwg9dtowxf",
+  "name": "Echoes of the Force",
+  "type": "talent",
+  "system": {
+    "description": "You can use the <i>Farseeing</i> Force Power on a location instead of on an individual creature, peering into the location's past to view events that occurred there. Unlike the normal use of the <i>Farseeing</i> Force Power, you are actually looking into the location's past (at a time you designate), and you must be standing in the location being viewed.<br><br>The target DC for your Use the Force check is 20, +1 for each day into the past that you are attempt to scry. When you look into the past, you need only specify a time in a number of days, as you can sense tremors in The Force that focus you visions on meaningful events that day.",
+    "tree": "Jedi Investigator",
+    "prerequisite": {
+      "text": "Farseeing force power",
+      "nodes": {
+        "text": "Farseeing force power",
+        "requirement": "Farseeing",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0UkkzetcM9mAtghd",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "dSgy4oBzcrKdighy",
+  "_key": "!items!dSgy4oBzcrKdighy",
+  "name": "Precognitive Meditation",
+  "type": "talent",
+  "system": {
+    "description": "Once per day, you can spend 10 minutes meditating to seek visions of the future. At that time, you can spend a Force Point as a part of this meditation.<br><br>Once during the rest of the day, whenever you or a Vehicle you Pilot are the target of an attack, you can choose to negate that attack provided the attack roll is not a Natural 20. At the end of the day, if you did not use this ability, you regain the Force Point spent on the meditation.",
+    "tree": "Baran Do Sage",
+    "prerequisite": {
+      "text": "a member of The Baran Do Sages",
+      "nodes": {
+        "text": "a member of The Baran Do Sages",
+        "requirement": "The Baran Do Sages",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7ecwNAJZyQkJSfdn",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

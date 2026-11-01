@@ -1,0 +1,31 @@
+{
+  "_id": "89sIKuSPrYTbUiqd",
+  "_key": "!items!89sIKuSPrYTbUiqd",
+  "name": "Dark Power",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point to increase the result of a Use the Force check made to activate a Force Power with the [<i>Dark Side</i>] descriptor. (Normally Force Points cannot be used to increase results of [<i>Dark Side</i>] or [<i>Light Side</i>] Force Powers.)",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "Dark Side Savant talent",
+      "nodes": {
+        "text": "Dark Side Savant talent",
+        "requirement": "Dark Side Savant",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2Dz4E89RPfkmLW7i",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

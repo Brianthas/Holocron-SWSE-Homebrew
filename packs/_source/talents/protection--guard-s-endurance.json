@@ -1,0 +1,31 @@
+{
+  "_id": "tTjBTAGzuNpflwyg",
+  "_key": "!items!tTjBTAGzuNpflwyg",
+  "name": "Guard's Endurance",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you begin your turn adjacent to the target of your <b>Ward</b> Talent, you gain Bonus Hit Points equal to your Character Level until the start of your next turn. Damage is subtracted from the Bonus Hit Points first, and any Bonus Hit Points remaining at the end of the encounter go away. Bonus Hit Points from different sources do not stack.",
+    "tree": "Protection",
+    "prerequisite": {
+      "text": "Ward talent",
+      "nodes": {
+        "text": "Ward talent",
+        "requirement": "Ward",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JIMD8R2faLEI5Yo1",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

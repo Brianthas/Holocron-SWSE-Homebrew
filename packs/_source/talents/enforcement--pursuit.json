@@ -1,0 +1,31 @@
+{
+  "_id": "W5YEqx5dsOIFFPe5",
+  "_key": "!items!W5YEqx5dsOIFFPe5",
+  "name": "Pursuit",
+  "type": "talent",
+  "system": {
+    "description": "When Running, you are not restricted to a straight line; and you can reroll Endurance checks, keeping the better of the two results, while Running.",
+    "tree": "Enforcement",
+    "prerequisite": {
+      "text": "Dexterity 13",
+      "nodes": {
+        "text": "Dexterity 13",
+        "requirement": "Dexterity 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "A9Lb8S5J9DTa4Zng",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

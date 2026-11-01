@@ -1,0 +1,31 @@
+{
+  "_id": "g9LwH1WaCIpvVUlv",
+  "_key": "!items!g9LwH1WaCIpvVUlv",
+  "name": "Improved Stunning Strike",
+  "type": "talent",
+  "system": {
+    "description": "When you damage an opponent with a melee attack that moves the target down the Condition Track, the target cannot take any Action requiring a Standard Action or a Full-Round Action on its next turn.",
+    "tree": "Melee Specialist",
+    "prerequisite": {
+      "text": "Stunning Strike talent",
+      "nodes": {
+        "text": "Stunning Strike talent",
+        "requirement": "Stunning Strike",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6AlZivk8zaTIOc7Z",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

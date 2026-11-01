@@ -1,0 +1,31 @@
+{
+  "_id": "2yWJcHV8zcsDgCCi",
+  "_key": "!items!2yWJcHV8zcsDgCCi",
+  "name": "Dark Retaliation",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can spend a Force Point to activate a Force Power as a Reaction to being targeted by a Force Power with the [<i>Dark Side</i>] descriptor.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "Sentinel Strike talent",
+      "nodes": {
+        "text": "Sentinel Strike talent",
+        "requirement": "Sentinel Strike",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "leBzCP1XXdfn8sCe",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

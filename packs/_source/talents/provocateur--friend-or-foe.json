@@ -1,0 +1,31 @@
+{
+  "_id": "pKEpSH0TK2St4itq",
+  "_key": "!items!pKEpSH0TK2St4itq",
+  "name": "Friend or Foe",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an ally within your line of sight is missed by a ranged attack, you can (as a Reaction, once per turn) designate one enemy adjacent to that ally. Compare the attack roll of the missed attack to the Reflex Defense of that enemy; if the attack would hit, the attack targets that enemy and is resolved as normal.",
+    "tree": "Provocateur",
+    "prerequisite": {
+      "text": "Cast Suspicion talent",
+      "nodes": {
+        "text": "Cast Suspicion talent",
+        "requirement": "Cast Suspicion",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "49Hud5eP3jVoXOgG",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

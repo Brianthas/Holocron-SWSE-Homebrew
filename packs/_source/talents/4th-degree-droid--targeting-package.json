@@ -1,0 +1,27 @@
+{
+  "_id": "90reGwbfbDVVAp6N",
+  "_key": "!items!90reGwbfbDVVAp6N",
+  "name": "Targeting Package",
+  "type": "talent",
+  "system": {
+    "description": "You can take two consecutive Swift Actions in the same round to activate special targeting software. When you do so, you gain a +2 bonus on attack rolls and damage rolls on your next attack if your target is at Point-Blank Range (or within reach for melee attacks) and within line of sight. You lose the benefit of this Talent if you lose line of sight to your target or if you take any other action before making your attack. The effect of this Talent stacks with that of the Point-Blank Shot Feat.",
+    "tree": "4th-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "E1Cr3g5L25LqJDaZ",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

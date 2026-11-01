@@ -1,0 +1,27 @@
+{
+  "_id": "Sz9EVGpzC4bveGHN",
+  "_key": "!items!Sz9EVGpzC4bveGHN",
+  "name": "Speed Implant",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Standard Action, you can give one adjacent living creature a <b>Speed Implant</b>. The target must be willing to receive this Implant, which increases the target's base Speed by 2 until the end of the encounter.",
+    "tree": "Implant",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IH3WELwfoFxL8EHj",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

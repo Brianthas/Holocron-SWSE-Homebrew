@@ -1,0 +1,31 @@
+{
+  "_id": "ofq2SQdO2vDZ6U24",
+  "_key": "!items!ofq2SQdO2vDZ6U24",
+  "name": "Automated Strike",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can make a DC 15 Knowledge (Tactics) check. If successful, all Droid allies able to hear and understand you gain the benefits of the Double Attack Feat for one Weapon Group with which you are proficient until the end of your next turn.",
+    "tree": "Droid Commander",
+    "prerequisite": {
+      "text": "Double Attack feat",
+      "nodes": {
+        "text": "Double Attack feat",
+        "requirement": "Double Attack (Any)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oP1nNQWtlNgjBtlP",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

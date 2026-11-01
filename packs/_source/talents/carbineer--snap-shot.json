@@ -1,0 +1,27 @@
+{
+  "_id": "A8gPxXlxvMuZa3t5",
+  "_key": "!items!A8gPxXlxvMuZa3t5",
+  "name": "Snap Shot",
+  "type": "talent",
+  "system": {
+    "description": "You do not provoke Attacks of Opportunity while using the Aim Action with a Rifle or Carbine with its Retractable Stock extended.",
+    "tree": "Carbineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "f5SsKIRzOqaAsWYK",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

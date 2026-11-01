@@ -3,16 +3,15 @@
 // with its reason; any other key fails the run. Mechanics the house rules give a feat and the fork
 // does not carry come from HOUSE_CHANGES, each with the line that states it.
 
-import { cleanDescription } from "../lib/html.ts";
-import { idFor, slugify } from "../lib/ids.ts";
-import { checkKeys, itemDoc, readPack, type OutputDoc, type Report, type SourceDoc } from "../lib/pack.ts";
+import {
+  attachEffect, bonus, dice, dropped, exact, flatOrSwap, grant, isFanContent, number, runChanges,
+  type ChangeOut, type Context, type Mapper, type Prerequisite,
+} from "../lib/changes.ts";
+import { cleanDescription, rewriteParagraphs } from "../lib/html.ts";
+import { slugify } from "../lib/ids.ts";
+import { checkKeys, itemDoc, readPack, type OutputDoc, type Report } from "../lib/pack.ts";
 
 const PACK = "feats";
-
-export interface ChangeOut { key: string; type: "bonus" | "grant" | "dice"; value: number | string; phase: "derived"; bonusType: string; condition: string }
-const bonus = (key: string, value: number | string, bonusType = ""): ChangeOut => ({ key, type: "bonus", value, phase: "derived", bonusType, condition: "" });
-const grant = (key: string, value: string): ChangeOut => ({ key, type: "grant", value, phase: "derived", bonusType: "", condition: "" });
-const dice = (key: string, value: number): ChangeOut => ({ key, type: "dice", value, phase: "derived", bonusType: "", condition: "" });
 
 /** Changes the house rules give a feat that the fork's data does not. */
 export const HOUSE_CHANGES: Record<string, { changes: ChangeOut[]; source: string }> = {
@@ -50,49 +49,10 @@ export const HOUSE_TEXT: Record<string, { replace: [string, string][]; source: s
   },
 };
 
-/** Replaces each paragraph that starts with a given prefix; returns the prefixes it could not find. */
-export function rewriteParagraphs(html: string, replace: [string, string][]): { html: string; missing: string[] } {
-  const missing: string[] = [];
-  for (const [prefix, replacement] of replace) {
-    const start = html.indexOf(prefix);
-    const end = start < 0 ? -1 : html.indexOf("</p>", start);
-    if (end < 0) {
-      missing.push(prefix);
-      continue;
-    }
-    html = html.slice(0, start) + replacement + html.slice(end + "</p>".length);
-  }
-  return { html, missing };
-}
-
 /** Repeatable by the house rules though the fork does not mark it. */
 const HOUSE_REPEATABLE: Record<string, string> = {
   "Toughness": 'episode-vii, Feats: "You can take Toughness more than once."',
 };
-
-/** Fan content the rulings leave out (rulings.md, Content). */
-export const isFanContent = (doc: SourceDoc): boolean =>
-  ((doc.system["categories"] ?? []) as { value?: string }[]).some((c) => c.value === "Homebrew Content" || / Creations$/.test(c.value ?? ""));
-
-interface Context { changes: ChangeOut[]; repeatable: boolean; drop(reason: string): void; fail(message: string): void; name: string }
-type Mapper = (value: unknown, ctx: Context) => void;
-
-const number = (value: unknown): number | null => {
-  const n = typeof value === "number" ? value : typeof value === "string" && /^-?\d+$/.test(value.trim()) ? Number(value) : NaN;
-  return Number.isFinite(n) ? n : null;
-};
-/** A flat number becomes a bonus; the fork's ability-swap formulas ("MAX(@WISMOD, @CHAMOD) - @WISMOD") are dropped for the swap code. */
-const flatOrSwap = (selector: string): Mapper => (value, ctx) => {
-  const n = number(value);
-  if (n !== null) ctx.changes.push(bonus(selector, n));
-  else if (/^MAX\(@\w+, ?@\w+\) - @\w+$/.test(String(value))) ctx.drop("ability swap (explicit code, not a bonus)");
-  else ctx.fail(`${selector} value ${JSON.stringify(value)}`);
-};
-const exact = (expected: unknown, then: Mapper): Mapper => (value, ctx) => {
-  if (JSON.stringify(value) === JSON.stringify(expected)) then(value, ctx);
-  else ctx.fail(`expected ${JSON.stringify(expected)}, found ${JSON.stringify(value)}`);
-};
-const dropped = (reason: string): Mapper => (_value, ctx) => ctx.drop(reason);
 
 const CHOICE = "choice feat: its change needs the chosen weapon or skill in its selector, which the grammar does not have yet";
 const ACTION = "an attack or action option, applied by the card that uses it";
@@ -151,8 +111,6 @@ export const FEAT_KEYS: Record<string, Mapper> = {
   returnFire: dropped(ACTION),
 };
 
-interface Prerequisite { text?: string; type?: string; requirement?: unknown; count?: unknown; children?: Prerequisite[] }
-
 /** Prerequisites the house rules change. */
 const HOUSE_PREREQUISITES: Record<string, { apply: (p: Prerequisite | null) => Prerequisite | null; source: string }> = {
   "Force Sensitivity": {
@@ -188,16 +146,11 @@ export function convertFeats(report: Report): OutputDoc[] {
     // fork's choice dialog, which the sheet replaces.
     checkKeys(PACK, doc, { mapped: ["description", "changes", "categories", "possibleProviders", "choices", "prerequisite", "source"], constant: { cost: "0" } }, report);
     const ctx: Context = {
-      name: doc.name, changes: [], repeatable: false,
+      name: doc.name, changes: [], repeatable: false, maxTimes: 0,
       drop: (reason) => report.note(`dropped: ${reason}`, doc.name),
       fail: (message) => report.problem(PACK, doc, message),
     };
-    const raw = doc.system["changes"];
-    for (const change of (Array.isArray(raw) ? raw : Object.values((raw ?? {}) as object)) as { key: string; value: unknown }[]) {
-      const mapper = FEAT_KEYS[change.key];
-      if (mapper) mapper(change.value, ctx);
-      else ctx.fail(`unmapped change ${change.key}: ${JSON.stringify(change.value).slice(0, 80)}`);
-    }
+    runChanges(doc, FEAT_KEYS, ctx);
     const house = HOUSE_CHANGES[doc.name];
     if (house) {
       ctx.changes.push(...house.changes);
@@ -229,13 +182,7 @@ export function convertFeats(report: Report): OutputDoc[] {
       repeatable: ctx.repeatable,
       choice: "",
     }, doc, { sourceBook: String(doc.system["source"] ?? "") || sourceBook });
-    if (ctx.changes.length) {
-      const effectId = idFor(`${seed}:effect`);
-      item.effects = [{
-        _id: effectId, _key: `!items.effects!${item._id}.${effectId}`, name: doc.name, type: "base", img: "icons/svg/aura.svg",
-        transfer: true, disabled: false, system: { changes: ctx.changes }, duration: {}, flags: {},
-      }];
-    }
+    attachEffect(item, seed, ctx.changes);
     out.push(item);
   }
   return out;

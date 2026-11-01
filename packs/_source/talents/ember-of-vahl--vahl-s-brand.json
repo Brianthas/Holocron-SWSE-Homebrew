@@ -1,0 +1,31 @@
+{
+  "_id": "rexf7xqCgWCxT3Gf",
+  "_key": "!items!rexf7xqCgWCxT3Gf",
+  "name": "Vahl's Brand",
+  "type": "talent",
+  "system": {
+    "description": "Any additional damage you deal with an <b>Empowered Weapon</b> is considered to be Fire damage.",
+    "tree": "Ember of Vahl",
+    "prerequisite": {
+      "text": "a member of The Ember of Vahl",
+      "nodes": {
+        "text": "a member of The Ember of Vahl",
+        "requirement": "The Ember of Vahl",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cNoe1cW1J3VCQ2ql",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

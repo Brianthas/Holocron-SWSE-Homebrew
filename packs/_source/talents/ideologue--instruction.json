@@ -1,0 +1,27 @@
+{
+  "_id": "Gp6MVrzlAQpB9r02",
+  "_key": "!items!Gp6MVrzlAQpB9r02",
+  "name": "Instruction",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Standard Action, you can boost the competence of one of your allies within 6 squares. That individual gains the ability to make a single Skill Check using your Skill modifier (except Use the Force); this Skill Check must be made before the end of the encounter, or the benefit is lost.<br><br>You can select this Talent multiple times. Each time you do so, you gain one additional use of this Talent per encounter.",
+    "tree": "Ideologue",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7YQA5u0HBDxOmjAq",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "ywQDmlGsgfSoVVld",
+  "_key": "!items!ywQDmlGsgfSoVVld",
+  "name": "Deceptive Shot",
+  "type": "talent",
+  "system": {
+    "description": "Select one target in line of sight within 6 squares. You can spend two Swift Actions on the same turn to make a Deception check; if the check result equals or exceeds the target's Will Defense, the target is denied its Dexterity bonus to Reflex Defense against your attacks until the beginning of your next turn.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aJLqwLxjN4AQ8bzx",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

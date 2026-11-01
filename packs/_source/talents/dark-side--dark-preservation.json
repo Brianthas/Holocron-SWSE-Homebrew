@@ -1,0 +1,31 @@
+{
+  "_id": "LVtDvpkq4dMizCKF",
+  "_key": "!items!LVtDvpkq4dMizCKF",
+  "name": "Dark Preservation",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an effect would normally move you down the Condition Track, you may spend a Force Point and increase your Dark Side Score by 1 to negate that movement down the Condition Track.",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "Power of the Dark Side talent",
+      "nodes": {
+        "text": "Power of the Dark Side talent",
+        "requirement": "Power of the Dark Side",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UBYADD9rfVsDL17v",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

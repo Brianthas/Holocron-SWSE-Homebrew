@@ -1,0 +1,42 @@
+{
+  "_id": "63dnmRbES60s4v7U",
+  "_key": "!items!63dnmRbES60s4v7U",
+  "name": "Cross-Training",
+  "type": "talent",
+  "system": {
+    "description": "Select a number of Skills equal to your Intelligence modifier that you are not Trained in. You may now use Trained-only applications of those Skills, and they are considered Class Skills.<br><br>You are not considered Trained in those Skills for any other purposes, and must still satisfy any other requirements in order to use the skill.",
+    "tree": "Lineage",
+    "prerequisite": {
+      "text": "Educated talent, and Intelligence 13",
+      "nodes": {
+        "children": [
+          {
+            "text": "Educated talent",
+            "requirement": "Educated",
+            "type": "TALENT"
+          },
+          {
+            "text": "Intelligence 13",
+            "requirement": "Intelligence 13",
+            "type": "ATTRIBUTE"
+          }
+        ],
+        "text": "Educated talent, and Intelligence 13",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nkEStHymUcGeU1Au",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

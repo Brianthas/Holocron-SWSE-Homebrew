@@ -1,0 +1,27 @@
+{
+  "_id": "sFhKwHJJobzxaaOl",
+  "_key": "!items!sFhKwHJJobzxaaOl",
+  "name": "Gimmick",
+  "type": "talent",
+  "system": {
+    "description": "You can Issue Routine Command to a computer as a Swift Action.",
+    "tree": "Slicer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "knwGxmsbbAOHd8tM",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

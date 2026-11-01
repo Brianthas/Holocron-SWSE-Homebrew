@@ -1,0 +1,31 @@
+{
+  "_id": "reVbLO0Mh7FY5BCs",
+  "_key": "!items!reVbLO0Mh7FY5BCs",
+  "name": "Channel Anger",
+  "type": "talent",
+  "system": {
+    "description": "You let your anger swell into a Rage. As a Swift Action, you may spend a Force Point to gain a +2 Rage bonus on melee attack rolls and melee damage rolls for a number of rounds equal to 5 + your Constitution modifier. At the end of this duration, you move -1 step along the Condition Track.<br><br>While Raging, you cannot use Skills that require patience and concentration, such as Mechanics, Stealth, or Use the Force.",
+    "tree": "Dark Side Devotee",
+    "prerequisite": {
+      "text": "Channel Aggression talent",
+      "nodes": {
+        "text": "Channel Aggression talent",
+        "requirement": "Channel Aggression",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sowvCYR4NMXlFuTf",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "q1n1KGQhA9diYX1X",
+  "_key": "!items!q1n1KGQhA9diYX1X",
+  "name": "Superior Ichor Crafter",
+  "type": "talent",
+  "system": {
+    "description": "Items you create through the <i>Ichor Creation</i> Force Power gain one applicable benefit as though enhanced by the Superior Tech feat.",
+    "tree": "Force Item",
+    "prerequisite": {
+      "text": "Intelligence 17",
+      "nodes": {
+        "text": "Intelligence 17",
+        "requirement": "Intelligence 17",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "b7PVbIzUu9pD1QUk",
+      "sourceBook": "Dathomir Field Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "kdkCyb7tVacep6xY",
+  "_key": "!items!kdkCyb7tVacep6xY",
+  "name": "Spacehound",
+  "type": "talent",
+  "system": {
+    "description": "You take no penalty on attack rolls in Low Gravity or Zero Gravity environments, and you ignore the debilitating effects of Space Sickness. In addition, you are considered proficient with any Starship Weapon.",
+    "tree": "Spacer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "k12wBDYgHtdotB2a",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

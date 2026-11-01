@@ -1,0 +1,31 @@
+{
+  "_id": "VfBjhqZ2aP14dv0l",
+  "_key": "!items!VfBjhqZ2aP14dv0l",
+  "name": "Shii-Cho",
+  "type": "talent",
+  "system": {
+    "description": "When using the <b>Block</b> or <b>Deflect</b> Talents, you only take a -2 penalty on your Use the Force check for every previous <b>Block</b> or <b>Deflect</b> attempt since your last turn.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "Dueling Stance talent",
+      "nodes": {
+        "text": "Dueling Stance talent",
+        "requirement": "Dueling Stance",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3s1mNM45Xewl7H8V",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "ZAl1vltUyZYdQJor",
+  "_key": "!items!ZAl1vltUyZYdQJor",
+  "name": "Attract Minion",
+  "type": "talent",
+  "system": {
+    "description": "You attract a loyal Minion. The Minion is a Nonheroic character with a Class Level equal to three-quarters of your Character Level, rounded down.<br><br>You may select this Talent multiple times; each time you select this Talent, you gain another Minion. Normally, you can have only one Minion with you at a time. Any other Minions you have are assumed to be looking after your various interests. If you lose a Minion, you can send for another Minion if you have one (although normal Travel Time still applies).<br><br>Each Minion that accompanies you on an adventure is entitled to an equal share of the total Experience Points earned for that adventure. For example, a Minion that accompanies a party of five heroes on an adventure receives one-sixth of the XP that the group earns.",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JzMXRoWKZxmTBonY",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

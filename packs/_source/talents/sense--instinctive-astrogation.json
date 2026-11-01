@@ -1,0 +1,31 @@
+{
+  "_id": "7Nb1U43XoxEx0TpN",
+  "_key": "!items!7Nb1U43XoxEx0TpN",
+  "name": "Instinctive Astrogation",
+  "type": "talent",
+  "system": {
+    "description": "You can use your Use the Force check modifier instead of your Use Computer check modifier to Astrogate. You are considered Trained in the Use Computer skill. If you are entitled to a Use Computer check reroll, you may reroll your Use the Force check instead (subject to the same circumstances and limitations).",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "Force Pilot talent",
+      "nodes": {
+        "text": "Force Pilot talent",
+        "requirement": "Force Pilot",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jzzuvZclO4NnMCY4",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

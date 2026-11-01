@@ -1,0 +1,31 @@
+{
+  "_id": "TIUlXnQEiQbhSCP9",
+  "_key": "!items!TIUlXnQEiQbhSCP9",
+  "name": "Twin Attack (Lightsabers)",
+  "type": "talent",
+  "system": {
+    "description": "You take no penalty on your attack roll when using the Rapid Strike feat with Lightsabers.",
+    "tree": "Duelist",
+    "prerequisite": {
+      "text": "Weapon Focus (Lightsabers)",
+      "nodes": {
+        "text": "Weapon Focus (Lightsabers)",
+        "requirement": "Weapon Focus (Lightsabers)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "D2MVlW6ixuFT9ilI",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "xrMUbMflBNZfQSM7",
+  "_key": "!items!xrMUbMflBNZfQSM7",
+  "name": "Consular's Vitality",
+  "type": "talent",
+  "system": {
+    "description": "Once per round as a Swift Action, you grant one ally within 12 squares of you (and within your line of sight) Bonus Hit Points equal to 5 + your Charisma modifier.<br><br>These Bonus Hit Points last until the beginning of your next turn (at which point any remaining Bonus Hit Points are lost), and any damage dealt to that ally comes out of Bonus Hit Points first.<br><br>You take a -5 penalty on all Use the Force checks until the beginning of your next turn.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "q3MtkHqVpluA3bb8",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

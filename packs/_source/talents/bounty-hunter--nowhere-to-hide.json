@@ -1,0 +1,27 @@
+{
+  "_id": "4hhI6ikp1WhBJ4R2",
+  "_key": "!items!4hhI6ikp1WhBJ4R2",
+  "name": "Nowhere to Hide",
+  "type": "talent",
+  "system": {
+    "description": "You may choose to reroll any Gather Information checks made to Locate Individual, but you must accept the result of the reroll, even if it is worse.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YhceXjXB8PJhlxp3",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

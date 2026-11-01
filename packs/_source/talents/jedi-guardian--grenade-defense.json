@@ -1,0 +1,27 @@
+{
+  "_id": "E7Y4zMcChAFM3vgs",
+  "_key": "!items!E7Y4zMcChAFM3vgs",
+  "name": "Grenade Defense",
+  "type": "talent",
+  "system": {
+    "description": "You can use the Move Light Object application of the Use the Force skill to cast aside Grenades that are thrown at you. As a Reaction when you are attacked by a Grenade of any kind, you can make a Use the Force check with a DC equal to the attack roll of the incoming Grenade attack.<br><br>If your check equals or exceeds the DC, you hurl the Grenade to a location where it explodes harmlessly, negating the attack. Whether or not you are successful, you take a -5 penalty on Use the Force checks until the start of your next turn.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "B6AFH5jokgrXIM6q",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

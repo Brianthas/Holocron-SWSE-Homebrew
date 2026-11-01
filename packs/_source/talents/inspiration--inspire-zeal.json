@@ -1,0 +1,47 @@
+{
+  "_id": "iiopjx2dTQEB6gDy",
+  "_key": "!items!iiopjx2dTQEB6gDy",
+  "name": "Inspire Zeal",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an ally within line of sight of you makes an attack that moves an opponent down the Condition Track (such as dealing damage that equals of exceeds the target's Damage Threshold), that ally moves the target an additional -1 step down the Condition Track.",
+    "tree": "Inspiration",
+    "prerequisite": {
+      "text": "Bolster Ally talent, Inspire Confidence talent, and Ignite Fervor talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Bolster Ally talent",
+            "requirement": "Bolster Ally",
+            "type": "TALENT"
+          },
+          {
+            "text": "Inspire Confidence talent",
+            "requirement": "Inspire Confidence",
+            "type": "TALENT"
+          },
+          {
+            "text": "Ignite Fervor talent",
+            "requirement": "Ignite Fervor",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Bolster Ally talent, Inspire Confidence talent, and Ignite Fervor talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1kjOhgHDWpPxtHzq",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

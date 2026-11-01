@@ -1,0 +1,31 @@
+{
+  "_id": "YsNCMsQfdeu5vWzP",
+  "_key": "!items!YsNCMsQfdeu5vWzP",
+  "name": "Distant Command",
+  "type": "talent",
+  "system": {
+    "description": "Any ally who gains the benefit of your <b>Born Leader</b> Talent does not lose the benefit if their line of sight to you is broken.",
+    "tree": "Leadership",
+    "prerequisite": {
+      "text": "Born Leader talent",
+      "nodes": {
+        "text": "Born Leader talent",
+        "requirement": "Born Leader",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SphH18K7aMGzq6WX",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

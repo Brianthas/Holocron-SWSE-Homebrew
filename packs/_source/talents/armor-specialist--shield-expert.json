@@ -1,0 +1,31 @@
+{
+  "_id": "UREZVpWUAa0c3POc",
+  "_key": "!items!UREZVpWUAa0c3POc",
+  "name": "Shield Expert",
+  "type": "talent",
+  "system": {
+    "description": "You are an expert in using Energy Shields for maximum effectiveness. Once per encounter, you can spend a Swift Action to regain 10 points of SR (up to the shield's maximum) on an active Energy Shield.",
+    "tree": "Armor Specialist",
+    "prerequisite": {
+      "text": "Armor Proficiency feat",
+      "nodes": {
+        "text": "Armor Proficiency feat",
+        "requirement": "Armor Proficiency",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DN1PptYEUHHDEcd2",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

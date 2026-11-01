@@ -1,0 +1,27 @@
+{
+  "_id": "r6GjgonfBigvRGlG",
+  "_key": "!items!r6GjgonfBigvRGlG",
+  "name": "Combined Fire",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you may designate a single creature, Vehicle or object within your line of sight as the target of <b>Combined Fire</b>. Any Weapon Batteries attacking the target deal an extra die of damage for every 2 points by which their attack roll exceeds the target's Reflex Defense (instead of every 3 points).<br><br>In addition, when using the Tactical Fire option for a Capital Ship, you may designated a weapon or Weapon Battery to make a single attack.",
+    "tree": "Naval Officer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "l6VefQvatscmj1vJ",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

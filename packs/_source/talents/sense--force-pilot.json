@@ -1,0 +1,27 @@
+{
+  "_id": "0uzLHDUdGwGQVKUh",
+  "_key": "!items!0uzLHDUdGwGQVKUh",
+  "name": "Force Pilot",
+  "type": "talent",
+  "system": {
+    "description": "You can use your Use the Force check modifier instead of your Pilot check modifier when making Pilot checks. You are considered Trained in the Pilot skill. If you are entitled to a Pilot check reroll, you may reroll your Use the Force check instead (subject to the same circumstances and limitations).",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QgKZqF7Igcmcz7Jq",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "u75VqWYQkxfi6SXO",
+  "_key": "!items!u75VqWYQkxfi6SXO",
+  "name": "Cycle of Harmony",
+  "type": "talent",
+  "system": {
+    "description": "When an ally within 12 squares of you and in your line of sight takes damage or moves down the Condition Track by any means, you can designate a different ally within 12 squares of you and in your line of sight as a Reaction.<br><br>The ally you designate gain Bonus Hit Points equal to 5 + your Charisma modifier (minimum +1). Damage is subtracted from Bonus Hit Points first, and any Bonus Hit Points remaining at the end of the encounter are lost.",
+    "tree": "Tyia Adept",
+    "prerequisite": {
+      "text": "a member of The Tyia",
+      "nodes": {
+        "text": "a member of The Tyia",
+        "requirement": "The Tyia",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hDlRPr4lnlI3Elf7",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

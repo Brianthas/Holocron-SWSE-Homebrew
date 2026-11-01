@@ -1,0 +1,27 @@
+{
+  "_id": "BD8PWCRE5HSyeEDb",
+  "_key": "!items!BD8PWCRE5HSyeEDb",
+  "name": "Watch Your Back",
+  "type": "talent",
+  "system": {
+    "description": "If you are adjacent to at least one ally, enemies gain no benefit from Flanking you or any adjacent allies.",
+    "tree": "Trooper",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RzUbotSazEsSWmth",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

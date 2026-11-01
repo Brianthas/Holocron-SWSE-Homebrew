@@ -1,0 +1,31 @@
+{
+  "_id": "GLLlYORFO9zO6zhP",
+  "_key": "!items!GLLlYORFO9zO6zhP",
+  "name": "Findsman Ceremonies",
+  "type": "talent",
+  "system": {
+    "description": "Once per day, you can spend 10 minutes performing rituals that enhance your connection with The Force, receiving visions and portents as a result. At that time, you can spend any number of Force Points in the performance of the ritual, up to the total number you have remaining.<br><br>For the remainder of the day, whenever you make a Perception or Stealth check, make a Use the Force check to use the <i>Farseeing</i> Force Power, or make an attack roll, you can choose to reroll that check, but must accept to the results of the reroll, even if it is worse. You may do this a number of times per day equal to the number of Force Points you spent during the casting of the ritual.<br><br>At the end of the day, you regain Force Points equal to the number of rerolls you have remaining.",
+    "tree": "Gand Findsman",
+    "prerequisite": {
+      "text": "Force Sensitivity feat",
+      "nodes": {
+        "text": "Force Sensitivity feat",
+        "requirement": "Force Sensitivity",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Zu90XnSWn0du0o6O",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

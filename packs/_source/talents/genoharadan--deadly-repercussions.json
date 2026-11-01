@@ -1,0 +1,27 @@
+{
+  "_id": "0TAl5d1tXnwe2M4u",
+  "_key": "!items!0TAl5d1tXnwe2M4u",
+  "name": "Deadly Repercussions",
+  "type": "talent",
+  "system": {
+    "description": "When you reduce a target to 0 Hit Points or move the target to the bottom of the Condition Track, all your opponents within line of sight of both you and your target take a -2 penalty on attack rolls until the beginning of your next turn.",
+    "tree": "GenoHaradan",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nPk84DDQyF7SZcvf",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

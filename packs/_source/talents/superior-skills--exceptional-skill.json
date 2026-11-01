@@ -1,0 +1,27 @@
+{
+  "_id": "yMFZByyZ2rOeObDu",
+  "_key": "!items!yMFZByyZ2rOeObDu",
+  "name": "Exceptional Skill",
+  "type": "talent",
+  "system": {
+    "description": "When you select this Talent, choose one Trained Skill. Whenever you roll a Skill Check with that Skill, a result of 2-7 on the die is always treated as though you had rolled an 8. You can select this Talent multiple times. Each time you do so, you must choose a different Skill to gain the benefits of this Talent.",
+    "tree": "Superior Skills",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": true,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XEYj8E9U5yfkFeXu",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "4JOoyb1WRolr5AY5",
+  "_key": "!items!4JOoyb1WRolr5AY5",
+  "name": "Collective Visions",
+  "type": "talent",
+  "system": {
+    "description": "When you use <i>Farseeing</i>, or a Force Power or Talent that has <i>Farseeing</i> as a prerequisite, other Force-users with <i>Farseeing</i> in their Force Power Suite can Aid Another on your Use the Force check as a Reaction, if they are within 6 squares of you.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "Farseeing force power",
+      "nodes": {
+        "text": "Farseeing force power",
+        "requirement": "Farseeing",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "euTFNIPr0JIpHWst",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

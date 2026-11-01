@@ -1,0 +1,31 @@
+{
+  "_id": "MwTVQhCHwZcuoNDl",
+  "_key": "!items!MwTVQhCHwZcuoNDl",
+  "name": "Shaped Explosion",
+  "type": "talent",
+  "system": {
+    "description": "You know how to set charges to direct a blast in a specific direction or manner. You can shape an explosion caused by Explosives or Mines that you set into a line or a cone instead of a radius. The length of the line is equal to 2 x the radius of the explosive Burst; the length of the cone is equal to 3 x the radius of the Burst, and either the line or the cone originates from the square where the Explosives are placed.",
+    "tree": "Sabotage",
+    "prerequisite": {
+      "text": "Skilled Demolitionist talent",
+      "nodes": {
+        "text": "Skilled Demolitionist talent",
+        "requirement": "Skilled Demolitionist",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Vdr5kaEY2CS1GEcS",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

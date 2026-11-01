@@ -1,0 +1,42 @@
+{
+  "_id": "Wjkp6maRDrf0Nx68",
+  "_key": "!items!Wjkp6maRDrf0Nx68",
+  "name": "Sith Alchemy",
+  "type": "talent",
+  "system": {
+    "description": "<i>See also: Sith Alchemy Talent Tree</i><br><br>Your knowledge of Sith sorcery allows you to imbue talismans and other objects with the power of the Dark Side.",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "Dark Side Adept talent, and Dark Side Master talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dark Side Adept talent",
+            "requirement": "Dark Side Adept",
+            "type": "TALENT"
+          },
+          {
+            "text": "Dark Side Master talent",
+            "requirement": "Dark Side Master",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Dark Side Adept talent, and Dark Side Master talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2g6ku4wZtCa3kyZM",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

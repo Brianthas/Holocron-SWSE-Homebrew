@@ -1,0 +1,31 @@
+{
+  "_id": "MZkWbeMoAipKSF4t",
+  "_key": "!items!MZkWbeMoAipKSF4t",
+  "name": "Cheap Trick",
+  "type": "talent",
+  "system": {
+    "description": "When you make a Deception check to Feint against an enemy within 6 squares of you, you can roll twice, keeping the better of the two results.",
+    "tree": "Brigand",
+    "prerequisite": {
+      "text": "Trained in Deception",
+      "nodes": {
+        "text": "Trained in Deception",
+        "requirement": "Deception",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SwLFJArYsBcqKHYS",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

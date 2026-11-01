@@ -1,0 +1,31 @@
+{
+  "_id": "J0QTdaKBydVjuQVF",
+  "_key": "!items!J0QTdaKBydVjuQVF",
+  "name": "Dark Side Scourge",
+  "type": "talent",
+  "system": {
+    "description": "Against creatures with a Dark Side Score of 1 or higher, you deal extra damage on melee attacks equal to your Charisma bonus (minimum +1).",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "Dark Side Sense talent",
+      "nodes": {
+        "text": "Dark Side Sense talent",
+        "requirement": "Dark Side Sense",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jwehZuvZkvLad8WO",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

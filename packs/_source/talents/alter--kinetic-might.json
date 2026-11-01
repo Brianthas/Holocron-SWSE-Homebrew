@@ -1,0 +1,27 @@
+{
+  "_id": "SqiIAUPU3VvMydf0",
+  "_key": "!items!SqiIAUPU3VvMydf0",
+  "name": "Kinetic Might",
+  "type": "talent",
+  "system": {
+    "description": "Once per round, you may choose to reroll a Use the Force check made to activate one of the following Force Powers: <i>Force Disarm</i>, <i>Force Grip</i>, <i>Force Slam</i>, <i>Force Thrust</i>, <i>Move Object</i>, or <i>Repulse</i>. The result of the reroll must be accepted, even if it is worse.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dtuv3z0mhV38asTD",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

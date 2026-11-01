@@ -1,0 +1,27 @@
+{
+  "_id": "bqVOVWUpaOfE4ifB",
+  "_key": "!items!bqVOVWUpaOfE4ifB",
+  "name": "Reconnaissance Team Leader",
+  "type": "talent",
+  "system": {
+    "description": "You gain a single Follower. Choose either the Aggressive, Defensive, or Utility Follower Template for your Follower, generating the follower's statistics using the Followers rules. This Follower gains the Skill Training (Perception) and Skill Training (Stealth) Feats. Additionally, whenever you use the Stealth skill, all your Followers can also make Stealth checks as a part of the same Action if they are able to.<br><br>You can select this Talent up to three times. Each time you do, you gain one additional Follower.",
+    "tree": "Reconnaissance",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": true,
+    "maxTimes": 3,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "W5GIbWYxCH7eACqg",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

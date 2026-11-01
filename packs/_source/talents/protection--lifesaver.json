@@ -1,0 +1,31 @@
+{
+  "_id": "nU9hqaoMw4zEaiwp",
+  "_key": "!items!nU9hqaoMw4zEaiwp",
+  "name": "Lifesaver",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Reaction, when an ally takes damage that equals or exceeds its Damage Threshold or reduces it to 0 Hit Points, you can move up to your speed provided you end your movement adjacent to that ally. This movement provokes Attacks of Opportunity as normal, you take all of the damage that triggered this Talent's use, and your ally takes no damage.",
+    "tree": "Protection",
+    "prerequisite": {
+      "text": "Bodyguard's Sacrifice talent",
+      "nodes": {
+        "text": "Bodyguard's Sacrifice talent",
+        "requirement": "Bodyguard's Sacrifice",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OUqtQZUX7QeHyYuC",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

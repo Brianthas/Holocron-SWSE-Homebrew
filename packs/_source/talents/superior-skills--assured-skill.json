@@ -1,0 +1,27 @@
+{
+  "_id": "MRPi6VegBZ93CLTf",
+  "_key": "!items!MRPi6VegBZ93CLTf",
+  "name": "Assured Skill",
+  "type": "talent",
+  "system": {
+    "description": "When you select this Talent, choose one Skill. Whenever you roll a Skill Check with that Skill, you can choose to lose any competence bonuses to that Skill Check and instead roll twice, keeping either result. You can select this Talent multiple times. Each time you do so, you must choose a different Skill to gain the benefits of this Talent.",
+    "tree": "Superior Skills",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xNlLcnMBqEHqXqCY",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

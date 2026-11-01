@@ -1,0 +1,27 @@
+{
+  "_id": "XjhieLlAdHMm1bMU",
+  "_key": "!items!XjhieLlAdHMm1bMU",
+  "name": "Trace",
+  "type": "talent",
+  "system": {
+    "description": "You can substitute your Use Computer Skill for any Gather Information check as long as you have access to a computer network.",
+    "tree": "Slicer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DCUdsFQqDeh7pwDQ",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

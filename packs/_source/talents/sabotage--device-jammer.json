@@ -1,0 +1,27 @@
+{
+  "_id": "k9Gd83sizjwLTb2K",
+  "_key": "!items!k9Gd83sizjwLTb2K",
+  "name": "Device Jammer",
+  "type": "talent",
+  "system": {
+    "description": "You can construct a short-range Jammer that affects a specific type of electronic device such as a personal Energy Shields, Comlink, Portable Computer, or Datapad. As a Full-Round Action, you select a particular piece of personal, portable electronic Equipment (any item listed as equipment excluding Droids, Vehicles and Weapons, that has an electronic component) and make a DC 20 Mechanics check to build the Jammer.<br><br>If the check is successful, all devices of the chosen type cease to function while within 12 squares of your position for the remainder of the encounter. You may only have one Jammer (Device or Droid) active at a time.",
+    "tree": "Sabotage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8LqZ74dxYjz9KeHP",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "s9xndQz9pv4mJAYT",
+  "_key": "!items!s9xndQz9pv4mJAYT",
+  "name": "Exposing Strike",
+  "type": "talent",
+  "system": {
+    "description": "When you use a Lightsaber to deal damage to a target, you can spend a Force Point to make that target Flat-Footed until the end of your next turn.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VgDENhMx8wYKlhrK",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

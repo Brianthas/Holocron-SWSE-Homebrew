@@ -1,0 +1,27 @@
+{
+  "_id": "CB5UQvZmSIBd6DRl",
+  "_key": "!items!CB5UQvZmSIBd6DRl",
+  "name": "Ready and Willing",
+  "type": "talent",
+  "system": {
+    "description": "When you Ready an Action, you can choose at any time before the start of your next turn to take your Readied Action at the end of the current turn, after the acting creature, Droid, or Vehicle completes its Action.",
+    "tree": "Versatility",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HliccdfNMRfSFM2q",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "rcv0eBWlDhJRCVfk",
+  "_key": "!items!rcv0eBWlDhJRCVfk",
+  "name": "Action Exchange",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you successfully use <b>Force Delay</b>, you can grant one ally within 6 squares, and line of sight the ability to trade a Move Action for another Standard Action on their next turn.",
+    "tree": "Jal Shey",
+    "prerequisite": {
+      "text": "a member of The Jal Shey",
+      "nodes": {
+        "text": "a member of The Jal Shey",
+        "requirement": "The Jal Shey",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZJmBMOpo40iM8Gqg",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

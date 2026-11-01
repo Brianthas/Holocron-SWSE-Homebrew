@@ -1,0 +1,31 @@
+{
+  "_id": "AraYSYC2nyARtOc2",
+  "_key": "!items!AraYSYC2nyARtOc2",
+  "name": "Armored Guard",
+  "type": "talent",
+  "system": {
+    "description": "When you use the <b>Ward</b> Talent, your ally's Cover bonus to their Reflex Defense is increased by one-half the Armor bonus of any Natural Armor you possess as well as any Armor you are wearing.",
+    "tree": "Protection",
+    "prerequisite": {
+      "text": "Ward talent",
+      "nodes": {
+        "text": "Ward talent",
+        "requirement": "Ward",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mzrKcfdONOfuh35I",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

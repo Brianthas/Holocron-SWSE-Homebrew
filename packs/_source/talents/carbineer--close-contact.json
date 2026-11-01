@@ -1,0 +1,27 @@
+{
+  "_id": "fGxkuldDzyBbzqAb",
+  "_key": "!items!fGxkuldDzyBbzqAb",
+  "name": "Close Contact",
+  "type": "talent",
+  "system": {
+    "description": "The Point-Blank Range of any Rifle or Carbine you use is increased by 5 squares. Short Range for the Weapon begins 5 squares later, but still ends at the same distance. You can take this Talent up to two times; each time you take this Talent, you increase the Point-Blank Range of any Rifle or Carbine you use by an additional 5 squares, up to a maximum of 10 squares.",
+    "tree": "Carbineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NbhvyXYEPHi2Dyf7",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

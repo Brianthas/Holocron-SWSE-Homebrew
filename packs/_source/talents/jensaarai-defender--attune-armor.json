@@ -1,0 +1,31 @@
+{
+  "_id": "7mcvVDkNCbabxoIn",
+  "_key": "!items!7mcvVDkNCbabxoIn",
+  "name": "Attune Armor",
+  "type": "talent",
+  "system": {
+    "description": "As a Full-Round Action, you may spend a Force Point to attune a suit of armor to The Force, permanently increasing its armor bonus by +2. In addition, the maximum Dexterity bonus of the attuned armor permanently improves by +1. Only you can benefit from wearing the attuned armor; the benefits do not apply if someone else dons the armor.",
+    "tree": "Jensaarai Defender",
+    "prerequisite": {
+      "text": "a member of The Jensaarai",
+      "nodes": {
+        "text": "a member of The Jensaarai",
+        "requirement": "The Jensaarai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6xuOufjAxgt6CqeA",
+      "sourceBook": ""
+    }
+  }
+}

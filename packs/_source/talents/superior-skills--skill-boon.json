@@ -1,0 +1,27 @@
+{
+  "_id": "sMfl5uhlH4biLgfN",
+  "_key": "!items!sMfl5uhlH4biLgfN",
+  "name": "Skill Boon",
+  "type": "talent",
+  "system": {
+    "description": "When you select this Talent, choose one Trained Skill. Whenever you spend a Force Point to add to that Skill, increase the die type of your Force Point by one step (i.e. from d6 to d8, d8 to d10, d10 to d12), to a maximum of d12. You can select this Talent multiple times. Each time you do so, you must choose a different Skill to gain the benefits of this Talent.",
+    "tree": "Superior Skills",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kUaCl6ixuY5mkUgA",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "JZTtVKnaFIOUaxgZ",
+  "_key": "!items!JZTtVKnaFIOUaxgZ",
+  "name": "Protective Reaction",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are targeted by an attack made by an enemy adjacent to your Akk Dog Follower, that attacker provokes an Attack of Opportunity from your Akk Dog Follower.",
+    "tree": "Korunnai Adept",
+    "prerequisite": {
+      "text": "a member of The Korunnai",
+      "nodes": {
+        "text": "a member of The Korunnai",
+        "requirement": "The Korunnai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ObitnLK8soxZyl0b",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

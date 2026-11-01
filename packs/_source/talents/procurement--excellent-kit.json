@@ -1,0 +1,27 @@
+{
+  "_id": "jtS3nLawcVf3oCxq",
+  "_key": "!items!jtS3nLawcVf3oCxq",
+  "name": "Excellent Kit",
+  "type": "talent",
+  "system": {
+    "description": "You always make sure that your allies have the best gear available. Whenever you purchase Weapons, Armor, or other Equipment (either legally or through the Black Market), all gear you purchase has 50% more Hit Points than normal and has 5 more DR than normal.<br><br>In addition, whenever one of your allies makes a Mechanics check on an object that you purchased, that ally gains a +2 Equipment bonus to the check.",
+    "tree": "Procurement",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Ky7J4air4VRyNKsE",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

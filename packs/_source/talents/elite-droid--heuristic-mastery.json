@@ -1,0 +1,31 @@
+{
+  "_id": "uAiZCULKVTw35IoW",
+  "_key": "!items!uAiZCULKVTw35IoW",
+  "name": "Heuristic Mastery",
+  "type": "talent",
+  "system": {
+    "description": "You understand the subtleties and limitations of your Heuristic Processor. You can reroll any Untrained Skill Check (except Use the Force), but the result of the reroll must be accepted, even if it is worse. Once per encounter, you can spend a Force Point to reroll any Skill Check (Trained or Untrained), keeping the better of the two results.",
+    "tree": "Elite Droid",
+    "prerequisite": {
+      "text": "Wisdom 15",
+      "nodes": {
+        "text": "Wisdom 15",
+        "requirement": "Wisdom 15",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CMkpdpqgW1r5ZSDn",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

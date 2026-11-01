@@ -1,0 +1,54 @@
+{
+  "_id": "7mxZ7wC8dOibLWjx",
+  "_key": "!items!7mxZ7wC8dOibLWjx",
+  "name": "Just a Scratch",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Reaction, you can reduce the damage from a single attack that targets your Reflex Defense by an amount equal to your Fortitude Defense.",
+    "tree": "4th-Degree Droid",
+    "prerequisite": {
+      "text": "(Equipped with Medium Armor or Heavy Armor), and Proficient with Armor equipped",
+      "nodes": {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Equipped with Medium Armor",
+                "requirement": "Medium Armor",
+                "type": "EQUIPPED"
+              },
+              {
+                "text": "Equipped with Heavy Armor",
+                "requirement": "Heavy Armor",
+                "type": "EQUIPPED"
+              }
+            ],
+            "count": 1,
+            "text": "Equipped with Medium Armor or Heavy Armor",
+            "type": "OR"
+          },
+          {
+            "text": "Proficient with Armor equipped",
+            "requirement": "Armor equipped",
+            "type": "PROFICIENCY"
+          }
+        ],
+        "text": "(Equipped with Medium Armor or Heavy Armor), and Proficient with Armor equipped",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GNEbDyA2QrGoCJcu",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

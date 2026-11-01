@@ -1,0 +1,27 @@
+{
+  "_id": "Crg8Uat9HQvfckcv",
+  "_key": "!items!Crg8Uat9HQvfckcv",
+  "name": "Tactical Withdraw",
+  "type": "talent",
+  "system": {
+    "description": "Spend two Swift Actions to grant all allies that are in your line of sight and within 6 squares of you the ability to use the Withdraw Action as a Swift Action until the start of your next turn.",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jiiwbE0SxwjHjbAw",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

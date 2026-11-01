@@ -1,0 +1,27 @@
+{
+  "_id": "q2KIzQp1gTbM0A8Z",
+  "_key": "!items!q2KIzQp1gTbM0A8Z",
+  "name": "Force Blank",
+  "type": "talent",
+  "system": {
+    "description": "You are especially hard to detect using The Force. Attempts to detect you using the Sense Surroundings aspect of the Use the Force skill suffer a -10 penalty.",
+    "tree": "Force Hunter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Q2MOxTpaKWjV9DXu",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

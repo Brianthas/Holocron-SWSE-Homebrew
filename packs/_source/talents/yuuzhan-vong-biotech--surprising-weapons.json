@@ -1,0 +1,27 @@
+{
+  "_id": "yV1pAUcA96UvFh2N",
+  "_key": "!items!yV1pAUcA96UvFh2N",
+  "name": "Surprising Weapons",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you successfully hit an enemy with an Amphistaff, Thud Bug, or Razor Bug, and your attack roll also exceeds the target’s Will Defense, that target is considered Flat-Footed against you until the end of your next turn.",
+    "tree": "Yuuzhan Vong Biotech",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dxWvOh5v4v4wVaJ8",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "tvXdehTYauuhXonu",
+  "_key": "!items!tvXdehTYauuhXonu",
+  "name": "Juyo",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you may spend a Force Point as a Swift Action to designate a single opponent in your line of sight. For the remainder of the encounter, you may reroll your first attack roll each round against that opponent, keeping the better of the two results.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "Weapon Focus (Lightsabers), Weapon Specialization (Lightsabers), and Base Attack Bonus 10",
+      "nodes": {
+        "children": [
+          {
+            "text": "Weapon Focus (Lightsabers)",
+            "requirement": "Weapon Focus (Lightsabers)",
+            "type": "FEAT"
+          },
+          {
+            "children": [
+              {
+                "text": "Weapon Specialization (Lightsabers) talent",
+                "requirement": "Weapon Specialization (Lightsabers)",
+                "type": "TALENT"
+              },
+              {
+                "text": "Weapon Specialization (Lightsabers) feat",
+                "requirement": "Weapon Specialization (Lightsabers)",
+                "type": "FEAT"
+              }
+            ],
+            "count": 1,
+            "text": "Weapon Specialization (Lightsabers)",
+            "type": "OR"
+          },
+          {
+            "text": "Base Attack Bonus 10",
+            "requirement": "10",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Weapon Focus (Lightsabers), Weapon Specialization (Lightsabers), and Base Attack Bonus 10",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jiexiYD5YELufuFg",
+      "sourceBook": ""
+    }
+  }
+}

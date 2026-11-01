@@ -1,0 +1,31 @@
+{
+  "_id": "G80FzYWbYOzSQ4PS",
+  "_key": "!items!G80FzYWbYOzSQ4PS",
+  "name": "Mental Health Specialist",
+  "type": "talent",
+  "system": {
+    "description": "Select one category of mental illness (one Complication). When making a Knowledge (Social Sciences) check to Mentop (see Complications), you may reroll your check, keeping the better result.",
+    "tree": "Advanced Medicine",
+    "prerequisite": {
+      "text": "Trained in Knowledge (Sciences)",
+      "nodes": {
+        "text": "Trained in Knowledge (Sciences)",
+        "requirement": "Knowledge (Sciences)",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "f9M3dfUKJMh9ZqBA",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - Grand Army of the Republic (Part 1)"
+    }
+  }
+}

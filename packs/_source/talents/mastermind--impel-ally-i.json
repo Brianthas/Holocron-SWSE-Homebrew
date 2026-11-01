@@ -1,0 +1,27 @@
+{
+  "_id": "KUEyW6Dcd8G9LZal",
+  "_key": "!items!KUEyW6Dcd8G9LZal",
+  "name": "Impel Ally I",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Swift Action to grant one ally the ability to move its normal speed. The ally must move immediately on your turn, before you do anything else, or else the opportunity is wasted. You can use this Talent up to three times on your turn (spending a Swift Action each time).",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FvAGiWQm8V6y4nyW",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

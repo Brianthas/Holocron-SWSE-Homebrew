@@ -1,0 +1,27 @@
+{
+  "_id": "bqWBAeXD1z1am6lK",
+  "_key": "!items!bqWBAeXD1z1am6lK",
+  "name": "Cantina Brawler",
+  "type": "talent",
+  "system": {
+    "description": "While Flanked, you gain a +2 bonus on Unarmed attack rolls and damage rolls.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "N6864ZkV18rFws25",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

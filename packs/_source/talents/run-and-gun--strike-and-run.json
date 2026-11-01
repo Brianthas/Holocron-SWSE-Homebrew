@@ -1,0 +1,27 @@
+{
+  "_id": "9rsToTWV0radicIF",
+  "_key": "!items!9rsToTWV0radicIF",
+  "name": "Strike and Run",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Reaction after successfully damaging an opponent with a melee or ranged attack, you can Move your Speed.",
+    "tree": "Run and Gun",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "A5QCvSg0UBIdSC8u",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

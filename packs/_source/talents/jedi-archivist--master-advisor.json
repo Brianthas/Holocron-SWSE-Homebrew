@@ -1,0 +1,31 @@
+{
+  "_id": "Y5gnWXOu2UOtmI2p",
+  "_key": "!items!Y5gnWXOu2UOtmI2p",
+  "name": "Master Advisor",
+  "type": "talent",
+  "system": {
+    "description": "When you use the <b>Skilled Advisor</b> Talent, the ally you aid gains one temporary Force Point at the end of their next turn. If the Force Point is not spent before the end of the encounter, it is lost.",
+    "tree": "Jedi Archivist",
+    "prerequisite": {
+      "text": "Skilled Advisor talent",
+      "nodes": {
+        "text": "Skilled Advisor talent",
+        "requirement": "Skilled Advisor",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PU4GdQKGbV87lYxZ",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

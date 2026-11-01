@@ -1,0 +1,27 @@
+{
+  "_id": "OJRVnW21OtLVhvBz",
+  "_key": "!items!OJRVnW21OtLVhvBz",
+  "name": "Personalized Modifications",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you may tweak the settings, grips, and moving parts of a powered weapon you wield, tailoring it to your needs. For the remainder of a the encounter, you gain a +1 Equipment bonus on attack rolls, and a +2 Equipment bonus on damage rolls with that weapon.<br><br>You can use this Talent only on powered weapons (those that require an Energy Cell or Power Pack to operate), including weapons connected to a larger power source (such as Weapon Systems).",
+    "tree": "Outlaw Tech",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "L734ij1CRRtVb6ri",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

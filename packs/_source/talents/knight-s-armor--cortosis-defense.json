@@ -1,0 +1,27 @@
+{
+  "_id": "dJJTAGWiiOAAv5pJ",
+  "_key": "!items!dJJTAGWiiOAAv5pJ",
+  "name": "Cortosis Defense",
+  "type": "talent",
+  "system": {
+    "description": "You are adept at using a Cortosis Gauntlet to parry Lightsaber attacks. You gain a +2 bonus when making an opposed Unarmed melee attack roll against a Lightsaber attack.",
+    "tree": "Knight's Armor",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qpQxk0aZUCStjfEC",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

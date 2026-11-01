@@ -1,0 +1,31 @@
+{
+  "_id": "ZkcTPa1BPL08xkQm",
+  "_key": "!items!ZkcTPa1BPL08xkQm",
+  "name": "Twin Weapon Mastery",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use the <b>Twin Weapon Style</b> Talent, you can move 2 squares between each attack. This movement does not provoke Attacks of Opportunity.",
+    "tree": "Jedi Weapon Master",
+    "prerequisite": {
+      "text": "Twin Weapon Style talent",
+      "nodes": {
+        "text": "Twin Weapon Style talent",
+        "requirement": "Twin Weapon Style",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TBsPPUrYuFV7ntS9",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

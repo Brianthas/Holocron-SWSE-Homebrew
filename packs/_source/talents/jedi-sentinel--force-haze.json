@@ -1,0 +1,31 @@
+{
+  "_id": "0OPP0ctNkuL70TQe",
+  "_key": "!items!0OPP0ctNkuL70TQe",
+  "name": "Force Haze",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point as a Standard Action to create a \"Haze\" that hides you and your allies from the perception of others. You can hide a number of creatures in line of sight equal to your Class Level. Make a Use the Force check and compare the result to the Will Defense of any opponent that moves into line of sight of any creature hidden by your <b>Force Haze</b>. If your check result equals or exceeds the opponent's Will Defense, all hidden creatures are treated as if they had Total Concealment against the opponent.<br><br>The <b>Force Haze</b> lasts for up to 1 minute but is dismissed instantly if anyone hidden by the <b>Force Haze</b> makes an attack.<br><br>You may use this Talent to hide a single Vehicle while you are on board. The Vehicle can't have a size penalty to Reflex Defense, Initiative, or Pilot checks greater than your Heroic Level. Thus, a Gargantuan Starship (size penalty of -5) can be hidden only by a character of 5th level or higher.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "Clear Mind talent",
+      "nodes": {
+        "text": "Clear Mind talent",
+        "requirement": "Clear Mind",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PLCead5GAWHcE36e",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "cLBAVClwBZNSeQkJ",
+  "_key": "!items!cLBAVClwBZNSeQkJ",
+  "name": "Known Dissident",
+  "type": "talent",
+  "system": {
+    "description": "You are a well-know opponent of a large and influential government or organization (such as the Empire or the Corporate Sector Authority). Officials of any level are loath to take action against you, lest they inadvertently promote your cause. As a Standard Action, you can make a Persuasion check against the Will Defense of a single opponent within line of sight that can hear and understand you.<br><br>If the Persuasion check succeeds, that opponent may not attack you or any Vehicle you occupy until the start of your next turn. If the target is of higher level than you, it gains a +5 bonus to its Will Defense, and the target must be able to hear and understand you. If the target is attacked, the effect of this Talent ends.<br><br>This is a Mind-Affecting effect.",
+    "tree": "Ideologue",
+    "prerequisite": {
+      "text": "Know Your Enemy talent",
+      "nodes": {
+        "text": "Know Your Enemy talent",
+        "requirement": "Know Your Enemy",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "guxtrYv6EGRwoAH1",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

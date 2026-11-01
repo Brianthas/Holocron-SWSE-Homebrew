@@ -1,0 +1,27 @@
+{
+  "_id": "MN1ts7p0AleJzIYJ",
+  "_key": "!items!MN1ts7p0AleJzIYJ",
+  "name": "Debilitating Shot",
+  "type": "talent",
+  "system": {
+    "description": "If you Aim before making a ranged attack, you move the target character -1 step along the Condition Track if the attack deals damage. This Talent can be used only against characters, not objects or Vehicles.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tjc8OATXIqFr9W95",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

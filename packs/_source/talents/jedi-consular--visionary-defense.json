@@ -1,0 +1,42 @@
+{
+  "_id": "gk7Wi0ZfwLAely6P",
+  "_key": "!items!gk7Wi0ZfwLAely6P",
+  "name": "Visionary Defense",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction, you can make a Use the Force check after you or an ally within 12 squares is the target of a melee or ranged attack (but before the results of the attack roll are known), removing one use of the <i>Farseeing</i> Force Power from your active Force Power Suite (as though you had activated the Force Power).<br><br>If your check result equals or exceeds the Will Defense of the attacker, you grant the target of that attack a +5 Force bonus to their Reflex Defense against that attack.<br><br>This counts as using the <i>Farseeing</i> Force Power against the attacker, but this Talent replaces the normal rules and effects of <i>Farseeing</i>. Any attack can only be affected by this Talent once (thus, multiple characters cannot use this Talent on the same attack to allow multiple rerolls).<br><br>You take a cumulative -5 penalty on Use the Force checks until the beginning of your next turn when you use this Talent.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "Farseeing force power, and WatchCircle Initiate talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Farseeing force power",
+            "requirement": "Farseeing",
+            "type": "FORCE POWER"
+          },
+          {
+            "text": "WatchCircle Initiate talent",
+            "requirement": "WatchCircle Initiate",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Farseeing force power, and WatchCircle Initiate talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5XPyDPAurCGbsKe4",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

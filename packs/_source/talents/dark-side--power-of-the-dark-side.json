@@ -1,0 +1,27 @@
+{
+  "_id": "LqPV0Rtxq51ldLNG",
+  "_key": "!items!LqPV0Rtxq51ldLNG",
+  "name": "Power of the Dark Side",
+  "type": "talent",
+  "system": {
+    "description": "You allow your hatred to fuel your attacks. Whenever you spend a Force Point to modify an attack roll, you may choose to roll an additional bonus die and take the best result. However, doing so increases your Dark Side Score by 1.<br><br>For example, a 1st-level character with this talent could increase their Dark Side Score by 1 to roll 2d6 instead of 1d6, taking the best die result and applying it as a bonus to their attack roll.",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bGDpUdQRzxPYNmkA",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "HyyKMnMYzLoNp72J",
+  "_key": "!items!HyyKMnMYzLoNp72J",
+  "name": "Improved Companion",
+  "type": "talent",
+  "system": {
+    "description": "Your <b>Animal Companion</b> gains an additional Beast Trait or natural weapon, or may raise a single Ability Score or Natural Armor bonus by one point.",
+    "tree": "Beastwarden",
+    "prerequisite": {
+      "text": "Animal Companion talent",
+      "nodes": {
+        "text": "Animal Companion talent",
+        "requirement": "Animal Companion",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7sdLk6busbfgsYGW",
+      "sourceBook": "Saga Edition All-Purpose Sourcebook"
+    }
+  }
+}

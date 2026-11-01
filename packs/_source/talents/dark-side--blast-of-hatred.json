@@ -1,0 +1,31 @@
+{
+  "_id": "RqSkMrMAAp4IRz4M",
+  "_key": "!items!RqSkMrMAAp4IRz4M",
+  "name": "Blast of Hatred",
+  "type": "talent",
+  "system": {
+    "description": "You can create balls of unnatural energy, enabling you to make a ranged attack roll against the Reflex Defense of one target within 12 squares and line of sight, dealing 2d6 points of energy damage to the target on a successful attack. Using this Talent increases your Dark Side Score by 1.",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "Power of the Dark Side talent",
+      "nodes": {
+        "text": "Power of the Dark Side talent",
+        "requirement": "Power of the Dark Side",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "g41CHHdD5vk2LIZW",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

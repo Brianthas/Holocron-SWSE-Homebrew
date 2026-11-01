@@ -1,0 +1,31 @@
+{
+  "_id": "OhIbK2sryKMb7Hgk",
+  "_key": "!items!OhIbK2sryKMb7Hgk",
+  "name": "Flurry Attack",
+  "type": "talent",
+  "system": {
+    "description": "Choose a single Weapon Group or Exotic Weapon you are proficient with. When you score a Critical Hit with a weapon from that group, you can make one immediate extra attack (in addition to the other effects of a Critical Hit) against a single target within Range.<br><br>You may only use this Talent once per turn. You can select this Talent multiple times. its effects do not stack. Each time you take the Talent, it applies to a new Weapon Group or Exotic Weapon.",
+    "tree": "Critical Master",
+    "prerequisite": {
+      "text": "Weapon Proficiency (#payload#)",
+      "nodes": {
+        "text": "Weapon Proficiency (#payload#)",
+        "requirement": "Weapon Proficiency (#payload#)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZiRF5abOtbULcc0S",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

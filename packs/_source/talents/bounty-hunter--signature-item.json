@@ -1,0 +1,27 @@
+{
+  "_id": "GhZlYfElYBtLR8ra",
+  "_key": "!items!GhZlYfElYBtLR8ra",
+  "name": "Signature Item",
+  "type": "talent",
+  "system": {
+    "description": "You are famous for using certain items, and you have become skilled at wielding them. You select a single weapon, suit of armor, Vehicle, or other item. While wielding that weapon, wearing that armor, piloting that Vehicle, or otherwise using that item, you gain a +2 morale bonus on opposed Skill Checks.<br><br>You can select this Talent multiple times. Each time you do so, you choose a new object to be your <b>Signature Item</b>. The effects of multiple <b>Signature Items</b> are cumulative with one another, increasing this morale bonus by 1 point each time.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3VsDNcEJWYZjl5dW",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

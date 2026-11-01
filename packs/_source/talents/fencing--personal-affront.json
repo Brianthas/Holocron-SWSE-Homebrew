@@ -1,0 +1,42 @@
+{
+  "_id": "4fTJfrfErdBKhNmd",
+  "_key": "!items!4fTJfrfErdBKhNmd",
+  "name": "Personal Affront",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Reaction, you can make a single melee attack against an adjacent enemy who just damaged you.",
+    "tree": "Fencing",
+    "prerequisite": {
+      "text": "Noble Fencing Style talent, and Base Attack Bonus 5",
+      "nodes": {
+        "children": [
+          {
+            "text": "Noble Fencing Style talent",
+            "requirement": "Noble Fencing Style",
+            "type": "TALENT"
+          },
+          {
+            "text": "Base Attack Bonus 5",
+            "requirement": "5",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Noble Fencing Style talent, and Base Attack Bonus 5",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zLW1JbhA3qfYvUND",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

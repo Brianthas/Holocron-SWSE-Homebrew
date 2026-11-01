@@ -1,0 +1,31 @@
+{
+  "_id": "s8hm79JQ8phhyfnJ",
+  "_key": "!items!s8hm79JQ8phhyfnJ",
+  "name": "Krath Surge",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, using rudimentary Sith sorcery, you channel Dark Side energy in a manner that boosts one use of a Force Power. As a Swift Action, you can add 1 die of damage (if the Force Power deals damage) or extend the range of the Force Power by 6 squares (if it has a range beyond yourself or a single target).<br><br>Using this Talent automatically adds the [<i>Dark Side</i>] descriptor to the Force Power used.",
+    "tree": "Krath",
+    "prerequisite": {
+      "text": "a member of The Krath",
+      "nodes": {
+        "text": "a member of The Krath",
+        "requirement": "The Krath",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "K46KH4xaV4k3gsSz",
+      "sourceBook": ""
+    }
+  }
+}

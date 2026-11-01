@@ -1,0 +1,31 @@
+{
+  "_id": "JhJUX7iYTINWwnnA",
+  "_key": "!items!JhJUX7iYTINWwnnA",
+  "name": "Past Visions",
+  "type": "talent",
+  "system": {
+    "description": "The long-lived Draethos are particularly adept at searching and understanding the past. When using <i>Farseeing</i> to look into the past, reduce your DC numbers by half. Also, you are able to see everything within 6 squares of your target clearly without spending a Force Point.",
+    "tree": "Keetael",
+    "prerequisite": {
+      "text": "a member of The Keetael",
+      "nodes": {
+        "text": "a member of The Keetael",
+        "requirement": "The Keetael",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vlyriAiE2ncsAIxa",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

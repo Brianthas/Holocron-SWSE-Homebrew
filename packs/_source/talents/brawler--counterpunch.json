@@ -1,0 +1,27 @@
+{
+  "_id": "AKXDOcvFwKowBs2O",
+  "_key": "!items!AKXDOcvFwKowBs2O",
+  "name": "Counterpunch",
+  "type": "talent",
+  "system": {
+    "description": "When you Fight Defensively, any adjacent creature that attacks you provokes an Attack of Opportunity from you.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zEIOM8bWvpGcJj1y",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

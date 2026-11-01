@@ -1,0 +1,27 @@
+{
+  "_id": "ERV5BBsDaOfRTdJD",
+  "_key": "!items!ERV5BBsDaOfRTdJD",
+  "name": "Reduce Defense",
+  "type": "talent",
+  "system": {
+    "description": "When you score a Critical Hit with a melee or ranged attack, your target takes a -2 penalty to their Reflex Defense until it is fully healed (at maximum Hit Points).",
+    "tree": "Critical Master",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "I0eFKXtDpz7pdPDr",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

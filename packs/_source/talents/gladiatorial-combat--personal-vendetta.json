@@ -1,0 +1,27 @@
+{
+  "_id": "G3V8HS1Ki3cgU66I",
+  "_key": "!items!G3V8HS1Ki3cgU66I",
+  "name": "Personal Vendetta",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can taunt all opponents within 12 squares and line of sight; on their next turn, these opponents take a -2 penalty on attack rolls made against any target other than you.<br><br>This is a Mind-Affecting effect.",
+    "tree": "Gladiatorial Combat",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9LH1nzhDk78KhgAi",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "1VHvthCxepFwXijv",
+  "_key": "!items!1VHvthCxepFwXijv",
+  "name": "Done It All",
+  "type": "talent",
+  "system": {
+    "description": "When you select this Talent, choose two Talents (from any non-Prestige Class) that you do not possess but for which you meet the prerequisites. Once per turn on your turn, you can spend a Force Point as a Free Action to gain the benefits of one of those Talents until the end of your next turn.",
+    "tree": "Master of Intrigue",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CyIoNUNgsky2MX3A",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

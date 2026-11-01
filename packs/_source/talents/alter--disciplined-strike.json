@@ -1,0 +1,27 @@
+{
+  "_id": "9t6df8AbmvocRwC1",
+  "_key": "!items!9t6df8AbmvocRwC1",
+  "name": "Disciplined Strike",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use a Force Power that has an Area Effect (such as <i>Force Slam</i>), you may exclude a certain number of targets from the effects of that power. The number of targets you may exclude in this manner is equal to your Wisdom modifier (minimum of 1).",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6amRR5p3RXuoisZ1",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "4Bt8WgKZEj1lfgoj",
+  "_key": "!items!4Bt8WgKZEj1lfgoj",
+  "name": "Swift Shot",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can make a single ranged attack with a handheld weapon as a Swift Action instead of a Standard Action. However, you cannot use your remaining Actions for an attack.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "r2IaOXpEowzpEHpN",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

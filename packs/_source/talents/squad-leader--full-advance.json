@@ -1,0 +1,31 @@
+{
+  "_id": "yIZf3rUvyhgwgJHO",
+  "_key": "!items!yIZf3rUvyhgwgJHO",
+  "name": "Full Advance",
+  "type": "talent",
+  "system": {
+    "description": "As a Move Action, you give all Squad members a +2 morale bonus to damage rolls until the end of your next turn.",
+    "tree": "Squad Leader",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "h5oljMZuwKRSVJIz",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

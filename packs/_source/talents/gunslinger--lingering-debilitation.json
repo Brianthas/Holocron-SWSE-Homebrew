@@ -1,0 +1,31 @@
+{
+  "_id": "PzgvqyOUGq4O7VZH",
+  "_key": "!items!PzgvqyOUGq4O7VZH",
+  "name": "Lingering Debilitation",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, when you successfully use <b>Debilitating Shot</b> to move a target character -1 step on the Condition Track, the target suffers a Persistent Condition requiring 4 hours of rest or a DC 25 Treat Injury check to remove.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "Debilitating Shot talent",
+      "nodes": {
+        "text": "Debilitating Shot talent",
+        "requirement": "Debilitating Shot",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "G8kUHko3lU3c7LQv",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

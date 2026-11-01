@@ -1,0 +1,31 @@
+{
+  "_id": "rgYzTNJ2UYnFrsu2",
+  "_key": "!items!rgYzTNJ2UYnFrsu2",
+  "name": "Focused Force Talisman",
+  "type": "talent",
+  "system": {
+    "description": "When you create a <b>Force Talisman</b>, you can select a single Force Power from your Force Power Suite. Whenever you are wearing this <b>Focused Force Talisman</b> and activate the selected Force Power, you can spend a Force Point to immediately regain all your expended uses of that spent Force Power, adding it to your Force Power Suite.",
+    "tree": "Force Item",
+    "prerequisite": {
+      "text": "Force Talisman talent",
+      "nodes": {
+        "text": "Force Talisman talent",
+        "requirement": "Force Talisman",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DwxTRcSrwQBUhYcW",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "Q6Dc01mOcoAAoDHU",
+  "_key": "!items!Q6Dc01mOcoAAoDHU",
+  "name": "Armor Mastery",
+  "type": "talent",
+  "system": {
+    "description": "When calculating your Reflex Defense, you may add your Heroic Level plus one-half your Armor bonus (rounded down), or your Armor bonus alone, whichever is higher. This Talent counts as both the <b>Armored Defense</b> Talent and the <b>Improved Armored Defense</b> Talent for the purposes of prerequisites.",
+    "tree": "Knight's Armor",
+    "prerequisite": {
+      "text": "Armor Proficiency feat",
+      "nodes": {
+        "text": "Armor Proficiency feat",
+        "requirement": "Armor Proficiency",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VQKGwgE3CzOtqgWS",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

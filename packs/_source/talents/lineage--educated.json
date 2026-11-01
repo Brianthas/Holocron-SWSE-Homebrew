@@ -1,0 +1,27 @@
+{
+  "_id": "xiRqdwCQRaIsbRxR",
+  "_key": "!items!xiRqdwCQRaIsbRxR",
+  "name": "Educated",
+  "type": "talent",
+  "system": {
+    "description": "Thanks to your well-rounded education, you may make any Knowledge check Untrained.",
+    "tree": "Lineage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NGQQZ4aDrbPERAhz",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "GmNp4993VFSdMlss",
+  "_key": "!items!GmNp4993VFSdMlss",
+  "name": "Trust",
+  "type": "talent",
+  "system": {
+    "description": "You can give up your Standard Action to give one ally within your line of sight an extra Standard Action or Move Action on their next turn, to do with as they please. The ally does not lose the Action if line of sight is later broken.",
+    "tree": "Leadership",
+    "prerequisite": {
+      "text": "Born Leader talent, and Coordinate talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Born Leader talent",
+            "requirement": "Born Leader",
+            "type": "TALENT"
+          },
+          {
+            "text": "Coordinate talent",
+            "requirement": "Coordinate",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Born Leader talent, and Coordinate talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BG6Ogv090W2ZZ9sJ",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

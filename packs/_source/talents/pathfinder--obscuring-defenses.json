@@ -1,0 +1,31 @@
+{
+  "_id": "5OqoriPXb98ujEYQ",
+  "_key": "!items!5OqoriPXb98ujEYQ",
+  "name": "Obscuring Defenses",
+  "type": "talent",
+  "system": {
+    "description": "Enemies that fire into your <b>Safe Zone</b> take a -2 penalty to attack rolls.",
+    "tree": "Pathfinder",
+    "prerequisite": {
+      "text": "Safe Zone talent",
+      "nodes": {
+        "text": "Safe Zone talent",
+        "requirement": "Safe Zone",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "a1QRIKp2zT3MGKGx",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

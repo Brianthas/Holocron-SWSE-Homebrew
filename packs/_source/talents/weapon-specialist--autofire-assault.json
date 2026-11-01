@@ -1,0 +1,31 @@
+{
+  "_id": "9uEmNiTTstpPTCl9",
+  "_key": "!items!9uEmNiTTstpPTCl9",
+  "name": "Autofire Assault",
+  "type": "talent",
+  "system": {
+    "description": "When making an Autofire attack, you can Brace a Weapon that is not restricted to Autofire-only. You must be proficient with the Weapon being used to activate this Talent.",
+    "tree": "Weapon Specialist",
+    "prerequisite": {
+      "text": "Weapon Proficiency (Heavy Weapons)",
+      "nodes": {
+        "text": "Weapon Proficiency (Heavy Weapons)",
+        "requirement": "Weapon Proficiency (Heavy Weapons)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9dWTahHw88dYNFJs",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

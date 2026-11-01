@@ -1,0 +1,27 @@
+{
+  "_id": "wc9pf2nJ7HapWhB1",
+  "_key": "!items!wc9pf2nJ7HapWhB1",
+  "name": "Anticipate Movement",
+  "type": "talent",
+  "system": {
+    "description": "Once per round, as a Reaction to an enemy within your line of sight moving, you can enable one ally within your line of sight to move up to his or her speed as a Free Action.",
+    "tree": "Anticipation",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "B8FbFOIRwC7vx2VL",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "0pb4A3csd7PYTLjH",
+  "_key": "!items!0pb4A3csd7PYTLjH",
+  "name": "Defensive Acuity",
+  "type": "talent",
+  "system": {
+    "description": "When you take the Fight Defensively Action, you deal +1 die of damage with Lightsaber attacks and gain a +2 circumstance bonus on Use the Force checks made to negate an attack with the <b>Block</b> or <b>Deflect</b> Talents. These benefits last until the end of your next turn.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7gwIRiAeRliMGKX2",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

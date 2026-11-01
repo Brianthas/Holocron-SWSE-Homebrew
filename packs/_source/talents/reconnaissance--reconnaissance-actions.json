@@ -1,0 +1,31 @@
+{
+  "_id": "iI3jT6wBOBvvonDP",
+  "_key": "!items!iI3jT6wBOBvvonDP",
+  "name": "Reconnaissance Actions",
+  "type": "talent",
+  "system": {
+    "description": "You and your reconnaissance team have learned to work together as a cohesive unit and have an established set of tactics, which you have practiced to perfection. You can use any of the following actions on your turn:",
+    "tree": "Reconnaissance",
+    "prerequisite": {
+      "text": "Reconnaissance Team Leader talent",
+      "nodes": {
+        "text": "Reconnaissance Team Leader talent",
+        "requirement": "Reconnaissance Team Leader",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "S3w9yxLSseeOuxjs",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

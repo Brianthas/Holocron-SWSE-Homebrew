@@ -1,0 +1,31 @@
+{
+  "_id": "DntZYIZGiqYKO4NP",
+  "_key": "!items!DntZYIZGiqYKO4NP",
+  "name": "Krath Intuition",
+  "type": "talent",
+  "system": {
+    "description": "You have a natural ability to use Dark Side artifacts, such as Sith Talismans and alchemical items. Once per encounter, you may spend a Force Point to treat the damage from a Sith Alchemical Weapon as though you had rolled the maximum damage on the dice.",
+    "tree": "Krath",
+    "prerequisite": {
+      "text": "a member of The Krath",
+      "nodes": {
+        "text": "a member of The Krath",
+        "requirement": "The Krath",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lE9kqHnmh9a1TrCM",
+      "sourceBook": ""
+    }
+  }
+}

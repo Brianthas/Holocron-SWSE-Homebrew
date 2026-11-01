@@ -1,0 +1,42 @@
+{
+  "_id": "gkUBaasJXsnYP6HY",
+  "_key": "!items!gkUBaasJXsnYP6HY",
+  "name": "Outmaneuver",
+  "type": "talent",
+  "system": {
+    "description": "An Officer learns to counter the tactics of their enemies. As a Standard Action, you can make a DC 15 Knowledge (Tactics) check. If the check succeeds, opponents in your line of sight lose all competence, insight, and morale bonuses on attack rolls, as well as any dodge bonuses to Reflex Defense, until the start of your next turn.<br><br>If one or more enemy Officers are within your line of sight, the highest level Officer among them can attempt to Oppose your Knowledge (Tactics) check as a Reaction. If their Skill Check result is higher than yours, your attempt to Outmaneuver your opponents fails.",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "Deployment Tactics talent, and Field Tactics talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Deployment Tactics talent",
+            "requirement": "Deployment Tactics",
+            "type": "TALENT"
+          },
+          {
+            "text": "Field Tactics talent",
+            "requirement": "Field Tactics",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Deployment Tactics talent, and Field Tactics talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "54OJeqlDmVVpZ7O2",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

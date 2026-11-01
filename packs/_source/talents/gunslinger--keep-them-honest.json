@@ -1,0 +1,31 @@
+{
+  "_id": "OO2TPcFubO4Dkc45",
+  "_key": "!items!OO2TPcFubO4Dkc45",
+  "name": "Keep Them Honest",
+  "type": "talent",
+  "system": {
+    "description": "When using the Aid Another Action to Suppress an Enemy, the enemy instead takes a -5 penalty to all attack rolls until the end of your next turn.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "Careful Shot feat",
+      "nodes": {
+        "text": "Careful Shot feat",
+        "requirement": "Careful Shot",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SGql59YrWoJn83Bh",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

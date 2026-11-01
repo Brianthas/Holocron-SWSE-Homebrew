@@ -1,0 +1,42 @@
+{
+  "_id": "2ViMZDbqdD4ofIxU",
+  "_key": "!items!2ViMZDbqdD4ofIxU",
+  "name": "Suppress Force",
+  "type": "talent",
+  "system": {
+    "description": "You can convince others that they have been cut off from The Force, even if that is not the case, preventing them from making Use the Force checks. Whenever a target with an Intelligence of 3 or higher within 12 squares of you and in your line of sight attempts to make a Use the Force check for any reason, you can spend one use of the <i>Mind Trick</i> Force Power as a Reaction.<br><br>You make a Use the Force check, and if your Use the Force check equals or exceeds the target's Use the Force check result, that target's Skill Check is negated, and the Action it was attempting fails.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "Influence Savant talent, and Mind Trick force power",
+      "nodes": {
+        "children": [
+          {
+            "text": "Influence Savant talent",
+            "requirement": "Influence Savant",
+            "type": "TALENT"
+          },
+          {
+            "text": "Mind Trick force power",
+            "requirement": "Mind Trick",
+            "type": "FORCE POWER"
+          }
+        ],
+        "text": "Influence Savant talent, and Mind Trick force power",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hOe8KlrLygpjx6Eh",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

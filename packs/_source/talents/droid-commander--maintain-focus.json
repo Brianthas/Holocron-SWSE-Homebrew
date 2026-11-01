@@ -1,0 +1,27 @@
+{
+  "_id": "D5VLjPKrros7gTB3",
+  "_key": "!items!D5VLjPKrros7gTB3",
+  "name": "Maintain Focus",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action once per turn, you can grant all Droid allies within your line of sight the ability to take the Recover Action as two Swift Actions (instead of as three Swift Actions) until the start of your next turn.",
+    "tree": "Droid Commander",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "54HAbSMecy42xYGG",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

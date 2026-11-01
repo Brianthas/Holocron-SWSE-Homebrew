@@ -1,0 +1,31 @@
+{
+  "_id": "eiJcv8BpBJhV0Yae",
+  "_key": "!items!eiJcv8BpBJhV0Yae",
+  "name": "Relentless Arrow",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn as a Free Action, you can expend one use of the <i>Move Object</i> power from your Force Power Suite to reroll an attack roll made with an Energy Bow. The result of the reroll must be accepted, even if it is worse.",
+    "tree": "Dathomiri Witch",
+    "prerequisite": {
+      "text": "a member of The Witches of Dathomir",
+      "nodes": {
+        "text": "a member of The Witches of Dathomir",
+        "requirement": "The Witches of Dathomir",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9OUPiulUHXzL8l09",
+      "sourceBook": "Dathomir Field Guide"
+    }
+  }
+}

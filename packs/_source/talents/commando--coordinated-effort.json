@@ -1,0 +1,42 @@
+{
+  "_id": "mt8KI4PToTUT2ad7",
+  "_key": "!items!mt8KI4PToTUT2ad7",
+  "name": "Coordinated Effort",
+  "type": "talent",
+  "system": {
+    "description": "When you use the Aid Another Action to grant a bonus on attack rolls, if you are aiding the target of your <b>Dedicated Protector</b> Talent, that ally also gains a +2 bonus to damage rolls on the attack you aided.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "Dedicated Protector talent, and Harm's Way talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dedicated Protector talent",
+            "requirement": "Dedicated Protector",
+            "type": "TALENT"
+          },
+          {
+            "text": "Harm's Way talent",
+            "requirement": "Harm's Way",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Dedicated Protector talent, and Harm's Way talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vlmA1Y9vM0mxV8zH",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

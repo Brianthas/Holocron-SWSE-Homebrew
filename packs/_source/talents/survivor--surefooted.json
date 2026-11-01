@@ -1,0 +1,27 @@
+{
+  "_id": "oMaffvMFyrfUJFkB",
+  "_key": "!items!oMaffvMFyrfUJFkB",
+  "name": "Surefooted",
+  "type": "talent",
+  "system": {
+    "description": "Your Speed is not reduced by Difficult Terrain.",
+    "tree": "Survivor",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Pp7FxQqEh8yccllO",
+      "sourceBook": ""
+    }
+  }
+}

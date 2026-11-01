@@ -1,0 +1,27 @@
+{
+  "_id": "noeQBIBqwtGwXdKX",
+  "_key": "!items!noeQBIBqwtGwXdKX",
+  "name": "Force Flow",
+  "type": "talent",
+  "system": {
+    "description": "For reasons unknown to you, The Living Force flows through you in an irregular fashion. Whenever you roll a natural 1 on an attack roll or Use the Force check, you gain one temporary Force Point. If you do not spend this Force Point before the end of the encounter, it is lost.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4lJMDZ3fAbZ5nyBV",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

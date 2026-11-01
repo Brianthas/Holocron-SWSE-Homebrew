@@ -1,0 +1,31 @@
+{
+  "_id": "XgJUwxlY5M9wm1QO",
+  "_key": "!items!XgJUwxlY5M9wm1QO",
+  "name": "Vahl's Flame",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can use The Force to call forth the sparks of your goddess, wreathing your weapon in flames. Until the beginning of your next turn, any successful attack you make with a Melee Weapon deals an additional 1d6 points of Fire damage.",
+    "tree": "Ember of Vahl",
+    "prerequisite": {
+      "text": "a member of The Ember of Vahl",
+      "nodes": {
+        "text": "a member of The Ember of Vahl",
+        "requirement": "The Ember of Vahl",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HMvxAzo6J2fICat3",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

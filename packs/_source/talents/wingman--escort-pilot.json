@@ -1,0 +1,27 @@
+{
+  "_id": "c1pYeYhVPqNbcsOn",
+  "_key": "!items!c1pYeYhVPqNbcsOn",
+  "name": "Escort Pilot",
+  "type": "talent",
+  "system": {
+    "description": "When a Vehicle that you are Piloting is adjacent to a Vehicle of Colossal size or smaller that is Piloted by an ally, both Vehicles gain a +10 bonus to their Damage Thresholds.",
+    "tree": "Wingman",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TRYeZIUNM3jWgyEx",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

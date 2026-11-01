@@ -1,0 +1,31 @@
+{
+  "_id": "I7v3dP0hySjIlWMp",
+  "_key": "!items!I7v3dP0hySjIlWMp",
+  "name": "Skilled Implanter",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use the Biotech Surgery Feat to install a Bio-Implant, the Bio-Implant's attack bonus against the recipient's Fortitude Defense is halved.",
+    "tree": "Shaper",
+    "prerequisite": {
+      "text": "Biotech Surgery feat",
+      "nodes": {
+        "text": "Biotech Surgery feat",
+        "requirement": "Biotech Surgery",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kv3L64nHaEj6f86B",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

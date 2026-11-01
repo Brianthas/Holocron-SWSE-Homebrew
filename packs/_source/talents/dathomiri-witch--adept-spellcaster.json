@@ -1,0 +1,31 @@
+{
+  "_id": "cZ6eldqSHFZt2KgD",
+  "_key": "!items!cZ6eldqSHFZt2KgD",
+  "name": "Adept Spellcaster",
+  "type": "talent",
+  "system": {
+    "description": "You may use any Force Power that normally requires a Swift Action, Move Action, or Standard Action as a Full-Round Action instead. If you choose to do so, you may reroll your Use the Force check to activate that power, but you must accept the result of the reroll, even if it is worse.",
+    "tree": "Dathomiri Witch",
+    "prerequisite": {
+      "text": "a member of The Witches of Dathomir",
+      "nodes": {
+        "text": "a member of The Witches of Dathomir",
+        "requirement": "The Witches of Dathomir",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jtwCh1Ml34FZfPvh",
+      "sourceBook": ""
+    }
+  }
+}

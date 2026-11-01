@@ -1,0 +1,42 @@
+{
+  "_id": "uwknYBHooDgj0uh2",
+  "_key": "!items!uwknYBHooDgj0uh2",
+  "name": "Persistent Haze",
+  "type": "talent",
+  "system": {
+    "description": "Whenever anyone concealed by your use of the <b>Force Haze</b> Talent attacks, you maintain Total Concealment without having to make another Use the Force check. Only those who do not attack remain concealed; the attacker no longer has Total Concealment, even when using his Talent.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "Clear Mind talent, and Force Haze talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Clear Mind talent",
+            "requirement": "Clear Mind",
+            "type": "TALENT"
+          },
+          {
+            "text": "Force Haze talent",
+            "requirement": "Force Haze",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Clear Mind talent, and Force Haze talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "v78yJseWZWgeGcuI",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

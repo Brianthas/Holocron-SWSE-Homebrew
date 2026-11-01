@@ -1,0 +1,42 @@
+{
+  "_id": "sdo3ynisoQ7AdMp1",
+  "_key": "!items!sdo3ynisoQ7AdMp1",
+  "name": "Transposing Strike",
+  "type": "talent",
+  "system": {
+    "description": "When you hit a character with a melee attack, you can choose to have the attack deal only half damage and switch places with that foe. Your foe must be no more than one size category larger than you, and you must end up occupying a space that was previously occupied by your target (And vice versa) to use this Talent. This movement does not provoke Attacks of Opportunity.",
+    "tree": "Fencing",
+    "prerequisite": {
+      "text": "Noble Fencing Style talent, and Base Attack Bonus 5",
+      "nodes": {
+        "children": [
+          {
+            "text": "Noble Fencing Style talent",
+            "requirement": "Noble Fencing Style",
+            "type": "TALENT"
+          },
+          {
+            "text": "Base Attack Bonus 5",
+            "requirement": "5",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Noble Fencing Style talent, and Base Attack Bonus 5",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8WPzlQy7gIUATqRi",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

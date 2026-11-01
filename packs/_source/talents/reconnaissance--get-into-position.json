@@ -1,0 +1,42 @@
+{
+  "_id": "AUqRO9urCBf5e6SV",
+  "_key": "!items!AUqRO9urCBf5e6SV",
+  "name": "Get Into Position",
+  "type": "talent",
+  "system": {
+    "description": "As a Move Action, you can cause one of your Followers to move up to his or her speed +2 squares.",
+    "tree": "Reconnaissance",
+    "prerequisite": {
+      "text": "Reconnaissance Team Leader talent, and Base Attack Bonus 5",
+      "nodes": {
+        "children": [
+          {
+            "text": "Reconnaissance Team Leader talent",
+            "requirement": "Reconnaissance Team Leader",
+            "type": "TALENT"
+          },
+          {
+            "text": "Base Attack Bonus 5",
+            "requirement": "5",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Reconnaissance Team Leader talent, and Base Attack Bonus 5",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lqC8QcumsNekritB",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "PKTyaTLUiRxwlaze",
+  "_key": "!items!PKTyaTLUiRxwlaze",
+  "name": "Battle Precognition",
+  "type": "talent",
+  "system": {
+    "description": "You may substitute your Wisdom modifier in place of your Dexterity modifier when determining your Reflex Defense.",
+    "tree": "Force Adept",
+    "prerequisite": {
+      "text": "Force Perception talent",
+      "nodes": {
+        "text": "Force Perception talent",
+        "requirement": "Force Perception",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rlURdlOJ2oOygUiV",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

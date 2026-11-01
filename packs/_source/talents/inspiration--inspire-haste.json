@@ -1,0 +1,27 @@
+{
+  "_id": "7rW0gxYDPVRE9ahI",
+  "_key": "!items!7rW0gxYDPVRE9ahI",
+  "name": "Inspire Haste",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can encourage one of your allies within line of sight to make haste with a Skill Check. On that ally's next turn, that ally can make a Skill Check that normally requires a Standard Action, as a Move Action instead.",
+    "tree": "Inspiration",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QP6iQbmMIKItG5YE",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

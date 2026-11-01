@@ -1,0 +1,27 @@
+{
+  "_id": "gj0BrYFgQsieDxp8",
+  "_key": "!items!gj0BrYFgQsieDxp8",
+  "name": "Ranged Flank",
+  "type": "talent",
+  "system": {
+    "description": "If you are within 6 squares of a target and are armed with a Pistol or a Rifle, you can act as though you occupied the nearest square adjacent to the target for purposes of determining whether or not you or any allies are Flanking that target.<br><br>You may only be considered to be Flanking a single target at a time. You must spend a Swift Action on your turn to designate the target you Flank at range.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "G7DXELaUcqf1OSVR",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

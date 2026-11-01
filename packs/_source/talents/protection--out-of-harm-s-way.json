@@ -1,0 +1,27 @@
+{
+  "_id": "TfBAYpdy8cQaotu4",
+  "_key": "!items!TfBAYpdy8cQaotu4",
+  "name": "Out of Harm's Way",
+  "type": "talent",
+  "system": {
+    "description": "As a Move Action, you allow one ally within 6 squares of you to move up to its Speed, provided the ally ends its movement adjacent to you. This movement does not provoke Attacks of Opportunity.",
+    "tree": "Protection",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4ypPjf75n8nYEGTS",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

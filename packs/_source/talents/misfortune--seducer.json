@@ -1,0 +1,27 @@
+{
+  "_id": "LAgJu8VaOGuSpFWt",
+  "_key": "!items!LAgJu8VaOGuSpFWt",
+  "name": "Seducer",
+  "type": "talent",
+  "system": {
+    "description": "You excel at seduction through deception. If you fail a Persuasion check to change a target's Attitude, you can immediately reroll the check using your Deception skill in lieu of your Persuasion skill. You must accept the result of the reroll, even if it is worse.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JI8mvvP2sAL29N86",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

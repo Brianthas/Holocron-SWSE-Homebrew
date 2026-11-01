@@ -1,0 +1,27 @@
+{
+  "_id": "NxshofbhhUKkdfNY",
+  "_key": "!items!NxshofbhhUKkdfNY",
+  "name": "Mark the Target",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you damage a target with a non-Area Attack ranged attack, you may designate one ally within your line of sight as a Swift Action. Your target is considered Flat-Footed against that ally's first attack made before the start of your next turn.",
+    "tree": "Vanguard",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ceJzP9FwME3CA2nl",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

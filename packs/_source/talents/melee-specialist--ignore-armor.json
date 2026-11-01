@@ -1,0 +1,27 @@
+{
+  "_id": "OoEXkJ9Poa8KdunH",
+  "_key": "!items!OoEXkJ9Poa8KdunH",
+  "name": "Ignore Armor",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, when you make a melee attack, you can ignore any Armor or Equipment bonuses granted by your target's Armor.",
+    "tree": "Melee Specialist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "S2d2lJZEx0jMo5AV",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

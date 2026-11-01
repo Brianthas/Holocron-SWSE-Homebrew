@@ -1,0 +1,31 @@
+{
+  "_id": "q07WalxhALO5bBbn",
+  "_key": "!items!q07WalxhALO5bBbn",
+  "name": "Reckless",
+  "type": "talent",
+  "system": {
+    "description": "You know from first-hand experience that victory goes to those willing to take a chance. You can add your Wisdom bonus (minimum +1) to the damage roll when you make a successful Charge attack.",
+    "tree": "Veteran",
+    "prerequisite": {
+      "text": "Tested in Battle talent",
+      "nodes": {
+        "text": "Tested in Battle talent",
+        "requirement": "Tested in Battle",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "I320nWuu7vwvzcux",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

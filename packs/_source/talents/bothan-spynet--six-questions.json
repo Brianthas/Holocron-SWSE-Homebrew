@@ -1,0 +1,31 @@
+{
+  "_id": "d9VeFtwJgONv6yhA",
+  "_key": "!items!d9VeFtwJgONv6yhA",
+  "name": "Six Questions",
+  "type": "talent",
+  "system": {
+    "description": "You have mastered the basic Bothan philosophy of Six Questions to glean more information from contacts through fewer questions. As a Swift Action, you can designate a single target within line of sight and make a Knowledge (Galactic Lore) check against a DC equal to 15 + the target's CL.<br><br>If the check is successful, you learn a target's Character Level, Classes, Ability Scores, and the target's available Force Points and Destiny Points.",
+    "tree": "Bothan SpyNet",
+    "prerequisite": {
+      "text": "SpyNet Agent talent",
+      "nodes": {
+        "text": "SpyNet Agent talent",
+        "requirement": "SpyNet Agent",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "V7Wrizv1cJmWBNXN",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

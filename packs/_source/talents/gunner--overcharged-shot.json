@@ -1,0 +1,31 @@
+{
+  "_id": "p9hwCLCg8tgMEaRk",
+  "_key": "!items!p9hwCLCg8tgMEaRk",
+  "name": "Overcharged Shot",
+  "type": "talent",
+  "system": {
+    "description": "You know how to overcharge your Vehicle's weapon to produce additional damage. As a Swift Action, you can overcharge your Vehicle's energy weapon and deal +1 die of damage on your next attack in the same turn.<br><br>However, your weapon loses 1 die of damage on its subsequent attacks and cannot be overcharged again, until a full round passes without the weapon firing.",
+    "tree": "Gunner",
+    "prerequisite": {
+      "text": "Expert Gunner talent",
+      "nodes": {
+        "text": "Expert Gunner talent",
+        "requirement": "Expert Gunner",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YFWOrcU47pkOpkMO",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "8PGN5mXiPNd1EQWr",
+  "_key": "!items!8PGN5mXiPNd1EQWr",
+  "name": "Hold the Line",
+  "type": "talent",
+  "system": {
+    "description": "When you make a successful Attack of Opportunity against a target leaving your Threatened Area, you stop the target's movement, ending its Action.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Etp9z3znCPANR3J7",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

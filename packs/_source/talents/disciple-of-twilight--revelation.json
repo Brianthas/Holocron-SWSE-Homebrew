@@ -1,0 +1,31 @@
+{
+  "_id": "apfHk6bbq3m27hKY",
+  "_key": "!items!apfHk6bbq3m27hKY",
+  "name": "Revelation",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can make a Use the Force check against the Will Defense of an enemy that has Concealment from you or any of your allies. If successful, the enemy is silhouetted by a faint shimmering light that belies their location. Your target loses any Concealment bonuses to Reflex Defense until the end of your next turn.",
+    "tree": "Disciple of Twilight",
+    "prerequisite": {
+      "text": "a member of The Disciples of Twilight",
+      "nodes": {
+        "text": "a member of The Disciples of Twilight",
+        "requirement": "The Disciples of Twilight",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "epuNUqHsgX1Je6YA",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

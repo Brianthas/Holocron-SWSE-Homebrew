@@ -1,0 +1,31 @@
+{
+  "_id": "c5Lzdgh1qaU9rJBN",
+  "_key": "!items!c5Lzdgh1qaU9rJBN",
+  "name": "Masquerade",
+  "type": "talent",
+  "system": {
+    "description": "You can use the <b>Illusion</b> Talent to create a disguise for yourself. You use the result of your Use the Force check made to create the <b>Illusion</b> for the purposes of creating a Deceptive Appearance, as per the application of the Deception Skill. All other rules and restrictions for using the <b>Illusion</b> Talent still apply.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "Illusion talent",
+      "nodes": {
+        "text": "Illusion talent",
+        "requirement": "Illusion",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "73Asi1FwCO2RRXIu",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

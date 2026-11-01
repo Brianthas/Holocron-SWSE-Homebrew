@@ -1,0 +1,31 @@
+{
+  "_id": "s34DDqUTNl9TsSLH",
+  "_key": "!items!s34DDqUTNl9TsSLH",
+  "name": "Makashi",
+  "type": "talent",
+  "system": {
+    "description": "When wielding a single Lightsaber in one hand, the deflection bonus you gain from the <b>Lightsaber Defense</b> Talent increases by 2 (to a maximum of +5).",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "Lightsaber Defense talent",
+      "nodes": {
+        "text": "Lightsaber Defense talent",
+        "requirement": "Lightsaber Defense",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2FIUZjfu5PXrNZTN",
+      "sourceBook": ""
+    }
+  }
+}

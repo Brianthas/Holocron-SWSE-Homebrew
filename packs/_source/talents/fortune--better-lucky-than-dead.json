@@ -1,0 +1,31 @@
+{
+  "_id": "r6r1bjqEw7iXCM2P",
+  "_key": "!items!r6r1bjqEw7iXCM2P",
+  "name": "Better Lucky than Dead",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Reaction, you gain a +5 luck bonus to any one Defense until the start of your next turn.",
+    "tree": "Fortune",
+    "prerequisite": {
+      "text": "Fool's Luck talent",
+      "nodes": {
+        "text": "Fool's Luck talent",
+        "requirement": "Fool's Luck",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "teNzXtjReWmbcWs7",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

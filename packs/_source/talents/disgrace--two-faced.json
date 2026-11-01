@@ -1,0 +1,42 @@
+{
+  "_id": "udH0RX936q8LOxW5",
+  "_key": "!items!udH0RX936q8LOxW5",
+  "name": "Two-Faced",
+  "type": "talent",
+  "system": {
+    "description": "You have mastered the art of saying one thing and doing another, allowing you to deceive your enemies to keep your machinations hidden. You can use each of the following actions once per encounter as a Standard Action:",
+    "tree": "Disgrace",
+    "prerequisite": {
+      "text": "Dirty Tactics talent, and Misplaced Loyalty talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dirty Tactics talent",
+            "requirement": "Dirty Tactics",
+            "type": "TALENT"
+          },
+          {
+            "text": "Misplaced Loyalty talent",
+            "requirement": "Misplaced Loyalty",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Dirty Tactics talent, and Misplaced Loyalty talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UCrshYCJxpxpE3qk",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

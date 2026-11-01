@@ -1,0 +1,27 @@
+{
+  "_id": "zixWti6lBHnhC5E8",
+  "_key": "!items!zixWti6lBHnhC5E8",
+  "name": "Force Harmony",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can activate one Force Talent that requires a Force Point to use without spending a Force Point.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bxCnHi5wcDvZxm5U",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "d1SSLwqREZhuQtJC",
+  "_key": "!items!d1SSLwqREZhuQtJC",
+  "name": "Wan-Shen Defense",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can use your Wan-Shen to parry your opponents' attacks, gaining a +1 deflection bonus to your Reflex Defense against melee attacks until the start of your next turn. You must have your Wan-Shen in hand to use this Talent, and you do not gain the deflection bonus if you are Flat-Footed or otherwise unaware of the incoming attack.<br><br>You can take this Talent multiple times; each time you take this Talent, the deflection bonus increases by +1 (to a maximum of +3).",
+    "tree": "Matukai Adept",
+    "prerequisite": {
+      "text": "a member of The Matukai",
+      "nodes": {
+        "text": "a member of The Matukai",
+        "requirement": "The Matukai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vWxSti41Nbz7wtHq",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

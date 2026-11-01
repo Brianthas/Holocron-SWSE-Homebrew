@@ -1,0 +1,42 @@
+{
+  "_id": "GEQyCNMfVE5fGWws",
+  "_key": "!items!GEQyCNMfVE5fGWws",
+  "name": "Motion of the Future",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can peer into the future in search of signs of danger, removing one use of the <i>Farseeing</i> Force Power from your active Force Power Suite (as though you had just activated the Force Power).<br><br>Any time before the end of your next turn when you are the target of an attack or Force Power, you can force your attacker to reroll the attack roll (or Use the Force check) against you, keeping the second result. This counts as using the <i>Farseeing</i> Force Power against the attacker, but this Talent replaces the normal rules and effect of that Force Power.",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "Force Perception talent, and Farseeing force power",
+      "nodes": {
+        "children": [
+          {
+            "text": "Force Perception talent",
+            "requirement": "Force Perception",
+            "type": "TALENT"
+          },
+          {
+            "text": "Farseeing force power",
+            "requirement": "Farseeing",
+            "type": "FORCE POWER"
+          }
+        ],
+        "text": "Force Perception talent, and Farseeing force power",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WMoKaMqbWVjcH7q1",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

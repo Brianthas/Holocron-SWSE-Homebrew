@@ -1,0 +1,31 @@
+{
+  "_id": "jE2jYzBWQEXh6Tfb",
+  "_key": "!items!jE2jYzBWQEXh6Tfb",
+  "name": "Vibroshield Master",
+  "type": "talent",
+  "system": {
+    "description": "You may treat Talents from the Lightsaber Combat Talent Tree as Force Talents.&nbsp;Additionally, the Vibroshield satisfies the requirement for an activated Lightsaber for any Force Talent or Force Power.<br><br>If you create your own Vibroshield (see Build Object), you are considered to be behind Improved Cover instead of Cover when using the Fight Defensively Action.",
+    "tree": "Korunnai Adept",
+    "prerequisite": {
+      "text": "a member of The Korunnai",
+      "nodes": {
+        "text": "a member of The Korunnai",
+        "requirement": "The Korunnai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JEWQeEO8xnufooUn",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - Force Users"
+    }
+  }
+}

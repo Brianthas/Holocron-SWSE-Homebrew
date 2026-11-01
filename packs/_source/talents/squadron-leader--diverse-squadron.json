@@ -1,0 +1,42 @@
+{
+  "_id": "t2G8Ah8aHNEcWOeP",
+  "_key": "!items!t2G8Ah8aHNEcWOeP",
+  "name": "Diverse Squadron",
+  "type": "talent",
+  "system": {
+    "description": "When you use the <b>Squadron Maneuvers</b> Talent, you may choose Talents that you possess from the Blockade Runner Talent Tree, and the Wingman Talent Tree as well as the Expert Pilot Talent Tree and Gunner Talent Tree.",
+    "tree": "Squadron Leader",
+    "prerequisite": {
+      "text": "Charisma 13, and Squadron Maneuvers talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Charisma 13",
+            "requirement": "Charisma 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Squadron Maneuvers talent",
+            "requirement": "Squadron Maneuvers",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Charisma 13, and Squadron Maneuvers talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rrVInhV3eHpwnoaO",
+      "sourceBook": "New Jedi Order Campaign Guide"
+    }
+  }
+}

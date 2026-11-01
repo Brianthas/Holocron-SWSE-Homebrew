@@ -1,0 +1,27 @@
+{
+  "_id": "BJXZgFdSN4jlmHgO",
+  "_key": "!items!BJXZgFdSN4jlmHgO",
+  "name": "Relentless Pursuit",
+  "type": "talent",
+  "system": {
+    "description": "You may roll twice for any opposed Pilot check made to initiate a Dogfight, keeping the better result.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rtQpHhRRv8IXlCTJ",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

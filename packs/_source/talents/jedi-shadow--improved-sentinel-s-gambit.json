@@ -1,0 +1,31 @@
+{
+  "_id": "cR8u9BbDnRedRcPZ",
+  "_key": "!items!cR8u9BbDnRedRcPZ",
+  "name": "Improved Sentinel's Gambit",
+  "type": "talent",
+  "system": {
+    "description": "You can use <b>Sentinel's Gambit</b> an additional number of times equal to half your Class Level (minimum 1).",
+    "tree": "Jedi Shadow",
+    "prerequisite": {
+      "text": "Sentinel's Gambit talent",
+      "nodes": {
+        "text": "Sentinel's Gambit talent",
+        "requirement": "Sentinel's Gambit",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KWqP0e94FkOZ8keK",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

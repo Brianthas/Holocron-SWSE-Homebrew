@@ -1,0 +1,31 @@
+{
+  "_id": "YFY7xnEUplh2eTug",
+  "_key": "!items!YFY7xnEUplh2eTug",
+  "name": "Inquisition",
+  "type": "talent",
+  "system": {
+    "description": "You are particularly adept at dealing with Force-sensitive foes. You gain a +1 bonus on attack rolls and deal +1 die of damage against targets that have the Force Sensitivity feat.",
+    "tree": "Imperial Inquisitor",
+    "prerequisite": {
+      "text": "a member of The Inquisitorius",
+      "nodes": {
+        "text": "a member of The Inquisitorius",
+        "requirement": "The Inquisitorius",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "C2NJkrYsfuqi9XQN",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

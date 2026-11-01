@@ -1,0 +1,27 @@
+{
+  "_id": "vOozAVzrTb8vlDQO",
+  "_key": "!items!vOozAVzrTb8vlDQO",
+  "name": "Born Leader",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Swift Action, you grant all allies within your line of sight a +1 insight bonus on attack rolls. This effect lasts for as long as they remain within line of sight of you. An ally loses this bonus immediately if line of sight is broken or you are unconscious or dead.",
+    "tree": "Leadership",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8WcQ9SWa9dWUd2pX",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

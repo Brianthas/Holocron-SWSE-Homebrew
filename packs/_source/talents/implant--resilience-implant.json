@@ -1,0 +1,27 @@
+{
+  "_id": "yjdlqmeToUI9aR6e",
+  "_key": "!items!yjdlqmeToUI9aR6e",
+  "name": "Resilience Implant",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Standard Action, you can give one adjacent living creature a <b>Resilience Implant</b>. The target must be willing to receive this Implant, which grants the target a +5 Equipment bonus to it's Damage Threshold until the end of the encounter.",
+    "tree": "Implant",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DJbkdhdVsv1VeWQc",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

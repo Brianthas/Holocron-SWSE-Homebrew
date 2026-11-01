@@ -1,0 +1,31 @@
+{
+  "_id": "p0SgGaQYYUHCK9aV",
+  "_key": "!items!p0SgGaQYYUHCK9aV",
+  "name": "Force Suppression",
+  "type": "talent",
+  "system": {
+    "description": "If you use the <i>Rebuke</i> Force Power to attempt to negate or redirect a Force Power used against you, but fail to overcome your opponent's Use the Force check result, you instead lessen the effect of the Force Power by one step.<br><br>For example, if an opponent attempted to use the <i>Slow</i> Force Power on you and rolled a 21, if you fail to <i>Rebuke</i> the Force Power, you only suffer the DC 15 effect, instead of the DC 20 effect. This Talent only affects Force Powers that have variable effects based on your opponent's Use the Force checks, and Force Powers with static DCs without variable effects (such as <i>Force Lightning</i>) are unaffected.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "Rebuke force power",
+      "nodes": {
+        "text": "Rebuke force power",
+        "requirement": "Rebuke",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MLiwtSrUIdH0lVag",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "7xBKgShz2ML8MtfS",
+  "_key": "!items!7xBKgShz2ML8MtfS",
+  "name": "Forceful Warrior",
+  "type": "talent",
+  "system": {
+    "description": "When you score a Critical Hit with a Lightsaber, you gain 1 temporary Force Point. If the Force Point is not used before the end of the encounter, it is lost.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AyJpfxyNJOTieQsM",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

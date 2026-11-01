@@ -1,0 +1,31 @@
+{
+  "_id": "aWtqJZtDXAnkz806",
+  "_key": "!items!aWtqJZtDXAnkz806",
+  "name": "Pinning Shot",
+  "type": "talent",
+  "system": {
+    "description": "You can keep your target worrying about where the next shot is coming from instead of trying to flee. When you deal damage to an enemy that you have Aimed at, the target's speed is reduced to 2 squares, and the target cannot take either a Double Move Action or use the Run Action until the end of your next turn.<br><br>This is a Stunning effect.",
+    "tree": "Sharpshooter",
+    "prerequisite": {
+      "text": "Precision Shot talent",
+      "nodes": {
+        "text": "Precision Shot talent",
+        "requirement": "Precision Shot",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jmkhrq4kdkEsUW2z",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "W3zbtEsyQFF9Mf2a",
+  "_key": "!items!W3zbtEsyQFF9Mf2a",
+  "name": "Keep Them Reeling",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can make a single melee attack against a target within Reach. If the attack hits, you deal no damage, but your target must Move or Withdraw away from you on its next turn.",
+    "tree": "Piracy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "q0uVH6zdeeTVroaQ",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

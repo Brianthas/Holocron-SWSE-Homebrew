@@ -1,0 +1,31 @@
+{
+  "_id": "hBfeENYb8TDwhi53",
+  "_key": "!items!hBfeENYb8TDwhi53",
+  "name": "Droid Duelist",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are wielding a Lightsaber, you can spend a Force Point as a Swift Action to cause an opponent to be Flat-Footed against your next attack made with a Lightsaber before the end of your turn.",
+    "tree": "Iron Knight",
+    "prerequisite": {
+      "text": "a member of The Iron Knights",
+      "nodes": {
+        "text": "a member of The Iron Knights",
+        "requirement": "The Iron Knights",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iukU9oAYd7Zn93Y1",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

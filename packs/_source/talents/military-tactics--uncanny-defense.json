@@ -1,0 +1,27 @@
+{
+  "_id": "AxnqwyI2Notwgau8",
+  "_key": "!items!AxnqwyI2Notwgau8",
+  "name": "Uncanny Defense",
+  "type": "talent",
+  "system": {
+    "description": "Once per day, you can add one-half your Officer Class Level to all your Defenses for one round. You must declare that you are using this Talent at the beginning of your turn. The benefits last until the beginning of your next turn.",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SIUVqEPkBBimtmaZ",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

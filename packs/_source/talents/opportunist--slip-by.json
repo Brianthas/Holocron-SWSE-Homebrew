@@ -1,0 +1,27 @@
+{
+  "_id": "imlTRgoCD6aiauHP",
+  "_key": "!items!imlTRgoCD6aiauHP",
+  "name": "Slip By",
+  "type": "talent",
+  "system": {
+    "description": "When you damage a target, until the beginning of your next turn, you can move through that target's space. Moving through the target's space might still provoke Attacks of Opportunity as normal, and you must end your movement in a legal space.",
+    "tree": "Opportunist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7OXmHM1sZYOCQbvd",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

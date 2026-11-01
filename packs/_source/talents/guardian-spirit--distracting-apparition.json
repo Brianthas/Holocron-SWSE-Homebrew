@@ -1,0 +1,31 @@
+{
+  "_id": "U8TrC5oGjvqsvzHf",
+  "_key": "!items!U8TrC5oGjvqsvzHf",
+  "name": "Distracting Apparition",
+  "type": "talent",
+  "system": {
+    "description": "When you have a manifested Guardian Spirit, the Guardian Spirit also discourages your enemies and distracts them from their goals. Any enemy within 3 squares of your Guardian Spirit takes a -2 penalty to their Will Defense and a -2 penalty on attack rolls against you.",
+    "tree": "Guardian Spirit",
+    "prerequisite": {
+      "text": "Manifest Guardian Spirit talent",
+      "nodes": {
+        "text": "Manifest Guardian Spirit talent",
+        "requirement": "Manifest Guardian Spirit",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0zPf29Mm3Ax9gJwU",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "NgWk55idKAXMARtf",
+  "_key": "!items!NgWk55idKAXMARtf",
+  "name": "Krath Illusions",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can reduce the penalty for large <b>Illusion</b> by one half (rounded down, minimum -1).",
+    "tree": "Krath",
+    "prerequisite": {
+      "text": "a member of The Krath",
+      "nodes": {
+        "text": "a member of The Krath",
+        "requirement": "The Krath",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IvPYBq1OR6K5WQCK",
+      "sourceBook": ""
+    }
+  }
+}

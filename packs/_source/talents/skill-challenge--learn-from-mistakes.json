@@ -1,0 +1,27 @@
+{
+  "_id": "rzOXOjXqC9EM0tob",
+  "_key": "!items!rzOXOjXqC9EM0tob",
+  "name": "Learn from Mistakes",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you accrue a failure in a Skill Challenge, you grant the next ally to take an Action in the Skill Challenge a +2 insight bonus to a Skill Check, provided that the ally takes a different Action (and uses a different Skill) than you did.",
+    "tree": "Skill Challenge",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZIJbhCnRadRUPPtg",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

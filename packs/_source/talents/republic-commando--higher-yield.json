@@ -1,0 +1,31 @@
+{
+  "_id": "bq8Ym16q28atRN9k",
+  "_key": "!items!bq8Ym16q28atRN9k",
+  "name": "Higher Yield",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can choose to deal +1 die of damage with a single Grenade, Mine, or other Explosive.",
+    "tree": "Republic Commando",
+    "prerequisite": {
+      "text": "Trained in Mechanics",
+      "nodes": {
+        "text": "Trained in Mechanics",
+        "requirement": "Mechanics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HYfUOj8eIjVr8i3i",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

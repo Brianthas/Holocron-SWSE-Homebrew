@@ -1,0 +1,27 @@
+{
+  "_id": "GwG0ULl6GC7cS7q2",
+  "_key": "!items!GwG0ULl6GC7cS7q2",
+  "name": "Flurry of Blows",
+  "type": "talent",
+  "system": {
+    "description": "When you make multiple Unarmed attacks as a Full Attack Action, you reduce the penalty to your attack roll by 2. You can take this Talent multiple times. Each time you take this Talent, you reduce the penalty to your attack rolls by an additional 2.",
+    "tree": "Unarmed Mastery",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "75ijTyprtCaO5Hro",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

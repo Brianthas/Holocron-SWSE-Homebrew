@@ -1,0 +1,27 @@
+{
+  "_id": "llvTU0XPuA5Ea2hG",
+  "_key": "!items!llvTU0XPuA5Ea2hG",
+  "name": "Seize Object",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Move Action, you can attempt to seize a held, carried, or worn object from an adjacent target by making a Disarm attack, with a +10 bonus on your attack roll.<br><br>If the attack succeeds, you are now holding the object, and you cannot use this Talent in place of the Disarm Action. You cannot conceal the use of this Talent from the target.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OB4pXGpe50owcVoi",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

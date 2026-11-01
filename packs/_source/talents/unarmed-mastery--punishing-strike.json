@@ -1,0 +1,27 @@
+{
+  "_id": "MkWeNJxG89OWBrJS",
+  "_key": "!items!MkWeNJxG89OWBrJS",
+  "name": "Punishing Strike",
+  "type": "talent",
+  "system": {
+    "description": "When you score a Critical Hit with an Unarmed attack, you can make an immediate Unarmed attack (in addition to other effects of a Critical Hit) against a single target within reach. You can use this Talent only once per turn and only while wearing Light Armor or no Armor.",
+    "tree": "Unarmed Mastery",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7IJphkcUIYFCcUXp",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

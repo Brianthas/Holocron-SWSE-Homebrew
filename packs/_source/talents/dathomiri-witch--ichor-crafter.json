@@ -1,0 +1,31 @@
+{
+  "_id": "29GJ5vSykENfzgao",
+  "_key": "!items!29GJ5vSykENfzgao",
+  "name": "Ichor Crafter",
+  "type": "talent",
+  "system": {
+    "description": "Items you create through the <i>Ichor Creation</i> Force Power gain one applicable benefit as though enhanced by the Tech Specialist feat.",
+    "tree": "Dathomiri Witch",
+    "prerequisite": {
+      "text": "a member of The Witches of Dathomir",
+      "nodes": {
+        "text": "a member of The Witches of Dathomir",
+        "requirement": "The Witches of Dathomir",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hy0chRo08aMYDTgB",
+      "sourceBook": "Dathomir Field Guide"
+    }
+  }
+}

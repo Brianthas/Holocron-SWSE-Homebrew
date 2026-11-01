@@ -1,0 +1,27 @@
+{
+  "_id": "6kIXXpfJjN8elfXL",
+  "_key": "!items!6kIXXpfJjN8elfXL",
+  "name": "Sentinel Strike",
+  "type": "talent",
+  "system": {
+    "description": "Any time you attack a Flat-Footed opponent (or one who is denied its Dexterity bonus to its Reflex Defense against you) with a damage-dealing Force Power, or attack with a Lightsaber, you deal an extra +1d6 points of damage with that attack. This Talent does not affect Force Powers with the [<i>Dark Side</i>] descriptor.<br><br>You can select this Talent multiple times. Each time you select it, your <b>Sentinel Strike</b> damage increases by +1d6 points (maximum +5d6 points of damage).",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": true,
+    "maxTimes": 5,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5E5OHs4dwZh2Ngcw",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

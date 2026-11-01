@@ -1,0 +1,27 @@
+{
+  "_id": "eA8S7ZfXGwCQ8gvR",
+  "_key": "!items!eA8S7ZfXGwCQ8gvR",
+  "name": "Dark Side Sense",
+  "type": "talent",
+  "system": {
+    "description": "Jedi following the path of the Sentinel become exceptionally talented at rooting out evil. You may reroll any Use the Force check made to sense the presence and relative location of characters with a Dark Side Score of 1 or higher. You must take the result of the reroll, even if it is worse.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sovhDQIvZHMp1p7C",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

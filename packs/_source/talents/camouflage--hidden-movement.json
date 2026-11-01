@@ -1,0 +1,31 @@
+{
+  "_id": "VjXbQ1Sk16FzpjrO",
+  "_key": "!items!VjXbQ1Sk16FzpjrO",
+  "name": "Hidden Movement",
+  "type": "talent",
+  "system": {
+    "description": "You're very good at hiding when mobile. You take no penalty on your Stealth check when moving your normal Speed. This Talent applies to Stealth checks made while Piloting a Starship (see Starship Stealth).",
+    "tree": "Camouflage",
+    "prerequisite": {
+      "text": "Improved Stealth talent",
+      "nodes": {
+        "text": "Improved Stealth talent",
+        "requirement": "Improved Stealth",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WW5YV9EkJzQwVSJS",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

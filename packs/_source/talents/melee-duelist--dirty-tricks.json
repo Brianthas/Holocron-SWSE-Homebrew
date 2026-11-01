@@ -1,0 +1,31 @@
+{
+  "_id": "CKllZCe5bR9EBgVT",
+  "_key": "!items!CKllZCe5bR9EBgVT",
+  "name": "Dirty Tricks",
+  "type": "talent",
+  "system": {
+    "description": "You are not above using a few dirty tricks to win. You can use the Feint application of the Deception skill as two Swift Actions against an opponent you Threaten.",
+    "tree": "Melee Duelist",
+    "prerequisite": {
+      "text": "Trained in Deception",
+      "nodes": {
+        "text": "Trained in Deception",
+        "requirement": "Deception",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6B9RvveTg3EEG1Pn",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

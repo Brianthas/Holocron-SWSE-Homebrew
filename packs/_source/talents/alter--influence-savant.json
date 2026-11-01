@@ -1,0 +1,27 @@
+{
+  "_id": "0uZMAUGP0BNKIH4Z",
+  "_key": "!items!0uZMAUGP0BNKIH4Z",
+  "name": "Influence Savant",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Swift Action, you can return one Force Power with the [<i>Mind-Affecting</i>] descriptor to your Force Power Suite without spending a Force Point. You can select this Talent multiple times. Each time you select it, you can use it one additional time per encounter.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "X2LDYja6M9FMvAnJ",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

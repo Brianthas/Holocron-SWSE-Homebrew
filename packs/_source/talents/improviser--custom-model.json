@@ -1,0 +1,42 @@
+{
+  "_id": "9MH9tZ2tAp2p8EsQ",
+  "_key": "!items!9MH9tZ2tAp2p8EsQ",
+  "name": "Custom Model",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you create a device with the <b>Improvised Device</b> Talent, you can apply one modification granted by the Tech Specialist Feat to the device. This customization does not affect the value of the item being created.",
+    "tree": "Improviser",
+    "prerequisite": {
+      "text": "Improvised Device talent, and Tech Specialist feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Improvised Device talent",
+            "requirement": "Improvised Device",
+            "type": "TALENT"
+          },
+          {
+            "text": "Tech Specialist feat",
+            "requirement": "Tech Specialist",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Improvised Device talent, and Tech Specialist feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BUAUPTAZG10Crz3C",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

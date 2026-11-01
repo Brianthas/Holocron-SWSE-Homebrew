@@ -1,0 +1,38 @@
+{
+  "_id": "5hRiitvIYXJAAUxP",
+  "_key": "!items!5hRiitvIYXJAAUxP",
+  "name": "Swift Droid",
+  "type": "talent",
+  "system": {
+    "description": "You move quickly when caught. You can make a Swift Action as a Reaction after failing a Deception check or a Stealth check.",
+    "tree": "Autonomy",
+    "prerequisite": {
+      "text": "Any two Talents from the Autonomy Talent Tree",
+      "nodes": {
+        "children": [
+          {
+            "text": "Talent from the Autonomy Talent Tree",
+            "requirement": "Autonomy Talent Tree",
+            "type": "TALENT"
+          }
+        ],
+        "count": 2,
+        "text": "Any two Talents from the Autonomy Talent Tree",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "L0Az7BQTVr242BrV",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

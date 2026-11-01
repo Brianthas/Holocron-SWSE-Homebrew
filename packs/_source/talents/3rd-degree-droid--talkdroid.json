@@ -1,0 +1,31 @@
+{
+  "_id": "pFV7fi5o8SkI5Z5y",
+  "_key": "!items!pFV7fi5o8SkI5Z5y",
+  "name": "Talkdroid",
+  "type": "talent",
+  "system": {
+    "description": "You know how to subtly massage translations. When one of your allies is attempting to use the Persuasion skill to change the Attitude of a creature that does not understand your ally, you add +2 to the ally's Persuasion check results if you perform the translation.",
+    "tree": "3rd-Degree Droid",
+    "prerequisite": {
+      "text": "Trained in Persuasion",
+      "nodes": {
+        "text": "Trained in Persuasion",
+        "requirement": "Persuasion",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "inkR8n5Afr0A3JHm",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

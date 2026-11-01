@@ -1,0 +1,27 @@
+{
+  "_id": "mVeII3gqmDdwxevY",
+  "_key": "!items!mVeII3gqmDdwxevY",
+  "name": "Competitive Drive",
+  "type": "talent",
+  "system": {
+    "description": "You are driven to compete and succeed. Once per encounter, you can reroll any Wisdom-, Intelligence-, or Charisma-based Skill Check (except Use the Force), keeping the better of the two results.",
+    "tree": "Corporate Power",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FZ31oVXKZgAWlVPA",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

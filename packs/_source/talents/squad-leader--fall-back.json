@@ -1,0 +1,31 @@
+{
+  "_id": "P7yvGxsnc8L5M3rr",
+  "_key": "!items!P7yvGxsnc8L5M3rr",
+  "name": "Fall Back",
+  "type": "talent",
+  "system": {
+    "description": "As a Move Action, you can enable each member of your Squad to immediately move two squares. This movement does not provoke an Attack of Opportunity.",
+    "tree": "Squad Leader",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "L3IYBDdG5OKvtoNL",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

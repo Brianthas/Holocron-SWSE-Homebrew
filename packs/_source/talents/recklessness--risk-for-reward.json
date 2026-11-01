@@ -1,0 +1,31 @@
+{
+  "_id": "hfPVDZC3yBhmlfa0",
+  "_key": "!items!hfPVDZC3yBhmlfa0",
+  "name": "Risk for Reward",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn, when an enemy damages you with an Attack of Opportunity, you can make a single melee or ranged attack against a target in range as a Reaction.",
+    "tree": "Recklessness",
+    "prerequisite": {
+      "text": "Find Openings talent",
+      "nodes": {
+        "text": "Find Openings talent",
+        "requirement": "Find Openings",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2KdzcI6k9BOsEVzN",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

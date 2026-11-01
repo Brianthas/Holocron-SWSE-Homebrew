@@ -1,0 +1,27 @@
+{
+  "_id": "kCxMcoqqKs0F1S4T",
+  "_key": "!items!kCxMcoqqKs0F1S4T",
+  "name": "Equilibrium",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can spend a Force Point to remove all debilitating Conditions affecting you and return to a normal state.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lUkWs7O4lZN1SOW0",
+      "sourceBook": ""
+    }
+  }
+}

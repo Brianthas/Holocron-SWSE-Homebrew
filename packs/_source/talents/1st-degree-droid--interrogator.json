@@ -1,0 +1,27 @@
+{
+  "_id": "irvpGWircwxbzhz9",
+  "_key": "!items!irvpGWircwxbzhz9",
+  "name": "Interrogator",
+  "type": "talent",
+  "system": {
+    "description": "You can create an aura of unliving, emotionless, menace that no biological creature can match, and combine it with the cruel application of medical knowledge. You can use your Treat Injury modifier on a Persuasion check made to change a creature's Attitude, or to Intimidate. You must be adjacent to your target to use this ability, in addition to the normal requirements for these uses of the Persuasion Skill.",
+    "tree": "1st-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aMAiqkajmyxvmsji",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "5XfONAuuzsffhJw0",
+  "_key": "!items!5XfONAuuzsffhJw0",
+  "name": "Mettle",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, when using the <b>Resilience</b> Talent or the Recover Action and you are at one-half your total Hit Points or less, you regain a number of Hit Points equal to your Character Level.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "Resilience talent, and Trained in Endurance",
+      "nodes": {
+        "children": [
+          {
+            "text": "Resilience talent",
+            "requirement": "Resilience",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Endurance",
+            "requirement": "Endurance",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Resilience talent, and Trained in Endurance",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "E9SRU3fLWCMPZ98b",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

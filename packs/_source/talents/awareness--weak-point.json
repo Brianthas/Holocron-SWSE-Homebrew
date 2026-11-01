@@ -1,0 +1,42 @@
+{
+  "_id": "l3oe679aP6Tlgd4h",
+  "_key": "!items!l3oe679aP6Tlgd4h",
+  "name": "Weak Point",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can use a Swift Action to ignore the Damage Reduction of a single target within your line of sight for the rest of your turn.",
+    "tree": "Awareness",
+    "prerequisite": {
+      "text": "Acute Senses talent, and Keen Shot talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Acute Senses talent",
+            "requirement": "Acute Senses",
+            "type": "TALENT"
+          },
+          {
+            "text": "Keen Shot talent",
+            "requirement": "Keen Shot",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Acute Senses talent, and Keen Shot talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8ouyIdXSYYTWaMg8",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

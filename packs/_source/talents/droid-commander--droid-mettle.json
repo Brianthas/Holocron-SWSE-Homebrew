@@ -1,0 +1,31 @@
+{
+  "_id": "EhxltGqYIXQtavqt",
+  "_key": "!items!EhxltGqYIXQtavqt",
+  "name": "Droid Mettle",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action once per turn, you can designate a single Droid ally within your line of sight. That Droid ally gains bonus Hit Points equal to 10 + your Class Level.",
+    "tree": "Droid Commander",
+    "prerequisite": {
+      "text": "Droid Defense talent",
+      "nodes": {
+        "text": "Droid Defense talent",
+        "requirement": "Droid Defense",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Hb06ASisvjptIhi8",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "khKpaXYTvHrdMLQ6",
+  "_key": "!items!khKpaXYTvHrdMLQ6",
+  "name": "Precision Fire",
+  "type": "talent",
+  "system": {
+    "description": "The Jedi are skilled at blocking and deflecting ranged attacks with their Lightsabers, and you are able to compensate for this to some degree by taking careful shots. Whenever you Aim before making a ranged attack, you increase the difficulty of <b>Deflect</b> attempts to negate your attack by +5.",
+    "tree": "Force Hunter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UMLb8SwM9hpYybMB",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

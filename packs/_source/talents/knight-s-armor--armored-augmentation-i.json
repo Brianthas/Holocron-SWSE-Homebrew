@@ -1,0 +1,31 @@
+{
+  "_id": "LPVQXpYtk0rj7cXw",
+  "_key": "!items!LPVQXpYtk0rj7cXw",
+  "name": "Armored Augmentation I",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you may spend a Force Point as a Swift Action to augment your own ability to withstand damage by imbuing the Armor you are wearing with The Force. This allows you to add your Armor bonus to your Reflex Defense to your Damage Threshold until the end of the encounter.",
+    "tree": "Knight's Armor",
+    "prerequisite": {
+      "text": "Armor Proficiency feat",
+      "nodes": {
+        "text": "Armor Proficiency feat",
+        "requirement": "Armor Proficiency",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JucmL1SvupVHnmCP",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

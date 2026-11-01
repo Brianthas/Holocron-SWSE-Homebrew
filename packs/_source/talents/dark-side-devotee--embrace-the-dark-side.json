@@ -1,0 +1,42 @@
+{
+  "_id": "6q62bn8S0GF9kzEN",
+  "_key": "!items!6q62bn8S0GF9kzEN",
+  "name": "Embrace the Dark Side",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use a Force Power with the [<i>Dark Side</i>] descriptor, you may reroll your Use the Force check, but you must accept the result of the reroll, even if it is worse.<br><br>Upon choosing this Talent, you can no longer use Force Powers with the [<i>Light Side</i>] descriptor.",
+    "tree": "Dark Side Devotee",
+    "prerequisite": {
+      "text": "Channel Aggression talent, and Channel Anger talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Channel Aggression talent",
+            "requirement": "Channel Aggression",
+            "type": "TALENT"
+          },
+          {
+            "text": "Channel Anger talent",
+            "requirement": "Channel Anger",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Channel Aggression talent, and Channel Anger talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jARYmv7YNSJQMNW9",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

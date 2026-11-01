@@ -1,0 +1,31 @@
+{
+  "_id": "311dxhtyXwP4KaDA",
+  "_key": "!items!311dxhtyXwP4KaDA",
+  "name": "Unbalancing Adaptation",
+  "type": "talent",
+  "system": {
+    "description": "When you use the <b>Adapt and Survive</b> Talent, you also deny the target the bonus that triggered the Talent to one enemy within your line of sight.",
+    "tree": "Versatility",
+    "prerequisite": {
+      "text": "Adapt and Survive talent",
+      "nodes": {
+        "text": "Adapt and Survive talent",
+        "requirement": "Adapt and Survive",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NW8aFFjeGLR1VSYL",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

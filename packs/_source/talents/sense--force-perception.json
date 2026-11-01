@@ -1,0 +1,27 @@
+{
+  "_id": "xJNuUNcMnk0IJBIg",
+  "_key": "!items!xJNuUNcMnk0IJBIg",
+  "name": "Force Perception",
+  "type": "talent",
+  "system": {
+    "description": "You can make a Use the Force check instead of a Perception check to avoid surprise, notice enemies, sense deception, or sense influence. You are considered Trained in the Perception skill. If you are entitled to a Perception check reroll, you may reroll your Use the Force check instead (subject to the same circumstances and limitations).",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Yyfrj6V0vGjPSQL9",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "a12ej3tmoAbURmqa",
+  "_key": "!items!a12ej3tmoAbURmqa",
+  "name": "Direct",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can return one spent Force Power to the Force Power Suite of any ally within 6 squares of you and in your line of sight. The Force Power must have been spent by the ally you designate.",
+    "tree": "Jedi Archivist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MIKDtsnnFbgmWniU",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

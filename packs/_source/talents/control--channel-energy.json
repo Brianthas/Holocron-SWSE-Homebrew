@@ -1,0 +1,31 @@
+{
+  "_id": "q7B0T8tUjhkItvlM",
+  "_key": "!items!q7B0T8tUjhkItvlM",
+  "name": "Channel Energy",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use the <i>Negate Energy</i> Force Power to successfully negate the damage from an Energy Weapon attack, you can spend a Force Point as a Reaction to immediately activate any Force Power currently in your Force Power Suite.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "Negate Energy force power",
+      "nodes": {
+        "text": "Negate Energy force power",
+        "requirement": "Negate Energy",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qQt9mSzv3zi6gwc1",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

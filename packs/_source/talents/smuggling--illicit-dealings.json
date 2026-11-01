@@ -1,0 +1,27 @@
+{
+  "_id": "dpmgPVxULl0qyM1b",
+  "_key": "!items!dpmgPVxULl0qyM1b",
+  "name": "Illicit Dealings",
+  "type": "talent",
+  "system": {
+    "description": "Smugglers have a knack for locating and negotiating illicit deals. When using Persuasion to Haggle for Restricted, Military, or Illegal goods you may roll twice, keeping the better of the two results.",
+    "tree": "Smuggling",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aiFVJj8m2zxhYI0C",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

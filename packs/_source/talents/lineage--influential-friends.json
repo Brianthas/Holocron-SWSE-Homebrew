@@ -1,0 +1,31 @@
+{
+  "_id": "NKh0TJEJBoG7P5Wt",
+  "_key": "!items!NKh0TJEJBoG7P5Wt",
+  "name": "Influential Friends",
+  "type": "talent",
+  "system": {
+    "description": "You have Influential Contacts within a certain organization, planet, or region who can provide concrete information to you on certain subjects. Once per day, you can have one of these contacts make a Skill Check on your behalf. The contact always Takes 20 on the Skill Check (even if the Skill would normally not allow Taking 20) and has a Skill modifier equal to 5 + one-half your Heroic Level.<br><br>Contacting your Influential Contacts and receiving the benefit of the Skill Check takes a number of minutes equal to 10 x the Skill Check result.",
+    "tree": "Lineage",
+    "prerequisite": {
+      "text": "Connections talent",
+      "nodes": {
+        "text": "Connections talent",
+        "requirement": "Connections",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6jG2pFSImGSRhU4B",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

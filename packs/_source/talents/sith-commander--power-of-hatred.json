@@ -1,0 +1,31 @@
+{
+  "_id": "M3SvR546KvHTAQYn",
+  "_key": "!items!M3SvR546KvHTAQYn",
+  "name": "Power of Hatred",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Swift Action, you can inflame the passions of your allies. Each ally within your line of sight who has fewer than half its normal Hit Points gains bonus Hit Points equal to your Character Level. Damage is subtracted from the bonus Hit Points first, and any bonus Hit Points remaining at the end of the encounter go away. Bonus Hit Points from multiple sources do not stack.",
+    "tree": "Sith Commander",
+    "prerequisite": {
+      "text": "Incite Rage talent",
+      "nodes": {
+        "text": "Incite Rage talent",
+        "requirement": "Incite Rage",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XawgcQBLUmw02nX6",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

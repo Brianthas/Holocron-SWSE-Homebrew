@@ -1,0 +1,31 @@
+{
+  "_id": "VW0EMB1aNfLycuPP",
+  "_key": "!items!VW0EMB1aNfLycuPP",
+  "name": "Sidestep",
+  "type": "talent",
+  "system": {
+    "description": "You can use a Swift Action to reduce the cost of each move into a diagonal space to 1 until the end of your turn if you are wearing Light Armor or no Armor.<br><br>You cannot use this Talent if you are wearing Medium Armor or Heavy Armor.",
+    "tree": "Fringer",
+    "prerequisite": {
+      "text": "Long Stride talent",
+      "nodes": {
+        "text": "Long Stride talent",
+        "requirement": "Long Stride",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MVn7GCBlwTLqPZn3",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

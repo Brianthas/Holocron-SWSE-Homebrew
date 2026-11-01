@@ -1,0 +1,31 @@
+{
+  "_id": "M91ONADmshOwb4Jh",
+  "_key": "!items!M91ONADmshOwb4Jh",
+  "name": "Luck Favors the Bold",
+  "type": "talent",
+  "system": {
+    "description": "If at least one enemy within your line of sight is aware of you and you do not have Cover against that enemy, at the start of your turn if you are conscious you gain a number of Bonus Hit Points equal to 5 + one-half your Heroic Level. Damage is subtracted from Bonus Hit Points first, and any Bonus Hit Points remaining at the end of the encounter are lost. Bonus Hit Points do not stack.",
+    "tree": "Gambling Leader",
+    "prerequisite": {
+      "text": "Face the Foe talent",
+      "nodes": {
+        "text": "Face the Foe talent",
+        "requirement": "Face the Foe",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "O1FkDjCfoPw23IVM",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "4GZWLbkWx31Gdxqz",
+  "_key": "!items!4GZWLbkWx31Gdxqz",
+  "name": "Fearless Leader",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can provide a courageous example for your allies. For the remainder of the encounter, your allies receive a +5 morale bonus to their Will Defense against any Fear effect. Your allies lose this benefit if they lose line of sight to you, or you are killed or knocked unconscious.",
+    "tree": "Leadership",
+    "prerequisite": {
+      "text": "Born Leader talent",
+      "nodes": {
+        "text": "Born Leader talent",
+        "requirement": "Born Leader",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nUUxza8FEv32fGO9",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "xzqsRI5mk8vgNNCr",
+  "_key": "!items!xzqsRI5mk8vgNNCr",
+  "name": "Knight's Morale",
+  "type": "talent",
+  "system": {
+    "description": "When an ally within 12 squares of you and within your line of sight hits with a Lightsaber attack, you gain a +1 morale bonus to all your Defenses until the end of your next turn.",
+    "tree": "Knight's Resolve",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GhrZo0Qc90GYIGYX",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

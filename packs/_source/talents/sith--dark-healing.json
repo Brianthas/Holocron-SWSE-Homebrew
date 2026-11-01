@@ -1,0 +1,27 @@
+{
+  "_id": "pnMTEpHFKlcMSteI",
+  "_key": "!items!pnMTEpHFKlcMSteI",
+  "name": "Dark Healing",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point to heal wounds by drawing life energy from another creature within 6 squares of you. Using this ability is a Standard Action, and you must succeed on a ranged attack roll. If the attack equals or exceeds the target's Fortitude Defense, you deal 1d6 points of damage per Class Level to the target, and you heal an equal amount of damage. If the attack fails, there is no effect.",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eg9129N63kJj0ZXR",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

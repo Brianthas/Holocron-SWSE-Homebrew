@@ -1,0 +1,27 @@
+{
+  "_id": "VHBkYB45Ue9HRFwz",
+  "_key": "!items!VHBkYB45Ue9HRFwz",
+  "name": "Elusive Target",
+  "type": "talent",
+  "system": {
+    "description": "When fighting an opponent or multiple opponents in melee, other opponents attempting to target you with ranged attacks take a -5 penalty. This penalty is in addition to the normal -5 penalty for firing into melee, making the penalty to target you -10.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aGEVO9egIKaXFe6m",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

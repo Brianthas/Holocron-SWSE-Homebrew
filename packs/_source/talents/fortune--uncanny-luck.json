@@ -1,0 +1,42 @@
+{
+  "_id": "UtX8OHQ5G6pCXsDz",
+  "_key": "!items!UtX8OHQ5G6pCXsDz",
+  "name": "Uncanny Luck",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can consider any single d20 roll of 16 or higher to be a Natural 20.",
+    "tree": "Fortune",
+    "prerequisite": {
+      "text": "Knack talent, and Lucky Shot talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Knack talent",
+            "requirement": "Knack",
+            "type": "TALENT"
+          },
+          {
+            "text": "Lucky Shot talent",
+            "requirement": "Lucky Shot",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Knack talent, and Lucky Shot talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5AL5k0UDMLTnTf5k",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

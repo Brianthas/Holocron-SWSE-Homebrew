@@ -1,0 +1,31 @@
+{
+  "_id": "jCr9rMP4iejSGLgS",
+  "_key": "!items!jCr9rMP4iejSGLgS",
+  "name": "Akk Dog Attack Training",
+  "type": "talent",
+  "system": {
+    "description": "Your Akk Dog Follower gains the Powerful Charge feat.",
+    "tree": "Korunnai Adept",
+    "prerequisite": {
+      "text": "a member of The Korunnai",
+      "nodes": {
+        "text": "a member of The Korunnai",
+        "requirement": "The Korunnai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "O4NW8CpJliUkPD8c",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

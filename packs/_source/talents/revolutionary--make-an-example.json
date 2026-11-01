@@ -1,0 +1,27 @@
+{
+  "_id": "DSKbySoatmJzhaUf",
+  "_key": "!items!DSKbySoatmJzhaUf",
+  "name": "Make an Example",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you hit with an attack and deal enough damage to exceed a target’s Damage Threshold, that target takes a -5 penalty to attack rolls against you until the end of your next turn. This is a Mind-Affecting effect.",
+    "tree": "Revolutionary",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2de8e4crGEgCECfh",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

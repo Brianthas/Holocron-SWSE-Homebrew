@@ -1,0 +1,31 @@
+{
+  "_id": "87yXQekLxnIRu61q",
+  "_key": "!items!87yXQekLxnIRu61q",
+  "name": "Tactical Savvy",
+  "type": "talent",
+  "system": {
+    "description": "When an ally whom you can see spends a Force Point to enhance an attack roll, the ally gains a bonus to the Force Point roll equal to your Intelligence modifier.",
+    "tree": "Leadership",
+    "prerequisite": {
+      "text": "Born Leader talent",
+      "nodes": {
+        "text": "Born Leader talent",
+        "requirement": "Born Leader",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RliDYu0ZCbLhQC0z",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "Ou4DjoPC7MsVJ7VO",
+  "_key": "!items!Ou4DjoPC7MsVJ7VO",
+  "name": "Fluster",
+  "type": "talent",
+  "system": {
+    "description": "You get under an opponent's skin. Once per encounter, make a Persuasion check to Intimidate one creature within line of sight as a Standard Action. On a success, instead of the normal effect of an Intimidate application of the Persuasion skill, the affected creature can take only a single Swift Action on its next turn. If the target is a higher level than you, it gains a +5 bonus to its Will Defense against the Intimidate check.<br><br>This is a Mind-Affecting effect.",
+    "tree": "Influence",
+    "prerequisite": {
+      "text": "Presence talent, and Trained in Persuasion",
+      "nodes": {
+        "children": [
+          {
+            "text": "Presence talent",
+            "requirement": "Presence",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Persuasion",
+            "requirement": "Persuasion",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Presence talent, and Trained in Persuasion",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Bek4CO8DJUiDyIfD",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

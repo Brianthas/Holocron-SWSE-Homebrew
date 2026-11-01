@@ -1,0 +1,27 @@
+{
+  "_id": "mFDJjTsw3p3awTrD",
+  "_key": "!items!mFDJjTsw3p3awTrD",
+  "name": "Battle Meld",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can spend a Force Point to activate this Talent. For the remainder of the encounter, anytime you use the Aid Another action to aid a skill check or attack roll you provide the benefit to all allies within 6 squares.<br><br>If used in Vehicle Combat, this Talent benefits all allies within 6 squares (Starship Scale).",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "c7R7cy64e0DLCz54",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

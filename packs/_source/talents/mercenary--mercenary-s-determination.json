@@ -1,0 +1,31 @@
+{
+  "_id": "ef0a53ao9RGa1nat",
+  "_key": "!items!ef0a53ao9RGa1nat",
+  "name": "Mercenary's Determination",
+  "type": "talent",
+  "system": {
+    "description": "As a Free Action, on your turn, you can spend a Force Point to double your speed for 1 round. You must wait 5 rounds between each use of this ability.",
+    "tree": "Mercenary",
+    "prerequisite": {
+      "text": "Mercenary's Grit talent",
+      "nodes": {
+        "text": "Mercenary's Grit talent",
+        "requirement": "Mercenary's Grit",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jxFUeh8qJcHnHJCc",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

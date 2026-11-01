@@ -1,0 +1,42 @@
+{
+  "_id": "cNUD6osvVjuQMDms",
+  "_key": "!items!cNUD6osvVjuQMDms",
+  "name": "Fleet Tactics",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you may designate a single Vehicle as the target of a large-scale assault. If you succeed on a DC 15 Knowledge (Tactics) check, all allied Gunners within line of sight deal 1 additional die of damage to the target with each successful ranged attack until the start of your next turn.<br><br>This is a Mind-Affecting effect.",
+    "tree": "Naval Officer",
+    "prerequisite": {
+      "text": "Charisma 13, and Fleet Deployment talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Charisma 13",
+            "requirement": "Charisma 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Fleet Deployment talent",
+            "requirement": "Fleet Deployment",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Charisma 13, and Fleet Deployment talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "R4BsA93bNINXbQbh",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

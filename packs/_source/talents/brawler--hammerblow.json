@@ -1,0 +1,27 @@
+{
+  "_id": "mW7oQjCwnTXtpMvd",
+  "_key": "!items!mW7oQjCwnTXtpMvd",
+  "name": "Hammerblow",
+  "type": "talent",
+  "system": {
+    "description": "If you are Unarmed and holding no items, you double your Strength bonus to Unarmed attack rolls.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "72BY8blPGvhig0ph",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

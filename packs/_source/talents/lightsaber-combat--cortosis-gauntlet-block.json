@@ -1,0 +1,31 @@
+{
+  "_id": "JDmeLPqpGp7zhJEZ",
+  "_key": "!items!JDmeLPqpGp7zhJEZ",
+  "name": "Cortosis Gauntlet Block",
+  "type": "talent",
+  "system": {
+    "description": "You have received additional training in the use of Cortosis Gauntlets. You can use the <b>Block</b> Talent, even when not armed with a Lightsaber, provided you are wearing a Cortosis Gauntlet. If you successfully <b>Block</b> an attack with a Lightsaber while wearing a Cortosis Gauntlet, the attacking Lightsaber is deactivated.",
+    "tree": "Lightsaber Combat",
+    "prerequisite": {
+      "text": "Armor Proficiency feat",
+      "nodes": {
+        "text": "Armor Proficiency feat",
+        "type": "FEAT",
+        "requirement": "Armor Proficiency"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vrcMHBnXO0WPE1Xl",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

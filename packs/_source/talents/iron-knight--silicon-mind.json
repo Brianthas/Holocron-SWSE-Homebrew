@@ -1,0 +1,31 @@
+{
+  "_id": "M5iCClbHgZblMMOk",
+  "_key": "!items!M5iCClbHgZblMMOk",
+  "name": "Silicon Mind",
+  "type": "talent",
+  "system": {
+    "description": "Other Force-users have a difficult time knowing how to influence you. You can spend a Force Point as a Reaction to gain a bonus to your Will Defense equal to your Charisma modifier (minimum +1) against all Use the Force checks until the end of your next turn.",
+    "tree": "Iron Knight",
+    "prerequisite": {
+      "text": "a member of The Iron Knights",
+      "nodes": {
+        "text": "a member of The Iron Knights",
+        "requirement": "The Iron Knights",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lW88QwfCKXD44Zst",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

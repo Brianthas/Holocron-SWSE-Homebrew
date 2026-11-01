@@ -1,0 +1,27 @@
+{
+  "_id": "BMZL0Ztjxf4vjSGt",
+  "_key": "!items!BMZL0Ztjxf4vjSGt",
+  "name": "Raider's Surge",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Standard Action, you can make a Deception or Persuasion check (your choice) against each enemy within your line of sight. If the check result equals or exceeds the enemy's Will Defense, that enemy must Withdraw on its next Action or take a -1 penalty on its attack rolls until the end of the encounter. This is a Mind-Affecting effect.",
+    "tree": "Piracy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ThsA1GDU6j987PRK",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

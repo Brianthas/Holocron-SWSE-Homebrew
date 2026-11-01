@@ -1,0 +1,31 @@
+{
+  "_id": "CVq7v5T4zaVxZ6t6",
+  "_key": "!items!CVq7v5T4zaVxZ6t6",
+  "name": "Reading the Flame",
+  "type": "talent",
+  "system": {
+    "description": "You can enter a trance by staring into a flame of any size, gaining insight into the workings of the galaxy by meditating on the flame's movement. Whenever you use the <i>Farseeing</i> Force Power or the Search Your Feelings application of the Use the Force skill, you can reroll your Use the Force check, keeping the better of the two results.",
+    "tree": "Ember of Vahl",
+    "prerequisite": {
+      "text": "a member of The Ember of Vahl",
+      "nodes": {
+        "text": "a member of The Ember of Vahl",
+        "requirement": "The Ember of Vahl",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Td7CWwBRFOKfq6nB",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

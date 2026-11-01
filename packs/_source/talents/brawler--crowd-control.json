@@ -1,0 +1,31 @@
+{
+  "_id": "pC1fXxqAyiglGhU1",
+  "_key": "!items!pC1fXxqAyiglGhU1",
+  "name": "Crowd Control",
+  "type": "talent",
+  "system": {
+    "description": "You can Grab two adjacent creatures at a time.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "Entangler talent",
+      "nodes": {
+        "text": "Entangler talent",
+        "requirement": "Entangler",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "evRfzWmQIZbu4zAo",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

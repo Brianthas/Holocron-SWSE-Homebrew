@@ -1,0 +1,27 @@
+{
+  "_id": "5FvXYVaYWYBvChu6",
+  "_key": "!items!5FvXYVaYWYBvChu6",
+  "name": "Knockback",
+  "type": "talent",
+  "system": {
+    "description": "When you score a Critical Hit against a target no more than two size categories larger than you are, you can choose to move that opponent 1 square in any direction as a Free Action.<br><br>You cannot use this Talent on an opponent that is being Grabbed or Grappled, and you cannot move your target into a solid object or into another creature's Fighting Space.",
+    "tree": "Critical Master",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PsxWcbaAsi6aBCRC",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

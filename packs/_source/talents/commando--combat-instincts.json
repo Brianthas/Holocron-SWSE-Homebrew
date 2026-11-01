@@ -1,0 +1,31 @@
+{
+  "_id": "EQOhvcxA2NAd4c4z",
+  "_key": "!items!EQOhvcxA2NAd4c4z",
+  "name": "Combat Instincts",
+  "type": "talent",
+  "system": {
+    "description": "When one or more allies uses the Aid Another Action to give you a bonus to your attack roll, you gain a circumstance bonus equal to the total bonus provided to your damage roll.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "Battle Analysis talent",
+      "nodes": {
+        "text": "Battle Analysis talent",
+        "requirement": "Battle Analysis",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UQYNzxjoe6osHhWV",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

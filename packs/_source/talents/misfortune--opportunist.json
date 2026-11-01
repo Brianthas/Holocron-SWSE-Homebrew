@@ -1,0 +1,31 @@
+{
+  "_id": "RVGK7ykzr9Qgjyew",
+  "_key": "!items!RVGK7ykzr9Qgjyew",
+  "name": "Opportunist",
+  "type": "talent",
+  "system": {
+    "description": "At the start of your turn, you may spend a Force Point. Until the start of your next turn, you can make an Attack of Opportunity against a single opponent that has just taken damage from another character.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "Combat Reflexes feat",
+      "nodes": {
+        "text": "Combat Reflexes feat",
+        "requirement": "Combat Reflexes",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZKSXcH6yGU768MJQ",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

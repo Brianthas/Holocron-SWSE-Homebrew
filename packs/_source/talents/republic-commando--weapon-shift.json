@@ -1,0 +1,31 @@
+{
+  "_id": "YmQvilcntJOPZod5",
+  "_key": "!items!YmQvilcntJOPZod5",
+  "name": "Weapon Shift",
+  "type": "talent",
+  "system": {
+    "description": "If you use a Ranged Weapon as a Melee Weapon (as with the <b>Gun Club</b> Talent), you gain a +2 bonus to melee attack rolls with that Weapon.",
+    "tree": "Republic Commando",
+    "prerequisite": {
+      "text": "Gun Club talent",
+      "nodes": {
+        "text": "Gun Club talent",
+        "requirement": "Gun Club",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sJ92rFfGvMrKqyTb",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

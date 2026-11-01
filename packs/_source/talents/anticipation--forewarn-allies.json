@@ -1,0 +1,27 @@
+{
+  "_id": "sTfLgfcsS3qOCeZx",
+  "_key": "!items!sTfLgfcsS3qOCeZx",
+  "name": "Forewarn Allies",
+  "type": "talent",
+  "system": {
+    "description": "All allies within 12 squares of you gain a +2 insight bonus on attack rolls and damage rolls for Attacks of Opportunity.",
+    "tree": "Anticipation",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wfWcQFquoS4wyGj5",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

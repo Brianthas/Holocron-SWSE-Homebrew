@@ -1,0 +1,31 @@
+{
+  "_id": "ieSo3cLlWlAx9R48",
+  "_key": "!items!ieSo3cLlWlAx9R48",
+  "name": "Sudden Storm",
+  "type": "talent",
+  "system": {
+    "description": "Instead of a normal melee attack at the end of a Charge, you can spend a Force Point to make a Whirlwind Attack at the end of a Charge, provided you are not wielding any weapons (other than Combat Gloves, a Stunning Gauntlet, or Shockboxing Gloves).",
+    "tree": "Seyugi Dervish",
+    "prerequisite": {
+      "text": "a member of The Seyugi Dervishes",
+      "nodes": {
+        "text": "a member of The Seyugi Dervishes",
+        "requirement": "The Seyugi Dervishes",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "i79B7nLpwk90Xgf8",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

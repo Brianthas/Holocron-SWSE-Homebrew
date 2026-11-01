@@ -1,0 +1,27 @@
+{
+  "_id": "1hnNOvbWm9xbNf9U",
+  "_key": "!items!1hnNOvbWm9xbNf9U",
+  "name": "Hunt the Hunter",
+  "type": "talent",
+  "system": {
+    "description": "When you use a Standard Action to actively look for hidden enemies, you can make a single melee or ranged attack against any one enemy you notice with your Perception check.",
+    "tree": "Surveillance",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qy6kZGi0AIagJR8o",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

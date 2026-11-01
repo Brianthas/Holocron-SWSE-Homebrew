@@ -1,0 +1,27 @@
+{
+  "_id": "LfCBooXcYiy5qMvr",
+  "_key": "!items!LfCBooXcYiy5qMvr",
+  "name": "Guardian's Insight",
+  "type": "talent",
+  "system": {
+    "description": "Once per round, you may spend a Force Point to reroll a failed attack roll, but the result of the reroll must be accepted, even if it is worse.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nS6spI1Er8vUqdRT",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

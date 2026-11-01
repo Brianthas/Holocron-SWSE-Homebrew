@@ -1,0 +1,27 @@
+{
+  "_id": "liEmlKcTj3V1m0R8",
+  "_key": "!items!liEmlKcTj3V1m0R8",
+  "name": "Trigger Work",
+  "type": "talent",
+  "system": {
+    "description": "You take no penalty on your attack roll when using the Rapid Shot feat.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jdgdbQpVdL5B56cO",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

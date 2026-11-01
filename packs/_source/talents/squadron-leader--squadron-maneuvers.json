@@ -1,0 +1,54 @@
+{
+  "_id": "WfvSWJLUqTAU8poz",
+  "_key": "!items!WfvSWJLUqTAU8poz",
+  "name": "Squadron Maneuvers",
+  "type": "talent",
+  "system": {
+    "description": "Choose one Talent that you already possess. The Talent you select must be from either the Expert Pilot Talent Tree or the Gunner Talent Tree. Once per encounter as a Standard Action, you can impart the benefits of the chosen Talent to all members of your squadron. Once gained, its benefits last until the end of the encounter.",
+    "tree": "Squadron Leader",
+    "prerequisite": {
+      "text": "Charisma 13, and (Any Talent from either the Expert Pilot Talent Tree or the Gunner Talent Tree)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Charisma 13",
+            "requirement": "Charisma 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "children": [
+              {
+                "text": "Talent from the Expert Pilot Talent Tree",
+                "requirement": "Expert Pilot Talent Tree",
+                "type": "TALENT"
+              },
+              {
+                "text": "Talent from the Gunner Talent Tree",
+                "requirement": "Gunner Talent Tree",
+                "type": "TALENT"
+              }
+            ],
+            "count": 1,
+            "text": "Any Talent from either the Expert Pilot Talent Tree or the Gunner Talent Tree",
+            "type": "OR"
+          }
+        ],
+        "text": "Charisma 13, and (Any Talent from either the Expert Pilot Talent Tree or the Gunner Talent Tree)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uWtNRIi2AFm5XhDe",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

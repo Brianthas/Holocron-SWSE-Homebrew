@@ -1,0 +1,42 @@
+{
+  "_id": "ChIKzEcXRqrwWZ2S",
+  "_key": "!items!ChIKzEcXRqrwWZ2S",
+  "name": "Sheltering Stance",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are adjacent to an ally, you may use the <b>Block</b> or <b>Deflect</b> Talents on attacks that target that ally without the need to spend a Force Point.",
+    "tree": "Jedi Watchman",
+    "prerequisite": {
+      "text": "Dueling Stance talent, and Vigilance talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dueling Stance talent",
+            "requirement": "Dueling Stance",
+            "type": "TALENT"
+          },
+          {
+            "text": "Vigilance talent",
+            "requirement": "Vigilance",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Dueling Stance talent, and Vigilance talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "y5uMSMEAC1m2SuFA",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

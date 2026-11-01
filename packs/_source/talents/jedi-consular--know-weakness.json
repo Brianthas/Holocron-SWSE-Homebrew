@@ -1,0 +1,31 @@
+{
+  "_id": "B35hXlavEKtEt5AK",
+  "_key": "!items!B35hXlavEKtEt5AK",
+  "name": "Know Weakness",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use <b>Adversary Lore</b> on a target successfully, that target also takes an additional 1d6 points of damage from any successful attack made against it by you or an ally who can hear and understand you until the end of your next turn.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "Adversary Lore talent",
+      "nodes": {
+        "text": "Adversary Lore talent",
+        "requirement": "Adversary Lore",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vTsdHWrYv36GC9lV",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

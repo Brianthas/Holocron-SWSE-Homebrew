@@ -1,0 +1,42 @@
+{
+  "_id": "97Z9UOtR0L3cMUeu",
+  "_key": "!items!97Z9UOtR0L3cMUeu",
+  "name": "Mechanized Rider",
+  "type": "talent",
+  "system": {
+    "description": "You use your riding experience to improve your skills on a Speeder or a Swoop Bike. When riding a Speeder or a Swoop Bike (or another, similar Vehicle), you can use the following applications of the Ride skill: Fast Mount or Dismount, Soft Fall, Stay in Saddle, and Use Mount as Cover.",
+    "tree": "Mobile Scout",
+    "prerequisite": {
+      "text": "Trained in Ride, and Trained in Pilot",
+      "nodes": {
+        "children": [
+          {
+            "text": "Trained in Ride",
+            "requirement": "Ride",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Trained in Pilot",
+            "requirement": "Pilot",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Trained in Ride, and Trained in Pilot",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OZiK5wj4hPqudtYg",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

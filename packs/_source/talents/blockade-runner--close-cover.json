@@ -1,0 +1,31 @@
+{
+  "_id": "Og0TqVKehhda42Zg",
+  "_key": "!items!Og0TqVKehhda42Zg",
+  "name": "Close Cover",
+  "type": "talent",
+  "system": {
+    "description": "If you occupy the same space as a Vehicle that is larger than the Vehicle you are Piloting, your Vehicle gains a +5 Cover bonus from the larger Vehicle.",
+    "tree": "Blockade Runner",
+    "prerequisite": {
+      "text": "Watch This talent",
+      "nodes": {
+        "text": "Watch This talent",
+        "requirement": "Watch This",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BYhdTyJ3nirA8cjO",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

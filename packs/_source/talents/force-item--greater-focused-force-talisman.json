@@ -1,0 +1,42 @@
+{
+  "_id": "XNVhKt1EluDn0PaU",
+  "_key": "!items!XNVhKt1EluDn0PaU",
+  "name": "Greater Focused Force Talisman",
+  "type": "talent",
+  "system": {
+    "description": "As the <b>Focused Force Talisman</b> Talent, except that a Force Point spent to immediately recover the selected Force Power does not count against the \"one per turn\" restriction on spending Force Points.",
+    "tree": "Force Item",
+    "prerequisite": {
+      "text": "Force Talisman talent, and Focused Force Talisman talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Force Talisman talent",
+            "requirement": "Force Talisman",
+            "type": "TALENT"
+          },
+          {
+            "text": "Focused Force Talisman talent",
+            "requirement": "Focused Force Talisman",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Force Talisman talent, and Focused Force Talisman talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vWrsopAu3uViWnSr",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

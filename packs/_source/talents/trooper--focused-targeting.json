@@ -1,0 +1,31 @@
+{
+  "_id": "dZcmMSp5KhfrPfNy",
+  "_key": "!items!dZcmMSp5KhfrPfNy",
+  "name": "Focused Targeting",
+  "type": "talent",
+  "system": {
+    "description": "When you damage a target with a melee or ranged attack, all allies within 3 squares gain a +2 bonus on damage rolls against that target until the beginning of your next turn.",
+    "tree": "Trooper",
+    "prerequisite": {
+      "text": "Comrades in Arms talent",
+      "nodes": {
+        "text": "Comrades in Arms talent",
+        "requirement": "Comrades in Arms",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PVV2c3Cof1biNYdy",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

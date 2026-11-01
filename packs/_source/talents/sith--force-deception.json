@@ -1,0 +1,27 @@
+{
+  "_id": "HadW0ntPIK7xav2j",
+  "_key": "!items!HadW0ntPIK7xav2j",
+  "name": "Force Deception",
+  "type": "talent",
+  "system": {
+    "description": "You can use your Use the Force modifier instead of your Deception check modifier when making Deception checks, as you use The Force to cloak your vile treachery. You are considered Trained in the Deception skill. If you are entitled to a Deception check reroll, you may reroll your Use the Force check instead (subject to the same circumstances and limitations).",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "df7SbFCHrxjXFIiT",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

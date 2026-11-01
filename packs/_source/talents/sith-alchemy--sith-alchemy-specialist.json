@@ -1,0 +1,31 @@
+{
+  "_id": "7Xl4Et7WJVciOyhv",
+  "_key": "!items!7Xl4Et7WJVciOyhv",
+  "name": "Sith Alchemy Specialist",
+  "type": "talent",
+  "system": {
+    "description": "You can modify an object with Sith Alchemy so that it gains a specific trait. Specific traits are listed in the Sith Alchemy Table, below. You can only perform one modification at a time. Unless otherwise noted, you cannot grant more than one benefit to a single object, and you cannot apply the same benefit more than once. You must spend a Force Point and devote 1 hour of uninterrupted work to apply a trait to the relevant object, and when you do so, you increase your Dark Side Score by 1.",
+    "tree": "Sith Alchemy",
+    "prerequisite": {
+      "text": "Sith Alchemy (Sith Alchemy Talent Tree) talent",
+      "nodes": {
+        "text": "Sith Alchemy (Sith Alchemy Talent Tree) talent",
+        "requirement": "Sith Alchemy (Sith Alchemy Talent Tree)",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "13l2gtlDoFkEAfAE",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

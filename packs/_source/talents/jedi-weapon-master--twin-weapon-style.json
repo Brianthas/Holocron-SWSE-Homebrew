@@ -1,0 +1,27 @@
+{
+  "_id": "Ow6Drs6oIX5BNjf8",
+  "_key": "!items!Ow6Drs6oIX5BNjf8",
+  "name": "Twin Weapon Style",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, whenever you are wielding two Weapons (or a Double Weapon), you can make one attack with each Weapon (or each end of a Double Weapon). Each attack must be against a different target.",
+    "tree": "Jedi Weapon Master",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "M0LFEIqpDXYQwL35",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

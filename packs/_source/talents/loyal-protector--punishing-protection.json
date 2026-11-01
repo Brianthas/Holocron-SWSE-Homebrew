@@ -1,0 +1,42 @@
+{
+  "_id": "r3Z4wPDkmhhXTno0",
+  "_key": "!items!r3Z4wPDkmhhXTno0",
+  "name": "Punishing Protection",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction to you being damaged by an attack or a Force Power, one of your followers can make an immediate melee or ranged attack against the target that attacked you. Until the beginning of your next turn, any time you are damaged by an attack or Force Power, another one of your followers can attack that attacking target. This ability can be used once per encounter.",
+    "tree": "Loyal Protector",
+    "prerequisite": {
+      "text": "Inspire Loyalty talent, and Base Attack Bonus 5",
+      "nodes": {
+        "children": [
+          {
+            "text": "Inspire Loyalty talent",
+            "requirement": "Inspire Loyalty",
+            "type": "TALENT"
+          },
+          {
+            "text": "Base Attack Bonus 5",
+            "requirement": "5",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Inspire Loyalty talent, and Base Attack Bonus 5",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "42aMaPQCsjBpqHfB",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "i3SdISRYWbGJtPl2",
+  "_key": "!items!i3SdISRYWbGJtPl2",
+  "name": "Mandalorian Ferocity",
+  "type": "talent",
+  "system": {
+    "description": "Mandalorians can be ferocious fighters. Select one weapon group or Exotic Weapon you are proficient with. Once per encounter, when making more than one attack in a round, you can add one damage die to each successful hit with the selected weapon group or Exotic Weapon.<br><br>You can take this Talent more than once, selecting a different Exotic Weapon or weapon group each time.",
+    "tree": "Mandalorian Warrior",
+    "prerequisite": {
+      "text": "Dexterity 13",
+      "nodes": {
+        "text": "Dexterity 13",
+        "requirement": "Dexterity 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ydU03KtlnbklLdJo",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

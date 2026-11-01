@@ -1,0 +1,27 @@
+{
+  "_id": "J1fV42ML35NVA7HX",
+  "_key": "!items!J1fV42ML35NVA7HX",
+  "name": "Adapt and Survive",
+  "type": "talent",
+  "system": {
+    "description": "When an enemy within 24 squares of you and in your line of sight receives a morale or insight bonus of any kind, you also gain the benefits of that bonus until the end of your next turn.",
+    "tree": "Versatility",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VSOXIak6B2CLhgHw",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

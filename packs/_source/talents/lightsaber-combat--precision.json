@@ -1,0 +1,27 @@
+{
+  "_id": "EglL42e3LnL2btjY",
+  "_key": "!items!EglL42e3LnL2btjY",
+  "name": "Precision",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can make a melee attack with a Lightsaber against an adjacent opponent. If the attack hits, it deals normal damage and also reduces the target's speed to 2 squares until the end of your next turn.",
+    "tree": "Lightsaber Combat",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "voEb12j8CGUfprEV",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

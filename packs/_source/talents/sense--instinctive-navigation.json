@@ -1,0 +1,31 @@
+{
+  "_id": "xoFZFrFwPCm2YAl7",
+  "_key": "!items!xoFZFrFwPCm2YAl7",
+  "name": "Instinctive Navigation",
+  "type": "talent",
+  "system": {
+    "description": "You can substitute your Use the Force skill for any Use Computer check made to Astrogate or Use Sensors while you are the Pilot of a Vehicle.",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "Force Pilot talent",
+      "nodes": {
+        "text": "Force Pilot talent",
+        "requirement": "Force Pilot",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NxHMSmHTOp3wyhvN",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

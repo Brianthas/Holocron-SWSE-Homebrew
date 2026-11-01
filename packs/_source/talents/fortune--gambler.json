@@ -1,0 +1,27 @@
+{
+  "_id": "KAv3Tc1dwbjvCkb3",
+  "_key": "!items!KAv3Tc1dwbjvCkb3",
+  "name": "Gambler",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +2 competence bonus on Wisdom checks when you Gamble. You can select this Talent multiple times; each time you take this Talent, the competence bonus increases by +2.",
+    "tree": "Fortune",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tAz3wkG0Gcqj4tBG",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

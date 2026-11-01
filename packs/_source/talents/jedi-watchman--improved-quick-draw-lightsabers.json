@@ -1,0 +1,42 @@
+{
+  "_id": "ML2EFRA0cvjIzJT5",
+  "_key": "!items!ML2EFRA0cvjIzJT5",
+  "name": "Improved Quick Draw (Lightsabers)",
+  "type": "talent",
+  "system": {
+    "description": "If you are carrying a Lightsaber (either in your hand or at your belt), you can draw the Lightsaber, ignite it, and make a single attack during the Surprise Round, even if you are Surprised. If you are not Surprised, you can take any single Action of your choice, as normal.<br><br>Additionally, once per turn you may draw and ignite a Lightsaber as a Free Action on your turn.",
+    "tree": "Jedi Watchman",
+    "prerequisite": {
+      "text": "Quick Draw feat, and Weapon Focus (Lightsabers)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Quick Draw feat",
+            "requirement": "Quick Draw",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Focus (Lightsabers)",
+            "requirement": "Weapon Focus (Lightsabers)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Quick Draw feat, and Weapon Focus (Lightsabers)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "neeYB872T8Oe3HAH",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

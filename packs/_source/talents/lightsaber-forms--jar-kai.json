@@ -1,0 +1,42 @@
+{
+  "_id": "vhXDKeYoZwv7LBT8",
+  "_key": "!items!vhXDKeYoZwv7LBT8",
+  "name": "Jar'Kai",
+  "type": "talent",
+  "system": {
+    "description": "When you use the <b>Lightsaber Defense </b> Talent, you gain twice the normal deflection bonus to your Reflex Defense when you are wielding two Lightsabers.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "Lightsaber Defense talent, and Niman talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Lightsaber Defense talent",
+            "requirement": "Lightsaber Defense",
+            "type": "TALENT"
+          },
+          {
+            "text": "Niman talent",
+            "requirement": "Niman",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Lightsaber Defense talent, and Niman talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2dSy5xRmGNBQckde",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "qYvbeVtaoAha7F0X",
+  "_key": "!items!qYvbeVtaoAha7F0X",
+  "name": "Vindication",
+  "type": "talent",
+  "system": {
+    "description": "When an enemy you have damaged is reduced to 0 Hit Points or moved to the bottom of the Condition Track, your next attack made before the end of the encounter deals +1 die of damage.",
+    "tree": "Opportunist",
+    "prerequisite": {
+      "text": "Retribution talent",
+      "nodes": {
+        "text": "Retribution talent",
+        "requirement": "Retribution",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pD2pj8ts6whDcFXx",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

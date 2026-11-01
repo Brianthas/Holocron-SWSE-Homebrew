@@ -1,0 +1,31 @@
+{
+  "_id": "ExDa6hsLxRGGgf2R",
+  "_key": "!items!ExDa6hsLxRGGgf2R",
+  "name": "Hunter's Target",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Free Action, you may designate an opponent. For the rest of the encounter, when you succeed on a melee or ranged attack against that opponent, you gain a bonus on damage equal to your Class Level.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "Hunter's Mark talent",
+      "nodes": {
+        "text": "Hunter's Mark talent",
+        "requirement": "Hunter's Mark",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DIrajQ9DIVFV0ue4",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

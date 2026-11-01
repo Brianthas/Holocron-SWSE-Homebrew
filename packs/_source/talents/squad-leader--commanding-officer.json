@@ -1,0 +1,27 @@
+{
+  "_id": "fxrzjaLYb9LOONRt",
+  "_key": "!items!fxrzjaLYb9LOONRt",
+  "name": "Commanding Officer",
+  "type": "talent",
+  "system": {
+    "description": "<i>Y</i> ou gain a single Follower. Choose either the Aggressive, Defensive, or Utility Follower Template for your Follower, generating the follower's statistics using the rules found in the Followers page. This Follower gains one Armor Proficiency Feat of your choice and Weapon Proficiency (Rifles), in addition to those provided by the Follower Templates. The Follower must meet the prerequisites for the Armor Proficiency Feat you select.<br><br>You can select this Talent multiple times. Each time you do, you gain one additional Follower (maximum of three Followers).",
+    "tree": "Squad Leader",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": true,
+    "maxTimes": 3,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ze5nDquehR5Kd65q",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

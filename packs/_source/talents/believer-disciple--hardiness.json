@@ -1,0 +1,31 @@
+{
+  "_id": "zueaYFFb8EWRyWct",
+  "_key": "!items!zueaYFFb8EWRyWct",
+  "name": "Hardiness",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point to reduce the number of Swift Actions it takes you to move +1 step along to Condition Track by one.",
+    "tree": "Believer Disciple",
+    "prerequisite": {
+      "text": "a member of The Believers",
+      "nodes": {
+        "text": "a member of The Believers",
+        "requirement": "The Believers",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pAu7LLVWIrcayrI4",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

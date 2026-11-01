@@ -1,0 +1,27 @@
+{
+  "_id": "6l2iVNPc56vSVKyX",
+  "_key": "!items!6l2iVNPc56vSVKyX",
+  "name": "Skill Conversion",
+  "type": "talent",
+  "system": {
+    "description": "When you Reprogram yourself, you can sacrifice a single Trained Skill for a bonus Skill Focus Feat. You must meet the prerequisites for the Feat (you must be Trained in the Skill you choose to gain Skill Focus for), and you can do this only once per Reprogramming.",
+    "tree": "Specialized Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oLJQeK30YFBCCAgP",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

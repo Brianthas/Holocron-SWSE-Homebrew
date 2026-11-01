@@ -1,0 +1,31 @@
+{
+  "_id": "VmBNgJaSBRpzRmMr",
+  "_key": "!items!VmBNgJaSBRpzRmMr",
+  "name": "Fade Out",
+  "type": "talent",
+  "system": {
+    "description": "You know how to make yourself scarce when dealing with suspicious or hostile beings. You can use your Stealth skill, not Deception, to Create a Diversion to Hide. If you are Trained in the Deception skill, you gain a +5 bonus to your skill check for the purpose to Create a Diversion to Hide.",
+    "tree": "Espionage",
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "nodes": {
+        "text": "Trained in Stealth",
+        "requirement": "Stealth",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oEIwjVln00bAYGyL",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

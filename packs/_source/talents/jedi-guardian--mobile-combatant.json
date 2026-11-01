@@ -1,0 +1,27 @@
+{
+  "_id": "LAjhxGGliL0iz4eP",
+  "_key": "!items!LAjhxGGliL0iz4eP",
+  "name": "Mobile Combatant",
+  "type": "talent",
+  "system": {
+    "description": "When you end your movement adjacent to an opponent, you can spend a Swift Action to activate this Talent. If the designated opponent Moves or Withdraws before the beginning of your next turn, you can choose to move with that opponent, up to a total distance equal to your current speed.<br><br>Unless your opponent uses the Withdraw Action or makes an Acrobatics check to avoid Attacks of Opportunity, its movement provokes an Attack of Opportunity from you for the first square moved as normal (but no subsequent squares in the same movement). If your target moves farther than your speed, you must still end this movement closer to the target than you began.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NCzIYkFIWSlkBK5B",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

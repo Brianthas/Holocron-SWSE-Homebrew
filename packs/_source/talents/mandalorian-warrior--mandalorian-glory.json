@@ -1,0 +1,27 @@
+{
+  "_id": "UVDVy0nBJQGxh9oW",
+  "_key": "!items!UVDVy0nBJQGxh9oW",
+  "name": "Mandalorian Glory",
+  "type": "talent",
+  "system": {
+    "description": "Above everything else, Mandalorians fight for glory in battle. Once per encounter, when you reduce an opponent's Hit Points to 0, you gain a +5 attack bonus with your next attack roll during the same encounter.",
+    "tree": "Mandalorian Warrior",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "C8ehqD8jjDe2lqqv",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

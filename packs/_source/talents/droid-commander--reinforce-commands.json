@@ -1,0 +1,31 @@
+{
+  "_id": "3zp2qU6F4W13aACg",
+  "_key": "!items!3zp2qU6F4W13aACg",
+  "name": "Reinforce Commands",
+  "type": "talent",
+  "system": {
+    "description": "When you use an ability that grants a Droid ally a morale or insight bonus, increase the value of that bonus by 1.",
+    "tree": "Droid Commander",
+    "prerequisite": {
+      "text": "Droid Defense talent",
+      "nodes": {
+        "text": "Droid Defense talent",
+        "requirement": "Droid Defense",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UWZNLV2oQFHUDHy3",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

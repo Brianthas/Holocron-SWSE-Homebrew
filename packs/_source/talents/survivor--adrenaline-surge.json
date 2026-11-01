@@ -1,0 +1,31 @@
+{
+  "_id": "bYxKIeXlwRgG0vzN",
+  "_key": "!items!bYxKIeXlwRgG0vzN",
+  "name": "Adrenaline Surge",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Swift Action to gain a +1 morale bonus to your attack rolls and Defenses until the end of your next turn, at which time you move -1 step along the Condition Track.",
+    "tree": "Survivor",
+    "prerequisite": {
+      "text": "Extreme Effort talent",
+      "nodes": {
+        "text": "Extreme Effort talent",
+        "requirement": "Extreme Effort",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9wol3HSyiTKRf2sS",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

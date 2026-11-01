@@ -1,0 +1,42 @@
+{
+  "_id": "FToPa5eNRJvQ8wQu",
+  "_key": "!items!FToPa5eNRJvQ8wQu",
+  "name": "Extreme Explosion",
+  "type": "talent",
+  "system": {
+    "description": "You know how to set large charges and use dozens of charges for extremely large explosives. You increase the Burst radius of any Mines or Explosives by 1 square.",
+    "tree": "Sabotage",
+    "prerequisite": {
+      "text": "Skilled Demolitionist talent, and Shaped Explosion talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Skilled Demolitionist talent",
+            "requirement": "Skilled Demolitionist",
+            "type": "TALENT"
+          },
+          {
+            "text": "Shaped Explosion talent",
+            "requirement": "Shaped Explosion",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Skilled Demolitionist talent, and Shaped Explosion talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "I3LCvvyZCJGhJtXS",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

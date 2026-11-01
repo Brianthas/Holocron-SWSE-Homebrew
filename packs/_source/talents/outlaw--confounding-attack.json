@@ -1,0 +1,42 @@
+{
+  "_id": "Re5R97KMiUmYFHoq",
+  "_key": "!items!Re5R97KMiUmYFHoq",
+  "name": "Confounding Attack",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, whenever you would use <b>Uncanny Instincts</b>, you can forgo the movement to make an immediate melee or ranged attack against the opponent that hit you. If your attack is a melee attack that hits and deals damage, you and your opponent immediately switch places; assuming both you and your opponent can end in a legal space.",
+    "tree": "Outlaw",
+    "prerequisite": {
+      "text": "Tangle Up talent, and Uncanny Instincts talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Tangle Up talent",
+            "requirement": "Tangle Up",
+            "type": "TALENT"
+          },
+          {
+            "text": "Uncanny Instincts talent",
+            "requirement": "Uncanny Instincts",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Tangle Up talent, and Uncanny Instincts talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bIKysdREdc3y3fBJ",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

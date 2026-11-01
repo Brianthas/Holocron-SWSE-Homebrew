@@ -1,0 +1,27 @@
+{
+  "_id": "8I3fDgcOAgG4etYC",
+  "_key": "!items!8I3fDgcOAgG4etYC",
+  "name": "Sniping Assassin",
+  "type": "talent",
+  "system": {
+    "description": "When you make a ranged attack against a target that is not at Point-Blank Range, you add half your Class Level to your damage roll.",
+    "tree": "Assassin",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "B22qip1wRh2ZPgAV",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "uvL7CZR0g7LpqAZ7",
+  "_key": "!items!uvL7CZR0g7LpqAZ7",
+  "name": "Vigilance",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action you may designate one adjacent ally as the target of this Talent. That target gains a +1 deflection bonus to their Reflex Defense as long as you remain adjacent to them. You may change the target of this Talent as a Swift Action.",
+    "tree": "Jedi Watchman",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DAUJgRGq4ZktNqVq",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

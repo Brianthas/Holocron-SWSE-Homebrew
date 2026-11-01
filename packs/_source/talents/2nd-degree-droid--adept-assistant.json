@@ -1,0 +1,27 @@
+{
+  "_id": "oYBGapJxXZDr85LU",
+  "_key": "!items!oYBGapJxXZDr85LU",
+  "name": "Adept Assistant",
+  "type": "talent",
+  "system": {
+    "description": "When you successfully Aid Another character on a Mechanics, Pilot, or Use Computer check, you add +5 to the check result (rather than the normal +2).",
+    "tree": "2nd-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bDEwJPN7yJ8SZaaA",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

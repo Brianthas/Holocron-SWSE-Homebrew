@@ -1,0 +1,27 @@
+{
+  "_id": "fI35YITSbkFTxpkg",
+  "_key": "!items!fI35YITSbkFTxpkg",
+  "name": "Ataru",
+  "type": "talent",
+  "system": {
+    "description": "You may add your Dexterity bonus (instead of your Strength bonus) on damage rolls when wielding a Lightsaber. When you wield a Lightsaber two-handed, you may apply double your Dexterity bonus (instead of double your Strength bonus) to the damage.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pn6WiZEdCJyPKMnl",
+      "sourceBook": ""
+    }
+  }
+}

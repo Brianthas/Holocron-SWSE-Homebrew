@@ -1,0 +1,31 @@
+{
+  "_id": "6sI5BaGa8eyq6jee",
+  "_key": "!items!6sI5BaGa8eyq6jee",
+  "name": "Transfer Force",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Swift Action, you can expend one of your Force Points to give one ally within line of sight a temporary Force Point. If this Force Point is not used by the end of the encounter, it is lost.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "Vital Transfer force power",
+      "nodes": {
+        "text": "Vital Transfer force power",
+        "requirement": "Vital Transfer",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SFPBQy7lFIPWwVHe",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

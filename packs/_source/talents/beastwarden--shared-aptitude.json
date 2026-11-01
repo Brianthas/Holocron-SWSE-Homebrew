@@ -1,0 +1,42 @@
+{
+  "_id": "Xd41IfLasfwZ865l",
+  "_key": "!items!Xd41IfLasfwZ865l",
+  "name": "Shared Aptitude",
+  "type": "talent",
+  "system": {
+    "description": "Your <b>Animal Companion</b> gains the use of a select few of your Talents. The <b>Animal Companion</b> may make use of a number of Talents equal to its Wisdom modifier (minimum 1).",
+    "tree": "Beastwarden",
+    "prerequisite": {
+      "text": "Animal Companion talent, and Improved Companion talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Animal Companion talent",
+            "requirement": "Animal Companion",
+            "type": "TALENT"
+          },
+          {
+            "text": "Improved Companion talent",
+            "requirement": "Improved Companion",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Animal Companion talent, and Improved Companion talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZsQgUBd3tlanomGP",
+      "sourceBook": "Saga Edition All-Purpose Sourcebook"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "TT7yU94yFGfacc9z",
+  "_key": "!items!TT7yU94yFGfacc9z",
+  "name": "Overclocked Troops",
+  "type": "talent",
+  "system": {
+    "description": "You push the limits of the Droids under your command. You can spend a Swift Action once per turn to allow each of your Networked allies (see the Network Mind Class Feature) to immediately move up to their Speed.",
+    "tree": "Droid Commander",
+    "prerequisite": {
+      "text": "Droid Defense talent",
+      "nodes": {
+        "text": "Droid Defense talent",
+        "requirement": "Droid Defense",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yVI13q9N2CeMlNa5",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

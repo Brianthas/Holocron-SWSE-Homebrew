@@ -1,0 +1,31 @@
+{
+  "_id": "XMBoatfRI9fYT7aS",
+  "_key": "!items!XMBoatfRI9fYT7aS",
+  "name": "Invisible Attacker",
+  "type": "talent",
+  "system": {
+    "description": "If your target is unaware of you, your ranged attacks deal +1 die of damage against that target.",
+    "tree": "Vanguard",
+    "prerequisite": {
+      "text": "Maximize Cover talent",
+      "nodes": {
+        "text": "Maximize Cover talent",
+        "requirement": "Maximize Cover",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9fudxWaCB15QUtZz",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

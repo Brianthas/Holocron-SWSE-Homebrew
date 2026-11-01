@@ -1,0 +1,27 @@
+{
+  "_id": "cTNUOz8i0kgFRq2W",
+  "_key": "!items!cTNUOz8i0kgFRq2W",
+  "name": "Dark Side Adept",
+  "type": "talent",
+  "system": {
+    "description": "Force Powers that are strongly tied to The Dark Side flow through you more easily. You can reroll any Use the Force check made when activating Force Powers with the [<i>Dark Side</i>] descriptor, but you must keep the result of the reroll, even if it is worse.",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OO5FqGIrsNHPiaUN",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "nYBUwVhmm3vlhoxv",
+  "_key": "!items!nYBUwVhmm3vlhoxv",
+  "name": "Skill Confidence",
+  "type": "talent",
+  "system": {
+    "description": "When you select this Talent, choose one Trained Skill. Whenever you roll a Natural 19 or a Natural 20 on a Skill Check with that Skill, you gain the benefits of the <b>Critical Skill Success</b> Talent and also gain Bonus Hit Points equal to your Charisma modifier. You can select this Talent multiple times. Each time you do so, you must choose a different Skill to gain the benefits of this Talent.",
+    "tree": "Superior Skills",
+    "prerequisite": {
+      "text": "Critical Skill Success talent",
+      "nodes": {
+        "text": "Critical Skill Success talent",
+        "requirement": "Critical Skill Success",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mcTMJ3RbJ37X3tLS",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

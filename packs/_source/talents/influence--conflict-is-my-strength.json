@@ -1,0 +1,27 @@
+{
+  "_id": "lchwqCgoYiABgcyq",
+  "_key": "!items!lchwqCgoYiABgcyq",
+  "name": "Conflict is my Strength",
+  "type": "talent",
+  "system": {
+    "description": "When making an opposed Deception or Persuasion check, you receive a +2 circumstance bonus to the check. Additionally, in the case of a tie in the opposed check, your result is victorious. If your opponent also has this Talent, normal resolution rules apply.",
+    "tree": "Influence",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6il59NDPJDTF5X8U",
+      "sourceBook": "New Republic Campaign Guide"
+    }
+  }
+}

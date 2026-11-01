@@ -5,6 +5,7 @@
 // other key or value fails the run.
 
 import { FORCE_DESCRIPTORS, type ForceDescriptorKey } from "../../../src/config/force.ts";
+import { shortDescriptionCarry } from "../lib/changes.ts";
 import { cleanDescription } from "../lib/html.ts";
 import { slugify } from "../lib/ids.ts";
 import { checkKeys, itemDoc, readPack, type OutputDoc, type Report, type SourceDoc } from "../lib/pack.ts";
@@ -71,7 +72,7 @@ export function convertForcePowers(report: Report): OutputDoc[] {
         case "rollType": if (value !== "Use the Force") fail(`rollType ${JSON.stringify(value)}`); break;
         // Any power can be known more than once: copies.
         case "takeMultipleTimes": if (value !== "true") fail(`takeMultipleTimes ${JSON.stringify(value)}`); break;
-        // A flattened copy of the description.
+        // Usually a flattened copy of the description; shortDescriptionCarry checks it below.
         case "shortDescription": break;
         // Vital Transfer's healing amounts; its check bands state the same amounts (checked below).
         case "healing": {
@@ -96,7 +97,8 @@ export function convertForcePowers(report: Report): OutputDoc[] {
 
     const cleaned = cleanDescription(String(doc.system["description"] ?? ""));
     report.sections(PACK, doc, cleaned);
-    const { html, sourceBook } = cleaned;
+    const { sourceBook } = cleaned;
+    const html = shortDescriptionCarry(doc, report, PACK) + cleaned.html;
     if (!bands.length && /\bDC\s*\d+/.test(html)) report.note("powers with a DC in the text but no bands", doc.name);
     bands.sort((a, b) => a.dc - b.dc);
     out.push(itemDoc(`${PACK}:${slugify(doc.name)}`, doc.name, "forcePower",

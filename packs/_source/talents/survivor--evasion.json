@@ -1,0 +1,27 @@
+{
+  "_id": "R5DffYzUUAnlWCmy",
+  "_key": "!items!R5DffYzUUAnlWCmy",
+  "name": "Evasion",
+  "type": "talent",
+  "system": {
+    "description": "If you are hit by an Area Attack, you take half damage if the attack hit you. If the area attack misses you, you take no damage. If you are the Pilot, this talent applies to your Vehicle.",
+    "tree": "Survivor",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AsNT1YGNvb7fbkYL",
+      "sourceBook": ""
+    }
+  }
+}

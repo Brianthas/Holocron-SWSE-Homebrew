@@ -1,0 +1,31 @@
+{
+  "_id": "PnO1JTZdsWPyWW9l",
+  "_key": "!items!PnO1JTZdsWPyWW9l",
+  "name": "Victorious Force Mastery",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an enemy you have damaged in this encounter is reduced to 0 Hit Points, you may automatically return one spent Force Power to your Force Power Suite as a Free Action.",
+    "tree": "Bando Gora Captain",
+    "prerequisite": {
+      "text": "a member of The Bando Gora",
+      "nodes": {
+        "text": "a member of The Bando Gora",
+        "requirement": "The Bando Gora",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tH0V6DOvipsUiPpW",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

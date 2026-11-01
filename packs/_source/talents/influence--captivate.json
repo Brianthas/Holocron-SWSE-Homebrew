@@ -1,0 +1,31 @@
+{
+  "_id": "g3QnBVUtqfh0N1Nf",
+  "_key": "!items!g3QnBVUtqfh0N1Nf",
+  "name": "Captivate",
+  "type": "talent",
+  "system": {
+    "description": "As a Full-Round Action, you can beguile one or more targets of your choice within 6 squares and line of sight, making a Persuasion check against their Will Defense. If successful, the targets suffer a -5 penalty to Perception checks for one round. You can keep the targets captivated as a Full-Round Action each subsequent round, making a new Persuasion check each time. The effect immediately ends if the targets are attacked or threatened.",
+    "tree": "Influence",
+    "prerequisite": {
+      "text": "Allure talent",
+      "nodes": {
+        "text": "Allure talent",
+        "requirement": "Allure",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uAzHNgjlkNRUKam5",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

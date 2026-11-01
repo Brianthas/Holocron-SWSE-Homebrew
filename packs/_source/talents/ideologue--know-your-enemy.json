@@ -1,0 +1,27 @@
+{
+  "_id": "40W1a0AyJ41Iz94Q",
+  "_key": "!items!40W1a0AyJ41Iz94Q",
+  "name": "Know Your Enemy",
+  "type": "talent",
+  "system": {
+    "description": "You are well versed in the strengths and weaknesses of the enemies of your cause. As a Swift Action, you can select a single enemy within line of sight and make a Knowledge (Galactic Lore) check against a DC equal to 15 + the target's CL. If the check is successful, you immediately learn any two (your choice) of the following pieces of information:",
+    "tree": "Ideologue",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8i2MDQQErUyA2Y3d",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "iIb91BDFGlqKxbbZ",
+  "_key": "!items!iIb91BDFGlqKxbbZ",
+  "name": "Greater Force Talisman",
+  "type": "talent",
+  "system": {
+    "description": "You may spend a Force Point to imbue a weapon or some other portable object with The Force, creating a Talisman that provides protection to you. Creating the Talisman takes a Full-Round Action.<br><br>While you wear or carry the Talisman on your person, you gain a +1 Force bonus to all of your Defenses (Reflex Defense, Fortitude Defense, and Will Defense).<br><br>You may only have one <b>Greater Force Talisman</b> active at a given time, and if your <b>Greater Force Talisman</b> is destroyed, you may not create another <b>Greater Force Talisman</b> (or regular <b>Force Talisman</b>) for 24 hours.",
+    "tree": "Force Item",
+    "prerequisite": {
+      "text": "Force Talisman talent",
+      "nodes": {
+        "text": "Force Talisman talent",
+        "requirement": "Force Talisman",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Xn1ZsXM81G8M3zQt",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

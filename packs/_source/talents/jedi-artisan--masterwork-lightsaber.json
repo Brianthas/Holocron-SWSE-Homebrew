@@ -1,0 +1,27 @@
+{
+  "_id": "8k0Tkh2n01PkpBbf",
+  "_key": "!items!8k0Tkh2n01PkpBbf",
+  "name": "Masterwork Lightsaber",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you build a Lightsaber (see Advanced Lightsaber Construction), you do so with such expertise that it makes the Weapon even more refined and elegant. When you build a Lightsaber, you can choose to add one extra Lightsaber Accessory or Modification at the time of creation.<br><br>And, when you hit a target with a Lightsaber that you built, you can always choose to reroll one damage die from your damage roll, but you must accept the result of the reroll, even if it is worse.<br><br>In addition, you can mentor another character while they construct their own Lightsaber. When you do so, you reduce the Use the Force check DC for Advanced Lightsaber Construction by -5.",
+    "tree": "Jedi Artisan",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yHY3B38V7FJkT9Aq",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "Nux3x5HPmge21z2e",
+  "_key": "!items!Nux3x5HPmge21z2e",
+  "name": "Force Prodigy",
+  "type": "talent",
+  "system": {
+    "description": "You have an extraordinarily strong connection to The Living Force. Whenever you roll a Natural 20 on a Use the Force check, you gain one temporary Force Point. If the Force Point is not used by the end of the encounter, it is lost. You cannot take this Talent if you already possess the <b>Force Flow</b> Talent, and vice versa.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "Strong in the Force feat",
+      "nodes": {
+        "text": "Strong in the Force feat",
+        "requirement": "Strong in the Force",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zbywe1qGp2k3XvgM",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

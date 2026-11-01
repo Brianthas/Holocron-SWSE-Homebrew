@@ -1,0 +1,27 @@
+{
+  "_id": "UeAB3o0TvT5KNpJw",
+  "_key": "!items!UeAB3o0TvT5KNpJw",
+  "name": "Deep-Space Gambit",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, when you or a Vehicle you occupy are the target of an attack roll, you can force your opponent to reroll the attack. The opponent must keep the worse of the two results.",
+    "tree": "Hyperspace Explorer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LQPuCgBABsBqprH3",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

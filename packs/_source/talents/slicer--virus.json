@@ -1,0 +1,42 @@
+{
+  "_id": "YKq2B974m1vaWE2s",
+  "_key": "!items!YKq2B974m1vaWE2s",
+  "name": "Virus",
+  "type": "talent",
+  "system": {
+    "description": "You can substitute a Use Computer check for a Mechanics check when disabling a computerized device. The effort takes 1 minute and the DC is equal to the computer's Will Defense. In addition, whenever anyone accesses the afflicted computer using a Droid or another computer, that computer or Droid's Attitude immediately becomes Unfriendly.",
+    "tree": "Slicer",
+    "prerequisite": {
+      "text": "Electronic Sabotage talent, and Trained in Use Computer",
+      "nodes": {
+        "children": [
+          {
+            "text": "Electronic Sabotage talent",
+            "requirement": "Electronic Sabotage",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Use Computer",
+            "requirement": "Use Computer",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Electronic Sabotage talent, and Trained in Use Computer",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "klOx64hk1vC13p0h",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

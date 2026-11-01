@@ -1,0 +1,31 @@
+{
+  "_id": "ZZyNAOvAkGcog2iM",
+  "_key": "!items!ZZyNAOvAkGcog2iM",
+  "name": "Stay in the Fight",
+  "type": "talent",
+  "system": {
+    "description": "If you successfully use <b>Recruit Enemy</b> on a target and that target can catch a Second Wind, the target can do so immediately as a Reaction.",
+    "tree": "Rebel Recruiter",
+    "prerequisite": {
+      "text": "Recruit Enemy talent",
+      "nodes": {
+        "text": "Recruit Enemy talent",
+        "requirement": "Recruit Enemy",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "G8gGYitNS0QlvpsQ",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

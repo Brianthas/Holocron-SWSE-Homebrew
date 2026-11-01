@@ -1,0 +1,27 @@
+{
+  "_id": "Zlx16NIekMUb2gJa",
+  "_key": "!items!Zlx16NIekMUb2gJa",
+  "name": "Mind Probe",
+  "type": "talent",
+  "system": {
+    "description": "When you touch a living creature with an Intelligence score of 3 or higher, you can use The Force to probe its mind for secrets. You must be adjacent to the target, and using the <b>Mind Probe</b> is a Full-Round Action. If the target is unwilling, you must succeed on a Use the Force check, equaling or exceeding the target's Will Defense. This ability otherwise functions exactly as the Gather Information skill's Learn News and Rumors, Learn Secret Information, and Locate Individual applications.<br><br>Your Use the Force check must still exceed the base Gather Information skill DCs in order to retrieve the information you seek, but you need not pay anything in bribes, and you retrieve the information as a part of the Full-Round Action. Failing the Skill Check by 5 or more does not cause someone to notice that you are seeking the information.",
+    "tree": "Telepath",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0rz9x6mL82o1hJJN",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

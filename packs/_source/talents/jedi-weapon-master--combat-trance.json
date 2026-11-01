@@ -1,0 +1,31 @@
+{
+  "_id": "2lXPZcrS6ZGi8sXr",
+  "_key": "!items!2lXPZcrS6ZGi8sXr",
+  "name": "Combat Trance",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use the <i>Battle Strike</i> Force Power, you gain the Force Power's bonus on attack rolls on your first melee attack made each round until the end of the encounter. If you do not attack in a round, this effect ends.",
+    "tree": "Jedi Weapon Master",
+    "prerequisite": {
+      "text": "Battle Strike force power",
+      "nodes": {
+        "text": "Battle Strike force power",
+        "requirement": "Battle Strike",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BFADZIFJrDHogIBj",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

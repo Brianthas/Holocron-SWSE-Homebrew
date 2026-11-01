@@ -1,0 +1,31 @@
+{
+  "_id": "UU9vgizle5RSvlmQ",
+  "_key": "!items!UU9vgizle5RSvlmQ",
+  "name": "Advanced Intel",
+  "type": "talent",
+  "system": {
+    "description": "If you are not Surprised at the beginning of combat, you can use the <b>Spotter</b> talent as a Free Action on your first turn, including during the Surprise Round.",
+    "tree": "Surveillance",
+    "prerequisite": {
+      "text": "Spotter talent",
+      "nodes": {
+        "text": "Spotter talent",
+        "requirement": "Spotter",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9o2cohBsBYaKihGB",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

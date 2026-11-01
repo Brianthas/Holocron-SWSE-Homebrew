@@ -1,0 +1,42 @@
+{
+  "_id": "VghXH3HTtI1jhSup",
+  "_key": "!items!VghXH3HTtI1jhSup",
+  "name": "Armored Augmentation II",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use the <b>Armored Augmentation I</b> Talent, you also gain Damage Reduction equal to 2 x your Armor's Equipment bonus to your Fortitude Defense.",
+    "tree": "Knight's Armor",
+    "prerequisite": {
+      "text": "Armor Proficiency feat, and Armored Augmentation I talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Armor Proficiency feat",
+            "requirement": "Armor Proficiency",
+            "type": "FEAT"
+          },
+          {
+            "text": "Armored Augmentation I talent",
+            "requirement": "Armored Augmentation I",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Armor Proficiency feat, and Armored Augmentation I talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YNVxNyT0TFpYtvNS",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "LM1iBgv53wAjIDz5",
+  "_key": "!items!LM1iBgv53wAjIDz5",
+  "name": "Detective",
+  "type": "talent",
+  "system": {
+    "description": "You are skilled in locating individuals and using research and surveillance to learn some of their most intimate secrets. When you make a Gather Information check to locate an individual, the DC is reduced by 10, and the time and bribery cost are reduced by half.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "N5yUlio9bD5ROI4N",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

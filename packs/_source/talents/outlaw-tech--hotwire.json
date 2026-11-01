@@ -1,0 +1,31 @@
+{
+  "_id": "s28TXscKlVuGEFHv",
+  "_key": "!items!s28TXscKlVuGEFHv",
+  "name": "Hotwire",
+  "type": "talent",
+  "system": {
+    "description": "You can use your Mechanics check modifier instead of your Use Computer check modifier when making Use Computer checks to Improve Access. You are considered Trained in the Use Computer skill for the purposes of using this Talent. If you are entitled to a Use Computer check reroll, you may reroll your Mechanics check instead (subject to the same circumstances and limitations).",
+    "tree": "Outlaw Tech",
+    "prerequisite": {
+      "text": "Trained in Mechanics",
+      "nodes": {
+        "text": "Trained in Mechanics",
+        "requirement": "Mechanics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5h7tDE81NiBBtNE6",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

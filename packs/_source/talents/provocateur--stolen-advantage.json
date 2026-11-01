@@ -1,0 +1,31 @@
+{
+  "_id": "74Ndxn3ndFDOatq9",
+  "_key": "!items!74Ndxn3ndFDOatq9",
+  "name": "Stolen Advantage",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an enemy within your line of sight uses the Aid Another Action to grant one of its allies a bonus, you can (as a Reaction) designate one ally within your line of sight. The enemy automatically fails to aid its ally, and the ally you designate gains a +2 bonus on its next attack roll made before the end of your next turn.",
+    "tree": "Provocateur",
+    "prerequisite": {
+      "text": "Cast Suspicion talent",
+      "nodes": {
+        "text": "Cast Suspicion talent",
+        "requirement": "Cast Suspicion",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "y5Cm4ix9KKPEiRHT",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

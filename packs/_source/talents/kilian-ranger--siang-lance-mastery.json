@@ -1,0 +1,31 @@
+{
+  "_id": "ZKOgiC7HhaZmDEx4",
+  "_key": "!items!ZKOgiC7HhaZmDEx4",
+  "name": "Siang Lance Mastery",
+  "type": "talent",
+  "system": {
+    "description": "You treat a Siang Lance as a Rifle instead of as an Exotic Weapon (Ranged). Additionally, you gain a +1 bonus to attack rolls with a Siang Lance. This Talent counts as the Weapon Focus (Siang Lance) feat for the purpose of satisfying prerequisites.<br><br>If you also have the Weapon Focus (Rifles) feat, the attack bonus provided by this Talent does not stack with the attack bonus provided by Weapon Focus (Rifles).",
+    "tree": "Kilian Ranger",
+    "prerequisite": {
+      "text": "a member of The Kilian Rangers",
+      "nodes": {
+        "text": "a member of The Kilian Rangers",
+        "requirement": "The Kilian Rangers",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yWTY5fJBeEEWKlPH",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

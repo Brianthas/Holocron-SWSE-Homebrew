@@ -1,0 +1,27 @@
+{
+  "_id": "CeqfyNerqZoc4vy7",
+  "_key": "!items!CeqfyNerqZoc4vy7",
+  "name": "Battle Meditation",
+  "type": "talent",
+  "system": {
+    "description": "The Jedi technique known as <b>Battle Meditation</b> allows you and your allies to work together seamlessly and with a level of precision that can only come from The Force. As a Full-Round Action, you can spend a Force Point to give you and all allies within 6 squares of you a +1 insight bonus on attack rolls that lasts until the end of the encounter.<br><br>This bonus does not extend to allies outside the range of the effect, even if they move within 6 squares of you later on. Allies who benefit from the <b>Battle Meditation</b> must remain within 6 squares of you to retain the insight bonus, and they lose it if you are knocked unconscious or killed. This is a Mind-Affecting effect.<br><br>This affects all allied Gunners within 6 squares at Starship Scale.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OVlSrxuZRd4Tf8Yf",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

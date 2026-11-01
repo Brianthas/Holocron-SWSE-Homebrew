@@ -1,0 +1,31 @@
+{
+  "_id": "W43E8bc37NbQVCo1",
+  "_key": "!items!W43E8bc37NbQVCo1",
+  "name": "Soothe",
+  "type": "talent",
+  "system": {
+    "description": "When using <i>Vital Transfer</i> to heal somebody, you can move the target +1 step on the Condition Track instead of healing damage. When doing so, you move -1 step on the Condition Track.",
+    "tree": "Jedi Healer",
+    "prerequisite": {
+      "text": "Vital Transfer force power",
+      "nodes": {
+        "text": "Vital Transfer force power",
+        "requirement": "Vital Transfer",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PEciyUI70AF6J98K",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

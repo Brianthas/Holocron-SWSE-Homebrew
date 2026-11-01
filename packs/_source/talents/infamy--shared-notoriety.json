@@ -1,0 +1,31 @@
+{
+  "_id": "4AT2Nl9aLsuQMHhi",
+  "_key": "!items!4AT2Nl9aLsuQMHhi",
+  "name": "Shared Notoriety",
+  "type": "talent",
+  "system": {
+    "description": "When your Minions invoke your name, others take note. If you have Minions, they may reroll any Persuasion checks made to intimidate others, but the result of the reroll must be accepted, even if it is worse.",
+    "tree": "Infamy",
+    "prerequisite": {
+      "text": "Notorious (Infamy Talent Tree) talent",
+      "nodes": {
+        "text": "Notorious (Infamy Talent Tree) talent",
+        "requirement": "Notorious (Infamy Talent Tree)",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GYDA4axqwL19wp1f",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

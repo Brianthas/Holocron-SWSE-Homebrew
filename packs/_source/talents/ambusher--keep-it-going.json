@@ -1,0 +1,31 @@
+{
+  "_id": "QL8TmFPdeYwalzQD",
+  "_key": "!items!QL8TmFPdeYwalzQD",
+  "name": "Keep It Going",
+  "type": "talent",
+  "system": {
+    "description": "If you reduce your Prime Target to 0 Hit Points, as a Free Action you can designate another target within your line of sight as your new Prime Target. This new target remains your Prime Target until the end of the encounter.",
+    "tree": "Ambusher",
+    "prerequisite": {
+      "text": "Ambush Specialist talent",
+      "nodes": {
+        "text": "Ambush Specialist talent",
+        "requirement": "Ambush Specialist",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9WvNr6F2o5P3HAlD",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

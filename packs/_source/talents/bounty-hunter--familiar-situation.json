@@ -1,0 +1,31 @@
+{
+  "_id": "dul203cJRCac4dhE",
+  "_key": "!items!dul203cJRCac4dhE",
+  "name": "Familiar Situation",
+  "type": "talent",
+  "system": {
+    "description": "You can apply your Familiar Foe bonus to your Fortitude Defense and Will Defense against attacks and actions taken against you by the target of your Familiar Foe special quality.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "Familiar Foe",
+      "nodes": {
+        "text": "Familiar Foe",
+        "requirement": "Familiar Foe",
+        "type": "TRAIT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xCeDCntCv5lnldMV",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

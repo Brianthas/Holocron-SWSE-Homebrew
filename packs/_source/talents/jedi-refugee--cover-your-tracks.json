@@ -1,0 +1,27 @@
+{
+  "_id": "fQq2Wha4RjBuOePw",
+  "_key": "!items!fQq2Wha4RjBuOePw",
+  "name": "Cover Your Tracks",
+  "type": "talent",
+  "system": {
+    "description": "You are adept at living beneath society's radar. Anyone who attempts to locate you using the Gather Information skill suffers a -5 penalty on their Gather Information checks.",
+    "tree": "Jedi Refugee",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "EbNJJN0ROl9vbJSB",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

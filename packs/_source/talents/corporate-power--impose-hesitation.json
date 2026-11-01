@@ -1,0 +1,27 @@
+{
+  "_id": "WG9MsBi8udJ0JCgy",
+  "_key": "!items!WG9MsBi8udJ0JCgy",
+  "name": "Impose Hesitation",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, make a Persuasion check targeting all opponents within a 6-Square Cone. If you equal or exceed the target's Will Defense, the target loses a Swift Action on its next turn, and cannot take Full-Round Actions.<br><br>Targets need to see, hear, and understand you to be affected by this attack. This is a Mind-Affecting effect.",
+    "tree": "Corporate Power",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hMyBFp0Vi8HkLXgy",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

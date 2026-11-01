@@ -1,0 +1,31 @@
+{
+  "_id": "YQwrPoaT00siJ1eL",
+  "_key": "!items!YQwrPoaT00siJ1eL",
+  "name": "Drain Force",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Reaction when you damage a Force-sensitive opponent, the dark taint of your power allows you to sap some of the opponent's strength, and convert it to personal power, regaining one spent Force Power. Additionally, the target loses one Force Point.",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "Affliction talent",
+      "nodes": {
+        "text": "Affliction talent",
+        "requirement": "Affliction",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LSJ1QEyQbfUT6DjQ",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "EfRFs7V0p59g6tZp",
+  "_key": "!items!EfRFs7V0p59g6tZp",
+  "name": "Crippling Hit",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you make an attack that causes a Vehicle to move -1 or more steps down the Condition Track, you may also cause it to lose one of the following systems: Hyperdrive, one Weapon System or Weapon Battery, or communications.<br><br>The system remains inoperable until the target regains all steps on the Condition Track.",
+    "tree": "Gunner",
+    "prerequisite": {
+      "text": "Expert Gunner talent, and System Hit talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Expert Gunner talent",
+            "requirement": "Expert Gunner",
+            "type": "TALENT"
+          },
+          {
+            "text": "System Hit talent",
+            "requirement": "System Hit",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Expert Gunner talent, and System Hit talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HuFzBcv8wWvK4H33",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

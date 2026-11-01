@@ -1,0 +1,27 @@
+{
+  "_id": "gwGr7MFQH3qLZo3l",
+  "_key": "!items!gwGr7MFQH3qLZo3l",
+  "name": "Expert Shaper",
+  "type": "talent",
+  "system": {
+    "description": "You may reroll any Treat Injury check made to repair or modify a Biotech object, but the result of the reroll must be accepted, even if it is worse.",
+    "tree": "Shaper",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "F64HkAs00G9tfGw5",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

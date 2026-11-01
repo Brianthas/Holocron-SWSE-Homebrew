@@ -1,0 +1,31 @@
+{
+  "_id": "zbDVtrAG1beJlh1Y",
+  "_key": "!items!zbDVtrAG1beJlh1Y",
+  "name": "Blaster Turret II",
+  "type": "talent",
+  "system": {
+    "description": "<p>Your Turret's capabilities become: Size Tiny, Initiative +8, Perception +8, Reflex Defense 18 + INT, HP is 15 + LVL, attack equal to BAB + INT + 2, and dealing 3d8 + INT damage. The Turret can be directed by a remote control at a range of 12 squares.</p>",
+    "tree": "Turret",
+    "prerequisite": {
+      "text": "Blaster Turret I talent",
+      "nodes": {
+        "text": "Blaster Turret I talent",
+        "requirement": "Blaster Turret I",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "T3ZHdLrDUej68K6L",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

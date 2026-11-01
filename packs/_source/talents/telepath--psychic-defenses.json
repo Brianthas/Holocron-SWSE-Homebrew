@@ -1,0 +1,31 @@
+{
+  "_id": "KpZKrgh8bJDaq4sk",
+  "_key": "!items!KpZKrgh8bJDaq4sk",
+  "name": "Psychic Defenses",
+  "type": "talent",
+  "system": {
+    "description": "Whenever another creature targets you with a Force Power with the [<i>Mind-Affecting</i>] descriptor, it automatically takes Force damage equal to 1d6 x your Wisdom modifier (minimum x1).",
+    "tree": "Telepath",
+    "prerequisite": {
+      "text": "Psychic Citadel talent",
+      "nodes": {
+        "text": "Psychic Citadel talent",
+        "requirement": "Psychic Citadel",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AkT5eHAvjexVhgsn",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

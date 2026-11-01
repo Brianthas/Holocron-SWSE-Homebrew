@@ -1,0 +1,27 @@
+{
+  "_id": "uQ8o5jlcFCtlHyIj",
+  "_key": "!items!uQ8o5jlcFCtlHyIj",
+  "name": "Blend In",
+  "type": "talent",
+  "system": {
+    "description": "You know the tricks of body language and movement that allow you to disguise your appearance without elaborate materials or efforts.<br><br>You can use your Stealth modifier in place of your Deception modifier for the purpose of creating a Deceptive Appearance. You are considered Trained in Deception skill for the purpose of using this Talent. If you are entitled to a Deception check reroll, you can reroll your Stealth check instead (subject to the same circumstances and conditions).",
+    "tree": "Spy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qjyfYDQLXTL1aopr",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

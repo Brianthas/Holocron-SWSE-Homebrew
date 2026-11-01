@@ -1,0 +1,31 @@
+{
+  "_id": "OXx3C8FljKBUCi7a",
+  "_key": "!items!OXx3C8FljKBUCi7a",
+  "name": "Feared Warrior",
+  "type": "talent",
+  "system": {
+    "description": "Your abilities on the battlefield are well known and feared. When you reduce an opponent to 0 Hit Points with an attack, you can make a Persuasion check as a Free Action against all targets within 6 squares. If your Persuasion check exceeds the target's Will Defense, that target takes a -2 penalty on attack rolls for the remainder of the encounter.<br><br>This Talent affects any given target only once per encounter. This is a Mind-Affecting Fear effect.",
+    "tree": "Mercenary",
+    "prerequisite": {
+      "text": "Commanding Presence (Mercenary Talent Tree) talent",
+      "nodes": {
+        "text": "Commanding Presence (Mercenary Talent Tree) talent",
+        "requirement": "Commanding Presence (Mercenary Talent Tree)",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0ex88RTtUg5ncwpR",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

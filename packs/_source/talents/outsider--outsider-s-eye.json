@@ -1,0 +1,31 @@
+{
+  "_id": "wmguV5Z21WUtV0JT",
+  "_key": "!items!wmguV5Z21WUtV0JT",
+  "name": "Outsider's Eye",
+  "type": "talent",
+  "system": {
+    "description": "Your status as an outsider gives you an objective view of enemies and acquaintances. Once per encounter, you can make a DC 20 Perception check as a Standard Action. If the check is successful, you gain your choice of one of the following pieces of information:",
+    "tree": "Outsider",
+    "prerequisite": {
+      "text": "Trained in Perception",
+      "nodes": {
+        "text": "Trained in Perception",
+        "requirement": "Perception",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DVDfTSYG21bF0EtL",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

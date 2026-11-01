@@ -1,0 +1,27 @@
+{
+  "_id": "gFkXDdzhVKG2khdX",
+  "_key": "!items!gFkXDdzhVKG2khdX",
+  "name": "Long Stride",
+  "type": "talent",
+  "system": {
+    "description": "Your Speed increases by 2 squares if you are wearing Light Armor or no Armor. If you have a natural Fly, Climb, or Swim Speed, it increases by 2 squares as well.<br><br>You cannot use this Talent if you are wearing Medium Armor or Heavy Armor.",
+    "tree": "Fringer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wafoO5U68msTiURJ",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

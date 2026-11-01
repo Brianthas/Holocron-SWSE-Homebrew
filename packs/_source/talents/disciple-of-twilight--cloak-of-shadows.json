@@ -1,0 +1,31 @@
+{
+  "_id": "suHB4HgRhLmb0918",
+  "_key": "!items!suHB4HgRhLmb0918",
+  "name": "Cloak of Shadows",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point as a Swift Action to bend light around you, veiling yourself in shadows. Until the end of the encounter, whenever you move and end your movement at least 3 squares away from your starting position, you gain Concealment from all targets until the beginning of your next turn.",
+    "tree": "Disciple of Twilight",
+    "prerequisite": {
+      "text": "a member of The Disciples of Twilight",
+      "nodes": {
+        "text": "a member of The Disciples of Twilight",
+        "requirement": "The Disciples of Twilight",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dY6uiPcuhbF3oqvT",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

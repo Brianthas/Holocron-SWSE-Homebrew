@@ -1,0 +1,27 @@
+{
+  "_id": "3efIb5yajUSw0MiM",
+  "_key": "!items!3efIb5yajUSw0MiM",
+  "name": "Concentrate All Fire",
+  "type": "talent",
+  "system": {
+    "description": "When you use the Aid Another Action to aid an ally's attack roll with a Vehicle Weapon, if the attack hits, it deals +1 die of damage. Any ally can only benefit from this Talent once per attack roll, regardless of how many allies with this Talent aid on the attack.",
+    "tree": "Wingman",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RnAz41JEGh42XIMw",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

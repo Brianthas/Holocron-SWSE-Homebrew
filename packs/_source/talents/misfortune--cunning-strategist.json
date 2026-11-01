@@ -1,0 +1,42 @@
+{
+  "_id": "kU7K23I6rI6zh9JD",
+  "_key": "!items!kU7K23I6rI6zh9JD",
+  "name": "Cunning Strategist",
+  "type": "talent",
+  "system": {
+    "description": "You can create opportunities to chip away at our opponents' defenses. You can use each of the following actions once per encounter as a Standard Action:",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "Disruptive talent, and Walk the Line talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Disruptive talent",
+            "requirement": "Disruptive",
+            "type": "TALENT"
+          },
+          {
+            "text": "Walk the Line talent",
+            "requirement": "Walk the Line",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Disruptive talent, and Walk the Line talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wWOfoiaLx08XkP5P",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "80ZUbnOfTayoTSFj",
+  "_key": "!items!80ZUbnOfTayoTSFj",
+  "name": "Tactical Superiority",
+  "type": "talent",
+  "system": {
+    "description": "Spend two Swift Actions to select two allies. Each ally can move 2 squares as a Reaction. This movement does not provoke Attacks of Opportunity.",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eejedQHpZ1uVGCx3",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

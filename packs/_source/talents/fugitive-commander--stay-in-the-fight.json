@@ -1,0 +1,31 @@
+{
+  "_id": "0wtAGGvDfErcbIhm",
+  "_key": "!items!0wtAGGvDfErcbIhm",
+  "name": "Stay in the Fight",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you remove one Mind-Affecting or Fear effect currently affecting an ally within 12 squares of you and in your line of sight. When you do so, you also grant the target a number of bonus Hit Points equal to 10 + your Class Level.",
+    "tree": "Fugitive Commander",
+    "prerequisite": {
+      "text": "Stalwart Subordinates talent",
+      "nodes": {
+        "text": "Stalwart Subordinates talent",
+        "requirement": "Stalwart Subordinates",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TPmeerVgUD741A6y",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

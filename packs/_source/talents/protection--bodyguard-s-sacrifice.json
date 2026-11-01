@@ -1,0 +1,27 @@
+{
+  "_id": "DZ7Od8myQPoyiD0u",
+  "_key": "!items!DZ7Od8myQPoyiD0u",
+  "name": "Bodyguard's Sacrifice",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction, you can interfere with any successful attack against an adjacent ally. You can choose to take any or all of that attack's damage, and the remainder is dealt to the target as normal. Once you use this Talent, you may not use it again until the end of your next turn.",
+    "tree": "Protection",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "URivX4ZAcBTIYx1T",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

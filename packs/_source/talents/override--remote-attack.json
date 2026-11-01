@@ -1,0 +1,27 @@
+{
+  "_id": "N6o5SD0T5nFrJHCG",
+  "_key": "!items!N6o5SD0T5nFrJHCG",
+  "name": "Remote Attack",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you allow one Droid that can hear and understand you to make a melee or ranged attack. The Droid can replace its relevant Ability Score modifier to its attack roll with your Intelligence modifier.",
+    "tree": "Override",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xFcZBnD06olnD9ea",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

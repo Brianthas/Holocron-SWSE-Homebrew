@@ -1,0 +1,31 @@
+{
+  "_id": "1wTxfOc8JQIxH4PF",
+  "_key": "!items!1wTxfOc8JQIxH4PF",
+  "name": "Cause Mutation",
+  "type": "talent",
+  "system": {
+    "description": "You can use your mastery of <b>Sith Alchemy</b> to create mutated abominations. You must have access to a willing (or unconscious) creature to which you will apply the Sith Abomination Template or the Chrysalis Beast Template. You also need a medical lab outfitted for the process, which requires a number of days equal to creature's modified CL. You must spend a Force Point at the completion of the process to complete the transformation. A creature you have mutated is considered to be a domesticated creature, but for you only (unless it was already a domesticated creature before its mutation).",
+    "tree": "Sith Alchemy",
+    "prerequisite": {
+      "text": "Sith Alchemy (Sith Alchemy Talent Tree) talent",
+      "nodes": {
+        "text": "Sith Alchemy (Sith Alchemy Talent Tree) talent",
+        "requirement": "Sith Alchemy (Sith Alchemy Talent Tree)",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4008aQYLDwq7q8Dd",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

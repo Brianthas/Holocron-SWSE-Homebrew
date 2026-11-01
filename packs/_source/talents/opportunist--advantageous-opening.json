@@ -1,0 +1,27 @@
+{
+  "_id": "h9pcXt60BZGYBcjQ",
+  "_key": "!items!h9pcXt60BZGYBcjQ",
+  "name": "Advantageous Opening",
+  "type": "talent",
+  "system": {
+    "description": "When an enemy or ally in your line of sight rolls a Natural 1 on an attack roll, you can make a melee or ranged attack against a single target within Range.",
+    "tree": "Opportunist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8aew4U0l9BCATM59",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

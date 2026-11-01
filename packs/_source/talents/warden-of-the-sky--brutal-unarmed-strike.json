@@ -1,0 +1,31 @@
+{
+  "_id": "eEudy51lgKjlU4af",
+  "_key": "!items!eEudy51lgKjlU4af",
+  "name": "Brutal Unarmed Strike",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you roll the damage for an Unarmed attack, you reroll any dice that come up with a result of 1.",
+    "tree": "Warden of the Sky",
+    "prerequisite": {
+      "text": "a member of The Wardens of the Sky",
+      "nodes": {
+        "text": "a member of The Wardens of the Sky",
+        "requirement": "The Wardens of the Sky",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AvgbePLLTIGsfACZ",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

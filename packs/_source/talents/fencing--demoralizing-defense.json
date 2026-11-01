@@ -1,0 +1,31 @@
+{
+  "_id": "h2EfraJgTRga5hO2",
+  "_key": "!items!h2EfraJgTRga5hO2",
+  "name": "Demoralizing Defense",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction, you can designate an enemy you have just hit with a melee attack. The enemy takes only half damage from the attack, but takes a -5 penalty on attacks made against you until the end of your next turn. A single target may only be affected by this Talent once per round. This is a Mind-Affecting effect.",
+    "tree": "Fencing",
+    "prerequisite": {
+      "text": "Noble Fencing Style talent",
+      "nodes": {
+        "text": "Noble Fencing Style talent",
+        "requirement": "Noble Fencing Style",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "m0mExTzWQhYVui1v",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

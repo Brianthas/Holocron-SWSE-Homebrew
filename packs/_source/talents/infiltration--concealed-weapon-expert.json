@@ -1,0 +1,27 @@
+{
+  "_id": "bx1A1wr12LJn5get",
+  "_key": "!items!bx1A1wr12LJn5get",
+  "name": "Concealed Weapon Expert",
+  "type": "talent",
+  "system": {
+    "description": "You are deadly with an Unarmed strike, Hold-Out Blaster Pistol, Knife, Vibrodagger, or other small concealable weapons (as determined by the Gamemaster). Once per round you can use a Swift Action to reroll an attack using one of these weapons, but you must accept the result of the reroll, even if it is worse.",
+    "tree": "Infiltration",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uu97614b6KUHNDak",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

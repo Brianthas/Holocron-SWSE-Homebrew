@@ -1,0 +1,27 @@
+{
+  "_id": "Zzk7EfjzVGBbfA0n",
+  "_key": "!items!Zzk7EfjzVGBbfA0n",
+  "name": "Helpful",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn you can use the Aid Another Action to assist any adjacent ally on a Skill Check as a Swift Action instead of a Standard Action.",
+    "tree": "3rd-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MVQJofGqC0GQmLHu",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

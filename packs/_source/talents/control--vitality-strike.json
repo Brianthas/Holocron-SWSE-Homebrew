@@ -1,0 +1,27 @@
+{
+  "_id": "25o3XZ6reMrSeO8r",
+  "_key": "!items!25o3XZ6reMrSeO8r",
+  "name": "Vitality Strike",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you score a Critical Hit on an attack, you gain Bonus Hit Points equal to your Character Level. Bonus Hit Points are consumed before normal Hit Points, and unused Bonus Hit Points go away at the end of the encounter. Bonus Hit Points from multiple sources do not stack.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Im0ySLtxg70UdrRe",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

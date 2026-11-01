@@ -1,0 +1,31 @@
+{
+  "_id": "VnStGmDt9e2sD6Rm",
+  "_key": "!items!VnStGmDt9e2sD6Rm",
+  "name": "Force Cloak Mastery",
+  "type": "talent",
+  "system": {
+    "description": "As the <b>Force Cloak</b> Talent, except you can expand the bubble to envelop a number of creatures (including yourself) equal to your Character Level.",
+    "tree": "Jensaarai Defender",
+    "prerequisite": {
+      "text": "a member of The Jensaarai",
+      "nodes": {
+        "text": "a member of The Jensaarai",
+        "requirement": "The Jensaarai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8Lq06Cah5OeTp7qo",
+      "sourceBook": ""
+    }
+  }
+}

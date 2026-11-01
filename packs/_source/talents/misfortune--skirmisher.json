@@ -1,0 +1,27 @@
+{
+  "_id": "U6EalXY5zpJyV1xN",
+  "_key": "!items!U6EalXY5zpJyV1xN",
+  "name": "Skirmisher",
+  "type": "talent",
+  "system": {
+    "description": "If you move at least 2 squares before you attack and end your move in a different square from where you started, you gain a +1 bonus on attack rolls until the start of your next turn. You gain the benefit of this Talent with Weapon Systems only if you are the Vehicle's Pilot.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0zwgZTq9nEXj8i3N",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

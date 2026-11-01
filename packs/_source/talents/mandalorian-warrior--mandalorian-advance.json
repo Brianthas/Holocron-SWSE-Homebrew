@@ -1,0 +1,27 @@
+{
+  "_id": "j5EDaG0u8ZjJFnIG",
+  "_key": "!items!j5EDaG0u8ZjJFnIG",
+  "name": "Mandalorian Advance",
+  "type": "talent",
+  "system": {
+    "description": "Veteran Mandalorians know how to move on the battlefield. Once per encounter, on your turn, you can Move up to your Speed as a Free Action before any other Action.",
+    "tree": "Mandalorian Warrior",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7MxyZuugD2VgEUrH",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

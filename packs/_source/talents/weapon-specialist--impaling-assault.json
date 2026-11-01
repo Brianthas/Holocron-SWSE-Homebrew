@@ -1,0 +1,43 @@
+{
+  "_id": "UwGl6cYo2PPBrlit",
+  "_key": "!items!UwGl6cYo2PPBrlit",
+  "name": "Impaling Assault",
+  "type": "talent",
+  "system": {
+    "description": "You can hit your opponents to slow them down. Whenever you successfully damage an opponent using a Piercing weapon that you have the <b>Weapon Specialization</b> Talent for, your opponent reduces its speed by 2 squares until the end of your next turn. The effects of multiple <b>Impaling Assaults</b> do not stack.",
+    "tree": "Weapon Specialist",
+    "prerequisite": {
+      "text": "Weapon Specialization (any weapon)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Weapon Specialization (any weapon) talent",
+            "requirement": "Weapon Specialization (Any)",
+            "type": "TALENT"
+          },
+          {
+            "text": "Weapon Specialization (any weapon) feat",
+            "requirement": "Weapon Specialization (Any)",
+            "type": "FEAT"
+          }
+        ],
+        "count": 1,
+        "text": "Weapon Specialization (any weapon)",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "braI4SnDaQUKHQzN",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

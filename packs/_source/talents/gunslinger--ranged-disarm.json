@@ -1,0 +1,27 @@
+{
+  "_id": "p8DJ8y9zwPdEIhYd",
+  "_key": "!items!p8DJ8y9zwPdEIhYd",
+  "name": "Ranged Disarm",
+  "type": "talent",
+  "system": {
+    "description": "You can Disarm an opponent using a ranged attack. If your ranged Disarm attack fails, your opponent doesn't get to make a free attack against you.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6j9hdZFTz7VMoo4F",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

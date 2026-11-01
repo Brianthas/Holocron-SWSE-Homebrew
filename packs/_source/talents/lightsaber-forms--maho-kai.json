@@ -1,0 +1,47 @@
+{
+  "_id": "SJa8IRf9cKPptsqh",
+  "_key": "!items!SJa8IRf9cKPptsqh",
+  "name": "Maho-Kai",
+  "type": "talent",
+  "system": {
+    "description": "<i>Maho-Kai Lightsaber Form Talent created by Wikia user SirenEyes.</i><br><br>Whenever you make multiple attacks with any type of&nbsp;Lightsaber&nbsp;as part of a Full Attack, you may choose to forgo an attack and instead activate a Force Power that requires a&nbsp;Standard Action&nbsp;or&nbsp;Move Action to activate. When activating a Force Power in this manner, apply the attack roll penalty to the Use the Force check to activate the Force Power. You may only activate one Force Power in this manner each Round.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "Double Attack (Lightsabers), Skill Focus (Use the Force), and Base Attack Bonus 12",
+      "nodes": {
+        "children": [
+          {
+            "text": "Double Attack (Lightsabers)",
+            "requirement": "Double Attack (Lightsabers)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Skill Focus (Use the Force)",
+            "requirement": "Skill Focus (Use the Force)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 12",
+            "requirement": "12",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Double Attack (Lightsabers), Skill Focus (Use the Force), and Base Attack Bonus 12",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "F81Eo5ZE47udN6MI",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - The Dark Side"
+    }
+  }
+}

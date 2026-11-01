@@ -1,0 +1,31 @@
+{
+  "_id": "DiXo1ljrsX4jANv0",
+  "_key": "!items!DiXo1ljrsX4jANv0",
+  "name": "Hidden Attacker",
+  "type": "talent",
+  "system": {
+    "description": "Your shots seem to come from nowhere. Whenever you use the Snipe application of the Stealth skill, you do so as a Swift Action instead of a Move Action.",
+    "tree": "Hyperspace Explorer",
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "nodes": {
+        "text": "Trained in Stealth",
+        "requirement": "Stealth",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Oiax2LAe6wUMJiAk",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

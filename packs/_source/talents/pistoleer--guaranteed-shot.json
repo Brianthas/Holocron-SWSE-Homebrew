@@ -1,0 +1,31 @@
+{
+  "_id": "fYJGzhYBqzWsV7xD",
+  "_key": "!items!fYJGzhYBqzWsV7xD",
+  "name": "Guaranteed Shot",
+  "type": "talent",
+  "system": {
+    "description": "If you are wielding two Pistols and make a single ranged attack with one of those Pistols as a Standard Action, even if you miss you deal damage equal to half your Heroic Level to the target. This consumes a single shot from the weapon not making the attack, and the weapon you attack with uses as many shots required by the attack.",
+    "tree": "Pistoleer",
+    "prerequisite": {
+      "text": "Dual Weapon Mastery I feat",
+      "nodes": {
+        "text": "Dual Weapon Mastery I feat",
+        "requirement": "Dual Weapon Mastery I",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ulC9NgL9ojO44rGD",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "ZcFVd3Mfec5mUJCR",
+  "_key": "!items!ZcFVd3Mfec5mUJCR",
+  "name": "Insightful Aim",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point as a Swift Action to substitute your Use the Force modifier for your ranged attack bonus when making attacks with a ranged weapon until the beginning of your next turn.",
+    "tree": "Agent of Ossus",
+    "prerequisite": {
+      "text": "a member of The Agents of Ossus",
+      "nodes": {
+        "text": "a member of The Agents of Ossus",
+        "requirement": "The Agents of Ossus",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XZHCLConGm9wUtuo",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

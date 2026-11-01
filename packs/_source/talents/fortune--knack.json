@@ -1,0 +1,27 @@
+{
+  "_id": "9x36MPEICESlEE7a",
+  "_key": "!items!9x36MPEICESlEE7a",
+  "name": "Knack",
+  "type": "talent",
+  "system": {
+    "description": "Once per day, you can reroll a Skill Check and take the better result. You can select this Talent multiple times; each time you select this Talent, you can use it one additional time per day.",
+    "tree": "Fortune",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "EKwLIsEAbDXYFRD8",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

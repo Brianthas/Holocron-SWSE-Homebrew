@@ -1,0 +1,27 @@
+{
+  "_id": "rdAfO9AbDkaaOBbc",
+  "_key": "!items!rdAfO9AbDkaaOBbc",
+  "name": "Force Absorb",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you successfully negate a Force Power using the <i>Rebuke</i> power, you immediately gain one temporary Force Point which can only be used to regain a spent Force Power or to activate a Force Talent.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "42P6qVBQwtGd8v4Z",
+      "sourceBook": "Dark Forces Campaign Guide"
+    }
+  }
+}

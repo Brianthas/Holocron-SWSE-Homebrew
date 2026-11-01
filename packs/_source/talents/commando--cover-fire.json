@@ -1,0 +1,31 @@
+{
+  "_id": "cQciaXLKOferypOR",
+  "_key": "!items!cQciaXLKOferypOR",
+  "name": "Cover Fire",
+  "type": "talent",
+  "system": {
+    "description": "When you make a ranged attack with a Pistol or Rifle, all allies within 6 squares of you when you made the attack gain a +1 bonus to Reflex Defense until the start of your next turn. Allies within range don't need to be within your line of sight to gain the bonus.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "Battle Analysis talent",
+      "nodes": {
+        "text": "Battle Analysis talent",
+        "requirement": "Battle Analysis",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vnBAppyqHDRdXMhx",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

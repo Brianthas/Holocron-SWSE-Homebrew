@@ -1,0 +1,31 @@
+{
+  "_id": "JAylwc05GH1iluBZ",
+  "_key": "!items!JAylwc05GH1iluBZ",
+  "name": "Believer Intuition",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction, when an opponent successfully attacks you, make a Use the Force check and compare the result to your opponent's attack roll. If the check equals or exceeds the result of the attack roll, you can add your Charisma modifier to your Reflex Defense.",
+    "tree": "Believer Disciple",
+    "prerequisite": {
+      "text": "a member of The Believers",
+      "nodes": {
+        "text": "a member of The Believers",
+        "requirement": "The Believers",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pebJIycAychhAIa0",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

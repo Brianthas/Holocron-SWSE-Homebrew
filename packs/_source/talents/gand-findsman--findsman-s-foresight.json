@@ -1,0 +1,31 @@
+{
+  "_id": "fHzrE0DkMRFFDPob",
+  "_key": "!items!fHzrE0DkMRFFDPob",
+  "name": "Findsman's Foresight",
+  "type": "talent",
+  "system": {
+    "description": "The visions you receive sometimes provide clues about dangerous situations. Whenever you make a Perception check to avoid Surprise, you may roll twice, keeping the better of the two results.",
+    "tree": "Gand Findsman",
+    "prerequisite": {
+      "text": "Findsman Ceremonies talent",
+      "nodes": {
+        "text": "Findsman Ceremonies talent",
+        "requirement": "Findsman Ceremonies",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KnRRUJhkDNbYRU2p",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

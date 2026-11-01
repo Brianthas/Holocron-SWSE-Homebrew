@@ -1,0 +1,27 @@
+{
+  "_id": "1nO1x0rSKL4zN5aC",
+  "_key": "!items!1nO1x0rSKL4zN5aC",
+  "name": "Brain Surgeon",
+  "type": "talent",
+  "system": {
+    "description": "<i>Brain Surgeon Talent created by Wikia user Admire Lucas.</i><br><br>A successful Treat Injury check is required to transfer a creature's brain into a new brainless body. The DC for the Treat Injury checks depends on the type of new body being used:<br><br>The DC may increase, up to the third tier, at the GM's discretion based on other confounding factors like more or fewer limbs, an unusual form of perception, cybernetics on the original or new body, and the like.<br><br>Each time the transfer is attempted, the creature must make a DC 15 Intelligence check. A failed check indicates that the creature's brain is damaged: a permanent reduction of 1d6 Intelligence points. The brain damage can't be cured; if the creature's Intelligence modifier decreases because of brain damage, the creature's Trained Skills must be reduced accordingly. The creature also loses access to Feats that have an Intelligence prerequisite higher than the creature's new Intelligence score.<br><br>A creature successfully transferred into another creature of the same species resumes functioning as it was before the transfer, retaining all Class Levels, Ability Scores, Skills, Feats, and Talents.<br><br>A creature successfully transferred into a different species adopts the Strength, Dexterity, and Constitution of the new model but keeps its previous Intelligence, Wisdom, and Charisma scores. The creature retains its Trained Skills, although skill modifiers based on Strength, Dexterity, and Constitution might need adjusting. Finally, the creature losses one Class Level (including all associated Talents and Feats) as it has to readjust and adapt its nervous system and sensory inputs for the new body.",
+    "tree": "Advanced Medicine",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vneJflBLFCSQxNgx",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

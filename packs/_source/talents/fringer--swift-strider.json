@@ -1,0 +1,42 @@
+{
+  "_id": "BfQrKZlBNewaayw5",
+  "_key": "!items!BfQrKZlBNewaayw5",
+  "name": "Swift Strider",
+  "type": "talent",
+  "system": {
+    "description": "You are skilled at maneuvering on the battlefield thanks to your experience surviving in dangerous places. You can use each of the following actions once per encounter:",
+    "tree": "Fringer",
+    "prerequisite": {
+      "text": "Long Stride talent, and Sidestep talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Long Stride talent",
+            "requirement": "Long Stride",
+            "type": "TALENT"
+          },
+          {
+            "text": "Sidestep talent",
+            "requirement": "Sidestep",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Long Stride talent, and Sidestep talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "T2HcXIdvHOT6SERh",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "BszlRG1GwaboTpwV",
+  "_key": "!items!BszlRG1GwaboTpwV",
+  "name": "Enemy Tactics",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an enemy within 12 squares of you and in your line of sight receives an insight or morale bonus from any source, you can also gain that bonus, subject to all the same limitations as the bonus provided to that enemy.",
+    "tree": "Collaborator",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qOxEVTkrQWuWcbjV",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

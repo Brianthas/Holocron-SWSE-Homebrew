@@ -1,0 +1,31 @@
+{
+  "_id": "TwrdOgVmicgYZBWL",
+  "_key": "!items!TwrdOgVmicgYZBWL",
+  "name": "Beast Trick",
+  "type": "talent",
+  "system": {
+    "description": "You can use the <i>Mind Trick</i> Force Power on creatures with an Intelligence score of 2 and lower. However, a Beast with an Intelligence score of 2 or less still cannot perform any complex actions, or understand complex commands it wouldn't otherwise be able to understand.<br><br>An affected Beast might understand \"Attack those sith troopers!\" but it would not comprehend, \"Break into the command center, and disable the communications array.\"",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "Mind Trick force power",
+      "nodes": {
+        "text": "Mind Trick force power",
+        "requirement": "Mind Trick",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oXlcfLGIcE2eeDhc",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

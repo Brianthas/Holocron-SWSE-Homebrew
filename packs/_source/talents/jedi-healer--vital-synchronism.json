@@ -1,0 +1,31 @@
+{
+  "_id": "xz3THZhgor9fjYBZ",
+  "_key": "!items!xz3THZhgor9fjYBZ",
+  "name": "Vital Synchronism",
+  "type": "talent",
+  "system": {
+    "description": "When you take damage from using the <i>Vital Transfer</i> Force Power, you take one-quarter (instead of one half) as much damage as you heal (rounded down).",
+    "tree": "Jedi Healer",
+    "prerequisite": {
+      "text": "Vital Transfer force power",
+      "nodes": {
+        "text": "Vital Transfer force power",
+        "requirement": "Vital Transfer",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7gJ1VRIuax0GIVfA",
+      "sourceBook": "Saga Edition All-Purpose Sourcebook"
+    }
+  }
+}

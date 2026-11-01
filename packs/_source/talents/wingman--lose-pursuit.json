@@ -1,0 +1,27 @@
+{
+  "_id": "kYnSeEFvfmfhdbAq",
+  "_key": "!items!kYnSeEFvfmfhdbAq",
+  "name": "Lose Pursuit",
+  "type": "talent",
+  "system": {
+    "description": "When a Vehicle that you are Piloting is adjacent to a Vehicle of Colossal size or smaller that is Piloted by an ally, both you and your ally gain a +5 circumstance bonus to Pilot checks to avoid being pulled into a Dogfight as an Attack of Opportunity.",
+    "tree": "Wingman",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "b6qOH43nNKvrNwbz",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

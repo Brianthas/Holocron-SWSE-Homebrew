@@ -1,0 +1,31 @@
+{
+  "_id": "lMhAuyZJtZBcbcte",
+  "_key": "!items!lMhAuyZJtZBcbcte",
+  "name": "Weakening Strike",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you deal damage to an opponent denied its Dexterity bonus to its Reflex Defense, you can choose not to move the target down the Condition Track and instead impose a -5 penalty on all your opponent's attack and melee damage rolls until the end of your next turn.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "Dastardly Strike talent",
+      "nodes": {
+        "text": "Dastardly Strike talent",
+        "requirement": "Dastardly Strike",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "EPisNOnLMbOUF5ZT",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

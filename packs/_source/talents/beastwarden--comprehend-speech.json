@@ -1,0 +1,27 @@
+{
+  "_id": "2x4ehfSyfyNVw1Uf",
+  "_key": "!items!2x4ehfSyfyNVw1Uf",
+  "name": "Comprehend Speech",
+  "type": "talent",
+  "system": {
+    "description": "You gain the ability to comprehend any spoken language. This does not grant you the ability to speak an unfamiliar language, only to understand them through The Force.",
+    "tree": "Beastwarden",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Qx5cYd5KLlhGMBNU",
+      "sourceBook": "Saga Edition All-Purpose Sourcebook"
+    }
+  }
+}

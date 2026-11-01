@@ -1,0 +1,31 @@
+{
+  "_id": "gjwpeFO9Qcxl9F4W",
+  "_key": "!items!gjwpeFO9Qcxl9F4W",
+  "name": "WatchCircle Initiate",
+  "type": "talent",
+  "system": {
+    "description": "As a Reaction, you can make a DC 15 Use the Force check and remove one use of the <i>Farseeing</i> Force Power from your active Force Power Suite (as though you had just activated the Force Power).<br><br>If successful, you subtract 1 from your Force Point total (this cannot be subtracted from temporary Force Points, and does not count as spending a Force Point), and add 1 to the Force Point total of an ally within line of sight.<br><br>This counts as using the <i>Farseeing</i> Force Power against the target, but this Talent replaces the normal rules and effects of <i>Farseeing</i>.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "Farseeing force power",
+      "nodes": {
+        "text": "Farseeing force power",
+        "requirement": "Farseeing",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LHgVK0eQpNdTOoqq",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

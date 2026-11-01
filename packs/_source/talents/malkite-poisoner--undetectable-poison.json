@@ -1,0 +1,31 @@
+{
+  "_id": "hQd2PVL1hdMDAoee",
+  "_key": "!items!hQd2PVL1hdMDAoee",
+  "name": "Undetectable Poison",
+  "type": "talent",
+  "system": {
+    "description": "The Treat Injury DC needed to cure a Poison you have use against a target increases by 5.",
+    "tree": "Malkite Poisoner",
+    "prerequisite": {
+      "text": "Malkite Techniques talent",
+      "nodes": {
+        "text": "Malkite Techniques talent",
+        "requirement": "Malkite Techniques",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Se1sRCeI3sxDjNK9",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

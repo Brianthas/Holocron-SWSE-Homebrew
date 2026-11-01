@@ -1,0 +1,42 @@
+{
+  "_id": "b1CgezH0T0YETwUS",
+  "_key": "!items!b1CgezH0T0YETwUS",
+  "name": "Force Meld",
+  "type": "talent",
+  "system": {
+    "description": "Using a meditative battle trance, Force-users are able to join their minds together, collectively becoming stronger. However, a masterful degree of will is required to prevent the participants from sharing their weaknesses as well as their strengths.&nbsp;<br><br>As a Full-Round Action, you can designate a number of willing allies equal to your Charisma modifier within 12 squares of you. These allies must be Trained in the Use the Force skill. As long as you remain within 12 squares of each other, you can Aid Another on attack rolls and Skill Checks as a Reaction.<br><br>However, the characters using the Aid Another Reaction takes a -5 penalty on all Use the Force checks until the end of their next turn. Additionally, when any character participating in the <b>Force Meld</b> takes damage that exceeds their Will Defense; all other participants take damage equal to the original damage minus their own Will Defense.&nbsp;",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "Battle Meditation talent, and Link talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Battle Meditation talent",
+            "requirement": "Battle Meditation",
+            "type": "TALENT"
+          },
+          {
+            "text": "Link talent",
+            "requirement": "Link",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Battle Meditation talent, and Link talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "o4HtMmWxOc2XeSgr",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - Jedi Padawans"
+    }
+  }
+}

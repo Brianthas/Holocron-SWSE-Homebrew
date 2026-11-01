@@ -1,0 +1,31 @@
+{
+  "_id": "EX6L9Myjsi5QSx8D",
+  "_key": "!items!EX6L9Myjsi5QSx8D",
+  "name": "Electronic Sabotage",
+  "type": "talent",
+  "system": {
+    "description": "You excel at causing havoc with computers and electronics. As a Standard Action, you can lock down a computer terminal by making a Use Computer check, making it potentially difficult for anyone else to access. That computer is considered Unfriendly to anyone other than you who attempts to use it, and the result of your Use Computer check replaces the computer's Will Defense on an attempt to change its Attitude.<br><br>This effect ends if anyone else succeeds in adjusting the computer's Attitude to Indifferent. You cannot Take 20 on this Use Computer check.",
+    "tree": "Slicer",
+    "prerequisite": {
+      "text": "Trained in Use Computer",
+      "nodes": {
+        "text": "Trained in Use Computer",
+        "requirement": "Use Computer",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jVTYR6kqOqqeCZE2",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

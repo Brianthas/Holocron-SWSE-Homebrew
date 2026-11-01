@@ -1,0 +1,27 @@
+{
+  "_id": "gITJXxfrv5mxaXTf",
+  "_key": "!items!gITJXxfrv5mxaXTf",
+  "name": "Sucker Punch",
+  "type": "talent",
+  "system": {
+    "description": "When your melee attack damages an opponent that is denied its Dexterity bonus to its Reflex Defense, that opponent cannot take Attacks of Opportunity until the end of its next turn.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0VOWDkSd3RI6HVT4",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "dHsqeg3F9w8jocYw",
+  "_key": "!items!dHsqeg3F9w8jocYw",
+  "name": "Try Your Luck",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you accrue a failure in a Skill Challenge, choose one ally. The next time that ally uses the same Skill that you used to accrue a failure before the end of the Skill Challenge, that ally rolls two dice on the Skill Check, keeping the better of the two results.",
+    "tree": "Skill Challenge",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mU7dcKz68f5EWQdi",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "OWpnaPZzbSM8SOmn",
+  "_key": "!items!OWpnaPZzbSM8SOmn",
+  "name": "Shoto Pin",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are wielding a light Lightsaber (typically a Shoto Lightsaber) and successfully use the <b>Block</b> Talent to negate a melee attack, the attacker can make no further melee attacks until the start of its next turn or until you are no longer adjacent to it.",
+    "tree": "Jedi Weapon Master",
+    "prerequisite": {
+      "text": "Dueling Stance talent",
+      "nodes": {
+        "text": "Dueling Stance talent",
+        "requirement": "Dueling Stance",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iN3IfAWmIPqFhDPu",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

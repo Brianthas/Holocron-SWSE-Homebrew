@@ -1,0 +1,27 @@
+{
+  "_id": "ncmjWw5WVlHDirpS",
+  "_key": "!items!ncmjWw5WVlHDirpS",
+  "name": "Hunter's Mark",
+  "type": "talent",
+  "system": {
+    "description": "If you Aim before making a ranged attack, you move the target character -1 step along the Condition Track if the attack deals damage. This Talent can be used only against characters, not objects or Vehicles.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "F4SyA6zlvsUrpMlX",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

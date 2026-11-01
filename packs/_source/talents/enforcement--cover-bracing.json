@@ -1,0 +1,27 @@
+{
+  "_id": "et447wMjpxWuqxGB",
+  "_key": "!items!et447wMjpxWuqxGB",
+  "name": "Cover Bracing",
+  "type": "talent",
+  "system": {
+    "description": "You can Brace a weapon set on Autofire as a single Swift Action (instead of two) if you are adjacent to an object (including walls, barriers, and Vehicles) that provides you with Cover from all of the target squares.",
+    "tree": "Enforcement",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "J7eckvlOXMmeCwGM",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

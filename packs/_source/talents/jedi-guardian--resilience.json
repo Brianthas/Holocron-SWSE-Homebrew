@@ -1,0 +1,27 @@
+{
+  "_id": "CbZ1ewZ9dT1jXZYb",
+  "_key": "!items!CbZ1ewZ9dT1jXZYb",
+  "name": "Resilience",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Full-Round Action to move +2 steps up the Condition Track.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1hYw2S2yZ3BJ6ugW",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

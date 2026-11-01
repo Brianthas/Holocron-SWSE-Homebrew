@@ -1,0 +1,51 @@
+{
+  "_id": "lIn7UuFmAIJU8UXQ",
+  "_key": "!items!lIn7UuFmAIJU8UXQ",
+  "name": "Force of Will",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +2 insight bonus to your Will Defense. Also, as a Swift Action, you can spend a Force Point to give all allies within 6 squares of you a +2 insight bonus to their Will Defense that lasts for the remainder of the encounter. This bonus does not extend to allies outside the range of the effect, even if they move within 6 squares of you later on.<br><br>Allies who benefit from this Talent must remain within 6 squares of you to retain the insight bonus, and they lose it if you are knocked unconscious or killed. This is a Mind-Affecting effect.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [
+    {
+      "_id": "fY9pL2HpDC0hHUep",
+      "_key": "!items.effects!lIn7UuFmAIJU8UXQ.fY9pL2HpDC0hHUep",
+      "name": "Force of Will",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.will",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "insight",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yZOkWaU8rFQi1DtB",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

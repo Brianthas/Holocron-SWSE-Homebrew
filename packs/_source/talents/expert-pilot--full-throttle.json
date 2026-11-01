@@ -1,0 +1,27 @@
+{
+  "_id": "a5Z6IMGMYmmRb6M3",
+  "_key": "!items!a5Z6IMGMYmmRb6M3",
+  "name": "Full Throttle",
+  "type": "talent",
+  "system": {
+    "description": "You can Take 10 on Pilot checks made to Increase Vehicle Speed. In addition, when you use the All-Out Movement Action, your Vehicle moves up to five times its normal Speed (instead of the normal four times).",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CSUGreB7hRLFpl67",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

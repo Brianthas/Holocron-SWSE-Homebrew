@@ -1,0 +1,27 @@
+{
+  "_id": "6TbblVbf7BgqxRSJ",
+  "_key": "!items!6TbblVbf7BgqxRSJ",
+  "name": "Get Into Position",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, at the start of your first turn, choose two allies within 12 squares and in your line of sight. Each ally can immediately move up to their Speed as a Reaction.",
+    "tree": "Master of Intrigue",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SAMJ3YRtTc9eGHWU",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

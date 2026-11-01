@@ -1,0 +1,31 @@
+{
+  "_id": "bRky0aEk4tbSAmMU",
+  "_key": "!items!bRky0aEk4tbSAmMU",
+  "name": "Consular's Wisdom",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Swift Action, you can choose one ally within your line of sight that can hear and understand you. Until the end of the encounter, that ally adds your Wisdom bonus to its Will Defense against Mind-Affecting effects.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "Adept Negotiator talent",
+      "nodes": {
+        "text": "Adept Negotiator talent",
+        "requirement": "Adept Negotiator",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rEygqj0zjg7wR5NJ",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

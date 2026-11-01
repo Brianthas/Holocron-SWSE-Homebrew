@@ -1,0 +1,27 @@
+{
+  "_id": "vpAWdXxev1H1aBHC",
+  "_key": "!items!vpAWdXxev1H1aBHC",
+  "name": "Ambush",
+  "type": "talent",
+  "system": {
+    "description": "When you successfully hit an opponent that has not yet acted in combat, you deal +2 dice of damage with the attack.",
+    "tree": "Republic Commando",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uZ2FZAGZa6KwTbvP",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

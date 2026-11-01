@@ -1,0 +1,27 @@
+{
+  "_id": "gnJ66RtUYZZv8DDV",
+  "_key": "!items!gnJ66RtUYZZv8DDV",
+  "name": "Return to Life",
+  "type": "talent",
+  "system": {
+    "description": "When attempting to Revivify a being, you can make the attempt within 2 rounds of its death (instead of within 1 round).",
+    "tree": "Jedi Healer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GePYIWWxa2wiWZHV",
+      "sourceBook": "Saga Edition All-Purpose Sourcebook"
+    }
+  }
+}

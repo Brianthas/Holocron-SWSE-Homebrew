@@ -1,0 +1,27 @@
+{
+  "_id": "jotJ9A977FffdGCW",
+  "_key": "!items!jotJ9A977FffdGCW",
+  "name": "Biotech Adept",
+  "type": "talent",
+  "system": {
+    "description": "You can reroll any Knowledge (Life Science) check, or Treat Injury checks made for Biotech Repair, but you must accept the result of the reroll, even if it is worse.",
+    "tree": "Yuuzhan Vong Biotech",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZB9qBkpAAIZysHDV",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

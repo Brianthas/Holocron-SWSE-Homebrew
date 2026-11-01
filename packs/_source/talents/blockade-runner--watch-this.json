@@ -1,0 +1,27 @@
+{
+  "_id": "iNTf6MUx7DcMUxWs",
+  "_key": "!items!iNTf6MUx7DcMUxWs",
+  "name": "Watch This",
+  "type": "talent",
+  "system": {
+    "description": "You can move into or through a space occupied by a Vehicle of Colossal (Frigate) size or larger without causing a Collision. Additionally, if you Pilot a Colossal or smaller Vehicle, you can occupy the same space as a Vehicle of Colossal (Frigate) size or larger.",
+    "tree": "Blockade Runner",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2O5tb7alH6cPG4DL",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

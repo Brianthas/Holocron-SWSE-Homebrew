@@ -1,0 +1,31 @@
+{
+  "_id": "28vXyV6yqtTJt2Sf",
+  "_key": "!items!28vXyV6yqtTJt2Sf",
+  "name": "Simple Opportunity",
+  "type": "talent",
+  "system": {
+    "description": "You can make Attacks of Opportunity when using a Simple Weapon (Ranged) against a single target. Grenades, as well as other Area Attack Simple Weapons, can not be used with this Talent.&nbsp;",
+    "tree": "Warrior",
+    "prerequisite": {
+      "text": "Weapon Proficiency (Simple Weapons)",
+      "nodes": {
+        "text": "Weapon Proficiency (Simple Weapons)",
+        "requirement": "Weapon Proficiency (Simple Weapons)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Mxgc6TxaNPRHYqAK",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

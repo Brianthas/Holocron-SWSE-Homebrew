@@ -1,0 +1,27 @@
+{
+  "_id": "lqvjBPNdBywswS7c",
+  "_key": "!items!lqvjBPNdBywswS7c",
+  "name": "Respected Officer",
+  "type": "talent",
+  "system": {
+    "description": "You have a reputation that causes allies and opponents to treat you with respect. You automatically improve the Attitude of an Indifferent character to Friendly with no check required.",
+    "tree": "Enforcement",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Y0kwGa3QVuapFrNc",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

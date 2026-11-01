@@ -1,0 +1,27 @@
+{
+  "_id": "8M6y3yE5DKoz47MD",
+  "_key": "!items!8M6y3yE5DKoz47MD",
+  "name": "Force Concealment",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can spend a Force Point to gain a +5 bonus to opposed Use the Force checks against Sense Force attempts for the remainder of the encounter.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MGlDKsdnX3nVlQKf",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

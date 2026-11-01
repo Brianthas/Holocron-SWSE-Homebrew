@@ -1,0 +1,27 @@
+{
+  "_id": "zKTe4RBO4uA0RAes",
+  "_key": "!items!zKTe4RBO4uA0RAes",
+  "name": "Slip By",
+  "type": "talent",
+  "system": {
+    "description": "When you would normally provoke an Attack of Opportunity by moving out of a Threatened Area, you can roll a Stealth check, replacing your Reflex Defense with the results of your Stealth check if it is higher.",
+    "tree": "Camouflage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6QNZVwxB10JAZmM3",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

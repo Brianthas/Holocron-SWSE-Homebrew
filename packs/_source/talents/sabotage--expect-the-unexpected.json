@@ -1,0 +1,27 @@
+{
+  "_id": "vp3M1ElNvFGIzbjn",
+  "_key": "!items!vp3M1ElNvFGIzbjn",
+  "name": "Expect the Unexpected",
+  "type": "talent",
+  "system": {
+    "description": "<i>Expect the Unexpected Talent created by Wikia user Admire Lucas.</i><br><br>The range for Unexpected Results increases by 1; that is, it triggers on an attack from an eligible weapon against you on a Natural 1 or 2.",
+    "tree": "Sabotage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "K9aFJZO66IGUHmPV",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

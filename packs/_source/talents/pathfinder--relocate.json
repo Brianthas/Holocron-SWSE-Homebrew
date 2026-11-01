@@ -1,0 +1,31 @@
+{
+  "_id": "c0ZQr9U7PbfgOz2u",
+  "_key": "!items!c0ZQr9U7PbfgOz2u",
+  "name": "Relocate",
+  "type": "talent",
+  "system": {
+    "description": "You can dismiss your <b>Safe Zone</b> as a Swift Action, ending its current effects. Any allies in the space your <b>Safe Zone</b> was occupying gain a +2 bonus to their Speed until the start of your next turn. When you use this Talent, you cannot create a new <b>Safe Zone</b> until the start of your next turn.",
+    "tree": "Pathfinder",
+    "prerequisite": {
+      "text": "Safe Zone talent",
+      "nodes": {
+        "text": "Safe Zone talent",
+        "requirement": "Safe Zone",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8tZdTBohlTM0sHP0",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

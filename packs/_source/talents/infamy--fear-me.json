@@ -1,0 +1,47 @@
+{
+  "_id": "eduoCCAgzgQNUJeN",
+  "_key": "!items!eduoCCAgzgQNUJeN",
+  "name": "Fear Me",
+  "type": "talent",
+  "system": {
+    "description": "Such is the fear you instill in your minions that when in your presence, they would rather die than disappoint you. Once per encounter, as a Reaction to one of your minions being moved down the Condition Track, you can reduce the number of steps the minion moves down the Condition Track by 1. Additionally, the target regains Hit Points equal to your Heroic Level. If the target is reduced to 0 Hit Points or moved to the bottom of the Condition Track, you cannot use this Talent on that target.",
+    "tree": "Infamy",
+    "prerequisite": {
+      "text": "Attract Minion talent, Inspire Fear I talent, and Inspire Fear II talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Attract Minion talent",
+            "requirement": "Attract Minion",
+            "type": "TALENT"
+          },
+          {
+            "text": "Inspire Fear I talent",
+            "requirement": "Inspire Fear I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Inspire Fear II talent",
+            "requirement": "Inspire Fear II",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Attract Minion talent, Inspire Fear I talent, and Inspire Fear II talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eeKVsHNtiYZit3yj",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

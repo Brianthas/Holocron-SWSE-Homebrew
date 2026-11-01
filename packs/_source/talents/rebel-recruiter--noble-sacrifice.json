@@ -1,0 +1,31 @@
+{
+  "_id": "XM3gsaPlkkkbat9G",
+  "_key": "!items!XM3gsaPlkkkbat9G",
+  "name": "Noble Sacrifice",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you successfully use <b>Recruit Enemy</b> on a target, if that target is reduced to 0 Hit Points or moved to the bottom of the Condition Track, as a Reaction you can grant yourself and all allies within line of sight a number of Bonus Hit Points equal to 10 + your Class Level.<br><br>Damage is subtracted from Bonus Hit Points first, and any Bonus Hit Points remaining at the end of the encounter are lost. Bonus Hit Points do not stack. No Bonus Hit Points may be granted if you or an ally reduce the target to 0 Hit Points or move it to the bottom of the Condition Track.",
+    "tree": "Rebel Recruiter",
+    "prerequisite": {
+      "text": "Recruit Enemy talent",
+      "nodes": {
+        "text": "Recruit Enemy talent",
+        "requirement": "Recruit Enemy",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rIRVsmvj7Xa67vRJ",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

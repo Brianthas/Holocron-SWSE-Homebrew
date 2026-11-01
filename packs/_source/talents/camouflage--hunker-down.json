@@ -1,0 +1,27 @@
+{
+  "_id": "tWXkSAqahzWIF8dz",
+  "_key": "!items!tWXkSAqahzWIF8dz",
+  "name": "Hunker Down",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you benefit from Cover, you can spend a Standard Action to <b>Hunker Down</b> and maximize the benefit of the Cover. You increase the benefit of Cover to Improved Cover or Improved Cover to Total Cover.",
+    "tree": "Camouflage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YIs9c2KsKnGMw324",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

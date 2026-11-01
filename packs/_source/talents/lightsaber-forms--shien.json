@@ -1,0 +1,42 @@
+{
+  "_id": "t8WLpUldLUZ3V2jO",
+  "_key": "!items!t8WLpUldLUZ3V2jO",
+  "name": "Shien",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you redirect a deflected blaster bolt (see the <b>Redirect Shot</b> Talent), you gain a +5 bonus on your ranged attack roll.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "Dueling Stance talent, and Redirection Stance talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dueling Stance talent",
+            "requirement": "Dueling Stance",
+            "type": "TALENT"
+          },
+          {
+            "text": "Redirection Stance talent",
+            "requirement": "Redirection Stance",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Dueling Stance talent, and Redirection Stance talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BWO0aIkEsXtpCfL9",
+      "sourceBook": ""
+    }
+  }
+}

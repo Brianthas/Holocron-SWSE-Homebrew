@@ -1,0 +1,31 @@
+{
+  "_id": "OJkgGsvnmgwwhcha",
+  "_key": "!items!OJkgGsvnmgwwhcha",
+  "name": "Many Shades of the Force",
+  "type": "talent",
+  "system": {
+    "description": "Choose one Force Power with the [<i>Dark Side</i>] or [<i>Light Side</i>] descriptor in your Force Power Suite. That Force Power is no longer considered to have that descriptor for you.",
+    "tree": "Aing-Tii Monk",
+    "prerequisite": {
+      "text": "a member of The Aing-Tii Monks",
+      "nodes": {
+        "text": "a member of The Aing-Tii Monks",
+        "requirement": "The Aing-Tii Monks",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3goponHAZTtpnqId",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

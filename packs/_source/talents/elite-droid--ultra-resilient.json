@@ -1,0 +1,27 @@
+{
+  "_id": "z7yuP435SrAsfeOm",
+  "_key": "!items!z7yuP435SrAsfeOm",
+  "name": "Ultra Resilient",
+  "type": "talent",
+  "system": {
+    "description": "You have advanced subroutines that make you more resistant to the effect of damage. Once per encounter, as a Reaction, you can increase your Damage Threshold with a bonus equal to your Independent Droid level.",
+    "tree": "Elite Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DAStzghE6Bu2sCAj",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

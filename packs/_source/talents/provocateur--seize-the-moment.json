@@ -1,0 +1,31 @@
+{
+  "_id": "5NrqOGsDMqxRuHBZ",
+  "_key": "!items!5NrqOGsDMqxRuHBZ",
+  "name": "Seize the Moment",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn as a Reaction, when an enemy is reduced to 0 Hit Points or is moved down the Condition Track by any means, you allow one ally within your line of sight to take their Second Wind immediately (as a Free Action).<br><br>Furthermore, when your ally takes their Second Wind, they regain a number of additional Hit Points equal to your Class Level.",
+    "tree": "Provocateur",
+    "prerequisite": {
+      "text": "Distress to Discord talent",
+      "nodes": {
+        "text": "Distress to Discord talent",
+        "requirement": "Distress to Discord",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SQTa798hsIonFGqY",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

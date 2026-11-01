@@ -1,0 +1,31 @@
+{
+  "_id": "V90JCUynFLx9e0dx",
+  "_key": "!items!V90JCUynFLx9e0dx",
+  "name": "Misplaced Loyalty",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action once per turn, you can make a Persuasion check against the Will Defense of all opponents within your line of sight. If successful, a target cannot attack you if one of your allies is within 6 squares of you.<br><br>You may not gain the benefit of this Talent if another character within 6 squares of you has used this talent since the end of your last turn. You may not use this Talent in the same round as the Soldier's <b>Draw Fire</b> Talent.",
+    "tree": "Disgrace",
+    "prerequisite": {
+      "text": "Dirty Tactics talent",
+      "nodes": {
+        "text": "Dirty Tactics talent",
+        "requirement": "Dirty Tactics",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VHxv1JAf8ml8QH7A",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

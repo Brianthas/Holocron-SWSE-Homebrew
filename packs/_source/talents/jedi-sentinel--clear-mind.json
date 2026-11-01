@@ -1,0 +1,27 @@
+{
+  "_id": "ZXse8f2xcDoaRFy9",
+  "_key": "!items!ZXse8f2xcDoaRFy9",
+  "name": "Clear Mind",
+  "type": "talent",
+  "system": {
+    "description": "You may reroll any opposed Use the Force check made to oppose Sense Force checks. You must take the result of the reroll, even if it is worse.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wo5nQzaT6pAH3Wyx",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

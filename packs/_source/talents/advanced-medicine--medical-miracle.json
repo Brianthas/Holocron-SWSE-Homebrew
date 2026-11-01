@@ -1,0 +1,27 @@
+{
+  "_id": "UugXcoXSjnL0KRcz",
+  "_key": "!items!UugXcoXSjnL0KRcz",
+  "name": "Medical Miracle",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can make a DC 20 Treat Injury check on an adjacent target. If the check is successful, that target immediately uses its Second Wind, even if it is above half Hit Points. If the target has already expended all of its Second Winds for the day, this Talent has no effect.",
+    "tree": "Advanced Medicine",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KYrO8EPraKEdc3qC",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "FMUeG6EE9f0a1toe",
+  "_key": "!items!FMUeG6EE9f0a1toe",
+  "name": "Reverse Strength",
+  "type": "talent",
+  "system": {
+    "description": "You know how to use an opponent's strength against it. Whenever you successfully Grapple an opponent, you deal damage equal to the opponent's Strength modifier (minimum 1 point).",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RiSyO8ImI7NrdPBl",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

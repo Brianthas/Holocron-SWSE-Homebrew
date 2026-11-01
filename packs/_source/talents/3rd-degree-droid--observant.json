@@ -1,0 +1,27 @@
+{
+  "_id": "DVPFGhfK48xO1CBT",
+  "_key": "!items!DVPFGhfK48xO1CBT",
+  "name": "Observant",
+  "type": "talent",
+  "system": {
+    "description": "You enhance your persuasiveness by applying data obtained through observation. Whenever you would fail a Persuasion check, you can roll a Perception check as a Free Action, with a DC equal to the DC of the Persuasion check. If you succeed, add +5 to the original Persuasion check result.",
+    "tree": "3rd-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "r73kQv7Uv82reVLQ",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "rtyVe6Ebm9uzOloQ",
+  "_key": "!items!rtyVe6Ebm9uzOloQ",
+  "name": "Grand Leader",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, once per encounter, you can grant bonus Hit Points equal to 5 + one-half your Character Level to allies within 20 squares of you and in your line of sight. Damage is subtracted from the bonus Hit Points first, and any bonus Hit Points remaining at the end of the encounter go away. Bonus Hit Points from multiple sources do not stack.",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ILBq9V1uAkFp7chC",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "VPSkiiLn46fu2j8o",
+  "_key": "!items!VPSkiiLn46fu2j8o",
+  "name": "Grenadier",
+  "type": "talent",
+  "system": {
+    "description": "You add an additional die of damage when attacking with any weapon that has a Burst radius.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xNuPM2ClmGcPxFhA",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

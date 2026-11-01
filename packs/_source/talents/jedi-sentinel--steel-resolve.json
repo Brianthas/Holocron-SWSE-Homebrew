@@ -1,0 +1,27 @@
+{
+  "_id": "z0pyDPAREoDHax9f",
+  "_key": "!items!z0pyDPAREoDHax9f",
+  "name": "Steel Resolve",
+  "type": "talent",
+  "system": {
+    "description": "When you use a Standard Action to make a melee attack, you can take a penalty between -1 to -5 on your attack roll and add twice that value (+2 to +10) as an insight bonus to your Will Defense. This bonus may not exceed your Base Attack Bonus. The changes to attack rolls and Will Defense last until the start of your next turn.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lheq7ntjRqTObHbt",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "zpBmLixBJYf3L0RI",
+  "_key": "!items!zpBmLixBJYf3L0RI",
+  "name": "Sentinel's Observation",
+  "type": "talent",
+  "system": {
+    "description": "If you have Concealment against a target, you gain a +2 circumstance bonus on attack rolls against that target.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yO4YQ1N1DKUGkUyg",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

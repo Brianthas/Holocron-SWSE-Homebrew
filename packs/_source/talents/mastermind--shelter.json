@@ -1,0 +1,31 @@
+{
+  "_id": "PYwCEqUfq3mascp4",
+  "_key": "!items!PYwCEqUfq3mascp4",
+  "name": "Shelter",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are adjacent to a Minion, you increase any Cover bonus to your Reflex Defense by +2.",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "Attract Minion talent",
+      "nodes": {
+        "text": "Attract Minion talent",
+        "requirement": "Attract Minion",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YQBu4sfzI6jONiGN",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

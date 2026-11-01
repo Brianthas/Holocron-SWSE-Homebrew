@@ -1,0 +1,31 @@
+{
+  "_id": "F7GYIf07ELhvHnvt",
+  "_key": "!items!F7GYIf07ELhvHnvt",
+  "name": "Fight to the Death",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Swift Action, you can fill your companions with renewed vigor. All allies within 6 squares of you heal damage equal to your Heroic Level.",
+    "tree": "Piracy",
+    "prerequisite": {
+      "text": "Bloodthirsty talent",
+      "nodes": {
+        "text": "Bloodthirsty talent",
+        "requirement": "Bloodthirsty",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hOWvarz0EPv0M5HZ",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

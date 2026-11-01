@@ -1,0 +1,27 @@
+{
+  "_id": "mXPNmQ9RSxEp203F",
+  "_key": "!items!mXPNmQ9RSxEp203F",
+  "name": "Just What is Needed",
+  "type": "talent",
+  "system": {
+    "description": "You have a knack for finding the best quality replacement parts for broken Equipment. Whenever you use the Repair application of the Mechanics skill, you restore an extra 1d8 Hit Points with a successful Mechanics check, in addition to what you would normally restore.<br><br>If you use the Aid Another Action to assist an ally with Repairs, that ally also Repairs an extra 1d8 Hit Points with a successful Mechanics check. Any ally can only benefit from this Talent once per Mechanics check, regardless of how many allies with this Talent aid on the check.",
+    "tree": "Procurement",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "quzUFa8gEYMHyMFB",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

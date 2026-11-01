@@ -1,0 +1,31 @@
+{
+  "_id": "lOaXpLWzxd696IOx",
+  "_key": "!items!lOaXpLWzxd696IOx",
+  "name": "Begin Attack Run",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you designate a single target. When using the Attack Run Action against that target, Vehicles in your squadron gain a +5 bonus on their attack rolls (instead of the normal +2). You may have only one target designated at a time.",
+    "tree": "Squadron Leader",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5IeUDgH7EMDcX4wP",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

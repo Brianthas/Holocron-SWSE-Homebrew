@@ -1,0 +1,27 @@
+{
+  "_id": "voDfwUJofuJpvXN7",
+  "_key": "!items!voDfwUJofuJpvXN7",
+  "name": "Verdanaian Expertise",
+  "type": "talent",
+  "system": {
+    "description": "While adjacent to an opponent, you can spend a Swift Action to activate this Talent. If the designated opponent Moves or Withdraws before the beginning of your next turn, you can choose to move with that opponent, up to a total distance equal to your current speed.<br><br>Unless your opponent uses the Withdraw Action or makes an Acrobatics check to avoid Attacks of Opportunity, its movement provokes an Attack of Opportunity from you for the first square moved as normal (but not subsequent squares in the same movement). If your target moves farther than your speed, you must still end this movement closer to the target than you began.",
+    "tree": "Martial Arts Forms",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xTnOrwea6iSCXr4t",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - Jedi Knights (Part 1)"
+    }
+  }
+}

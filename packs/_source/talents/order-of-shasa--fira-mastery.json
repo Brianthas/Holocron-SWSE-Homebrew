@@ -1,0 +1,31 @@
+{
+  "_id": "2nYno69Dg9HV8aQZ",
+  "_key": "!items!2nYno69Dg9HV8aQZ",
+  "name": "Fira Mastery",
+  "type": "talent",
+  "system": {
+    "description": "<i>Fira Mastery Talent created by Wikia user Chellewalker (formally Wikia user Lukewarner).</i><br><br>You treat a Fira as a Simple Weapon (Melee) instead of as an Exotic Weapon (Melee). Additionally, you gain a +1 bonus to attack rolls with a Fira. This Talent counts as the Weapon Focus (Fira) feat for the purpose of satisfying prerequisites.<br><br>If you also have the Weapon Focus (Simple Weapons) feat, the attack bonus provided by this Talent does not stack with the attack bonus provided by Weapon Focus (Simple Weapons).",
+    "tree": "Order of Shasa",
+    "prerequisite": {
+      "text": "a member of The Order of Shasa",
+      "nodes": {
+        "text": "a member of The Order of Shasa",
+        "requirement": "The Order of Shasa",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pVnsCnyY6oEMFEeS",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

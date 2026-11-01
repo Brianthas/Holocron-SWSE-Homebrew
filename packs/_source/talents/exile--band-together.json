@@ -1,0 +1,52 @@
+{
+  "_id": "X0eyGhLhfvvVCbj7",
+  "_key": "!items!X0eyGhLhfvvVCbj7",
+  "name": "Band Together",
+  "type": "talent",
+  "system": {
+    "description": "You can inspire disparate beings to temporarily ally for a common cause. You can use each of the following Actions once per encounter:",
+    "tree": "Exile",
+    "prerequisite": {
+      "text": "Galactic Guidance talent, Self-Reliant talent, Trained in Persuasion, and Trained in Knowledge (Galactic Lore)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Galactic Guidance talent",
+            "requirement": "Galactic Guidance",
+            "type": "TALENT"
+          },
+          {
+            "text": "Self-Reliant talent",
+            "requirement": "Self-Reliant",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Persuasion",
+            "requirement": "Persuasion",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Trained in Knowledge (Galactic Lore)",
+            "requirement": "Knowledge (Galactic Lore)",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Galactic Guidance talent, Self-Reliant talent, Trained in Persuasion, and Trained in Knowledge (Galactic Lore)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UM6999Jv4JnBCjMF",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

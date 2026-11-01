@@ -1,0 +1,47 @@
+{
+  "_id": "iadmM4NDafGmNhdm",
+  "_key": "!items!iadmM4NDafGmNhdm",
+  "name": "Mobile Attack (Pistols)",
+  "type": "talent",
+  "system": {
+    "description": "Immediately after making a Full Attack where you attack with two Pistols, you may move up to your Speed as a Free Action.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "Multiattack Proficiency (Pistols) talent, Dual Weapon Mastery I feat, and Weapon Focus (Pistols)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Multiattack Proficiency (Pistols) talent",
+            "requirement": "Multiattack Proficiency (Pistols)",
+            "type": "TALENT"
+          },
+          {
+            "text": "Dual Weapon Mastery I feat",
+            "requirement": "Dual Weapon Mastery I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Focus (Pistols)",
+            "requirement": "Weapon Focus (Pistols)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Multiattack Proficiency (Pistols) talent, Dual Weapon Mastery I feat, and Weapon Focus (Pistols)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1rm5ErktNL9w6xMS",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "iAGv7kwmfWjOGtpn",
+  "_key": "!items!iAGv7kwmfWjOGtpn",
+  "name": "Comrades in Arms",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are within 3 squares of an ally, you gain a +1 circumstance bonus on all melee and ranged attack rolls.",
+    "tree": "Trooper",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fsVEKyGPT2T4YypS",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "Km4K1A5jeLT8cx0g",
+  "_key": "!items!Km4K1A5jeLT8cx0g",
+  "name": "Fast Attack Specialist",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, when Piloting a Vehicle of Gargantuan size or smaller, you can make a Full Attack as a Standard Action. You can spend a Force Point to use this Talent one additional time in an encounter.",
+    "tree": "Gunner",
+    "prerequisite": {
+      "text": "Expert Gunner talent, and Quick Trigger talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Expert Gunner talent",
+            "requirement": "Expert Gunner",
+            "type": "TALENT"
+          },
+          {
+            "text": "Quick Trigger talent",
+            "requirement": "Quick Trigger",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Expert Gunner talent, and Quick Trigger talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3KsaIpx26VFvb6PV",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

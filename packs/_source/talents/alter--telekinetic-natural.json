@@ -1,0 +1,27 @@
+{
+  "_id": "NlzRgzi4bDh9x1R7",
+  "_key": "!items!NlzRgzi4bDh9x1R7",
+  "name": "Telekinetic Natural",
+  "type": "talent",
+  "system": {
+    "description": "You possess an innate talent with telekinetic manipulation, and uses of the ability come more naturally to you than it does to others. Once per encounter, you may expend a Force Point as a Free Action to use any Force Power with the [<i>Telekinetic</i>] descriptor, even if you do not normally have that Force Power in your Force Power Suite.&nbsp;<br><br>You may select this Talent multiple times. Each time you select it, you may use this Talent one additional time per encounter.&nbsp;",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BEO2HyuKwus43cZg",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - The Jedi Order"
+    }
+  }
+}

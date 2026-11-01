@@ -1,0 +1,42 @@
+{
+  "_id": "GyL1Rb0gfbhRQaC0",
+  "_key": "!items!GyL1Rb0gfbhRQaC0",
+  "name": "Extended Critical Range (Simple Weapons)",
+  "type": "talent",
+  "system": {
+    "description": "When you attack with a Simple Weapon, you extend the weapon's critical range by 1 (for example, 19-20 instead of 20). However, anything other than a Natural 20 is not considered an automatic hit; if you roll anything other than a Natural 20 and still miss the target, you do not score a Critical Hit.",
+    "tree": "Critical Master",
+    "prerequisite": {
+      "text": "Base Attack Bonus 10, and Weapon Proficiency (Simple Weapons)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Base Attack Bonus 10",
+            "requirement": "10",
+            "type": "BASE ATTACK BONUS"
+          },
+          {
+            "text": "Weapon Proficiency (Simple Weapons)",
+            "requirement": "Weapon Proficiency (Simple Weapons)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Base Attack Bonus 10, and Weapon Proficiency (Simple Weapons)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PwzTeTLmbK9MpJQm",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "C2u0if42kHFagChf",
+  "_key": "!items!C2u0if42kHFagChf",
+  "name": "Accurate Blow",
+  "type": "talent",
+  "system": {
+    "description": "Choose one Exotic Weapon (Melee) or one of the following Weapon Groups in which you are proficient: Advanced Melee, Lightsabers, or Simple Weapons (Melee). When you make a Melee Attack with a Weapon from the chosen group and the attack roll exceeds the target's Reflex Defense by 5 or more, you deal +1 die of damage with the attack.",
+    "tree": "Melee Specialist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ectwYMxyR1hDOQTK",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

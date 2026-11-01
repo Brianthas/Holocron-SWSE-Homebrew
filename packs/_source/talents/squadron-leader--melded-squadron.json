@@ -1,0 +1,42 @@
+{
+  "_id": "qsgWZwemLP7tBHMy",
+  "_key": "!items!qsgWZwemLP7tBHMy",
+  "name": "Melded Squadron",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you may make a DC 20 Use the Force check as a Swift Action. Success indicates that as a Reaction, you may grant all members of your squadron a +2 Force bonus on attack rolls and a +2 Force bonus to their Reflex Defense for a number of rounds equal to 1 + your Charisma modifier (minimum 2 rounds).",
+    "tree": "Squadron Leader",
+    "prerequisite": {
+      "text": "Charisma 13, and Force Sensitivity feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Charisma 13",
+            "requirement": "Charisma 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Force Sensitivity feat",
+            "requirement": "Force Sensitivity",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Charisma 13, and Force Sensitivity feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "67RPUa9EThEwEmqN",
+      "sourceBook": "New Jedi Order Campaign Guide"
+    }
+  }
+}

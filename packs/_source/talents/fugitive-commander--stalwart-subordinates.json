@@ -1,0 +1,27 @@
+{
+  "_id": "jWZHkWUyknAW3XFj",
+  "_key": "!items!jWZHkWUyknAW3XFj",
+  "name": "Stalwart Subordinates",
+  "type": "talent",
+  "system": {
+    "description": "When any ally within 12 squares of you and in your line of sight is targeted by a Skill Check against its Will Defense, the source of that Skill Check (whether a Hazard, a creature, a Droid, or whatever) must roll the Skill Check twice, and take the lowest result.",
+    "tree": "Fugitive Commander",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eri5GPiOut0L3pOU",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

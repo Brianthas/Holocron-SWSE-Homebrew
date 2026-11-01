@@ -1,0 +1,27 @@
+{
+  "_id": "N3IYDJKgN0aBrJvA",
+  "_key": "!items!N3IYDJKgN0aBrJvA",
+  "name": "Reap Retribution",
+  "type": "talent",
+  "system": {
+    "description": "If you take damage from the use of a Force Power, until the end of the encounter you deal an extra 2 points of damage against the creature that used the Force Power against you.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iDMDNZ9XkoKiyYUy",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

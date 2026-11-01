@@ -1,0 +1,47 @@
+{
+  "_id": "FnNNeyQpB0YmxVkF",
+  "_key": "!items!FnNNeyQpB0YmxVkF",
+  "name": "Bullseye",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can designate a single target that you have Aimed at and is not within Point-Blank Range. When making a ranged attack roll against that target, the target is denied its Dexterity bonus to their Reflex Defense when determining the effect of your attack.",
+    "tree": "Sharpshooter",
+    "prerequisite": {
+      "text": "Draw a Bead talent, Precision Shot talent, and Sniper feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Draw a Bead talent",
+            "requirement": "Draw a Bead",
+            "type": "TALENT"
+          },
+          {
+            "text": "Precision Shot talent",
+            "requirement": "Precision Shot",
+            "type": "TALENT"
+          },
+          {
+            "text": "Sniper feat",
+            "requirement": "Sniper",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Draw a Bead talent, Precision Shot talent, and Sniper feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Xv04RpnobzwCptDW",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

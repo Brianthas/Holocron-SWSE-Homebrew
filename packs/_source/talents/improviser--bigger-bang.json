@@ -1,0 +1,31 @@
+{
+  "_id": "0eV8AgT952TpiWX2",
+  "_key": "!items!0eV8AgT952TpiWX2",
+  "name": "Bigger Bang",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you create a Grenade with the <b>Improvised Device</b> Talent, the Grenade deals an additional die of damage when used.",
+    "tree": "Improviser",
+    "prerequisite": {
+      "text": "Improvised Device talent",
+      "nodes": {
+        "text": "Improvised Device talent",
+        "requirement": "Improvised Device",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "d94ReOKPrwfoyhub",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

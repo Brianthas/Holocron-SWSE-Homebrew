@@ -1,0 +1,27 @@
+{
+  "_id": "21qUAHgVxI1BKnEt",
+  "_key": "!items!21qUAHgVxI1BKnEt",
+  "name": "Disciplined Trickery",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn as a Reaction, you allow one ally within 12 squares of you and within your line of sight to reroll one Deception or Stealth check, but the ally must accept the result of the reroll, even if it is worse.",
+    "tree": "Fugitive Commander",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "upaLsynTFLETEZBH",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

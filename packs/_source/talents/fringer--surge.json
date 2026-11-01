@@ -1,0 +1,31 @@
+{
+  "_id": "MINkO5kVP2YpVrYu",
+  "_key": "!items!MINkO5kVP2YpVrYu",
+  "name": "Surge",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can use a Swift Action to move up to your Speed.",
+    "tree": "Fringer",
+    "prerequisite": {
+      "text": "Long Stride talent",
+      "nodes": {
+        "text": "Long Stride talent",
+        "requirement": "Long Stride",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "02t11Td5e5EzSBQW",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

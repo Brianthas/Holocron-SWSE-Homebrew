@@ -1,0 +1,31 @@
+{
+  "_id": "63f5UCvuB5UpeSUT",
+  "_key": "!items!63f5UCvuB5UpeSUT",
+  "name": "Surprisingly Quick",
+  "type": "talent",
+  "system": {
+    "description": "In a Surprise Round, if you are not Surprised, you can take a Swift Action in addition to the one other Action normally allowed. If you are Surprised, you can take a single Swift Action.<br><br><i>Normal:</i> In a Surprise Round, if you are not Surprised, you can take a Standard Action, a Move Action, or a Swift Action. If you are Surprised, you can take no Actions.",
+    "tree": "Master Scout",
+    "prerequisite": {
+      "text": "Skill Focus (Initiative)",
+      "nodes": {
+        "text": "Skill Focus (Initiative)",
+        "requirement": "Skill Focus (Initiative)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Ox7gcsg59Uy0RrqK",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

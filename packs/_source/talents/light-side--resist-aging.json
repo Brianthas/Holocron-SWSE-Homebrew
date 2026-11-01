@@ -1,0 +1,27 @@
+{
+  "_id": "PmBYPGOpk0EmdhhG",
+  "_key": "!items!PmBYPGOpk0EmdhhG",
+  "name": "Resist Aging",
+  "type": "talent",
+  "system": {
+    "description": "You can draw upon the living Force to resist the negative effects of Aging. This requires a successful Use the Force check and the use of a Force Point each year, as well as each time the character is reduced to 0 Hit Points or moves -5 steps along the Condition Track.<br><br>The DC for this Use the Force check is equal to 20 plus an additional 5 for each age range step the character’s true age takes them above their current physical age range. Success means the character remains physically unaged, but gains the bonuses to their Intelligence, Wisdom, and Charisma as bestowed by their true age.<br><br>Failure means the character physically ages one age range step closer to their true age, incurring any penalties to their Strength, Dexterity, and Constitution. Failure by 5 or more means the character ages completely to their true age.&nbsp;",
+    "tree": "Light Side",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Nz7xF7aUwQGmWGAn",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - Jedi Masters (Part 1)"
+    }
+  }
+}

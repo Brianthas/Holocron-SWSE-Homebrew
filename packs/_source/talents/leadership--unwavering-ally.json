@@ -1,0 +1,27 @@
+{
+  "_id": "cyAS0BQxwURtIQnj",
+  "_key": "!items!cyAS0BQxwURtIQnj",
+  "name": "Unwavering Ally",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn, as a Swift Action, you can designate one ally within your line of sight who can hear and understand you. Until the start of your next turn, that ally becomes immune to all effects that render the ally Flat-Footed or that deny the ally a Dexterity bonus to his or her Reflex Defense.",
+    "tree": "Leadership",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nfe6d1mnLGuSWzOZ",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

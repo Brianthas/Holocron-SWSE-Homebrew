@@ -1,0 +1,27 @@
+{
+  "_id": "uNpmNGymWDNGwDmc",
+  "_key": "!items!uNpmNGymWDNGwDmc",
+  "name": "Prudent Escape",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you reduce a target to 0 Hit Points or otherwise render a creature unconscious, you can choose two allies within 6 squares of you and within your line of sight. You and the allies you chose can immediately move up to their Speeds as a Reaction. This movement does not provoke Attacks of Opportunity.",
+    "tree": "Espionage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QwpSXdyMoPF3kfhn",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

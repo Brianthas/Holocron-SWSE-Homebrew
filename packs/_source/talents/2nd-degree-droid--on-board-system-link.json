@@ -1,0 +1,27 @@
+{
+  "_id": "F56780rMxuUy8q47",
+  "_key": "!items!F56780rMxuUy8q47",
+  "name": "On-Board System Link",
+  "type": "talent",
+  "system": {
+    "description": "While aboard a Starship or Vehicle and plugged into the ship's systems by Scomp Link, Droid Socket, or basic data port, you can Reroute Power or Recharge Shields as two Swift Actions instead of three.",
+    "tree": "2nd-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3FeCB2ZthqcImJ66",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

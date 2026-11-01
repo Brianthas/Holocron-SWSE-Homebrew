@@ -1,0 +1,31 @@
+{
+  "_id": "W06QT6KJo34XbnNE",
+  "_key": "!items!W06QT6KJo34XbnNE",
+  "name": "Illusion Bond",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you create an <b>Illusion</b> of a humanoid using the Illusion Talent, you are able to see and hear as though you were standing in the space occupied by your <b>Illusion</b>.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "Illusion talent",
+      "nodes": {
+        "text": "Illusion talent",
+        "requirement": "Illusion",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4ItTYGuG9xvAa7rg",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

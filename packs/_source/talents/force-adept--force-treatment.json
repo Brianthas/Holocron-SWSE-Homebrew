@@ -1,0 +1,27 @@
+{
+  "_id": "jvjIGvyT9gQsoYuo",
+  "_key": "!items!jvjIGvyT9gQsoYuo",
+  "name": "Force Treatment",
+  "type": "talent",
+  "system": {
+    "description": "<i>See also: Jedi Healer Talent Tree</i><br><br>You can make a Use the Force check in place of a Treat Injury check. You are considered Trained in the Treat Injury Skill. If you are entitled to a Treat Injury check reroll, you may reroll your Use the Force check instead (subject to the same circumstances and limitations).<br><br>In addition, you can administer First Aid, Treat Disease, Treat Poison, and Treat Radiation without the requisite Medical Kit or Medpac.",
+    "tree": "Force Adept",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WdEG0O4HitKH2EZW",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

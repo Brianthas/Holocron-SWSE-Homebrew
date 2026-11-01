@@ -1,0 +1,31 @@
+{
+  "_id": "T4fgZlh1PVbATNlv",
+  "_key": "!items!T4fgZlh1PVbATNlv",
+  "name": "Resist Enervation",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an effect would move you down the Condition Track, you can spend a Force Point to negate that movement down the Condition Track.",
+    "tree": "Bando Gora Captain",
+    "prerequisite": {
+      "text": "a member of The Bando Gora",
+      "nodes": {
+        "text": "a member of The Bando Gora",
+        "requirement": "The Bando Gora",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PN9kulML1L4FqpOq",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

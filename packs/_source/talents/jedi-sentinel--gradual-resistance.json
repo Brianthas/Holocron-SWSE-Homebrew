@@ -1,0 +1,27 @@
+{
+  "_id": "i9XQKe8abGlWqFqD",
+  "_key": "!items!i9XQKe8abGlWqFqD",
+  "name": "Gradual Resistance",
+  "type": "talent",
+  "system": {
+    "description": "If you take damage from the use of a Force Power, until the end of the encounter you gain a +2 Force bonus to all Defenses against that Force Power.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Bm4W4JIJEx5vgDzW",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

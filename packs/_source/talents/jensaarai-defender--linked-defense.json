@@ -1,0 +1,31 @@
+{
+  "_id": "PgrsVFpyTiS2Yhlt",
+  "_key": "!items!PgrsVFpyTiS2Yhlt",
+  "name": "Linked Defense",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can take a penalty of up to -5 on your attack roll and add the same number (up to +5) as a Force bonus to an ally's Reflex Defense, provided the ally is within your line of sight when you activate this talent.<br><br>The bonus you confer cannot exceed your Base Attack Bonus. The changes to your attack rolls and your ally's Reflex Defense last until the start of your next turn.",
+    "tree": "Jensaarai Defender",
+    "prerequisite": {
+      "text": "a member of The Jensaarai",
+      "nodes": {
+        "text": "a member of The Jensaarai",
+        "requirement": "The Jensaarai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vmEsuvYimwHiFYga",
+      "sourceBook": ""
+    }
+  }
+}

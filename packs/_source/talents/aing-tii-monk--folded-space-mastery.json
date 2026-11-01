@@ -1,0 +1,31 @@
+{
+  "_id": "STs0cqWEt36Vq6UP",
+  "_key": "!items!STs0cqWEt36Vq6UP",
+  "name": "Folded Space Mastery",
+  "type": "talent",
+  "system": {
+    "description": "While you are the Pilot of a Vehicle, you can use the <i>Fold Space</i> Force Power to move the Vehicle across long distances. If your Use the Force check to activate the Force Power is sufficient to move an object the same size as your Vehicle (or larger), you can use the Force Power to move your Vehicle and all of its occupants safely to the desired destination.<br><br>You can use your Use the Force check result instead of a Use Computer check, as though performing Astrogation. This otherwise uses the normal rules for Hyperspace travel, and requires no Hyperdrive.<br><br>Travel this way through hyperspace is extremely slow.",
+    "tree": "Aing-Tii Monk",
+    "prerequisite": {
+      "text": "a member of The Aing-Tii Monks",
+      "nodes": {
+        "text": "a member of The Aing-Tii Monks",
+        "requirement": "The Aing-Tii Monks",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AfMOyKbN3EYAnvVE",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

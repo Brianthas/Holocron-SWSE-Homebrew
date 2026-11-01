@@ -1,0 +1,31 @@
+{
+  "_id": "TWkr5ObfCXesr1wh",
+  "_key": "!items!TWkr5ObfCXesr1wh",
+  "name": "Heal Droid",
+  "type": "talent",
+  "system": {
+    "description": "You can use the <i>Vital Transfer</i> Force Power to heal Droids (including Shard-inhabited Droids), which are normally immune to this Force Power.",
+    "tree": "Iron Knight",
+    "prerequisite": {
+      "text": "a member of The Iron Knights",
+      "nodes": {
+        "text": "a member of The Iron Knights",
+        "requirement": "The Iron Knights",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rqhY5A36q93UDnnY",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

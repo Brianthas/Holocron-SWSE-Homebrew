@@ -1,0 +1,31 @@
+{
+  "_id": "2rZNvGsWW84XteLX",
+  "_key": "!items!2rZNvGsWW84XteLX",
+  "name": "Force Direction",
+  "type": "talent",
+  "system": {
+    "description": "You can use The Force to guide your ranged attacks to their target. Whenever you spend a Force Point to add to a ranged attack roll, you can always add +3 (or +4, if you roll d8s for Force Points) instead of rolling the die.",
+    "tree": "Keetael",
+    "prerequisite": {
+      "text": "a member of The Keetael",
+      "nodes": {
+        "text": "a member of The Keetael",
+        "requirement": "The Keetael",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4BU5ZWTDgvfE1FhW",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "gwZdqrWzgG1heCUi",
+  "_key": "!items!gwZdqrWzgG1heCUi",
+  "name": "Coordinated Tactics",
+  "type": "talent",
+  "system": {
+    "description": "Each of your Followers gains the Coordinated Attack Feat, provided he or she meets the prerequisite. If your Follower later meets the prerequisite for the Feat, they gain the Feat at that time.",
+    "tree": "Squad Leader",
+    "prerequisite": {
+      "text": "Commanding Officer talent",
+      "nodes": {
+        "text": "Commanding Officer talent",
+        "requirement": "Commanding Officer",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LdsC8CyqhW9Ee4E5",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

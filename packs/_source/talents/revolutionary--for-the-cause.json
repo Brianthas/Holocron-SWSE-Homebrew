@@ -1,0 +1,31 @@
+{
+  "_id": "R7pj9TsgEMu2WFRs",
+  "_key": "!items!R7pj9TsgEMu2WFRs",
+  "name": "For the Cause",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you or an ally within 6 squares of you takes damage that exceeds that character’s Damage Threshold, you and all allies within 6 squares of you gain a +2 bonus to attack rolls and damage rolls until the end of your next turn.",
+    "tree": "Revolutionary",
+    "prerequisite": {
+      "text": "Make an Example talent",
+      "nodes": {
+        "text": "Make an Example talent",
+        "requirement": "Make an Example",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KVciO42GPaFPsugK",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

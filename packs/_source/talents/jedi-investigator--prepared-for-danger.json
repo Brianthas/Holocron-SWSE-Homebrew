@@ -1,0 +1,31 @@
+{
+  "_id": "p8fSdnkfnWtDZePh",
+  "_key": "!items!p8fSdnkfnWtDZePh",
+  "name": "Prepared for Danger",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you have at least one unspent <i>Farseeing</i> Force Power in your Force Power Suite, you can spend that <i>Farseeing</i> Force Power to regain any one other Force Power as a Swift Action.",
+    "tree": "Jedi Investigator",
+    "prerequisite": {
+      "text": "Farseeing force power",
+      "nodes": {
+        "text": "Farseeing force power",
+        "requirement": "Farseeing",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "D8lkXCYh4VgavFiJ",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "cw2plTvwYDwvpdUT",
+  "_key": "!items!cw2plTvwYDwvpdUT",
+  "name": "Dark Side Manipulation",
+  "type": "talent",
+  "system": {
+    "description": "Your Sith sorcery experimentation has provided you with a method of manipulating the Dark Side. Once per encounter, when using a Force Point in an act that would increase your Dark Side Score, you may treat the Force Point as if you had rolled the maximum on the die.",
+    "tree": "Krath",
+    "prerequisite": {
+      "text": "a member of The Krath",
+      "nodes": {
+        "text": "a member of The Krath",
+        "requirement": "The Krath",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2ipo7yCWTQAq3a7f",
+      "sourceBook": ""
+    }
+  }
+}

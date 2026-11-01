@@ -1,0 +1,47 @@
+{
+  "_id": "CvuiOporf0Ffc0Kq",
+  "_key": "!items!CvuiOporf0Ffc0Kq",
+  "name": "Attract Superior Minion",
+  "type": "talent",
+  "system": {
+    "description": "You attract a particularly skilled and powerful Minion. The Minion is a Nonheroic character with a Class Level equal to your Character Level. This Talent otherwise functions as the <b>Attract Minion</b> Talent.",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "Attract Minion talent, Impel Ally I talent, and Impel Ally II talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Attract Minion talent",
+            "requirement": "Attract Minion",
+            "type": "TALENT"
+          },
+          {
+            "text": "Impel Ally I talent",
+            "requirement": "Impel Ally I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Impel Ally II talent",
+            "requirement": "Impel Ally II",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Attract Minion talent, Impel Ally I talent, and Impel Ally II talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uqqutYPkHGW0sKnf",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

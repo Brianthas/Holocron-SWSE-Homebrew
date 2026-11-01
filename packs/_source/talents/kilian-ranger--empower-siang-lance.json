@@ -1,0 +1,31 @@
+{
+  "_id": "YpI8bC9OGHeO5by6",
+  "_key": "!items!YpI8bC9OGHeO5by6",
+  "name": "Empower Siang Lance",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point to empower a Siang Lance, which takes a Full-Round Action. After the Siang Lance in empowered, it deals an additional die of damage when you wield it. Others who wield the weapon do not gain the bonus damage die.",
+    "tree": "Kilian Ranger",
+    "prerequisite": {
+      "text": "a member of The Kilian Rangers",
+      "nodes": {
+        "text": "a member of The Kilian Rangers",
+        "requirement": "The Kilian Rangers",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "a6Tzs6KUkVv7N2PK",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

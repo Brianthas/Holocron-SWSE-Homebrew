@@ -1,0 +1,27 @@
+{
+  "_id": "WGRZ0ooiZe6jqaup",
+  "_key": "!items!WGRZ0ooiZe6jqaup",
+  "name": "Ion Mastery",
+  "type": "talent",
+  "system": {
+    "description": "You know the typical weaknesses of Vehicles and Droids, and you know how to preserve such targets for capture rather than destroying them. When attacking with Ion weapons, you gain a +1 bonus on attack rolls and deal +1 die of Ion damage.",
+    "tree": "Privateer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rW5WvCrhmOZW2Zg0",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

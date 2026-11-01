@@ -1,0 +1,31 @@
+{
+  "_id": "nX984MlDjgjeh11x",
+  "_key": "!items!nX984MlDjgjeh11x",
+  "name": "Modify Poison",
+  "type": "talent",
+  "system": {
+    "description": "You can modify the deliver method of a Poison (Contact, Ingested, Inhaled) to another delivery method by succeeding in a Knowledge (Life Science) check (DC equal to the Poison's Treat Injury DC). The Poison's capabilities and specific effects are unchanged.",
+    "tree": "Malkite Poisoner",
+    "prerequisite": {
+      "text": "Malkite Techniques talent",
+      "nodes": {
+        "text": "Malkite Techniques talent",
+        "requirement": "Malkite Techniques",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "igdZiX9cBBkzy3Xs",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

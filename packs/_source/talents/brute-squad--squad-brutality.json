@@ -1,0 +1,27 @@
+{
+  "_id": "SrSb2y92zAda8Cu7",
+  "_key": "!items!SrSb2y92zAda8Cu7",
+  "name": "Squad Brutality",
+  "type": "talent",
+  "system": {
+    "description": "When you succeed on a melee attack against a target that has one or more of your allies adjacent to it, you may reroll your damage roll, keeping the better of the two results.",
+    "tree": "Brute Squad",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tY63PN5ImmNem4HC",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

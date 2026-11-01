@@ -1,0 +1,27 @@
+{
+  "_id": "epn1FcgpF3cyuj7J",
+  "_key": "!items!epn1FcgpF3cyuj7J",
+  "name": "Lightsaber Defense",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action you can use your Lightsaber to parry your opponents' attacks, gaining a +1 deflection bonus to your Reflex Defense until the start of your next turn. You must have a Lightsaber drawn and ignited to use this Talent, and you don't gain the deflection bonus if you are Flat-Footed or otherwise unaware of the incoming attack.<br><br>You can take this Talent multiple times; each time you take this Talent, the deflection bonus increases by +1 (maximum +3).",
+    "tree": "Lightsaber Combat",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": true,
+    "maxTimes": 3,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Uma7qAUjYGlsuMdY",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

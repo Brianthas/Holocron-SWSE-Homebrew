@@ -1,0 +1,27 @@
+{
+  "_id": "18eXt3x0zoTcHdsn",
+  "_key": "!items!18eXt3x0zoTcHdsn",
+  "name": "Controlled Burst",
+  "type": "talent",
+  "system": {
+    "description": "Your penalty when making an Autofire attack or using the Burst Fire feat is reduced to -2. In addition, if you Brace an Autofire-only weapon, you have no penalty on your attack roll.",
+    "tree": "Weapon Master",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IE6duTWMW58SEGRU",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

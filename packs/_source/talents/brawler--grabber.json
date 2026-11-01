@@ -1,0 +1,27 @@
+{
+  "_id": "bqVHj0Z76mdF67Ec",
+  "_key": "!items!bqVHj0Z76mdF67Ec",
+  "name": "Grabber",
+  "type": "talent",
+  "system": {
+    "description": "You do not take a -5 penalty when using the Grab Action.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pGcuDGOF8FOchDTs",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

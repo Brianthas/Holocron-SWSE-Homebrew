@@ -1,0 +1,31 @@
+{
+  "_id": "NpDcVh62HSvbhXet",
+  "_key": "!items!NpDcVh62HSvbhXet",
+  "name": "Intuit Danger",
+  "type": "talent",
+  "system": {
+    "description": "You may substitute your Wisdom modifier for your Dexterity modifier when determining your Reflex Defense. Any condition that would cause you to be denied your Dexterity modifier to Reflex Defense causes you to be denied your Wisdom modifier as well.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "Farseeing force power",
+      "nodes": {
+        "text": "Farseeing force power",
+        "requirement": "Farseeing",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "E0Uc5GwKsxRkHWu7",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

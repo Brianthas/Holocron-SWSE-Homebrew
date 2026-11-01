@@ -1,0 +1,27 @@
+{
+  "_id": "FXlbRHZDZX2XFYNO",
+  "_key": "!items!FXlbRHZDZX2XFYNO",
+  "name": "Maximize Cover",
+  "type": "talent",
+  "system": {
+    "description": "When an opponent uses the Aim Action to negate your Cover, you can make a Stealth check opposed by the attacker's Initiative check. If successful, you retain your Cover bonus.",
+    "tree": "Vanguard",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Eck6EbeI2paglkfk",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

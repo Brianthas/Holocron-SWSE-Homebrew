@@ -1,0 +1,31 @@
+{
+  "_id": "McakqJb4fbexQ6wp",
+  "_key": "!items!McakqJb4fbexQ6wp",
+  "name": "Launch Point",
+  "type": "talent",
+  "system": {
+    "description": "Any ally who starts his or her turn within your <b>Safe Zone</b> and then exits the <b>Safe Zone</b> gains a +2 bonus to attack rolls before the end of that ally's turn, provided that the ally is not within your <b>Safe Zone</b> when the attack is made.",
+    "tree": "Pathfinder",
+    "prerequisite": {
+      "text": "Safe Zone talent",
+      "nodes": {
+        "text": "Safe Zone talent",
+        "requirement": "Safe Zone",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AMdFo7J7N33Xxmm8",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

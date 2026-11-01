@@ -1,0 +1,31 @@
+{
+  "_id": "Qx30a0hMAoyNf2Jy",
+  "_key": "!items!Qx30a0hMAoyNf2Jy",
+  "name": "Ion Turret",
+  "type": "talent",
+  "system": {
+    "description": "You can construct a Turret that is highly effective against Droids. The Turret deals Ion damage instead of normal damage.",
+    "tree": "Turret",
+    "prerequisite": {
+      "text": "Blaster Turret I talent",
+      "nodes": {
+        "text": "Blaster Turret I talent",
+        "requirement": "Blaster Turret I",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HZRfQKkRQdo3h9kQ",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

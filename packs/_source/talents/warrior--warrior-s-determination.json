@@ -1,0 +1,27 @@
+{
+  "_id": "WA1H3RikmCe6EMpN",
+  "_key": "!items!WA1H3RikmCe6EMpN",
+  "name": "Warrior's Determination",
+  "type": "talent",
+  "system": {
+    "description": "Your natural determination carries you through tough battles. Once per encounter, as a Reaction, you can ignore one non Force-related effect, Talent, Skill, or ability that exceeds your Will Defense. If you spend a Force Point, you can ignore one Mind-Affecting effect, even if it is the result of a Force Power, Force Technique, or Force Secret.",
+    "tree": "Warrior",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DwmEahhbx7kTaFD6",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

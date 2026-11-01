@@ -1,0 +1,31 @@
+{
+  "_id": "hkgJ3bgx2EhlhDXv",
+  "_key": "!items!hkgJ3bgx2EhlhDXv",
+  "name": "Telekinetic Throw",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you successfully use the Throw feat, your opponent falls Prone in any space you desire up to 3 squares beyond your reach.",
+    "tree": "Warden of the Sky",
+    "prerequisite": {
+      "text": "a member of The Wardens of the Sky",
+      "nodes": {
+        "text": "a member of The Wardens of the Sky",
+        "requirement": "The Wardens of the Sky",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "InaKgBuBDlBtrJ9j",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

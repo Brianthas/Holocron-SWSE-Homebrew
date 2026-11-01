@@ -1,0 +1,42 @@
+{
+  "_id": "DqfVw8w0EpotxjdC",
+  "_key": "!items!DqfVw8w0EpotxjdC",
+  "name": "Rally",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can rally your allies and bring them back from the edge of defeat. As a Swift Action, any allies within your line of sight who have less than half their total hit points remaining gain a +2 morale bonus to their Reflex Defense and Will Defense, and a +2 bonus to all damage rolls for the remainder of the encounter.<br><br>Unlike other Mind-Affecting Talents, <b>Rally</b> affects both allied Vehicles and characters with less than half their Hit Points. The Vehicle gains a +2 bonus to its Reflex Defense, all crewmembers gain a +2 bonus to their Will Defense so long as they are on board, and all Gunners gain a +2 bonus on damage with Weapon Systems (before multiplier, if any). Any crewmember who has less than half its Hit Points also gains the normal benefits of this Talent even if it leaves the Vehicle, but note that these bonuses do not stack.",
+    "tree": "Leadership",
+    "prerequisite": {
+      "text": "Born Leader talent, and Distant Command talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Born Leader talent",
+            "requirement": "Born Leader",
+            "type": "TALENT"
+          },
+          {
+            "text": "Distant Command talent",
+            "requirement": "Distant Command",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Born Leader talent, and Distant Command talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gVlcLmHP4RAEFZ3J",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

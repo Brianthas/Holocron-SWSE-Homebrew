@@ -1,0 +1,31 @@
+{
+  "_id": "QUsAC45M7vYfmOkn",
+  "_key": "!items!QUsAC45M7vYfmOkn",
+  "name": "Bolstered Numbers",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you successfully use <b>Recruit Enemy</b> on a target, you and all allies within line of sight gain a +2 morale bonus to attack rolls until the end of the encounter.",
+    "tree": "Rebel Recruiter",
+    "prerequisite": {
+      "text": "Recruit Enemy talent",
+      "nodes": {
+        "text": "Recruit Enemy talent",
+        "requirement": "Recruit Enemy",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "10rMkMTjt4WgNqum",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

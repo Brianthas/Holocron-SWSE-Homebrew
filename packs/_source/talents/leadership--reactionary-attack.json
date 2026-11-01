@@ -1,0 +1,42 @@
+{
+  "_id": "Q7Rda9F78bHb6bEn",
+  "_key": "!items!Q7Rda9F78bHb6bEn",
+  "name": "Reactionary Attack",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Reaction to an attack made against you or an ally, you can direct an ally within 6 squares to make an immediate attack as a Reaction against the attacking enemy. The ally you choose must be capable of making an attack against the target.",
+    "tree": "Leadership",
+    "prerequisite": {
+      "text": "Born Leader talent, and Trained in Persuasion",
+      "nodes": {
+        "children": [
+          {
+            "text": "Born Leader talent",
+            "requirement": "Born Leader",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Persuasion",
+            "requirement": "Persuasion",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Born Leader talent, and Trained in Persuasion",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "laVAAKbF1T1qYaKV",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

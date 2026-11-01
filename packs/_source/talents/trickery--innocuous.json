@@ -1,0 +1,27 @@
+{
+  "_id": "liMWcUbgnyXt3MoA",
+  "_key": "!items!liMWcUbgnyXt3MoA",
+  "name": "Innocuous",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can make a Deception check against a single enemy within 6 squares of you and in line of sight. If the check equals or exceeds the target's Will Defense, the target takes a -5 penalty on all attacks made against you until the start of your next turn.",
+    "tree": "Trickery",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2x4n0n6KmXHqChVJ",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

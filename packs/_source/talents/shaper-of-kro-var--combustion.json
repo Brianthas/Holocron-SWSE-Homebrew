@@ -1,0 +1,31 @@
+{
+  "_id": "CD52iudFHrFgS7h6",
+  "_key": "!items!CD52iudFHrFgS7h6",
+  "name": "Combustion",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point as a Swift Action to add 1d6 points of Fire damage to any Force Power that causes damage to a single target. A target that takes Fire damage also catches on Fire.",
+    "tree": "Shaper of Kro Var",
+    "prerequisite": {
+      "text": "a member of The Shapers of Kro Var",
+      "nodes": {
+        "text": "a member of The Shapers of Kro Var",
+        "requirement": "The Shapers of Kro Var",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CCDIsJGif0PLxEug",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

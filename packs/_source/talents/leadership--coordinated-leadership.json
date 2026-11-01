@@ -1,0 +1,42 @@
+{
+  "_id": "MXxhroxDBTt8r0es",
+  "_key": "!items!MXxhroxDBTt8r0es",
+  "name": "Coordinated Leadership",
+  "type": "talent",
+  "system": {
+    "description": "You coordinate your actions with other leaders. Choose one Talent you possess from the Leadership Talent Tree. The bonuses you provide with this Talent are now considered to be untyped bonuses, allowing them to stack with the bonuses granted by your allies.",
+    "tree": "Leadership",
+    "prerequisite": {
+      "text": "Born Leader talent, and Coordinate talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Born Leader talent",
+            "requirement": "Born Leader",
+            "type": "TALENT"
+          },
+          {
+            "text": "Coordinate talent",
+            "requirement": "Coordinate",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Born Leader talent, and Coordinate talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yivaU2WlyDMvMeSI",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

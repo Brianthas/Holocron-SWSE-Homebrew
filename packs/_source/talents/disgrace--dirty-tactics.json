@@ -1,0 +1,27 @@
+{
+  "_id": "9XAwvTaH6u8AxSVj",
+  "_key": "!items!9XAwvTaH6u8AxSVj",
+  "name": "Dirty Tactics",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Standard Action, you can grant a tactical advantage to all allies within your line of sight. When an ally Flanks an opponent, that ally gains a +4 Flanking bonus on melee attack rolls instead of the normal +2 bonus.<br><br>Allies lose this benefit immediately if line of sight is broken or if you are unconscious or dead, or at the end of the encounter.",
+    "tree": "Disgrace",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jekptJ6DnsZ8zoJo",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "pF7BVH6mqAwd4Ggp",
+  "_key": "!items!pF7BVH6mqAwd4Ggp",
+  "name": "Dastardly Strike",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you make a successful attack against an opponent that is denied its Dexterity bonus to Reflex Defense, the target moves -1 step along the Condition Track. This Talent can be used only against characters, not objects or Vehicles.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vAL2HrTSfbZmi9KS",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

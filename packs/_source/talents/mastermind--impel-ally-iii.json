@@ -1,0 +1,42 @@
+{
+  "_id": "Zr8RcbIJQpGv9Sqk",
+  "_key": "!items!Zr8RcbIJQpGv9Sqk",
+  "name": "Impel Ally III",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can spend three Swift Actions on consecutive turns to grant one ally the ability to take a Standard Action and a Move Action. The ally must act immediately on your turn when the final Swift Action is spent, before you do anything else, or the opportunity is wasted.",
+    "tree": "Mastermind",
+    "prerequisite": {
+      "text": "Impel Ally I talent, and Impel Ally II talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Impel Ally I talent",
+            "requirement": "Impel Ally I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Impel Ally II talent",
+            "requirement": "Impel Ally II",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Impel Ally I talent, and Impel Ally II talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tivNsbtCLYT4pgHV",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

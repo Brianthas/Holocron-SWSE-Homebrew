@@ -1,0 +1,31 @@
+{
+  "_id": "FiF5oCk6CRGeapzX",
+  "_key": "!items!FiF5oCk6CRGeapzX",
+  "name": "Perceptive Ambusher",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +5 circumstance bonus to Perception checks against your Prime Target until the end of the encounter.",
+    "tree": "Ambusher",
+    "prerequisite": {
+      "text": "Ambush Specialist talent",
+      "nodes": {
+        "text": "Ambush Specialist talent",
+        "requirement": "Ambush Specialist",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zDB7HwPFRZ1oxxba",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

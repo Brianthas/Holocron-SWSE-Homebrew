@@ -1,0 +1,31 @@
+{
+  "_id": "oHid6OLfbwAG5Nkj",
+  "_key": "!items!oHid6OLfbwAG5Nkj",
+  "name": "Fleet Deployment",
+  "type": "talent",
+  "system": {
+    "description": "As a Full-Round Action, you can designate a number of Vehicles equal to your Officer Class Level and within your line of sight. Those Vehicles may immediately move a number of squares equal to their speed.",
+    "tree": "Naval Officer",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iLzDlUyTdIoRi67H",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

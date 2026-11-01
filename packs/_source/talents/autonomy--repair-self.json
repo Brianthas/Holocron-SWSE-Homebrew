@@ -1,0 +1,27 @@
+{
+  "_id": "lNfNirDPHCHo0ZZ8",
+  "_key": "!items!lNfNirDPHCHo0ZZ8",
+  "name": "Repair Self",
+  "type": "talent",
+  "system": {
+    "description": "When you Repair yourself, your Repair 1 additional Hit Point for each point by which your Mechanics check exceeds the DC.",
+    "tree": "Autonomy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GVB89isya6GYBcxL",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

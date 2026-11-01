@@ -1,0 +1,31 @@
+{
+  "_id": "8n0HfGSVdOVM2UyK",
+  "_key": "!items!8n0HfGSVdOVM2UyK",
+  "name": "Liberate",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point as a Swift Action to designate one ally within 12 squares of you and in your line of sight that is currently Grabbed, Grappled, or Immobilized; that target automatically escapes from the Grab or Grapple (or the Immobilization effect is removed), and the target can move up to half its Speed immediately as a Reaction.<br><br>This movement does not provoke Attacks of Opportunity.",
+    "tree": "Aing-Tii Monk",
+    "prerequisite": {
+      "text": "a member of The Aing-Tii Monks",
+      "nodes": {
+        "text": "a member of The Aing-Tii Monks",
+        "requirement": "The Aing-Tii Monks",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lgwMnPi4fDuBUjtJ",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

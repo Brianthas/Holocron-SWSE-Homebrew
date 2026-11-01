@@ -1,0 +1,31 @@
+{
+  "_id": "e1VlvUWRnLaiIuUF",
+  "_key": "!items!e1VlvUWRnLaiIuUF",
+  "name": "Mobile Whirlwind",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use the Whirlwind Attack feat, you can move up to your speed after the attack is resolved.",
+    "tree": "Seyugi Dervish",
+    "prerequisite": {
+      "text": "a member of The Seyugi Dervishes",
+      "nodes": {
+        "text": "a member of The Seyugi Dervishes",
+        "requirement": "The Seyugi Dervishes",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hFlv1rww21XUlNRH",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

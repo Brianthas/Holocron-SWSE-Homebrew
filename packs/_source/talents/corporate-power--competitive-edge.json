@@ -1,0 +1,27 @@
+{
+  "_id": "VFYFhT12HosVM3cW",
+  "_key": "!items!VFYFhT12HosVM3cW",
+  "name": "Competitive Edge",
+  "type": "talent",
+  "system": {
+    "description": "When you and your allies are not Surprised, you and a number of allies equal to your Charisma modifier (minimum 1), which you designate on your first turn, gain the benefits of the Quick Draw feat for the remainder of the encounter.",
+    "tree": "Corporate Power",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9aF1WYCjzBFd85Xb",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

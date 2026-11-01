@@ -1,0 +1,31 @@
+{
+  "_id": "K8GD21TkGfagkJ05",
+  "_key": "!items!K8GD21TkGfagkJ05",
+  "name": "Inspire Competence",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action once per turn, you can grant one Droid ally within your line of sight a competence bonus on it's next attack roll made before the start of your next turn equal to half your Class Level. Additionally, any Droid designated as the target of your Network Mind Class Feature is considered to have a Heuristic Processor whenever it is beneficial, even if it does not actually have a Heuristic Processor.",
+    "tree": "Droid Commander",
+    "prerequisite": {
+      "text": "Expanded Sensors talent",
+      "nodes": {
+        "text": "Expanded Sensors talent",
+        "requirement": "Expanded Sensors",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GSiDwcL5eNdFRx0T",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

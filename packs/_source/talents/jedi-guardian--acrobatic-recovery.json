@@ -1,0 +1,27 @@
+{
+  "_id": "Fe78JbUpHQ5Ko1gh",
+  "_key": "!items!Fe78JbUpHQ5Ko1gh",
+  "name": "Acrobatic Recovery",
+  "type": "talent",
+  "system": {
+    "description": "If any effect causes you to fall Prone, you can make a DC 20 Acrobatics check to remain on your feet.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WduqeIV7dyhDNMCx",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

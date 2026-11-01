@@ -1,0 +1,31 @@
+{
+  "_id": "Ml39MwwMAy85VF1P",
+  "_key": "!items!Ml39MwwMAy85VF1P",
+  "name": "Illusion",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can spend a Force Point to create an <b>Illusion</b> that seems perfectly real to anyone who views it. You designate the form and complexity of the <b>Illusion</b>, as well as its size and location, and make a Use the Force check.<br><br>When a creature views the <b>Illusion</b>, compare the result of your Use the Force check to the target's Will Defense; if your check result exceeds it's Will Defense, it believes the <b>Illusion</b> to be real. Any physical interaction with the <b>Illusion</b> (such as touching it, passing through it, or shooting it with a blaster) immediately reveals the true nature of the <b>Illusion</b>, and the creature is no longer deceived.<br><br>The <b>Illusion</b> lasts for a number of minutes equal to your Heroic Level.<br><br>The Illusion's size also affects your Use the Force check, applying a penalty for exceptionally large <b>Illusions</b>. The penalties are -1 for Huge <b>Illusions</b>, -2 for Gargantuan <b>Illusions</b>, -5 for Colossal <b>Illusions</b>, and -10 for Colossal (Frigate) or larger <b>Illusions</b>. This is a Mind-Affecting effect.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "Mind Trick force power",
+      "nodes": {
+        "text": "Mind Trick force power",
+        "requirement": "Mind Trick",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hwTZpuICRGF4tBVc",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

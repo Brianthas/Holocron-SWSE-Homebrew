@@ -1,0 +1,31 @@
+{
+  "_id": "aknVa7sUut1TTxGL",
+  "_key": "!items!aknVa7sUut1TTxGL",
+  "name": "Stealthy Withdrawal",
+  "type": "talent",
+  "system": {
+    "description": "When an ally Withdraws as a result of your <b>Hasty Withdrawal</b> Talent and ends its Withdraw Action with Cover or Concealment from any enemy target, that ally can make an immediate Stealth check to Sneak as a Free Action.",
+    "tree": "Fugitive Commander",
+    "prerequisite": {
+      "text": "Hasty Withdrawal talent",
+      "nodes": {
+        "text": "Hasty Withdrawal talent",
+        "requirement": "Hasty Withdrawal",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WIbfElL3A7AsmtJd",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

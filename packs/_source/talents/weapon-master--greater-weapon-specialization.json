@@ -1,0 +1,43 @@
+{
+  "_id": "5BX87KBZqd3r9t33",
+  "_key": "!items!5BX87KBZqd3r9t33",
+  "name": "Greater Weapon Specialization",
+  "type": "talent",
+  "system": {
+    "description": "Choose one Exotic Weapon or one of the following weapon groups: Advanced Melee, Heavy Weapons, Pistols, Rifles, or Simple Weapons. You gain a +2 bonus on damage rolls with the chosen Exotic Weapon or a weapon from the chosen group. This bonus stacks with the bonus granted by the <b>Weapon Specialization</b> Talent.<br><br>You may select this Talent multiple times. Each time you select this Talent, it applies to a different Exotic Weapon or weapon group.",
+    "tree": "Weapon Master",
+    "prerequisite": {
+      "text": "Weapon Specialization (#payload#)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Weapon Specialization (#payload#) talent",
+            "requirement": "Weapon Specialization (#payload#)",
+            "type": "TALENT"
+          },
+          {
+            "text": "Weapon Specialization (#payload#) feat",
+            "requirement": "Weapon Specialization (#payload#)",
+            "type": "FEAT"
+          }
+        ],
+        "count": 1,
+        "text": "Weapon Specialization (#payload#)",
+        "type": "OR"
+      }
+    },
+    "repeatable": true,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yW0sNsZxTGbW972w",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

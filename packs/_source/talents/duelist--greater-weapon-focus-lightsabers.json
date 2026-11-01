@@ -1,0 +1,55 @@
+{
+  "_id": "QglSFI3MSOwUOBx0",
+  "_key": "!items!QglSFI3MSOwUOBx0",
+  "name": "Greater Weapon Focus (Lightsabers)",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +1 bonus on melee attack rolls with Lightsabers. This bonus stacks with the bonus granted by the Weapon Focus (Lightsabers) feat.",
+    "tree": "Duelist",
+    "prerequisite": {
+      "text": "Weapon Focus (Lightsabers)",
+      "nodes": {
+        "text": "Weapon Focus (Lightsabers)",
+        "requirement": "Weapon Focus (Lightsabers)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [
+    {
+      "_id": "88hyMrqWP2F4F2El",
+      "_key": "!items.effects!QglSFI3MSOwUOBx0.88hyMrqWP2F4F2El",
+      "name": "Greater Weapon Focus (Lightsabers)",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "attack.group.lightsabers",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MTg4hTYtGTRPdnKF",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

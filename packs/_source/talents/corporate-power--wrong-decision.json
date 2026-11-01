@@ -1,0 +1,27 @@
+{
+  "_id": "VjCOzVHsbd0HbJHC",
+  "_key": "!items!VjCOzVHsbd0HbJHC",
+  "name": "Wrong Decision",
+  "type": "talent",
+  "system": {
+    "description": "Each time you are attacked, the opponent that attacked you takes a -2 morale penalty to its Will Defense until the end of your next turn. This penalty is not cumulative, so if a target makes multiple attacks against you it only incurs the penalty once per turn.",
+    "tree": "Corporate Power",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vQVGtUg0DbgpkE9g",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

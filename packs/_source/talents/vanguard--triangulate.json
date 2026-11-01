@@ -1,0 +1,31 @@
+{
+  "_id": "RxQLmDpQksiQmffd",
+  "_key": "!items!RxQLmDpQksiQmffd",
+  "name": "Triangulate",
+  "type": "talent",
+  "system": {
+    "description": "If you and at least one other ally have line of sight to and are aware of a target, you and all allies that can hear and understand you can reroll one ranged attack roll against that target, accepting the second result even if it is worse. You and your allies can only gain the benefits of this Talent once per encounter.",
+    "tree": "Vanguard",
+    "prerequisite": {
+      "text": "Enhanced Vision talent",
+      "nodes": {
+        "text": "Enhanced Vision talent",
+        "requirement": "Enhanced Vision",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ORYnvi9h0QqXeuXk",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

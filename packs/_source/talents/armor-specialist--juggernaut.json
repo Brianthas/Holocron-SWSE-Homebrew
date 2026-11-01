@@ -1,0 +1,31 @@
+{
+  "_id": "BuPGG4DhgVLKwR8i",
+  "_key": "!items!BuPGG4DhgVLKwR8i",
+  "name": "Juggernaut",
+  "type": "talent",
+  "system": {
+    "description": "Your Armor does not reduce your Speed or the distance you can move while Running. You must be proficient with the Armor you are wearing to gain this benefit.",
+    "tree": "Armor Specialist",
+    "prerequisite": {
+      "text": "Armored Defense talent",
+      "nodes": {
+        "text": "Armored Defense talent",
+        "requirement": "Armored Defense",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3OTlHTDk470lkd5e",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

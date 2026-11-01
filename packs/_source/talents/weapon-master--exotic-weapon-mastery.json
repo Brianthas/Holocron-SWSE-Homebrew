@@ -1,0 +1,27 @@
+{
+  "_id": "1xh1wspDTTOzbVsn",
+  "_key": "!items!1xh1wspDTTOzbVsn",
+  "name": "Exotic Weapon Mastery",
+  "type": "talent",
+  "system": {
+    "description": "You are considered proficient with any Exotic Weapon, even if you don't possess the appropriate Exotic Weapon Proficiency feat.",
+    "tree": "Weapon Master",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pilQ7XhkmiLy9j2P",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "Lrahhxk9R8jWMFMc",
+  "_key": "!items!Lrahhxk9R8jWMFMc",
+  "name": "Blind Spot",
+  "type": "talent",
+  "system": {
+    "description": "You can fly a Vehicle you Pilot so close to a target at least two sizes larger than your Vehicle that it is difficult for the target to avoid or attack you. You must be adjacent to the target (at Starship Scale) to use this Talent.<br><br>As a Swift Action, make an opposed Pilot check against the target. If you succeed, you move into the same space as your target. You move with your target if it moves (assuming your Vehicle has sufficient Speed to keep up), and you must make another opposed Pilot check each round as a Swift Action to stay in its <b>Blind Spot</b>.<br><br>As long as you stay in the target's <b>Blind Spot</b>, any attack you make against the target gains a +2 bonus, and the target takes a -2 penalty on attacks made against you.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ROFl7RmkQIg6Q65b",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

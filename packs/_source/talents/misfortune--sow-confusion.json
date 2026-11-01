@@ -1,0 +1,31 @@
+{
+  "_id": "xn94a6gc7Sea9yqn",
+  "_key": "!items!xn94a6gc7Sea9yqn",
+  "name": "Sow Confusion",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Standard Action, you can make a Deception check and compare the result to the Will Defense of all enemies in your line of sight.<br><br>If the check result equals or exceeds an enemy's Will Defense, that enemy must spend a Swift Action in addition to a Standard Action to make an attack until the start of your next turn.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "Hesitate talent",
+      "nodes": {
+        "text": "Hesitate talent",
+        "requirement": "Hesitate",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "EGxuWTsfgoWqS5Pr",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

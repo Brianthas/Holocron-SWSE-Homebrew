@@ -1,0 +1,27 @@
+{
+  "_id": "UWEF9yLxMfNhlNg4",
+  "_key": "!items!UWEF9yLxMfNhlNg4",
+  "name": "Trick Step",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, make an Initiative check, opposed by the Initiative check of an enemy within your line of sight.<br><br>If your check result equals or exceeds the target's check, the target is considered Flat-Footed against the next attack you make before the end of your turn. If the target's check result is higher, you are considered Flat-Footed against the next attack made by the target before the start of your next turn.",
+    "tree": "Recklessness",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CQXVrKXEdT47OwW3",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

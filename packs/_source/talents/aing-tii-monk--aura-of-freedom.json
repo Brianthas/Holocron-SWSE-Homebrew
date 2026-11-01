@@ -1,0 +1,31 @@
+{
+  "_id": "EHskDYO1hTsnMmdk",
+  "_key": "!items!EHskDYO1hTsnMmdk",
+  "name": "Aura of Freedom",
+  "type": "talent",
+  "system": {
+    "description": "All allies within 6 squares of you gain a +5 Force bonus on Skill Checks or Grapple checks made to escape Grapples or other Immobilizing Hazards.<br><br>Additionally, whenever an ally within 6 squares of you is moved against its will (such as by the <i>Move Object</i> Force Power or the Bantha Rush feat), you can spend a Force Point as a Reaction to negate the forced movement entirely.",
+    "tree": "Aing-Tii Monk",
+    "prerequisite": {
+      "text": "a member of The Aing-Tii Monks",
+      "nodes": {
+        "text": "a member of The Aing-Tii Monks",
+        "requirement": "The Aing-Tii Monks",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yDp6oX8KC4YnW3oW",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

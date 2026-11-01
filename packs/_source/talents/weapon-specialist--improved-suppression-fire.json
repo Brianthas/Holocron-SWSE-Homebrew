@@ -1,0 +1,27 @@
+{
+  "_id": "n7TfKYubnCBCuy05",
+  "_key": "!items!n7TfKYubnCBCuy05",
+  "name": "Improved Suppression Fire",
+  "type": "talent",
+  "system": {
+    "description": "When you successfully suppress an enemy using the Aid Another Action, that enemy takes a -5 penalty on its attack rolls until the start of your next turn. When targeting an area with an Autofire Weapon, each enemy in the attack area takes a -2 penalty on its attack rolls until the start of your next turn, regardless of whether your attack hits.",
+    "tree": "Weapon Specialist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZRR2QyBz2A2jH7He",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "JhbL9q24OWDyJfAP",
+  "_key": "!items!JhbL9q24OWDyJfAP",
+  "name": "Esoteric Technique",
+  "type": "talent",
+  "system": {
+    "description": "When you spend a Force Point to activate a Force Technique or Force Secret, you gain Bonus Hit Points equal to 10 + your Class Level until the end of the encounter.",
+    "tree": "Mystic",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Xjn7CYWDRAREIOqd",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

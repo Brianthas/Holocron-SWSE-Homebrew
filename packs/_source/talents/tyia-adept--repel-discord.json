@@ -1,0 +1,31 @@
+{
+  "_id": "NFZhMeEdlkiRbwcb",
+  "_key": "!items!NFZhMeEdlkiRbwcb",
+  "name": "Repel Discord",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are targeted by a Force Power with the [<i>Dark Side</i>] descriptor, you can spend a Force Point as a Reaction to give the creature that used that Force Power against you a penalty on its Use the Force check to activate the power equal to its Dark Side Score.",
+    "tree": "Tyia Adept",
+    "prerequisite": {
+      "text": "a member of The Tyia",
+      "nodes": {
+        "text": "a member of The Tyia",
+        "requirement": "The Tyia",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pORVzLpygtOA9qfl",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "Mw8OrOjlH17NmJYC",
+  "_key": "!items!Mw8OrOjlH17NmJYC",
+  "name": "Corporate Clout",
+  "type": "talent",
+  "system": {
+    "description": "You are adept at making deals that make opponents question which side they should be on. Once per encounter, as a Standard Action, you can make a Persuasion check against the Will Defense of an opponent within line of sight.<br><br>If your check equals or exceeds the target's Will Defense, the target cannot attack you for the remainder of the encounter. If your check exceeds the target's Will Defense by 5 or more, the target will not attack you or your allies for the remainder of the encounter.<br><br>If your check exceeds the target's Will Defense by 10 or more, the target's Attitude toward you is now Friendly, and the target becomes your ally for the remainder of the encounter, remaining under the control of the Gamemaster. If you or one of your allies attacks the target, the target once again becomes Hostile.<br><br>If the target is a higher level than you, it gains a +5 bonus to its Will Defense. This is a Mind-Affecting Fear effect.",
+    "tree": "Corporate Power",
+    "prerequisite": {
+      "text": "Impose Hesitation talent, and Wrong Decision talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Impose Hesitation talent",
+            "requirement": "Impose Hesitation",
+            "type": "TALENT"
+          },
+          {
+            "text": "Wrong Decision talent",
+            "requirement": "Wrong Decision",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Impose Hesitation talent, and Wrong Decision talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "icBrcI4XFDRWoYsu",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

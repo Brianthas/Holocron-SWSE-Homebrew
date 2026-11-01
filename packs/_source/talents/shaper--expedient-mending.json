@@ -1,0 +1,31 @@
+{
+  "_id": "ioZCTH9IweVGy93g",
+  "_key": "!items!ioZCTH9IweVGy93g",
+  "name": "Expedient Mending",
+  "type": "talent",
+  "system": {
+    "description": "You can temporarily mend a damaged or disabled Biotech device using the Treat Injury Skill as a Standard Action instead of a Full-Round Action.",
+    "tree": "Shaper",
+    "prerequisite": {
+      "text": "Expert Shaper talent",
+      "nodes": {
+        "text": "Expert Shaper talent",
+        "requirement": "Expert Shaper",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mJUgGXvVOtWEU2XD",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

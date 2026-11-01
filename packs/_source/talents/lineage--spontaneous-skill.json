@@ -1,0 +1,31 @@
+{
+  "_id": "fsmZB9HeHF0ez8uf",
+  "_key": "!items!fsmZB9HeHF0ez8uf",
+  "name": "Spontaneous Skill",
+  "type": "talent",
+  "system": {
+    "description": "Sometimes you surprise others with your skill. Once per day, you may make an Untrained skill check as though you were Trained in the Skill. Exception: you cannot use this Talent to make an Untrained Use the Force check as though you were Trained in the skill, unless you have the Force Sensitivity feat.<br><br>You can select this Talent multiple times; each time you do, you can use it one additional time per day.",
+    "tree": "Lineage",
+    "prerequisite": {
+      "text": "Educated talent",
+      "nodes": {
+        "text": "Educated talent",
+        "requirement": "Educated",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yP3JetdiEtTqCDmn",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "yJ9da4Lb5fxokS0F",
+  "_key": "!items!yJ9da4Lb5fxokS0F",
+  "name": "It's a Trap!",
+  "type": "talent",
+  "system": {
+    "description": "You are skilled at sensing the plans of enemy naval Officers, and counteracting them. Once per encounter as a Reaction, you can grant the Pilot of any single Vehicle within line of sight (including a Vehicle you are commanding) an immediate Move Action.",
+    "tree": "Naval Officer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2HpqZr3aUUuuwA92",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "UWUVt4C23accydlP",
+  "_key": "!items!UWUVt4C23accydlP",
+  "name": "Opportunistic Defense",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, whenever you would use <b>Uncanny Instincts</b>, you can forgo this extra movement and instead increase your Reflex Defense by 5 until the end of your next turn.",
+    "tree": "Outlaw",
+    "prerequisite": {
+      "text": "Uncanny Instincts talent",
+      "nodes": {
+        "text": "Uncanny Instincts talent",
+        "requirement": "Uncanny Instincts",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3opsD8W2IKVprXs9",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

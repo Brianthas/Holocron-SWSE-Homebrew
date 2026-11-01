@@ -1,0 +1,31 @@
+{
+  "_id": "e0K1oPvqxUEBJlOG",
+  "_key": "!items!e0K1oPvqxUEBJlOG",
+  "name": "Akk Dog Trainer's Actions",
+  "type": "talent",
+  "system": {
+    "description": "You and your Akk Dog have bonded through The Force and can fight in concert. You can use any of the followers Actions on your turn:",
+    "tree": "Korunnai Adept",
+    "prerequisite": {
+      "text": "a member of The Korunnai",
+      "nodes": {
+        "text": "a member of The Korunnai",
+        "requirement": "The Korunnai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Asj1S31Jxwz7p69p",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

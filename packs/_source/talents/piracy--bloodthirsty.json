@@ -1,0 +1,27 @@
+{
+  "_id": "RYBGfvMd5eyDxAds",
+  "_key": "!items!RYBGfvMd5eyDxAds",
+  "name": "Bloodthirsty",
+  "type": "talent",
+  "system": {
+    "description": "You can perform a Coup de Grace as a Move Action. Whenever you successfully perform a Coup de Grace Action and kill the target, all allies within your line of sight gain a +2 morale bonus on attack rolls for the duration of the encounter.",
+    "tree": "Piracy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "r6zViqZLqpqb8w27",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

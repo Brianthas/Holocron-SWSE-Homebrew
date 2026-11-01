@@ -1,0 +1,27 @@
+{
+  "_id": "DcuaeZYcTYyFLgbj",
+  "_key": "!items!DcuaeZYcTYyFLgbj",
+  "name": "Leading Skill",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you earn a success in a Skill Challenge, you gain a +2 insight bonus to your next Skill Check made with a different Skill in the same Skill Challenge.",
+    "tree": "Skill Challenge",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kxJSafg11L3IQ0VW",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

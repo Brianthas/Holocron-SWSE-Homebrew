@@ -1,0 +1,27 @@
+{
+  "_id": "nQihzgrOxbywOT71",
+  "_key": "!items!nQihzgrOxbywOT71",
+  "name": "Retribution",
+  "type": "talent",
+  "system": {
+    "description": "When a target moves one of your allies in your line of sight down the Condition Track by any means, you gain a +2 insight bonus to your attack rolls against that target until the end of your next turn.",
+    "tree": "Opportunist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cOJYWnbVbEoUIxz8",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "Cd69CEfaHYsDf9ce",
+  "_key": "!items!Cd69CEfaHYsDf9ce",
+  "name": "Manipulating Strike",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn when you successfully damage a target with a non-Area Attack, make an Intimidate Persuasion check against the target's Will Defense. If successful, you can determine what the target does with its Swift Action on its next turn. This is a Mind-Affecting effect.",
+    "tree": "GenoHaradan",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "w8CxI9HRPwR6no8n",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

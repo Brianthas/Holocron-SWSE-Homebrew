@@ -1,0 +1,27 @@
+{
+  "_id": "akCAwNQ2ySRLVr5F",
+  "_key": "!items!akCAwNQ2ySRLVr5F",
+  "name": "Ruthless",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, when you drop a foe to 0 Hit Points or push an opponent to the bottom of the Condition Track, you can immediately take a bonus Standard Action.",
+    "tree": "Assassin",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PXQzFgkcDX8Y3OKd",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "oft3aHLxmkKVxKEE",
+  "_key": "!items!oft3aHLxmkKVxKEE",
+  "name": "Blowback",
+  "type": "talent",
+  "system": {
+    "description": "When you make an attack with a Rifle that deals damage in excess of your target's Damage Threshold, you can choose to push the target 1 square away from you.",
+    "tree": "Carbineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7At8I0y26OIOowja",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

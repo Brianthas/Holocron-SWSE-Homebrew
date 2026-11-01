@@ -1,0 +1,27 @@
+{
+  "_id": "DDh3l7tYNhlE7Cgz",
+  "_key": "!items!DDh3l7tYNhlE7Cgz",
+  "name": "Breaching Explosive",
+  "type": "talent",
+  "system": {
+    "description": "You ignore the Damage Threshold of doors and walls when using Mines and fixed (non-Grenade) Explosives.",
+    "tree": "Military Engineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BmIwOWmdHdfQCKe9",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

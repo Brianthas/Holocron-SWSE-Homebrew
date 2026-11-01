@@ -1,0 +1,27 @@
+{
+  "_id": "7YiRp9ZpEHpqa0uq",
+  "_key": "!items!7YiRp9ZpEHpqa0uq",
+  "name": "Soft Reset",
+  "type": "talent",
+  "system": {
+    "description": "You are adept at rerouting your internal electronics. If you are moved to the bottom of the Condition Track by any means other than taking damage exceeding your Damage Threshold, you automatically move +1 step along the Condition Track after being disabled for 2 rounds.",
+    "tree": "Autonomy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sCGu3ziGTYmwgEeQ",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

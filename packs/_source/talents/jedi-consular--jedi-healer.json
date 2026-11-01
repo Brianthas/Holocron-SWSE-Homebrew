@@ -1,0 +1,31 @@
+{
+  "_id": "3xyLKLbUyBEan0DG",
+  "_key": "!items!3xyLKLbUyBEan0DG",
+  "name": "Jedi Healer",
+  "type": "talent",
+  "system": {
+    "description": "You are Trained in the Treat Injury skill. Additionally, patients under your care move +1 step along the Condition Track as a result of a successful Treat Injury check or activation of the <i>Vital Transfer</i> Force Power.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "Trained in Knowledge (Sciences)",
+      "nodes": {
+        "text": "Trained in Knowledge (Sciences)",
+        "requirement": "Knowledge (Sciences)",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kqQ7Aqpff3FoVbGO",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

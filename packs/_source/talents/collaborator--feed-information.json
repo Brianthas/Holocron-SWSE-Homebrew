@@ -1,0 +1,27 @@
+{
+  "_id": "2dCx55DXQaCGzE1j",
+  "_key": "!items!2dCx55DXQaCGzE1j",
+  "name": "Feed Information",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can grant one enemy a +1 bonus on its next attack roll made before the beginning of your next turn. Additionally, until the beginning of your next turn, you can designate one ally who receives a +2 bonus on its next attack roll.",
+    "tree": "Collaborator",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bito8ooYVTLXCIKB",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

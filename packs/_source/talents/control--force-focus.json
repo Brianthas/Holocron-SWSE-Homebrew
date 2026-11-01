@@ -1,0 +1,27 @@
+{
+  "_id": "MXaZ6SBipQq373Oh",
+  "_key": "!items!MXaZ6SBipQq373Oh",
+  "name": "Force Focus",
+  "type": "talent",
+  "system": {
+    "description": "As a Full-Round Action, you may make a DC 15 Use the Force check. If the check succeeds, you regain one spent Force Power of your choice.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oHgPi5D5kzA2z7lG",
+      "sourceBook": ""
+    }
+  }
+}

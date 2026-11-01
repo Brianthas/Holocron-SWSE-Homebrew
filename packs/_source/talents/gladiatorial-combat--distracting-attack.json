@@ -1,0 +1,31 @@
+{
+  "_id": "MNltDiRZtfkOcE1j",
+  "_key": "!items!MNltDiRZtfkOcE1j",
+  "name": "Distracting Attack",
+  "type": "talent",
+  "system": {
+    "description": "When you deal damage to a target with a melee or ranged attack, compare the attack roll to the targets' Will Defense. If the attack roll also meets or exceeds the target's Will Defense, the target takes a -2 penalty to their Reflex Defense until the end of your next turn.",
+    "tree": "Gladiatorial Combat",
+    "prerequisite": {
+      "text": "Brutal Attack (#payload#)",
+      "nodes": {
+        "text": "Brutal Attack (#payload#)",
+        "requirement": "Brutal Attack (#payload#)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1fXsoU90aqVuh4Nm",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

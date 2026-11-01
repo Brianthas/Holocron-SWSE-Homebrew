@@ -1,0 +1,27 @@
+{
+  "_id": "eSuplLzblrMlgga1",
+  "_key": "!items!eSuplLzblrMlgga1",
+  "name": "Telekinetic Power",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you roll a natural 20 on your Use the Force check to activate a Power with the [<i>Telekinetic</i>] descriptor, you may choose to use that Force Power again immediately as a Free Action. You may direct the second use of the Force Power against any eligible target.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2GSQpTGma89NT6HL",
+      "sourceBook": ""
+    }
+  }
+}

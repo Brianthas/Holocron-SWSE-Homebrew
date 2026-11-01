@@ -1,0 +1,31 @@
+{
+  "_id": "g5r4dnpDUyx8b552",
+  "_key": "!items!g5r4dnpDUyx8b552",
+  "name": "Knowledge is Life",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can designate a single target within line of sight and make a Knowledge (Galactic Lore) check against a DC equal to 15 + the target's CL. If the check is successful, for the remainder of the encounter you gain a +2 morale bonus to the Defense Score of your choice against that target.",
+    "tree": "Bothan SpyNet",
+    "prerequisite": {
+      "text": "SpyNet Agent talent",
+      "nodes": {
+        "text": "SpyNet Agent talent",
+        "requirement": "SpyNet Agent",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aY8zFVBBKA5X8gT5",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

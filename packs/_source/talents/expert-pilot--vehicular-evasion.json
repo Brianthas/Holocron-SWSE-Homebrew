@@ -1,0 +1,27 @@
+{
+  "_id": "GSgK7UWDYnJfhcdj",
+  "_key": "!items!GSgK7UWDYnJfhcdj",
+  "name": "Vehicular Evasion",
+  "type": "talent",
+  "system": {
+    "description": "If the Vehicle you are piloting is hit by an Area Attack, it takes half damage if the attack hits. If the Area Attack misses your Vehicle, it takes no damage. You cannot use this Talent when your Vehicle is stationary or disabled.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FssmvXF5gv66xlzW",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "219ktuBroxTJDO7w",
+  "_key": "!items!219ktuBroxTJDO7w",
+  "name": "Close-Combat Assault",
+  "type": "talent",
+  "system": {
+    "description": "Each of your Followers gains the Point-Blank Shot Feat.",
+    "tree": "Reconnaissance",
+    "prerequisite": {
+      "text": "Reconnaissance Team Leader talent",
+      "nodes": {
+        "text": "Reconnaissance Team Leader talent",
+        "requirement": "Reconnaissance Team Leader",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pD8I4jIXuXgWzeM0",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

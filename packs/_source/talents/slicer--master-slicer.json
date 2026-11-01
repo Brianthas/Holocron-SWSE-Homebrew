@@ -1,0 +1,31 @@
+{
+  "_id": "zeZKvPBitLzEgv6Z",
+  "_key": "!items!zeZKvPBitLzEgv6Z",
+  "name": "Master Slicer",
+  "type": "talent",
+  "system": {
+    "description": "You may choose to reroll any Use Computer check made to Improve Access on a computer, keeping the better of the two results.",
+    "tree": "Slicer",
+    "prerequisite": {
+      "text": "Gimmick talent",
+      "nodes": {
+        "text": "Gimmick talent",
+        "requirement": "Gimmick",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FNi52LO3Pvg5igbc",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

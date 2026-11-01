@@ -1,0 +1,31 @@
+{
+  "_id": "9cIHaQWof6jeab07",
+  "_key": "!items!9cIHaQWof6jeab07",
+  "name": "Binding Sickle",
+  "type": "talent",
+  "system": {
+    "description": "You can make Grab or Grapple attempts against any enemy within the reach of a Chain Sickle that you are wielding. These attempts use your weapon's attack bonus with in place of your Grapple modifier. When you would deal damage as part of a Grapple (such as through the Throw or Crush feats), you deal additional damage equal to your Dexterity modifier (minimum +1).",
+    "tree": "Dathomiri Witch",
+    "prerequisite": {
+      "text": "a member of The Witches of Dathomir",
+      "nodes": {
+        "text": "a member of The Witches of Dathomir",
+        "requirement": "The Witches of Dathomir",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6sOXHrzmu8ETfPrL",
+      "sourceBook": "Dathomir Field Guide"
+    }
+  }
+}

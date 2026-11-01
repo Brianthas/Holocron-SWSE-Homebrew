@@ -1,0 +1,27 @@
+{
+  "_id": "r6ZZbKVYD3vDu2iA",
+  "_key": "!items!r6ZZbKVYD3vDu2iA",
+  "name": "Soften the Target",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you damage a target with a ranged attack, you may designate one ally within your line of sight as a Swift Action. The ally you designate ignores the target's Damage Reduction and Shield Rating (if any) until the start of your next turn.",
+    "tree": "Vanguard",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CzBLUtodCDO72lXU",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

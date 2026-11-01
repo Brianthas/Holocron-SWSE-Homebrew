@@ -1,0 +1,31 @@
+{
+  "_id": "f4xvf9QOFaVdK1Zs",
+  "_key": "!items!f4xvf9QOFaVdK1Zs",
+  "name": "Fast Talker",
+  "type": "talent",
+  "system": {
+    "description": "Smugglers must be quick to explain discrepancies in their cover stories. Once per day, you can Take 20 on a Deception check as a Standard Action when attempting to Deceive.",
+    "tree": "Smuggling",
+    "prerequisite": {
+      "text": "Art of Concealment talent",
+      "nodes": {
+        "text": "Art of Concealment talent",
+        "requirement": "Art of Concealment",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uXyc5qaPJjS3hGox",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

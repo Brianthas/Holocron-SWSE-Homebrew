@@ -1,0 +1,31 @@
+{
+  "_id": "U29H02sV3P2KOCHl",
+  "_key": "!items!U29H02sV3P2KOCHl",
+  "name": "Bonded Mount",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you encounter a domesticated Beast with a Friendly or Helpful Attitude toward you, you can spend a Force Point as a Full-Round Action to bond the Beast to you as a mount. A <b>Bonded Mount</b> shares an emphatic link with you, allowing you to sense its emotions as a Free Action.<br><br>When you Ride a <b>Bonded Mount</b>, your mount uses your Reflex Defense and Will Defense instead of its own. Additionally, if your mount has any special senses (such as Scent, Darkvision, or Low-Light Vision) that you do not possess, you gain the benefits of its special senses as long as you are riding that mount.",
+    "tree": "Beastwarden",
+    "prerequisite": {
+      "text": "Charm Beast (Beastwarden Talent Tree) talent",
+      "nodes": {
+        "text": "Charm Beast (Beastwarden Talent Tree) talent",
+        "requirement": "Charm Beast (Beastwarden Talent Tree)",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "m3eoYKKpwodDVO12",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "5fxrcXdbk7GVbJqF",
+  "_key": "!items!5fxrcXdbk7GVbJqF",
+  "name": "Fly Casual",
+  "type": "talent",
+  "system": {
+    "description": "When making a Deception check to perform Starship Deception, you may reroll the check, keeping the better of the two results.",
+    "tree": "Blockade Runner",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TP1Ld1373eRHdkJ7",
+      "sourceBook": "Saga Edition All-Purpose Sourcebook"
+    }
+  }
+}

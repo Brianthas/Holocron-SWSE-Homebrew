@@ -1,0 +1,31 @@
+{
+  "_id": "eyFar70PrvLfxnC7",
+  "_key": "!items!eyFar70PrvLfxnC7",
+  "name": "Regroup",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Standard Action, you can move all Vehicles in your squadron +1 step on their Condition Tracks.",
+    "tree": "Squadron Leader",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "d8Zp304CAN4obxQD",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

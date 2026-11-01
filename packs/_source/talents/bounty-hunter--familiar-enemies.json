@@ -1,0 +1,31 @@
+{
+  "_id": "SW6vRe8ddxxR7XEP",
+  "_key": "!items!SW6vRe8ddxxR7XEP",
+  "name": "Familiar Enemies",
+  "type": "talent",
+  "system": {
+    "description": "You can apply your Familiar Foe bonus against a second enemy. If you can see both enemies simultaneously in the same round, you need to spend only a single Full-Round Action observing them.<br><br>Otherwise, you must spend a separate Full-Round Action on each enemy.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "Familiar Foe",
+      "nodes": {
+        "text": "Familiar Foe",
+        "requirement": "Familiar Foe",
+        "type": "TRAIT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xBfGZHpymGARk0Xo",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

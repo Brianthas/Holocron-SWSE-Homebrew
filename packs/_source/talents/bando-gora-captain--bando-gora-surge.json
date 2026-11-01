@@ -1,0 +1,31 @@
+{
+  "_id": "aSSt0eLDwDuHD6aN",
+  "_key": "!items!aSSt0eLDwDuHD6aN",
+  "name": "Bando Gora Surge",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you move up the Condition Track by any means, you gain Bonus Hit Points equal to 5 + your Heroic Level. Bonus Hit Points are consumed before regular Hit Points, and unused Bonus Hit Points go away at the end of the encounter. Bonus Hit Points from multiple sources do not stack.",
+    "tree": "Bando Gora Captain",
+    "prerequisite": {
+      "text": "a member of The Bando Gora",
+      "nodes": {
+        "text": "a member of The Bando Gora",
+        "requirement": "The Bando Gora",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Yn29j2H2XNqdyf8r",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

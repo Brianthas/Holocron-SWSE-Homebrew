@@ -1,0 +1,27 @@
+{
+  "_id": "faA5tTdXwfOegNrw",
+  "_key": "!items!faA5tTdXwfOegNrw",
+  "name": "Shift Defense I",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can take a -2 penalty to one Defense (Reflex, Fortitude, or Will) to gain a +1 competence bonus to another Defense until the start of your next turn.",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8P3KWdje9HPmFYAB",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

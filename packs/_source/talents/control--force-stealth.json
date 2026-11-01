@@ -1,0 +1,27 @@
+{
+  "_id": "w0XUySYA1pRXJeSU",
+  "_key": "!items!w0XUySYA1pRXJeSU",
+  "name": "Force Stealth",
+  "type": "talent",
+  "system": {
+    "description": "You can make a Use the Force check in place of a Stealth check. You are considered Trained in the Stealth skill for purposes of using this Talent. If you are entitled to a&nbsp;Stealth check reroll, you can reroll your&nbsp;Use the Force&nbsp;check instead (subject to the same circumstances and limitations).",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QEr0Ymwp6bAET73M",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

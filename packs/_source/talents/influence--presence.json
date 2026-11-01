@@ -1,0 +1,27 @@
+{
+  "_id": "v60bHW4l1zGP1DVB",
+  "_key": "!items!v60bHW4l1zGP1DVB",
+  "name": "Presence",
+  "type": "talent",
+  "system": {
+    "description": "You can make a Persuasion check to Intimidate a creature as a Standard Action (instead of a Full-Round Action).",
+    "tree": "Influence",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lHvwW1TDWbMpybfw",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

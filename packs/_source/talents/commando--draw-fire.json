@@ -1,0 +1,27 @@
+{
+  "_id": "F4G0Xq6l2G3THjBb",
+  "_key": "!items!F4G0Xq6l2G3THjBb",
+  "name": "Draw Fire",
+  "type": "talent",
+  "system": {
+    "description": "You can distract opponents and convince them that you are the most tempting (or most dangerous) target in the area. As a Swift Action, make a Persuasion check and compare the result to the Will Defense of all opponents within line of sight.<br><br>If the check result exceeds an opponent's Will Defense, that opponent cannot attack any character within 6 squares of you until the start of your next turn as long as you do not have Cover against that opponent. (The affected opponent may still attack you, however.)<br><br>If you are the Pilot of a Vehicle, you may use this Talent to protect allied Vehicles. You may use it to protect Vehicles no more than one size category larger than your own.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "W23GM8QG8HfRg4dM",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

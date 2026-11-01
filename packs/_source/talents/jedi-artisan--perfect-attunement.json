@@ -1,0 +1,31 @@
+{
+  "_id": "kxeDVGSdMcXxQbhB",
+  "_key": "!items!kxeDVGSdMcXxQbhB",
+  "name": "Perfect Attunement",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you spend a Force Point to add to a Lightsaber attack roll made with a Lightsaber you built, you can add that same amount to the damage roll if the attack hits.",
+    "tree": "Jedi Artisan",
+    "prerequisite": {
+      "text": "Masterwork Lightsaber talent",
+      "nodes": {
+        "text": "Masterwork Lightsaber talent",
+        "requirement": "Masterwork Lightsaber",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sJM63LyyZ8q1h3xj",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

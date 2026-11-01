@@ -1,0 +1,31 @@
+{
+  "_id": "tCH9ArJpNqEOjzdF",
+  "_key": "!items!tCH9ArJpNqEOjzdF",
+  "name": "Rant",
+  "type": "talent",
+  "system": {
+    "description": "You are a master of voicing your opinion loudly, continuously, and distractingly. If you succeed in making a Persuasion check to Intimidate an enemy that is within 6 squares of you and that can hear, see, and understand you, you can deny that enemy the use of a Move Action on its next turn, instead of gaining the normal Intimidation results. You grant one ally a Move Action to use immediately (the ally uses the Move Action as a Reaction).",
+    "tree": "Exile",
+    "prerequisite": {
+      "text": "Trained in Persuasion",
+      "nodes": {
+        "text": "Trained in Persuasion",
+        "requirement": "Persuasion",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JePDw9TpdKDexgRH",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

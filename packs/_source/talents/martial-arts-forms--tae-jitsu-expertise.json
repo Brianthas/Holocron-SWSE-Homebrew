@@ -1,0 +1,27 @@
+{
+  "_id": "691O7QvPKAXID4wX",
+  "_key": "!items!691O7QvPKAXID4wX",
+  "name": "Tae-Jitsu Expertise",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn, when you damage a creature or Droid with an Unarmed attack, compare your attack roll to the target's Damage Threshold. If your attack roll equals or exceeds the target's Damage Threshold, the target is moved -1 step on the Condition Track, regardless of the damage result of your attack.",
+    "tree": "Martial Arts Forms",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "L6Dz34QbX8VR9K5B",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

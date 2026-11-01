@@ -1,0 +1,31 @@
+{
+  "_id": "cJ964pkqy2r26SeK",
+  "_key": "!items!cJ964pkqy2r26SeK",
+  "name": "White Current Adept",
+  "type": "talent",
+  "system": {
+    "description": "You can make a Use the Force check in place of a Stealth check. You are considered Trained in the Stealth skill. If you are entitled to a Stealth check reroll, you can reroll your Use the Force check instead (subject to the same circumstances and limitations).",
+    "tree": "White Current Adept",
+    "prerequisite": {
+      "text": "a member of The Fallanassi",
+      "nodes": {
+        "text": "a member of The Fallanassi",
+        "requirement": "The Fallanassi",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FBYK7OpQEuIBBWhq",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

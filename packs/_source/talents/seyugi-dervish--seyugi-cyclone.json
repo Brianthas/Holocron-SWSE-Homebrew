@@ -1,0 +1,31 @@
+{
+  "_id": "UiKnM1i0FC8MR18C",
+  "_key": "!items!UiKnM1i0FC8MR18C",
+  "name": "Seyugi Cyclone",
+  "type": "talent",
+  "system": {
+    "description": "If you are wielding no weapons (other than Combat Gloves, a Stunning Gauntlet, or Shockboxing Gloves), you can use the Whirlwind Attack feat as a Standard Action by spending a Force Point, even if you do not possess the Whirlwind Attack feat.<br><br>Additionally, this Talent satisfies the prerequisites for the Whirlwind Attack feat.",
+    "tree": "Seyugi Dervish",
+    "prerequisite": {
+      "text": "a member of The Seyugi Dervishes",
+      "nodes": {
+        "text": "a member of The Seyugi Dervishes",
+        "requirement": "The Seyugi Dervishes",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "We7LKVvCPFVTAjIw",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

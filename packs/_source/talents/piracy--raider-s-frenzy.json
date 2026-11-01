@@ -1,0 +1,27 @@
+{
+  "_id": "xkTj5hQ2j7hS9JzV",
+  "_key": "!items!xkTj5hQ2j7hS9JzV",
+  "name": "Raider's Frenzy",
+  "type": "talent",
+  "system": {
+    "description": "Once per round, when one of your allies within 6 squares successfully damages a target, you grant all your allies within your line of sight a bonus to damage rolls against that target equal to one-half your Class Level until the end of your next turn.",
+    "tree": "Piracy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eaOiHAi8LYHfZyUP",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

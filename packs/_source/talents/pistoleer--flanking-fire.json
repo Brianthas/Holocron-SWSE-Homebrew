@@ -1,0 +1,31 @@
+{
+  "_id": "V5Mj2oblpUNe5EUx",
+  "_key": "!items!V5Mj2oblpUNe5EUx",
+  "name": "Flanking Fire",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are Flanked by two (or more) opponents and are wielding two Pistols, you can make a Full Attack Action as a Standard Action instead of a Full-Round Action. This is provided that you target only opponents that Flank you and attack at least two targets.",
+    "tree": "Pistoleer",
+    "prerequisite": {
+      "text": "Dual Weapon Mastery I feat",
+      "nodes": {
+        "text": "Dual Weapon Mastery I feat",
+        "requirement": "Dual Weapon Mastery I",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "44DiXyRHRxy2ncCv",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "kaNvl3WRciJvMmEj",
+  "_key": "!items!kaNvl3WRciJvMmEj",
+  "name": "Shield Gauntlet Deflect",
+  "type": "talent",
+  "system": {
+    "description": "Once per round as a Reaction, you can negate a ranged attack by making a successful Use the Force check. The DC of the skill check is equal to the result of the attack roll you wish to negate. To use this this Talent, you must be wearing an active Shield Gauntlet, you must be aware of the attack, and you must not be Flat-Footed. You can spend a Force Point to use this Talent to negate a ranged attack against an adjacent character.<br><br>You can use <b>Shield Gauntlet Deflect</b> to deflect some of the barrage of shots fired from a ranged weapon set on Autofire. If your Use the Force check succeeds, you take half damage if the attack hits an no damage if the attack misses.",
+    "tree": "Kilian Ranger",
+    "prerequisite": {
+      "text": "a member of The Kilian Rangers",
+      "nodes": {
+        "text": "a member of The Kilian Rangers",
+        "requirement": "The Kilian Rangers",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YUn5hCAujFKmme5Y",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "YjLsQdeGfWRjDPWS",
+  "_key": "!items!YjLsQdeGfWRjDPWS",
+  "name": "Quick Trigger",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an enemy Vehicle moves out of your square, or an adjacent square, you may make a single attack against that Vehicle as an Attack of Opportunity.",
+    "tree": "Gunner",
+    "prerequisite": {
+      "text": "Expert Gunner talent",
+      "nodes": {
+        "text": "Expert Gunner talent",
+        "requirement": "Expert Gunner",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OVdEr9mpzXhjdwgZ",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "KJt7aCeWaKl7mkkL",
+  "_key": "!items!KJt7aCeWaKl7mkkL",
+  "name": "Ricochet Shot",
+  "type": "talent",
+  "system": {
+    "description": "When making a ranged attack against a target with Cover, you can choose to reduce the benefit of that target's Cover by one step, from Improved Cover to Cover, or Cover to no Cover.<br><br>You deal only half damage with this attack.",
+    "tree": "Fortune",
+    "prerequisite": {
+      "text": "Knack talent, and Lucky Shot talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Knack talent",
+            "requirement": "Knack",
+            "type": "TALENT"
+          },
+          {
+            "text": "Lucky Shot talent",
+            "requirement": "Lucky Shot",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Knack talent, and Lucky Shot talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9NGk1Za4VRBfMo1k",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "b9cTKzlQIZtoraTd",
+  "_key": "!items!b9cTKzlQIZtoraTd",
+  "name": "Battle Mount",
+  "type": "talent",
+  "system": {
+    "description": "You know how to fight from a living mount. You can use each of the following Actions once per encounter:",
+    "tree": "Mobile Scout",
+    "prerequisite": {
+      "text": "Expert Rider talent, Terrain Guidance talent, and Trained in Ride",
+      "nodes": {
+        "children": [
+          {
+            "text": "Expert Rider talent",
+            "requirement": "Expert Rider",
+            "type": "TALENT"
+          },
+          {
+            "text": "Terrain Guidance talent",
+            "requirement": "Terrain Guidance",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Ride",
+            "requirement": "Ride",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Expert Rider talent, Terrain Guidance talent, and Trained in Ride",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FD7XTVVoNtWJ6zG0",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

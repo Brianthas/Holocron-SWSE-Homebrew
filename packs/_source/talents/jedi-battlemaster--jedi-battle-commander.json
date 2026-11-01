@@ -1,0 +1,31 @@
+{
+  "_id": "UzjKpxxp1WQXazm1",
+  "_key": "!items!UzjKpxxp1WQXazm1",
+  "name": "Jedi Battle Commander",
+  "type": "talent",
+  "system": {
+    "description": "You are trained to direct Jedi in pitched battles. Your <b>Battle Meditation</b> grants a +2 insight bonus on attack rolls instead of the normal +1.",
+    "tree": "Jedi Battlemaster",
+    "prerequisite": {
+      "text": "Battle Meditation talent",
+      "nodes": {
+        "text": "Battle Meditation talent",
+        "requirement": "Battle Meditation",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "a9QVjDEnzBBueg82",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

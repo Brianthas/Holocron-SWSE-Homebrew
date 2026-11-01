@@ -1,0 +1,27 @@
+{
+  "_id": "e1yzZvyAa4Htzmwf",
+  "_key": "!items!e1yzZvyAa4Htzmwf",
+  "name": "Immovable",
+  "type": "talent",
+  "system": {
+    "description": "You can activate this Talent as a Swift Action. Until the start of your next turn, anyone attempting to move you involuntarily (such as with a Bantha Rush or the <i>Move Object</i> Force Power) takes a -5 penalty to attack rolls or Skill Checks made to use that effect that would move you. An enemy can only take the penalty from this Talent once per attempt, regardless of how many targets have used this Talent.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5FDQKDxrcmxSIWHJ",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

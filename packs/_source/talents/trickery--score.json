@@ -1,0 +1,27 @@
+{
+  "_id": "OVvA0b5cQwyIgN60",
+  "_key": "!items!OVvA0b5cQwyIgN60",
+  "name": "Score",
+  "type": "talent",
+  "system": {
+    "description": "<p>When you take the time to observe a potential victim, you gain useful clues and insights about their desires and motives. If you spend a Full-Round Action watching a single target, until the end of the encounter you can reroll all Deception checks made against that target, keeping the better of the two results.</p>",
+    "tree": "Trickery",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6PsAkmqqYw7jaD69",
+      "sourceBook": ""
+    }
+  }
+}

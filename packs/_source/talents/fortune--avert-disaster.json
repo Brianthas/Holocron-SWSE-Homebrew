@@ -1,0 +1,31 @@
+{
+  "_id": "Vf6Q0yiHrXBdJUsc",
+  "_key": "!items!Vf6Q0yiHrXBdJUsc",
+  "name": "Avert Disaster",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can turn a Critical Hit against you into a normal hit.",
+    "tree": "Fortune",
+    "prerequisite": {
+      "text": "Fool's Luck talent",
+      "nodes": {
+        "text": "Fool's Luck talent",
+        "requirement": "Fool's Luck",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JmIe28SrTeLUTvVM",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

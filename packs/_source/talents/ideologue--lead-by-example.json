@@ -1,0 +1,27 @@
+{
+  "_id": "SEvJcSTunwSPESCF",
+  "_key": "!items!SEvJcSTunwSPESCF",
+  "name": "Lead by Example",
+  "type": "talent",
+  "system": {
+    "description": "Your bravery and skill inspires others to follow your lead. Once per encounter when you successfully deal damage to an enemy, you can choose to grant all allies a +1 circumstance bonus on attack rolls and +1 die of damage on non-Area Attacks against that target for the remainder of the encounter.",
+    "tree": "Ideologue",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PMRPgVSeub8peI3K",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "900jCnp2vmnHmVkI",
+  "_key": "!items!900jCnp2vmnHmVkI",
+  "name": "Aggressive Surge",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter when you catch a Second Wind, you can make a Charge attack as a Free Action, provided that you can make a charge attack against a legal target at the time you catch a Second Wind.",
+    "tree": "Unpredictable",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7q9MC50CKR6YEzXc",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

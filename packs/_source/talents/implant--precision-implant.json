@@ -1,0 +1,27 @@
+{
+  "_id": "prLuWpUxLvBmfcie",
+  "_key": "!items!prLuWpUxLvBmfcie",
+  "name": "Precision Implant",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Standard Action, you can give one adjacent living creature a <b>Precision Implant</b>. The target must be willing to receive this Implant, which grants the target a +1 Equipment bonus on attack rolls until the end of the encounter.",
+    "tree": "Implant",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SwMnXVpsyN0YQpj5",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

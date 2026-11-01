@@ -1,0 +1,27 @@
+{
+  "_id": "lk65fT2jWIPxtrSv",
+  "_key": "!items!lk65fT2jWIPxtrSv",
+  "name": "Set for Stun",
+  "type": "talent",
+  "system": {
+    "description": "You are particularly adept with Stun weapons. If you are using a ranged weapon that deals Stun damage (including a lethal weapon set to Stun), you can spend two consecutive Swift Actions in the same round to activate this Talent. If the Stun damage on your next attack exceeds the target's Damage Threshold, you move the target -3 steps along the Condition Track, instead of the normal -2 steps.",
+    "tree": "Infiltration",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LBTde8pmyYyeew3t",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

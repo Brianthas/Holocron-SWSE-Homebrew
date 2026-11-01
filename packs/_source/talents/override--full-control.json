@@ -1,0 +1,47 @@
+{
+  "_id": "n62EhMVuxnLon2Ir",
+  "_key": "!items!n62EhMVuxnLon2Ir",
+  "name": "Full Control",
+  "type": "talent",
+  "system": {
+    "description": "As a Full-Round Action, you allow one Droid that can hear and understand you to take the Full Attack Action. The Droid can replace its relevant Ability Score modifier to its attack roll with your Intelligence modifier.",
+    "tree": "Override",
+    "prerequisite": {
+      "text": "Directed Action talent, Directed Movement talent, and Remote Attack talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Directed Action talent",
+            "requirement": "Directed Action",
+            "type": "TALENT"
+          },
+          {
+            "text": "Directed Movement talent",
+            "requirement": "Directed Movement",
+            "type": "TALENT"
+          },
+          {
+            "text": "Remote Attack talent",
+            "requirement": "Remote Attack",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Directed Action talent, Directed Movement talent, and Remote Attack talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pXcsQQInxQ69qIis",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

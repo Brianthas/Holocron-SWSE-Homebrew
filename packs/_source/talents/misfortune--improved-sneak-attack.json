@@ -1,0 +1,42 @@
+{
+  "_id": "ugrTFUe74s5Um9ep",
+  "_key": "!items!ugrTFUe74s5Um9ep",
+  "name": "Improved Sneak Attack",
+  "type": "talent",
+  "system": {
+    "description": "You can use the <b>Sneak Attack</b> Talent against a target within 12 squares, instead of within 6 squares.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "Sneak Attack talent, and Point-Blank Shot feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Sneak Attack talent",
+            "requirement": "Sneak Attack",
+            "type": "TALENT"
+          },
+          {
+            "text": "Point-Blank Shot feat",
+            "requirement": "Point-Blank Shot",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Sneak Attack talent, and Point-Blank Shot feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ROp0Miu1IScVVbXb",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

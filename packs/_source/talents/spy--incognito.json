@@ -1,0 +1,31 @@
+{
+  "_id": "TPFuQ8KykzP5XaMv",
+  "_key": "!items!TPFuQ8KykzP5XaMv",
+  "name": "Incognito",
+  "type": "talent",
+  "system": {
+    "description": "Spies are adept at concealing their identities, even if not using a physical disguise. You can reroll any Deception check for the purpose of creating a Deceptive Appearance, keeping the better of the two results.",
+    "tree": "Spy",
+    "prerequisite": {
+      "text": "Blend In (Spy Talent Tree) talent",
+      "nodes": {
+        "text": "Blend In (Spy Talent Tree) talent",
+        "requirement": "Blend In (Spy Talent Tree)",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sqgfhPYKVrXswQ4F",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

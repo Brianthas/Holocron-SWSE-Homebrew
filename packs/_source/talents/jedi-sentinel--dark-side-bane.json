@@ -1,0 +1,31 @@
+{
+  "_id": "Qqti92dRKTIdEAZo",
+  "_key": "!items!Qqti92dRKTIdEAZo",
+  "name": "Dark Side Bane",
+  "type": "talent",
+  "system": {
+    "description": "When you use a damage-dealing Force Power against a creature with a Dark Side Score of 1 or higher, you deal extra damage on a successful hit equal to your Charisma bonus (minimum +1).",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "Dark Side Sense talent",
+      "nodes": {
+        "text": "Dark Side Sense talent",
+        "requirement": "Dark Side Sense",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fUFm2idhKeAuyRhY",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

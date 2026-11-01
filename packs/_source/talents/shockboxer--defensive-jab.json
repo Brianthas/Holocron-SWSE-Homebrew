@@ -1,0 +1,31 @@
+{
+  "_id": "4sfhCQRehX1mUP0y",
+  "_key": "!items!4sfhCQRehX1mUP0y",
+  "name": "Defensive Jab",
+  "type": "talent",
+  "system": {
+    "description": "When you are Unarmed and take the Fight Defensively Action, you can make a single Unarmed attack as a Free Action against an adjacent target.",
+    "tree": "Shockboxer",
+    "prerequisite": {
+      "text": "Retaliation Jab talent",
+      "nodes": {
+        "text": "Retaliation Jab talent",
+        "requirement": "Retaliation Jab",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vXzZDWSYVSQG1DeK",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

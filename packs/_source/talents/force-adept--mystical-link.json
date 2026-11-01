@@ -1,0 +1,27 @@
+{
+  "_id": "ICJ6O4Ny5ScGh2L3",
+  "_key": "!items!ICJ6O4Ny5ScGh2L3",
+  "name": "Mystical Link",
+  "type": "talent",
+  "system": {
+    "description": "The Force guides you in unexpected ways. As a Standard Action, make a DC 30 Use the Force check. If the check is successful, you gain one of the following benefits, as selected by the Gamemaster:",
+    "tree": "Force Adept",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wF3toChEr4XPLPCy",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "g0cqwraurKv8dGIb",
+  "_key": "!items!g0cqwraurKv8dGIb",
+  "name": "Mechanics Mastery",
+  "type": "talent",
+  "system": {
+    "description": "You can always Take 10 on a Mechanics check, even if distractions or hazardous circumstances would normally prevent you from doing so.",
+    "tree": "2nd-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "W3Tdjxl16jykmrxp",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

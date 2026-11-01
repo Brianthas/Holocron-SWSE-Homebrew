@@ -1,0 +1,27 @@
+{
+  "_id": "J8UQzt7blHdMLu8C",
+  "_key": "!items!J8UQzt7blHdMLu8C",
+  "name": "Right Gear for the Job",
+  "type": "talent",
+  "system": {
+    "description": "Once per day when an ally makes an Untrained skill check, as a Reaction you can grant that ally a +5 Equipment bonus to the check, and the ally is considered Trained in that Skill for the purpose of using Trained-only applications of the Skill.<br><br>You cannot use this Talent to allow an ally to make an Untrained Use the Force check.",
+    "tree": "Procurement",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hwWwVadsiIsWgS1l",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

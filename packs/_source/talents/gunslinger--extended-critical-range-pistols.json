@@ -1,0 +1,42 @@
+{
+  "_id": "wFTfi6XzshOAhi6r",
+  "_key": "!items!wFTfi6XzshOAhi6r",
+  "name": "Extended Critical Range (Pistols)",
+  "type": "talent",
+  "system": {
+    "description": "<i>Extended Critical Range (Pistols) Talent created by Wikia user LilLiteralist.</i><br><br>When you are using a Pistol, you extend the weapon's critical range by 1 (for example, 19-20 instead of 20). However, anything other than a Natural 20 is not considered an automatic hit; if you roll anything other than a Natural 20 and still miss the target, you do not score a Critical Hit.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "Base Attack Bonus 10, and Weapon Proficiency (Pistols)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Base Attack Bonus 10",
+            "requirement": "10",
+            "type": "BASE ATTACK BONUS"
+          },
+          {
+            "text": "Weapon Proficiency (Pistols)",
+            "requirement": "Weapon Proficiency (Pistols)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Base Attack Bonus 10, and Weapon Proficiency (Pistols)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZSmf3Vf3LMlgOtuS",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

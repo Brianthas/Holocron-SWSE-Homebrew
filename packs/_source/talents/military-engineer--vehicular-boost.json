@@ -1,0 +1,27 @@
+{
+  "_id": "NdKmc2MmasekOqgq",
+  "_key": "!items!NdKmc2MmasekOqgq",
+  "name": "Vehicular Boost",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can make a DC 15 Mechanics check to grant one Vehicle you occupy a number of Bonus Hit Points equal to 5 x your Class Level. Damage is subtracted from the Bonus Hit Points first, and any Bonus Hit Points remaining at the end of the encounter go away. Bonus Hit Points from multiple sources do not stack.",
+    "tree": "Military Engineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NX6u76CqJp8Xd2UU",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

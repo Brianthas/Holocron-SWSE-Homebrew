@@ -1,0 +1,31 @@
+{
+  "_id": "bMHDGR6Dh1PE9Fu2",
+  "_key": "!items!bMHDGR6Dh1PE9Fu2",
+  "name": "Bomb Thrower",
+  "type": "talent",
+  "system": {
+    "description": "You are skilled in making and handling impromptu Explosives. You gain a +5 bonus to Mechanics checks to Handle Explosives. In addition, you can spend a Full-Round Action to craft the equivalent of a Frag Grenade from spare parts you have on hand. You must have access to the appropriate supplies, such as an old blaster, a Tool Kit, or materials found inside a hangar bay.",
+    "tree": "Revolutionary",
+    "prerequisite": {
+      "text": "Trained in Mechanics",
+      "nodes": {
+        "text": "Trained in Mechanics",
+        "requirement": "Mechanics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mjwGjn22ITj0jNAj",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "96z8hTHyXVN9sl8e",
+  "_key": "!items!96z8hTHyXVN9sl8e",
+  "name": "Retaliation Jab",
+  "type": "talent",
+  "system": {
+    "description": "If an enemy misses you with a melee attack, as a Reaction you can automatically deal damage equal to your Strength modifier (minimum 1 point of damage) to your attacker, if the attacker is within your Reach.",
+    "tree": "Shockboxer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ti4NC44RyIrMt0tT",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

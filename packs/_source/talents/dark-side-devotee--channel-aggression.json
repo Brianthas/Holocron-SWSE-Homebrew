@@ -1,0 +1,27 @@
+{
+  "_id": "xf1nN1SDDX37IB5j",
+  "_key": "!items!xf1nN1SDDX37IB5j",
+  "name": "Channel Aggression",
+  "type": "talent",
+  "system": {
+    "description": "If you succeed on an attack against a Flanked opponent, or any target that is denied its Dexterity bonus to Reflex Defense, you may spend a Force Point as a Free Action to deal additional damage to the target equal to 1d6 per Class Level (maximum 10d6).",
+    "tree": "Dark Side Devotee",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WfOm9qgnQKHJ46HW",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

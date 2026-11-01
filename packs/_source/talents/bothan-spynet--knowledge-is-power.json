@@ -1,0 +1,31 @@
+{
+  "_id": "Y6JDgjf2H8cSc9Zf",
+  "_key": "!items!Y6JDgjf2H8cSc9Zf",
+  "name": "Knowledge is Power",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can designate a single target within line of sight and make a Knowledge (Galactic Lore) check against a DC equal to 15 + the target's CL. If the check is successful, for the remainder of the encounter you score a Critical Hit against that target on a natural roll of 19 or 20.<br><br>If you have another ability that increases your weapon's critical range against that target (such as the Elite Trooper's <b>Extended Critical Range</b> Talent, or the Jedi Knight's <b>Vaapad</b> Talent), you increase this range by 1 (for example, from 19-20 to 18-20). However, anything other than a Natural 20 is not considered an automatic hit; if you roll anything other than a Natural 20 and still miss the target, you do not score a Critical Hit.",
+    "tree": "Bothan SpyNet",
+    "prerequisite": {
+      "text": "SpyNet Agent talent",
+      "nodes": {
+        "text": "SpyNet Agent talent",
+        "requirement": "SpyNet Agent",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZCBAieMtZXzrl6z0",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

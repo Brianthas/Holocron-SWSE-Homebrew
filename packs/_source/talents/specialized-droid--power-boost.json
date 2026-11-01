@@ -1,0 +1,31 @@
+{
+  "_id": "mVWSqZGAgSgvWXHP",
+  "_key": "!items!mVWSqZGAgSgvWXHP",
+  "name": "Power Boost",
+  "type": "talent",
+  "system": {
+    "description": "You channel your <b>Power Surge</b> into a boost for your Locomotion System. When you initiate a <b>Power Surge</b>, you can use one of the following bonuses with your installed Locomotion System:<br><br>You can use this Talent for a number of rounds equal to one-half your Character Level (rounded down). At the end of a <b>Power Boost</b>, you move -1 Persistent step on the Condition Track. The penalties imposed by this Persistent Condition persist until you receive Repairs. You can use both <b>Power Surge</b> and <b>Power Boost</b> at the same time, but you must move -2 Persistent steps on the Condition Track.",
+    "tree": "Specialized Droid",
+    "prerequisite": {
+      "text": "Power Surge talent",
+      "nodes": {
+        "text": "Power Surge talent",
+        "requirement": "Power Surge",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SORfjxsZ9TwzXmDW",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "mAZWQ0migq3Sqa0Y",
+  "_key": "!items!mAZWQ0migq3Sqa0Y",
+  "name": "Improved Riposte",
+  "type": "talent",
+  "system": {
+    "description": "When you successfully make a <b>Riposte</b> attack using the <b>Riposte</b> Talent, you do not count the <b>Block</b> Talent use that triggered the <b>Riposte</b> (thus, you take no cumulative penalty to Use the Force checks from that <b>Block</b> attempt).<br><br>Subsequent <b>Block</b> attempts before the beginning of your next turn impose these penalties as normal.",
+    "tree": "Duelist",
+    "prerequisite": {
+      "text": "Dueling Stance talent, and Redirection Stance talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dueling Stance talent",
+            "requirement": "Dueling Stance",
+            "type": "TALENT"
+          },
+          {
+            "text": "Redirection Stance talent",
+            "requirement": "Redirection Stance",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Dueling Stance talent, and Redirection Stance talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "krXicbC74yfigMDr",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

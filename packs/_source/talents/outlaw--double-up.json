@@ -1,0 +1,42 @@
+{
+  "_id": "JnzP0aM9U4IBIKfc",
+  "_key": "!items!JnzP0aM9U4IBIKfc",
+  "name": "Double Up",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, whenever you would use <b>Seize the Moment</b>, you can forgo the extra Swift Action to make an immediate melee or ranged attack against the damaged opponent. If your attack is a ranged attack that hits and deals damage, you treat the damage dealt by you and your ally as though it was one attack for purposes of overcoming Damage Reduction, Shield Rating, and determining whether the damage exceeded the target's Damage Threshold.",
+    "tree": "Outlaw",
+    "prerequisite": {
+      "text": "Find an Opening talent, and Seize the Moment (Outlaw Talent Tree) talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Find an Opening talent",
+            "requirement": "Find an Opening",
+            "type": "TALENT"
+          },
+          {
+            "text": "Seize the Moment (Outlaw Talent Tree) talent",
+            "requirement": "Seize the Moment (Outlaw Talent Tree)",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Find an Opening talent, and Seize the Moment (Outlaw Talent Tree) talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0utBCeXYeiAhOoUe",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

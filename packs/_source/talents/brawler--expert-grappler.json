@@ -1,0 +1,27 @@
+{
+  "_id": "ZMgBipiEiz91BlrL",
+  "_key": "!items!ZMgBipiEiz91BlrL",
+  "name": "Expert Grappler",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +2 competence bonus on Grapple attacks.",
+    "tree": "Brawler",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZGGWKmOp5v6D29HT",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

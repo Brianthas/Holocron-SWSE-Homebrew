@@ -1,0 +1,27 @@
+{
+  "_id": "h5rTNQ463GweIWTi",
+  "_key": "!items!h5rTNQ463GweIWTi",
+  "name": "Gang Leader",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, when you make a Persuasion check to Intimidate, you gain a +1 bonus on the check for every ally within 6 squares of you and in the target's line of sight (maximum +5 bonus).",
+    "tree": "Brute Squad",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MYMqXrIEU9xFNE6R",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

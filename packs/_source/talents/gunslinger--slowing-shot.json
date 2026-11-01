@@ -1,0 +1,31 @@
+{
+  "_id": "qbQO2eYDfYQfvbk6",
+  "_key": "!items!qbQO2eYDfYQfvbk6",
+  "name": "Slowing Shot",
+  "type": "talent",
+  "system": {
+    "description": "If you successfully use <b>Debilitating Shot</b>, until the target moves to the normal state on the Condition Track or until the end of the encounter, the target's Speed is reduced by 2 squares, and it loses its Dexterity bonus to its Reflex Defense and is considered Flat-Footed.<br><br>These effects occur in addition to the effect of <b>Debilitating Shot</b>. If you spend a Force Point, the target's Speed is reduced by 4 squares or half of its normal speed, whichever is the greater reduction.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "Debilitating Shot talent",
+      "nodes": {
+        "text": "Debilitating Shot talent",
+        "requirement": "Debilitating Shot",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2ebfh5cTBPUUgO4n",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

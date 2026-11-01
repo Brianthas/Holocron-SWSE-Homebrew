@@ -1,0 +1,27 @@
+{
+  "_id": "nateEj4icomjVQem",
+  "_key": "!items!nateEj4icomjVQem",
+  "name": "Problem Solver",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action once per turn, you can designate a single Vehicle within your line of sight whose Pilot can hear and understand you. That Pilot's Vehicle ignores Difficult Terrain until the start of your next turn, and the Pilot gains a +5 insight bonus on all Pilot checks made to avoid Hazards and Collisions until the start of your next turn.",
+    "tree": "Military Engineer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "obw1WC6rzu11WPhK",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

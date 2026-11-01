@@ -1,0 +1,27 @@
+{
+  "_id": "9QAIjrGGEdyZXb4N",
+  "_key": "!items!9QAIjrGGEdyZXb4N",
+  "name": "Strength in Numbers",
+  "type": "talent",
+  "system": {
+    "description": "If you are within 10 squares of an ally, you can add +2 to your Damage Reduction.",
+    "tree": "Republic Commando",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kSkbOUksuCVocD5t",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "wKv5saYhaeOWcthY",
+  "_key": "!items!wKv5saYhaeOWcthY",
+  "name": "Renowned Pilot",
+  "type": "talent",
+  "system": {
+    "description": "Your reputation as a skilled pilot precedes you and bolsters the resolve of your allies. All allies within 6 squares of a Vehicle you Pilot can reroll one Pilot check, keeping the better of the two results.<br><br>Once an ally has used this ability, that same ally cannot gain this Talent's benefit during the same encounter.",
+    "tree": "Expert Pilot",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hLxayco2QgDjlgrs",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

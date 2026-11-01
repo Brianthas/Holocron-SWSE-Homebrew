@@ -1,0 +1,27 @@
+{
+  "_id": "Wu5PLZqmAGeE5YfD",
+  "_key": "!items!Wu5PLZqmAGeE5YfD",
+  "name": "Dun Möch",
+  "type": "talent",
+  "system": {
+    "description": "You may make a Deception check as a Swift Action (instead of a Standard Action) when attempting to Feint in combat.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OYp3xnqcrpAVGG6k",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - The Dark Side"
+    }
+  }
+}

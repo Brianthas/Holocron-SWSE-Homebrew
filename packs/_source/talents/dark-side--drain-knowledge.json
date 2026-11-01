@@ -1,0 +1,27 @@
+{
+  "_id": "qENmc36UABinWTiE",
+  "_key": "!items!qENmc36UABinWTiE",
+  "name": "Drain Knowledge",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can spend a Force Point to drain the knowledge of an opponent you touch; you must succeed on a Use the Force check (DC equal to the target's Will Defense) to activate this Talent, and if you fail to activate this Talent, you may not try again on the same target for one day. If successful, you immediately become Trained in one Skill that the target is Trained in; if you are already Trained in that Skill, you instead gain Skill Focus in that Skill. This effect lasts for one day. Additionally, your target moves -1 Persistent step along the Condition Track, and the Persistent Condition can be removed only by resting for 8 hours.<br><br>Additionally, you can choose to instead sift through the mind of the target, looking for a specific piece of knowledge or information. Doing so requires you to make a Perception check against the target's Will Defense; success indicates that you pull the relevant information from the target's mind. When you do so, you do not gain the bonus Trained Skill or Skill Focus normally granted by this Talent, but otherwise the Talent functions as normal. Using this Talent increases your Dark Side Score by 1.",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zqUq8JhwhyhuM9bd",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

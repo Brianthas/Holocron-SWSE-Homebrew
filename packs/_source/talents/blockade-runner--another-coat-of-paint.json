@@ -1,0 +1,27 @@
+{
+  "_id": "yEMi9IUIvkf029l5",
+  "_key": "!items!yEMi9IUIvkf029l5",
+  "name": "Another Coat of Paint",
+  "type": "talent",
+  "system": {
+    "description": "When making a Deception check to change the look of your ship or placing new transponder codes into your ship, you may reroll the check, keeping the better of the two results.",
+    "tree": "Blockade Runner",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pmtnHU2NXYUNPrRT",
+      "sourceBook": "Saga Edition All-Purpose Sourcebook"
+    }
+  }
+}

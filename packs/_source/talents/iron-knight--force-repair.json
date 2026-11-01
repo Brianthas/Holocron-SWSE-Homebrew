@@ -1,0 +1,31 @@
+{
+  "_id": "MsRxMuhW7DcRx0fc",
+  "_key": "!items!MsRxMuhW7DcRx0fc",
+  "name": "Force Repair",
+  "type": "talent",
+  "system": {
+    "description": "You can use the Force Trance application of the Use the Force skill to recover Hit Points through Natural Healing. You can also receive Hit Points from the <i>Vital Transfer</i> Force Power. Whenever you receive Bonus Hit Points from any source, you gain additional Bonus Hit Points equal to your Charisma modifier (minimum +1).",
+    "tree": "Iron Knight",
+    "prerequisite": {
+      "text": "a member of The Iron Knights",
+      "nodes": {
+        "text": "a member of The Iron Knights",
+        "requirement": "The Iron Knights",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6HOPcmFoZg7eMguu",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

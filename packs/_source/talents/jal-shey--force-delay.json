@@ -1,0 +1,31 @@
+{
+  "_id": "AyyxNMbEo2eXc8Zh",
+  "_key": "!items!AyyxNMbEo2eXc8Zh",
+  "name": "Force Delay",
+  "type": "talent",
+  "system": {
+    "description": "Jal Shey verbally startle opponents with a little help from The Force. Once per encounter, you can make a Persuasion check against the Will Defense of a target with an Intelligence score of 3 or higher, that can understand you, as a Reaction. If successful, the target loses its Move Action on its next turn. If you choose to spend a Force Point, the target instead loses its Standard Action.",
+    "tree": "Jal Shey",
+    "prerequisite": {
+      "text": "a member of The Jal Shey",
+      "nodes": {
+        "text": "a member of The Jal Shey",
+        "requirement": "The Jal Shey",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Ofi129QQ8GWfobmN",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "puNfYOwqlwI3FUh5",
+  "_key": "!items!puNfYOwqlwI3FUh5",
+  "name": "Escort Fighter",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Swift Action to designate one adjacent ally. Until the start of your next turn, if you move, that ally can also move the same number of squares, provided that the ally ends its movement adjacent to you. You cannot move a distance greater than the ally's speed.",
+    "tree": "Pathfinder",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UoNdu9EohFX2ckGv",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

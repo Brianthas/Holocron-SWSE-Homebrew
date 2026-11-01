@@ -1,0 +1,31 @@
+{
+  "_id": "bmENCiTxw2R3B7LX",
+  "_key": "!items!bmENCiTxw2R3B7LX",
+  "name": "Velocity",
+  "type": "talent",
+  "system": {
+    "description": "At the start of an encounter when you make an Initiative check to determine your place in the Initiative Order, you can activate <i>Surge</i> as a Reaction, gaining a bonus to your Initiative check result instead of Jump checks.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "Surge talent",
+      "nodes": {
+        "text": "Surge talent",
+        "requirement": "Surge",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "v77gsNde87BUaA2k",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

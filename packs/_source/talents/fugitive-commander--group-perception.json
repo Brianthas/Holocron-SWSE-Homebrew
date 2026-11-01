@@ -1,0 +1,27 @@
+{
+  "_id": "yCCWfDNDr80Xl0Q4",
+  "_key": "!items!yCCWfDNDr80Xl0Q4",
+  "name": "Group Perception",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you roll a Perception check, all allies within 6 squares of you can do so as well, taking the highest result rolled by you or an ally.",
+    "tree": "Fugitive Commander",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uCaVuUtK2hXmA6up",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

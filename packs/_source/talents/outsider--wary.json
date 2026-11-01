@@ -1,0 +1,42 @@
+{
+  "_id": "RyHJThBjqWvWKAc9",
+  "_key": "!items!RyHJThBjqWvWKAc9",
+  "name": "Wary",
+  "type": "talent",
+  "system": {
+    "description": "Your outsider status makes you cautious, observant, and ready for action. If an enemy fails a Stealth or a Deception check opposed by your Perception check, you can take one Move Action as a Reaction. If multiple enemies fail on the same turn (such as when you detect several enemies sneaking up on you), the number of Move Actions you take cannot exceed your Dexterity modifier (minimum 1).",
+    "tree": "Outsider",
+    "prerequisite": {
+      "text": "Outsider's Eye talent, and Trained in Perception",
+      "nodes": {
+        "children": [
+          {
+            "text": "Outsider's Eye talent",
+            "requirement": "Outsider's Eye",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Perception",
+            "requirement": "Perception",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Outsider's Eye talent, and Trained in Perception",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "y520BBSJ08QAL9NO",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

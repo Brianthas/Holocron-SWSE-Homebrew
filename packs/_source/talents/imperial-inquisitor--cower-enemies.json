@@ -1,0 +1,31 @@
+{
+  "_id": "AuttMrKgRzpIjXL1",
+  "_key": "!items!AuttMrKgRzpIjXL1",
+  "name": "Cower Enemies",
+  "type": "talent",
+  "system": {
+    "description": "When you use the Persuasion skill to Intimidate, you can Intimidate all targets in a 6-Square Cone (originating from your square) instead of Intimidating a single target. All other limitations to the Intimidation use of the Persuasion skill still apply.",
+    "tree": "Imperial Inquisitor",
+    "prerequisite": {
+      "text": "a member of The Inquisitorius",
+      "nodes": {
+        "text": "a member of The Inquisitorius",
+        "requirement": "The Inquisitorius",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bWyIFGi2uTi2vLQX",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

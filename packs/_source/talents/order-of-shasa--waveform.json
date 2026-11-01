@@ -1,0 +1,31 @@
+{
+  "_id": "uMkTn6vPL6bAsNnL",
+  "_key": "!items!uMkTn6vPL6bAsNnL",
+  "name": "Waveform",
+  "type": "talent",
+  "system": {
+    "description": "Taking cues from Manaan's oceans, you know how to emulate wave action using The Force. As a Swift Action, when you use a Telekinetic Force Power (that is, a Force Power with the [<i>Telekinetic</i>] descriptor), you manipulate the particles of the environment around you to add to the force of the impact, allowing you to add your Charisma modifier to any damage dealt (minimum +1).",
+    "tree": "Order of Shasa",
+    "prerequisite": {
+      "text": "a member of The Order of Shasa",
+      "nodes": {
+        "text": "a member of The Order of Shasa",
+        "requirement": "The Order of Shasa",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tgCB7yQwgwSeEGyX",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

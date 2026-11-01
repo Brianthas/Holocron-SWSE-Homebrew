@@ -1,0 +1,42 @@
+{
+  "_id": "eDBb9m40PoQzpNQA",
+  "_key": "!items!eDBb9m40PoQzpNQA",
+  "name": "Savant",
+  "type": "talent",
+  "system": {
+    "description": "Select one of the following Skills: Knowledge (Any), Mechanics, Perception, or Use Computer. When making a reroll for that Skill, you may keep the better result.",
+    "tree": "Fortune",
+    "prerequisite": {
+      "text": "Knack talent, and Trained in Chosen Skill",
+      "nodes": {
+        "children": [
+          {
+            "text": "Knack talent",
+            "requirement": "Knack",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Chosen Skill",
+            "requirement": "Chosen Skill",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Knack talent, and Trained in Chosen Skill",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "j3RfLhoTHEzeDBiU",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

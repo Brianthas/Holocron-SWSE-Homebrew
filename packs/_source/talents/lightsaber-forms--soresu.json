@@ -1,0 +1,31 @@
+{
+  "_id": "XOh1rBhSyr9VIo8a",
+  "_key": "!items!XOh1rBhSyr9VIo8a",
+  "name": "Soresu",
+  "type": "talent",
+  "system": {
+    "description": "You may reroll a failed Use the Force check when using the <b>Block</b> or <b>Deflect</b> Talents.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "Dueling Stance talent",
+      "nodes": {
+        "text": "Dueling Stance talent",
+        "requirement": "Dueling Stance",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OOwJlXskx1xEHTL9",
+      "sourceBook": ""
+    }
+  }
+}

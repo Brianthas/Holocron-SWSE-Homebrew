@@ -1,0 +1,31 @@
+{
+  "_id": "SQmdnusUjkRKez5i",
+  "_key": "!items!SQmdnusUjkRKez5i",
+  "name": "Starship Raider",
+  "type": "talent",
+  "system": {
+    "description": "You gain a +1 bonus on attack rolls made while aboard a Starship. This bonus applies to attacks made with Starship Weapons, as well as personal weapons used aboard a Starship.",
+    "tree": "Spacer",
+    "prerequisite": {
+      "text": "Spacehound talent",
+      "nodes": {
+        "text": "Spacehound talent",
+        "requirement": "Spacehound",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iTUYgNJ8xYJUKdu2",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

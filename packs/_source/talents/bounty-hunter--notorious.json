@@ -1,0 +1,27 @@
+{
+  "_id": "rquUwjQcOY3IHr4a",
+  "_key": "!items!rquUwjQcOY3IHr4a",
+  "name": "Notorious",
+  "type": "talent",
+  "system": {
+    "description": "Your skill as a Bounty Hunter is known throughout the galaxy, even on fringe worlds. When you are not Disguised, you may reroll any Persuasion checks made to Intimidate, keeping the better of the two results.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "c54AHYnxvTfxXdVm",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

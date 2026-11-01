@@ -1,0 +1,31 @@
+{
+  "_id": "ArJSVyUQkuCfkgHp",
+  "_key": "!items!ArJSVyUQkuCfkgHp",
+  "name": "Heavy Fire Zone",
+  "type": "talent",
+  "system": {
+    "description": "Once per turn, as a Swift Action, designate a 3x3 square area within your line of sight. Until the end of your next turn, if a target moves into that area you can enable one ally within your line of sight to make an Attack of Opportunity against that target. The ally you choose must be armed with a Weapon capable of making Attacks of Opportunity, and this counts toward the ally's normal limitations for Attacks of Opportunity made in a round.",
+    "tree": "Anticipation",
+    "prerequisite": {
+      "text": "Forewarn Allies talent",
+      "nodes": {
+        "text": "Forewarn Allies talent",
+        "requirement": "Forewarn Allies",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aVVS1jC6WOI5fTef",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

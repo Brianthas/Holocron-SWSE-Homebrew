@@ -1,0 +1,27 @@
+{
+  "_id": "JnlvjwYv1dHeKgAE",
+  "_key": "!items!JnlvjwYv1dHeKgAE",
+  "name": "Hyperlane Mastery",
+  "type": "talent",
+  "system": {
+    "description": "Select a major route through the galaxy. When making a Use Computer check to Astrogate within that region, the DC is reduced by 5. In addition, you may Take 10 on the check, even if conditions would not normally allow it. If this check fails, you immediately know and may attempt to try again.<br><br>You may select this Talent multiple times. Each time you select this Talent, it applies to a different route through the galaxy.",
+    "tree": "Hyperspace Explorer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0d6QVnH9ofHKnMwd",
+      "sourceBook": "New Republic Campaign Guide"
+    }
+  }
+}

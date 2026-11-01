@@ -1,0 +1,42 @@
+{
+  "_id": "Q7ogZaOKKfEwsfTg",
+  "_key": "!items!Q7ogZaOKKfEwsfTg",
+  "name": "Piercing Hit",
+  "type": "talent",
+  "system": {
+    "description": "You are skilled at fighting armored characters, taking advantage of their weaknesses. You can use each of the following Actions once per encounter:",
+    "tree": "Master Scout",
+    "prerequisite": {
+      "text": "Acute Senses talent, and Keen Shot talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Acute Senses talent",
+            "requirement": "Acute Senses",
+            "type": "TALENT"
+          },
+          {
+            "text": "Keen Shot talent",
+            "requirement": "Keen Shot",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Acute Senses talent, and Keen Shot talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sFb07TLSd4OuC7jj",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

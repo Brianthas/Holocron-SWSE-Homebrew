@@ -1,0 +1,31 @@
+{
+  "_id": "1upG2vgl3QJZBV7S",
+  "_key": "!items!1upG2vgl3QJZBV7S",
+  "name": "Zone of Recuperation",
+  "type": "talent",
+  "system": {
+    "description": "Any ally who catches a Second Wind while within your <b>Safe Zone</b> regains a number of additional Hit Points equal to your Class Level.",
+    "tree": "Pathfinder",
+    "prerequisite": {
+      "text": "Safe Zone talent",
+      "nodes": {
+        "text": "Safe Zone talent",
+        "requirement": "Safe Zone",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "487QwmBa4RsqwUxT",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

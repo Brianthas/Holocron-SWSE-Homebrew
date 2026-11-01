@@ -1,0 +1,31 @@
+{
+  "_id": "RtzZ7C3XY5blj2yY",
+  "_key": "!items!RtzZ7C3XY5blj2yY",
+  "name": "Arrogant Bluster",
+  "type": "talent",
+  "system": {
+    "description": "You take on an air of arrogance, allowing you to distract and sway others with your apparent knowledge and experience. When you make a successful Persuasion check to change an enemy's Attitude, the enemy takes a -5 penalty to its Will Defense until the end of your next turn. If you spend a Force Point, the duration is extended to the end of the encounter. This is a Mind-Affecting effect.",
+    "tree": "Exile",
+    "prerequisite": {
+      "text": "Trained in Persuasion",
+      "nodes": {
+        "text": "Trained in Persuasion",
+        "requirement": "Persuasion",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aHXCevuvEO3qPsJ2",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

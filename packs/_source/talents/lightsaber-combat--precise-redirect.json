@@ -1,0 +1,31 @@
+{
+  "_id": "w1wKaw64NZsmV5EG",
+  "_key": "!items!w1wKaw64NZsmV5EG",
+  "name": "Precise Redirect",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you successfully Redirect a blaster bolt and hit your target, the redirected attack deals +1 die of damage.",
+    "tree": "Lightsaber Combat",
+    "prerequisite": {
+      "text": "Redirection Stance talent",
+      "nodes": {
+        "text": "Redirection Stance talent",
+        "requirement": "Redirection Stance",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ctPtCdGNaA27JyBj",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

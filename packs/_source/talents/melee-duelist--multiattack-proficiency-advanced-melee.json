@@ -1,0 +1,27 @@
+{
+  "_id": "iUNq9lL1lQch4tC2",
+  "_key": "!items!iUNq9lL1lQch4tC2",
+  "name": "Multiattack Proficiency (Advanced Melee)",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you make multiple attacks with Advanced Melee as a Full Attack Action, you reduce the penalty on your attack rolls by 2 points.<br><br>You can take this Talent multiple times; each time you take this Talent, you reduce the penalty on your attack rolls by an additional 2 points.",
+    "tree": "Melee Duelist",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rqiaUknUVKM7EUps",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

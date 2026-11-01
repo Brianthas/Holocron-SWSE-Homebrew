@@ -1,0 +1,27 @@
+{
+  "_id": "vhTE6jB6OQ1x4vMQ",
+  "_key": "!items!vhTE6jB6OQ1x4vMQ",
+  "name": "Guaranteed Boon",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you spend a Force Point to add to a Skill Check in a Skill Challenge and accrue a failure for that Skill Check, you regain that Force Point.",
+    "tree": "Skill Challenge",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uy7mQNZcQaZVkgD9",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

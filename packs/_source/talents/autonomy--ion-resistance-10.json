@@ -1,0 +1,27 @@
+{
+  "_id": "QzPqKMLvIcRhuxjx",
+  "_key": "!items!QzPqKMLvIcRhuxjx",
+  "name": "Ion Resistance 10",
+  "type": "talent",
+  "system": {
+    "description": "You gain Damage Reduction 10 against Ion damage.",
+    "tree": "Autonomy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "62qeF1jMPHAuXazZ",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

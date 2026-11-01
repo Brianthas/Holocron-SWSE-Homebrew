@@ -1,0 +1,42 @@
+{
+  "_id": "ghUxa1IsVMhRYZ0X",
+  "_key": "!items!ghUxa1IsVMhRYZ0X",
+  "name": "Intimidating Defense",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Reaction, you can make a Persuasion check to Intimidate one creature that is making a melee or ranged attack against you, and is within your line of sight. If you succeed, you impose a -5 penalty to that attack roll. If the target is a higher level than you, it gains a +5 bonus to its Will Defense against the Intimidate check.<br><br>This is a Mind-Affecting effect.",
+    "tree": "Influence",
+    "prerequisite": {
+      "text": "Presence talent, and Trained in Persuasion",
+      "nodes": {
+        "children": [
+          {
+            "text": "Presence talent",
+            "requirement": "Presence",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Persuasion",
+            "requirement": "Persuasion",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Presence talent, and Trained in Persuasion",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3vwVwl10dEJXs9Id",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

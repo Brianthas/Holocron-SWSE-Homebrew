@@ -1,0 +1,31 @@
+{
+  "_id": "PksuMx9LZhpR04Ln",
+  "_key": "!items!PksuMx9LZhpR04Ln",
+  "name": "Cover Escape",
+  "type": "talent",
+  "system": {
+    "description": "When you successfully spend a Force Point to negate a attack against an adjacent ally with the <b>Block</b> or <b>Deflect</b> Talents, that ally can move up to 2 squares as a Free Action. This movement does not provoke Attacks of Opportunity.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "Dueling Stance talent",
+      "nodes": {
+        "text": "Dueling Stance talent",
+        "requirement": "Dueling Stance",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bmrqHRxAAkqvqNNl",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

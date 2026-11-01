@@ -1,0 +1,27 @@
+{
+  "_id": "h8qcG6TAmjmPwcbt",
+  "_key": "!items!h8qcG6TAmjmPwcbt",
+  "name": "Djem So",
+  "type": "talent",
+  "system": {
+    "description": "Once per round when an opponent hits you with a melee attack, you may spend a Force Point as a Reaction to make an immediate attack against that opponent.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "am8SgiaPiIiijsBD",
+      "sourceBook": ""
+    }
+  }
+}

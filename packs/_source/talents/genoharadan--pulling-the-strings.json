@@ -1,0 +1,27 @@
+{
+  "_id": "hsntojPgpWbBPYgo",
+  "_key": "!items!hsntojPgpWbBPYgo",
+  "name": "Pulling the Strings",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can make a Persuasion check against the Will Defense of a target within 12 squares. If you succeed, you move the target up to half its speed toward you through the safest route, and you make an immediate ranged or melee attack against the the target if it is within Range. You cannot move an opponent into a Hazard (such as into lava or off a cliff).",
+    "tree": "GenoHaradan",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GcZewDwetweuwjIW",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

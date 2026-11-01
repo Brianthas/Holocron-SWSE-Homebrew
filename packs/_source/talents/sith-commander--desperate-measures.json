@@ -1,0 +1,31 @@
+{
+  "_id": "RxG1Oc4mGNcp9t9e",
+  "_key": "!items!RxG1Oc4mGNcp9t9e",
+  "name": "Desperate Measures",
+  "type": "talent",
+  "system": {
+    "description": "Desperation stems from fear. Once per encounter as a Swift Action, you can instill desperation in all allies within 12 squares of you and in your line of sight, allowing each of them to make an immediate attack at a -5 penalty.",
+    "tree": "Sith Commander",
+    "prerequisite": {
+      "text": "Focus Terror talent",
+      "nodes": {
+        "text": "Focus Terror talent",
+        "requirement": "Focus Terror",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nwpO2RBpvV6TMhy6",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

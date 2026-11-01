@@ -1,0 +1,27 @@
+{
+  "_id": "04KXqw9cZ9cbWJcl",
+  "_key": "!items!04KXqw9cZ9cbWJcl",
+  "name": "Hidden Eyes",
+  "type": "talent",
+  "system": {
+    "description": "If you have Concealment from a target, you gain a +5 circumstance bonus on all Perception checks made against that target.",
+    "tree": "Surveillance",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OP6wCcxcK2VUMsyS",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

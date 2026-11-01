@@ -1,0 +1,31 @@
+{
+  "_id": "9SaaOZVoNXkAIbfp",
+  "_key": "!items!9SaaOZVoNXkAIbfp",
+  "name": "Expert Tracker",
+  "type": "talent",
+  "system": {
+    "description": "You take no penalty on Survival checks made to Follow Tracks while moving your normal Speed.",
+    "tree": "Awareness",
+    "prerequisite": {
+      "text": "Acute Senses talent",
+      "nodes": {
+        "text": "Acute Senses talent",
+        "requirement": "Acute Senses",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ONAAXFEjwHB7iNU4",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

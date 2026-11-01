@@ -1,0 +1,47 @@
+{
+  "_id": "6rnQcl2zA8bnFcy4",
+  "_key": "!items!6rnQcl2zA8bnFcy4",
+  "name": "Speedclimber",
+  "type": "talent",
+  "system": {
+    "description": "You do not suffer penalties when using the Accelerated Climbing application of the Climb Skill.",
+    "tree": "Master Scout",
+    "prerequisite": {
+      "text": "Long Stride talent, Surefooted talent, and Trained in Climb",
+      "nodes": {
+        "children": [
+          {
+            "text": "Long Stride talent",
+            "requirement": "Long Stride",
+            "type": "TALENT"
+          },
+          {
+            "text": "Surefooted talent",
+            "requirement": "Surefooted",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Athletics",
+            "requirement": "Athletics",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Long Stride talent, Surefooted talent, and Trained in Climb",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YawwR3TA3YlrxShb",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

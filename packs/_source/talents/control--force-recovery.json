@@ -1,0 +1,31 @@
+{
+  "_id": "bh6pe5LhVOTgt2av",
+  "_key": "!items!bh6pe5LhVOTgt2av",
+  "name": "Force Recovery",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you use your Second Wind, you regain a number of additional Hit Points equal to 1d6 per Force Point you possess (maximum 10d6).",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "Equilibrium talent",
+      "nodes": {
+        "text": "Equilibrium talent",
+        "requirement": "Equilibrium",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "L19Jy7p6Lx2JjZsi",
+      "sourceBook": ""
+    }
+  }
+}

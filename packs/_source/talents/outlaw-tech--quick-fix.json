@@ -1,0 +1,31 @@
+{
+  "_id": "incMCyWJLgYWlPLz",
+  "_key": "!items!incMCyWJLgYWlPLz",
+  "name": "Quick Fix",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you may Jury-Rig an object or Vehicle that is not Disabled. All normal benefits and penalties for Jury-Rigging still apply.",
+    "tree": "Outlaw Tech",
+    "prerequisite": {
+      "text": "Trained in Mechanics",
+      "nodes": {
+        "text": "Trained in Mechanics",
+        "requirement": "Mechanics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fTFn1n8U9TIQys0T",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

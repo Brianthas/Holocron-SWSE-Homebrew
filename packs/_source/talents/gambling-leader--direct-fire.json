@@ -1,0 +1,31 @@
+{
+  "_id": "eaMrnCJKBVTidpsb",
+  "_key": "!items!eaMrnCJKBVTidpsb",
+  "name": "Direct Fire",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Swift Action, you can designate one ally and one target that does not have Cover from you. Until the start of your next turn, the ally you designate ignores the target's Cover bonuses to Reflex Defense.",
+    "tree": "Gambling Leader",
+    "prerequisite": {
+      "text": "Assault Gambit talent",
+      "nodes": {
+        "text": "Assault Gambit talent",
+        "requirement": "Assault Gambit",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "p4HHreLuLfVMwrxy",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

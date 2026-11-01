@@ -1,0 +1,31 @@
+{
+  "_id": "4rHnl6TL3JrJwfCC",
+  "_key": "!items!4rHnl6TL3JrJwfCC",
+  "name": "Sword of Vahl",
+  "type": "talent",
+  "system": {
+    "description": "Your devotion to Vahl allows you to eschew advanced weapons in favor of simple implements of war. You gain a +1 Force bonus on attack rolls made with Simple Weapons.",
+    "tree": "Ember of Vahl",
+    "prerequisite": {
+      "text": "a member of The Ember of Vahl",
+      "nodes": {
+        "text": "a member of The Ember of Vahl",
+        "requirement": "The Ember of Vahl",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "W98EzUAyxgVvXttD",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

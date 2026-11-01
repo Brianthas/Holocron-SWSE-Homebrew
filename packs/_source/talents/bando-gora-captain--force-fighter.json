@@ -1,0 +1,31 @@
+{
+  "_id": "cvrenD3ryw304gMY",
+  "_key": "!items!cvrenD3ryw304gMY",
+  "name": "Force Fighter",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you spend a Force Point to add to an attack roll, you heal a number of Hit Points equal to the Force Point result if the attack hits.",
+    "tree": "Bando Gora Captain",
+    "prerequisite": {
+      "text": "a member of The Bando Gora",
+      "nodes": {
+        "text": "a member of The Bando Gora",
+        "requirement": "The Bando Gora",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "W1I8AL27VhKwBPCM",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

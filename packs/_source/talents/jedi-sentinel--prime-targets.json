@@ -1,0 +1,27 @@
+{
+  "_id": "b3VPblYKojVUlnZY",
+  "_key": "!items!b3VPblYKojVUlnZY",
+  "name": "Prime Targets",
+  "type": "talent",
+  "system": {
+    "description": "When you hit a target with a Lightsaber attack, if the target has not been attacked since the end of your last turn, you deal +1 die of damage.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4LYTM0ZsqZtbrTmX",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

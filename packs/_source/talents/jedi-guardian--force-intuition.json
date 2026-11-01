@@ -1,0 +1,27 @@
+{
+  "_id": "Xyhl1EjtqQNNXDXK",
+  "_key": "!items!Xyhl1EjtqQNNXDXK",
+  "name": "Force Intuition",
+  "type": "talent",
+  "system": {
+    "description": "You can use your Use the Force check modifier instead of your Initiative modifier when making Initiative checks. You are considered Trained in the Initiative skill. If you are entitled to an Initiative check reroll, you may reroll your Use the Force check instead (subject to the same circumstances and limitations).<br><br>You may use this Talent to determine the Initiative of a Starship if you are the Pilot.",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "T6Xv72pxi15DFedw",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

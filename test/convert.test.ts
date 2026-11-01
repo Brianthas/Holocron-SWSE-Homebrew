@@ -1,8 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { cleanDescription } from "../tools/convert/lib/html.ts";
+import { cleanDescription, rewriteParagraphs, textNotIn } from "../tools/convert/lib/html.ts";
+import { plainName, treeName } from "../tools/convert/packs/talents.ts";
 import { idFor, slugify } from "../tools/convert/lib/ids.ts";
 import { checkKeys, Report, type SourceDoc } from "../tools/convert/lib/pack.ts";
-import { FEAT_KEYS, rewriteParagraphs, type ChangeOut } from "../tools/convert/packs/feats.ts";
+import type { ChangeOut } from "../tools/convert/lib/changes.ts";
+import { FEAT_KEYS } from "../tools/convert/packs/feats.ts";
 import { techniquePower } from "../tools/convert/packs/force-features.ts";
 import { parseBand } from "../tools/convert/packs/force-powers.ts";
 
@@ -100,7 +102,7 @@ describe("Force power bands", () => {
 
 describe("feat change keys", () => {
   const run = (key: string, value: unknown) => {
-    const ctx = { name: "Probe", changes: [] as ChangeOut[], repeatable: false, dropped: [] as string[], failed: [] as string[],
+    const ctx = { name: "Probe", changes: [] as ChangeOut[], repeatable: false, maxTimes: 0, dropped: [] as string[], failed: [] as string[],
       drop(reason: string) { this.dropped.push(reason); }, fail(message: string) { this.failed.push(message); } };
     FEAT_KEYS[key]?.(value, ctx);
     return ctx;
@@ -118,6 +120,23 @@ describe("feat change keys", () => {
   });
   it("read takeMultipleTimes as repeatable", () => {
     expect(run("takeMultipleTimes", "true").repeatable).toBe(true);
+  });
+});
+
+describe("talent names and short descriptions", () => {
+  it("strip only the talent's own tree suffix", () => {
+    expect(plainName("Charm Beast (Beastwarden Talent Tree)", "Beastwarden Talent Tree")).toBe("Charm Beast");
+    expect(plainName("Weapon Specialization (Lightsabers)", "Lightsaber Combat Talent Tree")).toBe("Weapon Specialization (Lightsabers)");
+    expect(treeName("Lightsaber Combat Talent Tree")).toBe("Lightsaber Combat");
+  });
+  it("find text a short copy carries that the original lacks, not reflowed text", () => {
+    const original = "<p>You move a target up to 6 squares.</p><table><tr><td>15</td><td>Medium size</td></tr></table>";
+    expect(textNotIn("You move a target up to 6 squares. 15 Medium size", original)).toEqual([]);
+    expect(textNotIn("Damage dealt is always capped to the size of the object. You move a target up to 6 squares.", original))
+      .toEqual(["damage dealt is always capped to the size of the object"]);
+  });
+  it("drop the bold house label and capitalise what follows", () => {
+    expect(cleanDescription("<p><b>Homebrew:</b> murderous Arts I and II are one talent.</p>").html).toBe("<p>Murderous Arts I and II are one talent.</p>");
   });
 });
 

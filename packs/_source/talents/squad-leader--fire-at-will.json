@@ -1,0 +1,42 @@
+{
+  "_id": "cDmUmYZfaT1ylfnr",
+  "_key": "!items!cDmUmYZfaT1ylfnr",
+  "name": "Fire at Will",
+  "type": "talent",
+  "system": {
+    "description": "As a Full-Round Action, you and one of your Followers can make a ranged attack against one target (each) in line of sight. You each take a -5 penalty to your attack rolls.",
+    "tree": "Squad Leader",
+    "prerequisite": {
+      "text": "Commanding Officer talent, and Base Attack Bonus 5",
+      "nodes": {
+        "children": [
+          {
+            "text": "Commanding Officer talent",
+            "requirement": "Commanding Officer",
+            "type": "TALENT"
+          },
+          {
+            "text": "Base Attack Bonus 5",
+            "requirement": "5",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Commanding Officer talent, and Base Attack Bonus 5",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "e4zIkFjnUmvX4mvc",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

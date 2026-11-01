@@ -13,6 +13,7 @@ import { Report, type OutputDoc } from "./lib/pack.ts";
 import { convertFeats } from "./packs/feats.ts";
 import { convertForceFeatures } from "./packs/force-features.ts";
 import { convertForcePowers } from "./packs/force-powers.ts";
+import { convertTalents } from "./packs/talents.ts";
 
 const OUT = fileURLToPath(new URL("../../packs/_source", import.meta.url));
 const REPORT = fileURLToPath(new URL("./out/report.json", import.meta.url));
@@ -22,7 +23,10 @@ const report = new Report();
 const powers = convertForcePowers(report);
 const packs = new Map<string, OutputDoc[]>([
   ["force-powers", powers], ...convertForceFeatures(powers.map((p) => p.name), report), ["feats", convertFeats(report)],
+  ["talents", convertTalents(report)],
 ]);
+// A talent's name can repeat across trees ("Charm Beast"), so its file carries the tree.
+const fileName = (doc: OutputDoc) => (doc.type === "talent" ? `${slugify(String(doc.system["tree"]))}--${slugify(doc.name)}` : slugify(doc.name));
 
 const stale: { pack: string; file: string }[] = [];
 const written: Record<string, number> = {};
@@ -32,7 +36,7 @@ for (const [pack, docs] of packs) {
   mkdirSync(dir, { recursive: true });
   const expected = new Set<string>();
   for (const doc of docs) {
-    const file = `${slugify(doc.name)}.json`;
+    const file = `${fileName(doc)}.json`;
     const clash = ids.get(doc._id);
     if (clash) report.problems.push({ pack, name: doc.name, message: `id ${doc._id} also used by ${clash}` });
     ids.set(doc._id, `${pack}/${doc.name}`);

@@ -1,0 +1,27 @@
+{
+  "_id": "Dc6fQL2zMOPcOQlk",
+  "_key": "!items!Dc6fQL2zMOPcOQlk",
+  "name": "Unstoppable",
+  "type": "talent",
+  "system": {
+    "description": "You can sometimes shrug off the effect of debilitating attacks. Once per encounter, if you are hit by an attack that would normally knock you down the Condition Track, you can reduce the number of steps you move down the Condition Track by 1 step (to a minimum of 0).",
+    "tree": "Gladiatorial Combat",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mhKvlQyvoSu7110F",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

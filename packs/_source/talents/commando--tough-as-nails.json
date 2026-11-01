@@ -1,0 +1,51 @@
+{
+  "_id": "7uDOHIaMJs843hNP",
+  "_key": "!items!7uDOHIaMJs843hNP",
+  "name": "Tough as Nails",
+  "type": "talent",
+  "system": {
+    "description": "You can catch a Second Wind one extra time per day. If you have this Talent and the Extra Second Wind feat, you can catch your Second Wind a total of three times per day.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [
+    {
+      "_id": "da8Q8COWSH8aJ2VU",
+      "_key": "!items.effects!7uDOHIaMJs843hNP.da8Q8COWSH8aJ2VU",
+      "name": "Tough as Nails",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "secondWind",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aidt03dwBx0bLLtP",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

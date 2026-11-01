@@ -1,0 +1,42 @@
+{
+  "_id": "56Jo3wciBV7yf05D",
+  "_key": "!items!56Jo3wciBV7yf05D",
+  "name": "Treacherous",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you are attacked in combat and adjacent to a creature other than your attacker, you can move 1 square as a Reaction. The attack, intended for you, instead targets the adjacent creature, though if you move away from a creature that Threatens you, it can make an Attack of Opportunity before the original attack is resolved.",
+    "tree": "Trickery",
+    "prerequisite": {
+      "text": "Improved Soft Cover talent, and Innocuous talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Improved Soft Cover talent",
+            "requirement": "Improved Soft Cover",
+            "type": "TALENT"
+          },
+          {
+            "text": "Innocuous talent",
+            "requirement": "Innocuous",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Improved Soft Cover talent, and Innocuous talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "w3oUGrDAdapZJ0Fg",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

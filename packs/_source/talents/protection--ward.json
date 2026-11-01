@@ -1,0 +1,27 @@
+{
+  "_id": "jLgClLFFNeykqQqm",
+  "_key": "!items!jLgClLFFNeykqQqm",
+  "name": "Ward",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, designate one adjacent ally. Until the end of your next turn, as long as that ally remains adjacent to you, you are considered to be providing that ally with Soft Cover against all attacks.<br><br>You cannot be designated as the target of this Talent (such as, when it is used by an ally) if you have used this Talent since the start of your last turn, and you cannot use this Talent if you are currently designated as another ally's <b>Ward</b>.",
+    "tree": "Protection",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AgrNXe6wMEK4mwFI",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

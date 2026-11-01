@@ -1,0 +1,31 @@
+{
+  "_id": "sljskEX7QXuQwVsr",
+  "_key": "!items!sljskEX7QXuQwVsr",
+  "name": "Lead by Example",
+  "type": "talent",
+  "system": {
+    "description": "If you have already used a Talent in an encounter before granting the same Talent to an ally with your Share Talent special quality in the same encounter, any character who benefits from Share Talent gains one of the following bonuses when using that talent (if the Talent can be affected by more than one effect, the character using the Talent selects the desired effect):",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "Share Talent (Any)",
+      "nodes": {
+        "text": "Share Talent (Any)",
+        "requirement": "Share Talent",
+        "type": "TRAIT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Bx5yTXp5eYedSEPi",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

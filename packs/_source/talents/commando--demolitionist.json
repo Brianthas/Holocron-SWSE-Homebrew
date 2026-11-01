@@ -1,0 +1,27 @@
+{
+  "_id": "octGmbKXuDh57ZgD",
+  "_key": "!items!octGmbKXuDh57ZgD",
+  "name": "Demolitionist",
+  "type": "talent",
+  "system": {
+    "description": "When you use the Mechanics skill to Handle Explosives, the explosion deals +2 dice of damage. You may take this Talent multiple times; its effects stack.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bam6uEgCnfSNji5y",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

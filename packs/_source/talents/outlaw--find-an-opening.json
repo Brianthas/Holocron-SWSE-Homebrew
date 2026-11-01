@@ -1,0 +1,31 @@
+{
+  "_id": "oLvARelWDgJ8rIar",
+  "_key": "!items!oLvARelWDgJ8rIar",
+  "name": "Find an Opening",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you would use <b>Seize the Moment</b>, you can forgo the Swift Action to be able to Aim as a single Swift Action on your turn.",
+    "tree": "Outlaw",
+    "prerequisite": {
+      "text": "Seize the Moment (Outlaw Talent Tree) talent",
+      "nodes": {
+        "text": "Seize the Moment (Outlaw Talent Tree) talent",
+        "requirement": "Seize the Moment (Outlaw Talent Tree)",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MeOh3TPKkJNqY3tu",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

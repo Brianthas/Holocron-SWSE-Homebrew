@@ -1,0 +1,31 @@
+{
+  "_id": "OUioqceEk2iI4nsp",
+  "_key": "!items!OUioqceEk2iI4nsp",
+  "name": "Lor Pelek",
+  "type": "talent",
+  "system": {
+    "description": "While on <span class=\"new\" title=\"Haruun Kal (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSGFydXVuX0thbD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Haruun Kal</span>, you may spend a Force Point to gain a +2 Force bonus to all Use the Force checks to activate Force Powers or Force Talents, increase your speed by 1 square, and all native wildlife native is treated as one step more Friendly (see Attitude). These effects last until the end of the encounter.",
+    "tree": "Korunnai Adept",
+    "prerequisite": {
+      "text": "a member of The Korunnai",
+      "nodes": {
+        "text": "a member of The Korunnai",
+        "requirement": "The Korunnai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mP4M98xF01ipKYEd",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - Force Users"
+    }
+  }
+}

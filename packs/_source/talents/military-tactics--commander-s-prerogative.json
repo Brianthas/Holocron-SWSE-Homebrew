@@ -1,0 +1,31 @@
+{
+  "_id": "0dftwyBxsFanxjGa",
+  "_key": "!items!0dftwyBxsFanxjGa",
+  "name": "Commander's Prerogative",
+  "type": "talent",
+  "system": {
+    "description": "During the first round of combat in an encounter (after the Surprise Round, if any), you can take your turn before any of your allies, but you must use either the Share Talent Prestige Class ability or a Talent from one of the following Talent Trees as part of your turn: Commando Talent Tree, Leadership Talent Tree, or Military Tactics Talent Tree. On the subsequent round, you return to your normal place in the Initiative Order.",
+    "tree": "Military Tactics",
+    "prerequisite": {
+      "text": "Trained in Initiative",
+      "nodes": {
+        "text": "Trained in Initiative",
+        "requirement": "Initiative",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4OR2b7pyPpIyocaT",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

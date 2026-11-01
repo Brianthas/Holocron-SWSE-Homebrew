@@ -1,0 +1,27 @@
+{
+  "_id": "WojhXrCAoZK8XfeC",
+  "_key": "!items!WojhXrCAoZK8XfeC",
+  "name": "Focused Warrior",
+  "type": "talent",
+  "system": {
+    "description": "Your training makes you confident and disciplined in combat. When you successfully deal damage to an opponent in combat, you gain a +5 morale bonus to Will Defense until the start of your next turn. You lose this bonus to Will Defense if you are Surprised or Flat-Footed for any reason.",
+    "tree": "Mercenary",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GqIVJFgwyoO9Tk7I",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

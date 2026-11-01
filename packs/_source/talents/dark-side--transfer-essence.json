@@ -1,0 +1,31 @@
+{
+  "_id": "V1bigiKBnkyga5h1",
+  "_key": "!items!V1bigiKBnkyga5h1",
+  "name": "Transfer Essence",
+  "type": "talent",
+  "system": {
+    "description": "When you die, you become a Dark Side Spirit until the end of the encounter. You continue to occupy a space in this form, but other creatures can occupy the same space or move through your space without impediment. As a Standard Action, you can attempt to possess an adjacent target. You must succeed on a Use the Force check against an adjacent target's Will Defense. If your check result equals or exceeds the target's Will Defense, you deal 8d6 points of Stun damage to the target; if you reduce the target to 0 Hit Points or move it to the bottom of the Condition Track with this attack, you possess the target as though it were a willing host.<br><br>Alternatively, as a Standard Action, you can transfer your essence into a single adjacent object, such as a Holocron or a Lightsaber. If you do so, you lie dormant within the object until another creature attempts to use that object, at which time you can emerge and attempt to possess the creature, as described above.<br><br>If you do not possess a creature or object within 10 rounds of manifesting as a Dark Side Spirit, your spirit dissipates and ceases to exist.",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "Dark Side Score equal to Wisdom Score",
+      "nodes": {
+        "text": "Dark Side Score equal to Wisdom Score",
+        "requirement": "@WISTOTAL",
+        "type": "DARK SIDE SCORE"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uSv3l8XfXaO2xcoV",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "peiHd5Ni7H4zadwL",
+  "_key": "!items!peiHd5Ni7H4zadwL",
+  "name": "Ignite Fervor",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you hit an opponent with a melee or ranged attack, you can (as a Free Action) choose to give one ally within your line of sight a bonus to damage on their next attack equal to their Character Level. Once their fervor has been ignited, the affected ally doesn't need to remain within line of sight of you; if their next attack misses, they lose the bonus to damage granted by this Talent.<br><br>You can't <b>Ignite Fervor</b> on yourself.",
+    "tree": "Inspiration",
+    "prerequisite": {
+      "text": "Bolster Ally talent, and Inspire Confidence talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Bolster Ally talent",
+            "requirement": "Bolster Ally",
+            "type": "TALENT"
+          },
+          {
+            "text": "Inspire Confidence talent",
+            "requirement": "Inspire Confidence",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Bolster Ally talent, and Inspire Confidence talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oPy8LZJOneyBy9ge",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

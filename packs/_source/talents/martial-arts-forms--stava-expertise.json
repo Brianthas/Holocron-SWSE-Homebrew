@@ -1,0 +1,27 @@
+{
+  "_id": "PeFH8u2Fcm8Ym5tV",
+  "_key": "!items!PeFH8u2Fcm8Ym5tV",
+  "name": "Stava Expertise",
+  "type": "talent",
+  "system": {
+    "description": "When you successfully Grab an enemy, he or she must make an opposed Grab check to break free of your Grab. If you are initiating a Grapple, you can reroll your Grapple check. However, you must accept the result of the reroll, even if it is worse. You can use this Talent only while wearing Light Armor or no Armor.",
+    "tree": "Martial Arts Forms",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Hn85IQw3vkFrBosb",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

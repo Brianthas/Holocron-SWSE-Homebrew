@@ -1,0 +1,42 @@
+{
+  "_id": "2ETkJZHhRFVlFy8v",
+  "_key": "!items!2ETkJZHhRFVlFy8v",
+  "name": "Seen It All",
+  "type": "talent",
+  "system": {
+    "description": "You have seen more action in more places than most people know exist, and little in the galaxy gets you rattled. Any character using a Fear effect on you must roll twice, keeping the lower result on any Skill Checks and attack rolls.",
+    "tree": "Veteran",
+    "prerequisite": {
+      "text": "Tested in Battle talent, and Trained in Initiative",
+      "nodes": {
+        "children": [
+          {
+            "text": "Tested in Battle talent",
+            "requirement": "Tested in Battle",
+            "type": "TALENT"
+          },
+          {
+            "text": "Trained in Initiative",
+            "requirement": "Initiative",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Tested in Battle talent, and Trained in Initiative",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xHOZd0tfxopILCRz",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

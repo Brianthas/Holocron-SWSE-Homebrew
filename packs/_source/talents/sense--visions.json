@@ -1,0 +1,42 @@
+{
+  "_id": "YPKfGKA07dPZUae3",
+  "_key": "!items!YPKfGKA07dPZUae3",
+  "name": "Visions",
+  "type": "talent",
+  "system": {
+    "description": "<i><sup>See also: On the Force, Visions, and Discretion</sup></i><br><br>Whenever you use the <i>Farseeing</i> Force Power, you can spend a Force Point as a Swift Action to see into the target's past or future instead of the present. You declare how far into the target's past or future you wish to look, up to a maximum of 1 year per your Character Level.<br><br>Any information gained about a target's future is subject to change, depending on whether steps are taken to alter that future.",
+    "tree": "Sense",
+    "prerequisite": {
+      "text": "Force Perception talent, and Farseeing force power",
+      "nodes": {
+        "children": [
+          {
+            "text": "Force Perception talent",
+            "requirement": "Force Perception",
+            "type": "TALENT"
+          },
+          {
+            "text": "Farseeing force power",
+            "requirement": "Farseeing",
+            "type": "FORCE POWER"
+          }
+        ],
+        "text": "Force Perception talent, and Farseeing force power",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yK9Nk9dpIr3ItEtr",
+      "sourceBook": ""
+    }
+  }
+}

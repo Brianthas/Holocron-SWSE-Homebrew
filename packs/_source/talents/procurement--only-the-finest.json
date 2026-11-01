@@ -1,0 +1,31 @@
+{
+  "_id": "drenK1SAtKrNRP7t",
+  "_key": "!items!drenK1SAtKrNRP7t",
+  "name": "Only the Finest",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you purchase goods through the Black Market, you can obtain items that have been modified with the Tech Specialist feat without increasing the base value of the items.",
+    "tree": "Procurement",
+    "prerequisite": {
+      "text": "Black Market Buyer talent",
+      "nodes": {
+        "text": "Black Market Buyer talent",
+        "requirement": "Black Market Buyer",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HAjznPwsJfLb6XeQ",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

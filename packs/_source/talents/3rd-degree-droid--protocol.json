@@ -1,0 +1,27 @@
+{
+  "_id": "ZGg7R3VY6LZtJWIX",
+  "_key": "!items!ZGg7R3VY6LZtJWIX",
+  "name": "Protocol",
+  "type": "talent",
+  "system": {
+    "description": "You always succeed on attempts to Aid Another on Deception, Knowledge, and Persuasion checks (no roll required).",
+    "tree": "3rd-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yPsrhKWs4wM9mqx7",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

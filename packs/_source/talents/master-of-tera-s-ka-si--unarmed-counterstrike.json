@@ -1,0 +1,52 @@
+{
+  "_id": "rFFOhzPChiofg0d1",
+  "_key": "!items!rFFOhzPChiofg0d1",
+  "name": "Unarmed Counterstrike",
+  "type": "talent",
+  "system": {
+    "description": "When you successfully Parry a melee attack with the <b>Unarmed Parry</b> Talent, you can immediately make an Unarmed attack as a Reaction against that target.",
+    "tree": "Master of Teräs Käsi",
+    "prerequisite": {
+      "text": "Teräs Käsi Basics talent, Unarmed Parry talent, Martial Arts I feat, and Martial Arts II feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Teräs Käsi Basics talent",
+            "requirement": "Teräs Käsi Basics",
+            "type": "TALENT"
+          },
+          {
+            "text": "Unarmed Parry talent",
+            "requirement": "Unarmed Parry",
+            "type": "TALENT"
+          },
+          {
+            "text": "Martial Arts I feat",
+            "requirement": "Martial Arts I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Martial Arts II feat",
+            "requirement": "Martial Arts II",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Teräs Käsi Basics talent, Unarmed Parry talent, Martial Arts I feat, and Martial Arts II feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TQ87u4MeKFngLJOz",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

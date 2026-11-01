@@ -1,0 +1,27 @@
+{
+  "_id": "XJVKlbdMFXEi1zGp",
+  "_key": "!items!XJVKlbdMFXEi1zGp",
+  "name": "Slowing Stun",
+  "type": "talent",
+  "system": {
+    "description": "When you move a target at least -1 step along the Condition Track with an attack, its speed is halved until all conditions are removed.",
+    "tree": "Enforcement",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cdjth3jhaDp0TUxM",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "McT1jlF36K7znF9B",
+  "_key": "!items!McT1jlF36K7znF9B",
+  "name": "Demand Surrender",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can make a Persuasion check as a Standard Action to demand surrender from an opponent who has been reduced to one-half or less of its hit points. If your check result equals or exceeds the target's Will Defense, it surrenders to you and your allies, drops any weapons it is holding, and takes no hostile actions. If the target is higher level than you, it gains a +5 bonus to its Will Defense. If you or any of your allies attack it, it no longer submits to your will and can act normally. You can only use this Talent against a particular target once per encounter. This is a Mind-Affecting effect.<br><br>Unlike other Mind-Affecting effects, you need only to hail a Vehicle to <b>Demand Surrender</b>. You can demand surrender of a vehicle that has been reduced to one-half or fewer of its hit points, even if the crew is uninjured. You make your check against the Vehicle's Commander; all Nonheroic crews are assumed to have a Will Defense of 10. If the CL of the target Vehicle is greater than your Heroic Level or the CL of your Vehicle, the target gains a +5 bonus to its Will Defense. You can't use this Talent to <b>Demand Surrender</b> from a Vehicle that is more than one size larger than yours under any circumstances-Star Destroyers don't surrender to X-Wings.",
+    "tree": "Influence",
+    "prerequisite": {
+      "text": "Presence talent",
+      "nodes": {
+        "text": "Presence talent",
+        "requirement": "Presence",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FUkgiYnDTZhb498H",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

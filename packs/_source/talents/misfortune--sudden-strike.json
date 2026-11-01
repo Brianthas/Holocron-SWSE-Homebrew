@@ -1,0 +1,42 @@
+{
+  "_id": "2OrbiC3Fa7tdDydT",
+  "_key": "!items!2OrbiC3Fa7tdDydT",
+  "name": "Sudden Strike",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you would gain the benefit of the <b>Skirmisher</b> Talent and you successfully hit your opponent, you deal <b>Sneak Attack</b> damage in addition to the normal damage dealt by the attack.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "Skirmisher talent, and Sneak Attack talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Skirmisher talent",
+            "requirement": "Skirmisher",
+            "type": "TALENT"
+          },
+          {
+            "text": "Sneak Attack talent",
+            "requirement": "Sneak Attack",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Skirmisher talent, and Sneak Attack talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6eOjHRazGYDM3Lhm",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

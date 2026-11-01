@@ -1,0 +1,27 @@
+{
+  "_id": "V5zi10NozP1yse24",
+  "_key": "!items!V5zi10NozP1yse24",
+  "name": "Lightsaber Throw",
+  "type": "talent",
+  "system": {
+    "description": "You can throw a Lightsaber as a Standard Action, treating it as a Thrown weapon (without this Talent, a thrown Lightsaber is considered an Improvised Thrown Weapon). You are considered proficient with the thrown Lightsaber, and you apply the normal Range penalties to the attack roll. The thrown Lightsaber deals normal weapon damage if it hits.<br><br>After everything has resolved, you may use the Force to attempt to recover the thrown Lightsaber as a Free Action on your turn. If you fail, you may use Move Light Object to return it to your hand as a Standard Action.",
+    "tree": "Lightsaber Combat",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mVbv14eXepOH6nIM",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

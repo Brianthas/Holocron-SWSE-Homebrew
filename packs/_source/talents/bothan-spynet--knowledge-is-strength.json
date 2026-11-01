@@ -1,0 +1,31 @@
+{
+  "_id": "ru3Wy9Gnb8HLabi0",
+  "_key": "!items!ru3Wy9Gnb8HLabi0",
+  "name": "Knowledge is Strength",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can designate a single target within line of sight and make a Knowledge (Galactic Lore) check against a DC equal to 15 + the target's CL. If the check is successful, for the remainder of the encounter you gain a +2 morale bonus on attack rolls against that target.",
+    "tree": "Bothan SpyNet",
+    "prerequisite": {
+      "text": "SpyNet Agent talent",
+      "nodes": {
+        "text": "SpyNet Agent talent",
+        "requirement": "SpyNet Agent",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aMNwO0NgAxi9ql43",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

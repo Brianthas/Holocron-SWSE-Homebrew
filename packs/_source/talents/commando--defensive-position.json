@@ -1,0 +1,31 @@
+{
+  "_id": "cbqJeUJOlv85yIsr",
+  "_key": "!items!cbqJeUJOlv85yIsr",
+  "name": "Defensive Position",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you have the benefit of Cover, you can spend two Swift Actions to treat it as Improved Cover until the start of your next turn.",
+    "tree": "Commando",
+    "prerequisite": {
+      "text": "Battle Analysis talent",
+      "nodes": {
+        "text": "Battle Analysis talent",
+        "requirement": "Battle Analysis",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "osMrX53qAvVdAqBc",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

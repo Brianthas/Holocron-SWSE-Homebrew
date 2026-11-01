@@ -1,0 +1,27 @@
+{
+  "_id": "DklTfTXHB1KxURHD",
+  "_key": "!items!DklTfTXHB1KxURHD",
+  "name": "Consumed by Darkness",
+  "type": "talent",
+  "system": {
+    "description": "Sometimes your anger consumes you. As a Swift Action, you can take a -5 penalty to your Will Defense to gain a +2 Force bonus on attack rolls. The penalty and bonus last until the beginning of your next turn.",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZkTDcApb7jxaWrFN",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

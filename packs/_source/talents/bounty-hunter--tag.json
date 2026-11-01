@@ -1,0 +1,42 @@
+{
+  "_id": "l4FZg6VaIzvXfTUX",
+  "_key": "!items!l4FZg6VaIzvXfTUX",
+  "name": "Tag",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you damage an opponent whom you selected for your <b>Hunter's Target</b>, all allies gain a +2 bonus on their next attack roll against that opponent until the start of your next turn.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "Hunter's Mark talent, and Hunter's Target talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Hunter's Mark talent",
+            "requirement": "Hunter's Mark",
+            "type": "TALENT"
+          },
+          {
+            "text": "Hunter's Target talent",
+            "requirement": "Hunter's Target",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Hunter's Mark talent, and Hunter's Target talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "o2Xu3LcnCnSbeBss",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_id": "Jhz3lhEagfa9hGHM",
+  "_key": "!items!Jhz3lhEagfa9hGHM",
+  "name": "Blaster and Blade III",
+  "type": "talent",
+  "system": {
+    "description": "When you are wielding both an Advanced Melee Weapon and a Pistol, you can make a Full Attack as a Standard Action instead of a Full-Round Action, provided you attack with both weapons.",
+    "tree": "Privateer",
+    "prerequisite": {
+      "text": "Blaster and Blade I talent, Blaster and Blade II talent, Dual Weapon Mastery I feat, Weapon Proficiency (Advanced Melee), and Weapon Proficiency (Pistols)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Blaster and Blade I talent",
+            "requirement": "Blaster and Blade I",
+            "type": "TALENT"
+          },
+          {
+            "text": "Blaster and Blade II talent",
+            "requirement": "Blaster and Blade II",
+            "type": "TALENT"
+          },
+          {
+            "text": "Dual Weapon Mastery I feat",
+            "requirement": "Dual Weapon Mastery I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Proficiency (Advanced Melee)",
+            "requirement": "Weapon Proficiency (Advanced Melee)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Proficiency (Pistols)",
+            "requirement": "Weapon Proficiency (Pistols)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Blaster and Blade I talent, Blaster and Blade II talent, Dual Weapon Mastery I feat, Weapon Proficiency (Advanced Melee), and Weapon Proficiency (Pistols)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qS7DGlXFAQTgLcgW",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

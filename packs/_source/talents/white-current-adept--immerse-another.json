@@ -1,0 +1,31 @@
+{
+  "_id": "khSvcJVJv3viOsW0",
+  "_key": "!items!khSvcJVJv3viOsW0",
+  "name": "Immerse Another",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you make a Stealth check to Sneak, you can use your check result in place of one adjacent ally's Stealth check to Sneak (additionally, if you have the <b>Force Immersion</b> Talent, that Talent applies to the designated ally as well).<br><br>Similarly, you can use your Use the Force check result in the place of an adjacent ally's Use the Force check result to avoid detection by the Sense Force application of the skill. You can spend a Force Point to have this ability apply to all adjacent allies instead of just one.",
+    "tree": "White Current Adept",
+    "prerequisite": {
+      "text": "a member of The Fallanassi",
+      "nodes": {
+        "text": "a member of The Fallanassi",
+        "requirement": "The Fallanassi",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "10gQuKFDsdlA9Hsq",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

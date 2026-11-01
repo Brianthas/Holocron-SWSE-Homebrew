@@ -1,0 +1,31 @@
+{
+  "_id": "NinysmneJ7E7wfgI",
+  "_key": "!items!NinysmneJ7E7wfgI",
+  "name": "Sokan",
+  "type": "talent",
+  "system": {
+    "description": "You may Take 10 on Acrobatics checks to Tumble, even when distracted or threatened. Additionally, each threatened or occupied square that you Tumble through only counts as 1 square of movement.",
+    "tree": "Lightsaber Forms",
+    "prerequisite": {
+      "text": "Acrobatic Recovery talent",
+      "nodes": {
+        "text": "Acrobatic Recovery talent",
+        "requirement": "Acrobatic Recovery",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sDNo7GcjmTRd0qBx",
+      "sourceBook": ""
+    }
+  }
+}

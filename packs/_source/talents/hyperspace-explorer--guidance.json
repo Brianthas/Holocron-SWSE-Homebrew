@@ -1,0 +1,31 @@
+{
+  "_id": "rV1cHGJYYRWlmV8L",
+  "_key": "!items!rV1cHGJYYRWlmV8L",
+  "name": "Guidance",
+  "type": "talent",
+  "system": {
+    "description": "You know how to guide others through treacherous terrain. You may use a Swift Action to point out the path of least resistance to an ally within line of sight who can see, hear, and understand you. The ally ignores the effect of Difficult Terrain on its next turn. You cannot use this Talent on yourself.",
+    "tree": "Hyperspace Explorer",
+    "prerequisite": {
+      "text": "Trained in Perception",
+      "nodes": {
+        "text": "Trained in Perception",
+        "requirement": "Perception",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "H7Ytsriqi8W80S4m",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

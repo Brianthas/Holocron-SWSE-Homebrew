@@ -1,0 +1,27 @@
+{
+  "_id": "FLC4qRKfNCruc2PI",
+  "_key": "!items!FLC4qRKfNCruc2PI",
+  "name": "Attune Weapon",
+  "type": "talent",
+  "system": {
+    "description": "You may spend a Force Point to attune a melee weapon. Attuning the weapon takes a Full-Round Action. From that point forward, whenever you wield the attuned weapon, you gain a +1 Force bonus on attack rolls.<br><br>The weapon is attuned to you alone; others who wield the weapon do not gain the Force bonus.",
+    "tree": "Force Item",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "A4SgZya5xeXGz37f",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

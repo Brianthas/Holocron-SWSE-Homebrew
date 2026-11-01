@@ -1,0 +1,31 @@
+{
+  "_id": "uYQba0RAqkYBwyGa",
+  "_key": "!items!uYQba0RAqkYBwyGa",
+  "name": "Thunderclap",
+  "type": "talent",
+  "system": {
+    "description": "When you use a Force Power that deals damage, you can use the Bantha Rush feat against that target as though you had made a melee attack.",
+    "tree": "Shaper of Kro Var",
+    "prerequisite": {
+      "text": "a member of The Shapers of Kro Var",
+      "nodes": {
+        "text": "a member of The Shapers of Kro Var",
+        "requirement": "The Shapers of Kro Var",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yZQIT8QW7wssJREX",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

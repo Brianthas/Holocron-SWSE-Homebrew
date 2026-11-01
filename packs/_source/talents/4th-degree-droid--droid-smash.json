@@ -1,0 +1,27 @@
+{
+  "_id": "eqv2xAki4ZFOAcui",
+  "_key": "!items!eqv2xAki4ZFOAcui",
+  "name": "Droid Smash",
+  "type": "talent",
+  "system": {
+    "description": "You can use your mechanical strength when wielding a melee weapon. You add 2 x your Strength bonus to melee damage rolls when wielding a weapon in one hand.",
+    "tree": "4th-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "giGgGWhqrrg7JPCb",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

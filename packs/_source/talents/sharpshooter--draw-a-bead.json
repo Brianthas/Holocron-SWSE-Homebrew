@@ -1,0 +1,42 @@
+{
+  "_id": "dYKROlNfneVr98Za",
+  "_key": "!items!dYKROlNfneVr98Za",
+  "name": "Draw a Bead",
+  "type": "talent",
+  "system": {
+    "description": "Once per round, you can spend a single Swift Action to designate a single enemy who is not within Point-Blank Range. When you make a successful ranged attack roll that deals damage against the designated enemy, add your Dexterity bonus (minimum +1) to the damage roll.<br><br>This effect lasts until the target is unconscious, dead, or leaves your line of sight. You can have only one enemy designated in this manner.",
+    "tree": "Sharpshooter",
+    "prerequisite": {
+      "text": "Precision Shot talent, and Base Attack Bonus 10",
+      "nodes": {
+        "children": [
+          {
+            "text": "Precision Shot talent",
+            "requirement": "Precision Shot",
+            "type": "TALENT"
+          },
+          {
+            "text": "Base Attack Bonus 10",
+            "requirement": "10",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Precision Shot talent, and Base Attack Bonus 10",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HuMaX7jlmaHOxU3o",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

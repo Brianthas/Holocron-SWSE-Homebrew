@@ -1,0 +1,31 @@
+{
+  "_id": "Jc2yxywMioxo3hQe",
+  "_key": "!items!Jc2yxywMioxo3hQe",
+  "name": "Armor Mastery",
+  "type": "talent",
+  "system": {
+    "description": "The maximum Dexterity bonus of your Armor improves by +1. You must be proficient with the Armor you are wearing to gain this benefit.",
+    "tree": "Armor Specialist",
+    "prerequisite": {
+      "text": "Armored Defense talent",
+      "nodes": {
+        "text": "Armored Defense talent",
+        "requirement": "Armored Defense",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CsBJgYbQOwk58mNz",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

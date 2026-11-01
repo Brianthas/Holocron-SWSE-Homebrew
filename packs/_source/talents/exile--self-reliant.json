@@ -1,0 +1,31 @@
+{
+  "_id": "vdB17Ue1ZYfjizsc",
+  "_key": "!items!vdB17Ue1ZYfjizsc",
+  "name": "Self-Reliant",
+  "type": "talent",
+  "system": {
+    "description": "You need not rely on others when the going gets tough. Once per encounter, you can use one Talent that you possess from the Inspiration Talent Tree on yourself, despite not normally being able to do so.",
+    "tree": "Exile",
+    "prerequisite": {
+      "text": "Talent from the Inspiration Talent Tree",
+      "nodes": {
+        "text": "Talent from the Inspiration Talent Tree",
+        "requirement": "Inspiration Talent Tree",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "V2sEQKrqoJVGD20v",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

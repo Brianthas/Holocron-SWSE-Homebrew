@@ -1,0 +1,31 @@
+{
+  "_id": "egs18FSMDL7pPW60",
+  "_key": "!items!egs18FSMDL7pPW60",
+  "name": "Target Lock",
+  "type": "talent",
+  "system": {
+    "description": "You lock onto the target designated by the <b>Target Acquisition</b> Talent. If the target leaves your line of sight, you automatically reacquire the <b>Target Lock</b> as a Reaction if the target comes back within your line of sight. You also gain a +5 bonus to your Perception skill when opposing the target's Stealth checks.",
+    "tree": "4th-Degree Droid",
+    "prerequisite": {
+      "text": "Target Acquisition talent",
+      "nodes": {
+        "text": "Target Acquisition talent",
+        "requirement": "Target Acquisition",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HHowEDyuxvc9IUjm",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

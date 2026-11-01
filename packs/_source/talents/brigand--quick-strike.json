@@ -1,0 +1,31 @@
+{
+  "_id": "HIPccR0hEXKN1shY",
+  "_key": "!items!HIPccR0hEXKN1shY",
+  "name": "Quick Strike",
+  "type": "talent",
+  "system": {
+    "description": "During the initial round of combat, if you successfully damage an enemy who has not yet acted in the combat, you can make an immediate attack as a Free Action against a different target within 6 squares of the first target.",
+    "tree": "Brigand",
+    "prerequisite": {
+      "text": "Cheap Trick talent",
+      "nodes": {
+        "text": "Cheap Trick talent",
+        "requirement": "Cheap Trick",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Z6TheUYi4Jv89Gze",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

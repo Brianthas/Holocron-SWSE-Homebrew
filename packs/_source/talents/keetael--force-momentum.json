@@ -1,0 +1,31 @@
+{
+  "_id": "MBjm1Jg5CEVPBtzr",
+  "_key": "!items!MBjm1Jg5CEVPBtzr",
+  "name": "Force Momentum",
+  "type": "talent",
+  "system": {
+    "description": "You use The Force to add to the impact of your melee weapon, increasing your damage. Whenever you spend a Force Point to add to a melee attack roll, if the attack hits you can also add the Force Point's result to the damage roll.",
+    "tree": "Keetael",
+    "prerequisite": {
+      "text": "a member of The Keetael",
+      "nodes": {
+        "text": "a member of The Keetael",
+        "requirement": "The Keetael",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Hh6yLnavOjfoIHSz",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

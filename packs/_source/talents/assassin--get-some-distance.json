@@ -1,0 +1,42 @@
+{
+  "_id": "g8pKKg5HVN5u1Zjo",
+  "_key": "!items!g8pKKg5HVN5u1Zjo",
+  "name": "Get Some Distance",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Standard Action you can make a melee attack against a target and then move up to your speed away from that target. This movement does not provoke an Attack of Opportunity.",
+    "tree": "Assassin",
+    "prerequisite": {
+      "text": "Advantageous Positioning talent, and Shift talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Advantageous Positioning talent",
+            "requirement": "Advantageous Positioning",
+            "type": "TALENT"
+          },
+          {
+            "text": "Shift talent",
+            "requirement": "Shift",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Advantageous Positioning talent, and Shift talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "b5o2c994zQkl6dFm",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

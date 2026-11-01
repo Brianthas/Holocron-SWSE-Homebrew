@@ -1,0 +1,42 @@
+{
+  "_id": "OxqduxHBZkdCq6Fi",
+  "_key": "!items!OxqduxHBZkdCq6Fi",
+  "name": "Move Massive Object",
+  "type": "talent",
+  "system": {
+    "description": "<i>See also: Move Object Reality Check</i><br><br>When you successfully use the <i>Move Object</i> Force Power to move an object of Large size or bigger, you can make an Area Attack with the object instead of throwing it at or dropping it on a single target, as normal for the Force Power. You must spend a Force Point when you activate the Force Power to do this, and the area you target is based on the size of the object: Large, 2x2; Huge, 3x3; Gargantuan, 4x4; Colossal and larger, 6x6.<br><br>When you use <i>Move Object</i> to make an Area Attack with the object you are moving, you compare your Use the Force check to the Reflex Defense of each creature, Droid, and Vehicle in the target area. If your check equals or exceeds the target's Reflex Defense, it takes damage from the object (as determined by the <i>Move Object</i> Force Power). Otherwise, the target takes half damage. This is an Area Effect.",
+    "tree": "Alter",
+    "prerequisite": {
+      "text": "Telekinetic Power talent, and Move Object force power",
+      "nodes": {
+        "children": [
+          {
+            "text": "Telekinetic Power talent",
+            "requirement": "Telekinetic Power",
+            "type": "TALENT"
+          },
+          {
+            "text": "Move Object force power",
+            "requirement": "Move Object",
+            "type": "FORCE POWER"
+          }
+        ],
+        "text": "Telekinetic Power talent, and Move Object force power",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DS4slb5uzhkH3Vg6",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

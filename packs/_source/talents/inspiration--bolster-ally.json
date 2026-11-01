@@ -1,0 +1,27 @@
+{
+  "_id": "hURBJs79gNf7nwQ8",
+  "_key": "!items!hURBJs79gNf7nwQ8",
+  "name": "Bolster Ally",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can bolster an ally within line of sight, moving them +1 step along the Condition Track, and giving them a number of Bonus Hit Points equal to their Character Level, if they're at one-half their maximum Hit Points or less. Damage is subtracted from the Bonus Hit Points first, and any Bonus Hit Points remaining at the end of the encounter go away.<br><br>You can't <b>Bolster</b> the same ally more than once in a single encounter, and you can't <b>Bolster</b> yourself.",
+    "tree": "Inspiration",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gX9R7sWuuDxshgNO",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

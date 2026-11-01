@@ -1,0 +1,31 @@
+{
+  "_id": "h57YRIGNIn619Cqr",
+  "_key": "!items!h57YRIGNIn619Cqr",
+  "name": "Akk Dog Master",
+  "type": "talent",
+  "system": {
+    "description": "You gain an Akk Dog Follower. Choose either the Aggressive Follower Template, the Defensive Follower Template, or the Utility Follower Template, and generate the Akk Dog Follower's statistics using the Akk Dog Follower Template.<br><br>The Akk Dog Follower automatically gains the Power Attack feat as a bonus Feat. Additionally, any Force Power you activate that targets you can target your Akk Dog Follower instead, at your discretion. An Akk Dog counts toward the total number of Followers you have, just like Followers gained from other Talents.",
+    "tree": "Korunnai Adept",
+    "prerequisite": {
+      "text": "a member of The Korunnai",
+      "nodes": {
+        "text": "a member of The Korunnai",
+        "requirement": "The Korunnai",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dO8QtmrfSMYiM4eE",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

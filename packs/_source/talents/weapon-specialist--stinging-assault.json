@@ -1,0 +1,43 @@
+{
+  "_id": "URgAgHfPfxeOONYb",
+  "_key": "!items!URgAgHfPfxeOONYb",
+  "name": "Stinging Assault",
+  "type": "talent",
+  "system": {
+    "description": "You can deliver nasty injuries that leave your opponents reeling. Whenever you successfully damage an opponent using a Slashing weapon that you have the <b>Weapon Specialization</b> Talent for, your opponent takes a -2 penalty on melee attacks against you until the start of your next turn. The effects of multiple <b>Stinging Assaults</b> do not stack.",
+    "tree": "Weapon Specialist",
+    "prerequisite": {
+      "text": "Weapon Specialization (any weapon)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Weapon Specialization (any weapon) talent",
+            "requirement": "Weapon Specialization (Any)",
+            "type": "TALENT"
+          },
+          {
+            "text": "Weapon Specialization (any weapon) feat",
+            "requirement": "Weapon Specialization (Any)",
+            "type": "FEAT"
+          }
+        ],
+        "count": 1,
+        "text": "Weapon Specialization (any weapon)",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "djFNfDMRB162bdAT",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

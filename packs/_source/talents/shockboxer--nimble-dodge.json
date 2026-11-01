@@ -1,0 +1,27 @@
+{
+  "_id": "dyYdDmIP9W6lHXJ0",
+  "_key": "!items!dyYdDmIP9W6lHXJ0",
+  "name": "Nimble Dodge",
+  "type": "talent",
+  "system": {
+    "description": "If an enemy misses you with a melee attack, as a Reaction you can move up to 2 squares, but you must end your movement adjacent to your attacker.",
+    "tree": "Shockboxer",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GJuNV7aDaSO2pTOF",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "a6pRv3rpnOTginZB",
+  "_key": "!items!a6pRv3rpnOTginZB",
+  "name": "Burst Transfer",
+  "type": "talent",
+  "system": {
+    "description": "You can double the amount of data transferred with the Binary language in a single round when communicating with other Droids with <b>Burst Transfer</b>, and you can Access Information in half the time when making Use Computer checks to find general or specific information.",
+    "tree": "2nd-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "o4jTBDJ5KDr0d6iF",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

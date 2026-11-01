@@ -1,0 +1,31 @@
+{
+  "_id": "idyaEQ6yKGg2Kd6l",
+  "_key": "!items!idyaEQ6yKGg2Kd6l",
+  "name": "Improved Skirmisher",
+  "type": "talent",
+  "system": {
+    "description": "When you move at least 2 squares before your attack and end your move in a different square from where you started, you gain a +1 bonus to all your Defenses until the start of your next turn.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "Skirmisher talent",
+      "nodes": {
+        "text": "Skirmisher talent",
+        "requirement": "Skirmisher",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9zFv2BYIFEUQHbdw",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

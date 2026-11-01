@@ -1,0 +1,27 @@
+{
+  "_id": "tVvAbf125gzHn5ZF",
+  "_key": "!items!tVvAbf125gzHn5ZF",
+  "name": "Indomitable Will",
+  "type": "talent",
+  "system": {
+    "description": "You can spend a Force Point as a Standard Action to become immune to all Mind-Affecting effects for 1 minute.",
+    "tree": "Control",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kTk17k865IYS8VAR",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

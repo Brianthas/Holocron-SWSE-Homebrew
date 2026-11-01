@@ -1,0 +1,31 @@
+{
+  "_id": "SfyrK5m7jLddlSPH",
+  "_key": "!items!SfyrK5m7jLddlSPH",
+  "name": "Walk the Line",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can do or say something that catches your enemies off guard. All opponents within 6 squares of you, and within your line of sight take a -2 penalty to their Defenses until the start of your next turn. The penalty is negated if line of sight is broken.<br><br>This Talent has a range of 6 squares at Starship Scale.",
+    "tree": "Misfortune",
+    "prerequisite": {
+      "text": "Disruptive talent",
+      "nodes": {
+        "text": "Disruptive talent",
+        "requirement": "Disruptive",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jfR0PCqucMgP5BNx",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

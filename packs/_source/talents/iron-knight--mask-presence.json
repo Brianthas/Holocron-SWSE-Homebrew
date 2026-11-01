@@ -1,0 +1,31 @@
+{
+  "_id": "lk0O2YiheRU4zsaa",
+  "_key": "!items!lk0O2YiheRU4zsaa",
+  "name": "Mask Presence",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you become immune to the Sense Force application of the Use the Force skill, and appear to be nothing more than a regular Droid in The Force. If you make a Use the Force check or use any Force Power or Force Talent, this effect immediately ends.",
+    "tree": "Iron Knight",
+    "prerequisite": {
+      "text": "a member of The Iron Knights",
+      "nodes": {
+        "text": "a member of The Iron Knights",
+        "requirement": "The Iron Knights",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3MWK5gdVrdha3wnx",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

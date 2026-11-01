@@ -1,0 +1,27 @@
+{
+  "_id": "hFsPXAKGusjvp1Ke",
+  "_key": "!items!hFsPXAKGusjvp1Ke",
+  "name": "Retreating Fire",
+  "type": "talent",
+  "system": {
+    "description": "When moving away from a pursuing target, if you either Run or use two Move Actions during this turn, you can make a single ranged attack with a -5 penalty as part of your Move Action.<br><br>You can spend a Force Point to avoid the penalty.",
+    "tree": "Gunslinger",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2F8uSJ1G3QS1eOY5",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

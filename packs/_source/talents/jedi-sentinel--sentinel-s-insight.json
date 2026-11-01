@@ -1,0 +1,31 @@
+{
+  "_id": "OlUcJerzURHDT0U7",
+  "_key": "!items!OlUcJerzURHDT0U7",
+  "name": "Sentinel's Insight",
+  "type": "talent",
+  "system": {
+    "description": "You may reroll Perception checks made to Avoid Surprise or Search, keeping the better of the two results.",
+    "tree": "Jedi Sentinel",
+    "prerequisite": {
+      "text": "Trained in Perception",
+      "nodes": {
+        "text": "Trained in Perception",
+        "requirement": "Perception",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HQ5a7Vsoo9GjU5Ys",
+      "sourceBook": "Legacy of the Force Sourcebook"
+    }
+  }
+}

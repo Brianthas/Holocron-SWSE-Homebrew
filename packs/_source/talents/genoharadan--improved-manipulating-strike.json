@@ -1,0 +1,31 @@
+{
+  "_id": "vYBcJ4KUkPtkUX3f",
+  "_key": "!items!vYBcJ4KUkPtkUX3f",
+  "name": "Improved Manipulating Strike",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you successfully use the <b>Manipulating Strike</b> Talent, you determine what the target does with its Move Action on its next turn. You cannot move an opponent into a Hazard (such as into lava or off a cliff).",
+    "tree": "GenoHaradan",
+    "prerequisite": {
+      "text": "Manipulating Strike talent",
+      "nodes": {
+        "text": "Manipulating Strike talent",
+        "requirement": "Manipulating Strike",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wtR3WqOk3AYDPVCa",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

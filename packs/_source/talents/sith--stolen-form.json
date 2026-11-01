@@ -1,0 +1,42 @@
+{
+  "_id": "wRviceCd2TvUQSBc",
+  "_key": "!items!wRviceCd2TvUQSBc",
+  "name": "Stolen Form",
+  "type": "talent",
+  "system": {
+    "description": "You have learned how to use a Jedi fighting technique to defeat Jedi in combat. Choose one Talent from the Lightsaber Forms Talent Tree; you gain the benefits of this Talent and are considered to have this Talent for the purpose of satisfying prerequisites. You must meet all the prerequisites as normal for the chosen Talent, in addition to the prerequisites of this Talent.<br><br>You can select this Talent multiple times. Each time you select it, choose a different Talent from the Lightsaber Forms Talent Tree.",
+    "tree": "Sith",
+    "prerequisite": {
+      "text": "At least one Force Technique, and Weapon Focus (Lightsabers)",
+      "nodes": {
+        "children": [
+          {
+            "text": "At least one Force Technique",
+            "requirement": "1",
+            "type": "FORCE TECHNIQUE"
+          },
+          {
+            "text": "Weapon Focus (Lightsabers)",
+            "requirement": "Weapon Focus (Lightsabers)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "At least one Force Technique, and Weapon Focus (Lightsabers)",
+        "type": "AND"
+      }
+    },
+    "repeatable": true,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7WonAbkdBOYcFqgq",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

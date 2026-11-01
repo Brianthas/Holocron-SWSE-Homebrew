@@ -1,0 +1,27 @@
+{
+  "_id": "necr0p72lkFnmK7M",
+  "_key": "!items!necr0p72lkFnmK7M",
+  "name": "Blaster Turret I",
+  "type": "talent",
+  "system": {
+    "description": "<p>Once per encounter, as a Standard Action you can create a Blaster Turret that can be mounted to any flat surface: Size Tiny, Initiative +4, Perception +4, Reflex Defense 14 + INT, HP is 10 + LVL, attack equal to BAB + INT, and dealing 3d6 + INT damage. The Turret fires as a standard Blaster Pistol once per round.</p><p>The Turret fires at any target you designate (a Free Action, once per round on your turn), though you must remain adjacent to the Turret to control it. The Turret is expended at the end of the encounter.</p><p>Choose Energy, Ion or Stun for the Turret's damage when you first gain a talent in this tree. You may change it each time you take another talent in the tree. Because the Turret is miniature and temporary, it cannot be modified or altered except by taking more talents in the tree.</p>",
+    "tree": "Turret",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MsgHSGh6PtI9eydV",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

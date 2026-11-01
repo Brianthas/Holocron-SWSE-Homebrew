@@ -1,0 +1,27 @@
+{
+  "_id": "SeqQaYe37afoCE2i",
+  "_key": "!items!SeqQaYe37afoCE2i",
+  "name": "Jet Pack Training",
+  "type": "talent",
+  "system": {
+    "description": "You can activate a Jet Pack as a Free Action on your turn. You need not make Pilot checks to land safely with a Jet Pack.",
+    "tree": "Rocket Jumper",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8oYTjGRPb3juMUR5",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

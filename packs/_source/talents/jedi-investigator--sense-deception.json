@@ -1,0 +1,27 @@
+{
+  "_id": "nDSfT8SrhIDdahuP",
+  "_key": "!items!nDSfT8SrhIDdahuP",
+  "name": "Sense Deception",
+  "type": "talent",
+  "system": {
+    "description": "Whenever someone makes a Deception or Persuasion Skill Check against your Will Defense, you can make a Use the Force check, replacing your Will Defense with the result of your Use the Force check if it is higher.",
+    "tree": "Jedi Investigator",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hvAa35McIDxCnGfq",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

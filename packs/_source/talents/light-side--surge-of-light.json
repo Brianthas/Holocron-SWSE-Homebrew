@@ -1,0 +1,27 @@
+{
+  "_id": "EsihXQerHgQXmLYc",
+  "_key": "!items!EsihXQerHgQXmLYc",
+  "name": "Surge of Light",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Swift Action, you can return any Force Power with the [<i>Light Side</i>] descriptor to your Force Power Suite without spending a Force Point. You can select this Talent multiple times. Each time you select it, you can use this Talent one additional time per encounter.",
+    "tree": "Light Side",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TSJj6rvZllKBAvnh",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

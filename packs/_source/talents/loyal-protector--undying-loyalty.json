@@ -1,0 +1,31 @@
+{
+  "_id": "y5RhUWKdo8dznlcJ",
+  "_key": "!items!y5RhUWKdo8dznlcJ",
+  "name": "Undying Loyalty",
+  "type": "talent",
+  "system": {
+    "description": "Each of your Followers gains the Toughness Feat.",
+    "tree": "Loyal Protector",
+    "prerequisite": {
+      "text": "Inspire Loyalty talent",
+      "nodes": {
+        "text": "Inspire Loyalty talent",
+        "requirement": "Inspire Loyalty",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HNZgm0k16EXEUKtj",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

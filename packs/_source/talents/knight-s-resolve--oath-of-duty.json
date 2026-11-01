@@ -1,0 +1,27 @@
+{
+  "_id": "Dfo3F1mcVFgb9Ikq",
+  "_key": "!items!Dfo3F1mcVFgb9Ikq",
+  "name": "Oath of Duty",
+  "type": "talent",
+  "system": {
+    "description": "When an ally within 12 squares of you and within your line of sight hits with a Lightsaber attack, you gain bonus Hit Points equal to 3 x your Class Level until the end of your next turn. Damage is subtracted from the bonus Hit Points first, and any bonus Hit Points remaining at the end of the encounter go away. Bonus Hit Points from different sources do not stack.",
+    "tree": "Knight's Resolve",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OzXeTekDGB4AMFhl",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

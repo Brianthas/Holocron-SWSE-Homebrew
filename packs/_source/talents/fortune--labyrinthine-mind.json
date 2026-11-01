@@ -1,0 +1,27 @@
+{
+  "_id": "TXWJcSieutE8dbLY",
+  "_key": "!items!TXWJcSieutE8dbLY",
+  "name": "Labyrinthine Mind",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, as a Reaction, you become immune to all Mind-Affecting effects until the end of your next turn (you can choose to ignore this for beneficial effects).<br><br>Any Mind-Affecting effects currently afflicting you are also removed, though you can choose to retain any beneficial effects you currently have.",
+    "tree": "Fortune",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "EzivugPnjj5wX3R9",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "NddU0znhmPGEjCTw",
+  "_key": "!items!NddU0znhmPGEjCTw",
+  "name": "Crash and Burn",
+  "type": "talent",
+  "system": {
+    "description": "When attempting to damage or disrupt a computer system, you may make a DC 20 Use Computer check. If successful, the computer moves -5 steps on the Condition Track and becomes disabled. If working remotely from another terminal or device, the DC increases to 30.",
+    "tree": "Slicer",
+    "prerequisite": {
+      "text": "Gimmick talent",
+      "nodes": {
+        "text": "Gimmick talent",
+        "requirement": "Gimmick",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NT1JPF4mVQ2pYrpI",
+      "sourceBook": "New Republic Campaign Guide"
+    }
+  }
+}

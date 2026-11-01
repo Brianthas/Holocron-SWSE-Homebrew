@@ -1,0 +1,27 @@
+{
+  "_id": "sQvNVGTjyze7SMJ7",
+  "_key": "!items!sQvNVGTjyze7SMJ7",
+  "name": "Recall",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you spend a Force Point to return a Force Power to your Force Power Suite, you regain two Force Powers instead of one.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "irIqrQ4DBBDdOZo5",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "AafzX2fqCiIXFPHD",
+  "_key": "!items!AafzX2fqCiIXFPHD",
+  "name": "Simultaneous Strike",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can make two Unarmed attacks, each against different targets.",
+    "tree": "Warden of the Sky",
+    "prerequisite": {
+      "text": "a member of The Wardens of the Sky",
+      "nodes": {
+        "text": "a member of The Wardens of the Sky",
+        "requirement": "The Wardens of the Sky",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "x1v4ELCTRBRmWDPV",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

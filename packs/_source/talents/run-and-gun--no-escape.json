@@ -1,0 +1,31 @@
+{
+  "_id": "2nXD2o0z0lnCSw41",
+  "_key": "!items!2nXD2o0z0lnCSw41",
+  "name": "No Escape",
+  "type": "talent",
+  "system": {
+    "description": "Whenever an opponent uses the Withdraw Action to leave your Threatened Area, that opponent is considered Flat-Footed against you until the end of your next turn.",
+    "tree": "Run and Gun",
+    "prerequisite": {
+      "text": "Opportunistic Strike talent",
+      "nodes": {
+        "text": "Opportunistic Strike talent",
+        "requirement": "Opportunistic Strike",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4PYL1VarWS2rXji9",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

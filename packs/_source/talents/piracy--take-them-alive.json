@@ -1,0 +1,27 @@
+{
+  "_id": "naVqdP3frRbxdMd6",
+  "_key": "!items!naVqdP3frRbxdMd6",
+  "name": "Take Them Alive",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you or any of your allies within 6 squares of you reduces a target to 0 Hit Points, you can choose to treat that opponent as though they had been reduced to 0 Hit Points by Stun damage (and thus, remain stable).",
+    "tree": "Piracy",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Wk7obwQrhkC7Qp0H",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

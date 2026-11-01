@@ -1,0 +1,27 @@
+{
+  "_id": "cRYgFl12j7pPmWdY",
+  "_key": "!items!cRYgFl12j7pPmWdY",
+  "name": "Wealth",
+  "type": "talent",
+  "system": {
+    "description": "Each time you gain a level (including the level at which you select this Talent), you receive an amount of credits equal to 5,000 x your Class Level. You can spend these credits as you see fit.<br><br>The credits appear in a civilized, accessible location of your choice or in your private bank account.",
+    "tree": "Lineage",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1IhMHg4wbRPI8lhR",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

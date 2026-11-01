@@ -1,0 +1,27 @@
+{
+  "_id": "Ygeni4GvqOz1CFA6",
+  "_key": "!items!Ygeni4GvqOz1CFA6",
+  "name": "Psychic Citadel",
+  "type": "talent",
+  "system": {
+    "description": "You gain a Force bonus to your Will Defense equal to your Class Level.",
+    "tree": "Telepath",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9T6iy6rC5jy7jZL3",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

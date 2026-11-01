@@ -1,0 +1,27 @@
+{
+  "_id": "xryYuOwEXKTDHYM3",
+  "_key": "!items!xryYuOwEXKTDHYM3",
+  "name": "Combat Repairs",
+  "type": "talent",
+  "system": {
+    "description": "Once per day, as a Full-Round Action, you can use the Mechanics Skill to repair yourself (using the Repair Droid application of the Skill), as opposed to the normal 1 hour.",
+    "tree": "4th-Degree Droid",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2ZQnWfQkQ8grwRd7",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

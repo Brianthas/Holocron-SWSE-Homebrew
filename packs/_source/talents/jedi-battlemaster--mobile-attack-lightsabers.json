@@ -1,0 +1,47 @@
+{
+  "_id": "o9kvViJuyY7sGgsX",
+  "_key": "!items!o9kvViJuyY7sGgsX",
+  "name": "Mobile Attack (Lightsabers)",
+  "type": "talent",
+  "system": {
+    "description": "Immediately after making a Full Attack where you attacked with two Lightsabers (or both ends of a Double-Bladed Lightsaber), you may Move up to your Speed as a Free Action.",
+    "tree": "Jedi Battlemaster",
+    "prerequisite": {
+      "text": "Multiattack Proficiency (Lightsabers) talent, Dual Weapon Mastery I feat, and Weapon Focus (Lightsabers)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Multiattack Proficiency (Lightsabers) talent",
+            "requirement": "Multiattack Proficiency (Lightsabers)",
+            "type": "TALENT"
+          },
+          {
+            "text": "Dual Weapon Mastery I feat",
+            "requirement": "Dual Weapon Mastery I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Focus (Lightsabers)",
+            "requirement": "Weapon Focus (Lightsabers)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Multiattack Proficiency (Lightsabers) talent, Dual Weapon Mastery I feat, and Weapon Focus (Lightsabers)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "K11wk6rnkOdUMPTm",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

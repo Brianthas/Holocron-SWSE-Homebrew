@@ -1,0 +1,31 @@
+{
+  "_id": "9qfrgQ905EyQ2TbV",
+  "_key": "!items!9qfrgQ905EyQ2TbV",
+  "name": "Turret Self-Destruct",
+  "type": "talent",
+  "system": {
+    "description": "Your Turret self-destructs automatically when it reaches 0 Hit Points. It explodes in a 2-Square radius, dealing its normal damage. If you are adjacent to the Turret, you can disable this feature as a Reaction.",
+    "tree": "Turret",
+    "prerequisite": {
+      "text": "Blaster Turret I talent",
+      "nodes": {
+        "text": "Blaster Turret I talent",
+        "requirement": "Blaster Turret I",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LN5asECUQuyBmdpf",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

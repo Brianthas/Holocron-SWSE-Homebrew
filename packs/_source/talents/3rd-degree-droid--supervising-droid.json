@@ -1,0 +1,59 @@
+{
+  "_id": "c2k7cdnbt5rns8VG",
+  "_key": "!items!c2k7cdnbt5rns8VG",
+  "name": "Supervising Droid",
+  "type": "talent",
+  "system": {
+    "description": "You are programmed to oversee other Droids. You can use each of the following actions once per encounter:",
+    "tree": "3rd-Degree Droid",
+    "prerequisite": {
+      "text": "Observant talent, and (Any Talent from the Influence Talent Tree, Inspiration Talent Tree, or Leadership Talent Tree)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Observant talent",
+            "requirement": "Observant",
+            "type": "TALENT"
+          },
+          {
+            "children": [
+              {
+                "text": "Talent from the Influence Talent Tree",
+                "requirement": "Influence Talent Tree",
+                "type": "TALENT"
+              },
+              {
+                "text": "Talent from the Inspiration Talent Tree",
+                "requirement": "Inspiration Talent Tree",
+                "type": "TALENT"
+              },
+              {
+                "text": "Talent from the Leadership Talent Tree",
+                "requirement": "Leadership Talent Tree",
+                "type": "TALENT"
+              }
+            ],
+            "count": 1,
+            "text": "Any Talent from the Influence Talent Tree, Inspiration Talent Tree, or Leadership Talent Tree",
+            "type": "OR"
+          }
+        ],
+        "text": "Observant talent, and (Any Talent from the Influence Talent Tree, Inspiration Talent Tree, or Leadership Talent Tree)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "APDA40ykoiASylfM",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

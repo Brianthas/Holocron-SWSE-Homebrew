@@ -1,0 +1,27 @@
+{
+  "_id": "yHMVE7A6HvmXDPsM",
+  "_key": "!items!yHMVE7A6HvmXDPsM",
+  "name": "Dark Side Savant",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter as a Swift Action, you can return one Force Power with the [<i>Dark Side</i>] descriptor to your Force Power Suite without spending a Force Point. You can select this Talent multiple times. Each time you select it, you can use it one additional time per encounter.",
+    "tree": "Dark Side",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iAXQJloBok8eXePm",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

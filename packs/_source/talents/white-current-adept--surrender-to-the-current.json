@@ -1,0 +1,31 @@
+{
+  "_id": "a6a6UqopcPQVpihA",
+  "_key": "!items!a6a6UqopcPQVpihA",
+  "name": "Surrender to the Current",
+  "type": "talent",
+  "system": {
+    "description": "As a Swift Action, you can choose to surrender to the White Current and allow it to flow around you and fuel your Force Powers. Until the end of the encounter, you cannot use Force Powers that do not have \"You\" as the sole target.<br><br>However, once per turn as a Swift Action, you can recover one spent Force Power that has \"You\" as the sole target without spending a Force Point, adding that Force Power back to your Force Power Suite.",
+    "tree": "White Current Adept",
+    "prerequisite": {
+      "text": "a member of The Fallanassi",
+      "nodes": {
+        "text": "a member of The Fallanassi",
+        "requirement": "The Fallanassi",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZNcYRWpj1p45uNny",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "tijK7v9eON0qmScS",
+  "_key": "!items!tijK7v9eON0qmScS",
+  "name": "Transfer Power",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can spend any one use of a Force Power currently in your Force Power Suite, adding a use of that Force Power to the Force Power Suite of any ally Trained in the Use the Force skill. The ally must be within 12 squares of you and in your line of sight.<br><br>When your ally uses that Force Power, it disappears from his or her Force Power Suite. If the ally does not use the Force Power before the end of the encounter, it is permanently removed from his or her Force Power Suite.",
+    "tree": "Jedi Instructor",
+    "prerequisite": {
+      "text": "Force Training feat",
+      "nodes": {
+        "text": "Force Training feat",
+        "requirement": "Force Training",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "416AzzFJ3DkFVi3u",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

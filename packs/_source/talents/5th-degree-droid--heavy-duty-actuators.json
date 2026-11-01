@@ -1,0 +1,73 @@
+{
+  "_id": "x1fopANJnfYc4eBn",
+  "_key": "!items!x1fopANJnfYc4eBn",
+  "name": "Heavy-Duty Actuators",
+  "type": "talent",
+  "system": {
+    "description": "Your <b>Heavy-Duty Actuators</b> allow you to release your power and speed in a quick burst. You can double your Strength bonus to your melee and Unarmed damage rolls.",
+    "tree": "5th-Degree Droid",
+    "prerequisite": {
+      "text": "Medium or larger size",
+      "nodes": {
+        "children": [
+          {
+            "text": "Medium or larger size",
+            "requirement": "Medium",
+            "type": "TRAIT"
+          },
+          {
+            "text": "Medium or larger size",
+            "requirement": "Large",
+            "type": "TRAIT"
+          },
+          {
+            "text": "Medium or larger size",
+            "requirement": "Huge",
+            "type": "TRAIT"
+          },
+          {
+            "text": "Medium or larger size",
+            "requirement": "Gargantuan",
+            "type": "TRAIT"
+          },
+          {
+            "text": "Medium or larger size",
+            "requirement": "Colossal",
+            "type": "TRAIT"
+          },
+          {
+            "text": "Medium or larger size",
+            "requirement": "Colossal (Frigate)",
+            "type": "TRAIT"
+          },
+          {
+            "text": "Medium or larger size",
+            "requirement": "Colossal (Cruiser)",
+            "type": "TRAIT"
+          },
+          {
+            "text": "Medium or larger size",
+            "requirement": "Colossal (Station)",
+            "type": "TRAIT"
+          }
+        ],
+        "count": 1,
+        "text": "Medium or larger size",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DiwRNUaiw4yS2khZ",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

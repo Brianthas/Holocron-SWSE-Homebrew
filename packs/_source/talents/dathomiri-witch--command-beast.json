@@ -1,0 +1,31 @@
+{
+  "_id": "1HNomKckeBGkuuz8",
+  "_key": "!items!1HNomKckeBGkuuz8",
+  "name": "Command Beast",
+  "type": "talent",
+  "system": {
+    "description": "Whenever you manage to shift the Attitude of a Beast to Indifferent or Friendly, you may treat that creature as a domesticated animal- but for you only (it remains undomesticated in its response to other creatures).<br><br>Additionally, you may use this Beast as a Mount, as per the Ride skill, provided that it is at least one size category larger than you and has a comfortable place for you to sit.",
+    "tree": "Dathomiri Witch",
+    "prerequisite": {
+      "text": "a member of The Witches of Dathomir",
+      "nodes": {
+        "text": "a member of The Witches of Dathomir",
+        "requirement": "The Witches of Dathomir",
+        "type": "TRADITION"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "onSrMRBO4xsuhr73",
+      "sourceBook": ""
+    }
+  }
+}

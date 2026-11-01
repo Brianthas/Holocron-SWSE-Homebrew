@@ -1,0 +1,43 @@
+{
+  "_id": "eDio9jBLoaspb7ir",
+  "_key": "!items!eDio9jBLoaspb7ir",
+  "name": "Crushing Assault",
+  "type": "talent",
+  "system": {
+    "description": "You use your attacks to beat down your opponents' defenses. When you successfully damage an opponent using a Bludgeoning weapon that you have the <b>Weapon Specialization</b> Talent for, your next attack against that opponent made before the end of the encounter gains a +2 bonus on the attack roll and to the damage roll. The effects of multiple <b>Crushing Assaults</b> do not stack.",
+    "tree": "Weapon Specialist",
+    "prerequisite": {
+      "text": "Weapon Specialization (any weapon)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Weapon Specialization (any weapon) talent",
+            "requirement": "Weapon Specialization (Any)",
+            "type": "TALENT"
+          },
+          {
+            "text": "Weapon Specialization (any weapon) feat",
+            "requirement": "Weapon Specialization (Any)",
+            "type": "FEAT"
+          }
+        ],
+        "count": 1,
+        "text": "Weapon Specialization (any weapon)",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iBWuXe1C6CYcHFas",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

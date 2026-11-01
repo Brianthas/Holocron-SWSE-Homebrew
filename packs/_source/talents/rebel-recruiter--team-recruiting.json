@@ -1,0 +1,31 @@
+{
+  "_id": "2wMlWNYSGMBOpOKT",
+  "_key": "!items!2wMlWNYSGMBOpOKT",
+  "name": "Team Recruiting",
+  "type": "talent",
+  "system": {
+    "description": "You can use your <b>Recruit Enemy</b> Talent whenever you or an ally would deal enough damage to kill a target, instead of only when you do.",
+    "tree": "Rebel Recruiter",
+    "prerequisite": {
+      "text": "Recruit Enemy talent",
+      "nodes": {
+        "text": "Recruit Enemy talent",
+        "requirement": "Recruit Enemy",
+        "type": "TALENT"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DfS0hLbPxuxcQBhB",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

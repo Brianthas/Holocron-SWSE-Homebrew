@@ -1,0 +1,42 @@
+{
+  "_id": "GbYsn08ggXk5gNgl",
+  "_key": "!items!GbYsn08ggXk5gNgl",
+  "name": "Force Meld",
+  "type": "talent",
+  "system": {
+    "description": "An extension of normal <b>Battle Meditation</b>, a <b>Force Meld</b> is a union of Force-sensitive minds that further enhances their level of coordination. Once per encounter as a Full-Round Action, you can spend a Force Point to empathically meld together a number of beings with the Force Sensitivity feat beings equal to twice your Wisdom modifier.<br><br>The insight bonus&nbsp;provided by your <b>Battle Meditation</b> Talent increases by +1 for every being in the meld (to a maximum bonus of +5) and those in the <b>Force Meld</b> no longer need to remain within 6 squares of your position to receive the benefit (though they must remain within line of sight). This bonus cannot be extended to those without the Force Sensitivity feat.<br><br>The <b>Force Meld</b>&nbsp;can only be maintained by expending a Swift Action every round. If this Swift Action cannot be expended (or&nbsp;if you are knocked Unconscious or killed), the <b>Force Meld</b> is broken and the insight bonus provided by your <b>Battle Meditation</b>&nbsp;is lost. This is a Mind-Affecting effect.<br><br>",
+    "tree": "Jedi Guardian",
+    "prerequisite": {
+      "text": "Battle Meditation talent, and Wisdom 13",
+      "nodes": {
+        "children": [
+          {
+            "text": "Battle Meditation talent",
+            "requirement": "Battle Meditation",
+            "type": "TALENT"
+          },
+          {
+            "text": "Wisdom 13",
+            "requirement": "Wisdom 13",
+            "type": "ATTRIBUTE"
+          }
+        ],
+        "text": "Battle Meditation talent, and Wisdom 13",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "14nRUkAf7fIBYEh3",
+      "sourceBook": "New Jedi Order Campaign Guide"
+    }
+  }
+}

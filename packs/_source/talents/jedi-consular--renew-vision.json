@@ -1,0 +1,31 @@
+{
+  "_id": "uguhALpB1p0hJqfa",
+  "_key": "!items!uguhALpB1p0hJqfa",
+  "name": "Renew Vision",
+  "type": "talent",
+  "system": {
+    "description": "Once per encounter, you can regain all expended uses of the <i>Farseeing</i> Force Power as a Swift Action.",
+    "tree": "Jedi Consular",
+    "prerequisite": {
+      "text": "Farseeing force power",
+      "nodes": {
+        "text": "Farseeing force power",
+        "requirement": "Farseeing",
+        "type": "FORCE POWER"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OcXRHZgVO02aHGpm",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "gxEIcJOUbFPdvqEZ",
+  "_key": "!items!gxEIcJOUbFPdvqEZ",
+  "name": "Dread",
+  "type": "talent",
+  "system": {
+    "description": "As a Standard Action, you can instill bone-chilling fear in an opponent whom you selected for your <b>Hunter's Target</b>. Make a Persuasion check against your target's Will Defense. If you equal or exceed your target's Will Defense, that target takes a -5 penalty to its Will Defense.<br><br>This is a Mind-Affecting effect. The penalty remains as long as you have line of sight to your target and immediately ends if the line of sight is broken.",
+    "tree": "Bounty Hunter",
+    "prerequisite": {
+      "text": "Hunter's Mark talent, and Hunter's Target talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Hunter's Mark talent",
+            "requirement": "Hunter's Mark",
+            "type": "TALENT"
+          },
+          {
+            "text": "Hunter's Target talent",
+            "requirement": "Hunter's Target",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Hunter's Mark talent, and Hunter's Target talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "maxTimes": 0,
+    "choice": "",
+    "action": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gOMbStDtEWAQFye7",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}
