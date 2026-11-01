@@ -1,0 +1,22 @@
+{
+  "_id": "ookexEZTYIaK7ndB",
+  "_key": "!items!ookexEZTYIaK7ndB",
+  "name": "Secondary Battery",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>A Secondary Battery (sometimes called a redundant battery or backup battery) provides the Droid with additional power, allowing it to operate for a longer duration. The Secondary Battery enables the Droid to remain operational for 200 hours (instead of the normal 100 hours) before it needs to shut down and recharge.</p>",
+    "group": "miscellaneous",
+    "cost": "400",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9GX3SdBfL20L6K9N",
+      "sourceBook": ""
+    }
+  }
+}

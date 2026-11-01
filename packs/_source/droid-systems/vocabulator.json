@@ -1,0 +1,22 @@
+{
+  "_id": "jzdzfBzbhI5B3cxZ",
+  "_key": "!items!jzdzfBzbhI5B3cxZ",
+  "name": "Vocabulator",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Costs 1,000 credits. A Vocabulator lets a Droid speak any language it knows; a Droid without one can speak only Binary. A Droid with a Vocabulator can no longer speak Binary, though it still understands it, and gains another default Species language set by its manufacturer or the Vocabulator's.</p><p>The Droid is equipped with a speaker that enables it to emulate speech, rather than simply spout machine code. This device is standard if the Droid has the ability to speak any language other than Binary.</p>",
+    "group": "communications",
+    "cost": "1000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BASqBZsLuBR5Fh9j",
+      "sourceBook": ""
+    }
+  }
+}

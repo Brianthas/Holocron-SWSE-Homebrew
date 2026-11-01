@@ -1,0 +1,22 @@
+{
+  "_id": "aQ0SIckdNF4n0nL1",
+  "_key": "!items!aQ0SIckdNF4n0nL1",
+  "name": "Diagnostics Package",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Some Droids are equipped to perform diagnostics, either as an aid to a technician, or as a general safety feature. The Diagnostics Package give a Droid a +2 Equipment bonus on Mechanics checks to diagnose problems.</p>",
+    "group": "miscellaneous",
+    "cost": "250",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iHd9jaPS4uJp6meX",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "sHYG3xBTsTeu5ttp",
+  "_key": "!items!sHYG3xBTsTeu5ttp",
+  "name": "Remote Receiver",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>This unit allows a Droid to receive instructions from a Remote Processor. Only Droids without internal Processors (such as B1 Series Battle Droids) can be fitted with <strong>Remote Receivers</strong>. A <strong>Remote Receiver</strong> can only be connected to one Remote Processor at a time. Changing the connection to a different Remote Processor requires a DC 20 Mechanics check and a Tool Kit.</p>",
+    "group": "processor",
+    "cost": "-500",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "v52FAZqGM7IG24iO",
+      "sourceBook": ""
+    }
+  }
+}

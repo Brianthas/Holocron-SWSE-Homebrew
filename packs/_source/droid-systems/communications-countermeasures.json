@@ -1,0 +1,22 @@
+{
+  "_id": "Rpjgz7uXwQdjw2WI",
+  "_key": "!items!Rpjgz7uXwQdjw2WI",
+  "name": "Communications Countermeasures",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>One of the first things enemy forces do after discovering a Droid is prevent the Droid from establishing communications to request rescue or call for help from its allies. A Communications Countermeasure system prevents jamming of a Droid's communications. The system broadcasts signals on multiple frequencies to counteract interference. A Droid with a Communications Countermeasures gains a +5 Equipment bonus to all Use Computer checks made to overcome Communications Jamming.</p>",
+    "group": "communications",
+    "cost": "1000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1a46z7sl2nQezA5S",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

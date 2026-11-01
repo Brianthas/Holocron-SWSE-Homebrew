@@ -1,0 +1,22 @@
+{
+  "_id": "42OThAKeVrvIOkhT",
+  "_key": "!items!42OThAKeVrvIOkhT",
+  "name": "Holographic Game System",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>In spite of all the utilitarian functions that a Droid can perform, owners might want to use their Droids for entertainment. A Holographic Game System provides fifteen of the galaxy's more popular games, including Dejarik and Sabacc. The Droid can serve as it's master's opponent, or it can run the game so it's master can play with another being. The game is projected through the Droid's Holoprojector (sold separately) and does not require a solid surface for game play. The Holographic Game System is sufficiently advanced to allow a player to interact with the board as if he or she is actually picking up the holographic playing pieces. The Holographic Game System is adaptable, allowing ten additional games to be added to its database with a successful DC 15 Use Computer check.</p>",
+    "group": "miscellaneous",
+    "cost": "300",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5Od7KUZNr8K8ISmn",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

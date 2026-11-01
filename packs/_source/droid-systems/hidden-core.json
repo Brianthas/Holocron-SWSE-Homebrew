@@ -1,0 +1,22 @@
+{
+  "_id": "YhAbR0UgJaHTV3N3",
+  "_key": "!items!YhAbR0UgJaHTV3N3",
+  "name": "Hidden Core",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>The Droid has a concealed back-up copy of its personality and the data, skills, and memories it regards as critical to its mission or operation. The copy can be concealed within the Droid's main Processor or be installed as a hidden secondary data store elsewhere within the Droid. The backup restores itself 1d6 days after a Memory Wipe with a successful DC 20 Use Computer check (roll 1d20 + 10, or 1d20 + the Droid's current Use Computer Skill modifier, whichever is greater). If unsuccessful, the Hidden Core tries to restore itself again every 1d6 days. Discovering a Hidden Core requires a Use Computer check against the Droid's Will Defense. The character making the Use Computer check must state that he or she is looking for a Hidden Core or for anything suspicious. For double the standard cost of a Hidden Core (for a cost of 400), the Hidden Core's installer can automatically provide a Will Defense of 30 for this check.</p>",
+    "group": "processor",
+    "cost": "200",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yIS2AwT9HFaUPBcs",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

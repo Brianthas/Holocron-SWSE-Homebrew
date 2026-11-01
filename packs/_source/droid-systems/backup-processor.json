@@ -1,0 +1,22 @@
+{
+  "_id": "tbGbr2CTMsiVYDmt",
+  "_key": "!items!tbGbr2CTMsiVYDmt",
+  "name": "Backup Processor",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p><b>Requires:</b> Remote Processor</p><p>A Droid with a Remote Receiver can also have a Backup Processor that allows the Droid to function even if it loses contact with its Remote Processor. The Droid will continue executing its last received orders until contact is reestablished.</p>",
+    "group": "processor",
+    "cost": "100",
+    "requires": "Remote Processor",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "032ITp1RiICFnfxl",
+      "sourceBook": ""
+    }
+  }
+}

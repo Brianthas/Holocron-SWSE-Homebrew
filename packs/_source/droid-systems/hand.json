@@ -1,0 +1,22 @@
+{
+  "_id": "r973frp48PHqfSB6",
+  "_key": "!items!r973frp48PHqfSB6",
+  "name": "Hand",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>A Droid is considered to have a true Hand if its gripping Appendage includes at least three digits, one of which is opposable. Factory-model 3PO Series Protocol Droids and B1 Series Battle Droids come equipped with Hands.</p>",
+    "group": "appendage",
+    "cost": "50 x Cost Factor",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pyKDcyOZCGKIfB4W",
+      "sourceBook": ""
+    }
+  }
+}

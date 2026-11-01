@@ -1,0 +1,22 @@
+{
+  "_id": "QxcQTlopjUHWPgiE",
+  "_key": "!items!QxcQTlopjUHWPgiE",
+  "name": "Concealed Item (Droid Accessory)",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>This system enables the Droid to have a Weapon or a Tool built into a hidden compartment in its body, an Appendage, or it's head. With this system, a Weapon can also be camouflaged to look like a standard Tool or Appendage. For example, an arm can hide a Blaster Rifle, or a beam cutter might actually be a Blaster Pistol. Typically, the size of the Appendage must be similar to the size of the concealed Weapon or Tool. If the item is fully concealed by the Droid's Armor or outer covering, it cannot be detected by visual observation alone. If a Weapon is not fully concealed and portions are visible, such as a muzzle or blade, then when being searched for Weapons the Droid gains a +5 bonus to Stealth checks to conceal the Weapon, plus any Weapon size modifier that applies. The Droid also gains a +10 bonus to Deception checks to create Deceptive Appearances with regards to the Concealed Item.</p><p>The cost of concealing a Weapon or a Tool equals the base cost of the item plus the cost of the Appendage and/or Compartment Space x 2. The Gamemaster can increase the cost multiplier to account for complex or unusual installations. Deploying a fully Concealed Weapon is a Swift Action, and it is subject to the same bonuses and penalties as drawing a Weapon.</p>",
+    "group": "miscellaneous",
+    "cost": "See below",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QYEToGQrIyy9eW86",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

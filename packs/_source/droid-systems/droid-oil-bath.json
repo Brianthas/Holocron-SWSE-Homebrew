@@ -1,0 +1,22 @@
+{
+  "_id": "bQRa14F5sPVcoW4h",
+  "_key": "!items!bQRa14F5sPVcoW4h",
+  "name": "Droid Oil Bath",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Droids look forward to an Oil Bath after a long period of work. This standard maintenance procedure lubricates the Droid's servos and joints, allowing the Droid to move as if it has just come off the assembly line. A Droid Oil Bath is recommended at least once a week for a Droid working in a harsh environment, and once a month for a Droid working in a temperate climate or on board a ship.</p><p>A Droid immersed in an Oil Bath for at least 30 minutes can activate a Second Wind, even if it has already done so that day. The price of a Droid Oil Bath depends on the size of the Droid: Small Droids and smaller, 100 credits; Medium Droids, 1,000 credits; Large Droids, 5,000 credits; Huge Droids and larger, 10,000 credits.</p>",
+    "group": "miscellaneous",
+    "cost": "500",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IA7Hy1rEYKqcFR8U",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

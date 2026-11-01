@@ -1,0 +1,22 @@
+{
+  "_id": "d56rUVDUzzcJgjXN",
+  "_key": "!items!d56rUVDUzzcJgjXN",
+  "name": "Internal Defenses",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>A Droid with Internal Defenses has built-in defenses that operate independently of the Droid. Anyone opening the Droid's maintenance or access panels without the Droid's permission receives an electric shock as a 1d20 + 5 attack against the character's Fortitude Defense. If the attack succeeds, the character receives damage equal to 1d8 + half the Droid's Heroic Level. The Droid is unharmed. The system remains active until disabled (Mechanics DC 25, 1 hour of work) or is depleted after 10 attacks.</p>",
+    "group": "miscellaneous",
+    "cost": "10 x Cost Factor",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vrEHvpRUANUSdkiz",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "QRj2tVzRfCJuNX2Y",
+  "_key": "!items!QRj2tVzRfCJuNX2Y",
+  "name": "Underwater Drive",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>A Droid purchased on a water world such as Mon Calamari comes with an Underwater Drive as a standard option. The drive process is simple. The engine draws water in through the front of the drive and expels it quickly out the back. An Underwater Drive gives the Droid a Swim Speed equal to its base land Speed.</p>",
+    "group": "locomotion",
+    "cost": "20 x Cost Factor x (Speed Squared)",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GVDWVLUzPLb4QBbP",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

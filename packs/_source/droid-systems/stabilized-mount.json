@@ -1,0 +1,22 @@
+{
+  "_id": "Vj9EbrKO6pwTfdbx",
+  "_key": "!items!Vj9EbrKO6pwTfdbx",
+  "name": "Stabilized Mount",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p><b>Requires:</b> Tool Appendage</p><p>For five times the listed cost and weight, a Tool Appendage can be stabilized so that it can hold a larger Weapon. This allows the Droid to use that Weapon as if it was wielded in two hands.</p>",
+    "group": "appendage",
+    "cost": "Appendage Cost x 5",
+    "requires": "Tool Appendage",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ydQxaUalHFWQwKSS",
+      "sourceBook": ""
+    }
+  }
+}

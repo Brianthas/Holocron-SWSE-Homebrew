@@ -1,0 +1,22 @@
+{
+  "_id": "aRTXeAAFRr9DrCcW",
+  "_key": "!items!aRTXeAAFRr9DrCcW",
+  "name": "High-Speed Cutting Torch and Welder",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>A Droid can be equipped with a powerful cutting torch and a welding system for use in repair operations and for cutting materials, doors, or other items. This bulky and heavy device can be installed only on Droids of Medium size or larger. The precision welder can be used for small repairs and for large construction welds, typically in half the time required by a normal welding unit. The cutting torch has a range of 1 square and deals 4d10 damage. When in contact with an object for two or more consecutive rounds, the torch also ignores 5 points of Damage Reduction and reduces the object's Damage Threshold by 10 points.</p>",
+    "group": "miscellaneous",
+    "cost": "2500",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YunrMFPzbCxqnsH1",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

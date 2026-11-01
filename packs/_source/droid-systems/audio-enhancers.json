@@ -1,0 +1,22 @@
+{
+  "_id": "MQt4uMod4gtoc9l7",
+  "_key": "!items!MQt4uMod4gtoc9l7",
+  "name": "Audio Enhancers",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Audio Enhancers increase the sensitivity of a Droid's aural sensors, enabling it to pick up sounds not normally perceived by standard sensors. When Eavesdropping or Listening for distant and ambient sounds, a Droid equipped with Audio Enhancers can reroll Perception checks, keeping the better of the two results. All other modifiers for the Perception check still apply.</p>",
+    "group": "miscellaneous",
+    "cost": "2000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "g73pGiQEWyAnWrxz",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

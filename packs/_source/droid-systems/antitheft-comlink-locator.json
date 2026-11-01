@@ -1,0 +1,22 @@
+{
+  "_id": "agDEd1yFwubPfBsB",
+  "_key": "!items!agDEd1yFwubPfBsB",
+  "name": "Antitheft Comlink Locator",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Some Droids are equipped with Internal Comlinks to broadcast messages. However, these devices require the Droid to speak out loud, and in some situations such an act is inadvisable. A Droid equipped with an Antitheft Comlink Locator can send a distress signal to its master's Comlink with no apparent activity by the Droid. The distress signal broadcasts no information, but it can it be tracked. The signal continues to broadcast if the Droid is deactivated, but it shuts down if the Droid is destroyed.</p>",
+    "group": "miscellaneous",
+    "cost": "100",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "95kKRO4nb2cvXYtt",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

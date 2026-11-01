@@ -1,0 +1,22 @@
+{
+  "_id": "yYdbzsxbrO2sBQ9o",
+  "_key": "!items!yYdbzsxbrO2sBQ9o",
+  "name": "Survival Kit (Droid Accessory)",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Droids do not worry about water, food, or the elements, but their masters do. A Survival Kit is the perfect Droid Accessory for long treks into the wilderness. It contains a small refrigeration unit, a water recycler and dispenser, a rechargeable Glow Rod, and a fire sparker. When aiding a Survival check, a Droid with this Droid Accessory gives a +4 bonus to the check rather than the normal +2 bonus.</p>",
+    "group": "miscellaneous",
+    "cost": "100",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2Ah27psWKp90jDNq",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

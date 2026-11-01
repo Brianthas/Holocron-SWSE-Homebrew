@@ -1,0 +1,22 @@
+{
+  "_id": "0ceZ84mzLKri8eZN",
+  "_key": "!items!0ceZ84mzLKri8eZN",
+  "name": "Improved Coordination Circuitry",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Droid brains work well in concert with each other, and Improved Coordination Circuitry enhances this ability. This Droid Accessory links Droids' skill routines, allowing them to aid in tasks more effectively. Each circuit is keyed to a specific Skill. When a Droid with Improved Coordination Circuitry Aids Another Droid with the circuitry, the bonus increases to +4. A Droid must be Trained in the Skill to gain the +4 bonus.</p>",
+    "group": "miscellaneous",
+    "cost": "1000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dw9awfyS9MN9RGq4",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

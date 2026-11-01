@@ -1,0 +1,22 @@
+{
+  "_id": "XVRiz4VFqd8Mmbip",
+  "_key": "!items!XVRiz4VFqd8Mmbip",
+  "name": "Hovering",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p><b>Base</b> <b>Speed:</b> 6 squares</p><p>Hovering Droids use repulsorlift technology to float slowly above the ground (within 3 meters). They ignore the penalties of Difficult Terrain.</p>",
+    "group": "locomotion",
+    "cost": "100 x Cost Factor x (Base Speed Squared)",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "K161OR2TUr19b765",
+      "sourceBook": ""
+    }
+  }
+}

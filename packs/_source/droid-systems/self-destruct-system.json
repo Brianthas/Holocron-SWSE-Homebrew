@@ -1,0 +1,22 @@
+{
+  "_id": "J9HK2pjtnpDOd1Wu",
+  "_key": "!items!J9HK2pjtnpDOd1Wu",
+  "name": "Self-Destruct System",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>To prevent capture and analysis, the Droid comes equipped with a powerful explosive. The charge destroys the Droid from within (no attack required), and a Droid destroyed in this fashion cannot be repaired or salvaged.</p><p>The explosive is treated as an Area Attack (+5 attack bonus). The damage to all targets with the area is determined by the Droid's size (see below), and the Burst radius of the explosion is 2 squares per 4d6 points of damage (minimum 2 squares).</p><p>Droids of Tiny size and smaller do not deal collateral damage when they self-destruct.</p><table>\n <tbody>\n  <tr>\n   <th>DROID SIZE</th>\n   <th>DAMAGE</th>\n  </tr>\n  <tr>\n   <td>Small</td>\n   <td>4d6</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td>6d6</td>\n  </tr>\n  <tr>\n   <td>Large</td>\n   <td>8d6</td>\n  </tr>\n  <tr>\n   <td>Huge</td>\n   <td>10d6</td>\n  </tr>\n  <tr>\n   <td>Gargantuan or Larger</td>\n   <td>20d6</td>\n  </tr>\n </tbody>\n</table>",
+    "group": "miscellaneous",
+    "cost": "Maximum Damage x 20",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AMarSOqEmzjMHHIr",
+      "sourceBook": ""
+    }
+  }
+}

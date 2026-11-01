@@ -1,0 +1,22 @@
+{
+  "_id": "tY3xQt2ux6iGAJiN",
+  "_key": "!items!tY3xQt2ux6iGAJiN",
+  "name": "Sensor Countermeasure Package",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Droids operating covertly must avoid drawing attention to themselves. The Sensor Countermeasure Package broadcasts signals that interfere with incoming sensor signals. A Droid equipped with the Sensor Countermeasure Package can make a Use Computer check to avoid being detected. If the Use Computer check equals or exceeds a Perception check made to detect the Droid through any form of non visual sensor Equipment, the Droid remains undetected.</p>",
+    "group": "sensor",
+    "cost": "1000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WPuiOGicM9JRa3Y5",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

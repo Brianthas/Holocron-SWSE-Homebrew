@@ -1,0 +1,22 @@
+{
+  "_id": "YnAIrrfFMRgEiTkc",
+  "_key": "!items!YnAIrrfFMRgEiTkc",
+  "name": "Multifunction Apparatus",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Each type of Droid Appendage performs one specific function. The Multifunction Apparatus, however, allows up to three Tools or Weapons to be attached to a single Appendage. The Multifunction Apparatus is commonly used to mount multiple Weapons. Only one Tool or Weapon can be active at a time, but switching to a different Tool or Weapon requires only a Swift Action.</p>",
+    "group": "appendage",
+    "cost": "80 x Cost Factor",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "19HFKWmnvHsgZ8CS",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

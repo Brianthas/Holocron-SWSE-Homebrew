@@ -1,0 +1,22 @@
+{
+  "_id": "WlnP3IapJjdOZ6Sx",
+  "_key": "!items!WlnP3IapJjdOZ6Sx",
+  "name": "Internal Comlink",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>The droid is equipped with an integrated Comlink System. It is otherwise identical to the standard Comlink.</p>",
+    "group": "communications",
+    "cost": "250",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "C6sAl4Tw8Wfy5jg8",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "xlIOU3igBi1AYajq",
+  "_key": "!items!xlIOU3igBi1AYajq",
+  "name": "Droid Remote Control",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>An advanced version of the Restraining Bolt, the Droid Remote Control allows the owner to use a Droid Caller to move the Droid using its own Locomotion System. The Droid cannot be compelled to use any of its other Droid Systems or possessions. It simply moves as directed at one-half its Speed.</p>",
+    "group": "processor",
+    "cost": "500",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "H5EBVOUgkW6y9UF4",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

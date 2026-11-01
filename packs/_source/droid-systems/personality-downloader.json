@@ -1,0 +1,22 @@
+{
+  "_id": "8vcBGhuAmjflmlKM",
+  "_key": "!items!8vcBGhuAmjflmlKM",
+  "name": "Personality Downloader",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Highly Illegal, a Personality Downloader is a custom-built electronic unit designed to quickly suppress an existing Droid's personality with a new one. Thieves, pirates, smugglers, infiltrators, and other scoundrels occasionally use a Personality Downloader to take control of an enemy's Droid for their own use. Using the device requires the attacker to plug the Personality Downloader into one of the Droid's data ports. Droids with Locked Access or without accessible data ports must be coaxed into complying. Once the Personality Downloader is attached, the user makes a Use Computer check opposed by the Droid's Will Defense. If the check is successful, the personality copies itself to the Droid's Processor and suppresses the existing personality in 5 minutes. The process is imperfect, however. To maintain control, every 10 minutes the new personality must make another Use Computer check opposed by the original personality. The invading personality continues to use the attacking character's Use Computer skill, even though the actual character is not actively involved after the initial download is successful.</p>",
+    "group": "processor",
+    "cost": "5000+ (see below)",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UfFs3B2P8qDdSxcX",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

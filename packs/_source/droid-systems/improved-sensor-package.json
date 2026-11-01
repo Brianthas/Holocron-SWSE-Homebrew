@@ -1,0 +1,22 @@
+{
+  "_id": "oTbcLYAsMw8e9SQr",
+  "_key": "!items!oTbcLYAsMw8e9SQr",
+  "name": "Improved Sensor Package",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>A droid with an Improved Sensor Package gains a +2 Equipment bonus to Perception checks. In addition, the droid gains Low-Light Vision, ignoring Concealment (but not Total Concealment) from darkness.</p>",
+    "group": "sensor",
+    "cost": "200",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5aOMhAWiWOscA3hN",
+      "sourceBook": ""
+    }
+  }
+}

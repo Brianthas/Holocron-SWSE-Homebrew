@@ -1,0 +1,22 @@
+{
+  "_id": "sPpTkFenNKmkMUD6",
+  "_key": "!items!sPpTkFenNKmkMUD6",
+  "name": "Courier Compartments",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Droids are sometimes used as messengers to deliver important messages and items across the galaxy. To protect items entrusted into their care, these Droids can have hidden Courier Compartments installed in their Droid Chassis. Such compartments are also favorites of smugglers who own Droids. A Droid with a Courier Compartment might walk right past a starport inspection team that is on the way to tear its master's ship apart.</p><p>Courier Compartments can be installed in four locations within a Droid. A Courier Compartment in the torso can hold an item that is 3 sizes smaller than the Droid's size. A Courier Compartment in the arm or leg can hold an item that is 4 sizes smaller than the Droid's size. A head compartment can hold an item that is 5 sizes smaller. Detecting a Courier Compartment requires a successful Perception check with a DC equal to the Droid's Will Defense +5.</p><p>A common accessory in a Courier Compartment is a Toaster, which destroys the contents of the Courier Compartment with a brief blast of plasma energy triggered by the Droid. Installing a Toaster into a Courier Compartment doubles the cost of the Courier Compartment.</p><p><i>Example: S-3PO, a protocol Droid in service to Count Czasiz, has a Courier Compartment hidden in it's left arm. As a Medium Droid, the Courier Compartment can an hold item of up to Fine size, so it can hold the skifter sabacc card the Count needs to guarantee his next win.</i></p>",
+    "group": "miscellaneous",
+    "cost": "200",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PUR2J4W3fQ2Q7PXn",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

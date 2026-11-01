@@ -1,0 +1,22 @@
+{
+  "_id": "Tj8CIMfn80HceJG7",
+  "_key": "!items!Tj8CIMfn80HceJG7",
+  "name": "Electric Defense Grid",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Most Combat Droids are effective at using Blasters and other Ranged Weapons. Some Droid Models, however, fail miserably at melee combat and are quickly dispatched by enemies that gain the upper hand in close quarters. To improve a Droid's melee defenses, an Electric Defense Grid can be installed either on top of or as part of the Droid's Armor or outer shell. Whenever a Droid with an Electric Defense Grid is damaged by a melee attack, the attacker automatically takes 5 points of Energy damage. Melee Weapons that rely on Energy to cause damage, such as Lightsabers, are immune to the effect of the Electric Defense Grid.</p>",
+    "group": "miscellaneous",
+    "cost": "3000 x Cost Factor",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IR2vNHHASP8yTO6g",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

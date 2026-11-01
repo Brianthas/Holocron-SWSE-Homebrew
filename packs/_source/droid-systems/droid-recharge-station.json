@@ -1,0 +1,22 @@
+{
+  "_id": "epoygI4f6Nsrz8Oc",
+  "_key": "!items!epoygI4f6Nsrz8Oc",
+  "name": "Droid Recharge Station",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Droid Recharge Stations are found anywhere Droids are commonly used: Starships, residences, starports, industrial facilities, and similar locations. Public Droid Recharge Stations are available for a fee of 20 credits per recharge. Droids typically require 1 hour to recharge. The station is not self-powered, and must be linked to an outside power source. Droids also use Droid Recharge Stations while waiting until their services are called upon. Droid Recharge Stations provide basic droid diagnostics with a DC 10 Use Computer check, revealing the Droid's current Hit Points, position on the Condition Track, and the operational status of all Droid Systems, Appendages, and Tools. Aboard Starships, Droids parked in a Droid Recharge Station are secured for travel. A Droid Recharge Station can be universal for all Droids up to a certain size- typically Small, Medium, or Large- or designed for a specific Droid Degree or Droid Model.</p>",
+    "group": "station",
+    "cost": "4000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YusRCqIajiJySEPb",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

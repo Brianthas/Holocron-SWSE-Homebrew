@@ -1,0 +1,22 @@
+{
+  "_id": "OFjHw1obsw9EcOEc",
+  "_key": "!items!OFjHw1obsw9EcOEc",
+  "name": "Basic Processor",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Basic Processors are not designed for creative thought and problem solving, and as such most Droids interpret instructions and Behavioral Inhibitors very literally. Furthermore, Basic Processors are very limited in that the Droid cannot perform any task for which it was not programmed. For example, a Droid that is not trained in the Deception skill cannot lie or otherwise convey false or unknown information.</p><p>A Droid with Basic Processor cannot use any skill Untrained except for Acrobatics, Climb, Jump, and Perception. Similarly, a Basic Processor does not allow a Droid to use any weapon with which it is not proficient, and a Droid's Behavioral Inhibitors may prevent it from harming sentient living beings altogether.</p><p>Every Droid comes with a Basic Processor, at the very least.</p>",
+    "group": "processor",
+    "cost": "0",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ehDwcTSUpRprVPOS",
+      "sourceBook": ""
+    }
+  }
+}

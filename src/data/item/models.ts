@@ -1,4 +1,5 @@
 import { ABILITIES } from "../../config/abilities.ts";
+import { DROID_SYSTEM_GROUP_KEYS } from "../../config/droids.ts";
 import { FORCE_DESCRIPTOR_KEYS } from "../../config/force.ts";
 import { SIZES } from "../../config/sizes.ts";
 import { WEAPON_GROUP_KEYS } from "../../config/weapons.ts";
@@ -220,6 +221,27 @@ export class EquipmentModel extends foundry.abstract.TypeDataModel<ReturnType<ty
   }
 }
 
+/**
+ * A droid system: installed or removed, using no slots (Mockup 1, droid systems), following the
+ * fork's design where only an installed system counts. The cost is the printed one, often a
+ * formula of the droid's Cost Factor.
+ */
+function droidSystemSchema() {
+  return {
+    description: new fields.HTMLField(),
+    group: new fields.StringField({ required: true, blank: false, initial: "miscellaneous", choices: [...DROID_SYSTEM_GROUP_KEYS] }),
+    cost: text(),
+    /** What the system needs first, as printed ("Requires Walking"). */
+    requires: text(),
+    installed: new fields.BooleanField({ initial: false }),
+  };
+}
+export class DroidSystemModel extends foundry.abstract.TypeDataModel<ReturnType<typeof droidSystemSchema>, Item.Implementation> {
+  static override defineSchema() {
+    return droidSystemSchema();
+  }
+}
+
 export const ITEM_MODELS = {
   species: SpeciesModel,
   class: ClassModel,
@@ -230,4 +252,5 @@ export const ITEM_MODELS = {
   weapon: WeaponModel,
   armor: ArmorModel,
   equipment: EquipmentModel,
+  droidSystem: DroidSystemModel,
 };

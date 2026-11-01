@@ -1,0 +1,22 @@
+{
+  "_id": "dRNHpEFfgbvWR0sd",
+  "_key": "!items!dRNHpEFfgbvWR0sd",
+  "name": "Remote Receiver Signal Booster",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Droids that rely on a Remote Receiver for instructions cannot stray too far from the Remote Processor without risking losing contact and becoming stranded. A Remote Receiver Signal Booster can prevent this loss of contact. The Remote Receiver Signal Booster increases the Remote Receiver's reception strength, extending the range of a Droid by 50%. A successful DC 30 Use Computer check made by the Droid can further extend the range up to 100% for 1 hour.</p>",
+    "group": "communications",
+    "cost": "500",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "T7VZ8DNV2lBqHkRu",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

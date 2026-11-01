@@ -1,0 +1,22 @@
+{
+  "_id": "5etURb0nn97Dn1ca",
+  "_key": "!items!5etURb0nn97Dn1ca",
+  "name": "Gyroscopic Stabilizers",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Using an integrated system of gyroscopes, hydraulics, and high-speed processing, this system gives a Droid greater stability. The Droid gains a +5 stability bonus to checks and Defenses to resist attempts to knock it Prone. This bonus stacks with the bonus provided by the Extra Legs Locomotion System.</p>",
+    "group": "locomotion",
+    "cost": "2 x Cost Factor x (Speed Squared)",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1RD6av4j9pKLSfjk",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

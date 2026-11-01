@@ -1,0 +1,22 @@
+{
+  "_id": "Lexxdv36v04nokUt",
+  "_key": "!items!Lexxdv36v04nokUt",
+  "name": "Extra Legs",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p><b>Requires:</b> Walking Locomotion System</p><p>Walking droids are usually bipedal, but a Walking droid can be built with three or more legs (usually four) to grant the droid extra stability and Carrying Capacity. This doubles the cost of the Walking locomotion system, but the droid's Carrying Capacity is 50% higher than that of a bipedal droid of the same Strength. In addition, the droid gains a +5 stability bonus on checks to resist attempts to knock it Prone.</p>",
+    "group": "locomotion",
+    "cost": "Locomotion System Cost x 2",
+    "requires": "Walking Locomotion System",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bnBxZdHUWG0IyUsE",
+      "sourceBook": ""
+    }
+  }
+}

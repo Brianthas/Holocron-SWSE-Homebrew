@@ -1,0 +1,22 @@
+{
+  "_id": "CS9FnBrH2JphnP3z",
+  "_key": "!items!CS9FnBrH2JphnP3z",
+  "name": "Rental Restraining Bolt",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Some beings cannot afford to own a Droid. The Rental Restraining Bolt works like a standard Restraining Bolt, except it also has a Credit Reader. The user must deposit a specific number of credits to the Credit Reader on the Rental Restraining Bolt to control the Droid for a specified time. At the end of that time, the Droid deactivates and does not reactivate until sufficient credits are again deposited.</p>",
+    "group": "miscellaneous",
+    "cost": "10",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pSPHPuVtCgXKuLZc",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

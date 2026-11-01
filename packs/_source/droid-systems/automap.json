@@ -1,0 +1,22 @@
+{
+  "_id": "rI6UdxpfQH0YGCEK",
+  "_key": "!items!rI6UdxpfQH0YGCEK",
+  "name": "Automap",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>An Automap system actively scans the area within a 12-square radius of a Droid in which it is installed. The scan reveals terrain, atmospheric conditions, electromagnetic signatures, and lifeforms. However, an Automap scan cannot penetrate solid objects such as walls and closed doors. The scan also includes navigational information, such as the Droid's direction and speed when readings were taken as well as global coordinates if the Droid can establish a link to an orbiting satellite or Starship.</p>",
+    "group": "miscellaneous",
+    "cost": "1000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "q8BM2TS1O38W6Zeu",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

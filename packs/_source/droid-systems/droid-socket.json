@@ -1,0 +1,22 @@
+{
+  "_id": "ToUK1HPfL6RqDJof",
+  "_key": "!items!ToUK1HPfL6RqDJof",
+  "name": "Droid Socket",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Designed exclusively for Astromech Droids, the Droid Socket serves as a station combining Copilot, Systems Monitoring, Astrogation, and damage-control operations for minimally crewed craft.</p><p>Droid Sockets are featured on many snub fighters, the occasional shuttle, and a few airspeeders. They generally must be designed and installed as original equipment, although savvy techs can build their own or transplant one onto a ship that does not normally carry a Droid Socket.</p><p><b>Standard Droid Sockets allow an Astromech Droid to perform the following tasks:</b></p><ul>\n <li>Pilot or Copilot the ship or Vehicle with the Pilot's permission; if the Pilot is unconscious, permission is not required.</li>\n <li>Act as a System Operator to raise, lower, or recharge shields.</li>\n <li>Act as an Engineer to reroute power.</li>\n <li>Make limited Mechanics checks to Jury-Rig or otherwise repair a ship's systems as determined by the Gamemaster.</li>\n <li>Make Use Computer checks through the ship's system and built-in Scomp Link.</li>\n <li>Operate the communications system and sensors.</li>\n <li>Input hyperspace jump coordinates from an astrogation buffer and control the hyperdrive with the Use Computer Skill, if the ship has a hyperdrive.</li>\n <li>Operate Pilot and Droid ejection system- with the Pilot's express permission. The Droid ejection system fires the Droid out of the Droid Socket and away from the ship at a Speed of 12.</li>\n</ul><p><b>Standard prohibited actions and systems (can be overridden by the Pilot):</b></p><ul>\n <li>Weapons activation and firing.</li>\n <li>Jumping to hyperspace without approval.</li>\n</ul><p><b>Optional systems that might not be found on every ship include:</b></p><ul>\n <li>Astromech self-loading system, such as on the N-1 Royal Starfighter.</li>\n</ul>",
+    "group": "station",
+    "cost": "10,000 (usually included in cost of Vehicle)",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rvnDRGqX5lOCPv62",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

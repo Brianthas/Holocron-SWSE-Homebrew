@@ -1,0 +1,22 @@
+{
+  "_id": "4Hi1IdmDlU3jCNj2",
+  "_key": "!items!4Hi1IdmDlU3jCNj2",
+  "name": "Tool",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Tool Appendages are somewhat sturdier than Instruments. A Droid must make a DC 15 Dexterity check to lift, carry, or drag objects for which its Tools were not designed. The GM might rule that particularly delicate objects have a higher DC. If the check fails, the Droid drops the object.</p><p>Weapons mounted on a Droid are considered Tool Appendages unless otherwise noted. A Tool Appendage does not include the cost of the Tool or Weapon mounted on it.</p>",
+    "group": "appendage",
+    "cost": "10 x Cost Factor",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IFCTK0uSEUfjlyhz",
+      "sourceBook": ""
+    }
+  }
+}

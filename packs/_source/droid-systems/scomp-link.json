@@ -1,0 +1,22 @@
+{
+  "_id": "M7jDGVtiurTBeBf4",
+  "_key": "!items!M7jDGVtiurTBeBf4",
+  "name": "Scomp Link",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>A Scomp Link is a universal data port mounted on an extendable arm, available for many types of Droids. Astromech Droids have them as standard Equipment. Scomp Link ports are standard input/output links, found on computer systems and Starships throughout the galaxy. Using a Scomp Link gives a Droid a +2 Equipment bonus to Use Computer checks to Access Information when the computer's Attitude toward it is Helpful or Friendly.</p>",
+    "group": "miscellaneous",
+    "cost": "100",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iszcDBJ2KX4r1BRN",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

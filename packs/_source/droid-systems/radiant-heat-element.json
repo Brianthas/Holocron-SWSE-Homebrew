@@ -1,0 +1,22 @@
+{
+  "_id": "7G1WAIbvvLHQe4ay",
+  "_key": "!items!7G1WAIbvvLHQe4ay",
+  "name": "Radiant Heat Element",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>This Droid Accessory enables a Droid to radiate heat from its torso, providing warmth necessary for a master's survival in the wilderness or in deep space. The heat can be adjusted to provide ambient warmth or to boil water and cook food on the Droid's exterior. The Radiant Heating Element can also be used by the Droid as a defensive tool. When the Radiant Heat Element is on its highest setting, any character ending its turn in a square adjacent to the Droid takes 1d4 Fire damage from the Droid. The Droid itself takes 1 point of damage from the heat each turn.</p>",
+    "group": "miscellaneous",
+    "cost": "200",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GtGejJ5EW4U9RXGo",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

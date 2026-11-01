@@ -1,0 +1,22 @@
+{
+  "_id": "3eSUvRwfhgOtIr1P",
+  "_key": "!items!3eSUvRwfhgOtIr1P",
+  "name": "Instrument",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Instruments are a step up from simple Probes. They might be designed to accomplish specific tasks. For example, a Droid with a hypodermic syringe as its sole Appendage can use the syringe for its intended purpose, but otherwise can only push objects with it.</p><p>A few Instruments are designed to clamp, and can thus hold objects, but they are generally delicate. A Droid using an instrument of this nature has a Carrying Capacity as if its Strength score were one-quarter of its actual value.</p>",
+    "group": "appendage",
+    "cost": "5 x Cost Factor",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7Qj3GzdjerI07jsX",
+      "sourceBook": ""
+    }
+  }
+}

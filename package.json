@@ -26,6 +26,7 @@
     "verify:species": "node tools/checks/run.ts species",
     "verify:classes": "node tools/checks/run.ts classes",
     "verify:gear": "node tools/checks/run.ts gear",
+    "verify:droids": "node tools/checks/run.ts droid-systems",
     "rules:snapshot": "node tools/snapshot-rules.ts",
     "packs:convert": "node tools/convert/convert.ts"
   },

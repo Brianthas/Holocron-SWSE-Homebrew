@@ -1,0 +1,22 @@
+{
+  "_id": "G7mBZ4EuNyrhxKH5",
+  "_key": "!items!G7mBZ4EuNyrhxKH5",
+  "name": "Internal Grapple Gun",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>When a Droid needs to reach an inaccessible area, an Internal Grapple Gun can be indispensable. The gun fires a magnetic grapple hook with an ultra-thin cord. The internal compartment holds 15 meters (10 squares) of cord, and an external magazine can hold up to 105 meters (70 squares) of cord. The cord can be detached from the Droid as a Free Action. Firing the Internal Grapple Gun is a Standard Action.</p>",
+    "group": "miscellaneous",
+    "cost": "100 x Cost Factor",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xr1KaB3XnfOvxxEG",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

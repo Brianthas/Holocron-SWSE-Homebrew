@@ -1,0 +1,22 @@
+{
+  "_id": "ZbdRO6gKtxtmrSDh",
+  "_key": "!items!ZbdRO6gKtxtmrSDh",
+  "name": "Taser",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Many star systems prohibit Droids from carrying lethal weapons or having such systems installed without the proper permits. A Taser is a nonlethal projectile weapon that Droids can use to defend themselves. It fires two small projectiles attached to long, thin wires that deliver an electric charge that incapacitates an organic target's nervous and muscular systems. If the target is a Droid, the electric current acts like an Ion gun and interferes with the Droid's systems. Additionally, a Taser can be used as a melee weapon like an Electroshock Probe.</p>",
+    "group": "miscellaneous",
+    "cost": "250",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8gUzalEHwwJpjNB7",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

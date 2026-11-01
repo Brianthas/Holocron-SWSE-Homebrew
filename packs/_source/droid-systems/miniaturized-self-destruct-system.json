@@ -1,0 +1,22 @@
+{
+  "_id": "tyb24IkfliffHSH2",
+  "_key": "!items!tyb24IkfliffHSH2",
+  "name": "Miniaturized Self-Destruct System",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>A miniaturized self-destruct system functions as a normal Self-Destruct System, but it functions as if the droid were two sizes larger. This costs 5 times as much as a normal Self-Destruct System.</p><table>\n <tbody>\n  <tr>\n   <th>DROID SIZE</th>\n   <th>DAMAGE</th>\n  </tr>\n  <tr>\n   <td>Diminutive</td>\n   <td>4d6</td>\n  </tr>\n  <tr>\n   <td>Tiny</td>\n   <td>6d6</td>\n  </tr>\n  <tr>\n   <td>Small</td>\n   <td>8d6</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td>10d6</td>\n  </tr>\n  <tr>\n   <td>Large or Larger</td>\n   <td>20d6</td>\n  </tr>\n </tbody>\n</table>",
+    "group": "miscellaneous",
+    "cost": "Maximum Damage x 100",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UHJCXwAixX1y4RGA",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements (Star Wars Miniatures Previews)"
+    }
+  }
+}

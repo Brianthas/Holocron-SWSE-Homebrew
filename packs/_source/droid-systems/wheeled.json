@@ -1,0 +1,22 @@
+{
+  "_id": "rvYyCaFjFnjyQ3h4",
+  "_key": "!items!rvYyCaFjFnjyQ3h4",
+  "name": "Wheeled",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p><b>Base</b> <b>Speed:</b> Small, 6 squares; Medium, 8 squares; Large or bigger, 10 squares</p><p>Wheeled Droids use one or more powered wheels to move and are generally designed to traverse smooth surfaces. Wheeled Droids can't use the Climb skill, and the penalties of moving through Difficult Terrain are doubled.</p>",
+    "group": "locomotion",
+    "cost": "5 x Cost Factor x (Base Speed Squared)",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zr2rwPnv5QPJd3gv",
+      "sourceBook": ""
+    }
+  }
+}

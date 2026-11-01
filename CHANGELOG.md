@@ -91,6 +91,12 @@
   picks one. Of the equipment pack's 65 wiki pages, Holocrons and Sith Artifacts are kept and the
   rest dropped (rulings.md, Content); the fan section of the Sith Artifacts table is left out. The
   9 droid accessories go with droid systems.
+- A droid system item type: group (processor, locomotion, appendage, communications, sensor,
+  station, translator, hardened, miscellaneous), cost and requirement as text, and an installed
+  toggle that starts off. 104 converted from the fork's droid-system pack and its equipment pack's
+  droid accessories. Shield Expansion Module is left out (no personal shields); the four
+  Translator Units are held. Locomotion speed, appendage counts, Hardened Systems' multipliers and
+  carrying multipliers stay in the text until droids are built.
 - Two-handed melee weapons add STR x 2 to damage (episode-vii, Weapons); before this they added
   STR once.
 - Feats carry their mechanics as effects: Improved Defenses, Toughness (5 hit points once, 1 per

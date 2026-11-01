@@ -1,0 +1,22 @@
+{
+  "_id": "feyBfb1HNlw42sWd",
+  "_key": "!items!feyBfb1HNlw42sWd",
+  "name": "Tactician Battle Computer",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Strict governmental regulations apply to 4th-Degree Droids. However, Droid Manufacturers know that money can be made by manufacturing Droids for war, so they develop Droid Systems such as the Tactician Battle Computer to circumvent restrictions on 4th-Degree Droids. This software package and transmitter can be installed on any Droid. Additionally, small transceivers must also be installed on the Ranged Weapons used with the package. Restrictions prohibit the Droid from using any Weapons other than those with transceivers associated with its Tactician Battle Computer. In fact, if the Droid running the Tactician Battle Computer picks up a Weapon not equipped with the transceiver, the Tactician Battle Computer shuts down and can be restarted only after succeeding on a DC 20 Mechanics check.</p><p>The Droid spends a Standard Action to analyze the current battle conditions. The Droid transmits its findings to the sensors installed on the Weapons of its allies. The Droid automatically grants a +2 bonus to the next attack roll made by a number of allies equal to it's Intelligence modifier (minimum 1). If an ally does not make its next attack before the end of its next turn, this bonus is lost. Only Ranged Weapons can be used with the Tactician Battle Computer</p>",
+    "group": "processor",
+    "cost": "5000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2c9V8J8aAt7ZxwAd",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "mhbe3ekawy5Pd85Y",
+  "_key": "!items!mhbe3ekawy5Pd85Y",
+  "name": "Spring-Loaded Mechanism",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>This device allows a Small, Medium, or Large Droid to launch an item held in a Compartment Space up to 8 meters as a Standard Action. The item can weigh no more than 4 kg, and the droid makes a ranged attack against a Reflex Defense of 10 to launch the projectile into a designated square. Anyone within reach of the target square who has a Readied Action can try to catch the item, provided the droid's attack succeeds. (If the attack fails, the item lands in a randomly determined square adjacent to the target square.) Catching the item requires a DC 10 Dexterity check and is considered a Move Action.</p><p>Spring-Loaded Mechanisms are not typically designed (or practical) for Droids of Huge or larger size.</p>",
+    "group": "miscellaneous",
+    "cost": "150",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "576rO17aVPYOCMHR",
+      "sourceBook": ""
+    }
+  }
+}

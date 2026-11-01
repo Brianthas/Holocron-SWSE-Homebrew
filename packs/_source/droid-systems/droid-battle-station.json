@@ -1,0 +1,22 @@
+{
+  "_id": "bMn4xSMqF6s22siU",
+  "_key": "!items!bMn4xSMqF6s22siU",
+  "name": "Droid Battle Station",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Droid Battle Stations provide the functionality of regular Droid Command Stations, and they can be used to direct Droids in combat. Droid Battle Stations are typically large installations, capable of coordinating hundreds or thousands of Droids of all types. Some Droid Battle Stations emulate Droid Commanders. When the Droid Battle Station is installed, select two Talents from the Droid Commander Prestige Class. These Talents can be used by the character operating the Droid Battle Station as if the character has those Talents. The number of times each Talent can be used is calculated per station, not per character, so switching characters in the middle of a battle does not grant additional uses. Droids with the Droid Commander Prestige Class cannot use these Talents more often even if they duplicate Talents the Droid already possesses.</p>",
+    "group": "station",
+    "cost": "50000 per 100 Droids",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Uyij6Y9cndYpZDiT",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

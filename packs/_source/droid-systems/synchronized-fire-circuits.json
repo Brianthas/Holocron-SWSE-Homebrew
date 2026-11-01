@@ -1,0 +1,22 @@
+{
+  "_id": "AAycwpgDYqOQrz2j",
+  "_key": "!items!AAycwpgDYqOQrz2j",
+  "name": "Synchronized Fire Circuits",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p><b>Requires:</b> Remote Processor</p><p>A Droid with a Remote Receiver can have Synchronized Fire Circuits that better coordinate its actions with other Droids. When successfully using the Aid Another action to assist another Droid connected to the same Remote Processor, a Droid with Synchronized Fire Circuits grants an additional +5 bonus instead of a +2 bonus to the other Droid's check or roll.</p>",
+    "group": "processor",
+    "cost": "150",
+    "requires": "Remote Processor",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "m1COCaZPtGjKrnit",
+      "sourceBook": ""
+    }
+  }
+}

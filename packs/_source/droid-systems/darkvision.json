@@ -1,0 +1,22 @@
+{
+  "_id": "Mza4si8nPfjhakS1",
+  "_key": "!items!Mza4si8nPfjhakS1",
+  "name": "Darkvision",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>The Droid with Darkvision ignores Concealment (including Total Concealment) from darkness.</p>",
+    "group": "sensor",
+    "cost": "150",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kluLB5jmhWdlAkqo",
+      "sourceBook": ""
+    }
+  }
+}

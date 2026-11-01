@@ -16,7 +16,8 @@
       "feature": "Feature",
       "weapon": "Weapon",
       "armor": "Armor",
-      "equipment": "Equipment"
+      "equipment": "Equipment",
+      "droidSystem": "Droid System"
     }
   }
 }

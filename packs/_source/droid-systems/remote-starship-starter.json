@@ -1,0 +1,22 @@
+{
+  "_id": "kcxvg2ZivwIt3O6M",
+  "_key": "!items!kcxvg2ZivwIt3O6M",
+  "name": "Remote Starship Starter",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Scoundrels have a habit of fleeing starports with the authorities on their heels. When a captain cannot leave a crew member back at the ship, a Remote Starship Starter comes in handy. A Droid equipped with this radio transmitter can signal the ship to begin the preflight processes; the ship transmits preflight diagnostics back to the Droid as a Free Action. Although the Droid is not able to operate the ship remotely, having the ship prepared for departure can save the crew vital minutes during an escape.</p>",
+    "group": "processor",
+    "cost": "50",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7W2I8AVdAjmOC5oi",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

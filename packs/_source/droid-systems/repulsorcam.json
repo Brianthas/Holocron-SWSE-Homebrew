@@ -1,0 +1,22 @@
+{
+  "_id": "gCgvfsNJXqWqGFDe",
+  "_key": "!items!gCgvfsNJXqWqGFDe",
+  "name": "Repulsorcam",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>A Repulsorcam is an audio and video recorder mounted on a tiny repulsorlift. The device can detach from a Droid's chassis, float to where its Droid desires, up to 12 squares away, and record events. The Repulsorcam can record up to 2 hours of audio and video data to its own memory. The unit has a Speed of 4, a Reflex Defense of 16, and a Fortitude Defense of 10. A single Energy Cell powers the Repulsorcam for 4 hours, recharging when it reattaches to the specialized socket on the Droid or when it lands on a separate recharging unit available for an additional 150 credits.</p>",
+    "group": "miscellaneous",
+    "cost": "1000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tPEkymH8oeQyVtgH",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

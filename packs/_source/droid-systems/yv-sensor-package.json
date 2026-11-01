@@ -1,0 +1,22 @@
+{
+  "_id": "bX3BD3mUzbJGkurJ",
+  "_key": "!items!bX3BD3mUzbJGkurJ",
+  "name": "YV Sensor Package",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Standard on the YVH Battle Droid, a YV Sensor Package can be successfully installed on other Droids, including Mouse Droids (see MSE-6 Repair Droid). The YV Sensor Package features highly specialized sensors calibrated specifically to detect Yuuzhan Vong, including those concealed by Ooglith Masquers or other methods. The YV Sensor Package grants a +10 bonus to Perception checks to detect Yuuzhan Vong within 12 squares and with in line of sight of the Droid.</p>",
+    "group": "sensor",
+    "cost": "1000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VuxB5ygxhsAWK84j",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

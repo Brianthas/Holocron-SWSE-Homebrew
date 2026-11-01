@@ -1,0 +1,22 @@
+{
+  "_id": "yXQBNebgwtZVkG2d",
+  "_key": "!items!yXQBNebgwtZVkG2d",
+  "name": "Voice-Print Command Lock",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>This Droid Accessory ensures that a Droid is able to obey only its master. With a Voice-Print Command Lock installed, a Droid follows only commands issued by a single source. The Droid analyses the voice print of its master and ignores commands from anyone else. A recording of the master's voice can be used, but getting the Droid to obey a recorded command requires a Use Computer check against the Droid's Will Defense with a +5 bonus to the Droid's Will Defense.</p>",
+    "group": "miscellaneous",
+    "cost": "400",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bjq8xDTcczYvAhUZ",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

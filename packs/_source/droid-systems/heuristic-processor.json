@@ -1,0 +1,22 @@
+{
+  "_id": "AeDbSqCn2bM7zBqV",
+  "_key": "!items!AeDbSqCn2bM7zBqV",
+  "name": "Heuristic Processor",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>This type of Processor allows a Droid to learn by doing, usually without instruction. The Droid is able to reason through several potential solutions to tasks and formulate the best approach. Because of this, a Droid with a Heuristic Processor may use Skills Untrained, just like any other character. Similarly, the Droid can wield a weapon even if it is not proficient in its use (but still takes the -5 penalty to attack rolls).</p><p>In addition, a Droid with a Heuristic Processor can creatively interpret its instructions, allowing it to complete tasks in a manner that it deems appropriate. A Heuristic Processor allows a Droid to work around its Behavioral Inhibitors as long as it can justify a given action. For example, a noncombatant Droid with a Heuristic Processor can attack and even harm a sentient living being as long as it believes that doing so will ultimately save more sentient beings from harm.</p><p>Over time, a Droid equipped with a Heuristic Processor develops a unique personality based on experience. Because of this, Memory Wipes and Restraining Bolts are commonly used to ensure that a Heuristic Processor doesn't allow a Droid to stray too far from its intended purpose. Still, some progressive masters actually encourage their Droids to break their programming, trusting the Droid's judgment to make independent decisions without taking advantage of the situation.</p>",
+    "group": "processor",
+    "cost": "2000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "02KFMKxuD83JHe2V",
+      "sourceBook": ""
+    }
+  }
+}

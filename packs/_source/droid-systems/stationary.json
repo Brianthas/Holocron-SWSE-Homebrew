@@ -1,0 +1,22 @@
+{
+  "_id": "kY7swDsqIrJkOtXD",
+  "_key": "!items!kY7swDsqIrJkOtXD",
+  "name": "Stationary",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p><b>Base</b> <b>Speed:</b> Incapable of movement</p><p>Stationary Droids do not have a Locomotion System and cannot move from a fixed position.</p>",
+    "group": "locomotion",
+    "cost": "0",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cPuwAWDzXqgsFOqE",
+      "sourceBook": ""
+    }
+  }
+}

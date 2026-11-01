@@ -1,0 +1,22 @@
+{
+  "_id": "CaQTjsbvzGlTyvDA",
+  "_key": "!items!CaQTjsbvzGlTyvDA",
+  "name": "Multispectrum Searchlight",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>This handheld or installed Droid Accessory is a powerful spotlight that shines visible, infrared, or ultraviolet light. It has a 6-km range and is powered by the Droid's own internal power supply. Droids able to see the projected light gain a +2 Equipment bonus to Perception checks to Search and Notice Targets and to other situations in which the Gamemaster judges that the light provides an advantage. This bonus stacks with bonuses granted by Helmet Packages and Improved Sensor Packages.</p><p>The light can also be used to blind targets in a 6-Square Cone. All targets within the cone receive a -10 penalty to Stealth checks. As a Standard Action, the Droid makes a ranged attack against each target's Fortitude Defense.</p><p>If the attack is successful, the target receives a -5 penalty to attack rolls, Perception checks, Pilot checks, and other Skill Checks until the end of the Droid's next turn. If the attack does not exceed a target's Fortitude Defense, the target receives a -2 penalty instead. This Droid Accessory can be used only by Droids of Tiny size or larger.</p>",
+    "group": "miscellaneous",
+    "cost": "100",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1sbn8taMZP831TD4",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

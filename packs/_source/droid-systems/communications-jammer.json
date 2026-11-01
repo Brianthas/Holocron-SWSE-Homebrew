@@ -1,0 +1,22 @@
+{
+  "_id": "ptdad9O7rxYdjDza",
+  "_key": "!items!ptdad9O7rxYdjDza",
+  "name": "Communications Jammer",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>When behind enemy lines, a Droid takes every possible precaution to ensure that anyone who finds it is unable to call for help or alert others about the Droid's presence. The Communications Jammer allows a Droid to jam any Comlink signal by interfering with a facility's communications systems or by directly jamming signals in the Droid's general vicinity.</p><p>A Communications Jammer grants a Droid a +5 Equipment bonus when making a Use Computer check to slice into a computer system and shut it down. The Droid also gets the +5 Equipment bonus to maintain that status if any slicers attempt to stop the jamming. Once the Droid has successfully connected with the communications system and begun jamming, it can continue jamming the system until it disconnects or it is forced out.</p><p>The signal jammer emits signals at multiple frequencies to interfere with any Comlink signals within a 1-kilometer radius of the Droid. The Droid must make a DC 25 Use Computer check to successfully jam any incoming or outgoing Comlink signals.</p>",
+    "group": "communications",
+    "cost": "5000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "R2wNwDHF1oHZrwFj",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

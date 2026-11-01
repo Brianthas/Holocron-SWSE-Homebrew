@@ -1,0 +1,22 @@
+{
+  "_id": "0LhwpkKii4I01zZ5",
+  "_key": "!items!0LhwpkKii4I01zZ5",
+  "name": "Remote Limb Control",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>A disassembled Droid is usually not a threat. Most beings overlook a pile of droid parts on the floor and keep moving. This package allows a Droid to voluntarily remove an arm or a hand and operate it as if it were still attached to the Droid's body.</p><p>This Equipment comes in basic and deluxe versions. The 1500-credit basic package enables one specified Appendage to operate on its own. The Appendage has a small repulsor unit inside it, allowing it to move (Hovering) up to 6 squares, and remains functional at a maximum range of 24 squares. While detached, the Appendage can perform any action it would normally be able to if attached to the Droid. The 6,000-credit deluxe package enables multiple limbs to be active at once. A Droid can control a number of Appendages equal to 1 + its Intelligence modifier (minimum 1).</p>",
+    "group": "appendage",
+    "cost": "Appendage Cost x 2",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "c3LHCN1OTKm16g7q",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

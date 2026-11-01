@@ -1,0 +1,22 @@
+{
+  "_id": "gIQmEstofoVzo1oX",
+  "_key": "!items!gIQmEstofoVzo1oX",
+  "name": "Telescopic Appendage",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>The Droid has an Appendage that reaches farther from its body than normal. A Telescopic Appendage has twice the normal Reach for the Droid's size. For example, a Medium Droid with a Telescopic Appendage has a reach of 2 squares.</p>",
+    "group": "appendage",
+    "cost": "Appendage Cost x 2",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4ycAVBdA6kq4SE4D",
+      "sourceBook": ""
+    }
+  }
+}

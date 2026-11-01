@@ -1,0 +1,22 @@
+{
+  "_id": "Uf5K0F1eqzKeaAQj",
+  "_key": "!items!Uf5K0F1eqzKeaAQj",
+  "name": "Blaster Recharge Interface",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>This Hand accessory enables a Droid to recharge a standard Power Pack for it's master. As a Swift Action, the Droid can plug in and transfer energy to the Power Pack. Recharging a Power Pack depletes energy from the Droid. For each recharge, the Droid loses Hit Points equal to one of the blaster's damage-dice type. Thus, a Droid recharging a Power Pack for a Heavy Blaster Pistol (3d8) takes 8 points of damage (since the die type is d8).</p>",
+    "group": "miscellaneous",
+    "cost": "300",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XV6c71B8V5jTe2N7",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

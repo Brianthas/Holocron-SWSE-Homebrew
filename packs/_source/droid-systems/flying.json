@@ -1,0 +1,22 @@
+{
+  "_id": "ndaDufaXxqULR3se",
+  "_key": "!items!ndaDufaXxqULR3se",
+  "name": "Flying",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p><b>Base</b> <b>Speed:</b> Small, 9 squares; Medium, 12 squares; Large or bigger, 12 squares</p><p>Flying Droids use engines of some kind to travel more or less wherever they please. They are not hampered by any type of terrain, but tend to be more expensive.</p>",
+    "group": "locomotion",
+    "cost": "200 x Cost Factor x (Base Speed Squared)",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "A4tk1KYYjGUvZvTx",
+      "sourceBook": ""
+    }
+  }
+}

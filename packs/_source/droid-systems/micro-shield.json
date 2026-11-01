@@ -1,0 +1,22 @@
+{
+  "_id": "OQ6IA5obqakWzexx",
+  "_key": "!items!OQ6IA5obqakWzexx",
+  "name": "Micro Shield",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>The Micro Shield is a Tool that prevents incoming attacks from hitting and damaging the wielder. Attached to one of the Droid's Appendages, the Micro Shield is composed of a central hub with two wide arcs mounted on struts above and below the hub. When inactive, the arcs rest against the hub in the shape of a large humanoid eye. When the Droid activates the unit as a Swift Action, the arcs slide away from the hub, activating a translucent energy shield that provides a +1 Equipment bonus to the user's Reflex Defense. The Micro Shield is originally designed to be installed on a Droid's arm, but a handheld version that runs on a single Energy Cell is available for 400 credits. The Energy Cell provides enough power to run the Micro Shield continuously for 1 hour.</p>",
+    "group": "miscellaneous",
+    "cost": "600 x Cost Factor",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ED5vEYAJzmSIC0YG",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

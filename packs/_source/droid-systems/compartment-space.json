@@ -1,0 +1,22 @@
+{
+  "_id": "3e6huBxLSEPIWFBk",
+  "_key": "!items!3e6huBxLSEPIWFBk",
+  "name": "Compartment Space",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>For every 50 credits spent, the Droid can carry 1 kg of material or Equipment in Compartment Space. A Droid's size determines the maximum weight of items stored in Compartment Space, as noted below:</p><table>\n <tbody>\n  <tr>\n   <th>DROID SIZE</th>\n   <th></th>\n   <th>MAXIMUM WEIGHT LIMIT</th>\n  </tr>\n  <tr>\n   <td>Small</td>\n   <td></td>\n   <td>5 kg</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td></td>\n   <td>10 kg</td>\n  </tr>\n  <tr>\n   <td>Large</td>\n   <td></td>\n   <td>20 kg</td>\n  </tr>\n  <tr>\n   <td>Huge</td>\n   <td></td>\n   <td>50 kg</td>\n  </tr>\n  <tr>\n   <td>Gargantuan</td>\n   <td></td>\n   <td>500 kg</td>\n  </tr>\n  <tr>\n   <td>Colossal</td>\n   <td></td>\n   <td>5,000 kg</td>\n  </tr>\n </tbody>\n</table>",
+    "group": "miscellaneous",
+    "cost": "50",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WMP1SrPYCV9uNSta",
+      "sourceBook": ""
+    }
+  }
+}

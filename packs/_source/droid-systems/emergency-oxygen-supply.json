@@ -1,0 +1,22 @@
+{
+  "_id": "xRLq4F4oZS5H7nb7",
+  "_key": "!items!xRLq4F4oZS5H7nb7",
+  "name": "Emergency Oxygen Supply",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>This accessory is installed on search-and-rescue Droids sent to recover pilots who bailout during combat. The small oxygen tank attached to the Droid's torso provides enough oxygen for a creature of Medium size for 30 minutes. The tank can be used to recharge a Vacuum Pod's supply, or the oxygen can be administered through a Breath Mask attached to the tank. Connecting the supply to a Vacuum Pod is a Swift Action. Securing the Breath Mask is a Standard Action.</p>",
+    "group": "miscellaneous",
+    "cost": "200",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nAn5RIruqLYx8mej",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

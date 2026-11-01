@@ -1,0 +1,22 @@
+{
+  "_id": "uh1cHqPiqzCP1Twh",
+  "_key": "!items!uh1cHqPiqzCP1Twh",
+  "name": "Weapon-Detector Package",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Droids use sophisticated Sensor Systems, which can easily be adjusted to offer additional security. A Weapon-Detector Package features a high-frequency receiver that can detect the hum of a deactivated Vibro weapon. It can also perform a chemical analysis to detect tibanna gas residue on blasters.</p><p>A Weapon-Detector Package allows a Droid to add its Intelligence modifier to Perception checks made to Search for Weapons.</p>",
+    "group": "sensor",
+    "cost": "1500",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hHwx8xE2a7Osphgr",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

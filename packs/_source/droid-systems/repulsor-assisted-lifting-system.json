@@ -1,0 +1,22 @@
+{
+  "_id": "M6leKU31BZHccEcD",
+  "_key": "!items!M6leKU31BZHccEcD",
+  "name": "Repulsor-Assisted Lifting System",
+  "type": "droidSystem",
+  "system": {
+    "description": "",
+    "group": "hardened",
+    "cost": "200 x Cost Factor",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pFA9rAAuUJojNFVt",
+      "sourceBook": ""
+    }
+  }
+}

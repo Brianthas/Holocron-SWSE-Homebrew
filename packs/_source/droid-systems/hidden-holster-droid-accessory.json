@@ -1,0 +1,22 @@
+{
+  "_id": "gdNzBvI6qADBdMso",
+  "_key": "!items!gdNzBvI6qADBdMso",
+  "name": "Hidden Holster (Droid Accessory)",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Some 4th-Degree Droids lack built-in Weapons attached directly to the Droids' Appendages. This attachment gives a Droid access to a Weapon without having to visibly carry it. Installed in a Droid's leg, the Hidden Holster can hold a Weapon one size category smaller than the Droid, or smaller. As a Free Action, the Droid can activate the Hidden Holster, which opens up, providing access to the Weapon. The Hidden Holster provides the benefit of the Quick Draw Feat with whatever Weapon the Droid is keeping in the Hidden Holster- the Droid can draw or holster the Weapon as a Swift Action. To gain this benefit, the Droid must have the Feat's +1 Base Attack Bonus prerequisite.</p>",
+    "group": "miscellaneous",
+    "cost": "500 x Cost Factor",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KPadJbKAEXLVhiKN",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

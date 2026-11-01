@@ -1,0 +1,22 @@
+{
+  "_id": "GHag1BedHLkIrdXD",
+  "_key": "!items!GHag1BedHLkIrdXD",
+  "name": "Remote Viewer",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>The Remote Viewer is a small, self-contained visual and audio sensor attached to a micro-sized repulsorlift unit. Functioning as one of a Droid's regular audio and visual sensors, the Remote Viewer can be externally mounted, concealed, or made to look like one of the Droid's regular sensors. However, the Droid can detach the unit and send it to inspect an area remotely. The Remote Viewer can travel up to 12 squares away from the Droid, has a Speed of 4, a Reflex Defense of 18, a Fortitude Defense of 12, and it runs for 30 minutes before needing to be recharged for 1 hour.</p>",
+    "group": "miscellaneous",
+    "cost": "1000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0BFIwzA3NDQpQ1o3",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "wG8xDuJOUV5aD16W",
+  "_key": "!items!wG8xDuJOUV5aD16W",
+  "name": "Locked Access",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>A Droid with Locked Access has its shutdown switch secured or located internally, preventing it from being shut off by an opponent. The Droid must be disabled or otherwise rendered helpless before it can be shut down.</p>",
+    "group": "miscellaneous",
+    "cost": "50",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GBLIdtOqMX63RWVi",
+      "sourceBook": ""
+    }
+  }
+}

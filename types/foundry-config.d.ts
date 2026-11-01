@@ -7,7 +7,7 @@
 import type { CharacterModel } from "../src/data/actor/character.ts";
 import type { AttackFlag } from "../src/dice/attack.ts";
 import type {
-  ArmorModel, ClassModel, EquipmentModel, FeatModel, FeatureModel, ForcePowerModel, SpeciesModel, TalentModel, WeaponModel,
+  ArmorModel, ClassModel, DroidSystemModel, EquipmentModel, FeatModel, FeatureModel, ForcePowerModel, SpeciesModel, TalentModel, WeaponModel,
 } from "../src/data/item/models.ts";
 import type { HolocronEffectModel } from "../src/effects/model.ts";
 
@@ -30,6 +30,7 @@ declare module "fvtt-types/configuration" {
       weapon: typeof WeaponModel;
       armor: typeof ArmorModel;
       equipment: typeof EquipmentModel;
+      droidSystem: typeof DroidSystemModel;
     };
     ActiveEffect: {
       base: typeof HolocronEffectModel;

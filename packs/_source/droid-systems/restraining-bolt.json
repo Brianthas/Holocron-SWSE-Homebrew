@@ -1,0 +1,22 @@
+{
+  "_id": "hGeZVNVR3GpCvcYj",
+  "_key": "!items!hGeZVNVR3GpCvcYj",
+  "name": "Restraining Bolt",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>A Restraining Bolt turns off a Droid's motor impulse without actually shutting down the Droid. The Restraining Bolt is activated with a handheld device called a Droid Caller. Restraining Bolts must be secured to specific locations on Droids. Attaching or removing a Restraining Bolt is a Full-Round Action and requires a DC 10 Mechanics check. A Droid fitted with a Restraining Bolt can't upgrade or improve its Skills.</p><p>A Droid with a Heuristic Processor can attempt to remove its own Restraining Bolt as a Standard Action with a successful DC 20 Charisma check followed by a successful DC 15 Mechanics check. A Droid that fails the Charisma check can't attempt to remove the Restraining Bolt again until 24 hours pass.</p>",
+    "group": "processor",
+    "cost": "5",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "95YVqm8FyNZckVSE",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "HvGwZ9kJhmwNa3N2",
+  "_key": "!items!HvGwZ9kJhmwNa3N2",
+  "name": "Mesh Tape Dispenser",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Mounted on an Appendage, a Mesh Tape Dispenser enables a Droid to quickly apply Mesh Tape to anything within reach of its manipulator (usually an adjacent square). In addition to it's more conventional uses, an installed Mesh Tape Dispenser can be used by a Droid to entangle an adjacent enemy. With a successful melee attack, the Droid can hinder either the target's arms or its legs. If the target's arms are hindered, it incurs a -2 penalty to all attack rolls and Dexterity-based Skill Checks. If the target's legs are hindered, it's Speed is reduced by 2 squares, and it cannot Run. If the Droid has the Pin Feat and succeeds at an opposed Grapple check, the enemy is considered Pinned until the Mesh Tape is removed (instead of until the start of the Droid's next turn).</p>",
+    "group": "miscellaneous",
+    "cost": "10 x Cost Factor",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6xaqjl8yU41Ybyck",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

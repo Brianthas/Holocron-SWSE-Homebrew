@@ -1,0 +1,22 @@
+{
+  "_id": "Mf8k9MMBTaPMrHcC",
+  "_key": "!items!Mf8k9MMBTaPMrHcC",
+  "name": "Walking",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p><b>Base</b> <b>Speed:</b> Small, 4 squares; Medium, 6 squares; Large or bigger, 8 squares</p><p>Walking Droids are the most versatile Droids, having legs and feet that let them travel like bipeds, quadrupeds, and other similar creatures. The most common chassis for walking droids is the \"humanoid\" form (two arms, two legs, and a head). They suffer the usual penalties when moving through Difficult Terrain.</p>",
+    "group": "locomotion",
+    "cost": "10 x Cost Factor x (Base Speed Squared)",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7LXbweAH6SzNYSdq",
+      "sourceBook": ""
+    }
+  }
+}

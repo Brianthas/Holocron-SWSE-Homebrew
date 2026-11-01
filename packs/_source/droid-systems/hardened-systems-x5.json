@@ -1,0 +1,22 @@
+{
+  "_id": "BTNsJhj7JLxP5PoX",
+  "_key": "!items!BTNsJhj7JLxP5PoX",
+  "name": "Hardened Systems (x5)",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Droids of Large or greater size can be designed to have internal armor and redundant systems that enable it to continue functioning despite heavy damage</p>",
+    "group": "hardened",
+    "cost": "6250 x Cost Factor",
+    "requires": "Large or Huge or Colossal or Gargantuan",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cvrllrEN3yPThUfz",
+      "sourceBook": ""
+    }
+  }
+}

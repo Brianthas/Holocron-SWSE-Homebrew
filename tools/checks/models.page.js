@@ -30,6 +30,7 @@ const items = [
   { name: "Battle Armor", type: "armor", system: { reflex: { ability: "", flat: 4 }, damageReduction: 2, drBypass: "lightsabers" } },
   { name: "Assault Armor", type: "armor", system: { reflex: { ability: "str", flat: 0 } } },
   { name: "Medpac", type: "equipment", system: { quantity: 3, slot: "light" } },
+  { name: "Vocabulator", type: "droidSystem", system: { group: "communications", cost: "1000", installed: true } },
 ];
 const actor = await Actor.create({
   name: "Models Probe",
@@ -39,7 +40,7 @@ const actor = await Actor.create({
   items,
 });
 const types = [...new Set(actor.items.map((i) => i.type))].sort();
-check("every item type embeds and validates", actor.items.size === items.length && actor._source.items.length === items.length && types.length === 9, {
+check("every item type embeds and validates", actor.items.size === items.length && actor._source.items.length === items.length && types.length === 10, {
   collection: actor.items.size, source: actor._source.items.length, types,
 });
 const power = actor.items.getName("Move Object");

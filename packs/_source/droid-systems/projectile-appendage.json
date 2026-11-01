@@ -1,0 +1,22 @@
+{
+  "_id": "o504QZiJWA9ecGbT",
+  "_key": "!items!o504QZiJWA9ecGbT",
+  "name": "Projectile Appendage",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>4th-Degree Droids are programmed for combat and security, but other Droids can defend themselves as well. A popular modification is a Projectile Appendage, usually a Hand on humanoid Droids. When the projectile is activated, the Appendage flies toward the target. A Droid might use a Projectile Appendage in order to stun an aggressor or knock a blaster away rather than risking destruction in a blaster fight.&nbsp;</p><p>The basic package is a tension-spring device that costs 250 credits to install. A Projectile Appendage is considered to be a Simple Weapon (Ranged) that deals 2d8 damage. Additionally, the Projectile Appendage can be used to make a ranged Disarm attempt against a target within 6 squares.&nbsp;</p>",
+    "group": "appendage",
+    "cost": "Appendage Cost x 2",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mHXgsmeDuPXEx1LG",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

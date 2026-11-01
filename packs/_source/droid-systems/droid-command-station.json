@@ -1,0 +1,22 @@
+{
+  "_id": "tYqny5YxOntkHGFF",
+  "_key": "!items!tYqny5YxOntkHGFF",
+  "name": "Droid Command Station",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>On Starships and at other installations requiring a large Droid population, centralized Droid Command Stations direct and control Droids as they carry out their daily operations. A Droid or an organic overseer can operate the Droid Command Station. On large Starships or major facilities, the Droid Command Station is manned at all hours. Smaller operations might use the Droid Command Station to issue commands and to provide automated oversight. Droids in the command station's Pool must have a Comlink, an Internal Comlink, or a Remote Processor in order to maintain contact with the Droid Command Station. Accessing the station requires the appropriate password or Code Cylinder. The Droid Command Station typically has an Intelligence score of 14 (or the ship's Intelligence, whichever is higher) and a Will Defense of 15. Standard Droid Command Stations provide the following functions with the indicated Use Computer or Mechanics check:</p><ul>\n <li>Issue a routine command to order a Droid in the Droid Pool to carry out a specific task. If the Droid is familiar with the task, or if the Droid is Trained in the associated Skill, no Skill Check is required. If the command is unusual or highly specific, a Use Computer check might be required at the Gamemaster's discretion. The user gains a +10 Equipment bonus to Use Computer, Persuasion, and Perception checks against the Droid. Commands can be issued verbally or by keypad.</li>\n</ul><ul>\n <li>Coordinate multiple Droids in the Pool, enabling them to complete tasks more efficiently. With a DC 15 Use Computer check by the station operator, each Droid aiding in a given task provides a +3 bonus instead of a +2 bonus and automatically succeeds on checks to Aid Another.</li>\n</ul><ul>\n <li>Locate any Droid in the Droid Pool anywhere within the station's operational range- typically the vessel or facility where the Droid Command Station is installed. The target Droid must be fitted with a tracking device or a Restraining Bolt that can be tracked by station's sensors or the facility's security network. A Use Computer check of DC 5 is sufficient to locate any such Droid.</li>\n</ul><ul>\n <li>Receive detailed information about a Droid's status, including current Hit Points, position on the Condition Track, and the operational condition of it's Droid Systems and Droid Accessories. No check is required.</li>\n</ul><ul>\n <li>Reprogram a Droid in the Pool by remote or direct connection to the Droid Command Station.</li>\n</ul><ul>\n <li>Translate between Binary and common languages. No check is required.</li>\n</ul>",
+    "group": "station",
+    "cost": "10000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gzuuJiNIgyHMyzJt",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

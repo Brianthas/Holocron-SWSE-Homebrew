@@ -1,0 +1,22 @@
+{
+  "_id": "KhG14q9k2wchV4hy",
+  "_key": "!items!KhG14q9k2wchV4hy",
+  "name": "Sensor Booster",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Probe Droids try to coax a little more range out of their sensor equipment to get that extra amount of information about the area they are scanning. A Sensor Booster is a Droid Accessory that extends the range of its sensors to a maximum of 2 kilometers, if the Droid has a Sensor Pack installed.</p>",
+    "group": "sensor",
+    "cost": "200",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YCYIDKDpxzsl9UOJ",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

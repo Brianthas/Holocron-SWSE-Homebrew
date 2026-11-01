@@ -122,7 +122,7 @@ export function convertEquipment(report: Report): OutputDoc[] {
   for (const doc of readPack(PACK)) {
     const subtype = String(doc.system["subtype"] ?? "");
     if (subtype === "Equipment" && !KEPT_PAGES.has(doc.name)) { report.exclude(PACK, doc, "a wiki page, not gear (rulings.md, Content: wiki pages in the equipment pack)"); continue; }
-    if (subtype.startsWith("Droid Accessories")) { report.exclude(PACK, doc, "held: a droid accessory, converted with droid systems"); continue; }
+    if (subtype.startsWith("Droid Accessories")) { report.note("moved to droid systems", doc.name); continue; }
     const fail = (message: string) => report.problem(PACK, doc, message);
     // weight, availability, seeAlso and specialQualities are text the description repeats or the
     // wiki's navigation; size is the item's size category.

@@ -1,0 +1,22 @@
+{
+  "_id": "SD6N6jLiIGEg99gr",
+  "_key": "!items!SD6N6jLiIGEg99gr",
+  "name": "Interference Generator",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>This Droid Accessory is a favorite of nobles who want to keep their conversations private. A Droid with an Interference Generator emits a low-frequency sound that interferes with any listening Equipment such as bugs, microphones, or other audio Recording Devices. The deluxe version also interferes with video and holographic Recording Devices. The <strong>Interference Generator</strong> masks everything in the squares adjacent to the Droid. Anyone Eavesdropping or reviewing recordings of targets protected by an Interference Generator must make a DC 30 Perception or Use Computer check to pick up even scattered words and phrases.</p>",
+    "group": "miscellaneous",
+    "cost": "2500",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SyzC3kYbidFmQOyU",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

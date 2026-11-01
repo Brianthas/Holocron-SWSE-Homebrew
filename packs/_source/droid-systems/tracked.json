@@ -1,0 +1,22 @@
+{
+  "_id": "MzPlA3kQ1xprne9W",
+  "_key": "!items!MzPlA3kQ1xprne9W",
+  "name": "Tracked",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p><b>Base</b> <b>Speed:</b> Small, 4 squares; Medium, 6 squares; Large or bigger, 8 squares</p><p>Tracked Droids are an improvement on the Wheeled Droid, having rigid treads that give them more traction. Tracked Droids ignore the penalties of Difficult Terrain, but they take a -5 penalty on all Climb checks.</p>",
+    "group": "locomotion",
+    "cost": "20 x Cost Factor x (Base Speed Squared)",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "U0AK6gMk2FEdefAd",
+      "sourceBook": ""
+    }
+  }
+}

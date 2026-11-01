@@ -1,0 +1,22 @@
+{
+  "_id": "t4rZZwCtulLggkaY",
+  "_key": "!items!t4rZZwCtulLggkaY",
+  "name": "Collapsible Construction",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>A Droid sometimes needs to be stowed in places where it usually would not fit. For example, a Droid stowed in a smaller cargo space might surprise an enemy. The Collapsible Construction modification allows a Droid to lower its size category by one when it shuts down. The Droid Brain enters stand-by mode while it compacts itself into a smaller size. The Droid can reactivate at any time as a Standard Action.</p>",
+    "group": "miscellaneous",
+    "cost": "2000 x Cost Factor",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8E6uRGR9KyTAG2Xl",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

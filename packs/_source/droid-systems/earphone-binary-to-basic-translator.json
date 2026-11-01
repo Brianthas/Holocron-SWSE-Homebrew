@@ -1,0 +1,22 @@
+{
+  "_id": "wrK9ugWutyJ4l3mS",
+  "_key": "!items!wrK9ugWutyJ4l3mS",
+  "name": "Earphone Binary-to-Basic Translator",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Binary is the primary language of Droids. This Translator Unit is installed on a Droid's Basic-output jack, a standard jack found on most Droids that enables them to connect to a terminal or a Datapad and to express themselves in written Basic. The translator converts audible Binary into audible Basic, transmitting the spoken words to an earphone receiver. The less expensive version requires a large headphone set, while the more expensive version transmits to an earbud receiver. Detecting the earbud requires a Perception check of DC 20.</p>",
+    "group": "translator",
+    "cost": "20",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LeMz3HKVV5T0hMXg",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

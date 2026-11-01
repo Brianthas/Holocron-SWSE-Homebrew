@@ -1,0 +1,22 @@
+{
+  "_id": "V8EcbCcFIRQaV9DA",
+  "_key": "!items!V8EcbCcFIRQaV9DA",
+  "name": "ID Dodge",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Some automated security systems check biometric data before granting access to an area. Droids cannot provide retinal scans, fingerprints, or other unique biological features. The ID Dodge simulates such information, allowing a Droid to access secure areas. This Droid Accessory allows the Droid to use a Deception check instead of a Use Computer check on any security device that requires organic biometric identification.</p>",
+    "group": "miscellaneous",
+    "cost": "5000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dpbqSTmZEd2oHF4v",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

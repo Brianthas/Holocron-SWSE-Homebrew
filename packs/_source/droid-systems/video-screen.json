@@ -1,0 +1,22 @@
+{
+  "_id": "5ZHHZiROLTo3snZn",
+  "_key": "!items!5ZHHZiROLTo3snZn",
+  "name": "Video Screen",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>This Droid Accessory gives the Droid a small, built-in video screen to display text, translations, diagnostics, programming, pictures, and other information. Screen sizes vary from 50mm to 500mm and are priced at 1 credit per square millimeter of screen size.</p>",
+    "group": "miscellaneous",
+    "cost": "1 x Millimeters2",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XPDwLNkfZdxRatVG",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

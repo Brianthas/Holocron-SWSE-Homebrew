@@ -1,0 +1,22 @@
+{
+  "_id": "ogoCXN6Uw5JcySEP",
+  "_key": "!items!ogoCXN6Uw5JcySEP",
+  "name": "Specialized Subprocessor",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Specialized Subprocessors are customized processing units designed to aid Droids in specific tasks. Varying in size, abilities, cost, and difficulty of installation, each Specialized Subprocessor enables a Droid to carry out a specific calculation or analysis more quickly or simultaneously with other tasks. A Specialized Subprocessor grants a Droid a single extra Swift Action each turn that can only be used to perform an action related to a single Skill, chosen at the time the Specialized Subprocessor is created. A Droid can only have one Specialized Subprocessor. For examples of Specialized Subprocessors, see the modifications sections of some Droids, such as the GD16-Series Pilot Droid.</p>",
+    "group": "processor",
+    "cost": "1000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fkkBzpWJrtYDKCHx",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

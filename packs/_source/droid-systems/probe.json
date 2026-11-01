@@ -1,0 +1,22 @@
+{
+  "_id": "qwyIPPZb40J51Dkb",
+  "_key": "!items!qwyIPPZb40J51Dkb",
+  "name": "Probe",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Few Droids have no actual manipulators. The bare minimum is a Probe that can push or pull objects.</p>",
+    "group": "appendage",
+    "cost": "2 x Cost Factor",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1pB4xft4YcsqbVyL",
+      "sourceBook": ""
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "uWiuynXkE5Vta3Rg",
+  "_key": "!items!uWiuynXkE5Vta3Rg",
+  "name": "Silence-Bubble Generator",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>The Silence-Bubble Generator creates an energy sphere that dampens sound waves. The apparatus is originally marketed as a way for music lovers to enjoy their favorite music without being disturbed by noise. However, spies and crime lords also find the generator useful. Activating the Silence-Bubble Generator is a Standard Action. The bubble covers all squares within 3 squares of the Droid. Any attempt to hear anything inside the bubble by someone outside of the bubble takes a -10 penalty to Perception checks.</p>",
+    "group": "miscellaneous",
+    "cost": "3500",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SAq5Xdl8VhO6jrec",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

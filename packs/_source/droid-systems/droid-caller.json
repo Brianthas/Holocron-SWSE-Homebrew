@@ -1,0 +1,22 @@
+{
+  "_id": "GaadAkWywvznZkRi",
+  "_key": "!items!GaadAkWywvznZkRi",
+  "name": "Droid Caller",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>The Droid Caller is a handheld transmitter weighing 0.2 kg. It transmits a signal to any droid equipped with a Restraining Bolt. The Droid Caller overrides a Droid's motor function and impels it toward the caller for as long as the device is activated.</p>",
+    "group": "communications",
+    "cost": "10",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oWpwr8mFtwgBPPh1",
+      "sourceBook": ""
+    }
+  }
+}

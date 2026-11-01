@@ -1,0 +1,22 @@
+{
+  "_id": "B4kfTlbMgnQY12DZ",
+  "_key": "!items!B4kfTlbMgnQY12DZ",
+  "name": "Jump Servos",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p><b>Requires:</b>&nbsp;Walking&nbsp;Locomotion System</p><p>Repulsorlift-assisted Jump Servos can be added to any Droid with a Walking Locomotion System. Jump Servos grant the Droid the ability to treat all Jumps as Running Jumps, even without a head start (see the Jump skill). In addition, the droid may reroll a failed Jump check (keeping the better result) and Take 10 on Jump checks even when rushed or threatened. Jump Servos double the cost of a Walking Locomotion System.</p>",
+    "group": "locomotion",
+    "cost": "Locomotion System Cost x 2",
+    "requires": "Walking Locomotion System",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MZXooSIH3tI0O9vh",
+      "sourceBook": ""
+    }
+  }
+}

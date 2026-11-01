@@ -44,7 +44,8 @@
       "feature": { "htmlFields": ["description"] },
       "weapon": { "htmlFields": ["description"] },
       "armor": { "htmlFields": ["description"] },
-      "equipment": { "htmlFields": ["description"] }
+      "equipment": { "htmlFields": ["description"] },
+      "droidSystem": { "htmlFields": ["description"] }
     }
   },
   "packs": [],

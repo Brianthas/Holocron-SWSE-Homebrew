@@ -1,0 +1,22 @@
+{
+  "_id": "vQaYW3nlRjUw1eNC",
+  "_key": "!items!vQaYW3nlRjUw1eNC",
+  "name": "Magnetic Hands",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Magnetic Feet are a common means of Locomotion. Droids specializing in extra-vehicular activities are often equipped with them. Magnetic Hands function like Magnetic Feet. When used in concert with Magnetic Feet, they provide a +2 bonus to any Climb checks made while maneuvering around a hull in space, as well as a +5 bonus to Defenses against any attempt to knock the Droid off the hull. When Magnetic Hands are activated, the Droid cannot make attacks or use anything requiring its hands, including Weapons.</p>",
+    "group": "appendage",
+    "cost": "Appendage Cost x 2",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Qt24pZdFLtlMOoOO",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

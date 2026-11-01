@@ -1,0 +1,22 @@
+{
+  "_id": "MX7Av1xp9b3CAXQo",
+  "_key": "!items!MX7Av1xp9b3CAXQo",
+  "name": "Rocket Arm",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>This Illegal modification is derived from the Projectile Appendage system available for noncombat Droids. A Rocket Arm is essentially a hollowed-out Droid arm in which the servo control has been replaced by a short-range rocket engine and fuel. The arm's fine control is eliminated, but the Droid can point its arm at a target and fire. The arm detaches and flies at the target, detonating the remaining fuel on impact. Rocket Arms are unguided projectiles without targeting computers.</p><p>This Illegal modification costs 2,000 credits and installation requires a DC 20 Mechanics check. Failure on the Mechanics check means the rocket might not detach properly when fired, exploding and dealing its damage to the Droid and all targets in a 1-square Splash radius. The Rocket Arm is considered to be a Heavy Weapon that deals 3d8 points of damage upon detonation, with a 1-square Splash.</p>",
+    "group": "appendage",
+    "cost": "Appendage Cost x 4",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0X07qJ7wj7mjlX1A",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

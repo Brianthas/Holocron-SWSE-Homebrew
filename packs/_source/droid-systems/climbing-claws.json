@@ -1,0 +1,22 @@
+{
+  "_id": "Shl2631hCqCK88Aw",
+  "_key": "!items!Shl2631hCqCK88Aw",
+  "name": "Climbing Claws",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p><b>Requires:</b> Hand or Claw Appendage</p><p>Claws designed to grip a surface can be added to any Droid with a Hand or Claw Appendage. Climbing Claws grant the Droid a climb speed equal to one-half of its base speed. In addition, a Droid equipped with Climbing Claws may reroll a failed Climb check (keeping the better result) and can Take 10 on Climb checks even when rushed or threatened. While in use, a Climbing Claw cannot be used for any other action. Climbing Claws double the cost of the Appendage.</p>",
+    "group": "appendage",
+    "cost": "Appendage Cost x 2",
+    "requires": "Hand or Claw Appendage",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RRJQmi0UMCPnpBDb",
+      "sourceBook": ""
+    }
+  }
+}

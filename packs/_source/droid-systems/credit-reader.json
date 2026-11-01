@@ -1,0 +1,22 @@
+{
+  "_id": "iZCAIupL5e7Ip7rh",
+  "_key": "!items!iZCAIupL5e7Ip7rh",
+  "name": "Credit Reader",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Interplanetary banks and crime lords have one common interest: They need to know how much money a client has before they do business. Whether a line of credit or hard currency, a Credit Reader determines whether a target's credits are real or if a line of credit exists for that being. The Credit Reader gives the Droid a +5 bonus to any Perception check against any Deception check made to forge credit accounts or financial documents. The Droid can also instantly count any sum of hard credits presented to it as a Free Action.</p>",
+    "group": "miscellaneous",
+    "cost": "50",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NaPfVNCPZNgABF9T",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "OWaMB3fCYpT210vf",
+  "_key": "!items!OWaMB3fCYpT210vf",
+  "name": "Remote Receiver Jammer",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>The portable Remote Receiver Jammer is developed during the Clone Wars to scramble Battle Droid Remote Processor links at short range, rendering the Droids useless. The jammer incorporates a backpack transmitter and a handheld computer controller. Remote Receiver Jammers have three significant weaknesses: They have an extremely short range; datalinks are notoriously difficult to disrupt; and many Droids have Backup Processors. A Remote Receiver Jammer can be activated as a Standard Action, and the jammer affects all Droids with Remote Receivers and no Backup Processors. When the jammer is activated, the Droid using the jammer makes a Use Computer check. At the start of any affected Droid's turn, compare the results of the Use Computer check to the Droid's Will Defense; if the Use Computer check is equal to or higher than the Droid's Will Defense, the Droid can take no Actions and is Flat-Footed until the start of it's next turn. The Droid activating the Remote Receiver Jammer must activate it each turn, making a new Use Computer check each time.</p>",
+    "group": "communications",
+    "cost": "2000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "b4AI6UflEPwCBRM5",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

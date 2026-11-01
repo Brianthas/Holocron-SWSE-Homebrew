@@ -11,6 +11,7 @@ import { fileURLToPath } from "node:url";
 import { slugify } from "./lib/ids.ts";
 import { Report, type OutputDoc } from "./lib/pack.ts";
 import { convertClasses } from "./packs/classes.ts";
+import { convertDroidSystems } from "./packs/droid-systems.ts";
 import { convertFeats } from "./packs/feats.ts";
 import { convertArmor, convertEquipment, convertWeapons } from "./packs/gear.ts";
 import { convertForceFeatures } from "./packs/force-features.ts";
@@ -28,6 +29,7 @@ const packs = new Map<string, OutputDoc[]>([
   ["force-powers", powers], ...convertForceFeatures(powers.map((p) => p.name), report), ["feats", convertFeats(report)],
   ["talents", convertTalents(report)], ["species", convertSpecies(report)], ["classes", convertClasses(report)],
   ["weapons", convertWeapons(report)], ["armor", convertArmor(report)], ["equipment", convertEquipment(report)],
+  ["droid-systems", convertDroidSystems(report)],
 ]);
 // A talent's name can repeat across trees ("Charm Beast"), so its file carries the tree.
 const fileName = (doc: OutputDoc) => (doc.type === "talent" ? `${slugify(String(doc.system["tree"]))}--${slugify(doc.name)}` : slugify(doc.name));

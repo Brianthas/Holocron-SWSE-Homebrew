@@ -1,0 +1,22 @@
+{
+  "_id": "BhwjWnQv7RD7AEj4",
+  "_key": "!items!BhwjWnQv7RD7AEj4",
+  "name": "Audio-Radial Stunner",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>This defense system protects Droids in dangerous situations. As a Standard Action, the Audio-Radial Stunner broadcasts a short-ranged, high-pitched frequency on all channels, calling attention to the Droid and stunning any nearby creatures. Until the end of the Droid's next turn, any creature that starts its turn adjacent to the Droid must make a DC 20 Endurance check. Failure causes the creature to move -1 step on the Condition Track. The Audio-Radial Stunner shuts down if the Droid is deactivated or destroyed.</p>",
+    "group": "miscellaneous",
+    "cost": "5000",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WqdZBuA2CzESML86",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

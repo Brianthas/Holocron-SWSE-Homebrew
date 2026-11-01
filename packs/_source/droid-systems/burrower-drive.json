@@ -1,0 +1,22 @@
+{
+  "_id": "mM5PPBJL6wOebsZc",
+  "_key": "!items!mM5PPBJL6wOebsZc",
+  "name": "Burrower Drive",
+  "type": "droidSystem",
+  "system": {
+    "description": "<p>Mining and other 5th-Degree Droids can use a Burrower Drive to tear through large chunks of ore embedded in the crust of a planet or in an asteroid. A Burrower Drive enables a Droid to move at half-speed underground. It can also move vertically up or down at a similar rate.</p><p>A Burrower Drive can be used as a Weapon. The Droid makes a melee attack. If the attack is successful, the Droid deals damage equal to the amount it would do if it had used a Self-Destruct System. However, each successful attack moves the Droid -1 step on the Condition Track with a Persistent Condition, as the drill gears and bits strip down and damage the Droid.</p>",
+    "group": "locomotion",
+    "cost": "200 x Cost Factor x (Speed squared)",
+    "requires": "",
+    "installed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YNXEZvKsaoYvOuMu",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}
