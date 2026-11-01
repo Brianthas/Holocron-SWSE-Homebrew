@@ -1,0 +1,66 @@
+{
+  "_id": "iaHcheBfryrtjfQW",
+  "_key": "!items!iaHcheBfryrtjfQW",
+  "name": "Turn and Burn",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can retreat from enemies with additional speed and agility.</p><p><b>Prerequisites:</b> Droid; Hovering, Flying, Wheeled, or Tracked Locomotion; Dexterity 13</p><p><b>Effect:</b> When using the Withdraw Action, you can move up to 2 squares to escape Threatened squares without provoking an Attack of Opportunity, and you can move your Speed. You can spend a Force Point as a Reaction to an enemy ending its movement adjacent to you to Withdraw.</p><p><b>Normal:</b> When using the Withdraw Action, you can normally move only 1 square to escape a Threatened square without provoking an Attack of Opportunity and can move only up to half your Speed.</p><p><b>Special:</b> You must be equipped with Hovering, Flying, Wheeled, or Tracked Locomotion to use this Feat.</p>",
+    "prerequisite": {
+      "text": "Droid, (Hovering, Flying, Wheeled, or Tracked), and Dexterity 13",
+      "nodes": {
+        "children": [
+          {
+            "text": "Droid",
+            "requirement": "Is a droid",
+            "type": "SPECIAL"
+          },
+          {
+            "children": [
+              {
+                "text": "Hovering",
+                "requirement": "Hovering",
+                "type": "EQUIPPED"
+              },
+              {
+                "text": "Flying",
+                "requirement": "Flying",
+                "type": "EQUIPPED"
+              },
+              {
+                "text": "Wheeled",
+                "requirement": "Wheeled",
+                "type": "EQUIPPED"
+              },
+              {
+                "text": "Tracked",
+                "requirement": "Tracked",
+                "type": "EQUIPPED"
+              }
+            ],
+            "count": 1,
+            "text": "Hovering, Flying, Wheeled, or Tracked",
+            "type": "OR"
+          },
+          {
+            "text": "Dexterity 13",
+            "requirement": "Dexterity 13",
+            "type": "ATTRIBUTE"
+          }
+        ],
+        "text": "Droid, (Hovering, Flying, Wheeled, or Tracked), and Dexterity 13",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6VQ3NxoIvaE38iZE",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "dquslWZ6iDlC4J5Y",
+  "_key": "!items!dquslWZ6iDlC4J5Y",
+  "name": "Quick Draw",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can draw and holster weapons with startling quickness.</p><p><b>Prerequisite:</b> Base Attack Bonus +1</p><p><b>Effect:</b> You can Draw or Holster a Weapon as a Swift Action instead of a Move Action.</p><h2>Additional Quick Draw Effects</h2><p><b>Combined Feat (Dual Weapon Mastery I):</b> You can draw or holster two weapons with a single Swift Action; you must have both hands free to draw both weapons, and each weapon must be able to be held in one hand.</p><p><b>Combined Feat (Weapon Proficiency (Lightsabers)):</b> You can draw and ignite your Lightsaber as a single Swift Action.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "nodes": {
+        "text": "Base Attack Bonus 1",
+        "requirement": "1",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "EFxEKiNgupEuSYWV",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

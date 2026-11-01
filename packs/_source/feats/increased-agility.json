@@ -1,0 +1,28 @@
+{
+  "_id": "4b02vkbyJKISY0YD",
+  "_key": "!items!4b02vkbyJKISY0YD",
+  "name": "Increased Agility",
+  "type": "feat",
+  "system": {
+    "description": "<p>Due to your own natural abilities or specific training, you move faster or farther than normal when climbing, jumping, and swimming.</p><p><b>Prerequisite:</b> Conditioning</p><p><b>Effect:</b> You increase your Climb Speed, Swim Speed and Jump distance by +2 squares and do not lose your Dexterity bonus to Reflex Defense when climbing.</p>",
+    "prerequisite": {
+      "text": "Conditioning feat",
+      "nodes": {
+        "text": "Conditioning feat",
+        "requirement": "Conditioning",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OxfrBUdq2egvs9fy",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

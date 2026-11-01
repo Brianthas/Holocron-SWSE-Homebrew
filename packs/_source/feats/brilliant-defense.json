@@ -1,0 +1,28 @@
+{
+  "_id": "kNcUcE9ANcOWMrhp",
+  "_key": "!items!kNcUcE9ANcOWMrhp",
+  "name": "Brilliant Defense",
+  "type": "feat",
+  "system": {
+    "description": "<p>You think quickly enough on your feet to stay alive in dangerous situations.</p><p><b>Prerequisite:</b> Intelligence 13</p><p><b>Effect:</b> Once per encounter, you can add your Intelligence modifier to your Reflex Defense as a Reaction; this benefit lasts until the start of your next turn.</p>",
+    "prerequisite": {
+      "text": "Intelligence 13",
+      "nodes": {
+        "text": "Intelligence 13",
+        "requirement": "Intelligence 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Tf3fuNKe5k8Or8G4",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

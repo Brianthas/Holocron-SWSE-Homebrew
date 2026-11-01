@@ -1,0 +1,39 @@
+{
+  "_id": "GcifCRYzYBqDfOCf",
+  "_key": "!items!GcifCRYzYBqDfOCf",
+  "name": "Unleashed",
+  "type": "feat",
+  "system": {
+    "description": "<p>You gain access to Unleashed Abilities. If you have the Force Sensitivity Feat, you also gain access to Force Unleashed Abilities.</p><p><b>Prerequisites:</b> Have a&nbsp;Destiny, Receive the Gamemaster's Approval</p><p><b>Effect:</b> You can activate Unleashed Abilities by spending a Destiny Point. You must also have the Force Sensitivity Feat in order to activate Force Unleashed Abilities for Force Powers and Force Talents.</p>",
+    "prerequisite": {
+      "text": "Have a Destiny, and Receive the Gamemaster's Approval",
+      "nodes": {
+        "children": [
+          {
+            "text": "Have a Destiny",
+            "requirement": "Have a Destiny",
+            "type": "SPECIAL"
+          },
+          {
+            "text": "Receive the Gamemaster's Approval",
+            "requirement": "Receive the Gamemaster's Approval",
+            "type": "SPECIAL"
+          }
+        ],
+        "text": "Have a Destiny, and Receive the Gamemaster's Approval",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JXPX5XXoyX5yXC5J",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "LTfJVpw45xc9VHVI",
+  "_key": "!items!LTfJVpw45xc9VHVI",
+  "name": "Channel Rage",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have learned to turn your Rage into pure will and focus.</p><p><b>Prerequisite:</b> Rage Species Trait</p><p><b>Effect:</b> Once per day, instead of entering into a Rage, you gain a +5 bonus to your Will Defense until the end of the encounter. This bonus counts as using your Rage ability for that day.</p>",
+    "prerequisite": {
+      "text": "Rage trait",
+      "nodes": {
+        "text": "Rage trait",
+        "requirement": "Rage",
+        "type": "TRAIT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SRAw9Ov1hn1YcDsA",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

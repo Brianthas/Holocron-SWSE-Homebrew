@@ -1,0 +1,39 @@
+{
+  "_id": "LvIOLZMOeranRtnp",
+  "_key": "!items!LvIOLZMOeranRtnp",
+  "name": "Opportunistic Trickery",
+  "type": "feat",
+  "system": {
+    "description": "<p>When your opponent lets down its guard, you know how to set it off balance for several moments.</p><p><b>Prerequisites:</b> Combat Reflexes, <b>Sneak Attack</b></p><p><b>Effect:</b> Whenever an opponent provokes an Attack of Opportunity from you, once per turn you can sacrifice that attack to reduce the target's Reflex Defense by 2 for the following round.</p>",
+    "prerequisite": {
+      "text": "Combat Reflexes feat, and Sneak Attack talent",
+      "nodes": {
+        "children": [
+          {
+            "text": "Combat Reflexes feat",
+            "requirement": "Combat Reflexes",
+            "type": "FEAT"
+          },
+          {
+            "text": "Sneak Attack talent",
+            "requirement": "Sneak Attack",
+            "type": "TALENT"
+          }
+        ],
+        "text": "Combat Reflexes feat, and Sneak Attack talent",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MbTGIKVwVzLHTYln",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

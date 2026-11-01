@@ -1,0 +1,24 @@
+{
+  "_id": "Fw8rOJ1h0V3l88yx",
+  "_key": "!items!Fw8rOJ1h0V3l88yx",
+  "name": "Artillery Shot",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have learned to use the angle and distance between you and your target to devastating effect.</p><p><b>Effect:</b> When you make an attack with a Burst or Splash weapon with which you are proficient against a target at greater than Point-Blank Range, you can affect two additional squares adjacent to the normal Burst radius or Splash area.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ihXkkZ1zal5epHY3",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

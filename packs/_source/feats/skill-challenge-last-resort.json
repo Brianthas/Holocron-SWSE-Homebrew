@@ -1,0 +1,24 @@
+{
+  "_id": "9BaD9UXYu9uQ8abE",
+  "_key": "!items!9BaD9UXYu9uQ8abE",
+  "name": "Skill Challenge: Last Resort",
+  "type": "feat",
+  "system": {
+    "description": "<p>When failure threatens, you throw everything you have at the Skill Challenge to prevent disaster.</p><p><b>Effect:</b> Once per Skill Challenge, when you or an ally accrues a third Failure (Which would normally end the Skill Challenge), you or the ally can reroll the attempt, keeping the better result.</p><p><b>Special:</b> This Feat is allowed only in campaigns that use Skill Challenges.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1wtPsyxve0FpXO4m",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

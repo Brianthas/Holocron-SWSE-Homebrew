@@ -1,0 +1,28 @@
+{
+  "_id": "dtIHO5FHRgPrVwPm",
+  "_key": "!items!dtIHO5FHRgPrVwPm",
+  "name": "Fringe Benefits",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are a well-known member of criminal society and can get the best deal possible on illicit goods.</p><p><b>Prerequisite:</b> Rodian</p><p><b>Effect:</b>&nbsp;Whenever you buy goods on the Black Market, reduce the cost multiplier by 2 (For example, from x5 to x3), to a minimum of x1.</p>",
+    "prerequisite": {
+      "text": "Rodian species",
+      "nodes": {
+        "text": "Rodian species",
+        "requirement": "Rodian",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AIoEt5sLKErbtNy0",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

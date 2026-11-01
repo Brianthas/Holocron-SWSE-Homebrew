@@ -1,0 +1,28 @@
+{
+  "_id": "AQxcG825dD204Gsh",
+  "_key": "!items!AQxcG825dD204Gsh",
+  "name": "Flawless Pilot",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to handle a Starship better than practically anyone else in the galaxy, and you can make any Vehicle do exactly what you want it to do.</p><p><b>Prerequisite:</b> Duros</p><p><b>Effect:</b> Whenever you reroll a Pilot check, you always keep the better result, even if you have multiple reroll abilities.</p>",
+    "prerequisite": {
+      "text": "Duros species",
+      "nodes": {
+        "text": "Duros species",
+        "requirement": "Duros",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mIx9xeHDOkViNNFe",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

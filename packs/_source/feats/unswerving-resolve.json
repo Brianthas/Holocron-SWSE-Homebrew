@@ -1,0 +1,28 @@
+{
+  "_id": "BHXypaerOugZ1bpz",
+  "_key": "!items!BHXypaerOugZ1bpz",
+  "name": "Unswerving Resolve",
+  "type": "feat",
+  "system": {
+    "description": "<p>You stand your ground in the face of terrifying or domineering opposition.</p><p><b>Prerequisite:</b> Base Attack Bonus +2</p><p><b>Effect:</b> Whenever you are targeted by a Fear effect or Mind-Affecting effect that fails to affect you, you gain a temporary Force Point. If this Force Point is not used before the end of your next turn, it goes away. If you negate the contingent effect in any way, you do not gain the benefit of this Feat.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 2",
+      "nodes": {
+        "text": "Base Attack Bonus 2",
+        "requirement": "2",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RsGhnxXRvRMUkYfZ",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

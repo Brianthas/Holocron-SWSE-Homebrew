@@ -1,0 +1,28 @@
+{
+  "_id": "wljhO0kI4KprfxKi",
+  "_key": "!items!wljhO0kI4KprfxKi",
+  "name": "Bowcaster Marksman",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are an excellent shot with the bowcaster, and even your most difficult shots are solid hits.</p><p><b>Prerequisite:</b> Wookiee</p><p><b>Effect:</b> Whenever you spend a Force Point to add to an attack with a Bowcaster, if you hit the target, you gain a competence bonus to your damage roll equal to the amount added to the attack.</p>",
+    "prerequisite": {
+      "text": "Wookiee species",
+      "nodes": {
+        "text": "Wookiee species",
+        "requirement": "Wookiee",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Xs1ggR86w6BjBaJf",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "gpiqvqNuqq80dEIS",
+  "_key": "!items!gpiqvqNuqq80dEIS",
+  "name": "Wary Sentries",
+  "type": "feat",
+  "system": {
+    "description": "<p>You and your allies specialize in keeping tabs on your surroundings, making you excellent guards and advance scouts.</p><p><b>Prerequisite:</b> Trained in Perception</p><p><b>Effect:</b> You gain a +3 competence bonus on Perception checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, you can Take 10 on Perception checks, even when threatened or rushed.</p>",
+    "prerequisite": {
+      "text": "Trained in Perception",
+      "nodes": {
+        "text": "Trained in Perception",
+        "requirement": "Perception",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xfc2kC9J5vFaNwxu",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

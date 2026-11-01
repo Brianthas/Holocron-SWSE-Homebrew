@@ -1,0 +1,39 @@
+{
+  "_id": "7xNwGB1m1AnnkCPQ",
+  "_key": "!items!7xNwGB1m1AnnkCPQ",
+  "name": "Critical Strike",
+  "type": "feat",
+  "system": {
+    "description": "<p>At the cost of speed, you can make a devastating attack.</p><p><b>Prerequisite:</b> Base Attack Bonus +9, Weapon Focus (Chosen Weapon)</p><p><b>Effect:</b> While wielding a weapon for which you possess the Weapon Focus feat, you can take two consecutive Swift Actions in the same round to increase the critical threat range of your next melee attack by 1.</p><p>Thus, if a weapon scores a Critical Hit on a Natural 20, it can score a Critical Hit on a natural roll of 19 or 20 instead. However, any roll other than a Natural 20 is not considered an automatic hit; if you roll a Natural 19 and miss the target, you do not score a Critical Hit. You lose the benefits of Critical Strike if you lose line of sight to your target or if you take any other Action before making your attack.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 9, and Weapon Focus (#payload#)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Base Attack Bonus 9",
+            "requirement": "9",
+            "type": "BASE ATTACK BONUS"
+          },
+          {
+            "text": "Weapon Focus (#payload#)",
+            "requirement": "Weapon Focus (#payload#)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Base Attack Bonus 9, and Weapon Focus (#payload#)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3xeBTgK2JNNLtoxt",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

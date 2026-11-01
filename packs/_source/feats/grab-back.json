@@ -1,0 +1,28 @@
+{
+  "_id": "JFHtdXe3mHYMek9H",
+  "_key": "!items!JFHtdXe3mHYMek9H",
+  "name": "Grab Back",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are able to counter Grab and Grapple attacks, redirecting them back on your attacker.</p><p><b>Prerequisite:</b> Dexterity 13</p><p><b>Effect:</b> You gain a +2 bonus to your Reflex Defense against Grab and Grapple attacks. If an enemy misses you when making a Grab or Grapple attack, you can immediately make your own Grab attack against the same enemy as a Reaction.</p><p><b>Special:</b> If you have a Feat that enables you to make a Grapple attack (such as Pin or Trip), you can make a Grapple attack instead.</p>",
+    "prerequisite": {
+      "text": "Dexterity 13",
+      "nodes": {
+        "text": "Dexterity 13",
+        "requirement": "Dexterity 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tMn3brzsFYCGR5Z7",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

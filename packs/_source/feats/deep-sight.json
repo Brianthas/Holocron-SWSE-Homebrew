@@ -1,0 +1,28 @@
+{
+  "_id": "5uIZGQfsOkqo1ncw",
+  "_key": "!items!5uIZGQfsOkqo1ncw",
+  "name": "Deep Sight",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have spent so much time in the deepest parts of your home planet that you can see even in total darkness.</p><p><b>Prerequisite:</b> Quarren</p><p><b>Effect:</b>&nbsp;You gain Darkvision, ignoring Concealment (including Total Concealment) from darkness. You cannot perceive colors in total darkness.</p>",
+    "prerequisite": {
+      "text": "Quarren species",
+      "nodes": {
+        "text": "Quarren species",
+        "requirement": "Quarren",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8Vrv91AkDtWAef3Q",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

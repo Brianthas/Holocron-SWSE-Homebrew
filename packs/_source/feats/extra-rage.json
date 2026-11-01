@@ -1,0 +1,28 @@
+{
+  "_id": "MDi291HJvBeJbiPS",
+  "_key": "!items!MDi291HJvBeJbiPS",
+  "name": "Extra Rage",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can fly into a Rage more often.</p><p><b>Prerequisite:</b> Rage Species Trait</p><p><b>Effect:</b> You can Rage one additional time per day.</p><p><b>Special:</b> You can take this Feat multiple times; each time you take this Feat, you can Rage one additional time per day.</p>",
+    "prerequisite": {
+      "text": "Rage trait",
+      "nodes": {
+        "text": "Rage trait",
+        "requirement": "Rage",
+        "type": "TRAIT"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nkUdoKd8McAfBOC2",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

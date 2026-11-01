@@ -1,0 +1,24 @@
+{
+  "_id": "DXJ86ddfMZpg6V4U",
+  "_key": "!items!DXJ86ddfMZpg6V4U",
+  "name": "Wary Defender",
+  "type": "feat",
+  "system": {
+    "description": "<p>Even in the heat of battle you can bolster yourself against nearly anything that comes your way.</p><p><b>Effect:</b> When you use the Fight Defensively Action, you gain a +2 competence bonus to your Fortitude Defense and Will Defense until the beginning of your next turn.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NOH546t6ajN2QRnm",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

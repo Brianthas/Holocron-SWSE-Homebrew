@@ -1,0 +1,24 @@
+{
+  "_id": "W0ICIVecCpL6ygUa",
+  "_key": "!items!W0ICIVecCpL6ygUa",
+  "name": "Overwhelming Attack",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to get your attacks past enemy defenses, making sure they strike true.</p><p><b>Effect:</b> You must spend two Swift Actions in the same round to activate this Feat. If your target attempts to use a Talent, Feat, or other ability to negate your attack (Such as <b>Block</b>, <b>Deflect</b>, or Vehicular Combat), the target takes a -5 penalty to any attack rolls or Skill Checks it makes to negate the attack. This effect applies to the next attack you make before the end of the same round.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jZj9tU7n7LJ6Zhx5",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

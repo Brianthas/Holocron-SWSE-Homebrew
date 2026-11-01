@@ -1,0 +1,28 @@
+{
+  "_id": "bch8f9ctrJiyxpmi",
+  "_key": "!items!bch8f9ctrJiyxpmi",
+  "name": "Biotech Surgery",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can perform the surgical procedures necessary to graft Biotech components onto living flesh, similar to those used by the Yuuzhan Vong.</p><p><b>Prerequisite:</b> Trained in Treat Injury</p><p><b>Effect:</b> You can install Bio-Implants onto a living being. The surgical procedure takes 1 hour of uninterrupted work, after which you must make a DC 20 Treat Injury check. If the check succeeds, the prosthesis is installed correctly. If the check fails, the prosthesis is not installed properly; however, you can try again after another uninterrupted hour of surgery.</p><p><b>Special:</b> You can install Bio-Implants on yourself, but you take a -5 penalty on the Treat Injury check. If you have the Surgical Expertise Feat, you can install a Bio-Implant in 10 minutes instead of 1 hour.</p>",
+    "prerequisite": {
+      "text": "Trained in Treat Injury",
+      "nodes": {
+        "text": "Trained in Treat Injury",
+        "requirement": "Treat Injury",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oDP5uFwVaBNIIxon",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

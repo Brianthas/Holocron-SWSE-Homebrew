@@ -1,0 +1,28 @@
+{
+  "_id": "yENDoUuwzfUz6lnt",
+  "_key": "!items!yENDoUuwzfUz6lnt",
+  "name": "Mounted Regiment",
+  "type": "feat",
+  "system": {
+    "description": "<p>You and your allies act as mounted calvary, specializing in using Beasts in war.</p><p><b>Prerequisite:</b> Trained in Ride</p><p><b>Effect:</b> You gain a +3 competence bonus on Ride checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, once per round as a Reaction to your Mount being attacked, you can make a Ride check; if the result exceeds the Mount's Reflex Defense, use your check result against the attack instead of using the Mount's Reflex Defense.</p>",
+    "prerequisite": {
+      "text": "Trained in Ride",
+      "nodes": {
+        "text": "Trained in Ride",
+        "requirement": "Ride",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4chx1HvHEO6qdzHW",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

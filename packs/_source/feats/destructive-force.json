@@ -1,0 +1,24 @@
+{
+  "_id": "kY2iX7ebLWYBUW0H",
+  "_key": "!items!kY2iX7ebLWYBUW0H",
+  "name": "Destructive Force",
+  "type": "feat",
+  "system": {
+    "description": "<p>You cause so much devastation to Vehicles and objects that you also deal damage to others around those targets.</p><p><b>Effect:</b> When you deal damage to an object or Vehicle that equals or exceeds the target's Damage Threshold and reduces the target to 0 Hit Points, you deal 1 die of damage (of the same type as the damage used in the attack) to all targets, including allies, that are adjacent to the Vehicle or object.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jzTcEowQYBEm8uWm",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "9gxkhmwjRlkJr1JO",
+  "_key": "!items!9gxkhmwjRlkJr1JO",
+  "name": "Assured Attack",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have become so practiced with your attacks that you always deal significant damage.</p><p><b>Effect:</b> Whenever you deal damage to a target with an attack and you roll multiple damage dice, you can reroll the lowest damage die but must keep the second result, even if it is worse.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HTzuVqBxUlbs0IR6",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

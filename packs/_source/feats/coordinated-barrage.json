@@ -1,0 +1,39 @@
+{
+  "_id": "nAD7VB7XKn3gR0iw",
+  "_key": "!items!nAD7VB7XKn3gR0iw",
+  "name": "Coordinated Barrage",
+  "type": "feat",
+  "system": {
+    "description": "<p>When you combine fire with an ally, your barrage can have devastating results on the attacker.</p><p><b>Prerequisites:</b> Coordinated Attack, Base Attack Bonus +5</p><p><b>Effect:</b> When you Aid Another ally's attack, for every 3 points that the ally's attack roll beats the target's Reflex Defense, the attack deals +1 die of damage. The maximum number of bonus damage dice the attack receives is equal to the number of allies with this Feat that aided on the attack roll or +5 dice, whichever is lower.</p>",
+    "prerequisite": {
+      "text": "Coordinated Attack feat, and Base Attack Bonus 5",
+      "nodes": {
+        "children": [
+          {
+            "text": "Coordinated Attack feat",
+            "requirement": "Coordinated Attack",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 5",
+            "requirement": "5",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Coordinated Attack feat, and Base Attack Bonus 5",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9tqriAv5XbuSYNId",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "tZedMwaVqUtAbtk1",
+  "_key": "!items!tZedMwaVqUtAbtk1",
+  "name": "Expert Briber",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are adept at greasing the palms of contacts to minimize the amount of the Bribe normally required.</p><p><b>Prerequisite:</b> Charisma 13</p><p><b>Effect:</b> When using the Haggle or Bribery applications of the Persuasion skill, you reduce the DC to reduce the price of the item haggled over by 10.</p>",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GKHXirwGFwEY9qcF",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "cf5rkiulBcNhC1Gf",
+  "_key": "!items!cf5rkiulBcNhC1Gf",
+  "name": "Biotech Specialist",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can make custom modifications to Biotech-based armor, weapons, Vehicles, and similar devices.</p><p><b>Prerequisite:</b> Trained in Mechanics</p><p><b>Effect:</b> You can modify a Biotech device, suit of armor, weapon, or Vehicle so that it gains a specific trait. You can perform only one modification at a time. Unless noted otherwise, you cannot grant more than one benefit to a single device, suit of armor, weapon, or Vehicle, and you cannot apply the same benefit more than once.</p><p>Before beginning the modification, you must pay one tenth the cost of the device, suit of armor, weapon, or Vehicle you wish to modify or 1,000 credits, whichever is more. Completing the modification requires one day per 1,000 credits of the modification cost. At the end of this time, make a DC 20 Mechanics check; you can't Take 10 or Take 20 on this check. If the check succeeds, the modification is completed successfully, and the object gains the desired trait. If the check fails, you lose all credits spent making the modification, and the object doesn't gain the desired trait. However, you may start over if you wish.</p><p>Due to the specialized nature of Biotechnology, only other characters with the <strong>Biotech Specialist</strong> Feat can assist you, reducing proportionately the time needed to complete the modification. At the end of the modification process, they can make a Mechanics check to aid your check.</p><p>The market value of a modified item is equal to the base cost of the item + double the cost of the modifications made to it (not including credits wasted on failed attempts).</p><table>\n <tbody>\n  <tr>\n   <th>ARMOR TRAITS</th>\n   <th>BENEFIT</th>\n  </tr>\n  <tr>\n   <td>Agile Armor</td>\n   <td>The armor's maximum Dexterity bonus increases by 1.</td>\n  </tr>\n  <tr>\n   <td>Fortifying Armor</td>\n   <td>The armor's Equipment bonus to Fortitude Defense increases by 1.</td>\n  </tr>\n  <tr>\n   <td>Protective Armor</td>\n   <td>The armor's Armor bonus to Reflex Defense increases by 1.</td>\n  </tr>\n  <tr>\n   <th>DEVICE TRAITS</th>\n   <th>BENEFIT</th>\n  </tr>\n  <tr>\n   <td>Add Device to Creature</td>\n   <td>Alter a bioengineered creature to accept a biotech or standard technological enhancement such as a miniaturized Sensor Pack.</td>\n  </tr>\n  <tr>\n   <td>Enhanced Strength</td>\n   <td>Increase the device's Strength score by 2.</td>\n  </tr>\n  <tr>\n   <td>Improved Durability</td>\n   <td>The device's Damage Reduction increases by 1, and it gains extra Hit Points equal to one-quarter of its maximum Hit Points.</td>\n  </tr>\n  <tr>\n   <td>Mastercraft Device</td>\n   <td>Skill Checks made using the device gain a +1 Equipment bonus, or the device's existing Equipment bonus increases by 1.</td>\n  </tr>\n  <tr>\n   <th>VEHICLE TRAITS</th>\n   <th>BENEFIT</th>\n  </tr>\n  <tr>\n   <td>Dovin Basal Enhancement</td>\n   <td>Increase the effects of a Dovin Basal to grant one of the following benefits to a Starship: +1 additional square of movement at Starship Scale, +2 SR, or +1 die of damage when using a Dovin Basal.</td>\n  </tr>\n  <tr>\n   <td>Enhanced Dexterity</td>\n   <td>Increase the Vehicle's Dexterity score by 2.</td>\n  </tr>\n  <tr>\n   <td>Improved Speed</td>\n   <td>Increase the Vehicle's Speed by one-quarter of its base Speed (minimum 1 square).</td>\n  </tr>\n  <tr>\n   <th>WEAPON TRAITS</th>\n   <th>BENEFIT</th>\n  </tr>\n  <tr>\n   <td>Improved Accuracy</td>\n   <td>The weapon gains a +1 Equipment bonus on attack rolls.</td>\n  </tr>\n  <tr>\n   <td>Improved Damage</td>\n   <td>The weapon deals +2 points of damage with a successful hit. If the weapon has a damage multiplier (for example, 6d10x2), apply the extra damage before applying the multiplier.</td>\n  </tr>\n  <tr>\n   <td>Selective Fire</td>\n   <td>An Autofire-only ranged weapon can be set to fire single shots, or a single-shot weapon can be made to have an Autofire mode. This cannot be applied to weapons that have a Burst radius or Splash radius.</td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> This Feat allows you to make Treat Injury checks on Biotechnology without the normal -5 penalty.</p>",
+    "prerequisite": {
+      "text": "Trained in Mechanics",
+      "nodes": {
+        "text": "Trained in Mechanics",
+        "requirement": "Mechanics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BcmoyyAMVO0gsmPg",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

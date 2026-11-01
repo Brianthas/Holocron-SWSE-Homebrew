@@ -1,0 +1,44 @@
+{
+  "_id": "pmtuOVGLcu7Wrb9b",
+  "_key": "!items!pmtuOVGLcu7Wrb9b",
+  "name": "Deadly Sniper",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are adept at staying out of sight when attacking from hidden positions.</p><p><b>Prerequisites:</b> Sniper, Trained in Stealth, Base Attack Bonus +9</p><p><b>Effect:</b> When you make a ranged attack against a target that is unaware of you, you gain a +2 bonus on your attack roll and deal +1 die of damage on the first attack each turn.</p>",
+    "prerequisite": {
+      "text": "Sniper feat, Trained in Stealth, and Base Attack Bonus 9",
+      "nodes": {
+        "children": [
+          {
+            "text": "Sniper feat",
+            "requirement": "Sniper",
+            "type": "FEAT"
+          },
+          {
+            "text": "Trained in Stealth",
+            "requirement": "Stealth",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Base Attack Bonus 9",
+            "requirement": "9",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Sniper feat, Trained in Stealth, and Base Attack Bonus 9",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oqaAGvSEnPRxd95J",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

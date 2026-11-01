@@ -1,0 +1,24 @@
+{
+  "_id": "zlohAmYtLLhD8voC",
+  "_key": "!items!zlohAmYtLLhD8voC",
+  "name": "Follow Through",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have learned to take down an enemy with an attack and then use your momentum to dash across the battlefield.</p><p><b>Effect:</b> If you deal enough damage to your opponent with a melee attack to reduce it to 0 Hit Points, you can immediately move up to your Speed. You can use this ability once per turn.</p><p><b>Special:</b> If you have the Cleave Feat, you can move up to your Speed before making the extra melee attack granted by the Cleave Feat.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zIeEMLHPeIZjClBl",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

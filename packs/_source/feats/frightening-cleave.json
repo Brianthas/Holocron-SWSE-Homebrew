@@ -1,0 +1,49 @@
+{
+  "_id": "tWYxgcsecdN9iVki",
+  "_key": "!items!tWYxgcsecdN9iVki",
+  "name": "Frightening Cleave",
+  "type": "feat",
+  "system": {
+    "description": "<p>Enemies that see you successfully use the Cleave Feat become fearful.</p><p><b>Prerequisites:</b> Strength 13, Cleave, Power Attack, Base Attack Bonus +4</p><p><b>Effect:</b> Immediately after you use the Cleave Feat, each enemy within 6 squares of you and within your line of sight takes a -1 penalty to its Reflex Defense, attack rolls, and Skill Checks against you until the end of the encounter. This penalty stacks with itself to a maximum of -5. This is a Mind-Affecting effect.</p>",
+    "prerequisite": {
+      "text": "Strength 13, Cleave feat, Power Attack feat, and Base Attack Bonus 4",
+      "nodes": {
+        "children": [
+          {
+            "text": "Strength 13",
+            "requirement": "Strength 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Cleave feat",
+            "requirement": "Cleave",
+            "type": "FEAT"
+          },
+          {
+            "text": "Power Attack feat",
+            "requirement": "Power Attack",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 4",
+            "requirement": "4",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Strength 13, Cleave feat, Power Attack feat, and Base Attack Bonus 4",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4cDmYtFSRMIyjOOe",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

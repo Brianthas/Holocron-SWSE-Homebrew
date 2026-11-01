@@ -1,0 +1,39 @@
+{
+  "_id": "EHMSRBMnoJKIhLGO",
+  "_key": "!items!EHMSRBMnoJKIhLGO",
+  "name": "Careful Shot",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are particularly skilled at Aiming your attacks.</p><p><b>Prerequisites:</b> Point-Blank Shot Feat, Base Attack Bonus +2</p><p><b>Effect:</b> If you Aim before making a ranged attack, you gain a +1 bonus on your attack roll.</p><p><b>Special:</b> A Pilot can use this Feat, but since they must spend at least one Move Action operating their Vehicles, they must split their Aim (two Swift Actions) and attack (Standard Action) into two separate turns, making it more likely that the target will break line of sight or avoid you.</p>",
+    "prerequisite": {
+      "text": "Point-Blank Shot feat, and Base Attack Bonus 2",
+      "nodes": {
+        "children": [
+          {
+            "text": "Point-Blank Shot feat",
+            "requirement": "Point-Blank Shot",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 2",
+            "requirement": "2",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Point-Blank Shot feat, and Base Attack Bonus 2",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Oqh4zdueOERCFU63",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

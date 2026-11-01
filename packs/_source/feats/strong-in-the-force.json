@@ -1,0 +1,24 @@
+{
+  "_id": "GNblYJDcsnwJKgGe",
+  "_key": "!items!GNblYJDcsnwJKgGe",
+  "name": "Strong in the Force",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have a particularly strong connection to The Force.</p><p><b>Effect:</b> When you spend a Force Point to adjust the result of an attack roll, Skill Check, or Ability Check, you roll d8s instead of d6s.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2mUxxFarOrwRSCFW",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

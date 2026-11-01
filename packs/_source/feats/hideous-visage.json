@@ -1,0 +1,28 @@
+{
+  "_id": "UK86WbINcWDKPhuL",
+  "_key": "!items!UK86WbINcWDKPhuL",
+  "name": "Hideous Visage",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can twist your features into a startling mask.</p><p><b>Prerequisite:</b> Shapeshift Species Trait</p><p><b>Effect:</b> Once per encounter, as a Swift Action, you can make a Deception check against one opponent that can see you. If the check equals or exceeds the opponent's Will Defense, you move the target 1 square away from you and it takes a -1 penalty on all attacks until the start of your next turn. This is a Mind-Affecting Fear effect.</p>",
+    "prerequisite": {
+      "text": "Shapeshift trait",
+      "nodes": {
+        "text": "Shapeshift trait",
+        "requirement": "Shapeshift",
+        "type": "TRAIT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "O9Vvdrdg3DUONQFb",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

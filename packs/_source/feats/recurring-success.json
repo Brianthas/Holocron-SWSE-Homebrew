@@ -1,0 +1,24 @@
+{
+  "_id": "FbgDvKfdDmB0olhO",
+  "_key": "!items!FbgDvKfdDmB0olhO",
+  "name": "Recurring Success",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to make your enemies fall for the same trick twice.</p><p><b>Effect:</b> When you select this Feat, choose one Talent or Feat that can normally be used once per encounter. You can use that Talent or Feat one additional time per encounter.</p><p><b>Special:</b> You can select this Feat multiple times. Each time you do so, you must choose a different Talent or Feat to gain the benefits of this Feat.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gQUuHRFfMXJFsCnJ",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

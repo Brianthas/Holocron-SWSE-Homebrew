@@ -1,0 +1,28 @@
+{
+  "_id": "DzAFymQ26SvPDUNt",
+  "_key": "!items!DzAFymQ26SvPDUNt",
+  "name": "Predictive Defense",
+  "type": "feat",
+  "system": {
+    "description": "<p>The sharpness of your mind, not the speed of your reactions, allows you to avoid incoming attacks.</p><p><b>Prerequisite:</b> Intelligence 13</p><p><b>Effect:</b> You can use either your Dexterity modifier or your Intelligence modifier to determine your Reflex Defense.</p>",
+    "prerequisite": {
+      "text": "Intelligence 13",
+      "nodes": {
+        "text": "Intelligence 13",
+        "requirement": "Intelligence 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gxI8LYYMx64SNrgq",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

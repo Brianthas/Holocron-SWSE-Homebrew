@@ -1,0 +1,39 @@
+{
+  "_id": "EBlSm447ke4hBwZs",
+  "_key": "!items!EBlSm447ke4hBwZs",
+  "name": "Multi-Targeting",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your targeting system allows you to track multiple targets over time, negating Cover bonuses.</p><p><b>Prerequisites:</b> Droid, Intelligence 13</p><p><b>Effect:</b> You can use Swift Actions across more than one round to Aim at a target with a weapon with which you are proficient. You can attack different targets prior to the completion of your Aim Action. If the subject of your Aim is out of your line of sight for any reason, you lose your Aim and must start again.</p><p><b>Normal:</b> You must normally use two consecutive Swift Actions in the same round to Aim.</p>",
+    "prerequisite": {
+      "text": "Droid, and Intelligence 13",
+      "nodes": {
+        "children": [
+          {
+            "text": "Droid",
+            "requirement": "Is a droid",
+            "type": "SPECIAL"
+          },
+          {
+            "text": "Intelligence 13",
+            "requirement": "Intelligence 13",
+            "type": "ATTRIBUTE"
+          }
+        ],
+        "text": "Droid, and Intelligence 13",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8PFn2neBL6CWvpcG",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "a4BBBfkCGmKflb56",
+  "_key": "!items!a4BBBfkCGmKflb56",
+  "name": "Warrior Heritage",
+  "type": "feat",
+  "system": {
+    "description": "<p>You come from a proud warrior culture, and your pride fills you with self-assurance.</p><p><b>Prerequisite:</b> Gungan</p><p><b>Effect:</b> You gain a +2 morale bonus to your Will Defense when you wield an Atlatl or a Cesta.&nbsp;&nbsp;</p>",
+    "prerequisite": {
+      "text": "Gungan species",
+      "nodes": {
+        "text": "Gungan species",
+        "requirement": "Gungan",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "e1Ww34v6CObK87YK",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

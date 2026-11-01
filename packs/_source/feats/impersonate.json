@@ -1,0 +1,39 @@
+{
+  "_id": "hi4bIpIhuwFwOUgZ",
+  "_key": "!items!hi4bIpIhuwFwOUgZ",
+  "name": "Impersonate",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can alter your appearance to resemble a specific person.</p><p><b>Prerequisites:</b> Shapeshift Species Trait, Skill Focus (Deception)</p><p><b>Effect:</b> You can make a Deception check to alter your features to that of a specific person. This Feat also allows you to change your voice to match the target's. You always treat impersonating a person as a Moderate Deception.</p>",
+    "prerequisite": {
+      "text": "Shapeshift trait, and Skill Focus (Deception)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Shapeshift trait",
+            "requirement": "Shapeshift",
+            "type": "TRAIT"
+          },
+          {
+            "text": "Skill Focus (Deception)",
+            "requirement": "Skill Focus (Deception)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Shapeshift trait, and Skill Focus (Deception)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RjM46WSU85nOzmse",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

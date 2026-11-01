@@ -1,0 +1,24 @@
+{
+  "_id": "ZkbI29UixgVV3ZaU",
+  "_key": "!items!ZkbI29UixgVV3ZaU",
+  "name": "Skill Challenge: Catastrophic Avoidance",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your luck is such that catastrophe occurs less frequently for you when you are engaged in stressful situations.</p><p><b>Effect:</b> Once per Skill Challenge that has a chance of Catastrophic Failure, this Failure occurs only if you fail a Skill Check by 15 or more. In addition, when a Catastrophic Failure occurs, you accrue one Failure in the Skill Challenge, not two.</p><p><b>Special:</b> This Feat is allowed only in campaigns that use Skill Challenges.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NBkpN8F77SXtYGY6",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

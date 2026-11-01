@@ -1,0 +1,39 @@
+{
+  "_id": "wiLQA02xGM7jQVKl",
+  "_key": "!items!wiLQA02xGM7jQVKl",
+  "name": "Droid Focus",
+  "type": "feat",
+  "system": {
+    "description": "<p>Choose a single degree of Droid (1st-Degree, 2nd-Degree, 3rd-Degree, 4th-Degree, or 5th-Degree). You are especially familiar with this class of Droid, gaining the listed bonuses while working on or against them.</p><p><b>Prerequisites:</b> Trained in Mechanics and Use Computer</p><p><b>Effect:</b> Select a degree of Droid (1st-Degree, 2nd-Degree, 3rd-Degree, 4th-Degree, or 5th-Degree). You gain a +1 bonus to Deception, Mechanics, Perception, Persuasion, and Use Computer checks when used on or against a Droid of the selected degree, and a +1 bonus to all Defenses against attack rolls and Skill Checks made by Droids of the selected degree.</p><p><b>Special:</b> You can gain this Feat multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different degree of Droid (1st-Degree, 2nd-Degree, 3rd-Degree, 4th-Degree, or 5th-Degree).</p>",
+    "prerequisite": {
+      "text": "Trained in Mechanics and Use Computer",
+      "nodes": {
+        "children": [
+          {
+            "text": "Trained in Mechanics",
+            "requirement": "Mechanics",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Trained in Use Computer",
+            "requirement": "Use Computer",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Trained in Mechanics and Use Computer",
+        "type": "AND"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cx2nuD0gobukYdDy",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

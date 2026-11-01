@@ -1,0 +1,28 @@
+{
+  "_id": "sxUec4Ja8MdhEYhL",
+  "_key": "!items!sxUec4Ja8MdhEYhL",
+  "name": "Cut the Red Tape",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to work the bureaucratic system to get information you need.</p><p><b>Prerequisite:</b> Trained in Knowledge (Bureaucracy)</p><p><b>Effect:</b> You can use your Knowledge (Bureaucracy) modifier instead of your Gather Information modifier when making Gather Information checks. If you are entitled to a Gather Information check reroll, you can reroll your Knowledge (Bureaucracy) check instead (subject to the same circumstances and limitations). You are considered Trained in the Gather Information skill for the purposes of this check.</p>",
+    "prerequisite": {
+      "text": "Trained in Knowledge (Bureaucracy)",
+      "nodes": {
+        "text": "Trained in Knowledge (Bureaucracy)",
+        "requirement": "Knowledge (Bureaucracy)",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "blMq1uNG8AJmch9Y",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

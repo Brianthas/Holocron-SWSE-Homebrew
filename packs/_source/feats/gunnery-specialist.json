@@ -1,0 +1,28 @@
+{
+  "_id": "RNBfGmPgjZWh6dE2",
+  "_key": "!items!RNBfGmPgjZWh6dE2",
+  "name": "Gunnery Specialist",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are right at home in the Gunner's seat and use heavy artillery to great effect.</p><p><b>Prerequisite:</b> Base Attack Bonus +1</p><p><b>Effect:</b> While you are the Gunner of a Vehicle, you are considered proficient with Vehicle Weapons. Additionally, once per encounter, you can reroll an attack roll made with a Vehicle Weapon, though you must keep the second result, even if it is worse. You can declare this reroll after you learn the result of the attack roll, but before damage is resolved.</p><p><b>Special:</b> Taking this Feat satisfies the prerequisites for the Starship Tactics Feat; however, unless you are Trained in Pilot and have the Vehicular Combat Feat, you may only take [<i>Gunner</i>] Maneuvers when you select Starship Maneuvers for Starship Tactics.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "nodes": {
+        "text": "Base Attack Bonus 1",
+        "requirement": "1",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1AzEquB7BFjv8eKn",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "fBMySaZfNnxos04F",
+  "_key": "!items!fBMySaZfNnxos04F",
+  "name": "Combat Reflexes",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can respond quickly and repeatedly to opponents who let their guard down.</p><p><b>Effect:</b> When opponents leave themselves open, you may make a number of additional Attacks of Opportunity equal to your Dexterity modifier.</p><p>With this Feat, you may also make Attacks of Opportunity while Flat-Footed. You can still only make one attack for each triggered Attack of Opportunity.</p><p><b>Normal:</b> A character without the Combat Reflexes Feat can make only one Attack of Opportunity per round, and can't make Attacks of Opportunity while Flat-Footed.</p><h2>Additional Combat Reflexes Effects</h2><p><b>Combined Feat (Return Fire):</b> You may use the Return Fire Feat a number of times during an encounter equal to your Dexterity bonus, but no more than once during a given enemy's turn.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "d87ER6Jdif20EO9E",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

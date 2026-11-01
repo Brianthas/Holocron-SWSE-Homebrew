@@ -1,0 +1,44 @@
+{
+  "_id": "c2pSam9VeUUJrmxS",
+  "_key": "!items!c2pSam9VeUUJrmxS",
+  "name": "Improved Sleight of Hand",
+  "type": "feat",
+  "system": {
+    "description": "<p>You manipulate small objects quickly, and they seemingly disappear with a flick of your wrist. You excel at hiding objects when observed, even at close range.</p><p><b>Prerequisites:</b> Dexterity 15, Skill Focus (Deception), Trained in Stealth</p><p><b>Effect:</b> When using the Sleight of Hand application of the Stealth Skill, you can use your Deception Skill to improve your chances of success. Prior to making the Stealth check, you can make a Deception check as a Swift Action. The opposed Perception check of anyone attempting to notice your action must exceed both your Deception check and your Stealth check.</p><p>Additionally, you can, as a single Action, use Improved Sleight of Hand to simultaneously draw and palm a weapon two sizes smaller than you. Make a Stealth check as a Free Action when drawing your weapon to successfully conceal it in a position in your hand (Or similar appendage), where you can use it on a following Action. Once the weapon is used, you can attempt to palm it again as a Swift Action.</p>",
+    "prerequisite": {
+      "text": "Dexterity 15, Skill Focus (Deception), and Trained in Stealth",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dexterity 15",
+            "requirement": "Dexterity 15",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Skill Focus (Deception)",
+            "requirement": "Skill Focus (Deception)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Trained in Stealth",
+            "requirement": "Stealth",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Dexterity 15, Skill Focus (Deception), and Trained in Stealth",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2F7vnOhSplWmGOpH",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

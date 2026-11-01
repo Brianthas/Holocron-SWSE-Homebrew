@@ -1,0 +1,28 @@
+{
+  "_id": "7gzrHfghf2ni6vQn",
+  "_key": "!items!7gzrHfghf2ni6vQn",
+  "name": "Relentless Attack",
+  "type": "feat",
+  "system": {
+    "description": "<p>You ensure the demise of your foe by turning misses into opportunities.</p><p><b>Prerequisite:</b> Double Attack (Chosen Weapon)</p><p><b>Effect:</b> Choose one weapon group or Exotic Weapon for which you have the Double Attack Feat. Whenever you miss a target with that weapon, you gain a +2 competence bonus on your next attack roll made before the end of your next turn against the missed target.</p><p><b>Special:</b> You can select this Feat multiple times. Each time you select this Feat, it applies to a different weapon group or Exotic Weapon.</p>",
+    "prerequisite": {
+      "text": "Double Attack (#payload#)",
+      "nodes": {
+        "text": "Double Attack (#payload#)",
+        "requirement": "Double Attack (#payload#)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OdQLqiQUwQY1a9Nx",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

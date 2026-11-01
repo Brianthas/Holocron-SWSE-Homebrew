@@ -1,0 +1,28 @@
+{
+  "_id": "IutWibnsP2qACKdf",
+  "_key": "!items!IutWibnsP2qACKdf",
+  "name": "Returning Bug",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have mastered the art of using Yuuzhan Vong Thrown Weapons and can cause them to return to your hand.</p><p><b>Prerequisite:</b> Weapon Proficiency (Simple Weapons)</p><p><b>Effect:</b> When you miss with a Razor Bug or a Thud Bug, the weapon returns to your hand immediately.</p>",
+    "prerequisite": {
+      "text": "Weapon Proficiency (Simple Weapons)",
+      "nodes": {
+        "text": "Weapon Proficiency (Simple Weapons)",
+        "requirement": "Weapon Proficiency (Simple Weapons)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fm9z3Xjntz6gF27d",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

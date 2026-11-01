@@ -1,0 +1,39 @@
+{
+  "_id": "ZexOzbNRngSCxZyt",
+  "_key": "!items!ZexOzbNRngSCxZyt",
+  "name": "Master of Disguise",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are adept at creating convincing disguises in remarkably short periods of time.</p><p><b>Prerequisites:</b> Trained in Deception, Charisma 13</p><p><b>Effect:</b> You gain a +5 insight bonus to your Deception check when creating a Deceptive Appearance. In addition, you can rush the process by taking a -2 penalty to the Deception check.</p><p><b>Normal:</b> When you rush the creation of a Deceptive Appearance, you take a -10 penalty to your Deception check.</p>",
+    "prerequisite": {
+      "text": "Trained in Deception, and Charisma 13",
+      "nodes": {
+        "children": [
+          {
+            "text": "Trained in Deception",
+            "requirement": "Deception",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Charisma 13",
+            "requirement": "Charisma 13",
+            "type": "ATTRIBUTE"
+          }
+        ],
+        "text": "Trained in Deception, and Charisma 13",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DUYgskbwPmmmv0mt",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

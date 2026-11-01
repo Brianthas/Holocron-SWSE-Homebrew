@@ -1,0 +1,24 @@
+{
+  "_id": "q45bZVYs4VF3ooeA",
+  "_key": "!items!q45bZVYs4VF3ooeA",
+  "name": "Unstoppable Force",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your constant exposure to Force-users has taught you methods of physically resisting their effect on you in battle.</p><p><b>Effect:</b> You gain a +5 insight bonus to Fortitude Defense and Will Defense against any attack or effect requiring a Use the Force check.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OJ4Tz5hO4CZr34bK",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

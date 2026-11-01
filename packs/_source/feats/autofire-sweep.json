@@ -1,0 +1,28 @@
+{
+  "_id": "wKbtqZW0POHJzAac",
+  "_key": "!items!wKbtqZW0POHJzAac",
+  "name": "Autofire Sweep",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your can sweep an area with your Autofire weapon, spraying fire in a 180-degree arc in front of you.</p><p><b>Prerequisite:</b> Weapon Focus (Chosen Weapon)</p><p><b>Effect:</b> When making an Autofire attack with a weapon with which you possess the Weapon Focus feat, you can attack all targets in a 6-Square Cone. The origin square of the cone can be any square in your line of sight and within Point-Blank Range.</p><p><b>Special:</b> This Feat cannot be used with the Autofire Assault feat or the Burst Fire feat. It can be used with the <b>Improved Suppression Fire</b> Talent.</p>",
+    "prerequisite": {
+      "text": "Weapon Focus (#payload#)",
+      "nodes": {
+        "text": "Weapon Focus (#payload#)",
+        "requirement": "Weapon Focus (#payload#)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UuaQ2OjFVPtPTejh",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

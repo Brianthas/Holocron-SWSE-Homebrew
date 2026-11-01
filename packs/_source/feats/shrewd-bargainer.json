@@ -1,0 +1,28 @@
+{
+  "_id": "W2yaMLejIKwePKRb",
+  "_key": "!items!W2yaMLejIKwePKRb",
+  "name": "Shrewd Bargainer",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to break down the defenses of your opponents, ensuring that you gain the upper hand in any negotiation.</p><p><b>Prerequisite:</b> Quarren</p><p><b>Effect:</b>&nbsp;Whenever you make Persuasion checks against a target's Will Defense, the target does not receive the benefit of insight or morale bonuses to its Will Defense.</p>",
+    "prerequisite": {
+      "text": "Quarren species",
+      "nodes": {
+        "text": "Quarren species",
+        "requirement": "Quarren",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iM6ijrXJttDvHRbt",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

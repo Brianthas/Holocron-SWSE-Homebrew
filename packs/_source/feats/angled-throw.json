@@ -1,0 +1,28 @@
+{
+  "_id": "gGexwb0sgzbD6VxP",
+  "_key": "!items!gGexwb0sgzbD6VxP",
+  "name": "Angled Throw",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your amazing throws bounce Grenades off walls into open hatches or through congested battle zones.</p><p><b>Prerequisite:</b> Dexterity 13</p><p><b>Effect:</b> When throwing a Grenade or grenadelike weapon, you can attempt to bounce it off a wall or other surface close to your target. If you attack roll exceeds a Reflex Defense of 15, you ignore Cover and Improved Cover (but not Total Cover) with your attack.</p>",
+    "prerequisite": {
+      "text": "Dexterity 13",
+      "nodes": {
+        "text": "Dexterity 13",
+        "requirement": "Dexterity 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0ugG3GamS7gRqg5y",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

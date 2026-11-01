@@ -1,0 +1,39 @@
+{
+  "_id": "RzdrwGiXSvoQvWHs",
+  "_key": "!items!RzdrwGiXSvoQvWHs",
+  "name": "Jedi Heritage",
+  "type": "feat",
+  "system": {
+    "description": "<p>You come from a clan that has produced many Jedi, and you have overcome your Species' impulsiveness by becoming a master of The Force.</p><p><b>Prerequisites:</b> Twi'lek, Force Sensitivity</p><p><b>Effect:</b>&nbsp;Your Wisdom score is considered to be 4 points higher for the purpose of determining how many Force Powers you gain from the Force Training Feat, granting you two extra Force Powers for each Force Training Feat.</p>",
+    "prerequisite": {
+      "text": "Twi'lek species, and Force Sensitivity feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Twi'lek species",
+            "requirement": "Twi'lek",
+            "type": "SPECIES"
+          },
+          {
+            "text": "Force Sensitivity feat",
+            "requirement": "Force Sensitivity",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Twi'lek species, and Force Sensitivity feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6C3IufzcVoUd31Ig",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

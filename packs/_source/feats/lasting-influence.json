@@ -1,0 +1,28 @@
+{
+  "_id": "aLBIctRqBRKDOSha",
+  "_key": "!items!aLBIctRqBRKDOSha",
+  "name": "Lasting Influence",
+  "type": "feat",
+  "system": {
+    "description": "<p>When you penetrate the mind of your enemy, you can keep your barbs there for a long time.</p><p><b>Prerequisite:</b> Bothan</p><p><b>Effect:</b> Whenever you make a successful Persuasion check against a target's Will Defense, you gain Favourable Circumstances on future Persuasion checks against that target for the next 24 hours.</p>",
+    "prerequisite": {
+      "text": "Bothan species",
+      "nodes": {
+        "text": "Bothan species",
+        "requirement": "Bothan",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0Ajvp7FSRRoVGFCP",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

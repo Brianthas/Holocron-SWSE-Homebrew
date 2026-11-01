@@ -1,0 +1,39 @@
+{
+  "_id": "qM6EjEFtbM27fWUj",
+  "_key": "!items!qM6EjEFtbM27fWUj",
+  "name": "Crush",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can deal damage to a target that you've Grappled.</p><p><b>Prerequisites:</b> Pin, Base Attack Bonus +1</p><p><b>Effect:</b> If you successfully Pin an opponent with a Grapple attack (see Pin Feat for more details), you can immediately deal bludgeoning damage to it equal to your Unarmed damage or claw damage, whichever is greater.</p>",
+    "prerequisite": {
+      "text": "Pin feat, and Base Attack Bonus 1",
+      "nodes": {
+        "children": [
+          {
+            "text": "Pin feat",
+            "requirement": "Pin",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 1",
+            "requirement": "1",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Pin feat, and Base Attack Bonus 1",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Sw1cMk9opDjXTA0I",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

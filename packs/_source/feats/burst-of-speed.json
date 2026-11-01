@@ -1,0 +1,28 @@
+{
+  "_id": "MX9H0KQ9Di1nefXM",
+  "_key": "!items!MX9H0KQ9Di1nefXM",
+  "name": "Burst of Speed",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are capable of incredible bursts of speed.</p><p><b>Prerequisite:</b> Trained in Endurance</p><p><b>Effect:</b> As a Move Action, you can Move up to twice your speed. At the end of your movement, you move -1 step along the Condition Track.</p>",
+    "prerequisite": {
+      "text": "Trained in Endurance",
+      "nodes": {
+        "text": "Trained in Endurance",
+        "requirement": "Endurance",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KnjCcFgdHDi1VlcG",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

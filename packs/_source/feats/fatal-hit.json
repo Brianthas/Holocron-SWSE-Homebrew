@@ -1,0 +1,39 @@
+{
+  "_id": "dPHTDAI75JgjxdwR",
+  "_key": "!items!dPHTDAI75JgjxdwR",
+  "name": "Fatal Hit",
+  "type": "feat",
+  "system": {
+    "description": "<p>Enemies you take down don't get up again.</p><p><b>Prerequisites:</b> Strength 13, Dexterity 13</p><p><b>Effect:</b> When your attack drops a target to 0 Hit Points, you may choose to automatically kill that enemy even if the damage does not exceed the target's Damage Threshold. In addition, you can perform the Coup de Grace Action as a Standard Action.</p><p><b>Normal:</b> A creature that drops below 0 Hit Points becomes Unconscious if the damage dealt does not exceed its Damage Threshold. Performing a Coup de Grace is a Full-Round Action.</p>",
+    "prerequisite": {
+      "text": "Strength 13, and Dexterity 13",
+      "nodes": {
+        "children": [
+          {
+            "text": "Strength 13",
+            "requirement": "Strength 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Dexterity 13",
+            "requirement": "Dexterity 13",
+            "type": "ATTRIBUTE"
+          }
+        ],
+        "text": "Strength 13, and Dexterity 13",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0e50nW6HbktUlU3X",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

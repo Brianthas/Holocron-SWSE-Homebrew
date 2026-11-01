@@ -1,0 +1,28 @@
+{
+  "_id": "50gUTf4ukSM7bxg9",
+  "_key": "!items!50gUTf4ukSM7bxg9",
+  "name": "Sharp Senses",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your senses have been honed to the point where you can spot things that others could never see.</p><p><b>Prerequisite:</b> Mon Calamari</p><p><b>Effect:</b>&nbsp;Whenever you spend a&nbsp;Force Point&nbsp;to add to a&nbsp;Perception&nbsp;check, increase the die type by two steps (From d6 to d10, or from d8 to d12).</p>",
+    "prerequisite": {
+      "text": "Mon Calamari species",
+      "nodes": {
+        "text": "Mon Calamari species",
+        "requirement": "Mon Calamari",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JT7weH3ku2bbkUAn",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

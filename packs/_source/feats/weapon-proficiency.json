@@ -1,0 +1,24 @@
+{
+  "_id": "mGegvSi3dx2DPeh7",
+  "_key": "!items!mGegvSi3dx2DPeh7",
+  "name": "Weapon Proficiency",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are proficient with a particular kind of weaponry.</p><p><b>Effect:</b> Choose one Weapon Group. You are proficient with all weapons of the selected group. Weapon Groups include the following:</p><ul>\n <li>Simple Weapons (includes Simple Weapons (Melee), Simple Weapons (Ranged), and Grenades)</li>\n <li>Pistols</li>\n <li>Rifles</li>\n <li>Lightsabers</li>\n <li>Heavy Weapons (includes both Heavy Weapons and Vehicle Weapons)</li>\n <li>Advanced Melee</li>\n</ul><p><b>Normal:</b> If you wield a weapon with which you are not proficient, you take a -5 penalty to your attack rolls.</p><p><b>Special:</b> You can gain this Feat multiple times. Each time you take the Feat, it applies to a different Weapon Group. You cannot take Exotic Weapons as a weapon group; instead you must select the Exotic Weapon Proficiency Feat to gain proficiency with a specific Exotic Weapon.</p><h2>Additional Weapon Proficiency</h2><p><b>Combined Feat (Quick Draw):</b> You can draw and ignite your Lightsaber as a single Swift Action.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wQvKz0VytQhN8uS3",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

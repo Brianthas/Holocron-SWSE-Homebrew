@@ -1,0 +1,28 @@
+{
+  "_id": "7HLLz6kGyWQ9TGvP",
+  "_key": "!items!7HLLz6kGyWQ9TGvP",
+  "name": "Sure Climber",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can navigate steep cliffs and caverns as though climbing were second nature to you.</p><p><b>Prerequisite:</b> Sullustan</p><p><b>Effect:</b>&nbsp;Whenever you are not distracted or threatened, you gain a natural Climb Speed of 4 squares.</p><p><b>Normal:</b> Without a Climb Speed, you must succeed on a Climb check to climb.</p>",
+    "prerequisite": {
+      "text": "Sullustan species",
+      "nodes": {
+        "text": "Sullustan species",
+        "requirement": "Sullustan",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gFrqGyQHsPUuAjlg",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "_id": "mNdYB0zrXP3H1CZx",
+  "_key": "!items!mNdYB0zrXP3H1CZx",
+  "name": "Recall",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know a lot of details in your area of knowledge, but don't always remember them immediately.</p><p><b>Prerequisite:</b> Trained in at least one Knowledge Skill</p><p><b>Effect:</b> Once per day, you can reroll any check for a Knowledge Skill that you are Trained in, using the better result.</p>",
+    "prerequisite": {
+      "text": "Trained in at least one Knowledge Skill",
+      "nodes": {
+        "children": [
+          {
+            "text": "Trained in Knowledge (Bureaucracy)",
+            "requirement": "Knowledge (Bureaucracy)",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Trained in Knowledge (Galactic Lore)",
+            "requirement": "Knowledge (Galactic Lore)",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Trained in Knowledge (Sciences)",
+            "requirement": "Knowledge (Sciences)",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Trained in Knowledge (Tactics)",
+            "requirement": "Knowledge (Tactics)",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Trained in Knowledge (Technology)",
+            "requirement": "Knowledge (Technology)",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "count": 1,
+        "text": "Trained in at least one Knowledge Skill",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Yqf2mJSaZC3zXaFO",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

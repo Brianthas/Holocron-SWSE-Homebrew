@@ -1,0 +1,40 @@
+{
+  "_id": "buZ8bnxBnBQNCGgD",
+  "_key": "!items!buZ8bnxBnBQNCGgD",
+  "name": "Risk Taker",
+  "type": "feat",
+  "system": {
+    "description": "<p>You're not afraid to make great leaps or climb treacherous slopes, and you know how to put forth the extra effort to make the impossible seem routine.</p><p><b>Prerequisite:</b> Trained in Climb or Jump</p><p><b>Effect:</b> You fall only if you fail a Climb check by 10 or more. Additionally, if you make a Jump check and fail to land on a safe or solid surface (such as if you fall into a pit or fail to clear a stream of lava), you can spend a Force Point as a Free Action and add the result of the Force Point roll to your distance jumped. However, you must land in the first available safe square.</p><p><b>Normal:</b> You fall if you fail a Climb check by 5 or more.</p>",
+    "prerequisite": {
+      "text": "Trained in Climb or Jump",
+      "nodes": {
+        "children": [
+          {
+            "text": "Trained in Athletics",
+            "requirement": "Athletics",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Trained in Athletics",
+            "requirement": "Athletics",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "count": 1,
+        "text": "Trained in Climb or Jump",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "H7hTiB99sx1UBdGG",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

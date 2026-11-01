@@ -1,0 +1,39 @@
+{
+  "_id": "yYgdrmcLEcEER0OI",
+  "_key": "!items!yYgdrmcLEcEER0OI",
+  "name": "Vehicle Systems Expertise",
+  "type": "feat",
+  "system": {
+    "description": "<p>You may use your technical expertise to manipulate a Vehicle's systems more quickly than usual.</p><p><b>Prerequisites:</b> Tech Specialist, Trained in Mechanics.</p><p><b>Effect:</b> You may use the Recharge Shields or Reroute Power Actions by spending two Swift Actions. Also, once per encounter, you may attempt to use either of these Actions as a single Swift Action by making a DC 30 Mechanics check.</p><p><b>Normal:</b> The Recharge Shields and Reroute Power Actions normally requires you to spend three Swift Actions.</p>",
+    "prerequisite": {
+      "text": "Tech Specialist feat, and Trained in Mechanics",
+      "nodes": {
+        "children": [
+          {
+            "text": "Tech Specialist feat",
+            "requirement": "Tech Specialist",
+            "type": "FEAT"
+          },
+          {
+            "text": "Trained in Mechanics",
+            "requirement": "Mechanics",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Tech Specialist feat, and Trained in Mechanics",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fvZxlCfI93leXbU1",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

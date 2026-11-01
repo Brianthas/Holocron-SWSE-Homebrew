@@ -1,0 +1,28 @@
+{
+  "_id": "H396vk7eCQZAYPes",
+  "_key": "!items!H396vk7eCQZAYPes",
+  "name": "Informer",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are adept at prying into the affairs of others and dealing with those who are most interested in gaining that knowledge.</p><p><b>Prerequisite:</b> Trained in Perception</p><p><b>Effect:</b> You can use your Perception modifier instead of your Gather Information modifier when making Gather Information checks. You are considered Trained in the Gather Information skill. If you are entitled to a Gather Information check reroll, you can reroll your Perception check instead (subject to the same circumstances and limitations).</p><p>Additionally, when you have favorable conditions for your Gather Information check (such as from operating on your home planet), you reduce by half the time it takes to make a Gather Information check.</p>",
+    "prerequisite": {
+      "text": "Trained in Perception",
+      "nodes": {
+        "text": "Trained in Perception",
+        "requirement": "Perception",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Xm6nEcfwJGDA5T1v",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

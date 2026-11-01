@@ -1,0 +1,39 @@
+{
+  "_id": "zBmjzOd6YGsXnptX",
+  "_key": "!items!zBmjzOd6YGsXnptX",
+  "name": "Force Regimen Mastery",
+  "type": "feat",
+  "system": {
+    "description": "<p>You learn one or more Force Regimens, which you can use to enhance your regular training.</p><p><b>Prerequisites:</b> Force Sensitivity, Trained in Use the Force</p><p><b>Effect:</b> You learn a number of Force Regimens equal to 1 + your Intelligence modifier (minimum 1).</p><p><b>Special:</b> You can take this Feat more than once. Each time you take this Feat, you learn a number of additional Force Regimens equal to 1 + your Intelligence modifier (minimum 1). If your Intelligence modifier permanently increases, you immediately gain a number of Force Regimens equal to the number of Force Regimen Mastery Feats you have taken.</p>",
+    "prerequisite": {
+      "text": "Force Sensitivity feat, and Trained in Use the Force",
+      "nodes": {
+        "children": [
+          {
+            "text": "Force Sensitivity feat",
+            "requirement": "Force Sensitivity",
+            "type": "FEAT"
+          },
+          {
+            "text": "Trained in Use the Force",
+            "requirement": "Use the Force",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Force Sensitivity feat, and Trained in Use the Force",
+        "type": "AND"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NYc66Ld7ZDNWrZG0",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

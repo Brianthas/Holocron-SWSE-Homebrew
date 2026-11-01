@@ -1,0 +1,28 @@
+{
+  "_id": "bKdhXM71aWBMZtvs",
+  "_key": "!items!bKdhXM71aWBMZtvs",
+  "name": "Far Shot",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are better at shooting distant foes.</p><p><b>Prerequisite:</b> Point-Blank Shot</p><p><b>Effect:</b> When you use a ranged weapon against targets at Short, Medium, or Long Range, the Range category is considered one less. In other words, you take no penalty on ranged attack rolls made at Short Range, a -2 penalty on ranged attack rolls made against targets at Medium Range, and a -5 penalty on ranged attack rolls made against targets at Long Range.</p><p><b>Normal:</b> When making a ranged attack roll, a character takes a -2 penalty against targets at Short Range, a -5 penalty against targets at Medium Range, and a -10 penalty against targets at Long Range.</p><h2>Additional Far Shot Effects</h2><p>This<i> </i> Feat works normally with Vehicle Weapons. However, if you are using a Missile or a Torpedo and you miss with your attack roll, the projectile does not gain the benefit of this Feat for the second attack roll.</p>",
+    "prerequisite": {
+      "text": "Point-Blank Shot feat",
+      "nodes": {
+        "text": "Point-Blank Shot feat",
+        "requirement": "Point-Blank Shot",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yyhrZiN77ITvabj7",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

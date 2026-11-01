@@ -1,0 +1,39 @@
+{
+  "_id": "2wsf32tPiVRGIkxa",
+  "_key": "!items!2wsf32tPiVRGIkxa",
+  "name": "Focused Rage",
+  "type": "feat",
+  "system": {
+    "description": "<p>You retain better focus when enraged.</p><p><b>Prerequisites:</b> Rage Species Trait, Controlled Rage</p><p><b>Effect:</b> While Raging, you can use Skills that require patience and concentration, at a -5 penalty.</p><p><b>Normal:</b> While Raging, you cannot use Skills that require patience and concentration, such as Mechanics, Stealth, or Use the Force.</p>",
+    "prerequisite": {
+      "text": "Rage trait, and Controlled Rage feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Rage trait",
+            "requirement": "Rage",
+            "type": "TRAIT"
+          },
+          {
+            "text": "Controlled Rage feat",
+            "requirement": "Controlled Rage",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Rage trait, and Controlled Rage feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3zHfO68AGUbtp5J2",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

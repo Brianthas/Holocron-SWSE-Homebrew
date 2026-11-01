@@ -1,0 +1,24 @@
+{
+  "_id": "YwVAGv3I9aWkkgWT",
+  "_key": "!items!YwVAGv3I9aWkkgWT",
+  "name": "Armor Proficiency",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are proficient with Light Armor, and can wear it without impediment.</p><p><b>Effect:</b> When you wear Light Armor, you take no Armor Check Penalty on attack rolls or Skill Checks. Additionally, you benefit from all of the armor's special Equipment bonuses (if any).</p><p><b>Normal:</b> A character who wears Light Armor with which they are not proficient takes a -2 Armor Check Penalty on attack rolls as well as Skill Checks made using the following Skills: Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, and Swim. Additionally, the character gains none of the armor's special Equipment bonuses.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HlNyaX47WkI2GyKg",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

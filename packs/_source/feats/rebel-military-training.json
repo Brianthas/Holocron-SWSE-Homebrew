@@ -1,0 +1,28 @@
+{
+  "_id": "q8iHClIoGRfMU40U",
+  "_key": "!items!q8iHClIoGRfMU40U",
+  "name": "Rebel Military Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are well versed in the hit-and-run tactics used by The Rebel Alliance and know how to use your mobility to avoid retribution.</p><p><b>Prerequisite:</b> Running Attack</p><p><b>Effect:</b> Whenever you use the Running Attack feat to move both before and after making an attack, you gain a +2 dodge bonus to your Reflex Defense until the start of your next turn.</p>",
+    "prerequisite": {
+      "text": "Running Attack feat",
+      "nodes": {
+        "text": "Running Attack feat",
+        "requirement": "Running Attack",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eTp2huwkGKINjfep",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

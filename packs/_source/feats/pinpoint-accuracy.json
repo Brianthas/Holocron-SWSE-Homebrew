@@ -1,0 +1,49 @@
+{
+  "_id": "ogMIWbWgYPmVC5vH",
+  "_key": "!items!ogMIWbWgYPmVC5vH",
+  "name": "Pinpoint Accuracy",
+  "type": "feat",
+  "system": {
+    "description": "<p>This improved version of the Aiming Accuracy Feat moves your enemy -1 step on the Condition Track.</p><p><b>Prerequisite:</b> Droid, Aiming Accuracy, Point-Blank Shot, Precise Shot</p><p><b>Effect:</b> When using the Aiming Accuracy Feat, a target you damage cannot take the Recover Action until the end of its next turn.</p>",
+    "prerequisite": {
+      "text": "Droid, Aiming Accuracy feat, Point-Blank Shot feat, and Precise Shot feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Droid",
+            "requirement": "Is a droid",
+            "type": "SPECIAL"
+          },
+          {
+            "text": "Aiming Accuracy feat",
+            "requirement": "Aiming Accuracy",
+            "type": "FEAT"
+          },
+          {
+            "text": "Point-Blank Shot feat",
+            "requirement": "Point-Blank Shot",
+            "type": "FEAT"
+          },
+          {
+            "text": "Precise Shot feat",
+            "requirement": "Precise Shot",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Droid, Aiming Accuracy feat, Point-Blank Shot feat, and Precise Shot feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AZKE0DpQbQJTBozd",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

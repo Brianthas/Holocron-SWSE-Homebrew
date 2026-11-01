@@ -1,0 +1,44 @@
+{
+  "_id": "hKJUOJ6A2fBJNfiN",
+  "_key": "!items!hKJUOJ6A2fBJNfiN",
+  "name": "Tactical Genius",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are a master at using multiple starship tactics over the course of long space combats.</p><p><b>Prerequisites:</b> Starship Tactics, Vehicular Combat, Trained in Pilot</p><p><b>Effect:</b> You regain all spent Starship Maneuvers at the end of any round in which you roll a Natural 20 on an attack roll.</p><p><b>Normal:</b> Only a Natural 20 rolled on a Pilot check to activate a Starship Maneuver restores all Starship Maneuvers.</p>",
+    "prerequisite": {
+      "text": "Starship Tactics feat, Vehicular Combat feat, and Trained in Pilot",
+      "nodes": {
+        "children": [
+          {
+            "text": "Starship Tactics feat",
+            "requirement": "Starship Tactics",
+            "type": "FEAT"
+          },
+          {
+            "text": "Vehicular Combat feat",
+            "requirement": "Vehicular Combat",
+            "type": "FEAT"
+          },
+          {
+            "text": "Trained in Pilot",
+            "requirement": "Pilot",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Starship Tactics feat, Vehicular Combat feat, and Trained in Pilot",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PNPNDdRG8YINT6wl",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

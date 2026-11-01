@@ -1,0 +1,28 @@
+{
+  "_id": "ojc3050JbHYikcm2",
+  "_key": "!items!ojc3050JbHYikcm2",
+  "name": "Zero Range",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are lethal when using ranged weapons against adjacent targets.</p><p><b>Prerequisite:</b> Point-Blank Shot</p><p><b>Effect:</b> When firing a ranged weapon at a target within or adjacent to your Fighting Space, you gain a +1 bonus on the attack roll and deal +1 die of damage on a hit.</p><p><b>Special:</b> The effects of this Feat do not stack with the extra damage provided by the Burst Fire or Rapid Shot Feats. This Feat does not apply to Heavy Weapons or Vehicle Weapons, or in Vehicle Combat.</p>",
+    "prerequisite": {
+      "text": "Point-Blank Shot feat",
+      "nodes": {
+        "text": "Point-Blank Shot feat",
+        "requirement": "Point-Blank Shot",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TNINhFRcXceapJvd",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "XmBP74DJ6hW2ZdTA",
+  "_key": "!items!XmBP74DJ6hW2ZdTA",
+  "name": "Ascension Specialists",
+  "type": "feat",
+  "system": {
+    "description": "<p>You and your allies train on the sheer cliffs of Teth and the sinkholes of Utapau as a matter of course.</p><p><b>Prerequisite:</b> Trained in Climb</p><p><b>Effect:</b> You gain a +3 competence bonus on Climb checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, when you climb, you climb at half your speed as a Move Action (or at your normal speed as a Full-Round Action).</p>",
+    "prerequisite": {
+      "text": "Trained in Athletics",
+      "nodes": {
+        "text": "Trained in Athletics",
+        "requirement": "Athletics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WCldCQ4dhoEjSmV6",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "xl483mHZvMLTOvWF",
+  "_key": "!items!xl483mHZvMLTOvWF",
+  "name": "Republic Military Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are trained in Republic military fighting techniques, giving you an advantage in ranged combat. This training is generally given to members of the Republic military forces.</p><p><b>Effect:</b> Once per encounter, as a Reaction, you gain Damage Reduction 10 against an incoming attack if you have Cover from the attacker. You can gain the Damage Reduction as long as you have Cover, even if your opponent uses Aim to ignore your Cover bonus to Reflex Defense.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6BOqn7xIbuEp4zGP",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

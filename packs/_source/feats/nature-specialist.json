@@ -1,0 +1,28 @@
+{
+  "_id": "jrecA57BeQq9f19i",
+  "_key": "!items!jrecA57BeQq9f19i",
+  "name": "Nature Specialist",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know even the most obscure information about the natural world.</p><p><b>Prerequisite:</b> Ithorian</p><p><b>Effect:</b>&nbsp;Whenever you spend a&nbsp;Force Point&nbsp;to add to a Knowledge (Life Sciences) check, increase the die type by two steps (From d6 to d10, or from d8 to d12).</p>",
+    "prerequisite": {
+      "text": "Ithorian species",
+      "nodes": {
+        "text": "Ithorian species",
+        "requirement": "Ithorian",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "W2XzYait0BysLL3X",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "g6PrTZkxQKPsF3QT",
+  "_key": "!items!g6PrTZkxQKPsF3QT",
+  "name": "Improved Rapid Strike",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your Rapid Strike is more effective with Light Melee Weapons.</p><p><b>Prerequisite:</b> Rapid Strike</p><p><b>Effect:</b> When using a Light Melee Weapon or Lightsaber with the Rapid Strike Feat, you can take a -5 penalty to your attack roll to gain +2 dice of damage on a successful strike.</p><p><b>Special:</b> This does not stack with the Rapid Strike Feat or extra damage provided by any source that does not stack with the Rapid Strike Feat (such as Mighty Swing). If you do not have a Dexterity of 13 or higher, the penalty to your attack roll is -10 instead of -5.</p>",
+    "prerequisite": {
+      "text": "Rapid Strike feat",
+      "nodes": {
+        "text": "Rapid Strike feat",
+        "requirement": "Rapid Strike",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sJqXAskuudJMeiN6",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

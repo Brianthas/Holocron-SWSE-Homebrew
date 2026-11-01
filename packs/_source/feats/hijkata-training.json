@@ -1,0 +1,39 @@
+{
+  "_id": "XpAp6whEINjpoGtw",
+  "_key": "!items!XpAp6whEINjpoGtw",
+  "name": "Hijkata Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are trained in the Hijkata style of Unarmed fighting and can quickly turn enemies' attacks against them.</p><p><b>Prerequisites:</b> Combat Reflexes, Martial Arts I</p><p><b>Effect:</b> Once per round, when an adjacent enemy successfully damages you with a melee attack, you can make an Attack of Opportunity with an Unarmed Attack at a -5 penalty against that enemy, even if the enemy's attack normally would not provoke an Attack of Opportunity.</p><p>Once per encounter, when an enemy provokes an Attack of Opportunity from you and you successfully damage that enemy with an Unarmed Attack of Opportunity, that enemy takes a penalty to attack rolls equal to your Dexterity modifier (Minimum +1, for a minimum penalty of -1) until the end of your next turn.</p><p><b>Special:</b> If you have the <b>Hijkata Expertise</b> Talent, once per encounter, you can spend a Full-Round Action to designate a single adjacent ally. Until the start of your next turn, any enemy adjacent to you or the designated ally that makes an attack roll against that ally provokes an Attack of Opportunity from you. If the ally moves during his or her turn, you can immediately move a number of squares up to your Speed as a Reaction; however, you must end your movement in a square that is adjacent to the designated ally.</p>",
+    "prerequisite": {
+      "text": "Combat Reflexes feat, and Martial Arts I feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Combat Reflexes feat",
+            "requirement": "Combat Reflexes",
+            "type": "FEAT"
+          },
+          {
+            "text": "Martial Arts I feat",
+            "requirement": "Martial Arts I",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Combat Reflexes feat, and Martial Arts I feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qqFzs4YUhyKiMNde",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

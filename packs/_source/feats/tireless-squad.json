@@ -1,0 +1,28 @@
+{
+  "_id": "K2JQx1RbLLI9Dntb",
+  "_key": "!items!K2JQx1RbLLI9Dntb",
+  "name": "Tireless Squad",
+  "type": "feat",
+  "system": {
+    "description": "<p>You and your allies train for combat scenarios in which your ability to hang in for the long haul is the difference between victory and defeat.</p><p><b>Prerequisite:</b> Trained in Endurance</p><p><b>Effect:</b> You gain a +3 competence bonus on Endurance checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, when you use the Aid Another Action to assist an ally who has this Feat with a Endurance check, you provide a bonus of +4 instead of +2.</p>",
+    "prerequisite": {
+      "text": "Trained in Endurance",
+      "nodes": {
+        "text": "Trained in Endurance",
+        "requirement": "Endurance",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jV0I4ZBtX0s9Q2Lb",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

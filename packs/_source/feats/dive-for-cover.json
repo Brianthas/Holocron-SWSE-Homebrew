@@ -1,0 +1,28 @@
+{
+  "_id": "uOOT7knTXvXdbwZ1",
+  "_key": "!items!uOOT7knTXvXdbwZ1",
+  "name": "Dive for Cover",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can leap behind cover, even when caught out in the open.</p><p><b>Prerequisite:</b> Trained in Jump</p><p><b>Effect:</b> Once per turn, as a Reaction to being targeted by a ranged attack, you can make a Jump check to Long Jump. If you land in a square that provides you with Cover from your attacker, you gain the normal Cover bonus against the attack, even if you didn't have Cover at the time the attack was made. When you use this Feat, you always land Prone.</p>",
+    "prerequisite": {
+      "text": "Trained in Athletics",
+      "nodes": {
+        "text": "Trained in Athletics",
+        "requirement": "Athletics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oaE8NRGD6FebkNqq",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

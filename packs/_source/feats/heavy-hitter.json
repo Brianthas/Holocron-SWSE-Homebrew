@@ -1,0 +1,28 @@
+{
+  "_id": "ULPW7bM2ktIv8wwZ",
+  "_key": "!items!ULPW7bM2ktIv8wwZ",
+  "name": "Heavy Hitter",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to pound targets when firing heavy-weapons emplacements and vehicle weaponry.</p><p><b>Prerequisite:</b> Weapon Focus (Heavy Weapons)</p><p><b>Effect:</b> When making an attack roll using a Weapon Emplacement or a Weapon System, you add an additional 1 point of damage for every 5 points you roll above the target's Reflex Defense. If you exceed the target's Damage Threshold, then on its next turn the target cannot attack and its speed is reduced by 2 squares (1 square Starship Scale).</p>",
+    "prerequisite": {
+      "text": "Weapon Focus (Heavy Weapons)",
+      "nodes": {
+        "text": "Weapon Focus (Heavy Weapons)",
+        "requirement": "Weapon Focus (Heavy Weapons)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LS4jdwG402Mz5J9e",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

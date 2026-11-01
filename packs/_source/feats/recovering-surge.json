@@ -1,0 +1,24 @@
+{
+  "_id": "LmBWkk0CEwjD3A5q",
+  "_key": "!items!LmBWkk0CEwjD3A5q",
+  "name": "Recovering Surge",
+  "type": "feat",
+  "system": {
+    "description": "<p>When you get back into the fight, you do not let your wounds hamper you.</p><p><b>Effect:</b> When you catch a Second Wind, you move +1 step on the Condition Track.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qP6Otwy0VrH4jCo5",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

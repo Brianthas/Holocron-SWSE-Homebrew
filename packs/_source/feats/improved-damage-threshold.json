@@ -1,0 +1,48 @@
+{
+  "_id": "7Nf1wPOkMZtGEzrb",
+  "_key": "!items!7Nf1wPOkMZtGEzrb",
+  "name": "Improved Damage Threshold",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are harder to take down in a fight.</p><p><b>Effect:</b> You increase your Damage Threshold by 5 points.</p><p><b>Normal:</b> A creature without this Feat has a Damage Threshold equal to its Fortitude Defense plus its size modifier (+5 for Large, +10 for Huge, +20 for Gargantuan, +50 for Colossal).</p><p><b>Special:</b> You may take this Feat more than once. It's effects stack. Each time you take this Feat, increase your Damage Threshold by 5 points.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [
+    {
+      "_id": "AVJhNCWSWNHeZUJ8",
+      "_key": "!items.effects!7Nf1wPOkMZtGEzrb.AVJhNCWSWNHeZUJ8",
+      "name": "Improved Damage Threshold",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "dt",
+            "type": "bonus",
+            "value": 5,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7jBwy6MfkIfaUY9L",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

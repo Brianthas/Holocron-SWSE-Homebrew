@@ -1,0 +1,28 @@
+{
+  "_id": "lkPtHDqPTj6r3eUO",
+  "_key": "!items!lkPtHDqPTj6r3eUO",
+  "name": "Silver Tongue",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are adept at quickly changing a creature's Attitude toward you.</p><p><b>Prerequisite:</b> Trained in Persuasion</p><p><b>Effect:</b> You can Intimidate or Change Attitude as a Standard Action.</p><p><b>Normal:</b> To Intimidate or Change Attitude requires a Full-Round Action.</p>",
+    "prerequisite": {
+      "text": "Trained in Persuasion",
+      "nodes": {
+        "text": "Trained in Persuasion",
+        "requirement": "Persuasion",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DKNfHJbqcgSlYvQ6",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

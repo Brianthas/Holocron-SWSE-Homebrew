@@ -1,0 +1,24 @@
+{
+  "_id": "HfInZHYttELuoiB8",
+  "_key": "!items!HfInZHYttELuoiB8",
+  "name": "Opportunistic Shooter",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are quick to react when nearby enemies expose themselves to your attacks.</p><p><b>Effect:</b> You gain a +2 bonus on Attacks of Opportunity with ranged weapons.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4ugpfn6X4jTmAsWq",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

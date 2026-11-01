@@ -1,0 +1,39 @@
+{
+  "_id": "7DVHJiE7GAzNZrQS",
+  "_key": "!items!7DVHJiE7GAzNZrQS",
+  "name": "K'tara Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are trained in the K'tara style of Unarmed fighting, which enables you to neutralize enemies before they even know that you are present.</p><p><b>Prerequisites:</b> Martial Arts I, Trained in Stealth</p><p><b>Effect:</b> You roll an extra die of damage against a Flat-Footed enemy on one Unarmed Attack during your turn.</p><p>Once per encounter, when you deal damage with an Unarmed Attack to a target that has been denied its Dexterity bonus to Reflex Defense, make a second Unarmed attack against the target's Fortitude Defense as a Free Action. If successful, you render the target incapable of speech until the end of your next turn. This is a Stunning effect.</p><p><b>Special:</b> If you have the <b>K'tara Expertise</b> Talent, you can spend two Swift Actions to cause a single adjacent enemy to be Flat-Footed against your first attack during the same round.</p>",
+    "prerequisite": {
+      "text": "Martial Arts I feat, and Trained in Stealth",
+      "nodes": {
+        "children": [
+          {
+            "text": "Martial Arts I feat",
+            "requirement": "Martial Arts I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Trained in Stealth",
+            "requirement": "Stealth",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Martial Arts I feat, and Trained in Stealth",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lYXIY8W7xv3RQdRk",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

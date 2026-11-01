@@ -1,0 +1,28 @@
+{
+  "_id": "bgabyxU2SjBDQFar",
+  "_key": "!items!bgabyxU2SjBDQFar",
+  "name": "Aquatic Specialists",
+  "type": "feat",
+  "system": {
+    "description": "<p>You and your allies have trained extensively in Underwater Combat and specialize in missions in aquatic environments.</p><p><b>Prerequisite:</b> Trained in Swim</p><p><b>Effect:</b> You gain a +3 competence bonus on Swim checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, when you Swim, you swim at half your speed as a Move Action (or you swim at your full speed as a Full-Round Action).</p>",
+    "prerequisite": {
+      "text": "Trained in Athletics",
+      "nodes": {
+        "text": "Trained in Athletics",
+        "requirement": "Athletics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3ZUC59ptZePEwq6t",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

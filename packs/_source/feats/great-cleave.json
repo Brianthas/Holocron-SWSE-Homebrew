@@ -1,0 +1,49 @@
+{
+  "_id": "kMagrBynnQhU1Pvh",
+  "_key": "!items!kMagrBynnQhU1Pvh",
+  "name": "Great Cleave",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can wield a melee weapon with such power that you can strike multiple times when you drop your opponents.</p><p><b>Prerequisites:</b> Strength 13, Cleave, Power Attack, Base Attack Bonus +4.</p><p><b>Effect:</b> As the Cleave Feat, except that you have no limit to the number of times you can use it per round.</p>",
+    "prerequisite": {
+      "text": "Strength 13, Cleave feat, Power Attack feat, and Base Attack Bonus 4",
+      "nodes": {
+        "children": [
+          {
+            "text": "Strength 13",
+            "requirement": "Strength 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Cleave feat",
+            "requirement": "Cleave",
+            "type": "FEAT"
+          },
+          {
+            "text": "Power Attack feat",
+            "requirement": "Power Attack",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 4",
+            "requirement": "4",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Strength 13, Cleave feat, Power Attack feat, and Base Attack Bonus 4",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7bPKI0JjnAi5npY7",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

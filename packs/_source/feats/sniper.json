@@ -1,0 +1,44 @@
+{
+  "_id": "khJpTxrFaHQEEC5O",
+  "_key": "!items!khJpTxrFaHQEEC5O",
+  "name": "Sniper",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are particularly adept at hitting the right target in a crowd.</p><p><b>Prerequisites:</b> Point-Blank Shot, Precise Shot, Base Attack Bonus +4</p><p><b>Effect:</b> You always ignore Soft Cover (that is, Cover provided by a character, creature, or Droid) when you make a ranged attack.</p><p><b>Normal:</b> You can only ignore Cover if you Aim before making a ranged attack.</p>",
+    "prerequisite": {
+      "text": "Point-Blank Shot feat, Precise Shot feat, and Base Attack Bonus 4",
+      "nodes": {
+        "children": [
+          {
+            "text": "Point-Blank Shot feat",
+            "requirement": "Point-Blank Shot",
+            "type": "FEAT"
+          },
+          {
+            "text": "Precise Shot feat",
+            "requirement": "Precise Shot",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 4",
+            "requirement": "4",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Point-Blank Shot feat, Precise Shot feat, and Base Attack Bonus 4",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2aXSwxVqIxABpf9Y",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

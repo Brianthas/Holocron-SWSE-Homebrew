@@ -1,0 +1,28 @@
+{
+  "_id": "TEdTbcpWgMizgyyJ",
+  "_key": "!items!TEdTbcpWgMizgyyJ",
+  "name": "Wilderness Specialists",
+  "type": "feat",
+  "system": {
+    "description": "<p>You and your allies have been trained to survive in the wild and can live off the land.</p><p><b>Prerequisite:</b> Trained in Survival</p><p><b>Effect:</b> You gain a +3 competence bonus on Survival checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, when you use the Aid Another Action to assist an ally who has this Feat with a Survival check, you provide a bonus of +4 instead of +2.</p>",
+    "prerequisite": {
+      "text": "Trained in Survival",
+      "nodes": {
+        "text": "Trained in Survival",
+        "requirement": "Survival",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Nabtz2LOmid3Zxjc",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

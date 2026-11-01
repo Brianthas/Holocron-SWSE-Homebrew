@@ -1,0 +1,28 @@
+{
+  "_id": "8SRUq4Uopbet5ZW9",
+  "_key": "!items!8SRUq4Uopbet5ZW9",
+  "name": "Mighty Swing",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are capable of delivering jarring melee attacks.</p><p><b>Prerequisite:</b> Strength 13</p><p><b>Effect:</b> You can spend two Swift Actions in the same round to deal +1 die of damage on your next melee attack in the same round.</p><p><b>Special:</b> The effects of this Feat do not stack with the extra damage provided by the Rapid Strike Feat.</p>",
+    "prerequisite": {
+      "text": "Strength 13",
+      "nodes": {
+        "text": "Strength 13",
+        "requirement": "Strength 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zwFnwQMntajpgStJ",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "RI1dXEYzTMeFdb4W",
+  "_key": "!items!RI1dXEYzTMeFdb4W",
+  "name": "Teräs Käsi Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are trained in the Teräs Käsi Unarmed fighting style and can send an enemy reeling with a single punch.</p><p><b>Prerequisites:</b> Strength 13, Martial Arts I</p><p><b>Effect:</b> Once per round when you make a successful Unarmed Attack, you reduce the target's Damage Threshold by 5 when determining the effect of the attack.</p><p><b>Special:</b> If you have the <b>Teräs Käsi Basics</b> Talent, you are considered to be one size category larger when determining the damage of your Unarmed Attacks.</p>",
+    "prerequisite": {
+      "text": "Strength 13, and Martial Arts I feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Strength 13",
+            "requirement": "Strength 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Martial Arts I feat",
+            "requirement": "Martial Arts I",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Strength 13, and Martial Arts I feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bnB0LlwnHRdMmxW6",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

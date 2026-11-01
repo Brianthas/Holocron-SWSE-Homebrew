@@ -1,0 +1,39 @@
+{
+  "_id": "cWK4gSFB2wVFhsgf",
+  "_key": "!items!cWK4gSFB2wVFhsgf",
+  "name": "Improved Disarm",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are skilled at Disarming opponents in melee combat.</p><p><b>Prerequisites:</b> Intelligence 13, Melee Defense</p><p><b>Effect:</b> You gain a +5 bonus on any melee attack roll made to Disarm an opponent. In addition, if you fail to Disarm an opponent, he doesn't get to make a free attack against you.</p><h2>Additional Improved Disarm Effects</h2><p><b>Combined Feat (Force Training):</b> When you use the <i>Force Disarm</i> Force Power, you gain the +5 bonus from Improved Disarm on your Use the Force check as though you were making an attack roll.</p>",
+    "prerequisite": {
+      "text": "Intelligence 13, and Melee Defense feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Intelligence 13",
+            "requirement": "Intelligence 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Melee Defense feat",
+            "requirement": "Melee Defense",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Intelligence 13, and Melee Defense feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dsTTB4G2BtC6u2zl",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

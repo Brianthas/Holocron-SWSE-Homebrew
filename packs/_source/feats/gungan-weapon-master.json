@@ -1,0 +1,28 @@
+{
+  "_id": "DTKI6lMR6BPgzZf3",
+  "_key": "!items!DTKI6lMR6BPgzZf3",
+  "name": "Gungan Weapon Master",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have learned to master the ancestral weapons of your people and can penetrate even the staunchest defenses.</p><p><b>Prerequisite:</b> Gungan</p><p><b>Effect:</b> Whenever you spend a Force Point to add to an attack roll with an Atlatl or a Cesta, increase the die type by one step (From d6 to d8, or from d8 to d10).&nbsp;&nbsp;</p>",
+    "prerequisite": {
+      "text": "Gungan species",
+      "nodes": {
+        "text": "Gungan species",
+        "requirement": "Gungan",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "znoV4OA3IKgYAeoe",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

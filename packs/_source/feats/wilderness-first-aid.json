@@ -1,0 +1,28 @@
+{
+  "_id": "rmUSI1xTrlB6Tnm6",
+  "_key": "!items!rmUSI1xTrlB6Tnm6",
+  "name": "Wilderness First Aid",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to treat wounds in the wilderness, using only the natural materials around you.</p><p><b>Prerequisite:</b> Trained in Survival.</p><p><b>Effect:</b> Once per day, you can make a DC 20 Survival check. If the check is successful, when you use the Basic Survival application of the Survival skill, you are considered to have a Medpac for any Treat Injury checks made until the end of the day.</p><p><b>Special:</b> The Gamemaster can adjust the DC for the current environment, raising it for harsh or desert climates or lowering it for diverse locales.</p>",
+    "prerequisite": {
+      "text": "Trained in Survival",
+      "nodes": {
+        "text": "Trained in Survival",
+        "requirement": "Survival",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gKkgwCBSaq3p9ohy",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

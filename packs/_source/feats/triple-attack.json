@@ -1,0 +1,39 @@
+{
+  "_id": "CJKjUA8YjoIVIjZc",
+  "_key": "!items!CJKjUA8YjoIVIjZc",
+  "name": "Triple Attack",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can make an additional attack during a round of combat.</p><p><b>Prerequisites:</b> Base Attack Bonus +11, Double Attack (Chosen Weapon)</p><p><b>Effect:</b> Choose a single Exotic Weapon or weapon group. When you use the Full Attack Action, you may make one additional attack when wielding such a Weapon. However, you take a -5 penalty on all attack rolls until your next turn because you're trading precision for speed. The extra attack and penalty stack with those of Double Attack.</p><p><b>Normal:</b> Making a single attack is a Standard Action.</p><p><b>Special:</b> You may select this Feat multiple times. Each time you select this Feat, it applies to a different Exotic Weapon or weapon group.</p><h2>Additional Triple Attack Effects</h2><p><b>Special:</b> If you take this feat with Heavy Weapons, it works normally with Vehicle Weapons.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 11, and Double Attack (#payload#)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Base Attack Bonus 11",
+            "requirement": "11",
+            "type": "BASE ATTACK BONUS"
+          },
+          {
+            "text": "Double Attack (#payload#)",
+            "requirement": "Double Attack (#payload#)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Base Attack Bonus 11, and Double Attack (#payload#)",
+        "type": "AND"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9OA5vV9rcvSwKrak",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "8lKx2U719e062KG0",
+  "_key": "!items!8lKx2U719e062KG0",
+  "name": "Gearhead",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are naturally talented with machines and electronics.</p><p><b>Effect:</b> Once per encounter, you can make Mechanics and Use Computer checks more quickly than normal. A check requiring a Full-Round Action can be attempted as a Standard Action, a check requiring a Standard Action can be attempted as a Move Action, and a check requiring a Move Action can be attempted as a Swift Action. Checks requiring multiple Swift Actions can be reduced by one Swift Action. Checks requiring more than a Full-Round Action can be attempted in one-half the amount of time required at a -10 penalty.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PlZaEE6dMRkED7eq",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "BIvXSwCpzjdA5UwP",
+  "_key": "!items!BIvXSwCpzjdA5UwP",
+  "name": "Rapport",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are adept at working with certain individuals, able to anticipate their next move.</p><p><b>Prerequisite:</b> Wisdom 13</p><p><b>Effect:</b> When using the Aid Another Action, you grant an additional +2 insight bonus on Skill Checks and attack rolls to the character you are assisting. This bonus does not stack with any bonus provided by the Noble's <b>Coordinate</b> Talent.</p>",
+    "prerequisite": {
+      "text": "Wisdom 13",
+      "nodes": {
+        "text": "Wisdom 13",
+        "requirement": "Wisdom 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kiQlQCwJIykQFdqc",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

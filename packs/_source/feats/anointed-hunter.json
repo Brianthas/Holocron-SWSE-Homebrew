@@ -1,0 +1,28 @@
+{
+  "_id": "CYfNY96DIMkZOr2U",
+  "_key": "!items!CYfNY96DIMkZOr2U",
+  "name": "Anointed Hunter",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have been anointed as a hunter for your tribe and possess skills few other Nelvaanians do.</p><p><b>Prerequisite:</b> Nelvaanian</p><p><b>Effect:</b> If you end your Move at least 2 squares from where you started, you gain a +1 competence bonus on attacks made with Thrown Weapons until the end of your turn.</p>",
+    "prerequisite": {
+      "text": "Nelvaanian species",
+      "nodes": {
+        "text": "Nelvaanian species",
+        "requirement": "Nelvaanian",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PiyT2pKz3PxKj0FY",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

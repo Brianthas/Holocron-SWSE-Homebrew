@@ -1,0 +1,28 @@
+{
+  "_id": "xRGOveE1fA6aaa4U",
+  "_key": "!items!xRGOveE1fA6aaa4U",
+  "name": "Combat Trickery",
+  "type": "feat",
+  "system": {
+    "description": "<p>You excel at deceiving others with your tricks and masterful Feint in combat.</p><p><b>Prerequisite:</b> Trained in Deception</p><p><b>Effect:</b> You can spend two successive Swift Actions on the same turn to make a Deception check against a target's Will Defense. If the check is successful, the target is Flat-Footed against your next attack made before the end of your next turn. Additionally, you can spend a Force Point to extend your target's penalties until the end of encounter.</p>",
+    "prerequisite": {
+      "text": "Trained in Deception",
+      "nodes": {
+        "text": "Trained in Deception",
+        "requirement": "Deception",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LK1IM8xAw4jovlA7",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

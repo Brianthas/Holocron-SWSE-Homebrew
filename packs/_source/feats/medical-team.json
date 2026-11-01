@@ -1,0 +1,28 @@
+{
+  "_id": "zgAz6lwV2lZdwS1O",
+  "_key": "!items!zgAz6lwV2lZdwS1O",
+  "name": "Medical Team",
+  "type": "feat",
+  "system": {
+    "description": "<p>You and your allies know the value of keeping soldiers alive and perform as a cohesive healing unit.</p><p><b>Prerequisite:</b> Trained in Treat Injury</p><p><b>Effect:</b> You gain a +3 competence bonus on Treat Injury checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, when you use the Aid Another Action to assist an ally who has this Feat with a Treat Injury check to restore Hit Points, your ally restores an extra 4 Hit Points to the target.</p>",
+    "prerequisite": {
+      "text": "Trained in Treat Injury",
+      "nodes": {
+        "text": "Trained in Treat Injury",
+        "requirement": "Treat Injury",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2y9oUmM33RApTAKc",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

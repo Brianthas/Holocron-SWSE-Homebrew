@@ -1,0 +1,28 @@
+{
+  "_id": "7F3KpeaB8g5rYS9B",
+  "_key": "!items!7F3KpeaB8g5rYS9B",
+  "name": "Weapon Focus",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are especially good at using particular weapons.</p><p><b>Prerequisite:</b> Proficient with&nbsp;Chosen Weapon</p><p><b>Effect:</b> Choose a single Exotic Weapon or weapon group, you gain a +1 bonus on all attack rolls you make using the selected Exotic Weapon or weapon group.</p><p><b>Special:</b> You can gain this Feat multiple times. Its effects do not stack. Each time you take the Feat, it applies to a new Exotic Weapon or weapon group.</p><h2>Additional Weapon Focus Effects</h2><p><b>Combined Feat (Weapon Finesse):</b>&nbsp;When you are wielding a single one-handed weapon for which you have&nbsp;Weapon Focus, you can treat that weapon as a Light Weapon.</p>",
+    "prerequisite": {
+      "text": "Proficient with #payload#",
+      "nodes": {
+        "text": "Proficient with #payload#",
+        "requirement": "#payload#",
+        "type": "PROFICIENCY"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HogKNjo5krZ0Z2wl",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

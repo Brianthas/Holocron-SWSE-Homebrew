@@ -1,0 +1,28 @@
+{
+  "_id": "EgRvXmvJvhwXZtiI",
+  "_key": "!items!EgRvXmvJvhwXZtiI",
+  "name": "Trample",
+  "type": "feat",
+  "system": {
+    "description": "<p>When charging, your living Mount can flatten smaller targets between you and your target.</p><p><b>Prerequisite:</b> Trained in Ride</p><p><b>Effect:</b> When you use the Mounted Charge Action, your Mount can make a single melee attack as a Free Action. While Charging, compare the result to the Reflex Defense of each enemy whose square you Charge through. Each enemy hit by the attack takes Claw, Gore, or Slam damage from the Mount's Natural Weapons plus the Mount's Strength modifier. You or your Mount still can make a regular attack at the end of the Charge.</p><p><b>Special:</b> You can use this Feat if either you or your Mount has taken it. Mounts with this Feat do not require the prerequisite.</p>",
+    "prerequisite": {
+      "text": "Trained in Ride",
+      "nodes": {
+        "text": "Trained in Ride",
+        "requirement": "Ride",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "v4Kw7VsUh4FSO2HC",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "tElQFz2MEOjfo05G",
+  "_key": "!items!tElQFz2MEOjfo05G",
+  "name": "Close Combat Escape",
+  "type": "feat",
+  "system": {
+    "description": "<p>When you slip free from your opponent, you can deliver a parting attack.</p><p><b>Prerequisite:</b> Trained in Acrobatics</p><p><b>Effect:</b> When you successfully use Acrobatics to escape a Grapple, you can spend a Swift Action to make a single attack with a melee weapon or an Unarmed attack against the opponent that had Grappled you. If the attack hits, it deals normal damage, and your opponent is considered Flat-Footed until the start of its next turn.</p>",
+    "prerequisite": {
+      "text": "Trained in Acrobatics",
+      "nodes": {
+        "text": "Trained in Acrobatics",
+        "requirement": "Acrobatics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7Z1I3lS8wanHDEwi",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "n9AHopLgUcHObJ5h",
+  "_key": "!items!n9AHopLgUcHObJ5h",
+  "name": "Dual Weapon Mastery I",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are adept at fighting with two weapons and double weapons.</p><p><b>Prerequisites:</b> Dexterity 13, Base Attack Bonus +1</p><p><b>Effect:</b> When you attack with two weapons, or with both ends of a double weapon as part of a Full Attack Action, you take a -5 penalty (Instead of a -10 penalty) on all attack rolls until the start of your next turn. You only gain this reduced penalty if you are wielding a weapon with which you are proficient.</p><p><b>Normal:</b> If you use a Full Attack Action to make more than one attack on your turn, you take a -10 penalty on all attack rolls for the round.</p><h2>Additional Dual Weapon Mastery I Effects</h2><p>Vehicle Weapons cannot be used in one hand, so this Feat has no effect on them.</p><p><b>Combined Feat (Quick Draw):</b> You can draw or holster two weapons with a single Swift Action; you must have both hands free to draw both weapons, and each weapon must be able to be held in one hand.</p>",
+    "prerequisite": {
+      "text": "Dexterity 13, and Base Attack Bonus 1",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dexterity 13",
+            "requirement": "Dexterity 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Base Attack Bonus 1",
+            "requirement": "1",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Dexterity 13, and Base Attack Bonus 1",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fnO8NU45nLbr5DjZ",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

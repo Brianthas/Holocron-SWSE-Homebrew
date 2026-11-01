@@ -1,0 +1,28 @@
+{
+  "_id": "EyVvxUnKeSoKtjXv",
+  "_key": "!items!EyVvxUnKeSoKtjXv",
+  "name": "Mon Calamari Shipwright",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have intimate knowledge of the workings of Starships and other Vehicles and can keep them running no matter what.</p><p><b>Prerequisite:</b> Mon Calamari</p><p><b>Effect:</b>&nbsp;You need spend only two Swift Actions to move a Vehicle you occupy +1 step on the Condition Track. In addition, you automatically succeed on Mechanics checks to Reroute Power.</p><p><b>Normal:</b> It takes three Swift Actions to use the Reroute Power Action.</p>",
+    "prerequisite": {
+      "text": "Mon Calamari species",
+      "nodes": {
+        "text": "Mon Calamari species",
+        "requirement": "Mon Calamari",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bYwUyQg1FDkdxe4w",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "Rus895Jd6jiXsGTB",
+  "_key": "!items!Rus895Jd6jiXsGTB",
+  "name": "Acrobatic Dodge",
+  "type": "feat",
+  "system": {
+    "description": "<p>When you react to an attack, your acrobatics training improves your mobility.</p><p><b>Prerequisites:</b> Dexterity 13, Dodge, Mobility, Skill Focus (Acrobatics)</p><p><b>Effect:</b> Once per encounter, as a Reaction, if a melee attack misses you, you can immediately move into an adjacent square without provoking an Attack of Opportunity.</p><p><b>Special:</b> You must be aware of the attacker to benefit from this Feat. You can use this Feat a second time during the encounter by spending a Force Point.</p>",
+    "prerequisite": {
+      "text": "Dexterity 13, Dodge feat, Mobility feat, and Skill Focus (Acrobatics)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dexterity 13",
+            "requirement": "Dexterity 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Dodge feat",
+            "requirement": "Dodge",
+            "type": "FEAT"
+          },
+          {
+            "text": "Mobility feat",
+            "requirement": "Mobility",
+            "type": "FEAT"
+          },
+          {
+            "text": "Skill Focus (Acrobatics)",
+            "requirement": "Skill Focus (Acrobatics)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Dexterity 13, Dodge feat, Mobility feat, and Skill Focus (Acrobatics)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0xU8uCUzhaFzOvGv",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

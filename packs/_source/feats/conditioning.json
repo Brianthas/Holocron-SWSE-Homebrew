@@ -1,0 +1,39 @@
+{
+  "_id": "lqSBpKOBQvMrTwSR",
+  "_key": "!items!lqSBpKOBQvMrTwSR",
+  "name": "Conditioning",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are in excellent physical condition, enabling you to extend physical activities. You might not have great strength, but you have a lot of stamina.</p><p><b>Prerequisites:</b> Strength 13, Constitution 13</p><p><b>Effect:</b> You can reroll any Strength- or Constitution-based Skill Checks for Skills that you are Trained in. The result of the reroll must be accepted even if it is worse. Additionally, once per encounter you can add your Strength modifier to your Fortitude Defense as a Reaction; this bonus lasts until the beginning of your next turn.</p>",
+    "prerequisite": {
+      "text": "Strength 13, and Constitution 13",
+      "nodes": {
+        "children": [
+          {
+            "text": "Strength 13",
+            "requirement": "Strength 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Constitution 13",
+            "requirement": "Constitution 13",
+            "type": "ATTRIBUTE"
+          }
+        ],
+        "text": "Strength 13, and Constitution 13",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "M0ccrd3EYDIIzrIJ",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

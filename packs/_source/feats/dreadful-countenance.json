@@ -1,0 +1,39 @@
+{
+  "_id": "oq5ACZR2RZWSMmfR",
+  "_key": "!items!oq5ACZR2RZWSMmfR",
+  "name": "Dreadful Countenance",
+  "type": "feat",
+  "system": {
+    "description": "<p>Marked as Sith, your appearance inspires awe, dread, and fear in all who view it.</p><p><b>Prerequisites:</b> Charisma 13, Member of The Sith</p><p><b>Effect:</b> Whenever you make a Persuasion check or a Use the Force check to activate a Fear effect, you may reroll the check, but the result of the reroll must be accepted, even if it is worse.</p>",
+    "prerequisite": {
+      "text": "Charisma 13, and Must be a member of The Sith Force Tradition",
+      "nodes": {
+        "children": [
+          {
+            "text": "Charisma 13",
+            "requirement": "Charisma 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Must be a member of The Sith Force Tradition",
+            "requirement": "The Sith",
+            "type": "TRADITION"
+          }
+        ],
+        "text": "Charisma 13, and Must be a member of The Sith Force Tradition",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WyAN8EDNtSAkPG8A",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements (Behind the Threat"
+    }
+  }
+}

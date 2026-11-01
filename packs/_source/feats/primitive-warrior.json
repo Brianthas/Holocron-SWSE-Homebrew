@@ -1,0 +1,28 @@
+{
+  "_id": "iF63qLOSSlOPeyhA",
+  "_key": "!items!iF63qLOSSlOPeyhA",
+  "name": "Primitive Warrior",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have learned to make the most of primitive weapons and can wield them with deadly results.</p><p><b>Prerequisite:</b> Gamorrean</p><p><b>Effect:</b> You deal +1 die of damage with Simple Weapons (Melee).</p>",
+    "prerequisite": {
+      "text": "Gamorrean species",
+      "nodes": {
+        "text": "Gamorrean species",
+        "requirement": "Gamorrean",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HAIhiZJXQNsE3J4L",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

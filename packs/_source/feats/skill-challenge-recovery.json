@@ -1,0 +1,24 @@
+{
+  "_id": "OupkdrFef9sY4zB6",
+  "_key": "!items!OupkdrFef9sY4zB6",
+  "name": "Skill Challenge: Recovery",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can snatch victory from the jaws of defeat when involved in a Skill Challenge.</p><p><b>Effect:</b> Once per Skill Challenge, you treat the Skill Challenge as if it had the Recovery effect, even if it does not have that effect.</p><p><b>Special:</b> This Feat is allowed only in campaigns that use Skill Challenges.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yVHVjrC4nW1slajc",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

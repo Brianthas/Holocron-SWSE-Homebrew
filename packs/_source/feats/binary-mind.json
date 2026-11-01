@@ -1,0 +1,28 @@
+{
+  "_id": "xex5bUWrfzHhDk7O",
+  "_key": "!items!xex5bUWrfzHhDk7O",
+  "name": "Binary Mind",
+  "type": "feat",
+  "system": {
+    "description": "<p>The dual nature of your mind makes it difficult for others to influence you.</p><p><b>Prerequisite:</b> Cerean</p><p><b>Effect:</b> Whenever an enemy tries to use a Mind-Affecting effect against you, the enemy must roll twice and take the lower result.</p>",
+    "prerequisite": {
+      "text": "Cerean species",
+      "nodes": {
+        "text": "Cerean species",
+        "requirement": "Cerean",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cQhvhYk09L6BddqI",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "Yih90Mct5fDLnraA",
+  "_key": "!items!Yih90Mct5fDLnraA",
+  "name": "Strong Bellow",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can use your lungs to Bellow without growing fatigued.</p><p><b>Prerequisite:</b> Ithorian</p><p><b>Effect:</b>&nbsp;Once per encounter when you use your Bellow ability, you move one less step down the Condition Track.</p>",
+    "prerequisite": {
+      "text": "Ithorian species",
+      "nodes": {
+        "text": "Ithorian species",
+        "requirement": "Ithorian",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WquZdTqvcdE3EK2Z",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

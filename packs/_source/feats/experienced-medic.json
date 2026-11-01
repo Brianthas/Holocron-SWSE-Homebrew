@@ -1,0 +1,28 @@
+{
+  "_id": "NLzOPXi3jyRHpv6l",
+  "_key": "!items!NLzOPXi3jyRHpv6l",
+  "name": "Experienced Medic",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have spent so much time on the battlefield that patching up wounded allies has become second nature to you.</p><p><b>Prerequisite:</b> Trained in Treat Injury</p><p><b>Effect:</b> You can perform Surgery on a number of creatures equal to your Intelligence modifier (minimum 2) simultaneously. You make Treat Injury checks for each individual creature as normal.</p>",
+    "prerequisite": {
+      "text": "Trained in Treat Injury",
+      "nodes": {
+        "text": "Trained in Treat Injury",
+        "requirement": "Treat Injury",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "feCtP1t9HJYAXpon",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

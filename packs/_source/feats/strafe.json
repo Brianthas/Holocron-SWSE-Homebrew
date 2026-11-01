@@ -1,0 +1,28 @@
+{
+  "_id": "LJI4dPmHjerwhJhU",
+  "_key": "!items!LJI4dPmHjerwhJhU",
+  "name": "Strafe",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can make a Strafing Attack without a Vehicle.</p><p><b>Prerequisite:</b> Base Attack Bonus +1</p><p><b>Effect:</b> When you make an Autofire attack, instead of attacking a 2-square-by-2-square area, you may attack a line 1 square wide and 4 squares long.</p><p><b>Special:</b> If you are using a Jet Pack, you can use the Strafe feat to make an Autofire attack against all squares you fly over.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "nodes": {
+        "text": "Base Attack Bonus 1",
+        "requirement": "1",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3qYeHOFKQLpNmRwK",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

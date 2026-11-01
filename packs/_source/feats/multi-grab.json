@@ -1,0 +1,28 @@
+{
+  "_id": "NN8ycHxGXdS5hHey",
+  "_key": "!items!NN8ycHxGXdS5hHey",
+  "name": "Multi-Grab",
+  "type": "feat",
+  "system": {
+    "description": "<p>You may Grab two opponents at once.</p><p><b>Prerequisite:</b> Dexterity 13</p><p><b>Effect:</b> As a Standard Action, you may make a Grab attack against two targets adjacent to you (roll a separate attack against each target). You must have two empty hands to use this Feat.</p>",
+    "prerequisite": {
+      "text": "Dexterity 13",
+      "nodes": {
+        "text": "Dexterity 13",
+        "requirement": "Dexterity 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Ibj55mSz99chffsW",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

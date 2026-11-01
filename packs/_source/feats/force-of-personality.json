@@ -1,0 +1,28 @@
+{
+  "_id": "aSKq4qAztlgDj8Om",
+  "_key": "!items!aSKq4qAztlgDj8Om",
+  "name": "Force of Personality",
+  "type": "feat",
+  "system": {
+    "description": "<p>As a result of your self-confidence and conviction, your will is strong.</p><p><b>Prerequisite:</b> Charisma 13</p><p><b>Effect:</b> You can use either your Wisdom modifier or your Charisma modifier to determine your Will Defense.</p>",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "neXJyjPjd7O6LBpb",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

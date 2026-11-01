@@ -1,0 +1,28 @@
+{
+  "_id": "5yjk5ctj0IPK6daO",
+  "_key": "!items!5yjk5ctj0IPK6daO",
+  "name": "Unwavering Focus",
+  "type": "feat",
+  "system": {
+    "description": "<p>Others might try to sway you, but once you focus on an objective, you cannot be stopped.</p><p><b>Prerequisite:</b> Zabrak</p><p><b>Effect:</b> Whenever you are targeted by a Mind-Affecting effect that requires a Skill Check against your Will Defense, as a Reaction you can impose a -2 penalty to that Skill Check.</p>",
+    "prerequisite": {
+      "text": "Zabrak species",
+      "nodes": {
+        "text": "Zabrak species",
+        "requirement": "Zabrak",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uLLMC0KD7mmfxN4b",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

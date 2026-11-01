@@ -1,0 +1,28 @@
+{
+  "_id": "om7ZjhodZhwRAf9Y",
+  "_key": "!items!om7ZjhodZhwRAf9Y",
+  "name": "Weapon Specialization",
+  "type": "feat",
+  "system": {
+    "description": "<p>Weapon Specialization can be taken as a Feat or as a Talent. Either counts as Weapon Specialization for prerequisites, and the two do not stack on the same weapon.</p><p><b>Prerequisite:</b> Weapon Focus with the chosen weapon.</p><p>Choose a single Exotic Weapon or weapon group with which you are proficient. You gain a +2 bonus on damage rolls with such weapons. If you select Heavy Weapons as the weapon group this Talent applies to, you may also use the Talent with Vehicle Weapon attacks.<br><br>You may select this Feat multiple times. Each time you select this Feat, it applies to a different Exotic Weapon or weapon group.</p>",
+    "prerequisite": {
+      "text": "Weapon Focus (#payload#)",
+      "nodes": {
+        "text": "Weapon Focus (#payload#)",
+        "requirement": "Weapon Focus (#payload#)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0NwdF0ms1CO94qlm",
+      "sourceBook": ""
+    }
+  }
+}

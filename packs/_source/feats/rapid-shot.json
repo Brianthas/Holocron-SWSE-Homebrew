@@ -1,0 +1,28 @@
+{
+  "_id": "pJkjINn9YLcGVOVy",
+  "_key": "!items!pJkjINn9YLcGVOVy",
+  "name": "Rapid Shot",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can make two quick shots with a ranged weapon as a single attack.</p><p><b>Prerequisite:</b> Base Attack Bonus +1</p><p><b>Effect:</b> When using a ranged weapon with which you are proficient, you may fire two shots as a single attack against a single target. You take a -2 penalty on your attack roll, but you deal +1 die of damage with a successful attack.</p><p><b>Special:</b> Using this Feat fires two shots and can only be done if the weapon has sufficient ammunition remaining. The effects of this Feat do not stack with the extra damage provided by the Burst Fire Feat or the Deadeye Feat. If you do not have a Strength score of 13 or higher, increase the penalty to attacks to -5 when using this Feat with non-Vehicle Weapons.</p><h2>Additional Rapid Shot Effects</h2><p><b>Special:</b> This Feat works normally with Vehicle Weapons. However, if you are using a Missile or a Torpedo and you miss with your attack roll, the projectile does not gain the benefit of this Feat for the second attack roll.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "nodes": {
+        "text": "Base Attack Bonus 1",
+        "requirement": "1",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "D4SDcyM7Eypoehih",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

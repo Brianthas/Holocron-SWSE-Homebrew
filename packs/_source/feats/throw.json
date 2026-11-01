@@ -1,0 +1,39 @@
+{
+  "_id": "ZcXeMXSx0NSyjtEz",
+  "_key": "!items!ZcXeMXSx0NSyjtEz",
+  "name": "Throw",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can Throw a creature that you've Grappled.</p><p><b>Prerequisites:</b> Trip, Base Attack Bonus +1</p><p><b>Effect:</b> If you successfully Trip an opponent with a Grapple attack, the opponent falls Prone in any unoccupied space you desire up to 1 square beyond your reach and take bludgeoning damage equal to your Unarmed attack damage. A Thrown opponent is no longer considered Grappled.</p>",
+    "prerequisite": {
+      "text": "Trip feat, and Base Attack Bonus 1",
+      "nodes": {
+        "children": [
+          {
+            "text": "Trip feat",
+            "requirement": "Trip",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 1",
+            "requirement": "1",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Trip feat, and Base Attack Bonus 1",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xNPj7TZprG3xrPPB",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

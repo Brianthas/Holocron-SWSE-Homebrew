@@ -1,0 +1,64 @@
+{
+  "_id": "tOJsQYcbYvOT9q7Q",
+  "_key": "!items!tOJsQYcbYvOT9q7Q",
+  "name": "Toughness",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are tougher than normal.</p><p><b>Effect:</b> You gain 5 Hit Points plus 1 Hit Point per Character Level, and +1 to any healing you receive, as if your Constitution had increased.</p><p><b>Special:</b> You can take Toughness more than once. The effects stack, except you do not gain another 5 Hit Points.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [
+    {
+      "_id": "sHS30SHiObHrEv0b",
+      "_key": "!items.effects!tOJsQYcbYvOT9q7Q.sHS30SHiObHrEv0b",
+      "name": "Toughness",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "hp.max",
+            "type": "bonus",
+            "value": "@level",
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          },
+          {
+            "key": "hp.max",
+            "type": "bonus",
+            "value": 5,
+            "phase": "derived",
+            "bonusType": "toughness",
+            "condition": ""
+          },
+          {
+            "key": "healing.received",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zIcSXoUO6bFYQup0",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

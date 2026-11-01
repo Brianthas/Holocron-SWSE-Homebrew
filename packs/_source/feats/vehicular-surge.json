@@ -1,0 +1,28 @@
+{
+  "_id": "ZCLj36ghsPrqIDwX",
+  "_key": "!items!ZCLj36ghsPrqIDwX",
+  "name": "Vehicular Surge",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can coax more out of Vehicles than other pilots can, staying in the fight when others might be destroyed.</p><p><b>Prerequisite:</b> Trained in Pilot</p><p><b>Effect:</b> If the Vehicle you Pilot is Colossal or smaller and is reduced to fewer than one-half its maximum Hit Points, once per day as a Swift Action your Vehicle gains a number of Bonus Hit Points equal to one-quarter its maximum Hit Point total. Damage is subtracted from Bonus Hit Points first, and any Bonus Hit Points remaining at the end of the encounter are lost. Bonus Hit Points do not stack.</p>",
+    "prerequisite": {
+      "text": "Trained in Pilot",
+      "nodes": {
+        "text": "Trained in Pilot",
+        "requirement": "Pilot",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "seKCM1hVmHpDu4Qx",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

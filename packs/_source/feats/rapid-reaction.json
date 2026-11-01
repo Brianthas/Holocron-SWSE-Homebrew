@@ -1,0 +1,24 @@
+{
+  "_id": "Oz25etg3XGEDxDdv",
+  "_key": "!items!Oz25etg3XGEDxDdv",
+  "name": "Rapid Reaction",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your lightning reflexes allow you to complete complex actions in response to the actions of others.</p><p><b>Effect:</b> Once per encounter, you can use two different Reactions in response to the same trigger. For example, if you use the <b>Deflect</b> Talent and fail to negate the attack, you can also use <i>Negate Energy</i> as a response to the same attack.</p><p><b>Normal:</b> Without this Feat, you can use only one Reaction in response to a particular trigger.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iGcT5AIsNCvoQ4t7",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

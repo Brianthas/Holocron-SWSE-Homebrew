@@ -1,0 +1,28 @@
+{
+  "_id": "0br21lS1EH9E5P0H",
+  "_key": "!items!0br21lS1EH9E5P0H",
+  "name": "Hunter's Instincts",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have a sixth sense that allows you to spot your prey under almost any circumstances.</p><p><b>Prerequisite:</b> Rodian</p><p><b>Effect:</b>&nbsp;Whenever you reroll a Perception check, you always keep the better result, even if you have multiple reroll abilities.</p>",
+    "prerequisite": {
+      "text": "Rodian species",
+      "nodes": {
+        "text": "Rodian species",
+        "requirement": "Rodian",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UVLC84TlNiXbnDtN",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

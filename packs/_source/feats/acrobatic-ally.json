@@ -1,0 +1,44 @@
+{
+  "_id": "aqYLhWP6sxmPn02o",
+  "_key": "!items!aqYLhWP6sxmPn02o",
+  "name": "Acrobatic Ally",
+  "type": "feat",
+  "system": {
+    "description": "<p>You move an ally around with ease and accuracy by giving him or her a leg up or a helpful toss.</p><p><b>Prerequisites:</b> Strength 13, Dexterity 13, Trained in Acrobatics</p><p><b>Effect:</b> You can hoist or toss an ally of your size or smaller up to 2 squares. You and your ally must act on the same Initiative Count and start in adjacent squares. If you succeed on a DC 20 Acrobatics check as a Standard Action, your ally ends up in a square of your choosing up to 2 squares above or away from you. This counts as a Free Action for your ally and ends your turn. Your ally can then continue his or her turn. If you fail your check, both you and your ally immediately become Prone in your square. Your turn is ended, but your ally can take his or her turn normally.</p><p><b>Special:</b> This Feat can provoke Attacks of Opportunity against either character.</p>",
+    "prerequisite": {
+      "text": "Strength 13, Dexterity 13, and Trained in Acrobatics",
+      "nodes": {
+        "children": [
+          {
+            "text": "Strength 13",
+            "requirement": "Strength 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Dexterity 13",
+            "requirement": "Dexterity 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Trained in Acrobatics",
+            "requirement": "Acrobatics",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Strength 13, Dexterity 13, and Trained in Acrobatics",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dQRyKPv14XnAZezD",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

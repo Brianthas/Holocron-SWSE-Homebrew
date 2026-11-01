@@ -1,0 +1,28 @@
+{
+  "_id": "O0umoz0IJiPcl2hZ",
+  "_key": "!items!O0umoz0IJiPcl2hZ",
+  "name": "Targeted Area",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your Area Attacks deal more damage to one target within the area of effect.</p><p><b>Prerequisite:</b> Base Attack Bonus +5</p><p><b>Effect:</b> When you make a successful Area Attack with a weapon with which you are proficient, select a target hit by the attack. That target takes an additional 5 points of damage from the attack, before applying the effect of the <b>Evasion</b> Talent.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 5",
+      "nodes": {
+        "text": "Base Attack Bonus 5",
+        "requirement": "5",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FYJzMk4vPnU4gIHl",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

@@ -32,7 +32,9 @@ export function convertForceFeatures(powerNames: string[], report: Report): Map<
     const docs: OutputDoc[] = [];
     for (const doc of readPack(pack)) {
       checkKeys(pack, doc, { mapped: ["description"], constant: { categories: [{ value: label }], cost: "0" } }, report);
-      const { html, sourceBook, links } = cleanDescription(String(doc.system["description"] ?? ""));
+      const cleaned = cleanDescription(String(doc.system["description"] ?? ""));
+      report.sections(pack, doc, cleaned);
+      const { html, sourceBook, links } = cleaned;
       const power = category === "forceTechnique" ? techniquePower(doc.name, links, powers) : "";
       const removed = REMOVED_POWERS.get(power);
       if (removed) {

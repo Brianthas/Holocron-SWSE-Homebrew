@@ -1,0 +1,24 @@
+{
+  "_id": "kTVvC2tOkUK1BY5F",
+  "_key": "!items!kTVvC2tOkUK1BY5F",
+  "name": "Impulsive Flight",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are not above running when the situation turns against you.</p><p><b>Effect:</b> You can Withdraw one extra square using the Withdraw Action.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "f9c1S43rf6R0SusO",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

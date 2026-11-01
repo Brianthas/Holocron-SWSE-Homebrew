@@ -1,0 +1,24 @@
+{
+  "_id": "3tPmko8hrjXj07Lk",
+  "_key": "!items!3tPmko8hrjXj07Lk",
+  "name": "Spray Shot",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can fire a short burst at an enemy while protecting nearby allies from errant shots.</p><p><b>Effect:</b> When you have a weapon set on Autofire, you can reduce the area targeted by your Autofire attack to 1 square.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "R6ACIDnrpmnWj69V",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

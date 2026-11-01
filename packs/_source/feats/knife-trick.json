@@ -1,0 +1,44 @@
+{
+  "_id": "wMbrzO179bMfk5dW",
+  "_key": "!items!wMbrzO179bMfk5dW",
+  "name": "Knife Trick",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can use a concealed weapon to deadly effect.</p><p><b>Prerequisites:</b> Lightning Draw, Quick Draw, Trained in Stealth</p><p><b>Effect:</b> If you have a concealed weapon, you Threaten squares as though armed with a melee weapon. When you can make an Attack of Opportunity, you can draw a weapon you have successfully concealed on your person and make a single attack against the target.</p><p>If you choose not to draw your concealed weapon and attack with it, you cannot make the Attack of Opportunity unless you would otherwise normally be able to do so.</p><p><b>Normal:</b> With the Quick Draw feat, drawing or holstering a weapon is a Swift Action.</p>",
+    "prerequisite": {
+      "text": "Lightning Draw feat, Quick Draw feat, and Trained in Stealth",
+      "nodes": {
+        "children": [
+          {
+            "text": "Lightning Draw feat",
+            "requirement": "Lightning Draw",
+            "type": "FEAT"
+          },
+          {
+            "text": "Quick Draw feat",
+            "requirement": "Quick Draw",
+            "type": "FEAT"
+          },
+          {
+            "text": "Trained in Stealth",
+            "requirement": "Stealth",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Lightning Draw feat, Quick Draw feat, and Trained in Stealth",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4LFXHsF1689VXwfQ",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

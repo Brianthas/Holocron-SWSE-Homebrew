@@ -1,0 +1,28 @@
+{
+  "_id": "dwyVqID3aPpg5AQh",
+  "_key": "!items!dwyVqID3aPpg5AQh",
+  "name": "Signature Device",
+  "type": "feat",
+  "system": {
+    "description": "<p>You specialize in designing and modifying specific types of technology.</p><p><b>Prerequisite:</b> Tech Specialist</p><p><b>Effect:</b> You designate a single weapon, suit of armor, vehicle, or other item as your Signature Item. When making Mechanics checks to modify that piece of Equipment, you can Take 10 on the check. In addition, you can allow the device to gain two Traits from the Tech Specialist feat.</p><p>To install the second Trait, you must succeed on a DC 30 Mechanics check. Once installed, the device can use only one Trait at a time, and switching from one Trait to the other requires a Swift Action to adjust the item's settings.</p><p>You can have only one Signature Device at a time, but you can designate another device as your Signature Item (the former item loses all benefits gained from this Feat).</p>",
+    "prerequisite": {
+      "text": "Tech Specialist feat",
+      "nodes": {
+        "text": "Tech Specialist feat",
+        "requirement": "Tech Specialist",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "F73Lf2o8iOI0vqT8",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

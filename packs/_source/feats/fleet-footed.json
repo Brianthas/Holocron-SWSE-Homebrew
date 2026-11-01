@@ -1,0 +1,28 @@
+{
+  "_id": "qS6nDIwsahCF7Xj9",
+  "_key": "!items!qS6nDIwsahCF7Xj9",
+  "name": "Fleet-Footed",
+  "type": "feat",
+  "system": {
+    "description": "<p>You gain a burst of speed when you attack while running.</p><p><b>Prerequisite:</b> Running Attack</p><p><b>Effect:</b> If you Move both before and after you make an attack using the Running Attack Feat, your Speed is increased by 2 squares until the end of your turn.</p>",
+    "prerequisite": {
+      "text": "Running Attack feat",
+      "nodes": {
+        "text": "Running Attack feat",
+        "requirement": "Running Attack",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Hzzk52hcOPS30Vdc",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

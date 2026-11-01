@@ -1,0 +1,39 @@
+{
+  "_id": "gC2FyfG2sDVeeOYE",
+  "_key": "!items!gC2FyfG2sDVeeOYE",
+  "name": "Mobility",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are skilled at moving past opponents and avoiding opportunistic attacks.</p><p><b>Prerequisites:</b> Dexterity 13, Dodge</p><p><b>Effect:</b> You get a +5 dodge bonus to Reflex Defense against Attacks of Opportunity caused when you move out of or into a threatened area.</p><p><b>Special:</b> A situation that makes you lose your Dexterity bonus to Reflex Defense (If any) also makes you lose dodge bonuses. Dodge bonuses also stack with each other, unlike most other types of bonuses.</p>",
+    "prerequisite": {
+      "text": "Dexterity 13, and Dodge feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dexterity 13",
+            "requirement": "Dexterity 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Dodge feat",
+            "requirement": "Dodge",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Dexterity 13, and Dodge feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5NqlWjeYVrN7qfik",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

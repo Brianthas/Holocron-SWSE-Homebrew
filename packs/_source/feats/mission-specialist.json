@@ -1,0 +1,24 @@
+{
+  "_id": "zu1rJI23SLPiDWSe",
+  "_key": "!items!zu1rJI23SLPiDWSe",
+  "name": "Mission Specialist",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are so good with certain Skills that others around you benefit from your guidance and example.</p><p><b>Effect:</b> Choose one Skill in which you are Trained. Allies who are not Trained in that Skill gain a +2 competence bonus to the Skill while they are within 12 squares of you.</p><p><b>Special:</b> You can select this Feat multiple times. Each time you select this Feat, it applies to a different Skill. Only allies who have the Force Sensitivity feat gain this bonus to Use the Force checks.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7KDfHly1obzWxsJ5",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

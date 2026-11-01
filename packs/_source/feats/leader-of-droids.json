@@ -1,0 +1,24 @@
+{
+  "_id": "PG4CSfidZCjmJOqM",
+  "_key": "!items!PG4CSfidZCjmJOqM",
+  "name": "Leader of Droids",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are experienced in leading Droids, and you know how to direct them tactically.</p><p><b>Effect:</b> Whenever you provide a beneficial, Mind-Affecting effect to your allies, you may select from among these allies a number of Droids equal to your Intelligence modifier (minimum 1). The Droids you designate ignore their Mind-Affecting immunity with regards to this effect, provided they are willing to ignore this immunity.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "imCN41tfQWRTrHsN",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

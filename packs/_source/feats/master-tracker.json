@@ -1,0 +1,28 @@
+{
+  "_id": "JmaWSwHq4deyh5yB",
+  "_key": "!items!JmaWSwHq4deyh5yB",
+  "name": "Master Tracker",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can follow a shadow on a moonless night and survive in the wilderness with nothing but your wits to protect you.</p><p><b>Prerequisite:</b> Rodian</p><p><b>Effect:</b>&nbsp;Whenever you spend a&nbsp;Force Point&nbsp;to add to a&nbsp;Survival check, increase the die type by two steps (From d6 to d10, or from d8 to d12).</p>",
+    "prerequisite": {
+      "text": "Rodian species",
+      "nodes": {
+        "text": "Rodian species",
+        "requirement": "Rodian",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yGzanCCCPbJV9Igf",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

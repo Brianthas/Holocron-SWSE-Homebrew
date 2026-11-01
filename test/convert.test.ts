@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { cleanDescription } from "../tools/convert/lib/html.ts";
 import { idFor, slugify } from "../tools/convert/lib/ids.ts";
 import { checkKeys, Report, type SourceDoc } from "../tools/convert/lib/pack.ts";
+import { FEAT_KEYS, type ChangeOut } from "../tools/convert/packs/feats.ts";
 import { techniquePower } from "../tools/convert/packs/force-features.ts";
 import { parseBand } from "../tools/convert/packs/force-powers.ts";
 
@@ -27,13 +28,39 @@ describe("converter descriptions", () => {
     expect(cleaned.sourceBook).toBe("Star Wars Saga Edition Jedi Academy Training Manual");
     expect(cleaned.links).toEqual(["Move Object"]);
   });
+  it("drop the book and see-also lines without italics too", () => {
+    const cleaned = cleanDescription("<p>Rule.</p><p>Reference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide</p><p>See also: Force Powers</p><p>Text.</p>");
+    expect(cleaned.html).toBe("<p>Rule.</p><p>Text.</p>");
+    expect(cleaned.sourceBook).toBe("Star Wars Saga Edition Knights of the Old Republic Campaign Guide");
+  });
+  it("turn en dashes into hyphens and em dashes into spaced hyphens", () => {
+    expect(cleanDescription(`<p>Table 3${String.fromCharCode(0x2013)}8, and then${String.fromCharCode(0x2014)}later.</p>`).html)
+      .toBe("<p>Table 3-8, and then - later.</p>");
+  });
   it("drop the wiki wrapper and styling hooks but keep tables and headings", () => {
     const cleaned = cleanDescription('<div class="mw-parser-output">\n<p>Text</p><table class="wikitable"><tr><td>15</td></tr></table><h2><span class="mw-headline" id="Line">Line</span></h2></div>');
     expect(cleaned.html).toBe("<p>Text</p><table><tr><td>15</td></tr></table><h2>Line</h2>");
   });
-  it("drop the fork's label on house content", () => {
+  it("drop the fork's label on house content, as a paragraph or inline", () => {
     expect(cleanDescription("<p><i>Homebrew Weapon (tovec.wikidot.com/episode-vii)</i></p><p>Half damage on a miss.</p>").html)
       .toBe("<p>Half damage on a miss.</p>");
+    expect(cleanDescription("<p><b>Prerequisite:</b> None. <i>Homebrew (tovec.wikidot.com/episode-vii):</i> anyone can take Force Boon.</p>").html)
+      .toBe("<p><b>Prerequisite:</b> None. Anyone can take Force Boon.</p>");
+  });
+  it("drop a fan section up to the next heading of its level, and keep what follows", () => {
+    const page = "<p>Official text.</p><h2>Homebrew Long Haft Strike Data</h2><table><tr><td>This Homebrew Content has not been reviewed in a meaningful manner.</td></tr></table><p>Fan rule.</p><h3>Fan detail</h3><p>More fan.</p><h2>Species Traits</h2><p>Official traits.</p>";
+    const cleaned = cleanDescription(page);
+    expect(cleaned.html).toBe("<p>Official text.</p><h2>Species Traits</h2><p>Official traits.</p>");
+    expect(cleaned.removedSections).toEqual(["Homebrew Long Haft Strike Data"]);
+  });
+  it("keep a Homebrew heading without the review notice, and report it", () => {
+    const cleaned = cleanDescription("<h2>Homebrew Notes</h2><p>Kept.</p>");
+    expect(cleaned.html).toBe("<h2>Homebrew Notes</h2><p>Kept.</p>");
+    expect(cleaned.unclearSections).toEqual(["Homebrew Notes"]);
+  });
+  it("drop the notice pointing at a fan page of the same name", () => {
+    expect(cleanDescription('<table style="x"><tbody><tr><td><i>This article details the feat. You may be looking for the Homebrew Content Feat of the same name.</i></td></tr></tbody></table><p>Official.</p>').html)
+      .toBe("<p>Official.</p>");
   });
 });
 
@@ -68,6 +95,29 @@ describe("Force power bands", () => {
   it("refuse anything else", () => {
     expect(parseBand("DC 15: text")).toBeNull();
     expect(parseBand(true)).toBeNull();
+  });
+});
+
+describe("feat change keys", () => {
+  const run = (key: string, value: unknown) => {
+    const ctx = { name: "Probe", changes: [] as ChangeOut[], repeatable: false, dropped: [] as string[], failed: [] as string[],
+      drop(reason: string) { this.dropped.push(reason); }, fail(message: string) { this.failed.push(message); } };
+    FEAT_KEYS[key]?.(value, ctx);
+    return ctx;
+  };
+  it("map a flat defense bonus, and drop the fork's ability-swap formula", () => {
+    expect(run("willDefenseBonus", "1").changes).toEqual([{ key: "defense.will", type: "bonus", value: 1, phase: "derived", bonusType: "", condition: "" }]);
+    const swap = run("willDefenseBonus", "MAX(@WISMOD, @CHAMOD) - @WISMOD");
+    expect(swap.changes).toEqual([]);
+    expect(swap.dropped).toHaveLength(1);
+  });
+  it("fail a value the mapping does not expect", () => {
+    expect(run("willDefenseBonus", "1d4").failed).toHaveLength(1);
+    expect(run("hitPointFlatBonus", 10).failed).toHaveLength(1);
+    expect(run("takeMultipleTimes", "false").failed).toHaveLength(1);
+  });
+  it("read takeMultipleTimes as repeatable", () => {
+    expect(run("takeMultipleTimes", "true").repeatable).toBe(true);
   });
 });
 

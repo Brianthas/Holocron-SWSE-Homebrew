@@ -1,0 +1,28 @@
+{
+  "_id": "wSiex2DMLgq7qrgZ",
+  "_key": "!items!wSiex2DMLgq7qrgZ",
+  "name": "Read the Winds",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are so attuned to the wind patterns of your world that you can detect subtle shifts in air pressure around you.</p><p><b>Prerequisite:</b> Kel Dor</p><p><b>Effect:</b>&nbsp;You ignore Concealment and Cover for the purposes of Perception checks against targets within 10 squares of you.</p>",
+    "prerequisite": {
+      "text": "Kel Dor species",
+      "nodes": {
+        "text": "Kel Dor species",
+        "requirement": "Kel Dor",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6FWvIXe1Mg7fUSjM",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

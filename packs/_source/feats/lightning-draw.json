@@ -1,0 +1,28 @@
+{
+  "_id": "OzprsOUsP9WseFTu",
+  "_key": "!items!OzprsOUsP9WseFTu",
+  "name": "Lightning Draw",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can draw and fire in one smooth action.</p><p><b>Prerequisite:</b> Quick Draw</p><p><b>Effect:</b> Once per encounter, you can draw a holstered weapon and attack as a single Standard Action.</p><p><b>Normal:</b> With the Quick Draw feat, drawing or holstering a weapon is a Swift Action.</p>",
+    "prerequisite": {
+      "text": "Quick Draw feat",
+      "nodes": {
+        "text": "Quick Draw feat",
+        "requirement": "Quick Draw",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jf7R4oc3a9PBekVk",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

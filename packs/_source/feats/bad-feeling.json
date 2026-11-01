@@ -1,0 +1,24 @@
+{
+  "_id": "IRuOutWvsqyUhoem",
+  "_key": "!items!IRuOutWvsqyUhoem",
+  "name": "Bad Feeling",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have developed an innate ability to sense when things are going badly, and thus can prepare yourself for the worst.</p><p><b>Effect:</b> You can always take a Move Action during a Surprise Round, even if you are Surprised. If you are not Surprised, you can take this Move Action in addition to any other Actions you are normally allowed to take in the Surprise Round.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jQdenbqkhLDLdqCM",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

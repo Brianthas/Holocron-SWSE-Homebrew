@@ -1,0 +1,28 @@
+{
+  "_id": "mruKcjrm19kT0XHB",
+  "_key": "!items!mruKcjrm19kT0XHB",
+  "name": "Surgical Expertise",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can perform skillful surgical procedures quickly.</p><p><b>Prerequisite:</b> Trained in Treat Injury</p><p><b>Effect:</b> You can perform Surgery in 10 minutes.</p><p><b>Normal:</b> Performing Surgery typically takes 1 hour.</p>",
+    "prerequisite": {
+      "text": "Trained in Treat Injury",
+      "nodes": {
+        "text": "Trained in Treat Injury",
+        "requirement": "Treat Injury",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HRcILPG1PfzCrg1J",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

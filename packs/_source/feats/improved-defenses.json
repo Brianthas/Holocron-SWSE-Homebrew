@@ -1,0 +1,64 @@
+{
+  "_id": "qfFnNSOv6Dedtz1O",
+  "_key": "!items!qfFnNSOv6Dedtz1O",
+  "name": "Improved Defenses",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are skilled at fending off attacks of many forms.</p><p><b>Effect:</b> You gain a +1 bonus to your Reflex Defense, Fortitude Defense, and Will Defense.</p><h2>Additional Improved Defenses Effects</h2><p><b>Special:</b> This Feat does not apply to the Defenses of a Vehicle, even if you are piloting or commanding it. This is one reason many Pilots prefer the Dodge Feat to Improved Defenses.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [
+    {
+      "_id": "eCgOnsiRRelTrxQb",
+      "_key": "!items.effects!qfFnNSOv6Dedtz1O.eCgOnsiRRelTrxQb",
+      "name": "Improved Defenses",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.fortitude",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          },
+          {
+            "key": "defense.will",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          },
+          {
+            "key": "defense.reflex",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kivtpte3PPTWev36",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

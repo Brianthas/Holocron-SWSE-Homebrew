@@ -1,0 +1,28 @@
+{
+  "_id": "30tz2uh7L7Q8mbrc",
+  "_key": "!items!30tz2uh7L7Q8mbrc",
+  "name": "Darkness Dweller",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have lived underground for so long that you can spot sneaky enemies easily and make it hard for them to slip past your allies.</p><p><b>Prerequisite:</b> Sullustan</p><p><b>Effect:</b>&nbsp;Any enemy that makes a Stealth check within 10 squares of you takes a -2 penalty to the check. This penalty does not stack with the same penalty imposed by other characters with this Feat.</p>",
+    "prerequisite": {
+      "text": "Sullustan species",
+      "nodes": {
+        "text": "Sullustan species",
+        "requirement": "Sullustan",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "E84rzNep6Mfyb0pO",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "e31IajseiCGRY5Ec",
+  "_key": "!items!e31IajseiCGRY5Ec",
+  "name": "Forceful Recovery",
+  "type": "feat",
+  "system": {
+    "description": "<p>The Force is strong with you, and it gives you focus and vitality.</p><p><b>Prerequisites:</b> Force Sensitivity, Force Training</p><p><b>Effect:</b> Whenever you catch a Second Wind, choose one expended Force Power and return that power to your Force Power Suite.</p>",
+    "prerequisite": {
+      "text": "Force Sensitivity feat, and Force Training feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Force Sensitivity feat",
+            "requirement": "Force Sensitivity",
+            "type": "FEAT"
+          },
+          {
+            "text": "Force Training feat",
+            "requirement": "Force Training",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Force Sensitivity feat, and Force Training feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pcMdlehGb53IwRIh",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "Y7mr5SLDllVnS6MD",
+  "_key": "!items!Y7mr5SLDllVnS6MD",
+  "name": "Superior Tech",
+  "type": "feat",
+  "system": {
+    "description": "<p>You expand your knowledge of technology and can apply a variety of other Traits to equipment you modify.</p><p><b>Prerequisite:</b> Intelligence 17, Tech Specialist, 9th Character Level</p><p><b>Effect:</b> Select one of the following: Armor, Weapons, Droids, Vehicles, or Devices. You can install advanced Traits when modifying the selected type of equipment. These Traits replace the Traits granted by the Tech Specialist Feat. You may still use the Tech Specialist options if you so choose.</p><p>You must pay one-fifth the cost of the Device, Armor, Weapon, Droid, or vehicle you wish to modify or 2,000 credits, whichever is more, before beginning the modification. This fee replaces the normal cost of modification from the Tech Specialist Feat. Completing the modification requires 1 day per 1,000 credits of the modification's cost. At the end of this time, make a DC 30 Mechanics check; you cannot Take 10 or Take 20 on this check. If the check succeeds, the modification is completed successfully, and the object gains the desired Trait. If the check fails, you lose all credits spent on making the modification, and the object does not gain the desired Trait. However, you can start over from scratch if you wish.</p><p>Only characters with the Tech Specialist Feat can assist you, reducing proportionately the time needed to complete the modification. At the end of the modification process, they can make a Mechanics check to aid your check.</p><p>The market value of a modified item is equal to the base cost of the item plus double the cost of the modifications made to it (not including credits wasted on failed modification attempts).</p><p><b>Special:</b> You may select this Feat multiple times. Each time you do so, you must choose a different set of Traits (Armor, Devices, Droids, Vehicles, or Weapons).</p><table>\n <tbody>\n  <tr>\n   <th>ARMOR TRAIT</th>\n   <th></th>\n   <th>BENEFIT</th>\n  </tr>\n  <tr>\n   <td>Mobile Armor</td>\n   <td></td>\n   <td>Increases Speed by 1 square (Medium Armor and Heavy Armor only).</td>\n  </tr>\n  <tr>\n   <td>Reinforced Armor</td>\n   <td></td>\n   <td>Grants Damage Reduction 2.</td>\n  </tr>\n  <tr>\n   <td>Superior Agile Armor</td>\n   <td></td>\n   <td>The Armor's maximum Dexterity bonus increases by +2.</td>\n  </tr>\n  <tr>\n   <td>Superior Fortifying Armor</td>\n   <td></td>\n   <td>The Armor's Equipment bonus to Fortitude Defense increases by +2.</td>\n  </tr>\n  <tr>\n   <td>Superior Helmet Package</td>\n   <td></td>\n   <td>Grants wearer a +5 Equipment bonus on Perception checks.</td>\n  </tr>\n  <tr>\n   <td>Superior Protective Armor</td>\n   <td></td>\n   <td>The Armor's Armor bonus to Reflex Defense increases by +2.</td>\n  </tr>\n  <tr>\n   <th>DEVICE TRAIT</th>\n   <th></th>\n   <th>BENEFIT</th>\n  </tr>\n  <tr>\n   <td>Superior Strength</td>\n   <td></td>\n   <td>Increase the Device's Strength score by +4.</td>\n  </tr>\n  <tr>\n   <td>Superior Durability</td>\n   <td></td>\n   <td>The Device's Damage Reduction increases by +2, and increase its Hit Points by 150%.</td>\n  </tr>\n  <tr>\n   <td>Reinforced Device</td>\n   <td></td>\n   <td>The Device's Break DC increases by +5.</td>\n  </tr>\n  <tr>\n   <td>Superior Mastercraft</td>\n   <td></td>\n   <td>Skill Checks made using the device gain a +2 Equipment bonus, or its existing Equipment bonus increases by +2.</td>\n  </tr>\n  <tr>\n   <th>DROID TRAIT</th>\n   <th></th>\n   <th>BENEFIT</th>\n  </tr>\n  <tr>\n   <td>Ion Dispersal Coating</td>\n   <td></td>\n   <td>Droid gains Damage Reduction 5 against Ion damage.</td>\n  </tr>\n  <tr>\n   <td>Superior Ability</td>\n   <td></td>\n   <td>Increase Droids Dexterity, Intelligence, or Strength score by +4.</td>\n  </tr>\n  <tr>\n   <th>VEHICLE TRAIT</th>\n   <th></th>\n   <th>BENEFIT</th>\n  </tr>\n  <tr>\n   <td>Superior Ability</td>\n   <td></td>\n   <td>Increase the Vehicle's Dexterity by +4 or its Strength by +2.</td>\n  </tr>\n  <tr>\n   <td>Superior Sensors</td>\n   <td></td>\n   <td>Increase the Vehicle's Perception modifier by +2.</td>\n  </tr>\n  <tr>\n   <td>Superior Shields</td>\n   <td></td>\n   <td>Increase the Vehicle's Shield Rating by +10.</td>\n  </tr>\n  <tr>\n   <td>Superior Speed</td>\n   <td></td>\n   <td>Increase the Vehicle's Speed by one-third of its base Speed (minimum 1 square).</td>\n  </tr>\n  <tr>\n   <th>WEAPON TRAIT</th>\n   <th></th>\n   <th>BENEFIT</th>\n  </tr>\n  <tr>\n   <td>Superior Accuracy</td>\n   <td></td>\n   <td>The Weapon gains a +2 Equipment bonus on attack rolls.</td>\n  </tr>\n  <tr>\n   <td>Superior Capacity</td>\n   <td></td>\n   <td>The Weapon's Power Pack provides double the number of shots.</td>\n  </tr>\n  <tr>\n   <td>Superior Damage</td>\n   <td></td>\n   <td>The Weapon deals +5 damage with a successful hit. If the weapon has a damage multiplier apply the extra damage before applying the multiplier.</td>\n  </tr>\n  <tr>\n   <td>Superior Range</td>\n   <td></td>\n   <td>The Weapon's Ranges all increase by 50%.</td>\n  </tr>\n </tbody>\n</table>",
+    "prerequisite": {
+      "text": "Intelligence 17, Tech Specialist feat, and Character Level 9",
+      "nodes": {
+        "children": [
+          {
+            "text": "Intelligence 17",
+            "requirement": "Intelligence 17",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Tech Specialist feat",
+            "requirement": "Tech Specialist",
+            "type": "FEAT"
+          },
+          {
+            "text": "Character Level 9",
+            "requirement": "9",
+            "type": "CHARACTER LEVEL"
+          }
+        ],
+        "text": "Intelligence 17, Tech Specialist feat, and Character Level 9",
+        "type": "AND"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aEQDKphoYTrN0c78",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

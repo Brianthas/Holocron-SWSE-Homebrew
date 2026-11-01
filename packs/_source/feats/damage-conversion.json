@@ -1,0 +1,39 @@
+{
+  "_id": "K8tPD5pWAy7LpN3r",
+  "_key": "!items!K8tPD5pWAy7LpN3r",
+  "name": "Damage Conversion",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can make last-minute moves to take hits on more durable portions of your chassis and/or armor, altering the damage dealt to you.</p><p><b>Prerequisites:</b> Droid, Dexterity 13</p><p><b>Effect:</b> When you take damage from an attack against you (other than an Area Attack, or an attack that deals Ion or Force damage) and that damage equals or exceeds your Damage Threshold, you can take an additional 10 points of damage instead of moving down the Condition Track. Each subsequent time you use this Feat in a single encounter, the additional damage you take increases by 5 points.</p>",
+    "prerequisite": {
+      "text": "Droid, and Dexterity 13",
+      "nodes": {
+        "children": [
+          {
+            "text": "Droid",
+            "requirement": "Is a droid",
+            "type": "SPECIAL"
+          },
+          {
+            "text": "Dexterity 13",
+            "requirement": "Dexterity 13",
+            "type": "ATTRIBUTE"
+          }
+        ],
+        "text": "Droid, and Dexterity 13",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "g3gdttZ1oKYlsUkI",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

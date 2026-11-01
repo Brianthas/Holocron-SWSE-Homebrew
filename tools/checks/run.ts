@@ -16,7 +16,13 @@ if (!name) {
   console.error("usage: node tools/checks/run.ts <name>   (runs tools/checks/<name>.page.js)");
   process.exit(1);
 }
-const page = readFileSync(new URL(`./${name}.page.js`, import.meta.url), "utf8");
+// A page that reads converted content names the files in a "// pack-docs: feats/toughness, ..."
+// line; their JSON replaces the "= __PACK_DOCS__" assignment, keyed by that path. The replacer is a
+// function so a "$" in the data is not read as a replacement pattern.
+const source = readFileSync(new URL(`./${name}.page.js`, import.meta.url), "utf8");
+const wanted = /^\/\/ pack-docs: (.+)$/m.exec(source)?.[1]?.split(",").map((s) => s.trim()) ?? [];
+const docs = Object.fromEntries(wanted.map((path) => [path, JSON.parse(readFileSync(new URL(`../../packs/_source/${path}.json`, import.meta.url), "utf8"))]));
+const page = wanted.length ? source.replace("= __PACK_DOCS__", () => `= ${JSON.stringify(docs)}`) : source;
 const report = JSON.parse((await evaluate(page, 60000)) as string) as Report;
 
 if (report.refused) {

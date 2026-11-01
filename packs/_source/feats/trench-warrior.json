@@ -1,0 +1,24 @@
+{
+  "_id": "BcSLDynu7ZWv8FTH",
+  "_key": "!items!BcSLDynu7ZWv8FTH",
+  "name": "Trench Warrior",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have experience fighting in the trenches, and you know how to use cover to your attack advantage.</p><p><b>Effect:</b> When you are adjacent to a wall or object that provides you with Cover from your target's ranged attacks, you gain a +1 circumstance bonus on your attack rolls against that target.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5erXqzxhn1IHdg0y",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

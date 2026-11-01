@@ -1,0 +1,28 @@
+{
+  "_id": "VIi4LCDDQZpYpVK8",
+  "_key": "!items!VIi4LCDDQZpYpVK8",
+  "name": "Rapid Strike",
+  "type": "feat",
+  "system": {
+    "description": "<p>You make two quick strikes with a melee weapon as a single attack.</p><p><b>Prerequisite:</b> Base Attack Bonus +1</p><p><b>Effect:</b> When using a melee weapon with which you are proficient, you may make two strikes as a single attack against a single target. You take a -2 penalty on your attack roll, but deal +1 die of damage with a successful attack.</p><p><b>Special:</b> The effects of this feat do not stack with the extra damage provided by the Mighty Swing Feat. If you do not have a Dexterity score of 13 or higher, increase the penalty to attacks to -5 when using this Feat with non-Light Weapons.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "nodes": {
+        "text": "Base Attack Bonus 1",
+        "requirement": "1",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OgEzwp0Ez7fxKh3T",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

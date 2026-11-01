@@ -1,0 +1,66 @@
+{
+  "_id": "giNI3setznw2nnAd",
+  "_key": "!items!giNI3setznw2nnAd",
+  "name": "Pincer",
+  "type": "feat",
+  "system": {
+    "description": "<p>You use your mechanical strength to restrain and damage enemies.</p><p><b>Prerequisites:</b> Droid, Claw or Hand Appendage, Base Attack Bonus +1, Pin, Crush</p><p><b>Effect:</b> When you successfully Pin an enemy, you can maintain the Pin beyond 1 round and can make subsequent Grapple checks against the Pinned enemy as a Swift Action. You can apply the Crush Feat whenever your subsequent checks are successful.</p><p><b>Normal:</b> Grapple checks are a Standard Action. The Pin Feat must be rerolled each round as a new Grapple check.</p><p><b>Special:</b> You must have a Claw or Hand Appendage to use this Feat.</p>",
+    "prerequisite": {
+      "text": "Droid, (Claw or Hand), Base Attack Bonus 1, Pin feat, and Crush feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Droid",
+            "requirement": "Is a droid",
+            "type": "SPECIAL"
+          },
+          {
+            "children": [
+              {
+                "text": "Claw",
+                "requirement": "Claw",
+                "type": "EQUIPPED"
+              },
+              {
+                "text": "Hand",
+                "requirement": "Hand",
+                "type": "EQUIPPED"
+              }
+            ],
+            "count": 1,
+            "text": "Claw or Hand",
+            "type": "OR"
+          },
+          {
+            "text": "Base Attack Bonus 1",
+            "requirement": "1",
+            "type": "BASE ATTACK BONUS"
+          },
+          {
+            "text": "Pin feat",
+            "requirement": "Pin",
+            "type": "FEAT"
+          },
+          {
+            "text": "Crush feat",
+            "requirement": "Crush",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Droid, (Claw or Hand), Base Attack Bonus 1, Pin feat, and Crush feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AbTMVXYINtwwL62W",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

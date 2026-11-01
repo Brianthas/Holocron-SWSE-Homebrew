@@ -1,0 +1,39 @@
+{
+  "_id": "g1aAyA46Jr3dnqK7",
+  "_key": "!items!g1aAyA46Jr3dnqK7",
+  "name": "Shake It Off",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have learned to shake off debilitating conditions.</p><p><b>Prerequisites:</b> Constitution 13, Trained in Endurance</p><p><b>Effect:</b> You can spend two Swift Actions instead of three to move +1 step along the Condition Track.</p><p><b>Normal:</b> It takes three Swift Actions to move +1 step up along the Condition Track.</p>",
+    "prerequisite": {
+      "text": "Constitution 13, and Trained in Endurance",
+      "nodes": {
+        "children": [
+          {
+            "text": "Constitution 13",
+            "requirement": "Constitution 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Trained in Endurance",
+            "requirement": "Endurance",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Constitution 13, and Trained in Endurance",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "V2j8nWTf74zvY6ll",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

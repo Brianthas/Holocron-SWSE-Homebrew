@@ -1,0 +1,39 @@
+{
+  "_id": "amezraZIKxY3Vk11",
+  "_key": "!items!amezraZIKxY3Vk11",
+  "name": "Force Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You learn one or more Force Powers.</p><p><b>Prerequisites:</b> Force Sensitivity, Trained in Use the Force.</p><p><b>Effect:</b> You add to your Force Power Suite a number of Force Powers equal to 1 + your Intelligence modifier (Minimum 1). You can add the same Force Power more than once.</p><p><b>Special:</b> You can take this Feat more than once. Each time you take this Feat, you add to your Force Power Suite a number of new Force Powers equal to 1 + your Intelligence modifier.</p><h2>Additional Force Training Effects</h2><p><b>Combined Feat (Improved Disarm):</b> When you use the <i>Force Disarm</i> Force Power, you gain the +5 bonus from Improved Disarm on your Use the Force check as though you were making an attack roll.</p>",
+    "prerequisite": {
+      "text": "Force Sensitivity feat, and Trained in Use the Force",
+      "nodes": {
+        "children": [
+          {
+            "text": "Force Sensitivity feat",
+            "requirement": "Force Sensitivity",
+            "type": "FEAT"
+          },
+          {
+            "text": "Trained in Use the Force",
+            "requirement": "Use the Force",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Force Sensitivity feat, and Trained in Use the Force",
+        "type": "AND"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HDUNernv3VeimrJC",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

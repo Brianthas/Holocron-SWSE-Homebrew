@@ -1,0 +1,28 @@
+{
+  "_id": "GcDteEhBg6Wau4Eu",
+  "_key": "!items!GcDteEhBg6Wau4Eu",
+  "name": "Greater Weapon Focus",
+  "type": "feat",
+  "system": {
+    "description": "<p>Greater Weapon Focus can be taken as a Feat or as a Talent. Either counts as Greater Weapon Focus for prerequisites, and the two do not stack on the same weapon.</p><p><b>Prerequisite:</b> Weapon Focus with the chosen weapon.</p><p>Choose one Exotic Weapon or weapon group with which you're proficient. You gain a +1 bonus on attack rolls with the chosen Exotic Weapon or weapon from the chosen group. This bonus stacks with the bonus granted by the Weapon Focus feat.<br><br>You may select this Feat multiple times. Each time you select this Feat, it applies to a different Exotic Weapon or weapon group.</p>",
+    "prerequisite": {
+      "text": "Weapon Focus (#payload#)",
+      "nodes": {
+        "text": "Weapon Focus (#payload#)",
+        "requirement": "Weapon Focus (#payload#)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QHlztQrwhqbKkxyq",
+      "sourceBook": ""
+    }
+  }
+}

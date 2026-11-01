@@ -1,0 +1,28 @@
+{
+  "_id": "TZ7BRoCvrmQOVTnO",
+  "_key": "!items!TZ7BRoCvrmQOVTnO",
+  "name": "Regenerative Healing",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your natural regeneration can help you recuperate from wounds more quickly.</p><p><b>Prerequisite:</b> Trandoshan</p><p><b>Effect:</b>&nbsp;Once per day when you catch a Second Wind, you can regain no Hit Points immediately and instead regain 5 Hit Points at the end of each of your turns until you reach full Hit Points or until the end of the encounter (whichever comes first).</p>",
+    "prerequisite": {
+      "text": "Trandoshan species",
+      "nodes": {
+        "text": "Trandoshan species",
+        "requirement": "Trandoshan",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gl4pDqOtqxxSMLNj",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

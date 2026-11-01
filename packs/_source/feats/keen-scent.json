@@ -1,0 +1,28 @@
+{
+  "_id": "fQGDPAMj1TvjGMbm",
+  "_key": "!items!fQGDPAMj1TvjGMbm",
+  "name": "Keen Scent",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can smell trouble coming from a much greater distance.</p><p><b>Prerequisite:</b> Ewok</p><p><b>Effect:</b> The range of your Scent ability increases to 20 squares.&nbsp;&nbsp;</p>",
+    "prerequisite": {
+      "text": "Ewok species",
+      "nodes": {
+        "text": "Ewok species",
+        "requirement": "Ewok",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pSapK5WQJRpMMCLZ",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

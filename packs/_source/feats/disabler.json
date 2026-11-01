@@ -1,0 +1,24 @@
+{
+  "_id": "OqtDcRkBgiACgT6z",
+  "_key": "!items!OqtDcRkBgiACgT6z",
+  "name": "Disabler",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are skilled in the use of Ion Weapons and gain certain benefits depending on which weapon you use.</p><p><b>Effect:</b> When making a ranged attack with an Ion Weapon with which you are proficient, you gain one of the following benefits, depending on the kind of weapon you use.</p><ul>\n <li><b>Ion Grenade:</b> When you use an Ion Grenade, the Grenade's Burst radius is 3 squares instead of 2 squares.</li>\n <li><b>Ion Pistol:</b> When you use an Ion Pistol, the damage dice increase from d6 to d8.</li>\n <li><b>Ion Rifle:</b> You treat the Ion Rifle as an Accurate Weapon.</li>\n</ul>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "soIgOMSjlWskgdJ9",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

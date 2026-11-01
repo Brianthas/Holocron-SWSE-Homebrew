@@ -1,0 +1,44 @@
+{
+  "_id": "UjxlJ3DIuXTxNhGn",
+  "_key": "!items!UjxlJ3DIuXTxNhGn",
+  "name": "Improved Charge",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can Charge around obstacles.</p><p><b>Prerequisites:</b> Dexterity 13, Dodge, Mobility</p><p><b>Effect:</b> You can make a Charge without having to move in a straight line, and you can alter your direction when making a Charge to avoid obstacles. All other Charge rules apply.</p><p><b>Normal:</b> A character must Charge in an unobstructed straight line.</p>",
+    "prerequisite": {
+      "text": "Dexterity 13, Dodge feat, and Mobility feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dexterity 13",
+            "requirement": "Dexterity 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Dodge feat",
+            "requirement": "Dodge",
+            "type": "FEAT"
+          },
+          {
+            "text": "Mobility feat",
+            "requirement": "Mobility",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Dexterity 13, Dodge feat, and Mobility feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "47Q7KKosuawfZ6Ch",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

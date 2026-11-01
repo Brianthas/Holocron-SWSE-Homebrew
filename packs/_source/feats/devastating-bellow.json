@@ -1,0 +1,28 @@
+{
+  "_id": "RNLWQM4OdCAAKxrB",
+  "_key": "!items!RNLWQM4OdCAAKxrB",
+  "name": "Devastating Bellow",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your bellow produces greater sonic energy than do the bellows of other members of your species.</p><p><b>Prerequisite:</b> Ithorian</p><p><b>Effect:</b> Your bellow attack deals 4d6 points of damage on a hit and half damage on a miss.&nbsp;&nbsp;</p><p><b>Normal:</b> Without this feat, your bellow attack deals 3d6 points of damage on a hit.&nbsp;&nbsp;</p>",
+    "prerequisite": {
+      "text": "Ithorian species",
+      "nodes": {
+        "text": "Ithorian species",
+        "requirement": "Ithorian",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0eqPY9OOvj2opOFX",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "TZTQzmOKv3rX7VEN",
+  "_key": "!items!TZTQzmOKv3rX7VEN",
+  "name": "Forest Stalker",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are one of the most skilled hunters among your Species and have learned to move through the forest with nary a whisper.</p><p><b>Prerequisite:</b> Ewok</p><p><b>Effect:</b> Whenever you reroll a Stealth check, you always keep the better result, even if you have multiple reroll abilities.</p>",
+    "prerequisite": {
+      "text": "Ewok species",
+      "nodes": {
+        "text": "Ewok species",
+        "requirement": "Ewok",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Ttq5aDHHQ5nLNLtA",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

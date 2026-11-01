@@ -1,0 +1,28 @@
+{
+  "_id": "OCiMihzMgouG0MDA",
+  "_key": "!items!OCiMihzMgouG0MDA",
+  "name": "Running Attack",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can move as you attack.</p><p><b>Prerequisite:</b> Dexterity 13</p><p><b>Effect:</b> When making an attack with a melee or ranged weapon, you can move both before and after the attack, provided that the total distance moved is not greater than your Speed.</p><h2>Additional Running Attack Effects</h2><p><b>Combined Feat</b><b> (Dodge):</b> You can add your dodge bonus to your&nbsp;Reflex Defense&nbsp;against anyone who makes an&nbsp;Attack of Opportunity&nbsp;against you while using the&nbsp;Running Attack&nbsp;Feat.</p>",
+    "prerequisite": {
+      "text": "Dexterity 13",
+      "nodes": {
+        "text": "Dexterity 13",
+        "requirement": "Dexterity 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "jzn86h1zIlyhn3rP",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

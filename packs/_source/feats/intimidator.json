@@ -1,0 +1,28 @@
+{
+  "_id": "OpsLcdoxAM5KdeXk",
+  "_key": "!items!OpsLcdoxAM5KdeXk",
+  "name": "Intimidator",
+  "type": "feat",
+  "system": {
+    "description": "<p>When you Intimidate others, either physically or verbally, you shake their confidence so severely that it affects their performance.</p><p><b>Prerequisite:</b> Trained in Persuasion</p><p><b>Effect:</b> When you successfully use the Intimidate application of the Persuasion skill against a creature, instead of the normal results, the creature takes a -5 penalty to all Skill Checks (including Use the Force) and a -2 penalty to all attacks when you are within its line of sight, until the end of your next turn.</p><p>If aboard another Vehicle, your enemy must be able to see or detect your Vehicle.</p><p><b>Special:</b> You cannot use this Feat with the Maniacal Charge feat.</p>",
+    "prerequisite": {
+      "text": "Trained in Persuasion",
+      "nodes": {
+        "text": "Trained in Persuasion",
+        "requirement": "Persuasion",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0OjFKVuIlCXV7lR2",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

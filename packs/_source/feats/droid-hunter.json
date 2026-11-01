@@ -1,0 +1,24 @@
+{
+  "_id": "8eVfaYZedqW2sep1",
+  "_key": "!items!8eVfaYZedqW2sep1",
+  "name": "Droid Hunter",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have learned to target the delicate parts of your Droid opponents, taking advantage of their mechanical frailties.</p><p><b>Effect:</b> While wielding a weapon with which you are proficient, you gain a +2 bonus on damage rolls against Droid enemies, or +4 if you are using a weapon that deals Ion Damage.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QPM3SKGXx8LuX8zG",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "daHZHdIPb7EfXDuW",
+  "_key": "!items!daHZHdIPb7EfXDuW",
+  "name": "Hold Together",
+  "type": "feat",
+  "system": {
+    "description": "<p>Sometimes Vehicles seem to hold together by your force of will.</p><p><b>Prerequisite:</b> Trained in Mechanics</p><p><b>Effect:</b> As a Reaction, you can spend a Force Point to delay the effect of damage dealt to a Vehicle you are riding in or piloting until the end of the round. The Vehicle must be of Colossal size or smaller.</p>",
+    "prerequisite": {
+      "text": "Trained in Mechanics",
+      "nodes": {
+        "text": "Trained in Mechanics",
+        "requirement": "Mechanics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0oyvcO9iTGy3LXVa",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

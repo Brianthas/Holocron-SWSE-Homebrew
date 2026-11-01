@@ -1,0 +1,28 @@
+{
+  "_id": "cyiJyGZdRrdM5KSy",
+  "_key": "!items!cyiJyGZdRrdM5KSy",
+  "name": "Opportunistic Retreat",
+  "type": "feat",
+  "system": {
+    "description": "<p>When your opponent lets down his guard, you can better position yourself to press your advantage.</p><p><b>Prerequisite:</b> Combat Reflexes</p><p><b>Effect:</b> Whenever an opponent provokes an Attack of Opportunity from you, once per turn you can sacrifice the attack to move a number of squares equal to one-half your Speed. Moving in this way does not provoke Attacks of Opportunity.</p>",
+    "prerequisite": {
+      "text": "Combat Reflexes feat",
+      "nodes": {
+        "text": "Combat Reflexes feat",
+        "requirement": "Combat Reflexes",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QsFHU7Hq3xis0eqX",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

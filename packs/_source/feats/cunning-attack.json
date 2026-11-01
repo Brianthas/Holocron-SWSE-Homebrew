@@ -1,0 +1,24 @@
+{
+  "_id": "Q37ZgPXIWH06BR5U",
+  "_key": "!items!Q37ZgPXIWH06BR5U",
+  "name": "Cunning Attack",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are skilled at attacking unprepared opponents.</p><p><b>Effect:</b> You gain a +2 bonus on attack rolls against a Flat-Footed enemy or one who is denied its Dexterity bonus to its Reflex Defense.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nPwfTpV9B4T88hvD",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

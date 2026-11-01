@@ -1,0 +1,28 @@
+{
+  "_id": "7I3h01uhzR1HS7m8",
+  "_key": "!items!7I3h01uhzR1HS7m8",
+  "name": "Inborn Resilience",
+  "type": "feat",
+  "system": {
+    "description": "<p>You come from a hardy Species, but some of your people are better than others at avoiding certain kinds of harm.</p><p><b>Prerequisite:</b> Zabrak</p><p><b>Effect:</b> You can reduce your Species bonus to any one Defense to +0 and increase your Species bonus to another Defense to +2. Once you change your Species bonuses in this way, they cannot be changed back.</p>",
+    "prerequisite": {
+      "text": "Zabrak species",
+      "nodes": {
+        "text": "Zabrak species",
+        "requirement": "Zabrak",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "InJyoAAi77BkI70x",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

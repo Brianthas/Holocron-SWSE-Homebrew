@@ -1,0 +1,28 @@
+{
+  "_id": "xnBj5AfXkjNWjJP5",
+  "_key": "!items!xnBj5AfXkjNWjJP5",
+  "name": "Savage Attack",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are well trained in attacking multiple times in a round.</p><p><b>Prerequisite:</b> Double Attack (Chosen Weapon)</p><p><b>Effect:</b> Choose one weapon groups or Exotic Weapon you have selected for the Double Attack Feat. When you use a Full Attack Action and successfully hit the target with your first attack, you deal +1 die of damage on each successful attack remaining in the Full Attack made against that target.</p>",
+    "prerequisite": {
+      "text": "Double Attack (#payload#)",
+      "nodes": {
+        "text": "Double Attack (#payload#)",
+        "requirement": "Double Attack (#payload#)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kJQVW1C2vovarJyD",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

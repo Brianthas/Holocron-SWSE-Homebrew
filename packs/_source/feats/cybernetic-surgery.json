@@ -1,0 +1,28 @@
+{
+  "_id": "eaXIU6eJEkK1CqpW",
+  "_key": "!items!eaXIU6eJEkK1CqpW",
+  "name": "Cybernetic Surgery",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can perform the surgical procedures necessary to graft cybernetic components onto living flesh.</p><p><b>Prerequisite:</b> Trained in Treat Injury</p><p><b>Effect:</b> You can install Cybernetic Devices on living beings. The surgical procedure takes 1 hour of uninterrupted work, after which you must make a DC 20 Treat Injury check. If the check succeeds, the Cybernetic Device is installed correctly. If the check fails, the device is not properly installed; however, you can try again after another uninterrupted hour of surgery.</p><p><b>Special:</b> You can install a Cybernetic Prosthesis or Energy-Binding Prosthesis on yourself, but you take a -5 penalty on the Treat Injury skill check (you cannot install a Rhen-Orm Biocomputer or a Subelectronic Converter on yourself). If you have the Surgical Expertise Feat, you can install a Cybernetic Device in 10 minutes instead of 1 hour.</p>",
+    "prerequisite": {
+      "text": "Trained in Treat Injury",
+      "nodes": {
+        "text": "Trained in Treat Injury",
+        "requirement": "Treat Injury",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iP2ESuGNq50q7GF7",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

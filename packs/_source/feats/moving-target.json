@@ -1,0 +1,28 @@
+{
+  "_id": "iEaHUTHFH9uujSMO",
+  "_key": "!items!iEaHUTHFH9uujSMO",
+  "name": "Moving Target",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to stay mobile, making it harder for your enemies to hit you with their attacks.</p><p><b>Prerequisite:</b> Dodge</p><p><b>Effect:</b> If you end your turn at least 3 squares away from where you started, you gain a +1 dodge bonus to your Reflex Defense until the start of your next turn.</p>",
+    "prerequisite": {
+      "text": "Dodge feat",
+      "nodes": {
+        "text": "Dodge feat",
+        "requirement": "Dodge",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5j6VNY8sOVqp06Nt",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

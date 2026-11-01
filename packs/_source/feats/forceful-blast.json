@@ -1,0 +1,39 @@
+{
+  "_id": "x3B1iNawCf0qQkBl",
+  "_key": "!items!x3B1iNawCf0qQkBl",
+  "name": "Forceful Blast",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can position your Grenade attacks such that they blast creatures away from the center of the explosion.</p><p><b>Prerequisites:</b> Weapon Proficiency (Simple Weapons), Base Attack Bonus +1</p><p><b>Effect:</b> When you damage a Large or smaller creature with a Grenade or Thermal Detonator, compare the result of your attack roll to the target's Fortitude Defense. If your result equals or exceeds the target's Fortitude Defense, you can move the target 1 square in any direction as a Free Action.</p><p>If the Grenade deals damage to multiple eligible creatures, you can use this benefit against all of them. You can't move a target that's being Grabbed or Grappled, and you can't move a target into a solid object or into another creature's Fighting Space.</p>",
+    "prerequisite": {
+      "text": "Weapon Proficiency (Simple Weapons), and Base Attack Bonus 1",
+      "nodes": {
+        "children": [
+          {
+            "text": "Weapon Proficiency (Simple Weapons)",
+            "requirement": "Weapon Proficiency (Simple Weapons)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 1",
+            "requirement": "1",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Weapon Proficiency (Simple Weapons), and Base Attack Bonus 1",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vjI6UQsyzUhzwSZ9",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

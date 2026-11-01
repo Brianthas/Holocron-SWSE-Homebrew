@@ -1,0 +1,24 @@
+{
+  "_id": "uOyeMgJEBqiSyB8C",
+  "_key": "!items!uOyeMgJEBqiSyB8C",
+  "name": "Galactic Alliance Military Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>Service in The Galactic Alliance has honed your toughness.</p><p><b>Effect:</b> You do not move down the Condition Track the first time an attack exceeds your Damage Threshold in an encounter.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3pOFhFa41RFycj7v",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

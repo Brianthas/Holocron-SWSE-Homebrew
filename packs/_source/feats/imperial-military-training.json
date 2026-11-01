@@ -1,0 +1,24 @@
+{
+  "_id": "fa1MfGCuPJp5raFC",
+  "_key": "!items!fa1MfGCuPJp5raFC",
+  "name": "Imperial Military Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have been instilled with the sense of discipline and loyalty demanded by the Empire.</p><p><b>Effect:</b> Once per encounter, as a Free Action on your turn, you can negate any one Mind-Affecting effect targeting or currently affecting you.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XpM1cuSSYdsOuDYB",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

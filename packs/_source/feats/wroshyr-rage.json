@@ -1,0 +1,28 @@
+{
+  "_id": "95jPqTBcyWD2MSUu",
+  "_key": "!items!95jPqTBcyWD2MSUu",
+  "name": "Wroshyr Rage",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have learnt that in the dangerous jungles of Kashyyyk, your mighty Rage must be tempered by wariness so that predators don't get the drop on you.</p><p><b>Prerequisite:</b> Wookiee</p><p><b>Effect:</b> When you first enter your Rage, you gain a number of Bonus Hit Points equal to 10 + one-half your level. Damage is subtracted from Bonus Hit Points first, and any Bonus Hit Points remaining at the end of the encounter are lost. Bonus Hit Points do not stack.</p>",
+    "prerequisite": {
+      "text": "Wookiee species",
+      "nodes": {
+        "text": "Wookiee species",
+        "requirement": "Wookiee",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "D9BX19RmXxCoXZz0",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

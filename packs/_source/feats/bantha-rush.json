@@ -1,0 +1,39 @@
+{
+  "_id": "UVaZPElJiqxaPCwh",
+  "_key": "!items!UVaZPElJiqxaPCwh",
+  "name": "Bantha Rush",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can shove your opponents around the battlefield to gain a tactical advantage.</p><p><b>Prerequisites:</b> Strength 13, Base Attack Bonus +1</p><p><b>Effect:</b> After making a successful melee attack against an opponent up to one size category larger than you, you can choose to move that opponent 1 square in any direction as a Free Action. You can't Bantha Rush an opponent that's being Grabbed or Grappled, and you can't Bantha Rush your opponent into a solid object or another creature's Fighting Space.</p>",
+    "prerequisite": {
+      "text": "Strength 13, and Base Attack Bonus 1",
+      "nodes": {
+        "children": [
+          {
+            "text": "Strength 13",
+            "requirement": "Strength 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Base Attack Bonus 1",
+            "requirement": "1",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Strength 13, and Base Attack Bonus 1",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iHDVtoXeXOVu9TE1",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

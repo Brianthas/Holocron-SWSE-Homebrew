@@ -1,0 +1,39 @@
+{
+  "_id": "EbdpPveh1vNftmFt",
+  "_key": "!items!EbdpPveh1vNftmFt",
+  "name": "Collateral Damage",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your hail of fire can catch secondary targets in your firing arc.</p><p><b>Prerequisites:</b> Rapid Shot, Base Attack Bonus +6</p><p><b>Effect:</b> When you deal damage with a single, non-Area Attack using the Rapid Shot Feat, once per turn on your turn, you can immediately make a second attack at a -2 penalty against a second target within 2 squares of the first. If this attack hits, you deal half the original attack's damage to that target.</p>",
+    "prerequisite": {
+      "text": "Rapid Shot feat, and Base Attack Bonus 6",
+      "nodes": {
+        "children": [
+          {
+            "text": "Rapid Shot feat",
+            "requirement": "Rapid Shot",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 6",
+            "requirement": "6",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Rapid Shot feat, and Base Attack Bonus 6",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OwL0d8nbT7bl4SHm",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

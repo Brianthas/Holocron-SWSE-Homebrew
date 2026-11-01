@@ -1,0 +1,24 @@
+{
+  "_id": "2mjwfRxtmBSFubUe",
+  "_key": "!items!2mjwfRxtmBSFubUe",
+  "name": "Sith Military Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are trained in Sith military fighting techniques, giving you an advantage in melee combat. This training is generally given to rank and file military members of The Sith Empire regardless of their Force training.</p><p><b>Effect:</b> Once per encounter, as a Reaction when you reduce a target to 0 Hit Points or deal damage that exceeds the target's Damage Threshold, you can activate this Feat to cause all enemies within 6 squares of that target to take a -2 penalty to all Defenses until the end of your next turn. This is a Mind-Affecting effect.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oBwtPxhsQyRE1izT",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

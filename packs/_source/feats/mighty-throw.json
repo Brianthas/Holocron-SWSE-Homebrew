@@ -1,0 +1,28 @@
+{
+  "_id": "AV1LUPuDbOf1fiRL",
+  "_key": "!items!AV1LUPuDbOf1fiRL",
+  "name": "Mighty Throw",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are highly accurate with Thrown Weapons.</p><p><b>Prerequisite:</b> Strength 13</p><p><b>Effect:</b> You can add your Strength modifier (in addition to your Dexterity modifier) to your ranged attack bonus when using Thrown Weapons (including Grenades and grenadelike weapons). Also, you can increase the length of each Range category by a number of squares equal to your Strength modifier.</p>",
+    "prerequisite": {
+      "text": "Strength 13",
+      "nodes": {
+        "text": "Strength 13",
+        "requirement": "Strength 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "P33P2HtENzDjgUhI",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

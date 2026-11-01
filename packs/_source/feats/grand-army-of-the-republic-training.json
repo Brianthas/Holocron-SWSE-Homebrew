@@ -1,0 +1,28 @@
+{
+  "_id": "FTuXf4EKzf3Qjcbp",
+  "_key": "!items!FTuXf4EKzf3Qjcbp",
+  "name": "Grand Army of the Republic Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have received basic training from the Grand Army of the Republic and know how to turn even bulky armor into an asset.</p><p><b>Prerequisite:</b> Armor Proficiency (Light)</p><p><b>Effect:</b> If you wear Armor that provides an Equipment bonus to your Fortitude Defense, and you are proficient with that Armor, you also apply the Armor's Equipment bonus to your Will Defense.</p>",
+    "prerequisite": {
+      "text": "Armor Proficiency feat",
+      "nodes": {
+        "text": "Armor Proficiency feat",
+        "requirement": "Armor Proficiency",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "huNZlrJNvNuGWPVM",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

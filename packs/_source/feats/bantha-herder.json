@@ -1,0 +1,28 @@
+{
+  "_id": "pS7Y6ozHpI0ux7xg",
+  "_key": "!items!pS7Y6ozHpI0ux7xg",
+  "name": "Bantha Herder",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to frame your targets with your ranged attacks, moving the targets where you want them to go.</p><p><b>Prerequisite:</b> Base Attack Bonus +1</p><p><b>Effect:</b> When you damage a Large or smaller creature with a ranged attack with a weapon you are proficient with, compare the result of your attack roll to the target's Will Defense. If your result equals or exceeds the target's Will Defense, you can move the target 1 square in any direction as a Free Action.</p><p>If your ranged attack deals damage to multiple eligible creatures, you can use this benefit against all of them. You can't move a target that's being Grabbed or Grappled, and you can't move a target into a solid object or into another creature's Fighting Space.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "nodes": {
+        "text": "Base Attack Bonus 1",
+        "requirement": "1",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lrI0ba6tAziq7vtP",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "YXBESL2XU3baZeol",
+  "_key": "!items!YXBESL2XU3baZeol",
+  "name": "Bone Crusher",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are skilled at dealing lasting damage to Grappled opponents.</p><p><b>Prerequisites:</b> Crush, Pin</p><p><b>Effect:</b> When you deal damage to a Grappled opponent, the opponent also moves -1 step along the Condition Track.</p>",
+    "prerequisite": {
+      "text": "Crush feat, and Pin feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Crush feat",
+            "requirement": "Crush",
+            "type": "FEAT"
+          },
+          {
+            "text": "Pin feat",
+            "requirement": "Pin",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Crush feat, and Pin feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lltDDx304XekPVK6",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

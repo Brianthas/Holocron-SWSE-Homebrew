@@ -1,0 +1,28 @@
+{
+  "_id": "KeZTmgKDWU3xWS3R",
+  "_key": "!items!KeZTmgKDWU3xWS3R",
+  "name": "Wicked Strike",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your melee attacks can catch bystanders.</p><p><b>Prerequisite:</b> Rapid Strike</p><p><b>Effect:</b> When you damage a target with a single, non-Area Attack using the Rapid Strike Feat, once per turn on your turn, you can immediately make a second attack at a -2 penalty against a second target within your reach. If this attack hits, you deal half of the original attack's damage to that target.</p>",
+    "prerequisite": {
+      "text": "Rapid Strike feat",
+      "nodes": {
+        "text": "Rapid Strike feat",
+        "requirement": "Rapid Strike",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WiV4tLh8iMH4pxi6",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

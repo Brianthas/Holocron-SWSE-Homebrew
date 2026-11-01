@@ -1,0 +1,24 @@
+{
+  "_id": "7bHqSJOEmKsIGtgM",
+  "_key": "!items!7bHqSJOEmKsIGtgM",
+  "name": "Separatist Military Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have received extensive training from the military of The Confederacy of Independent Systems and are familiar with its practices.</p><p><b>Effect:</b> While you are adjacent to at least one of your allies, you gain a +1 circumstance bonus on any one attack roll you make on your turn.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9ESEg9anbdDpbXgg",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

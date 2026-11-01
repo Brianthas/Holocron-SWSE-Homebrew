@@ -1,0 +1,24 @@
+{
+  "_id": "N8o28hh7EIMXEPJi",
+  "_key": "!items!N8o28hh7EIMXEPJi",
+  "name": "Stand Tall",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your courage under fire inspires those around you to acts of bravery.</p><p><b>Effect:</b> Once per encounter when you take damage, all allies who are within 6 squares of you and within your line of sight can, as a Reaction, make a single attack on the target that damaged you.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DGgfUofjllXwUDsJ",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

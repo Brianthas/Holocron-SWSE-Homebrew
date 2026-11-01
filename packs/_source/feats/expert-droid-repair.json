@@ -1,0 +1,28 @@
+{
+  "_id": "ThapYmOFbMCumKTI",
+  "_key": "!items!ThapYmOFbMCumKTI",
+  "name": "Expert Droid Repair",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can repair multiple Droids simultaneously.</p><p><b>Prerequisite:</b> Trained in Mechanics</p><p><b>Effect:</b> You can use Repair Droid to a number of Droids equal to your Intelligence modifier (Minimum 2) simultaneously. You make Mechanics checks for each Droid as normal.</p>",
+    "prerequisite": {
+      "text": "Trained in Mechanics",
+      "nodes": {
+        "text": "Trained in Mechanics",
+        "requirement": "Mechanics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3gHqAmBUwLwvCDO7",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

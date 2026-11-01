@@ -1,0 +1,28 @@
+{
+  "_id": "TgiMESesRNcU5iKl",
+  "_key": "!items!TgiMESesRNcU5iKl",
+  "name": "Wookiee Grip",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your strength is such that you need only one hand to use weapons that normally require two hands.</p><p><b>Prerequisite:</b> Strength 13</p><p><b>Effect:</b> When using a weapon in which you are proficient and that normally requires two hands, you can wield that weapon with a single hand. You take a -2 penalty to attack rolls with the weapon when it is used in this manner.</p>",
+    "prerequisite": {
+      "text": "Strength 13",
+      "nodes": {
+        "text": "Strength 13",
+        "requirement": "Strength 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XvTya7JaTi7FixZR",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

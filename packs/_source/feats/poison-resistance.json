@@ -1,0 +1,28 @@
+{
+  "_id": "8z2QJ3HfVqhYs599",
+  "_key": "!items!8z2QJ3HfVqhYs599",
+  "name": "Poison Resistance",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are naturally more resistant to the effects of Poison.</p><p><b>Prerequisite:</b> Constitution 13</p><p><b>Effect:</b> You gain a +5 bonus to your Fortitude Defense when attacked by Poison. If the attack succeeds, you take only half damage.</p>",
+    "prerequisite": {
+      "text": "Constitution 13",
+      "nodes": {
+        "text": "Constitution 13",
+        "requirement": "Constitution 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1cHoYHLytZZ0OIj3",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

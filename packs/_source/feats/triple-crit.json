@@ -1,0 +1,28 @@
+{
+  "_id": "qx1G3cQI4QMoEubw",
+  "_key": "!items!qx1G3cQI4QMoEubw",
+  "name": "Triple Crit",
+  "type": "feat",
+  "system": {
+    "description": "<p>Choose one type of Weapon, such as a Blaster Pistol, Vibrodagger, or Lightsaber. You deal more damage on a Critical Hit with that Weapon.</p><p><b>Prerequisite:</b> Base Attack Bonus +8</p><p><b>Effect:</b> Choose one Weapon with which you are proficient. When you score a Critical Hit with the selected weapon, you deal triple damage. You may select \"Unarmed Attack\" as a Weapon for purposes of this Feat.</p><p><b>Normal:</b> A Critical Hit normally deals double damage to the target.</p><p><b>Special:</b> You can gain this Feat multiple times. The effects do not stack. Each time you take this Feat, it applies to a different Weapon. It's possible to take Triple Crit with a specific Vehicle Weapon.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 8",
+      "nodes": {
+        "text": "Base Attack Bonus 8",
+        "requirement": "8",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RcDEEtaqq0yawX8N",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

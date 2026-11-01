@@ -1,0 +1,28 @@
+{
+  "_id": "uKoT3HhrwSznF9RK",
+  "_key": "!items!uKoT3HhrwSznF9RK",
+  "name": "Improvised Weapon Mastery",
+  "type": "feat",
+  "system": {
+    "description": "<p>You use Improvised Weapons with true skill.</p><p><b>Prerequisite:</b> Weapon Proficiency (Simple Weapons)</p><p><b>Effect:</b> You treat all Improvised Weapons as Simple Weapons, and you can use them without penalty and with Talents and Feats designed for use with Simple Weapons. You also deal an additional 1d6 points of damage on a successful hit.</p>",
+    "prerequisite": {
+      "text": "Weapon Proficiency (Simple Weapons)",
+      "nodes": {
+        "text": "Weapon Proficiency (Simple Weapons)",
+        "requirement": "Weapon Proficiency (Simple Weapons)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eMCBddJ30B1TtKT2",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "Z9Eei650dE4CB1en",
+  "_key": "!items!Z9Eei650dE4CB1en",
+  "name": "Perfect Swimmer",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are among the best of your kind when swimming and can navigate even the most difficult waters.</p><p><b>Prerequisite:</b> Gungan</p><p><b>Effect:</b> Whenever you reroll a Swim check, you always keep the better result, even if you have multiple reroll abilities.</p>",
+    "prerequisite": {
+      "text": "Gungan species",
+      "nodes": {
+        "text": "Gungan species",
+        "requirement": "Gungan",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0vGTcCtMJdpjg19D",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "tyFNcfXGPx548jzY",
+  "_key": "!items!tyFNcfXGPx548jzY",
+  "name": "Logic Upgrade: Skill Swap",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are able to quickly swap one programmed Skill for another. A Droid with a Basic Processor can use this trick to enable it to attempt Skills in which it is Untrained.</p><p><b>Prerequisites:</b> Droid, Basic Processor</p><p><b>Effect:</b> Select a Skill you are not Trained in (other than Use the Force). As a Full-Round Action, you can swap this Skill for one you are Trained in. You do not gain any benefit from the original Trained Skill while it is swapped out. You are not considered Trained in the swapped-in Skill, and therefore you cannot use any Trained-only options or add a bonus to your Skill Check. You still add one-half your level and your associated Ability bonus, as usual.</p><p><b>Special:</b> If you become Trained in the Skill selected for this feat, you can select another Skill to replace it. You can take this Feat more than once, each time selecting a different Skill to swap.</p>",
+    "prerequisite": {
+      "text": "Droid, and Basic Processor",
+      "nodes": {
+        "children": [
+          {
+            "text": "Droid",
+            "requirement": "Is a droid",
+            "type": "SPECIAL"
+          },
+          {
+            "text": "Basic Processor",
+            "requirement": "Basic Processor",
+            "type": "EQUIPPED"
+          }
+        ],
+        "text": "Droid, and Basic Processor",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SsfFCrjUPcQCJnmE",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

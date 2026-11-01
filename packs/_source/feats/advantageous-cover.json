@@ -1,0 +1,28 @@
+{
+  "_id": "WN8RFUac4jafmuAw",
+  "_key": "!items!WN8RFUac4jafmuAw",
+  "name": "Advantageous Cover",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to make the best use of available Cover as shelter from enemy attacks.</p><p><b>Prerequisite:</b> Trained in Stealth</p><p><b>Effect:</b> When you have Cover, you take no damage from Area Attacks, even if the attack roll exceeds your Reflex Defense.</p><p><b>Normal:</b> You take no damage from Area Attacks when you have Cover only if the attack roll misses.</p>",
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "nodes": {
+        "text": "Trained in Stealth",
+        "requirement": "Stealth",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nURrRgDVws9AcMsV",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

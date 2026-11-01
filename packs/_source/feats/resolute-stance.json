@@ -1,0 +1,28 @@
+{
+  "_id": "snFIjuUo4h9e4kY1",
+  "_key": "!items!snFIjuUo4h9e4kY1",
+  "name": "Resolute Stance",
+  "type": "feat",
+  "system": {
+    "description": "<p>By standing your ground, you focus your mind to repel any assault.</p><p><b>Prerequisite:</b> Base Attack Bonus +1</p><p><b>Effect:</b> When you Fight Defensively, you gain a +2 morale bonus to your Will Defense. If you make no attacks until your next turn, you gain a +5 morale bonus to your Will Defense until the start of your next turn.</p><p><b>Normal:</b> When you Fight Defensively you only get a dodge bonus to your Reflex Defense.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "nodes": {
+        "text": "Base Attack Bonus 1",
+        "requirement": "1",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Xq58besv8DtnLxhv",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

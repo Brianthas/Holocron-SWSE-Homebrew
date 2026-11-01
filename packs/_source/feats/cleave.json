@@ -1,0 +1,39 @@
+{
+  "_id": "RCKk22v3mKfyJ2rh",
+  "_key": "!items!RCKk22v3mKfyJ2rh",
+  "name": "Cleave",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can follow through with a powerful melee attack.</p><p><b>Prerequisites:</b> Strength 13, Power Attack Feat</p><p><b>Effect:</b> If you deal an opponent enough damage to reduce its hit points to 0, you get an immediate extra melee attack against another opponent within your reach. The extra attack is with the same weapon and at the same attack bonus as the attack that dropped the previous opponent. You can use this ability once per round.</p><h2>Additional Cleave Effects</h2><p><b>Combined Feat (Follow Through):</b>&nbsp;If you have the&nbsp;Follow Through&nbsp;Feat, you can move up to your speed before making the extra melee attack granted by the&nbsp;Cleave&nbsp;Feat.</p>",
+    "prerequisite": {
+      "text": "Strength 13, and Power Attack feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Strength 13",
+            "requirement": "Strength 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Power Attack feat",
+            "requirement": "Power Attack",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Strength 13, and Power Attack feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "F0mU7udLIvcHfxb4",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

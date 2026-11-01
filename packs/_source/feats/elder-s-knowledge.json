@@ -1,0 +1,40 @@
+{
+  "_id": "idxHvbEMIq9bBTZb",
+  "_key": "!items!idxHvbEMIq9bBTZb",
+  "name": "Elder's Knowledge",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have gained the wisdom of elders, whether through your own experiences or by learning from their instruction.</p><p><b>Prerequisite:</b> Skill Focus (Knowledge (Galactic Lore)) or Skill Focus (Knowledge (Social Sciences))</p><p><b>Effect:</b> Once per encounter, you can substitute a Knowledge (Galactic Lore) or Knowledge (Social Sciences) check for a Wisdom or Wisdom-related check.</p>",
+    "prerequisite": {
+      "text": "Skill Focus (Knowledge (Galactic Lore)) or Skill Focus (Knowledge (Social Sciences))",
+      "nodes": {
+        "children": [
+          {
+            "text": "Skill Focus (Knowledge (Galactic Lore))",
+            "requirement": "Skill Focus (Knowledge (Galactic Lore))",
+            "type": "FEAT"
+          },
+          {
+            "text": "Skill Focus (Knowledge (Sciences))",
+            "requirement": "Skill Focus (Knowledge (Sciences))",
+            "type": "FEAT"
+          }
+        ],
+        "count": 1,
+        "text": "Skill Focus (Knowledge (Galactic Lore)) or Skill Focus (Knowledge (Social Sciences))",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Z39mCpwi77knedB4",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

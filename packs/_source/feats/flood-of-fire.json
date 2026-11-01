@@ -1,0 +1,24 @@
+{
+  "_id": "63hCNReYkX941Yrb",
+  "_key": "!items!63hCNReYkX941Yrb",
+  "name": "Flood of Fire",
+  "type": "feat",
+  "system": {
+    "description": "<p>You fill the air with weapon fire, keeping your opponents from escaping the barrage.</p><p><b>Effect:</b> When you make an Area Attack with a weapon set on Autofire, and you are proficient with that weapon, all targets in the area lose all dodge or deflection bonuses to Reflex Defense against the Autofire attack.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3L9zcro0QDX0KbDw",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

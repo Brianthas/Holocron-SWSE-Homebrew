@@ -1,0 +1,28 @@
+{
+  "_id": "QmxrwPbQk4jaCt9K",
+  "_key": "!items!QmxrwPbQk4jaCt9K",
+  "name": "Slippery Maneuver",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are adept at finding ways out of tough situations.</p><p><b>Prerequisite:</b> Dodge</p><p><b>Effect:</b> You can apply the effects of the Dodge Feat against attacks made from two opponents. In addition, when you use the Withdraw Action to move away from a target against whom you use the Dodge Feat, you can move at your full Speed. You still provoke an Attack of Opportunity if you must move more than 1 square to escape a Threatened Area.</p><p><b>Normal:</b> The benefit of Dodge applies to one target. Once you clear a Threatened Area, you can continue to move up to a total of half you Speed.</p>",
+    "prerequisite": {
+      "text": "Dodge feat",
+      "nodes": {
+        "text": "Dodge feat",
+        "requirement": "Dodge",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gli9EI112BqlUDUL",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

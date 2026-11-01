@@ -1,0 +1,28 @@
+{
+  "_id": "RQxbvGxYkzYey9Cg",
+  "_key": "!items!RQxbvGxYkzYey9Cg",
+  "name": "Mandalorian Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are trained in Mandalorian fighting techniques, giving you an advantage in many types of combat.</p><p><b>Prerequisite:</b> Charging Fire</p><p><b>Effect:</b> When using the Charging Fire Feat, you gain a +2 bonus to a ranged attack made at the end of a Charge. As with a normal Charge, you still take a -2 penalty to your Reflex Defense, but you also gain a +2 morale bonus to your Will Defense until the beginning of your next turn.</p><p><b>Normal:</b> You gain no bonus to a ranged attack make at the end of a Charge with the Charging Fire Feat.</p>",
+    "prerequisite": {
+      "text": "Charging Fire feat",
+      "nodes": {
+        "text": "Charging Fire feat",
+        "requirement": "Charging Fire",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ALtc5KeIx4qgTGC0",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

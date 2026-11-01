@@ -1,0 +1,48 @@
+{
+  "_id": "jzgbiTakXxQzb9bL",
+  "_key": "!items!jzgbiTakXxQzb9bL",
+  "name": "Extended Capacity",
+  "type": "feat",
+  "system": {
+    "description": "<p>Doubles your carrying capacity: both your Light slots and Kit slots totals are doubled.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [
+    {
+      "_id": "svICjRrl9M5CeYIh",
+      "_key": "!items.effects!jzgbiTakXxQzb9bL.svICjRrl9M5CeYIh",
+      "name": "Extended Capacity",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "flag",
+            "type": "grant",
+            "value": "extendedCapacity",
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NiU3X5nfqeVZFzZi",
+      "sourceBook": ""
+    }
+  }
+}

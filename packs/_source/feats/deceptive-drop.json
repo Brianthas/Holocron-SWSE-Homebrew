@@ -1,0 +1,28 @@
+{
+  "_id": "uQmkSNZ7zkdTYRJs",
+  "_key": "!items!uQmkSNZ7zkdTYRJs",
+  "name": "Deceptive Drop",
+  "type": "feat",
+  "system": {
+    "description": "<p>When you get the drop on opponents, you dazzle them with your speed and ferocity.</p><p><b>Prerequisite:</b> Trained in Initiative</p><p><b>Effect:</b> During the Surprise Round, if you damage a Flat-Footed target, that target is also knocked Prone if your attack roll also exceeds the target's Fortitude Defense. The target adds its size modifier to its Fortitude Defense:</p><ul>\n <li>Colossal, +50;</li>\n <li>Gargantuan, +20;</li>\n <li>Huge, +10;</li>\n <li>Large, +5;</li>\n <li>Medium and smaller, +0.</li>\n</ul>",
+    "prerequisite": {
+      "text": "Trained in Initiative",
+      "nodes": {
+        "text": "Trained in Initiative",
+        "requirement": "Initiative",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fXl2DHNKGVEz8Rl6",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "DVG96Vkou4Y4tEq0",
+  "_key": "!items!DVG96Vkou4Y4tEq0",
+  "name": "Natural Leader",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are a natural leader, and you founded your own Organization.</p><p><b>Prerequisite:</b> Charisma 13</p><p><b>Effect:</b> You become the leader of an Organization of your design. The Organization has a scale equal to one-half your Heroic Level plus your Charisma bonus and continues to grow in scale as you gain levels. You automatically begin with a +10 bonus to your Organization Score for your new Organization.</p>",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8Qyk9U0eTVD2BlPT",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "ItBFLc5kck2Q0NlT",
+  "_key": "!items!ItBFLc5kck2Q0NlT",
+  "name": "Technical Experts",
+  "type": "feat",
+  "system": {
+    "description": "<p>You and your allies are just as comfortable in the vehicle pool as on the battlefield and are capable of maintaining heavy equipment.</p><p><b>Prerequisite:</b> Trained in Mechanics</p><p><b>Effect:</b> You gain a +3 competence bonus on Mechanics checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, when you use the Aid Another Action to assist an ally who has this Feat with a Mechanics check, you provide a bonus of +4 instead of +2.</p>",
+    "prerequisite": {
+      "text": "Trained in Mechanics",
+      "nodes": {
+        "text": "Trained in Mechanics",
+        "requirement": "Mechanics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qr5WEhHeiNfCJmv3",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

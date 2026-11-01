@@ -1,0 +1,45 @@
+{
+  "_id": "MQqQ4qwVIr85c7om",
+  "_key": "!items!MQqQ4qwVIr85c7om",
+  "name": "Staggering Attack",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can deliver nasty attacks that leave your opponents gasping.</p><p><b>Prerequisite:</b> <b>Sneak Attack</b> or Rapid Shot or Rapid Strike</p><p><b>Effect:</b> Any time you would deal additional damage from a Feat or Talent that grants one or more extra dice of damage, you can forgo the extra damage to move the target 2 squares per extra die sacrificed. This movement does not provoke Attacks of Opportunity.</p>",
+    "prerequisite": {
+      "text": "Sneak Attack or Rapid Shot or Rapid Strike",
+      "nodes": {
+        "children": [
+          {
+            "text": "Sneak Attack talent",
+            "requirement": "Sneak Attack",
+            "type": "TALENT"
+          },
+          {
+            "text": "Rapid Shot feat",
+            "requirement": "Rapid Shot",
+            "type": "FEAT"
+          },
+          {
+            "text": "Rapid Strike feat",
+            "requirement": "Rapid Strike",
+            "type": "FEAT"
+          }
+        ],
+        "count": 1,
+        "text": "Sneak Attack or Rapid Shot or Rapid Strike",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rA6XtmXRP1PAmMkf",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

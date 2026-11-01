@@ -1,0 +1,39 @@
+{
+  "_id": "FwJ7xaCMx9DuB0V3",
+  "_key": "!items!FwJ7xaCMx9DuB0V3",
+  "name": "Logic Upgrade: Tactician",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have learned to use your systems and equipment to arm yourself.</p><p><b>Prerequisites:</b> Droid, Base Attack Bonus +4</p><p><b>Effect:</b> Once per encounter, you can use the Aid Another action to grant a single ally a +5 bonus to their next attack roll against an opponent.</p><p><b>Normal:</b> Successfully aiding an attack roll grants a +2 bonus to the ally's next attack roll against the opponent.</p>",
+    "prerequisite": {
+      "text": "Droid, and Base Attack Bonus 4",
+      "nodes": {
+        "children": [
+          {
+            "text": "Droid",
+            "requirement": "Is a droid",
+            "type": "SPECIAL"
+          },
+          {
+            "text": "Base Attack Bonus 4",
+            "requirement": "4",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Droid, and Base Attack Bonus 4",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "M17bTbkchZyYh5Yf",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

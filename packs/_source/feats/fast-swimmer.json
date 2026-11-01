@@ -1,0 +1,28 @@
+{
+  "_id": "He4eoNobMrGeRXAw",
+  "_key": "!items!He4eoNobMrGeRXAw",
+  "name": "Fast Swimmer",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are naturally gifted at swimming and move through the water more quickly than do others of your Species.</p><p><b>Prerequisite:</b> Mon Calamari</p><p><b>Effect:</b>&nbsp;Your Swim Speed increases by 2 squares.</p>",
+    "prerequisite": {
+      "text": "Mon Calamari species",
+      "nodes": {
+        "text": "Mon Calamari species",
+        "requirement": "Mon Calamari",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "O2fHUoBMPPcDDCSu",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

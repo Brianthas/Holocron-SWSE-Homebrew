@@ -1,0 +1,24 @@
+{
+  "_id": "ffFwvBQwECAhuH5V",
+  "_key": "!items!ffFwvBQwECAhuH5V",
+  "name": "Maniacal Charge",
+  "type": "feat",
+  "system": {
+    "description": "<p>You Charge your enemies like a battle-crazed berserker.</p><p><b>Effect:</b> When using the Charge Action, you can make a Persuasion check as a Free Action to Intimidate your target and each enemy you pass within 1 square of. When your check succeeds against an enemy you pass, it cannot make an Attack of Opportunity against you. When your check succeeds against your target, it loses its Dexterity bonus and is considered Flat-Footed until the start of your next turn.</p><p><b>Special:</b>&nbsp;You cannot use this Feat with the&nbsp;Intimidator&nbsp;Feat.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AO0TMIYMTtjEdNl4",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

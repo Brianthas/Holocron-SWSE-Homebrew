@@ -1,0 +1,28 @@
+{
+  "_id": "iIic5dOWVoPBBSTt",
+  "_key": "!items!iIic5dOWVoPBBSTt",
+  "name": "Staggering Attack (GaW)",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can deliver punishing blows to your enemies, distracting them and keeping them from focusing their efforts.</p><p><b>Prerequisites:</b> Base Attack Bonus +1</p><p><b>Effect:</b> When using a melee weapon with which you are proficient, you can make an attack that disrupts an enemy's concentration. You take a -2 penalty on your attack roll, and if your attack deals damage, the target takes a -2 penalty to Skill Checks until the end of your next turn. Alternatively, you can take a -5 penalty to your attack roll, and if your attack deals damage, the target takes a -5 penalty to Skill Checks until end of your next turn.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "nodes": {
+        "text": "Base Attack Bonus 1",
+        "requirement": "1",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kIcw2yGsNRjIEknW",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

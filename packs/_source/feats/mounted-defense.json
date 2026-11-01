@@ -1,0 +1,40 @@
+{
+  "_id": "B9mTGzhwDg5yUbMF",
+  "_key": "!items!B9mTGzhwDg5yUbMF",
+  "name": "Mounted Defense",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are able to react to incoming attacks, using your Mount or Speeder Bike to absorb attacks against you.</p><p><b>Prerequisite:</b> Trained in Pilot or Ride</p><p><b>Effect:</b> When riding a Beast as a Mount or on a Speeder Bike (As a passenger or a Pilot), once per encounter you can redirect any attack made against you at your Mount or Vehicle instead. The decision to redirect the attack is made after the result of the attack roll is determined but before damage or other effects are resolved.</p>",
+    "prerequisite": {
+      "text": "Trained in Pilot or Ride",
+      "nodes": {
+        "children": [
+          {
+            "text": "Trained in Pilot",
+            "requirement": "Pilot",
+            "type": "TRAINED SKILL"
+          },
+          {
+            "text": "Trained in Ride",
+            "requirement": "Ride",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "count": 1,
+        "text": "Trained in Pilot or Ride",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "e2GGRjVlTWHNsMnB",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

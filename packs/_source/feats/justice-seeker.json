@@ -1,0 +1,28 @@
+{
+  "_id": "qvQkPAs4SjRcavzb",
+  "_key": "!items!qvQkPAs4SjRcavzb",
+  "name": "Justice Seeker",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are willing to take the law into your own hands to bring justice to those who harm your allies.</p><p><b>Prerequisite:</b> Kel Dor</p><p><b>Effect:</b>&nbsp;You gain a +2 bonus to damage rolls for attacks against targets that have damaged one of your allies since the end of your last turn.</p>",
+    "prerequisite": {
+      "text": "Kel Dor species",
+      "nodes": {
+        "text": "Kel Dor species",
+        "requirement": "Kel Dor",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CKyIrAarpkeAVScf",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

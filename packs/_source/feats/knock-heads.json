@@ -1,0 +1,44 @@
+{
+  "_id": "f5tmcuYKZASl802l",
+  "_key": "!items!f5tmcuYKZASl802l",
+  "name": "Knock Heads",
+  "type": "feat",
+  "system": {
+    "description": "<p>You knock two opponents' heads together in unarmed combat.</p><p><b>Prerequisites:</b> Strength 13, Dexterity 13, Multi-Grab</p><p><b>Effect:</b> After successfully using the Multi-Grab Feat against two targets that are both adjacent to you and each other, you can immediately knock their heads together, dealing automatic bludgeoning damage to each creature equal to 1d6 plus your Strength modifier. When comparing the damage to each creature's Damage Threshold, treat their Damage Thresholds as if they were 5 points lower. Both creatures are still considered Grabbed at the end of using this Feat.</p>",
+    "prerequisite": {
+      "text": "Strength 13, Dexterity 13, and Multi-Grab feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Strength 13",
+            "requirement": "Strength 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Dexterity 13",
+            "requirement": "Dexterity 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Multi-Grab feat",
+            "requirement": "Multi-Grab",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Strength 13, Dexterity 13, and Multi-Grab feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FMoz17FN2qhBMg6Z",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

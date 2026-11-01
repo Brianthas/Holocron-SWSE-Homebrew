@@ -1,0 +1,28 @@
+{
+  "_id": "tiD1NHVIGj8YGrqP",
+  "_key": "!items!tiD1NHVIGj8YGrqP",
+  "name": "Imperceptible Liar",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have worked hard to eliminate your behavioral tells, making it almost impossible to discern when you are lying.</p><p><b>Prerequisite:</b> Twi'lek</p><p><b>Effect:</b>&nbsp;Whenever you spend a&nbsp;Force Point&nbsp;to add to a&nbsp;Deception check, increase the die type by two steps (From d6 to d10, or from d8 to d12).</p>",
+    "prerequisite": {
+      "text": "Twi'lek species",
+      "nodes": {
+        "text": "Twi'lek species",
+        "requirement": "Twi'lek",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lblwpmiHDq4Alzef",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

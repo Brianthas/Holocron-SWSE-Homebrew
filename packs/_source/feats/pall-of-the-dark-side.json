@@ -1,0 +1,28 @@
+{
+  "_id": "fIdyYtqpPdOd2mZN",
+  "_key": "!items!fIdyYtqpPdOd2mZN",
+  "name": "Pall of the Dark Side",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are adept at hiding yourself from Force-users, thanks to the haze of The Dark Side.</p><p><b>Prerequisite:</b> Dark Side Score 1+</p><p><b>Effect:</b> You can add one-half your Dark Side Score (Minimum 1) to any Use the Force checks made to resist attempts to detect you with the Sense Force application of the Use the Force skill.</p>",
+    "prerequisite": {
+      "text": "Dark Side Score 1+",
+      "nodes": {
+        "text": "Dark Side Score 1+",
+        "requirement": "1",
+        "type": "DARK SIDE SCORE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6dAdmRQ0txCy3vnC",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

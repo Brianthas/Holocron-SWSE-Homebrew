@@ -1,0 +1,49 @@
+{
+  "_id": "GeS7fAft7hzPQSbX",
+  "_key": "!items!GeS7fAft7hzPQSbX",
+  "name": "Dual Weapon Mastery III",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can wield two weapons or a double weapon without penalty.</p><p><b>Prerequisites:</b> Dexterity 17, Dual Weapon Mastery I, Dual Weapon Mastery II, Base Attack Bonus +11</p><p><b>Effect:</b> When you attack with two weapons, or with both ends of a double weapon as part of a Full Attack Action, you take no penalty on your attack rolls. You only gain this benefit if you are wielding a weapon with which you are proficient.</p><p><b>Normal:</b> If you use a Full Attack Action to make more than one attack on your turn, you take a -10 penalty on all attack rolls for the round.</p><h2>Additional Dual Weapon Mastery III Effects</h2><p>Vehicle Weapons cannot be used in one hand, so this Feat has no effect on them.</p>",
+    "prerequisite": {
+      "text": "Dexterity 17, Dual Weapon Mastery I feat, Dual Weapon Mastery II feat, and Base Attack Bonus 11",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dexterity 17",
+            "requirement": "Dexterity 17",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Dual Weapon Mastery I feat",
+            "requirement": "Dual Weapon Mastery I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Dual Weapon Mastery II feat",
+            "requirement": "Dual Weapon Mastery II",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 11",
+            "requirement": "11",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Dexterity 17, Dual Weapon Mastery I feat, Dual Weapon Mastery II feat, and Base Attack Bonus 11",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gGn6f708LA5DqogK",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

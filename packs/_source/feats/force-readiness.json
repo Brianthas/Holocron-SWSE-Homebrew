@@ -1,0 +1,24 @@
+{
+  "_id": "3mig60uWV2Z5Hrix",
+  "_key": "!items!3mig60uWV2Z5Hrix",
+  "name": "Force Readiness",
+  "type": "feat",
+  "system": {
+    "description": "<p>The Force is always with you, and you have a knack for succeeding even when the odds are against you.</p><p><b>Effect:</b> You can spend Force Points as a Free Action, even if it is not your turn. All other restrictions to Force Point use still apply.</p><p><b>Normal:</b> Unless otherwise specified, you can spend Force Points only on your turn, preventing you from enhancing attacks and Skill Checks made as Reactions.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gCnkyIiMYb1UV6js",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

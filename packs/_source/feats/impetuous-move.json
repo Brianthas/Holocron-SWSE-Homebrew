@@ -1,0 +1,28 @@
+{
+  "_id": "XgIxnKy9mzaMEg9s",
+  "_key": "!items!XgIxnKy9mzaMEg9s",
+  "name": "Impetuous Move",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have an uncanny ability to call upon your reserves when you most need them.</p><p><b>Prerequisite:</b> Constitution 13</p><p><b>Effect:</b> When you catch a Second Wind, you can choose to regain only half of the Hit Points you normally would with a Second Wind and immediately Move up to half of your Speed. This movement does not provoke Attacks of Opportunity.</p>",
+    "prerequisite": {
+      "text": "Constitution 13",
+      "nodes": {
+        "text": "Constitution 13",
+        "requirement": "Constitution 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OebcwWqg5WgU33Xs",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

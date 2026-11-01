@@ -1,0 +1,45 @@
+{
+  "_id": "WteeBU3M9YVJjVkt",
+  "_key": "!items!WteeBU3M9YVJjVkt",
+  "name": "Hobbling Strike",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know where to hit your enemy to slow it down.</p><p><b>Prerequisite:</b> <b>Sneak Attack</b> or Rapid Shot or Rapid Strike.</p><p><b>Effect:</b> Whenever you would deal extra damage by using <b>Sneak Attack</b>, Rapid Shot, or Rapid Strike, you can reduce the target's Speed by 1 square until the end of the encounter, instead of dealing the extra damage.</p>",
+    "prerequisite": {
+      "text": "Sneak Attack or Rapid Shot or Rapid Strike",
+      "nodes": {
+        "children": [
+          {
+            "text": "Sneak Attack talent",
+            "requirement": "Sneak Attack",
+            "type": "TALENT"
+          },
+          {
+            "text": "Rapid Shot feat",
+            "requirement": "Rapid Shot",
+            "type": "FEAT"
+          },
+          {
+            "text": "Rapid Strike feat",
+            "requirement": "Rapid Strike",
+            "type": "FEAT"
+          }
+        ],
+        "count": 1,
+        "text": "Sneak Attack or Rapid Shot or Rapid Strike",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xZvHwwkFKJmVd2iU",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

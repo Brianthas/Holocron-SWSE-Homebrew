@@ -1,0 +1,28 @@
+{
+  "_id": "4Wq0fC6RuGpCDj88",
+  "_key": "!items!4Wq0fC6RuGpCDj88",
+  "name": "Mind of Reason",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have learnt to consider all sides of an issue carefully before making a decision, allowing you to reason out information that may not be readily apparent.</p><p><b>Prerequisite:</b> Cerean</p><p><b>Effect:</b> You may use your Wisdom bonus instead of your Intelligence bonus for all Intelligence-based Skill Checks.</p>",
+    "prerequisite": {
+      "text": "Cerean species",
+      "nodes": {
+        "text": "Cerean species",
+        "requirement": "Cerean",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Eo9ocEBOc5CtGi2Q",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

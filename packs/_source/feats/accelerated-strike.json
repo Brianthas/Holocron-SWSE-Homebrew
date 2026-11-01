@@ -1,0 +1,28 @@
+{
+  "_id": "C5TU7E8Won9B9Bmk",
+  "_key": "!items!C5TU7E8Won9B9Bmk",
+  "name": "Accelerated Strike",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your melee attack is exceptionally quick.</p><p><b>Prerequisite:</b> Base Attack Bonus +6</p><p><b>Effect:</b> Once per encounter, when using only weapons with which you are proficient, you can take a Full Attack Action as a Standard Action.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 6",
+      "nodes": {
+        "text": "Base Attack Bonus 6",
+        "requirement": "6",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6VI9xRpFmxZWeEEs",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

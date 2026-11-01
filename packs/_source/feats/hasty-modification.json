@@ -1,0 +1,28 @@
+{
+  "_id": "l9YWLBLD0oj6YOGo",
+  "_key": "!items!l9YWLBLD0oj6YOGo",
+  "name": "Hasty Modification",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can tweak and adapt equipment on the fly.</p><p><b>Prerequisite:</b> Tech Specialist</p><p><b>Effect:</b> You can exchange a Trait you have applied to a piece of Equipment or Droid for another one by spending 1 minute to make a DC 20 Mechanics check. If you succeed, the Equipment loses the old Trait and gains a new Trait until the end of the encounter, at which point the device loses all Traits previously acquired through use of the Tech Specialist Feat.</p>",
+    "prerequisite": {
+      "text": "Tech Specialist feat",
+      "nodes": {
+        "text": "Tech Specialist feat",
+        "requirement": "Tech Specialist",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "q21dAxcPv74hnEPh",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_id": "15OhgT4rfK5zeZtY",
+  "_key": "!items!15OhgT4rfK5zeZtY",
+  "name": "Extra Second Wind",
+  "type": "feat",
+  "system": {
+    "description": "<p>You tend to come back from the edge of oblivion more often.</p><p><b>Prerequisite:</b> Trained in Endurance</p><p><b>Effect:</b> You can catch your Second Wind one additional time per day, but you can still only catch a Second Wind once per encounter.</p><p><b>Normal:</b> A hero can normally catch his or her Second Wind only once per day.</p><p><b>Special:</b> You can take this Feat multiple times; each time you take this Feat, you can catch a Second Wind one additional time per day. A Nonheroic character that takes this Feat for the first time can catch a Second Wind once per day.</p>",
+    "prerequisite": {
+      "text": "Trained in Endurance",
+      "nodes": {
+        "text": "Trained in Endurance",
+        "requirement": "Endurance",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [
+    {
+      "_id": "2C579BQzT9FQmPIy",
+      "_key": "!items.effects!15OhgT4rfK5zeZtY.2C579BQzT9FQmPIy",
+      "name": "Extra Second Wind",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "secondWind",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zkfDR1xF4fSADPoq",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

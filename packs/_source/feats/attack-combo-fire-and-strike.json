@@ -1,0 +1,44 @@
+{
+  "_id": "O8EeObQfewajWyKS",
+  "_key": "!items!O8EeObQfewajWyKS",
+  "name": "Attack Combo (Fire and Strike)",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can make deadly ranged and melee attacks in rapid succession.</p><p><b>Prerequisites:</b> Attack Combo (Melee), Attack Combo (Ranged), Base Attack Bonus +9</p><p><b>Effect:</b> If you hit a single target with two consecutive ranged, melee, and/or Unarmed attacks during the same turn, any additional ranged, melee, or Unarmed attacks you make until the end of your next turn (including Attacks of Opportunity and attacks made as Reactions) deal +1 die of damage on a hit. This extra damage stacks with extra damage granted by other Feats or Talents.</p>",
+    "prerequisite": {
+      "text": "Attack Combo (Melee) feat, Attack Combo (Ranged) feat, and Base Attack Bonus 9",
+      "nodes": {
+        "children": [
+          {
+            "text": "Attack Combo (Melee) feat",
+            "requirement": "Attack Combo (Melee)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Attack Combo (Ranged) feat",
+            "requirement": "Attack Combo (Ranged)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 9",
+            "requirement": "9",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Attack Combo (Melee) feat, Attack Combo (Ranged) feat, and Base Attack Bonus 9",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OJFVPQUiFPJ7DVXb",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

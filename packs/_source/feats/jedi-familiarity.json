@@ -1,0 +1,24 @@
+{
+  "_id": "6bhvDmDMrqjwM5dc",
+  "_key": "!items!6bhvDmDMrqjwM5dc",
+  "name": "Jedi Familiarity",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have worked alongside Jedi or other Force-users and have developed an excellent rapport.</p><p><b>Effect:</b> Once per encounter, when you are targeted or affected by a Force Power or Force Talent originating from an ally, you gain one temporary Force Point, which must be spent before the end of the encounter or it goes away. If the Force Power or Force Talent damages you or moves you down the Condition Track, you do not gain the benefit of this Feat.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FYbM011QcEpCbf2w",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "Vtzql6sdd3vqscNb",
+  "_key": "!items!Vtzql6sdd3vqscNb",
+  "name": "Scion of Dorin",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are accustomed to the harsh environment of your homeworld, Dorin, and are tempered against the hazards of other planets.</p><p><b>Prerequisite:</b> Kel Dor</p><p><b>Effect:</b>&nbsp;You gain a +5 Species bonus to your Fortitude Defense against all Natural Hazards.</p>",
+    "prerequisite": {
+      "text": "Kel Dor species",
+      "nodes": {
+        "text": "Kel Dor species",
+        "requirement": "Kel Dor",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mofFECkfDwMhuN3B",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "ADKlKoxvKOKihd7o",
+  "_key": "!items!ADKlKoxvKOKihd7o",
+  "name": "Flash and Clear",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can use the smoke, noise, light, and confusion caused by your Grenade attacks to move unseen near your foes.</p><p><b>Effect:</b> When you damage a target with a Burst or Splash weapon, you gain Concealment against that target until the beginning of your next turn.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "e4TlA7XTQIT1pYJS",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

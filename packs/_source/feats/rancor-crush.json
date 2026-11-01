@@ -1,0 +1,49 @@
+{
+  "_id": "qJGwWa0khvBkFdsI",
+  "_key": "!items!qJGwWa0khvBkFdsI",
+  "name": "Rancor Crush",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your crushing hold on an enemy can knock it unconcious.</p><p><b>Prerequisites:</b> Strength 15, Crush, Pin, Base Attack Bonus +1</p><p><b>Effect:</b> When you successfully Pin an enemy with the Pin Feat and use the Crush Feat at the same time, the enemy moves -1 step down the Condition Track in addition to taking damage.</p><p><b>Normal:</b> The Crush Feat deals damage to a Grappled enemy but does not move the enemy down the Condition Track.</p>",
+    "prerequisite": {
+      "text": "Strength 15, Crush feat, Pin feat, and Base Attack Bonus 1",
+      "nodes": {
+        "children": [
+          {
+            "text": "Strength 15",
+            "requirement": "Strength 15",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Crush feat",
+            "requirement": "Crush",
+            "type": "FEAT"
+          },
+          {
+            "text": "Pin feat",
+            "requirement": "Pin",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 1",
+            "requirement": "1",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Strength 15, Crush feat, Pin feat, and Base Attack Bonus 1",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "d5BasadNzNkzfqeV",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "JADntVHb3fdLiA1f",
+  "_key": "!items!JADntVHb3fdLiA1f",
+  "name": "Implant Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have acclimated your mind and body to the presence of a cybernetic implant.</p><p><b>Prerequisite:</b> Must possess an Implant</p><p><b>Effect:</b> You are not moved an extra step down the Condition Track when you would normally be moved down the Condition Track.</p><p><b>Normal:</b> Characters with an Implant move one extra step down the Condition Track when moved down the Condition Track for any reason, and take a -2 penalty to their Will Defense without this Feat.</p>",
+    "prerequisite": {
+      "text": "Must possess an Implant",
+      "nodes": {
+        "text": "Must possess an Implant",
+        "requirement": "Must possess an Implant",
+        "type": "SPECIAL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VBYyFC3YFr2OxQAp",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "yQIEpsXj8HHBpN7H",
+  "_key": "!items!yQIEpsXj8HHBpN7H",
+  "name": "Wrruushi Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are trained in the Wrruushi Unarmed fighting style of the Wookiees and feel more invigorated in the heat of battle.</p><p><b>Prerequisites:</b> Constitution 13, Martial Arts I, Wookiee</p><p><b>Effect:</b> Once per round when you make a successful Unarmed Attack, you gain a number of Bonus Hit Points equal to your Constitution modifier. Damage is subtracted from the Bonus Hit Points first, and any Bonus Hit Points remaining at the end of the encounter are lost. Bonus Hit Points do not stack.</p><p>Once per encounter, you can make an Unarmed Attack against an enemy's Fortitude Defense instead of the enemy's Reflex Defense. If the attack is successful, the enemy not only takes damage but also loses any Equipment bonus to Fortitude Defense until the end of the encounter.</p><p>You must be wearing Light Armor or no Armor to gain the benefits of this Feat.</p><p><b>Special:</b> If you have the <b>Wrruushi Expertise</b> Talent, once per encounter when you score a Critical Hit with an Unarmed Attack against an enemy, you can deal normal damage and move the target an additional -2 steps down the Condition Track, regardless of the damage result. You must be wearing Light Armor or no Armor to gain this special benefit.</p>",
+    "prerequisite": {
+      "text": "Constitution 13, Martial Arts I feat, and Wookiee species",
+      "nodes": {
+        "children": [
+          {
+            "text": "Constitution 13",
+            "requirement": "Constitution 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Martial Arts I feat",
+            "requirement": "Martial Arts I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Wookiee species",
+            "requirement": "Wookiee",
+            "type": "SPECIES"
+          }
+        ],
+        "text": "Constitution 13, Martial Arts I feat, and Wookiee species",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5XuskJCm7teuOr4x",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

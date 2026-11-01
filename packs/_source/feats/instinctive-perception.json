@@ -1,0 +1,28 @@
+{
+  "_id": "azbDGOboNZPdvORE",
+  "_key": "!items!azbDGOboNZPdvORE",
+  "name": "Instinctive Perception",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can sense the presence of danger naturally, giving you and edge even when you fail to spot trouble the first time.</p><p><b>Prerequisite:</b> Zabrak</p><p><b>Effect:</b> Whenever you reroll a Perception check and take the second result, if your second result is lower than your first result, you gain a temporary Force Point. This Force Point can be spent only to add to the result of a Perception check, and if it is not spent before the end of the encounter, it is lost.</p>",
+    "prerequisite": {
+      "text": "Zabrak species",
+      "nodes": {
+        "text": "Zabrak species",
+        "requirement": "Zabrak",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uPTTBoMszne35Uxx",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

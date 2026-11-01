@@ -1,0 +1,28 @@
+{
+  "_id": "RzqePOCqFj3UBcGd",
+  "_key": "!items!RzqePOCqFj3UBcGd",
+  "name": "Logic Upgrade: Self-Defense",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can use your acquired knowledge and experiences to increase your Defenses.</p><p><b>Prerequisite:</b> Droid</p><p><b>Effect:</b> Once per encounter, as a Reaction, you can grant yourself a +2 morale bonus to the Defense score of your choice until the end of your next turn.</p>",
+    "prerequisite": {
+      "text": "Droid",
+      "nodes": {
+        "text": "Droid",
+        "requirement": "Is a droid",
+        "type": "SPECIAL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tL0Gd5sh5Fleu8je",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "vcXCzR2FdVjUY7M6",
+  "_key": "!items!vcXCzR2FdVjUY7M6",
+  "name": "Clawed Subspecies",
+  "type": "feat",
+  "system": {
+    "description": "<p>You come from a Quarren subspecies that has sharp claws at the tips of its fingers.</p><p><b>Prerequisite:</b> Quarren</p><p><b>Effect:</b>&nbsp;You have Natural Weapons in the form of claws. When you make an Unarmed Attack, you can use your claws, dealing 1d6 points of Slashing damage with that attack instead of normal Unarmed damage. You are always considered armed with your Natural Weapons.</p>",
+    "prerequisite": {
+      "text": "Quarren species",
+      "nodes": {
+        "text": "Quarren species",
+        "requirement": "Quarren",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3KFDC4OnWllmnFmn",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

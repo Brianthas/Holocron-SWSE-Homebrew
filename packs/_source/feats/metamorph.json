@@ -1,0 +1,44 @@
+{
+  "_id": "m2wx9OE8KeprQzkO",
+  "_key": "!items!m2wx9OE8KeprQzkO",
+  "name": "Metamorph",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are a talented shapeshifter, capable of changing your appearance and body mass.</p><p><b>Prerequisites:</b> Constitution 13, Shapeshift Species Trait, Trained in Deception</p><p><b>Effect:</b> As a Full-Round Action, you can change your mass when you use your Shapeshift Species Trait, increasing or decreasing your size by one step. You can maintain this form for a number of rounds per day equal to your Constitution score.</p><p>If you reduce your size to Small, you gain a +1 size bonus to your Reflex Defense and a +5 size bonus on Stealth checks, but your Carrying Capacity is three-quarters of what it was prior to your use of Metamorph.</p><p>If you increase your size to Large, you take a -1 penalty to your Reflex Defense and a -5 penalty on Stealth checks. However, your Carrying Capacity doubles, you gain a +5 size bonus to your Damage Threshold, and your Reach increases by 1 square.</p>",
+    "prerequisite": {
+      "text": "Constitution 13, Shapeshift trait, and Trained in Deception",
+      "nodes": {
+        "children": [
+          {
+            "text": "Constitution 13",
+            "requirement": "Constitution 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Shapeshift trait",
+            "requirement": "Shapeshift",
+            "type": "TRAIT"
+          },
+          {
+            "text": "Trained in Deception",
+            "requirement": "Deception",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Constitution 13, Shapeshift trait, and Trained in Deception",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vu9bJ59FrbT8PkW0",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

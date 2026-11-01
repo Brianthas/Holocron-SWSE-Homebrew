@@ -1,0 +1,28 @@
+{
+  "_id": "KpNq9ffyEqY8N8kE",
+  "_key": "!items!KpNq9ffyEqY8N8kE",
+  "name": "Ample Foraging",
+  "type": "feat",
+  "system": {
+    "description": "<p>You always seem to find the best food and shelter for yourself and your allies, increasing your ability to resist the hazards of nature.</p><p><b>Prerequisite:</b> Ewok</p><p><b>Effect:</b> Whenever you make a Survival check for the Basic Survival application of the Skill, each creature that consumes the food you find gains a +2 morale bonus to his or her Fortitude Defense until the start of the next day.</p>",
+    "prerequisite": {
+      "text": "Ewok species",
+      "nodes": {
+        "text": "Ewok species",
+        "requirement": "Ewok",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1xbp4wqCCKD6pZTu",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

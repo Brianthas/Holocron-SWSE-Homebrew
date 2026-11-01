@@ -1,0 +1,28 @@
+{
+  "_id": "HqDxjuHSsLM4cH2R",
+  "_key": "!items!HqDxjuHSsLM4cH2R",
+  "name": "Controlled Rage",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have learned to channel your Rage.</p><p><b>Prerequisite:</b> Rage Species Trait</p><p><b>Effect:</b> You enter a Rage as a Free Action. Your Rage ends 1 round after you declare it is finished.</p><p><b>Normal:</b> You must use a Swift Action to begin a Rage and may not end it at will.</p><p><b>Special:</b> You may not use this Feat to extend the number of rounds of Rage available to your character.</p>",
+    "prerequisite": {
+      "text": "Rage trait",
+      "nodes": {
+        "text": "Rage trait",
+        "requirement": "Rage",
+        "type": "TRAIT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Xa2X1mLs5RT2CsTu",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

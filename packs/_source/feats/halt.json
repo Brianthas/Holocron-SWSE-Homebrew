@@ -1,0 +1,44 @@
+{
+  "_id": "O14McteADqMHxgaP",
+  "_key": "!items!O14McteADqMHxgaP",
+  "name": "Halt",
+  "type": "feat",
+  "system": {
+    "description": "<p>When making an Attack of Opportunity, you can stop an enemy in its tracks.</p><p><b>Prerequisites:</b> Trip, Weapon Focus (Chosen Weapon), Base Attack Bonus +8</p><p><b>Effect:</b> If you hit with an Attack of Opportunity, while wielding a weapon for which you possess the Weapon Focus Feat, against an enemy of up to one size larger than you, compare the same die roll against the target's Grapple check. If the die roll succeeds against the Grapple check, the target immediately halts all movement and falls Prone in its current square. The target can spend any remaining Actions normally.</p><p>If your attack exceeds the target's Damage Threshold, the target loses any remaining Actions and ends its turn immediately. Apply damage normally to the target regardless of the results of this Feat.</p><p><b>Special:</b> If the target is using the Charge Action when moving past you, its Charge is ended if you successfully knock it Prone, and the target cannot Charge again on this turn.</p>",
+    "prerequisite": {
+      "text": "Trip feat, Weapon Focus (#payload#), and Base Attack Bonus 8",
+      "nodes": {
+        "children": [
+          {
+            "text": "Trip feat",
+            "requirement": "Trip",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Focus (#payload#)",
+            "requirement": "Weapon Focus (#payload#)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 8",
+            "requirement": "8",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Trip feat, Weapon Focus (#payload#), and Base Attack Bonus 8",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "viXdYzIsxfAXc0hU",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "PWyxfCP5sKa5zhc1",
+  "_key": "!items!PWyxfCP5sKa5zhc1",
+  "name": "Force Sensitivity",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are Force-sensitive, allowing you to call on The Force and learn to draw on its powers.</p><p><b>Prerequisite:</b> Cannot be a Droid</p><p><b>Effect:</b> You can make Use the Force checks, and Use the Force is considered a Class Skill for you. In addition, whenever you gain a Talent, you have the option of selecting a Force Talent instead. You must meet the prerequisites of the Force Talent to select it.</p><p><b>Normal:</b> You can't make Use the Force checks or select Force Talents unless you have the Force Sensitivity Feat.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [
+    {
+      "_id": "0CLcXcctVS4evl1z",
+      "_key": "!items.effects!PWyxfCP5sKa5zhc1.0CLcXcctVS4evl1z",
+      "name": "Force Sensitivity",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "forcePoints",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "s4e6T4vTxYtrcTxN",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -94,7 +94,9 @@ export function convertForcePowers(report: Report): OutputDoc[] {
       if (!descriptor || !descriptors.includes(descriptor)) fail(`category ${JSON.stringify(value)} is not one of its tags`);
     }
 
-    const { html, sourceBook } = cleanDescription(String(doc.system["description"] ?? ""));
+    const cleaned = cleanDescription(String(doc.system["description"] ?? ""));
+    report.sections(PACK, doc, cleaned);
+    const { html, sourceBook } = cleaned;
     if (!bands.length && /\bDC\s*\d+/.test(html)) report.note("powers with a DC in the text but no bands", doc.name);
     bands.sort((a, b) => a.dc - b.dc);
     out.push(itemDoc(`${PACK}:${slugify(doc.name)}`, doc.name, "forcePower",

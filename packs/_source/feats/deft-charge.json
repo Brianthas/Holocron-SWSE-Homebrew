@@ -1,0 +1,24 @@
+{
+  "_id": "Fe4bSTxwa3uwIiac",
+  "_key": "!items!Fe4bSTxwa3uwIiac",
+  "name": "Deft Charge",
+  "type": "feat",
+  "system": {
+    "description": "<p>When you Charge, it is merely part of a larger attack pattern that you continue to execute.</p><p><b>Effect:</b> After you Charge, you can take Swift Actions, Reactions, and Free Actions before your turn ends.</p><p><b>Normal:</b> Without this Feat, Charging ends your turn immediately after the attack is resolved.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "n1O2kJ8tSVG7EZgy",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "TdRne6GvtIiQC9jy",
+  "_key": "!items!TdRne6GvtIiQC9jy",
+  "name": "Resurgence",
+  "type": "feat",
+  "system": {
+    "description": "<p>Catching your Second Wind allows you to seize the advantage in combat.</p><p><b>Prerequisite:</b> Trained in Endurance</p><p><b>Effect:</b> When you catch your Second Wind, you immediately gain a Move Action to be used immediately.</p>",
+    "prerequisite": {
+      "text": "Trained in Endurance",
+      "nodes": {
+        "text": "Trained in Endurance",
+        "requirement": "Endurance",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Z4060OtvpgtwLeyp",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

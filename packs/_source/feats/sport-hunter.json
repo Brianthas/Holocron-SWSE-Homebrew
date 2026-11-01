@@ -1,0 +1,40 @@
+{
+  "_id": "SL1LPK6oGrhdrg4N",
+  "_key": "!items!SL1LPK6oGrhdrg4N",
+  "name": "Sport Hunter",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are skilled in the use of slugthrowers and sporting weapons and gain certain benefits depending on which weapon you use.</p><p><b>Prerequisites:</b> Weapon Proficiency (Pistols) or Weapon Proficiency (Rifles)</p><p><b>Effect:</b> When you make a ranged attack with a slugthrower or sporting weapon with which you are proficient, you gain one of the following benefits, depending on the kind of weapon you use.</p><ul>\n <li><b>Slugthrower Pistol:</b> When you use a Slugthrower Pistol at Point-Blank Range, you deal +1 die of damage with the weapon.</li>\n <li><b>Slugthrower Rifle:</b> When you use a Slugthrower Rifle, the damage dice increase from d8 to d12.</li>\n <li><b>Sporting Blaster Pistol:</b> When you use a Sporting Blaster Pistol, reroll any result of 1 on the damage dice until you get a result other than 1.</li>\n <li><b>Sporting Blaster Rifle:</b> When using a Sporting Blaster Rifle, you gain a +1 bonus to attack rolls when you Aim before firing.</li>\n</ul>",
+    "prerequisite": {
+      "text": "Weapon Proficiency (Pistols) or Weapon Proficiency (Rifles)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Weapon Proficiency (Pistols)",
+            "requirement": "Weapon Proficiency (Pistols)",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Proficiency (Rifles)",
+            "requirement": "Weapon Proficiency (Rifles)",
+            "type": "FEAT"
+          }
+        ],
+        "count": 1,
+        "text": "Weapon Proficiency (Pistols) or Weapon Proficiency (Rifles)",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nXYqyYMnqz7DUAJC",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

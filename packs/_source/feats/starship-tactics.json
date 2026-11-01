@@ -1,0 +1,39 @@
+{
+  "_id": "SpR47jPB6z1UIgUn",
+  "_key": "!items!SpR47jPB6z1UIgUn",
+  "name": "Starship Tactics",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are trained to make use of Starship Maneuvers and are skilled at space combat.</p><p><b>Prerequisites:</b> Vehicular Combat, Trained in Pilot</p><p><b>Effect:</b> You add to your Starship Maneuver Suite a number of Starship Maneuvers equal to 1 + your Wisdom modifier (minimum 1). You can add the same Starship Maneuver more than once.</p><p><b>Special:</b> You can take this Feat more than once. Each time you take this Feat, you add to your Starship Maneuver Suite a number of new Starship Maneuvers equal to 1 + your Wisdom modifier (minimum 1). A character with the Gunnery Specialist Feat can take this Feat without meeting the other requirements but if they do not possess the other requirements they can only select [<i>Gunner</i>] Starship Maneuvers when they select this Feat.</p>",
+    "prerequisite": {
+      "text": "Vehicular Combat feat, and Trained in Pilot",
+      "nodes": {
+        "children": [
+          {
+            "text": "Vehicular Combat feat",
+            "requirement": "Vehicular Combat",
+            "type": "FEAT"
+          },
+          {
+            "text": "Trained in Pilot",
+            "requirement": "Pilot",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Vehicular Combat feat, and Trained in Pilot",
+        "type": "AND"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aW0mj8YBGQBeGQl3",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

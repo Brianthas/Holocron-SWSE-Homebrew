@@ -1,0 +1,28 @@
+{
+  "_id": "nswtuvJ6ZViMh0fS",
+  "_key": "!items!nswtuvJ6ZViMh0fS",
+  "name": "Pistoleer",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are skilled in the use of Pistols and gain certain benefits depending on which weapon you use.</p><p><b>Prerequisite:</b> Weapon Proficiency (Pistols)</p><p><b>Effect:</b> When you make a ranged attack with a Pistol with which you are proficient, you gain one of the following benefits, depending on the kind of Pistol you use.</p><ul>\n <li><b>Blaster Pistol:</b> You treat the Blaster Pistol as an Accurate Weapon.</li>\n <li><b>Heavy Blaster Pistol:</b> You do not treat the Heavy Blaster Pistol as an Inaccurate Weapon.</li>\n <li><b>Hold-Out Blaster Pistol:</b> If you fire a Hold-Out Blaster Pistol at a target that has not yet acted in combat, you gain a +2 bonus to your attack rolls with that weapon against that target. This bonus applies to all such attacks until the target attacks.</li>\n</ul>",
+    "prerequisite": {
+      "text": "Weapon Proficiency (Pistols)",
+      "nodes": {
+        "text": "Weapon Proficiency (Pistols)",
+        "requirement": "Weapon Proficiency (Pistols)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VM0me65IanjUsbzo",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

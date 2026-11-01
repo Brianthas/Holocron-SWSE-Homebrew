@@ -1,0 +1,24 @@
+{
+  "_id": "YlZvT4xC2ldNbEWl",
+  "_key": "!items!YlZvT4xC2ldNbEWl",
+  "name": "Sadistic Strike",
+  "type": "feat",
+  "system": {
+    "description": "<p>By dispatching a Helpless creature, you terrify opponents around you.</p><p><b>Effect:</b> When you deliver a Coup de Grace to a Helpless creature, all opponents within line of sight move -1 step on the Condition Track until the end of encounter.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DCiin10LRZGoo0f2",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

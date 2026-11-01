@@ -1,0 +1,40 @@
+{
+  "_id": "ZisQu6IvLIdeoh0h",
+  "_key": "!items!ZisQu6IvLIdeoh0h",
+  "name": "Greater Weapon Specialization",
+  "type": "feat",
+  "system": {
+    "description": "<p>Greater Weapon Specialization can be taken as a Feat or as a Talent. Either counts as Greater Weapon Specialization for prerequisites, and the two do not stack on the same weapon.</p><p><b>Prerequisite:</b> Weapon Specialization with the chosen weapon, as a Feat or a Talent.</p><p>Choose one Exotic Weapon or one of the following weapon groups: Advanced Melee, Heavy Weapons, Pistols, Rifles, or Simple Weapons. You gain a +2 bonus on damage rolls with the chosen Exotic Weapon or a weapon from the chosen group. This bonus stacks with the bonus granted by the <b>Weapon Specialization</b>.<br><br>You may select this Feat multiple times. Each time you select this Feat, it applies to a different Exotic Weapon or weapon group.</p>",
+    "prerequisite": {
+      "text": "Weapon Specialization (#payload#)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Weapon Specialization (#payload#) talent",
+            "requirement": "Weapon Specialization (#payload#)",
+            "type": "TALENT"
+          },
+          {
+            "text": "Weapon Specialization (#payload#) feat",
+            "requirement": "Weapon Specialization (#payload#)",
+            "type": "FEAT"
+          }
+        ],
+        "count": 1,
+        "text": "Weapon Specialization (#payload#)",
+        "type": "OR"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GbA7MbGd4LXtkrb8",
+      "sourceBook": ""
+    }
+  }
+}

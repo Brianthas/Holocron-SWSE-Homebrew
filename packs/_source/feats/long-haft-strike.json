@@ -1,0 +1,24 @@
+{
+  "_id": "83mPQP9tF0e1ah53",
+  "_key": "!items!83mPQP9tF0e1ah53",
+  "name": "Long Haft Strike",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have learned to take advantage of oversized Lightsabers, turning them into double weapons.</p><p><b>Effect:</b> When you use a Lightsaber Pike or a Long-Handle Lightsaber, you can attack with both ends of the weapon, treating it as a double weapon.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6daZJuDTgLB0LN4h",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

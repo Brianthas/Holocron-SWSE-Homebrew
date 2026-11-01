@@ -1,0 +1,28 @@
+{
+  "_id": "zdIHwY0BNWvbgT7C",
+  "_key": "!items!zdIHwY0BNWvbgT7C",
+  "name": "Droidcraft",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can repair Droids quickly.</p><p><b>Prerequisite:</b> Trained in Mechanics</p><p><b>Effect:</b> You can use the Repair Droid aspect of the Mechanics skill in 10 minutes.</p><p><b>Normal:</b> Using Repair Droid typically takes 1 hour.</p>",
+    "prerequisite": {
+      "text": "Trained in Mechanics",
+      "nodes": {
+        "text": "Trained in Mechanics",
+        "requirement": "Mechanics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "or3b3tqaldNhd4Ho",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

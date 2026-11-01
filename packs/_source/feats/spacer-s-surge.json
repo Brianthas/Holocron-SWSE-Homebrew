@@ -1,0 +1,28 @@
+{
+  "_id": "1IZ77J76fN1WSQBK",
+  "_key": "!items!1IZ77J76fN1WSQBK",
+  "name": "Spacer's Surge",
+  "type": "feat",
+  "system": {
+    "description": "<p>Whenever you pull off an amazing maneuver in a Vehicle, it gives you the confidence to accomplish similarly amazing actions in the near future.</p><p><b>Prerequisite:</b> Duros</p><p><b>Effect:</b> Whenever you roll a Natural 20 on a Pilot check, you gain 1 temporary Force Point. If that Force Point is not spent before the end of the encounter, it is lost.</p>",
+    "prerequisite": {
+      "text": "Duros species",
+      "nodes": {
+        "text": "Duros species",
+        "requirement": "Duros",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MditObDu2AYsw39O",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

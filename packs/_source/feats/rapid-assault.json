@@ -1,0 +1,51 @@
+{
+  "_id": "cmj3fUma3KSyBwLS",
+  "_key": "!items!cmj3fUma3KSyBwLS",
+  "name": "Rapid Assault",
+  "type": "feat",
+  "system": {
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\">\n <tbody>\n  <tr>\n   <td><i><b>This section contains Optional Rules that modify gameplay in a significant manner. Whether or not the rules will be utilized is the prerogative of the Gamemaster.</b></i></td>\n  </tr>\n </tbody>\n</table><p>Through focus and raw determination, you can make multiple attacks even after moving.</p><p><b>Prerequisites:</b> Double Attack or Dual Weapon Mastery I, Base Attack Bonus +6</p><p><b>Effect:</b> If you are wielding two weapons or a weapon with which you can use the Double Attack feat, you may spend a Force Point to make two attacks as a Standard Action.</p><p>The normal penalties due to attacking with two weapons or using Double Attack still apply, and you cannot make more than two attacks regardless of how many extra attacks you can make during a Full Attack Action.</p><p><b>Normal:</b> You can only make multiple attacks with the Full Attack Action (a Full-Round Action).</p>",
+    "prerequisite": {
+      "text": "(Double Attack or Dual Weapon Mastery I), and Base Attack Bonus 6",
+      "nodes": {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Double Attack feat",
+                "requirement": "Double Attack (Any)",
+                "type": "FEAT"
+              },
+              {
+                "text": "Dual Weapon Mastery I feat",
+                "requirement": "Dual Weapon Mastery I",
+                "type": "FEAT"
+              }
+            ],
+            "count": 1,
+            "text": "Double Attack or Dual Weapon Mastery I",
+            "type": "OR"
+          },
+          {
+            "text": "Base Attack Bonus 6",
+            "requirement": "6",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "(Double Attack or Dual Weapon Mastery I), and Base Attack Bonus 6",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tvJOacKoNUyieXux",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements (Saga Edition FAQ (E2))"
+    }
+  }
+}

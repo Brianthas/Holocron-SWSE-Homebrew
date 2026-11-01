@@ -1,0 +1,81 @@
+{
+  "_id": "nE2DyPy5W7Zc2qgu",
+  "_key": "!items!nE2DyPy5W7Zc2qgu",
+  "name": "Powerful Charge",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can Charge with extra force.</p><p><b>Prerequisites:</b> Medium or larger size, Base Attack Bonus +1</p><p><b>Effect:</b> When you Charge, you gain an additional +2 bonus on your melee attack roll. If your melee attack hits, you deal additional damage equal to one-half your level.</p>",
+    "prerequisite": {
+      "text": "(Medium or larger size), and Base Attack Bonus 1",
+      "nodes": {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Medium or larger size",
+                "requirement": "Medium",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Medium or larger size",
+                "requirement": "Large",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Medium or larger size",
+                "requirement": "Huge",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Medium or larger size",
+                "requirement": "Gargantuan",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Medium or larger size",
+                "requirement": "Colossal",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Medium or larger size",
+                "requirement": "Colossal (Frigate)",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Medium or larger size",
+                "requirement": "Colossal (Cruiser)",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Medium or larger size",
+                "requirement": "Colossal (Station)",
+                "type": "TRAIT"
+              }
+            ],
+            "count": 1,
+            "text": "Medium or larger size",
+            "type": "OR"
+          },
+          {
+            "text": "Base Attack Bonus 1",
+            "requirement": "1",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "(Medium or larger size), and Base Attack Bonus 1",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZVLBbHZAt5nvlM56",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

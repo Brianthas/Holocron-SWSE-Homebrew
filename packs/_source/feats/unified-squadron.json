@@ -1,0 +1,28 @@
+{
+  "_id": "hGbyzFHhnkj8PQho",
+  "_key": "!items!hGbyzFHhnkj8PQho",
+  "name": "Unified Squadron",
+  "type": "feat",
+  "system": {
+    "description": "<p>You and your allies are excellent pilots whose skills shine when you fly together, making you better as a unit than as individuals.</p><p><b>Prerequisite:</b> Trained in Pilot</p><p><b>Effect:</b> You gain a +3 competence bonus on Pilot checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, you always succeed when trying to Avoid Collision with Vehicles piloted by allies who also have this Feat (no Collisions occur, even on Character Scale).</p>",
+    "prerequisite": {
+      "text": "Trained in Pilot",
+      "nodes": {
+        "text": "Trained in Pilot",
+        "requirement": "Pilot",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Ltfn9I8uE9tC9itj",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

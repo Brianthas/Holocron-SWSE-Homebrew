@@ -1,0 +1,71 @@
+{
+  "_id": "LzGLIm7j2jmjadaN",
+  "_key": "!items!LzGLIm7j2jmjadaN",
+  "name": "Martial Arts II",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are a master at fighting Unarmed.</p><p><b>Prerequisites:</b> Martial Arts I, Base Attack Bonus +3.</p><p><b>Effect:</b> Damage dealt by your Unarmed attacks increases by one die step. In addition, you gain a +1 dodge bonus to your Reflex Defense (Which stacks with the dodge bonus granted by the Martial Arts I Feat).</p><p><b>Special:</b> A situation that makes you lose your Dexterity bonus to Reflex Defense (If any) also makes you lose any dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses.</p>",
+    "prerequisite": {
+      "text": "Martial Arts I feat, and Base Attack Bonus 3",
+      "nodes": {
+        "children": [
+          {
+            "text": "Martial Arts I feat",
+            "requirement": "Martial Arts I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 3",
+            "requirement": "3",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Martial Arts I feat, and Base Attack Bonus 3",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [
+    {
+      "_id": "fweR2bISQcg0zn0F",
+      "_key": "!items.effects!LzGLIm7j2jmjadaN.fweR2bISQcg0zn0F",
+      "name": "Martial Arts II",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.reflex",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "dodge",
+            "condition": ""
+          },
+          {
+            "key": "damage.unarmed",
+            "type": "dice",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FCQohni8aN6HzFF1",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

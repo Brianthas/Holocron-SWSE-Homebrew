@@ -1,0 +1,44 @@
+{
+  "_id": "nYRF2nByBwB6Y2rj",
+  "_key": "!items!nYRF2nByBwB6Y2rj",
+  "name": "Mechanical Martial Arts",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to inflict pain using your metal appendages when fighting in Unarmed combat against organic enemies.</p><p><b>Prerequisites:</b> Droid, Martial Arts I, Base Attack Bonus +1</p><p><b>Effect:</b> When you successfully damage an enemy with an Unarmed Attack, the enemy takes a -5 penalty to all melee attack rolls and damage rolls until the start of your next turn.</p><p><b>Special:</b> If you strike an organic enemy while using this Feat during an Attack of Opportunity, the penalty lasts until the start of the enemy's next turn.</p>",
+    "prerequisite": {
+      "text": "Droid, Martial Arts I feat, and Base Attack Bonus 1",
+      "nodes": {
+        "children": [
+          {
+            "text": "Droid",
+            "requirement": "Is a droid",
+            "type": "SPECIAL"
+          },
+          {
+            "text": "Martial Arts I feat",
+            "requirement": "Martial Arts I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 1",
+            "requirement": "1",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Droid, Martial Arts I feat, and Base Attack Bonus 1",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "EC2XZAxb85mb9vFM",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

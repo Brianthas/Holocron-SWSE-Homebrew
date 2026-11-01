@@ -1,0 +1,28 @@
+{
+  "_id": "IdRT1FIorvoZGY7h",
+  "_key": "!items!IdRT1FIorvoZGY7h",
+  "name": "Autofire Assault",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your Autofire attacks are devastating when focused in a single area for multiple rounds.</p><p><b>Prerequisite:</b> Weapon Focus (Chosen Weapon)</p><p><b>Effect:</b> When wielding a weapon for which you possess the Weapon Focus Feat, and you target the same area with an Autofire attack that you made an Autofire attack against on your last turn, the penalty on the Autofire attack is reduced to -2 (-1 if using a Braced Autofire-only weapon or the <b>Controlled Burst</b> Talent) and you deal +1 die of damage on a hit.</p><p><b>Normal:</b> A -5 penalty applies to Autofire attack rolls, and there are no bonuses for consecutive rounds of fire in the same squares.</p><p><b>Special:</b> This Feat cannot be used with the Autofire Sweep Feat or the Burst Fire Feat.</p>",
+    "prerequisite": {
+      "text": "Weapon Focus (#payload#)",
+      "nodes": {
+        "text": "Weapon Focus (#payload#)",
+        "requirement": "Weapon Focus (#payload#)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Pf8oghmlIPCqiRw6",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

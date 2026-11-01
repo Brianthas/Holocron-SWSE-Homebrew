@@ -1,0 +1,28 @@
+{
+  "_id": "k1V9sviL4jS4qCXR",
+  "_key": "!items!k1V9sviL4jS4qCXR",
+  "name": "Tactical Advantage",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can shift your position to take advantage of openings your opponent offers you.</p><p><b>Prerequisite:</b> Combat Reflexes</p><p><b>Effect:</b> When you successfully damage an opponent using an Attack of Opportunity, you can immediately move 1 square in any direction. This movement does not provoke Attacks of Opportunity.</p>",
+    "prerequisite": {
+      "text": "Combat Reflexes feat",
+      "nodes": {
+        "text": "Combat Reflexes feat",
+        "requirement": "Combat Reflexes",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tguTpjqofQoBuDO6",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

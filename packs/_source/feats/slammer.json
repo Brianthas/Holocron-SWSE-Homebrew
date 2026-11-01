@@ -1,0 +1,96 @@
+{
+  "_id": "aaeOY6QxQgLGs5qv",
+  "_key": "!items!aaeOY6QxQgLGs5qv",
+  "name": "Slammer",
+  "type": "feat",
+  "system": {
+    "description": "<p>You clap two Hands, Claws, or Appendages together, delivering a crushing blow to an enemy.</p><p><b>Prerequisites:</b> Droid, Small size or larger, 2+ Appendages, Strength 13</p><p><b>Effect:</b> As a Standard Action, you slam two of your Appendages together from either side of an enemy, crushing your target between them. Make a melee attack. If the attack is successful, you deal Unarmed damage with double your Strength bonus. If you also exceed the target's Damage Threshold, it has a Persistent Condition that can only be removed with 8 hours of rest or a DC 20 Treat Injury check.</p><p><b>Special:</b> If you also have the Crush Feat, increase your Unarmed damage by 1 die when using Slammer.</p>",
+    "prerequisite": {
+      "text": "Droid, (Small size or larger), 2+ Appendages, and Strength 13",
+      "nodes": {
+        "children": [
+          {
+            "text": "Droid",
+            "requirement": "Is a droid",
+            "type": "SPECIAL"
+          },
+          {
+            "children": [
+              {
+                "text": "Small size or larger",
+                "requirement": "Small",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Small size or larger",
+                "requirement": "Medium",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Small size or larger",
+                "requirement": "Large",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Small size or larger",
+                "requirement": "Huge",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Small size or larger",
+                "requirement": "Gargantuan",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Small size or larger",
+                "requirement": "Colossal",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Small size or larger",
+                "requirement": "Colossal (Frigate)",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Small size or larger",
+                "requirement": "Colossal (Cruiser)",
+                "type": "TRAIT"
+              },
+              {
+                "text": "Small size or larger",
+                "requirement": "Colossal (Station)",
+                "type": "TRAIT"
+              }
+            ],
+            "count": 1,
+            "text": "Small size or larger",
+            "type": "OR"
+          },
+          {
+            "text": "2+ Appendages",
+            "requirement": "2+ Appendages",
+            "type": "SPECIAL"
+          },
+          {
+            "text": "Strength 13",
+            "requirement": "Strength 13",
+            "type": "ATTRIBUTE"
+          }
+        ],
+        "text": "Droid, (Small size or larger), 2+ Appendages, and Strength 13",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "70tIfNFIu70Nr1GM",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "dA5OkQGJaTsd3F9f",
+  "_key": "!items!dA5OkQGJaTsd3F9f",
+  "name": "Flèche",
+  "type": "feat",
+  "system": {
+    "description": "<p>You throw yourself at your opponent to make a single precise strike.</p><p><b>Prerequisite: </b>Base Attack Bonus +1</p><p><b>Benefit: </b>Once per encounter, when you Charge, you can turn any natural attack roll of 17+ into a Critical Hit.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "nodes": {
+        "text": "Base Attack Bonus 1",
+        "requirement": "1",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3I61RIIkZMBcEqps",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

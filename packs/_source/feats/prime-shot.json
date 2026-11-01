@@ -1,0 +1,28 @@
+{
+  "_id": "Mrxrx0Tfj4qiuGeg",
+  "_key": "!items!Mrxrx0Tfj4qiuGeg",
+  "name": "Prime Shot",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to handle an enemy when none of your allies is closer.</p><p><b>Prerequisite:</b> Point-Blank Shot</p><p><b>Effect:</b> If none of your allies are closer to your target than you are when you make a ranged attack, you gain a +1 circumstance bonus to the attack roll. Your target must be at Short Range or closer to gain this bonus.</p>",
+    "prerequisite": {
+      "text": "Point-Blank Shot feat",
+      "nodes": {
+        "text": "Point-Blank Shot feat",
+        "requirement": "Point-Blank Shot",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Ee7BzuMvvA9OewmH",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

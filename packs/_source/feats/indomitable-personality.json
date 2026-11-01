@@ -1,0 +1,28 @@
+{
+  "_id": "hIpOd04rCGXTuLw9",
+  "_key": "!items!hIpOd04rCGXTuLw9",
+  "name": "Indomitable Personality",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your powerful personality helps you cope with attacks that assault your will.</p><p><b>Prerequisite:</b> Charisma 13</p><p><b>Effect:</b> Once per encounter, you can add your Charisma modifier to your Will Defense as a Reaction; this benefit lasts until the end of your next turn.</p>",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VsrlI1INuaEcJxQo",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

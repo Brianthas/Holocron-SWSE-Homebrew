@@ -1,0 +1,28 @@
+{
+  "_id": "1vfSrYga2kAyKW1k",
+  "_key": "!items!1vfSrYga2kAyKW1k",
+  "name": "Friends in Low Places",
+  "type": "feat",
+  "system": {
+    "description": "<p>Given enough time, you can dig up the right tool for the job.</p><p><b>Prerequisite:</b> Trained in Gather Information</p><p><b>Effect:</b> Whenever you would acquire a license for a Restricted or Military object, you can substitute a Gather Information check for a Knowledge (Bureaucracy) check. Reduce the Black Market cost multiplier of such items by 1.</p>",
+    "prerequisite": {
+      "text": "Trained in Gather Information",
+      "nodes": {
+        "text": "Trained in Gather Information",
+        "requirement": "Gather Information",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "R0izq761p2fMF8KK",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

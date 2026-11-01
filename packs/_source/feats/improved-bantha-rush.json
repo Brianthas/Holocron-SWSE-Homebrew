@@ -1,0 +1,44 @@
+{
+  "_id": "WjjoBfyYpYGWXv1J",
+  "_key": "!items!WjjoBfyYpYGWXv1J",
+  "name": "Improved Bantha Rush",
+  "type": "feat",
+  "system": {
+    "description": "<p>When using the Bantha Rush Feat, you push your opponent additional squares away from you.</p><p><b>Prerequisites:</b> Strength 15, Bantha Rush, Base Attack Bonus +1</p><p><b>Effect:</b> When making a Bantha Rush, you push your opponent a number of additional squares away from you equal to half your Strength modifier (Round down, minimum 2 squares pushed total).</p><p><b>Normal:</b> When using Bantha Rush, you normally push your opponent only 1 square away from you.</p>",
+    "prerequisite": {
+      "text": "Strength 15, Bantha Rush feat, and Base Attack Bonus 1",
+      "nodes": {
+        "children": [
+          {
+            "text": "Strength 15",
+            "requirement": "Strength 15",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Bantha Rush feat",
+            "requirement": "Bantha Rush",
+            "type": "FEAT"
+          },
+          {
+            "text": "Base Attack Bonus 1",
+            "requirement": "1",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Strength 15, Bantha Rush feat, and Base Attack Bonus 1",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Pkyz44lQKKWk4wrE",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

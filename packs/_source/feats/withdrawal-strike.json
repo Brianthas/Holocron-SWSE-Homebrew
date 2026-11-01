@@ -1,0 +1,28 @@
+{
+  "_id": "77Npt4gUHAJBZpsu",
+  "_key": "!items!77Npt4gUHAJBZpsu",
+  "name": "Withdrawal Strike",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your enemies do not escape easily.</p><p><b>Prerequisite:</b> Base Attack Bonus +5</p><p><b>Effect:</b> When taking this Feat, select a single Exotic Weapon (Melee) or melee weapon group with which you are proficient. When wielding that chosen Exotic Weapon (Melee) or melee weapon from the chosen group, adjacent opponents may not Withdraw from squares you threaten. They may still make Acrobatics checks to Tumble as normal.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 5",
+      "nodes": {
+        "text": "Base Attack Bonus 5",
+        "requirement": "5",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5UsWe89R7VC07is9",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

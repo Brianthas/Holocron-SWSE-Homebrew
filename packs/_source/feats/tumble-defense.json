@@ -1,0 +1,24 @@
+{
+  "_id": "CCd4kKpwpNan6K3W",
+  "_key": "!items!CCd4kKpwpNan6K3W",
+  "name": "Tumble Defense",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can use your melee weapon to hinder acrobatic enemies.</p><p><b>Effect:</b> When an opponent attempts to Tumble through a square you threaten with a melee weapon with which you are proficient, add your Base Attack Bonus to the DC of the Acrobatics check made to Tumble. If the target fails the Acrobatics check to Tumble, you can make an Attack of Opportunity against that opponent as normal.</p><p><b>Special:</b> You cannot use this Feat when you are Flat-Footed.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wEayrNc9pH4r88eT",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "JNRwtkmMas2h9xqB",
+  "_key": "!items!JNRwtkmMas2h9xqB",
+  "name": "Cornered",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are vicious when cornered.</p><p><b>Effect:</b> Whenever you are Threatened by an opponent and unable to take the Withdraw Action, you gain a +2 bonus on attack rolls against opponents that threaten you.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nSwTALLOEvwFIeQ6",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

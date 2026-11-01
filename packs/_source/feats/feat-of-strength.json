@@ -1,0 +1,28 @@
+{
+  "_id": "6dLhCNtNpq5VFoDx",
+  "_key": "!items!6dLhCNtNpq5VFoDx",
+  "name": "Feat of Strength",
+  "type": "feat",
+  "system": {
+    "description": "<p>You draw on inner reserves of physical power to perform great feats of strength, such as lifting heavy objects, leaping great distances, or hauling yourself up a cliff while weighed down by a Heavy Load.</p><p><b>Prerequisite:</b> Strength 15</p><p><b>Effect:</b> Once per encounter as a Full-Round Action, you can Take 20 on a Strength check or Strength-based Skill Check (You must be Trained in that Skill), even if distracted or threatened.</p><p><b>Normal:</b> You may not Take 20 when distracted or threatened, or in a single round.</p><p><b>Special:</b> After using this Feat for the first time in a given encounter, make a DC 15 Endurance check (As a Free Action). If the check succeeds, you can use this Feat once more during the same encounter.</p>",
+    "prerequisite": {
+      "text": "Strength 15",
+      "nodes": {
+        "text": "Strength 15",
+        "requirement": "Strength 15",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XLDtbvRVduidKuqb",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

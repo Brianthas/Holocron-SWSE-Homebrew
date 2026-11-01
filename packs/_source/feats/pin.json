@@ -1,0 +1,28 @@
+{
+  "_id": "N9gbJizFNsspNk82",
+  "_key": "!items!N9gbJizFNsspNk82",
+  "name": "Pin",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are skilled at immobilizing Grappled foes.</p><p><b>Prerequisite:</b> Base Attack Bonus +1</p><p><b>Effect:</b> If you succeed on a Grappling attack and your opponent fails the opposed Grapple check, your opponent is automatically Pinned until the start of your next turn. A Pinned creature can't move or take any Actions while Pinned, and it loses its Dexterity bonus (if any) to Reflex Defense.</p><p><b>Special:</b> You cannot use the Pin and Trip Feats during the same round. You can use the Pin and Crush Feats in the same round, however.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "nodes": {
+        "text": "Base Attack Bonus 1",
+        "requirement": "1",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oBOQ1YlYddnrs6WM",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

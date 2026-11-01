@@ -1,0 +1,28 @@
+{
+  "_id": "4OnvLw7UOwTu7QH1",
+  "_key": "!items!4OnvLw7UOwTu7QH1",
+  "name": "Skill Focus",
+  "type": "feat",
+  "system": {
+    "description": "<p>One of your Skills is particularly well honed.</p><p><b>Effect:</b> Choose one Skill in which you are Trained. You gain a +5 competence bonus on all Skill Checks made with that Skill.</p><p><b>Special:</b> This Feat may be selected multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different Trained Skill.</p>",
+    "prerequisite": {
+      "text": "Trained in #payload#; for Use the Force, also level 10 and a justification",
+      "nodes": {
+        "text": "Trained in #payload#; for Use the Force, also level 10 and a justification",
+        "requirement": "#payload#",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xeGKBRBOgp4kdk6N",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "2fYGtWuGnjXm9gJl",
+  "_key": "!items!2fYGtWuGnjXm9gJl",
+  "name": "Distracting Droid",
+  "type": "feat",
+  "system": {
+    "description": "<p>You use lights, holographic projectors, sudden movements, erratic flight, odd noises, or other uniquely Droid techniques to distract an enemy.</p><p><b>Prerequisite:</b> Droid</p><p><b>Effect:</b> As a Standard Action, make a Persuasion check against the Will Defense of all enemies that are within 6 squares of you and that can see or hear you, as determined by the Gamemaster. If the check equals or exceeds an enemy's Will Defense, the enemy loses one Move Action on its next turn. If the attack exceeds an enemy's Will Defense by 10 or more, the enemy is also Flat-Footed until the start of your next turn. This is a Mind-Affecting effect.</p>",
+    "prerequisite": {
+      "text": "Droid",
+      "nodes": {
+        "text": "Droid",
+        "requirement": "Is a droid",
+        "type": "SPECIAL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cYSOYiQniDoKn2qV",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

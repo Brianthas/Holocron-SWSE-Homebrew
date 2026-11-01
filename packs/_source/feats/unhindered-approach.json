@@ -1,0 +1,28 @@
+{
+  "_id": "ZIN2XZGfwpx8g7Bn",
+  "_key": "!items!ZIN2XZGfwpx8g7Bn",
+  "name": "Unhindered Approach",
+  "type": "feat",
+  "system": {
+    "description": "<p>You and your allies have trained on worlds where the terrain is unstable, and your team also specializes in vertical insertion into combat zones.</p><p><b>Prerequisite:</b> Trained in Jump</p><p><b>Effect:</b> You gain a +3 competence bonus on Jump checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, when you use the Jump skill, add 1 square to your total jump distance.</p>",
+    "prerequisite": {
+      "text": "Trained in Athletics",
+      "nodes": {
+        "text": "Trained in Athletics",
+        "requirement": "Athletics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bk3RGakSoGyd5clt",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "qT9hgBKXen3XIAdi",
+  "_key": "!items!qT9hgBKXen3XIAdi",
+  "name": "Bothan Will",
+  "type": "feat",
+  "system": {
+    "description": "<p>You epitomize the legendary willpower and resolve of the Bothan people.</p><p><b>Prerequisite:</b> Bothan</p><p><b>Effect:</b> Whenever an attack or Skill Check targets your Will Defense and fails to equal or exceed it, you gain a +2 circumstance bonus to your Will Defense until the start of your next turn</p>",
+    "prerequisite": {
+      "text": "Bothan species",
+      "nodes": {
+        "text": "Bothan species",
+        "requirement": "Bothan",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cNXrxYE4eaMbi4HW",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

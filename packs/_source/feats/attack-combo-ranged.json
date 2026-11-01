@@ -1,0 +1,28 @@
+{
+  "_id": "JZwrrF7HKnsvBKj8",
+  "_key": "!items!JZwrrF7HKnsvBKj8",
+  "name": "Attack Combo (Ranged)",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your damage-dealing ability improves after hitting a single target with successive ranged attacks.</p><p><b>Prerequisite:</b> Base Attack Bonus +3</p><p><b>Effect:</b> If you hit a single target with two consecutive ranged attacks during the same turn, any additional ranged attacks you make until the end of your next turn (including Attacks of Opportunity and attacks made as Reactions) deal +1 die of damage on a hit. This extra damage stacks with extra damage granted by other Feats or Talents.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 3",
+      "nodes": {
+        "text": "Base Attack Bonus 3",
+        "requirement": "3",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Sw2sWMrMxHKdBFOn",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

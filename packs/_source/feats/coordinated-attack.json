@@ -1,0 +1,28 @@
+{
+  "_id": "pHYUD4q4gLUPJrab",
+  "_key": "!items!pHYUD4q4gLUPJrab",
+  "name": "Coordinated Attack",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are skilled at coordinating your attacks with your allies.</p><p><b>Prerequisite:</b> Base Attack Bonus +2</p><p><b>Effect:</b> You are automatically successful when using the Aid Another action to aid an ally's attack, or suppress an enemy as long as the target is adjacent to you or within Point-Blank Range.</p><p><b>Normal:</b> You must make an attack roll against a Reflex Defense of 10 to gain the benefits of the Aid Another action.</p><h2>Additional Coordinated Attack Effects</h2><p>You may use this Feat to aid an ally's Vehicle attack. You can't use the Aid Another action to suppress a Vehicle, but you can suppress an individual Gunner (such as the lead Gunner for a single Weapon Battery). You may use this Feat even if you are using the Aid Another action as a Sensor Operator using a Use Computer check or a Commander using a Knowledge (Tactics) check.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 2",
+      "nodes": {
+        "text": "Base Attack Bonus 2",
+        "requirement": "2",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OiobAsH6ugdtJFA5",
+      "sourceBook": "Star Wars Saga Edition Starships of the Galaxy"
+    }
+  }
+}

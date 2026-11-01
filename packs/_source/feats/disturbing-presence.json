@@ -1,0 +1,28 @@
+{
+  "_id": "CEVv7HNeDeL1H0JA",
+  "_key": "!items!CEVv7HNeDeL1H0JA",
+  "name": "Disturbing Presence",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your presence is such that enemies let you move past them freely.</p><p><b>Prerequisite:</b> Trained in Deception</p><p><b>Effect:</b> If you succeed on a DC 15 Deception check, you can move through the Threatened area or Fighting Space of an enemy as part of your move action without provoking an attack of opportunity. Each Threatened space or occupied space that you move through in this manner counts as 2 squares of movement.</p><p><b>Normal:</b> You can Tumble through an occupied enemy square only by using the Acrobatics Skill.</p>",
+    "prerequisite": {
+      "text": "Trained in Deception",
+      "nodes": {
+        "text": "Trained in Deception",
+        "requirement": "Deception",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "G5a1m9GSumU1Z6zd",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

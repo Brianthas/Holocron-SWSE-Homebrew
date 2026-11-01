@@ -1,0 +1,28 @@
+{
+  "_id": "xdwhFMxFa1jky9ez",
+  "_key": "!items!xdwhFMxFa1jky9ez",
+  "name": "Perfect Intuition",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your insights serve you well, giving you some of the fastest reaction times among members of your Species.</p><p><b>Prerequisite:</b> Cerean</p><p><b>Effect:</b> Whenever you reroll an Initiative check, you always keep the better result, even if you have multiple reroll abilities.</p>",
+    "prerequisite": {
+      "text": "Cerean species",
+      "nodes": {
+        "text": "Cerean species",
+        "requirement": "Cerean",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iqBHTeefmC1pAXBz",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

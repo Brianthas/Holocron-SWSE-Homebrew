@@ -1,0 +1,39 @@
+{
+  "_id": "BfDd0laEcw44VFDJ",
+  "_key": "!items!BfDd0laEcw44VFDJ",
+  "name": "Battering Attack",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to use your strength to batter an opponent to the ground, knocking him or her Prone.</p><p><b>Prerequisites:</b> Bantha Rush, Trip</p><p><b>Effect:</b> Whenever you successfully move a creature with the Bantha Rush Feat, you also knock that target Prone.</p>",
+    "prerequisite": {
+      "text": "Bantha Rush feat, and Trip feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Bantha Rush feat",
+            "requirement": "Bantha Rush",
+            "type": "FEAT"
+          },
+          {
+            "text": "Trip feat",
+            "requirement": "Trip",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Bantha Rush feat, and Trip feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fLiJOOGQv2GUcLuA",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

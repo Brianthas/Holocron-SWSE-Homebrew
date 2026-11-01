@@ -1,0 +1,24 @@
+{
+  "_id": "yofNUB4qYpzy8OPA",
+  "_key": "!items!yofNUB4qYpzy8OPA",
+  "name": "Scavenger",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are adept at digging through broken objects and junk piles to come up with the raw material needed for certain tasks.</p><p><b>Effect:</b> You can spend 1 hour scavenging materials from other Vehicles or objects. When you do so, you make a Perception check to determine the value of the parts scavenged. You produce raw materials equal in value to the result of your Perception check x 30 credits. You must apply these raw materials toward the cost of construction of a single object (see Build Object), and you can scavenge parts for only a single object at any given time. Additionally, you can scavenge raw materials only once for any given object you are attempting to build.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "57b3aY9cLiP8Pya4",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

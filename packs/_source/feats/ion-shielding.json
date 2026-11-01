@@ -1,0 +1,62 @@
+{
+  "_id": "X8maDMhUdjQoNG1Q",
+  "_key": "!items!X8maDMhUdjQoNG1Q",
+  "name": "Ion Shielding",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your systems are insulated to improve your resistance to Ion damage.</p><p><b>Prerequisites:</b> (Droid and Strength 13) or (Cyborg Hybrid and Constitution 13)</p><p><b>Effect:</b> If the Ion damage (Before being halved) equals or exceeds your Damage Threshold, you move only -1 step on the Condition Track.</p><p><b>Normal:</b> If the Ion damage (Before being halved) equals or exceeds your Damage Threshold, you normally move -2 steps on the Condition Track.</p>",
+    "prerequisite": {
+      "text": "(Droid and Strength 13) or (Cyborg Hybrid and Constitution 13)",
+      "nodes": {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Droid",
+                "requirement": "Is a droid",
+                "type": "SPECIAL"
+              },
+              {
+                "text": "Strength 13",
+                "requirement": "Strength 13",
+                "type": "ATTRIBUTE"
+              }
+            ],
+            "text": "Droid and Strength 13",
+            "type": "AND"
+          },
+          {
+            "children": [
+              {
+                "text": "Cyborg Hybrid",
+                "requirement": "Cyborg Hybrid",
+                "type": "SPECIAL"
+              },
+              {
+                "text": "Constitution 13",
+                "requirement": "Constitution 13",
+                "type": "ATTRIBUTE"
+              }
+            ],
+            "text": "Cyborg Hybrid and Constitution 13",
+            "type": "AND"
+          }
+        ],
+        "count": 1,
+        "text": "(Droid and Strength 13) or (Cyborg Hybrid and Constitution 13)",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GFt43lakkaPIpeBC",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

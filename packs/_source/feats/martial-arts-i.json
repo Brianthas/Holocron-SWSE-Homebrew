@@ -1,0 +1,56 @@
+{
+  "_id": "8bELceikaC0xmvTF",
+  "_key": "!items!8bELceikaC0xmvTF",
+  "name": "Martial Arts I",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are adept at fighting Unarmed.</p><p><b>Effect:</b> Damage dealt by your Unarmed Attacks increases by one die step. In addition, you gain a +1 dodge bonus to your Reflex Defense. Additionally, you do not provoke Attacks of Opportunity with Unarmed Attacks.</p><p><b>Special:</b> A situation that makes you lose your Dexterity bonus to Reflex Defense (if any) also makes you lose any dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [
+    {
+      "_id": "6DLoK8CvszYwMWrr",
+      "_key": "!items.effects!8bELceikaC0xmvTF.6DLoK8CvszYwMWrr",
+      "name": "Martial Arts I",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.reflex",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "dodge",
+            "condition": ""
+          },
+          {
+            "key": "damage.unarmed",
+            "type": "dice",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0I7gsgA8TGZcNQQU",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

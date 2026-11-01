@@ -1,0 +1,28 @@
+{
+  "_id": "XxA1uSHt2kZbcX0q",
+  "_key": "!items!XxA1uSHt2kZbcX0q",
+  "name": "Steadying Position",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to fire from the optimal position, using the ground to steady your aim.</p><p><b>Prerequisite:</b> Careful Shot</p><p><b>Effect:</b> When you are Prone and Aim before making a ranged attack, your target does not benefit from its Dexterity bonus to its Reflex Defense.</p>",
+    "prerequisite": {
+      "text": "Careful Shot feat",
+      "nodes": {
+        "text": "Careful Shot feat",
+        "requirement": "Careful Shot",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BWDUZFdInUBXzFD7",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

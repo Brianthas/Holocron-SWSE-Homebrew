@@ -1,0 +1,28 @@
+{
+  "_id": "x7oTwzttyFoMn5Mm",
+  "_key": "!items!x7oTwzttyFoMn5Mm",
+  "name": "Stay Up",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can soldier on in spite of damage dealt to you.</p><p><b>Prerequisite:</b> Trained in Endurance</p><p><b>Effect:</b> Once per encounter, when you would normally take damage from an attack, you can instead choose to take half damage and move -1 step along the Condition Track.</p>",
+    "prerequisite": {
+      "text": "Trained in Endurance",
+      "nodes": {
+        "text": "Trained in Endurance",
+        "requirement": "Endurance",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "r314UtDbywXlxdph",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

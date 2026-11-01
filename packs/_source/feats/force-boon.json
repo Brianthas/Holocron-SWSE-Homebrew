@@ -1,0 +1,48 @@
+{
+  "_id": "JsyohhkWG44EcZ4c",
+  "_key": "!items!JsyohhkWG44EcZ4c",
+  "name": "Force Boon",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are able to draw upon The Force more often than less skilled users.</p><p><b>Prerequisite:</b> None. Anyone can take Force Boon, including characters without Force Sensitivity and Droids.</p><p><b>Effect:</b> You gain 2 additional Force Points per day. This also raises your Destiny Point cap, which equals your Force Points per day.</p><p><b>Special:</b> You can take Force Boon only once.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [
+    {
+      "_id": "FnosLIjZR1jEok4z",
+      "_key": "!items.effects!JsyohhkWG44EcZ4c.FnosLIjZR1jEok4z",
+      "name": "Force Boon",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "forcePoints",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PpOWGIqrD0U8uOiK",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

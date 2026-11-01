@@ -1,0 +1,28 @@
+{
+  "_id": "wwhLl2sbLGNPpbHA",
+  "_key": "!items!wwhLl2sbLGNPpbHA",
+  "name": "Exotic Weapon Proficiency",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are skilled at wielding an unusual weapon with ease, allowing you to utilize it in combat more effectively.</p><p><b>Prerequisite:</b> Base Attack Bonus +1</p><p><b>Effect:</b> Select a single weapon from either the Exotic Weapons (Melee) or Exotic Weapons (Ranged) weapon groups; you make attack rolls with the selected weapon without penalty.</p><p><b>Normal:</b> A character who uses a weapon without being proficient with it takes a -5 penalty to attack rolls.</p><p><b>Special:</b> You can gain this Feat multiple times. Each time you take this Feat, it applies to a different Exotic Weapon.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "nodes": {
+        "text": "Base Attack Bonus 1",
+        "requirement": "1",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "D78w0hrpSYpoPaqb",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

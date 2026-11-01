@@ -1,0 +1,44 @@
+{
+  "_id": "NMY9sheu2dCSaU6c",
+  "_key": "!items!NMY9sheu2dCSaU6c",
+  "name": "Return Fire",
+  "type": "feat",
+  "system": {
+    "description": "<p>When someone takes a shot at you and misses, you retaliate with a shot of your own.</p><p><b>Prerequisites:</b> Dexterity 15, Quick Draw, Weapon Focus (Chosen Weapon)</p><p><b>Effect:</b> Select one Exotic Weapon or Weapon Group for which you possess the Weapon Focus feat. Once per encounter as a Reaction, you can make a single ranged attack with the chosen weapon against an enemy that misses you with a ranged attack, provided you have line of sight to the enemy.</p><p><b>Special:</b> This Feat does not apply to Vehicle Weapons or Heavy Weapons. You must have your weapon in hand to use this Feat. You can take this Feat multiple times. Each time you take this Feat, it applies to a different Weapon Group or Exotic Weapon.</p><p><b>Combined Feat (Combat Reflexes):</b> You may use this Feat a number of times during an encounter equal to your Dexterity bonus, but no more than once during a given enemy's turn.</p>",
+    "prerequisite": {
+      "text": "Dexterity 15, Quick Draw feat, and Weapon Focus (#payload#)",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dexterity 15",
+            "requirement": "Dexterity 15",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Quick Draw feat",
+            "requirement": "Quick Draw",
+            "type": "FEAT"
+          },
+          {
+            "text": "Weapon Focus (#payload#)",
+            "requirement": "Weapon Focus (#payload#)",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Dexterity 15, Quick Draw feat, and Weapon Focus (#payload#)",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "p8HIDSs1gq16ntMt",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

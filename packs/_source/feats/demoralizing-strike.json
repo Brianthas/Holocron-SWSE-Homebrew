@@ -1,0 +1,28 @@
+{
+  "_id": "O58qMFXg7HlxeyhF",
+  "_key": "!items!O58qMFXg7HlxeyhF",
+  "name": "Demoralizing Strike",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to dishearten your opponents when they least expect it.</p><p><b>Prerequisite:</b> Charisma 13</p><p><b>Effect:</b> When you successfully deal damage to an opponent with an Attack of Opportunity, you can immediately make a Persuasion check to Intimidate the opponent as a Free Action.</p>",
+    "prerequisite": {
+      "text": "Charisma 13",
+      "nodes": {
+        "text": "Charisma 13",
+        "requirement": "Charisma 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "EiysRGBwNC5UdNUX",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

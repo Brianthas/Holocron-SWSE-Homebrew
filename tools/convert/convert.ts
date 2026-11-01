@@ -10,6 +10,7 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { slugify } from "./lib/ids.ts";
 import { Report, type OutputDoc } from "./lib/pack.ts";
+import { convertFeats } from "./packs/feats.ts";
 import { convertForceFeatures } from "./packs/force-features.ts";
 import { convertForcePowers } from "./packs/force-powers.ts";
 
@@ -19,7 +20,9 @@ const prune = process.argv.includes("--prune");
 const report = new Report();
 
 const powers = convertForcePowers(report);
-const packs = new Map<string, OutputDoc[]>([["force-powers", powers], ...convertForceFeatures(powers.map((p) => p.name), report)]);
+const packs = new Map<string, OutputDoc[]>([
+  ["force-powers", powers], ...convertForceFeatures(powers.map((p) => p.name), report), ["feats", convertFeats(report)],
+]);
 
 const stale: { pack: string; file: string }[] = [];
 const written: Record<string, number> = {};

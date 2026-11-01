@@ -1,0 +1,24 @@
+{
+  "_id": "VBRfgo6f8p735pB0",
+  "_key": "!items!VBRfgo6f8p735pB0",
+  "name": "Skill Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are considered Trained in a new Skill.</p><p><b>Effect:</b> Choose one Untrained Skill from your list of Class Skills. You become Trained in that Skill.</p><p><b>Special:</b> This Feat may be selected multiple times. Each time you take this Feat, it applies to a different Class Skill.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "1fpCcpv9Xf2Qx3va",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "zo9C1fOGzGjB1rvs",
+  "_key": "!items!zo9C1fOGzGjB1rvs",
+  "name": "Flurry",
+  "type": "feat",
+  "system": {
+    "description": "<p>You attack using a series of quick strikes, sacrificing defense in the process.</p><p><b>Prerequisite:</b> Dexterity 13</p><p><b>Effect:</b> When wielding only Light weapons or Lightsabers, you can make a flurry of attacks. You take a -5 penalty to your Reflex Defense, but you gain a +2 bonus on your melee attack rolls. This bonus on attacks and penalty to Reflex Defense apply until the start of your next turn.</p><p><b>Special:</b> You can use this Feat in place of the Point-Blank Shot Feat to qualify for the Elite Trooper Prestige Class.</p>",
+    "prerequisite": {
+      "text": "Dexterity 13",
+      "nodes": {
+        "text": "Dexterity 13",
+        "requirement": "Dexterity 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MKeDigW8jSoAVlJj",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

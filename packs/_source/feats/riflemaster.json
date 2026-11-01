@@ -1,0 +1,28 @@
+{
+  "_id": "j4ISwFWVQqutL6Ri",
+  "_key": "!items!j4ISwFWVQqutL6Ri",
+  "name": "Riflemaster",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are skilled in the use of Rifles and gain certain benefits depending on which weapon you use.</p><p><b>Prerequisites:</b> Weapon Proficiency (Rifles)</p><p><b>Effect:</b> When you make a ranged attack with a Rifle with which you are proficient, you gain one of the following benefits, depending on the kind of Rifle you use.</p><ul>\n <li><b>Blaster Carbine:</b> You can Brace a Blaster Carbine set to Autofire, even though it is not an Autofire-only weapon.</li>\n <li><b>Blaster Rifle:</b> You treat the Blaster Rifle as an Accurate Weapon.</li>\n <li><b>Heavy Blaster Rifle:</b> When you use a Heavy Blaster Rifle, the damage dice increase from d10 to d12.</li>\n <li><b>Light Repeating Blaster:</b> You treat the Light Repeating Blaster as if it were Medium instead of Large.</li>\n</ul>",
+    "prerequisite": {
+      "text": "Weapon Proficiency (Rifles)",
+      "nodes": {
+        "text": "Weapon Proficiency (Rifles)",
+        "requirement": "Weapon Proficiency (Rifles)",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "50PrBKfteb0Nt9CS",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

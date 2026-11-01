@@ -1,0 +1,52 @@
+{
+  "_id": "ytMVSq6FAGsDFT5F",
+  "_key": "!items!ytMVSq6FAGsDFT5F",
+  "name": "Linguist",
+  "type": "feat",
+  "system": {
+    "description": "<p>You pick up languages quickly and easily.</p><p><b>Prerequisite:</b> Intelligence 13</p><p><b>Effect:</b> You gain a number of additional Languages equal to 1 + your Intelligence modifier (Minimum 1).</p><p><b>Special:</b> You can take this Feat more than once. Each time you take this Feat, you gain a number of additional languages equal to 1 + your Intelligence modifier (Minimum 1). If your Intelligence modifier increases so does the number of languages granted by this Feat.</p>",
+    "prerequisite": {
+      "text": "Intelligence 13",
+      "nodes": {
+        "text": "Intelligence 13",
+        "requirement": "Intelligence 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": true,
+    "choice": ""
+  },
+  "effects": [
+    {
+      "_id": "O13WooEUcCiNxdlV",
+      "_key": "!items.effects!ytMVSq6FAGsDFT5F.O13WooEUcCiNxdlV",
+      "name": "Linguist",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "languages.int",
+            "type": "bonus",
+            "value": 4,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hQJeL9nRTd2P9kpp",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

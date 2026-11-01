@@ -1,0 +1,61 @@
+{
+  "_id": "v2puM3SHMVT9zqP7",
+  "_key": "!items!v2puM3SHMVT9zqP7",
+  "name": "Erratic Target",
+  "type": "feat",
+  "system": {
+    "description": "<p>You bob, swerve, dip, and dive to avoid incoming shots and other attacks.</p><p><b>Prerequisites:</b> Droid, Hovering or Flying Locomotion, Dexterity 13, Dodge</p><p><b>Effect:</b> You can reduce your Speed by up to 2 squares to increase your Dodge bonus by 1 for each square of speed you give up, until the start of your next turn. You must move at least 2 squares to gain this benefit.</p><p><b>Special:</b> To use this Feat you must be equipped with and using Hovering or Flying Locomotion.</p>",
+    "prerequisite": {
+      "text": "Droid, (Hovering or Flying), Dexterity 13, and Dodge feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Droid",
+            "requirement": "Is a droid",
+            "type": "SPECIAL"
+          },
+          {
+            "children": [
+              {
+                "text": "Hovering",
+                "requirement": "Hovering",
+                "type": "EQUIPPED"
+              },
+              {
+                "text": "Flying",
+                "requirement": "Flying",
+                "type": "EQUIPPED"
+              }
+            ],
+            "count": 1,
+            "text": "Hovering or Flying",
+            "type": "OR"
+          },
+          {
+            "text": "Dexterity 13",
+            "requirement": "Dexterity 13",
+            "type": "ATTRIBUTE"
+          },
+          {
+            "text": "Dodge feat",
+            "requirement": "Dodge",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Droid, (Hovering or Flying), Dexterity 13, and Dodge feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "seI1Qq4XcTSH77aK",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

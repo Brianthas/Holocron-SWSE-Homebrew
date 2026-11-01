@@ -1,0 +1,24 @@
+{
+  "_id": "6DJlz2sgrXFFX5g4",
+  "_key": "!items!6DJlz2sgrXFFX5g4",
+  "name": "Quick Skill",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your cautious nature provides a bonus to accomplishing extremely dangerous tasks. You are steady and confident.</p><p><b>Effect:</b> Once per encounter, you can Take 10 when rushed on a single Skill Check for a Skill you are Trained in, unless the Skill description explicitly forbids it. Alternatively, you can Take 20 when using a Skill you are Trained in at half the normal time required.</p><p><b>Normal:</b> Taking 20 normally requires 20 times the amount of time needed by a regular Skill Check.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "s72RiYytt5vZyhn9",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

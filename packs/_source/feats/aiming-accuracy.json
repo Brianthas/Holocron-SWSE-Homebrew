@@ -1,0 +1,44 @@
+{
+  "_id": "c5TNg9mQi3k3hue1",
+  "_key": "!items!c5TNg9mQi3k3hue1",
+  "name": "Aiming Accuracy",
+  "type": "feat",
+  "system": {
+    "description": "<p>When you have time to analyze your shot, your shooting accuracy has a precision that only a machine can achieve.</p><p><b>Prerequisites:</b> Droid, Point-Blank Shot, Precise Shot</p><p><b>Effect:</b> If you Aim at a target as a Full-Round Action (instead of two Swift Actions), you gain a +5 bonus to your next attack made with a weapon with which you are proficient in the following round against that target. The target must remain in your line of sight.</p>",
+    "prerequisite": {
+      "text": "Droid, Point-Blank Shot feat, and Precise Shot feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Droid",
+            "requirement": "Is a droid",
+            "type": "SPECIAL"
+          },
+          {
+            "text": "Point-Blank Shot feat",
+            "requirement": "Point-Blank Shot",
+            "type": "FEAT"
+          },
+          {
+            "text": "Precise Shot feat",
+            "requirement": "Precise Shot",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Droid, Point-Blank Shot feat, and Precise Shot feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2Q4aWbL5sWktka8e",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

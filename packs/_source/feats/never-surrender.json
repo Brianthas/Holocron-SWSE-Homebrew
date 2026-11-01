@@ -1,0 +1,28 @@
+{
+  "_id": "AUSqLenrCBkoqI3i",
+  "_key": "!items!AUSqLenrCBkoqI3i",
+  "name": "Never Surrender",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can fight your way back from the blackness of death and unconsciousness, staying alive in combat.</p><p><b>Prerequisite:</b> Trained in Endurance</p><p><b>Effect:</b> The first time you would be reduced to 0 Hit Points in an encounter, you can make an Endurance check as a Reaction, with a DC equal to the number of points of damage being dealt to you. If your check succeeds, you are instead reduced to 1 Hit Point.</p>",
+    "prerequisite": {
+      "text": "Trained in Endurance",
+      "nodes": {
+        "text": "Trained in Endurance",
+        "requirement": "Endurance",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3z380WXvqQ2aJltG",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "oJcA62hQBebqcvV6",
+  "_key": "!items!oJcA62hQBebqcvV6",
+  "name": "Sensor Link",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can broadcast your sensor input to an ally, such as another Droid or a Friendly computer system.</p><p><b>Prerequisite:</b> Droid or Cyborg Hybrid</p><p><b>Effect:</b> As a Swift Action, you can broadcast the input from your audio, visual, and special sensors to a Droid ally, Comlink, communications system, or holographic receiver within 24 squares.</p><p>That ally is aware of anything you are aware of, and can use the Aid Another Action to aid on your Perception checks even if you do not have line of sight to one another. If both you and your ally have Sensor Link, you share information simultaneously, granting a +2 bonus to Perception checks.</p><p><b>Special:</b> Cyborg Hybrids with built-in Subcutaneous Comlink can also take this Feat.</p>",
+    "prerequisite": {
+      "text": "Droid or Cyborg Hybrid",
+      "nodes": {
+        "children": [
+          {
+            "text": "Droid",
+            "requirement": "Is a droid",
+            "type": "SPECIAL"
+          },
+          {
+            "text": "Cyborg Hybrid",
+            "requirement": "Cyborg Hybrid",
+            "type": "SPECIAL"
+          }
+        ],
+        "count": 1,
+        "text": "Droid or Cyborg Hybrid",
+        "type": "OR"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6RPAck5KFVO4dPbt",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

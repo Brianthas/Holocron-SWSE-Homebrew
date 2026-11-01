@@ -1,0 +1,28 @@
+{
+  "_id": "ZWzEHiFXHT5HdMLO",
+  "_key": "!items!ZWzEHiFXHT5HdMLO",
+  "name": "Duck and Cover",
+  "type": "feat",
+  "system": {
+    "description": "<p>When exposed to an Area Attack, you can dive for cover.</p><p><b>Prerequisite:</b> Trained in Stealth</p><p><b>Effect:</b> Whenever you are the target of an Area Attack that misses, once per turn you can Move 2 squares as a Reaction. This movement does not provoke Attacks of Opportunity.</p>",
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "nodes": {
+        "text": "Trained in Stealth",
+        "requirement": "Stealth",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "J1FT1zzsTNHK08UU",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

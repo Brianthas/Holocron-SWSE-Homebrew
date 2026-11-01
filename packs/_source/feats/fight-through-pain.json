@@ -1,0 +1,24 @@
+{
+  "_id": "VTCQE5Dn9zDI8kZ8",
+  "_key": "!items!VTCQE5Dn9zDI8kZ8",
+  "name": "Fight Through Pain",
+  "type": "feat",
+  "system": {
+    "description": "<p>Through sheer willpower, you can keep yourself at peak fighting performance, ignoring physical pain and negative effects.</p><p><b>Effect:</b> You can use your Will Defense instead of your Fortitude Defense when determining your Damage Threshold.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rGRqjNS6vK7poEmg",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "Z4dLoJT7UnRbvjkz",
+  "_key": "!items!Z4dLoJT7UnRbvjkz",
+  "name": "Thick Skin",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your thick hide protects you from damage and fends off toxins and other hazards.</p><p><b>Prerequisite:</b> Trandoshan</p><p><b>Effect:</b>&nbsp;You gain a +2 Species bonus to your Fortitude Defense.</p>",
+    "prerequisite": {
+      "text": "Trandoshan species",
+      "nodes": {
+        "text": "Trandoshan species",
+        "requirement": "Trandoshan",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IfqcepzJrx14ATb1",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "Xg22W0W8XRfoPvCx",
+  "_key": "!items!Xg22W0W8XRfoPvCx",
+  "name": "Fast Surge",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can return to the fight in the blink of an eye, giving your enemies no time to find an opening.</p><p><b>Effect:</b> On your turn, you can catch a Second Wind as a Free Action instead of a Swift Action.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lGAwpkKuq8ba10mk",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

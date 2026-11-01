@@ -1,0 +1,28 @@
+{
+  "_id": "fLcH4seUQOkDIsdh",
+  "_key": "!items!fLcH4seUQOkDIsdh",
+  "name": "Resurgent Vitality",
+  "type": "feat",
+  "system": {
+    "description": "<p>Though your Species heals quickly over time, you can push through your pain in the short term and return to fighting form.</p><p><b>Prerequisite:</b> Wookiee</p><p><b>Effect:</b> Whenever you catch a Second Wind, you regain an additional number of Hit Points equal to twice your Constitution bonus (minimum +2).</p>",
+    "prerequisite": {
+      "text": "Wookiee species",
+      "nodes": {
+        "text": "Wookiee species",
+        "requirement": "Wookiee",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "URczTuXCp0ldvCbE",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

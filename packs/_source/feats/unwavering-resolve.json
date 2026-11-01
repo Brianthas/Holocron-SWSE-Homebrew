@@ -1,0 +1,28 @@
+{
+  "_id": "M0gq6ReXTuBmOkRW",
+  "_key": "!items!M0gq6ReXTuBmOkRW",
+  "name": "Unwavering Resolve",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are not easily swayed by the words of others, and can see through deceptions thanks to your keen mind.</p><p><b>Prerequisite:</b> Trained in Perception</p><p><b>Effect:</b> You gain a +5 insight bonus to Will Defense against Deception and Persuasion checks.</p>",
+    "prerequisite": {
+      "text": "Trained in Perception",
+      "nodes": {
+        "text": "Trained in Perception",
+        "requirement": "Perception",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0JhFBVmSoaNf2Mv7",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

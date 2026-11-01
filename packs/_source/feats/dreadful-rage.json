@@ -1,0 +1,39 @@
+{
+  "_id": "v7ZSitvmOMc9efky",
+  "_key": "!items!v7ZSitvmOMc9efky",
+  "name": "Dreadful Rage",
+  "type": "feat",
+  "system": {
+    "description": "<p>You deal horrendous damage while raging.</p><p><b>Prerequisites:</b> Rage Species Trait, Base Attack Bonus +1</p><p><b>Effect:</b> While Raging, your Rage bonus on melee attack rolls and melee damage rolls increases to +5.</p><p><b>Normal:</b> A character with the Rage Species Trait gains a +2 bonus on melee attack rolls and melee damage rolls while Raging.</p>",
+    "prerequisite": {
+      "text": "Rage trait, and Base Attack Bonus 1",
+      "nodes": {
+        "children": [
+          {
+            "text": "Rage trait",
+            "requirement": "Rage",
+            "type": "TRAIT"
+          },
+          {
+            "text": "Base Attack Bonus 1",
+            "requirement": "1",
+            "type": "BASE ATTACK BONUS"
+          }
+        ],
+        "text": "Rage trait, and Base Attack Bonus 1",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hHdwOhwNHveQvR5p",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

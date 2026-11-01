@@ -1,0 +1,28 @@
+{
+  "_id": "b5WEIyA4wasnI2Se",
+  "_key": "!items!b5WEIyA4wasnI2Se",
+  "name": "Powerful Rage",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your Rage produces feats of extreme strength.</p><p><b>Prerequisite:</b> Rage Species Trait</p><p><b>Effect:</b> You gain a +4 bonus to Strength checks and Strength-based Skill Checks when Raging.</p>",
+    "prerequisite": {
+      "text": "Rage trait",
+      "nodes": {
+        "text": "Rage trait",
+        "requirement": "Rage",
+        "type": "TRAIT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OnP5TZOupj6epb6T",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

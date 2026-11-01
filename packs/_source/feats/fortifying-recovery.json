@@ -1,0 +1,28 @@
+{
+  "_id": "pNqGC9dEtpCfDdat",
+  "_key": "!items!pNqGC9dEtpCfDdat",
+  "name": "Fortifying Recovery",
+  "type": "feat",
+  "system": {
+    "description": "<p>Even as you reel from attacks, you can get yourself back into the fight and make a difference.</p><p><b>Prerequisite:</b> Constitution 13</p><p><b>Effect:</b> When you take the Recover Action, you also gain a number of Bonus Hit Points equal to 2 x your Constitution bonus (Minimum 2). Damage is subtracted from the Bonus Hit Points first, and any Bonus Hit Points remaining at the end of encounter are lost. Bonus Hit Points do not stack.</p>",
+    "prerequisite": {
+      "text": "Constitution 13",
+      "nodes": {
+        "text": "Constitution 13",
+        "requirement": "Constitution 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wNv4811xlraKWpOE",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

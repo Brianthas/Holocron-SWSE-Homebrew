@@ -1,0 +1,28 @@
+{
+  "_id": "xPQbnp5HdVv340WV",
+  "_key": "!items!xPQbnp5HdVv340WV",
+  "name": "Nimble Team",
+  "type": "feat",
+  "system": {
+    "description": "<p>You and your allies train extensively to avoid hazards and to slip through tight spaces, making it difficult to pin your team down.</p><p><b>Prerequisite:</b> Trained in Acrobatics</p><p><b>Effect:</b> You gain a +3 competence bonus on Acrobatics checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, when you use the Acrobatics skill to Tumble, you can Tumble 1 extra square.</p>",
+    "prerequisite": {
+      "text": "Trained in Acrobatics",
+      "nodes": {
+        "text": "Trained in Acrobatics",
+        "requirement": "Acrobatics",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IjmG1sdUSE2XNRv7",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

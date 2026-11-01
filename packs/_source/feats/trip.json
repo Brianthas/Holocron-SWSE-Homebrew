@@ -1,0 +1,28 @@
+{
+  "_id": "ITxxAObQo0wBCI9F",
+  "_key": "!items!ITxxAObQo0wBCI9F",
+  "name": "Trip",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are skilled at Tripping Grappled foes.</p><p><b>Prerequisite:</b> Base Attack Bonus +1</p><p><b>Effect:</b> If you succeed on a Grappling attack and your opponent fails the opposed Grapple check, it falls Prone in its space and is no longer considered Grappled. A Prone opponent takes a -5 penalty on melee attack rolls. Melee attacks made against a Prone target gain a +5 bonus, while ranged attack made against a prone target take a -5 penalty.</p><p><b>Special:</b> You cannot use the Pin and Trip Feats in the same round.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "nodes": {
+        "text": "Base Attack Bonus 1",
+        "requirement": "1",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bkP7EnQ6tFnVfH9r",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}

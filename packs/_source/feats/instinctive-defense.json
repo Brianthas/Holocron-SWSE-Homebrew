@@ -1,0 +1,28 @@
+{
+  "_id": "uRz2QqOpP31OxbIQ",
+  "_key": "!items!uRz2QqOpP31OxbIQ",
+  "name": "Instinctive Defense",
+  "type": "feat",
+  "system": {
+    "description": "<p>You naturally know how to avoid attacks and defend your mind and body when The Force is with you.</p><p><b>Prerequisite:</b> Cannot be a Droid</p><p><b>Effect:</b> On your turn, as a Free Action, you can spend a Force Point to increase all of your Defenses by 2 until the start of your next turn.</p>",
+    "prerequisite": {
+      "text": "Cannot be a Droid",
+      "nodes": {
+        "text": "Cannot be a Droid",
+        "requirement": "Not a Droid",
+        "type": "SPECIAL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kxSWPoAp4ZjnIrBy",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

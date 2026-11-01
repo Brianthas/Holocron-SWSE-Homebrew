@@ -1,0 +1,24 @@
+{
+  "_id": "0uTdf7zic8bwmGh3",
+  "_key": "!items!0uTdf7zic8bwmGh3",
+  "name": "Officer Candidacy Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have received special training in commanding others in combat.</p><p><b>Effect:</b> You gain a +2 bonus to your Rank and Privilege Organization Score.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QnkBkKBxkFjEPGho",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

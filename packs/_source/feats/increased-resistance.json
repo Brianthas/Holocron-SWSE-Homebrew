@@ -1,0 +1,28 @@
+{
+  "_id": "NrORec4VC974FGL7",
+  "_key": "!items!NrORec4VC974FGL7",
+  "name": "Increased Resistance",
+  "type": "feat",
+  "system": {
+    "description": "<p>You remain resilient against attacks that target your vitality, making it difficult for enemies to sap your strength.</p><p><b>Prerequisite:</b> Gamorrean</p><p><b>Effect:</b> Whenever an attack or Skill Check targets your Fortitude Defense and fails to equal or exceed it, you gain a +2 circumstance bonus to your Fortitude Defense until the start of your next turn.&nbsp;&nbsp;</p>",
+    "prerequisite": {
+      "text": "Gamorrean species",
+      "nodes": {
+        "text": "Gamorrean species",
+        "requirement": "Gamorrean",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "coIvxB5bvV5aDJwJ",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

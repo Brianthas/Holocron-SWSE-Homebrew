@@ -1,0 +1,28 @@
+{
+  "_id": "LlsmJduhcdYZN7im",
+  "_key": "!items!LlsmJduhcdYZN7im",
+  "name": "Grazing Shot",
+  "type": "feat",
+  "system": {
+    "description": "<p>Using precise aim, you can hit two targets with a single shot.</p><p><b>Prerequisite:</b> Point-Blank Shot</p><p><b>Effect:</b> When you successfully make a ranged attack against a single target, you can make a second attack roll against an additional target that is in direct line of sight, and no farther than 6 squares from the original target. If the second attack roll succeeds, make a single damage roll, and divide the damage equally between the two targets. If the second attack roll fails, you deal no damage to either target.</p>",
+    "prerequisite": {
+      "text": "Point-Blank Shot feat",
+      "nodes": {
+        "text": "Point-Blank Shot feat",
+        "requirement": "Point-Blank Shot",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nmHFND6uay7fblDw",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

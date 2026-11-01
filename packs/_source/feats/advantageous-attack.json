@@ -1,0 +1,28 @@
+{
+  "_id": "igWycmK1vZLNoeOJ",
+  "_key": "!items!igWycmK1vZLNoeOJ",
+  "name": "Advantageous Attack",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to take advantage of slow-moving enemies in combat.</p><p><b>Prerequisite:</b> Base Attack Bonus +1</p><p><b>Effect:</b> When you make a successful attack against an enemy who has not yet acted in combat, you add your full Heroic Level to damage rolls.</p><p><b>Normal:</b> Typically you add only one-half your Heroic Level to damage rolls.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "nodes": {
+        "text": "Base Attack Bonus 1",
+        "requirement": "1",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nmkZPaZnc2bNN4Zl",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "dWcjoLjS7dsukHCX",
+  "_key": "!items!dWcjoLjS7dsukHCX",
+  "name": "Blaster Barrage",
+  "type": "feat",
+  "system": {
+    "description": "<p>You and your allies engulf an area with dense blaster fire.</p><p><b>Prerequisite:</b> Coordinated Attack</p><p><b>Effect:</b> When you make an attack with a weapon set on Autofire that deals damage to at least one target within the designated area, you grant a +2 circumstance bonus on any of your allies' Autofire attacks made against that same target until the beginning of your next turn.</p>",
+    "prerequisite": {
+      "text": "Coordinated Attack feat",
+      "nodes": {
+        "text": "Coordinated Attack feat",
+        "requirement": "Coordinated Attack",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "zBBfsdR8wvyTADaI",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

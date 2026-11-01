@@ -1,0 +1,28 @@
+{
+  "_id": "c8hcRjY9PzedWMmy",
+  "_key": "!items!c8hcRjY9PzedWMmy",
+  "name": "Survivor of Ryloth",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to survive on both the night and day sides of your homeworld, allowing you and your allies to weather the harsh environments of the galaxy.</p><p><b>Prerequisite:</b> Twi'lek</p><p><b>Effect:</b>&nbsp;Once per hour when you and your allies are in an environment of Extreme Heat or Extreme Cold, you can make a Survival check. You and up to 10 allies can use the results of the Survival check in place of your Fortitude Defense when the Extreme Heat or Extreme Cold makes its hourly attack roll against your Fortitude Defenses.</p>",
+    "prerequisite": {
+      "text": "Twi'lek species",
+      "nodes": {
+        "text": "Twi'lek species",
+        "requirement": "Twi'lek",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yDyXFi8h9TqtDmDE",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

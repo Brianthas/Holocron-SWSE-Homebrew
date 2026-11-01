@@ -1,0 +1,28 @@
+{
+  "_id": "AfoHH3UViGsaF0Nl",
+  "_key": "!items!AfoHH3UViGsaF0Nl",
+  "name": "Hyperblazer",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are familiar with blazing new routes and navigating the tangled web of Hyperspace in The Unknown Regions.</p><p><b>Prerequisite:</b> Trained in Use Computer</p><p><b>Effect:</b> When traversing the Hyperspace Tangle, you reduce by half the calculation time and penalties on Use Computer checks to Astrogate (See Hyperspace Navigation Challenges). You also reduce Hyperspace Mapping time by half when mapping new Hyperspace Routes.</p>",
+    "prerequisite": {
+      "text": "Trained in Use Computer",
+      "nodes": {
+        "text": "Trained in Use Computer",
+        "requirement": "Use Computer",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VIAAQOaIu8IeqcSp",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

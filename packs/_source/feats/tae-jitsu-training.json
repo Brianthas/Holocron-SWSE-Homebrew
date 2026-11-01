@@ -1,0 +1,44 @@
+{
+  "_id": "HFZPO6h6gVKkSeUU",
+  "_key": "!items!HFZPO6h6gVKkSeUU",
+  "name": "Tae-Jitsu Training",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are trained in the Tae-Jitsu style of Unarmed fighting and can use a variety of techniques to defeat your enemy.</p><p><b>Prerequisites:</b> Dodge, Martial Arts I, Trained in Initiative</p><p><b>Effect:</b> When you score a Critical Hit with an Unarmed Attack, the damage dealt by your attack increases by one die step, to a maximum of d12.</p><p>Once per encounter, when you make a successful Unarmed Attack against an enemy, you can spend a Swift Action to designate that enemy as your primary adversary. Until the end of the encounter, you gain the benefit of the Dodge Feat against that enemy and against one other enemy of your choice.</p><p><b>Special:</b> If you have the <b>Tae-Jitsu Expertise</b> Talent, when you score a Critical Hit against an enemy who has been designated as your primary adversary, that enemy takes a -2 penalty to attack rolls until the end of your next turn.</p>",
+    "prerequisite": {
+      "text": "Dodge feat, Martial Arts I feat, and Trained in Initiative",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dodge feat",
+            "requirement": "Dodge",
+            "type": "FEAT"
+          },
+          {
+            "text": "Martial Arts I feat",
+            "requirement": "Martial Arts I",
+            "type": "FEAT"
+          },
+          {
+            "text": "Trained in Initiative",
+            "requirement": "Initiative",
+            "type": "TRAINED SKILL"
+          }
+        ],
+        "text": "Dodge feat, Martial Arts I feat, and Trained in Initiative",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LNGCzNiSz6tiEBjk",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

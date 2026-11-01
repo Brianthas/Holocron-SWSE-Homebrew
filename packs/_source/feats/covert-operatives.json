@@ -1,0 +1,28 @@
+{
+  "_id": "2eOYyNp82VYCxtdT",
+  "_key": "!items!2eOYyNp82VYCxtdT",
+  "name": "Covert Operatives",
+  "type": "feat",
+  "system": {
+    "description": "<p>You and your allies specialize in undercover missions in which stealth and subtlety are paramount.</p><p><b>Prerequisite:</b> Trained in Stealth</p><p><b>Effect:</b> You gain a +3 competence bonus on Stealth checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, when you move more than your speed or more than twice you speed, reduce the penalties to Stealth checks by 2.</p>",
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "nodes": {
+        "text": "Trained in Stealth",
+        "requirement": "Stealth",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "r8ruWQ7nl2aXokvf",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

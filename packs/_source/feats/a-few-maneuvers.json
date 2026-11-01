@@ -1,0 +1,39 @@
+{
+  "_id": "UxENTCqiud57ZSyY",
+  "_key": "!items!UxENTCqiud57ZSyY",
+  "name": "A Few Maneuvers",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can weave, juke, and roll to avoid enemy fire in the thick of combat.</p><p><b>Prerequisites:</b> Dodge, Vehicular Combat</p><p><b>Effect:</b> When piloting a Vehicle of Colossal size or smaller, you grant a +2 dodge bonus to your Vehicle's Reflex Defense. Furthermore, if you are the target of a missile or torpedo attack and the attack roll misses by 5 or more, the projectile self-destructs harmlessly.</p>",
+    "prerequisite": {
+      "text": "Dodge feat, and Vehicular Combat feat",
+      "nodes": {
+        "children": [
+          {
+            "text": "Dodge feat",
+            "requirement": "Dodge",
+            "type": "FEAT"
+          },
+          {
+            "text": "Vehicular Combat feat",
+            "requirement": "Vehicular Combat",
+            "type": "FEAT"
+          }
+        ],
+        "text": "Dodge feat, and Vehicular Combat feat",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vo9PtJyVtmS3lYz0",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

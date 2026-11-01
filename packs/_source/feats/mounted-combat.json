@@ -1,0 +1,28 @@
+{
+  "_id": "NFGEhsoh5htBy5mT",
+  "_key": "!items!NFGEhsoh5htBy5mT",
+  "name": "Mounted Combat",
+  "type": "feat",
+  "system": {
+    "description": "<p>You know how to get the most from a Mount in combat and in other dangerous situations.</p><p><b>Prerequisite:</b> Trained in Ride</p><p><b>Effect:</b> You can make a DC 20 Ride check as a Swift Action to spur your living Mount to move faster than its normal speed. If the check fails, your Mount's Speed does not increase and it moves -1 step on the Condition Track. If the check succeeds, your Mount's Speed increases by 2 squares until the start of your next turn. You cannot Take 10 on this check. Your Mount must succeed on a DC 20 Endurance check prior to each subsequent attempt to use this Feat in the same encounter.</p><p>Additionally, once per round, as a Reaction, when you are riding a Mount, you can negate a weapon hit against either you or the Mount by making a successful Ride check. The DC of the Skill Check is equal to the result of the attack roll you want to negate.</p>",
+    "prerequisite": {
+      "text": "Trained in Ride",
+      "nodes": {
+        "text": "Trained in Ride",
+        "requirement": "Ride",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rx1OgkQB7CL7AzrF",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

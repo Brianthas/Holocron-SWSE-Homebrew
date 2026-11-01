@@ -1,0 +1,28 @@
+{
+  "_id": "dw5fDY4ZFjRwoiGF",
+  "_key": "!items!dw5fDY4ZFjRwoiGF",
+  "name": "Attack Combo (Melee)",
+  "type": "feat",
+  "system": {
+    "description": "<p>After landing successive blows against a single target, your melee and Unarmed attacks become more devastating.</p><p><b>Prerequisite:</b> Base Attack Bonus +3</p><p><b>Effect:</b> If you hit a single target with two consecutive melee and/or Unarmed attacks during the same turn, any additional melee or Unarmed attacks you make until the end of your next turn (including Attacks of Opportunity and attacks made as Reactions) deal +1 die of damage on a hit. This extra damage stacks with extra damage granted by other Feats or Talents.</p>",
+    "prerequisite": {
+      "text": "Base Attack Bonus 3",
+      "nodes": {
+        "text": "Base Attack Bonus 3",
+        "requirement": "3",
+        "type": "BASE ATTACK BONUS"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FvTJbPrOgzijvFAD",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

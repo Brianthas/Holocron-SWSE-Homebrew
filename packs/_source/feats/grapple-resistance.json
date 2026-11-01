@@ -1,0 +1,24 @@
+{
+  "_id": "xFfwV8bEpgLaVw8O",
+  "_key": "!items!xFfwV8bEpgLaVw8O",
+  "name": "Grapple Resistance",
+  "type": "feat",
+  "system": {
+    "description": "<p>You make it difficult for enemies to Grab or Grapple you, or attack objects in your possession.</p><p><b>Effect:</b> You get a +5 bonus to your Reflex Defense when an enemy makes a Grab or Grapple attack against you, and you get a +5 bonus to all opposed Grapple checks. All objects that you are holding or carrying gain a +5 bonus to their Reflex Defense when attacked (see Attack an Object).</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WRdQPRRW62elRBiG",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

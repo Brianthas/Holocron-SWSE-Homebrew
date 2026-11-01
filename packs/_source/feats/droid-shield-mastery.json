@@ -1,0 +1,39 @@
+{
+  "_id": "cvaRHVyuFzDaGMWj",
+  "_key": "!items!cvaRHVyuFzDaGMWj",
+  "name": "Droid Shield Mastery",
+  "type": "feat",
+  "system": {
+    "description": "<p>You quickly replenish your onboard shields.</p><p><b>Prerequisites:</b> Droid, Shield Generator (Droid Accessory)</p><p><b>Effect:</b> You automatically succeed on Endurance checks to restore your Shield Rating by 5 points (up to your normal Shield Rating). Additionally, you replenish your shields in two Swift Actions.</p><p><b>Normal:</b> Three Swift Actions and a DC 20 Endurance check are normally required to restore lost shield power.</p>",
+    "prerequisite": {
+      "text": "Droid, and Shield Generator",
+      "nodes": {
+        "children": [
+          {
+            "text": "Droid",
+            "requirement": "Is a droid",
+            "type": "SPECIAL"
+          },
+          {
+            "text": "Shield Generator",
+            "requirement": "Shield Generator",
+            "type": "EQUIPPED"
+          }
+        ],
+        "text": "Droid, and Shield Generator",
+        "type": "AND"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Dafp3UvaAxhap359",
+      "sourceBook": "Star Wars Saga Edition Scavenger's Guide to Droids"
+    }
+  }
+}

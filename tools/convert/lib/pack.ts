@@ -42,6 +42,11 @@ export class Report {
   note(topic: string, line: string): void {
     (this.notes[topic] ??= []).push(line);
   }
+  /** Lists the fan sections a description lost, and the Homebrew headings it kept for want of a review notice. */
+  sections(pack: string, doc: SourceDoc, cleaned: { removedSections: string[]; unclearSections: string[] }): void {
+    for (const title of cleaned.removedSections) this.note("fan sections removed", `${pack}/${doc.name}: ${title}`);
+    for (const title of cleaned.unclearSections) this.problem(pack, doc, `"${title}" heading has no review notice; decide whether it is fan content`);
+  }
 }
 
 const empty = (v: unknown) => v === null || v === undefined || v === "" || v === false

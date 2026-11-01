@@ -1,0 +1,28 @@
+{
+  "_id": "BfausYGEtNRUQspg",
+  "_key": "!items!BfausYGEtNRUQspg",
+  "name": "Confident Success",
+  "type": "feat",
+  "system": {
+    "description": "<p>You have confidence in your ability to learn information that others consider secret, and in doing so, boost your confidence in other areas.</p><p><b>Prerequisite:</b> Bothan</p><p><b>Effect:</b> Whenever you successfully use the Learn Secret Information application of the Gather Information Skill, you gain 1 Force Point. You cannot gain more than 3 Force Points each level, and you cannot have more Force Points than you gained when you reached your current level.</p>",
+    "prerequisite": {
+      "text": "Bothan species",
+      "nodes": {
+        "text": "Bothan species",
+        "requirement": "Bothan",
+        "type": "SPECIES"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "A5Q580tTzVQfnXbm",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

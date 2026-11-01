@@ -1,0 +1,28 @@
+{
+  "_id": "rd4N7qQqxJKsj632",
+  "_key": "!items!rd4N7qQqxJKsj632",
+  "name": "Resilient Strength",
+  "type": "feat",
+  "system": {
+    "description": "<p>Your brute strength and physical conditioning allow you to shrug off effects that would debilitate others.</p><p><b>Prerequisite:</b> Strength 13</p><p><b>Effect:</b> You can use either your Strength modifier or your Constitution modifier to determine your Fortitude Defense.</p>",
+    "prerequisite": {
+      "text": "Strength 13",
+      "nodes": {
+        "text": "Strength 13",
+        "requirement": "Strength 13",
+        "type": "ATTRIBUTE"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WdVB3QG19ZMJjdFO",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "o6xt06HOpGGOh7et",
+  "_key": "!items!o6xt06HOpGGOh7et",
+  "name": "Swarm",
+  "type": "feat",
+  "system": {
+    "description": "<p>You are trained to fight with allies en masse.</p><p><b>Prerequisite:</b> Coordinated Attack</p><p><b>Effect:</b> You gain a +1 circumstance bonus on melee attack rolls for each allied character adjacent to your target.</p>",
+    "prerequisite": {
+      "text": "Coordinated Attack feat",
+      "nodes": {
+        "text": "Coordinated Attack feat",
+        "requirement": "Coordinated Attack",
+        "type": "FEAT"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "swUdEIhbNRAfHASp",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

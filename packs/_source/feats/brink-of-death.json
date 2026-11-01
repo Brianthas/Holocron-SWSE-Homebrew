@@ -1,0 +1,24 @@
+{
+  "_id": "8WxpJcLOtYpn4j04",
+  "_key": "!items!8WxpJcLOtYpn4j04",
+  "name": "Brink of Death",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can take an enemy to the Brink of Death without killing them.</p><p><b>Effect:</b> When you deal sufficient damage on an attack to kill a target, you may instead choose to reduce the target to 0 Hit Points, leaving it Unconscious but alive. Normal rules for being at 0 Hit Points apply.</p>",
+    "prerequisite": {
+      "text": "",
+      "nodes": null
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nKnumVktOzkKHdiJ",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

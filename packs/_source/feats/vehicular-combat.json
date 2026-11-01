@@ -1,0 +1,28 @@
+{
+  "_id": "111Vk7UhPVzD1Lw2",
+  "_key": "!items!111Vk7UhPVzD1Lw2",
+  "name": "Vehicular Combat",
+  "type": "feat",
+  "system": {
+    "description": "<p>You can avoid attacks made against your Vehicle.</p><p><b>Prerequisite:</b> Trained in Pilot</p><p><b>Effect:</b> Once per round (as a Reaction), when you are piloting a Vehicle or Starship, you may negate a weapon hit by making a successful Pilot check. The DC of the Skill Check is equal to the result of the attack roll you wish to negate. In addition, while you are piloting a Vehicle, you are considered proficient with pilot-operated Vehicle Weapons.</p>",
+    "prerequisite": {
+      "text": "Trained in Pilot",
+      "nodes": {
+        "text": "Trained in Pilot",
+        "requirement": "Pilot",
+        "type": "TRAINED SKILL"
+      }
+    },
+    "repeatable": false,
+    "choice": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rgnkiMxIlfKVkNm6",
+      "sourceBook": "Star Wars Saga Edition Core Rulebook"
+    }
+  }
+}
