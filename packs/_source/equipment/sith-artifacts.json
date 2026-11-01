@@ -1,0 +1,24 @@
+{
+  "_id": "AV7f1AlXaJzGyF9b",
+  "_key": "!items!AV7f1AlXaJzGyF9b",
+  "name": "Sith Artifacts",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Several artifacts of great power and significance were created in the time of ancient Sith Lords. Though most Sith of the modern eras tend to eschew the arcane and esoteric knowledge used to create these artifacts, remnants of these dark objects still lie undiscovered in forgotten tombs across the galaxy. Sith Artifacts are considered priceless; thus, they have no costs associated with them. </p><table> \n <tbody>\n  <tr> \n   <th>SITH ARTIFACT </th> \n   <th> </th> \n   <th>DESCRIPTION </th>\n  </tr> \n  <tr> \n   <th colspan=\"3\">Jedi Academy Training Manual </th>\n  </tr> \n  <tr> \n   <td>Sith Amulet </td> \n   <td> </td> \n   <td>Ancient relics of the Great Hyperspace War and other conflicts between the Jedi and Sith of the Old Republic, Sith Amulets are weapons of The Dark Side. </td>\n  </tr> \n  <tr> \n   <td>Sith Poison </td> \n   <td> </td> \n   <td>A favorite of The Krath and of The Mecrosa Order, Sith Poison is the most insidious of inventions. </td>\n  </tr> \n  <tr> \n   <td>Sith Scrolls and Tomes </td> \n   <td> </td> \n   <td>Locked away in the mausoleums dedicated to ancient Sith Lords are thousands of records bearing instructions on how to master a variety of Sith techniques. </td>\n  </tr> \n  <tr> \n   <td>Sith Talismans </td> \n   <td> </td> \n   <td>A Sith Talisman enhances its wearer's Force attacks. When Jedi first discover Sith Talismans, they find the trinkets can be made to serve the Light without adverse consequences. </td>\n  </tr> \n  <tr> \n   <td>The Muur Talisman </td> \n   <td> </td> \n   <td>One of the most dangerous artifacts of The Dark Side known to have surfaced is The Muur Talisman. </td>\n  </tr> \n  <tr> \n   <th colspan=\"3\">Scum and Villainy </th>\n  </tr> \n  <tr> \n   <td>The Fell Star </td> \n   <td> </td> \n   <td>The Fell Star is a powerful Force artifact. Some legends reveal that The Fell Star was a Sith talisman, but even these tales cannot be verified. </td>\n  </tr> \n  <tr> \n   <th colspan=\"3\">Legacy Era Campaign Guide </th>\n  </tr> \n  <tr> \n   <td>Darth Krayt's Holocron </td> \n   <td> </td> \n   <td>There is a secret known only to two individuals in the galaxy that could prove to be the catalyst for great change: Darth Krayt, Emperor of the galaxy and ruler of The Sith, is dying. </td>\n  </tr> \n  <tr> \n   <th colspan=\"3\">Unknown Regions </th>\n  </tr> \n  <tr> \n   <td>The Mask of Darth Nihilus </td> \n   <td> </td> \n   <td>This Sith Artifact encourages the wearer to slowly destroy him- or herself for greater power. </td>\n  </tr> \n  <tr> \n   <th colspan=\"3\">Web Enhancements </th>\n  </tr> \n  <tr> \n   <td>Darth Revan's Battle Armor </td> \n   <td> </td> \n   <td>Darth Revan's unique Armor provides better protection than the average Light Armor thanks to ancient Rakata technology. </td>\n  </tr> \n  </tbody>\n</table>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YlNReOslLv9EHFG6",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual",
+      "category": "Equipment"
+    }
+  }
+}

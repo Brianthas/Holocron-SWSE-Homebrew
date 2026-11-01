@@ -105,6 +105,17 @@ export function rewriteParagraphs(html: string, replace: [string, string][]): { 
   return { html, missing };
 }
 
+/**
+ * Removes a table section headed "... Homebrew Content" (a heading row, as the Sith Artifacts table
+ * has "General Homebrew Content") with its rows, up to the next heading row or the end of the table.
+ */
+function removeFanTableSections(html: string, removed: string[]): string {
+  return html.replace(/<tr>\s*<th\b[^>]*>([^<]*Homebrew Content[^<]*)<\/th>\s*<\/tr>[\s\S]*?(?=<tr>\s*<th\b|<\/tbody>|<\/table>)/g, (_section, title: string) => {
+    removed.push(title.trim());
+    return "";
+  });
+}
+
 export function cleanDescription(source: string): CleanedDescription {
   const removedSections: string[] = [];
   const unclearSections: string[] = [];
@@ -122,6 +133,8 @@ export function cleanDescription(source: string): CleanedDescription {
     links.push(plain(text));
     return text;
   });
+  // After links are gone: the heading's "Homebrew Content" is itself a link on the wiki page.
+  html = removeFanTableSections(html, removedSections);
   html = html.replace(WIKI_CLASS, "").replace(BARE_SPAN, "$1").replace(EMPTY_PARAGRAPH, "");
   // The repo carries no en or em dashes (tools/lint-text.ts): a range becomes a hyphen, an aside " - ".
   html = html.replace(EM_DASH, " - ").replace(EN_DASH, "-");

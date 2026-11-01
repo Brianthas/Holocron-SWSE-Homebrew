@@ -59,6 +59,13 @@ describe("converter descriptions", () => {
     const page = '<p>Official.</p><h2>Homebrew Zeltron Species Feats</h2><p>This Homebrew Content has been Tested per the <a href="x">Untested</a> guidelines.</p><p>Fan feats.</p>';
     expect(cleanDescription(page).html).toBe("<p>Official.</p>");
   });
+  it("drop a table section headed Homebrew Content, and keep the sections around it", () => {
+    // The heading's "Homebrew Content" is a link, as on the Sith Artifacts page.
+    const table = '<table><tbody><tr><th>Web Enhancements</th></tr><tr><td>Official</td></tr><tr><th>General <a href="x">Homebrew Content</a></th></tr><tr><td>Fan one</td></tr><tr><td>Fan two</td></tr></tbody></table>';
+    const cleaned = cleanDescription(table);
+    expect(cleaned.html).toBe("<table><tbody><tr><th>Web Enhancements</th></tr><tr><td>Official</td></tr></tbody></table>");
+    expect(cleaned.removedSections).toEqual(["General Homebrew Content"]);
+  });
   it("keep a Homebrew heading without the review notice, and report it", () => {
     const cleaned = cleanDescription("<h2>Homebrew Notes</h2><p>Kept.</p>");
     expect(cleaned.html).toBe("<h2>Homebrew Notes</h2><p>Kept.</p>");

@@ -21,6 +21,9 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
   left out: 22 whole talent trees (e.g. Midi-chlorian, Jumptrooper, Mistryl Shadow Guard), 17
   feats, 43 species, 3 affiliations. tovec's rules are not Homebrew Content and are never labelled
   as homebrew.
+- **Wiki pages in the equipment pack** (Bryan, 2026-11-01): hazards, books, eras and places, wiki
+  category pages, Darth Krayt and the Heirloom Item rules are dropped, and so is every other page
+  except Holocrons and Sith Artifacts, which are kept as equipment.
 - **Killik size** (Bryan, 2026-11-01): Small, Medium or Large, chosen at character creation, with
   that size's adjustments from the species table (episode-vii, Species). The Killik's own size table
   (Tiny to Gargantuan) and ability adjustments are not used.

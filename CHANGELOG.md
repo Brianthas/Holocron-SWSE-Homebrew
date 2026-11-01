@@ -86,10 +86,11 @@
   thrown, half damage on a miss. The gloves wait for worn gear. Armor carries its Reflex term, DR
   and bypass, and penalties (none for Mesh); Power Armor's +2 Strength is an effect.
 - Armor applies its effects only while worn.
-- 144 pieces of equipment converted with a price (`cost`, empty where it depends on the variant)
+- 146 pieces of equipment converted with a price (`cost`, empty where it depends on the variant)
   and a slot: Light or Kit for the items the house rules list, none for the rest until the player
-  picks one. The equipment pack's 65 wiki rule and article pages (hazards, books, Heirloom Item
-  rules) are held for a decision, and its 9 droid accessories go with droid systems.
+  picks one. Of the equipment pack's 65 wiki pages, Holocrons and Sith Artifacts are kept and the
+  rest dropped (rulings.md, Content); the fan section of the Sith Artifacts table is left out. The
+  9 droid accessories go with droid systems.
 - Two-handed melee weapons add STR x 2 to damage (episode-vii, Weapons); before this they added
   STR once.
 - Feats carry their mechanics as effects: Improved Defenses, Toughness (5 hit points once, 1 per
