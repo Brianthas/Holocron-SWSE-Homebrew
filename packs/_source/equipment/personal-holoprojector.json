@@ -1,0 +1,24 @@
+{
+  "_id": "daruEn0XM5KftOwY",
+  "_key": "!items!daruEn0XM5KftOwY",
+  "name": "Personal Holoprojector",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A handheld, personal hologram transmitter can be used to view real-time or recorded three-dimensional images or to pass the information through a Comlink connection. This storage device has an Intelligence score of 2, and enough memory to store about 1 hour of a Holo recording, or 1000 Holo images. </p>",
+    "quantity": 1,
+    "cost": 1000,
+    "slot": "light",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IN33475IkZp13GCi",
+      "sourceBook": "",
+      "category": "Computers and Storage Devices"
+    }
+  }
+}

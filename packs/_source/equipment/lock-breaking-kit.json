@@ -1,0 +1,24 @@
+{
+  "_id": "d5F9eeCG46ig5HaJ",
+  "_key": "!items!d5F9eeCG46ig5HaJ",
+  "name": "Lock Breaking Kit",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Highly Illegal and favored by shipjackers and pirates, a Lock Breaking Kit is like a Tool Kit in many ways but has some very advanced and highly specialized tools. A Lock Breaking Kit grants the user a +5 Equipment bonus on all Mechanics and Use Computer checks to bypass doors and airlocks on a Starship. </p>",
+    "quantity": 1,
+    "cost": 8000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BqXANbCVc4vuUYSM",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy",
+      "category": "Tools"
+    }
+  }
+}

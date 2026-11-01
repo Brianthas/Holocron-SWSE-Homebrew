@@ -1,0 +1,24 @@
+{
+  "_id": "ONjA9dWevsWQvE8w",
+  "_key": "!items!ONjA9dWevsWQvE8w",
+  "name": "Triangulation Visor",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Triangulation Visor provides a heads-up display to help wielders of Heavy Weapons to account for wind, gravity, distance, and other effects when targeting shots. The Triangulation Visor works only with Weapons that fire solid rounds, such as Slugthrowers, Mortar Launchers, Missile Launchers, and Grenade Launchers. It does not work with blasters, lasers, or other Energy Weapons. The Triangulation Visor reduces the Range by one category (For example, from Long to Medium Range). A Triangulation Visor cannot be worn at the same time as a helmet or any other device worn on the head. </p>",
+    "quantity": 1,
+    "cost": 1400,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "c4UOnnubpKMMeAIh",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Computers and Storage Devices"
+    }
+  }
+}

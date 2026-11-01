@@ -1,0 +1,24 @@
+{
+  "_id": "VejXeS4fEs7SeZaN",
+  "_key": "!items!VejXeS4fEs7SeZaN",
+  "name": "Personal Multitool",
+  "type": "equipment",
+  "system": {
+    "description": "<p>People who explore the untamed wilderness need many Tools. In most cases, full-sized Tools can be unwieldy, especially when cargo space is a limited commodity. The Personal Multitool is a low-tech device that holds miniature versions of several simple Tools that can be useful in the wilderness. Although the arrangement of the implements can vary, the standard Personal Multitool configuration for beings of Medium size includes a 5-cm vibroblade, a low-power hydrospanner, a small hydrogrip, a toothpick, and a miniature set of eating utensils. These Tools are stored within the 6-cm handle and each fold out on a hinge. The vibroblade, hydrospanner, and hydrogrip are all powered by a single Energy Cell that must be replaced after 50 hours of constant use. The vibroblade can be used as a melee weapon that deals 1d4 points of damage. </p>",
+    "quantity": 1,
+    "cost": 100,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "8ZdsbYpufp3G3ZKv",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Tools"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "cXTMvRJfQSDb0Ail",
+  "_key": "!items!cXTMvRJfQSDb0Ail",
+  "name": "Liquid Cable Dispenser",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Cable Dispensers contain a special liquid that instantly solidifies upon contact with either atmosphere or vacuum to form a tough, lightweight, flexible cable. The dispenser contains enough liquid for 15 meters (10 squares) of cable, and is refillable at authorized outlets. The cable has a Strength score of 28, can safely support up to 560 kg, and it can be broken with a DC 24 Strength check. </p>",
+    "quantity": 1,
+    "cost": 10,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wBmSgIlTzORZh8Zo",
+      "sourceBook": "",
+      "category": "Survival Gear"
+    }
+  }
+}

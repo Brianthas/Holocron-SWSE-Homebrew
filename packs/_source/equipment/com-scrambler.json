@@ -1,0 +1,24 @@
+{
+  "_id": "cvzpgz62I6AXjglu",
+  "_key": "!items!cvzpgz62I6AXjglu",
+  "name": "Com Scrambler",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Com Scrambler disrupts enemy communication, but it also scrambles friendly communication. Mounted on a backpack frame, a Com Scrambler can be carried to the front line and even into enemy territory, where it can be connected to a power source and left behind. </p><p>A Com Scrambler covers a 20-kilometer radius, blanketing the area in powerful white noise that disrupts all Comlinks, HoloNet signals, and Droid Remote Receivers within the area. Getting a signal into or out of the affected area requires a Use Computer check against the Com Scrambler's default Use Computer +10. This check must be made every minute as the Com Scrambler's computer constantly scans and adapts to block any signals it locates. </p>",
+    "quantity": 1,
+    "cost": 6000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ei8ZCFsiy3EUZMBV",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Communications Devices"
+    }
+  }
+}

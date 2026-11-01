@@ -1,0 +1,24 @@
+{
+  "_id": "HkK1Q90atlchWhYG",
+  "_key": "!items!HkK1Q90atlchWhYG",
+  "name": "Computer Spike",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Computer Spikes are single-use programs built into a basic piece of computer hardware that plugs directly into another computer system. Designed to bypass computer security and help improve access to protected systems, a Computer Spike interfaces with another computer system and uses untraceable programs to chip away at the target system's defenses. </p><p>A Computer Spike can be activated as a Swift Action, after which it makes a single Use Computer check (with a bonus of +2 or higher, determined by its cost and quality) that can be used only to Improve Access. All Computer Spikes are considered Illegal. </p><p>The quality of a Computer Spike is reflected in its cost, as every +2 bonus to Use Computer checks increases the cost of a Computer Spike by 1,500 credits, as the table below indicates: </p><table> \n <tbody>\n  <tr> \n   <th>Computer Spike </th> \n   <th> </th> \n   <th>Cost </th>\n  </tr> \n  <tr> \n   <td>+2 </td> \n   <td> </td> \n   <td>1,500 </td>\n  </tr> \n  <tr> \n   <td>+4 </td> \n   <td> </td> \n   <td>3,000 </td>\n  </tr> \n  <tr> \n   <td>+6 </td> \n   <td> </td> \n   <td>4,500 </td>\n  </tr> \n  <tr> \n   <td>+8 </td> \n   <td> </td> \n   <td>6,000 </td>\n  </tr> \n  <tr> \n   <td>etc... </td> \n   <td> </td> \n   <td>etc... </td>\n  </tr>\n </tbody>\n</table>",
+    "quantity": 1,
+    "cost": null,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "N16U5TGD8JhbX8Du",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy",
+      "category": "Computers and Storage Devices"
+    }
+  }
+}

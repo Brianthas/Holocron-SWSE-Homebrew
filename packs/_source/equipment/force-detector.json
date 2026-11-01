@@ -1,0 +1,24 @@
+{
+  "_id": "W6x2sdtl8Xpx8WTy",
+  "_key": "!items!W6x2sdtl8Xpx8WTy",
+  "name": "Force Detector",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A blanket term used to cover a variety of devices, Force Detectors are pieces of Equipment designed to detect Force Sensitivity, or the potential for it, within a living being. Force Detectors can take many forms; the Jedi Order prior to the Clone Wars used Force Detectors that relied on blood samples to determine midichlorian counts. During the height of the Empire, Force Detectors were built using <span class=\"new\" title=\"Thaissen Crystal (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGhhaXNzZW5fQ3J5c3RhbD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Thaissen Crystals</span> from the planet Mimban that glow in the presence of Force-users. </p><p>Regardless of the specific form, most Force Detectors function in a similar manner. Using a Force Detector requires 5 rounds and a DC 15 Use Computer check to successfully activate the device. If the target of the Force Detector has the Force Sensitivity Feat, the Force Detector indicates that the target is Force-sensitive. </p>",
+    "quantity": 1,
+    "cost": 2000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gfHXEOq5TqdKHnTS",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual",
+      "category": "Tools"
+    }
+  }
+}

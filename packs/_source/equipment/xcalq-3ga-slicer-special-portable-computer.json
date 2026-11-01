@@ -1,0 +1,24 @@
+{
+  "_id": "pBUFFXgbKq4szZJm",
+  "_key": "!items!pBUFFXgbKq4szZJm",
+  "name": "Xcalq-3GA \"Slicer Special\" Portable Computer",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Among the array of tools available to the Galactic Alliance Core Fleet is this Portable Computer designed to quickly slice through the standard security in Galactic Alliance computer systems and networks. This is useful when the Galactic Alliance Core Fleet is forced to slice systems in former Galactic Alliance installations and ships. While the Empire has overlaid many systems with it's own security, and has its own military systems, most of the former Galactic Alliance bureaucratic systems still exist under the surface. Once inside, Galactic Alliance Core Fleet personnel quickly dissect it, as the systems are very similar or virtually identical to the systems they use every day on their own ships. </p><p>The Xcalq-3GA may be used as a regular Portable Computer and has an Intelligence score of 14. However, when used to slice Galactic Alliance systems and networks, the opposing system is automatically treated as Friendly or Helpful (See Use Computer), granting a +3 Equipment bonus on all Use Computer checks made with that computer. This bonus does not apply to checks made to break through any initial Imperial security installed on the system. </p>",
+    "quantity": 1,
+    "cost": 7500,
+    "slot": "kit",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LK2QYBIEetcC3NSG",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide",
+      "category": "Computers and Storage Devices"
+    }
+  }
+}

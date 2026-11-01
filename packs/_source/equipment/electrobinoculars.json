@@ -1,0 +1,24 @@
+{
+  "_id": "ZT8upi8VFtXEVNDO",
+  "_key": "!items!ZT8upi8VFtXEVNDO",
+  "name": "Electrobinoculars",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This device magnifies distant objects in most lighting conditions. An internal display provides data on range, relative and true azimuths, and elevation. Viewing options include zoom and wide-vision observation. Electrobinoculars also feature radiation sensors and a nightvision mode that grants Darkvision out to the user's normal range of sight. </p><p>Electrobinoculars reduce the range penalty on Perception checks to -1 for every 10 squares of distance (Instead of -5 for every 10 squares of distance). </p>",
+    "quantity": 1,
+    "cost": 1000,
+    "slot": "kit",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wseU64jWSPUpo7C4",
+      "sourceBook": "Clone Wars Saga Edition Fan Sourcebook - Equipment",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

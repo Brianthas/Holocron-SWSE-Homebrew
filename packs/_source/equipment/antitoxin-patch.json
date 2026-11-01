@@ -1,0 +1,24 @@
+{
+  "_id": "DsUkwdXcXWnIla2z",
+  "_key": "!items!DsUkwdXcXWnIla2z",
+  "name": "Antitoxin Patch",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This adhesive patch is applied near the stomach (or similar organ, depending on the Species). It emits a low dose of antitoxin, giving the wearer a +10 Equipment bonus to Fortitude Defense against Ingested Poisons and a +5 Equipment bonus to Fortitude Defense against Inhaled Poisons. An Antitoxin Patch lasts for 24 hours. For each consecutive day that an Antitoxin Patch is worn, the target moves -1 step on the Condition Track. </p>",
+    "quantity": 1,
+    "cost": 25,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ATbj0SddYjtKikbF",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue",
+      "category": "Medical Gear"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "tzFLUUwYJ91sqZBy",
+  "_key": "!items!tzFLUUwYJ91sqZBy",
+  "name": "Tool Kit",
+  "type": "equipment",
+  "system": {
+    "description": "<p>You need a Tool Kit to reprogram a Droid, or to Repair a damaged Droid or Vehicle. A Tool Kit also makes repairing devices much simpler. </p><p>The standard Tool Kit represents a broad collection of tools designed to take apart, analyze, modify, and rebuild almost any technological device. Most technicians personalize their Tool Kits over the course of years, but almost all contain the tools in the below table. </p><p>Many of these tools can be used as makeshift weapons. They all qualify as Simple Weapons, but since they aren't designed for combat, they impose a -5 penalty on attack rolls. (Droids with such Tools on Tool Mounts don't suffer these penalties, since they don't have to deal with the oddly shaped handle.) </p><table> \n <caption>\n  Tool Kit Contents \n </caption> \n <tbody>\n  <tr> \n   <th>TOOL </th> \n   <th>TYPICAL USAGE </th> \n   <th>DAMAGE AS A WEAPON </th>\n  </tr> \n  <tr> \n   <td>Electroshock Probe </td> \n   <td>Short out electronic components <p>Solder wires </p> </td> \n   <td>1d8 (Ion) </td>\n  </tr> \n  <tr> \n   <td>Fusion Cutter </td> \n   <td>Cut apart durasteel or similar materials </td> \n   <td>2d6 (Energy) </td>\n  </tr> \n  <tr> \n   <td>Hydrospanner </td> \n   <td>Tighten or loosen screws or fasteners </td> \n   <td>- </td>\n  </tr> \n  <tr> \n   <td>Laser Welder </td> \n   <td>Connecting things </td> \n   <td>1d6 (Energy) </td>\n  </tr> \n  <tr> \n   <td>Power Calibrator </td> \n   <td>Analyze circuitry <p>Emergency power cell </p> </td> \n   <td>- </td>\n  </tr> \n  <tr> \n   <td>Power Prybar </td> \n   <td>Force things open </td> \n   <td>1d8 (Bludgeoning) </td>\n  </tr> \n  <tr> \n   <td>Probe Sensors </td> \n   <td>- </td> \n   <td>- </td>\n  </tr> \n  <tr> \n   <td>Sonic Welder </td> \n   <td>Connect things when you can't afford a fire </td> \n   <td>1d8 (Energy) </td>\n  </tr> \n  <tr> \n   <td>Various Circuits and Wires </td> \n   <td>- </td> \n   <td>- </td>\n  </tr> \n  <tr> \n   <td>Vibrocutters </td> \n   <td>For things that don't call for a Fusion cutter </td> \n   <td>- </td>\n  </tr> \n  <tr> \n   <td>Welding Goggles </td> \n   <td>Don't burn your eyes out </td> \n   <td>- </td>\n  </tr>\n </tbody>\n</table>",
+    "quantity": 1,
+    "cost": 250,
+    "slot": "kit",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wgVCOmB55cKeeThb",
+      "sourceBook": "",
+      "category": "Tools"
+    }
+  }
+}

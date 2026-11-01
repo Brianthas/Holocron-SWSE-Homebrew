@@ -1,0 +1,24 @@
+{
+  "_id": "dtwnvYp16GR4EHgE",
+  "_key": "!items!dtwnvYp16GR4EHgE",
+  "name": "Sith Amulet",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Ancient relics of the Great Hyperspace War and other conflicts between the Jedi and Sith of the Old Republic, Sith Amulets are weapons of the Dark Side. Each Sith Amulet, which is embedded in a jewel-encrusted gauntlet worn on the forearm, is made of crystals imbued with dark Force energy that focuses the user's telekinetic power, allowing the wearer to unleash powerful attacks. Though most Sith Amulets were destroyed by Jedi Shadows in the wake of the Great Sith War, a few remain, hidden away in Sith burial chambers on Korriban and elsewhere throughout the galaxy. </p><p>The wearer of a Sith Amulet gains several benefits: </p><ul>\n <li>When the wearer uses the Move Light Object application of the Use the Force Skill, the object being used as a projectile deals 2d6 points of damage instead of 1d6 points.</li> \n <li>When the wearer activates a Force Power with the [<i>Telekinetic</i>] descriptor, the wearer can increase their Dark Side Score by 1 to reroll the Use the Force check made to activate the Force Power, keeping the better of the two results.</li> \n <li>As a Standard Action, the wearer can increase their Dark Side Score by 1 and select a target within 12 squares. The wearer unleashes a razor-thin bolt of telekinetic energy at the target, making a Use the Force check; if the Use the Force check equals or exceeds the target's Reflex Defense, the target takes 3d8 points of Slashing and Force damage.</li>\n</ul>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "71nmMCRXS0XgG3EV",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual",
+      "category": "Sith Artifacts"
+    }
+  }
+}

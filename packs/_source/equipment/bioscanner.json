@@ -1,0 +1,24 @@
+{
+  "_id": "k1ByhROXRqc7BrMW",
+  "_key": "!items!k1ByhROXRqc7BrMW",
+  "name": "Bioscanner",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Bioscanner is a low-power, handheld scanner used by doctors and medical technicians to help diagnose medical conditions in their patients. One or two passes over the patient collects biological information. The scanner displays vital statistics and analyzes and diagnoses any anomalies on file in the scanner's medical database. This device grants is user a +2 bonus on all Knowledge (Life Sciences) checks made to identify aliments. </p>",
+    "quantity": 1,
+    "cost": 3500,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6eoKBRi6NfdfukpL",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide",
+      "category": "Medical Gear"
+    }
+  }
+}

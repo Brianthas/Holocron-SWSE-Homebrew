@@ -1,0 +1,24 @@
+{
+  "_id": "JPY79ERskXnUcdjn",
+  "_key": "!items!JPY79ERskXnUcdjn",
+  "name": "Medical Kit",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This backpack-sized Medical Kit includes almost everything a first responder needs to save a life: diagnostic scanners, anti-venom, medicine to counteract the effects of contaminated water and Radiation poisoning, burn treatments, defibrillators, respirators, shock blankets, pressure cuffs, a collapsible repulsorlift stretcher for patient transport (Capable of hovering with 160 kg load), and even limited surgical tools. In addition, a Medical Kit has six external pouches for carrying expendable medical supplies, such as Medpacs. </p><p>You need a Medical Kit to Revive a dying character, Treat Disease, Treat Poison, or Treat Radiation. </p>",
+    "quantity": 1,
+    "cost": 600,
+    "slot": "kit",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "t1cRrTTETjqLsusR",
+      "sourceBook": "",
+      "category": "Medical Gear"
+    }
+  }
+}

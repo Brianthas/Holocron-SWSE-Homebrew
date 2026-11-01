@@ -1,0 +1,24 @@
+{
+  "_id": "cJmrHoQLXWVYaXE6",
+  "_key": "!items!cJmrHoQLXWVYaXE6",
+  "name": "Panic Ring",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Despite the name, this device is available in a variety of shapes and sizes, the most common being a large, ornamental ring. Diplomats, wealthy CEOs, and anyone who fears kidnapping or ambush wear Panic Rings. A secret catch (DC 25 Perception check) reveals a small button that, when pressed, releases an encrypted emergency signal. This signal has a range of 100 kilometers and continually broadcasts a preset signal- usually \"Wearer in danger\"- to local law enforcement, personal security, or any other group designated by the wearer. Changing this signal requires a DC 25 Mechanics check, and failure by 5 or more activates the Panic Ring. </p>",
+    "quantity": 1,
+    "cost": 300,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "libW59YUblfYlfhb",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue",
+      "category": "Communications Devices"
+    }
+  }
+}

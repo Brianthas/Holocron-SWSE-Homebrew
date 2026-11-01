@@ -1,0 +1,24 @@
+{
+  "_id": "8Z3wvSZQuWkrJtEP",
+  "_key": "!items!8Z3wvSZQuWkrJtEP",
+  "name": "Climbing Harness",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Providing a measure of safety for a wide array of climbing activities, the Climbing Harness secures the wearer to a climb line, reducing the chances of falling by providing several attachment points for anchor lines, as well as additional options for securing Equipment. A character using a Climbing Harness when making a Climb check falls only when he or she fails the check by 10 or more. </p>",
+    "quantity": 1,
+    "cost": 45,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IrsAb2Wh1qfaQeIq",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Survival Gear"
+    }
+  }
+}

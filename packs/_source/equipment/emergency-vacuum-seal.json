@@ -1,0 +1,24 @@
+{
+  "_id": "ycy78DL8bFfwGpgT",
+  "_key": "!items!ycy78DL8bFfwGpgT",
+  "name": "Emergency Vacuum Seal",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Designed to quickly seal a Starship's interior compartments during a hull breach, the disk-shaped Emergency Vacuum Seal is a biomechanical device that has proven useful in such a crisis. When the seal has been placed at the site of the breach, a series of micromolecular grips keep it lodged firmly in place while a mild electrical current stimulates the colony of microorganisms, causing them to quickly multiply and seal the breach. A neutralizing current is applied once the seal's sensors determine the breach has been sealed. The result is a temporary but durable hull patch that allows a badly damaged Starship to make its way back to port for Repairs. </p><p>When a character makes a Mechanics check to Jury-Rig a Starship that has suffered a hull breach, the use of an Emergency Vacuum Seal allows the ship to move +1 additional step on the Condition Track. </p>",
+    "quantity": 1,
+    "cost": 750,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "s5Pe4D0BNFweDaNX",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Life Support"
+    }
+  }
+}

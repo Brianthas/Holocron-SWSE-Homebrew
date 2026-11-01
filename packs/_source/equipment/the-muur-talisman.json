@@ -1,0 +1,24 @@
+{
+  "_id": "enGwKsCtmv91zLO4",
+  "_key": "!items!enGwKsCtmv91zLO4",
+  "name": "The Muur Talisman",
+  "type": "equipment",
+  "system": {
+    "description": "<p>One of the most dangerous artifacts of The Dark Side known to have surfaced is The Muur Talisman. An ancient Sith Lord named Karness Muur created The Muur Talisman long before the Great Hyperspace War. Whoever carries The Muur Talisman is filled with the power of The Dark Side. More importantly, The Muur Talisman holds the power to create and control vile creatures known as Rakghouls. </p><p>A Force-sensitive character wearing The Muur Talisman can infect any target within 12 squares and in their line of sight with the Rakghoul Disease as a Swift Action, with no attack required. Furthermore, all Rakghouls have a Helpful Attitude toward the wearer of The Muur Talisman. In addition, The Muur Talisman stops all Ageing in the host. </p><p>The Sith Spirit of Karness Muur lurks within The Muur Talisman, speaking to the wearer and urging them to spread the Muur legacy through the creation and command of Rakghouls. </p>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kjmyiGRFsVFG5Lhh",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual",
+      "category": "Sith Artifacts"
+    }
+  }
+}

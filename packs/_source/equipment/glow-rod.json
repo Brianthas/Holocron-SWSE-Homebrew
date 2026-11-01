@@ -1,0 +1,24 @@
+{
+  "_id": "qSqbYtAAi3LGK4Br",
+  "_key": "!items!qSqbYtAAi3LGK4Br",
+  "name": "Glow Rod",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Glow Rod is a portable illumination device that projects a beam of light up to 6 squares, providing Visibility. </p>",
+    "quantity": 1,
+    "cost": 10,
+    "slot": "light",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Rh0CGDO7q0EFwLnl",
+      "sourceBook": "",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

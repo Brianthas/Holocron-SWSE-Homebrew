@@ -1,0 +1,24 @@
+{
+  "_id": "VEE2oBObB9wBXPo1",
+  "_key": "!items!VEE2oBObB9wBXPo1",
+  "name": "Sound Sponge",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This small electronic device emits sound waves in frequencies well above and below the normal range of audible sound for most Species in the galaxy, using those sounds to suppress other sounds in the vicinity. A Sound Sponge muffles all sound in a 6-square radius, increasing the Perception check DC to hear noises coming from that area by 10. </p>",
+    "quantity": 1,
+    "cost": 3500,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YZnv7MrxAJrPUP9v",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

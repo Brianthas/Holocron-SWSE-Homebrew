@@ -1,0 +1,24 @@
+{
+  "_id": "vWNvLLVY4agN2FNk",
+  "_key": "!items!vWNvLLVY4agN2FNk",
+  "name": "Medpac",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Medpacs are compact packages designed to both equip a trained medic for work in the field and allow untrained individuals to apply First Aid in emergencies. A Medpac contains bandages, Bacta, synthetic flesh, coagulants, stimulants, and other medicines designed to help an injured patient recover quickly. </p><p>Once you use a Medpac, its contents are expended even if your Treat Injury check is not successful. Any given creature can only benefit from the use of a Medpac once in a 24-hour period. </p>",
+    "quantity": 1,
+    "cost": 100,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Dzj1oFzgA5u7YLao",
+      "sourceBook": "",
+      "category": "Medical Gear"
+    }
+  }
+}

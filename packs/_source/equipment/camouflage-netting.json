@@ -1,0 +1,24 @@
+{
+  "_id": "LYxAm8CL8a6c57df",
+  "_key": "!items!LYxAm8CL8a6c57df",
+  "name": "Camouflage Netting",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Any Camouflage Netting found on the market is of of two kinds: powered or unpowered. Both kinds, when draped over one or more objects within a 6-square-by-6-square area, bestow a +5 bonus to all Stealth checks while under the netting, and offer partial Concealment. </p><p>Integrated into the netting of the powered version are overlapping sensor baffle scales that emulate the emission patterns of the surrounding terrain- including light emissions. Thus, powered Camouflage Netting grants an additional +5 bonus to all Stealth checks while under the netting. The netting is carried in a small backpack and takes a Full-Round Action and two people to deploy it. </p>",
+    "quantity": 1,
+    "cost": 6000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3GwEHA5kabmsMTGM",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide",
+      "category": "Survival Gear"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "UdawYuYJcypQygy4",
+  "_key": "!items!UdawYuYJcypQygy4",
+  "name": "Energy Cell",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This small battery provides power for devices, including certain types of weapons. An Energy Cell appears as a small, flat disk. An Energy Cell can be recharged with a Power Recharger. </p>",
+    "quantity": 1,
+    "cost": 10,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "V3FmkIxLGOZaSESE",
+      "sourceBook": "",
+      "category": "Tools"
+    }
+  }
+}

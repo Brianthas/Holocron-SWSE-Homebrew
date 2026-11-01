@@ -1,0 +1,24 @@
+{
+  "_id": "SlNfR30VuAL6c4X8",
+  "_key": "!items!SlNfR30VuAL6c4X8",
+  "name": "Recording Unit",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This storage device is an Audio, Video, or Holo-recorder with a playback feature. It has an Intelligence score of 1, and 1 memory unit. You can modify a recording (edit, erase, or rearrange the order of events) with a DC 15 Use Computer check. However, anyone can make an opposed Perception check (if observing the recording), or opposed Use Computer check (if inspecting the data from the recording) to detect any modifications you have made. Editing or modifying a recording without first uploading it to a computer can be difficult: Add the recording unit's Intelligence modifier (-5) to any Use Computer checks you make to change the recording. </p><p><b>Audiorecorder: </b>An Audiorecorder stores 100 hours of high-quality sound. </p><p><b>Videorecorder: </b>A Videorecorder stores 10 hours of high-quality video. </p><p><b>Holorecorder: </b>A Holorecorder stores 1 hour of high-quality Holos. </p><table> \n <tbody>\n  <tr> \n   <th>RECORDING UNIT </th> \n   <th> </th> \n   <th>COST </th>\n  </tr> \n  <tr> \n   <td>Audiorecorder </td> \n   <td> </td> \n   <td>25 </td>\n  </tr> \n  <tr> \n   <td>Holorecorder </td> \n   <td> </td> \n   <td>100 </td>\n  </tr> \n  <tr> \n   <td>Videorecorder </td> \n   <td> </td> \n   <td>50 </td>\n  </tr>\n </tbody>\n</table>",
+    "quantity": 1,
+    "cost": null,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fsKtTMq7LqgYDRtY",
+      "sourceBook": "",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

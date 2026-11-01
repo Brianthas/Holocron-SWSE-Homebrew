@@ -1,0 +1,24 @@
+{
+  "_id": "dHuMUovSiIODeuUW",
+  "_key": "!items!dHuMUovSiIODeuUW",
+  "name": "The Mask of Darth Nihilus",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This Sith Artifact encourages the wearer to slowly destroy him- or herself for greater power. Anyone who does not possess Force-related Feats gains Force Sensitivity and Force Training while wearing the mask. A Jedi or Sith wearing the mask gains two Force Training Feats. At least half of the Force Powers gained in this manner must have the [<i>Dark Side</i>] descriptor. </p><p>The mask extracts a heavy toll from it's wearer. Each time the wearer uses a Force Power or spends a Force Point, he or she gains a Dark Side Point. Each time the wearer uses a number of Force Powers equal to his or her Constitution modifier in a single encounter, the wearer moves -1 step on the Condition Track and gains a Persistent Condition. The Persistent Condition is removed only when the wearer takes off the mask. </p>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "q0Zyj3pIHD9T8sTi",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Sith Artifacts"
+    }
+  }
+}

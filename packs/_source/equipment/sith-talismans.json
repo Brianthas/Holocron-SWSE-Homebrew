@@ -1,0 +1,24 @@
+{
+  "_id": "e7Hdog3yKHN0txJ6",
+  "_key": "!items!e7Hdog3yKHN0txJ6",
+  "name": "Sith Talismans",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Sith Talisman enhances it's wearer's Force attacks. When Jedi first discover Sith Talismans, they find the trinkets can be made to serve the Light without adverse consequences. However, to counteract this exploitation, later Sith purposely infuse Sith Talismans with malignant energy, making them anathema to Jedi. The Jedi Council subsequently ban their use, and following the Great Hyperspace War, Jedi Shadows willfully target the Sith Artifacts for annihilation. </p><p>A bitter argument breaks out as Galactic Museum of Coruscant curatos fiercely assert the Sith Artifacts, like any historical curios, belong in a museum. Brokering a compromise, the Chancellor's office grants the museum rights to display Sith Artifacts, except for Sith Holocrons, which are surrendered to the Jedi Temple. </p>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2fd0WXRJuUE25zIR",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual",
+      "category": "Sith Artifacts"
+    }
+  }
+}

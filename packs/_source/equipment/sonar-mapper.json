@@ -1,0 +1,24 @@
+{
+  "_id": "qFwUhznPWn2hSZHK",
+  "_key": "!items!qFwUhznPWn2hSZHK",
+  "name": "Sonar Mapper",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Modern sensor systems are reliable and can be used in many circumstances. However, in some situations a standard Sensor Pack does not work. In those instances, a Sonar Mapper can be used instead. A Sonar Mapper is a specialized sensor system that emits sonar pulses at regular intervals, mapping an area through echolocation. The Sonar Mapper does not provide the detail that a Sensor Pack can, because it's dedicated screen displays only the echolocation. Also, the Sonar Mapper does not have as great a range as a Sensor Pack, because it reads the pulses only up to a range of 100 meters with any degree of accuracy. The Sonar Mapper can internally record up to 12 hours of readings, making a good backup map if the user becomes lost. </p>",
+    "quantity": 1,
+    "cost": 400,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CLz7Ze6bkpIwJv0v",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

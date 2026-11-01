@@ -1,0 +1,24 @@
+{
+  "_id": "p5LmFGg2WAvw6Rrs",
+  "_key": "!items!p5LmFGg2WAvw6Rrs",
+  "name": "Stealth Field Generator",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A small and unobtrusive device worn on the belt, the Stealth Field Generator emits a sound-dampening field around the wearer that makes sneaking up on an opponent easier. Additionally, the Stealth Field Generator uses technology similar to that of a Personal Energy Shield to bend light around the wearer, making them harder to see. </p><p>The Stealth Field Generator grants Concealment (but not Total Concealment) to the wearer when activated. Activating a Stealth Field Generator is a Swift Action, and it lasts for the duration of the encounter, until the wearer takes damage, or until the wearer attacks or uses a Force Power, whichever comes first. </p><p>A Stealth Field Generator requires a Power Pack to operate. After 5 uses, the Power Pack must be replaced. </p>",
+    "quantity": 1,
+    "cost": 5000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bdMug5SJEUC3xqPu",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

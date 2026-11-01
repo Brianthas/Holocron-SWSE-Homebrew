@@ -1,0 +1,24 @@
+{
+  "_id": "e6kscysbnT5bzd49",
+  "_key": "!items!e6kscysbnT5bzd49",
+  "name": "Field Food Processor",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Field Food Processor is used by soldiers and explorers to provide sustenance from local flora and fauna and is a critical survival tool when other food stores have been exhausted. Up to three pounds of plants, meat, or fungus can be placed inside the Field Food Processor. One minute later, the processor exudes a gray paste that is extremely bland in taste, but is both edible and nutritious- enough to provide a single Medium character with a day's worth of food. The Field Food Processor can be programmed to make appropriate food substances for up to ten different Species. In addition, the Field Food Processor gives a +10 Equipment bonus to the user's Fortitude Defense against any Poison, Toxin, or Radiation that might have been in the initial ingredients. </p><p>A Field Food Processor requires an Energy Cell, which lasts for one year before needing to be replaced. </p>",
+    "quantity": 1,
+    "cost": 1500,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "kfH4jOzlMhbICrHf",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Survival Gear"
+    }
+  }
+}

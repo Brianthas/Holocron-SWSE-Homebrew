@@ -1,0 +1,24 @@
+{
+  "_id": "ogz4Qoh5KUN1Dy6M",
+  "_key": "!items!ogz4Qoh5KUN1Dy6M",
+  "name": "Neural Band",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Developed in response to both Sith and Jedi using The Force to manipulate soldiers and security personnel, the Neural Band reinforces various synapses throughout the brain and provides alternative conduits for electrical impulses within the mind, making the wearer's thoughts difficult to affect. Neural Bands grant their wearer's a +2 Equipment bonus to their Will Defense, but lowers the wearer's Damage Threshold by 2 points. A Neural Band cannot be worn at the same time as Armor with a helmet or any other device worn on the head. </p>",
+    "quantity": 1,
+    "cost": 3500,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "v3ojboIE2hkA3O9M",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "kvUe1RS2h6yaAJp0",
+  "_key": "!items!kvUe1RS2h6yaAJp0",
+  "name": "Power Recharger",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Power Recharger is used to recharge a Power Pack or Energy Cell. The recharge process takes 4 hours, and only one Power Pack or Energy Cell may be recharged at a time. A Power Recharger holds enough power to recharge 100 Power Packs or Energy Cells, but is normally connected to a ship's or building's power supply, allowing it unlimited recharge capacity. </p>",
+    "quantity": 1,
+    "cost": 100,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wC4wUDIGgHr0GXAJ",
+      "sourceBook": "",
+      "category": "Tools"
+    }
+  }
+}

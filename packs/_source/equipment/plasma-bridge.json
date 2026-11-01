@@ -1,0 +1,24 @@
+{
+  "_id": "4q5ve0VhmXz5bLzq",
+  "_key": "!items!4q5ve0VhmXz5bLzq",
+  "name": "Plasma Bridge",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Plasma Bridge is projected from a single plasma generator, creating a surface 6 squares wide and up to 120 squares long. It can be used to bridge gaps or bypass terrain Hazards (Such as bodies of water or Acid pools). The Plasma Bridge must be hooked up to a Power Generator in order to function. If an active Plasma Bridge is deactivated, of if it's Power Generator is destroyed or disconnected, the Plasma Bridge generator stores enough energy to power the bridge for 2 rounds. After 2 rounds, if the Plasma Bridge is not reactivated or reconnected to a Power Generator, the bridge vanishes, and any character or anything on the bridge begins to fall. </p>",
+    "quantity": 1,
+    "cost": 12500,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vs0meBRvZisqni75",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Survival Gear"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "taIR2LO7QhRTGuhv",
+  "_key": "!items!taIR2LO7QhRTGuhv",
+  "name": "Field Camouflage Netting",
+  "type": "equipment",
+  "system": {
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This Equipment was originally titled simply as Camouflage Netting, but has been renamed to avoid confusion with the&nbsp;Equipment&nbsp;of the same name, the&nbsp;Camouflage Netting.</b></i> </td>\n  </tr>\n </tbody>\n</table><p>This advanced netting uses the same technology as the Camouflage Poncho. Incorporating both light-bending technology and metallic jammers, it conceals objects from both visual and electronic scanning. </p><p>Field Camouflage Netting comes in a small backpack. Two characters must each spend a Full-Round Action to deploy the netting, or a single character can deploy it on one minute. Once deployed, the Field Camouflage Netting is powered by an internal power cell, which has enough power to last for one month, or the netting can be connected to an external power source. Field Camouflage Netting provides a +5 Equipment bonus to Stealth checks, including Stealth checks against sensors, for an object of Huge size or smaller. </p>",
+    "quantity": 1,
+    "cost": 2000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RMGuROqmACWL7ycH",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Survival Gear"
+    }
+  }
+}

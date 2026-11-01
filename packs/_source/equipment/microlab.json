@@ -1,0 +1,24 @@
+{
+  "_id": "wQumZqw4wxBGBDa8",
+  "_key": "!items!wQumZqw4wxBGBDa8",
+  "name": "Microlab",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Microlab is a handheld portable laboratory for analyzing substances. When you need quick identification of a material and you cannot wait for the results of a full analysis from another location, the Microlab works well enough to answer most questions. In some cases, the Microlab's analysis is just as good as a full examination. A sample of the substance in question is placed in a small tube that is then slid into the Microlab. A DC 15 Knowledge (Physical Sciences) check is necessary to complete the examination, and the results are then displayed on the device's small screen. </p>",
+    "quantity": 1,
+    "cost": 1800,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "m8dRGlvfBqubPnaA",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Tools"
+    }
+  }
+}

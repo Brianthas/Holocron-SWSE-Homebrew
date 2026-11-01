@@ -1,0 +1,24 @@
+{
+  "_id": "d7dLbU0QSCeISspc",
+  "_key": "!items!d7dLbU0QSCeISspc",
+  "name": "Basic Datapad",
+  "type": "equipment",
+  "system": {
+    "description": "These handheld personal computers serve as notebooks, day planners, calculators, and sketchpads. In addition to performing basic computer functions, Datapads can interface with larger computer networks directly or via Comlink.\n\nA Datapad is a computer with an Intelligence score of 12. Basic Datapads also exist (Intelligence 10, 100 credits), but they are actually just storage devices with display, input, and editing capability; they have no ability to run programs.",
+    "quantity": 1,
+    "cost": 100,
+    "slot": "light",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "u7Yqr6ZBdULnBBnH",
+      "sourceBook": "",
+      "category": "Computers and Storage Devices"
+    }
+  }
+}

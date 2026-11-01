@@ -1,0 +1,24 @@
+{
+  "_id": "GdwbuFS7di6zUls4",
+  "_key": "!items!GdwbuFS7di6zUls4",
+  "name": "FastFlesh Medpac",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A FastFlesh Medpac offers a broader range of medical instruments and agents than a standard Medpac. Each FastFlesh Medpac has enough materials for a single use. A character who benefits from a FastFlesh Medpac or a standard Medpac cannot again derive benefits from any Medpac for 24 hours. </p><p>Using a FastFlesh Medpac grants you a +5 Equipment bonus to a Treat Injury check made to perform First Aid. Otherwise, this Medpac functions as a standard Medpac. </p>",
+    "quantity": 1,
+    "cost": 600,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "59d6zfjG5rXIX2DE",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy",
+      "category": "Medical Gear"
+    }
+  }
+}

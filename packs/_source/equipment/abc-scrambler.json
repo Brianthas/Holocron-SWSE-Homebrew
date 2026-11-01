@@ -1,0 +1,24 @@
+{
+  "_id": "Lot4uYdxSqpWKHLn",
+  "_key": "!items!Lot4uYdxSqpWKHLn",
+  "name": "ABC Scrambler",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This device is used to ward off missile attacks. Commonly used by bounty hunters against other bounty hunters, the ABC Scrambler is worn on the belt or attached to a suit of Armor and emits false audio, biological, and chemical signals to confuse missile guidance systems. A character with an ABC Scrambler gains a +5 deflection bonus to their Reflex Defense against Grenade Launchers, Micro Grenade Launchers, and Missile Launchers. </p>",
+    "quantity": 1,
+    "cost": 3000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xK852iLYztOpDfoU",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy",
+      "category": "Survival Gear"
+    }
+  }
+}

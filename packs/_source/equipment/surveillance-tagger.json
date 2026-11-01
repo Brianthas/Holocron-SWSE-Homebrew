@@ -1,0 +1,24 @@
+{
+  "_id": "44cJ2X0cw12qdbgz",
+  "_key": "!items!44cJ2X0cw12qdbgz",
+  "name": "Surveillance Tagger",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Surveillance Tagger is a tiny, unassuming tube containing a Fine sized dart and a compressed air canister. When fired, the dart attaches itself to the target with a combination of adhesives and magnetism and activates a homing beacon. The homing beacon has a range of 1 kilometer and enough power to transmit for 40 hours. </p>",
+    "quantity": 1,
+    "cost": 450,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5jcNZJmDFA9c493d",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

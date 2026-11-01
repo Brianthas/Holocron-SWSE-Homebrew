@@ -1,0 +1,24 @@
+{
+  "_id": "9oeYhj7ktDB3saRt",
+  "_key": "!items!9oeYhj7ktDB3saRt",
+  "name": "Hypoinjector Wristband",
+  "type": "equipment",
+  "system": {
+    "description": "<p>An inconspicuous metal band, the Hypoinjector Wristband can help a wearer avoid succumbing to the effects of Poisons and other harmful chemicals. The refillable wristband stores up to 8 doses of vaccines, antidotes, or other medication. In addition to the Hypoinjector, the Wristband also houses a bioscanner that continually scans the wearer for any foreign chemicals that the device can counteract. When a harmful substance is detected, the Hypoinjector administers the appropriate drug. Refilling the Wristband requires a Standard Action per dose or 4 rounds for the entire set. The device runs on two Energy Cells that must be replaced after 5 days of constant use. </p>",
+    "quantity": 1,
+    "cost": 350,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DrUmmlmXXGeOyctp",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Medical Gear"
+    }
+  }
+}

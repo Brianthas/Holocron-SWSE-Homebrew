@@ -1,0 +1,24 @@
+{
+  "_id": "OXs3IlLHzDnk3rCg",
+  "_key": "!items!OXs3IlLHzDnk3rCg",
+  "name": "Binder Cuffs",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Binder Cuffs are Durasteel restraints designed to lock two limbs of a prisoner together, normally the wrists or ankles, but it is possible to lock one arm to one leg or use the Binder Cuffs to hook a prisoner to a tree. The cuffs have a Damage Reduction score of 10, 20 hit points, and a Strength score of 40. Breaking them requires a DC 30 Strength check, and removing them without the seven-digit release code requires a DC 25 Mechanics check. The Binder Cuffs can be attached to the limbs of any creature of Large, Medium, or Small size. </p>",
+    "quantity": 1,
+    "cost": 50,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PrMUC1g3dMNHeui2",
+      "sourceBook": "",
+      "category": "Tools"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "XRtofaGI3GDJqWfu",
+  "_key": "!items!XRtofaGI3GDJqWfu",
+  "name": "Xcalq Stealth Pack",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This Stealth Pack uses the Galactic Alliance Core Fleet's knowledge of their former computer systems to conceal a slicer's presence on a former or current Galactic Alliance computer or network. </p><p>Using a computer equipped with this software package, you can slice into a system without being traced, isolated, or cut off by the system's automatic safeguards. If another character attempts to locate, isolate, or cut off your computer, make opposed Use Computer checks. The Stealth Pack grants a +5 Equipment bonus to your check. </p>",
+    "quantity": 1,
+    "cost": 1500,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2BrUepytTKCBW9H1",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide",
+      "category": "Computers and Storage Devices"
+    }
+  }
+}

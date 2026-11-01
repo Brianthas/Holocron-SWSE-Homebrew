@@ -1,0 +1,24 @@
+{
+  "_id": "HJs1zvQqEdyS3mTQ",
+  "_key": "!items!HJs1zvQqEdyS3mTQ",
+  "name": "Repulsor Boots",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This footwear allows the wearer to float a short distance above the ground. Repulsor Boots use a tiny repulsorlift unit in the sole of each boot to elevate the wearer up to 0.5 meters above the ground. With careful manipulation and positioning of one's feet, the boots can be used to move, but users cannot exceed a movement rate of 2 squares per round with this method. Although they are not an optimal method of travel, Repulsor Boots are a great aid in climbing, granting the wearer a +10 Equipment bonus to Climb checks. </p>",
+    "quantity": 1,
+    "cost": 200,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "c2OG4QmZjKHo7mMS",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Tools"
+    }
+  }
+}

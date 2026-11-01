@@ -1,0 +1,24 @@
+{
+  "_id": "GpCIhNi1KD3JiSSd",
+  "_key": "!items!GpCIhNi1KD3JiSSd",
+  "name": "Security Kit",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Security Kit is a set of special tools for bypassing electronic and mechanical locks. It usually includes electronic components and dedicated sensor devices. On most worlds, possession of a Security Kit is illegal for anyone who doesn't have the proper permits, such as members of law enforcement agencies and professional security experts. </p><p>A Security Kit is required to bypass traps or security systems using the Mechanics skill. A Security Kit contains a Comlink that monitors frequencies typically used by silent alarms, so the user can know if such an alarm has been triggered at any point during the operation. </p>",
+    "quantity": 1,
+    "cost": 750,
+    "slot": "kit",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dqZfl0HE4MPpdIex",
+      "sourceBook": "",
+      "category": "Tools"
+    }
+  }
+}

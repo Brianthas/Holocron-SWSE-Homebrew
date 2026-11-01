@@ -1,0 +1,24 @@
+{
+  "_id": "3O3dtKUNKrdNGjQs",
+  "_key": "!items!3O3dtKUNKrdNGjQs",
+  "name": "Hush-About Personal Jet Pack",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A light Jet Pack that is engineered to produce little to no noise, Arakyd's Hush-About Personal Jet Pack is often used by covert enemies of the Empire who are engaged in sabotage and espionage missions. A Hush-About Jet Pack uses a small jet engine that produces little noise beyond a high-pitch whine, meaning that the wearer takes no penalty on Stealth checks because of speed when using the Hush-About Jet Pack (Allowing the wearer to double Move or take the Run Action while flying the Hush-About Jet Pack with no penalty on Stealth checks). An Arakyd Hush-About Personal Jet Pack functions in all other ways like a normal Jet Pack, though each fuel cell for the Hush-About Jet Pack carries only 6 charges instead of the normal 10. Replacement fuel cells cost 100 credits. </p>",
+    "quantity": 1,
+    "cost": 3750,
+    "slot": "kit",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "NV2ufFdPlbU0DR7q",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+      "category": "Survival Gear"
+    }
+  }
+}

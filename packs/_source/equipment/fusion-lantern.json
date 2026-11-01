@@ -1,0 +1,24 @@
+{
+  "_id": "wl7rDVzMzDgQ348P",
+  "_key": "!items!wl7rDVzMzDgQ348P",
+  "name": "Fusion Lantern",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A hand-held light source larger than a Glow Rod, the Fusion Lantern produces light and heat. The light spreads out from the lantern, producing illumination in a 6-square radius. </p>",
+    "quantity": 1,
+    "cost": 25,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XqOy1UZOFaKBAGeC",
+      "sourceBook": "",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

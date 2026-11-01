@@ -1,0 +1,24 @@
+{
+  "_id": "xFQpbWKOgSQ5Pg88",
+  "_key": "!items!xFQpbWKOgSQ5Pg88",
+  "name": "Radiation Detector",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Worn on the wrist or on the front of Armor or uniforms, a Radiation Detector alerts the user to the presence of Radiation within 6 squares. The Radiation Detector gives a color code indicating the strength of Radiation and, additionally, can be set to provide either a vibrating or an audible alarm. </p>",
+    "quantity": 1,
+    "cost": 20,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5MxKONDWWcHLtUw5",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

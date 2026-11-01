@@ -1,0 +1,24 @@
+{
+  "_id": "RPDYLTvrFA3RFdyy",
+  "_key": "!items!RPDYLTvrFA3RFdyy",
+  "name": "Force Cage",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Frequently used by bounty hunters to keep their marks from escaping, a Force Cage is a large (2x2 Squares) cage whose bars are charged with electricity. A Force Cage deals 3d6 energy damage to anyone trying to break into (or out of) the cage, and the cage can be assembled or disassembled in 5 minutes. A Force Cage has a break DC of 30 and can be deactivated using a remote (treat as a Portable Computer with an Intelligence score of 16). </p>",
+    "quantity": 1,
+    "cost": 7000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IOvtNSkhrpMsJhFs",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy",
+      "category": "Tools"
+    }
+  }
+}

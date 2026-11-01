@@ -1,0 +1,24 @@
+{
+  "_id": "YP0j8AzdmVZW6F9c",
+  "_key": "!items!YP0j8AzdmVZW6F9c",
+  "name": "Lectroticker",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A small electronic device used to bypass low-grade security systems, a Lectroticker consists of several small wires connected to a sense-plate. When the sense-plate is inserted into a standard security lock (such as those found on doors throughout the galaxy), the sense-plate is charged with varying amounts of energy, scrambling the signals sent to the electronic lock, and fooling it's systems into thinking that the correct access card has been provided. A Lectroticker can be activated as a Swift Action, after which it makes a single Mechanics check (with a bonus of +2 or higher, determined by it's cost and quality) to disable an electric lock. All Lectrotickers are considered Illegal. </p><p>The quality of a Lectroticker is reflected in it's cost, as every +2 bonus to Mechanics checks increases the cost of a Lectroticker by 1500 credits, as the table below indicates: </p><table> \n <tbody>\n  <tr> \n   <th> <p>Lectroticker </p> </th> \n   <th> </th> \n   <th>Cost </th>\n  </tr> \n  <tr> \n   <td>+2 </td> \n   <td> </td> \n   <td>1500 </td>\n  </tr> \n  <tr> \n   <td>+4 </td> \n   <td> </td> \n   <td>3000 </td>\n  </tr> \n  <tr> \n   <td>+6 </td> \n   <td> </td> \n   <td>4500 </td>\n  </tr> \n  <tr> \n   <td>+8 </td> \n   <td> </td> \n   <td>6000 </td>\n  </tr> \n  <tr> \n   <td>etc... </td> \n   <td> </td> \n   <td>etc... </td>\n  </tr>\n </tbody>\n</table>",
+    "quantity": 1,
+    "cost": null,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "EmLk84Ekiae76yyc",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy",
+      "category": "Computers and Storage Devices"
+    }
+  }
+}

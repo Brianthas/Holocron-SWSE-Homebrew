@@ -1,0 +1,24 @@
+{
+  "_id": "42kD6F9jfkKHiH7a",
+  "_key": "!items!42kD6F9jfkKHiH7a",
+  "name": "Aquata Breather",
+  "type": "equipment",
+  "system": {
+    "description": "<p>While underwater, an Aquata Breather can provide up to 2 hours of breathable air through its mouthpiece. Qui-Gon Jinn and Obi-Wan Kenobi used Aquata Breathers while swimming to Otoh Gunga in <i>Episode I: The Phantom Menace</i>, and Obi-Wan Kenobi used his again when evading Clone Troopers on Utapau in <i>Episode III: Revenge of the Sith</i>. </p>",
+    "quantity": 1,
+    "cost": 350,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OSIRP1Nyxg8d8E7e",
+      "sourceBook": "",
+      "category": "Life Support"
+    }
+  }
+}

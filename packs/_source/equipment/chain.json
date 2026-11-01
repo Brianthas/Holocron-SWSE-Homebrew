@@ -1,0 +1,24 @@
+{
+  "_id": "JaO3fck8hhgedV4H",
+  "_key": "!items!JaO3fck8hhgedV4H",
+  "name": "Chain",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This 3-meter (2-square) length of Chain has Damage Reduction of 10, and 5 hit points. It has a Strength score of 44, can safely support over 5 metric tons of weight, and it can be broken with a DC 32 Strength check. </p>",
+    "quantity": 1,
+    "cost": 25,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9KHSf7dKFnjoRJDC",
+      "sourceBook": "",
+      "category": "Survival Gear"
+    }
+  }
+}

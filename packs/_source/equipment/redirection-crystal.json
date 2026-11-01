@@ -1,0 +1,24 @@
+{
+  "_id": "hGXSr1oiq8njGlbm",
+  "_key": "!items!hGXSr1oiq8njGlbm",
+  "name": "Redirection Crystal",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Redirection Crystal is filled with Tibanna Gas and has a small blasting tube. Snipers and assassins use them to seemingly bank blaster shots, allowing the shooter to hide in one location while making a shot appear to come from another position. When struck by blaster fire, the gas inside the crystal explodes, directing the shot through the blast tube at the established angle. Only skilled snipers and assassins use Redirection Crystals because of the sheer difficulty in making a successful strike. Redirection Crystals are sometimes used in conjunction with the Xerrol Nightstinger, taking advantage of the weapon's invisible blaster shot to confuse the enemy. </p><p>A Redirection Crystal is Fine sized, giving it a Reflex Defense of 15, plus penalties for distance. If an attack with a blaster weapon successfully hits the Redirection Crystal, make a second attack roll against the intended target, with a -10 penalty and additional Range-increment penalties. The Redirection Crystal is destroyed, leaving only minuscule fragments, requiring a DC 30 Perception check to notice and a DC 30 Knowledge (Technology) check to identify. </p>",
+    "quantity": 1,
+    "cost": 500,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lshiX2ZaO8rtAvZP",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue",
+      "category": "Tools"
+    }
+  }
+}

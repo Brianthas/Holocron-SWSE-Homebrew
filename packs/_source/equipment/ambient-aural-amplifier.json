@@ -1,0 +1,24 @@
+{
+  "_id": "mNEuFWOaLaXBcVRk",
+  "_key": "!items!mNEuFWOaLaXBcVRk",
+  "name": "Ambient Aural Amplifier",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Although Aural Amplifiers have existed for centuries, vast improvements to the technology are made during the Rebellion era, driven by the need to surreptitiously listen in on contacts who could be Imperial spies, Rebel recruiters, or bounty hunters looking to make a few quick credits. Previous models of Aural Amplifiers were bulky and obvious, and they garbled messages almost as often as they worked. They also required power cells, limiting the degree to which they could be concealed. </p><p>Employing the same technology used for protocol Droids, the new Ambient Aural Amplifiers can pick out sounds, analyze them, and amplify only the sounds that are likely to be useful. These devices draw power from the body heat of any warm-blooded creature that wears them, giving the amplifiers an effectively unlimited operation time. (Cold-blooded Species can power the devices by placing them on a warm surface or piece of gear.) The result is a +5 Equipment bonus to Perception checks to Eavesdrop or to hear distant or ambient noises. </p>",
+    "quantity": 1,
+    "cost": 3000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aqkZsXHyPk6G3vGy",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

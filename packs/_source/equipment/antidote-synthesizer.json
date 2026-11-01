@@ -1,0 +1,24 @@
+{
+  "_id": "jDv2a101KLHVC68g",
+  "_key": "!items!jDv2a101KLHVC68g",
+  "name": "Antidote Synthesizer",
+  "type": "equipment",
+  "system": {
+    "description": "<p>An Antidote Synthesizer is a small, portable device that takes the portability of a Microlab one step farther. If an antidote to a Poison or a toxin is needed and proper medical attention is not immediately available, an Antidote Synthesizer can be used to help the victim survive. The Antidote Synthesizer can analyze a small amount of Poison or toxin inserted into the machine's sample tube, and within 1d6 rounds it can create 1d4 doses of antivenom or antitoxin that each grant a +2 bonus to a Treat Injury check made to treat the Poison or toxin. To reproduce an antidote after the doses are expended, however, requires a new sample of the Poison or toxin. </p>",
+    "quantity": 1,
+    "cost": 2500,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "15gF3LBeetP8pclc",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Medical Gear"
+    }
+  }
+}

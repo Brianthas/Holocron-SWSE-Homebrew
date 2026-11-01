@@ -1,0 +1,24 @@
+{
+  "_id": "RxSx34hnGVpxUxJl",
+  "_key": "!items!RxSx34hnGVpxUxJl",
+  "name": "Repulsor Pad",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Repulsor Pad is used mostly to ease manual labor. In essence, it is a flat board with four repulsors, one at each corner, that can be used to lift heavy objects for short-range transport. This allows a single worker to move a heavy crate or other object without the need to use a Vehicle or a Binary Load Lifter. During The Dark Times, Repulsor Pads are often used by saboteurs to transport heavy machinery or by thieves to cart off large objects without the need to use noisy Vehicles or Droids. Each Repulsor Pad occupies a single square and can be used to lift an object that occupies no more space than a single square; multiple Repulsor Pads can be used to lift larger objects. Activating a Repulsor Pad (Or a group of Repulsor Pads) is a Swift Action, and a Repulsor Pad can move along with a character if that character uses a Swift Action to grab or drag the Repulsor Pad. If two creatures attempt to pull a Repulsor Pad in opposite directions, they make opposed Strength checks, and the Repulsor Pad moves along with the victor. </p>",
+    "quantity": 1,
+    "cost": 200,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "N5g80nR1wFqdatv3",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+      "category": "Tools"
+    }
+  }
+}

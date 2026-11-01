@@ -1,0 +1,24 @@
+{
+  "_id": "vUo50YNk0g2vdGiP",
+  "_key": "!items!vUo50YNk0g2vdGiP",
+  "name": "Surveillance Detector",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Surveillance Detector is a small, handheld device that scans an area for eavesdropping devices and Surveillance Taggers. When activated, the Surveillance Detector grants a +10 Equipment bonus to Perception checks for locating active or passive Surveillance Devices within 6 squares of the detector. It can be set to either display the presence of eavesdropping or to emit an alarm when such attempts are detected. </p>",
+    "quantity": 1,
+    "cost": 450,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aSdBk3KQph6dOBn4",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

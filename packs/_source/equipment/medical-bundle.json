@@ -1,0 +1,24 @@
+{
+  "_id": "fbwHHGpv7mrHGdeP",
+  "_key": "!items!fbwHHGpv7mrHGdeP",
+  "name": "Medical Bundle",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The standard medical kit carried by most Jedi, the 8-2A Medical Bundle contains the basic items needed to treat ailments and diseases in a package small enough to fit in a Utility Belt. Since Jedi can rely on The Force to speed up their healing processes, many common items- such as bacta patches and synthetic flesh- are absent from the Medical Bundle. </p><p>A Medical Bundle counts as a Medical Kit for the purposes of using the Treat Injury skill, but only on targets currently in a Force Trance. </p>",
+    "quantity": 1,
+    "cost": 200,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PBZFvT94x5rIWbuB",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual",
+      "category": "Medical Gear"
+    }
+  }
+}

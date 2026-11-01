@@ -1,0 +1,24 @@
+{
+  "_id": "GIV6Fy99RYUGNVv3",
+  "_key": "!items!GIV6Fy99RYUGNVv3",
+  "name": "Vacuum Survival Pouch",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Carried by spacers of all types, the Vacuum Survival Pouch is a small cylinder typically worn on the character's belt or harness. In the event of a catastrophic loss of pressure, the Vacuum Survival Pouch automatically deploys, enveloping the user in a protective bubble that keeps him or her alive for a few hours. The Meredex Atmospherics EMS-90 Bubble Cloak, which is worn as an article of clothing, is one of several variations of this item. </p><p>The Vacuum Survival Pouch is large enough to hold a single Medium creature. It provides sufficient air, heat, and pressure for the creature to survive in hard Vacuum for up to 2 hours, but it does not protect against Radiation. The material has 2 Hit Points. </p>",
+    "quantity": 1,
+    "cost": 800,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qkZgplCz4QIsIc1X",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Survival Gear"
+    }
+  }
+}

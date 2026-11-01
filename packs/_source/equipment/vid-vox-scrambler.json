@@ -1,0 +1,24 @@
+{
+  "_id": "ymKZW1oFgsh8603B",
+  "_key": "!items!ymKZW1oFgsh8603B",
+  "name": "Vid-Vox Scrambler",
+  "type": "equipment",
+  "system": {
+    "description": "<p>When activated, this Tiny handheld device emits a low-frequency wave that scrambles all video, audio, and holographic recording within its area of effect, while leaving normal conversation unaffected. Vid-Vox Scramblers are prized by anyone worried that their conversations are being recorded, including criminal masterminds, CEOs, spies, and the paranoid. </p><p>The Vid-Vox Scrambler prevents all video, audio, and holographic recording in the squares adjacent to and the square including the device. Anyone eavesdropping or reviewing recordings of targets protected by an interference generator must make a DC 30 Perception or Use Computer check to pick up only scattered words and phrases. A Vid-Vox Scrambler can operate continuously for one week on a single Energy Cell, or it can be connected to a Power Generator or other permanent power source. </p>",
+    "quantity": 1,
+    "cost": 3400,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VfhEvkhumfGGzdwX",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

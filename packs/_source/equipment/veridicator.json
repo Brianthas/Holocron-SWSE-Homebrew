@@ -1,0 +1,24 @@
+{
+  "_id": "8Ks0u6Lrp1v3cxwz",
+  "_key": "!items!8Ks0u6Lrp1v3cxwz",
+  "name": "Veridicator",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Worn as an inconspicuous bracelet, the Veridicator uses sophisticated sensors to monitor a target's heart rate, pupil dilation, perspiration, and other involuntary stress responses. It compares this information to it's internal database, determining the emotional state of the target and indicating if he or she is lying. The Veridicator then relays this information to the wearer as a series of pulses, temperature variations, or vibrations. </p><p>Once activated, the Veridicator needs a full round to acquire the data from a single target within 6 squares of the user. Then the Veridicator provides a +5 bonus to Perception checks for the purpose of Sensing Deception or Sensing Influence or for Gambling against other players in games such as sabacc. The Veridicator can be programmed for only a single Species at a time. Changing the settings requires a DC 10 Use Computer check. </p>",
+    "quantity": 1,
+    "cost": 4000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uLhpkxLDqDAk2rTq",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

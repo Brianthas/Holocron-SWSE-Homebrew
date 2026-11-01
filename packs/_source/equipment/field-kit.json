@@ -1,0 +1,24 @@
+{
+  "_id": "QWH3m6tyfjBemvhz",
+  "_key": "!items!QWH3m6tyfjBemvhz",
+  "name": "Field Kit",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Essentially a backpack full of Survival Gear, the typical Field Kit contains two condensing canteens with built-in water purification systems, a sunshield roll, a week's worth of Ration Packs, two Glow Rods, two Breath Masks, 24 Filters, 12 Atmosphere Canisters, and an All-Temperature Cloak. </p><p>You need a Field Kit to make Survival checks to endure extreme temperatures. </p>",
+    "quantity": 1,
+    "cost": 1000,
+    "slot": "kit",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "t4MoZm9Pilkn3ZXn",
+      "sourceBook": "",
+      "category": "Survival Gear"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "8NEXJEDcDyfSbuwc",
+  "_key": "!items!8NEXJEDcDyfSbuwc",
+  "name": "Mesh Tape",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The usefulness of Mesh Tape is limited only by a character's imagination. Mesh Tape adhesive has a Strength score of 15, and can support up to 90 kg indefinitely (And up to 180 kg for up to 5 rounds). Mesh Tape itself has a Strength score of 20 when used to bind another character, and requires a DC 20 Strength check to break. </p><p>A roll provides 30 meters (20 squares) of Mesh Tape, that is 5 centimeters wide. </p>",
+    "quantity": 1,
+    "cost": 5,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "m3G2fvan1jpmThh0",
+      "sourceBook": "",
+      "category": "Tools"
+    }
+  }
+}

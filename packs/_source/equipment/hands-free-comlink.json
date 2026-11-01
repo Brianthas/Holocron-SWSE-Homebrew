@@ -1,0 +1,24 @@
+{
+  "_id": "lQgL7CsumA4EUrmc",
+  "_key": "!items!lQgL7CsumA4EUrmc",
+  "name": "Hands-Free Comlink",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Hands-Free Comlink is a convenient device often used by beings working under conditions where both hands are needed to perform a task. This Comlink consists of several linked sound-absorbing pads, placed on the face of the user and connected to an earpiece. When the wearer speaks, the sound-absorbing pads transmit the speech; additionally, the Comlink can be adjusted to pick up only the faintest of whispers, allowing the wearer to use the Comlink to communicate quietly when stealth is important. Morrigan Corde frequently uses a Hands-Free Comlink. </p><p>Hands-Free Comlinks have a range of 50 kilometers or low orbit, and they can be built into helmets and Armor. Hands-Free Comlinks can process audio, but not video or holo. </p>",
+    "quantity": 1,
+    "cost": 150,
+    "slot": "light",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pGbJId7c22Vjog7C",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide",
+      "category": "Communications Devices"
+    }
+  }
+}

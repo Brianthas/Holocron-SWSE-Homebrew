@@ -1,0 +1,24 @@
+{
+  "_id": "JwhHQsZJ6meJXhc7",
+  "_key": "!items!JwhHQsZJ6meJXhc7",
+  "name": "Spy Bug",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This Diminutive, bioengineered insect records sights and sounds within 20 squares of it. It can be placed in a hidden area and remains there until retrieved. When the Spy Bug is retrieved, the data that it has absorbed through it's senses for the past 24 hours can be extracted. (The Yuuzhan Vong use living devices to retrieve the data, but a DC 25 Mechanics check can transmit the data via electronic connectors or Comlink). </p><p>A Spy Bug functions as a Holorecorder Unit. A Spy Bug registers as a life form on sensors, not as an electronic device. </p>",
+    "quantity": 1,
+    "cost": 1300,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ZtVpRe9NvK3aMHeG",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

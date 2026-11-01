@@ -1,0 +1,24 @@
+{
+  "_id": "dMcQd3x3BJFlsgcy",
+  "_key": "!items!dMcQd3x3BJFlsgcy",
+  "name": "Holo Converter",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This small, blocky device is attached to a Holoprojector and uses powerful algorithms to alter the outgoing signal, modifying the images and sounds received on the other end so that the user's appearance and voice are disguised. The Holo Converter can even disguise the user's gender and Species. Preset with up to 10 different personae, complete with rotating wardrobe, the Holo Converter grants a +5 Equipment bonus to Deception checks for the purposes of making the receiver believe that the user is another person. </p>",
+    "quantity": 1,
+    "cost": 3000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "xjqz2hiEfJZAvXIj",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue",
+      "category": "Communications Devices"
+    }
+  }
+}

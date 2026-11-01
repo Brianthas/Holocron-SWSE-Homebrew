@@ -1,0 +1,24 @@
+{
+  "_id": "KEOWbI7JRRrRpW2S",
+  "_key": "!items!KEOWbI7JRRrRpW2S",
+  "name": "All-Temperature Cloak",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This wrap-around cloak protects its wearer from the elements, providing +5 Equipment bonus to its wearer's Fortitude Defense against extreme heat or cold. </p>",
+    "quantity": 1,
+    "cost": 100,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "s1zkw6ffJOHnGiGx",
+      "sourceBook": "",
+      "category": "Survival Gear"
+    }
+  }
+}

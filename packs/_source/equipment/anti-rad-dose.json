@@ -1,0 +1,24 @@
+{
+  "_id": "Jd8v5k1keiCYcaXp",
+  "_key": "!items!Jd8v5k1keiCYcaXp",
+  "name": "Anti-Rad Dose",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Exposure to Radiation is a fear of ship personnel and soldiers alike. An Anti-Rad Dose comes in a tough hypodermic syringe. The Anti-Rad Dose grants a +10 Equipment bonus to the target's Fortitude Defense against Radiation and grants a +5 Equipment bonus to Treat Injury checks to cure damage caused by Radiation. </p>",
+    "quantity": 1,
+    "cost": 50,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rzgP5eY6JTafbAzn",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Medical Gear"
+    }
+  }
+}

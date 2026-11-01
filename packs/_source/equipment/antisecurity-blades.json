@@ -1,0 +1,24 @@
+{
+  "_id": "Nv6Ov3Sh1EeLXvhu",
+  "_key": "!items!Nv6Ov3Sh1EeLXvhu",
+  "name": "Antisecurity Blades",
+  "type": "equipment",
+  "system": {
+    "description": "<p>These electronic devices allow a user to bypass force fields, and jam security devices with bursts of high-frequency harmonic interference waves. They function as a Security Kit, and grant a +2 Equipment bonus to Mechanics checks made to Disable Devices. </p>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "c4hhNjzYWP8cbKpD",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy",
+      "category": "Tools"
+    }
+  }
+}

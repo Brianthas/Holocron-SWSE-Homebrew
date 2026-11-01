@@ -1,0 +1,24 @@
+{
+  "_id": "JdoA6XxIWyxvFude",
+  "_key": "!items!JdoA6XxIWyxvFude",
+  "name": "Personal Translator",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Drawing from the successes of many Protocol Droids, the designers at Cybot Galactica condense the translating abilities of a 3PO-Series Protocol Droid unit into a tiny shell that can be worn around a person's neck or carried in a pocket. Thus, a person can carry a Personal Translator unit anywhere without having to rely on a Protocol Droid. The universal translator can translate verbal communications in the owner's language and up to three other languages of the owner's choosing. The device operates at the level of a DC 10 Droid Translator Unit. The translator has no photo receptors or Appendages, so it is not able to interpret nonverbal forms of communication such as sign language. </p>",
+    "quantity": 1,
+    "cost": 2000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wBXksnIUqPMQpuSA",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Tools"
+    }
+  }
+}

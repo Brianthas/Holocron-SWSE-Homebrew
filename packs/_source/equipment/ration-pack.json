@@ -1,0 +1,24 @@
+{
+  "_id": "Rc2CUwv1sfMKrdnD",
+  "_key": "!items!Rc2CUwv1sfMKrdnD",
+  "name": "Ration Pack",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Ration Packs are compact meals that take up little room (You can fit six in a pouch designed to carry a Datapad), but have all the requirements to nourish a person for one day. Each Ration Pack is geared for a range of Species. The food isn't appetizing, and it doesn't include water, but it does prevent malnutrition. </p>",
+    "quantity": 1,
+    "cost": 5,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FZ4qQSEDestOMvGP",
+      "sourceBook": "",
+      "category": "Survival Gear"
+    }
+  }
+}

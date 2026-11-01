@@ -1,0 +1,24 @@
+{
+  "_id": "Nf5HkDTDx4XygXCu",
+  "_key": "!items!Nf5HkDTDx4XygXCu",
+  "name": "Force Training Aid",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Young Jedi use a variety of Force Training Aids in the course of their studies. These can take many forms, including some that resemble toys and puzzles. Others are designed to clear the mind and make concentration easier, focusing one's connection to The Force by helping to block out other stimuli. Most Force Training Aids are abandoned by the time the apprentice becomes a Padawan learner, as the Force Training Aids teach very basic techniques that must be mastered by the time the Master chooses the Padawan. </p><p>Though Force Training Aids are typically designed to focus on one aspect of Force training, they all follow similar rules. Each Force Training Aid focuses on one of the basic uses of the Use the Force Skill. Any character Untrained in the Skill can spend 1 hour training with a Force Training Aid. After that time, for the next 24 hours, the character can use any one \"Trained Only\" aspect of the Use the Force Skill as though he or she was Trained in the Skill. Force Training Aids confer no bonus on Use the Force checks. </p>",
+    "quantity": 1,
+    "cost": 25,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wOFqT85prGKCj84t",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual",
+      "category": "Tools"
+    }
+  }
+}

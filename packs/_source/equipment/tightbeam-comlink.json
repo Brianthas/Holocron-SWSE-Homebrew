@@ -1,0 +1,24 @@
+{
+  "_id": "o9LpovoexdZZiWVW",
+  "_key": "!items!o9LpovoexdZZiWVW",
+  "name": "Tightbeam Comlink",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Tightbeam Comlink is a simple add-on for any Comlink or transceiver. It is worn on a helmet or headpiece and uses special lasers to send and receive encrypted messages from another individual also equipped with a Tightbeam Comlink. Soldiers use the Tightbeam Comlink to ensure that messages are not intercepted on the battlefield. The two characters must be in line of sight with each other, but the Tightbeam Comlink ignores penalties due to Darkness, Smoke, or other Atmospheric Hazards. </p><p>Communications Scanners and other passive methods of interception cannot pick up Tightbeam Comlink messages, unless the interceptor is directly in the path between individuals using these devices. </p>",
+    "quantity": 1,
+    "cost": 300,
+    "slot": "light",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CcwXl1uymosC9p4C",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Communications Devices"
+    }
+  }
+}

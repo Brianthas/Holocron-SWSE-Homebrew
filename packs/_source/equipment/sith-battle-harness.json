@@ -1,0 +1,24 @@
+{
+  "_id": "KZrlsH9JHgEoQHtr",
+  "_key": "!items!KZrlsH9JHgEoQHtr",
+  "name": "Sith Battle Harness",
+  "type": "equipment",
+  "system": {
+    "description": "<p>When riding large Beasts such as Sith Warbirds, the Sith frequently use special battle harnesses, turning the Beasts into mobile weapon platforms. The Sith Battle Harness features a cockpit that provides the rider Improved Cover, and the special reins grant a +2 Equipment bonus on Ride checks. In addition, the mount gains a +4 Equipment bonus to it's Reflex Defense and it's Fortitude Defense. The Sith Battle Harness also has a built-in Blaster Cannon, powered by an onboard Power Generator providing unlimited ammunition. </p>",
+    "quantity": 1,
+    "cost": 5000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "H4UKJmz9qi6YZRtg",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual",
+      "category": "Survival Gear"
+    }
+  }
+}

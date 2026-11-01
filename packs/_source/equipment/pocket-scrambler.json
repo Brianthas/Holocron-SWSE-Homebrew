@@ -1,0 +1,24 @@
+{
+  "_id": "JA1CJ4yBSuOvM3JQ",
+  "_key": "!items!JA1CJ4yBSuOvM3JQ",
+  "name": "Pocket Scrambler",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This is a simple Addon device that can be attached to any normal Communications Device, such as a Comlink and more advanced transceiver. The Pocket Scrambler automatically encodes any outgoing message so that it can be read only by a Communications Device equipped with a linked Pocket Scrambler. Anyone who intercepts the scrambled message must make a DC 30 Use Computer check to decrypt it. </p>",
+    "quantity": 1,
+    "cost": 400,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "RYgSP2raLQHqIUZC",
+      "sourceBook": "",
+      "category": "Communications Devices"
+    }
+  }
+}

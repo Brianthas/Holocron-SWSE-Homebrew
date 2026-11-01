@@ -1,0 +1,24 @@
+{
+  "_id": "5AOcpmwuamH5hBZn",
+  "_key": "!items!5AOcpmwuamH5hBZn",
+  "name": "Decoy Glow Rod",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Though not officially manufactured by any corporation, the Decoy Glow Rod is a piece of Equipment used by enemies of the Empire and smugglers alike. This device is a fully functional Glow Rod with a hollowed-out handle that can be used to hide small objects. A Decoy Glow Rod can hide up to 3 kilograms of Equipment, no one piece of which can be larger than Diminutive in size. This allows the owner to hide everything from Code Cylinders and Datacards to Credit Chips and small Comlinks within the interior. Best of all, since the Decoy Glow Rod is functional, Imperial customs agents almost never suspect that such a device is being used to carry contraband. Hiding an item inside a Decoy Glow Rod grants the user a +10 Equipment bonus on Stealth checks to hide the item. </p>",
+    "quantity": 1,
+    "cost": 100,
+    "slot": "light",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XhB2e0K1oyLoPhqt",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "5i4WooMAaGKesXh0",
+  "_key": "!items!5i4WooMAaGKesXh0",
+  "name": "Fire Extinguisher",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A full-round blast from this Tool produces a chemical cloud that provides Total Concealment. Those inside the cloud can't see targets outside the cloud, and those outside the cloud can't see targets inside the cloud. The cloud spreads 1 square in all directions for every round it is activated. It dissipates after 3 rounds (no matter how large the cloud). Each full-round blast depletes one-tenth of the Fire Extinguisher's chemical supply. </p><p>If used for its intended purpose, the extinguisher can put out a fire of up to 10 squares in size, at a rate of 1 square per round before it is depleted. </p><p>Reloading the Fire Extinguisher is a Full-Round Action. Replacement chemical cartridges for the Fire Extinguisher costs 25 credits each. </p>",
+    "quantity": 1,
+    "cost": 50,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "AOL41mZJawe9pNLA",
+      "sourceBook": "",
+      "category": "Tools"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "ggy9jyietziUHk7M",
+  "_key": "!items!ggy9jyietziUHk7M",
+  "name": "Bracer Computer",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Bracer Computer is a Datapad worn on the user's forearm. It performs all the same functions as the Standard Datapad, including the ability to read standard Datacards in a slot on the underside of the device. The Bracer Computer also features a holographic screen that displays information as a two-dimensional image about three centimeters above the device. Plus, the keyboard is designed to accommodate one-handed typing. The Bracer Computer is popular among those who need to conserve space with their Equipment, particularly bounty hunters. </p><p>A Bracer Computer has an Intelligence score of 12. </p>",
+    "quantity": 1,
+    "cost": 1300,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "c9Ua5YXPwwSbahtu",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide",
+      "category": "Computers and Storage Devices"
+    }
+  }
+}

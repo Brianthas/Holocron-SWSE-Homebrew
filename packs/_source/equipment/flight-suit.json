@@ -1,0 +1,24 @@
+{
+  "_id": "BKBUTXwqS5GtrERb",
+  "_key": "!items!BKBUTXwqS5GtrERb",
+  "name": "Flight Suit",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Flight Suit is a one-piece coverall (plus a helmet) that provides life support, protects the wearer from hostile environments, and prevents the wearer from succumbing to the adverse effects of high-velocity flying. A Flight Suit includes a matching helmet and gloves that seal around the wearer and provides up to 10 hours of life support. </p><p>As long as you have life support remaining, you are immune to any hostile atmosphere or inhaled Poison hazard. The suit also grants a +1 Equipment bonus to your Fortitude Defense. </p>",
+    "quantity": 1,
+    "cost": 1000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WRwjEubP8KPDme0h",
+      "sourceBook": "",
+      "category": "Life Support"
+    }
+  }
+}

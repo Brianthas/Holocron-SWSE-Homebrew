@@ -1,0 +1,24 @@
+{
+  "_id": "0aN9At63rcMFgQOS",
+  "_key": "!items!0aN9At63rcMFgQOS",
+  "name": "Toxin Detector",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Assassination by Poison is one of the dangers faced by nobles, politicians and other notable figures. This Tiny handheld device scans food and drink to determine if it is spoiled or contains Poison. Using the device requires a Standard Action. It has a range of one square and contains data for up to 100 different Species. The Toxin Detector can be set to blink a light (Green for safe food and red for dangerous) or to vibrate slightly when a toxin is detected. For an additional 100 credits, the Toxin Detector can be disguised as a bracelet or other piece of jewelry for maximum discretion. </p>",
+    "quantity": 1,
+    "cost": 700,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pB926mP81voLrQL9",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue",
+      "category": "Medical Gear"
+    }
+  }
+}

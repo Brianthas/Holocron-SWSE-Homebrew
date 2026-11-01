@@ -1,6 +1,6 @@
 /* global game, foundry, Actor, __PACK_DOCS__ */
 // Converted weapons and armor on a character, read off the rendered sheet.
-// pack-docs: weapons/lightsaber, weapons/blaster-pistol, weapons/vibroaxe, armor/power-armor, armor/battle-armor, armor/mesh-armor
+// pack-docs: weapons/lightsaber, weapons/blaster-pistol, weapons/vibroaxe, armor/power-armor, armor/battle-armor, armor/mesh-armor, equipment/comlink, equipment/tool-kit, equipment/computer-spike
 //
 //   Gear Probe: Jedi 1, STR 10, DEX 14, CON 10.
 //   Lightsaber (melee, STR): Attack +1 (BAB 1 + STR 0), Damage 3d8.
@@ -32,7 +32,13 @@ const actor = await Actor.create({
   system: { abilities: { str: { base: 10 }, dex: { base: 14 }, con: { base: 10 } }, progression: [{ class: jedi }] },
   items: [{ name: "Human", type: "species", system: { size: "medium" } }, { _id: jedi, name: "Jedi", type: "class", system: { heroic: true, hitDie: 10, hpFirstLevel: 30 } }, ...items],
 });
-check("converted weapons and armor embed and validate", actor.items.filter((i) => ["weapon", "armor"].includes(i.type)).length === items.length, { embedded: actor.items.size });
+check("converted weapons, armor and equipment embed and validate", actor.items.filter((i) => ["weapon", "armor", "equipment"].includes(i.type)).length === items.length
+  && actor._source.items.filter((i) => ["weapon", "armor", "equipment"].includes(i.type)).length === items.length, { embedded: actor.items.size });
+const gear = (name) => actor.items.getName(name)?.system;
+check("equipment: Comlink Light, Tool Kit Kit with a price, Computer Spike's variable price stays empty",
+  gear("Comlink")?.slot === "light" && gear("Tool Kit")?.slot === "kit" && Number.isInteger(gear("Tool Kit")?.cost) && gear("Tool Kit").cost > 0
+  && gear("Computer Spike")?.cost === null && actor._source.items.find((i) => i.name === "Computer Spike")?.system.cost === null,
+  { comlink: gear("Comlink")?.slot, toolKit: [gear("Tool Kit")?.slot, gear("Tool Kit")?.cost], spike: gear("Computer Spike")?.cost });
 
 const read = async () => {
   const sheet = actor.sheet;

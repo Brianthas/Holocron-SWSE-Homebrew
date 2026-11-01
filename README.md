@@ -38,7 +38,7 @@ characters.
 
 `npm run packs:convert` builds `packs/_source` from the SWSE fork's `packs/_source`, read from a
 checkout beside this repo (or `FORK_PACKS`). Converted so far: Force powers, techniques,
-secrets, regimens, feats, talents, species, classes, weapons and armor. Ids are derived from each item's pack and name, so a rebuild never changes them; the
+secrets, regimens, feats, talents, species, classes, weapons, armor and equipment. Ids are derived from each item's pack and name, so a rebuild never changes them; the
 fork's id is kept in `flags.holocron.sourceId`. The run fails on a source field it has no mapping
 for, on a duplicate id, and on a file in an output pack it did not write (`--prune` deletes those).
 `tools/convert/out/report.json` lists every document left out, with the rule that removes it.

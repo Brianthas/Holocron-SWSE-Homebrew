@@ -1,0 +1,24 @@
+{
+  "_id": "bGLbTazY3rCNCYx1",
+  "_key": "!items!bGLbTazY3rCNCYx1",
+  "name": "Comlink",
+  "type": "equipment",
+  "system": {
+    "description": "<table> \n <tbody>\n  <tr> \n   <th>COMLINK </th> \n   <th>COST </th> \n   <th>WEIGHT </th>\n  </tr> \n  <tr> \n   <td>Short-Range </td> \n   <td>25 </td> \n   <td>0.1 kg </td>\n  </tr> \n  <tr> \n   <td>Long-Range </td> \n   <td>250 </td> \n   <td>1 kg </td>\n  </tr>\n </tbody>\n</table><p>A personal communications transceiver, the Comlink consists of a receiver, a transmitter, and a power source. Comlinks come in a variety of shapes and styles. </p><p>Short-Range Comlinks have a range of 50 kilometers or low orbit, and they can be built into helmets and Armor; for example, Stormtrooper Armor includes a helmet equipped with a Short-Range Comlink. </p><p>A Long-Range Comlink has a range of 200 kilometers or high orbit, and it requires with a backpack-sized <span class=\"new\" title=\"Comset (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQ29tc2V0P2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Comset</span>. For double the cost, a Long-Range Comlink can be miniaturized to a wrist-sized unit. </p><ul>\n <li><b>Encryption: </b>A Comlink can have hardwired encryption routines (adding +10 to the DC of all Use Computer checks made to intercept your transmission) for ten times the base cost.</li> \n <li><b>Video Capability: </b>A Comlink can have Video capability (two-dimensional images in addition to Audio) for twice the base cost.</li> \n <li><b>Holo Capability: </b>A Comlink can have Holo capability (three-dimensional images in addition to Audio) for five times the base cost.</li>\n</ul><h2>Additional Calls for Help</h2><p>From the point of view of the criminal, the best way to avoid trouble is be far away before law officers reach the scene. As a Swift Action, any Comlink can use a short emergency code to contact local dispatchers that can send one or two patrolling Security Officers to investigate. </p><p>Although response times vary considerably from planet to planet, Security Officers usually appear 1d4x10 rounds after dispatch reports a crime in progress. Multiply these times by 5 for areas with no regular security presence (such as frontier or wilderness areas), multiply by 2 for lightly patrolled areas, multiply by 1/2 for heavily patrolled areas, and multiply by 1/5 for areas with a constant security presence (such as near major government facilities). </p><p>If a major crime is in progress (such as a bank robbery, hostage situation, or open blaster fire) or if the first officer on the scene calls for backup, multiple units are dispatched, increasing the chances of an early response. Roll 1d4+1 to determine the number of units deployed, then determine the response time for each unit separately. </p><p>In a serious emergency, officers can call for a crisis response team of Security Specialists with heavier armor, better weapons, armored vehicles, and so forth. Because these teams don't patrol the area regularly, they have a typical response time of 2d10+10 minutes, modified as above. </p>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "light",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "W2FcadJnLngXGtEC",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy",
+      "category": "Communications Devices"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "GfaKRuCepWx5S6ek",
+  "_key": "!items!GfaKRuCepWx5S6ek",
+  "name": "Power Pack",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Power Pack is a compact rectangular battery that fits into the grip or barrel of an energy weapon, such as a blaster, to provide the power needed to fire it. A Power Pack can be recharged with a Power Recharger. </p>",
+    "quantity": 1,
+    "cost": 25,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Tf5Sj80GTw1jE9b3",
+      "sourceBook": "",
+      "category": "Tools"
+    }
+  }
+}

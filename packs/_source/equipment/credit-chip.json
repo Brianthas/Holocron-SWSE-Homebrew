@@ -1,0 +1,24 @@
+{
+  "_id": "dfU5pd8sayK8X43G",
+  "_key": "!items!dfU5pd8sayK8X43G",
+  "name": "Credit Chip",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Credit Chip is a small, flat card that features a security codeout and credit algorithm memory stripes. The chip can hold a specified number of credits appropriate to the government that issued it, or it can draw from a specific account held by the user. Credit Chips not only allow quick and easy transfers of funds, but also protect users from theft. </p><p>Credit Chips are storage devices with an Intelligence score of 10 and a Will Defense of 15. Improving your access to a Credit Chip is very difficult because the chip has a starting Attitude of Hostile. Once it is Friendly, you can draw from the account to which it is linked. If you fail by 5 or more on your Use Computer check to improve access, the Credit Chip's security program detects the intrusion attempt and Self-Destructs. </p><p>Modifying a Credit Chip so that government and bank computers think that it draws on a different account or that it has a different value stored is almost impossible: The central bank's computers have a Will Defense of 30, and a starting Attitude of Hostile; even worse, you won't know if your check succeeded until after you attempt to use the modified Credit Chip. If you fail, the government or bank computer orders the chip's Self-Destruct programming to activate, ruining the chip. If you fail by 5 or more, the chip's Self-Destruct programming activates, and the government or bank computer traces your location, dispatching security personnel to apprehend you. </p>",
+    "quantity": 1,
+    "cost": 100,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CAEwNT8Lib3DxMYR",
+      "sourceBook": "",
+      "category": "Computers and Storage Devices"
+    }
+  }
+}

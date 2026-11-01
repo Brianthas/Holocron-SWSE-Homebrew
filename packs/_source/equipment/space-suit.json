@@ -1,0 +1,24 @@
+{
+  "_id": "dOwf9cpy1hiu58cg",
+  "_key": "!items!dOwf9cpy1hiu58cg",
+  "name": "Space Suit",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This bulky coverall contains a sealed life support system that provides everything the wearer needs to survive for 24 hours in the Vacuum of space or any other hostile environment. </p><p>As long as you have life support remaining, you are immune to any atmosphere or inhaled Poison hazard. The suit also grants a +2 Equipment bonus to your Fortitude Defense. </p>",
+    "quantity": 1,
+    "cost": 2000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HAQyxYMonqS44aZJ",
+      "sourceBook": "",
+      "category": "Life Support"
+    }
+  }
+}

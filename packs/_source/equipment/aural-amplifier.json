@@ -1,0 +1,24 @@
+{
+  "_id": "Uguc44vtNy9AIDlv",
+  "_key": "!items!Uguc44vtNy9AIDlv",
+  "name": "Aural Amplifier",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Aural Amplifier is a device worn on the head, allowing the wearer to hear from a great distance. By amplifying sound waves originating from the direction of the wearer's interest while dampening ambient noise, the Aural Amplifier grants the wearer a +5 Equipment bonus on Perception checks to Eavesdrop. An Aural Amplifier cannot be worn at the same time as Armor with a helmet or any other device worn on the head. </p>",
+    "quantity": 1,
+    "cost": 2000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Ithj0NMQWTEI4T9R",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

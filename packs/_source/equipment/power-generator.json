@@ -1,0 +1,24 @@
+{
+  "_id": "EcxiQHdeaouEV0ZQ",
+  "_key": "!items!EcxiQHdeaouEV0ZQ",
+  "name": "Power Generator",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Power Generator is a small fusion reactor that provides continuous power for Heavy Weapons, Vehicles, structures, and machinery. It can power anything up to a Gargantuan Vehicle or structure indefinitely, a Colossal Vehicle or structure for 1 day, and a Vehicle or structure of Colossal (Frigate) size for 1 hour. After that, it is Disabled and must be replaced. </p><p>If a Power Generator is destroyed while in use, its fusion reactor overloads and explodes, venting plasma into the surrounding area. When a fusion reactor explodes, make an attack roll (1d20+10) against the Reflex Defense of every target within 4 squares. If the attack succeeds, the target takes 8d6 points of energy damage. If the attack misses, the target takes half damage. A target with the <b>Evasion</b> talent takes half damage if the attack succeeds, and no damage if the attack misses. This is an Area Attack. </p>",
+    "quantity": 1,
+    "cost": 750,
+    "slot": "kit",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uFzBJrpUQDroHJeT",
+      "sourceBook": "",
+      "category": "Tools"
+    }
+  }
+}

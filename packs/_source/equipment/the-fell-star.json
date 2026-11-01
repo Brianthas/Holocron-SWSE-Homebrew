@@ -1,0 +1,24 @@
+{
+  "_id": "AMH3tSLFFBRKw9cY",
+  "_key": "!items!AMH3tSLFFBRKw9cY",
+  "name": "The Fell Star",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The origin of the Fell Star is a mystery that has been lost to time. The artifact dates to pre-Republic times. Some legends, if uncovered by studious heroes, reveal that The Fell Star was a Sith talisman, but even these tales cannot be verified. </p><p>The Fell Star is a powerful Force artifact. If worn by a Force-user, it allows the user to regain a spent Force Power of their choice as a Standard Action; for each Force Power so regained, the user gains one Dark Side Point. In addition, a Force-user who wears The Fell Star gains a +2 Force bonus to Use the Force checks made to activate Force Powers with the [<i>Dark Side</i>] descriptor. </p>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fEHRcdTvCAZxLx6w",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy",
+      "category": "Sith Artifacts"
+    }
+  }
+}

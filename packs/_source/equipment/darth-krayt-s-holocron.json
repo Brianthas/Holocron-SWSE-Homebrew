@@ -1,0 +1,24 @@
+{
+  "_id": "ezZ890E0iK0lAheH",
+  "_key": "!items!ezZ890E0iK0lAheH",
+  "name": "Darth Krayt's Holocron",
+  "type": "equipment",
+  "system": {
+    "description": "<table style=\"width:100%; margin-top:1em; border:1px solid #999; font-size:90%; text-align:center; background:#363636\"> \n <tbody>\n  <tr> \n   <td><i>This article details the Legacy Era Campaign Guide Sith Artifact Darth Krayt's Holocron. For other uses, see Darth Krayt (Disambiguation).</i> </td>\n  </tr>\n </tbody>\n</table><p>There is a secret known only to two individuals in the galaxy that could prove to be the catalyst for great change: Darth Krayt, Emperor of the galaxy and ruler of The Sith, is dying. However, this is not the only secret shared by Darth Krayt and Darth Wyyrlok. </p><p>Since Darth Krayt discovered the true extent of his body's degradation, the Sith Lord has been crafting a Holocron to store the sum total of his knowledge as well as his beliefs and philosophies. However, at the height of the Sith-Imperial War, this Holocron is not yet complete. Despite this fact, the Holocron is still a repository for great knowledge, including many secrets and bits of lore known only to Darth Krayt himself. </p><p>Were the Holocron to fall into the hands of The Galactic Alliance or The Hidden Temple, it could be analyzed for signs of weakness and perhaps uncover secret plans previously unknown to the galaxy at large. If the Holocron were found by Darth Krayt's rivals within The Sith, it could lead to a coup d'etat, further fragmenting the Empire and plunging the galaxy into a war of many factions. </p>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CIZBFtl2K1pVvpwX",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide",
+      "category": "Sith Artifacts"
+    }
+  }
+}

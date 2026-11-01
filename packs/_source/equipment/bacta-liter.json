@@ -1,0 +1,24 @@
+{
+  "_id": "ab1oacG0a5sDgoq1",
+  "_key": "!items!ab1oacG0a5sDgoq1",
+  "name": "Bacta (liter)",
+  "type": "equipment",
+  "system": {
+    "description": "This large specialized tank is filled with the powerful healing agent, Bacta, which promotes rapid healing.\n\nA Bacta Tank can be used in conjunction with Surgery. If the Treat Injury check is successful, the patient heals a number of hit points equal to it's Character Level, in addition to that provided by Surgery.\n\nA Bacta Tank can also be used when treating Disease, Poison, or Radiation in a creature. In this case, the Bacta Tank grants a +5 Equipment bonus on your Treat Injury check.\n\nA Bacta Tank and a supply of Bacta is expensive, so much medical equipment is usually found only in hospitals, aboard Capital Ships, and within major military bases. Each hour of treatment consumes one liter of Bacta, which costs 100 credits. A typical Bacta Tank holds up to 300 liters of Bacta, and the Bacta Tank must hold at least 150 liters at all times to provide any benefit. Only one creature can be immersed in the tank at any given time.",
+    "quantity": 1,
+    "cost": 100,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4ThmdL5v5n8sbifv",
+      "sourceBook": "",
+      "category": "Medical Gear"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "pp1i4vsrJnffcDeh",
+  "_key": "!items!pp1i4vsrJnffcDeh",
+  "name": "Bandolier",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Since there are so many types of weapons, there are an equally large number of ammunition types. Depending upon the weapon the wearer carries, a Bandolier may contain any number or form of ammunition. </p><p>A Bandolier has 12 slots that can each hold a single Tiny weapon (such as a Grenade or knife), or single piece of Equipment weighing up to 0.5 kg. Any item on the Bandolier can be retrieved as a Move Action. </p><p>No items come stocked on a standard Bandolier, as they do with the Utility Belt. </p>",
+    "quantity": 1,
+    "cost": 100,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Kxh2rMU5OUIyHgX0",
+      "sourceBook": "",
+      "category": "Weapon and Armor Accessories"
+    }
+  }
+}

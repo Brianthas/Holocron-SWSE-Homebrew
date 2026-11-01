@@ -1,0 +1,24 @@
+{
+  "_id": "qj0uzbOnRECZqY4S",
+  "_key": "!items!qj0uzbOnRECZqY4S",
+  "name": "Medical Interface Visor",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This visor contains thousands of preprogrammed medical training tutorials. It analyzes visuals and provides tips and assistance in a variety of medical situations. The Medical Interface Visor allows the wearer to attempt Trained-only applications of the Treat Injury Skill even if Untrained, and grants a +2 Equipment bonus on all Treat Injury checks. A Medical Interface Visor cannot be worn at the same time as Armor with a helmet or any other device worn on the head. </p>",
+    "quantity": 1,
+    "cost": 1500,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Ch81BhOQ6yCggpCS",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+      "category": "Medical Gear"
+    }
+  }
+}

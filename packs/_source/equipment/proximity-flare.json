@@ -1,0 +1,24 @@
+{
+  "_id": "W3YUAbqEdJgTffkb",
+  "_key": "!items!W3YUAbqEdJgTffkb",
+  "name": "Proximity Flare",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Soldiers and explorers use Proximity Flares as warning devices on the perimeters of encampments. A flare is housed in a small cylinder with a spike on the bottom, allowing it to be securely placed on the ground. Sensors in the cylinder detect nearby shifts in air pressure. When any Small or larger character, creature, Droid, or Vehicle comes within a 3-square radius of the Proximity Flare, the flare launches, creating a stark, bright light illuminating a 10-square radius and eliminating Concealment penalties due to insufficient lighting. Creatures can avoid tripping a Proximity Flare by making a DC 25 Stealth check. </p>",
+    "quantity": 1,
+    "cost": 50,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "qYWlb9DOeItRLpSQ",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

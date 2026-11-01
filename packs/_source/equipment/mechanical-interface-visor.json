@@ -1,0 +1,24 @@
+{
+  "_id": "6GzxXUeOUe7pPZZL",
+  "_key": "!items!6GzxXUeOUe7pPZZL",
+  "name": "Mechanical Interface Visor",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This visor translates images received through it's visual sensors and scans them for common mechanical designs. The visor then provides the wearer a heads-up display of basic information and tips on dealing with those designs. The Mechanical Interface Visor allows the wearer to attempt Trained-only applications of the&nbsp;Mechanics&nbsp;Skill even if&nbsp;Untrained, and grants a +2&nbsp;Equipment bonus on all&nbsp;Mechanics&nbsp;checks. A Mechanical Interface Visor cannot be worn at the same time as Armor with a helmet or any other device worn on the head. </p>",
+    "quantity": 1,
+    "cost": 1250,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9w5rEWFLX9W0aX73",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+      "category": "Tools"
+    }
+  }
+}

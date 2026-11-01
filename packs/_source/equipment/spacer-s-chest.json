@@ -1,0 +1,24 @@
+{
+  "_id": "iqEWqe9gfbgLaHpC",
+  "_key": "!items!iqEWqe9gfbgLaHpC",
+  "name": "Spacer's Chest",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Spacer's Chest is a special container commonly kept by smugglers and pirates to store their most prized possessions. A Spacer's Chest usually carries not only valuables but also emergency items like spare clothes, <span class=\"new\" title=\"Credits Stick (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQ3JlZGl0c19TdGljaz9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Credits Sticks</span>, <span class=\"new\" title=\"Data Disc (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvRGF0YV9EaXNjP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Data Discs</span>, small Tools, concentrated food, and a Hold-Out Blaster Pistol with Energy Cells. A Spacer's Chest has enough consumables to feed one person for 10 days, and has an electronic locking mechanism that has a Will Defense of 30. </p>",
+    "quantity": 1,
+    "cost": 200,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sF9w7c8qvQJYerOE",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy",
+      "category": "Survival Gear"
+    }
+  }
+}

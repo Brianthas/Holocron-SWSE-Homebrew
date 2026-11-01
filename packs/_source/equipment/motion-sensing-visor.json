@@ -1,0 +1,24 @@
+{
+  "_id": "H4zxVyY6YWpp21uu",
+  "_key": "!items!H4zxVyY6YWpp21uu",
+  "name": "Motion Sensing Visor",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Motion Sensing Visor tracks movement and highlights moving objects with color-coded warnings. This allows the wearer to see moving opponents with ease, even those attempting to be stealthy. The wearer of this visor gains a +5 Equipment bonus to Perception checks against targets that have moved at least one square since the wearer's last turn. However, a Motion Sensing Visor can be disorientating, especially in the heat of combat, and a character must spend two additional Swift Actions to use the Recover Action when attempting to move up the Condition Track. A Motion Sensing Visor cannot be worn at the same time as Armor with a helmet or any other device worn on the head. </p>",
+    "quantity": 1,
+    "cost": 2500,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "E5pwVitG6MOH3jai",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

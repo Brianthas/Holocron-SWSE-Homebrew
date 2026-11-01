@@ -1,0 +1,24 @@
+{
+  "_id": "AL2ncVMCPMT96QtF",
+  "_key": "!items!AL2ncVMCPMT96QtF",
+  "name": "Droid Diagnostic",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Mechanics and Droid builders throughout the galaxy use the Interstellar Droid Monitoring Inc. Mk-11 Droid Diagnostic. This handheld device- roughly twice the size of a standard Datapad- diagnoses and analyzes the functions of any Droid connected to it, displaying damage or errors in the Droid's systems. The Droid Diagnostic grants a +2 Equipment bonus on Mechanics checks for a Droid connected to it. </p>",
+    "quantity": 1,
+    "cost": 400,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7DUoeAUEPvCCL9FC",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Tools"
+    }
+  }
+}

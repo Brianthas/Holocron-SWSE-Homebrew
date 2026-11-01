@@ -1,0 +1,24 @@
+{
+  "_id": "oZ8ny2uDUaDwEgTt",
+  "_key": "!items!oZ8ny2uDUaDwEgTt",
+  "name": "Sensor Pack",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A portable scanning device, the Sensor Pack is a bulky rectangle featuring a variety of dials and switches, a readout display, and a scanning dish. It provides general details on comm signals, life forms, and hazards within 1 kilometer. Operating a Sensor Pack requires a Standard Action, and grants a +5 circumstance bonus on your Perception checks until the end of your next turn. </p>",
+    "quantity": 1,
+    "cost": 1500,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Ptvs0xKvnwbDJL8q",
+      "sourceBook": "",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

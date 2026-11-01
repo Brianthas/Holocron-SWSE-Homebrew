@@ -1,0 +1,24 @@
+{
+  "_id": "yjAu9anfc5c2NxKU",
+  "_key": "!items!yjAu9anfc5c2NxKU",
+  "name": "Shipsuit",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Manufactured by Ayelixe/Krongbing Textiles, the Shipsuit is a multipocketed coverall made of a tough Synthmesh fabric, which has been known to last through years of regular use. A fitted coverall can also be used as a envirosuit in an emergency, although a separate Life Support system such as a Breath Mask is required. </p><p>A Shipsuit provides enough pockets and pouches to carry up to 24 objects of Small size and weighing no more than 1 kg each. The cumulative weight of the objects is halved for the purpose of calculating the wearer's total Carried Weight. A character wearing a Shipsuit receives a +1 Equipment bonus to his or her Fortitude Defense when resisting Extreme Temperatures. </p>",
+    "quantity": 1,
+    "cost": 200,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2Gub0FlEk73MogqU",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Life Support"
+    }
+  }
+}

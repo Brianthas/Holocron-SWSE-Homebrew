@@ -1,0 +1,24 @@
+{
+  "_id": "aMwm13XlVYgtEmoC",
+  "_key": "!items!aMwm13XlVYgtEmoC",
+  "name": "Vox-Box",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Vox-Box is a simple audio playback unit with 12 preprogrammed phrases in Basic (\"Yes.\" \"No.\" \"Maybe.\" \"Greetings.\" \"Go Away.\" \"How much?\" \"Please take me to someone with authority.\" \"I understand.\" \"I need assistance.\" \"I can help you.\" \"I mean no harm.\" \"I am hungry.\"), each with its own button. These devices are useful to races that understand Basic but can't speak it (Such as Gamorreans and Wookiees). Devices that speak these phrases in other Languages also exist. </p><p>Altering one or more of the Vox-Box's preprogrammed phrases requires a DC 10 Use Computer check. </p>",
+    "quantity": 1,
+    "cost": 200,
+    "slot": "light",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2FKufaJnu2V4mLsN",
+      "sourceBook": "",
+      "category": "Communications Devices"
+    }
+  }
+}

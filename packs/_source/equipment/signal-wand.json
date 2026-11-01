@@ -1,0 +1,24 @@
+{
+  "_id": "eHwcuAaCm9VVPsp2",
+  "_key": "!items!eHwcuAaCm9VVPsp2",
+  "name": "Signal Wand",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Signal Wand is a 0.25-meter-long stick that has multiple functions. One of its most popular features is its orbital-range broadband Comlink, which can transmit a Tight-Beam signal well beyond a planet's gravity well. If the Signal Wand is connected to a more powerful energy source, the Tight-Beam signal can travel through subspace to reach interstellar distances. However, the user must know exactly where to point the Signal Wand to ensure the beam is on target. The Signal Wand also has a red external light that can be used to transmit signals, such as Mon Calamari blink code. </p>",
+    "quantity": 1,
+    "cost": 300,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rkl3n9milX51E4sq",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Communications Devices"
+    }
+  }
+}

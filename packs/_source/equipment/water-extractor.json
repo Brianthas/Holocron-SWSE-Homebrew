@@ -1,0 +1,24 @@
+{
+  "_id": "7kkAmCDqhuoWQRfi",
+  "_key": "!items!7kkAmCDqhuoWQRfi",
+  "name": "Water Extractor",
+  "type": "equipment",
+  "system": {
+    "description": "<p>For organic beings, water is a necessity of life. Some worlds have abundant water, but others lack this vital liquid. The Water Extractor can help beings who find themselves on a dry world. Working like a condensing canteen found in a Field Kit, the Water Extractor is a cone-shaped apparatus that attracts water vapor from the air, collecting it in specialized bins at the broad end of the cone. As the water accumulates, contaminants and toxins are filtered out, rendering the water potable. Although the amount of water collected varies depending on the moisture content of the atmosphere, field tests conducted on Tatooine yielded enough water in a period of 16 hours to sustain a humanoid for a full day. </p>",
+    "quantity": 1,
+    "cost": 400,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HTJHQ2CHMneSOdNP",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Tools"
+    }
+  }
+}

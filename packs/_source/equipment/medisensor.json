@@ -1,0 +1,24 @@
+{
+  "_id": "wQ4c2JPtU97tH545",
+  "_key": "!items!wQ4c2JPtU97tH545",
+  "name": "Medisensor",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Sweeping this small, handheld sensor over the subject's body produces a summary of the patient's vital signs. An MDS-50 Medisensor can be used as a Swift Action on an adjacent creature or character, providing the user with the target's current hit points, its place on the Condition Track, and the presence of (but no specifics on) Diseases, Poison, or Radiation exposure. </p>",
+    "quantity": 1,
+    "cost": 75,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Fal1lmg7QWQKfxVo",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy",
+      "category": "Medical Gear"
+    }
+  }
+}

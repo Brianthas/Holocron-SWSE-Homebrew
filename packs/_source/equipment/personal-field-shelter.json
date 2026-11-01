@@ -1,0 +1,24 @@
+{
+  "_id": "lPb6eX5mv9oZ3HHt",
+  "_key": "!items!lPb6eX5mv9oZ3HHt",
+  "name": "Personal Field Shelter",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Personal Field Shelter allows soldiers to have protection from the weather without having to carry a huge amount of weight. When activated, this small package expands to create a small, narrow tent large enough to hold a single Medium character. As long as the character remains sealed inside, the Personal Field Shelter provides a +10 Equipment bonus to the user's Fortitude Defense against Extreme Temperatures. For one hour, the Personal Field Shelter can also provide a breathable atmosphere, protecting against inhaled Poisons, including poisonous Atmospheres. Special filements on the exterior of the Personal Field Shelter help it blend with surroundings, granting a +2 Equipment bonus to Stealth checks. </p>",
+    "quantity": 1,
+    "cost": 500,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9jRbJUt3KzBgFd2E",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Survival Gear"
+    }
+  }
+}

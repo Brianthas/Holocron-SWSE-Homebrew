@@ -1,0 +1,24 @@
+{
+  "_id": "s15IoaeTlmsPI9fh",
+  "_key": "!items!s15IoaeTlmsPI9fh",
+  "name": "Cryogenic Pouch",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Cryogenic Pouch is a medical device that can stabilize critically wounded soldiers in the field. It comes in a small canister worn on a soldier's belt or stored in a Medical Kit. Opening the canister releases a pouch large enough to hold a single Medium creature. When the pouch is sealed, it releases a cryogenic compound that causes the creature inside to enter suspended animation, stabilizing his or her condition for transport to a proper medical facility. Bounty hunters sometimes use Cryogenic Pouches to move prisoners. </p><p>Activating a Cryogenic Pouch and wrapping it around an unconscious creature requires a Full-Round Action. A creature that has been reduced to 0 Hit Points due to Poison, Radiation, or damage surpassing it's Damage Threshold can be stabilized without dying within 1d3 rounds of being placed inside the Cryogenic Pouch. The creature remains unconscious and moves -5 steps on the Condition Track. </p><p>A Cryogenic Pouch has enough power to keep a creature alive for up to 24 hours, although it can be hooked up to another power source with a DC 10 Mechanics check. Designed for rough handling in battlefield conditions, the Cryogenic Pouch has DR 5, but a single point of damage is enough to breach the seal. If the Cryogenic Pouch is breached, the character inside reverts to its previous state after 1 round. </p>",
+    "quantity": 1,
+    "cost": 600,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "f0jWRmS75V3YHr3q",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Medical Gear"
+    }
+  }
+}

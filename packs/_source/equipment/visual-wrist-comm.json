@@ -1,0 +1,24 @@
+{
+  "_id": "7n0ebAHp25XXz1Yi",
+  "_key": "!items!7n0ebAHp25XXz1Yi",
+  "name": "Visual Wrist Comm",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Visual Wrist Comm is popular with smugglers and soldiers. The comm is a small, flat, rectangular panel that easily attaches to a glove or other flat surface. The comm sends and receives audio and visual signals, and it can display holographic information, though only as a two-dimensional image. It has a range of up to 75 kilometers while planetside- sufficient to reach orbital range- and runs on a single Energy Cell, which must be replaced after 10 days of continuous use. In addition, the Visual Wrist Comm functions as a Basic Datapad that stores and receives information from Droids, comm signals, direct computer links, and standard Datacards. </p>",
+    "quantity": 1,
+    "cost": 1300,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SbghUGeG7Iyxwcc6",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide",
+      "category": "Communications Devices"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "azMqXfZMkujudqmQ",
+  "_key": "!items!azMqXfZMkujudqmQ",
+  "name": "Mandalorian Jet Pack",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Mandalorian Jet Pack functions identically to a standard Jet Pack, but has an integrated Missile Launcher and a magnetic grappling hook (which functions as a Liquid Cable Dispenser). A Mandalorian Jet Pack is considered to have a Military availability. Replacement fuel cells cost 100 credits. </p><p>Activating a Mandalorian Jet Pack is a Swift Action, and you gain a fly speed of 6 squares until the end of your turn. A Mandalorian Jet Pack has 10 charges and can be run continuously; no Swift Action is required to activate the Mandalorian Jet Pack on subsequent rounds of use. </p><p>Routine maneuvers do not require a Pilot check, but you must make a DC 20 Pilot check if you land after moving more than 12 squares during the same turn; on a failure you fall Prone. </p>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "kit",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "SU7sDwi0vOSxj9OO",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy",
+      "category": "Survival Gear"
+    }
+  }
+}

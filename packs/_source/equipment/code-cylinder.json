@@ -1,0 +1,24 @@
+{
+  "_id": "fYVuNxWdqN8bfcv8",
+  "_key": "!items!fYVuNxWdqN8bfcv8",
+  "name": "Code Cylinder",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A compact encoded security device issued to many military, political, or corporate officials, a Code Cylinder accesses computer data via a Droid's Scomp Link or provides entry into restricted facilities. Each cylinder features the user's personal security clearance data. High-ranking personnel may carry more than one cylinder, each with different access codes encrypted within them. Republic citizens, Imperial officers, and New Republic personnel use them to facilitate security measures. </p><p>Code Cylinders are storage devices with an Intelligence score of 10, and a Will Defense of 15. Improving your access to a Code Cylinder is difficult because the cylinder has a starting Attitude of Hostile. If your Use Computer check fails by 5 or more, the Code Cylinder's Self-Destruct programming activates and ruins the cylinder. </p>",
+    "quantity": 1,
+    "cost": 500,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XJeC204xvAPTd0ba",
+      "sourceBook": "",
+      "category": "Computers and Storage Devices"
+    }
+  }
+}

@@ -93,6 +93,62 @@ export function convertWeapons(report: Report): OutputDoc[] {
   return out;
 }
 
+/**
+ * General equipment. The fork gives a slot only to the items the house text lists as Light or Kit
+ * (episode-vii, Equipment); the rest use no slot until the player picks one on the sheet, as the
+ * fork's own sheet does ("cycles an item's Light/Kit slot category (none -> Light -> Kit -> none)").
+ * The "Equipment" subtype holds the wiki's rule and article pages (hazards, books, categories,
+ * Heirloom Item rules), held until Bryan decides what becomes of them; the droid accessories go to
+ * droid systems.
+ */
+const EQUIPMENT_KEYS_DROPPED: Record<string, string> = {
+  equipmentFortitudeDefenseBonus: "a suit's Fortitude bonus applies while worn; equipment has no worn state yet",
+  int: "a datapad's processing value, not used",
+  bacta: "bacta volume, text",
+  credit: "a credit chip's balance, kept by the player",
+  creditType: "a credit chip's balance, kept by the player",
+  creditEntityType: "a credit chip's balance, kept by the player",
+  cargoCapacity: "a lifting aid's multiplier, text",
+  ammo: "power packs are not tracked (rulings.md, Equipment)",
+};
+/** Prices the fork writes as text because they depend on the variant. */
+const VARIABLE_COSTS = new Set(["See Below", "100000 + bacta * 100"]);
+export function convertEquipment(report: Report): OutputDoc[] {
+  const PACK = "equipment";
+  const out: OutputDoc[] = [];
+  for (const doc of readPack(PACK)) {
+    const subtype = String(doc.system["subtype"] ?? "");
+    if (subtype === "Equipment") { report.exclude(PACK, doc, "held: a wiki rule or article page in the equipment pack; Bryan to decide"); continue; }
+    if (subtype.startsWith("Droid Accessories")) { report.exclude(PACK, doc, "held: a droid accessory, converted with droid systems"); continue; }
+    const fail = (message: string) => report.problem(PACK, doc, message);
+    // weight, availability, seeAlso and specialQualities are text the description repeats or the
+    // wiki's navigation; size is the item's size category.
+    checkKeys(PACK, doc, {
+      mapped: ["description", "changes", "cost", "subtype", "source", "weight", "seeAlso", "lightSlotCost", "kitSlotCost", "size", "availability", "prerequisite", "specialQualities"],
+      constant: { quantity: 1 },
+    }, report);
+    for (const change of changesOf(doc)) {
+      const reason = EQUIPMENT_KEYS_DROPPED[change.key];
+      if (reason) report.note(`dropped: ${reason}`, doc.name);
+      else fail(`unmapped change ${change.key}`);
+    }
+    const rawCost = String(doc.system["cost"] ?? "");
+    let cost: number | null = Number(rawCost.replace(/,/g, ""));
+    if (VARIABLE_COSTS.has(rawCost)) { cost = null; report.note("price varies; the description gives it", `${doc.name}: "${rawCost}"`); }
+    else if (!Number.isInteger(cost) || cost < 0) { fail(`cost ${JSON.stringify(rawCost)}`); continue; }
+    const light = Number(doc.system["lightSlotCost"] ?? 0);
+    const kit = Number(doc.system["kitSlotCost"] ?? 0);
+    if ((light && kit) || light > 1 || kit > 1) { fail(`slots: light ${light}, kit ${kit}`); continue; }
+    const slot = kit ? "kit" : light ? "light" : "none";
+    const cleaned = cleanDescription(String(doc.system["description"] ?? ""));
+    report.sections(PACK, doc, cleaned);
+    out.push(itemDoc(`${PACK}:${slugify(doc.name)}`, doc.name, "equipment", {
+      description: cleaned.html, quantity: 1, cost, slot, carry: "carried", integrated: false,
+    }, doc, { sourceBook: String(doc.system["source"] ?? "") || cleaned.sourceBook, category: subtype }));
+  }
+  return out;
+}
+
 export function convertArmor(report: Report): OutputDoc[] {
   const PACK = "armor";
   const table = new Map(armorTable().map((row) => [row.name, row]));

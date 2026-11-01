@@ -1,0 +1,24 @@
+{
+  "_id": "ifoXvkLs3O2KZRME",
+  "_key": "!items!ifoXvkLs3O2KZRME",
+  "name": "Halo Lamp",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A pocket-sized disc small enough to fit in the palm of a Human hand, the Halo Lamp shines a bright light in a circle around the person holding it out to a 3-square radius. While lit, it remains cool to the touch, and it can easily be attached as a Weapon Accessory. </p>",
+    "quantity": 1,
+    "cost": 30,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "pWcx2b8UXHf2pAEr",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

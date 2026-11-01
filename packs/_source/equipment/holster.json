@@ -1,0 +1,24 @@
+{
+  "_id": "UO0L2TbBJljU6yaV",
+  "_key": "!items!UO0L2TbBJljU6yaV",
+  "name": "Holster",
+  "type": "equipment",
+  "system": {
+    "description": "<table> \n <tbody>\n  <tr> \n   <th>HOLSTER </th> \n   <th>COST </th> \n   <th>WEIGHT </th>\n  </tr> \n  <tr> \n   <td>Hip Holster </td> \n   <td>25 </td> \n   <td>0.5 kg </td>\n  </tr> \n  <tr> \n   <td>Concealed Holster </td> \n   <td>50 </td> \n   <td>0.2 kg </td>\n  </tr>\n </tbody>\n</table><p>Holsters are generally available for all Medium or smaller weapons. (Larger weapons are usually carried on shoulder straps, hangers, or baldrics that cost as much as a Hip Holster.) A Holster for a melee weapon is usually called a sheath. </p><p><b>Hip Holster: </b>This Holster holds the weapon in an easily accessed- and easily seen- location. </p><p><b>Concealed Holster: </b>A Concealed Holster is designed to help keep a weapon out of sight. On most cases, this is a Shoulder Holster (the weapon fits under the wearer's armpit, presumably beneath a jacket, vest, or cloak). Small or Tiny weapons and single-bladed Lightsabers can be carried in concealed waistband holsters (often placed inside the wearer's waistband in the small of the back). Tiny weapons and single-bladed Lightsabers can also be carried on ankle, boot, or wrist Holsters. </p><p>A Concealed Holster allows you to draw a Concealed weapon as a Move Action, instead of a Standard Action, but you take a -5 penalty on your Stealth check to conceal the weapon. </p>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "woGp816dJPxUtB3j",
+      "sourceBook": "",
+      "category": "Weapon and Armor Accessories"
+    }
+  }
+}

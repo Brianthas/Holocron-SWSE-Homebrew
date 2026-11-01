@@ -1,0 +1,24 @@
+{
+  "_id": "ebFT9EQGMuIfEAYf",
+  "_key": "!items!ebFT9EQGMuIfEAYf",
+  "name": "Syntherope",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Although not as compact and convenient as a Liquid Cable Dispenser, Syntherope is stronger and more durable. A coil contains 45 meters (30 squares) of Syntherope, and unlike liquid cable it is meant to be reused. Syntherope has a Strength score of 30, can safely support up to 720 kg, and it can be broken with a DC 25 Strength check. </p>",
+    "quantity": 1,
+    "cost": 20,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vfGQr6iCSC8rtRy7",
+      "sourceBook": "",
+      "category": "Survival Gear"
+    }
+  }
+}

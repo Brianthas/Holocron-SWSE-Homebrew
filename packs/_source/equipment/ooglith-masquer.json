@@ -1,0 +1,24 @@
+{
+  "_id": "ZeKLHtfeWdLbK6xW",
+  "_key": "!items!ZeKLHtfeWdLbK6xW",
+  "name": "Ooglith Masquer",
+  "type": "equipment",
+  "system": {
+    "description": "<p>An Ooglith Masquer grants a Yuuzhan Vong a +5 Equipment bonus on Deception checks when disguising themselves as a Human. Putting on or removing an Ooglith Masquer requires a Full-Round Action and moves the wearer -3 steps on the Condition Track. (These steps may be recovered normally). </p>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "VgOrpBFxxElKethc",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements (Star Wars Miniatures Previews)",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

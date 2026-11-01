@@ -1,0 +1,24 @@
+{
+  "_id": "fG2XBaNoU6uxixB6",
+  "_key": "!items!fG2XBaNoU6uxixB6",
+  "name": "Surgery Kit",
+  "type": "equipment",
+  "system": {
+    "description": "<p>This small kit contains the instruments a character needs to perform Surgery on a wounded character using the Treat Injury skill. You must be Trained in the Treat Injury skill to perform Surgery using a Surgery Kit. </p>",
+    "quantity": 1,
+    "cost": 1000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CrcktyuVPUmztX5F",
+      "sourceBook": "",
+      "category": "Medical Gear"
+    }
+  }
+}

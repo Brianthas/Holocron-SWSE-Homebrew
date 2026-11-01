@@ -1,0 +1,24 @@
+{
+  "_id": "NCKh0r0UOGaBQG8D",
+  "_key": "!items!NCKh0r0UOGaBQG8D",
+  "name": "Blank Datacards",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A data card is a simple storage device with an Intelligence score of 2. Intended solely as external storage for a computer, it has no interface for direct display, editing, or entry of data. The listed cost and weight is for a set of 10 Datacards. </p>",
+    "quantity": 1,
+    "cost": 10,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "W9bZsrHnqnR97Rp7",
+      "sourceBook": "",
+      "category": "Computers and Storage Devices"
+    }
+  }
+}

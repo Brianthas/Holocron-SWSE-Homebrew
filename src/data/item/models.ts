@@ -206,6 +206,8 @@ function equipmentSchema() {
   return {
     description: new fields.HTMLField(),
     quantity: int(1, 0),
+    /** Price in credits; null where it depends on the variant and the description gives it. */
+    cost: new fields.NumberField({ required: true, nullable: true, integer: true, min: 0, initial: 0 }),
     slot: slot(),
     carry: carry(),
     /** "Integrated Equipment takes up twice as many slots" (episode-vii, Equipment). */

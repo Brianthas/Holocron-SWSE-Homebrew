@@ -1,0 +1,24 @@
+{
+  "_id": "o2M3XboDLySHcsQj",
+  "_key": "!items!o2M3XboDLySHcsQj",
+  "name": "Healing Stimulant",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The stimulants are used as a part of the Treat Injury skill's First Aid application, and each stimulant used allows the recipient to receive First Aid one additional time per day. However, when a stimulant is used, the recipient moves -1 Persistent step on the Condition Track, and the Persistent Condition can be removed only by resting for 8 hours. The stimulants allow for additional healing, but they put a great deal of strain on the body when active. </p>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MtQpraxOwIBZgoIc",
+      "sourceBook": "Star Wars Saga Edition Dawn of Defiance (The Traitor's Gambit)",
+      "category": "Medical Gear"
+    }
+  }
+}

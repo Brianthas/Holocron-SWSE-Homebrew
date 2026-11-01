@@ -1,0 +1,24 @@
+{
+  "_id": "K6zcRUBO9qzyNkEr",
+  "_key": "!items!K6zcRUBO9qzyNkEr",
+  "name": "Communication Scanner",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Communication Scanner is a Datapad-sized device used to intercept, analyze, decode, and record Comlink, transceiver, and HoloNet transmissions. Unencrypted broadcasts are automatically picked up. By making a DC 15 Use Computer check, the user can determine the number and types of communication being broadcasted and received within a 50-kilometer radius. A DC 20 Use Computer check reveals the direction and distance of a broadcast. The Communications Scanner grants a +5 Equipment bonus to decipher encrypted messages that it receives. However, it cannot be used to locate the presence of Tightbeam Comlinks unless the Communication Scanner is directly in the path of the Tightbeam Comlink.&nbsp; </p><p>In addition, the Communication Scanner functions as a Recording Unit for the transmissions it intercepts.&nbsp; </p>",
+    "quantity": 1,
+    "cost": 1000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "P5SmVYetxAhvQMKS",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

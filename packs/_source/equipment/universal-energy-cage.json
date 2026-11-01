@@ -1,0 +1,24 @@
+{
+  "_id": "7zTKPzFkFlPjgg9m",
+  "_key": "!items!7zTKPzFkFlPjgg9m",
+  "name": "Universal Energy Cage",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Universal Energy Cage was designed by Umak Leth specifically to contain a Force-user. A vaguely spherical cage with energy flowing throughout its bars, the Universal Energy Cage delivers a shock to prisoners attempting to free themselves. Prisoners in the cage can, however, use The Force at very low levels, such as to heal themselves. The cage's functions are controlled by a handheld remote. The cage has no visible controls, and the only way to open it (Other than using the remote) is to destroy it, which endangers the life of the prisoner within. </p><p>The reinforced Durasteel cage has DR 20, 150 Hit Points, and a Damage Threshold of 25. The cage is also built with a constant shock field, and every time it takes 15 points of damage or more, the prisoner inside receives a shock that deals 4d8 points of Stun damage. </p>",
+    "quantity": 1,
+    "cost": 20000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "B4D0mX9xVmnMKFGL",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual",
+      "category": "Tools"
+    }
+  }
+}

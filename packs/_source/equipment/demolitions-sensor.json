@@ -1,0 +1,24 @@
+{
+  "_id": "A5DMgFv4a5p2AgF5",
+  "_key": "!items!A5DMgFv4a5p2AgF5",
+  "name": "Demolitions Sensor",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Resembling a pair of goggles, the Demolitions Sensor can detect both the explosives and triggering mechanisms of Mines, Grenades, and other explosive devices, highlighting them in the wearer's vision. The Demolitions Sensor grants the wearer a +5 Equipment bonus on Perception checks made to find Mines and other planted explosives. A Demolitions Sensor cannot be worn at the same time as Armor with a helmet or any other device worn on the head. </p>",
+    "quantity": 1,
+    "cost": 1000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PUC1dFSwZEf4dbwj",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+      "category": "Detection and Surveillance Devices"
+    }
+  }
+}

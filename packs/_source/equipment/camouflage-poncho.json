@@ -1,0 +1,24 @@
+{
+  "_id": "DTRRrMgLjxk0eb8I",
+  "_key": "!items!DTRRrMgLjxk0eb8I",
+  "name": "Camouflage Poncho",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Camouflage Poncho is worn over Armor to conceal the wearer from being spotted. Special materials track the surrounding area and alter the pattern of the Camouflage Poncho, smoothing and blending the wearer's silhouette. Typical examples include the Ayelixe/Krongbing Textiles Camouflage Poncho. A Camouflage Poncho grants a +5 Equipment bonus to Stealth checks. </p>",
+    "quantity": 1,
+    "cost": 125,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "yPgnqtpOxCxFC4a7",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War",
+      "category": "Survival Gear"
+    }
+  }
+}

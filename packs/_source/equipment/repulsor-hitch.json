@@ -1,0 +1,24 @@
+{
+  "_id": "0UfQhbZA5Fn5g0TK",
+  "_key": "!items!0UfQhbZA5Fn5g0TK",
+  "name": "Repulsor Hitch",
+  "type": "equipment",
+  "system": {
+    "description": "<p>When a large or heavy object needs to be moved and a Speeder is not available, a Repulsor Hitch can be used instead. The Repulsor Hitch is a small repulsorlift encased in a durasteel shell that can be attached to a cable or another extension. When activated, a Repulsor Hitch can lift items weighing up to 200 kg, enabling them to be moved. Explorers find that the Repulsor Hitch is especially useful for transporting large creatures. Objects weighing more than 200 kg are not affected by the Repulsor Hitch, since the repulsor field is not strong enough to lift the entire mass. Some Droid Models, such as the MULE Droid, are designed to allow a Repulsor Hitch to be attached to their chassis, allowing the Droids to move heavy objects. </p>",
+    "quantity": 1,
+    "cost": 100,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "P1qmR0AGb0NO53O3",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Tools"
+    }
+  }
+}

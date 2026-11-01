@@ -1,0 +1,24 @@
+{
+  "_id": "fMBPogra3tAFWNBR",
+  "_key": "!items!fMBPogra3tAFWNBR",
+  "name": "Subsonic Field Emitter",
+  "type": "equipment",
+  "system": {
+    "description": "<p>More of a convenience than a necessity for wilderness scouts, the Subsonic Field Emitter generates a subsonic pulse attuned to the nervous systems of nonsentient insects and other vermin, discouraging them from entering the emitter's 6-meter broadcast radius and allowing beings within the radius to relax without being disturbed by natural pests. Tiny or smaller creatures with an Intelligence score of 2 or less cannot willfully enter the radius of a Subsonic Field Emitter. </p>",
+    "quantity": 1,
+    "cost": 120,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FgHhfGOI4xGinfb9",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Survival Gear"
+    }
+  }
+}

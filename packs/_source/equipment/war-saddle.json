@@ -1,0 +1,24 @@
+{
+  "_id": "b0yQtEWhzV5hjamh",
+  "_key": "!items!b0yQtEWhzV5hjamh",
+  "name": "War Saddle",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A variant of the standard Riding Saddle is the War Saddle, which offers a sturdier platform for the rider, reducing the chances of being knocked off the mount and better enabling the rider to guide the Beast in combat while still fighting effectively. Use of a War Saddle on a mount provides the rider a +2 Equipment bonus to Ride checks made to control the mount in battle, to guide the mount with his or her knees, and to stay in the saddle. </p>",
+    "quantity": 1,
+    "cost": 250,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "lOLH3uPJew839Onf",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Survival Gear"
+    }
+  }
+}

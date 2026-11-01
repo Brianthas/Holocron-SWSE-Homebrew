@@ -1,0 +1,24 @@
+{
+  "_id": "fBttPZiE8JbbaHhV",
+  "_key": "!items!fBttPZiE8JbbaHhV",
+  "name": "Riding Saddle",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Although the styles vary from one corner of the galaxy to another, the basic function of a Riding Saddle remains unchanged: to provide a rider with a supportive structure that is fastened to a mount and that often incorporates a means of directing the creature. Saddles must be made to conform to the type of creature for which they are used. Most vendors who sell riding mounts include the cost of a Riding Saddle with the purchase of the creature. </p>",
+    "quantity": 1,
+    "cost": 125,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "twBtuTMj1rkQkngv",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Survival Gear"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "83cxQvTRueAemzVI",
+  "_key": "!items!83cxQvTRueAemzVI",
+  "name": "Earbud Comlink",
+  "type": "equipment",
+  "system": {
+    "description": "<p>The Earbud Comlink is a tiny Comlink fitted for the wearer's ear, allowing unobtrusive private communication for anyone needing to be discreet- ambassadors, card cheats, and spies, for example. The Earbud Comlink's size, shape, and color give the wearer a +5 Equipment bonus to Deception checks for the purpose of hiding its presence. </p><p>The Earbud Comlink can be programmed to initiate or receive a transmission when the wearer touches his or her ear or even clicks or grinds his or her teeth. Because of its minute size, the Earbud Comlink has the same range as a Comlink (Short-Range)- 50 kilometers or low orbit. </p>",
+    "quantity": 1,
+    "cost": 200,
+    "slot": "light",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fzq5aqU8yCjdccfI",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue",
+      "category": "Communications Devices"
+    }
+  }
+}

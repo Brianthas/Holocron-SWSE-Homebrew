@@ -1,0 +1,24 @@
+{
+  "_id": "vWNngdZtG3IzTDE1",
+  "_key": "!items!vWNngdZtG3IzTDE1",
+  "name": "Fire Rod",
+  "type": "equipment",
+  "system": {
+    "description": "<p>When a fire is needed and nothing is around to create a one, many people turn to a Fire Rod- a 10-cm hollow plastic tube that has two chambers, each filled with a chemical that is inert on it's own. When the two chemicals are mixed, they combine to become a highly volatile substance that ignites within seconds. A Fire Rod burns for 2d8 minutes without any additional fuel. Adding wood or other combustible material keeps the fire burning longer. </p>",
+    "quantity": 1,
+    "cost": 25,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dJ08OOO9NJ76HOqZ",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Tools"
+    }
+  }
+}

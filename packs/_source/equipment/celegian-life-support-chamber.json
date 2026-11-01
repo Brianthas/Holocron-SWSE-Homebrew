@@ -1,0 +1,24 @@
+{
+  "_id": "qhBkJdCOWELN3qmS",
+  "_key": "!items!qhBkJdCOWELN3qmS",
+  "name": "Celegian Life-Support Chamber",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Celegians rely on transplastseel life-support chambers to survive away from their homeworld. These chambers are filled with cyanogen gas and held aloft by the Celegian's natural levitation. A Celegian Life-Support Chamber possesses a Damage Reduction of 10. A Celegian encased in a Celegian Life-Support Chamber receives a +5 Equipment bonus to their Fortitude Defense, as well as increasing their Fly Speed by +2 squares. </p>",
+    "quantity": 1,
+    "cost": 0,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fZsYeuQPycmzW84d",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual",
+      "category": "Life Support"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "Hhy9pB2Qw98vZylu",
+  "_key": "!items!Hhy9pB2Qw98vZylu",
+  "name": "Vacuum Mask",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Worn or carried by individuals who spend a great deal of time aboard Starships and Space Stations, the Vacuum Mask is a short-term solution to a loss of atmosphere while aboard a spacecraft. The Vacuum Mask provides the wearer 10 minutes of breathable air, which automatically begins to flow when sensors on the mask detect a lack of breathable air. Though the Vacuum Mask is no replacement for a Space Suit, it has saved crews trapped in compartments aboard ships after the atmosphere has vented. A Vacuum Mask cannot be worn at the same time as Armor with a helmet or any other device worn on the head. </p>",
+    "quantity": 1,
+    "cost": 650,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HPdwjJrcpenra0ii",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+      "category": "Life Support"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "F5PiA8OOPodrs0n8",
+  "_key": "!items!F5PiA8OOPodrs0n8",
+  "name": "Plastent",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Plastent is a prefabricated high-grade polymer shelter that can be easily transported from place to place. Fully inflated, a Plastent forms a triangular structure about 2 meters tall, providing enough room for four beings of Medium size. The temporary structure is light enough to be moved easily, and sturdy enough to withstand most weather conditions. In addition to providing shelter, the Plastent can have small pieces of Equipment, such as a sensor array, mounted onto it. Most models come equipped with an inflation unit that can fully inflate the plastent within a few minutes. </p>",
+    "quantity": 1,
+    "cost": 300,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "LEgIkhsKI0sOee8g",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Survival Gear"
+    }
+  }
+}

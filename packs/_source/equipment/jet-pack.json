@@ -1,0 +1,24 @@
+{
+  "_id": "yQiXtTMo7B5Yruwq",
+  "_key": "!items!yQiXtTMo7B5Yruwq",
+  "name": "Jet Pack",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Jet Pack is a propulsion system that a character can strap on, allowing flight over short distances. Arm and wrist controls are employed for maneuvering. Activating a Jet Pack is a Swift Action, and you gain a fly speed of 6 squares until the end of your turn. A Jet Pack has 10 charges and can be run continuously; no Swift Action is required to activate the Jet Pack on subsequent rounds of use. </p><p>Routine maneuvers do not require a Pilot check, but you must make a DC 20 Pilot check if you land after moving more than 12 squares during the same turn; on a failure you fall Prone. </p><p>A Jet Pack can lift up to 180 kg while flying. Replacement fuel cells cost 100 credits. </p>",
+    "quantity": 1,
+    "cost": 300,
+    "slot": "kit",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "a1HDxjglurIO7uzm",
+      "sourceBook": "",
+      "category": "Survival Gear"
+    }
+  }
+}

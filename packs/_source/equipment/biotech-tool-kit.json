@@ -1,0 +1,24 @@
+{
+  "_id": "0LpYmUGx7jhTW0zO",
+  "_key": "!items!0LpYmUGx7jhTW0zO",
+  "name": "Biotech Tool Kit",
+  "type": "equipment",
+  "system": {
+    "description": "<p>You need a Biotech Tool Kit to modify Yuuzhan Vong Biotech, install a Bio-Implant, or otherwise alter biological devices and Living Vehicles. A standard Biotech Tool Kit consists of a variety of implements and tools that look more at home in a Medical Kit than in a Tool Kit, and unlike a normal Tool Kit, items in a Biotech Tool Kit cannot be doubled as Improvised Weapons. </p>",
+    "quantity": 1,
+    "cost": 450,
+    "slot": "kit",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bCvigCIE6bkxgjcB",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide",
+      "category": "Tools"
+    }
+  }
+}

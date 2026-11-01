@@ -1,0 +1,24 @@
+{
+  "_id": "umqERaTAKb1u1mzx",
+  "_key": "!items!umqERaTAKb1u1mzx",
+  "name": "Man Trap",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Man Trap is a reversed repulsor field that draws a target directly down, as though in incredibly high gravity. A Man Trap covers 1 square, and any creature entering the square of a Man Trap is immediately Immobilized (unable to move voluntarily). A creature can attempt to break out of a Man Trap as a Move Action, requiring a DC 40 Strength check. It can be deactivated using a remote (treat as a&nbsp;Portable Computer with an&nbsp;Intelligence&nbsp;score of 16). </p>",
+    "quantity": 1,
+    "cost": 8000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TWOroT7bju97ZOJi",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy",
+      "category": "Tools"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "gST9POhb2RuG7vW4",
+  "_key": "!items!gST9POhb2RuG7vW4",
+  "name": "Shield Cage",
+  "type": "equipment",
+  "system": {
+    "description": "<p>A Shield Cage is a portable Shield Generator used to trap a target rather than protect it from harm. Wealthy bounty hunters, criminal masterminds, and other VIPs use Shield Cages to trap targets, sometimes setting the Shield Cages beneath chairs or inside doorways. A Shield Cage is a large flat disk, 2 meters in diameter. It must be connected to a power supply to operate and drains portable Power Generators after 2 hours of continuous use. </p><p>A Shield Cage produces a shield bubble that fills a single square. Multiple Shield Cages can be linked together, each expanding the shielded area by one additional square. Targets are trapped inside and cannot move until the power is turned off. The shield is air permeable, allowing the target to breathe and communicate verbally, but nothing else can pass through the shield except damage that exceeds the Shield Rating (SR 15). </p>",
+    "quantity": 1,
+    "cost": 10000,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KgxAApUQLi7Hm4b8",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue",
+      "category": "Tools"
+    }
+  }
+}

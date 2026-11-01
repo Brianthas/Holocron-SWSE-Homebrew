@@ -1,0 +1,24 @@
+{
+  "_id": "YqmJ9MiMjNW5nY6t",
+  "_key": "!items!YqmJ9MiMjNW5nY6t",
+  "name": "Fire Paste",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Fire Paste is a thick beige substance that can act as a fuel for starting a fire. The paste, once squeezed from its tube, can be placed on virtually any surface, including ice and wet wood. With a single spark, the paste ignites, burning for 3d4 minutes. If applied to a living creature or an object, the burning paste causes 1d6 points of Fire damage as long as it burns and remains in contact with the creature or object. A single squeeze tube contains 5 applications of Fire Paste. </p>",
+    "quantity": 1,
+    "cost": 15,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "gqWEY2VIQgG8T17O",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions",
+      "category": "Tools"
+    }
+  }
+}

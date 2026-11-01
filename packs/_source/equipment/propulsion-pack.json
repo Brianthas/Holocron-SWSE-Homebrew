@@ -1,0 +1,24 @@
+{
+  "_id": "edGoKftLtd0YyJaZ",
+  "_key": "!items!edGoKftLtd0YyJaZ",
+  "name": "Propulsion Pack",
+  "type": "equipment",
+  "system": {
+    "description": "<p>Designed to enhance underwater movement, a Propulsion Pack allows its wearer to Swim much faster. Activating a Propulsion Pack is a Swift Action, and you gain a Swim Speed of 8 squares until the end of your turn. A Propulsion Pack has 10 charges and can run continuously, so no Swift Action is required to activate the Propulsion Pack on subsequent rounds of use. </p><p>The Propulsion Packs are designed to be worn with Seatrooper Armor; wearing them without the accompanying stabilization fins reduces a character's Swim Speed by 25%. </p>",
+    "quantity": 1,
+    "cost": 200,
+    "slot": "none",
+    "carry": "carried",
+    "integrated": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "75wDTxJernOq7ayd",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+      "category": "Life Support"
+    }
+  }
+}
