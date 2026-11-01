@@ -1,0 +1,36 @@
+{
+  "_id": "F42UZkgW2GjH3HCa",
+  "_key": "!items!F42UZkgW2GjH3HCa",
+  "name": "Rodian",
+  "type": "species",
+  "system": {
+    "description": "<p>Rodians hail from the Tyrius System of The Mid Rim, their homeworld humid and choked with heavy rain forests teeming with dangerous life forms. In this hostile environment, the Rodians evolved into brutal hunters and killers to survive. As a result, Rodian culture centers around the concept of \"The Hunt.\" Their art glorifies violence and the art of stalking prey. The more intelligent and dangerous a hunter's prey, the more honorable the hunt. Rodians have numerous annual festivals that exists solely to honor such activities. </p><p>Since joining the rest of the galaxy's spacefaring Species, the Rodians have come to view bounty hunting as the most honorable profession in existence, and many have found great success in this field. </p><h3>Rodian Characteristics</h3><p><b>Personality:</b> Rodians tend to be violent, tenacious, and dedicated. </p><p><b>Physical Description:</b> Rodians are humanoid, with multifaceted eyes, a tapered snout, and deep green skin, the average Rodian stands 1.6 meters tall. </p><p><b>Age Groups:</b> Rodians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-15 Years </td> \n   <td>16-35 Years </td> \n   <td>36-49 Years </td> \n   <td>50-59 Years </td> \n   <td>60+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The industrial world of Rodia. </p><p><b>Languages:</b> Rodians speak, read, and write both Rodese and Basic, and many learn to speak Huttese as well. </p><p><b>Example Names:</b> Andoorni, Beedo, Chido, Doda, Greedo, Greeata, Kelko, Navik, Neela, Neesh, Wald. </p><p><b>Adventurers:</b> Rodian adventurers leave their homeworld to improve their skills, hoping to one day return and claim the title of Hunt Master. To this end, they take on roles that allow them to flex their hunting skills and increase their battle prowess, most commonly working as bounty hunters or mercenaries as Soldiers. </p><h3>Rodian Species Traits</h3><p>Rodians share the following Species Traits: </p><h2>Additional Rodian Species Feats</h2><p>Rodian characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Fringe Benefits </td> \n   <td> </td> \n   <td>Reduce the cost multiplier of goods bought on the Black Market. </td>\n  </tr> \n  <tr> \n   <td>Hunter's Instincts </td> \n   <td> </td> \n   <td>Reroll Perception checks, always keeping the better result. </td>\n  </tr> \n  <tr> \n   <td>Master Tracker </td> \n   <td> </td> \n   <td>Increase the die type when adding Force Points to a Survival check. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Heightened Awareness",
+        "description": "<p>A being can choose to reroll any&nbsp;Perception&nbsp;check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Survival))",
+        "description": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ei1RR57sLS8fLBBO",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

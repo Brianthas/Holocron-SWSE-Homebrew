@@ -1,0 +1,40 @@
+{
+  "_id": "dZOAnv1tu5xMvZNa",
+  "_key": "!items!dZOAnv1tu5xMvZNa",
+  "name": "Squib",
+  "type": "species",
+  "system": {
+    "description": "<p>Squibs are known throughout the galaxy for their talents at collecting, trading, and haggling. The uneven distribution of natural resources on their homeworld led early Squibs to compulsively collect and stockpile goods, and to develop a maddeningly complex system of barter. But in spite of their penchant for needless complexities when negotiating, Squibs are surprisingly honest in their dealings, following a specific set of rules whenever they bargain with someone. For Squibs, the process of haggling is more important than the end result. </p><h3>Squib Characteristics</h3><p><b>Personality:</b> Squibs are cheerful, curious, and overconfident to the point of egotism. Although these traits make them likable at first, long-term associates eventually view Squibs as either mildly annoying or downright obnoxious. To a Squib, no art form is greater than bargaining, which Squibs view as the highest form of communication, so saying that a Squib bargained well is grand praise indeed. </p><p><b>Physical Description:</b> Squibs are small, rodentlike humanoids with pink skin covered in fur of almost any color, including red, blue, violet, white, and brown. Their eyes are large in relation to their skulls, and this-combined with their large, tufted ears- gives the Squib a comical appearance. </p><p><b>Age Groups:</b>&nbsp;Squibs age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-8 Years </td> \n   <td>9-12 Years </td> \n   <td>13-38 Years </td> \n   <td>39-53 Years </td> \n   <td>54-64 Years </td> \n   <td>65+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Skor II (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU2tvcl9JST9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Skor II</span>, a pleasant world located in The Outer Rim, is the Squibs' planet of origin. Its varied climate and planetary composition causes the planet to have a wide range of natural resources that are each found only in particular regions of the world. </p><p><b>Languages:</b> Squibs speak, read, and write Squibbian, a language evolved from Old High Squibbian, which remains in use as a secret form of communication, frequently to convey the location of trash dumps or other such important resource finds. </p><p><b>Example Names:</b> Ebareebaveebeedee, Emala, Grees, Macemillian-winduarte, Sligh, Slythor, Smileredon-Verdont. </p><p><b>Adventurers:</b> Squibs who venture out into the galaxy are almost unilaterally Technicians, with some instead becoming Scoundrels or Scouts or, less commonly, Nobles. Although Squib Jedi do exist, they are exceedingly rare. </p><h3>Squib Species Traits</h3><p>Squibs share the following Species Traits: </p>",
+    "size": "small",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Bonus Class Skill (Persuasion)",
+        "description": "<p>A particular Skill is always a Class Skill for beings.</p>"
+      },
+      {
+        "name": "Natural Diplomat",
+        "description": "<p>A being gains a +5&nbsp;Species&nbsp;bonus to&nbsp;Persuasion&nbsp;checks made to&nbsp;Haggle. Additionally,&nbsp;Persuasion&nbsp;is always a Class Skill for beings.</p>"
+      },
+      {
+        "name": "Tech Savvy",
+        "description": "<p>A being can reroll any Knowledge (Technology) check, but the result of the reroll must be accepted, even if it is worse. Additionally, a beings is not limited to Common Knowledge when making an Untrained Knowledge (Technology) check.</p>"
+      },
+      {
+        "name": "Weapon Familiarity (Squib Tensor Rifle:Rifless)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YglerSas2LuiQBq8",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

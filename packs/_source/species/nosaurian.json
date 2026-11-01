@@ -1,0 +1,36 @@
+{
+  "_id": "ZTtrwNbH22i0uUc2",
+  "_key": "!items!ZTtrwNbH22i0uUc2",
+  "name": "Nosaurian",
+  "type": "species",
+  "system": {
+    "description": "<p>The Nosaurians are bipedal reptilian creatures native to New Plympto. They are a proud but embattled Species. A crumbling economy unaided by Republic restrictions forced the Nosaurians to join The Confederacy of Independent Systems. After the defeat of the CIS, the Nosaurians tried to carry on the fight, only to be crushed by Darth Vader's Stormtrooper contingent, the 501st. The Dark Times brought the Nosaurians defeat, enslavement, and the systematic exploitation of their world by their new Imperial masters. </p><p>The Nosaurians have several unusual abilities and customs. They have black-and-white vision, which is rarely a hinderance. They can produce a brief flash of bright light from the interior of their mouths at will. Some Nosaurians use this trait to signal each other at great distances in the dark forests of their homeworld. At sunset (Or at mysterious and inopportune moments when offworld), they \"Sing Down the Sun\" at the top of their lungs, even when they are unable to see the sun. </p><h3>Nosaurian Characteristics</h3><p><b>Personality:</b> Nosaurians are naturally gregarious and even-tempered. However, the brutal annihilation of their forces and the enslavement of much of their population at the end of the Clone Wars left them embittered and angry. Both the Empire and Humans in general bear the brunt of Nosaurian anger in the following decades. </p><p><b>Physical Description:</b> Nosaurians' thick skin ranges in color primarily from light green to black, with other colors less common. A Nosaurian's head features a prominent ridge of horns, serving both as a natural headdress and weapon. Old and battle-scarred Nosaurians often have broken or damaged horns. </p><p><b>Age Groups:</b> Nosaurians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-45 Years </td> \n   <td>46-79 Years </td> \n   <td>80-99 Years </td> \n   <td>100+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The forested and swampy planet of New Plympto in the Core Worlds region. </p><p><b>Languages:</b> Nosarians learn Basic, as well as their own language, which is a complex collection of sounds featuring barks, warbles, and hissing, plus a written language consisting of two alphabets and metaphors about nature, the weather, and seasons. </p><p><b>Example Names:</b> Fefar Blackeye, Bomo Greenbark, Clegg Holdfast, Churra Leafhorn, Moco Minkfruit. </p><p><b>Adventurers:</b> Nosaurian adventures can be of any Heroic Class. Soldiers and Scoundrels are most common during The Dark Times; these are often veterans of the Clone Wars trying to avoid Imperial notice. </p><h3>Nosaurian Species Traits</h3><p>Nosaurians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Bonus Class Skill (Climb)",
+        "description": "<p>A particular Skill is always a Class Skill for beings.</p>"
+      },
+      {
+        "name": "Natural Weapons",
+        "description": "<p>A being has Natural Weapons, in some form or another. When a being makes an Unarmed attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal Unarmed damage. Beings are always considered armed with their Natural Weapons.</p>"
+      },
+      {
+        "name": "Survival Instinct",
+        "description": "<p>A being may choose to reroll any&nbsp;Survival check, but the result of the reroll must be accepted even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CTudKqOAX4i3pgWp",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

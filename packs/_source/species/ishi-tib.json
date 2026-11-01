@@ -1,0 +1,52 @@
+{
+  "_id": "XIlmvJC0RnStyIQe",
+  "_key": "!items!XIlmvJC0RnStyIQe",
+  "name": "Ishi Tib",
+  "type": "species",
+  "system": {
+    "description": "<p>Ishi Tib live in schools- communal groups of thousands of individuals, governed by elected representatives who hold office for one-year terms. An Ishi Tib does not know the identity of his or her birth parents, because each Ishi Tib school assumes responsibility for the welfare of its hatchlings, creating a strong sense of community and promoting the needs of the group over those of an individual. Unlike Species that have wrecked environmental havoc upon their homeworlds, Ishi Tib protect their planet, <span class=\"new\" title=\"Tibrin (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGlicmluP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Tibrin</span>, with extensive laws legislating ecological preservation. </p><p>During the Clone Wars, the Ishi Tib side with The Confederacy of Independent Systems after Count Dooku liberates their world from the Ishi Tib premier Suribran Tu, although <span class=\"new\" title=\"Tibrin (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGlicmluP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Tibrin</span> is still represented in the Galactic Senate. During the Galactic Civil War, Ishi Tib who join The Rebel Alliance plan raids against the Empire, and several Ishi Tib tactical experts are present at the briefing prior to the Battle of Endor. </p><h3>Ishi Tib Characteristics</h3><p><b>Personality:</b> The Ishi Tib are meticulous and exacting, but they are also known for their strong reverence for nature. Despite these peaceful traits, a primal undercurrent colors their moods, and in combat Ishi Tib do not hesitate to tear an enemy apart with their sharp beaks. </p><p><b>Physical Description:</b> Ishi Tib are green-skinned amphibians with protruding eye stalks and beaklike mouths. An Ishi Tib's head is like a five-pointed star, featuring two eye stalks, two cheek pouches, and a beak. Ishi Tib must routinely immerse themselves in a brine solution similar to the water of Tibrin's oceans to prevent death from dehydration. </p><p><b>Age Groups:</b>&nbsp;Ishi Tib age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-11 Years </td> \n   <td>12-39 Years </td> \n   <td>40-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Tibrin (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGlicmluP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Tibrin</span>- located in The Mid Rim- is covered by shallow oceans dotted with coral reefs and sandbars, which serve the Ishi Tib as communal centers and hubs of commerce. </p><p><b>Languages:</b> Ishi Tib read, speak, and write in Tibranese, which employs honks, squeals, and beak-clacking in its spoken form. The written language uses hieroglyphs. </p><p><b>Example Names:</b> Gume Saam, Suribran Tu, Thilis-Brin, Waks Trode, Vek Drow. </p><p><b>Adventurers:</b> Ishi Tib encountered away from their oceanic homeworld are most often ecologists and oceanographers, although a substantial number of them find work as corporate accountants or corporate overseers. </p><h3>Ishi Tib Species Traits</h3><p>Ishi Tib share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Breathe Underwater",
+        "description": "<p>Beings can't drown in water.</p>"
+      },
+      {
+        "name": "Ecological Awareness",
+        "description": "<p>A being can choose to reroll any Knowledge (Life Sciences) check, keeping the better of the two results.</p>"
+      },
+      {
+        "name": "Expert Swimmer",
+        "description": "<p>A being may choose to reroll any&nbsp;Swim&nbsp;check, but the result of the reroll must be accepted, even if it is worse. In addition, a being may choose to&nbsp;Take 10&nbsp;on&nbsp;Swim&nbsp;checks, even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Natural Weapons",
+        "description": "<p>A being has Natural Weapons, in some form or another. When a being makes an Unarmed attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal Unarmed damage. Beings are always considered armed with their Natural Weapons.</p>"
+      },
+      {
+        "name": "Swimming",
+        "description": "<p>Beings possess an inherent Swim speed.</p>"
+      },
+      {
+        "name": "Swim Speed (4)",
+        "description": "A being has a swim speed of #payload#."
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BpDMOHddatZu4PH2",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

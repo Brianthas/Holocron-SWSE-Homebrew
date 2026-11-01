@@ -1,0 +1,40 @@
+{
+  "_id": "MhayEzmWiKhzpaa4",
+  "_key": "!items!MhayEzmWiKhzpaa4",
+  "name": "Polis Massan",
+  "type": "species",
+  "system": {
+    "description": "<p>The small asteroid mining colony of Polis Massa in The Outer Rim is the current homeworld of the Polis Massans. Though the Polis Massans evolved on another world in the Subterrel sector, they have been away from their homeworld for so long that they have no living memory of their origins. Instead, they have dedicated themselves to researching a lost civilization, once native to Polis Massa, known as the <span class=\"new\" title=\"Eellayin (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvRWVsbGF5aW4/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Eellayin</span>. </p><p>The planet once inhabited by the <span class=\"new\" title=\"Eellayin (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvRWVsbGF5aW4/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Eellayin</span> was subject to a great and mysterious cataclysm which caused it to break apart into several million fragments. The Polis Massa asteroid is one of the largest fragments to survive, and many artifacts and traces of the fallen civilization are hidden within its depths. The Polis Massans seek to explore the origins of the <span class=\"new\" title=\"Eellayin (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvRWVsbGF5aW4/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Eellayin</span> in the hopes that they may discover something of themselves in this ancient and extinct Species. </p><p>It is a little-known fact that the Polis Massans believe that they are the descendants of the <span class=\"new\" title=\"Eellayin (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvRWVsbGF5aW4/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Eellayin</span> Species. Their ultimate goal is to preserve the memory of the <span class=\"new\" title=\"Eellayin (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvRWVsbGF5aW4/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Eellayin</span> race. They intend to do so using advanced cloning techniques learned from the Kaminoans in an attempt to scientifically resurrect the <span class=\"new\" title=\"Eellayin (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvRWVsbGF5aW4/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Eellayin</span> Species. No viable genetic material has been recovered from the Polis Massan asteroid, but this does little to stop the Polis Massans from continuing to explore. </p><h3>Polis Massan Characteristics</h3><p><b>Personality:</b> Gentle and compassionate are the two words that often come to mind when describing Polis Massans. They are an extremely inquisitive Species, especially with regard to their own origins. They can be overly protective of their work, especially in regards to treasure hunters seeking wealth within the archaeological digs of Polis Massa. In this regard, they prefer to maintain their secrecy, and will hesitate to call attention to themselves. </p><p><b>Physical Description:</b> Polis Massans possess smooth, gray skin. Their faces are featureless with the exception of their eyes, which are universally black. The hands of a Polis Massan are dexterous, with three long fingers and opposable thumbs. They tend to wear formfitting bodysuits decorated with functional accessories, such as Utility Belts, Tools, and Medical Gear. </p><p><b>Age Groups:</b>&nbsp;Polis Massans age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-14 Years </td> \n   <td>15-17 Years </td> \n   <td>18-49 Years </td> \n   <td>50-74 Years </td> \n   <td>75-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The asteroid colony of Polis Massa, located in The Outer Rim. </p><p><b>Languages:</b> Polis Massans hum their language of Massan with various vocal pitches. </p><p><b>Example Names:</b> Dznori Xam, Osh Scal, Maneeli Tuun, Selif Xam, Utani Xane. </p><p><b>Adventurers:</b> Nobles and Scouts are common Heroic Classes for Polis Massan characters. Given their peaceful nature and respect for life, Polis Massans rarely take up arms as Soldiers, though they are perfectly capable of protecting themselves. Polis Massan Jedi and Scoundrels are unheard of, though their latent telepathic abilities and even personalities make them excellent candidates for Jedi teachings. </p><h3>Polis Massan Species Traits</h3><p>Polis Massans share the following Species Traits: </p>",
+    "size": "small",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Treat Injury))",
+        "description": ""
+      },
+      {
+        "name": "Darkvision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(including&nbsp;Total Concealment) from darkness. However, they cannot perceive colors in total darkness.</p>"
+      },
+      {
+        "name": "Mute",
+        "description": "<p>Beings have no vocal cords, and must rely on a combination of sign language, computers, and&nbsp;Telepathy&nbsp;in order to communicate with others. When they learn new Languages, they can understand but not speak them.</p>"
+      },
+      {
+        "name": "Limited Telepathy",
+        "description": "<p>Beings can use the Telepathy aspect of the Use the Force skill Untrained (even if not Force-sensitive). If the target of the Telepathy is within 10 squares, no skill check is required to initiate the telepathic contact.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "WJ8Sm0c0qH3HQcIS",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements"
+    }
+  }
+}

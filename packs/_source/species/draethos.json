@@ -1,0 +1,40 @@
+{
+  "_id": "0b8C9gOENpUpF9Rp",
+  "_key": "!items!0b8C9gOENpUpF9Rp",
+  "name": "Draethos",
+  "type": "species",
+  "system": {
+    "description": "<p> Draethos are long-lived humanoids from a little known, largely secret world in The Outer Rim. When on their homeworld, Draethos are fierce and unrepentant warriors. They are rules by haughty, spoiled aristocrats more interested in local affairs than galactic politics. The warriors spend their time perfecting their skills and hunting fierce predators on their homeworld of Draethos.</p><p>Draethos residing offworld are usually exiles who chose not to become warriors, each for his own reason. Thus, they are highly intelligent and pacifistic. Exiled Draethos become enthralled with learning as much as they can, though they might never practically apply their detailed knowledge of a given subject. They dislike debate- even on subject they know extremely well- because Draethos fear overlooking details or being unable to adequately explain what they have learned. Older Draethos eventually overcome this barrier. </p><p>Partly due to their long lives, Draethos society is slow to evolve and relies heavily on tradition. Attitudes developed before The Old Republic Era remain central to Draethos society thousands of years later. The stability of the Draethos culture caused exiles to have trouble understanding the complex changes in alien societies. </p><h3>Draethos Characteristics</h3><p><b>Personality:</b> The typical personalities of the Draethos vary greater between offworld residents and those remaining on Draethos. Exiles are highly intelligent, but socially inept. They avoid conflict whenever possible. Draethos living on their homeworld live up to their fierce and aggressive reputations. </p><p><b>Physical Description:</b> A Draethos's most prominent feature is a lipless mouth, which creates the illusion of a large overbite. Their tightly muscled humanoid bodies are covered in a scaly skin ranging from violet to mauve to gray. Their hands are clawlike, contributing to the Draethos's skeletal appearance. </p><p><b>Age Groups:</b> Draethos age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-17 Years </td> \n   <td>18-399 Years </td> \n   <td>400-699 Years </td> \n   <td>700-780 Years </td> \n   <td>781+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Few offworlders know the exact location of the Outer Rim world Draethos, the Draethos homeworld. It features jagged, windswept mountains and deep, sprawling cave systems. </p><p><b>Languages:</b> Draethos is an erratic-sounding language full of harsh clicks and sighs. Exiled Draethos also quickly learn Basic and any other languages common to the region. </p><p><b>Example Names:</b> Odan-Urr, Omal-Zan, Uval-Nor, Shal-Orl, Tyan-Ruu </p><p><b>Adventures:</b> Draethos on Draethos are primarily Soldiers, with a few Noble leaders. Force-users follow ancient and mysterious Draethos Force Traditions. exiled Draethos can belong to any Heroic Class, and few have gone on the join the ranks of The Jedi. </p><h3>Draethos Species Traits</h3><p>Draethos share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Armor (+1)",
+        "description": "<p>A being gains a Natural Armor bonus to their&nbsp;Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Bonus Feat (Weapon Proficiency (Advanced Melee))",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Natural Telepath",
+        "description": "<p>A being gains a +5 Species bonus using the Telepathy aspect of the Use the Force skill and can make Untrained Use the Force checks to use this application even without the Force Sensitivity feat.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "V1elXWJ9o7fnU7Tx",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

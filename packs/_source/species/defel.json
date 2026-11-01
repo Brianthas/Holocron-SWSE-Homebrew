@@ -1,0 +1,32 @@
+{
+  "_id": "0EVrrKlrkj5Ukerr",
+  "_key": "!items!0EVrrKlrkj5Ukerr",
+  "name": "Defel",
+  "type": "species",
+  "system": {
+    "description": "<p>Defel come from the High Gravity world of <span class=\"new\" title=\"Af'El (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQWYlMjdFbD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Af'El</span>, which orbits the supergiant Ka'Dedus. The planet is unusual in that the atmosphere absorbs all light except that in the ultraviolet spectrum. The Defel, along with every other animal on the planet, have evolved to see perfectly well in ultraviolet, but they are completely Blind when exposed to other wavelengths of light. Defel that leave their homeworld must wear special visors that allow them to see. This evolution also had an interesting effect on Defel fur, making the creatures effectively invisible in the normal light in which most other Species operate. This near-invisibility has earned the Defel the nickname \"Wraiths\" because in visible light, they appear as nothing more than vague shadows. </p><p>Due to the crushing gravity and harsh seasons of their homeworld, Defel bind together into close-knit communities to survive. However, they also possess a strong streak of independence in personal matters. They are tough, resilient creatures with a deep and complex sense of honor, especially toward their families and patrons. Their cities are built underground, and Defel are accomplished miners and metallurgists- one of the reasons that outsiders contacted them in the first place. <span class=\"new\" title=\"Af'El (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQWYlMjdFbD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Af'El</span> is one of the few planets blessed with large quantities of meleenium, a primary component in the manufacturing of durasteel. </p><p>Most Defel are content to remain in the safety of their underground cities, and the planet's tortuous gravity and harsh conditions mean that it has few visitors. Defel that leave <span class=\"new\" title=\"Af'El (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQWYlMjdFbD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Af'El</span> are drawn toward professions that take advantage of their natural stealth and invisibility, such as thief, assassin, scout, and bodyguard. Most of the galaxy's inhabitants believe that the Defel are only characters from stories- invisible demons that lurk in the shadows. </p><h3>Defel Characteristics</h3><p><b>Personality:</b> Defel love independence and freedom. They are a proud people with a strong sense of self, almost to the point of stubbornness. Defel are loyal to friends, family, and employers, but they are not always trustworthy in the conventional sense. They like to work in secrecy and rely on conniving and manipulation to get their way with other Species. </p><p><b>Physical Description:</b> Defel are a short, mammalian Species with canine like faces and sharp white teeth. Their arms and legs are relatively long for their frames and end in sharp talons that are used for digging and scratching rather than combat. Most importantly, their special fur renders them nearly invisible in normal light, making a Defel appear to be little more than a patch of shadow. In ultraviolet light, however, Defel appear in bright, vibrant colors ranging from golden to a brilliant azure. Defel are effectively Blind in normal light and must wear special visors to see when away from their planet. </p><p><b>Age Groups:</b>&nbsp;Defel age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-10 Years </td> \n   <td>11-49 Years </td> \n   <td>50-74 Years </td> \n   <td>75-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Defel come from the planet <span class=\"new\" title=\"Af'El (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQWYlMjdFbD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Af'El</span>, which orbits the supergiant Ka'Dedus in The Outer Rim. The world receives few visitors because of its High Gravity and its unusual atmosphere that blocks all but ultraviolet light. </p><p><b>Languages:</b> Defel speak and read Defel. Adventurous Defel that leave <span class=\"new\" title=\"Af'El (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQWYlMjdFbD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Af'El</span> typically learn Basic. </p><p><b>Example Names:</b> Arleil, Defeen, Klaar, Morr, Thar'quan, Vox. </p><p><b>Adventurers:</b> The few Defel that leave the gravity well of <span class=\"new\" title=\"Af'El (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQWYlMjdFbD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Af'El</span> take advantage of their stealthy and elusive nature, and most become Scoundrels or Scouts. Their keen intellect also means that some Defel become Nobles. Defel Jedi are almost unheard of. </p><h3>Defel Species Traits</h3><p>Defel share the following Species Traits: </p>",
+    "size": "small",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Partial Invisibility",
+        "description": "<p>A being in shadowy illumination or darker conditions is treated as having&nbsp;Total Concealment. Beings are fully visible and gain no&nbsp;Concealment&nbsp;against opponents with Darkvision.</p>"
+      },
+      {
+        "name": "Special Equipment",
+        "description": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Lunl02eOYqCz4ZT4",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "rPDZICDDiXgkwOBp",
+  "_key": "!items!rPDZICDDiXgkwOBp",
+  "name": "Duros",
+  "type": "species",
+  "system": {
+    "description": "<p>Tall, hairless humanoids from the Duro System, Duros were one of the first Species to become a major influence in the Galactic Republic, and many respected scholars credited the Duros with creating the first hyperdrive. The Duros have a natural affinity for space travel, possessing an innate grasp of the mathematical underpinnings of astrogational computations. Many tales are swapped in cantinas about Duros astrogators calculating the coordinates for supposedly impossible jumps in their heads. Although not as numerous as Humans, the Duros are almost as omnipresent; all but the smallest settlements in known space feature Duros populations. </p><p>The Duros Species has existed on other worlds in isolation from the rest of their kind, evolving in slight different directions from the baseline Species. The most populous and well-known near-Duros Species are the Neimoidians, a people rarely encountered during The Rebellion Era. </p><h3>Duros Characteristics</h3><p><b>Personality:</b> A Duros tends to be intense and adventurous, always seeking to learn what's at the end of the next hyperspace jump. They are a proud, self-sufficient, fun-loving people who also have a tendency toward gregariousness. </p><p><b>Physical Description:</b> Duros average about 1.8 meters tall. They are hairless, with large eyes and wide, lipless mouths. Skin color ranges from blue-gray to deep azure. </p><p><b>Age Groups:</b> Duros age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-35 Years </td> \n   <td>36-49 Years </td> \n   <td>50-69 Years </td> \n   <td>70+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The orbiting cities of Duro. </p><p><b>Languages:</b> Duros speak, read, and write both Durese and Basic. </p><p><b>Example Names:</b> Baniss Keeg, Elior, Kadlo, Kir Vantai, Lai Nootka, Monnda Tebbo. </p><p><b>Adventurers:</b> Duros adventurers include hyperspace explorers, star charters, and spacers of all descriptions as Scouts. Some Duros shun exploration in favor of smuggling and trading as Scoundrels, and a small number go into diplomatic professions as Nobles. They also tend to gravitate toward the sciences, including engineering and astrogation as Technicians. </p><h3>Duros Species Traits</h3><p>Duros share the following Species Traits: </p><h2>Additional Duros Species Feats</h2><p>Duros characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Flawless Pilot </td> \n   <td> </td> \n   <td>Reroll Pilot checks, always keeping the better result. </td>\n  </tr> \n  <tr> \n   <td>Spacer's Surge </td> \n   <td> </td> \n   <td>Gain a temporary Force Point when you roll a Natural 20 on a Pilot check. </td>\n  </tr> \n  <tr> \n   <td>Veteran Spacer </td> \n   <td> </td> \n   <td>Gain a bonus to Use Computer checks made to Astrogate. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Expert Pilot",
+        "description": "<p>A being may choose to reroll any&nbsp;Pilot&nbsp;check, but the result of the reroll must be accepted even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "YXvIpOPdWivh6lwT",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

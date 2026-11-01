@@ -1,0 +1,36 @@
+{
+  "_id": "e0RIUMdSKJV8luen",
+  "_key": "!items!e0RIUMdSKJV8luen",
+  "name": "Zygerrian",
+  "type": "species",
+  "system": {
+    "description": "<p>A violent Species from the distant corners of The Outer Rim, Zygerrians are known for their history of piracy and war. As a Species that earns its fame through slavery, piracy, and violence, Zygerrians are feared in spaceports throughout the galaxy. Raised in a culture where weakness can mean death or enslavement, Zygerrians cultivate a dangerous, unpredictable image to deter others from challenging their dominance. Those who do must contend with the Zygerrians' natural combat prowess, since Zygerrians are excellent fighters with or without weapons. </p><p>Zygerrian society is built on the principle that strength leads to authority, and for Zygerrians, strength can mean many things- physical strength, and also strength of will, or conviction, and of bravery. Zygerrians are difficult to defeat in any arena because their physical resilience is matched by their indomitable spirit. Enemies of the Zygerrians quickly learn that you cannot make Zygerrians flinch. They would sooner die than bend to the desires of others. </p><h3>Zygerrian Characteristics</h3><p><b>Personality:</b> Zygerrians are aggressive and violent. They are strong-willed and back down from a confrontation only when they clearly cannot win. </p><p><b>Physical Description:</b>&nbsp;Feline&nbsp;in appearance, the Zygerrians possess strong, angular features, with long fangs jutting from their jaws. The Zygerrians' faces and&nbsp;ears are almost entirely covered with fur, which range in color from brown, to gray, or red. Males traditionally had more hair than females, with bands of fur growing on their cheeks.&nbsp;Male&nbsp;Zygerrians also display a number of bony spurs protruding from the chin. Females lacked the chin spurs, but they instead had smaller protrusions on their forehead. </p><p><b>Age Groups:</b>&nbsp;Zygerrians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-16 Years </td> \n   <td>17-39 Years </td> \n   <td>40-60 Years </td> \n   <td>61-80 Years </td> \n   <td>81+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The flat and barren world of Zygerria, located in The Outer Rim. </p><p><b>Languages:</b> Whatever native tongue the Zygerrians once had has been lost to the ebbs of time, with Basic becoming the Zygerrians' primary language. </p><p><b>Example Names:</b> Agruss, Darts D'Nar, Atai Molec, Miraj Scintel, Atlee Thanda, Marko Tyne, Zolghast. </p><p><b>Adventurers:</b> Zygerrian adventurers make excellent Soldiers and Scouts, because their people have been nomadic pirates and slavers in The Outer Rim for centuries. Although there are many Zygerrian pirate gangs, not all Zygerrians are thugs and ruffians. Many Zygerrians become valued members of galactic society, abandoning their violent and aggressive tendencies. </p><h3>Zygerrian Species Traits</h3><p>Zygerrians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Strength of Conviction",
+        "description": "<p>Beings can use their&nbsp;Charisma&nbsp;modifier in place of their&nbsp;Wisdom&nbsp;modifier when calculating their&nbsp;Will Defense.</p>"
+      },
+      {
+        "name": "Iron Will",
+        "description": "<p>Beings gain a +2&nbsp;Species&nbsp;bonus to their&nbsp;Will Defense.</p>"
+      },
+      {
+        "name": "Bonus Feat (Martial Arts I)",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "9Gbs9QMj5ckPQ0dk",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

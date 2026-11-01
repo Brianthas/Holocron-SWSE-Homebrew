@@ -1,0 +1,44 @@
+{
+  "_id": "ISm2GhBtdngSpPlm",
+  "_key": "!items!ISm2GhBtdngSpPlm",
+  "name": "Lugubraa",
+  "type": "species",
+  "system": {
+    "description": "<p>The Lugubraa are found throughout The Unknown Regions as laborers and hired muscle. Their reproductive rates can get out of hand rapidly, ruining entire ecosystems beyond hope of restoration. </p><p> A Lugubraa lacks eyes and is blind to visual light, but surrounding its mouth are numerous heat spots that detect thermal signatures as well as echolocation pingers that can paint a radar map of the surroundings. A Lugubraa has no ears, instead detecting sounds through vibrations sensed along the length of its skin, which is smooth and thick like that of an oceanic cetacean. Skin coloration varies between white and dark gray, but most Lugubraa are so pale that they trigger unpleasant mental associations with grubs and maggots.</p><p>From birth to six months, Lugubraa have the self-awareness of domesticated beasts, able to follow simple commands and steadfastly devoted to their horde or the owner that has purchased their services. After six months, their intelligence reaches that of simple-minded sentients, allowing them to communicate in short sentences but still rendering them hopeless when it comes to advanced calculations. </p><p>It is rare for Lugubraa to survive more than a few decades, but those that do undergo a second cognitive kick-start at approximately age 50. These unusual geniuses become leaders and strategists for the Lugubraa hordes, plotting ways to acquire more resources and brokering the services of their species as mercenaries to interested galactic parties. </p><h3>Lugubraa Characteristics</h3><p><b>Personality:</b> Appetite drives the Lugubraa. Their churning mouths connect to gullets that never seem satisfied. Although the creatures can digest both inorganic and organic matter, they prefer the latter, and they find fresh meat so delicious that it qualifies as an addiction. </p><p><b>Physical Description:</b> An adult Lugubraa stands approximately 1.5 meters tall on two stubby legs. A Lugubraa's body is a sleek tube that tapers into a short tail. The creature's face is dominated by a circular mouth, with rings of teeth that mesh in gearlike patterns for chewing, making it nearly impossible for prey to pull free once a hungry Lugubraa has latched on. </p><p><b>Age Groups:</b>&nbsp;Lugubraa age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-19 Years </td> \n   <td>20-99 Years </td> \n   <td>100-134 Years </td> \n   <td>135-149 Years </td> \n   <td>150+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b>&nbsp;The Lugubraa originate from deep space, in a vast corridor of dust and ice asteroids that the Tchuukthai call the Stratos Distribution. This unique astrophysical environment harbors predatory lightning-jacks, membranous stillsails more than 100,000 kilometers across, and forests of crystalline cometary fronds. The roots of the Lugubraa evolutionary tree can still be found here, with worm like chewers carving warrens inside mineral-rich rocks. </p><p><b>Languages:</b> Lugubraa communicate through their own language of Lugubraal, a tongue of groans and moans that few other Species can replicate. Lugubraa that surpass their first five decades tend to learn a number of other languages, chief among them being Basic. </p><p><b>Example Names:</b> Lorgrombo, Legumo, Laanrii, Liibooro. </p><p><b>Adventurers:</b> Adult Lugubraa possess sufficient smarts to be of use to various parties in The Unknown Regions. Motivated by the need to feed, these for-hire toughs sign on as leg-breakers for crime syndicates, sentries for scouting corporations, bodyguards for gangsters, and combat grunts for private armies. They are content as long as they are well fed, and their job assignments are coordinated by elder Lugubraa agents that happily deal in cold, hard currency. </p><h3>Lugubraa Species Traits</h3><p>Lugubraa share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Bonus Feat (Improved Damage Threshold)",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      },
+      {
+        "name": "Accelerated Learning",
+        "description": "<p>Before 50 years of age, a being can have a maximum Intelligence score of 8. Around 50 years of age, a Lugubraa's Intelligence score naturally increases by 1d4+2 points.</p>"
+      },
+      {
+        "name": "Darkvision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(including&nbsp;Total Concealment) from darkness. However, they cannot perceive colors in total darkness.</p>"
+      },
+      {
+        "name": "Natural Weapons",
+        "description": "<p>A being has Natural Weapons, in some form or another. When a being makes an Unarmed attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal Unarmed damage. Beings are always considered armed with their Natural Weapons.</p>"
+      },
+      {
+        "name": "Lockbite",
+        "description": "<p>A being that makes a successful Grapple attack gains a +5 bonus to subsequent Grapple checks against the target.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fmRfKgzfLgvUnNS7",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

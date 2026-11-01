@@ -1,0 +1,52 @@
+{
+  "_id": "9AfJCYBQufc3nCIP",
+  "_key": "!items!9AfJCYBQufc3nCIP",
+  "name": "Barabel",
+  "type": "species",
+  "system": {
+    "description": "<p>A towering reptilian Species, the Barabel are relative newcomers to the galactic community. Having evolved from nocturnal predators, Barabels are well-suited to cope with prolonged period of darkness, and they retain much of their ancestor's ferocity. </p><p>Several centuries prior to the formation of the Empire- at least according to Barabel legend- an Ithorian Jedi explorer named Noga-ta came to their world and peacefully settled a millennium-long civil war stemming from a dispute over prime hunting grounds. This instills a high regard for the Jedi in all Barabel for centuries to follow, even in the wake of the Galactic Empire's anti-Jedi propaganda. For a short time, the Barabels are hunted by illegal safaris set up by Imperial-backed Planetary Safaris, but a massed uprising by the Barabels compels the Empire to intervene and put a stop to the hunts. </p><p>Offworld, Barabels take up professions that make use of their predatory nature, the most common being bounty hunting. Surprisingly, Barabels willingly follow orders once a Chain of Command is clearly established, making them prized members of mercenary units. Thy carry out orders efficiently and quickly, but they are not hesitant to challenge a leader if their survival is threatened. Barabels are also frequent and popular participants in the sport of Shockboxing. The monstrous brute Tull Raine holds The Outer Rim title for years, developing a reputation for killing opponents in the ring. </p><h4><b>Jedi Respect</b></h4><p>The impact of a lone Jedi Knight on the Barabel culture, centuries before the rise of the Empire, gives the entire Species a deeply ingrained respect for members of the Jedi order, to such an extent that Barabel accept the word of a Jedi at face value, even when they might otherwise disregard the same statement from a non-Jedi. However, beings who gain a Barabel's trust by falsely claiming to be Jedi quickly learn the folly of their ways when the ruse is exposed. </p><p>To this end, characters who have proven themselves to be Jedi are considered to have Favorable Circumstances when making Persuasion checks against a Barabel. </p><h3>Barabel Characteristics</h3><p><b>Personality:</b> Barabels are ruthlessly pragmatic and independent. They express a wide range of emotions with a simple \"Sissing\" sound, causing other Species to view them as mean spirited, or at least constantly angry. Barabels' aggressive nature and predatory instincts frequently lead them to solve problems with the direct approach, and they have no qualms about killing. </p><p><b>Physical Description:</b> Barabels are towering bipeds with reptilian features: a prominent jaw; sharp teeth; a long tail; and remarkably tough, dark scales. Barabels are between 1.9 and 2.3 meters in height, adding to their fearsome reputation. </p><p><b>Age Groups:</b>&nbsp;Barabels age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-8 Years </td> \n   <td>9-15 Years </td> \n   <td>16-40 Years </td> \n   <td>41-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Barabels hail from Barab I, a dark and murky planet located in The Outer Rim. </p><p><b>Languages:</b> Barabels speak Barabel, an expressive language consisting primarily of \"sissing,\" with short words expressing entire ideas and conversations. </p><p><b>Example Names:</b> Baraduk, Ragath, Saba, Shaka-ka, Tesar, Tibor, Vangar. </p><p><b>Adventurers:</b> Few Barabels choose to leave their homeworld, but those who do usually become bounty hunters and trackers. Others are recruited into mercenary companies, and several Shockboxing promoters feature Barabels in their stables. </p><h3>Barabel Species Traits</h3><p>Barabels share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Armor (+2)",
+        "description": "<p>A being gains a Natural Armor bonus to their&nbsp;Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Primitive",
+        "description": "<p>Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.</p>"
+      },
+      {
+        "name": "Darkvision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(including&nbsp;Total Concealment) from darkness. However, they cannot perceive colors in total darkness.</p>"
+      },
+      {
+        "name": "Stun Resistance",
+        "description": "<p>Beings receive a +5 Species bonus to their Damage Threshold against Stunning.</p>"
+      },
+      {
+        "name": "Natural Weapons",
+        "description": "<p>A being has Natural Weapons, in some form or another. When a being makes an Unarmed attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal Unarmed damage. Beings are always considered armed with their Natural Weapons.</p>"
+      },
+      {
+        "name": "Intimidating Presence",
+        "description": "<p>Beings may choose to reroll any Persuasion check made to Intimidate others, but the result of the reroll must be accepted, even if it is worse.</p>"
+      },
+      {
+        "name": "Radiation Resistance",
+        "description": "<p>Beings receive a +5&nbsp;Species&nbsp;bonus to their&nbsp;Fortitude Defense against&nbsp;Radiation. In addition, beings never gain a Persistent Condition from the effects of Radiation.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "W5AozX1HW6rKbfby",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

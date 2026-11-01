@@ -1,0 +1,40 @@
+{
+  "_id": "r1UXgPNRA5JlTR2N",
+  "_key": "!items!r1UXgPNRA5JlTR2N",
+  "name": "Trandoshan",
+  "type": "species",
+  "system": {
+    "description": "<p>The reptilian Trandoshans are known for their great strength, and warlike natures. Many of these beings dedicate themselves to martial training, and some follow the path of the hunter on their native world. A few have even become renowned (or infamous) bounty hunters in galactic society. Trandoshans have a long-standing enmity with Wookiees, and the two Species have fought often over the centuries. </p><p>Trandoshans (who refer to themselves as \"T'doshok\") have supersensitive eyes that can see into the infrared range. They shed their skin several times in the span of their lives and can even regenerate lost limbs, but their clawed hands have difficulty with fine manipulation of objects. </p><h3>Trandoshan Characteristics</h3><p><b>Personality:</b> Violent, brutal, and driven, Trandoshans love to compete but can show compassion and mercy as the situation warrants. </p><p><b>Physical Description:</b> Trandoshans range from 1.8 to 2.1 meters tall. Their scaly hides offer additional defense against attacks. </p><p><b>Age Groups:</b> Trandoshans age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-14 Years </td> \n   <td>15-34 Years </td> \n   <td>35-49 Years </td> \n   <td>50-59 Years </td> \n   <td>60+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The jungle world of Trandosha. </p><p><b>Languages:</b> Trandoshans speak, read, and write both Dosh and Basic. </p><p><b>Example Names:</b> Bossk, Fusset, Krussk, Ssuurg, Tusserk. </p><p><b>Adventurers:</b> A Trandoshan adventurer craves the thrill of battle. Some leave Trandosha to become bodyguards or mercenaries. Others set out to find new places to hunt and explore. A few use their warrior traditions to become Soldiers, some even developing into Bounty Hunters as time goes by. </p><h3>Trandoshan Species Traits</h3><p>Trandoshans share the following Species Traits: </p><h2>Additional Trandoshan Species Feats</h2><p>Trandoshan characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Pitiless Warrior </td> \n   <td> </td> \n   <td>Gain Bonus Hit Points whenever you take down a foe. </td>\n  </tr> \n  <tr> \n   <td>Regenerative Healing </td> \n   <td> </td> \n   <td>Regain more Hit Points (but more slowly) when you catch a Second Wind. </td>\n  </tr> \n  <tr> \n   <td>Thick Skin </td> \n   <td> </td> \n   <td>Gain a +2 Species bonus to your Fortitude Defense. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Armor (+1)",
+        "description": "<p>A being gains a Natural Armor bonus to their&nbsp;Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Darkvision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(including&nbsp;Total Concealment) from darkness. However, they cannot perceive colors in total darkness.</p>"
+      },
+      {
+        "name": "Limb Regeneration",
+        "description": "<p>A being can regrow a lost limb in 1d10 days. At the end of this time, all Persistent penalties associated with the loss of the limb are removed.</p>"
+      },
+      {
+        "name": "Bonus Feat (Toughness)",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wrlBXTyhnOi64qqD",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

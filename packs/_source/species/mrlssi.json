@@ -1,0 +1,40 @@
+{
+  "_id": "E8F2De6bbTva0jdj",
+  "_key": "!items!E8F2De6bbTva0jdj",
+  "name": "Mrlssi",
+  "type": "species",
+  "system": {
+    "description": "<p>The diminutive Mrlssi hail from The Colonies region world of Mrlsst, and they are the only sentient Species native to their star system. They evolved from flightless avians, and their faces are dominated by large black eyes and hooked beaks. </p><p>Mrlssi are typically peaceful and scholarly. Their homeworld has long been home to some of the galaxy's most prestigious universities and research centers, including one of the leading institutions for applied sciences- the Mrlsst Trade and Science Academy. Out of Mrlssi schools grow a host of findings that ease the shipping of food and livestock between worlds, along with innovations that later become standard construction techniques for structures and vessels on planets and in space. </p><p> Despite their place of honor among the galaxy's scientists and engineers, Mrlssi are not commonly encountered off their homeworld. They rarely leave their home system, and when they do, they travel for specific purposes and to specific destinations. When their task is done, they return home. The exception is an enclave of Mrlssi that grew up on the world of <span class=\"new\" title=\"Byblos (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQnlibG9zP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Byblos</span>, where Mrlssi professors have been fixtures at the engineering and applied astromechanics colleges of the University of <span class=\"new\" title=\"Byblos (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQnlibG9zP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Byblos</span> for generations.</p><p>The Mrlssi stay out of the wars that mark the rise and fall of The Galactic Empire, so Mrlsst is spared most of the devastation experienced by other worlds. The reputations of the planet's schools suffer due to Imperial propaganda that demeans anything not dominated by Humans, but Mrlsst does not come under military attack until five years after Emperor Palpatine's demise on the second Death Star. As part of his campaign against The New Republic, Imperial Grand Admiral Thrawn besieges and bombards Mrlsst, laying waste to many of the world's ancient and beautiful campuses. </p><p>Proving that intellectual power endures, the Mrlssi quickly rebuild more modest campuses and soon are again at the forefront of learning and scientific development in the galaxy. Even the threat of the Yuuzhan Vong merely brightens the glow of knowledge around Mrlsst, as research scientists and students at the schools race to find ways to counteract the alien biotechnology. </p><h3>Mrlssi Characteristics</h3><p><b>Personality:</b> Mrlssi are quick-witted and detail-oriented beings who value knowledge over physical possessions. Even the richest Mrlssi live modestly, although they often have huge libraries consisting of rare and obscure texts. Mrlssi are seldom impressed by shows of wealth or power, but they always have great respect for talented intellectuals and scientists. </p><p>Mrlssi are natural problem-solvers, and they love mysteries and puzzles. This quality, coupled with keen analytical abilities, is what makes their engineers so good at improving upon existing designs. They can spot a design weakness and work at it until they have found the key to fixing the limitation. Mrlssi enjoy intelligent conversations and tinkering with gadgets, and they love nothing more than friendly debates over the relative strengths of various Starships or Speeders. They also delight in jokes and wordplay, considering themselves among the galaxy's foremost humorists. However, Mrlssi humor is often so dry or based on convoluted premises that members of other Species can have a difficult time knowing when a Mrlssi is joking. </p><p><b>Physical Description:</b> Mrlssi are a blue-skinned, diminutive Species. The average adult stands between 0.7 and 1.3 meters tall. Their bodies are covered in feathers, but their arms, legs, and faces are scaly. Young Mrlssi have brown or gray feathers, but as they age, they develop brightly colored plumage. Mrlssi have three clawed digits on each of their hands and feet. </p><p>Mrlssi speak in high, piping voices. When they communicate in their native language, the sound of their vocalizations is generally considered to be beautiful, but when they speak Basic, their voices are grating to some Species. </p><p><b>Age Groups:</b>&nbsp;Mrlssi age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-4 Years </td> \n   <td>5-8 Years </td> \n   <td>9-35 Years </td> \n   <td>36-69 Years </td> \n   <td>70-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Mrlssi originate on Mrlsst, a Colonies Region world noted for its lush jungles and institutions of higher learning. </p><p><b>Languages:</b> Mrlssi know their native language (Mrlsstese) and Basic. Many also master the Durese and Arkanian languages so they can study classic scientific texts in their original forms. </p><p><b>Example Names:</b> Kepor Dagwa, Virssl Jasst, Crlisst Herssek, Krssibel Waray. </p><p><b>Adventurers:</b> Adventuring Mrlssi are extremely rare, but the few that exist tend to be explorers or spies. The former are usually scholars with an interest in lost civilizations, and they can be found just about anywhere in the galaxy, leading archeological expeditions chartered by top universities and wealthy patrons. The latter might not be scholars, but they take advantage of their Species' bookish, harmless reputation to engage in industrial espionage (or worse). Mrlssi agents are among some of the favorite outside operatives employed by Bothan agencies, and they are key to a number of successful Alliance operations during the Galactic Civil War. </p><h3>Mrlssi Species Traits</h3><p>Mrlssi share the following Species Traits: </p>",
+    "size": "small",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Persuasion))",
+        "description": ""
+      },
+      {
+        "name": "Bonus Trained Skill",
+        "description": "<p>A being chooses one additional Trained Skill at 1st level. The Skill must be chosen from the character's list of Class Skills.</p>"
+      },
+      {
+        "name": "Scholarly Inclination",
+        "description": "<p>At 1st level, a being gains any one&nbsp;Knowledge&nbsp;skill as a bonus&nbsp;Trained Skill.</p>"
+      },
+      {
+        "name": "Bonus Class Skill (Mechanics)",
+        "description": "<p>A particular Skill is always a Class Skill for beings.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "rgBeIVdLCGpoXgDp",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

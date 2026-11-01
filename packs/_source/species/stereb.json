@@ -1,0 +1,44 @@
+{
+  "_id": "5l7A70fsVBqaRpEj",
+  "_key": "!items!5l7A70fsVBqaRpEj",
+  "name": "Stereb",
+  "type": "species",
+  "system": {
+    "description": "<p>Jokingly called \"Hairless Wookiees\" by the few who have seen them, Stereb have been found on a number of worlds with rocky crusts. Not technologically adept, the Stereb live in harmony with the surfaces of a planet, working elaborate stone passages underground in the belief that they're part of the world's circulatory system. </p><h3>Stereb Characteristics</h3><p><b>Personality:</b> Stereb are deliberate and methodical. Not being very curious, they tend to take things at face value. They are not aggressive and usually fight only if forced into a confrontation. </p><p><b>Physical Description:</b> Stereb average about 2.2 meters tall. Their mostly hairless bodies range from pale red to brown with reddish undertones. They have overly long arms and large hands and feet. </p><p><b>Age Groups:</b>&nbsp;Stereb age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-49 Years </td> \n   <td>50-76 Years </td> \n   <td>77-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Stereb homeworld is unknown, although small enclaves have been found on <span class=\"new\" title=\"Serroco (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU2Vycm9jbz9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Serroco</span>, Prakith, and a few other lightly populated planets. Given their lack of technology, some suspect that the Stereb were transported to several planets as slave labor far back in their history. </p><p><b>Languages:</b> Stereb speak Stereb. They are able mimics, and there are a number of Basic words in the Stereb language. </p><p><b>Example Names:</b> Herdr'tui, Eldr'nol, Helr'ven. Stereb names include a Basic-sounding prefix relating to their function in the community (<i>herdr</i> means herder, <i>eldr</i> means elder, <i>helr</i> means healer, and so on) </p><p><b>Adventurers:</b> Most Stereb prefer to remain within the safety of their enclaves. The few Stereb who wander abroad are most likely to be Scouts. Stereb Force-users are very rare. </p><h3>Stereb Species Traits</h3><p>Stereb share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Primitive",
+        "description": "<p>Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Mechanics))",
+        "description": ""
+      },
+      {
+        "name": "Darkvision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(including&nbsp;Total Concealment) from darkness. However, they cannot perceive colors in total darkness.</p>"
+      },
+      {
+        "name": "Tough",
+        "description": "<p>Beings gain a +5 Species bonus to their Damage Threshold and a +2 Species bonus to their Fortitude Defense.</p>"
+      },
+      {
+        "name": "Subterranean",
+        "description": "<p>Beings can Take 10 on Survival checks when in an underground environment, even when distracted or threatened.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "oEBReQYywpxAcs0Q",
+      "sourceBook": "Star Wars Saga Edition Dawn of Defiance (Sword of the Empire)"
+    }
+  }
+}

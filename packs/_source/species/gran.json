@@ -1,0 +1,40 @@
+{
+  "_id": "YDge6aHasAgCTRQ5",
+  "_key": "!items!YDge6aHasAgCTRQ5",
+  "name": "Gran",
+  "type": "species",
+  "system": {
+    "description": "<p> Gran originally came from the world and system of Kinyen in The Expansion Region. They are longtime members of galactic society, with numerous colonies. Although most of these colonies are peaceful, their colony on Malastare quickly became embroiled in a bitter conflict with the native Dugs, forcing the Gran to act aggressively to protect themselves.</p><p>Gran place society over self, and they receive training that complements both their personal talents and society's needs. The desire to maintain balance within society caused the Gran to establish alien-only areas of Kinyen. This was intended to restrict alien influence and avoid trouble between Species, such as what happened on Malastare. During The Dark Times, the Empire has pushed the Gran leadership to grant access to all areas. When the Gran refused, Kinyen was subjected to orbital bombardment. The Kinyen Gran relented, but the incident inspired many Gran to resist the new Empire. </p><h3>Gran Characteristics</h3><p><b>Personality:</b> Gran are highly social and unable to stand solitude, or isolation from other Gran, for any length of time. Most are talkative, friendly, and hospitable. They are slow to anger. Gran friendships are for life. Gran from Malastare and other colonies follow looser social codes than those from the homeworld . </p><p><b>Physical Description:</b> The beige-skinned Gran have three distinctive eye stalks with pitch-black eyes, ahead of small horns and large, triangular ears. Males and females have similar builds. </p><p><b>Age Groups:</b> Gran age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-40 Years </td> \n   <td>41-62 Years </td> \n   <td>63-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Kinyen, with colonies on many other worlds, including <span class=\"new\" title=\"Hok (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSG9rP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Hok</span> and Malastare. </p><p><b>Languages:</b> Gran speak, read, and write their own language of Gran, as well as Basic. </p><p><b>Example Names:</b> Ainlee Teem, Aks Moe, Ask Aak, Baskol Yeesrim, Cera Vixe, Cruegar, Kea R- Lan, Mawhonic, Nadin Paal, Ree-Yees, Vee Naaq. </p><p><b>Adventurers:</b> Heroic Gran are often Nobles, Scoundrels, Scouts, and bounty hunters. Prior to The Dark Times, Gran Jedi were common, and it is possible that some survived the initial Jedi Purge. After the bombardment of Kinyen, individualistic Gran find themselves open to other methods of serving society, looking for new ways to resist the Empire. </p><h3>Gran Species Traits</h3><p>Gran share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Target Awareness",
+        "description": "<p>A being takes no distance penalties on&nbsp;Perception&nbsp;checks made to notice targets for the first 50 squares between the being and its targets.</p>"
+      },
+      {
+        "name": "Innate Accuracy",
+        "description": "<p>Once per encounter, a being can&nbsp;Aim&nbsp;by taking a single&nbsp;Swift Action&nbsp;instead of two&nbsp;Swift Actions.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Precise Shot)",
+        "description": ""
+      },
+      {
+        "name": "Darkvision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(including&nbsp;Total Concealment) from darkness. However, they cannot perceive colors in total darkness.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FrwyLFiwgzWGDnvD",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

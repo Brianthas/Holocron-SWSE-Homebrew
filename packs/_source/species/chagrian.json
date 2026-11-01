@@ -1,0 +1,36 @@
+{
+  "_id": "BCJqN0O7c1l275Ip",
+  "_key": "!items!BCJqN0O7c1l275Ip",
+  "name": "Chagrian",
+  "type": "species",
+  "system": {
+    "description": "<p> The amphibious Chagrians are comfortable both on land and in water. The coastal cities of their homeworld are constructed to allow the rising tides to flood the buildings. When this takes place, Chagrians swim from place to place, or use speeders, which are adapted for aquatic use. The pleasant tropical climate of Champala, coupled with the exotic architecture of its cities makes the Chagrian homeworld a popular destination for galactic tourists. Unlike cities, spaceports on Champala are built high above sea level, on the dryest parcels of land.</p><p>Although juvenile Chagrians possess a weak sense of taste, this sense fades as they mature into adults. The end result is that Chagrians rarely, if ever, enjoy consuming food and drink, and do so solely to fuel their bodies. Dining activities are traditionally viewed as a nuisance, and a waste of time, so most Chagrians choose to consume nutrient capsules in order to maintain bodily health and energy levels. When traveling, most Chagrians carry portable scanners that allow them to determine the relative nutrient value of the food they eat. Although they are unable to taste the food they eat, Chagrians view dining as an opportunity to socialize with members of other Species that do not share their sensory deficiencies. </p><p>Society on Champala is peaceful and highly structured, although Chagrian legal systems are complex and often daunting to outsiders. As a rule, Chagrians are law-abiding and obedient toward figures of authority. Chagrian government ensures that every citizen is cared for, and the standard of living for even the poorest Chagrian is quite high when compared to the impoverished members of other Species. </p><p>Chagrians have inherited an innate resistance to Radiation due to instability in Champala's primary star. Their blue skin is a direct result of this evolutionary step, and modern Chagrians continue to enjoy protection from myriad forms of Radiation as a side effect. </p><h3>Chagrian Characteristics</h3><p><b>Personality:</b> Chagrians are, by and large, even-tempered and accepting of others. They appreciate law, order, and well-defined social structures. On their homeworld, they want for little, and so Chagrians are rarely selfish or greedy individuals. Due to their accepting natures, Chagrians enjoy interacting with members of many different Species. Given their loyalty, they make excellent companions and friends. </p><p><b>Physical Description:</b> Chagrians possess thick skin that ranges in color from light blue to dark indigo. Horns (known as <i>Lethorns</i>) stem from a pair of fleshy growths that protrude from the sides of their heads. Male Chagrians also develop a pair of sharp horns on the tops of their heads, and these are known to get quite long. </p><p><b>Age Groups:</b> Chagrians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-16 Years </td> \n   <td>17-42 Years </td> \n   <td>43-56 Years </td> \n   <td>57-75 Years </td> \n   <td>76+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Champala, a tropical water world in The Inner Rim. </p><p><b>Languages:</b> Chagri is the native language of the Champala. Chagrians who leave their homeworld readily learn Basic in order to communicate with the rest of the galactic community. </p><p><b>Example Names:</b> Mas Amedda, Belar Tasseva, Myn Seda, Shiran Vallendri, Ketrias Gorran. </p><p><b>Adventurers:</b> Given their predisposition in dealing well with others, Chagrians make excellent Nobles and Jedi. Less scrupulous Chagrians gravitate toward the Scoundrel class, while Chagrian Scouts and Soldiers are not unheard of. </p><h3>Chagrian Species Traits</h3><p>Chagrians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Breathe Underwater",
+        "description": "<p>Beings can't drown in water.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Radiation Resistance",
+        "description": "<p>Beings receive a +5&nbsp;Species&nbsp;bonus to their&nbsp;Fortitude Defense against&nbsp;Radiation. In addition, beings never gain a Persistent Condition from the effects of Radiation.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "S7CDiNSmAhEeeeEL",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "AWwHVULxsyIEPIWd",
+  "_key": "!items!AWwHVULxsyIEPIWd",
+  "name": "Nazren",
+  "type": "species",
+  "system": {
+    "description": "<p>Nazren are extremely tall humanoids from the arid and desolate world of Nizon. They are well adapted to the harsh conditions of their home planet and are remarkably strong and resilient. Unfortunately, these very traits have made them perfect targets for slavers, who use them for hard physical labor. Despite their massive size and intimidating demeanor, Nazren are not a warlike Species. This proved to be their downfall when the Empire arrived and began enslaving them. However, they are not pacifists, either, and their will and ability to fight back grew slowly but surely. </p><p>Nazren typically wear sleeveless tunics tucked into black hide pants and heavy boots. Their clothes are normally fastened with hooks or clamps on the end of short lengths of cord or attached belts. Pads that strap onto the shoulders (to cushion a heavy load) and arm bracers are common, also attached with the hook system. </p><h3>Nazren Characteristics</h3><p><b>Personality:</b> Nazren are pragmatic, serious, and traditional. Their harsh homeworld has taught them to be mindful of survival and never to take anything for granted. </p><p><b>Physical Description:</b> Nazren are tall humanoids, approximately the same height as Wookiees, but broader at the shoulders and narrower at the hip, with longer arms and torsos but shorter legs. They are hairless, with thick skin that has a heavy hide or leather look. They are brown to light yellow in color, a natural camouflage for their dustbowl world. The head of a Nazren has no nose and is flatter than a Human's. A prominent brow ridge protects their eyes, and a series of small knobs start at the back of the head and run down to a visible spine. </p><p><b>Age Groups:</b>&nbsp;Nazren age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-15 Years </td> \n   <td>16-30 Years </td> \n   <td>31-200 Years </td> \n   <td>201-275 Years </td> \n   <td>276-350 Years </td> \n   <td>351+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Arid Outer Rim planet of Nizon. </p><p><b>Languages:</b> Nazren speak their own droning tongue of Nazren, and most learn Basic at a young age. </p><p><b>Example Names:</b> Karzen, Martook, Naktok, Razmor, Sartok. </p><p><b>Adventurers:</b> The Nazren are nomadic by nature, and recently freed slaves- or those who helped overthrow the yoke of the Empire from their home- are drawn by the wonders the galaxy has to hold. Some Nazren have shown potential in The Force, although they do not call it as such. Those capable of using The Force typically master healing powers and other Light Side abilities. </p><h3>Nazren Species Traits</h3><p>Nazren share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Resilience",
+        "description": "<p>Once per encounter, when a being would be moved down the Condition Track by taking damage equal to or exceeding the being's Damage Threshold, the being may reduce the number of steps moved down the Condition Track by 1 (to a minimum of 0 steps).</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FSgJyvjm6eAwMZlN",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements (General Web Enhancements)"
+    }
+  }
+}

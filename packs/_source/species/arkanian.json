@@ -1,0 +1,36 @@
+{
+  "_id": "Nk0aXTzNsxyjSdLI",
+  "_key": "!items!Nk0aXTzNsxyjSdLI",
+  "name": "Arkanian",
+  "type": "species",
+  "system": {
+    "description": "<p>Arkanian society and history are among the most complex in the Old Republic. At different times in its history, Arkanian has belonged to both the Republic and the Sith Empire, and played important roles in each. Knowledge and research are extremely important to the Arkanians, and they are highly skilled academicians and scientists. It is therefore not surprising that Arkania would become a main repository of the history of the Sith Empire, as well as home to vast libraries of information from across the galaxy. </p><p>Arkanians are not afraid to profit from their research and high intelligence. Arkanian corporations amass wealth by bringing key medical treatments and technology to the market at opportune times. Many in the galaxy find the Arkanians arrogant and aloof. They are horrified by the direction of some Arkanian research, particularly their work in genetic engineering. Indeed, the Arkanians are known to have transformed entire Species over the course of generations, often to the detriment of the Species.&nbsp; </p><p>Even the Arkanian Species itself had not been off-limits to research and genetic engineering. Specific subspecies, such as the Arkanian Offshoots, were engineered for specific tasks. However, the Arkanian Offshoots are less harder and shorter lived than the original Arkanians- a trait not helped by occasional attempts by racist Purebloods to wipe them out. They also differ in physical appearance, typically in skin tone, eyes, and ears. Reactions to Arkanian Offshoots vary widely within Arkanian society. Much to the horror of the occasional outsiders who visit Arkanian Offshoot communities, some Arkanian regard them as merely tools or as a slave Species. However, such feelings are not universal. Many regard the Arkanian Offshoots as an example of the cruel consequences of Arkanian corporate greed. </p><h3>Arkanian Characteristics</h3><p><b>Personality:</b> Arkanians are arrogant and regard themselves superior to all other Species. Even those with a more moderate viewpoint still believe themselves to be among the more intelligent Species in the galaxy. As such, they prefer the company of fellow Arkanians. </p><p><b>Physical Description:</b> Arkanians are bipedal humanoids with a near-Human appearance. Arkanian eyes have no visible iris or pupil, and are typically stark white in color. They possess four clawed digits, three fingers and a thumb. </p><p><b>Age Groups:</b> Arkanians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-18 Years </td> \n   <td>19-44 Years </td> \n   <td>45-76 Years </td> \n   <td>77-99 Years </td> \n   <td>100+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The frigid and inhospitable world of Arkania, in the Perave System of The Colonies region. </p><p><b>Languages:</b> Arkanians speak their native tongue of Arkanian, as well as Basic. </p><p><b>Example Names:</b> Arkoh Adasca, Dolvan Genarik, Jaro Salaban, Kalor Nelprin, Marael Kortva, Sulan Bek. </p><p><b>Adventures:</b> Arkanian heroes are typically Nobles, Scouts, or Scoundrels. Many attempt to counter the reputation that all Arkanians are greedy, out-of-control scientists out to change the galaxy to benefit Arkanian corporations. Even Jedi Arkanians are met with skepticism and distrust, despite their position. </p><h3>Arkanian Species Traits</h3><p>Arkanians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Flash of Genius",
+        "description": "<p>Once per encounter, a being can add a +5 circumstance bonus to to the result of one Knowledge, Mechanics, or Use Computer&nbsp;skill check.</p>"
+      },
+      {
+        "name": "Darkvision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(including&nbsp;Total Concealment) from darkness. However, they cannot perceive colors in total darkness.</p>"
+      },
+      {
+        "name": "Logical Reasoning",
+        "description": "<p>A being can use their Intelligence modifier in place of their Charisma modifier on Persuasion checks.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bSWXf1lCq8wh4EwO",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

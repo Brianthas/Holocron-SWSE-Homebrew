@@ -1,0 +1,32 @@
+{
+  "_id": "uuc2hjreTaw4QIif",
+  "_key": "!items!uuc2hjreTaw4QIif",
+  "name": "Blood Carver",
+  "type": "species",
+  "system": {
+    "description": "<p>Blood Carvers are a mysterious Species rarely seen outside their homeworld of <span class=\"new\" title=\"Batorine (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmF0b3JpbmU/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Batorine</span>. Those that leave, however, do so because they have been exiled. They gravitate toward the fringes of society, finding it more appealing to operate outside the law. Additionally, Blood Carvers feel shunned by galactic society because of the Blood Carvers' reputation for being fearsome assassins. </p><p>Except for exiles, Blood Carvers rarely act alone, and exiles find new tribes (often like-minded members of other Species) to associate with. Freed from cultural restrictions, Blood Carvers seek out personal wealth, but most are content to get by with a moderate amount of comfort. </p><h3>Blood Carver Characteristics</h3><p><b>Personality:</b> On <span class=\"new\" title=\"Batorine (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmF0b3JpbmU/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Batorine</span>, Blood Carvers are fiercely loyal to their tribes and tribal leaders. Those that venture into the galaxy carry the vestiges of this loyalty, transferring it to new allies made away from their home planet. Blood Carvers are unusually disdainful of material wealth and egoism, and find flattery and excess offensive. Blood Carvers strive to stamp out such traits, and some Blood Carvers are exiled from <span class=\"new\" title=\"Batorine (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmF0b3JpbmU/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Batorine</span> for showing hints of greed, gluttony, or pride. </p><p><b>Physical Description:</b> Vaguely humanoid with golden skin, beak-like noses, and dark eyes, Blood Carvers are taller than Humans, despite their triple-segmented legs. Blood Carvers wear sparse, close-fitting clothing that allows them to move about with relative quiet, and they rarely, if ever, adorn themselves with jewelry. Tribal tattoos are common on Blood Carvers. </p><p><b>Age Groups:</b> Blood Carvers age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-20 Years </td> \n   <td>21-60 Years </td> \n   <td>61-80 Years </td> \n   <td>81-100 Years </td> \n   <td>101+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Batorine (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmF0b3JpbmU/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Batorine</span> is a temperate world in The Colonies region. Blood Carvers also maintain colonies on friendly worlds, including Coruscant and Alderaan, and pocket colonies of exiles have popped up on more distant worlds such as Nar Shaddaa. </p><p><b>Languages:</b> Blood Carvers speak Batorese, a language that uses skin coloration and pheromones in addition to its verbal component. Non-Blood Carvers cannot speak or understand Batorese, due to the complexities of the language, but Blood Carvers also speak Basic. </p><p><b>Example Names:</b> Ke Daiv, Pa Gara, Mu Fiev, Va'Tosh. </p><p><b>Adventurers:</b> Blood Carver adventurers make excellent spies, assassins, and scouts. They gravitate toward the Scout and Scoundrel classes, though some also become Soldiers. Force Sensitivity is not unknown among Blood Carvers, though few join The Jedi Order. </p><h3>Blood Carver Species Traits</h3><p>Blood Carvers share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Acrobatics))",
+        "description": ""
+      },
+      {
+        "name": "Deathstrike",
+        "description": "<p>Whenever a being makes a melee attack against an opponent that is denied its Dexterity bonus to its Reflex Defense, the being's attack, if successful, deals +1 die of damage.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aKvCzzJGSQFICghi",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

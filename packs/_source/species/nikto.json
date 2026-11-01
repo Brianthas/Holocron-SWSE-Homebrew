@@ -1,0 +1,36 @@
+{
+  "_id": "WihvjFLgOgC7m8rm",
+  "_key": "!items!WihvjFLgOgC7m8rm",
+  "name": "Nikto",
+  "type": "species",
+  "system": {
+    "description": "<p>Widely recognized as a slave species of the Hutts, the Nikto have served their masters since before the founding of The Old Republic, proving to be cunning warriors in the Hutts' battle with the legendary conqueror Xim the Despot. Wherever the Hutts are, the Nikto are never far behind. Because of their homeworld's radioactive atmosphere, the Nikto have five distinct subspecies, each adapted to a specific type of terrain (see Nikto Survival feat). </p><h3>Nikto Characteristics</h3><p><b>Personality:</b> Although lacking in personal charisma, Nikto posses a single-minded tenacity that makes them excellent followers. Eons of enslavement by the Hutts have left them more comfortable with taking orders from their masters than with thinking on their feet. </p><p><b>Physical Description:</b> Tough, leathery skin and a lack of extensive facial muscles limit the range of Nikto facial expression. Their deep black eyes further enhance their reptilian appearance. A Nikto's subspecies can be determined by his or her skin tone and the presence of small spikes or horns. </p><p><b>Age Groups:</b>&nbsp;Nikto age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-35 Years </td> \n   <td>36-54 Years </td> \n   <td>55-64 Years </td> \n   <td>65+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Kintan, a radioactive planet located within Hutt Space in The Outer Rim. </p><p><b>Languages:</b> All Nikto learn to read, speak, and write their own Nikto language along with either Basic or Huttese. </p><p><b>Example Names:</b> Bok, Fi-Ek Sirch, Giran, Klaatu, Ma'kis'shaalas, Nysad, Wooof. </p><p><b>Adventurers:</b> Nikto have the tenacity to pursue any career, but their status as a slave species to the Hutts forces them into roles as guards and Soldiers. </p><h3>Nikto Species Traits</h3><p>Nikto share the following Species Traits: </p><h2>Additional Nikto Species Feats</h2><p>Nikto characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Nikto Survival </td> \n   <td> </td> \n   <td>Reroll Survival checks in native environment. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Great Fortitude",
+        "description": "<p>Beings gain a +2&nbsp;Species&nbsp;bonus to their&nbsp;Fortitude Defense.</p>"
+      },
+      {
+        "name": "Natural Armor (+2)",
+        "description": "<p>A being gains a Natural Armor bonus to their&nbsp;Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Survival Instinct",
+        "description": "<p>A being may choose to reroll any&nbsp;Survival check, but the result of the reroll must be accepted even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Ahq2cgIbZkvCcy8G",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

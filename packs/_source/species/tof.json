@@ -1,0 +1,40 @@
+{
+  "_id": "XDuCT4U7c8of8oKy",
+  "_key": "!items!XDuCT4U7c8of8oKy",
+  "name": "Tof",
+  "type": "species",
+  "system": {
+    "description": "<p> The Tofs come from the darkest and most obscure portion of The Unknown Regions: the peripheral halo. Far removed from The Chiss Ascendancy, The Vagaari Empire, and The Ssi-Ruuvi Imperium in the galactic disk, the Tofs and others in the satellite galaxy they call Firefist (and named \"Companion Besh\" by Republic cartographers) have little understanding of, or sympathy for, traditional galactic power plays- with the exception of their aborted invasion shortly after the Battle of Endor.</p><p>Their culture is intentionally anachronistic. Violently opposed to streamlined functionality, the Tofs have instead embraced elaborate dress and foppish ritual. Their interstellar vessels resemble traditional sailing ships and sport curved hulls and energy- radiating sails. Their royals wear tailored greatcoats and powdered wigs. Their soldiers carry cutlasses and cudgels and collect battle scars. </p><p>Attire becomes more ornate as Tofs climb the military hierarchies that make up their society. Low-ranking deckhands wear simple cloth shirts, leather vests, and head-scarves. Ship's captains are outfitted with heavy buccaneer's boots, sparkling rings on nearly every finger, and a waist sash that holds a Blaster Pistol and a carved Club. Tofs do not bathe, covering their stink with perfumed bows on their tunics and boots. </p><p>Males dominate Tof society. Females are seldom seen and generally kept on-planet where they are visited only when Tof vessels return to port. During long star voyages, Tof males exhibit reckless lust for humanoid females and often make unwanted moves on attractive targets (Or prove vulnerable to feminine flattery). </p><h3>Tof Characteristics</h3><p><b>Personality:</b> A Tof's temperament is crude. Tofs enjoy rough humor and take pleasure in food and drink. They are hopelessly immersed in their own culture and see no need to understand the ways of other Species. After capturing a planet, they topple its monuments and erect grotesque statuary of their own design, including fanciful depictions of water nymphs and horn-playing dryads. </p><p><b>Physical Description:</b> Tofs are largely humanoid in appearance, although their skin bears a sickly green sheen and they tend to have massive physiques. Most Tofs can grow to heights of 2.5 meters, and they are either powerfully overmuscled or grossly rotund. Tofs move one slow step at a time and can flatten an opponent with one slap of a slab-sized palm. </p><p><b>Age Groups:</b>&nbsp;Tofs age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-74 Years </td> \n   <td>75-99 Years </td> \n   <td>100-114 Years </td> \n   <td>115+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> In the distant past, the Tofs build a seagoing society on the waterworld also known as <span class=\"new\" title=\"Tof (Planet) (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVG9mXyhQbGFuZXQpP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Tof</span>. This high point in their history is known for fantastic ship-to-ship battles, narrow escapes from titanic ocean predators, and drinking and carousing in the low ports constructed on the planet's island chains. </p><p><b>Languages:</b> Tofs exclusively speak Tof, believing other languages to be beneath them. They may learn to understand other languages, but they feel it an insult to speak such a thing aloud. </p><p><b>Example Names:</b> Bargthron, Sereno, Supreme. </p><p><b>Adventurers:</b>&nbsp;Quick to laugh and often grinning from ear to ear, Tofs can be mistaken as boisterous and good- natured revelers. The facade is revealed when Tof smiles turn cruel and their interest turns toward vandalism and torture. </p><p>The Tofs are single-minded in their pursuit of pleasure. They come from a plentiful world where they enjoy many luxuries, and they seldom know hunger or hardship. In many ways, these characteristics make them more monstrous than the Vagaari or the Killiks, which at least believe that they must expand their territory or die. Tofs wage war in the way that bored nobles might arrange a hunting expedition, wrecking entire civilizations for the sake of their amusement. </p><h3>Tof Species Traits</h3><p>Tofs share the following Species Traits: </p>",
+    "size": "large",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Bonus Feat (Rapid Shot)",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      },
+      {
+        "name": "Bonus Feat (Rapid Strike)",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Mighty Swing)",
+        "description": ""
+      },
+      {
+        "name": "Fearless",
+        "description": "<p>Beings gain a +5 Species bonus to their Will Defense to resist Fear effects, as well as against the Intimidate application of the Persuasion skill.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "OT3gxgz6RpS4CaxX",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "yE2eyoIXPtrg0yVs",
+  "_key": "!items!yE2eyoIXPtrg0yVs",
+  "name": "Klatooinian",
+  "type": "species",
+  "system": {
+    "description": "<p>The ancient Klatooinians perceived the Hutts as demigods. The Hutts, never a kind to refuse the upper hand in any situation, used this false perception to their own advantage, convincing the Klatooinians to cast aside their ancient traditions, abandon their native language in favor of Huttese, and accept their place as indentured servants. Over the millennia, the Hutts have sheltered the Klatooinians and cultivated a society that is largely docile, obedient, illiterate, and isolated from the greater galactic community. </p><p>Exposure to technology has not diminished the Klatooinian predilection for simplicity. However, youthful Klatooinians often chafe at the conventional \"Wisdom\" of their elders, and despite the Hutts' efforts to shield their Klatooinian subjects from progressive ideas, many Klatooinians strive to break away from their Hutt overlords. The Hutts are wary of sedition but are often reluctant to quash seditious ideas completely for fear of forenting rebellion. So long as such incidents remain small and isolated, the Hutts are content to profit from their one-sided relationship with the Klatooinian people. </p><h3>Klatooinian Characteristics</h3><p><b>Personality:</b> Klatooinians are loyal and resolute to a fault. They rarely think outside of their own world view, which is further narrowed by their subservience to the Hutts.Those who feel shackled by their society's indentured service often seek to end the Huttese domination of Klatooine altogether. Whatever their motivation, all such Klatooinians appreciate freedom as only a former slave can. </p><p><b>Physical Description:</b> Klatooinians possess course skin that varies in hue from brown to green. Their faces are characterized by a flat muzzle with pronounced jowls, and deepset eyes beneath a heavy brow. </p><p><b>Age Groups:</b> Klatooinians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-49 Years </td> \n   <td>50-69 Years </td> \n   <td>70-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The harsh desert world of Klatooine, located in Hutt Space within The Outer Rim. </p><p><b>Languages:</b> All Klatooinians speak Huttese. The original language of the Klatooinians exists only in ancient texts and in the minds of a handful of Klatooinian malcontents. While not strictly illegal, knowledge of the Klatooinian tongue is frowned upon by the Hutts who see its spread as a sign of insubordination among a Species of valuable slaves. </p><p><b>Example Names:</b> Barada, Bekure, Chokk, Drekk, Jarakar, Kuuvat, Massa, Rokar, Sovara. </p><p><b>Adventurers:</b> Many Klatooinians walk the path of the Scout or the Soldier. However, Klatooinian Force-users are rare, and Klatooinian Nobles are unheard of. </p><h3>Klatooinian Species Traits</h3><p>Klatooinians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Iron Will",
+        "description": "<p>Beings gain a +2&nbsp;Species&nbsp;bonus to their&nbsp;Will Defense.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "aXU8s9UrJ89hTgQZ",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

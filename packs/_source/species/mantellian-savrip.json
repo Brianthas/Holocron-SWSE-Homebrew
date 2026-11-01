@@ -1,0 +1,44 @@
+{
+  "_id": "dkh1BwI8HxYX0lif",
+  "_key": "!items!dkh1BwI8HxYX0lif",
+  "name": "Mantellian Savrip",
+  "type": "species",
+  "system": {
+    "description": "<p> A reptilian Species of semi-sentient brutes native to the planet Ord Mantell, Mantellian Savrips' sentience was a contentious subject to&nbsp;xenobiologist&nbsp;from the&nbsp;Core Worlds. Often believed to be simply a very cunning non-sentient beast by many Mantellians, the Mantellian Savrips are technologically primitive, and have their own informal language. Preferring to wear clothing and wielding simple tools and Weapons, some Mantellian Savrips had learned to speak accented&nbsp;Basic. Mantellian Savrips are naturally inclined to combat, and this, coupled with their unusual language, only fostered the notion that they were unintelligent.</p><p>During the colonization of Ord Mantell, sanctioned killings of the Mantellian Savrip Species nearly drove the race to extinction. Many were hunted or exported, and, by the time of The&nbsp;Galactic Empire, few Mantellian Savrips remained on Ord Mantell, keeping to themselves in the&nbsp;Scraplands. </p><h3>Mantellian Savrip Characteristics</h3><p><b>Personality:</b> Mantellian Savrips are often brutes with little interest in the affairs of others. After their near extermination on Ord Mantell, most Mantellian Savrips have become withdrawn from galactic society, rarely leaving their villages in the Scraplands. </p><p><b>Physical Description:</b> Mantellian Savrips have a hunched-over stature, leathery skin, snake-like heads, and arms long enough to drag the ground. Their skin tone can vary between a bland grey or a dark blue tone, and their mouths are filled with razor-sharp poisonous teeth. </p><p><b>Age Groups:</b> Mantellian Savrips age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-7 Years </td> \n   <td>8-14 Years </td> \n   <td>15-349 Years </td> \n   <td>350-449 Years </td> \n   <td>450-499 Years </td> \n   <td>500+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Mantellian Savrips originated from Ord Mantell. Their systematic near-extermination has driven them to dwell in the Scraplands, a barren expanse of industrial waste. </p><p><b>Languages:</b> Savrip, a primitive language composed of roars, shrieks, and growls. </p><p><b>Example Names:</b> Kalhar, Mawkran, Clu, Taf, Mev. </p><p><b>Adventurers:</b> Few Mantellian Savrips leave their villages on Ord Mantell, even before their near-extermination. The few that due do so as slaves, often used as muscle for crime lords. Those that escape slavery to become heroes almost unilaterally become Soldiers. </p><h3>Mantellian Savrip Species Traits</h3><p>Mantellian Savrips share the following Species Traits: </p>",
+    "size": "large",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Armor (+2)",
+        "description": "<p>A being gains a Natural Armor bonus to their&nbsp;Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Primitive",
+        "description": "<p>Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.</p>"
+      },
+      {
+        "name": "Natural Weapons",
+        "description": "<p>A being has Natural Weapons, in some form or another. When a being makes an Unarmed attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal Unarmed damage. Beings are always considered armed with their Natural Weapons.</p>"
+      },
+      {
+        "name": "Rage",
+        "description": "<p>Once per day, a being can fly into a Rage as a Swift Action. While Raging, the being temporarily gains a +2 Rage bonus on melee attack rolls and melee damage rolls, but cannot use Skills that require patience and concentration, such as Mechanics, Stealth, or Use the Force. A fit of Rage lasts for a number of rounds equal to 5 + the being's Constitution modifier.</p><p>At the end of its Rage, the being moves -1 Persistent step along the Condition Track. The penalties imposed by this Persistent Condition persist until the being takes at least 10 minutes to recuperate, during which time the being can't engage in any strenuous activity.</p>"
+      },
+      {
+        "name": "Poison (Species)",
+        "description": "<p>If the Natural Weapons of a being can deal damage to a living target, the target is also Poisoned. If the Poison succeeds on an attack roll (1d20 + the being's Character Level) against the target's Fortitude Defense, the target moves -1 step along the Condition Track.</p><p>A target moved to the end of the Condition Track by the Poison is Immobilized, but not Unconscious.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fssI7AY0DSjc9jxv",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

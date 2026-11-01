@@ -1,0 +1,36 @@
+{
+  "_id": "bQZIdZNcfNtEOYf8",
+  "_key": "!items!bQZIdZNcfNtEOYf8",
+  "name": "Sluissi",
+  "type": "species",
+  "system": {
+    "description": "<p> Sluissi are pioneers of faster-than-light propulsion, having developed space travel before their first contact with Duros and Human explorers and the Old Republic. Their home planet of Sluis Van is known for centuries as an excellent shipyard. The Sluissi use their shipyards to reinforce and expand their contact with other Species and to maintain and improve their position within the Republic.</p><p>Sluissi Technicians are renowned for Starship construction and modification. Although Sluissi methods are slower than others, customers are willing to wait to own the best Starship technology available. The Sluissi consider Starship construction to be an art form. So respected are Sluissi shipyards that the slow pace of construction is tolerated by even the Empire, albeit impatiently. </p><h3>Sluissi Characteristics</h3><p><b>Personality:</b> Sluissi are tinkerers at heart. Even those who do not pursue mechanical arts professionally dabble in them regularly. Most Sluissi encountered away from their homeworld and colonies are apprentice mechanics or skilled Technicians. They have an unhurried style that tries the patience of even the most tolerant travelers and clients. Sluissi are sociable, even among other Species. </p><p><b>Physical Description:</b> Sluissi have long, legless, and distinctly serpentine bodies that are covered in fine scales, typically ranging in color from light brown to dark green. A Sluissi's eyes are round and totally black. A forked tongue aids a Sluissi's sense of smell. </p><p><b>Age Groups:</b> Sluissi age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-8 Years </td> \n   <td>9-14 Years </td> \n   <td>15-39 Years </td> \n   <td>40-59 Years </td> \n   <td>60-75 Years </td> \n   <td>76+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Outer Rim world of Sluis Van, a planet surrounded by its countless orbital shipyards. </p><p><b>Languages:</b> Sluissi speak Sluissese. They also speak Basic, although they tend to lisp and slur many words due to the snakelike structures of their tongues and mouth. </p><p><b>Example Names:</b> Hass Sonax, Mektiss Risohr, Secles Uslopos, Sekae N'sehnor, Sirlahn Alsek, Ten Dorne, Usahn L'sehl, Vsil Ejahsa. </p><p><b>Adventurers:</b> Sluissi travel individually or in small groups. They easily find work as Technicians and Starship mechanics throughout the galaxy. </p><h3>Sluissi Species Traits</h3><p>Sluissi share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Serpentine",
+        "description": "<p>Beings are always considered to have a Running Start for Jump checks. They also gain a +5 stability bonus when making Grapple checks against the Trip Feat.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Tech Specialist)",
+        "description": ""
+      },
+      {
+        "name": "Careful Worker",
+        "description": "<p>A being who takes twice the normal amount of time required to use the Mechanics skill gains a +10 circumstance bonus to the Mechanics check.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bzYfoMlxDd51N5R6",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

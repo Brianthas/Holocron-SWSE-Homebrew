@@ -1,0 +1,44 @@
+{
+  "_id": "JgJkothQKRtuiucu",
+  "_key": "!items!JgJkothQKRtuiucu",
+  "name": "Toydarian",
+  "type": "species",
+  "system": {
+    "description": "<p> Toydarians are small, winged aliens from the planet Toydaria. They are known as shrewd merchants and able con artists, even though many lead reputable lives. Because their homeworld is located within Hutt Space, many Toydarians who leave Toydaria find themselves either unemployed or indentured to Hutt criminal interests. Toydarians easily resist Mind-Affecting Force Powers and are even more resilient to such abilities than their Hutt overlords. </p><p>Toydarians have an unsavory reputation, but not all Toydarians are criminals. However, their sharp minds and keen wit often make those who deal with Toydarians feel like they have been taken advantage of. Most Toydarians have some degree of business savvy, and many have a penchant for gambling (even to their own detriment). </p><p>Toydarians are capable of flight from birth, and can hover in place. Toydarians prefer to fly at all times, though the speed with which their wings beat consumes large amounts of energy. As a result, Toydarians consume several times more food than Humans do in a single day, and some of the bloodiest wars in Toydarian history have been fought over food supplies. Though they have integrated technology into their society and culture, most Toydarians prefer the simple pleasures of small villages and tight-knit communities. </p><h3>Toydarian Characteristics</h3><p><b>Personality:</b> Toydarians are proud and loyal beings who can sometimes border on sycophantic. Likewise, unsavory Toydarians put their keen minds to work deceiving their business partners and tricking unsuspecting folk into being the victims of Toydarian confidence schemes. </p><p><b>Physical Description:</b> Toydarians are rarely more than 1.5 meters tall. Toydarian skin color ranges from blue to green to pink. They are pudgy, with spindly limbs and a pair of fluttering wings that keeps them aloft. </p><p><b>Age Groups:</b> Toydarians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-14 Years </td> \n   <td>15-60 Years </td> \n   <td>61-75 Years </td> \n   <td>76-90 Years </td> \n   <td>91+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Toydarians hail from Toydaria, an out-of-the-way planet in Hutt Space. Airspeeders are banned on Toydaria given the large amount of pedestrian air traffic. </p><p><b>Languages:</b> Toydarians speak their own language, known as Toydarian, as well as Huttese. Toydarians also speak Basic, though Huttese is their true second language. </p><p><b>Example Names:</b> Reti, Watto, Zlato. </p><p><b>Adventurers:</b> Toydarian heroes are likely among those Toydarians who have ventured forth from their home planet in search of fame, fortune, and glory. Toydarian heroes tend to gravitate toward the Scoundrel class where their sharp wits can be put to best use, though some may be Nobles as well. Toydarians also favor the Scout class, especially for the extra mobility. </p><h3>Toydarian Species Traits</h3><p>Toydarians share the following Species Traits: </p>",
+    "size": "small",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Force Resistance",
+        "description": "<p>Beings receive a +5 bonus to their&nbsp;Will Defense&nbsp;against any use of the&nbsp;Use the Force&nbsp;skill.</p>"
+      },
+      {
+        "name": "Flight",
+        "description": "<p>Beings are capable of flight, but cannot do so if they are carrying a Heavy Load.</p>"
+      },
+      {
+        "name": "Hovering",
+        "description": "<p>Beings possess an inherent Hovering speed.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Deception))",
+        "description": ""
+      },
+      {
+        "name": "Fly Speed (6)",
+        "description": "A being has a fly speed of #payload#."
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "DTkqiKzkJBbCxpWV",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

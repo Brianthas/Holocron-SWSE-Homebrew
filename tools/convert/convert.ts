@@ -13,6 +13,7 @@ import { Report, type OutputDoc } from "./lib/pack.ts";
 import { convertFeats } from "./packs/feats.ts";
 import { convertForceFeatures } from "./packs/force-features.ts";
 import { convertForcePowers } from "./packs/force-powers.ts";
+import { convertSpecies } from "./packs/species.ts";
 import { convertTalents } from "./packs/talents.ts";
 
 const OUT = fileURLToPath(new URL("../../packs/_source", import.meta.url));
@@ -23,7 +24,7 @@ const report = new Report();
 const powers = convertForcePowers(report);
 const packs = new Map<string, OutputDoc[]>([
   ["force-powers", powers], ...convertForceFeatures(powers.map((p) => p.name), report), ["feats", convertFeats(report)],
-  ["talents", convertTalents(report)],
+  ["talents", convertTalents(report)], ["species", convertSpecies(report)],
 ]);
 // A talent's name can repeat across trees ("Charm Beast"), so its file carries the tree.
 const fileName = (doc: OutputDoc) => (doc.type === "talent" ? `${slugify(String(doc.system["tree"]))}--${slugify(doc.name)}` : slugify(doc.name));

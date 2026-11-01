@@ -1,0 +1,44 @@
+{
+  "_id": "eEfGFIyFJFyf1pWq",
+  "_key": "!items!eEfGFIyFJFyf1pWq",
+  "name": "Gen'Dai",
+  "type": "species",
+  "system": {
+    "description": "<p>The Gen'Dai benefit from extremely long life spans. Accounts of Gen'Dai living to be over four thousand standard years old are common. They are a hardy Species, thanks in part to their unique physiology. The Gen'Dai have no centralized vital organs, and their elaborate nervous and vascular systems allow them to act quickly and withstand wounds that would kill nearly any other creature. </p><p>The Gen'Dai are intergalactic nomads, constantly traversing the galaxy. The location of their homeworld has been lost to time. Even those Gen'Dai who claim to have lived for several millennia cannot, or do not, reveal its location. </p><h3>Gen'Dai Characteristics</h3><p><b>Personality:</b> With few exceptions, the Gen'Dai are an introspective and peaceful Species. Because of their extraordinary long life spans, they are slow in their decision-making processes. They consider the long-term consequences of their actions, and do not jump to conclusions without adequate evidence. As they age, they begin to lose their grip on their mental faculties. Their personalities become increasingly disjointed, and their penchant for introspection causes them to suffer from depression, psychosis, and other forms of insanity. </p><p><b>Physical Description:</b> Superficially, Gen'Dai appear to be a humanoid race. Their skin color ranges from light red to deep purple, and their eyes vary from bright red to dull yellow-orange. A mandiblelike protrusion extends from each of their cheekbones. The Gen'Dai are large, typically standing over two meters tall. </p><p><b>Age Groups:</b> Gen'Dai age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-200 Years </td> \n   <td>201-999 Years </td> \n   <td>1,000-1,999 Years </td> \n   <td>2,000-3,999 Years </td> \n   <td>4,000+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Unknown. The Gen'Dai are nomads, traveling the stars with no place to call their own. </p><p><b>Languages:</b> Gen'Dai speak their own language of Gen'Dai, a series of gurgles and hisses arranged in an acoustic tone. Most Gen'Dai also learn Basic during their travels. </p><p><b>Example Names:</b> Durge, Grozm, Kranth, Lu'urn. </p><p><b>Adventurers:</b> The most common role for Gen'Dai heroes is the Scout, followed by the Soldier. A few Gen'Dai use their veritable immortality to amass wealth and influence as Nobles, and only a handful become Scoundrels. No Gen'Dai are known to have become Jedi. </p><h3>Gen'Dai Species Traits</h3><p>Gen'Dai share the following Species Traits: </p>",
+    "size": "large",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Regeneration",
+        "description": "<p>A being can regrow lost body parts- including significant portions of its physical structure and individual limbs- in 1d10 minutes. At the end of that time, all Persistent penalties associated with the loss of one or more limbs are removed.</p>"
+      },
+      {
+        "name": "Fast Healing",
+        "description": "<p>Whenever a being takes its Second Wind, it regains 5 Hit Points every round at the end of its turn until killed, the end of the encounter, or until reaching one-half Hit Points (whichever comes first).</p>"
+      },
+      {
+        "name": "Resilient Physiology",
+        "description": "<p>A being's Damage Threshold is doubled after adding bonuses for Feats and size when determining whether the being is killed by an attack (but not for any other purpose).</p>"
+      },
+      {
+        "name": "Hibernation",
+        "description": "<p>A being can use the Force Trance application of the Use the Force skill Untrained (and even if not Force-sensitive) and can remain in the trance indefinitely.</p><p>A being in such a state ceases to Age, and needs no food, water, or air until it emerges from Hibernation.</p>"
+      },
+      {
+        "name": "Mental Instability",
+        "description": "<p>For each Age Category a being advances past Adult, it takes a loss of -1 Wisdom.</p><p>Beings never gain increased Wisdom due to Age, though they can increase their Wisdom scores as their Character Level increases.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HCzjDRkUrzyRjUVa",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

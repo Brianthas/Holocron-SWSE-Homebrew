@@ -1,0 +1,40 @@
+{
+  "_id": "gMvazYPOmijuX01S",
+  "_key": "!items!gMvazYPOmijuX01S",
+  "name": "Lurmen",
+  "type": "species",
+  "system": {
+    "description": "<p>Lurmen are small, furry humanoids with the ability to roll up in a ball faster overland travel. Their love of peace leads the Lurmen to avoid entanglements in galactic events. As a society, Lurmen eschew conflict of any kind, refusing to fight even in their own defense. During the Clone Wars, a colony of Lurmen on <span class=\"new\" title=\"Maridun (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTWFyaWR1bj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Maridun</span> is nearly wiped out by a Separatist weapon, and only when several Lurmen break away from the wishes of their elders and join the fight are their people saved. Although the Lurmen seem stubborn in holding onto their ways, in truth they lead a lifestyle largely free of conflict, and have for eons. </p><p>Although the Lurmen use little technology on a day-to-day basis, they are not completely ignorant of it. The Lurmen who colonize <span class=\"new\" title=\"Maridun (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTWFyaWR1bj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Maridun</span> arrive aboard Starships, although once on their new world they reverted to agrarian living. Lurmen live peaceful lives, but from time to time young Lurmen abandon the old ways. Young Lurmen who leave their homeworlds return years or decades later, settling back once more into the simple lifestyle of their people after having had their fill of the galaxy at large. </p><h3>Lurmen Characteristics</h3><p><b>Personality:</b> Lurmen are friendly but cautious of outsiders. Lurmen are staunch pacifists, but some see the need for action in conflict. Those Lurmen who are willing to fight prefer trickery and indirect action to direct violence. </p><p><b>Physical Description:</b> Lurmen are small, lithe creatures roughly 1 meter tall. They have relatively long limbs and are covered in thick fur. </p><p><b>Age Groups:</b>&nbsp;Lurmen age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-18 Years </td> \n   <td>19-35 Years </td> \n   <td>36-60 Years </td> \n   <td>61-75 Years </td> \n   <td>76+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Most Lurmen hail from their homeworld of <span class=\"new\" title=\"Mygeeto (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTXlnZWV0bz9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Mygeeto</span>, but a small colony also exists on <span class=\"new\" title=\"Maridun (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTWFyaWR1bj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Maridun</span>. </p><p><b>Languages:</b> Lurmen speak Basic and have their own tribal languages, collectively called Lurmese. They write in pictographs and glyphs that convey complex ideas. </p><p><b>Example Names:</b> Tee Wat Kaa, Tub, Wag Too. </p><p><b>Adventurers:</b> The few Lurmen who become adventurers do so either out of curiosity or out of rebellion against their elders. Lurmen adventurers gravitate towards roles that do not rely on violence. Many Lurmen learn trade skills, such as starship maintenance or basic medicine, and find posts aboard Starships as crew members so that they can see the galaxy and satisfy their curiosity. </p><h3>Lurmen Species Traits</h3><p>Lurmen share the following Species Traits: </p>",
+    "size": "small",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Expert Climber",
+        "description": "<p>A being may choose to&nbsp;Take 10&nbsp;on&nbsp;Climb&nbsp;checks even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Primitive",
+        "description": "<p>Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.</p>"
+      },
+      {
+        "name": "Roller",
+        "description": "<p>A being can curl into a ball and quickly roll along the ground. As a Swift Action, a being can increase his or her base Speed by 4 squares. In this form, the being can only take the Move, Withdraw, Catch a Second Wind, Drop an Item, Recover, and Run Actions.</p><p>The being can also spend a Swift Action to emerge from their rolling form, losing the +4 Speed bonus and regaining access to all Actions he or she can normally take.</p>"
+      },
+      {
+        "name": "Mender",
+        "description": "<p>A being Trained in Treat Injury reduces the Treat Injury DC for all applications of the skill by his or her Wisdom modifier.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "fzNOuNDAKikLs9Ey",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

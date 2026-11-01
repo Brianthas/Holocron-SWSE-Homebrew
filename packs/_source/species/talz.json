@@ -1,0 +1,36 @@
+{
+  "_id": "yKI8yimzIvnavqef",
+  "_key": "!items!yKI8yimzIvnavqef",
+  "name": "Talz",
+  "type": "species",
+  "system": {
+    "description": "<p>The Empire subjugates the Talz very early in The Dark Times. The New Order wasted no time in secretly enslaving the race and forcing them to mine the mineral wealth of Alzoc III. The Talz do not understand the motives of their new masters, but they can do little but comply. Those few Talz who escape must hide themselves along the fringes of the galaxy, lest the Imperials send them back to their homeworld. During this time, almost no one in the galaxy knows that the Talz even exist. </p><p>Although primitive, the Talz are quick learners and take to technology quite well. Their two sets of distinctive eyes allow them to see at all times- one set works in bright light, the other in total darkness. Their thick fur is suited to the frigid temperatures of Alzoc III. </p><h3>Talz Characteristics</h3><p><b>Personality:</b> Talz are gentle, kind-hearted, and slow to anger. </p><p><b>Physical Description:</b> A Talz is completely covered in shaggy white fur. Each one has four black eyes, plus a proboscis for talking and eating, and two large hands with sharp talons. </p><p><b>Age Groups:</b> Talz age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-3 Years </td> \n   <td>4-8 Years </td> \n   <td>9-25 Years </td> \n   <td>26-40 Years </td> \n   <td>41-52 Years </td> \n   <td>53+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Alzoc III, a frozen world in The Outer Rim system of Alzoc. </p><p><b>Languages:</b> Talz speak their their own language of buzzing and chirping sounds. </p><p><b>Example Names:</b> Arvor, Bama Vook, Forfur, Foul Moudama, Gar, Muftak, Rugg, Toffik, Veefa, Voruf. </p><p><b>Adventurers:</b> Talz are usually fringer-based Scoundrels, and they are a quick study when introduced to technology. Few Talz are Force-users. </p><h3>Talz Species Traits</h3><p>Talz share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Mechanics))",
+        "description": ""
+      },
+      {
+        "name": "Darkvision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(including&nbsp;Total Concealment) from darkness. However, they cannot perceive colors in total darkness.</p>"
+      },
+      {
+        "name": "Natural Weapons",
+        "description": "<p>A being has Natural Weapons, in some form or another. When a being makes an Unarmed attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal Unarmed damage. Beings are always considered armed with their Natural Weapons.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "T0cOAeSOz98Javcq",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

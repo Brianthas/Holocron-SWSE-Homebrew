@@ -1,0 +1,32 @@
+{
+  "_id": "4C61vg58UgiXnCXE",
+  "_key": "!items!4C61vg58UgiXnCXE",
+  "name": "Devaronian",
+  "type": "species",
+  "system": {
+    "description": "<p>Devaronians are among the first Species in the galaxy to develop interstellar travel, and the males of the species have been common sights in spaceports throughout the galaxy for thousands of years. After reaching middle age, Devaronian males are driven by an urge to wander. As such, they are often found traveling the galaxy as tramp freighter captains and scouts. Female Devaronians, on the other hand, are content to remain in a single location, and as such, raise the young and run the government of Devaron. The males send as much money as they can back to their families on Devaron, but they seldom return to the homeworld. The females are content with this arrangement, as they tend to view the restless males as disruptive to home life. </p><h3>Devaronian Characteristics</h3><p><b>Personality:</b> Devaronian males are bold, daring, bull-headed, rash, terse, unscrupulous, and stingy with their credits. They love being the masters of their own destinies. Female Devaronians are generally bright, wise, scrupulous, and sharp-tongued. </p><p><b>Physical Description:</b> Devaronian males are hairless with red-tinted skin, sharp incisors, and a pair of large horns growing from their foreheads. Their appearance is not unlike the devils of a thousand myths. Female Devaronians are covered in thick fur that ranges in color from brown to white. Females are hornless and have prominent canine teeth. Devaronians stand 1.6 to 1.8 meters tall. </p><p><b>Age Groups:</b>&nbsp;Devaronians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-17 Years </td> \n   <td>18-44 Years </td> \n   <td>45-64 Years </td> \n   <td>65-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Devaron, a world of low mountains and deep valleys linked by thousands of rivers. </p><p><b>Languages:</b> Devaronians speak, read, and write both Devaronese and Basic. Their speech is low, guttural, and full of snarling consonants. </p><p><b>Example Names:</b> Dmaynel Kiph, Elassar Targon, Jubal, Kapp Dendo, Tyrn Jiton, Lak Jit, Oxbel, Saricia, Sires Vant, Trynic, Ulicx Vinaq, Vilmarh Grahrk. </p><p><b>Adventurers:</b> Male Devaronian heroes tend to be Scoundrels or Scouts. Invariably, they are found in occupations that allow them freedom to travel whenever and wherever they wish. Due to the oppressive nature of the Empire, many Devaronian males joined the Rebellion- not because of politics, but because they were annoyed that their freedom to travel was being curtailed. Noteworthy female Devaronians on their homeworld tend to be Nobles and Scouts. However, any female Devaronian hero found elsewhere is already an exceptional individual who has decided to challenge the traditions of her culture. Such Devaronians may be of any class or role. </p><h3>Devaronian Species Traits</h3><p>Devaronians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Curiosity",
+        "description": "<p>Once per encounter as a Standard Action, a being can make a Perception check against a single target within line of sight (DC 15 or the result of an opposed Stealth check, if the target is actively attempting to hide).</p><p>If successful, the being gains a +1 insight bonus on attack rolls against that target.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Deception))",
+        "description": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UC5YRFuHsrefZTUb",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements (General Web Enhancements)"
+    }
+  }
+}

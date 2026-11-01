@@ -1,0 +1,32 @@
+{
+  "_id": "qkGfN70FYNyeuzHG",
+  "_key": "!items!qkGfN70FYNyeuzHG",
+  "name": "Kaminoan",
+  "type": "species",
+  "system": {
+    "description": "<p>The watery planet of Kamino is home to a Species of cloners known as Kaminoans. These tall aliens are the result of generations of selective breeding and genetic modification that began when their world suffered a drastic change in climate. These restrictive breeding programs have made Kaminoans an extremely adaptable Species. Apart from gender, Kaminoans have little variation, and to the untrained eye they all look the same. Subtle variations have been introduced into their genetic codes, however, allowing for diversity within a strict set of parameters. </p><p>The economy of Kamino is based on cloning for profit, but not every Kaminoan is a cloner by trade. The majority of Kaminoans support their communities with various skills and specialized abilities. They strive to perform their work flawlessly, and seek perfection. Because Kaminoans are moderately xenophobic and rarely venture away from their homeworld, they are a rare sight in other parts of the galaxy. </p><h3>Kaminoan Characteristics</h3><p><b>Personality:</b> Kaminoans see themselves as superior to other forms of life. They harbor a private intolerance for imperfection, but they are, nonetheless, polite to outsiders. To a Kaminoan, any Species that seeks self improvement is worthy of respect, but those who do not are obviously inferior and deserve their inevitable decline. This attitude is reflected in their cloning processes, where entire crops of clones might be eliminated due to a single, subtle flaw. </p><p><b>Physical Description:</b> Kaminoans are tall and gaunt, with pale skin, three-fingered hands, and long necks. Their faces are small and dominated by a pair of large, black eyes. Every male Kaminoan has a finlike crest on the top of his head, but female Kaminoans have no such feature. </p><p><b>Age Groups:</b> Kaminoans age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-10 Years </td> \n   <td>11-39 Years </td> \n   <td>40-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The ocean world of Kamino, located in The Outer Rim. </p><p><b>Languages:</b> Kaminoans learn their own language of Kaminoan, and most learn Basic in their adulthood. </p><p><b>Example Names:</b> Ava Lim, Lama Su, Maru Lan, Tau Shei, Taga Sai, Seva Ke, Taun We. </p><p><b>Adventurers:</b> Because they are genetically designed, Kaminoans are bred to fulfill a specific role or niche. They make excellent Nobles, Scouts, and Soldiers. Scoundrels, though rare, are not unheard of. Kaminoans are not bred with Force Sensitivity, though anomalies are possible. Kaminoan Jedi are essentially nonexistent. </p><h3>Kaminoan Species Traits</h3><p>Kaminoans share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Treat Injury))",
+        "description": ""
+      },
+      {
+        "name": "Resilient",
+        "description": "<p>Beings gain a +1 Species bonus to their Fortitude Defense.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "GSngZkE13aYwiE8r",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

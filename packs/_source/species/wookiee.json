@@ -1,0 +1,48 @@
+{
+  "_id": "HflNWulZlUPV3eFh",
+  "_key": "!items!HflNWulZlUPV3eFh",
+  "name": "Wookiee",
+  "type": "species",
+  "system": {
+    "description": "<p>Wookiees are widely recognized as one of the strongest and fiercest intelligent Species in the galaxy. Wookiees have many customs and traditions that revolve around honor and loyalty, including the special bond called the honor family and the sacred pledge called the Life Debt. A Wookiee never uses his or her climbing claws in combat; doing this is considered dishonorable and a sign of madness. </p><h3>Wookiee Characteristics</h3><p><b>Personality:</b> Wookiees tend to be honorable, rash, loyal, and short-tempered. </p><p><b>Physical Description:</b> Wookiees are large furry bipeds, ranging in height from 2 to 2.3 meters. </p><p><b>Age Groups:</b> Wookiees age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-17 Years </td> \n   <td>18-300 Years </td> \n   <td>301-350 Years </td> \n   <td>351-399 Years </td> \n   <td>400+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The forest world of Kashyyyk. </p><p><b>Languages:</b> Wookiees speak Shyriiwook, consisting of complex grunts and growls. They understand Basic but lack the ability to speak it. </p><p><b>Example Names:</b> Chewbacca, Gorwooken, Groznik, Lowbacca, Ralrra, Rorworr, Salporin. </p><p><b>Adventurers:</b> Wookiee adventurers usually start out as wanderers or explorers as Scouts, but some find this path by forming an honor family with (or owning a Life Debt to) other adventurers. </p><h3>Wookiee Species Traits</h3><p>Wookiees share the following Species Traits: </p><h2>Additional Wookiee Species Feats</h2><p>Wookiee characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Bowcaster Marksman </td> \n   <td> </td> \n   <td>Gain a bonus to damage rolls when you spend a Force Point on a Bowcaster attack. </td>\n  </tr> \n  <tr> \n   <td>Resurgent Vitality </td> \n   <td> </td> \n   <td>Gain additional Hit Points when catching a Second Wind. </td>\n  </tr> \n  <tr> \n   <td>Wroshyr Rage </td> \n   <td> </td> \n   <td>Gain Bonus Hit Points when Raging. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Expert Climber",
+        "description": "<p>A being may choose to&nbsp;Take 10&nbsp;on&nbsp;Climb&nbsp;checks even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Extraordinary Recuperation",
+        "description": "<p>A being regains Hit Points at double the normal rate (See&nbsp;Natural Healing).</p>"
+      },
+      {
+        "name": "Rage",
+        "description": "<p>Once per day, a being can fly into a Rage as a Swift Action. While Raging, the being temporarily gains a +2 Rage bonus on melee attack rolls and melee damage rolls, but cannot use Skills that require patience and concentration, such as Mechanics, Stealth, or Use the Force. A fit of Rage lasts for a number of rounds equal to 5 + the being's Constitution modifier.</p><p>At the end of its Rage, the being moves -1 Persistent step along the Condition Track. The penalties imposed by this Persistent Condition persist until the being takes at least 10 minutes to recuperate, during which time the being can't engage in any strenuous activity.</p>"
+      },
+      {
+        "name": "Intimidating Presence",
+        "description": "<p>Beings may choose to reroll any Persuasion check made to Intimidate others, but the result of the reroll must be accepted, even if it is worse.</p>"
+      },
+      {
+        "name": "Weapon Familiarity (Ryyk Blade:Advanced Melee)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      },
+      {
+        "name": "Weapon Familiarity (Bowcaster:Rifles)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BSPuPko4TInqwD62",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

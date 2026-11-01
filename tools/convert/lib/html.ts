@@ -2,7 +2,7 @@
 // "See also:" line of wiki links, links through the body, and on some packs the wiki's wrapper div.
 // The wiki is not a source for Holocron, so the lines and links go; the link text stays, and the
 // book name is kept for errata matching. Fan material the wiki appends to an official page (a
-// "Homebrew ..." section carrying the wiki's review notice) is left out (rulings.md, Content), and
+// "Homebrew ..." section carrying one of the wiki's fan-content notices) is left out (rulings.md, Content), and
 // so is the notice pointing at a fan page of the same name.
 
 export interface CleanedDescription {
@@ -13,7 +13,7 @@ export interface CleanedDescription {
   links: string[];
   /** Headings of the fan sections removed, for the report. */
   removedSections: string[];
-  /** Headings starting "Homebrew" that carry no review notice, left in place for the report. */
+  /** Headings starting "Homebrew" that carry no fan-content notice, left in place for the report. */
   unclearSections: string[];
 }
 
@@ -28,7 +28,8 @@ const HOUSE_LABEL_INLINE = /<i>\s*Homebrew[^<]*\(tovec\.wikidot\.com\/episode-vi
 // Bryan's own form on merged house text: "<b>Homebrew:</b> Murderous Arts I and II have been ...".
 const HOUSE_LABEL_BOLD = /<b>\s*Homebrew:\s*<\/b>\s*([a-z])?/g;
 const FAN_PAGE_NOTICE = /<table\b[^>]*>(?:(?!<\/table>)[\s\S])*?You may be looking for(?:(?!<\/table>)[\s\S])*<\/table>\s*/g;
-const REVIEW_NOTICE = "has not been reviewed in a meaningful manner";
+// The wiki's two notices on fan material, matched on plain text because "Untested" is a link.
+const FAN_NOTICES = [/has not been reviewed in a meaningful manner/, /has been Tested per the Untested guidelines/];
 const HEADING = /<h([1-6])[^>]*>([\s\S]*?)<\/h\1>/g;
 const ANCHOR = /<a\b[^>]*>([\s\S]*?)<\/a>/g;
 // The wiki's styling hooks on tables, headings and links; the tables and headings are content.
@@ -52,7 +53,8 @@ function removeFanSections(html: string, removed: string[], unclear: string[]): 
     const next = html.slice(bodyStart).search(new RegExp(`<h[1-${level}][^>]*>`));
     const end = next < 0 ? html.length : bodyStart + next;
     const title = plain(heading[2] ?? "");
-    if (!html.slice(bodyStart, end).includes(REVIEW_NOTICE)) {
+    const body = plain(html.slice(bodyStart, end));
+    if (!FAN_NOTICES.some((notice) => notice.test(body))) {
       unclear.push(title);
       continue;
     }

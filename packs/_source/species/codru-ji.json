@@ -1,0 +1,40 @@
+{
+  "_id": "ICZcizQ7FwEBIsB7",
+  "_key": "!items!ICZcizQ7FwEBIsB7",
+  "name": "Codru-Ji",
+  "type": "species",
+  "system": {
+    "description": "<p> The Codru-Ji have long been isolated from the rest of the galaxy. Highly xenophobic, they are reluctant to grant members of other Species access to their society. Though they do not fear other cultures, they are concerned that outsiders will somehow \"rub off\" on them and corrupt their own traditions and values.</p><p>Certain aspects of Codru-Ji culture is barbaric by galactic standards. Ritual kidnapping, especially the children of political rivals, is common. Though victims are generally returned unharmed, the experience can be frightening and offputting to non-Codru-Ji. Visitors to Munto Codru are warned that they should never travel alone, lest they fall victim to abduction. Offworlders abducted by Codru-Ji in this manner are often forced to pay a ransom, either in the form of valuables or political favors. </p><p>All Codru-Ji possess six limbs: four arms and two legs. In addition, juvenile Codru-Ji hardly resemble their parents as much as they resemble small, furred, hexapedal canines. Referred to as Wyrwulves, Codru-Ji children continue to grow and develop in their six-legged form until puberty, when they pupate in cocoons and emerge as bipedal adults. </p><h3>Codru-Ji Characteristics</h3><p><b>Personality:</b> As a Species, the Codru-Ji are uncomfortable around outsiders and have trouble integrating into the galactic community. They are suspicious of others, looking for hidden motives in even the most mundane circumstances. Family ties are crucial to Codru-Ji, and they will do anything to protect their loved ones and family members, especially their children. A Codru-Ji who forms friendships with members of other Species comes to regard them as family, and can be just as protective of them as any other family member. </p><p><b>Physical Description:</b> All Codru-Ji have four arms, two legs, elongated faces, and pointed ears. Codru-Ji hair and eye colors tend toward dark, earthy browns. Codru-Ji juveniles, or Wyrwulves, resemble six-legged canines and are often mistaken for pets by offworlders who don't know any better. </p><p><b>Age Groups:</b> Codru-Ji age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-8 Years </td> \n   <td>9-12 Years </td> \n   <td>13-44 Years </td> \n   <td>45-60 Years </td> \n   <td>61-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The mountainous world of Munto Codru, located in The Outer Rim. </p><p><b>Languages:</b> Codruese is an idiom-rich language punctuated by guttural growls, whines, and barks. </p><p><b>Example Names:</b> Adaavi, Deceven, Jorrdu, Ketanna, Merasska, Raiko, Veesani, Zallfric. </p><p><b>Adventurers:</b> The few Codru-Ji who leave Munto Codru are often Nobles, Scouts, and Scoundrels. Though Codru-Ji Jedi are rarely encountered, Codru-Ji Force-users, considered healers and spiritual advisers, have been noted. </p><h3>Codru-Ji Species Traits</h3><p>Codru-Ji share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Extra Arms 2",
+        "description": "<p>Beings can hold up to four items or Weapons at a time. This ability does not grant extra attacks; however, it does mean a being can wield two two-handed weapons at a time.</p>"
+      },
+      {
+        "name": "Extra Arms",
+        "description": ""
+      },
+      {
+        "name": "Skilled Grappler",
+        "description": "<p>Beings gain a +5&nbsp;Species&nbsp;bonus to both Grab and Grapple checks.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Dual Weapon Mastery I)",
+        "description": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QjTnAT9vTCLdR08t",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

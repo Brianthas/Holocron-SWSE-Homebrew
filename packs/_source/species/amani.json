@@ -1,0 +1,48 @@
+{
+  "_id": "tgofSvqjWbOL4JTA",
+  "_key": "!items!tgofSvqjWbOL4JTA",
+  "name": "Amani",
+  "type": "species",
+  "system": {
+    "description": "<p>These arboreal humanoids live in small tribes that each lay claim to one of the many sparse forests of <span class=\"new\" title=\"Maridun (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTWFyaWR1bj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Maridun</span>, their homeworld. When a tribe grows too large, the younger adults set out to claim a new forest. The arrival of the Empire on <span class=\"new\" title=\"Maridun (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTWFyaWR1bj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Maridun</span> went largely unnoticed, until one Amanin lorekeeper agreed to turn over prisoners from rival tribes as slaves. Not long after the Battle of Endor, operations on <span class=\"new\" title=\"Maridun (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTWFyaWR1bj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Maridun</span> were taken over by The Hutt Kajidics and various criminal syndicates, which constructed spaceports to support the growth of several small cities populated by crime lords, scoundrels, consortiums, mining companies, and Amanin slaves. </p><p>As their society becomes more and more integrated with the rest of the galaxy, Amanin become more comfortable with space travel and technology, though they lack the scientific knowledge to build technology of their own. Amanin collect various trapping of their rich history, such as trinkets and trophies. </p><h3>Amani Characteristics</h3><p><b>Personality:</b> Traditionally, Amanin are fearless hunters due to their dominant station in Maridun's food chain and their natural resilience. Beyond their homeworld, Amanin tend to keep a low profile despite their towering height. </p><p><b>Physical Description:</b> Hooded humanoids with long, spindly arms, big hands, and stocky legs, Amanin stand about 2.5 meters tall. They have yellow and green skin and often wear little or no clothing. </p><p><b>Age Groups:</b>&nbsp;Amanin age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-49 Years </td> \n   <td>50-76 Years </td> \n   <td>77-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Maridun (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTWFyaWR1bj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Maridun</span>, located in The Outer Rim, is a temperate world of long, flat plains dotted with small forests. During the Galactic Civil War, the Empire constructed several spaceports on <span class=\"new\" title=\"Maridun (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTWFyaWR1bj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Maridun</span> to support their mining operations. These spaceports have been co-opted by smugglers, slavers, and pirates as bases of operation since the Empire's defeat. </p><p><b>Languages:</b> Amanin have no written language of their own, relying instead on a tradition of oral history carried on by each tribe's loremaster. </p><p><b>Example Names:</b> Aja, Brenjandor, Jorodus, Jott, Ojat Wan, Tonjon, Trijit, Unjor. </p><p><b>Adventurers:</b> Amanin are relatively new to the civilized galaxy. After the dissolution of the Galactic Senate, many have begun living in the spaceports of <span class=\"new\" title=\"Maridun (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTWFyaWR1bj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Maridun</span> and traveling offworld. Each new generation of Amanin is more integrated into galactic society than the previous one. Amanin heroes are usually Scoundrels or Scouts. </p><h3>Amani Species Traits</h3><p>Amanin share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Reach",
+        "description": "<p>Beings have a natural Reach of 2 squares.</p>"
+      },
+      {
+        "name": "Expert Climber",
+        "description": "<p>A being may choose to&nbsp;Take 10&nbsp;on&nbsp;Climb&nbsp;checks even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Acceleration",
+        "description": "<p>When Running, beings may take a -5 penalty on Perception checks, and have their Speed doubled.</p>"
+      },
+      {
+        "name": "Primitive",
+        "description": "<p>Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.</p>"
+      },
+      {
+        "name": "Amanin",
+        "description": "<p><br> These arboreal humanoids live in small tribes that each lay claim to one of the many sparse forests of <span class=\"new\" title=\"Maridun (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTWFyaWR1bj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Maridun</span>, their homeworld. When a tribe grows too large, the younger adults set out to claim a new forest. The arrival of the Empire on <span class=\"new\" title=\"Maridun (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTWFyaWR1bj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Maridun</span> went largely unnoticed, until one Amanin lorekeeper agreed to turn over prisoners from rival tribes as slaves. Not long after the Battle of Endor, operations on <span class=\"new\" title=\"Maridun (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTWFyaWR1bj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Maridun</span> were taken over by The Hutt Kajidics and various criminal syndicates, which constructed spaceports to support the growth of several small cities populated by crime lords, scoundrels, consortiums, mining companies, and Amanin slaves.</p><p>As their society becomes more and more integrated with the rest of the galaxy, Amanin become more comfortable with space travel and technology, though they lack the scientific knowledge to build technology of their own. Amanin collect various trapping of their rich history, such as trinkets and trophies.</p>"
+      },
+      {
+        "name": "Resilient",
+        "description": "<p>Beings gain a +1 Species bonus to their Fortitude Defense.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cOfGABTKdGclK1ej",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements (Star Wars Miniatures Previews)"
+    }
+  }
+}

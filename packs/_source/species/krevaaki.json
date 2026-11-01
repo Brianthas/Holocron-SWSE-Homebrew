@@ -1,0 +1,44 @@
+{
+  "_id": "wx600z5xjeMBgf03",
+  "_key": "!items!wx600z5xjeMBgf03",
+  "name": "Krevaaki",
+  "type": "species",
+  "system": {
+    "description": "<p> Krevaaki are a peaceful, spiritual Species. With minimal interest in acquiring wealth, power, or fame, they seek wisdom through exploration and meditation. Although they are an ancient spacefaring Species, Krevaaki are rarely encountered in the galaxy at large. Even during The Old Republic Era- their most active period- groups of more than a few Krevaaki are seldom seen at anyone location.</p><p>In response to other Species' xenophobia, the Krevaaki cloak their tentacled bodies with heavy robes or similar garments, leaving only their two dominant tentacles exposed like humanoid arms. More than a few beings have been caught unaware by the sudden appearance of additional tentacles from beneath the folds of a Krevaaki's garments. </p><h3>Krevaaki Characteristics</h3><p><b>Personality:</b> Krevaaki prefer not to draw attention to themselves, and they are thoughtful, wise, and spiritual, refocusing their negative emotions through meditation and seeking to resolve conflicts peacefully. Force-sensitive Krevaaki develop a particularly deep understanding of The Force. Krevaaki travelers seek greater understanding of others or of The Force. </p><p><b>Physical Description:</b> Evolved from shallow-water crustaceans, a Krevaaki has a red protective shell and glassy black eyes. A Krevaaki lacks a nose, but compensates by detecting scents with six feelers around its mouth. Krevaaki use their eight segmented tentacles for increasingly specialized tasks as they grow older. A Krevaaki Child uses all its tentacles, but Adults stand upright on six of them, using the other two the way other beings use their hands. Some tentacles develop protrusions similar to opposable thumbs. Tentacles used as legs become stronger but less able to dexterously grasp and manipulate smaller objects. </p><p><b>Age Groups:</b>&nbsp;Krevaaki age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-17 Years </td> \n   <td>18-62 Years </td> \n   <td>63-94 Years </td> \n   <td>95-129 Years </td> \n   <td>130+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b>&nbsp;The Outer Rim planet of <span class=\"new\" title=\"Krevas (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvS3JldmFzP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Krevas</span>, filled with endless oceans and murky swamps. </p><p><b>Languages:</b> Krevaaki communicate amongst themselves through Dromnyr, a language of hums and deep acoustics. Well traveled Krevaaki learn Basic at a young age, and most also learn a number of Trade Languages, such as Minnisiat. </p><p><b>Example Names:</b> Chal-Vosa, Craasadi, Jol Kion -Tas, Visto Skaasad, Vodo-Siosk Baas. </p><p><b>Adventurers:</b> Krevaaki adventurers are usually Scouts and Nobles. Force-sensitives become Jedi or follow nonviolent Force Traditions. It is unusual for the meditative Krevaaki to be drawn to The Dark Side, although not impossible. </p><h3>Krevaaki Species Traits</h3><p>Krevaaki share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Armor (+1)",
+        "description": "<p>A being gains a Natural Armor bonus to their&nbsp;Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Carapace",
+        "description": "<p>Beings gain a +1 Natural Armor bonus to their Reflex Defense and a +1 Natural Armor bonus to their Fortitude Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Grasping Tentacles",
+        "description": "<p>Beings gain a +2 Species bonus to Climb checks and a +2 Species bonus to Grab and Grapple checks.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Climb))",
+        "description": ""
+      },
+      {
+        "name": "Stoic",
+        "description": "<p>Any creature attempting to use the Sense Deception or Sense Influence applications of the Perception skill on a being takes a -5 penalty to the skill check.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "I2belQOaiznJd3ER",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

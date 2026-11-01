@@ -1,0 +1,44 @@
+{
+  "_id": "ZGn0BdYWMF7go4k2",
+  "_key": "!items!ZGn0BdYWMF7go4k2",
+  "name": "Sorcerer of Rhand",
+  "type": "species",
+  "system": {
+    "description": "<p>The Sorcerers of Rhand live deep in The Unknown Regions, hidden by the red flow of the Perann Nebula from any disciples of The Dark who wish to tap their knowledge. Their reclusiveness is a blessing, for if the Sorcerers of Rhand were to unleash the full entropic power of what they call The Dark, the entire galaxy might come to ruin. </p><p> The Sorcerers or Rhand are realists. They understand that the power of destruction, coupled with time, has more ability to change the universe than any effort of creation. They devote their efforts to understanding its purpose and ultimately divining a way to become agents of The Dark. By manipulating the forces of destruction, they can bring their enemies to ruin.</p><p>Thousands of years bring about the merging of these belief systems on the worlds of the Nihil Retreat near the Perann Nebula. Deep within the nebula itself, on the planet <span class=\"new\" title=\"Rhand (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmhhbmQ/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Rhand</span> that gives the new movement its name, the greatest Sorcerers take up residence in the dark ruins of a long-dead species. Outposts and monasteries on the twelve planets of the Nihil Retreat come to be populated by acolytes of the faith (Known as Rhandites), who have not yet attained true insight into The Dark. </p><h3>Sorcerer of Rhand Characteristics</h3><p><b>Personality:</b> An overriding faith in The Dark motivates the Sorcerers of Rhand. This concept, unrelated to The Force practiced by the Jedi and Sith, is interpreted to mean the ultimate end of all existence. Scientists refer to The Dark as the concept of entropy, and others brush against its meaning when they complain that \"Things fall apart.\" But the Sorcerers of Rhand believe that The Dark is everything, and therefore the only true source of power. </p><p><b>Physical Description:</b> The Sorcerers have no uniform appearance and are not presumed to be members of the same Species. Yet no one is clear on what, exactly, the Sorcerers of Rhand are; each Sorcerer manifests in a unique state of disassembly and decay. One lacked skin and oozed bodily fluids with every step. One was merely a blackened skeleton. Another appeared to have been turned inside out, with clean white teeth poking jaggedly from a raw mass of a head. A fourth existed as a long ribbon of flesh that swirled and coiled throughout the Rhandite receiving chamber. </p><p><b>Age Groups:</b>&nbsp;Due to their varied origins and Force corruption, Sorcerers of Rhand are not affected by the effects of Aging. </p><p><b>Homeworld:</b> The reclusive Sorcerers have never been spotted definitively outside the twelve star clusters of the <span class=\"new\" title=\"Nihil Retreat (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTmloaWxfUmV0cmVhdD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Nihil Retreat</span> that form a protective bulwark around the <span class=\"new\" title=\"Perann Nebula (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUGVyYW5uX05lYnVsYT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Perann Nebula</span>, with their true home being the mysterious planet of <span class=\"new\" title=\"Rhand (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmhhbmQ/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Rhand</span>. However, their techniques allow them to operate from remote distances, and it is not known how many catastrophes in the Unknown Regions have been perpetuated by their meddling. </p><p><b>Languages:</b> While Sorcerers of Rhand don't possess a language unique to them (at least as far as the galaxy at large is aware), they all know Basic, and most tend to become multilingual. </p><p><b>Example Names:</b> Cronal, Blessed Toxmalb, Dagger Bacquin, Diablo Mandagoran, Dearic Thyne, Invidia Decuir, Kai Mandagoran, Kain Bacquin, Loki Mandagoran, Matthias Konrad, Oz Marzullo, Santeria Decuir, Sephoria Decuir, Spike Mandagoran, Vishnu Merchion. </p><p><b>Adventurers:</b> Sorcerers or Rhand are almost exclusively Force-users, with most eventually achieving the rank of Force Adept and Force Disciple. Sorcerers of Rhand can be of any Heroic Class, though rarely do these beings propagate the galaxy. </p><h3>Sorcerer of Rhand Species Traits</h3><p>The Sorcerers of Rhand are united by a common condition rather than a shared genetic code. Although they retain a semblance of their original forms, they are twisted beyond the natural abilities of their native Species. They are transformed over time and adapt to take on the following traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Bonus Feat (Force Sensitivity)",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      },
+      {
+        "name": "Sorcerers of Rhand",
+        "description": "<p><br> The Sorcerers of Rhand live deep in The Unknown Regions, hidden by the red flow of the Perann Nebula from any disciples of The Dark who wish to tap their knowledge. Their reclusiveness is a blessing, for if the Sorcerers of Rhand were to unleash the full entropic power of what they call The Dark, the entire galaxy might come to ruin.</p><p>The Sorcerers or Rhand are realists. They understand that the power of destruction, coupled with time, has more ability to change the universe than any effort of creation. They devote their efforts to understanding its purpose and ultimately divining a way to become agents of The Dark. By manipulating the forces of destruction, they can bring their enemies to ruin.</p><p>Thousands of years bring about the merging of these belief systems on the worlds of the Nihil Retreat near the Perann Nebula. Deep within the nebula itself, on the planet <span class=\"new\" title=\"Rhand (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmhhbmQ/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Rhand</span> that gives the new movement its name, the greatest Sorcerers take up residence in the dark ruins of a long-dead species. Outposts and monasteries on the twelve planets of the Nihil Retreat come to be populated by acolytes of the faith (Known as Rhandites), who have not yet attained true insight into The Dark.</p>"
+      },
+      {
+        "name": "Beastly Traits",
+        "description": "<p>A being gains two Beastly Traits; create these qualities (with approval from your Gamemaster), or select two using the Creature Generator.</p>"
+      },
+      {
+        "name": "Repulsive Appearance",
+        "description": "<p>Beings may reroll Persuasion checks to Intimidate, and may keep the better result. They also gain a +5 bonus to their Will Defense when others attempt to use the Persuasion skill against them.</p>"
+      },
+      {
+        "name": "Dark-Infused",
+        "description": "<p>Beings gain the Force Training feat as a bonus Feat, but half of the Force Powers selected with this bonus Feat must have the [<i>Dark Side</i>] descriptor, and none can have the [<i>Light Side</i>] descriptor.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3gSFIsmgJGRPleF1",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

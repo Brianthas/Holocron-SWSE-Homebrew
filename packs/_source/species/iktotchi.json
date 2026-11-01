@@ -1,0 +1,36 @@
+{
+  "_id": "dujFudDZKEsLgo8I",
+  "_key": "!items!dujFudDZKEsLgo8I",
+  "name": "Iktotchi",
+  "type": "species",
+  "system": {
+    "description": "<p>Hailing from The Expansion Region world of <span class=\"new\" title=\"Iktotchon (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSWt0b3RjaG9uP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Iktotchon</span> and its moon, Iktotch, the Iktotchi are a race of precognitive humanoids. All Iktotchi possess this precognitive ability, which manifests as vivid dreams, visions, or waking dreams. Few Iktotchi have control of how or when their precognition manifests or of what it reveals to them. As a Species, they know of the Republic's coming long before their world is visited, and they are prepared to welcome the guests that would usher them into a vast galactic society. Iktotchi are famed for their prowess as pilots, and attribute their success at the helm to nearly imperceptible precognitive inclinations. </p><p>Because of their visions, Iktotchi are aware of the bloodshed that heralds the coming of the Clone Wars. Many of the era's prominent diplomats are Iktotchi who seek to avert the impending violence. </p><h3>Iktotchi Characteristics</h3><p><b>Personality:</b> Iktotchi are a deeply emotional Species. Despite their sensitives qualities, their culture dictates that they must hide their feelings behind a veneer of quiet stoicism. Though they respect the nature of diversity in the galaxy, the Iktotchi have a hard time forming lasting friendships with members of other Species because of the Iktotchi's occasional impatience with Species who lack their precognitive gifts and because of other Species' overt suspicion of the Iktotchi's precognition. </p><p><b>Physical Description:</b> The Iktotchi are a humanoid Species with large, downward-curving horns. Females have smaller horns than the males. Their skin is thick, tan, and hairless, weather beaten by <span class=\"new\" title=\"Iktotchon (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSWt0b3RjaG9uP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Iktotchon's</span> fierce winds. Their eye color ranges from yellow to orange. </p><p><b>Age Groups:</b> Iktotchi age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-13 Years </td> \n   <td>14-18 Years </td> \n   <td>19-44 Years </td> \n   <td>45-70 Years </td> \n   <td>71-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Iktotchon (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSWt0b3RjaG9uP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Iktotchon</span>, and its orbiting moon of Iktotch, located in The Expansion Region. </p><p><b>Languages:</b> Iktotchi speak and read Iktotchese. They can also speak Basic with ease. </p><p><b>Example Names:</b> Arctan Meeso, Daedar Xiese, Liiren Baelar, Niira Korl, Saesee Tiin, Seer Varree. </p><p><b>Adventurers:</b> Iktotchi who journey out into the galaxy become Nobles, Scouts, or Soldiers. A small number excel as Scoundrels by using their Species' reputation for clairvoyance to run scams and rackets, despite a strong cultural prohibition against using their visions to generate a profit. Because of their precognitive talents, there have been several notable Iktotchi Jedi, such as Saesee Tiin. </p><h3>Iktotchi Species Traits</h3><p>Iktotchi share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Armor (+1)",
+        "description": "<p>A being gains a Natural Armor bonus to their&nbsp;Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Expert Pilot",
+        "description": "<p>A being may choose to reroll any&nbsp;Pilot&nbsp;check, but the result of the reroll must be accepted even if it is worse.</p>"
+      },
+      {
+        "name": "Limited Precognition",
+        "description": "<p>Once per encounter, as a Reaction, a being can grant themself or any Vehicle the being Pilots a +2 Species bonus to Reflex Defense against any single attack.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sLdhi9KRVlt1xfWs",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

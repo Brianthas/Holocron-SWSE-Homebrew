@@ -1,0 +1,40 @@
+{
+  "_id": "v2X56ASzAk62BZk5",
+  "_key": "!items!v2X56ASzAk62BZk5",
+  "name": "Cathar",
+  "type": "species",
+  "system": {
+    "description": "<p>The Cathar are a proud, passionate, and loyal Species of bipedal feline humanoids, well known for their long-standing friendships and ferocity in battle. They dwell in large city-trees, each meticulously carved with friezes depicting the city's heroes and history. The planet Cathar is a wild place, with many ecological niches and huge insect predators. The Cathar easily hold their own, aided by their natural claws and passionate combat ability. Physically, the Cathar vary greatly in size and features. Some are muscular, with pronounced manes and beards, but others have humanlike proportions, with fine, short hair covering their bodies. </p><p>Cathar have high moral values, learned from family and society. As such, Force-sensitive Cathar often become Jedi, though they know the Jedi way to be in direct opposition to their natural instincts. Cathar know all too well the story of Crado's fall to The Dark Side under Exar Kun. However they might find strength in the fact that Crado's mate Sylvar was able to turn away from the dark path, and regain the Jedi way. </p><p>How Cathar are viewed in the galaxy depends on the exact time frame of the game. A nonaligned Rimworld, Cathar is devastated in the Mandalorian Wars prior to the Mandalorian invasion of the Republic. Remnants of the Species flee offworld to survive. The extent of the massacre on this remote world remains unknown to the Republic, until an expedition led by Revan brings the atrocity to the attention of the galaxy at large, winning Revan the support of many Jedi. The Cathar begin resettling their planet after the Mandalorian Wars, working to rebuild their society. Cathar survivors find sympathy on Republic worlds after Revan's discovery, but many are too proud to use defeat to their advantage. Prior to the battle, the Cathar are treated as any other Species in the galaxy. </p><h3>Cathar Characteristics</h3><p><b>Personality:</b> Cathar are moral and passionate creatures with strong ties to tradition and family. They have great passion in all emotions, with love and hate holding equal strength. Despite their reputation, Cathar are even-tempered, but do not hesitate to act when needed. </p><p><b>Physical Description:</b> Cathar have leonine features, the distinctiveness of which varies by individual. Males have large manes, short beards, and tusks jutting from the lower jaw. Females have smaller manes, but impressive fangs along the upper jaw. Cathar coloration ranges from light yellow to dark beige, sometimes accented with dark stripes. </p><p><b>Age Groups:</b> Cathar age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-40 Years </td> \n   <td>41-62 Years </td> \n   <td>63-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Prior to the Battle of Cathar, most hail from Cathar itself. After the battle, Cathar find refuge on most any Republic world. </p><p><b>Languages:</b> Cathar speak Catharese and Basic, using low growls and similar sounds to emphasize their point. </p><p><b>Example Names:</b> Crado, Elashi, Feeth, Ferroh, Juhani, Larducias, Marnshara, Nodon, Nodak, Stragos, Sulvar, Tinisho. </p><p><b>Adventurers:</b> Cathar adventurers can be of any Heroic Class. Force-sensitive Cathar often become Jedi, although a select few strike out on their own. Cathar Scoundrels are relatively rare, for even they cannot escape their own instinctive morals. Such Scoundrels create their own rules to live by. </p><h3>Cathar Species Traits</h3><p>Cathar share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Reactive Claw",
+        "description": "<p>Once per encounter when a being damages an opponent with a melee attack, the being can make a single melee attack with its Natural Weapons against that target as a&nbsp;Swift Action. The being must have one hand free at the time to make this attack (and thus cannot be wielding a two-handed weapon).</p>"
+      },
+      {
+        "name": "Bonus Class Skill (Stealth)",
+        "description": "<p>A particular Skill is always a Class Skill for beings.</p>"
+      },
+      {
+        "name": "Natural Weapons",
+        "description": "<p>A being has Natural Weapons, in some form or another. When a being makes an Unarmed attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal Unarmed damage. Beings are always considered armed with their Natural Weapons.</p>"
+      },
+      {
+        "name": "Bonus Class Skill (Climb)",
+        "description": "<p>A particular Skill is always a Class Skill for beings.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JJgPdXK0ALDVBjYv",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

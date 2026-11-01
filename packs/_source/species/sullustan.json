@@ -1,0 +1,36 @@
+{
+  "_id": "L8gTfkY3blQLCTtb",
+  "_key": "!items!L8gTfkY3blQLCTtb",
+  "name": "Sullustan",
+  "type": "species",
+  "system": {
+    "description": "<p>To survive the natural perils of their harsh, volcanic homeworld, the Sullustans evolved in the planet's numerous caves. They prefer to dwell underground, constructing highly advanced cities of such great beauty that wealthy sightseers come from all over the galaxy to visit them. Living underground helped the Sullustans to develop acute senses, and they are renowned for their navigational and piloting skills. </p><p>This friendly, gregarious species enjoys interacting with unique, unusual, and interesting beings. When Old Republic scouts first visited their homeworld, the Sullustans quickly embraced galactic civilization. The Sullustan manufacturing company SoroSuub is one of the largest non-Human-owned interstellar corporations in the galaxy. In fact, the company was so powerful that it has become the official government of Sullust, and more than half the plant's population is on its payroll. </p><h3>Sullustan Characteristics</h3><p><b>Personality:</b> Sullustans tend to be pragmatic, pleasant, and fond of practical jokes. </p><p><b>Physical Description:</b> Sullustans are humanoid with large eyes, big ears, and jowls. The average Sullustan stands 1.5 meters tall. </p><p><b>Age Groups:</b> Sullustans age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-39 Years </td> \n   <td>40-55 Years </td> \n   <td>56-69 Years </td> \n   <td>70+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The volcanic, technological world of Sullust. </p><p><b>Languages:</b> Sullustans speak, read, and write Sullustese and Basic. </p><p><b>Example Names:</b> Aril Nunb, Dllr Nep, Nien Nunb, Sian Tevv, Syub Snunb. </p><p><b>Adventurers:</b> Sullustan adventurers enjoy exploring the galaxy as Scouts, conducting business as Nobles, and pulling pranks as Scoundrels to see how others react. They are inquisitive and love to discover things through personal experience, sometimes being a bit reckless. </p><h3>Sullustan Species Traits</h3><p>Sullustans share the following Species Traits: </p><h2>Additional Sullustan Species Feats</h2><p>Sullustan characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Darkness Dweller </td> \n   <td> </td> \n   <td>Impose a penalty to Stealth checks made when close to you. </td>\n  </tr> \n  <tr> \n   <td>Disarming Charm </td> \n   <td> </td> \n   <td>Gain a bonus to Skill Checks on targets whose Attitude you have improved. </td>\n  </tr> \n  <tr> \n   <td>Sure Climber </td> \n   <td> </td> \n   <td>Gain a Climb Speed of 4 squares. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Expert Climber",
+        "description": "<p>A being may choose to&nbsp;Take 10&nbsp;on&nbsp;Climb&nbsp;checks even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Darkvision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(including&nbsp;Total Concealment) from darkness. However, they cannot perceive colors in total darkness.</p>"
+      },
+      {
+        "name": "Heightened Awareness",
+        "description": "<p>A being can choose to reroll any&nbsp;Perception&nbsp;check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "u9HOcmCeccHgN1oY",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

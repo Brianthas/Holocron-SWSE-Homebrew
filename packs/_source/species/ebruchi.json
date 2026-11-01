@@ -1,0 +1,36 @@
+{
+  "_id": "RNqG9MbcWxfca0ec",
+  "_key": "!items!RNqG9MbcWxfca0ec",
+  "name": "Ebruchi",
+  "type": "species",
+  "system": {
+    "description": "<p>The Ebruchi are cruel, ill-mannered pirates who plague the hyperlanes between Republic-settled space and the Chiss Ascendancy. To some, the Ebruchi are a terror. To militarily superior forces, such as the Chiss and the Vagaari, the Ebruchi are a perpetual annoyance. </p><p> The Ebruchi are omnivorous. They can survive on rotting garbage if necessary, but their appetites lean toward the sadistic. They love nothing more than swallowing the wet flesh of freshly killed prisoners. Their compact bulk makes them appear formidable despite their shorter than-average height, and the muscles are not just for show. An Ebruchi can take a terrific pounding, then return the favor.</p><p>The Ebruchi style of dress matches their stereotype as uncivilized, opportunistic pirates. A typical outfit consists of layers of animal skins topped with shiny medallions, rings, or crowns. But those who think that an Ebruchi's appearance is lazily haphazard are mistaken. The Ebruchi put great thought into the placement of each item and layer, and all clothing is tended with exquisite care. Patches, scarves, necklaces, and intentional holes and tears are all signs of rank and achievement, although the nuances of the arrangements are lost on non-Ebruchi. </p><h3>Ebruchi Characteristics</h3><p><b>Personality:</b> The Ebruchi are driven by the basest of emotions: greed and fear. Unwilling to give an edge to any other being-including members of their own Species-they overcompensate to the point of overkill. If a ship shows a hint of aggression, they will blast it to fragments; if a subordinate challenges their rank, they will retaliate with deadly force. </p><p>Still, the Ebruchi are not foolish, and they take such drastic actions only if they believe themselves to be safe from retaliation. This tendency, of course, makes them bullies of the worst stripe. The Ebruchi show no kindness unless they gain something in the process. They spare the lives of colonists only if the weaker beings provide tribute or possess some value as slaves or meat. </p><p><b>Physical Description:</b> The Ebruchi has a roughly humanoid configuration, with a squat, lumpy build similar to that of Gands. Their grayish heads house two wide-set eyes that never blink and a hidden mouth ringed by writhing, fleshy feelers. These tentacles are always in motion as they sample airborne scents and can grasp chunks of food to force them down the Ebruchi's narrow gullet. This process is messy and, to most Species, revolting. </p><p>Male and female Ebruchi are nearly identical in appearance. Outsiders can distinguish them only because males and females usually wear different types of animal skins (Although determining the species of animal from it's fur is exceedingly difficult). It is best to employ gender-neutral pronouns when negotiating with the Ebruchi, for a mistaken identification of sex will be taken as a scandalous insult. </p><p><b>Age Groups:</b>&nbsp;Ebruchi age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-7 Years </td> \n   <td>8-13 Years </td> \n   <td>14-39 Years </td> \n   <td>40-54 Years </td> \n   <td>55-64 Years </td> \n   <td>65+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Ebruchi are ignorant of their origins. Their contempt for storytelling and record-keeping might be a result of their humiliation at the hands of the Vagaari, who boast of smashing the Ebruchi and sending them whimpering into the fringes of forsaken space. </p><p><b>Languages:</b> The Ebruchi converse among themselves using an idiosyncratic jargon incomprehensible to outsiders. They also speak and understand Minnisiat, Rammocate, Sy Bisti, and most other Unknown Regions trade languages. The Ebruchi operate close enough to civilized space to have gained a passable understanding of Basic. </p><p><b>Example Names:</b> Creysis, Ness, Common Cork, Firnees. </p><p><b>Adventurers:</b> Ebruchi are rarely found outside of The Unknown Regions or Wild Space, and Ebruchi adventurers are even rarer. While Ebruchi Soldiers are most common, Scouts are also utilized in patrols, as is the rare Ebruchi Noble. </p><h3>Ebruchi Species Traits</h3><p>Ebruchi share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Bonus Feat (Improved Damage Threshold)",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      },
+      {
+        "name": "Iron Will",
+        "description": "<p>Beings gain a +2&nbsp;Species&nbsp;bonus to their&nbsp;Will Defense.</p>"
+      },
+      {
+        "name": "Unsettling",
+        "description": "<p>Once per encounter, when an being successfully uses the Persuasion skill to Intimidate a target, the being can move the target -1 step on the Condition Track instead of applying one of the standard Intimidation effects.</p><p>The target must be within 6 squares of the being, and the effect lasts until the end of the encounter. This is a Mind-Affecting effect.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "cjLtENaFra4OTxNB",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "G5jc13OvkWuTUPOK",
+  "_key": "!items!G5jc13OvkWuTUPOK",
+  "name": "Quarren",
+  "type": "species",
+  "system": {
+    "description": "<p>The Quarren hail from the distant Outer Rim planet of Mon Calamari, sharing the world with the sentient humanoid Species of the same name. The Mon Calamari live on the surface of the world, while the more isolationist Quarren dwell in oxygen-filled cities in the deep recesses of the oceans.</p><p>Offworld, Quarren generally stay clear of galactic politics. Instead, they often become involved with shadowy occupations such as pirates, smugglers, and spy networks. Many Quarren blame both the Empire and the Rebels (even more than the Mon Calamari) for their homeworld's devastation during the Galactic Civil War. </p><h3>Quarren Characteristics</h3><p><b>Personality:</b> Practical and conservative, Quarren tend to hate change and distrust anyone who displays overt optimism and idealism. </p><p><b>Physical Description:</b> The average Quarren stands 1.8 meters tall. They have leathery skin and heads that resemble four-tentacled squids, hence the name \"Squid Head\" sometimes used by others. </p><p><b>Age Groups:</b> Quarren age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17- 40 Years </td> \n   <td>41-57 Years </td> \n   <td>58-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The watery planet Mon Calamari. </p><p><b>Languages:</b> Quarren speak, read, and write Quarrenese and Basic. They tend to also learn Mon Calamarian as well. </p><p><b>Example Names:</b> Kelmut, Seggor, Tessek, Tsillin, Vekker, Vuhlg. </p><p><b>Adventurers:</b> Quarren leave their homeworld to escape their dependency on the Mon Calamari. They tend to seek out the fringes of society, operating as Scoundrels or Nobles in criminal organizations. </p><h3>Quarren Species Traits</h3><p>Quarren share the following Species Traits: </p><h2>Additional Quarren Species Feats</h2><p>Quarren characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Clawed Subspecies </td> \n   <td> </td> \n   <td>Deal damage with sharp claws on Unarmed attacks. </td>\n  </tr> \n  <tr> \n   <td>Deep Sight </td> \n   <td> </td> \n   <td>Gain Darkvision and ignore Total Concealment from darkness. </td>\n  </tr> \n  <tr> \n   <td>Shrewd Bargainer </td> \n   <td> </td> \n   <td>Suppress opponents' insight and morale bonuses to Will Defense. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Breathe Underwater",
+        "description": "<p>Beings can't drown in water.</p>"
+      },
+      {
+        "name": "Expert Swimmer",
+        "description": "<p>A being may choose to reroll any&nbsp;Swim&nbsp;check, but the result of the reroll must be accepted, even if it is worse. In addition, a being may choose to&nbsp;Take 10&nbsp;on&nbsp;Swim&nbsp;checks, even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Persuasion))",
+        "description": ""
+      },
+      {
+        "name": "Swimming",
+        "description": "<p>Beings possess an inherent Swim speed.</p>"
+      },
+      {
+        "name": "Swim Speed (4)",
+        "description": "A being has a swim speed of #payload#."
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ur84vrte4aoDWqcV",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

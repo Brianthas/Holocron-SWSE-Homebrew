@@ -1,0 +1,36 @@
+{
+  "_id": "FYVdcHOXtnjcgVvv",
+  "_key": "!items!FYVdcHOXtnjcgVvv",
+  "name": "Falleen",
+  "type": "species",
+  "system": {
+    "description": "<p>Of all the Species to populate the galaxy, none are better known for their intoxicating appearance than the Falleen. An exotic reptilian people, they are favored for their chiseled physiques and entrancing features. These qualities alone would solidify their place among the more handsome Species, but their pheromones make them irresistible to other Species. </p><p> Their gifts and allure enable the Falleen to move through other cultures with ease, but despite their advantages, Falleen prefer to remain mysterious, withdrawing to their own world in their own system. They do not lack the technology or wherewithal to venture out into the stars, but their cultural predilections make such ventures undesirable. The Falleen regard themselves and their civilization to be among the greatest in the galaxy, and looking beyond their world, they find only chaos and strife- the products of crudity and backward beings. Associations with other Species, therefore, are risky to the Falleen, and are approached with caution.</p><p>Falleen culture reinforces the sense of superiority that pervades this Species. Their rigid caste society confines them to societal roles, and provides stability and a sense of purpose. Other systems are far looser, with little to no regard for quality of birth or station. Rather than contaminate themselves and endanger their social system, the Falleen are content to remain apart from the rest of the galaxy. </p><h3>Falleen Characteristics</h3><p><b>Personality:</b> Falleen are notoriously sparse with words, reticent to the point of being withdrawn. Falleen believe emotional displays are unsophisticated. Therefore, they work to control their moods and expressions, deeply burying the wellspring of feelings that boil within. </p><p><b>Physical Description:</b> The Falleen are a reptilian Species that have a similar shape and size to Humans. Delicate blue-green scales, supple and flexible, cover their bodies, growing thicker and harder where they cover their spines. Falleen can and do grow hair, and for many, their hair is a point of pride. They wear their black tresses long, pulled up into topknots, or back in elaborate braids. Some adorn their luxuriant hair with combs, beads, and ornate nets made of priceless wire and gemstones. </p><p><b>Age Groups:</b> Falleen age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-18 Years </td> \n   <td>19-36 Years </td> \n   <td>37-72 Years </td> \n   <td>73-139 Years </td> \n   <td>140-249 Years </td> \n   <td>250+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Falleen hail from the world of Falleen, in The Mid Rim. </p><p><b>Languages:</b> The Falleen speak their native language of Falleen. Most also tend to learn Basic. </p><p><b>Example Names:</b> Savan, Xad, Xist, Xizor, Xora, Zule, Zurros. </p><p><b>Adventurers:</b> Falleen adventurers are privileged youth, the scions of the wealthy and powerful. It is customary on Falleen for young adults to embark on pilgrimages into the galaxy to explore and learn about other cultures. During this time, the Falleen pilgrims are expected to engage other cultures, finding their failures and successes. When the Falleen comes of age and claims their place at the head of their people, they can use their experiences to better rule their subjects. </p><h3>Falleen Species Traits</h3><p>Falleen share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Pheromones",
+        "description": "<p>As a Standard Action, a being can make a special attack against any adjacent creature. The attack modifier is equal to the being's Character Level plus their Charisma modifier. If the attack equals or exceeds the target's Fortitude Defense, that target moves -1 step along the Condition Track.</p><p>If the attack fails to beat the target's Fortitude Defense, the target is immune to the being's Pheromones for 24 hours. When the target is reduced to a total of -5 steps, instead of Falling Unconscious, the target's Attitude improves to Friendly.</p><p>Pheromones function as an Inhaled Poison. Any creature holding its breath is unaffected (see Endurance for more details).</p><p>A creature can be affected by Pheromones only once per round. Multiple exposures to Pheromones from different beings in the same round produce no additional effects. A Hostile creature cannot be targeted by this effect.</p>"
+      },
+      {
+        "name": "Pheromone Acclimation",
+        "description": "<p>Beings gain a +5 Species bonus to their Fortitude Defense against the Pheromones of other members of their Species.</p>"
+      },
+      {
+        "name": "Hold Breath",
+        "description": "<p>A being can hold his or her breath for a number of rounds equal to 25 times his or her&nbsp;Constitution&nbsp;score before needing to make&nbsp;Endurance&nbsp;checks to hold his or her breath.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "15C4WKUSRxN49FbX",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

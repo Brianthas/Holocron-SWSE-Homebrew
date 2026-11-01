@@ -1,0 +1,36 @@
+{
+  "_id": "mEPnB8DycnxOlIO5",
+  "_key": "!items!mEPnB8DycnxOlIO5",
+  "name": "Noghri",
+  "type": "species",
+  "system": {
+    "description": "<p> The Noghri are a small, compact humanoid Species native to the isolated Outer Rim planet of Honoghr. Natural-born hunters, they prefer to use primitive weapons, usually killing their victims up close.</p><p>The Noghri culture is built around clans (among them Kihm'bar, Bakh'tor, Eikh'mir, and Hakh'khar) with a long history of bloody rivalry. By the time of the Clone Wars, the clans had put aside their differences and learned to coexist, unaware of other intelligent Species in the galaxy. A space battle in orbit over their world led to a starship crash that contaminated the planet with toxic chemicals. The Noghri faced famine and extinction when a black-garbed visitor from the stars arrived: Darth Vader. He promised to save their dying homeworld; in return, the Noghri pledged to serve him and the Empire. </p><p>The Noghri served Vader as his secret assassins for decades. Five years after Vader's death, one of them recognized Leia Organa-Solo as Darth Vader's daughter. They turned from serving the Empire to serving \"Lady Vader.\" Several clans of Noghri remain dedicated to the protection of Leia and her family well into The New Jedi Order Era. </p><p>The Noghri rarely travel the galaxy alone. During the Galactic Civil War, they are always found in the company of Darth Vader's agents or (briefly) with the forces of Grand Admiral Thrawn. Later, they can be found in the company of New Republic agents, as well as allies, friends, and relatives of Leia Organa-Solo. </p><h3>Noghri Characteristics</h3><p><b>Personality:</b> Noghri are fierce, dedicated warriors who place the honor of their clans and the safety of their charges above all. For a relatively primitive Species, they are shrewd, quick to adapt, and mindful of customs and rituals. They do not grasp the concept of humor well and are not particularly sociable. </p><p><b>Physical Description:</b> Noghri are small, compact humanoids. A typical Noghri has gray skin, beady black eyes set within bony sockets, claws, and fangs. Adult Noghri average 1.3 meters tall. </p><p><b>Age Groups:</b> Noghri age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-8 Years </td> \n   <td>9-12 Years </td> \n   <td>13-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-74 Years </td> \n   <td>75+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The devastated world of Honoghr, located in The Outer Rim. </p><p><b>Languages:</b> Noghri speak and read Honoghran (sometimes called Noghrese by galactic linguists). They speak Basic with ease, albeit with soft, whispered, chilling voices. </p><p><b>Example Names:</b> Cakhmaim clan Eikh'mir, Ekhrikhor clan Bakh'tor, Khabarakh clan Kim'bar, Ovkhevam clan Bakh'tor, Ruhk clan Baikh'vair, Sakhisakh clan Tlakh'sar. </p><p><b>Adventurers:</b> Noghri adventurers are typically Scouts or Soldiers. Noghri Force-users are rare. Many who leave their homeworld become bodyguards in the employ of Darth Vader, Grand Admiral Thrawn, or Leia Organa-Solo (depending on the era). </p><h3>Noghri Species Traits</h3><p>Noghri share the following Species Traits: </p>",
+    "size": "small",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Conditional Bonus Feat (Running Attack)",
+        "description": ""
+      },
+      {
+        "name": "Primitive",
+        "description": "<p>Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.</p>"
+      },
+      {
+        "name": "Scent",
+        "description": "<p>At close range (within 10 squares), beings ignore Concealment and Cover for purposes of Perception checks, and take no penalty from poor visibility while Tracking.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ofgNU9ciSZjejDrj",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

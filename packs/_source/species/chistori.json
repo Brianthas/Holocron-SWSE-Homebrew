@@ -1,0 +1,36 @@
+{
+  "_id": "Ee0BSF1xJzMyeNMl",
+  "_key": "!items!Ee0BSF1xJzMyeNMl",
+  "name": "Chistori",
+  "type": "species",
+  "system": {
+    "description": "<p>The Chistori are a race of obscure saurian humanoids. So scarce is the information of these people that even the Jedi Archives have no information on the Chistori homeworld. What little is known about this Species comes from their interactions with others. Fierce and warlike, they are quick to anger and tend to use excessive force to deal with even the smallest slights. As a result, few spacefaring Species have any reason to seek them out. </p><h3>Chistori Characteristics</h3><p><b>Personality:</b> The same talents that make them excellent warriors shows through in the Chistori's interactions with other Species, with most encounters ending in violence. Chistori are an impatient Species and have little use for the rigidity of order and discipline, preferring instead to go their own way and do as they please. </p><p><b>Physical Description:</b> The reptilian Chistori stand about 1.9 meters tall and have lithe, though muscled, builds. Thick scales cover their bodies, usually blue or purple on their backs and brown and tan on their chests, abdomens, and faces. Their most pronounced feature is a large snout under which is a hinged jaw filled with sharp teeth, perfect for rending flesh. </p><p><b>Age Groups:</b> Chistori age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>13-18 Years </td> \n   <td>19-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-69 Years </td> \n   <td>70+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Chistori homeworld is unknown, and many Chistori who wander the galaxy either have forgotten where they come from, or guard this information with their lives. </p><p><b>Languages:</b> Lacking experience or even contact with other cultures means that the Chistori speak only the language of their people. Eventually, necessity forces these stubborn warriors to pick up Basic, but they still use words from their own language in everyday speech. </p><p><b>Example Names:</b> Cydon Prax, Desann, Grish B'reen. </p><p><b>Adventurers:</b> The few Chistori who find reasons to leave their homeworld find work as bounty hunters, mercenaries, and assassins, professions that reflect their particular talents and capabilities. Interestingly, The Force seems almost completely unknown to the Chistori, either as a religion or as practiced by The Jedi. </p><h3>Chistori Species Traits</h3><p>Chistori share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Cold-Blooded",
+        "description": "<p>A being takes a -5 penalty to their Fortitude Defense to resist Extreme Cold.</p>"
+      },
+      {
+        "name": "Damage Reduction 2",
+        "description": "<p>Beings gain a Species bonus of Damage Reduction 2.</p>"
+      },
+      {
+        "name": "Rage",
+        "description": "<p>Once per day, a being can fly into a Rage as a Swift Action. While Raging, the being temporarily gains a +2 Rage bonus on melee attack rolls and melee damage rolls, but cannot use Skills that require patience and concentration, such as Mechanics, Stealth, or Use the Force. A fit of Rage lasts for a number of rounds equal to 5 + the being's Constitution modifier.</p><p>At the end of its Rage, the being moves -1 Persistent step along the Condition Track. The penalties imposed by this Persistent Condition persist until the being takes at least 10 minutes to recuperate, during which time the being can't engage in any strenuous activity.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "J4nJ2h5cCL5izeJF",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

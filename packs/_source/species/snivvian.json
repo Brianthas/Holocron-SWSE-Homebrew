@@ -1,0 +1,32 @@
+{
+  "_id": "FWudvQTX2IwAiHeM",
+  "_key": "!items!FWudvQTX2IwAiHeM",
+  "name": "Snivvian",
+  "type": "species",
+  "system": {
+    "description": "<p> Snivvians are short, stocky humanoids whose hardships have produced some of the galaxy's best artists and authors. The Snivvian homeworld has extremely cold temperatures and long winters, forcing the Snivvians to live long periods of time in subterranean caverns. During those long days, Snivvians develop their artistic talents and sensibilities. Although technology would eventually lessen the need for this form of hibernation, Snivvians still feel the need- biologically and culturally- to continue the tradition.</p><p>Historically, Snivvians have withstood numerous hardships that they channel into their impressive artistic works. After gaining the ability to travel between the stars, the Snivvians attracted the brutal attention of The Thalassian Slavers. Snivvian culture was nearly destroyed before the Republic discovered the practice and stepped in to protect the Snivvians. This protection has been reduced during eras of warfare, but combined Republic and Snivvian forces remain sufficient to hold off lesser threats. </p><p>During The Old Republic Era, the Snivvians were still rebuilding the damage done to their society by the slavers and other threats. They proceed with the intent to colonize other worlds. Many Snivvians travel throughout the galaxy, attempting to live the lives of the subjects of their future artistic works, even when it is dangerous. Snivvian enclaves made up of escaped slaves and refugees are scattered throughout the systems near their homeworld. </p><h3>Snivvian Characteristics</h3><p><b>Personality:</b> Snivvians are insightful and gentle. They contemplate and seek out life lessons to incorporate into their art. However, not all follow artistic pursuits, though the exceptions are occasionally dangerous to Snivvian society. </p><p><b>Physical Description:</b> The short Snivvians have though skin, and sparse hair. They have a large, short snout, and large canines protruding from their lower jaw. Their thick skin protects them from harsh winters, and also aids them in warmer climates. </p><p><b>Age Groups:</b> Snivvians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-17 Years </td> \n   <td>18-49 Years </td> \n   <td>50-79 Years </td> \n   <td>80-105 Years </td> \n   <td>106+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Outer Rim world of Cadomai Prime is located near the Corporate Sector. It is a cold planet, with many subterranean caverns. </p><p><b>Languages:</b> Snivvians speak their own language, also called Snivvian. </p><p><b>Example Names:</b> Bakken, Dezzen, Dezirdna, Elinselor, Geezum, Marn Heirogryph, Nejet, Prinzan, Rachalt Hyst, Rincholar, Seerna, Snagletooth, Takeel, Thasca Knarr, Wiorkettle, Zereldspidar, Zutton. </p><p><b>Adventurers:</b> Snivvian adventurers are often Scoundrels, but can be of any Heroic Class. They often Multiclass to broaden their experiences and knowledge. </p><h3>Snivvian Species Traits</h3><p>Snivvians share the following Species Traits: </p>",
+    "size": "small",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Cold Resistance",
+        "description": "<p>Beings gain a +5 Species bonus to their Fortitude Defense to resist Extreme Cold.</p>"
+      },
+      {
+        "name": "Observant",
+        "description": "<p>Once per encounter, a being can use their Perception skill modifier in place of their Deception or Persuasion skill modifier.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6YA1mECCmncfTyH2",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

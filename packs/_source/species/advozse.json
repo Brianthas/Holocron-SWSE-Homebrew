@@ -1,0 +1,40 @@
+{
+  "_id": "BSsMA6KsG1dlLUMt",
+  "_key": "!items!BSsMA6KsG1dlLUMt",
+  "name": "Advozse",
+  "type": "species",
+  "system": {
+    "description": "<p>The Advozsec come from the tectonically tortured world of <span class=\"new\" title=\"Riflor (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmlmbG9yP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Riflor</span>. Three suns exert tremendous gravitational stress on the planet, which has baffled planetologists as to why the planet hasn't been destroyed yet. The Advozsec evolved on <span class=\"new\" title=\"Riflor (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmlmbG9yP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Riflor</span> to become both survivors and tremendous pessimists. </p><p>Although much of their fame comes from their reputation as bureaucrats, Advozse engineers have also been responsible for many advances in building materials and construction techniques. Advozsec are strict vegetarians and become violently ill if they consume animal protein. </p><h3>Advozse Characteristics</h3><p><b>Personality:</b> Advozsec do not trust easily, and they don't trust that anything- anything- is permanent. They prepare for the worst, yet for all their supposed pessimism, they do hope and strive for the best realistic outcome. Advozsec are notoriously indifferent to possessions save money. While objects, homes, and cities may be destroyed during the next calamity season, monetary power can rebuild a society and keep it from collapsing into barbarism. Their gloomy outlook on the universe means that they also seem irritable to other beings. </p><p><b>Physical Description:</b> Advozsec are roughly humanoid and average about 1.5 meters tall. They are hairless, pug-faced beings with thick skin that ranges from muddy yellow to ruddy brown. An Advozse's eyes are large and black due to millennia of evolution in caves, with ears that come to a point to better resolve location underground. A prominent black horn protrudes from the top of the Advozse's head. </p><p><b>Age Groups:</b> Advozsec age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-33 Years </td> \n   <td>34-42 Years </td> \n   <td>43-54 Years </td> \n   <td>55+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The tectonically unstable planet of <span class=\"new\" title=\"Riflor (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmlmbG9yP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Riflor</span>, located in The Mid Rim. </p><p><b>Languages:</b> Advozsec have their own native language of Advb, a reverberating language that sounds hauntingly melodic. </p><p><b>Example Names:</b> Bom Vindim, Gjeel Dhantra, Kol Nurn, Roda Lern, Vel Remdro. </p><p><b>Adventurers:</b> Advozsec who take to a life of adventure are typically Nobles. Advozsec have a slightly lower than average number of Force-users. Those who can move beyond their gloomy outlook on life can become Jedi, however. </p><h3>Advozse Species Traits</h3><p>Advozsec share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Armor (+1)",
+        "description": "<p>A being gains a Natural Armor bonus to their&nbsp;Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Heightened Awareness",
+        "description": "<p>A being can choose to reroll any&nbsp;Perception&nbsp;check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Advozsec",
+        "description": "<p><br> The Advozsec come from the tectonically tortured world of <span class=\"new\" title=\"Riflor (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmlmbG9yP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Riflor</span>. Three suns exert tremendous gravitational stress on the planet, which has baffled planetologists as to why the planet hasn't been destroyed yet. The Advozsec evolved on <span class=\"new\" title=\"Riflor (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmlmbG9yP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Riflor</span> to become both survivors and tremendous pessimists.</p><p>Although much of their fame comes from their reputation as bureaucrats, Advozse engineers have also been responsible for many advances in building materials and construction techniques. Advozsec are strict vegetarians and become violently ill if they consume animal protein.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "0o2HEexbyBz6qKPn",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

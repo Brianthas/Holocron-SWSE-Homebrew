@@ -1,0 +1,36 @@
+{
+  "_id": "DeyNi2aYy7h2LwB5",
+  "_key": "!items!DeyNi2aYy7h2LwB5",
+  "name": "Aqualish",
+  "type": "species",
+  "system": {
+    "description": "<p>The Aqualish are amphibious humanoids native to The Mid Rim world of Ando. Three breeds of Aqualish exist- the Aquala (widely considered the \"Baseline\" Aqualish), the Quara, and the Ualaq. The three strains are generally similar in appearance and in all their traits, but the Quara and Ualaq have claw-like hands with five digits whereas the Aquala have fins. The Ualaq are set apart by the fact that they have four eyes instead of two. </p><p>The Aqualish hold no beings in greater contempt than those who belong to a different subspecies than themselves- Aquala hate the Quara and the Ualaq, the Quara hate the Aquala and Ualaq, and the Ualaq hate the Aquala and the Quara. Each strain views the others as inferior and weak. Since Quara and Ualaq can more easily use Equipment designed for the general galactic population, they are more frequently encountered away from Ando than the Aquala. </p><h3>Aqualish Characteristics</h3><p><b>Personality:</b> The Aqualish admire strength and are openly contemptuous and hostile toward the weak. It is customary and accepted social behavior for an Aqualish to be pushy and belligerent toward people he or she is interacting with for the first time. If the individual does not stand up to them, the Aqualish assumes the other being is weak and continues to bully him or her. </p><p><b>Physical Description:</b> Aqualish are tusked, walrus-faced humanoids with skin ranging in color from dark green or blue to deep russet or black. Members of the Ualaq subspecies have four eyes instead of two. Adult Aqualish stand between 1.8 and 2 meters tall. </p><p><b>Age Groups:</b> Aqualish age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-50 Years </td> \n   <td>51-69 Years </td> \n   <td>70-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Ando, a Mid Rim water planet dotted with swampy islands and rocky outcroppings on which the Quara, Ualaq, and Aquala make their homes. </p><p><b>Languages:</b> Aqualish speak, read, and write both Basic and Aqualish. The Quara, Ualaq, and Aquala have slightly different dialects of Aqualish, but have no trouble understanding one another. </p><p><b>Example Names:</b> Calfta, Bongi, Carn'ar, Gondara, Gunda Mabin, Korai-tae, Po Nudo, Ponda Baba, Undra Lagor, Yada Munda. </p><p><b>Adventurers:</b> Aqualish heroes are typically Scoundrels or Soldiers. Force-using Aqualish are rare. </p><h3>Aqualish Species Traits</h3><p>Aqualish share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Breathe Underwater",
+        "description": "<p>Beings can't drown in water.</p>"
+      },
+      {
+        "name": "Expert Swimmer",
+        "description": "<p>A being may choose to reroll any&nbsp;Swim&nbsp;check, but the result of the reroll must be accepted, even if it is worse. In addition, a being may choose to&nbsp;Take 10&nbsp;on&nbsp;Swim&nbsp;checks, even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Bonus Feat (Toughness)",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "PAJq4wuVcHKaf0zn",
+      "sourceBook": ""
+    }
+  }
+}

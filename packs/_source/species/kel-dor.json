@@ -1,0 +1,36 @@
+{
+  "_id": "rgxYZ3zmhOBHuqoN",
+  "_key": "!items!rgxYZ3zmhOBHuqoN",
+  "name": "Kel Dor",
+  "type": "species",
+  "system": {
+    "description": "<p>The Kel Dor evolved on Dorin, a world with an atmosphere consisting mostly of helium and a gas that is unique to that world. As such, Kel Dor cannot breathe on planets with common nitrogen/oxygen atmospheres. Conversely, Dorin's atmosphere is toxic to most nonnative life.</p><p>On other planets, Kel Dor dwellings provide their native atmosphere (stored in large tanks). When outside, Kel Dor must wear breath masks and goggles. They can neither see nor breathe without these devices. Most Kel Dor breath masks include vocoders that amplify the wearer's speech; while their vocal cords function normally in their native atmosphere, Kel Dor must shout to provide sound in other environments. Their eyesight however, is enhanced when they are away from Dorin. </p><h3>Kel Dor Characteristics</h3><p><b>Personality:</b> Calm and kind, the Kel Dor never turn away a being in need. Still, most believe in quick, simple justice (even engaging in vigilantism). </p><p><b>Physical Description:</b> The average Kel Dor stands between 1.6 and 2 meters tall. Their skin ranges from peach to deep red, and most have black eyes. </p><p><b>Age Groups:</b> Kel Dor age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-15 Years </td> \n   <td>16-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-69 Years </td> \n   <td>70+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The technological planet of Dorin. </p><p><b>Languages:</b> The Kel Dor can speak, read, and write both Basic and Kel Dor. </p><p><b>Example Names:</b> Dorn Tlo, Plo Koon, Torin Dol. </p><p><b>Adventurers:</b> Kel Dor commonly become diplomats (Nobles), bounty hunters (Scouts), and Jedi. Given their altruism and sense of justice, many enter law enforcement. </p><h3>Kel Dor Species Traits</h3><p>Kel Dor share the following Species Traits: </p><h2>Additional Kel Dor Species Feats</h2><p>Kel Dor characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Justice Seeker </td> \n   <td> </td> \n   <td>Gain a bonus to damage rolls against those who harm your allies. </td>\n  </tr> \n  <tr> \n   <td>Read the Winds </td> \n   <td> </td> \n   <td>Detect hidden enemies within 10 squares of you. </td>\n  </tr> \n  <tr> \n   <td>Scion of Dorin </td> \n   <td> </td> \n   <td>Gain a bonus to Fortitude Defense against Atmospheric Hazards. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Keen Force Sense",
+        "description": "<p>Beings may choose to reroll any&nbsp;Use the Force&nbsp;check made to&nbsp;Search Your Feelings&nbsp;or&nbsp;Sense Force, keeping the better of the two results.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Special Equipment",
+        "description": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tajB1BbiQRZjtvmg",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

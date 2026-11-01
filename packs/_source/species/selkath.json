@@ -1,0 +1,44 @@
+{
+  "_id": "PyDPUJ0B1AGFf4cE",
+  "_key": "!items!PyDPUJ0B1AGFf4cE",
+  "name": "Selkath",
+  "type": "species",
+  "system": {
+    "description": "<p> The Selkath are amphibious beings native to the planet Manaan. During The Old Republic Era, Manaan is one of the most important planets in the galaxy. As the sole source of Kolto (a naturally occurring healing agent, much more effective than Bacta), Manaan is able to retain its neutrality by supplying all sides of a conflict with the vital substance. The Selkath leaders might favor one side over another if it is in the long-term interests of the planet. However, Selkath closely guard their neutrality, lest they fall prey to powerful corporations, or oppressive invaders.</p><p>Few Selkath travel offworld, preferring the habitat of their homeworld. They have never joined the Republic, or any galactic organization, so most have little reason to leave. They enjoy the technology and wealth produced by the sale of Kolto. All contact with offworlders occurs in Ahto; the Selkath live in underwater cities and settlements scattered around the planet. As amphibious creatures, they are equally at home in either locale. However, those areas closer to Ahto are home to more sophisticated and technologically advanced Selkath settlements. Historically, Selkath settlements were divided by clan affiliation. However, those affiliations have become less pronounced due to the importance of Kolto production. </p><h3>Selkath Characteristics</h3><p><b>Personality:</b> Selkath prefer negotiation and diplomacy to direct, possibly rash actions, especially where influential governments are concerned. They are not pacifists so much as pragmatics, being less reserved when dealing with other Selkath. </p><p><b>Physical Description:</b> Selkath are amphibious humanoids, with large eyes on each side of their wide, flat heads. They have concealed gill slits that work equally well in air or water. They have natural poisoned, retractile claws, but it is socially unacceptable (and illegal on Manaan) to use them against an opponent. Nevertheless, highly enraged Selkath occasionally disregard this restriction. </p><p><b>Age Groups:</b> Selkath age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-54 Years </td> \n   <td>55-84 Years </td> \n   <td>85-99 Years </td> \n   <td>100+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Manaan is a temperate world in The Mid Rim. </p><p><b>Languages:</b> Selkath speak their own language, also called Selkath. </p><p><b>Example Names:</b> Qual, Shasa, Shaelas, Shelkar. </p><p><b>Adventurers:</b> Selkath adventurers are normally Scouts or Nobles. Few Selkath are known to have joined The Jedi Order, though some Force-sensitive Selkath create The Order of Shasa. </p><h3>Selkath Species Traits</h3><p>Selkath share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Breathe Underwater",
+        "description": "<p>Beings can't drown in water.</p>"
+      },
+      {
+        "name": "Expert Swimmer",
+        "description": "<p>A being may choose to reroll any&nbsp;Swim&nbsp;check, but the result of the reroll must be accepted, even if it is worse. In addition, a being may choose to&nbsp;Take 10&nbsp;on&nbsp;Swim&nbsp;checks, even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Able Healers",
+        "description": "<p>Whenever a being restores Hit Points to another character by any means, or Aids Another who is doing so, the target regains an additional 5 Hit Points.</p><p><b>OR</b></p><p>Once per encounter as a Swift Action, the being can grant an adjacent ally Bonus Hit Points equal to 10 + the being's Character Level, which last until the end of the encounter.</p>"
+      },
+      {
+        "name": "Swimming",
+        "description": "<p>Beings possess an inherent Swim speed.</p>"
+      },
+      {
+        "name": "Swim Speed (4)",
+        "description": "A being has a swim speed of #payload#."
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JlWBISfgobOK3oCV",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

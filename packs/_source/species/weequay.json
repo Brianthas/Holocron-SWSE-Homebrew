@@ -1,0 +1,36 @@
+{
+  "_id": "AvvVHORTx4j4bGiE",
+  "_key": "!items!AvvVHORTx4j4bGiE",
+  "name": "Weequay",
+  "type": "species",
+  "system": {
+    "description": "<p>The Weequay are well-known throughout the galaxy for their violent tendencies and lack of individuality. Deeply spiritual, they worship a broad pantheon of deities, the most senior of which is known as Quay. Zealous Weequay perform ritual sacrifices in Quay's honor, at times resorting to murder. Such incidents have done little to dispel their violent reputation. </p><p>Each Weequay carries a spherical totem through which Quay allegedly speaks. The totem is used in times of great need to guide the Weequay, providing spiritual answers to individual questions. In practice, the Weequay asks a question, shakes the device, and waits for the answer to appear. A Weequay treats the totem's advice seriously and becomes angry and violent if such advice is questioned or ridiculed. </p><p>Male Weequay ply the galaxy as thugs, mercenaries, and hired assassins, while female Weequay rarely, if ever, leave Sriluur. A Male Weequay who leaves Sriluur grows and cultivates a long braid, which is then shorn off upon his return to the homeworld in celebration. Weequay who are born off-world or adopted into other societies at an early age often develop more individualistic personalities than their deep-rooted cousins. </p><h3>Weequay Characteristics</h3><p><b>Personality:</b> Weequay are bullying, brooding, and superstitious by nature, Their culture does not assign names to individuals, as all Weequay are considered to be part of the same whole. They maintain a sinister silence, refusing to speak in the presence of non-Weequay, preferring instead to use trusted intermediaries to do their talking for them. Those raised apart from traditional values find their own voices and seldom integrate well back into Weequay society. </p><p><b>Physical Description:</b> Weequay are humanoids with thick, leathery skin that ranges in color from tan to dark brown. Their faces are lipless, with flat noses and a well-defined frill along each of their jowls. Males grow their black hair into long braids, while females are bald. </p><p><b>Age Groups:</b> Weequay age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-17 Years </td> \n   <td>18-49 Years </td> \n   <td>50-74 Years </td> \n   <td>75-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The arid planet of Sriluur in The Outer Rim. </p><p><b>Languages:</b> A Weequay relies on pheromones to communicate with other members of his or her tribe. Communication between tribes involves the spoken language of Sriluurian, which consists of whispers, hisses, and throaty mumbles. Written Sriluurian involves a multitude of complex hieroglyphics and pictographs. </p><p><b>Example Names:</b> Weequay do not take names within their own society, though members of other Species often give individual Weequay nicknames. Examples of such monikers include: Adazian Liebke, Ak-buz, Ak-rev, Diergu-Rea Duhnes'rd, Fyg, Grimorg, Labansat, Nort Toom, Plaan, Que-Mars Redath-Gom, Solum'ke, Sora Bulq, and Tas Kee. </p><p><b>Adventurers:</b> Weequay are so attached to their tribes that it is rare for an individual to venture into the galaxy alone. It is far more common for bands of like-minded Weequay to ply their martial skills and propensity for violence as a group. Their quiet nature and ability to work as a team make them particularly attractive to the Hutts and various criminal syndicates as guards and enforcers. Thus, Weequay Scouts and Soldiers are quite common. </p><h3>Weequay Species Traits</h3><p>Weequay share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Armor (+1)",
+        "description": "<p>A being gains a Natural Armor bonus to their&nbsp;Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Endurance))",
+        "description": ""
+      },
+      {
+        "name": "Expressive Pheromones",
+        "description": "<p>Beings communicate silently with other members of their Species by emitting complex pheromones. This form of communication has a maximum range of 20 squares.</p><p>Species with the Scent Species Trait can detect beings' pheromones by smell, but this does not allow them to understand what the beings are communicating.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "byz4I7SBoU8Cfcep",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

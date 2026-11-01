@@ -27,6 +27,8 @@ function characterSchema() {
     abilities: new fields.SchemaField({ str: ability(), dex: ability(), con: ability(), int: ability(), wis: ability(), cha: ability() }),
     /** The ability that takes the species' "+2 ANY" (episode-vii species table); blank until chosen. */
     speciesChoice: new fields.StringField({ required: true, blank: true, initial: "", choices: [...ABILITIES] }),
+    /** The size picked at creation, for a species that offers a choice (Killik); blank otherwise. */
+    speciesSize: new fields.StringField({ required: true, blank: true, initial: "", choices: [...SIZES] }),
     /**
      * The character's levels in order, one entry per level: the class item taken, the hit die result
      * for that level (unused at level 1, where the class's level-1 hit points apply), and the ability
@@ -147,7 +149,13 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
   override prepareDerivedData(): void {
     const items = this.parent.items;
     const species = items.find((i) => i.type === "species");
-    const size = String((species?.system as { size?: string } | undefined)?.size ?? "medium");
+    const speciesData = species?.system as { size?: string; sizeChoices?: string[] } | undefined;
+    // A species with size choices takes the one picked at creation (rulings.md, Content: Killik).
+    let size = String(speciesData?.size ?? "medium");
+    if (speciesData?.sizeChoices?.length) {
+      if (speciesData.sizeChoices.includes(this.speciesSize)) size = this.speciesSize;
+      else this.problems.push(`${species?.name} is ${speciesData.sizeChoices.join(", ")} by choice; no size has been chosen.`);
+    }
     this.size = (SIZES as readonly string[]).includes(size) ? (size as SizeKey) : "medium";
 
     // Levels come from the progression. An entry whose class item is missing counts toward level

@@ -1,0 +1,32 @@
+{
+  "_id": "HrMPPVcGaOKgDjjB",
+  "_key": "!items!HrMPPVcGaOKgDjjB",
+  "name": "Houk",
+  "type": "species",
+  "system": {
+    "description": "<p>The Houk have well-earned reputations as bullies, cheaters, and backstabbers. They are often compared to Wookiees because of their great strength and violent disposition, although Wookiees are usually more agreeable and trustworthy. </p><p>The Houk acquired hyperspace technology several thousand years before the Battle of Yavin and spread across the galaxy, seeding many planets with small colonies. During the Rebellion era, Imperial agents captured and experimented on hundreds of Houk colonists, hoping to create strong yet obedient slaves. The Houk did not submit easily, and most of them were never seen again. At least one Houk survived the ordeal, only to betray his Imperial overlords by joining the Rebel Alliance. Such treachery gave rise to the proverb, \"Once a Houk, always a Houk.\" </p><h3>Houk Characteristics</h3><p><b>Personality:</b> Houk are humorless, short-tempered beings who use their strength to antagonize weaker beings. Their propensity for deceit and skulduggery is matched only by the Hutts. These qualities are reflected both in their combat techniques and their political dealings. Although Houk descend from a culture where violence, corruption, and treachery are rampant, a few are actually hard workers who have learned to get along with others. </p><p><b>Physical Description:</b> Houk are hulking bipeds with thick skin (usually dark blue or violet), hairless heads marked with bony ridges and a pronounced brow, flabby jowls, beady yellow eyes, and no visible ears or nose. The average Houk stands about 2.2 meters tall. </p><p><b>Age Groups:</b> Houk age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-15 Years </td> \n   <td>16-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Lijuter (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTGlqdXRlcj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Lijuter</span>, an arid and inhospitable planet in the Reibrin System, located in The Outer Rim. A number of Space Stations orbit <span class=\"new\" title=\"Lijuter (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTGlqdXRlcj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Lijuter</span> and its two moons, many of them serving as offworld settlements for Houk and various unscrupulous traders and sordid passers-by. </p><p><b>Languages:</b> Houk speak Houkese, a language of grunts marked with subtle tonal inflections that differentiate words that otherwise sound the same. Written Houkese uses a simple primitive alphabet in which each letter represents a simple verb and intricate pictograms represent nouns. </p><p><b>Example Names:</b> Agamor Krin, Egome Fass, Gorb Drig, Krelba Voss, Morg Nar, Roath Vogog. </p><p><b>Adventurers:</b> Houk who travel the galaxy take full advantage of the reputation that precedes them. They often work for crime syndicates and pirates. The select few who rise above the vile corruption that passes for Houk society occasionally join independent bands of adventurers for profit and glory. Houk heroes tend to be Soldiers, although Houk Scouts and Scoundrels aren't unheard of either. </p><h3>Houk Species Traits</h3><p>Houk share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Armor (+1)",
+        "description": "<p>A being gains a Natural Armor bonus to their&nbsp;Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Physically Intimidating",
+        "description": "<p>Beings use their&nbsp;Strength&nbsp;modifier instead of their&nbsp;Charisma&nbsp;modifier for&nbsp;Persuasion&nbsp;checks made to&nbsp;Intimidate&nbsp;others.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Ny2VFvQMT6BTVG9z",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

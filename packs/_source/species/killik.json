@@ -1,0 +1,52 @@
+{
+  "_id": "VttJxQBSK70tI35a",
+  "_key": "!items!VttJxQBSK70tI35a",
+  "name": "Killik",
+  "type": "species",
+  "system": {
+    "description": "<p> Once major players on the galactic stage, the Killiks are long gone by the time the first Humans reach the Killik spawnworld of Alderaan. From their new home in The Unknown Regions, the Killiks subsist for millennia until upsetting the political balance in the Swarm War of 36 ABY.</p><p>Killiks are a genetically diverse population of intelligent insects. Their society is composed of hives, also called nests. Members of each hive share the same physical characteristics and possess the ability to communicate with others through pheromones, electromagnetic transmissions, and long-distance telepathy. </p><p>Multiple nests united under a hive-mind link can be considered a single organism. Its members always refer to themselves in the third person, and each is aware of anything that has been experienced by any other member. The Hive Mind can be thought of as the individual, and the Killiks its eyes, ears, and hands. </p><p>Most Killiks are female. Males are needed for reproduction and little else, and they are birthed in great numbers only to help seed a new nest. A breeding female can lay a thousand eggs per month, hatching larvae that grow into work-ready nymphs in under a year. </p><p>Killiks have the ability to turn outsiders into fellow hive members or \"Joiners,\" a quality that members of other Species find unnerving. This is accomplished through exposure to mind-altering pheromones, and the process is widely considered to be brainwashing, although the victims usually report rapturous fulfillment at the sensation that they finally belong. </p><h3>Killik Characteristics</h3><p><b>Personality:</b> Killik hives can be distinguished not only from their members' appearance but also from their job specialties. Some hives consist of superior warriors, whereas others excel at construction, music-making, subterfuge, or scouting. </p><p><b>Physical Description:</b> Although there is great variation in Killik phenotypes, all share certain qualities. The majority have six limbs, hopping on the back two while using the front four to manipulate objects. Their bodies are sheathed in hard chitinous exoskeletons, but their joints are lightly armored for flexibility (and are therefore vulnerable). Killiks have oversized compound eyes and waving antennae, and they breathe through tiny spiracles lining their abdomens. Chitin color comes in every hue and shade, although members of the same hive share similar coloration patterns. </p><p><b>Age Groups:</b>&nbsp;Killiks age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-4 Years </td> \n   <td>5-9 Years </td> \n   <td>10-39 Years </td> \n   <td>40-54 Years </td> \n   <td>55-59 Years </td> \n   <td>60+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> By 30,000 BBY, the Killiks abandon the civilized galaxy, leaving nothing behind but hive mounds on Alderaan and similar structures on the nearby world of Alsakan. The Killik nests then retreat to The Unknown Regions and remain on a handful of isolated planets for thirty millennia, until the midst of the Yuuzhan Vong Invasion. </p><p><b>Languages:</b> Killik primarily communicate through their Hive Mind, and they additionally learn Sy Bisti to communicate with other Species.&nbsp; </p><p><b>Example Names:</b> Alaala, Jooj, Mueum, Saras, Wuluw; all Killik hives have palindromic names that are spelled the same forward and backward. Individual Killiks have no names other than the name of their hive. </p><p><b>Adventurers:</b> Killik nests are driven by specialization. This uniqueness helps ensure that individual nests can survive in diverse climates and geographies, and it also assists the Species by allowing members to pledge their gifts in the service of the Colony's greater good. This causes Killiks to be proficient in all Heroic Classes. </p><h3>Killik Species Traits</h3><p>The traits described below apply to most Killiks, despite cosmetic or minor size differences. </p><h2>Killik Size Differences</h2><p>The Killik Species varies greatly in size, form, and function, although they all share a similar genetic code. Gamemasters who wish to create Killiks with vastly different forms or functions should select from the following list of traits and apply changes to the basic traits as needed. </p><table> \n <tbody>\n  <tr> \n   <th>SIZE </th> \n   <th>ABILITY MODIFIERS </th> \n   <th>BASE SPEED </th> \n   <th>REFLEX MODIFIER </th> \n   <th>STEALTH MODIFIER </th> \n   <th>DAMAGE THRESHOLD MODIFIER </th> \n   <th>UNARMED DAMAGE </th>\n  </tr> \n  <tr> \n   <td>Fine </td> \n   <td>+8 Dex, -8 Str </td> \n   <td>4 Squares </td> \n   <td>+10 </td> \n   <td>+20 </td> \n   <td>+0 </td> \n   <td>1 </td>\n  </tr> \n  <tr> \n   <td>Diminutive </td> \n   <td>+6 Dex, -6 Str </td> \n   <td>4 Squares </td> \n   <td>+5 </td> \n   <td>+15 </td> \n   <td>+0 </td> \n   <td>1d2 </td>\n  </tr> \n  <tr> \n   <td>Tiny </td> \n   <td>+4 Dex, -4 Str </td> \n   <td>4 Squares </td> \n   <td>+2 </td> \n   <td>+10 </td> \n   <td>+0 </td> \n   <td>1d3 </td>\n  </tr> \n  <tr> \n   <td>Small </td> \n   <td>+2 Dex, -2 Str </td> \n   <td>4 Squares </td> \n   <td>+1 </td> \n   <td>+5 </td> \n   <td>+0 </td> \n   <td>1d4 </td>\n  </tr> \n  <tr> \n   <td>Medium </td> \n   <td>None </td> \n   <td>6 Squares </td> \n   <td>+0 </td> \n   <td>+0 </td> \n   <td>+0 </td> \n   <td>1d6 </td>\n  </tr> \n  <tr> \n   <td>Large </td> \n   <td>+8 Str, +8 Con, -2 Dex </td> \n   <td>6 Squares </td> \n   <td>-1 </td> \n   <td>-5 </td> \n   <td>+5 </td> \n   <td>1d8 </td>\n  </tr> \n  <tr> \n   <td>Huge </td> \n   <td>+16 Str, +16 Con, -4 Dex </td> \n   <td>4 Squares </td> \n   <td>-2 </td> \n   <td>-10 </td> \n   <td>+10 </td> \n   <td>2d6 </td>\n  </tr> \n  <tr> \n   <td>Gargantuan </td> \n   <td>+24 Str, +24 Con, -4 Dex </td> \n   <td>4 Squares </td> \n   <td>-5 </td> \n   <td>-15 </td> \n   <td>+20 </td> \n   <td>3d6 </td>\n  </tr> \n  <tr> \n   <td>Colossal </td> \n   <td>+32 Str, +32 Con, -4 Dex </td> \n   <td>4 Squares </td> \n   <td>-10 </td> \n   <td>-20 </td> \n   <td>+50 </td> \n   <td>4d6 </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Armor (+1)",
+        "description": "<p>A being gains a Natural Armor bonus to their&nbsp;Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Joiners",
+        "description": "<p><br> Whenever a being reduces a living creature with an Intelligence score of 3 or higher to 0 Hit Points, or the being knocks the creature unconscious by moving it down the Condition Track, the being can transform the target into a Joiner. The target must be Helpless for this to occur. The process takes 1 minute and exposes the target to mind-altering pheromones.</p><p>Once the target becomes a Joiner, its Attitude shifts to Friendly to the being and its allies, and the target gains a +10 bonus to its Will Defense against attempts to use Persuasion to alter its perceptions of its new being friends.</p><p>A target transformed into a Joiner in this manner can make a DC 20 Intelligence check once per day to remove the effect and return to its original Attitude. This is a Mind-Affecting effect.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Natural Weapons",
+        "description": "<p>A being has Natural Weapons, in some form or another. When a being makes an Unarmed attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal Unarmed damage. Beings are always considered armed with their Natural Weapons.</p>"
+      },
+      {
+        "name": "Multiple Limbs",
+        "description": "<p>When making multiple attacks, a being reduces the penalty to its attack rolls by 2.</p>"
+      },
+      {
+        "name": "Hive Mind",
+        "description": "<p>A being within 1 kilometer of another member of its Species can communicate with it via&nbsp;Telepathy.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uNhYUgf7Sfk1nHPa",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

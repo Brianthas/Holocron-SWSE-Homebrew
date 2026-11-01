@@ -1,0 +1,32 @@
+{
+  "_id": "E2hQNLLMg886pScP",
+  "_key": "!items!E2hQNLLMg886pScP",
+  "name": "Tusken Raider",
+  "type": "species",
+  "system": {
+    "description": "<p>Tusken Raiders, or Sand People, are primitive desert-dwelling warriors, skilled at defending their harsh way of life and surviving in an even harsher environment. These brutal nomads were the dominant sentient Species on Tatooine until offworlders colonized the planet during the time of the Old Republic. Jawas, the planet's only other indigenous Species, were more intelligent than the Tusken Raiders, but lacked the ferocity and size to compete with their predatory neighbors. Whereas the Jawas learned to coexist with the early offworld colonists, the Tusken Raiders attacked offworlders on sight. </p><p>Tusken Raiders earned their name by destroying and plundering a Human colony at Fort Tusken. The massacre ultimately failed to force settlers to leave Tatooine, and the Sand People have yet to repeat such a stunning attack, but it is remembered as an example of their bloodthirstiness. The settlers' hatred and fear of these ruthless nomads led to the decimation of the Tusken Raider population in subsequent years. Entire tribes were wiped out, and the survivors were driven into the Deep Deserts. </p><p> The average Tusken Raider fears machines. The whine of a Speeder or Swoop usually foretells the approach of murderous offworlders, and even the bravest Tusken Raider must think twice before facing such foes. Tusken Raiders prefer to attack in large numbers, and even then, their targets are usually no more threatening than a moisture farm or ill-defended Jawa Sandcrawler.</p><p>Although technologically primitive by galactic standards, Tusken Raiders make good use of whatever technological items they can salvage from slain offworlders or Jawa. </p><p>Tusken Raiders use Banthas, large herd animals native to Tatooine, as mounts during scouting missions and hunting expeditions. Some Tusken villages also use domesticated Massiffs as watchdogs. Tusken Hunters typically arm themselves with Gaffi Sticks and Slugthrower Rifles. </p><h3>Tusken Raider Characteristics</h3><p><b>Personality:</b> The Sand People are ruthless tribal nomads who attack anyone they do not recognize, including members of other Tusken Raider tribes. </p><p><b>Physical Description:</b> Roughly 2 meters tall, Tusken Raiders are swathed from head to toe in dusty bandages, as required by ancient custom. Protruding circular lenses protect their eyes, and filter masks cover their mouths. </p><p><b>Age Groups:</b>&nbsp;Tusken Raiders age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-8 Years </td> \n   <td>9-13 Years </td> \n   <td>14-44 Years </td> \n   <td>45-60 Years </td> \n   <td>61-74 Years </td> \n   <td>75+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Tatooine, a desert world located in The Outer Rim. </p><p><b>Language:</b> The Tusken Raiders' language, Tusken, is punctuated with grunts, growls, and honking noises, and it has no written form. Tusken Raiders rarely learn other languages. </p><p><b>Example Names:</b> Grk'kkrs'arr, K'Sheek, Rrr'ur'R, RR'uruurrr, UroRRuR'R'R, Ur'Ru'r. </p><p><b>Adventurers:</b> Tusken Raiders who search for something greater are typically Soldiers or Scouts. There have been very few Jedi Tusken Raiders in known history, and a Tusken Raider Noble is unheard of, with Tusken Technicians being just as uncommon. </p><h3>Tusken Raider Species Traits</h3><p>Tusken Raiders share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Sneaky",
+        "description": "<p>A beings can choose to reroll any&nbsp;Stealth&nbsp;check to&nbsp;Sneak, but the result of the reroll must be accepted, even if it is worse.</p>"
+      },
+      {
+        "name": "Survival Instinct",
+        "description": "<p>A being may choose to reroll any&nbsp;Survival check, but the result of the reroll must be accepted even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "u6TuJfHaY4TrYG6F",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements (Saga Edition Conversion Guide)"
+    }
+  }
+}

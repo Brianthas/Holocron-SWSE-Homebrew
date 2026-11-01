@@ -1,0 +1,36 @@
+{
+  "_id": "5El1eyf6IDIOrdcc",
+  "_key": "!items!5El1eyf6IDIOrdcc",
+  "name": "Taung",
+  "type": "species",
+  "system": {
+    "description": "<p>The Taung are warriors first and foremost, having battled the native Human nations for control of Coruscant before being driven off and forced to flee to the Outer Rim world of Roon, where they remain for millennia until the legendary Mandalore the First leads them to conquer another world. Taung rename both the world and themselves in his honor, becoming The Mandalorians. </p><p>With a clan-based nomadic culture, Taung view battle and war as both a source of personal honor and a way to show pride in their community. Veterans of successful battles are held in high regard, to such an extent that they are the de facto leaders of their communities. Only the leader of all The Mandalorians, known simply as Mandalore, holds greater sway with the clans. </p><h3>Taung Characteristics</h3><p><b>Personality:</b> Warlike by nature, Taung are pragmatic and ruthless. But by the same token, they are also extraordinarily loyal to their clan, which serves the same function that a biological family serves for other Species. </p><p><b>Physical Description:</b> Taung have gray skin and generally appear similar to Humans, except for their faces, which strongly resemble the armored visor of a Mandalorian helmet. </p><p><b>Age Groups:</b>&nbsp;Taung age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-12 Years </td> \n   <td>13-45 Years </td> \n   <td>46-64 Years </td> \n   <td>65-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Coruscant, but later Mandalore is adopted as their homeworld. </p><p><b>Languages:</b> Mando'a, a language with a sentence structure similar to Basic, with most of the differences stemming from frequent word merging and an emphasis on ease of pronunciation. </p><p><b>Example Names:</b> A pragmatic Species, Taung have names that describe traits, such as Atin (\"Persistent\"), Kot (\"Strength\"), and Tor (\"Justice\"). </p><p><b>Adventurers:</b> Taung are nomads, frequently traveling the stars in search of worthy opponents against whom they can test their prowess. Wandering Taung find work with mercenary companies, where their martial upbringing makes them incredibly valuable. History records no occurrences of a Taung displaying Force abilities. </p><h3>Taung Species Traits</h3><p>Taung share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Superior Defenses",
+        "description": "<p>Beings gain a +1 Species bonus to all their Defenses.</p>"
+      },
+      {
+        "name": "Armor Training",
+        "description": "<p>Beings increase their Maximum&nbsp;Dexterity&nbsp;bonus from worn Armor by +1.</p>"
+      },
+      {
+        "name": "Warrior Culture",
+        "description": "<p>Beings can reroll any Knowledge (Tactics) check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "E2Uv0Br3T0Nj0Ifp",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "mGZSNkqo7HjyOviT",
+  "_key": "!items!mGZSNkqo7HjyOviT",
+  "name": "Whiphid",
+  "type": "species",
+  "system": {
+    "description": "<p>Whiphids are nomadic hunters, living on and making seasonal migrations across the vast tundra of their homeworld. Whiphid society is primitive and tribal, with each tribe led by a Spearmaster. They live for the hunt and the thrill of the kill. When they were discovered by traders during The Old Republic Era, the Whiphids were quite taken with the traders' technology. Since that time, numerous Whiphids have left their tribes behind in search of a lucrative and more comfortable life elsewhere in the galaxy. </p><h3>Whiphid Characteristics</h3><p><b>Personality:</b> Whiphids are natural predators. They enjoy the hunt as much as the kill. Outsiders might be surprised by their agreeable and outgoing personalities, especially when some Whiphid must learn the difference between \"Friend\" and \"Food\" the hard way. A combination of greed and lack of scruples lead many into the shady side of galactic society. </p><p><b>Physical Description:</b> Whiphids are bulky bipeds covered in light brown or golden fur. A Whiphid's lower jaw sports two large tusks. Whiphids vary in bulk and size depending on the climate they live in. They often shed some weight on hotter worlds to prevent overheating. </p><p><b>Age Groups:</b> Whiphids age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-84 Years </td> \n   <td>85-99 Years </td> \n   <td>100-249 Years </td> \n   <td>250+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The tundra world of <span class=\"new\" title=\"Toola (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVG9vbGE/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Toola</span>, in the Kaelta System of The Outer Rim. </p><p><b>Languages:</b> Whiphids have no written language. They speak their native tongue of barks and growls, also called Whiphid. </p><p><b>Example Names:</b> J'Quille, K'Kruhk, Jempa, Wapnji, Aiks Fwa, Ch'Unkk, D'Wopp, Fillin Ta, Valarian, Waroopa. </p><p><b>Adventurers:</b> Though primitive, Whiphids are eager to explore the galaxy. Offworld Whiphids quickly pick up the use of technology. Many Whiphids follow their natural predatory instincts to become Soldiers, bounty hunters, or Scoundrels. Nobles are uncommon. Force-sensitive Whiphids are rare, but not unheard of. </p><h3>Whiphid Species Traits</h3><p>Whiphids share the following Species Traits: </p>",
+    "size": "large",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Cold Resistance",
+        "description": "<p>Beings gain a +5 Species bonus to their Fortitude Defense to resist Extreme Cold.</p>"
+      },
+      {
+        "name": "Natural Weapons",
+        "description": "<p>A being has Natural Weapons, in some form or another. When a being makes an Unarmed attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal Unarmed damage. Beings are always considered armed with their Natural Weapons.</p>"
+      },
+      {
+        "name": "Scent",
+        "description": "<p>At close range (within 10 squares), beings ignore Concealment and Cover for purposes of Perception checks, and take no penalty from poor visibility while Tracking.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JYL8X4PIfCVAABqD",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

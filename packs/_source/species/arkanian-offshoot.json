@@ -1,0 +1,28 @@
+{
+  "_id": "9qAhLmb03TV3QQsl",
+  "_key": "!items!9qAhLmb03TV3QQsl",
+  "name": "Arkanian Offshoot",
+  "type": "species",
+  "system": {
+    "description": "<p>The&nbsp;Arkanian Offshoots&nbsp;are a subspecies&nbsp;of the&nbsp;Arkanians, genetically engineered by the infamous Arkanian&nbsp;scientists&nbsp;and genetic researchers in The&nbsp;Old Republic Era. </p><p> Known to be unscrupulous when it came to the bounds of scientific exploration, the geneticists of&nbsp;Arkania&nbsp;began to experiment on their own Species, mixing the blood of other Species with their own to create Offshoots of the&nbsp;Arkanian&nbsp;Species. These Arkanian Offshoots were first bred to excel at specific industrial tasks such as mechanical or technical work in order to relieve Pureblooded Arkanians of physical labor. One particular subspecies were bred as workers for the famed Arkanian gem&nbsp;mines. These people had five-fingered hands and eyes resembling those of the&nbsp;Human&nbsp;race with which their blood was mixed. With stark white skin, the Arkanian Offshoots were easily distinguished from the Purebloods and were often shunned, even if covertly.&nbsp;Among the other races the Arkanian's experimented with were the&nbsp;Sephi&nbsp;of&nbsp;Thustra, a Species of&nbsp;humanoids with pointed ears.</p><p>Developed in the era surrounding The&nbsp;Great Sith War, the Arkanian Offshoots were bred as an answer to the need for laborers to mine the vast diamond stores of Arkania. This subspecies was especially vulnerable to minor Arkanian illnesses. The Arkanian Offshoots were treated as second-class or non-citizens by the Pureblooded Arkanians, and the question over what to do with them was termed the \"Offshoot Question.\" </p><p>Arkoh Adasca&nbsp;planned to use&nbsp;Adascorp's&nbsp;genetic engineering expertise to solve the problem in a generation. Indeed his grandfather,&nbsp;Argaloh Adasca, attempted to exterminate the Arkanian Offshoots with a plague that ravaged those of advanced age.&nbsp;Nearing the end of the&nbsp;Mandalorian Wars, Arkanian Offshoots died out and became mostly extinct due to their rather weak immune systems, along with the Arkanians halting the experiments that created more of the genetically altered subspecies. </p><h3>Arkanian Offshoot Characteristics</h3><p><b>Personality:</b> Due to the constant discrimination by the Arkanian Purebloods, most Arkanian Offshoots have much more humble attitudes when compared to their Pureblooded cousins. Rather than arrogance, most Arkanian Offshoots have a quiet confidence in their skills. Those that flee from Arkania are often among the most driven individuals of a group, determined to prove themselves to be more than an Arkanian slave. </p><p><b>Physical Description:</b> Arkanian Offshoots are are bipedal humanoids with a Near-Human appearance. They have pure white skin, making them easily identifiable from the Arkanian Purebloods, and possess five digited fingers (as opposed to the Arkanians' four). A rare few Arkanian Offshoots have unique traits as well, such as pointed ears, or an exotic eye color. </p><p><b>Age Groups:</b> Arkanian Offshoots age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-8 Years </td> \n   <td>9-13 Years </td> \n   <td>14-30 Years </td> \n   <td>31-45 Years </td> \n   <td>46-55 Years </td> \n   <td>56+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> While originally hailing from the frozen world of Arkania, most Arkanian Offshoots have fled their homeworld and are scattered across the galaxy, hiding in the lower reaches of society. </p><p><b>Languages:</b> Arkanian Offshoots speak both Basic, as well as an older dialect of Arkanian. </p><p><b>Example Names:</b> Edessa, Gorman, Vandrayk, Jarael, Zadawi. </p><p><b>Adventurers:</b> Arkanian Offshoots are typically any non-Jedi Heroic Class that complements the task they were engineered for. However, most offworld Arkanian Offshoots become Scoundrels as a matter of survival, and those few Force-sensitive Arkanian Offshoots that do appear tend to self-train themselves as Force Prodigies. </p><h3>Arkanian Offshoot Species Traits</h3><p>Arkanian Offshoots share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Determination",
+        "description": "<p>Once per encounter, a being can reroll one Skill Check after rolling a Natural 1. The being must take the result of the reroll, even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "w17YjBwzsNA1XWcw",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

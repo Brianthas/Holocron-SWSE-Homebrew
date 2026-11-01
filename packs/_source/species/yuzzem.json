@@ -1,0 +1,40 @@
+{
+  "_id": "fbLXzCpztT5RXnK0",
+  "_key": "!items!fbLXzCpztT5RXnK0",
+  "name": "Yuzzem",
+  "type": "species",
+  "system": {
+    "description": "<p> In spite of a well-deserved reputation as temperamental brutes, Yuzzem are cunning and intelligent, and their resourcefulness gives them as much of an advantage as their physically powerful frames. The Empire has learned this the hard way after they declared the Yuzzem a slave Species, rounding up large numbers of them, and putting them to work in heavy-labor operations.</p><p>The Yuzzem have frequently revolted against their Imperial masters, showing that they can be as ferocious as Wookiees, with no reservations about using their claws and tusks in a fight. </p><h3>Yuzzem Characteristics</h3><p><b>Personality:</b> Contrary to their popular image as loud and violent brutes, Yuzzem have a strong sense of fair play and generous disposition. Like Wookiees, they have a strict yet simple code of honor to which they adhere at all times. Yuzzem insist on repaying a debt owed, whether helping someone who has helped them or seeking vengeance for a wrong committed against them. </p><p><b>Physical Description:</b> Yuzzem are towering humanoids with heavily muscled upper bodies and long arms as broad as Humans. A Yuzzem has a prominent snout and an equally prominent pair of tusks jutting up from its lower jaw. Covered in a thick pelt of brown fur, a Yuzzem averages 2.5 meters tall, but its muscular bulk makes it seem a great deal larger. </p><p><b>Age Groups:</b>&nbsp;Yuzzem age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-8 Years </td> \n   <td>9-15 Years </td> \n   <td>16-40 Years </td> \n   <td>41-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The arboreal world of <span class=\"new\" title=\"Ragna III (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmFnbmFfSUlJP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Ragna III</span>, located in The Mid Rim. </p><p><b>Languages:</b> Yuzz is a guttural language of growls, roars, and mewls; and unlike many other languages, it has no written form. Yuzz is largely unpronounceable by other Species, although Yuzzem have little trouble speaking Basic. </p><p><b>Example Names:</b> Dek, Gor, Hin, Kee, Pok, Rha, Wuk. </p><p><b>Adventurers:</b> The first few Yuzzem leave <span class=\"new\" title=\"Ragna III (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmFnbmFfSUlJP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Ragna III</span> as slaves of the Empire, but once they gain their freedom they quickly found employment as enforcers and mercenaries. Many also return to their homeworld with stories about life among the stars, encouraging future generations of Yuzzem to travel the galaxy and seek their own Destinies. </p><h3>Yuzzem Species Traits</h3><p>Yuzzem share the following Species Traits: </p>",
+    "size": "large",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Expert Climber",
+        "description": "<p>A being may choose to&nbsp;Take 10&nbsp;on&nbsp;Climb&nbsp;checks even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Natural Weapons",
+        "description": "<p>A being has Natural Weapons, in some form or another. When a being makes an Unarmed attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal Unarmed damage. Beings are always considered armed with their Natural Weapons.</p>"
+      },
+      {
+        "name": "Scent",
+        "description": "<p>At close range (within 10 squares), beings ignore Concealment and Cover for purposes of Perception checks, and take no penalty from poor visibility while Tracking.</p>"
+      },
+      {
+        "name": "Physically Intimidating",
+        "description": "<p>Beings use their&nbsp;Strength&nbsp;modifier instead of their&nbsp;Charisma&nbsp;modifier for&nbsp;Persuasion&nbsp;checks made to&nbsp;Intimidate&nbsp;others.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nOsJwKQlcGQ3XNe6",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

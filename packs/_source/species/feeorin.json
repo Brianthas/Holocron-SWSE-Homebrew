@@ -1,0 +1,44 @@
+{
+  "_id": "chaXfy54Wqv25cUs",
+  "_key": "!items!chaXfy54Wqv25cUs",
+  "name": "Feeorin",
+  "type": "species",
+  "system": {
+    "description": "<p>In The Old Republic Era, the Feeorin are known to come from the planet Odryn, a planet of severe climatic extremes. Little else is known about the world, given the closed nature of Feeorin society. Few Feeorin venture from their homeworld, and those few outsiders who have survived a visit there tell of a world well suited for the Feeorin, but nobody else. </p><p>Feeorin are massive humanoids whose aging process allows them to grow stronger and more powerful until they die, dropping dead suddenly of old age. Because they are long-lived, they have ample time to gather and use their strength. Feeorin who travel offworld typically select careers compatible with their self-serving and aggressive nature. Feeorin encountered on their homeworld display a greater range of personality and motivation. In either case, Feeorin do not seek out acquaintance with members of other Species. </p><h3>Feeorin Characteristics</h3><p><b>Personality:</b> Feeorin are reputed to be brutal and dangerous. While this is not entirely the case, they are quick to anger and highly impersonal. They typically place their own affairs above others, causing other Species to regard them as selfish. </p><p><b>Physical Description:</b> Feeorin are massive, highly muscled humanoids standing over 2 meters tall. Their skin tones vary wildly, from coal black to pale white but are more commonly green, yellow, or blue. Half-meter-long tendrils hang from the sides and backs of their head. They also have bright red eyes. </p><p><b>Age Groups:</b> Feeorin age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-194 Years </td> \n   <td>195-324 Years </td> \n   <td>325-399 Years </td> \n   <td>400+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The harsh Outer Rim world of Odryn, but this knowledge is lost by the classic era. </p><p><b>Languages:</b> Feeorin speak and read their own language, also named Feeorin, as well as Basic. </p><p><b>Example Names:</b> Bral, Crayl, Dod, Dreyla, Fein, Kren, Nor, Nym, Pryn, Sayla, Zun. </p><p><b>Adventurers:</b> Feeorin adventurers are typically Soldiers or Scoundrels. Force-users are uncommon, though rare Feeorin Jedi are known to have become Jedi Knights and Jedi Masters. </p><h3>Feeorin Species Traits</h3><p>Feeorin share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Great Fortitude",
+        "description": "<p>Beings gain a +2&nbsp;Species&nbsp;bonus to their&nbsp;Fortitude Defense.</p>"
+      },
+      {
+        "name": "Brutal",
+        "description": "<p>Once per encounter, after making a successful melee attack, a being may treat its opponent's Damage Threshold as though it were 5 points lower when determining the result of the attack.</p>"
+      },
+      {
+        "name": "Stronger by Age",
+        "description": "<p>At Middle Age, a being adds a +1 Species bonus to their Strength and Constitution scores. At Old, this bonus increases to +2.</p><p>Beings do not increase their Intelligence, Wisdom, and Charisma; nor decrease their Strength, Dexterity, and Constitution as they Age.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Inborn Resilience",
+        "description": "<p>A being can catch a Second Wind even when unconscious (no Action required, but the Second Wind can only be taken when the being would normally get a turn).</p><p>Catching a Second Wind while unconscious also moves the being +3 steps on the Condition Track.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "MPq1WNw2gfXIin8Y",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

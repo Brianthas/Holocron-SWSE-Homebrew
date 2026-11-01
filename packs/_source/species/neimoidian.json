@@ -1,0 +1,32 @@
+{
+  "_id": "EKVi3hHvkGGGQmGj",
+  "_key": "!items!EKVi3hHvkGGGQmGj",
+  "name": "Neimoidian",
+  "type": "species",
+  "system": {
+    "description": "<p> Neimoidians descend from a group of Duros colonists that, during the earliest period of their Species' exploration of space, venture far beyond the edge of regions considered possible to settle. These colonists exist in isolation for thousands of years, in the small cluster of stars from which they draw their name. When contact was reestablished by the Twelfth Alderaanian Expedition, the expedition discovers a unique civilization that has spread to a dozen planets and is based around trade and conspicuous consumption.</p><p>The Neimoidians quickly find a place in galactic civilization, excited by the prospect of markets beyond their own worlds. For several centuries, they are among the leading forces behind the construction of new starports and the upgrade of existing ones. They trade with everyone- Republic or Sith, Hutt or Herglic- because to the Neimoidians, all that matters is a market for their goods. They help found the Trade Federation, a cartel of mercantile interests that, driven by Neimoidian greed, becomes so powerful that it threatens the very interstellar commerce it exists to protect. When the organization attempts to become the sole conduit for trade in certain parts of space, the Senate and the Jedi intervene. The Trade Federation is shattered, and Neimoidians see the wealth and galactic authority they accumulated over centuries evaporate within a few short years. </p><p>Neimoidian leaders then make the decision to ally with the Separatist movement led by renegade Jedi Count Dooku, which results in the complete dismantling of everything they had built beyond their home systems. For the entire period of The Galactic Empire, Neimoidian starports are under heavy Imperial control, and any efforts they make to reestablish their once-mighty trade networks are undermined at every turn. </p><p>As a result, Neimoidian society turns inward in a self-imposed isolation that is as total as any they experienced during the millennia they spent as a \"Lost Duros Colony.\" The Neimoidians remain isolationists through The Legacy Era, and the few Neimoidians that wander beyond their home space are usually on the run from enemies at home and passing themselves off as Duros. </p><h3>Neimoidian Characteristics</h3><p><b>Personality:</b> Neimoidians are greedy and cowardly, always striving to acquire just one more credit but trying to make sure that someone else takes whatever risks are associated with getting it. Any agreements or promises they make are always full of loopholes and caveats, since Neimoidians never want to suffer the embarrassment of a bad deal or risk being unable to predict every eventuality. Neimoidians want to appear cunning and as if they are the intellectual masters of every situation they encounter, but they typically are just conniving and devious. </p><p>Neimoidians hate manual labor and physical activity, viewing such actions as tasks for underlings. They are very fond of mechanical equipment that does work for them and they are enthralled by labor-saving devices of all kinds. Droids are especially popular among Neimoidians. </p><p><b>Physical Description:</b> Neimoidians are slight of build and stand between 1.6 and 2 meters in height. They are hairless, with large red eyes and wide, lipless mouths. Their skin is usually bluish gray, but it can range in tone from very pale to almost black. Neimoidians favor expensive clothing and are always seen in public wearing whatever symbols of office or rank they possess. </p><p><b>Age Groups:</b> Neimoidians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-40 Years </td> \n   <td>41-57 Years </td> \n   <td>58-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Neimoidians hail from a cluster of planets in the far reaches of The Colonies; the humid world of Neimoidia is their main home. </p><p><b>Languages:</b> Neimoidians speak, read, and write their language known as Neimoidian, as well as Basic and Durese. </p><p><b>Example Names:</b> Daultay Dofine, Hath Monchar, Jurnel Arrant, Kund Ekorr, Lott Dod, Lufa Danak, Nute Gunray, Rune Haako, Tey How. </p><p><b>Adventurers:</b> Prior to the rise of the Empire, Neimoidian adventurers tend to be political leaders or merchants who have fallen on hard times and struggle to regain their former status by working as blackmailers or informants. In later eras, Neimoidian adventurers are dedicated professionals who work in a range of occupations requiring the underhanded double-dealings at which they excel, such as trade negotiator, diplomat, debt collector, private investigator, and corporate spy. Regardless of occupation, Neimoidian adventurers are usually Nobles or Scoundrels. </p><h3>Neimoidian Species Traits</h3><p>Neimoidians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Persuasion))",
+        "description": ""
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Deception))",
+        "description": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TwEvC4qxxJD2xI9Z",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

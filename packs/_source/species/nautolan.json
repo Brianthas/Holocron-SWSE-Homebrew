@@ -1,0 +1,52 @@
+{
+  "_id": "fXtTCRnD8UC2Ft3z",
+  "_key": "!items!fXtTCRnD8UC2Ft3z",
+  "name": "Nautolan",
+  "type": "species",
+  "system": {
+    "description": "<p> Nautolans are one of the sentient Species native to the planet Glee Anselm. Their language, Nautila, evolved underwater and is heavily tied to pheromones. Out of water, Nautila loses much of its meaning. As a result, Nautolans learn another language, typically either Basic or Anselmian, the language of the <span class=\"new\" title=\"Anselmi (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQW5zZWxtaT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Anselmi</span> people, who are native to Glee Anselm's land masses.</p><p>Even though they are aquatic, Nautolans have little difficulty living in climates that would be uncomfortable for other amphibians. They are a hardy Species, due in part to the extra cartilage that supports their skeletal structures. Given their aquatic origins, they are excellent swimmers. </p><h3>Nautolan Characteristics</h3><p><b>Personality:</b> Nautolans are loyal and steadfast companions. They wear their moods on their proverbial sleeves, expressing both joy and despair with equal zeal. Though polite and civilized under most circumstances, Nautolans tend to reflect the moods of others around them. The tendrils on their heads sense the pheromones released by others. This can inadvertently affect a Nautolan's disposition- for better or for worse. Despite their peaceful nature, Nautolans are not above defending themselves. </p><p><b>Physical Description:</b> Nautolans have thick green skin that is covered in dark, mottled spots. Their large, black eyes allow them to see well in dim light. Each Nautolan's head is crowned by long, tentaclelike tendrils, which the Nautolan decorates with leather bands, metal rings, or beaded ties. </p><p><b>Age Groups:</b> Nautolans age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-40 Years </td> \n   <td>41-54 Years </td> \n   <td>55-69 Years </td> \n   <td>70+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The oceanic world of Glee Anselm, located in The Mid Rim. </p><p><b>Languages:</b> Nautolans speak their native language of Nautila, an underwater language reliant on pheromones as much as sound. Out of water, most Nautolans speak Basic or Anselmian. </p><p><b>Example Names:</b> Hiskar Dorset, Kit Fisto, Ploss Niklos, Renko Losa, Pin Mako, Setel Yast. </p><p><b>Adventurers:</b> Nautolans crave adventure and are as likely to be Nobles or Scoundrels as they are to be Scouts or Soldiers. There have also been several notable Nautolan Jedi. </p><h3>Nautolan Species Traits</h3><p>Nautolans share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Breathe Underwater",
+        "description": "<p>Beings can't drown in water.</p>"
+      },
+      {
+        "name": "Damage Reduction 2",
+        "description": "<p>Beings gain a Species bonus of Damage Reduction 2.</p>"
+      },
+      {
+        "name": "Expert Swimmer",
+        "description": "<p>A being may choose to reroll any&nbsp;Swim&nbsp;check, but the result of the reroll must be accepted, even if it is worse. In addition, a being may choose to&nbsp;Take 10&nbsp;on&nbsp;Swim&nbsp;checks, even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Swimming",
+        "description": "<p>Beings possess an inherent Swim speed.</p>"
+      },
+      {
+        "name": "Pheromonal Sensor",
+        "description": "<p>A being can reroll any Perception check made to Sense Deception or Sense Influence, but the result of the reroll must be accepted, even if it is worse.</p>"
+      },
+      {
+        "name": "Swim Speed (4)",
+        "description": "A being has a swim speed of #payload#."
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "6yGu5JL3nvHg7wgw",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

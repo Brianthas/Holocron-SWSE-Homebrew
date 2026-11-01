@@ -1,0 +1,36 @@
+{
+  "_id": "OdCAvzOxMH4dl3K2",
+  "_key": "!items!OdCAvzOxMH4dl3K2",
+  "name": "Gotal",
+  "type": "species",
+  "system": {
+    "description": "<p> Gotals are tall beings covered in thick fur that come from the moon <span class=\"new\" title=\"Antar 4 (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQW50YXJfND9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Antar 4</span>, one of several that orbit the gas giant <span class=\"new\" title=\"Antar (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQW50YXI/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Antar</span> in the Prindaar System. The moon has a highly unusual cycle of light and dark, sometimes illuminated brightly and other times shrouded in complete darkness. To compensate for these uncertain conditions, Gotals evolved special cones atop their heads that sense subtle shifts in the electromagnetic field, allowing them to operate in light or dark without hindrance. The cones are sensitive enough to sense not only the presence of living creatures nearby but also a creature's mood or intent.</p><p>Emotions are an important part of Gotal culture. Young Gotals live in a constant state of confusion as they are bombarded by the emotions of others. Learning to handle this input is what pushes a Gotal toward adulthood and maturity. Adult Gotals are calm, almost serene beings, but despite their outward appearance, they feel the full breadth of emotions. Because they are so sensitive to emotions, Gotals quickly form meaningful relationships with one another. Gotals prefer to be around their own kind and dislike Droids, mainly because the electromagnetic fields produced by Droids cause an irritating buzz perceptible to the Gotals' heightened senses. </p><p>Gotals learned long ago to keep their opinions to themselves, and thus they make excellent negotiators and diplomats. Some individuals, however, use their natural abilities for nefarious purposes and become assassins or bounty hunters, tracking their prey by the emotional trail it broadcasts. Most Species appreciate the self-discipline that Gotals exhibit, but some are hesitant to associate with members of the Species for fear of having their private passions and motivations revealed. </p><h3>Gotal Characteristics</h3><p><b>Personality:</b> Because they can read the emotions of other beings, Gotals have learned to be extremely polite and discreet with the information that they glean. They keep their own emotions to themselves and speak to others in neutral terms to maintain civility. Indeed, Gotals are incapable of expressing emotions in words, relying on their cones to communicate their feelings to other Gotals. As a result, Gotals speak only in abstract terms, leading most other sentients to think they are emotionless beings. </p><p><b>Physical Description:</b> Gotals are tall creatures with flat, elongated faces. Thick, wiry hair covers most of their bodies. A Gotal's most notable feature is a pair of short cones that rises from his or her forehead. These cones pick up subtle variations in the electromagnetic fields of other beings, providing the Gotal with the locations and emotional states of the other creatures. </p><p><b>Age Groups:</b>&nbsp;Gotals age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-12 Years </td> \n   <td>13-40 Years </td> \n   <td>41-60 Years </td> \n   <td>61-75 Years </td> \n   <td>76+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Gotals come from the moon <span class=\"new\" title=\"Antar 4 (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQW50YXJfND9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Antar 4</span>, located in orbit around <span class=\"new\" title=\"Antar (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQW50YXI/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Antar</span> in The Inner Rim. </p><p><b>Languages:</b> Gotals speak Basic and Gotal. However, the form of Basic they speak is devoid of emotional context. The Gotal language is impossible for other Species to learn, because so much of it relies on feedback relayed through their head cones. </p><p><b>Example Names:</b> Abav Ghart, Glott, Kith Kark, Lishma, Mnor Nha, Pari Notgoth, Tolokai, To-yel. </p><p><b>Adventurers:</b> Because Gotals can sense emotions, most adventuring members of the Species become Nobles, but some take advantage of their abilities and become Scoundrels. When Gotals become Scouts, they usually do so to escape the constant electromagnetic buzzing they experience when in close company with other Species. Force-users are relatively common, and many Gotals become Jedi, combining their natural empathy with The Force to great effect. </p><h3>Gotal Species Traits</h3><p>Gotals share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Energy Reading",
+        "description": "<p>Beings can read the emotions of any sentient being within 6 squares. As a&nbsp;Standard Action, a being can make a&nbsp;Perception&nbsp;check against a target's&nbsp;Will Defense. A successful check reveals the target's emotional state (such as happy, sad, nervous, or scared).</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Sensor Cones",
+        "description": "<p>A being can use the Sense Force and Sense Surroundings applications of the Use the Force skill Untrained.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2A2VEkXYMvv7mUjH",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

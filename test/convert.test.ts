@@ -55,6 +55,10 @@ describe("converter descriptions", () => {
     expect(cleaned.html).toBe("<p>Official text.</p><h2>Species Traits</h2><p>Official traits.</p>");
     expect(cleaned.removedSections).toEqual(["Homebrew Long Haft Strike Data"]);
   });
+  it("drop a fan section carrying the tested notice, whose wording a link splits", () => {
+    const page = '<p>Official.</p><h2>Homebrew Zeltron Species Feats</h2><p>This Homebrew Content has been Tested per the <a href="x">Untested</a> guidelines.</p><p>Fan feats.</p>';
+    expect(cleanDescription(page).html).toBe("<p>Official.</p>");
+  });
   it("keep a Homebrew heading without the review notice, and report it", () => {
     const cleaned = cleanDescription("<h2>Homebrew Notes</h2><p>Kept.</p>");
     expect(cleaned.html).toBe("<h2>Homebrew Notes</h2><p>Kept.</p>");

@@ -1,0 +1,44 @@
+{
+  "_id": "7L7bZeshlq0pK4BM",
+  "_key": "!items!7L7bZeshlq0pK4BM",
+  "name": "Jawa",
+  "type": "species",
+  "system": {
+    "description": "<p> Jawas are short humanoids native to Tatooine. The Jawas have a poor reputation and are regarded as thieves at best, vermin at worst. Their off-putting nature is made worse by the sour smell that clings to them and their inexplicable and nonsensical language. Jawas survive by scavenging lost technology in the desert wastes. \"Lost\" for Jawas is ambiguous; they are likely to snatch up anything that's not bolted down. Moisture farmers and others who live far from Spaceports regularly find that their belongings have vanished in the night with only tell-tale Jawa tracks leading off into the wasteland.</p><p>Jawas are intelligent and have a complex society. Gathering in extended tribes, Jawa life revolves around trade- not for wealth, but for survival. Jawas look for guidance from their shamans, usually a female Jawa with the ability to portent the future and cast vicious hexes. Once a year, the Jawa tribes gather in the Dune Sea to exchange sons and daughters, to swap stories and news, and to mingle among their own kind. </p><h3>Jawa Characteristics</h3><p><b>Personality:</b> Jawas are peaceful, preferring flight to confrontations. They are, however, extremely cunning and capable of great treachery if given cause. A fleeing Jawa seeks out its allies and comes back in numbers to deal with threats. Even then, Jawas rarely confront their enemies directly, preferring to sabotage or steal vital equipment and let the desert do the nasty work for them. A Jawa can become fierce- even vicious- when cornered or when a shaman is threatened. </p><p><b>Physical Description:</b> Jawas wear brown hooded cloaks to protect themselves from the oppressive heat of the twin suns of Tatooine. They dip their clothing in a rancid soup to better seal in their moisture. This gives them their infamously unpleasant odor. Jawas have sensitive, glowing orange eyes and are easily blinded by bright light. Beneath their coverings, Jawas are slight rodent creatures with tiny hands and feet. </p><p><b>Age Groups:</b> Jawas age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-39 Years </td> \n   <td>40-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Jawas are found almost exclusively on the desert world of Tatooine, in The Outer Rim. </p><p><b>Languages:</b> The Jawa tongue is a complex language that involves as much gesture and smells as it does sounds. Lacking the organs to form words in Basic, and confronted with the fact that other Species cannot speak Jawa, they developed a shorthand speech called the Jawa Trade Language. It essentially simplifies their tongue to aid trading between themselves and non-Jawas. </p><p><b>Example Names:</b> Akkit, Het, Oklect, Klepti, Tikkit, Tteel. </p><p><b>Adventurers:</b> Family is the heart of Jawa society and as such, they are loath to leave their extended tribal groups. A lone Jawa likely has been driven out of their tribe, or they might be a lone survivor of an attack by Tusken Raiders or other desert denizens. </p><h3>Jawa Species Traits</h3><p>Jawas share the following Species Traits: </p>",
+    "size": "small",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Tinkerer",
+        "description": "<p>A being can choose to reroll any Mechanics check, but must keep the second result, even if it is worse. In addition, Mechanics is always a Class Skill for beings.</p>"
+      },
+      {
+        "name": "Darkvision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(including&nbsp;Total Concealment) from darkness. However, they cannot perceive colors in total darkness.</p>"
+      },
+      {
+        "name": "Desert Dweller",
+        "description": "<p>When making Survival checks to resist the effects of Extreme Heat, beings can reroll the check, keeping the better of the two results.</p>"
+      },
+      {
+        "name": "Scavenger",
+        "description": "<p>Whenever a being armed with an Ion weapon successfully damages a Droid or Vehicle, the being adds half their Character Level in Ion damage.</p>"
+      },
+      {
+        "name": "Bonus Class Skill (Mechanics)",
+        "description": "<p>A particular Skill is always a Class Skill for beings.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "CtAQG1MJ8JWMeBjC",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

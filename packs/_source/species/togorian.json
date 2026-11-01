@@ -1,0 +1,36 @@
+{
+  "_id": "XERt5RJVpezsrz13",
+  "_key": "!items!XERt5RJVpezsrz13",
+  "name": "Togorian",
+  "type": "species",
+  "system": {
+    "description": "<p> Togorians are predatory, aggressive nomads and fearless warriors. In the days of the Republic, Togorian pirate fleets were a known menace. The Republic was unsuccessful in quelling this threat, but the new Empire has the drive and the firepower to crush the fleets. During The Dark Times, pirate fleet survivors are likely to seek their fortunes aboard non-Togorian ships and in non-Togorian organizations.</p><p>Togorians in a group are led by the largest, most aggressive, and most ruthless individual among them. They have little honor, but prefer fights against other Togorians to be face-to-face combat. Males and females have little contact with each other. The males are nomadic, often using domesticated <span class=\"new\" title=\"Mosgoth (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTW9zZ290aD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Mosgoth</span> as mounts. The females live in the cities, tending animals and seeing to the Togorians' limited technological pursuits. </p><h3>Togorian Characteristics</h3><p><b>Personality:</b> Togorian males respect strength above everything else. To that end, they often seek to prove themselves in melee combat against worthy opponents, especially members of other powerful Species. Other Species mistrust Togorians, for they are treacherous, foul, and temperamental. Togorian females are equally aggressive and vicious, but are much less likely to leave their homeworld. </p><p><b>Physical Description:</b> Togorians are muscular, stand on legs with two knees, and have retractable, razor-sharp claws. Their piercing jade eyes provide them with excellent vision, even in low light conditions. A Togorian's thick fur is normally jet black or black with orange stripes. </p><p><b>Age Groups:</b> Togorians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-44 Years </td> \n   <td>45-64 Years </td> \n   <td>65-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The temperate world of <span class=\"new\" title=\"Togoria (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVG9nb3JpYT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Togoria</span>, featuring isolated cities among vast savannas, deep canyons and great, deep forests. </p><p><b>Languages:</b> Togorians learn their own language of Togorian, as well as the standard tongue of Basic. </p><p><b>Example Names:</b> Dankin, Dh'rang, H'sishi, Keta, Mezgraf, Mrrov, Muuurgh, Qrrulla, Rowv, Ruukas, Sarrah, Seendar. </p><p><b>Adventurers:</b> Togorians in the galaxy at large are often pirates, outcasts, or exiles. They naturally find their way to criminal enterprises, serving as hired muscle or in other brutal pursuits. They prefer to create their own pirate bands, and they scheme to take over any band they do not lead. Togorian heroes are usually Soldiers or Scoundrels. They have little aptitude for technology. The few Togorian Force-users are rarely trustworthy and likely to fall to The Dark Side in short order. </p><h3>Togorian Species Traits</h3><p>Togorians share the following Species Traits: </p>",
+    "size": "large",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Feline Reflexes",
+        "description": "<p>Beings gain a +1 Species bonus to their Reflex Defense.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Physically Intimidating",
+        "description": "<p>Beings use their&nbsp;Strength&nbsp;modifier instead of their&nbsp;Charisma&nbsp;modifier for&nbsp;Persuasion&nbsp;checks made to&nbsp;Intimidate&nbsp;others.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3sXn1qDbwW7Lrli2",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

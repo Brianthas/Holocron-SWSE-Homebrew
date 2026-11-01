@@ -1,0 +1,32 @@
+{
+  "_id": "x9y1wv6N9w6rh6ni",
+  "_key": "!items!x9y1wv6N9w6rh6ni",
+  "name": "O'reenian",
+  "type": "species",
+  "system": {
+    "description": "<p> O'reenians are a Species of Near-Humans with a striking similarity to baseline Humans, with the prominent differences being their orange-hued skin and their pitch-black irises. The militaristic outlook of their society is similar to that of the Chiss, although unlike that Species, the O'reenians are not averse to striking without provocation if doing so might gain them a tactical advantage.</p><p>The people of O'reen take the defense of their world very seriously. Despite this fact, there are many strange and powerful races throughout The Unknown Regions that have technology that is unfamiliar to the O'reenians, making it difficult for them to sense threats from the outside until it is too late. As a result, the O'reenians have created a network of Orbital Defense Mines that detect, move toward, and attack any Starship approaching O'reen without proper transponder identifiers. </p><h3>O'reenian Characteristics</h3><p><b>Personality:</b> O'reenians are divided into several distinct castes based upon&nbsp;military service. O'reenians who serve in the military for six or more&nbsp;years&nbsp;are granted the rights and privileges of citizenship, while those who do not are relegated to menial occupations of the sort generally carried out by&nbsp;Droids&nbsp;on worlds more technologically advanced than O'reen. </p><p><b>Physical Description:</b> O'reenian posses a&nbsp;humanoid&nbsp;body, with two&nbsp;arms&nbsp;with five-fingered hands, two legs, and a head; likewise, their faces feature two&nbsp;eyes, two eyebrows, a&nbsp;nose, two&nbsp;ears, and a&nbsp;mouth.&nbsp;The major distinctions between O'reenians and Humans are the O'reenians'&nbsp;orange-tinted skin and black eyes. O'reenians tend to have dark-brown hair. </p><p><b>Age Groups:</b> O'reenians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-45 Years </td> \n   <td>46-64 Years </td> \n   <td>65-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> O'reenians hail from the forgotten colony world of O'reen, a temperate planet filled with natural resources under the strict control of the Magnus. </p><p><b>Languages:</b> The O'reenian's native tongue is based on a very old dialect of Bocce, and it shares enough commonality with that language that characters fluent in Bocce can decipher most of what an O'reenian says. </p><p><b>Example Names:</b> Maximus, Magnus, Janus, Vesta, Felicitas. </p><p><b>Adventurers:</b> Given the insular nature of O'reen society, few of its members are likely to leave and wander the galaxy, although outcasts are forced into exile from time to time. Most O'reenian Heroic characters should have at least one or two levels in the Soldier class to reflect their military upbringing. </p><h3>O'reenian Species Traits</h3><p>O'reenians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Heightened Awareness",
+        "description": "<p>A being can choose to reroll any&nbsp;Perception&nbsp;check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      },
+      {
+        "name": "Persistent",
+        "description": "<p>A being can reroll any&nbsp;Endurance&nbsp;check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "n4hSZh0NfQ9LKiIx",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

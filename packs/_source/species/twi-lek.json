@@ -1,0 +1,36 @@
+{
+  "_id": "nvh6Vd8QOYxCTsuq",
+  "_key": "!items!nvh6Vd8QOYxCTsuq",
+  "name": "Twi'lek",
+  "type": "species",
+  "system": {
+    "description": "<p>From the dry, rocky world of Ryloth, Twi'leks have made a place for themselves along the Galaxy. These tall, thin humanoids include a variety of distinct subraces, but all are instantly recognizable by the tentacular \"Head-Tails\" (called <i>Lekku</i>) that protrude from the backs of their heads.</p><p>Sly, calculating beings, Twi'leks prefer to avoid trouble and stick to the shadows until an opportunity to act without undue danger to themselves presents itself. Their entrepreneurial spirit frequently leads them to positions of influence, and Twi'lek corporate executives and ambassadors are no less common than unscrupulous Twi'lek freighter captains and crime lords. </p><h3>Twi'lek Characteristics</h3><p><b>Personality:</b> Twi'leks are calculating, pragmatic, and charismatic people. Generally, they try to avoid being swept up in open conflict, preferring instead to duck into the shadows where they can observe, plan, and prepare to profit from the outcome. </p><p><b>Physical Description:</b> Twi'leks are humanoids with long head-tails. The average Twi'lek stands between 1.6 and 2 meters tall, with skin tones ranging between white, green, blue, red, and orange, as well as a variety of others. </p><p><b>Age Groups:</b> Twi'leks age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-15 Years </td> \n   <td>16-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The rocky world of Ryloth. </p><p><b>Languages:</b> Twi'leks speak, read, and write Ryl and Basic. They can also communicate with one another using their <i>Lekku</i> (a form of sign language). Many others also learn Huttese. </p><p><b>Example Names:</b> Bib Fortuna, Deel Surool, Firith Olan, Koyi Komad, Lyn Me, Oola, Tott Doneeta. </p><p><b>Adventurers:</b> Twi'lek adventures generally prefer to work behind the scenes as Scoundrels, letting others stand in the full light of day. Many wind up in businesses (whether legal or illegal), performing as entertainers, or even serving as diplomats as Nobles. </p><h3>Twi'lek Species Traits</h3><p>Twi'leks share the following Species Traits: </p><h2>Additional Twi'lek Species Feats</h2><p>Twi'lek characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Imperceptible Liar </td> \n   <td> </td> \n   <td>Increase the die type when adding Force Points to a Deception check. </td>\n  </tr> \n  <tr> \n   <td>Jedi Heritage </td> \n   <td> </td> \n   <td>Gain extra Force Powers when you take the Force Training Feat. </td>\n  </tr> \n  <tr> \n   <td>Survivor of Ryloth </td> \n   <td> </td> \n   <td>Make Survival checks to resist Extreme Heat and Extreme Cold. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Great Fortitude",
+        "description": "<p>Beings gain a +2&nbsp;Species&nbsp;bonus to their&nbsp;Fortitude Defense.</p>"
+      },
+      {
+        "name": "Deceptive",
+        "description": "<p>A being may reroll any&nbsp;Deception&nbsp;check, but must accept the result of the reroll, even if it is worse.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "eK8droVDqq8NLPHW",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

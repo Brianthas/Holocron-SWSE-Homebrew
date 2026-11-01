@@ -21,6 +21,9 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
   left out: 22 whole talent trees (e.g. Midi-chlorian, Jumptrooper, Mistryl Shadow Guard), 17
   feats, 43 species, 3 affiliations. tovec's rules are not Homebrew Content and are never labelled
   as homebrew.
+- **Killik size** (Bryan, 2026-11-01): Small, Medium or Large, chosen at character creation, with
+  that size's adjustments from the species table (episode-vii, Species). The Killik's own size table
+  (Tiny to Gargantuan) and ability adjustments are not used.
 - **Denied species stay in the packs** (the Species Rarity page's Denied list), in case the GM
   allows one. Felucian Shamans stays a tradition for the same reason.
 - **Shield Expansion Module** (droid system) is left out: no personal shields.

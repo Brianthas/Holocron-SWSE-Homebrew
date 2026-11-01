@@ -1,0 +1,32 @@
+{
+  "_id": "33ckpaCQ0kpm5Qba",
+  "_key": "!items!33ckpaCQ0kpm5Qba",
+  "name": "Miraluka",
+  "type": "species",
+  "system": {
+    "description": "<p>Miraluka are remarkably similar to Humans, except for two important and distinctive differences. Miraluka have no eyes, but they have a natural ability to \"see\" by using The Force. Since they appear Human- including their speech and mannerisms- Miraluka attempt to blend with Humans when traveling throughout the galaxy. </p><p>Thus, estimating how often they travel or how many live off their home planet of Alpheridies is difficult, but the number is relativity low. To make matters worse, the Sith Lord Darth Nihilus consumed the colony of <span class=\"new\" title=\"Katarr (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvS2F0YXJyP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Katarr</span> after The Jedi Civil War. Currently, no major centers of Miraluka life exist outside of their homeworld and colonies, though individuals might be encountered anywhere in the galaxy. </p><p>It is highly unusual for an entire sapient Species to be Force-sensitive. Given their connection to The Force, it is common for Miraluka to join The Jedi Order. In fact, several Miraluka became central figures in shaping the Jedi traditions after The Jedi Civil War. The strength of a Miraluka's connection to The Force varies by individual. Miraluka who are not powerful enough to become full-fledged Jedi serve the Order in supporting roles. Most live lives similar to that of a normal Human. </p><p>Miraluka and Humans tend not to intermarry, given the unpredictable and often unhappy genetic results. A rare exception is Krynda, daughter of a Miraluka father and a Human mother. She was born with both Force Sight and functioning Human eyes. </p><h3>Miraluka Characteristics</h3><p><b>Personality:</b> Miraluka are a thoughtful, cautious, and deliberate Species. They have little interest in personal gain or glory. Some have a strong desire to follow their own path, due to their connection to The Force. They remain committed once a course of action is selected. </p><p><b>Physical Description:</b> Miraluka are similar to Humans. They cover their featureless eye sockets with cloth or visors, especially when training. </p><p><b>Age Groups:</b> Miraluka age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-15 Years </td> \n   <td>16-44 Years </td> \n   <td>45-69 Years </td> \n   <td>70-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The terrestrial world of Alpheridies in the Abron System, in The Expansion Region. </p><p><b>Languages:</b> Miraluka speak Miralukese and Basic. They can read and write by \"Seeing\" through The Force. </p><p><b>Example Names:</b> Damaya Guru, Embrul Joff, Jerec, Q'Anilia, Shoaneb Culu, Visas Marr, Zebron Tadro. </p><p><b>Adventurers:</b> Miraluka adventurers are almost always Force-sensitive. They can be of any Class, but are often Jedi. </p><h3>Miraluka Species Traits</h3><p>Miraluka share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Force Sight",
+        "description": "<p>Beings can \"see\" by using The Force. They act normally, without taking any penalties for blindness when in the presence of living creatures, or life of any kind. This trait enables them to make Perception checks, and read and write as a sighted person.</p><p>Beings can ignore the effect of darkness as if they had Darkvision. Beings cannot, however, detect creatures that are \"invisible\" to The Force such as the Yuuzhan Vong and the Ysalamiri. These creatures have Total Concealment from beings, as do creatures in areas the dampen or suppress The Force.</p><p>Additionally, beings ignore all penalties to Perception checks from Cover and Concealment (but not Total Cover or Total Concealment). Beings do not increase the DC of Use the Force checks made to Sense Surroundings against targets with Total Cover.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Force Training)",
+        "description": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "5L91IPHPxr4803ZG",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

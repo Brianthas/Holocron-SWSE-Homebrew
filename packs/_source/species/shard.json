@@ -1,0 +1,36 @@
+{
+  "_id": "JQvW9mEgbdOWg0Iz",
+  "_key": "!items!JQvW9mEgbdOWg0Iz",
+  "name": "Shard",
+  "type": "species",
+  "system": {
+    "description": "<p>Shards are crystalline beings native to the planet <span class=\"new\" title=\"Orax (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvT3JheD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Orax</span>. Although immobile and silicone-based, Shards are sentient and can communicate with others through computers and other electronic receivers. Some Shards, like The Iron Knights, have themselves placed inside Droid Bodies that they can manipulate telepathically. Many, if not all, Shards are Force-sensitive. </p><p>Shards in Droid Bodies, disconnected from their group-mind, became insatiably curious, and almost intoxicated by the new sensory experiences. Individual Shards began understanding the ideas of limited time, thinking and acting much faster than their counterparts in the group-minds. Some of the Shards remaining on <span class=\"new\" title=\"Orax (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvT3JheD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Orax</span> regarded this as a corruption of their traditional culture, while others welcomed the knowledge gained from Shards who eventually returned to their colonies. </p><h3>Shard&nbsp;Characteristics</h3><p><b>Personality:</b> Shards are patient, spending all of their time in slow, contemplative thought. Political decisions are made by mutual consensus, which sometimes takes centuries to reach. </p><p><b>Physical Description:</b> In their natural state, Shards&nbsp;take the form of irregularly faceted cylindrical crystals, thirty to forty centimeters in length. Faint pulses of light- thought signals propagating through their \"Brains\"- can be seen inside their bodies. Shards were immobile in their natural state, but could be installed in specially modified&nbsp;droids. Most Shards that venture out into the galaxy install themselves into a Droid body. </p><p><b>Age Groups:</b> As inorganic beings, Shards are not affected by the process of Aging. </p><p><b>Homeworld:</b> The awe-inspiring crystalline world of <span class=\"new\" title=\"Orax (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvT3JheD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Orax</span>, located in The Outer Rim. </p><p><b>Language:</b> Shards are able to telepathically communicate with other Shards without a need for language. Shards that enter Droid Bodies become learned in Binary, and most Shards that interact with non-Shards tend to learn Basic. </p><p><b>Example Names:</b> Firkrann, Ilum, Luxum. </p><p><b>Adventurers:</b> The vast majority of Shards that leave <span class=\"new\" title=\"Orax (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvT3JheD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Orax</span> join The Iron Knights as Jedi or Force Prodigies, although Shards of other Heroic Classes aren't unheard of. </p><h3>Shard&nbsp;Species Traits</h3><p>Shards share the following Species Traits, assuming that the Shard is implanted in a humanoid Droid Body (adjust these traits if the Shard's Droid Body is significantly different than the base humanoid Droid frame): </p><ul>\n <li><b>Automatic Languages:</b> All Shards can speak, read, and write both Basic and Binary. Shards can communicate with other creatures only when connected to a computer or a Vocabulator.</li>\n</ul>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Bonus Trained Skill (Use Computer)",
+        "description": "<p>A being chooses one additional Trained Skill at 1st level. The Skill must be chosen from the character's list of Class Skills.</p>"
+      },
+      {
+        "name": "Droid Shell",
+        "description": "<p>Beings must inhabit Droid Bodies to travel and function in the galaxy at large. In this form, they gain the following traits:</p><ul>\n <li>Beings must undergo Maintenance, as per a Droid.</li>\n <li>Beings are immune to Poison, Radiation, noncorrosive Atmospheric Hazards, and Vacuum. They can regain Hit Points only through the Repair Droid application of the Mechanics skill. They do not benefit from Natural Healing, unless they have the <b>Force Repair</b> Talent.</li>\n <li>Beings are considered cybernetic creatures for the purposes of Ion Damage.</li>\n <li>Beings can make use of Droid systems and accessories, subject to some limitations. Beings can have the following Droid Systems, with a Cost Modifier of x1: \n  <ul>\n   <li>Appendages</li>\n   <li>Droid Armor</li>\n   <li>Communications Systems</li>\n   <li>Compartment Space</li>\n   <li>Sensor Systems</li>\n   <li>Translator Units</li>\n  </ul></li>\n</ul>"
+      },
+      {
+        "name": "Bonus Trained Skill",
+        "description": "<p>A being chooses one additional Trained Skill at 1st level. The Skill must be chosen from the character's list of Class Skills.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "IvsLjxNoUbKCsOBx",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

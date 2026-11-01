@@ -1,0 +1,44 @@
+{
+  "_id": "9xjOm1XZkigdplSo",
+  "_key": "!items!9xjOm1XZkigdplSo",
+  "name": "Massassi",
+  "type": "species",
+  "system": {
+    "description": "<p>The Massassi and Kissai are two subspecies of the original Sith race of Korriban. The Massassi are ferocious, selfless soldiers led by the great Sith Lords. When the Sith Empire goes to war with the Republic for the first time, the Massassi fill the ranks of the Sith armies and starfleets. </p><p> The Massassi are fearsome, ruthless, and efficient soldiers. They use traditional Sith weapons and armor- primarily the Massassi Lanvarok and alchemically hardened armor. They also prefer to simple martial weapons. In addition to their focus on war and fighting, the Massassi are also loyal and organized. Even though they are not extremely intelligent, they can be trained well enough to carry out complex battle plans and maintain their Starships, equipment, and weaponry.</p><p>A thousand years after Sadow and the Massassi arrive on Yavin 4, Exar Kun discovers the ancient Sith secrets in the temples. He uses the Massassi to fight the Jedi across the galaxy. Eventually, Kun consumes the life force of every Massassi on Yavin 4 in his transformation into a Dark Side Spirit. A few Massassi are taken offworld prior to Kun's final decimation of their society. Some remain loyal and find their way back to the new Sith Empire, but a few resentful individuals drift into the darker fringes of society, looking to live their own lives or seeking revenge against the Sith. </p><h3>Massassi Characteristics</h3><p><b>Personality:</b> Massassi are fearsome, loyal, and formidable fighters. They live to serve their Sith masters. On their own, Massassi dedicate themselves strongly to whatever life they choose. </p><p><b>Physical Description:</b> Massassi have glowing yellow eyes and crimson hides. They are humanoid with distinctly sharp, predatory features. The Massassi are large, hulking beings who appear brutish- a trait that disguises their intelligence. </p><p><b>Age Groups:</b> Massassi age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-13 Years </td> \n   <td>14-25 Years </td> \n   <td>26-35 Years </td> \n   <td>36-50 Years </td> \n   <td>51+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The ancient Sith world of Korriban, resettled later to Ziost. </p><p><b>Languages:</b> Massassi speak and understand the ancient language of the Sith (but cannot read or write without a sufficient Intelligence score). </p><p><b>Example Names:</b> Drophan, Kalgrath, Uburluh, Zythmnr. </p><p><b>Adventurers:</b> Massassi adventurers are rare in the Republic, even during the fall of The Sith Empire. Most beings in the galaxy would not recognize a Massassi at first glance, though their unique appearance tends to draws attention to themselves. Massassi do not become Jedi during The Old Republic Era, and instead most adventurous Massassi become Soldiers or Scouts. </p><h3>Massassi Species Traits</h3><p>Massassi share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Primitive",
+        "description": "<p>Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.</p>"
+      },
+      {
+        "name": "Warrior's Awareness",
+        "description": "<p>Once per encounter as a Reaction, a being can gain the benefit of the <b>Uncanny Dodge I</b> and <b>Uncanny Dodge II</b> Talents until the beginning of the being's next turn.</p>"
+      },
+      {
+        "name": "Duty Bound",
+        "description": "<p>Once per encounter when a being receives a morale bonus of any kind from any source, the being gains Bonus Hit Points equal to 4 x the being's Character Level until the end of the encounter.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Survival))",
+        "description": ""
+      },
+      {
+        "name": "Weapon Familiarity (Massassi Lanvarok:Simple Ranged Weapons)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "TUwLH59ZMToA9oyB",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

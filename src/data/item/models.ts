@@ -27,6 +27,10 @@ function speciesSchema() {
   return {
     description: new fields.HTMLField(),
     size: new fields.StringField({ required: true, blank: false, initial: "medium", choices: [...SIZES] }),
+    /** Sizes a character of this species picks from at creation (Killik); empty for a fixed size. */
+    sizeChoices: new fields.ArrayField(new fields.StringField({ required: true, blank: false, choices: [...SIZES] })),
+    /** From the species rarity page: common, rare or denied; blank for a species it does not list. */
+    rarity: new fields.StringField({ required: true, blank: true, initial: "", choices: ["common", "rare", "denied"] }),
     /** Droids have CON, heal as organics and are immune to Stun (episode-vii, Droids). */
     droid: new fields.BooleanField({ initial: false }),
     /** The species' traits as text; their mechanics are effects on the species item. */

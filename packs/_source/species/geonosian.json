@@ -1,0 +1,44 @@
+{
+  "_id": "7dBcTk2kjaa40g7u",
+  "_key": "!items!7dBcTk2kjaa40g7u",
+  "name": "Geonosian",
+  "type": "species",
+  "system": {
+    "description": "<p>The Geonosians are a caste-dominated Species from the world of Geonosis, in the system of the same name. They dwell in a spectacular architectural realm carved from the soaring, rocky spires that dot the planet's landscape. They are somewhat resistant to the Radiation that occasionally showers their world, though Geonosians actually live underground to escape that phenomenon. </p><p>Geonosians are born into specific castes divided along the lines of their physical attributes, and though most Geonosians are content to remain within their caste until they die, some develop ambition. The life of a low-ranking Geonosian Worker is ordinarily one of ongoing toil, laboring to fulfill the whims of a Geonosian Aristocracy that sometimes makes spectacular demands. The society allows Geonosians from lower castes to escape from the drudgery through gladiatorial combat. </p><p>Geonosians relish battle and public executions. Anyone the Geonosians capture is sent to the arena, to provide amusement for the masses. There, the hapless individual either faces some savage beast or fights to the death against another sentient being. A Geonosian from a low caste who volunteers for these battles can, if they survive, achieve some measure of status by distinguishing themselves in the arena- if only in the form of fame, fortune, and the right to be recognized by Aristocrats (though still not treated quite as equal). Most who survive long enough to amass any real wealth or prestige use it to buy their way off Geonosis, never to return. </p><p>Despite their proximity to the Corellian Run trade route, Geonosians receive few visitors. They might get none at all if their Droid factories weren't among the finest and most productive in the galaxy. </p><h3>Geonosian Characteristics</h3><p><b>Personality:</b> Geonosians tend to be contemptuous of other Species, although the lucky few who escape the toil of their caste-driven society quickly learn to be more tolerant. Geonosian Aristocrats are manipulative, domineering, and ambitious. They constantly strive to improve their standing and holdings while conspiring to eliminate or ruin their rivals. Geonosian Warriors are highly competitive and eager to prove themselves. </p><p><b>Physical Description:</b> Geonosians come in two varieties: Aristocrats (Leaders) and Warriors (Drones). Both varieties are physically strong and covered with bony ridges that protect arms, legs, and vital organs. They walk on two legs, and most Geonosians have rapidly fluttering wings sprouting from their bony shoulder blades. They stand 1.6 to 1.8 meters tall. </p><p><b>Age Groups:</b> Geonosians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-10 Years </td> \n   <td>11-35 Years </td> \n   <td>36-50 Years </td> \n   <td>51-64 Years </td> \n   <td>65+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Geonosis, a rocky world in The Outer Rim that is periodically bombarded by Radiation showers. Geonosis has its own asteroid ring, believed to be the remains of two collided moons. </p><p><b>Languages:</b> Geonosians speak Geonosian, an articulate language of clicks and whistles. </p><p><b>Example Names:</b> Deetle, Eorlax, Hadiss, Krylla, Lysslo, Mazzag, Poggle, Qorn, Sollas, Vikkal. </p><p><b>Adventurers:</b> Due to their reluctance to leave their hives, Geonosians are rarely encountered away from their homeworld. A few manage to buy their way offworld. Some Geonosians Aristocrats pursue offworld adventurers as Scoundrels or Nobles, while free Warriors might become Scouts or Soldiers. No Geonosian Force-users are known to exist. </p><h3>Geonosian Species Traits</h3><p>Geonosians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Climbing",
+        "description": ""
+      },
+      {
+        "name": "Flight",
+        "description": "<p>Beings are capable of flight, but cannot do so if they are carrying a Heavy Load.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Radiation Resistance",
+        "description": "<p>Beings receive a +5&nbsp;Species&nbsp;bonus to their&nbsp;Fortitude Defense against&nbsp;Radiation. In addition, beings never gain a Persistent Condition from the effects of Radiation.</p>"
+      },
+      {
+        "name": "Fly Speed (6)",
+        "description": "A being has a fly speed of #payload#."
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "16ecdxH4SPfUrNp2",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

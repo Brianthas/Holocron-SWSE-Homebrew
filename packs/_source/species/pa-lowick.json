@@ -1,0 +1,36 @@
+{
+  "_id": "Skgtwo2ekzKDOrji",
+  "_key": "!items!Skgtwo2ekzKDOrji",
+  "name": "Pa'lowick",
+  "type": "species",
+  "system": {
+    "description": "<p>A mining expedition discovered the Pa'lowick homeworld about ten years before the Battle of Endor, making Pa'lowicks one of the newer Species to join galactic society. Though technologically primitive, Pa'lowicks have a sophisticated and highly adaptive feudal society (ruled by noble families). They welcome contact with other Species and enjoy trading foodstuffs and primitive wares for useful technological devices they cannot build themselves. </p><p>Regular trade with other Species has done little to change the way Pa'lowicks live. Although they like to collect high-tech items, most are content to \"Nest\" on their homeworld, enjoying the simple life of farming, fishing, hunting, and storytelling. Aside from their rich culture, Pa'lowicks have little to offer the galaxy at large- a trait that most likely spared them from Imperial enslavement. </p><p>Pa'lowick nobles periodically entertain the notion of joining the New Republic, but the New Republic has done little to entice them. The New Republic's disinterest has had little impact on Pa'lowick society, as most Pa'lowicks could care less about events shaping the galactic community. </p><h3>Pa'lowick Characteristics</h3><p><b>Personality:</b> Pa'lowicks are natural scavengers who exhibit incredible patience. They display ritualistic tendencies, rarely changing the way they do things. Pa'lowicks strive to preserve the traditions of the past while embracing technology that is useful. Singing and storytelling are among a Pa'lowick's favorite pastimes. </p><p><b>Physical Description:</b> A Pa'lowick has a round torso, long spindly arms and legs, mottled skin (usually yellow, green, and brown), and two mouths: one at the end of a long snout, the other located below the base of the snout. Two sharp tusks jut upwards from the Pa'lowick's lower mouth, which completely grows over at middle age. </p><p><b>Age Groups:</b> Pa'lowicks age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-74 Years </td> \n   <td>75+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The swampy planet of <span class=\"new\" title=\"Lowick (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTG93aWNrP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Lowick</span>, located in The Outer Rim. </p><p><b>Language:</b> Pa'lowicks speak Lowickese. With the recent introduction of technology to their world, they've adapted the Basic alphabet to create written Lowickese. To the uneducated, it looks like gibberish written in Basic. </p><p><b>Example Names:</b> Aneeda Desha, Larisselle Chatrunis, Meep Erdles, Roopak Weelak, Sal Orbego, Sy Snootles. </p><p><b>Adventurers:</b> Pa'lowick rarely leave <span class=\"new\" title=\"Lowick (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTG93aWNrP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Lowick</span>. Those who do are dazzled by traders' tales about the rest of the galaxy. Once they're offworld for a few weeks, they often run out of credits and end up as vagabonds, criminals, or slaves. Heroes can belong to any Heroic Class, although most Pa'lowicks encountered away from their homeworld are either Scoundrels or Nobles. </p><h3>Pa'lowick Species Traits</h3><p>Pa'lowicks share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Primitive",
+        "description": "<p>Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.</p>"
+      },
+      {
+        "name": "Expert Swimmer",
+        "description": "<p>A being may choose to reroll any&nbsp;Swim&nbsp;check, but the result of the reroll must be accepted, even if it is worse. In addition, a being may choose to&nbsp;Take 10&nbsp;on&nbsp;Swim&nbsp;checks, even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Hold Breath",
+        "description": "<p>A being can hold his or her breath for a number of rounds equal to 25 times his or her&nbsp;Constitution&nbsp;score before needing to make&nbsp;Endurance&nbsp;checks to hold his or her breath.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ogiWc67GpsYnXZ76",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

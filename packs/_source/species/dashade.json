@@ -1,0 +1,36 @@
+{
+  "_id": "MpFCZSgjdhdb8GBh",
+  "_key": "!items!MpFCZSgjdhdb8GBh",
+  "name": "Dashade",
+  "type": "species",
+  "system": {
+    "description": "<p> The Dashade are known throughout the galaxy as elite assassins, mercenaries, and killers, particularly due to their partial immunities to the Force abilities of The Jedi. The most feared and deadly Dashade are given the honorary title Shadow Killer.</p><p>The Dashade work as mercenaries and bodyguards for many groups. Most notably though, Dashade work for the various Sith uprisings; even though the Sith are directly responsible for the Cron Cluster supernova that destroys the Dashade homeworld thousands of years before the Galactic Civil War. Even with the loss of their homeworld, the Dashade avoid extinction. Their exact numbers remain unknown, but reports suggest that the Dashade were able to establish one or more colonies far outside their home system prior to the Cron Cluster disaster. </p><h3>Dashade Characteristics</h3><p><b>Personality:</b> Secretive beings, Dashade believe that they are superior to most sentient beings in the galaxy. Raised in an aggressive culture where might does indeed make right, those Dashade who work as mercenaries or in other combat-related roles remain loyal to an employer, regardless of what they think of that individual, but only as long as the relationship is profitable for the Dashade and they are not prevented from displaying their considerable combat prowess. Those who try to keep a Dashade on a short leash soon receive a first-hand lesson in why these shadowy assassins are so widely feared. </p><p><b>Physical Description:</b> The Dashade are a hairless reptilian Species. Their height, beady, red-orange eyes and prominent fangs reinforce their fearsome reputation. No visual cues indicate the gender of a Dashade. Their skin tones range from pitch black to dark gray, but green-skinned Dashade are not unheard of. </p><p><b>Age Groups:</b>&nbsp;Dashade age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-44 Years </td> \n   <td>45-69 Years </td> \n   <td>70-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Urkupp (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVXJrdXBwP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Urkupp</span>, a harsh, irradiated world in the Cron Cluster prior to it's destruction. </p><p><b>Languages:</b> Dashade speak their their hissing language of Dashadi, a blunt and literal language with little variation in tone. </p><p><b>Example Names:</b> Tessun Kel, Nos Kellex, Alaris Koth, Ket Maliss, Tel Sorath. </p><p><b>Adventurers:</b> The majority of Dashade encountered away from their homeworld are mercenaries and assassins employed by those who can afford their services and retain their loyalty. During The Great Sith War, their might-makes-right philosophy leads the Dashade to side with The Sith and with groups such as the royals of Falleen and perhaps even The Galactic Empire. Sporadic reports mention members of an unknown Species with resistance to Jedi powers leading assaults against The Jedi during the Great Jedi Purge in the years between the Clone Wars and the Galactic Civil War. </p><h3>Dashade Species Traits</h3><p>Dashade share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Frightening Visage",
+        "description": "<p>A being may choose to reroll any Persuasion check made to Intimidate, keeping the better of the two results.</p>"
+      },
+      {
+        "name": "Force Resistance",
+        "description": "<p>Beings receive a +5 bonus to their&nbsp;Will Defense&nbsp;against any use of the&nbsp;Use the Force&nbsp;skill.</p>"
+      },
+      {
+        "name": "Environmental Adaptation",
+        "description": "<p>Beings gain a +5 Species bonus to their Fortitude Defense against the effects of Extreme Temperatures and Radiation.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3HUeA106K6vtZYUN",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

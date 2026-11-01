@@ -1,0 +1,32 @@
+{
+  "_id": "ZOvJxVdNSeDID9Ok",
+  "_key": "!items!ZOvJxVdNSeDID9Ok",
+  "name": "Phindian",
+  "type": "species",
+  "system": {
+    "description": "<p>Phindians are technologically advanced sentients known for creating a variety of technical wonders, including devices capable of erasing one's memory. </p><p>Before the ride of the Empire, a criminal organization called The Syndicat ruled the Phindian homeworld. The Phindian leaders of The Syndicat used their control over the distribution of food and other provisions to keep the general population in line. Any who resisted The Syndicat had their memories erased and were exiled to other worlds. The Jedi helped the Phindian population overthrow The Syndicat and install a democratic government, which remained in place until the formation of the Emperor's New Order. Despite a handful of Phindian uprisings (All of which the Imperials easily quelled), the Phindian homeworld remained under Imperial rule until shortly after the Battle of Endor. Within a year of their liberation, the Phindian people joined the New Republic and have remained members ever since. </p><h3>Phindian Characteristics</h3><p><b>Personality:</b> Phindians show great affection for family and friends, but strangers find them aloof and contrary. Though perceptive and astute, they can be cantankerous and somewhat sarcastic beings prone to melancholy and exaggeration. Dealing with them can be exasperating. For their part, Phindians like to tinker with technological devices, often preferring the company of such things above the company of other sentients. </p><p><b>Physical Description:</b> The average Phindian stands about 1.7 meters tall. Phindians are thin, mournful-looking beings with dark skin that sometimes exhibits white splotches. White circles surround their yellow or gold eyes. Phindians have long, flexible arms that hang below their knees. They prefer to wear simple, practical outfits with little adornment. </p><p><b>Age Groups:</b>&nbsp;Phindians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-16 Years </td> \n   <td>17-39 Years </td> \n   <td>40-54 Years </td> \n   <td>55-74 Years </td> \n   <td>75+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Phindar, a temperate Outer Rim planet. </p><p><b>Languages:</b> Phindians speak Phindian and Basic. Their native language consists of soft sibilants and particularly long vowel sounds. </p><p><b>Example Names:</b> Banikou, Guerra Derida, Paxxi Derida, Gerpha, Hem, Karke, Meerka, Teeyr Verke. </p><p><b>Adventurers:</b> Phindian heroes are usually Nobles, Scoundrels and Scouts. Phindian Force-users are possible, but rare. </p><h3>Phindian Species Traits</h3><p>Phindians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Bonus Feat (Skill Training (Knowledge (Technology)))",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Mechanics))",
+        "description": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wQZzjIQjtQ5Yryh9",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements (Planet Hoppers)"
+    }
+  }
+}

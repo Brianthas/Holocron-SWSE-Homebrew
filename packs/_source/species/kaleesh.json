@@ -1,0 +1,40 @@
+{
+  "_id": "ixrRPuAYGhNbH3DU",
+  "_key": "!items!ixrRPuAYGhNbH3DU",
+  "name": "Kaleesh",
+  "type": "species",
+  "system": {
+    "description": "<p>The Kaleesh are a nomadic Species with a tribal culture. They are spiritual beings who worship their ancestors as deities, and they consider their ancestral burial grounds to be sacred lands. The Kaleesh believe that anyone who dies in honorable service to their people becomes a god upon death. </p><p>The Kaleesh come to a momentary prominence in the galaxy when they fight off an invasion by an alien Species known as the <span class=\"new\" title=\"Huk (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSHVrP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Huk</span>. Having already subjugated and exploited the natural resources of several worlds, the <span class=\"new\" title=\"Huk (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSHVrP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Huk</span> capture millions of Kaleesh and sell them into slavery. However, the <span class=\"new\" title=\"Huk (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSHVrP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Huk</span> invasion of Kalee is short lived. Under the leadership of a hero who eventually comes to be known as Grievous, the Kaleesh repel the <span class=\"new\" title=\"Huk (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSHVrP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Huk</span>. They doggedly pursue their enemies into space, and the <span class=\"new\" title=\"Huk (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSHVrP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Huk</span> are completely overcome by the Kaleesh. The hunters become the hunted. The <span class=\"new\" title=\"Huk (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSHVrP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Huk</span> request assistance from the Republic, and through a number of underhanded dealings, they receive it. As a result, the Republic subjects the Kaleesh to serve economic sanctions, and the Kaleesh are marginalized by galactic society. </p><h3>Kaleesh Characteristics</h3><p><b>Personality:</b> Kaleesh are a warlike Species, but they reserve their ire for those who provoke them. They are protective of their territory- especially their ancient burial grounds. Kaleesh hold their families and tribes in high esteem, and do anything to protect them. These sentiments sometimes extend to non-Kaleesh who prove themselves to be trustworthy companions, but such a distinction is rare. Honor and sacrifice at the expense of oneself are highly valued qualities in their society. </p><p><b>Physical Description:</b> The Kaleesh are tall, reptilian humanoids. Their scaly skin varies from from deep red to dull yellow. Their black hair is worn in long braids, or tied up in a queue or topknot. The long faces of the Kaleesh are framed on either side by two sharp tusks that extend outward from their jawbones, and their nostrils are two long slits that stretch toward their yellow eyes. However, few non-Kaleesh have seen the faces of these enigmatic aliens, for they wear masks made from the skulls of some of Kalee's most vicious predators. The Kaleesh are also distinguished by their hands, which each feature four long fingers, two of which are fully opposable. </p><p><b>Age Groups:</b> Kaleesh age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-24 Years </td> \n   <td>25-40 Years </td> \n   <td>41-55 Years </td> \n   <td>56-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The craggy world of Kalee, located in Wild Space. </p><p><b>Languages:</b> The Kaleesh speak their own sophisticated language of Kaleesh, and after the <span class=\"new\" title=\"Huk (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSHVrP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Huk</span> invasion, most also learn Basic. </p><p><b>Example Names:</b> Qymaen jai Sheelal, Ronderu lij Kummar, Bentilais san Sk'ar. </p><p><b>Adventurers:</b> The Kaleesh excel in the roles of Scout and Soldier. Given their inherent sense of honor and dignity, they also make excellent Nobles, but rarely take on the role of a Scoundrel. Although no Kaleesh Jedi are known, Kaleesh spiritual traditions view Force Sensitivity as a boon granted by their ancestors. </p><h3>Kaleesh Species Traits</h3><p>Kaleesh share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Driven",
+        "description": "<p>A being gains a +5 Species bonus to their Will Defense against Mind-Affecting effects.</p>"
+      },
+      {
+        "name": "Darkvision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(including&nbsp;Total Concealment) from darkness. However, they cannot perceive colors in total darkness.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Survival))",
+        "description": ""
+      },
+      {
+        "name": "Persistent",
+        "description": "<p>A being can reroll any&nbsp;Endurance&nbsp;check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Fw7Upfo8V4Y1OUdJ",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

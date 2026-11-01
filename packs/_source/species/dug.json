@@ -1,0 +1,28 @@
+{
+  "_id": "Bwxhte65X2AZwNMA",
+  "_key": "!items!Bwxhte65X2AZwNMA",
+  "name": "Dug",
+  "type": "species",
+  "system": {
+    "description": "<p>Dugs are an arboreal Species from the Republic world of Malastare. They are strong and agile for their size, and climb and jump exceptionally well. Dugs unwillingly share their homeworld with the Gran, who establish trade colonies on Malastare in 8,000 BBY. The Dugs fight a long, intense war against the Gran. Eventually the Republic interferes and sides with the Gran, negotiating a truce that essentially demilitarizes the Dugs. </p><p>In response to their marginalization, the Dugs develop a culture based, in large part, on self-pity. They are self-congratulatory to a fault, and every Dug claims at least one celebrated hero or martyr in their family tree. Beads, worn on their ear fins, represent these purported patriots and their stories of heroism. To question the legitimacy of a Dug's collection of martyr beads is a grave insult that can be retracted only by the death of the offending party. </p><h3>Dug Characteristics</h3><p><b>Personality:</b> The Dugs' reputation for violence and bullying is well-deserved. As a Species, they are adversarial, preferring to solve problems through intimidation and hostile acts. They consider themselves to be beleaguered warriors, underdogs who must fight against the rest of the universe for what is rightfully theirs. Despite their best efforts, the Dugs are continually mired in defeat. They tend to be xenophobic, and this fear of outsiders often manifests as blatant bigotry. </p><p><b>Physical Description:</b> Dugs are vaguely humanoid, in that they possess a torso, two legs, and two arms. The positions of their limbs are reversed, however, so that they use their upper limbs for walking and their lower limbs to manipulate objects. They have brown skin, floppy ear flaps, and large mouths filled with broad, flat teeth. Male Dugs possess a flap of skin on their throats that can be inflated and used to produce mating calls during the appropriate season. </p><p><b>Age Groups:</b> Dugs age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-74 Years </td> \n   <td>75+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Mid Rim planet of Malastare. </p><p><b>Languages:</b> Few Dugs bother to learn Basic, and those who can speak it only with minor difficulty. They rarely do so, however, hoping instead to force others to acknowledge Dug society by making them learn their native language. </p><p><b>Example Names:</b> Drodwa, Flugello, Flugo, Gorlok, Langro Dis, Luvagwa, Pugwis, Rewulga, Sebulba, Sloor. </p><p><b>Adventurers:</b> Dugs are drawn to occupations that involve skullduggery and violence, and they make exceptional Scoundrels, Scouts, and Soldiers. Dug Nobles are rare, and the typical Dug does not possess the mental acuity or patience required to become a Jedi. </p><h3>Dug Species Traits</h3><p>Dugs share the following Species Traits: </p><h2>Alternate Dug Species Traits</h2><p>The following Species Traits can be utilized instead when making certain Bith NPCs: </p>",
+    "size": "small",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Athletic",
+        "description": "<p>A being can reroll any Climb or Jump check, but the result of the reroll must be accepted, even if it is worse. In addition, a being can Take 10 on Climb and Jump checks even when distracted or threatened.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "sB2Agz95dBRwYdGT",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

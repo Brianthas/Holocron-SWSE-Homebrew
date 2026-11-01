@@ -1,0 +1,36 @@
+{
+  "_id": "jF1HHGqTOT8wKkSW",
+  "_key": "!items!jF1HHGqTOT8wKkSW",
+  "name": "Pau'an",
+  "type": "species",
+  "system": {
+    "description": "<p> The Pau'ans are a tall, gray-skinned Species of humanoids with sunken eyes and wrinkled skin. Gaunt and with sharp teeth that clearly indicate carnivorous tendencies, Pau'ans move with a deliberate pace and have soft, gravelly voices that are calming to hear. Pau'ans are taller than most Humans (though not as tall as Wookiees) and have long, slender fingers that end in nails that closely resemble talons.</p><p>Xenobiologists from the University of Sanbra have uncovered connections between the Pau'ans and the Utai, the smaller Species with whom they share the planet of Utapau. Genetic sampling has confirmed a few tenuous biological links, though the exact evolutionary process by which the Pau'an Species developed separately from the Utai is still a mystery. Xenoanthropologists date the first Pau'an civilizations back almost 57,000 years before the Battle of Yavin, making theirs one of the youngest known civilizations. Though no written history of this time exists, scientists currently theorize that the long-lived Pau'ans are genetically closer to their progenitor Species, and that as a result of their longevity the Pau'ans have likely only evolved a little since the planet was settled. </p><p>Some time in the last ten thousand years, Utapau underwent a climate change that caused winds on the surface of the world to reach and maintain constant bursts at destructive speeds. Experts from the University of Sanbra speculate that the climate change was likely very sudden (At least, sudden in geological terms) given the fact that the Pau'an Species did not evolve or adapt to the high winds as many other Species did. The long gap between Pau'an generations caused by their extremely long lives was probably responsible for this evolutionary stumbling block, and were it not for the migration of Pau'an civilization underground they might not have survived the climate change. </p><p>The shift to life underground did not change the Species' eating habits, as they maintained many of the biological signs of a carnivorous diet. The ecology of Utapau, particularly with regard to an abundance of animal life in sinkholes and below ground, allowed the Pau'ans to retain their carnivorous ways, which persist into modern times. </p><h3>Pau'an Characteristics</h3><p><b>Personality:</b> Despite their appearances, Pau'ans are exceptionally friendly on the whole and are particularly kind toward outsiders. As such, many Pau'ans get along well in the galaxy, showing none of the prejudice or fear that many other Species show when encountering beings from other worlds. </p><p><b>Physical Description:</b> Taller than most Humans, Pau'ans are bald and have gray, wrinkled skin. Their sunken eyes and sharp teeth give them a slightly monstrous appearance. </p><p><b>Age Groups:</b>&nbsp;Pau'ans age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-16 Years </td> \n   <td>17-30 Years </td> \n   <td>31-400 Years </td> \n   <td>401-500 Years </td> \n   <td>501-699 Years </td> \n   <td>700+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The sinkhole planet of Utapau. </p><p><b>Languages:</b> Pau'ans speak and are literate in Utapese and Basic. </p><p><b>Example Names:</b> Timon Medon, Tion Medon, Lampay Fay. </p><p><b>Adventurers:</b> Pau'an adventurers are usually the leaders and spokespersons for their respective groups. Their long years of experience make it easy for them to coordinate their comrades' efforts and produce the best results, and despite their friendly nature, many Pau'ans make excellent military officers. </p><h3>Pau'an Species Traits</h3><p>Pau'ans share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Authority",
+        "description": "<p>Beings add a +1 bonus to any insight or morale bonuses they grant to themselves or other characters.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Persuasion))",
+        "description": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Gr55lhwxSJLny2W4",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements (General Web Enhancements)"
+    }
+  }
+}

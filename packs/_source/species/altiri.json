@@ -1,0 +1,32 @@
+{
+  "_id": "000Z6pIOd81gnr8f",
+  "_key": "!items!000Z6pIOd81gnr8f",
+  "name": "Altiri",
+  "type": "species",
+  "system": {
+    "description": "<p> Altiri are a Near-Human Species that evolved on the eastern continent of the planet they call Altiria. Originally wandering nomads, Altiri developed a society that places great importance on individual development of one's intellect and spirituality. Through artistic expression and cultural awareness, Altiri focus on expanding their knowledge of the universe by peaceful, scientific means. Their perpetual war with the Anarrians is a glaring exception to this lofty goal.</p><p>Most Altiri unite under the banner of The Altirian Republic, a representative democracy that rules most of the eastern continent and several island chains around it. The republic's driving goal is the promotion of the Altiri, their development into the world's most advanced society, and their elevation to rulers of the planet. Republic members fervently state that they seek a peaceful existence in which knowledge and the arts are prized over all else, and many facets of their society support this ideal. At the same time, the republic maintains a sizable military force, the purpose of which is to combat the Anarrians. </p><p>Prior to their discovery of the Anarrians, the Altiri primarily worshipped the goddess Shalla, bringer of peace and good fortune. While less prominent in the present day, she is still worshipped to a large degree, and the Altiri go so far as to name their colony on Priva after her. </p><h3>Altiri Characteristics</h3><p><b>Personality:</b> The Altiri are a Species of scientific progress and cultural inspiration. Their feud with the Anarrians belies an otherwise friendly relationship with other sentients, a stack contrast that can be jarring to outsiders. Altiri place a high value on individualism, encouraging the populace to create their own accomplishments and overcome the bar set by the previous generation. </p><p><b>Physical Description:</b> Altiri are on average 1.7 meters in height. Their skin shades vary from light blue to deep indigo, and their hair color includes pure white and darker hues such as purple and black. </p><p><b>Age Groups:</b>&nbsp;Altiri age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-17 Years </td> \n   <td>18-49 Years </td> \n   <td>50-64 Years </td> \n   <td>65-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Altiri live on the contested world of Altiria, an industrial world in constant conflict with itself between the Altiri and the Anarrians.&nbsp; </p><p><b>Languages:</b> Altiri use their own language of Altirish to communicate between themselves. The use of Anarrese is considered rude and is looked upon poorly.&nbsp; </p><p><b>Example</b>&nbsp;<b>Names:</b> Cediri, Prival, Shalla, Valtova.&nbsp; </p><p><b>Adventurers:</b> Altiri are often recruited to work as intelligence agents and scientists for private interests and the Altirian Republic. While well suited to work as ambassadors and diplomats, the Altiri's feud with the Anarrians strains that credibility to other Species. Most Altiri that travel offworld do so as Nobles. </p><h3>Altiri Species Traits</h3><p>Altiri share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Visually Striking",
+        "description": "<p>A being's Charisma&nbsp;bonus is doubled when they use the&nbsp;Persuasion&nbsp;skill on&nbsp;Humans&nbsp;and&nbsp;Near-Humans.</p>"
+      },
+      {
+        "name": "Bonus Trained Skill",
+        "description": "<p>A being chooses one additional Trained Skill at 1st level. The Skill must be chosen from the character's list of Class Skills.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "JCGEtnGsoiaTa4Pc",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

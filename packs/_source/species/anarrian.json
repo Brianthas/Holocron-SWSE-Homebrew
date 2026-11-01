@@ -1,0 +1,32 @@
+{
+  "_id": "US11VkWWiKdhfFUx",
+  "_key": "!items!US11VkWWiKdhfFUx",
+  "name": "Anarrian",
+  "type": "species",
+  "system": {
+    "description": "<p> Like the Altiri, the Anarrians are a Near-Human Species, although they evolved on the western continent of the world they call Anarris. Their society emphasizes the physical aspects of life, and it places great value on strength of body. As a result of this philosophy, Anarrians lead a militaristic lifestyle. By refining themselves through combat and physical development, Anarrians strive to achieve perfection and a higher status in life. They feel that their war against the Altiri is the perfect testing ground for their beliefs.</p><p>Most Anarrians are citizens of The Anarrian Empire, the government that reigns over the planet's western continent and many of the islands nearby. Since its inception around the time of The Mandalorian Wars, the Empire has fought to gain dominance over the Altiri and establish its rule over the world. Thanks to their perpetual state of military readiness and training, the Anarrians are prepared to launch an assault on any who stand in their way, including rogue cells of Anarrians who choose other philosophies and goals. </p><h3>Anarrian Characteristics</h3><p><b>Personality:</b> The Anarrians live in a totalitarian society under a solitary leader who is the strongest, most capable warrior at the time. Rarely does an Anarrian ruler live past Middle Age, since younger, stronger soldiers frequently issue challenges for the mantle of leadership. </p><p><b>Physical Description:</b> Anarrians' bodies are covered in fur that varies in color from light blonde to dark brown. An Anarrian has long, pointed ears, and a ridge of small horns crosses an Anarrian's face above the brow. </p><p><b>Age Groups:</b>&nbsp;Anarrians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-15 Years </td> \n   <td>16-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-69 Years </td> \n   <td>70+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b>&nbsp;Anarrians developed on the war-torn world of Anarris, a heavily contested world the Anarrians and Altiri are in constant conflict over. </p><p><b>Languages:</b> Anarrians communicate through Anarrese, a gruff language devoid of most adjectives and smooth vowels. </p><p><b>Example Names:</b> Dilta, Lunaara, Kolrak, Secavar. </p><p><b>Adventurers:</b> Anarrians are trained from youth in the arts of combat, tactics, and discipline. Anarrians beleive in the survival of the fittest, and the fittest is always the leader. Anarrian adventurers are almost exclusively Soldiers, although Anarrian Scouts are also fairly common. </p><h3>Anarrian Species Traits</h3><p>Anarrians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Strength Surge",
+        "description": "<p>Once per encounter, a being can perform one of the following actions:</p><ul>\n <li>Reroll one&nbsp;Strength-based&nbsp;Ability Check&nbsp;or&nbsp;Skill Check&nbsp;using a doubled&nbsp;Strength&nbsp;modifier (minimum +1)</li>\n <li>Add +2 to one damage roll when making a successful melee attack to which a&nbsp;Strength&nbsp;bonus is normally added (this benefit does not apply when the&nbsp;Weapon Finesse&nbsp;feat is used)</li>\n</ul>"
+      },
+      {
+        "name": "Bonus Feat",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "e6mTuPS62DLD4BI0",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

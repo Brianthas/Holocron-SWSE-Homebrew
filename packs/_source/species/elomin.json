@@ -1,0 +1,32 @@
+{
+  "_id": "GcNgQaxx6dQkGLWH",
+  "_key": "!items!GcNgQaxx6dQkGLWH",
+  "name": "Elomin",
+  "type": "species",
+  "system": {
+    "description": "<p>For several centuries, the galaxy believed the Elomin were the only sentient Species on the desert world Elom. When the Republic first visited Elom a century before the rise of the Empire, the Elomin were divided into separate political nations, used internal combustion engines and slug-throwing weaponry, and were barely able to launch satellites into orbit. Blasters, repulsorlifts, and Starships were beyond anything the Elomin had ever imagined. They took quickly to the advanced technology the first-contact specialists chose to share with them. By the time the Galactic Civil War erupted, the Elomin and their world were active participants in the galactic economy. </p><p> The world of Elom is rich in deposits of lommite, a mineral used in the fabrication of transparisteel. Lommite became a sought-after commodity, and the Elomin were canny enough to enter into mining agreements with offworld shipbuilders that would not damage the environment of their world.</p><p>Culturally, the Elomin try to discover or create order in all things. They view the universe as a logical, organized puzzle, and endeavor to find the pieces and bring them to their logical places. When confronted with something that doesn't fit into the pattern they have defined, they may try to redefine the pattern, but are just as likely to attempt to ignore the discordant details. Such was the case when the Elomin first discovered the existence of the underground-dwelling Eloms, another sentient Species native to their world. The Elomin first denied the existence of the Eloms, and then later denied they were sentient. It wasn't until the Republic granted the Eloms all the rights of sentients under its laws, and the Eloms helped the Elomin resist Imperial oppression during The Rebellion Era that the Elomin fully acknowledged the existence and independence of their neighbors. </p><h3>Elomin Characteristics</h3><p><b>Personality:</b> Elomin have difficulties relating to other Species, which they view as perpetrators of chaos. They excel as pilots, navigators, and theoretical thinkers as long as they can operate independently, or with other Elomin. They get along well with the Woostoids, and other Species that value logic and order as much as they do, but Elomin consider dealing with Humans and other illogical beings an exercise in frustration. </p><p><b>Physical Description:</b> The Elomin are slender humanoids with four hornlike protrusions on the top of their heads, and large ears that taper to points. Skin colors range from bright red to deep black, and their seemingly pupilless eyes are usually bright blue or red. They stand between 1.6 and 1.9 meters tall. </p><p><b>Age Groups:</b>&nbsp;Elomin age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-5 Years </td> \n   <td>6-12 Years </td> \n   <td>13-40 Years </td> \n   <td>41-60 Years </td> \n   <td>61-72 Years </td> \n   <td>73+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The cold, mineral-rich desert world of Elom, located in The Outer Rim. </p><p><b>Language:</b> Elomin speak, read, and write Elomin, and they can learn and speak Basic with little difficulty. </p><p><b>Example Names:</b> Brafid, Laerron, Monjai, Notoganarech, Rennimdius, Theosidicc, Verrinnefra. </p><p><b>Adventurers:</b> Elomin adventurers tend to be Scouts. Elomin Jedi existed before the rise of the Empire, and a number of Elomin religions follow Force Traditions. </p><h3>Elomin Species Traits</h3><p>Elomin share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Driven",
+        "description": "<p>A being gains a +5 Species bonus to their Will Defense against Mind-Affecting effects.</p>"
+      },
+      {
+        "name": "Impose Order",
+        "description": "<p>Once per encounter, a being can spend a&nbsp;Swift Action&nbsp;to allow each ally within 12 squares to move up to half that ally's Speed as a&nbsp;Reaction. This movement does not provoke&nbsp;Attacks of Opportunity.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "nhy6l4tZMAtTxDfT",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

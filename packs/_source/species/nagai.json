@@ -1,0 +1,36 @@
+{
+  "_id": "xS19ONElYMGHeEga",
+  "_key": "!items!xS19ONElYMGHeEga",
+  "name": "Nagai",
+  "type": "species",
+  "system": {
+    "description": "<p>Honorable, mysterious, violent, and sinister. All these words and more describe the Nagai people. They first appeared to be galactic invaders, until it was revealed that the Nagai were escaping their long-time enemies, the Tofs. Initially hostile to The New Republic, the Nagai eventually formed an alliance of convenience with The New Republic in an attempt to achieve victory in their war against the Tofs. </p><p>The Nagai are charismatic- a quality that is, by and large, a product of their enhanced vocal range, which allows them to tailor their speech to be more soothing. They are driven by a strong sense of personal honor, which is tempered by their own individualities. The Nagai fear nothing aside from a loss of freedom, symbolized by the return of the enemy that once enslaved their people. They have little concern for individuals outside of their own families, and they only endeavor to aid others if it serves their purposes or if they are bound by honor to do so. </p><p>Melee combat, especially the use of edged weapons, is highly integrated into Nagai culture. It is a rare Nagai who does not display an expert's hand in the use of blades of all sizes. </p><h3>Nagai Characteristics</h3><p><b>Personality:</b> Nagai tend to be disciplined, focused, and passionate. They kill without hesitation if honor would be served by the act, and they take great pride in hard-fought victories. They possess a grim wit that, when combined with their soothing voices, can often set enemies off-balance. </p><p><b>Physical Description:</b> Nagai possess straight black hair, dark eyes, porcelain-white skin, and slender builds. No two Nagai dress the same, and they take great pains to express their own individual sense of style. </p><p><b>Age Groups:</b> Nagai age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-18 Years </td> \n   <td>19-44 Years </td> \n   <td>45-60 Years </td> \n   <td>61-74 Years </td> \n   <td>75+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Nagi, a world in The Unknown Regions. Few non-Nagai know its exact location. </p><p><b>Languages:</b> Nagaian, a musical and lilting speech riddled with slight variations of pitch and tone that blend easily with the natural soothing voice of the Nagai. Other Species can learn the language but rarely master it. </p><p><b>Example Names:</b> Den Siva, Harmon Sho, Hol B'shaki, Krai H'voc, Lusubrin T'shkali, Mendo, Nir Kento, Ozrei, Rei, Sin Shai, Tai, Taru. </p><p><b>Adventurers:</b> Nagai freely pursue any vocation that pleases them, and Nobles, Scoundrels, Scouts, and Soldiers are common. A number of Nagai have become Jedi, although there are no known Force Traditions among the Nagai people. </p><h3>Nagai Species Traits</h3><p>Nagai share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Lightning Reflexes",
+        "description": "<p>Beings gain a +2&nbsp;Species&nbsp;bonus to their&nbsp;Reflex Defense.</p>"
+      },
+      {
+        "name": "Soothing Voice",
+        "description": "<p>A being may choose to reroll any&nbsp;Persuasion&nbsp;check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      },
+      {
+        "name": "Weapon Familiarity (Tehk'la Blade:Simple Melee Weapons)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "tfFrPxFGKT8Hpd9H",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

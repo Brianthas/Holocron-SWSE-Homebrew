@@ -1,0 +1,44 @@
+{
+  "_id": "8zp7hfkMgr0HSvqc",
+  "_key": "!items!8zp7hfkMgr0HSvqc",
+  "name": "Shistavanen",
+  "type": "species",
+  "system": {
+    "description": "<p>More commonly known to the galactic populace by the nickname Wolfmen, the Shistavanen are an isolationist Species that originates in the Uvena System. Having evolved from predators, Shistavanen excel at hunting and can track prey through crowded urban streets and across desolate plains with equal ease. </p><p>Although the vast majority of Shistavanen prefer to remain within their home system, a growing minority choose to travel the galaxy's Hyperlanes. Even during the height of the First Galactic Empire's discrimination against non-Humans, Imperial Intelligence made frequent use of those Shistavanen it could recruit; other Shistavanen joined The Rebel Alliance. </p><h3>Shistavanen Characteristics</h3><p><b>Personality:</b> The Shistavanen are aggressive and forthright to the point of rudeness, and they prefer the company of their own kind over that of other Species. Known and feared for their surly temperament, some Shistavanen overcome their natural tendencies and are more sociable and outgoing, but only a rare few fully overcome their cultural prejudices. </p><p><b>Physical Description:</b> Shistavanen have large, slightly glowing eyes, pointed ears, and pronounced muzzles lined with sharp teeth. Their bodies are covered with thick brown or black fur, and their fingers and toes are tipped with the sharp claws of their predatory ancestors. </p><p><b>Age Groups:</b>&nbsp;Shistavanen age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-13 Years </td> \n   <td>14-40 Years </td> \n   <td>41-60 Years </td> \n   <td>61-95 Years </td> \n   <td>96+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Shistavanen come from <span class=\"new\" title=\"Uvena Prime (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVXZlbmFfUHJpbWU/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Uvena Prime</span>, one of several habitable planets in the Uvena System in The Outer Rim Territories. The Shistavanen were quick to colonize the remaining worlds of their system in an effort to keep outsiders from getting too involved in their affairs. </p><p><b>Languages:</b> Shistavanen read, speak, and write Shistavanen, which is composed mostly of barks and growls of varying volume and pitch. </p><p><b>Example Names:</b> Hovrak, Lak Sivrak, Riv Shiel, Severian, Voolvif Monn. </p><p><b>Adventurers:</b> Those Shistavanen who overcome their Species' xenophobic tendencies and head out into the galaxy engage in a wide array of occupations, but most rely on their quick reflexes and keen senses and become bounty hunters, explorers, mercenaries, pilots, or sport hunters. Shistavanen have also served in both the Old and New Jedi Orders. </p><h3>Shistavanen Species Traits</h3><p>Shistavanen share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Perception))",
+        "description": ""
+      },
+      {
+        "name": "Bonus Class Skill (Survival)",
+        "description": "<p>A particular Skill is always a Class Skill for beings.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Natural Weapons",
+        "description": "<p>A being has Natural Weapons, in some form or another. When a being makes an Unarmed attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal Unarmed damage. Beings are always considered armed with their Natural Weapons.</p>"
+      },
+      {
+        "name": "Quick Reflexes",
+        "description": "<p>A being may choose to reroll any Initiative check, but the result of the reroll must be accepted even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "4Qv0FfPHrExOdU4p",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

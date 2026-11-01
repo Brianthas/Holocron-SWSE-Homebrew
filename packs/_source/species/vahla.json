@@ -1,0 +1,36 @@
+{
+  "_id": "YQU9RratcRLeLVjq",
+  "_key": "!items!YQU9RratcRLeLVjq",
+  "name": "Vahla",
+  "type": "species",
+  "system": {
+    "description": "<p>The&nbsp;Vahla&nbsp;are a nomadic,&nbsp;Near-Human&nbsp;Species&nbsp;who roamed&nbsp;the galaxy in search of&nbsp;their homeworld, and are generally regarded as a naturally bright and shrewd people. Their small economy is fueled by petty theft and limited-scale&nbsp;piracy, and, following the&nbsp;Great Jedi Purge, by&nbsp;bounty hunting. </p><p>All Vahla are Force-sensitive, and whether aware or not, have ties to The&nbsp;Dark Side of The Force. Most Vahla become members of The&nbsp;Ember of Vahl, a Dark Side cult that worships Vahl, a goddess of fire and destruction. Though not all Vahla are members, they are all expected to follow the orders of a six-priest central coven believed to have been \"Chosen\" by the goddess. </p><h3>Vahla Characteristics</h3><p><b>Personality:</b> Vahla are a shrewd people, often finding themselves on the darker side of galactic society. Their devotion to their goddess Vahl typically isolated them from other Species, and that isolation is mutual due to The Ember of Vahl's need for live sacrifices. </p><p><b>Physical Description:</b> Vahla are largely similar to Humans in general build, although being slightly taller and with thick cartilage replacing their bones. The color of Vahla skin varies, with dark&nbsp;gray&nbsp;and dusky&nbsp;brown&nbsp;marking the extremes. Their&nbsp;eyes&nbsp;are often pale blue, gray, or lavender, and their&nbsp;hair&nbsp;color ranges from&nbsp;black&nbsp;to gray to&nbsp;white, with both or all three colors sometimes being present simultaneously. Occasionally, Vahla are born with&nbsp;red&nbsp;hair; those so endowed are often regarded as having the blessing of the&nbsp;goddess&nbsp;Vahl. </p><p><b>Age Groups:</b> Vahla age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-17 Years </td> \n   <td>18-49 Years </td> \n   <td>50-74 Years </td> \n   <td>75-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Vahla are nomads, with no planet to call their own. While it is known that they are searching for their homeworld, it is unknown if that homeworld is where they originated from, or where they intend to settle, or even the planet's name. </p><p><b>Languages:</b> Vahla speak their own harsh language of Vahla, with most learning Basic to perform trade in the galactic community. </p><p><b>Example Names:</b> Vahe, Viau, Vahnda, Vahni, Vahl. </p><p><b>Adventurers:</b> The Vahla are generally vagabonds, constantly plying interstellar space in an ongoing quest to locate their homeworld. They can often be encountered in small-scale acts of piracy, petty thievery, or in bounty hunting. Ember of Vahl cultists are also known for kidnapping and sacrificing individuals to their destructive goddess. </p><h3>Vahla Species Traits</h3><p>Vahla share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Dark Side Stigma",
+        "description": "<p>Beings must spend 2 Force Points to reduce their Dark Side Score by 1 (instead of just 1 Force Point).</p>"
+      },
+      {
+        "name": "Bonus Feat (Force Sensitivity)",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      },
+      {
+        "name": "Heightened Agility",
+        "description": "<p>A being can reroll any Acrobatics check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hLNMTAJ2dByMMVZc",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "UdLcROv21OHw8G4W",
+  "_key": "!items!UdLcROv21OHw8G4W",
+  "name": "Thakwaash",
+  "type": "species",
+  "system": {
+    "description": "<p>Possessed of great strength, these large bipeds are best known for their uniquely non-Human mindset. A Thakwaash has multiple separate personalities, each specializing in a certain function or area of expertise. Interacting with Thakwaash can be difficult for other Species, particularly for Humans, who view such behavior among their own kind as a mental disorder. The maximum number of personalities that a single Thakwaash can develop is unknown, as is the means by which such personalities form in the first place. </p><p>No reliable reports of Thakwaash exist prior to the Empire's defeat at The Forest Moon of Endor. As a Species, the Thakwaash do not acquire hyperdrive technology until after the battle. However, individual Thakwaash might find their way into the galaxy earlier. </p><h3>Thakwaash Characteristics</h3><p><b>Personality:</b> A single Thakwaash mind contains several distinct personalities. Some Thakwaash manifest dozens of different personalities and refer to themselves in the plural. This habit frequently leaves members of other Species uncomfortable, because they are never certain of who they are speaking with, especially since Thakwaash are likely to change personalities in the middle of conversations. Unlike most beings who exhibit a multiple-personality disorder, each individual Thakwaash personality retains a basic knowledge of events and facts that the other personalities experience, although this rarely includes exact details. Conversations come to a halt when a Thakwaash pauses and asks a new acquaintance's name as if they had not been introduced already. </p><p><b>Physical Description:</b> Thakwaash average 3 meters in height, with athletic builds proportionate to their great height, making them look even more imposing. They also sport long manes slightly darker than the fur covering their bodies. They have an equine appearance made all the more prominent by their flaring nostrils and large dark eyes. </p><p><b>Age Groups:</b>&nbsp;Thakwaash age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-49 Years </td> \n   <td>50-74 Years </td> \n   <td>75-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Thakwaa (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGhha3dhYT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Thakwaa</span>, a temperate world with grassy plains, located in The Outer Rim. </p><p><b>Languages:</b> Thakwaashi consists of grunts, whinnies, and snorts. Written Thakwaashi uses a small alphabet that represents many of the sounds of its spoken counterpart. </p><p><b>Example Names:</b> Aythar Desh, Hohass Ekwesh, Shakwa Rahakas, Jiva Shelani, Wec Taskelor. In spite of having multiple personalities, a Thakwaash has only a single name. </p><p><b>Adventurers:</b> Thakwaash are unknown to the galaxy until after the Galactic Civil War, but when Thakwaash are encountered away from their homeworld, they can be found in any imaginable vocation, since their wide array of personalities enables them to excel in any field. No Force-sensitive Thakwaash have been identified, but researchers admit that their multiple personalities would make identifying such beings far more difficult then normal. </p><h3>Thakwaash Species Traits</h3><p>Thakwaash share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Armor (+1)",
+        "description": "<p>A being gains a Natural Armor bonus to their&nbsp;Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Irrepressible Mind",
+        "description": "<p>Once per encounter, as a Free Action at the start of his or her turn, a being can negate or remove any Mind-Affecting effects.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "BxqiixxJG9DRgdVi",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

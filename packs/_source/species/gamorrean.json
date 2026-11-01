@@ -1,0 +1,40 @@
+{
+  "_id": "rRekR5HazkOLWmWg",
+  "_key": "!items!rRekR5HazkOLWmWg",
+  "name": "Gamorrean",
+  "type": "species",
+  "system": {
+    "description": "<p>Gamorreans are green-skinned, porcine creatures native to Gamorr. Their tendency toward violence makes them valued as criminal enforcers; though viewed as mindless brutes, they don't care so long as they are paid to fight. </p><p>Gamorrean civilization revolves around the never-ending wars between their clans. Preferring large melee weapon in combat, many see ranged weapons as cowardly. Males live to fight; females farm, hunt, and manufacture weapons. Inter-clan hatred rarely fades, and anyone hiring Gamorreans should be aware of their clans to avoid infighting. </p><h3>Gamorrean Characteristics</h3><p><b>Personality:</b> Gamorreans are brutish, violent, and proud. They respect physical prowess and have no problem facing death against a foe they feel they are on at least equal footing with. </p><p><b>Physical Description:</b> Gamorreans average about 1.8 meters tall, with thick green skin covering powerful muscles. Close-set eyes, a thick snout, tusks, and small horns give them a distinct look. </p><p><b>Age Groups:</b> Gamorreans age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-12 Years </td> \n   <td>13-29 Years </td> \n   <td>30-39 Years </td> \n   <td>40-44 Years </td> \n   <td>45+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The preindustrial world of Gamorr. </p><p><b>Languages:</b> Gamorreans speak Gamorrean. They have no written version of the language. They can learn to understand, but not speak other languages. </p><p><b>Example Names:</b> Gartogg, Jubnuk, Ortugg, Ugmush, Venorra, Warlug. </p><p><b>Adventurers:</b> Some Gamorreans leave their homeworld as slaves, but later escape or buy out their contracts. Others sell their contracts, finding employment as bodyguards or enforcers. A Gamorrean is constantly at war; it's only a matter of figuring out who the enemy is. Gamorrean Heroes tend to select the Soldier class. </p><h3>Gamorrean Species Traits</h3><p>Gamorreans share the following Species Traits: </p><h2>Additional Gamorrean Species Feats</h2><p>Gamorrean characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Increased Resistance </td> \n   <td> </td> \n   <td>Gain a bonus to Fortitude Defense when an enemy fails to affect you. </td>\n  </tr> \n  <tr> \n   <td>Primitive Warrior </td> \n   <td> </td> \n   <td>Deal +1 die of damage with Simple Weapons (Melee). </td>\n  </tr> \n  <tr> \n   <td>Quick Comeback </td> \n   <td> </td> \n   <td>Recover quickly after being moved down the Condition Track by damage. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Bonus Feat (Improved Damage Threshold)",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      },
+      {
+        "name": "Great Fortitude",
+        "description": "<p>Beings gain a +2&nbsp;Species&nbsp;bonus to their&nbsp;Fortitude Defense.</p>"
+      },
+      {
+        "name": "Primitive",
+        "description": "<p>Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.</p>"
+      },
+      {
+        "name": "Weapon Familiarity (Arg'garok:Advanced Melee)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uSw24nxaHO0UvKJz",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "nUWp3zUBaSaV7ppP",
+  "_key": "!items!nUWp3zUBaSaV7ppP",
+  "name": "Vurk",
+  "type": "species",
+  "system": {
+    "description": "<p>Vurks are an amphibious Species from the planet Sembla. Their way of life is based on a nomadic lifestyle, as large family units move en masse cross Sembla's watery surface. They transition easily from the depths of Sembla's warm seas to the heights of its rocky, volcanic archipelagos. Vurk families rarely stop in any one spot for more than a fortnight at a time. </p><p> When two or more Vurk clans meet during their constant migration, the families of these clans stop and hold a mutual feast. Tests of strength, speed, and wits are commonplace, as are arranged marriages and commerce. Young males are married off by their parents and leave to be with their wives and their new families. Male Vurks who fail to marry before reaching adulthood remain bachelors for the rest of their lives.</p><p>Originally considered a primitive Species by galactic survey teams, Vurks are intelligent and philosophically advanced. From birth, they are taught to honor personal integrity, individual freedom, and honesty. Because of these tenants, Vurks make excellent diplomats and negotiators. </p><h3>Vurk Characteristics</h3><p><b>Personality:</b> Known for their even tempers, compassion, and personal integrity, Vurks abhor lying. They take their duties, whether to family, friends, or nation, seriously. Because of this, others consider them somewhat blunt and stern. </p><p><b>Physical Description:</b> Vurks are tall, reptilian amphibians with leathery gray-green skin. Their eyes are dark and set deep in their faces. A long crest extends up and back from a Vurk's skull. A Vurk has two long, thick fingers and an opposable thumb on each hand. </p><p><b>Age Groups:</b> Vurks age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-14 Years </td> \n   <td>15-30 Years </td> \n   <td>31-49 Years </td> \n   <td>50-69 Years </td> \n   <td>70+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The watery world of Sembla, located in The Outer Rim. It is a planet filled with shallow warm oceans and volcanic island chains. </p><p><b>Languages:</b> Vurk speak their native tongue of Semblan, a gluttenal language as effective underwater as it is overland. </p><p><b>Example Names:</b> Coleman Trebor, Sweitt Concorkill, Wunitt Fodor. </p><p><b>Adventurers:</b> Vurks who leave their homeworld tend toward the path of the Scout or Soldier. A handful of Vurk Nobles make their way to the stars as diplomats, but given the Species' ingrained integrity, few Vurk are Scoundrels. </p><h3>Vurk Species Traits</h3><p>Vurks share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Breathe Underwater",
+        "description": "<p>Beings can't drown in water.</p>"
+      },
+      {
+        "name": "Expert Swimmer",
+        "description": "<p>A being may choose to reroll any&nbsp;Swim&nbsp;check, but the result of the reroll must be accepted, even if it is worse. In addition, a being may choose to&nbsp;Take 10&nbsp;on&nbsp;Swim&nbsp;checks, even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Swimming",
+        "description": "<p>Beings possess an inherent Swim speed.</p>"
+      },
+      {
+        "name": "Placid",
+        "description": "<p>Once per encounter, as a Free Action, a being can remove one Fear effect currently affecting it.</p>"
+      },
+      {
+        "name": "Survival Instinct",
+        "description": "<p>A being may choose to reroll any&nbsp;Survival check, but the result of the reroll must be accepted even if it is worse.</p>"
+      },
+      {
+        "name": "Swim Speed (4)",
+        "description": "A being has a swim speed of #payload#."
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Odg3uH1MAxqCKkEL",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

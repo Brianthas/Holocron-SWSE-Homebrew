@@ -1,0 +1,36 @@
+{
+  "_id": "34eyxn8R3psdb2If",
+  "_key": "!items!34eyxn8R3psdb2If",
+  "name": "Utai",
+  "type": "species",
+  "system": {
+    "description": "<p>An ancient race of diminutive&nbsp;humanoids&nbsp;evolving on the&nbsp;Outer Rim planet of&nbsp;Utapau, the Utai make their homes in tunnels and caves amid the sinkholes that pockmarked their homeworld, colonizing them long before the surface dwelling Pau'ans were forced to take refuge in the sinkholes after&nbsp;hyperwinds&nbsp;made life on the surface unbearable. Working together, the Utai allowed the Pau'ans to take the lead in all societal matters, although the Utai make up more than seventy percent of the population on Utapau. Introducing the Utai to wind power, the Pau'ans took over governmental work in the sinkholes and relegated the Utai to a labor class. </p><p>Despite their role as laborers in Utapaun society, the Utai are not mistreated and prefer their worker status. Many Utai work as&nbsp;Varactyl&nbsp;wranglers and&nbsp;Dactillion&nbsp;tamers, as they possess an innate ability to commune with animals. While Utai do not have a seat on the&nbsp;Utapaun Committee, they are represented by their city's local&nbsp;Master of Port Administration, a Pau'an, and their needs are generally met. </p><h3>Utai Characteristics</h3><p><b>Personality:</b> Most Utai are content in life, enjoying a simple life of work and peace. Utai are highly empathetic to animals, and some are said to have the ability to communicate with them. The few Utai that yearn for more in their lives sometimes find work off-world as animal handlers and beast wardens. </p><p><b>Physical Description:</b> Generally short and chubby, the Utai are pale-skinned and hairless, possessing large, oblong heads which slope backwards. Two glassy black&nbsp;eyes&nbsp;protrude from thick stalks on the Utai's face, which is otherwise unremarkable, aside from a small, puckered mouth. </p><p><b>Age Groups:</b> Utai age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-10 Years </td> \n   <td>11-35 Years </td> \n   <td>36-47 Years </td> \n   <td>48-54 Years </td> \n   <td>55+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Utai reside on Utapau, a sinkhole planet filled with fissures and caves that they share with their Pau'an neighbors. </p><p><b>Languages:</b> Utai learn Utapese, a language shared by the Pau'ans for convenience; a rare few that work in starports also tend to learn a small amount of Basic. </p><p><b>Example Names:</b> Senin Vant, Muerdo, Raddu Mokeur, Sorn Ag, Sven Son. </p><p><b>Adventurers:</b> Utai rarely leave their homes. The few that do, do so in matters of necessity for Utapau. Utai heroes typically become Scouts due to their empathetic nature, but that nature could also call an Utai to the path of a Jedi. </p><h3>Utai Species Traits</h3><p>Utai share the following Species Traits: </p>",
+    "size": "small",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Animal Handler",
+        "description": "<p>A being can choose to reroll any&nbsp;Ride&nbsp;check, but the result of the reroll must be accepted, even if it is worse. Additionally, a being can make&nbsp;Persuasion&nbsp;checks to change the&nbsp;Attitude&nbsp;of an undomesticated creature that has an&nbsp;Intelligence&nbsp;score of 2 or lower.</p>"
+      },
+      {
+        "name": "Cooperative",
+        "description": "<p>A being automatically succeeds when attempting to Aid Another on a Skill Check, as long as the target is adjacent to, and can hear and understand, the being.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "3hEpABesnBuyzEfO",
+      "sourceBook": "Star Wars Saga Edition Threats of the Galaxy"
+    }
+  }
+}

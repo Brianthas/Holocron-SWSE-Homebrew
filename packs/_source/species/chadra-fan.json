@@ -1,0 +1,36 @@
+{
+  "_id": "1a46eofzGeQ94TxB",
+  "_key": "!items!1a46eofzGeQ94TxB",
+  "name": "Chadra-Fan",
+  "type": "species",
+  "system": {
+    "description": "<p>Known for being among the most cheerful and friendliest beings of the galaxy, Chadra-Fans are found in many places. On their native world, hurricanes and tsunamis frequently wipe out their homes, so the Chadra-Fans have developed an intense fear of water and choose new homes on arid planets. This experience with frequent destruction also leads them to regard few things as being truly permanent. Chadra-Fans embrace the moment and enjoy themselves as much as they can, living with a contagious zest for life. </p><p>Chadra-Fans are notorious for their love of tinkering, frequently disassembling and reassembling unattended devices into something different. Chadra-Fans find work in industrial research, and conventionally trained engineers attempt to duplicate Chadra-Fan creations. </p><h3>Chadra-Fan Characteristics</h3><p><b>Personality:</b> Gregarious, exuberant, and outgoing to a fault, Chadra-Fans are not picky when it comes to friends and frequently suffer from depression if left alone for extended periods of time. They are inquisitive, particularly about machinery, are hard-pressed to restrain the urge to tinker with an device within reach. </p><p><b>Physical Description:</b> No more than a meter tall, with flat noses and round, dark eyes, Chadra-Fans are covered in fur everywhere except for their fingers, toes, and large ears. </p><p><b>Age Groups:</b>&nbsp;Chadra-Fans age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-15 Years </td> \n   <td>16-40 Years </td> \n   <td>41-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Chadra-Fans are native to <span class=\"new\" title=\"Chad (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQ2hhZD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Chad</span>, a world located in the region of The Outer Rim known as The Slice. Covered with extensive marshes and bayous, the planet has nine moons, which gives the world a complex tidal cycle. </p><p><b>Languages:</b> The Chadra-Fan language sounds substantially different from Basic, so those Chadra-Fan who speak Basic do so with a very squeaky tone. </p><p><b>Example Names:</b> Fandar, Gudb, Kabe, T'achak T'andar, Tekli, Tutti Snibit. </p><p><b>Adventurers:</b> Chadra-Fans prefer the Scoundrel and Scout classes, which better enable them to indulge their boundless curiosity. At least one Chadra-Fan is known to have joined the ranks of the New Jedi Order. </p><h3>Chadra-Fan Species Traits</h3><p>Chadra-Fans share the following Species Traits: </p><h2>Alternate Chadra-Fan Species Traits</h2><p>The following Species Traits can be utilized instead when making certain Chadra-Fan NPCs: </p>",
+    "size": "small",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Quality Repairs",
+        "description": "<p>When a being uses the Repair or Jury-Rig applications of the Mechanics skill, the target Droid or device regains an additional 1d8 Hit Points.</p>"
+      },
+      {
+        "name": "Darkvision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(including&nbsp;Total Concealment) from darkness. However, they cannot perceive colors in total darkness.</p>"
+      },
+      {
+        "name": "Heightened Awareness",
+        "description": "<p>A being can choose to reroll any&nbsp;Perception&nbsp;check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "s3FKiYuwWkTyGQQm",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

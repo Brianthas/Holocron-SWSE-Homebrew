@@ -1,0 +1,36 @@
+{
+  "_id": "ivuzSmUhYzM4vQ6M",
+  "_key": "!items!ivuzSmUhYzM4vQ6M",
+  "name": "Togruta",
+  "type": "species",
+  "system": {
+    "description": "<p>Togrutas are natives of the planet Shili, a world of dense forests, wild scublands, and ever-growing urban areas. The most striking features of Togruta are their brightly colored horns, head, head-tails, and skin. These patterns serve as a sort of camouflage that helps them stalk prey through the red and white, meter-tall turu-grass of the scrublands. </p><p>Togrutas are natural pack hunters and work effectively in large groups. Individualism is generally discouraged, but despite this fact, most Togruta leaders gain power and prestige through expressions of individuality. </p><p>Outsiders often believe that Togrutas are venomous. Although no one knows how the rumor was started, Togrutas do use their sharp incisors to kill one of their favorite meals, the small, rodentlike <span class=\"new\" title=\"Thimiars (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGhpbWlhcnM/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Thimiars</span>. </p><h3>Togruta Characteristics</h3><p><b>Personality:</b> Togrutas are social, outspoken, perceptive, and attentive. They prefer to work in groups and are adept at complex social interaction within a known group. </p><p><b>Physical Description:</b> A Togruta has an oval face flanked by striped, curved horns and a long head tail. Elaborate red and white patterns adorn the face, while a Togruta's body and limbs display red and white strips. </p><p><b>Age Groups:</b> Togrutas age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-17 Years </td> \n   <td>18-54 Years </td> \n   <td>55-74 Years </td> \n   <td>75-94 Years </td> \n   <td>95+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Shili in The Expansion Region, a planet featuring small communities within dense forests and hidden valleys. </p><p><b>Languages:</b> Togrutas are taught their Species language of Togruti, and most later learn Basic. </p><p><b>Example Names:</b> Ahsoka Tano, Ashla, Codi Ty, Creev Zrgaat, Dyani Zaan, Jir Taalan, Qusak Laal, Raana Tey, Shaak Ti, Vika Saaris. </p><p><b>Adventurers:</b> Strong-willed, highly independent Togrutas leave their homeworld to \"Hunt among the stars.\" Togrutas are often Nobles, Scouts or Soldiers, or may become Jedi, but can belong to any Class. </p><h3>Togruta Species Traits</h3><p>Togrutas have the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Spatial Awareness",
+        "description": "<p>Beings ignore all Cover and Concealment when making Perception checks to Notice Targets within 10 squares.</p>"
+      },
+      {
+        "name": "Sneaky",
+        "description": "<p>A beings can choose to reroll any&nbsp;Stealth&nbsp;check to&nbsp;Sneak, but the result of the reroll must be accepted, even if it is worse.</p>"
+      },
+      {
+        "name": "Pack Hunter",
+        "description": "<p>Beings deal an additional 2 points of damage on melee attacks against opponents they&nbsp;Flank.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "wnEiXENHmHznV0ty",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

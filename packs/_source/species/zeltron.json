@@ -1,0 +1,32 @@
+{
+  "_id": "hIDegxiMNwXaMbK1",
+  "_key": "!items!hIDegxiMNwXaMbK1",
+  "name": "Zeltron",
+  "type": "species",
+  "system": {
+    "description": "<p>Zeltrons are known throughout the galaxy for their hedonistic nature. Experiencing pleasure in its myriad forms is the lifetime pursuit of all Zeltrons. They are a fun-loving species, placing recreation before other, less worldly interests. Members of the Species are found throughout the galaxy, for they enjoy traveling, meeting new people, indulging in their passions, and experiencing new things. </p><p>Zeltrons are born with a latent empathy that allows them to sense the emotions of others. Though not ruled by emotions of others, they can, over time, become inundated with negative feelings if they are surrounded by such sentiments for a prolonged period of time. For this reason, many Zeltrons are pacifistic, preferring peaceful negotiation to the destructive actions of combat. This is not to say that Zeltrons are incapable of defending themselves; their passion gives them a great capacity for violence when the situation warrants. Additionally, their physiology includes an ultra efficient metabolism which allows them to maintain peak body weight and muscle mass regardless of their culinary indulgences. </p><h3>Zeltron Characteristics</h3><p><b>Personality:</b> Zeltrons are almost universally friendly, jolly, and sociable. They love meeting and interacting with new people, visiting new places, and enjoying new experiences. They are benignly manipulative insofar as they strive to be uplifting. </p><p>Though their cheerful demeanor and easy smiles can make them seem flippant, Zeltrons can be very serious when the occasion demands it. They are especially concerned with the well-being of their friends and loved ones, and a sure-fire way to anger a Zeltron is to place his or her friends or family in danger. </p><p><b>Physical Description:</b> Nearly all Zeltrons are considered to be attractive by Human standards. Ugly Zeltrons are unheard of, and plain Zeltrons are rare. In addition to their inherent physical beauty, Zeltrons also possess skin tones and hair colors that vary from light pink to deep crimson. </p><p><b>Age Groups:</b> Zeltrons age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-18 Years </td> \n   <td>19-49 Years </td> \n   <td>50-64 Years </td> \n   <td>65-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Zeltros, a tranquil world in The Inner Rim. </p><p><b>Languages:</b> Although Zeltrons have many ancient languages, they prefer to learn and speak Basic. Given their dealings with a variety of cultures, their speech is often littered with crosslingual idioms. </p><p><b>Example Names:</b> Adriav, Arno, Bahb, Dani, Deliah, Froedi, Heigren, Impella, Jahn, Jahz, Jakira, Joi, Kainae, Kieral, Leonie, Maeve, Mahd, Marrue, Nerus, Opalica, Rahuhl, Rhajani, Sian, Soleil, Spenori, Tamair, Tanai, Trix, Welarem, Yahja. </p><p><b>Adventurers:</b> Zeltrons have no preferred vocations, and Zeltron heroes can belong to any available Heroic Class. Those who wish to become Jedi must learn to subdue their strong emotions. </p><h3>Zeltron Species Traits</h3><p>Zeltrons share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Soothing Pheromones",
+        "description": "<p>A being gains a +5 Species bonus on Persuasion checks made to Change Attitude. This bonus does not apply to other beings of the same Species, as beings are acclimated to their own pheromones.</p>"
+      },
+      {
+        "name": "Empathy",
+        "description": "<p>Beings add their&nbsp;Charisma&nbsp;bonus (if any) to&nbsp;Perception&nbsp;checks made to&nbsp;Sense Deception&nbsp;or&nbsp;Sense Influence.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mxy4q8qacS7OL6HN",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "BrSpJF3daTOPujEY",
+  "_key": "!items!BrSpJF3daTOPujEY",
+  "name": "Bith",
+  "type": "species",
+  "system": {
+    "description": "<p>Bith have been part of The Galactic Republic for thousands of years. Intellectually advanced humanoids, Bith have over-sized brains evolved to handle abstract skills such as language, mathematics, music, and scientific analysis. This fundamental shift to the intellect has caused brain functions related to instinct and biological drives to diminish. Their greater brainpower also means that Bith need to spend only four hours in a meditative trance to regain the energy that most Species require eight hours to recover. </p><p>As a culture, Bith find the concept of warfare abhorrent, and most are pacifists. During the time of the Republic, the Bith are one of the loudest proponents for finding diplomatic solutions and for banning weapons and the industries of war. This pacifistic streak has roots in the Bith's past, when competition between two major corporations got out of hand, resulting in the release of a biological weapon that turned the surface of Clak'dor VII into an ecological wasteland. The survivors consequently sealed their cities in immense domes, while many ambitious Bith left their homeworld to travel the galaxy. During the time of the Clone Wars, the Bith hole up in their domed cities, remaining neutral and trying to ride out the worst of the fighting. Their wholesale return to galactic society does not occur until well into the time of The New Republic. </p><p>Bith are highly sought after in a wide variety of fields, including engineering, programming, education, commercial art, and, most importantly, ship design. Music is a vital and revered pursuit in Bith society. Bith musicians are relatively common (and welcome) and can be found playing in extravagant opera houses, seedy cantinas, and everything in between. </p><h3>Bith Characteristics</h3><p><b>Personality:</b> Bith are calm and rational, with a natural talent for technical and intellectual pursuits. Despite (or as a result of) its violent past, Bith culture is pacifistic. Individual Bith, however, run the range of demeanors, but most Bith lean toward using nonaggression to overcome difficulties. All Bith are stimulated by intellectual problems and artistic endeavors. </p><p><b>Physical Description:</b> Bith are humanoid in shape; their most notable features are their bulbous heads and huge black eyes. Their skin is often somewhere between gray and pink, although some Bith have skin tints of yellow or green. They lack an external nose but have a finely tuned sense of smell. Their large eyes give them incredibly focused vision, allowing them to see into the microscopic scale, but in turn, they have poor long-range vision. </p><p><b>Age Groups:</b>&nbsp;Bith age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-15 Years </td> \n   <td>16-50 Years </td> \n   <td>51-70 Years </td> \n   <td>71-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Bith originate from Clak'dor VII, a small planet in The Outer Rim that suffered heavily from the effects of biological warfare during a brief civil conflict. The inhabitants now reside in domed cities, and rarely venture out of them onto the surface of the planet. </p><p><b>Languages:</b> Bith speak and read Bith. Those who leave the confines of their cities learn Basic as well. </p><p><b>Example Names:</b> Doikk, Figrin, Jinkins, Lirin, Nalan, Tech, Tedn, Thai. </p><p><b>Adventurers:</b> Given their predilection for intellectual and peaceful pursuits, most Bith heroes are Nobles. Force-users are uncommon, but some Bith have served with distinction in The Jedi Order over the millennia. </p><h3>Bith Species Traits</h3><p>Bith share the following Species Traits: </p><h2>Alternate Bith Species Traits</h2><p>The following Species Traits can be utilized instead when making certain Bith NPCs: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Evolved Intellect",
+        "description": "<p>Whenever a being spends a Force Point for any reason, the being gains a temporary Force Point, that can only be spent to add to an Intelligence-based Skill Check. If the temporary Force Point has not been used by the end of the encounter, it is lost.</p>"
+      },
+      {
+        "name": "Scent",
+        "description": "<p>At close range (within 10 squares), beings ignore Concealment and Cover for purposes of Perception checks, and take no penalty from poor visibility while Tracking.</p>"
+      },
+      {
+        "name": "Meditative Trance",
+        "description": "<p>Beings can enter into a Trance that lasts for four consecutive hours. At the end of the Trance, they gain the benefits of having rested for eight consecutive hours.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "7amF8777Sb12vpgq",
+      "sourceBook": "Star Wars Saga Edition Galaxy of Intrigue"
+    }
+  }
+}

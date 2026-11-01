@@ -1,0 +1,28 @@
+{
+  "_id": "Z1hJgx1rxlxe3Kc2",
+  "_key": "!items!Z1hJgx1rxlxe3Kc2",
+  "name": "Vultan",
+  "type": "species",
+  "system": {
+    "description": "<p>Vultans are a technologically advanced Near-Human Species native to the planet <span class=\"new\" title=\"Vulta (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVnVsdGE/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Vulta</span>, located at the spinward edge of The Mid Rim. The Vultan culture was already five millennia old at the time of the Great Hyperspace War. As citizens of an old and curious culture, Vultans tend to go through waves of fads and technological growth. Many Old Republic corporations have a few Vultans on their board of directors. </p><p>Even during the time of the Empire, Vultans commonly worked as programmers for holovid entertainment companies. Vultans seem quick to adapt any new lifestyle idea that comes along, regardless of its usefulness. </p><h3>Vultan Characteristics</h3><p><b>Personality:</b> Vultans are an intelligent, highly curious Species that enjoys new trends and ideas. Their whimsical curiocity causes some to dismiss the Vultans as simple minded or easily duped, but those people couldn't be further from the truth. </p><p><b>Physical Description:</b> Vultans resemble baseline Humans, except for the large growths of cartilage on their craniums. For male Vultans, this cartilage lies in a thick net against the skull. For females, the growths point outward, away from the skull. </p><p><b>Age Groups:</b> Vultans age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-19 Years </td> \n   <td>20-59 Years </td> \n   <td>60-74 Years </td> \n   <td>75-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Vulta (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVnVsdGE/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Vulta</span> is an eclectic collection of skyways, underground passages, artificial parks, and oddly shaped buildings, each built during a different trend in architectural aesthetics, it is believed to be one of the first worlds colonized by Humans after the development of the Hyperdrive. </p><p><b>Languages:</b> Vultans speak and write in a language called Dromnyr, one of several languages from which Basic was derived. </p><p><b>Example Names:</b> Echari Di'San, Koss Toko, Oss Wilum, Zona Luka. </p><p><b>Adventurers:</b> Many Vultans leave <span class=\"new\" title=\"Vulta (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVnVsdGE/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Vulta</span> to become traders, seeking new technologies and art styles to sell at a tidy profit to a group that's always in need of a change. Vultan heroes typical find roles as Nobles or Scoundrels, with Force-sensitive Vultans becoming stellar Jedi. </p><h3>Vultan Species Traits</h3><p>Vultans share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Bonus Trained Skill",
+        "description": "<p>A being chooses one additional Trained Skill at 1st level. The Skill must be chosen from the character's list of Class Skills.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FQtGfHn4Ql85UI7O",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

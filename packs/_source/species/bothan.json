@@ -1,0 +1,32 @@
+{
+  "_id": "03lqpZezxfkwjybN",
+  "_key": "!items!03lqpZezxfkwjybN",
+  "name": "Bothan",
+  "type": "species",
+  "system": {
+    "description": "<p>Native to Bothawui, these short, fur-covered humanoids have had hyperspace travel for thousands of years. Bothans use information as a measure of wealth and power, even wielding it as a weapon when necessary. The Bothan SpyNet, one of the largest intelligence agencies during most eras, plays an important role in the Galactic Civil War. </p><p>Culturally, Bothans don't believe in direct conflict because it destroys people, material, and even information. They prefer behind-the-scenes manipulation, watching and waiting for information that they can use to gain status and influence. This attitude makes espionage a natural part of their culture. While others often find Bothans to be manipulative and irritating, no one wants to lose access to their SpyNet. As a result, nearly all groups have at least some contact with the Bothans. </p><h3>Bothan Characteristics</h3><p><b>Personality:</b> Bothans are curious, manipulative, crafty, suspicious, and even a bit paranoid. They can be irritating, but they are also loyal and brave. </p><p><b>Physical Description:</b> Bothans are covered with fur that ripples in response to their emotional state. They have tapered ears, and both male and female Bothans sport beards. They average about 1.6 meters tall and have a maturity rate and life span slightly greater than Humans. </p><p><b>Age Groups:</b> Bothan age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-45 Years </td> \n   <td>46-65 Years </td> \n   <td>66-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The industrial world of Bothawui is the birthplace of the Bothans, along with various colony worlds throughout The Mid Rim territories. </p><p><b>Languages:</b> Bothans speak, read, and write both Bothese and Basic. </p><p><b>Example Names:</b> Borsk Fey'lya, Karka Kre'fey, Koth Melan, Tav Breil'lya, Tereb Ab'lon. </p><p><b>Adventurers:</b> Bothan adventures, often SpyNet operatives, engage in daring missions at great personal risk. In addition, many Bothan heroes serve as Soldiers, Scoundrels, and Nobles. Their curiosity leads some to be explorers and Scouts. </p><h3>Bothan Species Traits</h3><p>Bothans share the following Species Traits: </p><h2>Additional Bothan Species Feats</h2><p>Bothan characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Bothan Will </td> \n   <td> </td> \n   <td>Gain a bonus to Will Defense when an enemy fails to overcome your iron will. </td>\n  </tr> \n  <tr> \n   <td>Confident Success </td> \n   <td> </td> \n   <td>Gain a Force Point when you successfully Learn Secret Information. </td>\n  </tr> \n  <tr> \n   <td>Lasting Influence </td> \n   <td> </td> \n   <td>After a successful Persuasion check, gain a bonus to future Persuasion checks. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Gather Information))",
+        "description": ""
+      },
+      {
+        "name": "Iron Will",
+        "description": "<p>Beings gain a +2&nbsp;Species&nbsp;bonus to their&nbsp;Will Defense.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "vLYo9K0G2heZngnP",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

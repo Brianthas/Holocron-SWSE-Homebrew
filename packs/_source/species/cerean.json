@@ -1,0 +1,32 @@
+{
+  "_id": "055Vu6rUejEVoF6E",
+  "_key": "!items!055Vu6rUejEVoF6E",
+  "name": "Cerean",
+  "type": "species",
+  "system": {
+    "description": "<p>Cereans are a sophisticated and cultured humanoid Species native to Cerea, a world on the fringes of known space. Their elongated heads distinguish them from most other humanoid Species. </p><p>Cereans established contact with the rest of the galaxy shortly before the Galactic Republic was transformed into the Empire, swiftly gaining fame as expert astrogators, cryptographers, and economists. Few patterns or trends escape the notice of a Cerean. </p><p>Cerean society is matriarchal, and the Cerean culture's traditional values emphasize living in harmony with nature and minimizing any impact on the environment from technology. The peaceful philosophies of The Jedi appeal to Cereans, and many join the Order. </p><h3>Cerean Characteristics</h3><p><b>Personality:</b> Cereans tend to be calm, rational, and extremely logical. </p><p><b>Physical Description:</b> Cereans average about 2 meters tall, with elongated craniums housing binary brains. They have a maturity rate and life span similar to those of Humans. </p><p><b>Age Groups:</b> Cereans age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-35 Years </td> \n   <td>36-53 Years </td> \n   <td>54-64 Years </td> \n   <td>65+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The blissful planet Cerea. </p><p><b>Languages:</b> Cereans speak, read, and write both Cerean and Basic. </p><p><b>Example Names:</b> Ki-Adi, So Leet, Sylvn, Ti-Dal, Maj-Odo. </p><p><b>Adventurers:</b> Cereans who become adventurers do so in spite of their peaceful traditions. Still, when a cause or situation leads down this path, a Cerean tries to keep these traditions intact, avoiding aggression when possible. The binary brain allows a Cerean to constantly weigh both sides in any disagreement and give two points of view equal consideration. This ability extends even to issues surrounding The Force, and a Cerean Jedi often contemplates The Light Side and The Dark Side simultaneously. </p><h3>Cerean Species Traits</h3><p>Cereans share the following Species Traits: </p><h2>Additional Cerean Species Feats</h2><p>Cerean characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Binary Mind </td> \n   <td> </td> \n   <td>Enemies must roll twice, keeping the lower result, on Mind-Affecting effects. </td>\n  </tr> \n  <tr> \n   <td>Mind of Reason </td> \n   <td> </td> \n   <td>Use Wisdom instead of Intelligence for Intelligence-based Skill Checks. </td>\n  </tr> \n  <tr> \n   <td>Perfect Intuition </td> \n   <td> </td> \n   <td>Reroll Initiative checks, always keeping the better result. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Initiative))",
+        "description": ""
+      },
+      {
+        "name": "Intuitive Initiative",
+        "description": "<p>A being may choose to reroll any Initiative check, but the result of the reroll must be accepted even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "dLjxoHw3yVehNSEb",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

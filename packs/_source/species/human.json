@@ -1,0 +1,32 @@
+{
+  "_id": "dVrL4nmSOaim23jp",
+  "_key": "!items!dVrL4nmSOaim23jp",
+  "name": "Human",
+  "type": "species",
+  "system": {
+    "description": "<p>Humans dominate the Core Worlds and can be found in virtually every corner of the galaxy. They are the ancestors of early spacefaring pioneers, conquerors, traders, travelers, and refugees. Humans have always been people on the move. As a result, they can be found on almost every inhabited planet. As a Species, Humans are physically, culturally, and politically diverse. Hardy or fine, light-skinned or dark, Humans remain one of the most dominant Species throughout all eras of play. </p><h3>Human Characteristics</h3><p><b>Personality:</b> Human personality runs the gamut of possibilities, though members of this Species tend to be highly adaptable, tenacious, and willing to keep striving no matter the odds. They are flexible and ambitious, diverse in their tastes, morals, customs, and habits. </p><p><b>Age Groups:</b> Humans age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-15 Years </td> \n   <td>16-40 Years </td> \n   <td>41-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworlds:</b> Various, including Coruscant, Corellia, Naboo, Tatooine, and Alderaan. </p><p><b>Languages:</b> Humans speak, read, and write Basic. They often learn other languages as well, including obscure ones. </p><p><b>Example Names:</b> Anakin, Arani, Bail, Ben, Biggs, Boba, Corran, Dack, Dané, Galak, Garm, Han, Jango, Jodo, Lando, Leia, Luke, Mace, Mara, Obi-Wan, Owen, Padmé, Qui-Gon, Sia-Lan, Rann, Talon, Vor'en, Wedge, Winter. </p><p><b>Adventurers:</b> Humans aren't afraid to try anything, and Human adventurers are the most audacious, daring, and ambitious members of an audacious, daring, and ambitious Species. A Human can earn glory by amassing power, wealth, and fame. More than any other Species, Humans champion causes rather than territories or groups. </p><h3>Human Species Traits</h3><p>Humans share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Bonus Trained Skill",
+        "description": "<p>A being chooses one additional Trained Skill at 1st level. The Skill must be chosen from the character's list of Class Skills.</p>"
+      },
+      {
+        "name": "Bonus Feat",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "hkBEXYR8S6uTxWST",
+      "sourceBook": ""
+    }
+  }
+}

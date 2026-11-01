@@ -1,0 +1,44 @@
+{
+  "_id": "zy9F4cifg0Dg9gs9",
+  "_key": "!items!zy9F4cifg0Dg9gs9",
+  "name": "Verpine",
+  "type": "species",
+  "system": {
+    "description": "<p>The Verpine have been spacefarers for all their recorded history, long before they had contact with other Species. Verpine have traveled for so long that the name and location of their homeworld have been lost to antiquity. They are fascinated with technology in all its forms, and consider themselves to be experts in all technological fields. Any device that falls into Verpine hands is prone to being taken apart, reassembled, and improved with astounding speed and skill. The asteroid field that the Verpine have transformed into a thriving colony is a testament to their mastery of technology. </p><p>Verpine society is guided by an absolute majority rule. Their natural communication ability enables the Verpine of a community to easily poll every individual Verpine within it. Each Verpine has an equal say in any governmental process, and the final decision is binding. This approach to government enables a single Verpine to speak with certainty about his or her community's stance on any given issue. </p><h3>Verpine Characteristics</h3><p><b>Personality:</b> Deeply fascinated by technology, a Verpine will risk his or her life to protect valuable equipment. Verpine consider technology to be the best means for resolving a dilemma and are willing to improve existing Equipment when necessary. </p><p><b>Physical Description:</b> Their height and sticklike limbs give Verpine a gangly appearance. Their bodies are covered in green plates of chitin. Each Verpine has two large black eyes and dual antennae. Verpine have three digits on each hand and foot. </p><p><b>Age Groups:</b>&nbsp;Verpine age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-4 Years </td> \n   <td>5-9 Years </td> \n   <td>10-40 Years </td> \n   <td>41-60 Years </td> \n   <td>61-80 Years </td> \n   <td>81+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Verpine's largest settlement is the Roche (Asteroid Field), located in The Mid Rim. Verpine rely extensively on technology to make the asteroids habitable. </p><p><b>Languages:</b> Verpine read, speak, and write Verpine, which they transmit to each other through organically generated radio waves. </p><p><b>Example Names:</b> Garginoolaara, Jurfel, Kyli Ned'lx, Suskafoo, Zix, Zraii. </p><p><b>Adventurers:</b> Verpine are frequently Technicians and Scoundrels, with a focus on creating and repairing technology. </p><h3>Verpine Species Traits</h3><p>Verpine share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Armor (+1)",
+        "description": "<p>A being gains a Natural Armor bonus to their&nbsp;Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Mechanics))",
+        "description": ""
+      },
+      {
+        "name": "Heightened Awareness",
+        "description": "<p>A being can choose to reroll any&nbsp;Perception&nbsp;check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      },
+      {
+        "name": "Hive Mind",
+        "description": "<p>A being within 1 kilometer of another member of its Species can communicate with it via&nbsp;Telepathy.</p>"
+      },
+      {
+        "name": "Weapon Familiarity (Verpine Shattergun:Pistols)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "2t6muwqoFukt6v08",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

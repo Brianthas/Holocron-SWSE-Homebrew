@@ -1,0 +1,36 @@
+{
+  "_id": "ifcxddOjsH3pzeKj",
+  "_key": "!items!ifcxddOjsH3pzeKj",
+  "name": "Republic Clone",
+  "type": "species",
+  "system": {
+    "description": "<p>Given the prominence of Clones in the story of the Clone Wars, Gamemasters should not be surprised if players wish to play Clone characters. Clone Trooper heroes can be interesting and present exciting story opportunities, especially for a Gamemaster who plans to use Order 66 in the campaign finale. Gamemasters should allow players to play Clone Trooper heroes who stand out from the rank-and-file Clone Troopers. </p><p>The basic Republic Clone is bred for obedience and military discipline. This can stifle players who want more free will. Instead, the player could choose to play an ARC Trooper or a Republic Clone Commando, both unit types are Clones based on the original Jango Fett template, but they have more of Fett's personality and fewer behavioral restrictions than standard Clone Troopers. They receive special training better suited to heroic careers, and many have Destinies that stretch out beyond the Clone Wars. For Republic Clone heroes, characters receive a variant of the basic Human template. </p><h3>Republic Clone Characteristics</h3><p><b>Personality:</b> Though often viewed as the \"Flesh and blood\" equivalent of Battle Droids, Clones possessed a limited capacity for individuality. They were bred for no other purpose than combat, but nevertheless they developed as individuals under the guidance of their Jedi officers. The Jedi's&nbsp;unique abilities&nbsp;and leadership prowess earned them the admiration and respect of the Clones who served under them. </p><p><b>Physical Description:</b> Republic Clones are genetic replicas of the Human Species. Specifically, they are based off of the bounty hunter Jango Fett, which results in they being almost indistinguishable from one another. All Republic Clones reach a height of 1.83 Meters, and unless put through particularly unusual training, they weigh 80 Kilograms. </p><p><b>Age Groups:</b> Republic Clones age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-5 Years </td> \n   <td>6-7 Years </td> \n   <td>8-20 Years </td> \n   <td>21-29 Years </td> \n   <td>30-39 Years </td> \n   <td>40+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The vast majority of Republic Clones are created on Kamino by the Kaminoans. </p><p><b>Languages:</b> Republic Clones all learn Basic. </p><p><b>Example Names:</b> When a Republic Clone is created, they are assigned a two letter and four digit identification tag, although those that survive multiple deployments tend to take up a moniker to better identify themselves. </p><p><b>Adventurers:</b> All Republic Clones received basic training in core military skills, such as weapons handling, marksmanship, drill, and other essentials. As such, the vast majority of Republic Clones become Soldiers, with a rare few becoming Scouts and Technicians. </p><h3>Republic Clone Species Traits</h3><p>The Human Clones produced by the Kaminoans for the Republic share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Bonus Trained Skill",
+        "description": "<p>A being chooses one additional Trained Skill at 1st level. The Skill must be chosen from the character's list of Class Skills.</p>"
+      },
+      {
+        "name": "Disable Attribute Modification",
+        "description": "<p>Some Species have set Attribute Arrays</p>"
+      },
+      {
+        "name": "Bonus Feat",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "utPyEzFyWvathcYf",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

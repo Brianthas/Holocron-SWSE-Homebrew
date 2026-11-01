@@ -1,0 +1,48 @@
+{
+  "_id": "Y8crADMl64tHg7eA",
+  "_key": "!items!Y8crADMl64tHg7eA",
+  "name": "Mon Calamari",
+  "type": "species",
+  "system": {
+    "description": "<p>Amphibious land-dwellers, the Mon Calamari share their Outer Rim homeworld with the aquatic Quarren. They tend to be soft-spoken but vigorously defend causes that inspire them. Mon Calamari suffered under great oppression under The Galactic Empire; thus, it was one of the first worlds to declare support for The Rebel Alliance.</p><p>Mon Calamari are widely recognized for their keen analytical and organizational abilities, and they have developed a reputation as being among the foremost ship designers in the galaxy. They see everything they create as a work of art, not just a tool or weapon. </p><h3>Mon Calamari Characteristics</h3><p><b>Personality:</b> Creative, quiet, and inquisitive, the Mon Calamari are dreamers who cherish peace, but aren't afraid to fight for the causes they believe in. </p><p><b>Physical Description:</b> The average Mon Calamari stands 1.8 meters tall. They have high-domed heads, large eyes, and smooth, mottled skin. </p><p><b>Age Groups:</b> Mon Calamari age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-40 Years </td> \n   <td>41-57 Years </td> \n   <td>58-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The watery world of Mon Calamari. </p><p><b>Languages:</b> The Mon Calamari can speak, read, and write both Mon Calamarian and Basic. Most tend to also learn Quarrenese as well. </p><p><b>Example Names:</b> Ackbar, Bant, Cilhal, Ibtisam, Jesmin, Oro, Perit, Rekara. </p><p><b>Adventurers:</b> Mon Calamari seek their dreams among the stars. They are idealistic and daring, often attaching themselves to causes that seem hopeless or lost right from the start. They strive to prove that even thinkers and dreamers can be brave and daring when the need arises. </p><h3>Mon Calamari Species Traits</h3><p>Mon Calamari share the following Species Traits: </p><h2>Additional Mon Calamari Species Feats</h2><p>Mon Calamari characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Fast Swimmer </td> \n   <td> </td> \n   <td>Gain a bonus to your Swim Speed. </td>\n  </tr> \n  <tr> \n   <td>Mon Calamari Shipwright </td> \n   <td> </td> \n   <td>Reroute Power more quickly and without the risk of failure. </td>\n  </tr> \n  <tr> \n   <td>Sharp Senses </td> \n   <td> </td> \n   <td>Increase the die type when adding Force Points to a Perception check. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Perception))",
+        "description": ""
+      },
+      {
+        "name": "Breathe Underwater",
+        "description": "<p>Beings can't drown in water.</p>"
+      },
+      {
+        "name": "Expert Swimmer",
+        "description": "<p>A being may choose to reroll any&nbsp;Swim&nbsp;check, but the result of the reroll must be accepted, even if it is worse. In addition, a being may choose to&nbsp;Take 10&nbsp;on&nbsp;Swim&nbsp;checks, even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Swimming",
+        "description": "<p>Beings possess an inherent Swim speed.</p>"
+      },
+      {
+        "name": "Swim Speed (4)",
+        "description": "A being has a swim speed of #payload#."
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "asa7oUvAvDTnC9fI",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

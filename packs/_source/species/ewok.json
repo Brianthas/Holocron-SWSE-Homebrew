@@ -1,0 +1,40 @@
+{
+  "_id": "iZhwIgOe3aIkwIUE",
+  "_key": "!items!iZhwIgOe3aIkwIUE",
+  "name": "Ewok",
+  "type": "species",
+  "system": {
+    "description": "<p>Intelligent omnivores native to one of the moons orbiting Endor, Ewoks are almost unknown prior to the battle of Endor. Ewoks live in tree-dwelling tribes with gender-based division of labor; males hunt, forage, and make weapons, while females raise young and handle other domestic tasks. Ewok culture revolves around complex animistic beliefs involving the giant trees of the forest moon. </p><p>Although technologically primitive, Ewoks are clever, inquisitive, and inventive. Skittish and wary when first introduced to machines, their curiosity soon overcomes fear. </p><h3>Ewok Characteristics</h3><p><b>Personality:</b> Ewoks tend to be curious, superstitious, and courageous, though they can be fearful around things that are strange or new. </p><p><b>Physical Description:</b> Ewoks average about 1 meter tall. Their fur color and pattern varies widely. </p><p><b>Age Groups:</b> Ewoks age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>14-29 Years </td> \n   <td>30-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Forest Moon of Endor. </p><p><b>Languages:</b> Ewoks speak Ewokese. They have no written form of their language. They can learn to speak Basic. </p><p><b>Example Names:</b> Asha, Chirpa, Deej, Kneesaa, Latara, Logray, Malani, Nippet, Paploo, Shodu, Teebo, Wicket, Wiley. </p><p><b>Adventurers:</b> An Ewok adventurer may be motivated by a love of excitement, a natural inquisitiveness, or a warrior's quest. Collecting powerful \"Magic\" items from fallen opponents is a sure way to earn the respect of the tribe. </p><h3>Ewok Species Traits</h3><p>Ewoks share the following Species Traits: </p><h2>Additional Ewok Species Feats</h2><p>Ewok characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Ample Foraging </td> \n   <td> </td> \n   <td>Grant a bonus to allies' Fortitude Defense by foraging. </td>\n  </tr> \n  <tr> \n   <td>Forest Stalker </td> \n   <td> </td> \n   <td>Reroll Stealth checks, always keeping the better result. </td>\n  </tr> \n  <tr> \n   <td>Keen Scent </td> \n   <td> </td> \n   <td>Increase the range of your Scent ability by 20 squares. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "small",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Primitive",
+        "description": "<p>Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Survival))",
+        "description": ""
+      },
+      {
+        "name": "Scent",
+        "description": "<p>At close range (within 10 squares), beings ignore Concealment and Cover for purposes of Perception checks, and take no penalty from poor visibility while Tracking.</p>"
+      },
+      {
+        "name": "Sneaky",
+        "description": "<p>A beings can choose to reroll any&nbsp;Stealth&nbsp;check to&nbsp;Sneak, but the result of the reroll must be accepted, even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "411RTezH8nndhQcB",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

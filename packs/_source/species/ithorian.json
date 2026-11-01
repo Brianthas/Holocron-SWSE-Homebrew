@@ -1,0 +1,40 @@
+{
+  "_id": "QuXSwCwPwInstLyk",
+  "_key": "!items!QuXSwCwPwInstLyk",
+  "name": "Ithorian",
+  "type": "species",
+  "system": {
+    "description": "<p>Ithorians are tall humanoids whose appearance leads many to refer to them colloquially as \"Hammerheads.\" Peaceful and gentle, Ithorians are widely recognized as talented artists, brilliant agricultural engineers, and skilled diplomats.</p><p>Ithorians are perhaps the greatest ecologists in the galaxy, devoting their technology to preserving the natural beauty of their homeworld's jungles. They live in \"Herds,\" dwelling in cities that hover above the surface of their planet and striving to maintain the ecological balance in the \"Mother Jungle.\" </p><p>Ithorians also travel the galaxy in massive \"Herd Ships,\" masterpieces of environmental engineering that carry a perfect replica of their native jungle. Many look forward to trading for the exotic wares the Ithorians bring from distant planets. </p><h3>Ithorian Characteristics</h3><p><b>Personality:</b> Ithorians tend to be calm, peaceful, tranquil, and gentile. </p><p><b>Physical Description:</b> Ithorians are humanoid, ranging in height from 1.8 to 2.3 meters tall, with long necks that curl forward and end in dome-shaped heads. They have two mouths, one on each side of their neck, producing a stereo effect when they talk. </p><p><b>Age Groups:</b> Ithorians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-13 Years </td> \n   <td>14-17 Years </td> \n   <td>18-44 Years </td> \n   <td>45-69 Years </td> \n   <td>70-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The jungle world of Ithor, or a specific Herd Ship. </p><p><b>Language:</b> Ithorians can read and write both Basic and Ithor. When they speak the languages, they speak in a stereophonic voice. </p><p><b>Example Names:</b> Fandomar, Momaw, Oraltor, Tomia, Trangle, Umwaw. </p><p><b>Adventurers:</b> Ithorians tend to concentrate on peaceful professions. They love to meet new beings and see new places. Often, wanderlust leads them to explore the greater galaxy as Scouts, before they eventually return home. </p><h3>Ithorian Species Traits</h3><p>Ithorians share the following Species Traits: </p><h2>Additional Ithorian Species Feats</h2><p>Ithorian characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Devastating Bellow </td> \n   <td> </td> \n   <td>Deal more damage with your Bellow attacks. </td>\n  </tr> \n  <tr> \n   <td>Nature Specialist </td> \n   <td> </td> \n   <td>Increase the die type when adding Force Points to a Knowledge (Life Sciences) check. </td>\n  </tr> \n  <tr> \n   <td>Strong Bellow </td> \n   <td> </td> \n   <td>Use your Bellow ability without moving down the Condition Track. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Knowledge (Life Sciences)))",
+        "description": ""
+      },
+      {
+        "name": "Iron Will",
+        "description": "<p>Beings gain a +2&nbsp;Species&nbsp;bonus to their&nbsp;Will Defense.</p>"
+      },
+      {
+        "name": "Bellow",
+        "description": "<p>As a Standard Action, a being can release an incredible Bellow. The being makes a special attack roll (1d20 + its Character Level) and compares the result to the Fortitude Defense of all creatures and unattended objects in a 6-Square Cone. A successful hit deals 3d6 points of Sonic damage; if the attack misses, the target takes half damage instead.</p><p>Each use of this ability moves the being -1 step along the Condition Track.</p><p>A being can choose to add more dice (d6s) to the damage it deals with its Bellow, but each additional 1d6 of damage moves the being another -1 step along the Condition Track.</p>"
+      },
+      {
+        "name": "Survival Instinct",
+        "description": "<p>A being may choose to reroll any&nbsp;Survival check, but the result of the reroll must be accepted even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "XhOLs4HlcW6Qf5yZ",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

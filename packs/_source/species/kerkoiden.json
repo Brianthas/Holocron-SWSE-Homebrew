@@ -1,0 +1,32 @@
+{
+  "_id": "Ua1sx28MADwBvyNV",
+  "_key": "!items!Ua1sx28MADwBvyNV",
+  "name": "Kerkoiden",
+  "type": "species",
+  "system": {
+    "description": "<p>A smaller Species from The Expansion Region, the Kerkoiden are aggressive and cunning beings who often have something to prove. Excellent traders, skilled politicians, and creative military commanders, Kerkoiden are known as formidable opponents, a reputation they prove is well-earned during the Clone Wars. </p><p>Xenobiologists from the University of Sanbra believe that the Kerkoiden Species descended from quadruped predators that hunt on the savannahs and in the jungles of Kerkoidia. Much of Kerkoiden physiology seems to support this claim, including their hunched posture, long snout, and jutting teeth. Additionally, Kerkoiden aggression seems to be consistent with the predatory instinct of their ancestors, lending credence to this theory of Kerkoiden evolution. </p><p>The Kerkoiden Species as a whole has fought to evolve beyond their predatory ancestry and prove to the galaxy that they are sophisticated and civilized. Many Kerkoiden nobles pride themselves on superior breeding and also on being refined and sophisticated enough to rub elbows with the galaxy's elite on Coruscant. Of course, this also leads to elitism among the Kerkoidens, which does the Species no favors on the galactic scene. </p><h3>Kerkoiden Characteristics</h3><p><b>Personality:</b> The Kerkoiden have shifted many of their cunning predatory instincts over to the social arena, becoming savory politicians on a galactic scale. Most Kerkoiden are pushy if not outright aggressive. They regard everyone with suspicion, and expect deception from their political and social rivals. Additionally, many Kerkoiden would like to believe that their people are more evolved and sophisticated than their heritage suggests, leading them to be both elitist and arrogant at times. </p><p><b>Physical Description:</b> Kerkoiden are hunched beings with rough skin that ranges in hue from green to dark blue. Their bodies still show signs of predatory physiology, namly their long claws and jutting teeth. Kerkoiden have tall, slender heads with long snouts and narrow eyes. </p><p><b>Age Groups:</b> Kerkoiden age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-18 Years </td> \n   <td>19-45 Years </td> \n   <td>46-70 Years </td> \n   <td>71-90 Years </td> \n   <td>91+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Kerkoiden Species hails from Kerkoidia, a world covered in tall, grassy savannahs and thick swamps in The Expansion Region, specifically in the Kira Sector just off the Harrin Trade Corridor. </p><p><b>Languages:</b> Kerkoiden speak their native tongue of Kerkoidese. Kerkoiden speaking Basic do so in long, drawling voices. </p><p><b>Example Names:</b> Dram Bothren, Var Cashral, Pheel Hoshar, Whorm Loathsom. </p><p><b>Adventurers:</b> Kerkoiden adventurers gravitate toward Heroic Classes where they can freely exhibit their aggressiveness or demonstrate their sophistication. Soldiers are common. Kerkoiden also make excellent Nobles, using their wisdom and cunning to talk circles around their opponents. Kerkoiden Scoundrels take pleasure in throwing a proverbial hydrospanner into their opponents' plans, sowing discord and shattering enemy organization. Kerkoiden who learn to temper their aggression with wisdom might also become Jedi. </p><h3>Kerkoiden Species Traits</h3><p>Kerkoiden share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Social Cunning",
+        "description": "<p>Beings may use their Wisdom modifier in place of their Charisma modifier for determining their bonus on Deception and Persuasion checks.</p>"
+      },
+      {
+        "name": "Predator's Heritage",
+        "description": "<p>Beings gain a +2 Species bonus on damage rolls against a target that has been damaged since the beginning of the being's last turn.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "HgxGCvZenJQcP9T0",
+      "sourceBook": "Star Wars Saga Edition Clone Wars Campaign Guide"
+    }
+  }
+}

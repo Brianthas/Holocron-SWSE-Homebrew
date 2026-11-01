@@ -1,0 +1,32 @@
+{
+  "_id": "wxO1CXSmwwJAOppK",
+  "_key": "!items!wxO1CXSmwwJAOppK",
+  "name": "Arcona",
+  "type": "species",
+  "system": {
+    "description": "<p>The Arcona are cold-blooded humanoids who hail from Cona, an arid world in the Teke Ro System. </p><p>Arcona society is less technologically evolved than what is considered the galactic norm. The Species did not develop space travel on their own, but shortly after Republic scouts made contact with the world many decades ago, entire villages sought employment with the Republic and interstellar corporations, fascinated by the possibility of exploring the galaxy. In all three major Eras of Play, most worlds located at trade-route junctions have at least one Arcona colony, and Arcona can be found at virtually every large spaceport- either as travelers or operators of businesses. </p><p> While most beings consider Arcona cities on Cona quality low-tech, the planet has several impressive starports, and many of the galaxy's mining companies operate on Cona. The system in general, and Cona in particular, boasts rich rare-mineral deposits. Water is the most precious substance on Cona, so the Arcona sold the mining rights to the firms for massive shipments of water. Although the Arcona derive many essential nutrients directly from the world's atmosphere, they also need to consume water and other liquids to keep secondary circulatory systems in their bodies healthy. (This has led some planetary geologists to hypothesize that Cona lost much of its water in some geologically recent catastrophe, though this remains unproven.)</p><p>When it was discovered the Arcona can easily and hopelessly become addicted to sodium chloride (salt) by ingesting even a gram or two of the substance, unscrupulous merchants almost destroyed Arcona society by creating several generations of salt addicts. Salt induces vivid, colorful hallucinations in Arcona, but repeated use damages their body's ability to absorb life-giving ammonia. Only the intervention of the Republic saved the Arcona. The Senate passed draconian laws that punished the importation of salt to the Teke Ro System or to Arcona communities elsewhere in the galaxy, and the Arcona themselves zealously police their communities. Arcona addicted to salt are easily identifiable; their multifaceted eyes turn from green to gold. </p><p>The center of Arcona society is the family, and communities consist of several loosely affiliated extended families. The entire family (extended and biological) is considered when making even the simplest decisions. </p><h3>Arcona Characteristics</h3><p><b>Personality:</b> An individual Arcona almost always uses the pronoun \"we\" instead of \"I.\" Male Arcona raise the young, since Arcona females are typically impulsive thrill-seekers. As such, females are particularly prone to risking salt addiction, while males go to great lengths to keep the substance out of their communities. In fact, male Arcona are renowned for their conservative outlooks and strong commitment to maintaining order at the cost of individual ambitions and desires. </p><p><b>Physical Description:</b> Arcona have thick skin that ranges in color from mahogany to ebony, and triangular heads with large multifaceted eyes that seem to sparkle. Their hands feature three prehensile talons. </p><p><b>Age Groups:</b>&nbsp;Arcona age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-18 Years </td> \n   <td>19-44 Years </td> \n   <td>45-76 Years </td> \n   <td>77-99 Years </td> \n   <td>100+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Cona, an arid Inner Rim world located within the Teke Ro System. </p><p><b>Languages:</b> Arcona have a native tongue (Arconese) that is rarely spoken by those who have been raised in off-Cona colonies, but the Species has little difficulty learning and speaking Basic. </p><p><b>Examples Names:</b> Dutan Kelliv, Dutana Leara, Hem Dazon, Illist Mandrep, Kal Nkai, Kodu Terrafin, Shlith-Dan, Vegath Tist. </p><p><b>Adventurers:</b> Arcona do not favor any particular Heroic Class and are nearly as diverse in their pursuits as Humans. During the Rise of the Empire era, many Arcona follow the path of a Jedi. </p><h3>Arcona Species Traits</h3><p>Arcona share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Great Fortitude",
+        "description": "<p>Beings gain a +2&nbsp;Species&nbsp;bonus to their&nbsp;Fortitude Defense.</p>"
+      },
+      {
+        "name": "Scent",
+        "description": "<p>At close range (within 10 squares), beings ignore Concealment and Cover for purposes of Perception checks, and take no penalty from poor visibility while Tracking.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uNyUVwlSyUWjTkCl",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements (Planet Hoppers)"
+    }
+  }
+}

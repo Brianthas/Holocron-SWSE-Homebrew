@@ -1,0 +1,40 @@
+{
+  "_id": "mQZqBf3BSSqyHMzk",
+  "_key": "!items!mQZqBf3BSSqyHMzk",
+  "name": "Yuuzhan Vong",
+  "type": "species",
+  "system": {
+    "description": "<p> The Yuuzhan Vong come from the unknown reaches of space, entering the galaxy as invaders fueled by religious conviction. They have no connection to The Force, and regard mechanical technology as blasphemous. Their Starships, weapons, armor, and tools are genetically engineered lifeforms or created from the byproducts of such creatures.</p><p>After laying waste to many New Republic worlds, the invading Yuuzhan Vong are eventually overcome by The Galactic Alliance. Peace is restored, even though some Yuuzhan Vong remain behind in isolated corners of the galaxy. In time, The Jedi approach these few remaining Yuuzhan Vong, hoping to harness their advanced terraforming technology to restore many of the worlds ravaged during the invasion. </p><p>Surprisingly, the Yuuzhan Vong agree to help The Jedi, but their terraforming attempts are sabotaged by The Sith. The blame for this failure falls squarely on the Yuuzhan Vong, who are hated and feared. The Yuuzhan Vong and their Jedi accomplices are hunted down, and The Galactic Alliance falls beneath the onslaught of Imperial forces. </p><h3>Yuuzhan Vong Characteristics</h3><p><b>Personality:</b> Although the Yuuzhan Vong became a more introspective people following their defeat at the hands of The Galactic Alliance, they remain capable, spiritual warriors. A great many feel that the galactic community will never accept them. Years of hostility, coupled with propaganda, have painted the Yuuzhan Vong in a sinister light that cannot easily be dispelled. Still, they maintain a code of honor that is often lost on those who do not understand them. </p><p>Yuuzhan Vong heroes are exceptional in many ways, not the least of which is their belief that they must evolve to survive- and that entails learning how to coexist with Species traditionally regarded as weak or impure, and letting go of their own prejudices. These rare Yuuzhan Vong see the road ahead as difficult, but worth traveling. </p><p><b>Physical Description:</b> Yuuzhan Vong are humanoids with sloped foreheads, pallid skin, and dark hair. Their skin bears ritualistic scars and tattoos that add to their sinister appearance. </p><p><b>Age Groups:</b> Yuuzhan Vong age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-17 Years </td> \n   <td>18-40 Years </td> \n   <td>41-60 Years </td> \n   <td>61-75 Years </td> \n   <td>76+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Unknown. The Yuuzhan Vong trace their origins to a place far beyond the known galaxy. At the end of The New Jedi Order Era, the surviving Yuuzhan Vong are exiled to Zonama Sekot, a living planet rumored to be the seed of the original Yuuzhan Vong homeworld. Zonama Sekot retreats into The Unknown Regions at the beginning of The Sith-Imperial War, leaving a number of Yuuzhan Vong stranded in other remote corners of the galaxy. </p><p><b>Languages:</b> The language of the Yuuzhan Vong is a halting, chilling tongue. Yuuzhan Vong rarely learn other languages, relying on bioengineered translators known as tizowyrms to translate for them. </p><p><b>Example Names:</b> Nom Anor, Dooje Brolo, Malik Carr, Yomin Carr, Chine-kal, Nas Choka, Da'Gara, Elan. Kae Kwaad, Mezhan Kwaad, Kahlee Lah, Qurang Lah, Tsavong Lah, Ma'Shraid, Vua Rapuung, Shedao Shai, Taan, Tu Shoolb, Nem Yim. </p><p><b>Adventurers:</b> Yuuzhan Vong society is divided into castes. Members of the intendant, priest, and shaper castes are often Nobles and Scoundrels, while members of the warrior caste are typically Soldiers and Scouts. The worker caste is made up of members of nearly any class, though the vast majority are Nonheroic characters. Due to their lack of connection to The Force, Yuuzhan Vong can never be Jedi. </p><h3>Yuuzhan Vong Species Traits</h3><p>Yuuzhan Vong share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Primitive",
+        "description": "<p>Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.</p>"
+      },
+      {
+        "name": "Force Immunity",
+        "description": "<p>Beings can't take the Force Sensitivity Feat, can't make Use the Force checks, and never gain Force Points. In addition, they are immune to any Force effect that targets their Will Defense (including Force Powers and aspects of the Use the Force skill).</p>"
+      },
+      {
+        "name": "Biotech Proficiency",
+        "description": "<p>Beings suffer no penalties while wielding Biotechnology.</p>"
+      },
+      {
+        "name": "Weapon Familiarity (Amphistaff:Simple Melee Weapons)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "uzdR2DiVJ8fGob1l",
+      "sourceBook": "Star Wars Saga Edition Legacy Era Campaign Guide"
+    }
+  }
+}

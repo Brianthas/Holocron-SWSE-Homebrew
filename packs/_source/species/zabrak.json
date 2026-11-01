@@ -1,0 +1,32 @@
+{
+  "_id": "6neqXCURz2VYEdhw",
+  "_key": "!items!6neqXCURz2VYEdhw",
+  "name": "Zabrak",
+  "type": "species",
+  "system": {
+    "description": "<p>The Zabrak are an early spacefaring race distinguished by patterns of vestigial horns on their heads. Zabrak hail from many worlds and have been spacefarers for so long that they define themselves and each other according to their colony of origin.</p><p>The harshness of Iridonia, their homeworld, forged in the Zabrak an iron will to survive. Driven to escape their world, they sought to obtain the knowledge of space flight. When Duros scouts began exploring The Mid Rim, they encountered Zabrak in eight sovereign colonies in five different systems. Though subjugated under the harsh rule of the Empire, the Zabrak colonies eventually regained their independence. </p><p>Zabrak posses a great amount of confidence, and they believe that there is nothing they can't accomplish. While this innate attribute could lead to feelings of superiority, most Zabrak don't look down on others. They believe in themselves and are proud and strong, but they rarely project any negativity toward those of other Species. </p><h3>Zabrak Characteristics</h3><p><b>Personality:</b> Zabrak tend to be dedicated, intense, and focused, sometimes appearing obsessive and single-minded to other Species. </p><p><b>Physical Description:</b> Zabraks are humanoid, distinguished by patterns of vestigial horns atop their heads. The average Zabrak stands 1.8 meters tall. </p><p><b>Age Groups:</b> Zabraks age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-8 Years </td> \n   <td>9-14 Years </td> \n   <td>15-44 Years </td> \n   <td>45-55 Years </td> \n   <td>56-69 Years </td> \n   <td>70+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The barren world of Iridonia, or one of the eight colonies in The Mid Rim region of space. </p><p><b>Languages:</b> Zabraks speak, read, and write both Zabrak and Basic. </p><p><b>Example Names:</b> Aagh Odok, Eeth Koth, Kooth Aan, Bao Dur. </p><p><b>Adventurers:</b> Zabrak adventurers love to explore the galaxy. No challenge is too big to deter a Zabrak. They range from Scoundrels on distant colony worlds, to Noble diplomats and merchants, to Scouts, Soldiers, and even Jedi. </p><h3>Zabrak Species Traits</h3><p>Zabrak share the following Species Traits: </p><h2>Additional Zabrak Species Feats</h2><p>Zabrak characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Inborn Resilience </td> \n   <td> </td> \n   <td>Reduce one Defense bonus but increase another. </td>\n  </tr> \n  <tr> \n   <td>Instinctive Perception </td> \n   <td> </td> \n   <td>Gain a temporary Force Point when your Perception reroll is lower. </td>\n  </tr> \n  <tr> \n   <td>Unwavering Focus </td> \n   <td> </td> \n   <td>Impose a penalty to Skill Checks for Mind-Affecting effects that target you. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Superior Defenses",
+        "description": "<p>Beings gain a +1 Species bonus to all their Defenses.</p>"
+      },
+      {
+        "name": "Heightened Awareness",
+        "description": "<p>A being can choose to reroll any&nbsp;Perception&nbsp;check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "iWNmesgciSn8anyk",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "w3aegLGrPkc2uOQ6",
+  "_key": "!items!w3aegLGrPkc2uOQ6",
+  "name": "Balosar",
+  "type": "species",
+  "system": {
+    "description": "<p>Balosars are humanoids with a shady reputation throughout the Core Worlds. They can easily pass for Human (when their antennapalps are retracted) and tend to live among the lowest echelons of society, preying on the vices of the weak-willed or impoverished. </p><p>Relief agencies have been trying to end the vicious circle of poverty, pollution, and corruption on <span class=\"new\" title=\"Balosar (Planet) (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmFsb3Nhcl8oUGxhbmV0KT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Balosar</span> for years, but the planet's government offers little assistance. Offworld corporations regularly line Balosar bureaucrats' pockets with credits in exchange for state-owned real estate on which they build sweatshop factories. <span class=\"new\" title=\"Balosar (Planet) (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmFsb3Nhcl8oUGxhbmV0KT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Balosar</span> offers no shortage of manual labor. </p><h3>Balosar Characteristics</h3><p><b>Personality:</b> Balosars are often weak-willed and self-absorbed. Many suffer from severe depression and feel like they're trapped; others grudgingly accept their lot in life with a sarcastic grin. A Balosar's moral and ethical outlook is often skewed by hard life experiences, and many have trouble distinguishing between right and wrong. </p><p><b>Physical Description:</b> A Balosar has coarse hair, a frail-looking frame, and retractable antennapalps atop their heads. The average Balosar stands about 1.6 meters tall, and most have sickly complexions from a lack of sunlight and clean air. </p><p><b>Age Groups:</b> Balosars age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-15 Years </td> \n   <td>16-39 Years </td> \n   <td>40-52 Years </td> \n   <td>53-64 Years </td> \n   <td>65+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Balosar (Planet) (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmFsb3Nhcl8oUGxhbmV0KT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Balosar</span> is an inhospitable Core World that has seen better days. The planet's high crime rate and corrupt government discourages tourists, and the air is barely breathable because of industrial pollution. </p><p><b>Languages:</b> Balosars speak their own language, which consists of deep vocalizations and throaty rasps. Written Balosar is crude looking, but is no less complex than written Basic. </p><p><b>Example Names:</b> Veya Bar'jaraka, Nina Dar'Eboros, Elan Sleazebaggano, Zirk Mer'darro. </p><p><b>Adventurers:</b> Although crime runs rampant on <span class=\"new\" title=\"Balosar (Planet) (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmFsb3Nhcl8oUGxhbmV0KT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Balosar</span>, the Species' tendency toward criminal activities has more to do with the deplorable conditions of the planet than any biological imperative. Many Balosars leave their homeworld in search of a better life, only to find life on other planets equally harsh. A Balosar hero can belong to any Heroic Class. </p><h3>Balosar Species Traits</h3><p>Balosars share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Heightened Awareness",
+        "description": "<p>A being can choose to reroll any&nbsp;Perception&nbsp;check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      },
+      {
+        "name": "Toxic Resistance",
+        "description": "<p>Beings receive a +5&nbsp;Species&nbsp;bonus to their&nbsp;Fortitude Defense&nbsp;against&nbsp;Poisons and Toxic Atmospheres.</p>"
+      },
+      {
+        "name": "Mental Fortitude",
+        "description": "<p>Beings gain a +2 Species bonus to their Will Defense against Deception and Persuasion checks.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "UXuBozv5Dx6yD1Mr",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

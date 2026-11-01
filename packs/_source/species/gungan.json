@@ -1,0 +1,60 @@
+{
+  "_id": "dr9ff1Wb3eOthGTV",
+  "_key": "!items!dr9ff1Wb3eOthGTV",
+  "name": "Gungan",
+  "type": "species",
+  "system": {
+    "description": "<p>The Gungans are omnivorous humanoids native to the swamps of Naboo. Technologically advanced, they rely mostly on biotech, growing instead of building their homes and production facilities. </p><p>While their culture is peaceful, it evolved from a series of long, bloody clan wars, and Gungans still admire strength and cunning. Most communities are devoted to farming or manufacturing goods that are then traded to other Gungan settlements, but they will reluctantly trade with the Humans of Naboo. </p><h3>Gungan Characteristics</h3><p><b>Personality:</b> Gungans tend to be inquisitive, cautious, and suspicious. </p><p><b>Physical Description:</b> Gungans range from 1.6 to 2 meters tall, with two eyestalks, floppy ears, and long tongues. </p><p><b>Age Groups:</b> Gungans age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-15 Years </td> \n   <td>16-35 Years </td> \n   <td>36-54 Years </td> \n   <td>55-64 Years </td> \n   <td>65+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The serene world of Naboo. </p><p><b>Languages:</b> Gungans speak, read, and write both Gunganese and Basic. </p><p><b>Example Names:</b> Fassa, Jar Jar, Rugor, Tarpals, Toba, Tobler Ceel, Yoss. </p><p><b>Adventurers:</b> Many Gungans leave their underwater cities to explore as Scouts. Since the treaty with the Humans of Naboo, some Gungans- perhaps driven by an impulse to regain the warrior spirit of old as Soldiers- have taken a larger step into galactic society. </p><h3>Gungan Species Traits</h3><p>Gungans share the following Species Traits: </p><h2>Additional Gungan Species Feats</h2><p>Gungan characters have access to the following Species Feats. No Species Feats are considered Bonus Feats for any Heroic Class. </p><table> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td>Gungan Weapon Master </td> \n   <td> </td> \n   <td>Increase the die type when adding Force Points to attacks with an Atlatl or Cesta. </td>\n  </tr> \n  <tr> \n   <td>Perfect Swimmer </td> \n   <td> </td> \n   <td>Reroll Swim checks, always keeping the better result. </td>\n  </tr> \n  <tr> \n   <td>Warrior Heritage </td> \n   <td> </td> \n   <td>Gain a bonus to Will Defense when using an Atlatl or Cesta. </td>\n  </tr>\n </tbody>\n</table>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Lightning Reflexes",
+        "description": "<p>Beings gain a +2&nbsp;Species&nbsp;bonus to their&nbsp;Reflex Defense.</p>"
+      },
+      {
+        "name": "Expert Swimmer",
+        "description": "<p>A being may choose to reroll any&nbsp;Swim&nbsp;check, but the result of the reroll must be accepted, even if it is worse. In addition, a being may choose to&nbsp;Take 10&nbsp;on&nbsp;Swim&nbsp;checks, even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Hold Breath",
+        "description": "<p>A being can hold his or her breath for a number of rounds equal to 25 times his or her&nbsp;Constitution&nbsp;score before needing to make&nbsp;Endurance&nbsp;checks to hold his or her breath.</p>"
+      },
+      {
+        "name": "Swimming",
+        "description": "<p>Beings possess an inherent Swim speed.</p>"
+      },
+      {
+        "name": "Swim Speed (4)",
+        "description": "A being has a swim speed of #payload#."
+      },
+      {
+        "name": "Weapon Familiarity (Cesta:Simple Melee Weapon)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      },
+      {
+        "name": "Weapon Familiarity (Electropole:Simple Melee Weapon)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      },
+      {
+        "name": "Weapon Familiarity (Atlatl:Simple Melee Weapons)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "mpilQMCwPsu2tVrU",
+      "sourceBook": "Star Wars Saga Edition Rebellion Era Campaign Guide"
+    }
+  }
+}

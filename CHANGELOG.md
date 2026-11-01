@@ -69,6 +69,11 @@
   carries the house damage rule the fork kept only in a summary field.
 - Telekinetic Vigilance, the one Zeison Sha talent the house rules keep, is written from the ruling
   (the fork has no Zeison Sha tree). Only a Force Disciple, Jedi Master or Sith Lord can take it.
+- 132 species converted with their size, traits (text from the traits pack) and rarity (Common,
+  Rare or Denied, from the species rarity page). Species carry a `rarity` and a `sizeChoices`
+  field; the character stores the size picked at creation (`speciesSize`). A Killik picks Small,
+  Medium or Large, and the sheet reports a Killik with no size chosen. Human keeps its Bonus Feat
+  and Bonus Trained Skill. The 14 droid models wait for the droid rules.
 - Feats carry their mechanics as effects: Improved Defenses, Toughness (5 hit points once, 1 per
   level, +1 healing received), Martial Arts I to III (one unarmed die each, no dodge bonus), Improved
   Damage Threshold, Extra Second Wind, Extended Capacity, and from the house rules Force

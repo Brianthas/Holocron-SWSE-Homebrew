@@ -1,0 +1,44 @@
+{
+  "_id": "darnwDDIxYiksA13",
+  "_key": "!items!darnwDDIxYiksA13",
+  "name": "Rakata",
+  "type": "species",
+  "system": {
+    "description": "<p> The Rakata are an ancient Species, whose society once stretched from The Unknown Regions to distant parts of the galaxy, such as Corellia and Manaan. They called it the Infinite Empire. At the height of their civilization, they built a massive space station factory called The Star Forge that enabled them to create the machinery and ships needed to manage their massive, interstellar empire. The Force powered their technology, and they relied on their connection to The Force to control it. For unknown reasons, the Rakata eventually lost their ability to use The Force. As their grasp over the machinery and technology weakened, so did their control over their subjugated worlds. The native Species managed to throw off their masters and regain control of their own destinies. However, the impact of Rakatan technology would be felt by some of these worlds for thousands of years to come.</p><p>The Rakata and their planet became lost to history, perhaps purposefully erased by the newly freed societies. Their former subjects eliminated their former masters, or forced them to leave. Rakata civilization on their homeworld of Lehon deteriorated until all that remained were small, primitive tribes. Eventually, the Rakata are rediscovered by Darth Revan, who learns the secret of The Star Forge and uses it to build a massive military force to attack the Republic. Darth Revan and the Republic are also responsible for the destruction of The Star Forge. After the battle to destroy The Star Forge, the Rakata join the Republic. Some leave their homeworld to rejoin a technologically advanced society. Though they spread stories of their ancient society, few believe or take notice. The Rakata that remain on Lehon eventually die out because they are too few to maintain the Species. </p><h3>Rakata Characteristics</h3><p><b>Personality:</b> Rakata are primitive, and are driven by a great desire to restore their Species to its former, powerful glory. They know they were once much more powerful. Some Rakata obsess over discovering new ways to try to reconnect with The Force. Other tribes disregard their past, allowing their society to become even more primitive. </p><p><b>Physical Description:</b> The Rakata resemble humanoids with tall, conelike heads. Their eyes are located on the sides of their head, attached by a short eye stalk. Their clawlike hands have only three digits. Their skin is gray or gray-brown. </p><p><b>Age Groups:</b> Rakata age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-50 Years </td> \n   <td>51-69 Years </td> \n   <td>70-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Lehon, also known as Rakata Prime, is a temperate terrestrial world in The Unknown Regions. </p><p><b>Languages:</b> Rakata speak their own throaty language, also called Rakata. </p><p><b>Example Names:</b> Bandra, Daneel, Fralee, Orsaa, Vareen, Wauula. </p><p><b>Adventurers:</b> Until the destruction of The Star Forge, almost all the living Rakata are still on Lehon, and do not leave. After the end of The Jedi Civil War, the Rakata become curious about life away from Lehon, and a few explore the galaxy. Players wishing to play a Rakata prior to these events might create heroes who grew up in a remote, abandoned Rakata colony in The Unknown Regions, far from Lehon, but still isolated to the point of being completely unknown. Though at a distinct disadvantage because of their primitive upbringing, Rakata are intelligent and can learn to use advanced technology. </p><h3>Rakata Species Traits</h3><p>Rakata share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Primitive",
+        "description": "<p>Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.</p>"
+      },
+      {
+        "name": "Rage",
+        "description": "<p>Once per day, a being can fly into a Rage as a Swift Action. While Raging, the being temporarily gains a +2 Rage bonus on melee attack rolls and melee damage rolls, but cannot use Skills that require patience and concentration, such as Mechanics, Stealth, or Use the Force. A fit of Rage lasts for a number of rounds equal to 5 + the being's Constitution modifier.</p><p>At the end of its Rage, the being moves -1 Persistent step along the Condition Track. The penalties imposed by this Persistent Condition persist until the being takes at least 10 minutes to recuperate, during which time the being can't engage in any strenuous activity.</p>"
+      },
+      {
+        "name": "Ancient Knowledge",
+        "description": "<p>Beings reduce the penalty for not being proficient in a weapon from -5 to -2, and reduce the Armor Check Penalty for Armor they are not proficient in by one step (-5 for Heavy Armor, -2 for Medium Armor, and no penalty for Light Armor). All other penalties for not being proficient still apply.</p><p>Additionally, once per encounter the being can use a Trained-only application of the Mechanics, Pilot, Treat Injury, or Use Computer skills, even if Untrained in that Skill.</p>"
+      },
+      {
+        "name": "Force Blind",
+        "description": "<p>Beings cannot take the Force Sensitivity feat. They can still increase their Dark Side Score and are still affected by Force Powers, Force Talents, and the Use the Force skill as normal.</p>"
+      },
+      {
+        "name": "Weapon Familiarity (Rakatan Weapon Template:Analogous Simple Weapons)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "KhltIvJLL4qq8FKu",
+      "sourceBook": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide"
+    }
+  }
+}

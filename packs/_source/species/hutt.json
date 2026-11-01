@@ -1,0 +1,36 @@
+{
+  "_id": "grb4UD4ujkcW1Okg",
+  "_key": "!items!grb4UD4ujkcW1Okg",
+  "name": "Hutt",
+  "type": "species",
+  "system": {
+    "description": "<p>Hutts are long-lived gastropods who occupy a region known as Hutt Space. They are powerful, ruthless beings who continually seek to expand the boundaries of their dominion and the holdings of their individual clans, or <i>Kajidics</i>. Their appetite for power is as insatiable as their appetite for food. </p><p>Hutts are often found at the center of business and criminal enterprises. Legality (or lack thereof) does not affect whether a Hutt will pursue a venture. All that matters is how much of a benefit- and a profit- one can get from it. </p><p>Like worms, Hutts are hermaphroditic, with both male and female reproductive organs. Hutts bear their young one at a time and nourish them for a time in a brood pouch. Their large lungs enable them to stay underwater for hours at a time. Xenobiologists often classify Hutts as gastropods because of their sluglike appearance and movements. </p><p>A council of elders oversees Hutt Space. Comprised of Hutts representing the oldest and most influential clans, The Hutt Kajidics decide the fate of everyone who lives in Hutt Space, and all Hutts are answerable to them. </p><h3>Hutt Characteristics</h3><p><b>Personality:</b> Most Hutts are vicious megalomaniacs who consider their kind to be beyond mortality as perceived by lesser beings. They have a talent for manipulating other beings and enjoy accumulating and exerting power over others. A Hutt's strongest loyalty is always to their <i>Kajidic</i>, without which a Hutt is nothing but a lowly commoner. </p><p><b>Physical Description:</b> A Hutt is an immense, sluglike creature with a thick body, muscular tail, and small arms protruding from it's upper body. A Hutt's bulbous head features catlike eyes, wide nostrils, and a broad lipless mouth. An adult Hutt averages 4 meters long and weighs 1,500 kilograms. </p><p><b>Age Groups:</b> Hutts age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-70 Years </td> \n   <td>71-90 Years </td> \n   <td>91-650 Years </td> \n   <td>651-844 Years </td> \n   <td>845-925 Years </td> \n   <td>926+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Hutts evolved on the temperate forest world of Varl. When a natural calamity left Varl a blasted wasteland, the Hutts fled and adopted a new homeworld: Nal Hutta, in the Y'Toub System on the border of the Mid and Outer Rim. The Hutts have spent centuries polluting and ruining Nal Hutta's ecosystem, as well as that of Nar Shaddaa, a heavily industrialized moon orbiting Nal Hutta. </p><p><b>Languages:</b> Hutts speak, read, and write both Basic and Huttese. However, they consider their own language superior to Basic and usually demand that lesser beings address them in their native tongue. </p><p><b>Example Names:</b> Borga, Churabba, Dalla, Durga, Gardulla, Grelb, Grondo, Issulla, Jabba, Krova, Mardoc, Mika, Nullada, Popara, Shala, Yarella, Zonnos, Zordo. </p><p><b>Adventurers:</b> Very few Hutts manifest any desire to explore space or place themselves in harm's way. They prefer to travel the stars on space yachts or command their mini-empires from heavily fortified estates. Hutt Nobles are common, while exiled or disgraced Hutts sometimes become Scoundrels. At least one Hutt of repute has trained as a Jedi, although Hutt Force-users are exceedingly rare. </p><h3>Hutt Species Traits</h3><p>Hutts share the following Species Traits: </p>",
+    "size": "large",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Silver Tongued",
+        "description": "<p>A being may choose to reroll any&nbsp;Persuasion&nbsp;check, keeping the better of the two results.</p>"
+      },
+      {
+        "name": "Supreme Stability",
+        "description": "<p>A being is completely immune to being knocked Prone.</p>"
+      },
+      {
+        "name": "Force Resistance",
+        "description": "<p>Beings receive a +5 bonus to their&nbsp;Will Defense&nbsp;against any use of the&nbsp;Use the Force&nbsp;skill.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "r2fLkpmc9Csjjewp",
+      "sourceBook": ""
+    }
+  }
+}

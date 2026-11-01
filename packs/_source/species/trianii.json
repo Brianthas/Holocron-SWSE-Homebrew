@@ -1,0 +1,36 @@
+{
+  "_id": "wgiJevW9qzNnUcFl",
+  "_key": "!items!wgiJevW9qzNnUcFl",
+  "name": "Trianii",
+  "type": "species",
+  "system": {
+    "description": "<p>The Trianii are a feline race of intrepid explorers, but unlike other technologically advanced Species of the galaxy, they express no interest in becoming a part of the greater galactic community. The Trianii use impressive displays of force to drive away interlopers so that they are left alone to explore their region of the galaxy. Their homeworld is located on the edge of the region of space controlled by The Corporate Sector Authority. An attempt by the CSA to expand its area of control into Trianii territories is met with a display of Trianii determination as the Species expel the invaders, proving that the ships and weapons of The Trianii Rangers are as formidable as those of other galactic forces. </p><p>Trianii society is a matriarchy- partly because females of the Species are taller and slightly stronger than the males- ruled by tribunals of females known as <i>yu'nar</i>. Trianii culture revolves around religious beliefs that cover all aspects of life, including art, literature, commerce, and warfare. At one point in their history, the Trianii have numerous different religions, but when a religious civil war threatens to erupt, the leaders of these different faiths instead agree to work together to create an official religion. They establish a belief structure with a moral code that all sides find acceptable while at the same time allowing Trianii to continue following the individual faiths of their families. </p><p>Trianii wear little clothing, selecting garments only for necessity, either as protection or utility. The one item commonly worn by the Species is a Utility Belt that holds essential items. Even ceremonial garb is limited to jewelry and similar adornments. </p><h3>Trianii Characteristics</h3><p><b>Personality:</b> Adventurers by nature, Trianii feel a constant urge to explore, and they place a high value on independence. Spirituality is a large part of Trianii culture, with devotion split between the formal government religion and each family's traditional religious values. </p><p><b>Physical Description:</b> A Trianii is a slender humanoid with prominent feline facial characteristics. Sharp claws and a prehensile tail reinforce the Species' feline qualities. The colors and patterns of Trianii fur vary greatly. Trianii are about 2 meters tall; the females are slightly taller than the males and possess correspondingly larger physiques. </p><p><b>Age Groups:</b>&nbsp;Trianii age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-17 Years </td> \n   <td>18-44 Years </td> \n   <td>45-64 Years </td> \n   <td>65-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Trian (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVHJpYW4/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Trian</span>, located in the outermost portion of the Tingel Arm. </p><p><b>Languages:</b> The Trianii language is composed of purrs, growls, and rolling vocalizations. The written form uses a syllabary instead of an alphabet. Trianii encountered outside Trianii space have some fluency in Basic, but few are literate in it. </p><p><b>Example Names:</b> Atuarre, Duarrid, Keeheen, Pakka, Reakhas, Shearran, Tuunac. </p><p><b>Adventurers:</b> Almost all Trianii encountered outside the Species' area of influence are members of The Trianii Rangers, the space patrol force responsible for protecting Trianii colonies from outside threats. The Trianii Rangers often undertake missions to explore uncharted regions or to gather reconnaissance. Other Trianii adventurers are either independent scouts or are just curious about the galactic community that their leaders want no part of. Many outsiders confuse the Trianii with other feline Species such as the Cathar or the Togorians, a mistake few Trianii bother to correct. </p><h3>Trianii Species Traits</h3><p>Trianii share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Natural Weapons",
+        "description": "<p>A being has Natural Weapons, in some form or another. When a being makes an Unarmed attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal Unarmed damage. Beings are always considered armed with their Natural Weapons.</p>"
+      },
+      {
+        "name": "Heightened Agility",
+        "description": "<p>A being can reroll any Acrobatics check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      },
+      {
+        "name": "Prehensile Tail",
+        "description": "<p>A being's tail can effectively hold (but not wield) a Small or smaller item. When holding a Medium or larger item with his or her tail, a being is encumbered and is considered to be carrying a&nbsp;Heavy Load.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "17CbuWeMnLKWpFaw",
+      "sourceBook": "Star Wars Saga Edition Galaxy at War"
+    }
+  }
+}

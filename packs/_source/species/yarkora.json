@@ -1,0 +1,36 @@
+{
+  "_id": "GjJXavTxv3SdOb5G",
+  "_key": "!items!GjJXavTxv3SdOb5G",
+  "name": "Yarkora",
+  "type": "species",
+  "system": {
+    "description": "<p> Yarkora are among the most mysterious Species in the galaxy. Though individual Yarkora made their way into the vast, galactic underworld for many decades, the Species as a whole managed to escape formal notice until after the Battle of Yavin. During The Dark Times, the Yarkora perform the activities they are known for: information brokering, petty theft, and the occasional con job.</p><p>Yarkora are adept at gathering information, aided by their acute senses of sight and hearing. Most Yarkora try to keep a low profile by acting alone. However, those who find a ship or gang useful have no trouble gathering the needed henchmen, thanks to their natural charisma. </p><h3>Yarkora Characteristics</h3><p><b>Personality:</b> Yarkora are masters of manipulation. They are adept at plying others for desired information while revealing little about themselves. True friendships between Yarkora and other Species are rare. Exploitation of the moment is more to their liking. They often promote a distinguished appearance, even when dressed in the lowliest garb. </p><p><b>Physical Description:</b> A Yarkora has three-fingered hands with large black nails and a prominent snout flanked by tufts of hair. The body of a Yarkora is covered in short, smooth, usually beige fur. </p><p><b>Age Groups:</b> Yarkora age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-18 Years </td> \n   <td>19-64 Years </td> \n   <td>65-94 Years </td> \n   <td>95-124 Years </td> \n   <td>125+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Unknown. </p><p><b>Languages:</b> The Yarkora speak Basic and use their own language only among themselves. </p><p><b>Example Names:</b> Adaka-Vanae, Haesh-Rulan, Nemor-Jelak, Rault-Sanik, Saelt-Marae, Schurk-Heren. </p><p><b>Adventurers:</b> Yarkora adventurers are usually Nobles or Scoundrels. Though many are loners, some might join groups or crews when doing so suits their needs. Such alliances are typically fragile, since their reputation as thieves, con artists, and information brokers precedes them. There are few known Yarkora Force-users. </p><h3>Yarkora Species Traits</h3><p>Yarkora share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Deceptive",
+        "description": "<p>A being may reroll any&nbsp;Deception&nbsp;check, but must accept the result of the reroll, even if it is worse.</p>"
+      },
+      {
+        "name": "Confusion",
+        "description": "<p>Once per encounter as a Standard Action, a being can make a Deception check against the Will Defense of all targets within 6 squares. If the Deception check result equals or exceeds a target's Will Defense, that target does not Threaten any squares until the end of the being's next turn. This is a Mind-Affecting effect.</p>"
+      },
+      {
+        "name": "Bonus Class Skill (Gather Information)",
+        "description": "<p>A particular Skill is always a Class Skill for beings.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "QqNKtlkiPbDaKKQt",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

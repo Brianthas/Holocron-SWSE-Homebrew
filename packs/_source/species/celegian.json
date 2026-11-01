@@ -1,0 +1,56 @@
+{
+  "_id": "TwAUARc4UqUKVXwr",
+  "_key": "!items!TwAUARc4UqUKVXwr",
+  "name": "Celegian",
+  "type": "species",
+  "system": {
+    "description": "<p>Celegians are an ancient Species known for their great intellect and wisdom. Evolved from ocean-dwelling invertebrates, the Celegians' ancestors eventually adapted to living on land. The atmosphere of their homeworld is rich in cyanogen gas, which is poisonous to most sentient beings. Conversely, oxygen is lethal to Celegians. </p><p>To move their massive jellyfishlike bodies, Celegians evolved a natural form of locomotion similar to a repulsorlift generator. Their soft fleshy bodies, writhing masses of tentacles, and and dependence on life-support chambers result in Celegians looking as if they constantly float in water. </p><h3>Celegian Characteristics</h3><p><b>Personality:</b> Celegians are wise, thoughtful beings who search for logical solutions to problems. They enjoy contemplating riddles, puzzles, and paradoxes. Celegians rarely put themselves in harm's way and avoid conflict whenever possible. </p><p><b>Physical Description:</b> A Celegian's body resembles a brainlike organism with a mass of tentacles floating beneath it. The brain averages 1.2 meters in diameter, and the tentacles vary in length from 1.8 to 2.2 meters. Away from their homeworld, Celegians are always encountered within some sort of mobile life-support chamber, usually made of transparisteel. </p><p><b>Age Groups:</b> Celegians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-20 Years </td> \n   <td>21-142 Years </td> \n   <td>143-210 Years </td> \n   <td>211-250 Years </td> \n   <td>251+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Celegia (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQ2VsZWdpYT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Celegia</span>, an ancient world of raging seas located in The Expansion Region. </p><p><b>Languages:</b> Celegians communicate using a sophisticated form of telepathy. They possess no spoken or written language. </p><p><b>Example Names:</b> Ealu, Jolorr, Ooroo, Ruwaa. </p><p><b>Adventurers:</b> Celegians are natural explorers and are occasionally found in the company of other Species with similar interests. Celegians encountered far from their homeworld are usually Nobles or Scouts. Celegian Jedi are extremely rare. </p><h3>Celegian Species Traits</h3><p>Celegians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Broadcast Telepath",
+        "description": "<p>Beings can use the Telepathy application of the Use the Force skill Untrained, even if they do not possess the Force Sensitivity feat. A being automatically succeeds on this check to communicate with willing targets within 60 squares of it and in its line of sight.</p>"
+      },
+      {
+        "name": "Flight",
+        "description": "<p>Beings are capable of flight, but cannot do so if they are carrying a Heavy Load.</p>"
+      },
+      {
+        "name": "Expert Swimmer",
+        "description": "<p>A being may choose to reroll any&nbsp;Swim&nbsp;check, but the result of the reroll must be accepted, even if it is worse. In addition, a being may choose to&nbsp;Take 10&nbsp;on&nbsp;Swim&nbsp;checks, even when distracted or threatened.</p>"
+      },
+      {
+        "name": "Swimming",
+        "description": "<p>Beings possess an inherent Swim speed.</p>"
+      },
+      {
+        "name": "Special Equipment",
+        "description": ""
+      },
+      {
+        "name": "Hovering",
+        "description": "<p>Beings possess an inherent Hovering speed.</p>"
+      },
+      {
+        "name": "Fly Speed (6)",
+        "description": "A being has a fly speed of #payload#."
+      },
+      {
+        "name": "Swim Speed (10)",
+        "description": "A being has a swim speed of #payload#."
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "12Ba4bserZa0hoJU",
+      "sourceBook": "Star Wars Saga Edition Jedi Academy Training Manual"
+    }
+  }
+}

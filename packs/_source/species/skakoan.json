@@ -1,0 +1,40 @@
+{
+  "_id": "FDt6S9IBLlTDKtBB",
+  "_key": "!items!FDt6S9IBLlTDKtBB",
+  "name": "Skakoan",
+  "type": "species",
+  "system": {
+    "description": "<p>Skakoans are a technologically advanced Species that specializes in microelectronics, Starship engineering, and cutting-edge manufacturing techniques. </p><p>During the time of the Republic, Skakoans were among the most influential Species in the Techno Union, a galaxy-spanning consortium of megacorporations with representation in the Galactic Senate. Despite the misgivings of other high-ranking members of the Techno Union, Skakoan foreman Wat Tambor pledged to support the Separatists under Count Dooku. The Senate responded by expelling their Techno Union representatives. This contributed to the Skakoan homeworld breaking away from the Republic and joining the Separatist Movement.&nbsp; </p><p>The Skakoans were central to the Techno Union's success throughout the Clone Wars. However, the days of the Techno Union were numbered. From the ashes of the Old Republic emerged the Empire and with it, the Emperor's New Order. Gluttonous, self-serving bureaucracies like the Techno Union, the Commerce Guild, and the Trade Federation had outlived their usefulness, and their non-Human overseers were not to be trusted under the new regime. Humans forcefully displaced the Techno Union's Skakoan membership. The Skakoan people could do nothing except withdraw to their homeworld and watch helplessly as the Empire dismantled the Techno Union and placed its constituent companies (Among them Baktoid Armor Workshop, Hoersch-Kessel Driveworks Inc., and Balmorran Arms) under Imperial supervision.&nbsp; </p><p>The fall of the Empire and the birth of The New Republic failed to overcome the Skakoans' growing sense of isolation. Their dislike for humanity clouded their infrequent dealings with the New Republic, and they are less inclined to share their technological advances. During The New Jedi Order Era, the Skakoans are viewed by most other Species as secretive, manipulative xenophobes best left to their own devices.&nbsp; </p><p>The Skakoan homeworld has a unique and highly pressurized atmosphere. For this reason, Skakoans can only survive in standard atmospheres with the aid of a Skakoan Pressure Suit. The Skakoan Pressure Suit completely hides the wearer's face and figure. If the suit is ruptured or destroyed, its Skakoan occupant begins to take damage (see below).&nbsp; </p><h3>Skakoan Characteristics</h3><p><b>Personality:</b> Skakoans are cool, calculating, and humorless beings with a strong sense of self-preservation. Few have the courage to leave their homeworld. They rely on logic to solve problems, regardless of whether they are plotting a galactic war or designing an efficient hyperdrive. Skakoans are usually encountered wearing their Skakoan Pressure Suits, which they use to hide their emotions, leading many other Species to presume that Skakoans are heartless automatons. In truth, they posses a full range of emotions. </p><p><b>Physical Description:</b> Visitors are generally not welcome on the Skakoan homeworld; consequently, non-Skakoans have yet to learn what a Skakoan looks like beneath the full-body Skakoan Pressure Suit. Without the Skakoan Pressure Suit, a Skakoan resembles a gaunt Human with folds of sickly gray-white skin draped over a narrow, skeletal frame. A Skakoan's leering visage features dark, sunken eyes, a flat nose, and a toothless, slitlike mouth set in a perpetual frown. Skakoan Pressure Suits come equipped with synthesized vocalizers that deliberately distort their wearers' speech patterns, adding to the Species' mystique. Skakoan Adults stand between 1.4 and 2.1 meters tall. </p><p><b>Age Groups:</b>&nbsp;Skakoans age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-15 Years </td> \n   <td>16-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-69 Years </td> \n   <td>70+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Located in The Core region, Skako is a planetwide metropolis comparable to Coruscant in scale and population, but without the charm or aesthetically pleasing architecture. Species accustomed to standard atmospheric pressure can only withstand the dense pressure of Skako's atmosphere for a short time before suffering permanent injury. The same holds true for Skakoans who find themselves on standard-pressure worlds without a Skakoan Pressure Suit to protect them. </p><p><b>Languages:</b> Skakoverbal is a complex machine language similar to Bocce, with traces of Binary. Skakoform, the written language of the Skakoan people, is often mistaken for technical schematics or circuit diagrams. </p><p><b>Example Names:</b> Zona Dreon, Pel Karmek, Girt Marko, Orna Meng, Vol Meybor, Madeca Rex, Wat Tambor, Gegon Valt, Taron Von. </p><p><b>Adventurers:</b> Skakoans are deathly afraid of suffering a horrible death by asphyxiation or explosive decompression. They rarely leave Skako for this reason. When they do, they always wear Skakoan Pressure Suits that fully conceal their features, and use vocalizers that distort their voices. Skakoans encountered away from their homeworld are usually Nobles. No Skakoan Force-users are known to exist. </p><h3>Skakoan Species Traits</h3><p>Skakoans share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Mechanical Savant",
+        "description": "<p>Once per encounter, a being can make a Standard Action Mechanics or Use Computer check as a Swift Action.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Mechanics))",
+        "description": ""
+      },
+      {
+        "name": "Special Equipment",
+        "description": ""
+      },
+      {
+        "name": "Bonus Feat (Armor Proficiency (Light))",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Fj9FaK49seqUgBBW",
+      "sourceBook": "Star Wars Saga Edition Web Enhancements (Planet Hoppers)"
+    }
+  }
+}

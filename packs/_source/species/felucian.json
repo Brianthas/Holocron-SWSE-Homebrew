@@ -1,0 +1,52 @@
+{
+  "_id": "p87Ra9WsCfVAwaHu",
+  "_key": "!items!p87Ra9WsCfVAwaHu",
+  "name": "Felucian",
+  "type": "species",
+  "system": {
+    "description": "<p> Felucians are mysterious sentient beings native to the vast fungal swamps and jungles of Felucia. Though Felucia has long been colonized, the native Felucians avoided notice by living deep in the jungle. Such seclusion was easily maintained. Even the hardiest of colonists were loath to brave the perils of the dangerous wilderness without cause.</p><p>The Felucians are an unusual, amphibious Species. They are highly adapted to surviving the wilds of their home planet, and fade easily into its confusing mass of plant life. They are equally at home on land or in water, and they traverse the swamps with ease. </p><p>All Felucians are part of a single, planetwide tribe that is broken down into smaller villages and communities, each one led by Felucian Shamans and chieftains. These Felucian Shamans are very strong in The Force, using it to their own ends with incredible skill. </p><h3>Felucian Characteristics</h3><p><b>Personality:</b> Felucians are strange and alien beings who appear to operate on a different social level, much as the Tusken Raiders of Tatooine do. Most Felucians are subject to some rather wild mood swings, reacting to situations in a variety of (often surprising) ways. Their natural connection to The Living Force gives them a somewhat primal attitude. </p><p><b>Physical Description:</b> Felucians are a tall, bipedal Species. Both their arms and legs end in four, large webbed digits with suction-cup fingertips. Springing from the underside of each forearm is a second short arm, ending in three large and agile fingers. A Felucian's head is a thick mass of long flexible tendrils featuring illuminated tips. The eyes and mouth appear as black holes or openings within this mass. </p><p><b>Age Groups:</b> Felucians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-8 Years </td> \n   <td>9-19 Years </td> \n   <td>20-49 Years </td> \n   <td>50-70 Years </td> \n   <td>71-85 Years </td> \n   <td>86+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The swampy, fungal, forest-covered Outer Rim world of Felucia. </p><p><b>Languages:</b> Felucians speak their own guttural, barking language, known as Felucianese. </p><p><b>Example Names:</b> Gokkuul, Kargrek, Hagark. </p><p><b>Adventurers:</b> Offworld Felucians are exceedingly rare. Heroic Felucians gravitate toward Force-sensitive Heroic Classes, though no Felucian is known to have ever joined The Jedi Order. Many are also Scouts or Soldiers. </p><h3>Felucian Species Traits</h3><p>Felucians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Force Blast",
+        "description": "<p>Once per encounter a being can make an Untrained Use the Force check to activate the <i>Force Blast</i> Force Power.</p><p>A being who takes the Force Training feat automatically adds a single use of the <i>Force Blast</i> Force Power to his or her Force Power Suite (for free) instead of this ability.</p>"
+      },
+      {
+        "name": "Bonus Feat (Force Sensitivity)",
+        "description": "<p>Beings gain one bonus&nbsp;Feat&nbsp;at 1st level.</p>"
+      },
+      {
+        "name": "Primitive",
+        "description": "<p>Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.</p>"
+      },
+      {
+        "name": "Breathe Underwater",
+        "description": "<p>Beings can't drown in water.</p>"
+      },
+      {
+        "name": "Natural Camouflage",
+        "description": "<p>A being can choose to reroll any Stealth check to Sneak, keeping the better of the two results.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Weapon Familiarity (Felucian Skullblade:Simple Melee Weapons)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "bFA6RQfZn8uLjrBn",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

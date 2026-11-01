@@ -1,0 +1,36 @@
+{
+  "_id": "4xz2c3SRJYSqpmkN",
+  "_key": "!items!4xz2c3SRJYSqpmkN",
+  "name": "Vagaari",
+  "type": "species",
+  "system": {
+    "description": "<p>The Vagaari Empire thrives on cruelty and terror. It is so effective at spreading fear that even other Unknown Regions Threats, such as the Ebruchi and the Rakata, flee from its forces. Arrogant speciesists, the Vagaari believe that all non-Vagaari are idiotic cowards who exist only as resources to be farmed. </p><p>The Vagaari have separate digestive and respiratory tracts. The upper mouth is used for breathing and speaking, and the lower mouth is used for eating. Thus, choking is virtually impossible, and many Vagaari chew on stimulant-laced leather strips known as pureweed while conversing. </p><p>Vagaari fashion is designed for maximum intimidation. They wear oversized fright masks that bear painted expressions of fury, horror, and agony. Off the battlefield, they dress in voluminous robes, with roomy folds to conceal hidden weapons and poisons. Vagaari soldiers wear body armor and decorate their full-face helmets with death's-heads and demon mouths. </p><p>Males and females have separate but equally important roles within the Vagaari Empire. Males dominate the soldiering, piloting, and political classes, and females make up the castes responsible for invasion strategy, slave acquisition, and torture. Food preparation, sanitation, maintenance, and similar drudge work is performed by slaves. </p><h3>Vagaari Characteristics</h3><p><b>Personality:</b> The Vagaari have a near-total lack of empathy and a narcissism rivaled only by the Hutts. In their mythology, the gods created the Vagaari so that even the deities would have superior beings to worship. Although modern Vagaari are not particularly religious, their culture provides a perpetual feedback loop for this type of arrogance. </p><p><b>Physical Description:</b> A Vagaari is shorter than an average humanoid, with a large head dominated by wide violet eyes and small ears that lie flat against the skull. With their stubby limbs, the Vagaari are not capable of great speed, but they are far stronger than they look. Their tan skin is mottled with golden swirls that highlight their jaws and chin. The most distinctive Vagaari feature is a jaw with two mouths, each studded with pebbly teeth. </p><p><b>Age Groups:</b>&nbsp;Vagaari age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-8 Years </td> \n   <td>9-13 Years </td> \n   <td>14-96 Years </td> \n   <td>97-119 Years </td> \n   <td>120-134 Years </td> \n   <td>135+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Vagaari homeworld is <span class=\"new\" title=\"Vagar Praxut (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVmFnYXJfUHJheHV0P2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Vagar Praxut</span>, which lies in the nebula known as Kharmort's Miasma, but the planet is almost entirely deserted. Most other Species view the ever-moving Vagaari as a scourge of leaf-cutters that devastate full fields of grain. </p><p><b>Languages:</b> The Vagaari speak a musical trilling language but are fluent in most trade tongues, including Minnisiat, Sy Bisti, and pidgin Basic. </p><p><b>Example Names:</b> Bearsh, Estosh, Purpsh. </p><p><b>Adventurers:</b> The Vagaari are nomads, considering attachments (Such as family and home) to be soft indulgences and wasted energy. Such extreme self-interest might seem to indicate a chaotic society where all parties are at war with one another, but arrogance does not necessarily equal ambition. Most Vagaari are highly aware of their own abilities and do not aim beyond their stations. </p><h3>Vagaari Species Traits</h3><p>Vagaari share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "denied",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Frightening Visage",
+        "description": "<p>A being may choose to reroll any Persuasion check made to Intimidate, keeping the better of the two results.</p>"
+      },
+      {
+        "name": "Bioknowledge",
+        "description": "<p>A being may choose to reroll any Knowledge (Life Science) or Treat Injury check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Deception))",
+        "description": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "t21KyaJRj2xS6ich",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}

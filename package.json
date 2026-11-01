@@ -23,6 +23,7 @@
     "verify:expiry": "node tools/checks/run.ts expiry",
     "verify:feats": "node tools/checks/run.ts feats",
     "verify:talents": "node tools/checks/run.ts talents",
+    "verify:species": "node tools/checks/run.ts species",
     "rules:snapshot": "node tools/snapshot-rules.ts",
     "packs:convert": "node tools/convert/convert.ts"
   },

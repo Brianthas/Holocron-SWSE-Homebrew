@@ -1,0 +1,32 @@
+{
+  "_id": "jT7JXIKcltJiqXMO",
+  "_key": "!items!jT7JXIKcltJiqXMO",
+  "name": "Wroonian",
+  "type": "species",
+  "system": {
+    "description": "<p> Wroonians&nbsp;are a&nbsp;blue-skinned Species of&nbsp;Near-Humans&nbsp;from the&nbsp;planet&nbsp;Wroona&nbsp;in The&nbsp;Inner Rim, a world in the same&nbsp;sector&nbsp;as the&nbsp;Bestine System. Wroonian society is wealthy, fun-loving, and deeply spiritual; as a result, Wroonians often wear ornate clothing and&nbsp;tattoos. Wroonians love travel both at&nbsp;sea&nbsp;and in&nbsp;space, often fancying themselves as skilled navigators and explorers. A well-traveled Species, they were represented in The&nbsp;Galactic Republic&nbsp;by the blue-skinned&nbsp;Pantoran&nbsp;Senator&nbsp;Chi Eekway Papanoida&nbsp;and later became part of The&nbsp;Galactic Empire. There are numerous Wroonian colonies spread throughout the Mid and Outer Rim, such as on&nbsp;Saleucami.</p><p>Wroonian society is based upon the desire for personal wealth and material possessions. Despite this, they are a carefree and mellow Species that enjoy taking risks and living for the moment. Wroonians distrust all types of authority, thanks in part to their planetary government's near-constant instability. </p><h3>Wroorian Characteristics</h3><p><b>Personality:</b> Wroonians are a boisterous people, often adventuring just to brag to their fellow Wroonians at its conclusion, and overexaggerating their importance and courage. While not bragging however, Wroonians become far more charming and friendly, and are known to liven up any social party with their wit and charisma. </p><p><b>Physical Description:</b> Wroonians are humanoid in shape, differing from Humans only through their blue skin and yellow eyes. This coloration causes them to be confused with the similarly blue-skinned Pantorans, a misunderstanding not helped by their representation in the senate by a Pantoran senator. </p><p><b>Age Groups:</b> Wroorians age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-14 Years </td> \n   <td>15-54 Years </td> \n   <td>55-69 Years </td> \n   <td>70-74 Years </td> \n   <td>75+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> While the Wroonians possess several colonies throughout the galaxy, they originally hail from the economic world of Wroona, located in The Inner Rim and connecting to Keller's Void Hyperspace Shortcut. </p><p><b>Languages:</b> Wroonians speak their own language of high consonants and drawn-out vowels, and their wanderlust causes most to learn Basic at a young age. </p><p><b>Example Names:</b> Fillio Androu, Azoora, Dasha Defano, Tis Dolan, Drixar, T'Charek Haathi, Nell Indigo, Llitishi, Linx Mallicker, Fume Pachoola, Pelf Pachoola, Kabalard Vinne, Iona Wince. </p><p><b>Adventurers:</b> To a Wroonian, life is worth living only if you are having fun while getting rich. This philosophy carries over to a Wroonian's career choice, with most becoming Scoundrels and Scouts, while the rare Force-sensitives become Force Prodigies. Their dislike of authority causes the Wroonians to have a minimal presence as Jedi or Soldiers in the galaxy, regardless of era. </p><h3>Wroorian Species Traits</h3><p>Wroonians share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Iron Will",
+        "description": "<p>Beings gain a +2&nbsp;Species&nbsp;bonus to their&nbsp;Will Defense.</p>"
+      },
+      {
+        "name": "Soothing Voice",
+        "description": "<p>A being may choose to reroll any&nbsp;Persuasion&nbsp;check, but the result of the reroll must be accepted, even if it is worse.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Nq61uYUjgg4P1ka6",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

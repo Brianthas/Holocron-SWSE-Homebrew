@@ -1,0 +1,36 @@
+{
+  "_id": "9rwJSSs61rAwkS5A",
+  "_key": "!items!9rwJSSs61rAwkS5A",
+  "name": "Caamasi",
+  "type": "species",
+  "system": {
+    "description": "<p>The Dark Times are truly the Caamasi's darkest hours. Though they will not know it for decades to come, the Caamasi homeworld fell victim to one of the vilest plots of the new Emperor. Only a few months after the end of the Clone Wars, the Empire, with help from internal agents, hammered Caamas in a devastating orbital bombardment. The world was effectively destroyed, along with the vast majority of the Caamasi people. Most of those who survived were offworld at the time. A few would return to investigate rehabilitating the planet, but most relocated to refugee camps on <span class=\"new\" title=\"Kerilt (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvS2VyaWx0P2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Kerilt</span>, <span class=\"new\" title=\"Susevfl (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU3VzZXZmbD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Susevfl</span>, and Alderaan. <span class=\"new\" title=\"Kerilt (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvS2VyaWx0P2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Kerilt</span> and Alderaan would eventually host large colonies of Caamasi.</p><p>All Caamasi can create vivid telepathic memories called <i>Memnii</i> (singular Memnis), which can be shared with others of their Species and with Force-users who possess at least a rudimentary command of telepathy. A Memnis is as vivid to the one who receives it as it is to the one who participated in the event remembered. Caamasi are driven to share <i>Memnii</i> as a form of collected history and ancestral wisdom. After the destruction of Caamas, <i>Memnii</i> take on even greater importance as the only way for young Caamasi to know their lost homeworld. </p><h3>Caamasi Characteristics</h3><p><b>Personality:</b> Caamasi possess great moral strength and a deep respect for others. They are artistic, freethinking, gentle, and contemplative. They are also well-known pacifists. </p><p><b>Physical Description:</b> A Caamasi's body is tall, lean, and covered in down. It has long arms with thin, three-fingered hands. The coloration of the downy coat is typically golden with purple rings around the eyes and three matching stripes on the tops of the head that extend to the shoulders. Less common colorations feature radically darker hues in the same patterns. </p><p><b>Age Groups:</b> Caamasi age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-15 Years </td> \n   <td>16-49 Years </td> \n   <td>50-76 Years </td> \n   <td>77-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Core World of Caamas, prior to its devastation. The few survivors, along with Caamasi who were offworld at the time, migrated to <span class=\"new\" title=\"Kerilt (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvS2VyaWx0P2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Kerilt</span> in the Algara System and also established a large colony on Alderaan (before that planet too was destroyed). </p><p><b>Languages:</b> Caamasi speak, read, and write their language of Caamasi, as well as Basic. </p><p><b>Example Names:</b> Elegos A'Kla, Ylenic It'kla, Releqy, Tegas Sulkec, Meqli Li karin. </p><p><b>Adventurers:</b> As pacifists, Caamasi are never Soldiers or similarly aggressive character types. Heroic Caamasi are typically Nobles, particularly diplomats. Prior to the rise of the Empire, those extremely rare Caamasi who are strong in The Force might become Jedi diplomats and consulars. During The Dark Times, Caamasi Force-users conceal their abilities. </p><h3>Caamasi Species Traits</h3><p>Caamasi share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Pacifism",
+        "description": "<p>As a Standard Action, a being can make a Persuasion check against the Will Defense of a single target within line of sight. If the check is successful, the target moves -1 step along the Condition Track if it makes any attacks before the start of the being's next turn.</p><p>If this check is unsuccessful, the target is immune to the being's Pacifism for the remainder of the encounter. This is a Mind-Affecting effect.</p><p>The target must be able to hear and understand the being for this ability to have any effect, and any single target can be affected only once at any given time (meaning that multiple beings may not use this ability on the same target at the same time).</p>"
+      },
+      {
+        "name": "Silver Tongued",
+        "description": "<p>A being may choose to reroll any&nbsp;Persuasion&nbsp;check, keeping the better of the two results.</p>"
+      },
+      {
+        "name": "Memory Sharing",
+        "description": "<p>Beings can share memories others of their own Species through an inborn telepathy. Sharing a memory begins with taking a Full-Round Action to initiate the link between two adjacent beings; transferring a memory requires as much time as the events being recalled. The recipient of a memory must be willing to receive it.</p><p>Any character who receives a Memory Sharing from a being always gains favorable circumstances on Knowledge checks related to that memory. Force-using characters can also receive Memory Sharing from a being with a successful DC 15 Use the Force check, made as a Reaction.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "FFBE2M7mU3t6IxCZ",
+      "sourceBook": "Star Wars Saga Edition Force Unleashed Campaign Guide"
+    }
+  }
+}

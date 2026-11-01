@@ -1,0 +1,44 @@
+{
+  "_id": "LuSHFnInFxfPxHhH",
+  "_key": "!items!LuSHFnInFxfPxHhH",
+  "name": "Gand",
+  "type": "species",
+  "system": {
+    "description": "<p>A strange Species of insect creatures, the Gand have evolved in response to the toxic atmosphere of their homeworld. In fact, two distinct types of Gand exist. The more common has features typical of other Species- lungs and the usual assortment of internal organs. The other type- rarely found outside Gand- has no lungs, and takes in the nutrients it needs through the materials it consumes. </p><p>Since the Gand cannot tolerate other atmospheres, and outsiders cannot breathe Gand's atmosphere, the Species of this far-flung world developed without outside interference, resulting in a rich culture with particularities. The most notable aspect of the Gand is their lack of individual identity. A Gand must earn their name, their place, and their uniqueness through personal accomplishments. As such, the lowliest Gand see themselves as nothing more than aspects of the same whole. </p><p>The Gand rarely permit non-Gand onto their world. Insular to the point of xenophobia, Gand have learned what can happen to the delicate balance of their society when they allow offworlders to pollute their people with ideas of independence and self-worth. The closest most ever come to the planet's surface are orbiting Space Stations, the principle hubs of Gand trade and commerce. </p><h3>Gand Characteristics</h3><p><b>Personality:</b> Gand seem humble, soft-spoken, and self-deprecating. Until a Gand has achieved something of importance, a Gand refers to itself as simply \"Gand.\" As the Gand achieves more accomplishments, it earns its identity, moving from the third person to the first person and eventually gaining a name. If a Gand missteps or fails, it will likely demote itself until it repairs the damage to its character. </p><p><b>Physical Description:</b> Short, stocky, and fleshy in appearance, Gand have three fingers on each hand, and their faces are lumpy and unsettling. Gand have large, multifaceted eyes that betray little emotion. All Gand encountered off-world use a special breathing apparatus that fits snugly into their facial orifice. </p><p><b>Age Groups:</b> Gand age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-29 Years </td> \n   <td>30-45 Years </td> \n   <td>46-60 Years </td> \n   <td>61+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Gand come from the poisonous world of Gand. </p><p><b>Languages:</b> Gand lack the organs to speak any language other than Gand and, therefore, rely on Transliterators to communicate in other tongues (see below). </p><p><b>Example Names:</b> Muulish, Ooryl, Shoolush, Vaabesh, Zaabahn, Zuckuss. </p><p><b>Adventurers:</b> Gand leave their homeworld for a variety of reasons, usually as exiles, driven forth from their worlds and condemned to wander. Others occupy a singularly unique role as mystic hunters called the Findsmen. Walking the path of truth, as they see it, they explore the galaxy, taking work as guardians, Soldiers, and more commonly, as Bounty Hunters. </p><h3>Gand Species Traits</h3><p>Gand share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "rare",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Darkvision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(including&nbsp;Total Concealment) from darkness. However, they cannot perceive colors in total darkness.</p>"
+      },
+      {
+        "name": "Limb Regeneration",
+        "description": "<p>A being can regrow a lost limb in 1d10 days. At the end of this time, all Persistent penalties associated with the loss of the limb are removed.</p>"
+      },
+      {
+        "name": "Hardy",
+        "description": "<p>Whenever a being uses their Second Wind, they regain a number of additional Hit Points equal to 5 + its Character Level.</p>"
+      },
+      {
+        "name": "Special Equipment",
+        "description": ""
+      },
+      {
+        "name": "Weapon Familiarity (Gand Weapon Template:Analogous Simple Weapons)",
+        "description": "<p>This Species treats an Exotic Weapon as another type of weapon.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "ujxy3D3uPKBTdK0C",
+      "sourceBook": "Star Wars Saga Edition Scum and Villainy"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "z0Kqs99hJtjT1tcn",
+  "_key": "!items!z0Kqs99hJtjT1tcn",
+  "name": "Anzati",
+  "type": "species",
+  "system": {
+    "description": "<p>Almost every culture in the galaxy has a legend about immortal creatures that lurk in the shadows, existing only to feed upon the unwary. And in most cases, the Anzati are the monsters of those legends. They have roamed the galaxy for eons, cunning predators hidden amid the crowd, capable of invisibly and efficiently tracking, killing, and feeding on their prey, taking nourishment from their victims' life energy contained within the gelid substance they call soup. </p><p>Despite their long life span, few Anzati are expert scholars, and although they indulge in different pastimes throughout their lives, Anzati rarely pursue skills that do not directly relate to the hunt. </p><h3>Anzati Characteristics</h3><p><b>Personality:</b> For Anzati, the hunt for soup is their primary goal, and they pursue it with the devotion of an addict craving the next fix. The common belief is that Anzati view all others as mere livestock, but only the most decadent Anzati subscribe to this view. However, Anzati do enjoy the perverse joke that forming friendships with other Species is akin to playing with their food. </p><p><b>Physical Description:</b> Although their appearance is similar to that of Humans, the Anzati are an unusual Species, and are most noted for their lack of a readily detectable pulse and for their low body temperature. An Anzati's other distinguishing physical trait is a pair of cheek pouches, each of which conceals a proboscis that extends for feeding. </p><p><b>Age Groups:</b>&nbsp;Anzati age at the following stages: </p><table> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-99 Years </td> \n   <td>100-649 Years </td> \n   <td>650-799 Years </td> \n   <td>800-950 Years </td> \n   <td>951+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Anzati are native to <span class=\"new\" title=\"Anzat (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQW56YXQ/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Anzat</span>, a mountainous world located in The Mid Rim. The planet's sky is covered in an omnipresent aurora that has deep religious significance for the Anzati. </p><p><b>Languages:</b> Anzati speak Anzat, an ancient language known only to them. </p><p><b>Example Names:</b> Akku Seii, Dannik Jerriko, Nikkos Tyris, Rath Kelk ko, Sa lje Tasha, Volfe Karkko. </p><p><b>Adventurers:</b> Due to their predatory nature, Anzati find themselves drawn to the professions of assassin and Scoundrels, which better enable them to hunt for nourishment. It is the rare Anzati that does not shun the morality of the Jedi Knights, although Force-users are not uncommon among the Anzati. </p><h3>Anzati Species Traits</h3><p>Anzati share the following Species Traits: </p>",
+    "size": "medium",
+    "sizeChoices": [],
+    "rarity": "common",
+    "droid": false,
+    "traits": [
+      {
+        "name": "Bonus Class Skill (Survival)",
+        "description": "<p>A particular Skill is always a Class Skill for beings.</p>"
+      },
+      {
+        "name": "Bonus Class Skill (Stealth)",
+        "description": "<p>A particular Skill is always a Class Skill for beings.</p>"
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "<p>Beings ignore&nbsp;Concealment&nbsp;(But not&nbsp;Total Concealment) from darkness.</p>"
+      },
+      {
+        "name": "Mesmerize",
+        "description": "<p>As a Standard Action, a being can make a special attack against the Will Defense of a single target within 6 squares of the being. The attack modifier is equal to the being's Character Level plus his or her Charisma modifier.</p><p>If the attack is successful, the target loses its Standard Action for its next turn. If the attack fails, the target is immune to this effect for 24 hours. This is a Mind-Affecting effect.</p>"
+      },
+      {
+        "name": "Presence Sense",
+        "description": "<p>When making a&nbsp;Survival&nbsp;check to&nbsp;Track&nbsp;a living creature, a being gains a&nbsp;Species&nbsp;bonus equal to the quarry's&nbsp;Force Point&nbsp;total.</p>"
+      },
+      {
+        "name": "Energy Drain",
+        "description": "<p>As a Swift Action once per round, a being can drain energy from a Grabbed target, moving the target -1 step on the Condition Track as a Persistent Condition, and granting the being Bonus Hit Points equal to 5 + half the being's Character Level.</p><p>The being can repeat this action each round until the target escapes the Grab, or until the target is rendered unconscious. If the target survives the draining attempt, the Persistent Condition is removed after the target rests for 8 hours.</p>"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "holocron": {
+      "sourceId": "Bl4zeFXLo8SRuJS4",
+      "sourceBook": "Star Wars Saga Edition Unknown Regions"
+    }
+  }
+}
