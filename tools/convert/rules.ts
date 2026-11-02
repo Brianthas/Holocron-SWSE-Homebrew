@@ -6,3 +6,10 @@ export const REMOVED_POWERS = new Map([
   ["Dark Transfer", 'episode-vii, Force Power Changes: "Dark Transfer is removed."'],
   ["Cloak", 'episode-vii, Force Power Changes: "Force Cloak is removed."; rulings.md, Force: it means the Cloak power'],
 ]);
+
+/**
+ * episode-vii, Jedi: "The following talent trees have been banned"; "Zeison Sha Warrior" is the
+ * Zeison Sha tree. The trees' talents stay in the packs (a ban is a play restriction); no class
+ * grants the trees.
+ */
+export const BANNED_TREES = new Set(["Agent of Ossus", "Aing-Tii Monk", "Iron Knight", "White Current Adept", "Zeison Sha"]);

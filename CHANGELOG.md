@@ -74,7 +74,8 @@
   field; the character stores the size picked at creation (`speciesSize`). A Killik picks Small,
   Medium or Large, and the sheet reports a Killik with no size chosen. Human keeps its Bonus Feat
   and Bonus Trained Skill. The 14 droid models wait for the droid rules.
-- 23 classes converted: the four base classes, held to the house class table, and 19 prestige
+- 23 classes converted: the four base classes, held to the house class table as the rules snapshot
+  prints it, and 19 prestige
   classes. Each carries its hit die, its talent trees (the fork's class trees, without banned
   trees), and the levels that give a Force technique or secret. Force Disciples, Jedi Masters and
   Sith Lords keep the trees the house rules name for them, plus a `traditionApproval` flag for
@@ -99,6 +100,12 @@
   snapshot, giving +4 INT for languages. Locomotion speed, appendage counts, Hardened Systems'
   multipliers and carrying multipliers stay in the text until droids are built.
 - A droid system applies its effects only while installed.
+- `npm run packs:validate` checks `packs/_source` (ids, item types, effect changes against what the
+  engine reads, references between packs, the base classes against the house class table, text the
+  cleanup removes) and runs in CI.
+- Descriptions lose the wiki's "See also:" line where it stands before the text outside a
+  paragraph, as on six talents (Dueling Stance, Move Massive Object, Severing Strike, Force
+  Treatment, Visions, Sith Alchemy).
 - Two-handed melee weapons add STR x 2 to damage (episode-vii, Weapons); before this they added
   STR once.
 - Feats carry their mechanics as effects: Improved Defenses, Toughness (5 hit points once, 1 per

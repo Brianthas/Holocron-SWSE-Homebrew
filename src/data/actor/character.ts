@@ -2,6 +2,7 @@ import { ABILITIES, ABILITY_LABELS, type AbilityKey } from "../../config/abiliti
 import { SKILLS, SKILL_KEYS, type SkillKey } from "../../config/skills.ts";
 import { REFLEX_SIZE_MODIFIER, SIZES, type SizeKey } from "../../config/sizes.ts";
 import type { EffectTargets } from "../../effects/changes.ts";
+import type { GrantFlag } from "../../effects/selectors.ts";
 import { abilityMod, abilityScore } from "../../rules/abilities.ts";
 import { weaponAttack, weaponDamage } from "../../rules/attacks.ts";
 import { DEFENSES, defense, maneuverDefense, reflexAbilityTerm, type DefenseKey } from "../../rules/defenses.ts";
@@ -110,7 +111,7 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
     return this.skills[key].trained || (this.grants["skill.trained"] ?? []).some((g) => g.value === key);
   }
 
-  hasFlag(flag: string): boolean {
+  hasFlag(flag: GrantFlag): boolean {
     return (this.grants["flag"] ?? []).some((g) => g.value === flag);
   }
 

@@ -19,6 +19,8 @@ export interface CleanedDescription {
 
 const WIKI_WRAPPER = /^\s*<div class="mw-parser-output">([\s\S]*)<\/div>\s*$/;
 const LABELLED_LINE = /<p>\s*(?:<br\s*\/?>\s*)*(?:<i>\s*)?(Reference Book|See also):(?:&nbsp;|\s)*([\s\S]*?)(?:<\/i>\s*)?<\/p>/g;
+// The same line outside a paragraph, ahead of the talent text: "<i>See also: <a>Saber Lock</a></i><br><br>".
+const SEE_ALSO_ITALIC = /<i>\s*(?:<sup>\s*)?See also:(?:(?!<\/i>)[\s\S])*<\/i>(?:\s*<br\s*\/?>)*/g;
 // The fork's own label on house content, "Homebrew Talent (tovec.wikidot.com/episode-vii)", as a
 // paragraph or inline before the house text: house rules are the rules here, so nothing is
 // labelled by origin.
@@ -125,7 +127,7 @@ export function cleanDescription(source: string): CleanedDescription {
   html = html.replace(LABELLED_LINE, (_line, label: string, value: string) => {
     if (label === "Reference Book" && !sourceBook) sourceBook = plain(value);
     return "";
-  });
+  }).replace(SEE_ALSO_ITALIC, "");
   const capitalise = (_label: string, letter?: string) => letter?.toUpperCase() ?? "";
   html = html.replace(HOUSE_LABEL_PARAGRAPH, "").replace(HOUSE_LABEL_BARE, "").replace(HOUSE_LABEL_INLINE, capitalise).replace(HOUSE_LABEL_BOLD, capitalise);
   const links: string[] = [];

@@ -35,6 +35,11 @@ describe("converter descriptions", () => {
     expect(cleaned.html).toBe("<p>Rule.</p><p>Text.</p>");
     expect(cleaned.sourceBook).toBe("Star Wars Saga Edition Knights of the Old Republic Campaign Guide");
   });
+  it("drop a see-also line outside a paragraph, as the Visions talent stores it", () => {
+    const raw = '<i><sup>See also: <a href="https://swse.fandom.com/wiki/On_the_Force,_Visions,_and_Discretion" title="On the Force, Visions, and Discretion">On the Force, Visions, and Discretion</a></sup></i><br><br>Whenever you use the <i>Farseeing</i> power.';
+    expect(cleanDescription(raw).html).toBe("Whenever you use the <i>Farseeing</i> power.");
+    expect(cleanDescription('<h4>Block</h4><i>See also: <a href="x">Saber Lock</a></i><br><br>As a Reaction.').html).toBe("<h4>Block</h4>As a Reaction.");
+  });
   it("turn en dashes into hyphens and em dashes into spaced hyphens", () => {
     expect(cleanDescription(`<p>Table 3${String.fromCharCode(0x2013)}8, and then${String.fromCharCode(0x2014)}later.</p>`).html)
       .toBe("<p>Table 3-8, and then - later.</p>");

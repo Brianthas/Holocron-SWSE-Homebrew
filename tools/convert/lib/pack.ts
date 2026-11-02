@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { idFor } from "./ids.ts";
+import { idFor, slugify } from "./ids.ts";
 
 /** The fork checked out beside this repo, or FORK_PACKS if set to the fork's packs/_source. */
 export const FORK_PACKS = process.env["FORK_PACKS"] ?? fileURLToPath(new URL("../../../../SWSE-Homebrew-Edition/packs/_source", import.meta.url));
@@ -81,6 +81,10 @@ export interface OutputDoc {
   sort: number;
   flags: { holocron: Record<string, unknown> };
 }
+
+/** A document's file in its pack. A talent's name can repeat across trees ("Charm Beast"), so its file carries the tree. */
+export const fileName = (doc: Pick<OutputDoc, "name" | "type" | "system">): string =>
+  `${doc.type === "talent" ? `${slugify(String(doc.system["tree"]))}--${slugify(doc.name)}` : slugify(doc.name)}.json`;
 
 /** A converted item. Its id comes from the seed; the fork's id is kept as flags.holocron.sourceId. */
 export function itemDoc(seed: string, name: string, type: string, system: Record<string, unknown>, source: SourceDoc, flags: Record<string, unknown> = {}): OutputDoc {

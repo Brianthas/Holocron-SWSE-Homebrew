@@ -16,22 +16,14 @@ import { isFanContent } from "../lib/changes.ts";
 import { cleanDescription } from "../lib/html.ts";
 import { slugify } from "../lib/ids.ts";
 import { checkKeys, itemDoc, readPack, type OutputDoc, type Report, type SourceDoc } from "../lib/pack.ts";
+import { classTable } from "../lib/rules-tables.ts";
+import { BANNED_TREES } from "../rules.ts";
 import { talentTreeGroups } from "./talents.ts";
 
 const PACK = "classes";
 const BASE = ["Jedi", "Noble", "Smuggler", "Soldier"];
 /** NPC, beast, follower and droid classes come with M2. */
 const HELD = new Set(["Aggressive Follower", "Defensive Follower", "Utility Follower", "Beast", "Nonheroic", "Independent Droid"]);
-/** episode-vii, Jedi: "The following talent trees have been banned"; "Zeison Sha Warrior" is the Zeison Sha tree. */
-export const BANNED_TREES = new Set(["Agent of Ossus", "Aing-Tii Monk", "Iron Knight", "White Current Adept", "Zeison Sha"]);
-
-/** The house class table (episode-vii, Classes), which the fork's values must match. */
-const HOUSE_TABLE: Record<string, { hp: number; die: number; skills: number; weapons: string[]; feat: string }> = {
-  Jedi: { hp: 30, die: 10, skills: 4, weapons: ["Advanced Melee Weapons", "Lightsabers", "Pistols", "Simple Weapons"], feat: "Force Sensitivity" },
-  Noble: { hp: 18, die: 6, skills: 6, weapons: ["Advanced Melee Weapons", "Pistols", "Simple Weapons"], feat: "Linguist" },
-  Smuggler: { hp: 24, die: 8, skills: 5, weapons: ["Advanced Melee Weapons", "Pistols", "Rifles", "Simple Weapons"], feat: "Quick Draw" },
-  Soldier: { hp: 30, die: 10, skills: 4, weapons: ["Advanced Melee Weapons", "Pistols", "Rifles", "Simple Weapons"], feat: "Armor Proficiency" },
-};
 
 /**
  * The three classes that "may select talents from any Force Tradition, with some limitations": the
@@ -44,7 +36,6 @@ const ANY_TRADITION: Record<string, { trees: string[]; talents: string[] }> = {
   "Sith Lord": { trees: ["Believer Disciple", "Duelist", "Lightsaber Forms", "Sith Alchemy", "Sith Commander", "Krath"], talents: ["Many Shades of the Force", "Telekinetic Vigilance"] },
 };
 
-const GROUP_KEY = new Map(Object.entries(WEAPON_GROUPS).map(([key, label]) => [label as string, key]));
 /** The fork's proficiency names: "Simple Weapons" and "Advanced Melee" for the house table's groups. */
 const FORK_WEAPON = new Map([["Advanced Melee", "Advanced Melee Weapons"], ["Simple Weapons", "Simple Weapons"], ["Lightsabers", "Lightsabers"], ["Pistols", "Pistols"], ["Rifles", "Rifles"]]);
 
@@ -72,6 +63,7 @@ export function convertClasses(report: Report): OutputDoc[] {
   const traditionTrees = treeGroups.get("Force Tradition Talent Trees") ?? new Set<string>();
   if (!traditionTrees.size) report.problems.push({ pack: PACK, name: "(all)", message: "no tree lists Force Tradition Talent Trees" });
   const allTrees = new Set([...treeGroups.values()].flatMap((s) => [...s]));
+  const houseTable = classTable();
   const out: OutputDoc[] = [];
   for (const doc of readPack(PACK)) {
     if (isFanContent(doc)) { report.exclude(PACK, doc, "Homebrew Content or a fan creator's tag (rulings.md, Content)"); continue; }
@@ -118,17 +110,18 @@ export function convertClasses(report: Report): OutputDoc[] {
     let weaponProficiencies: string[] = [];
     let startingFeat = "";
     if (base) {
-      const house = HOUSE_TABLE[doc.name];
+      const house = houseTable[doc.name];
       if (!house) { fail("base class missing from the house table"); continue; }
       const forkWeapons = get("weaponProficiency").map((w) => FORK_WEAPON.get(String(w)) ?? `?${String(w)}`).sort();
       const checks: [string, unknown, unknown][] = [
         ["level-1 hit points", Number(get("firstLevelHitPoints")[0]), house.hp], ["hit die", die, house.die],
-        ["trained skills", Number(get("trainedSkillsFirstLevel")[0]), house.skills], ["weapons", forkWeapons.join(", "), [...house.weapons].sort().join(", ")],
+        ["trained skills", Number(get("trainedSkillsFirstLevel")[0]), house.skills],
+        ["weapons", forkWeapons.join(", "), house.weapons.map((k) => WEAPON_GROUPS[k]).sort().join(", ")],
         ["starting feat", get("classFeat").includes(house.feat), true],
       ];
       for (const [what, fork, table] of checks) if (fork !== table) fail(`${what}: fork ${JSON.stringify(fork)}, house table ${JSON.stringify(table)}`);
       ({ hp: hpFirstLevel, skills: trainedSkills, feat: startingFeat } = house);
-      weaponProficiencies = house.weapons.map((w) => GROUP_KEY.get(w) ?? "");
+      weaponProficiencies = house.weapons;
     }
 
     const forkTrees = [...groups].flatMap((g) => [...(treeGroups.get(g) ?? [])]);

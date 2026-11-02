@@ -28,7 +28,8 @@
     "verify:gear": "node tools/checks/run.ts gear",
     "verify:droids": "node tools/checks/run.ts droid-systems",
     "rules:snapshot": "node tools/snapshot-rules.ts",
-    "packs:convert": "node tools/convert/convert.ts"
+    "packs:convert": "node tools/convert/convert.ts",
+    "packs:validate": "node tools/convert/validate.ts"
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",

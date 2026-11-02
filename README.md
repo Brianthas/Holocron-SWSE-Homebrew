@@ -23,9 +23,11 @@ npm run verify:talents  # converted talents from packs/_source, read off the she
 npm run verify:species  # converted species: size, abilities, Reflex, the Killik size choice
 npm run verify:classes  # converted classes embed; level-1 HP and BAB; Jedi Master's access
 npm run verify:gear     # converted weapons and armor: attack, damage, worn armor's Reflex and STR
+npm run verify:droids   # converted droid systems embed; the Translator Unit installed and removed
 ```
 
-`npm run typecheck`, `npm run lint` and `npm test` run in CI on every push.
+`npm run typecheck`, `npm run lint`, `npm test`, `npm run packs:validate` and `npm run build` run
+in CI on every push.
 
 `link` looks for Foundry's data folder at `%LOCALAPPDATA%/FoundryVTT/Data`; set `FOUNDRY_DATA` to
 use another. `verify:live` needs Foundry started with `--remote-debugging-port=9222` and a world
@@ -42,6 +44,14 @@ secrets, regimens, feats, talents, species, classes, weapons, armor, equipment a
 fork's id is kept in `flags.holocron.sourceId`. The run fails on a source field it has no mapping
 for, on a duplicate id, and on a file in an output pack it did not write (`--prune` deletes those).
 `tools/convert/out/report.json` lists every document left out, with the rule that removes it.
+
+`npm run packs:validate` checks `packs/_source` as it stands, converted or edited by hand: ids,
+keys and file names; item types against `system.json`; one system shape per type; every effect
+change against the change types, phases, selectors and grants the engine reads, and its bonus type
+against the item's own text; references between packs (a class's trees, talents and starting feat,
+a technique's power); the base classes against the house class table; and no text the description
+cleanup removes. It prints how many documents, effects and changes it read. `test/validate.test.ts`
+breaks one document per test and expects the one problem that names it.
 
 Types come from fvtt-types (v14 beta). `types/probes.ts` checks the handful of Foundry APIs the
 system depends on and fails typecheck when those types change.

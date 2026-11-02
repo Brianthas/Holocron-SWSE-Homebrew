@@ -8,8 +8,7 @@
 import { existsSync, mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { slugify } from "./lib/ids.ts";
-import { Report, type OutputDoc } from "./lib/pack.ts";
+import { fileName, Report, type OutputDoc } from "./lib/pack.ts";
 import { convertClasses } from "./packs/classes.ts";
 import { convertDroidSystems } from "./packs/droid-systems.ts";
 import { convertFeats } from "./packs/feats.ts";
@@ -31,8 +30,6 @@ const packs = new Map<string, OutputDoc[]>([
   ["weapons", convertWeapons(report)], ["armor", convertArmor(report)], ["equipment", convertEquipment(report)],
   ["droid-systems", convertDroidSystems(report)],
 ]);
-// A talent's name can repeat across trees ("Charm Beast"), so its file carries the tree.
-const fileName = (doc: OutputDoc) => (doc.type === "talent" ? `${slugify(String(doc.system["tree"]))}--${slugify(doc.name)}` : slugify(doc.name));
 
 const stale: { pack: string; file: string }[] = [];
 const written: Record<string, number> = {};
@@ -42,7 +39,7 @@ for (const [pack, docs] of packs) {
   mkdirSync(dir, { recursive: true });
   const expected = new Set<string>();
   for (const doc of docs) {
-    const file = `${fileName(doc)}.json`;
+    const file = fileName(doc);
     const clash = ids.get(doc._id);
     if (clash) report.problems.push({ pack, name: doc.name, message: `id ${doc._id} also used by ${clash}` });
     ids.set(doc._id, `${pack}/${doc.name}`);

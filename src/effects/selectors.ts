@@ -30,7 +30,10 @@ export const isSelector = (key: string): boolean => GRAMMAR.some((re) => re.test
  * Grants: facts a document gives a character, as a kind and a value. The kinds are closed; the
  * values are checked where each kind is read (a skill key, a weapon group key).
  */
-/** "flag" values are named where they are read: "extendedCapacity" doubles carrying (episode-vii). */
 export const GRANT_KINDS = ["proficiency.weapon", "proficiency.armor", "skill.trained", "flag"] as const;
 export type GrantKind = (typeof GRANT_KINDS)[number];
 export const isGrantKind = (key: string): key is GrantKind => (GRANT_KINDS as readonly string[]).includes(key);
+
+/** The "flag" grants the character reads: "extendedCapacity" doubles carrying (episode-vii). */
+export const GRANT_FLAGS = ["extendedCapacity"] as const;
+export type GrantFlag = (typeof GRANT_FLAGS)[number];

@@ -3,6 +3,7 @@
 
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+import { WEAPON_GROUPS, type WeaponGroupKey } from "../../../src/config/weapons.ts";
 
 const SNAPSHOT = fileURLToPath(new URL("../../../docs/rules/episode-vii.html", import.meta.url));
 
@@ -34,6 +35,45 @@ export function weaponTable(): WeaponRow[] {
     rows.push({ group, name, size, damage, special });
   }
   return rows;
+}
+
+export interface ClassRow { hp: number; die: number; skills: number; weapons: WeaponGroupKey[]; feat: string }
+
+/**
+ * The house class table (episode-vii, Classes): a column per base class, a row per field. The table
+ * writes "Advanced Melee" and "Simple" for the Advanced Melee Weapons and Simple Weapons groups.
+ * Throws on any cell it cannot read, so a changed table fails the run.
+ */
+export function classTable(): Record<string, ClassRow> {
+  const table = snapshotTables().find((t) => t[0]?.[1] === "JEDI");
+  if (!table) throw new Error("episode-vii: no class table");
+  const [header = [], ...rows] = table;
+  const row = (label: string) => {
+    const found = rows.find((r) => r[0] === label);
+    if (!found) throw new Error(`episode-vii class table: no "${label}" row`);
+    return found;
+  };
+  const read = (label: string, pattern: RegExp, cell: string) => {
+    const n = Number(pattern.exec(cell)?.[1]);
+    if (!Number.isInteger(n)) throw new Error(`episode-vii class table: "${label}" cell "${cell}"`);
+    return n;
+  };
+  const group = (name: string) => {
+    const key = (Object.keys(WEAPON_GROUPS) as WeaponGroupKey[]).find((k) => [name, `${name} Weapons`].includes(WEAPON_GROUPS[k]));
+    if (!key) throw new Error(`episode-vii class table: weapon group "${name}"`);
+    return key;
+  };
+  return Object.fromEntries(header.slice(1).map((title, i) => {
+    const cell = (label: string) => row(label)[i + 1] ?? "";
+    const name = title.charAt(0) + title.slice(1).toLowerCase();
+    return [name, {
+      hp: read("HP at level 1:", /^(\d+)$/, cell("HP at level 1:")),
+      die: read("Hit Dice (HD):", /^d(\d+)$/, cell("Hit Dice (HD):")),
+      skills: read("Trained Skills:", /^(\d+)\+INT$/, cell("Trained Skills:")),
+      weapons: cell("Weapon Proficiencies:").split(", ").map(group),
+      feat: cell("Starting Feats:"),
+    }];
+  }));
 }
 
 export interface ArmorRow { name: string; dexterity: string; special: string; beskar: string }
