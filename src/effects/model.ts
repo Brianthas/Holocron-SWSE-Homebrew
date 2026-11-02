@@ -34,13 +34,16 @@ export class HolocronEffectModel extends foundry.abstract.TypeDataModel<ReturnTy
   }
 
   /**
-   * Armor applies its effects only while worn (Power Armor's +2 Strength). Core reads
+   * Armor applies its effects only while worn (Power Armor's +2 Strength), a droid system only while
+   * installed (a Translator Unit's +4 INT for languages). Core reads
    * `system.isSuppressed ?? duration.expired` (ActiveEffect#isSuppressed), so this returns
    * undefined, not false, whenever it has nothing to suppress: false would hide an expired duration.
    */
   get isSuppressed(): true | undefined {
     const item = this.parent?.parent;
-    if (item?.documentName === "Item" && item.type === "armor" && (item.system as { worn?: boolean }).worn !== true) return true;
+    if (item?.documentName !== "Item") return undefined;
+    if (item.type === "armor" && (item.system as { worn?: boolean }).worn !== true) return true;
+    if (item.type === "droidSystem" && (item.system as { installed?: boolean }).installed !== true) return true;
     return undefined;
   }
 }

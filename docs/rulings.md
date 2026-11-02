@@ -9,6 +9,8 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
   Edition books and WotC's official errata. Where they are silent, the official errata supersedes
   the printed book (Surge is a free action, core rulebook errata to p100, not the printed swift
   action).
+- **The house rules page wins over tovec's other pages** (Bryan, 2026-11-01: "homerules trump
+  website"): where `episode-vii` and another snapshot (`droids`) disagree, `episode-vii` applies.
 - **Round down** (Bryan, 2026-09-24): any fraction or division rounds down unless a specific rule
   says otherwise (the Dark Side maximum, half Wisdom rounded up, is one that does).
 - **Meeting a defense or DC beats it** (Bryan, 2026-09-24), including where a power or talent
@@ -169,3 +171,6 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 ## Equipment
 
 - Only the weapons in the Episode VII weapon tables exist.
+- **Translator Unit** (Bryan, 2026-11-01: "use the house translator unit"): one droid system, not
+  the book's four DC variants. 5000 credits and 50-credit translation packs per `episode-vii`; the
+  droids page's 10 000 and 100 lose (General). +4 INT for languages while installed.

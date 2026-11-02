@@ -1,0 +1,45 @@
+{
+  "_id": "UznLdAVBsUs3mUsw",
+  "_key": "!items!UznLdAVBsUs3mUsw",
+  "name": "Translator Unit",
+  "type": "droidSystem",
+  "effects": [
+    {
+      "_id": "YcaeJfeC0ZsVaBGF",
+      "_key": "!items.effects!UznLdAVBsUs3mUsw.YcaeJfeC0ZsVaBGF",
+      "name": "Translator Unit",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "languages.int",
+            "type": "bonus",
+            "value": 4,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "system": {
+    "description": "<p>Translator Units cost 5000 credits and effectively considers the Intelligence of the Droid to be 4 higher for the purposes of understanding languages.</p><p>Assuming the Droid can speak, it also grants the ability to speak one other language (usually Basic, Huttese, or Ryl).</p><p>This item does stack with Linguist. Meaning Droids with Linguistics and intelligence score of 10 will often speak all three trade languages (Basic, Huttese, and Ryl).</p><p>Individual translation packs cost 50 credits (modified by rarity), must be installed one at a time taking one hour per language.</p>",
+    "group": "translator",
+    "cost": "5000",
+    "requires": "",
+    "installed": false
+  },
+  "flags": {
+    "holocron": {
+      "sourceBook": ""
+    }
+  }
+}
