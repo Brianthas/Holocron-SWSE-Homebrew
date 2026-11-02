@@ -28,7 +28,31 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "Ijx9gaQCFLWuY1ae",
+      "_key": "!items.effects!XDuCT4U7c8of8oKy.Ijx9gaQCFLWuY1ae",
+      "name": "Fearless",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.will",
+            "type": "bonus",
+            "value": 5,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": "to resist Fear effects, as well as against the Intimidate application of the Persuasion skill"
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

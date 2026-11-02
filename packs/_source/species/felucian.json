@@ -40,7 +40,31 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "g158uViYY5M2t5EP",
+      "_key": "!items.effects!p87Ra9WsCfVAwaHu.g158uViYY5M2t5EP",
+      "name": "Primitive",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "languages.int",
+            "type": "bonus",
+            "value": -4,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

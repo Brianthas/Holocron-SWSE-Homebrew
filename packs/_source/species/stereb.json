@@ -32,7 +32,62 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "1Drjdhi2HSCUX8iu",
+      "_key": "!items.effects!5l7A70fsVBqaRpEj.1Drjdhi2HSCUX8iu",
+      "name": "Primitive",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "languages.int",
+            "type": "bonus",
+            "value": -4,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    },
+    {
+      "_id": "P3NCGVoh6cHTUv29",
+      "_key": "!items.effects!5l7A70fsVBqaRpEj.P3NCGVoh6cHTUv29",
+      "name": "Tough",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "dt",
+            "type": "bonus",
+            "value": 5,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": ""
+          },
+          {
+            "key": "defense.fortitude",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

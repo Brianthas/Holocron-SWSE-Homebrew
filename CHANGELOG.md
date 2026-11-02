@@ -74,6 +74,14 @@
   field; the character stores the size picked at creation (`speciesSize`). A Killik picks Small,
   Medium or Large, and the sheet reports a Killik with no size chosen. Human keeps its Bonus Feat
   and Bonus Trained Skill. The 14 droid models wait for the droid rules.
+- Species traits carry their Defense mechanics as effects on the species, one per trait and named
+  for it, read from the trait's own text and checked against the fork's values. Standing bonuses
+  count: Iron Will, Great Fortitude, Lightning Reflexes, Superior Defenses, Natural Armor,
+  Carapace, Tough (Damage Threshold and Fortitude). Conditional ones (Toxic Resistance, Force
+  Resistance, Fearless, Stun Resistance and others) are listed under the total with their
+  condition, not added. Primitive counts INT as 4 lower for languages (episode-vii, Languages).
+  Rerolls, bonus feats and trained skills, fly and swim speeds, species Damage Reduction and skill
+  bonuses stay in the trait text.
 - 23 classes converted: the four base classes, held to the house class table as the rules snapshot
   prints it, and 19 prestige
   classes. Each carries its hit die, its talent trees (the fork's class trees, without banned

@@ -7,6 +7,7 @@ import type { ChangeOut } from "../tools/convert/lib/changes.ts";
 import { FEAT_KEYS } from "../tools/convert/packs/feats.ts";
 import { techniquePower } from "../tools/convert/packs/force-features.ts";
 import { parseBand } from "../tools/convert/packs/force-powers.ts";
+import { traitChanges } from "../tools/convert/packs/traits.ts";
 
 // Extended Move Object's description exactly as the fork stores it.
 const EXTENDED_MOVE_OBJECT = '<p><i>Reference Book:&nbsp;<a href="https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual" title="Star Wars Saga Edition Jedi Academy Training Manual">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also:&nbsp;<a href="https://swse.fandom.com/wiki/Force_Techniques" title="Force Techniques">Force Techniques</a></i> </p><p>The base range of your <i><a href="https://swse.fandom.com/wiki/Move_Object" title="Move Object">Move Object</a></i> Force Power increases to 18 squares (instead of 12 squares). </p>';
@@ -179,5 +180,47 @@ describe("technique powers", () => {
   });
   it("are blank for a technique that improves no power", () => {
     expect(techniquePower("Improved Telepathy", ["Use the Force"], powers)).toBe("");
+  });
+});
+
+describe("converter species traits", () => {
+  // Trait sentences as the converted species carry them.
+  const species: SourceDoc = { _id: "speciesProbe0001", name: "Probe", type: "species", system: {}, effects: [], folder: null, flags: {} };
+  const trait = (changes: { key: string; value: unknown }[]): SourceDoc => ({ ...species, type: "trait", system: { changes } });
+  const run = (name: string, text: string, changes: { key: string; value: unknown }[] = []) => {
+    const report = new Report();
+    const out = traitChanges(name, trait(changes), `<p>${text}</p>`, species, report);
+    return { out: out.map((c) => `${c.key} ${c.value} ${c.bonusType}|${c.condition}`), problems: report.problems.map((p) => p.message) };
+  };
+  it("reads a standing Species bonus, checked against the fork's value", () => {
+    expect(run("Iron Will", "Beings gain a +2 Species bonus to their Will Defense.", [{ key: "willDefenseBonus", value: 2 }]))
+      .toEqual({ out: ["defense.will 2 species|"], problems: [] });
+  });
+  it("keeps a condition on the change, and fails when the fork's value disagrees with the text", () => {
+    expect(run("Toxic Resistance", "Beings receive a +5 Species bonus to their Fortitude Defense against Poisons and Toxic Atmospheres.", [{ key: "fortitudeDefenseBonus", value: 5 }, { key: "fortitudeDefenseBonus", value: 5 }]).out)
+      .toEqual(["defense.fortitude 5 species|against Poisons and Toxic Atmospheres"]);
+    expect(run("Toxic Resistance", "Beings receive a +5 Species bonus to their Fortitude Defense against Poisons and Toxic Atmospheres.", [{ key: "fortitudeDefenseBonus", value: 2 }]).problems)
+      .toEqual(['trait "Toxic Resistance": text gives Defenses "fortitude 5", the fork\'s changes "fortitude 2"']);
+  });
+  it("reads penalties, all Defenses, the Damage Threshold, Natural Armor and chained clauses", () => {
+    expect(run("Cold-Blooded", "A being takes a -5 penalty to their Fortitude Defense to resist Extreme Cold.").out).toEqual(["defense.fortitude -5 |to resist Extreme Cold"]);
+    expect(run("Superior Defenses", "Beings gain a +1 Species bonus to all their Defenses.").out).toEqual(["defense.reflex 1 species|", "defense.fortitude 1 species|", "defense.will 1 species|"]);
+    expect(run("Tough", "Beings gain a +5 Species bonus to their Damage Threshold and a +2 Species bonus to their Fortitude Defense.").out).toEqual(["dt 5 species|", "defense.fortitude 2 species|"]);
+    expect(run("Carapace", "Beings gain a +1 Natural Armor bonus to their Reflex Defense and a +1 Natural Armor bonus to their Fortitude Defense. A Natural Armor bonus stacks with an Armor bonus.").out)
+      .toEqual(["defense.reflex 1 natural|", "defense.fortitude 1 natural|"]);
+    expect(run("Repulsive Appearance", "Beings may reroll Persuasion checks to Intimidate, and may keep the better result. They also gain a +5 bonus to their Will Defense when others attempt to use the Persuasion skill against them.").out)
+      .toEqual(["defense.will 5 |when others attempt to use the Persuasion skill against them"]);
+  });
+  it("leaves an activated bonus alone", () => {
+    expect(run("Limited Precognition", "Once per encounter, as a Reaction, a being can grant themself or any Vehicle the being Pilots a +2 Species bonus to Reflex Defense against any single attack.").out).toEqual([]);
+  });
+  it("takes Natural Armor's amount from the linked name, and Primitive's language penalty from the house rules", () => {
+    expect(run("Natural Armor (+2)", "A being gains a Natural Armor bonus to their Reflex Defense. A Natural Armor bonus stacks with an Armor bonus.", [{ key: "naturalArmorReflexDefenseBonus", value: "#payload#" }]).out)
+      .toEqual(["defense.reflex 2 natural|"]);
+    expect(run("Primitive", "Primitive does not limit starting weapon proficiencies. For understanding and speaking languages, a Primitive character counts their Intelligence as 4 lower.").out)
+      .toEqual(["languages.int -4 |"]);
+  });
+  it("fails on a fork change it has no mapping for", () => {
+    expect(run("Odd", "Text.", [{ key: "mysteryBonus", value: 1 }]).problems).toEqual(['trait "Odd": unmapped change mysteryBonus: 1']);
   });
 });

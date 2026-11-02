@@ -40,7 +40,100 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "646IVI6WACzQFFgD",
+      "_key": "!items.effects!9AfJCYBQufc3nCIP.646IVI6WACzQFFgD",
+      "name": "Natural Armor (+2)",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.reflex",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "natural",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    },
+    {
+      "_id": "vZdh1aTsBv1r0ed1",
+      "_key": "!items.effects!9AfJCYBQufc3nCIP.vZdh1aTsBv1r0ed1",
+      "name": "Primitive",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "languages.int",
+            "type": "bonus",
+            "value": -4,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    },
+    {
+      "_id": "v8VhSbWkKCPWcqAV",
+      "_key": "!items.effects!9AfJCYBQufc3nCIP.v8VhSbWkKCPWcqAV",
+      "name": "Stun Resistance",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "dt",
+            "type": "bonus",
+            "value": 5,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": "against Stunning"
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    },
+    {
+      "_id": "9GtQYYvUbNnEaVVI",
+      "_key": "!items.effects!9AfJCYBQufc3nCIP.9GtQYYvUbNnEaVVI",
+      "name": "Radiation Resistance",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.fortitude",
+            "type": "bonus",
+            "value": 5,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": "against Radiation"
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

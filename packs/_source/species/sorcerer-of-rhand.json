@@ -32,7 +32,31 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "uGvmdyTx4rXOxCs9",
+      "_key": "!items.effects!ZGn0BdYWMF7go4k2.uGvmdyTx4rXOxCs9",
+      "name": "Repulsive Appearance",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.will",
+            "type": "bonus",
+            "value": 5,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": "when others attempt to use the Persuasion skill against them"
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

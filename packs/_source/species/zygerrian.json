@@ -24,7 +24,31 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "YdajfBqUAKINUNge",
+      "_key": "!items.effects!e0RIUMdSKJV8luen.YdajfBqUAKINUNge",
+      "name": "Iron Will",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.will",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

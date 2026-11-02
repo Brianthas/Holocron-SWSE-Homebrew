@@ -32,7 +32,54 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "xJecgYCPXAXAXk9U",
+      "_key": "!items.effects!dkh1BwI8HxYX0lif.xJecgYCPXAXAXk9U",
+      "name": "Natural Armor (+2)",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.reflex",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "natural",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    },
+    {
+      "_id": "XQORKH7eL5RKhzrx",
+      "_key": "!items.effects!dkh1BwI8HxYX0lif.XQORKH7eL5RKhzrx",
+      "name": "Primitive",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "languages.int",
+            "type": "bonus",
+            "value": -4,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

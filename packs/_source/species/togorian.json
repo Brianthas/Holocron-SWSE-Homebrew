@@ -24,7 +24,31 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "EjIccKjlSVbNPmFb",
+      "_key": "!items.effects!XERt5RJVpezsrz13.EjIccKjlSVbNPmFb",
+      "name": "Feline Reflexes",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.reflex",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

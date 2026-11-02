@@ -32,7 +32,62 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "nmEcZgVecdervt60",
+      "_key": "!items.effects!wx600z5xjeMBgf03.nmEcZgVecdervt60",
+      "name": "Natural Armor (+1)",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.reflex",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "natural",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    },
+    {
+      "_id": "yGLAdUoWvz5rJwWC",
+      "_key": "!items.effects!wx600z5xjeMBgf03.yGLAdUoWvz5rJwWC",
+      "name": "Carapace",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.reflex",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "natural",
+            "condition": ""
+          },
+          {
+            "key": "defense.fortitude",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "natural",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

@@ -102,7 +102,8 @@ export function validatePacks(files: PackFile[], manifest: SystemManifest = SYST
     }
     if (REMOVED_POWERS.has(String(name)) || [...REMOVED_POWERS.keys()].some((p) => name === `Improved ${p}`)) fail("the house rules remove this power or its technique (tools/convert/rules.ts)");
 
-    const description = `${String(name)} ${String(system["description"] ?? "")}`.toLowerCase();
+    // Every text on the item: a species' trait text states its trait's bonus type.
+    const description = `${String(name)} ${strings(system).join(" ")}`.toLowerCase();
     const effectIds = new Set<string>();
     for (const effect of doc["effects"]) {
       effects++;

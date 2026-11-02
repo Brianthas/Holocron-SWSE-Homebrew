@@ -28,7 +28,31 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "UY5DjoV6mpOZbt6X",
+      "_key": "!items.effects!BSsMA6KsG1dlLUMt.UY5DjoV6mpOZbt6X",
+      "name": "Natural Armor (+1)",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.reflex",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "natural",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

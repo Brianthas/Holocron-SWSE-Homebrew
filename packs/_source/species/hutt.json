@@ -24,7 +24,31 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "RurrXeb8ZUQjyg3R",
+      "_key": "!items.effects!grb4UD4ujkcW1Okg.RurrXeb8ZUQjyg3R",
+      "name": "Force Resistance",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.will",
+            "type": "bonus",
+            "value": 5,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": "against any use of the Use the Force skill"
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

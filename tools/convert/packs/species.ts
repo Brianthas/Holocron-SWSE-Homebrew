@@ -7,10 +7,11 @@
 
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { isFanContent } from "../lib/changes.ts";
+import { addEffect, isFanContent, type ChangeOut } from "../lib/changes.ts";
 import { cleanDescription, textNotIn } from "../lib/html.ts";
 import { slugify } from "../lib/ids.ts";
 import { checkKeys, itemDoc, readPack, type OutputDoc, type Report, type SourceDoc } from "../lib/pack.ts";
+import { traitChanges } from "./traits.ts";
 
 const PACK = "species";
 const SIZE_TRAITS: Record<string, string> = { Small: "small", Medium: "medium", Large: "large" };
@@ -87,6 +88,7 @@ export function convertSpecies(report: Report): OutputDoc[] {
 
     let size = "";
     const traits: { name: string; description: string }[] = [];
+    const traitEffects: { name: string; changes: ChangeOut[] }[] = [];
     const cleanedSpecies = cleanDescription(String(doc.system["description"] ?? ""));
     for (const link of links) {
       if (link.type === "feat") { report.note("dropped: species feats are granted on the sheet (M1); the trait names them", `${doc.name}: ${link.name}`); continue; }
@@ -104,6 +106,7 @@ export function convertSpecies(report: Report): OutputDoc[] {
         continue;
       }
       traits.push({ name: link.name, description });
+      traitEffects.push({ name: link.name, changes: traitChanges(link.name, traitDoc, description, doc, report) });
     }
     if (ruling) {
       report.note("size rulings", `${doc.name}: ${ruling.source}`);
@@ -114,9 +117,12 @@ export function convertSpecies(report: Report): OutputDoc[] {
     if (r) listed.add(rarity.has(doc.name) ? doc.name : doc.name.replace(/ \(.*\)$/, ""));
     else report.note("species the rarity page does not list", doc.name);
     report.sections(PACK, doc, cleanedSpecies);
-    out.push(itemDoc(`${PACK}:${slugify(doc.name)}`, doc.name, "species", {
+    const seed = `${PACK}:${slugify(doc.name)}`;
+    const item = itemDoc(seed, doc.name, "species", {
       description: cleanedSpecies.html, size, sizeChoices: ruling?.choices ?? [], rarity: r ?? "", droid: false, traits,
-    }, doc, { sourceBook: cleanedSpecies.sourceBook }));
+    }, doc, { sourceBook: cleanedSpecies.sourceBook });
+    for (const effect of traitEffects) addEffect(item, `${seed}:trait:${slugify(effect.name)}`, effect.name, effect.changes);
+    out.push(item);
   }
   for (const name of rarity.keys()) if (!listed.has(name)) report.note("rarity page names with no species", name);
   return out;

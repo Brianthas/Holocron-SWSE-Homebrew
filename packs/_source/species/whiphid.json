@@ -24,7 +24,31 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "nY2e9hl6CawrsZdF",
+      "_key": "!items.effects!mGZSNkqo7HjyOviT.nY2e9hl6CawrsZdF",
+      "name": "Cold Resistance",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.fortitude",
+            "type": "bonus",
+            "value": 5,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": "to resist Extreme Cold"
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

@@ -24,7 +24,47 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "pnr9ZjI4cx6Q5h64",
+      "_key": "!items.effects!5El1eyf6IDIOrdcc.pnr9ZjI4cx6Q5h64",
+      "name": "Superior Defenses",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.reflex",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": ""
+          },
+          {
+            "key": "defense.fortitude",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": ""
+          },
+          {
+            "key": "defense.will",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

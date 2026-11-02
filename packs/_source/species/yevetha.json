@@ -24,7 +24,31 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "F4GRr7l9xl55smIJ",
+      "_key": "!items.effects!ud0lM10730NrmFxx.F4GRr7l9xl55smIJ",
+      "name": "Xenophobia",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.will",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": "against Persuasion checks made to improve their Attitude by any creature of a different Species"
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

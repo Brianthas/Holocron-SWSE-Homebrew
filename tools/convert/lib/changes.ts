@@ -54,14 +54,20 @@ export function runChanges(doc: SourceDoc, mappers: Record<string, Mapper>, ctx:
   }
 }
 
+/** Adds a transferred effect named `name` to an item, its id derived from `idSeed`. */
+export function addEffect(item: OutputDoc, idSeed: string, name: string, changes: ChangeOut[]): void {
+  if (!changes.length) return;
+  const effectId = idFor(idSeed);
+  item.effects.push({
+    _id: effectId, _key: `!items.effects!${item._id}.${effectId}`, name, type: "base", img: "icons/svg/aura.svg",
+    transfer: true, disabled: false, system: { changes }, duration: {}, flags: {},
+  });
+}
+
 /** Gives an item one transferred effect holding its changes, with an id derived from the item's seed. */
 export function attachEffect(item: OutputDoc, seed: string, changes: ChangeOut[]): void {
-  if (!changes.length) return;
-  const effectId = idFor(`${seed}:effect`);
-  item.effects = [{
-    _id: effectId, _key: `!items.effects!${item._id}.${effectId}`, name: item.name, type: "base", img: "icons/svg/aura.svg",
-    transfer: true, disabled: false, system: { changes }, duration: {}, flags: {},
-  }];
+  item.effects = [];
+  addEffect(item, `${seed}:effect`, item.name, changes);
 }
 
 /**

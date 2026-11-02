@@ -24,7 +24,31 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "UIrzXuaPU6rjRtwD",
+      "_key": "!items.effects!FYVdcHOXtnjcgVvv.UIrzXuaPU6rjRtwD",
+      "name": "Pheromone Acclimation",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.fortitude",
+            "type": "bonus",
+            "value": 5,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": "against the Pheromones of other members of their Species"
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

@@ -32,7 +32,31 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "mRrIdMwQXfcPVJv3",
+      "_key": "!items.effects!chaXfy54Wqv25cUs.mRrIdMwQXfcPVJv3",
+      "name": "Great Fortitude",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.fortitude",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

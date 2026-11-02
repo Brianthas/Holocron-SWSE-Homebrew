@@ -24,7 +24,54 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "quDPd0LLPkv2def2",
+      "_key": "!items.effects!WihvjFLgOgC7m8rm.quDPd0LLPkv2def2",
+      "name": "Great Fortitude",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.fortitude",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    },
+    {
+      "_id": "aPTgnhnUGuUp4ZcG",
+      "_key": "!items.effects!WihvjFLgOgC7m8rm.aPTgnhnUGuUp4ZcG",
+      "name": "Natural Armor (+2)",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.reflex",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "natural",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

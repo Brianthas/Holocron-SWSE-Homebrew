@@ -28,7 +28,54 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "EEfydItbZ8nf881O",
+      "_key": "!items.effects!rRekR5HazkOLWmWg.EEfydItbZ8nf881O",
+      "name": "Great Fortitude",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.fortitude",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    },
+    {
+      "_id": "KewkfhTCIyGW3oS3",
+      "_key": "!items.effects!rRekR5HazkOLWmWg.KewkfhTCIyGW3oS3",
+      "name": "Primitive",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "languages.int",
+            "type": "bonus",
+            "value": -4,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

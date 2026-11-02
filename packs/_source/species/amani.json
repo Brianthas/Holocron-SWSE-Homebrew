@@ -36,7 +36,54 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "0EjpetWYtgosaRgY",
+      "_key": "!items.effects!tgofSvqjWbOL4JTA.0EjpetWYtgosaRgY",
+      "name": "Primitive",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "languages.int",
+            "type": "bonus",
+            "value": -4,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    },
+    {
+      "_id": "uzBDOMJpQgFfLBN4",
+      "_key": "!items.effects!tgofSvqjWbOL4JTA.uzBDOMJpQgFfLBN4",
+      "name": "Resilient",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.fortitude",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

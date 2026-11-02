@@ -20,7 +20,31 @@
       }
     ]
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "QWvIieQnJHFPBSkI",
+      "_key": "!items.effects!qkGfN70FYNyeuzHG.QWvIieQnJHFPBSkI",
+      "name": "Resilient",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "defense.fortitude",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "species",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {
