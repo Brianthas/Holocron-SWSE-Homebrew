@@ -31,7 +31,8 @@
     "rules:snapshot": "node tools/snapshot-rules.ts",
     "packs:convert": "node tools/convert/convert.ts",
     "packs:validate": "node tools/convert/validate.ts",
-    "packs:build": "node tools/build-packs.ts"
+    "packs:build": "node tools/build-packs.ts",
+    "release:zip": "node tools/release-zip.ts"
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",

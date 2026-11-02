@@ -1,8 +1,13 @@
 # Changelog
 
-## Unreleased
+## 0.0.1 - 2026-11-01
+
+The engine and the converted compendium content. Not yet playable: characters use a debug sheet
+until the signed-off sheet is built.
 
 - Project scaffold: TypeScript, Vite build, fvtt-types, migration runner, CI.
+- `CREDITS.md` credits the compendium content's sources under CC BY-SA 3.0. `npm run release:zip
+  <staging-dir>` builds the release zip.
 - Snapshots of the Episode VII house rules, level-up guide, species rarity and droids pages in
   `docs/rules/`.
 - Rulings that clarify the snapshots in `docs/rulings.md`.
