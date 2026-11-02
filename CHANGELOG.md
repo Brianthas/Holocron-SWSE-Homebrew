@@ -114,7 +114,8 @@
 - WotC's official errata the converted text lacked is applied (`tools/convert/errata.ts`): Force
   Grip's range is 6 squares; Fool's Luck grants competence bonuses, and its list of benefits,
   missing from the wiki copy, is restored from the Core Rulebook; Rebuke, Brutal Attack and Burst
-  Fire's prerequisite carry their errata wording. Of the 74 errata entries for converted documents,
+  Fire's prerequisite carry their errata wording; Damaging Deception's +2 dice go to the next
+  allied attack that hits the target. Of the 74 errata entries for converted documents,
   the rest were already in the text or are overridden by the house rules.
 - Force powers state the house maintain check, DC 10 + damage taken after DR and SR (episode-vii,
   Force Power Changes), in place of the printed DC 15, on all 19 powers that print it.

@@ -4,7 +4,7 @@
   "name": "Damaging Deception",
   "type": "talent",
   "system": {
-    "description": "You know how to distract a target, exposing weak spots that your allies can exploit. As a Standard Action, you can make a Deception check against the Will Defense of any target within your line of sight that can see, hear, and understand you. If successful, the next attack made by one of your allies made before the start of your next turn against that target deals 2 additional dice of damage.",
+    "description": "You know how to distract a target, exposing weak spots that your allies can exploit. As a Standard Action, you can make a Deception check against the Will Defense of any target within your line of sight that can see, hear, and understand you. If successful, the next attack made by one of your allies before the start of your next turn that hits your target deals an additional +2 dice of damage.",
     "tree": "Trickery",
     "prerequisite": {
       "text": "Cunning Distraction talent",

@@ -50,6 +50,14 @@ export const ERRATA: Erratum[] = [
     replace: "expending a use of the <i>Rebuke</i> Force Power and using your <i>Rebuke</i> Use the Force check result as its target DC",
     source: "Core errata p100: \"expending a use of the rebuke power and using your rebuke Use the Force check result as its target DC\"",
   },
+  // The transcription's words are out of order ("before the start of your next by one of your allies
+  // turn that hits"); Bryan, 2026-11-01: "its the next attack against the target that hits".
+  {
+    pack: "talents", name: "Damaging Deception",
+    find: "If successful, the next attack made by one of your allies made before the start of your next turn against that target deals 2 additional dice of damage.",
+    replace: "If successful, the next attack made by one of your allies before the start of your next turn that hits your target deals an additional +2 dice of damage.",
+    source: "Scum and Villainy errata p31: Damaging Deception (word order repaired, Bryan 2026-11-01)",
+  },
   {
     pack: "talents", name: "Brutal Attack",
     find: "exceeding an opponent's Damage Threshold deals +1 die of damage on that attack.",
