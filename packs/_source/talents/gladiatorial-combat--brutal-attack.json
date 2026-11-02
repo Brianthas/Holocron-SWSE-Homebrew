@@ -4,7 +4,7 @@
   "name": "Brutal Attack",
   "type": "talent",
   "system": {
-    "description": "Choose a single weapon with which you posses the Weapon Focus feat. Attacks with such weapons that deal damage (including doubling damage from a Critical Hit) exceeding an opponent's Damage Threshold deals +1 die of damage on that attack.<br><br>You can select this Talent multiple times. Each time you select this Talent, it applies to a different weapon.",
+    "description": "Choose a single weapon with which you posses the Weapon Focus feat. Attacks with such weapons that deal damage (including doubling damage from a Critical Hit) exceeding an opponent's Damage Threshold deals +1 die of damage on that attack. You determine damage and compare it to your target's Damage Threshold first, then add the extra die of damage when applicable.<br><br>You can select this Talent multiple times. Each time you select this Talent, it applies to a different weapon.",
     "tree": "Gladiatorial Combat",
     "prerequisite": {
       "text": "Weapon Focus (#payload#)",

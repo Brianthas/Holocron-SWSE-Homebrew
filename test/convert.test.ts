@@ -8,6 +8,7 @@ import { FEAT_KEYS } from "../tools/convert/packs/feats.ts";
 import { techniquePower } from "../tools/convert/packs/force-features.ts";
 import { parseBand } from "../tools/convert/packs/force-powers.ts";
 import { traitChanges } from "../tools/convert/packs/traits.ts";
+import { applyErrata, ERRATA } from "../tools/convert/errata.ts";
 
 // Extended Move Object's description exactly as the fork stores it.
 const EXTENDED_MOVE_OBJECT = '<p><i>Reference Book:&nbsp;<a href="https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual" title="Star Wars Saga Edition Jedi Academy Training Manual">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also:&nbsp;<a href="https://swse.fandom.com/wiki/Force_Techniques" title="Force Techniques">Force Techniques</a></i> </p><p>The base range of your <i><a href="https://swse.fandom.com/wiki/Move_Object" title="Move Object">Move Object</a></i> Force Power increases to 18 squares (instead of 12 squares). </p>';
@@ -180,6 +181,25 @@ describe("technique powers", () => {
   });
   it("are blank for a technique that improves no power", () => {
     expect(techniquePower("Improved Telepathy", ["Use the Force"], powers)).toBe("");
+  });
+});
+
+describe("converter errata", () => {
+  const doc = (name: string, description: string) => ({ _id: "x", _key: "!items!x", name, type: "forcePower", system: { description }, effects: [], folder: null, sort: 0, flags: { holocron: {} } });
+  const run = (description: string) => {
+    const report = new Report();
+    const packs = new Map([["force-powers", [doc("Force Grip", description)]]]);
+    const grip = ERRATA.filter((e) => e.name === "Force Grip");
+    applyErrata(packs, report, grip);
+    return { text: packs.get("force-powers")?.[0]?.system.description, problems: report.problems.map((p) => p.message) };
+  };
+  it("applies an erratum whose phrase appears once", () => {
+    expect(run("<b>Targets:</b> One target within 12 squares and within Line of Sight. More.").text).toBe("<b>Targets:</b> One target within 6 squares and within Line of Sight. More.");
+  });
+  it("fails when the phrase is gone or appears twice, and changes nothing", () => {
+    expect(run("<b>Targets:</b> One target within 6 squares.").problems).toEqual([expect.stringMatching(/matches 0 times, expected 1$/)]);
+    const twice = "One target within 12 squares and within Line of Sight. One target within 12 squares and within Line of Sight.";
+    expect(run(twice)).toEqual({ text: twice, problems: [expect.stringMatching(/matches 2 times, expected 1$/)] });
   });
 });
 

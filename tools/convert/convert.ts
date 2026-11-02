@@ -8,6 +8,7 @@
 import { existsSync, mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { applyErrata } from "./errata.ts";
 import { fileName, Report, type OutputDoc } from "./lib/pack.ts";
 import { convertClasses } from "./packs/classes.ts";
 import { convertDroidSystems } from "./packs/droid-systems.ts";
@@ -30,6 +31,7 @@ const packs = new Map<string, OutputDoc[]>([
   ["weapons", convertWeapons(report)], ["armor", convertArmor(report)], ["equipment", convertEquipment(report)],
   ["droid-systems", convertDroidSystems(report)],
 ]);
+applyErrata(packs, report);
 
 const stale: { pack: string; file: string }[] = [];
 const written: Record<string, number> = {};

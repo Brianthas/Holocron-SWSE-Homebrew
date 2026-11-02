@@ -24,6 +24,14 @@ const changesOf = (doc: SourceDoc): Change[] => {
   return (Array.isArray(raw) ? raw : Object.values((raw ?? {}) as object)) as Change[];
 };
 
+/**
+ * The house maintain DC (episode-vii, Force Power Changes: "In order to maintain a power, you must
+ * succeed on a DC 10 + damage taken (after DR and SR)", which "Applies to concentration effects,
+ * such as Force Grip or Move Object"). The printed text, errata included, says DC 15.
+ */
+const PRINTED_MAINTAIN = "(DC = 15 + damage taken)";
+const HOUSE_MAINTAIN = "(DC = 10 + damage taken, after DR and SR)";
+
 /** "15:The target heals..." to { dc: 15, text: "The target heals..." }; null when it is not that shape. */
 export function parseBand(value: unknown): Band | null {
   const match = /^(\d+):([\s\S]*)$/.exec(String(value));
@@ -98,7 +106,11 @@ export function convertForcePowers(report: Report): OutputDoc[] {
     const cleaned = cleanDescription(String(doc.system["description"] ?? ""));
     report.sections(PACK, doc, cleaned);
     const { sourceBook } = cleaned;
-    const html = shortDescriptionCarry(doc, report, PACK) + cleaned.html;
+    const printed = shortDescriptionCarry(doc, report, PACK) + cleaned.html;
+    const html = printed.replaceAll(PRINTED_MAINTAIN, HOUSE_MAINTAIN);
+    for (const band of bands) band.text = band.text.replaceAll(PRINTED_MAINTAIN, HOUSE_MAINTAIN);
+    if (html !== printed) report.note("house maintain DC (episode-vii, Force Power Changes: DC 10 + damage taken)", doc.name);
+    if (/15 \+ damage taken/.test(html) || bands.some((b) => /15 \+ damage taken/.test(b.text))) fail("a DC 15 maintain check the house replacement did not match");
     if (!bands.length && /\bDC\s*\d+/.test(html)) report.note("powers with a DC in the text but no bands", doc.name);
     bands.sort((a, b) => a.dc - b.dc);
     out.push(itemDoc(`${PACK}:${slugify(doc.name)}`, doc.name, "forcePower",

@@ -4,7 +4,7 @@
   "name": "Fool's Luck",
   "type": "talent",
   "system": {
-    "description": "As a Standard Action, you can spend a Force Point to gain one of the following benefits for the rest of the encounter:<br><br>If you use this Talent to grant yourself a luck bonus to your Defenses, this bonus also applies to the Defenses of any Vehicle you are on (even if you are not the Pilot).",
+    "description": "As a Standard Action, you can spend a Force Point to gain one of the following benefits for the rest of the encounter: a +1 competence bonus on attack rolls, a +5 competence bonus on skill checks, or a +1 competence bonus to all your Defenses.<br><br>If you use this Talent to grant yourself a competence bonus to your Defenses, this bonus also applies to the Defenses of any Vehicle you are on (even if you are not the Pilot).",
     "tree": "Fortune",
     "prerequisite": {
       "text": "",
