@@ -13,7 +13,16 @@ export interface PackFile { pack: string; file: string; doc: unknown }
 export interface Validation { problems: string[]; effects: number; changes: number }
 
 const SYSTEM_JSON = fileURLToPath(new URL("../../../static/system.json", import.meta.url));
-const ITEM_TYPES = new Set(Object.keys((JSON.parse(readFileSync(SYSTEM_JSON, "utf8")) as { documentTypes: { Item: object } }).documentTypes.Item));
+interface PackFolder { name: string; packs?: string[]; folders?: PackFolder[] }
+/** The parts of system.json the checks read. */
+export interface SystemManifest {
+  id: string;
+  documentTypes: { Item: object };
+  packs: { name: string; type: string; system?: string; path?: string }[];
+  packFolders?: PackFolder[];
+}
+export const SYSTEM = JSON.parse(readFileSync(SYSTEM_JSON, "utf8")) as SystemManifest;
+const folderPacks = (folders: PackFolder[] = []): string[] => folders.flatMap((f) => [...(f.packs ?? []), ...folderPacks(f.folders)]);
 const ID = /^[A-Za-z0-9]{16}$/;
 const DOC_KEYS = "_id,_key,effects,flags,folder,name,sort,system,type";
 const EFFECT_KEYS = "_id,_key,disabled,duration,flags,img,name,system,transfer,type";
@@ -49,7 +58,8 @@ const mostCommon = (values: string[]) => {
   return [...counts].sort((a, b) => b[1] - a[1])[0]?.[0];
 };
 
-export function validatePacks(files: PackFile[]): Validation {
+export function validatePacks(files: PackFile[], manifest: SystemManifest = SYSTEM): Validation {
+  const ITEM_TYPES = new Set(Object.keys(manifest.documentTypes.Item));
   const problems: string[] = [];
   let effects = 0;
   let changes = 0;
@@ -144,6 +154,22 @@ export function validatePacks(files: PackFile[]): Validation {
     }
     docs.push({ at, pack, doc, system });
   }
+
+  // system.json and packs/_source name the same packs. Foundry drops a pack it cannot read with only
+  // a warning in the server log, so a mismatch here would otherwise show as a missing compendium.
+  const sourcePacks = new Set(files.map((f) => f.pack));
+  const inFolders = folderPacks(manifest.packFolders);
+  for (const declared of manifest.packs) {
+    const at = `system.json: pack "${declared.name}"`;
+    if (!sourcePacks.has(declared.name)) problems.push(`${at} has no documents in packs/_source`);
+    if (declared.type !== "Item" || declared.system !== manifest.id || declared.path !== `packs/${declared.name}`) {
+      problems.push(`${at} must be type Item, system ${manifest.id}, path packs/${declared.name}`);
+    }
+    const folders = inFolders.filter((p) => p === declared.name).length;
+    if (folders !== 1) problems.push(`${at} is in ${folders} pack folders, expected 1`);
+  }
+  for (const pack of sourcePacks) if (!manifest.packs.some((p) => p.name === pack)) problems.push(`${pack}: not a pack in system.json`);
+  for (const pack of inFolders) if (!manifest.packs.some((p) => p.name === pack)) problems.push(`system.json: pack folder names "${pack}", which is not a pack`);
 
   // One shape per pack and per type: a builder that writes a different shape shows up here.
   for (const pack of new Set(docs.map((d) => d.pack))) {

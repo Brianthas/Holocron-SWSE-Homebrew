@@ -4,7 +4,7 @@ import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
-import { CLEANUP_MARKERS, validatePacks, type PackFile } from "../tools/convert/lib/validate.ts";
+import { CLEANUP_MARKERS, SYSTEM, validatePacks, type PackFile, type SystemManifest } from "../tools/convert/lib/validate.ts";
 
 const ROOT = fileURLToPath(new URL("../packs/_source", import.meta.url));
 const PACKS: PackFile[] = readdirSync(ROOT).sort().flatMap((pack) => readdirSync(join(ROOT, pack)).filter((f) => f.endsWith(".json")).sort()
@@ -176,6 +176,29 @@ describe("the validator's effect and change checks", () => {
   it("rejects a change with a field the change schema does not have", () => {
     expect(broken(TOUGHNESS, (d) => { change(d).priority = 20; }))
       .toEqual(['feats/toughness.json: change "hp.max": keys bonusType,condition,key,phase,priority,type,value, expected bonusType,condition,key,phase,type,value']);
+  });
+});
+
+describe("the validator's pack list", () => {
+  it("rejects a pack folder system.json does not declare, and a declared pack left empty", () => {
+    const armor = PACKS.filter((f) => f.pack === "armor");
+    const moved = PACKS.map((f) => (f.pack === "armor" ? { ...f, pack: "armour" } : f));
+    expect(armor.length).toBeGreaterThan(0);
+    expect(validatePacks(moved).problems).toEqual([
+      'system.json: pack "armor" has no documents in packs/_source',
+      "armour: not a pack in system.json",
+    ]);
+  });
+  it("rejects a declared pack Foundry would drop or misplace: wrong type, system or path, and a pack in no folder or two", () => {
+    const manifest = (change: (m: SystemManifest) => void) => { const m = structuredClone(SYSTEM); change(m); return validatePacks(PACKS, m).problems; };
+    const armor = (m: SystemManifest) => m.packs.find((p) => p.name === "armor") ?? m.packs[0]!;
+    const shape = 'system.json: pack "armor" must be type Item, system holocron, path packs/armor';
+    expect(manifest((m) => { delete armor(m).system; })).toEqual([shape]);
+    expect(manifest((m) => { armor(m).type = "Actor"; })).toEqual([shape]);
+    expect(manifest((m) => { armor(m).path = "packs/armour"; })).toEqual([shape]);
+    expect(manifest((m) => { m.packFolders = []; })).toEqual(SYSTEM.packs.map((p) => `system.json: pack "${p.name}" is in 0 pack folders, expected 1`));
+    expect(manifest((m) => { m.packFolders?.[0]?.folders?.[0]?.packs?.push("armor"); })).toEqual(['system.json: pack "armor" is in 2 pack folders, expected 1']);
+    expect(manifest((m) => { m.packFolders?.[0]?.folders?.[0]?.packs?.push("vehicles"); })).toEqual(['system.json: pack folder names "vehicles", which is not a pack']);
   });
 });
 

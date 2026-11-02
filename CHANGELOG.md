@@ -103,6 +103,10 @@
 - `npm run packs:validate` checks `packs/_source` (ids, item types, effect changes against what the
   engine reads, references between packs, the base classes against the house class table, text the
   cleanup removes) and runs in CI.
+- Compendium packs: 12 Item packs (Species, Classes, Feats, Talents, Force Powers, Force
+  Techniques, Force Secrets, Force Regimens, Weapons, Armor, Equipment, Droid Systems) in a
+  Holocron folder, grouped as Character, The Force and Gear. `npm run packs:build` compiles them
+  from `packs/_source` after the validator passes.
 - Descriptions lose the wiki's "See also:" line where it stands before the text outside a
   paragraph, as on six talents (Dueling Stance, Move Massive Object, Severing Strike, Force
   Treatment, Visions, Sith Alchemy).

@@ -1,7 +1,7 @@
 // Runs a live check (tools/checks/<name>.page.js) inside the running Foundry client and prints every
 // result, passed and failed. Exits 1 if any fails or the page refuses (wrong world). Run verify:live
 // first, so the checks run against this build. Usage: node tools/checks/run.ts <name>
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { evaluate } from "../lib/cdp.ts";
 
 interface Report {
@@ -22,8 +22,17 @@ if (!name) {
 const source = readFileSync(new URL(`./${name}.page.js`, import.meta.url), "utf8");
 const wanted = /^\/\/ pack-docs: (.+)$/m.exec(source)?.[1]?.split(",").map((s) => s.trim()) ?? [];
 const docs = Object.fromEntries(wanted.map((path) => [path, JSON.parse(readFileSync(new URL(`../../packs/_source/${path}.json`, import.meta.url), "utf8"))]));
-const page = wanted.length ? source.replace("= __PACK_DOCS__", () => `= ${JSON.stringify(docs)}`) : source;
-const report = JSON.parse((await evaluate(page, 60000)) as string) as Report;
+// "= __PACK_COUNTS__" becomes each source pack's document and effect counts, read off packs/_source.
+const sourceRoot = new URL("../../packs/_source/", import.meta.url);
+const counts = () => Object.fromEntries(readdirSync(sourceRoot).map((pack) => {
+  const files = readdirSync(new URL(`${pack}/`, sourceRoot)).filter((f) => f.endsWith(".json"));
+  const effects = files.reduce((n, f) => n + (JSON.parse(readFileSync(new URL(`${pack}/${f}`, sourceRoot), "utf8")) as { effects: unknown[] }).effects.length, 0);
+  return [pack, { items: files.length, effects }];
+}));
+let page = wanted.length ? source.replace("= __PACK_DOCS__", () => `= ${JSON.stringify(docs)}`) : source;
+if (page.includes("= __PACK_COUNTS__")) page = page.replace("= __PACK_COUNTS__", () => `= ${JSON.stringify(counts())}`);
+// The pack probe embeds every compendium item; the other checks answer well inside a minute.
+const report = JSON.parse((await evaluate(page, name === "packs" ? 300000 : 60000)) as string) as Report;
 
 if (report.refused) {
   console.error(`${name}: refused: ${report.refused}; open the holocron-testing world first`);

@@ -24,10 +24,11 @@ npm run verify:species  # converted species: size, abilities, Reflex, the Killik
 npm run verify:classes  # converted classes embed; level-1 HP and BAB; Jedi Master's access
 npm run verify:gear     # converted weapons and armor: attack, damage, worn armor's Reflex and STR
 npm run verify:droids   # converted droid systems embed; the Translator Unit installed and removed
+npm run verify:packs    # the built compendiums load, and every item embeds and prepares cleanly
 ```
 
-`npm run typecheck`, `npm run lint`, `npm test`, `npm run packs:validate` and `npm run build` run
-in CI on every push.
+`npm run typecheck`, `npm run lint`, `npm test`, `npm run build` and `npm run packs:build` run in
+CI on every push.
 
 `link` looks for Foundry's data folder at `%LOCALAPPDATA%/FoundryVTT/Data`; set `FOUNDRY_DATA` to
 use another. `verify:live` needs Foundry started with `--remote-debugging-port=9222` and a world
@@ -51,7 +52,22 @@ change against the change types, phases, selectors and grants the engine reads, 
 against the item's own text; references between packs (a class's trees, talents and starting feat,
 a technique's power); the base classes against the house class table; and no text the description
 cleanup removes. It prints how many documents, effects and changes it read. `test/validate.test.ts`
-breaks one document per test and expects the one problem that names it.
+breaks one document per test and expects the one problem that names it. It also checks that
+`system.json` declares exactly the packs in `packs/_source`, each in one pack folder: Foundry drops
+a pack it cannot read with only a warning in the server log.
+
+`npm run packs:build` runs the validator, compiles each declared pack into `dist/packs` (LevelDB,
+with `@foundryvtt/foundryvtt-cli`), and reads every pack back against its source counts. It
+builds nothing on a validation problem. A running world holds its packs open, so the build stops at
+the first pack with "Foundry has this pack open" and changes nothing; rebuild with the world shut
+down. `foundry-console-tools/relaunch-world.mjs holocron-testing --build-packs Holocron` shuts the
+world down, builds and launches it again. A world needs a relaunch, not a reload, to pick up a pack
+added to `system.json`.
+
+`verify:packs` loads every pack from the running client, checks its documents and effects against
+`packs/_source`, and embeds every item on scratch level-1 Jedi, 200 items each. With armor worn and
+droid systems installed, every effect change must reach the character's modifiers, grants or dice,
+with no Holocron console error.
 
 Types come from fvtt-types (v14 beta). `types/probes.ts` checks the handful of Foundry APIs the
 system depends on and fails typecheck when those types change.

@@ -48,7 +48,30 @@
       "droidSystem": { "htmlFields": ["description"] }
     }
   },
-  "packs": [],
+  "packs": [
+    { "name": "species", "label": "Species", "path": "packs/species", "type": "Item", "system": "holocron" },
+    { "name": "classes", "label": "Classes", "path": "packs/classes", "type": "Item", "system": "holocron" },
+    { "name": "feats", "label": "Feats", "path": "packs/feats", "type": "Item", "system": "holocron" },
+    { "name": "talents", "label": "Talents", "path": "packs/talents", "type": "Item", "system": "holocron" },
+    { "name": "force-powers", "label": "Force Powers", "path": "packs/force-powers", "type": "Item", "system": "holocron" },
+    { "name": "force-techniques", "label": "Force Techniques", "path": "packs/force-techniques", "type": "Item", "system": "holocron" },
+    { "name": "force-secrets", "label": "Force Secrets", "path": "packs/force-secrets", "type": "Item", "system": "holocron" },
+    { "name": "force-regimens", "label": "Force Regimens", "path": "packs/force-regimens", "type": "Item", "system": "holocron" },
+    { "name": "weapons", "label": "Weapons", "path": "packs/weapons", "type": "Item", "system": "holocron" },
+    { "name": "armor", "label": "Armor", "path": "packs/armor", "type": "Item", "system": "holocron" },
+    { "name": "equipment", "label": "Equipment", "path": "packs/equipment", "type": "Item", "system": "holocron" },
+    { "name": "droid-systems", "label": "Droid Systems", "path": "packs/droid-systems", "type": "Item", "system": "holocron" }
+  ],
+  "packFolders": [
+    {
+      "name": "Holocron",
+      "folders": [
+        { "name": "Character", "packs": ["species", "classes", "feats", "talents"] },
+        { "name": "The Force", "packs": ["force-powers", "force-techniques", "force-secrets", "force-regimens"] },
+        { "name": "Gear", "packs": ["weapons", "armor", "equipment", "droid-systems"] }
+      ]
+    }
+  ],
   "primaryTokenAttribute": "hp",
   "secondaryTokenAttribute": "resources.forcePoints",
   "socket": true,
