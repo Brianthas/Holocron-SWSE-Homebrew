@@ -1,0 +1,6 @@
+<div class="cb-head">
+  <nav class="cb-tabs" role="tablist">
+    {{#each tabs}}<button type="button" class="cb-tab{{#if active}} active{{/if}}" role="tab" aria-selected="{{active}}" data-action="showTab" data-tab="{{id}}">{{label}}</button>{{/each}}
+  </nav>
+  {{#if banner}}<div class="cb-banner"><span>{{banner}}</span><button type="button" class="btn" data-action="done">Done</button></div>{{/if}}
+</div>

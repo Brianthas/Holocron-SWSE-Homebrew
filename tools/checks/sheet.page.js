@@ -614,12 +614,18 @@ check("Jedi Knight 2 gives 0 / 1 techniques and names it in the pending line; Ex
   && techTaken.hint === "1 / 1" && techTaken.tag === "Move Object" && techTaken.detailHidden && !opened.hidden && opened.textContent.trim().length > 40,
   { techStart, techSlot, techTaken, opened: opened.textContent.trim().slice(0, 60) });
 
-// Browse opens the compendium to drag from.
+// Browse opens the compendium browser on what it adds (verify:browser drives the browser itself).
 {
-  const shown = new Promise((resolve) => Hooks.once("renderCompendium", resolve));
-  el().querySelector('[data-action="browse"][data-pack="holocron.force-secrets"]').click();
+  const shown = new Promise((resolve) => Hooks.once("renderCompendiumBrowser", resolve));
+  el().querySelector('[data-action="browse"][data-target="secrets"]').click();
   const app = await shown;
-  check("Browse secrets opens the Force Secrets compendium", app.collection?.collection === "holocron.force-secrets", { pack: app.collection?.collection });
+  const opened = {
+    tab: app.element.querySelector(".cb-tab.active")?.textContent.trim(),
+    sub: app.element.querySelector('[data-key="forceSub"][aria-pressed="true"]')?.textContent.trim(),
+    banner: app.element.querySelector(".cb-banner span")?.textContent.trim(),
+  };
+  check("Browse secrets opens the browser on Force, Secrets, adding to this character", opened.tab === "Force" && opened.sub === "Secrets"
+    && opened.banner?.startsWith(`Adding to ${actor.name}'s Force secrets`), opened);
   await app.close();
 }
 el().querySelector('nav.sheet-tabs [data-tab="play"]').click();

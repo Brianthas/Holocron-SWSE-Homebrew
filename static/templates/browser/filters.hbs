@@ -1,0 +1,34 @@
+<aside class="cb-filters">
+  {{#if sub}}
+  <div class="fgroup"><span class="label">Type</span><div class="minseg">{{#each sub.options}}<button type="button" data-action="seg" data-key="{{../sub.key}}" data-value="{{value}}" aria-pressed="{{on}}">{{label}}</button>{{/each}}</div></div>
+  {{/if}}
+  <div class="fgroup"><label class="label">Search
+    <input class="cb-input" type="search" name="q" value="{{q}}" placeholder="{{#if (eq tab "talents")}}e.g. Dueling, Awareness{{else if (eq tab "species")}}e.g. Twi'lek, Darkvision{{else}}Search by name{{/if}}" autocomplete="off"></label></div>
+
+  {{#if (eq tab "talents")}}
+  <div class="fgroup"><div class="label"><span>Class</span><span class="count">{{#if classTag}}{{classTag}}{{else}}any{{/if}}</span></div>
+    <div class="tag-list">{{#each classTags}}<button type="button" data-action="classTag" data-value="{{name}}" aria-pressed="{{on}}">{{name}}</button>{{/each}}</div>
+    <select class="cb-input" name="prestige" aria-label="Prestige class"><option value="">Prestige class</option>{{#each prestige}}<option value="{{name}}" {{#if selected}}selected{{/if}}>{{name}}</option>{{/each}}</select>
+    <div class="hint">Shows the trees that class unlocks.</div></div>
+  <div class="fgroup"><div class="label"><span>Talent tree</span><span class="count">{{#if treesPicked}}{{treesPicked}} picked{{else}}all{{/if}}</span></div>
+    <input class="cb-input" type="search" name="treeQ" value="{{treeQ}}" placeholder="Find a tree" autocomplete="off">
+    <div class="tree-list">{{#each trees}}<label class="check"><input type="checkbox" name="tree" value="{{name}}" {{#if checked}}checked{{/if}}><span>{{name}}</span><span class="count">{{count}}</span></label>{{/each}}</div></div>
+  <div class="fgroup"><span class="label">Order</span><div class="minseg">{{#each order.options}}<button type="button" data-action="seg" data-key="order" data-value="{{value}}" aria-pressed="{{on}}">{{label}}</button>{{/each}}</div></div>
+  {{else if (eq tab "feats")}}
+  <div class="hint">Feat prerequisites are negotiable at this table: every feat is shown and none is greyed out.</div>
+  {{else if (eq tab "force")}}
+  {{#if descriptors.length}}<div class="fgroup"><span class="label">Descriptor</span>{{#each descriptors}}<label class="check"><input type="checkbox" name="source" value="{{name}}" {{#if checked}}checked{{/if}}><span>{{name}}</span><span class="count">{{count}}</span></label>{{/each}}</div>{{/if}}
+  {{else if (eq tab "equipment")}}
+  {{#if groups.length}}<div class="fgroup"><span class="label">{{groupLabel}}</span>{{#each groups}}<label class="check"><input type="checkbox" name="source" value="{{name}}" {{#if checked}}checked{{/if}}><span>{{name}}</span><span class="count">{{count}}</span></label>{{/each}}</div>{{/if}}
+  {{else if (eq tab "species")}}
+  <div class="fgroup"><span class="label">Size</span><div class="tag-list">{{#each sizes}}<button type="button" data-action="tag" data-key="size" data-value="{{name}}" aria-pressed="{{on}}">{{name}} <span class="count">{{count}}</span></button>{{/each}}</div></div>
+  <div class="fgroup"><span class="label">Type</span><div class="tag-list">{{#each kinds}}<button type="button" data-action="tag" data-key="kind" data-value="{{name}}" aria-pressed="{{on}}">{{name}} <span class="count">{{count}}</span></button>{{/each}}</div></div>
+  <div class="fgroup"><span class="label">Group by</span><div class="minseg">{{#each group.options}}<button type="button" data-action="seg" data-key="speciesGroup" data-value="{{value}}" aria-pressed="{{on}}">{{label}}</button>{{/each}}</div></div>
+  <div class="fgroup"><div class="label"><span>Traits</span><span class="count">{{#if traitsPicked.length}}{{traitsPicked.length}} picked{{else}}any{{/if}}</span></div>
+    {{#if traitsPicked.length}}<div class="tag-list">{{#each traitsPicked}}<button type="button" data-action="traitRemove" data-value="{{this}}" aria-pressed="true" aria-label="Remove {{this}}">{{this}} &#10005;</button>{{/each}}</div>{{/if}}
+    <input class="cb-input" type="search" name="traitQ" value="{{traitQ}}" placeholder="Search traits, e.g. Darkvision" autocomplete="off">
+    {{#if traitQuery}}<div class="tag-list">{{#each suggestions}}<button type="button" data-action="traitAdd" data-value="{{name}}" aria-pressed="false">{{name}} <span class="count">{{count}}</span></button>{{else}}<span class="hint">No trait matches.</span>{{/each}}</div>{{/if}}</div>
+  {{#if isGM}}<label class="switch"><input type="checkbox" name="showDenied" {{#if showDenied}}checked{{/if}}> Show Denied species (GM)</label>{{/if}}
+  {{/if}}
+  <button type="button" class="btn" data-action="clear">Clear all filters</button>
+</aside>

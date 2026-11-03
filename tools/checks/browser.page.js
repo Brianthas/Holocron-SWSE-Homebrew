@@ -1,0 +1,212 @@
+/* global game, Actor, Hooks, ui, foundry, document, Event, DataTransfer, DragEvent, getComputedStyle, fromUuid */
+// The compendium browser (mockup 3), driven through its own controls: the Compendium sidebar's
+// button, the sheet's Browse buttons, search, filters, Add, and a drag onto the sheet.
+//
+//   Fixture: a Bothan Jedi 1 holding Force Training (repeatable) and Quick Draw (not). Expected
+//   counts are read from the pack indexes, not written here.
+
+(async () => {
+if (game.world.id !== "holocron-testing" || game.system.id !== "holocron") {
+  return JSON.stringify({ refused: `world ${game.world.id}, system ${game.system.id}` });
+}
+const results = [];
+const check = (name, pass, detail) => results.push({ name, pass: Boolean(pass), detail: JSON.parse(JSON.stringify(detail ?? null)) });
+const FLAG = { holocron: { browserFixture: true } };
+const old = game.actors.filter((a) => a.getFlag("holocron", "browserFixture")).map((a) => a.id);
+if (old.length) await Actor.deleteDocuments(old);
+foundry.applications.instances.get("holocron-browser")?.close();
+
+const uuidOf = (pack, name) => game.packs.get(`holocron.${pack}`).index.getName(name)?.uuid;
+const source = async (pack, name) => (await fromUuid(uuidOf(pack, name))).toObject();
+const jedi = await source("classes", "Jedi");
+const actor = await Actor.create({
+  name: "Browser Probe", type: "character", flags: FLAG,
+  items: [await source("species", "Bothan"), jedi, await source("feats", "Force Training"), await source("feats", "Quick Draw")],
+});
+const jediItem = actor.items.find((i) => i.type === "class");
+await actor.update({ "system.progression": [{ class: jediItem.id }] });
+
+const rendered = () => new Promise((resolve) => Hooks.once("renderCompendiumBrowser", resolve));
+const app = () => foundry.applications.instances.get("holocron-browser");
+const el = () => app()?.element;
+const text = (sel) => el().querySelector(sel)?.textContent.trim().replace(/\s+/g, " ");
+const names = () => [...el().querySelectorAll(".result-row .rname")].map((b) => b.textContent.trim());
+const click = async (selector) => {
+  const done = rendered();
+  el().querySelector(selector).click();
+  await done;
+};
+const type = async (name, value) => {
+  const done = rendered();
+  const input = el().querySelector(`input[name="${name}"]`);
+  input.value = value;
+  input.dispatchEvent(new Event("input", { bubbles: true }));
+  await done;
+};
+const tick = async (name, value, on = true) => {
+  const done = rendered();
+  const input = el().querySelector(value === null ? `input[name="${name}"]` : `input[name="${name}"][value="${value}"]`);
+  input.checked = on;
+  input.dispatchEvent(new Event("change", { bubbles: true }));
+  await done;
+};
+const index = (pack) => [...game.packs.get(`holocron.${pack}`).index];
+
+// The Compendium sidebar's button, which re-renders in place: one button after three renders.
+ui.sidebar.changeTab("compendium", "primary");
+for (let i = 0; i < 3; i++) await ui.compendium.render({ force: true });
+const buttons = document.querySelectorAll(".holocron-browser-button").length;
+let shown = rendered();
+document.querySelector(".holocron-browser-button").click();
+await shown;
+const talentTotal = index("talents").length;
+check("one Compendium sidebar button after three renders opens the browser on Talents with every talent", buttons === 1 && text(".cb-count") === `${talentTotal} talents`
+  && text(".cb-tab.active") === "Talents", { buttons, count: text(".cb-count"), talentTotal });
+
+// The window keeps its order between opens; this run starts from By tree.
+await click('[data-action="seg"][data-key="order"][data-value="tree"]');
+
+// Search covers talent and tree names.
+await type("q", "dueling");
+// In tree order a row's tree is the group head above it.
+const treeOf = (row) => { let n = row.previousElementSibling; while (n && !n.classList.contains("group-head")) n = n.previousElementSibling; return n?.dataset.group ?? ""; };
+const dueling = { names: names(), count: text(".cb-count"), rows: [...el().querySelectorAll(".result-row")].map((r) => `${r.querySelector(".rname").textContent.trim()} / ${treeOf(r)}`) };
+check("searching 'dueling' finds Dueling Stance, and every result's name or tree says dueling", dueling.names.includes("Dueling Stance")
+  && dueling.rows.every((r) => /dueling/i.test(r)) && dueling.rows.length < talentTotal, dueling);
+await type("q", "");
+
+// A class tag narrows the trees to the class's own and drops ticks outside them.
+const soldierTrees = (await fromUuid(uuidOf("classes", "Soldier"))).system.talentTrees;
+await tick("tree", "Alter");
+const alterOnly = { count: text(".cb-count"), groups: [...el().querySelectorAll(".group-head .gname")].map((g) => g.textContent) };
+await click('[data-action="classTag"][data-value="Soldier"]');
+const treeList = [...el().querySelectorAll('input[name="tree"]')].map((i) => i.value);
+const groups = [...el().querySelectorAll(".group-head .gname")].map((g) => g.textContent);
+check("ticking Alter shows only Alter; the Soldier tag lists only Soldier's trees, drops the Alter tick, and groups only those trees",
+  JSON.stringify(alterOnly.groups) === '["Alter"]' && treeList.length === soldierTrees.length && treeList.every((t) => soldierTrees.includes(t))
+  && !el().querySelector('input[name="tree"][value="Alter"]') && groups.length > 0 && groups.every((g) => soldierTrees.includes(g)), { alterOnly, treeList, groups, soldierTrees });
+
+// Collapse a group, open a row's text, then the flat A to Z order.
+const firstGroup = groups[0];
+await click(`[data-action="group"][data-group="${firstGroup}"]`);
+const collapsed = { expanded: el().querySelector(`[data-group="${firstGroup}"]`).getAttribute("aria-expanded"), count: text(`[data-group="${firstGroup}"] .gcount`) };
+await click(`[data-action="group"][data-group="${firstGroup}"]`);
+const firstRow = el().querySelector(".result-row");
+await click(`.result-row[data-uuid="${firstRow.dataset.uuid}"] [data-action="open"]`);
+const description = el().querySelector(`.result-row[data-uuid="${firstRow.dataset.uuid}"] .desc`)?.textContent.trim() ?? "";
+await click('[data-action="seg"][data-key="order"][data-value="name"]');
+const flat = { heads: el().querySelectorAll(".group-head").length, names: names(), tagged: [...el().querySelectorAll(".result-row")].every((r) => r.querySelector(".tag")) };
+check("a group collapses keeping its count; a row opens to its text; A to Z is one sorted list with each talent's tree", collapsed.expanded === "false" && Number(collapsed.count) > 0
+  && description.length > 20 && flat.heads === 0 && flat.tagged && flat.names.join("|") === [...flat.names].sort((a, b) => a.localeCompare(b)).join("|"), { collapsed, description: description.slice(0, 60), heads: flat.heads });
+await app().close();
+
+// From the sheet's Browse powers: Add puts powers on the character, a second Add a copy.
+const sheet = actor.sheet;
+let wait = new Promise((resolve) => Hooks.once("renderCharacterSheet", resolve));
+await sheet.render({ force: true });
+await wait;
+sheet.changeTab("force", "primary");
+shown = rendered();
+sheet.element.querySelector('[data-action="browse"][data-target="powers"]').click();
+await shown;
+const banner = text(".cb-banner span");
+const moveUuid = uuidOf("force-powers", "Move Object");
+const added = async (selector, hook) => {
+  const done = Promise.all([new Promise((resolve) => Hooks.once(hook, resolve)), rendered()]);
+  el().querySelector(selector).click();
+  await done;
+};
+await added(`[data-action="add"][data-uuid="${moveUuid}"]`, "createItem");
+await added(`[data-action="add"][data-uuid="${moveUuid}"]`, "updateItem");
+const moveObject = actor.items.getName("Move Object");
+const badge = text(`.result-row[data-uuid="${moveUuid}"] .badge`);
+check("Browse powers opens Force with a banner; Add twice gives Move Object 2 copies and the 'Known, 2 copies' badge", text(".cb-tab.active") === "Force"
+  && banner.startsWith("Adding to Browser Probe's Force powers") && moveObject?.system.copies === 2 && badge === "Known, 2 copies", { banner, copies: moveObject?.system.copies, badge });
+
+await tick("source", "Telekinetic");
+const teleRows = [...el().querySelectorAll(".result-row")].map((r) => [...r.querySelectorAll(".tag")].map((t) => t.textContent));
+check("the Telekinetic descriptor leaves only Telekinetic powers", teleRows.length > 0 && teleRows.every((tags) => tags.includes("Telekinetic")), { rows: teleRows.length });
+await click('[data-action="seg"][data-key="forceSub"][data-value="techniques"]');
+const known = [...el().querySelectorAll(".group-head .gname")].map((g) => g.textContent);
+const knownGroup = el().querySelector('.group-head[data-group="For powers you know"]');
+const knownRows = [];
+for (let n = knownGroup?.nextElementSibling; n && n.classList.contains("result-row"); n = n.nextElementSibling) knownRows.push(n.querySelector(".tag")?.textContent);
+check("techniques: 'For powers you know' comes first and holds only Move Object's; no Add here (the target is powers)", known[0] === "For powers you know"
+  && knownRows.length > 0 && knownRows.every((t) => t === "Move Object") && !el().querySelector('[data-action="add"]'), { known, knownRows });
+
+// Feats: a taken feat is hidden unless it can be taken again.
+await click('[data-action="showTab"][data-tab="feats"]');
+await type("q", "");
+const featNames = names();
+check("feats: Quick Draw (taken) is hidden, Force Training (taken, repeatable) shows 'Taken, can repeat'", !featNames.includes("Quick Draw")
+  && text(`.result-row[data-uuid="${uuidOf("feats", "Force Training")}"] .badge`) === "Taken, can repeat" && featNames.length === index("feats").length - 1, { count: featNames.length });
+
+// A row dragged onto the sheet adds the item.
+{
+  const data = new DataTransfer();
+  el().querySelector(`.result-row[data-uuid="${uuidOf("feats", "Toughness")}"]`).dispatchEvent(new DragEvent("dragstart", { dataTransfer: data, bubbles: true }));
+  const created = new Promise((resolve) => Hooks.once("createItem", resolve));
+  sheet.element.querySelector("section.tab.active").dispatchEvent(new DragEvent("drop", { dataTransfer: data, bubbles: true, cancelable: true }));
+  const item = await created;
+  check("dragging Toughness from the browser onto the sheet adds it", item.name === "Toughness" && item.parent === actor, { dragged: data.getData("text/plain") });
+}
+await app().close();
+
+// Inventory's Browse weapons: the Pistols group, and Add.
+sheet.changeTab("inventory", "primary");
+shown = rendered();
+sheet.element.querySelector('[data-action="browse"][data-target="weapons"]').click();
+await shown;
+await tick("source", "Pistols");
+const pistolTags = [...el().querySelectorAll(".result-row")].map((r) => [...r.querySelectorAll(".tag")].map((t) => t.textContent));
+const pistolUuid = uuidOf("weapons", "Sonic Pistol");
+await added(`[data-action="add"][data-uuid="${pistolUuid}"]`, "createItem");
+check("Browse weapons: the Pistols group leaves only pistols; Add puts the Sonic Pistol in the inventory", pistolTags.length > 0 && pistolTags.every((t) => t.includes("Pistols"))
+  && Boolean(actor.items.getName("Sonic Pistol")), { rows: pistolTags.length });
+await app().close();
+
+// Species from Build's Change (Edit mode): Denied shows only with the GM's switch; a trait search;
+// Add replaces the species and closes the browser.
+sheet.changeTab("build", "primary");
+wait = new Promise((resolve) => Hooks.once("renderCharacterSheet", resolve));
+sheet.element.querySelector('[data-action="toggleMode"]').click();
+await wait;
+shown = rendered();
+sheet.element.querySelector('[data-action="browse"][data-target="species"]').click();
+await shown;
+const species = [...await game.packs.get("holocron.species").getIndex({ fields: ["system.rarity"] })];
+const countOf = () => Number(text(".cb-count").split(" ")[0]);
+const visible = countOf();
+await tick("showDenied", null);
+const withDenied = countOf();
+await tick("showDenied", null, false);
+await type("traitQ", "dark");
+const suggestion = el().querySelector('[data-action="traitAdd"]')?.dataset.value;
+await click(`[data-action="traitAdd"][data-value="${suggestion}"]`);
+const traitRows = [...el().querySelectorAll(".result-row .prq")].map((p) => p.textContent);
+const deniedCount = species.filter((s) => s.system?.rarity === "denied").length;
+check("species: Denied show only with the switch (by the pack's Denied count); 'dark' suggests a trait whose results all carry it",
+  withDenied - visible === deniedCount && visible + deniedCount === species.length && suggestion && traitRows.length > 0 && traitRows.every((t) => t.split(" · ").includes(suggestion)),
+  { visible, withDenied, deniedCount, total: species.length, suggestion, rows: traitRows.length });
+await click('[data-action="clear"]');
+const jawaUuid = uuidOf("species", "Jawa");
+const replaced = new Promise((resolve) => Hooks.once("deleteItem", resolve));
+const closed = new Promise((resolve) => Hooks.once("closeCompendiumBrowser", resolve));
+el().querySelector(`[data-action="add"][data-uuid="${jawaUuid}"]`).click();
+await replaced;
+await closed;
+check("Add on Jawa replaces Bothan and closes the browser", JSON.stringify(actor.items.filter((i) => i.type === "species").map((i) => i.name)) === '["Jawa"]' && !app()?.rendered, {});
+
+// The results scroll (standing rule 19).
+shown = rendered();
+document.querySelector(".holocron-browser-button").click();
+await shown;
+app().setPosition({ height: 400 });
+const pane = el().querySelector(".cb-results");
+const before = { overflowY: getComputedStyle(pane).overflowY, scrollHeight: pane.scrollHeight, clientHeight: pane.clientHeight };
+pane.scrollTop = pane.scrollHeight;
+check("at 400 px the results pane scrolls", before.overflowY === "auto" && before.scrollHeight > before.clientHeight && pane.scrollTop > 0, { ...before, scrolledTo: pane.scrollTop });
+await app().close();
+await sheet.close();
+return JSON.stringify({ world: game.world.id, build: globalThis.CONFIG?.HOLOCRON?.buildId, results });
+})();

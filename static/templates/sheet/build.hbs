@@ -64,7 +64,7 @@
 
     <div class="card" data-card="identity">
       <div class="section-head"><h3>Identity</h3></div>
-      <div class="row"><span>Species</span><span>{{speciesName}}</span></div>
+      <div class="row"><span>Species</span><span>{{speciesName}}{{#if editMode}} <button type="button" class="btn" data-action="browse" data-target="species">Change</button>{{/if}}</span></div>
       <div class="row"><span>Classes</span><span>{{#if classLine}}{{classLine}}{{else}}None{{/if}}</span></div>
       <div class="row"><span>Trained skills</span><span class="num{{#if trained.over}} over{{/if}}"><span class="total" data-tooltip-html="{{trained.tooltip}}">{{trained.marked}} / {{trained.allowed}}</span></span></div>
     </div>

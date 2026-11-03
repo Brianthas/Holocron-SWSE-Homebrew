@@ -1,0 +1,171 @@
+// The compendium browser (mockup 3). The window's three parts sit in a grid: tabs and banner across
+// the top, filters on the left, results on the right; the last two scroll on their own.
+.holocron.hc-browser {
+  .window-content {
+    display: grid;
+    grid-template-columns: 250px minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr);
+    padding: 0;
+    overflow: hidden;
+    background: var(--hc-bg);
+    color: var(--hc-text);
+    font-family: var(--hc-font-body);
+  }
+
+  button { flex: none; width: auto; min-height: 0; line-height: 1.4; }
+  .cb-head { grid-column: 1 / -1; }
+  .cb-tabs { display: flex; gap: 2px; padding: 0 10px; background: var(--hc-surface); border-bottom: 1px solid var(--hc-border); overflow-x: auto; }
+  .cb-tab {
+    border: 0;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    background: none;
+    color: var(--hc-muted);
+    padding: 8px 12px;
+    font: 700 12px var(--hc-font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+
+    &.active { color: var(--hc-text); border-bottom-color: var(--hc-accent); }
+  }
+  .cb-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 7px 12px;
+    background: var(--hc-accent-soft);
+    border-bottom: 1px solid var(--hc-accent-line);
+    font-size: 13px;
+  }
+  .cb-filters {
+    overflow-y: auto;
+    min-height: 0;
+    border-right: 1px solid var(--hc-border);
+    background: var(--hc-surface);
+    padding: 12px;
+    display: grid;
+    gap: 14px;
+    align-content: start;
+  }
+  .cb-results { overflow-y: auto; min-height: 0; padding: 10px 14px 20px; }
+  .fgroup { display: grid; gap: 6px; }
+  .fgroup > .label { display: flex; justify-content: space-between; align-items: center; }
+  .label { font: 700 11px var(--hc-font-display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--hc-muted); }
+  .cb-filters label.label { display: grid; gap: 4px; align-items: stretch; }
+  .cb-filters input.cb-input { width: 100%; }
+  .hint { font-size: 12px; color: var(--hc-muted); }
+  .count { font: 500 11px var(--hc-font-num); color: var(--hc-muted); text-transform: none; letter-spacing: 0; }
+  .cb-input {
+    width: 100%;
+    background: var(--hc-raised);
+    color: var(--hc-text);
+    border: 1px solid var(--hc-border);
+    border-radius: 5px;
+    padding: 6px 8px;
+    font: 13px var(--hc-font-body);
+    text-transform: none;
+    letter-spacing: 0;
+    box-shadow: none;
+  }
+  .check { display: grid; grid-template-columns: 16px minmax(0, 1fr) auto; gap: 6px; align-items: center; font-size: 13px; cursor: pointer; }
+  .check input { margin: 0; }
+  .tree-list { display: grid; gap: 3px; max-height: 220px; overflow-y: auto; padding-right: 4px; }
+  .switch { display: flex; align-items: center; gap: 8px; font-size: 13px; cursor: pointer; }
+  .tag-list { display: flex; flex-wrap: wrap; gap: 4px; }
+  .tag-list button {
+    border: 1px solid var(--hc-border);
+    border-radius: 999px;
+    background: none;
+    color: var(--hc-muted);
+    padding: 2px 9px;
+    font: 600 12px var(--hc-font-body);
+    cursor: pointer;
+
+    &[aria-pressed="true"] { background: var(--hc-accent-soft); border-color: var(--hc-accent); color: var(--hc-text); }
+  }
+  .minseg {
+    display: inline-flex;
+    justify-self: start;
+    border: 1px solid var(--hc-border);
+    border-radius: 5px;
+    overflow: hidden;
+
+    button { border: 0; border-radius: 0; background: none; color: var(--hc-muted); padding: 4px 9px; font: 600 12px var(--hc-font-body); cursor: pointer; }
+    button + button { border-left: 1px solid var(--hc-border); }
+    button[aria-pressed="true"] { background: var(--hc-accent-soft); color: var(--hc-text); }
+  }
+  button.btn {
+    border: 1px solid var(--hc-border);
+    background: var(--hc-raised);
+    color: var(--hc-text);
+    border-radius: 5px;
+    padding: 4px 10px;
+    font: 600 12px var(--hc-font-body);
+    cursor: pointer;
+    white-space: nowrap;
+
+    &:hover { border-color: var(--hc-accent); }
+    &.primary { background: var(--hc-accent); color: var(--hc-on-accent); border-color: var(--hc-accent); }
+  }
+  .cb-count { font-size: 12px; color: var(--hc-muted); margin-bottom: 6px; }
+  .group-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid var(--hc-accent-line);
+    border-radius: 0;
+    color: var(--hc-text);
+    padding: 8px 2px 5px;
+    cursor: pointer;
+    text-align: left;
+    margin-top: 6px;
+
+    .gname { font: 700 12.5px var(--hc-font-display); text-transform: uppercase; letter-spacing: 0.08em; }
+    .gcount { font: 500 11px var(--hc-font-num); color: var(--hc-muted); }
+  }
+  .tag {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 3px;
+    font: 600 10px/1.5 var(--hc-font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border: 1px solid var(--hc-border);
+    color: var(--hc-muted);
+  }
+  .cost-tag { font: 600 10px var(--hc-font-display); text-transform: uppercase; letter-spacing: 0.06em; color: var(--hc-muted); }
+  .badge {
+    font: 600 9.5px var(--hc-font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    padding: 1px 5px;
+    border-radius: 3px;
+    border: 1px solid currentColor;
+
+    &.taken { color: var(--hc-success); }
+  }
+  .result-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px;
+    align-items: center;
+    padding: 6px 4px;
+    border-bottom: 1px solid var(--hc-border);
+
+    &:hover { background: var(--hc-accent-soft); }
+    .rn { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .rname { justify-content: flex-start; border: 0; background: none; color: var(--hc-text); font: 600 13.5px var(--hc-font-body); padding: 0; cursor: pointer; text-align: left; }
+    .prq { font-size: 12px; color: var(--hc-muted); margin-top: 2px; }
+    .desc { grid-column: 1 / -1; font-size: 13px; padding: 4px 0 4px 2px; display: grid; gap: 4px; }
+    .desc p { margin: 0 0 4px; }
+  }
+  .drag-hint { font-size: 12px; color: var(--hc-muted); cursor: grab; }
+  .empty-note { font-size: 13px; color: var(--hc-muted); padding: 8px 6px; }
+}

@@ -13,10 +13,10 @@
       </div>
     </div>
   </div>
-  {{#if force.pending}}<button type="button" class="inc-pending" data-action="browse" data-pack="{{force.pending.pack}}">{{force.pending.text}}</button>{{/if}}
+  {{#if force.pending}}<button type="button" class="inc-pending" data-action="browse" data-target="{{force.pending.target}}">{{force.pending.text}}</button>{{/if}}
   <div>
     <div class="section-head"><h3>Force Powers <span class="hint{{#if force.known.over}} over{{/if}}" data-tooltip-html="{{force.known.tooltip}}">{{force.known.copies}} / {{force.known.max}} known</span></h3>
-      <div class="btns"><button type="button" class="btn" data-action="readyPowers" data-tooltip="Mark every power ready again">End of combat</button><button type="button" class="btn" data-action="browse" data-pack="holocron.force-powers">Browse powers</button></div></div>
+      <div class="btns"><button type="button" class="btn" data-action="readyPowers" data-tooltip="Mark every power ready again">End of combat</button><button type="button" class="btn" data-action="browse" data-target="powers">Browse powers</button></div></div>
     <div class="list" data-list="powers">
       {{#each force.powers}}
       <div class="list-row" data-item-id="{{id}}" data-pin-id="{{id}}">
@@ -36,7 +36,7 @@
   {{#each force.features}}
   <div>
     <div class="section-head"><h3>{{label}} <span class="hint{{#if over}} over{{/if}}">{{count}} / {{slots}}</span></h3>
-      <div class="btns"><button type="button" class="btn" data-action="browse" data-pack="{{pack}}">Browse {{plural}}</button></div></div>
+      <div class="btns"><button type="button" class="btn" data-action="browse" data-target="{{key}}">Browse {{plural}}</button></div></div>
     <div class="list" data-list="{{key}}">
       {{#each items}}
       <div class="list-row" data-item-id="{{id}}" data-pin-id="{{id}}">

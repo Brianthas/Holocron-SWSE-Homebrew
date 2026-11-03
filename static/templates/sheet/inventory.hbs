@@ -26,11 +26,11 @@
   {{/inline}}
 
   <div>
-    <div class="section-head"><h3>Weapons</h3></div>
+    <div class="section-head"><h3>Weapons</h3><button type="button" class="btn" data-action="browse" data-target="weapons">Browse weapons</button></div>
     {{> carriedList kind="weapons" rows=inventory.weapons}}
   </div>
   <div>
-    <div class="section-head"><h3>Armor</h3></div>
+    <div class="section-head"><h3>Armor</h3><button type="button" class="btn" data-action="browse" data-target="armor">Browse armor</button></div>
     <div class="list" data-list="armor">
       {{#each inventory.armor}}
       <div class="list-row" data-item-id="{{id}}">
@@ -46,12 +46,12 @@
     </div>
   </div>
   <div>
-    <div class="section-head"><h3>Equipment</h3></div>
+    <div class="section-head"><h3>Equipment</h3><button type="button" class="btn" data-action="browse" data-target="equipment">Browse equipment</button></div>
     {{> carriedList kind="equipment" rows=inventory.equipment}}
   </div>
   {{#if inventory.droidSystems}}
   <div>
-    <div class="section-head"><h3>Droid systems</h3></div>
+    <div class="section-head"><h3>Droid systems</h3><button type="button" class="btn" data-action="browse" data-target="droid">Browse droid systems</button></div>
     <div class="list" data-list="droidSystems">
       {{#each inventory.droidSystems}}
       <div class="list-row" data-item-id="{{id}}">

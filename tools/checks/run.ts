@@ -33,7 +33,7 @@ let page = wanted.length ? source.replace("= __PACK_DOCS__", () => `= ${JSON.str
 if (page.includes("= __PACK_COUNTS__")) page = page.replace("= __PACK_COUNTS__", () => `= ${JSON.stringify(counts())}`);
 // The pack probe embeds every compendium item and the sheet check drives every control; the
 // others answer well inside a minute.
-const report = JSON.parse((await evaluate(page, ["packs", "sheet"].includes(name) ? 300000 : 60000)) as string) as Report;
+const report = JSON.parse((await evaluate(page, ["packs", "sheet", "browser"].includes(name) ? 300000 : 60000)) as string) as Report;
 
 if (report.refused) {
   console.error(`${name}: refused: ${report.refused}; open the holocron-testing world first`);

@@ -4,6 +4,7 @@ import { ITEM_MODELS } from "./data/item/models.ts";
 import { registerChanges } from "./effects/changes.ts";
 import { HolocronEffectModel } from "./effects/model.ts";
 import { onCombatEnd } from "./dice/force.ts";
+import { CompendiumBrowser } from "./apps/browser.ts";
 import { registerMigrations } from "./migrations.ts";
 import { longRest, newDay, onRestMessage, registerRestExpiry } from "./rest.ts";
 import { CharacterSheet } from "./sheets/character-sheet.ts";
@@ -54,6 +55,19 @@ Hooks.once("init", () => {
   });
   register("combat end", () => {
     Hooks.on("deleteCombat", (combat: Combat.Implementation) => void onCombatEnd(combat));
+  });
+  // A button in the Compendium sidebar opens the browser to drag from. ApplicationV2 re-renders in
+  // place, so the previous button is removed before one is added.
+  register("browser button", () => {
+    Hooks.on("renderCompendiumDirectory", (_app: unknown, html: HTMLElement) => {
+      html.querySelector(".holocron-browser-button")?.remove();
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "holocron-browser-button";
+      button.innerHTML = '<i class="fa-solid fa-book-open" inert></i> <span>Compendium Browser</span>';
+      button.addEventListener("click", () => void CompendiumBrowser.open());
+      html.querySelector(".header-actions")?.append(button);
+    });
   });
   register("migrations", registerMigrations);
   // The system's API: New Day (GM) until it has a button; the sheet's Rest calls longRest.

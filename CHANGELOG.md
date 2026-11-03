@@ -64,6 +64,17 @@
   order pinned; a chip does what its row's main button does (Attack, roll the power, Use, enter or
   leave the stance). A deleted item's chip goes with it. Talents have a Use button that posts the
   talent's text to chat, and Defensive Stance has a row on Play.
+- Compendium browser (mockup 3), opened from a button in the Compendium sidebar or from a sheet.
+  Tabs: Talents (search over talent and tree names, base-class and Force Sensitivity tags and a
+  prestige class list that narrow to that class's trees, a tree checklist with its own search,
+  grouped by tree or A to Z), Feats (a taken feat hidden unless it can be taken again), Force
+  (powers with a descriptor filter and a "Known, N copies" badge; techniques grouped by the powers
+  the character knows; secrets), Equipment (weapons by group, armor, equipment, droid systems for a
+  droid), Species (size and type tags, grouped by rarity or size, a trait search, Denied species
+  behind a GM switch). A row's name opens its text; groups collapse. Rows drag onto a sheet. The
+  sheet's Browse buttons (Force powers, techniques, secrets, each inventory section, and Change
+  species in Edit mode) open it to add to that character: Add puts the item on, a known power gains
+  a copy, and a species replaces the old one.
 
 ## 0.0.1 - 2026-11-01
 

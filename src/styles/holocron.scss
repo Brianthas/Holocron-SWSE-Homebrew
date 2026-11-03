@@ -1,4 +1,5 @@
 @use "sheet";
+@use "browser";
 
 // Design tokens, mockup 1's values. Colours are custom properties so a character's accent can
 // override --hc-accent on its own sheet root; every tint is mixed from it. Light is the default set

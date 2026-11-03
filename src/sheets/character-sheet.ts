@@ -6,6 +6,8 @@ import { rollAttack, rollDamage } from "../dice/attack.ts";
 import { checkDialog, rollCheck, useSecondWind } from "../dice/check.ts";
 import { actionTag, readyAllPowers, rollPower } from "../dice/force.ts";
 import { postItem } from "../dice/item-card.ts";
+import { addItem } from "./add-item.ts";
+import { CompendiumBrowser, type BrowseTarget } from "../apps/browser.ts";
 import { FORCE_DESCRIPTORS, type ForceDescriptorKey } from "../config/force.ts";
 import { featureSlots, forcePowersKnown } from "../rules/force.ts";
 import { describeChange, type ChangeLike } from "../effects/describe.ts";
@@ -334,11 +336,11 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
 
     // Technique and secret slots: each class's slot levels reached by the levels taken in it.
     const classes = Object.entries(s.classLevels).map(([id, levels]) => ({ levels, system: actor.items.get(id)?.system as { techniqueLevels?: number[]; secretLevels?: number[] } | undefined }));
-    const feature = async (key: "techniques" | "secrets", category: string, slotKey: "techniqueLevels" | "secretLevels", label: string, plural: string, pack: string, empty: string) => {
+    const feature = async (key: "techniques" | "secrets", category: string, slotKey: "techniqueLevels" | "secretLevels", label: string, plural: string, empty: string) => {
       const list = items("feature").filter((f) => (f.system as { category?: string }).category === category);
       const slots = featureSlots(classes.map((c) => ({ levels: c.levels, slotLevels: c.system?.[slotKey] ?? [] })));
       return {
-        key, label, plural, pack, empty, slots, count: list.length, over: list.length > slots,
+        key, label, plural, empty, slots, count: list.length, over: list.length > slots,
         items: await Promise.all(list.map(async (f) => ({
           id: f.id, name: f.name, power: (f.system as { power?: string }).power ?? "", expanded: this.#expanded.has(f.id ?? ""), pinned: s.pins.includes(f.id ?? ""),
           description: await enrich((f.system as { description?: string }).description ?? ""),
@@ -346,16 +348,16 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       };
     };
     const features = [
-      await feature("techniques", "forceTechnique", "techniqueLevels", "Force Techniques", "techniques", "holocron.force-techniques", "None yet. Force Adept, Jedi Knight, Sith Apprentice and Imperial Legionnaire earn one at each even class level."),
-      await feature("secrets", "forceSecret", "secretLevels", "Force Secrets", "secrets", "holocron.force-secrets", "None yet. Force Disciple, Jedi Master and Sith Lord earn one at each of class levels 2 to 5."),
+      await feature("techniques", "forceTechnique", "techniqueLevels", "Force Techniques", "techniques", "None yet. Force Adept, Jedi Knight, Sith Apprentice and Imperial Legionnaire earn one at each even class level."),
+      await feature("secrets", "forceSecret", "secretLevels", "Force Secrets", "secrets", "None yet. Force Disciple, Jedi Master and Sith Lord earn one at each of class levels 2 to 5."),
     ];
 
-    // One line naming what is still to choose, opening the first such compendium.
+    // One line naming what is still to choose, opening the browser on the first of them.
     const waiting = [
-      { n: known - copies, noun: "Force power", pack: "holocron.force-powers" },
-      ...features.map((f) => ({ n: f.slots - f.count, noun: f.key === "techniques" ? "Force technique" : "Force secret", pack: f.pack })),
+      { n: known - copies, noun: "Force power", target: "powers" },
+      ...features.map((f) => ({ n: f.slots - f.count, noun: f.key === "techniques" ? "Force technique" : "Force secret", target: f.key })),
     ].filter((w) => w.n > 0);
-    const pending = waiting.length ? { pack: waiting[0]?.pack, text: `${waiting.map((w) => `${w.n} ${w.noun}${w.n === 1 ? "" : "s"}`).join(" and ")} to choose` } : null;
+    const pending = waiting.length ? { target: waiting[0]?.target, text: `${waiting.map((w) => `${w.n} ${w.noun}${w.n === 1 ? "" : "s"}`).join(" and ")} to choose` } : null;
 
     const max = s.darkSideMax;
     const value = Math.min(s.darkSide.value, max);
@@ -562,25 +564,12 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     if (item) await item.deleteDialog();
   }
 
-  /**
-   * A character has one species: a dropped species replaces the one it has. The new one is created
-   * first and the old one removed after, so a failed drop leaves the character as it was.
-   */
+  /** A Force power or species from elsewhere goes through addItem (a copy, a replacement); the rest drop as Foundry drops them. */
   override async _onDropItem(event: DragEvent, item: Item.Implementation) {
-    // A power the character knows gains a copy, ready (mockup 3: "adds a copy of a power already known").
-    if (item.type === "forcePower" && item.parent !== this.actor) {
-      const known = this.actor.items.find((i) => i.type === "forcePower" && i.name === item.name);
-      if (known) {
-        if (!this.isEditable) return null;
-        const d = known.system as unknown as { copies: number; ready: number };
-        await known.update({ "system.copies": d.copies + 1, "system.ready": d.ready + 1 } as never);
-        return known as Item.Implementation;
-      }
+    if ((item.type === "forcePower" || item.type === "species") && item.parent !== this.actor) {
+      return this.isEditable ? addItem(this.actor as Actor.Implementation, item) : null;
     }
-    const old = item.type === "species" ? this.actor.items.filter((i) => i.type === "species" && i.id !== item.id) : [];
-    const created = await super._onDropItem(event, item);
-    if (created && old.length && created.parent === this.actor) await this.actor.deleteEmbeddedDocuments("Item", old.map((i) => i.id ?? ""));
-    return created;
+    return super._onDropItem(event, item);
   }
 
   static async #toggleMode(this: CharacterSheet): Promise<void> {
@@ -723,11 +712,9 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     await this.render();
   }
 
-  /** Opens a compendium to drag from, until the compendium browser is built. */
+  /** Opens the compendium browser to add to this character: Force powers, gear, a species. */
   static async #browse(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
-    const pack = game.packs?.get(target.dataset["pack"] ?? "");
-    if (pack) await pack.render({ force: true } as never);
-    else ui.notifications?.warn(`Holocron: compendium ${target.dataset["pack"]} is not loaded.`);
+    await CompendiumBrowser.open({ actor: this.actor as Actor.Implementation, target: target.dataset["target"] as BrowseTarget });
   }
 
   /** A lit pip spends one, an empty pip restores one (mockup 1, sidebar pips). */
