@@ -1,0 +1,46 @@
+<aside class="hc-sidebar" aria-label="Always visible">
+  <div class="portrait-wrap"><img class="portrait" src="{{img}}" alt="{{name}}" data-edit="img" data-action="editImage"></div>
+
+  <div class="block" data-resource="hp">
+    <div class="row"><span class="label">Hit points</span><span class="state {{hp.state}}">{{hp.stateLabel}}</span></div>
+    <div class="hp-row">
+      <span class="hp-value"><input class="hp-input num" type="text" value="{{hp.value}}" inputmode="numeric"
+        aria-label="Current hit points: type a total, or -5 / +3" {{#unless editable}}disabled{{/unless}}>
+        <small class="total" data-tooltip-html="{{hp.tooltip}}">/ {{hp.max}}</small></span>
+      <span class="hint">Temp <input class="hp-temp num" type="number" name="system.hp.temp" value="{{hp.temp}}" min="0"
+        aria-label="Temporary hit points" {{#unless editable}}disabled{{/unless}}></span>
+    </div>
+    <div class="hp-bar" aria-hidden="true"><i style="width: {{hp.percent}}%"></i></div>
+  </div>
+
+  <div class="block">
+    <div class="resource-card" data-resource="secondWind">
+      <div class="row"><span class="label">Second Wind</span><span class="uses total" data-tooltip-html="{{secondWind.tooltip}}">{{secondWind.value}} / {{secondWind.max}}</span></div>
+    </div>
+  </div>
+
+  <div class="block">
+    <span class="label">Defenses</span>
+    {{#each defenses}}
+    <div class="stat-row" data-defense="{{key}}"><span class="name">{{label}}</span><span class="stat-value total" data-tooltip-html="{{tooltip}}">{{total}}</span></div>
+    {{/each}}
+  </div>
+
+  <div class="block">
+    <span class="label">The Force</span>
+    {{#each pips}}
+    <div class="res" data-resource="{{key}}">
+      <div class="row"><span {{#if (eq key "forcePoints")}}data-tooltip-html="{{@root.forcePointsTooltip}}"{{/if}}>{{label}}</span><span class="pip-count total">{{value}} / {{max}}</span></div>
+      <span class="pips">{{#each pips}}<button type="button" class="pip{{#if on}} on{{/if}}" data-action="pip" data-resource="{{../key}}" data-index="{{index}}"
+        aria-label="{{#if on}}Spend{{else}}Restore{{/if}} one" {{#unless @root.editable}}disabled{{/unless}}></button>{{/each}}</span>
+    </div>
+    {{/each}}
+  </div>
+
+  <div class="block">
+    <span class="label">Quick rolls</span>
+    {{#each quickRolls}}
+    <div class="stat-row" data-skill="{{key}}"><span class="name">{{label}}</span><span class="stat-value total" data-tooltip-html="{{tooltip}}">{{total}}</span></div>
+    {{/each}}
+  </div>
+</aside>

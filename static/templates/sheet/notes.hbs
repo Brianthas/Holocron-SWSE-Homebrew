@@ -1,0 +1,8 @@
+<section class="tab hc-panel {{tab.cssClass}}" data-tab="notes" data-group="primary">
+  <div class="section-head"><h3>Biography</h3></div>
+  {{#if editable}}
+  <prose-mirror name="system.details.biography" value="{{biography.source}}" toggled>{{{biography.enriched}}}</prose-mirror>
+  {{else}}
+  <div class="hc-biography">{{{biography.enriched}}}</div>
+  {{/if}}
+</section>

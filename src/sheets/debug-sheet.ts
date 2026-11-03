@@ -4,32 +4,16 @@ import type { CharacterModel, WeaponData } from "../data/actor/character.ts";
 import { rollAttack, rollDamage } from "../dice/attack.ts";
 import { longRest } from "../rest.ts";
 import { DEFENSES, DEFENSE_LABELS } from "../rules/defenses.ts";
-import type { Breakdown, Modifier } from "../rules/modifiers.ts";
+import { breakdownHtml, signed } from "./breakdown.ts";
 
 /**
- * F1's throwaway character sheet: enough to show the derived numbers with their breakdowns and to
- * roll an attack and its damage. The signed-off sheet (mockup 1) replaces it in M1.
+ * F1's character sheet, kept as a development view: every derived number with its breakdown, and
+ * the buttons the live checks in tools/checks drive. Their fixtures open it through
+ * flags.core.sheetClass; players get the character sheet (character-sheet.ts).
  */
-
-const signed = (n: number) => (n < 0 ? `${n}` : `+${n}`);
-const escape = (s: string) => foundry.utils.escapeHTML(s);
-
-/**
- * A breakdown as tooltip HTML: each counted term, then any typed bonus that did not stack, then the
- * conditional bonuses, which are not in the total.
- */
-export function breakdownHtml(title: string, b: Breakdown): string {
-  const typed = (m: Modifier) => (m.type ? ` (${escape(m.type)})` : "");
-  const rows = b.applied.map((m) => `<tr><td>${escape(m.label)}${typed(m)}</td><td>${signed(m.value)}</td></tr>`).join("");
-  const unused = b.suppressed.map((m) => `<tr class="suppressed"><td>${escape(m.label)}${typed(m)}: does not stack</td><td>${signed(m.value)}</td></tr>`).join("");
-  const when = b.situational.map((m) => `<tr class="situational"><td>${escape(m.label)}: ${escape(m.condition ?? "")}</td><td>${signed(m.value)}</td></tr>`).join("");
-  return `<div class="holocron-breakdown"><strong>${escape(title)} ${b.total}</strong><table>${rows}${unused}${when}</table></div>`;
-}
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 
-// @ts-expect-error fvtt-types beta: TS2321 on HandlebarsApplicationMixin(ActorSheetV2), reported once
-// per compile on the first such class checked; types/probes.ts explains.
 export class DebugSheet extends HandlebarsApplicationMixin(foundry.applications.sheets.ActorSheetV2) {
   static override DEFAULT_OPTIONS = {
     classes: ["holocron", "debug-sheet"],

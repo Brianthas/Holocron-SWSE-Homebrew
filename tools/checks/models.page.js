@@ -35,7 +35,8 @@ const items = [
 const actor = await Actor.create({
   name: "Models Probe",
   type: "character",
-  flags: { holocron: { modelsFixture: true } },
+  // core.sheetClass: the debug sheet, whose DOM this check reads (src/sheets/debug-sheet.ts).
+  flags: { holocron: { modelsFixture: true }, core: { sheetClass: "holocron.DebugSheet" } },
   system: { abilities: { str: { base: 12 }, dex: { base: 16 }, con: { base: 14 } }, progression: [{ class: jediId }] },
   items,
 });

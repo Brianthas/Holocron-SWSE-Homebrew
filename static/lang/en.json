@@ -1,6 +1,13 @@
 {
   "HOLOCRON": {
-    "Title": "Holocron: Saga Edition"
+    "Title": "Holocron: Saga Edition",
+    "Sheet": {
+      "Tab": {
+        "play": "Play",
+        "build": "Build",
+        "notes": "Notes"
+      }
+    }
   },
   "TYPES": {
     "Actor": {

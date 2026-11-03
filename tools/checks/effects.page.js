@@ -32,7 +32,8 @@ try {
   actor = await Actor.create({
     name: "Effects Probe",
     type: "character",
-    flags: { holocron: { effectsFixture: true } },
+    // core.sheetClass: the debug sheet, whose DOM this check reads (src/sheets/debug-sheet.ts).
+    flags: { holocron: { effectsFixture: true }, core: { sheetClass: "holocron.DebugSheet" } },
     system: { abilities: { dex: { base: 14 } }, progression: [{ class: jediId }] },
     items: [
       { name: "Human", type: "species", system: { size: "medium" } },

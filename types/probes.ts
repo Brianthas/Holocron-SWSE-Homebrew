@@ -43,8 +43,8 @@ void ProbeModel;
 // 4. ApplicationV2 actor sheet. fvtt-types 14.366 beta reports TS2321 (excessive stack depth) on
 // a subclass of HandlebarsApplicationMixin(ActorSheetV2), even an empty one; the ItemSheetV2 and
 // ApplicationV2 forms compile. The checker reports it once per compile, on the first such class it
-// meets, and src/ is checked before types/: so the suppression sits on src/sheets/debug-sheet.ts
-// and this class compiles clean behind it. When fvtt-types fixes the defect, that suppression goes
+// meets, and src/ is checked before types/: so the suppression sits on src/sheets/character-sheet.ts,
+// the first actor sheet in src/sheets, and the others compile clean behind it. When fvtt-types fixes the defect, that suppression goes
 // unused and typecheck fails there. If src/ ever has no actor sheet, move the suppression back here.
 // Members stay typed either way, which the two inner checks prove.
 const { HandlebarsApplicationMixin } = foundry.applications.api;

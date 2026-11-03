@@ -18,6 +18,8 @@ if (game.world.id !== "holocron-testing" || game.system.id !== "holocron") {
 const results = [];
 const check = (name, pass, detail) => results.push({ name, pass: Boolean(pass), detail });
 const FLAG = { holocron: { expiryFixture: true } };
+// Actors open the debug sheet, whose DOM these checks read (src/sheets/debug-sheet.ts).
+const DEBUG_SHEET = { core: { sheetClass: "holocron.DebugSheet" } };
 
 const flagged = (collection) => collection.filter((d) => d.getFlag("holocron", "expiryFixture")).map((d) => ({ id: d.id, name: d.name }));
 const old = { combats: flagged(game.combats), scenes: flagged(game.scenes), actors: flagged(game.actors) };
@@ -30,7 +32,7 @@ check("previous fixtures deleted", !old.combats.some((d) => game.combats.get(d.i
 const character = (name) => {
   const jedi = foundry.utils.randomID();
   return Actor.create({
-    name, type: "character", flags: FLAG, prototypeToken: { actorLink: true },
+    name, type: "character", flags: { ...FLAG, ...DEBUG_SHEET }, prototypeToken: { actorLink: true },
     system: { progression: [{ class: jedi }] },
     items: [
       { name: "Human", type: "species", system: { size: "medium" } },

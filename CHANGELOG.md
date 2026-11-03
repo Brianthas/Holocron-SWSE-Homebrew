@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased
+
+- The character sheet (mockup 1), first slice, is the default sheet for characters. Sidebar: hit
+  points with their state, temp HP and a bar, where the box takes a total, -5 or +3 in play;
+  Second Wind uses; Reflex, Fortitude, Will and DT+5 with their breakdowns; Force Point, Destiny
+  and pooled Force pips, where a lit pip spends one and an empty pip restores one; Perception, Use
+  the Force and Initiative. A header band with species, size, classes, level and BAB. Tabs: Play
+  (skills, and attacks with Attack and Damage), Build (abilities, the language tier, sheet
+  problems), Notes (biography). Light and dark themes. The F1 debug sheet stays as a development
+  view.
+
 ## 0.0.1 - 2026-11-01
 
 The engine and the converted compendium content. Not yet playable: characters use a debug sheet

@@ -1,0 +1,22 @@
+<section class="tab hc-panel {{tab.cssClass}}" data-tab="build" data-group="primary">
+  {{#if problems.length}}
+  <ul class="hc-problems">{{#each problems}}<li>{{this}}</li>{{/each}}</ul>
+  {{/if}}
+  <div class="cols">
+    <div class="card">
+      <div class="section-head"><h3>Abilities</h3></div>
+      <table class="abil">
+        <thead><tr><th>Ability</th><th>Score</th><th>Mod</th></tr></thead>
+        <tbody>
+          {{#each abilities}}
+          <tr data-ability="{{key}}"><td>{{label}}</td><td class="score total" data-tooltip-html="{{tooltip}}">{{value}}</td><td>{{mod}}</td></tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <div class="section-head"><h3>Languages</h3></div>
+      <div class="row" data-resource="understands"><span>Understands</span><span class="total" data-tooltip-html="{{understands.tooltip}}">{{understands.shown}}</span></div>
+    </div>
+  </div>
+</section>

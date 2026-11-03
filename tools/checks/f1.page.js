@@ -14,6 +14,8 @@ if (game.world.id !== "holocron-testing" || game.system.id !== "holocron") {
 const results = [];
 const check = (name, pass, detail) => results.push({ name, pass: Boolean(pass), detail });
 const FLAG = { holocron: { f1Fixture: true } };
+// Actors open the debug sheet, whose DOM these checks read (src/sheets/debug-sheet.ts).
+const DEBUG_SHEET = { core: { sheetClass: "holocron.DebugSheet" } };
 
 // 1. Clear the previous run's fixtures, by the ids it created.
 const oldActors = game.actors.filter((a) => a.getFlag("holocron", "f1Fixture")).map((a) => ({ id: a.id, name: a.name }));
@@ -39,7 +41,7 @@ const classItem = { _id: jediId, name: "Jedi", type: "class", system: { heroic: 
 const jedi = await Actor.create({
   name: "F1 Jedi",
   type: "character",
-  flags: FLAG,
+  flags: { ...FLAG, ...DEBUG_SHEET },
   system: {
     abilities: { str: { base: 10 }, dex: { base: 14 }, con: { base: 12 }, int: { base: 10 }, wis: { base: 13 }, cha: { base: 10 } },
     speciesChoice: "wis",
@@ -57,7 +59,7 @@ const jedi = await Actor.create({
 const target = await Actor.create({
   name: "F1 Target",
   type: "character",
-  flags: FLAG,
+  flags: { ...FLAG, ...DEBUG_SHEET },
   system: { abilities: { dex: { base: 12 } }, defensePoints: { reflex: 1 }, progression: [{ class: jediId }] },
   items: [{ name: "Human", type: "species", system: { size: "medium" } }, classItem],
 });

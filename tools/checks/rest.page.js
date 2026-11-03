@@ -24,6 +24,8 @@ if (game.world.id !== "holocron-testing" || game.system.id !== "holocron") {
 const results = [];
 const check = (name, pass, detail) => results.push({ name, pass: Boolean(pass), detail });
 const FLAG = { holocron: { restFixture: true } };
+// Actors open the debug sheet, whose DOM these checks read (src/sheets/debug-sheet.ts).
+const DEBUG_SHEET = { core: { sheetClass: "holocron.DebugSheet" } };
 
 const oldActors = game.actors.filter((a) => a.getFlag("holocron", "restFixture")).map((a) => ({ id: a.id, name: a.name }));
 const oldUsers = game.users.filter((u) => u.getFlag("holocron", "restFixture")).map((u) => ({ id: u.id, name: u.name }));
@@ -36,7 +38,7 @@ const bonus = (key, value) => ({ key, type: "bonus", value, phase: "derived" });
 const character = (name, system, extra = [], ownership = {}) => {
   const jedi = foundry.utils.randomID();
   return Actor.create({
-    name, type: "character", flags: FLAG, ownership,
+    name, type: "character", flags: { ...FLAG, ...DEBUG_SHEET }, ownership,
     system: { abilities: { con: { base: 12 } }, progression: [{ class: jedi }], ...system },
     items: [
       { name: "Human", type: "species", system: { size: "medium" } },

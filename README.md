@@ -25,6 +25,7 @@ npm run verify:classes  # converted classes embed; level-1 HP and BAB; Jedi Mast
 npm run verify:gear     # converted weapons and armor: attack, damage, worn armor's Reflex and STR
 npm run verify:droids   # converted droid systems embed; the Translator Unit installed and removed
 npm run verify:packs    # the built compendiums load, and every item embeds and prepares cleanly
+npm run verify:sheet    # the character sheet, driven through its own controls
 ```
 
 `npm run typecheck`, `npm run lint`, `npm test`, `npm run build` and `npm run packs:build` run in
@@ -34,7 +35,8 @@ CI on every push.
 use another. `verify:live` needs Foundry started with `--remote-debugging-port=9222` and a world
 open. The `verify:` checks in `tools/checks/` refuse any world but `holocron-testing`: each creates
 its own test documents there, marked with a `flags.holocron` fixture flag, and deletes the previous
-run's. `verify:rest` also creates one player user, since New Day only rests player-owned
+run's. Their characters open the debug sheet (`flags.core.sheetClass`), whose layout the engine
+checks read; `verify:sheet` drives the character sheet. `verify:rest` also creates one player user, since New Day only rests player-owned
 characters.
 
 ### Content

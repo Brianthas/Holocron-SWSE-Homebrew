@@ -18,7 +18,8 @@ if (game.world.id !== "holocron-testing" || game.system.id !== "holocron") {
 const DOCS = __PACK_DOCS__;
 const results = [];
 const check = (name, pass, detail) => results.push({ name, pass: Boolean(pass), detail });
-const FLAG = { holocron: { gearFixture: true } };
+// The fixtures open the debug sheet, whose DOM these checks read (src/sheets/debug-sheet.ts).
+const FLAG = { holocron: { gearFixture: true }, core: { sheetClass: "holocron.DebugSheet" } };
 
 const old = game.actors.filter((a) => a.getFlag("holocron", "gearFixture")).map((a) => ({ id: a.id, name: a.name }));
 if (old.length) await Actor.deleteDocuments(old.map((a) => a.id));

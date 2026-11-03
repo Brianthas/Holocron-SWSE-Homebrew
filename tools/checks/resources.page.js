@@ -32,7 +32,8 @@ const bonus = (key, value, extra = {}) => ({ key, type: "bonus", value, phase: "
 const actor = await Actor.create({
   name: "Resources Probe",
   type: "character",
-  flags: { holocron: { resourcesFixture: true } },
+  // core.sheetClass: the debug sheet, whose DOM this check reads (src/sheets/debug-sheet.ts).
+  flags: { holocron: { resourcesFixture: true }, core: { sheetClass: "holocron.DebugSheet" } },
   system: {
     abilities: { str: { base: 12 }, con: { base: 14 }, int: { base: 12 }, wis: { base: 13 } },
     progression: [

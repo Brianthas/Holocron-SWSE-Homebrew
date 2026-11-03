@@ -5,6 +5,7 @@ import { registerChanges } from "./effects/changes.ts";
 import { HolocronEffectModel } from "./effects/model.ts";
 import { registerMigrations } from "./migrations.ts";
 import { longRest, newDay, onRestMessage, registerRestExpiry } from "./rest.ts";
+import { CharacterSheet } from "./sheets/character-sheet.ts";
 import { DebugSheet } from "./sheets/debug-sheet.ts";
 
 /** System-wide configuration, read by tools/verify-live.ts to confirm which build the client loaded. */
@@ -35,10 +36,15 @@ Hooks.once("init", () => {
     registerRestExpiry();
   });
   register("sheets", () => {
-    foundry.applications.apps.DocumentSheetConfig.registerSheet(Actor, "holocron", DebugSheet as never, {
+    foundry.applications.apps.DocumentSheetConfig.registerSheet(Actor, "holocron", CharacterSheet as never, {
       types: ["character"],
       makeDefault: true,
-      label: "Holocron debug sheet (F1)",
+      label: "Holocron character sheet",
+    });
+    foundry.applications.apps.DocumentSheetConfig.registerSheet(Actor, "holocron", DebugSheet as never, {
+      types: ["character"],
+      makeDefault: false,
+      label: "Holocron debug sheet (development)",
     });
   });
   register("migrations", registerMigrations);

@@ -55,6 +55,18 @@ export function hpState(value: number, max: number): HpState {
 }
 
 /**
+ * The sheet's hit point box: a whole number sets the value, "-n" takes damage and "+n" heals from the
+ * current value. Anything else is null and changes nothing. The box records what is typed; healing
+ * that has a cap applies it where the healing is rolled.
+ */
+export function hpEntry(text: string, current: number): number | null {
+  const match = /^\s*([+-]?)\s*(\d+)\s*$/.exec(text);
+  if (!match) return null;
+  const amount = Number(match[2]);
+  return match[1] === "-" ? current - amount : match[1] === "+" ? current + amount : amount;
+}
+
+/**
  * What a character understands and may speak besides their species language, by INT (episode-vii,
  * Languages table). Linguist counts INT as 4 higher, a Primitive species as 4 lower; both arrive as
  * bonuses. Characters always understand and speak their species language, so below the table's first

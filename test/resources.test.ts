@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { untyped } from "../src/rules/modifiers.ts";
 import {
-  averageHitDie, carrySlots, darkSideMax, destinyMax, forcePointsPerDay, hitPointMax, hpState, languages,
+  averageHitDie, carrySlots, darkSideMax, destinyMax, forcePointsPerDay, hitPointMax, hpEntry, hpState, languages,
 } from "../src/rules/resources.ts";
 
 describe("Force Points per day (episode-vii)", () => {
@@ -36,6 +36,15 @@ describe("hit points (rulings.md)", () => {
 describe("HP state (episode-vii, Healing)", () => {
   it("is staggered at exactly 0, dying down to minus the maximum, dead below it", () => {
     expect([1, 0, -1, -29, -30, -31].map((v) => hpState(v, 30))).toEqual(["healthy", "staggered", "dying", "dying", "dying", "dead"]);
+  });
+});
+
+describe("the sheet's hit point box", () => {
+  it("sets a typed total, takes damage on -n and heals on +n", () => {
+    expect([hpEntry("40", 30), hpEntry("-5", 30), hpEntry("+3", 30), hpEntry(" - 12 ", 5), hpEntry("0", 30)]).toEqual([40, 25, 33, -7, 0]);
+  });
+  it("changes nothing on anything else", () => {
+    expect(["", "abc", "5d6", "-", "+-3", "4.5"].map((t) => hpEntry(t, 30))).toEqual([null, null, null, null, null, null]);
   });
 });
 

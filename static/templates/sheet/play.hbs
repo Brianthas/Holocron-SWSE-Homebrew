@@ -1,0 +1,27 @@
+<section class="tab hc-panel {{tab.cssClass}}" data-tab="play" data-group="primary">
+  <div class="strip"><span>BAB <b>{{bab}}</b></span><span>Size <b>{{sizeLabel}}</b></span></div>
+  <div class="play-grid">
+    <div>
+      <div class="section-head"><h3>Skills</h3></div>
+      <div class="skill-list">
+        {{#each skills}}
+        <div class="skill" data-skill="{{key}}"><span class="dot{{#if trained}} on{{/if}}" {{#if trained}}aria-label="Trained"{{/if}}></span><span>{{label}}</span><span class="num total" data-tooltip-html="{{tooltip}}">{{total}}</span></div>
+        {{/each}}
+      </div>
+    </div>
+    <div>
+      <div class="section-head"><h3>Attacks</h3></div>
+      <div class="list">
+        {{#each attacks}}
+        <div class="list-row" data-item-id="{{id}}">
+          <div class="main"><span class="nm">{{name}}</span>{{#if type}}<span class="tag {{typeClass}}">{{type}}</span>{{/if}}
+            <span class="meta"><b data-tooltip-html="{{attackTooltip}}">{{attack}}</b> · <b>{{damage}}</b></span></div>
+          <div class="end"><button type="button" class="btn primary" data-action="attack" data-item-id="{{id}}">Attack</button><button type="button" class="btn" data-action="damage" data-item-id="{{id}}">Damage</button></div>
+        </div>
+        {{else}}
+        <div class="empty-note">No weapons.</div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</section>
