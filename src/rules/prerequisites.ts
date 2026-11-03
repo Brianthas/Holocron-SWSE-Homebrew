@@ -10,7 +10,7 @@ import { DEFUNCT_FEATS, FEAT_OR_TALENT, SKILL_RENAMES } from "../config/prerequi
 export interface PrereqNode { text: string; requirement?: string | null; type: string; children?: PrereqNode[] }
 
 export interface PrereqCharacter {
-  talents: readonly { name: string; tree: string }[];
+  talents: readonly { name: string; tree: string; choice?: string }[];
   feats: readonly { name: string; choice: string }[];
   bab: number;
   level: number;
@@ -49,10 +49,10 @@ function hasFeat(c: PrereqCharacter, req: string): boolean {
     if (anyChoice(choice)) return c.weaponGroups.size > 0 || feats.length > 0;
     return [...c.weaponGroups].some((g) => norm(g) === norm(choice ?? "")) || feats.includes(norm(choice ?? ""));
   }
-  const held = [...c.feats.filter((f) => f.name === name), ...(FEAT_OR_TALENT.has(name) ? c.talents.filter((t) => t.name === name).map(() => ({ choice: "" })) : [])];
+  const held = [...c.feats.filter((f) => f.name === name), ...(FEAT_OR_TALENT.has(name) ? c.talents.filter((t) => t.name === name).map((t) => ({ choice: t.choice ?? "" })) : [])];
   if (!held.length) return false;
-  // A feat with no choice set meets any choice: the sheet has no choice picker yet.
-  return !choice || anyChoice(choice) || held.some((h) => h.choice === "" || norm(h.choice) === norm(choice));
+  // A feat whose choice is not set yet meets only an open choice.
+  return !choice || anyChoice(choice) || held.some((h) => h.choice !== "" && norm(h.choice) === norm(choice));
 }
 
 function hasTalent(c: PrereqCharacter, req: string): boolean {

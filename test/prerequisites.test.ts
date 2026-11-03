@@ -48,6 +48,13 @@ describe("talent prerequisites", () => {
     const wf = (choice: string) => ({ type: "FEAT", requirement: `Weapon Focus (${choice})`, text: `Weapon Focus (${choice}) feat` });
     const lightsabers = { ...none, feats: [{ name: "Weapon Focus", choice: "lightsabers" }] };
     expect([unmet(wf("Lightsabers"), lightsabers).length, unmet(wf("Rifles"), lightsabers).length, unmet(wf("#payload#"), lightsabers).length, unmet(wf("Rifles"), none).length]).toEqual([0, 1, 0, 1]);
+    // A Weapon Focus whose choice is not set meets an open choice only.
+    const unset = { ...none, feats: [{ name: "Weapon Focus", choice: "" }] };
+    expect([unmet(wf("Lightsabers"), unset).length, unmet(wf("#payload#"), unset).length]).toEqual([1, 0]);
+    // Greater Weapon Focus held as a talent meets a feat prerequisite naming its choice (episode-vii, Feats).
+    const talent = { ...none, talents: [{ name: "Greater Weapon Focus", tree: "Weapon Specialist", choice: "rifles" }] };
+    const gwf = (g: string) => ({ type: "FEAT", requirement: `Greater Weapon Focus (${g})`, text: "" });
+    expect([unmet(gwf("Rifles"), talent).length, unmet(gwf("Pistols"), talent).length]).toEqual([0, 1]);
     expect(unmet({ type: "FEAT", requirement: "Power Attack", text: "Power Attack feat" }, none)).toEqual([]);
   });
   it("weapon proficiency from the class table, in any spelling of the group", () => {

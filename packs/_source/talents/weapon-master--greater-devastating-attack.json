@@ -40,6 +40,7 @@
     "repeatable": true,
     "maxTimes": 0,
     "choice": "",
+    "choiceList": "greaterDevastatingAttack",
     "action": ""
   },
   "effects": [],

@@ -7,6 +7,7 @@ import { checkDialog, rollCheck, useSecondWind } from "../dice/check.ts";
 import { actionTag, readyAllPowers, rollPower } from "../dice/force.ts";
 import { postItem } from "../dice/item-card.ts";
 import { addItem } from "./add-item.ts";
+import { askChoice, choiceListOf, nameWithChoice } from "./choice.ts";
 import { CompendiumBrowser, type BrowseTarget } from "../apps/browser.ts";
 import { FORCE_DESCRIPTORS, type ForceDescriptorKey } from "../config/force.ts";
 import { featureSlots, forcePowersKnown } from "../rules/force.ts";
@@ -69,7 +70,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       toggleStance: CharacterSheet.#toggleStance, deleteEffect: CharacterSheet.#deleteEffect,
       togglePin: CharacterSheet.#togglePin, usePin: CharacterSheet.#usePin, useItem: CharacterSheet.#useItem,
       toggleTree: CharacterSheet.#toggleTree, unaddTree: CharacterSheet.#unaddTree, addTree: CharacterSheet.#addTree,
-      fillSlot: CharacterSheet.#fillSlot,
+      fillSlot: CharacterSheet.#fillSlot, chooseFor: CharacterSheet.#chooseFor,
     },
   };
 
@@ -113,6 +114,8 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     const pointsSpent = DEFENSES.reduce((n, d) => n + s.defensePoints[d], 0);
     // marked: trained by hand, which Edit mode toggles; trained also counts skills an effect grants.
     const pins = new Set(s.pins);
+    // A choice feat or talent added before the picker existed, or by a GM, has no choice yet.
+    const needsChoice = (i: { type: string; system: unknown }) => Boolean(choiceListOf(i)) && !(i.system as { choice?: string }).choice;
     const levelSlots = this.#levelSlotsContext(editMode);
     const skill = (k: SkillKey) => ({ key: k, label: SKILLS[k].label, trained: s.isTrained(k), marked: s.skills[k].trained, total: signed(s.skillTotals[k].total), tooltip: breakdownHtml(SKILLS[k].label, s.skillTotals[k]) });
     return Object.assign(context, {
@@ -208,9 +211,11 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       effects: this.#effectsContext(),
       pins: this.#pinsContext(),
       stancePinned: pins.has("stance"),
-      talents: actor.items.filter((i) => i.type === "talent").map((t) => ({ id: t.id, name: t.name, tree: (t.system as { tree?: string }).tree ?? "", action: (t.system as { action?: string }).action ?? "", pinned: pins.has(t.id ?? "") }))
-        .sort((a, b) => a.name.localeCompare(b.name)),
-      feats: actor.items.filter((i) => i.type === "feat").map((f) => ({ id: f.id, name: f.name })).sort((a, b) => a.name.localeCompare(b.name)),
+      talents: actor.items.filter((i) => i.type === "talent").map((t) => ({
+        id: t.id, name: nameWithChoice(t), tree: (t.system as { tree?: string }).tree ?? "", action: (t.system as { action?: string }).action ?? "",
+        pinned: pins.has(t.id ?? ""), needsChoice: needsChoice(t),
+      })).sort((a, b) => a.name.localeCompare(b.name)),
+      feats: actor.items.filter((i) => i.type === "feat").map((f) => ({ id: f.id, name: nameWithChoice(f), needsChoice: needsChoice(f) })).sort((a, b) => a.name.localeCompare(b.name)),
       problems: s.problems,
       biography: {
         source: s.details.biography ?? "",
@@ -501,7 +506,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     const picks: Pick[] = actor.items.contents.flatMap((i) => {
       const slot = i.getFlag("holocron", "slot");
       if (!slot || grantedIds.has(i.id) || !["feat", "talent", "feature"].includes(i.type)) return [];
-      return [{ id: i.id ?? "", name: i.name ?? "", level: slot.level, kind: slot.kind as SlotKind, tree: (i.system as { tree?: string }).tree ?? "" }];
+      return [{ id: i.id ?? "", name: nameWithChoice(i), level: slot.level, kind: slot.kind as SlotKind, tree: (i.system as { tree?: string }).tree ?? "" }];
     });
     const species = actor.items.find((i) => i.type === "species");
     const speciesBonusFeat = ((species?.system as { traits?: { name: string }[] } | undefined)?.traits ?? []).some((t) => t.name === "Bonus Feat");
@@ -658,9 +663,12 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     if (item) await item.deleteDialog();
   }
 
-  /** A Force power or species from elsewhere goes through addItem (a copy, a replacement); the rest drop as Foundry drops them. */
+  /**
+   * A Force power, species or choice feat or talent from elsewhere goes through addItem (a copy, a
+   * replacement, the choice dialog); the rest drop as Foundry drops them.
+   */
   override async _onDropItem(event: DragEvent, item: Item.Implementation) {
-    if ((item.type === "forcePower" || item.type === "species") && item.parent !== this.actor) {
+    if ((item.type === "forcePower" || item.type === "species" || choiceListOf(item)) && item.parent !== this.actor) {
       return this.isEditable ? addItem(this.actor as Actor.Implementation, item) : null;
     }
     return super._onDropItem(event, item);
@@ -827,6 +835,15 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     const id = target.dataset["itemId"] ?? "";
     if (!this.#expanded.delete(id)) this.#expanded.add(id);
     await this.render();
+  }
+
+  /** Edit mode: sets the choice of a choice feat or talent that has none. */
+  static async #chooseFor(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    if (!this.#editMode || !this.isEditable) return;
+    const item = this.actor.items.get(target.dataset["itemId"] ?? "");
+    if (!item) return;
+    const picked = await askChoice(this.actor as Actor.Implementation, item);
+    if (picked) await item.update({ "system.choice": picked.value } as never);
   }
 
   /** Edit mode: an empty level slot opens the browser to fill it (mockup 3). */

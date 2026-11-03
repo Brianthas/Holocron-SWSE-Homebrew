@@ -25,7 +25,8 @@
       }
     },
     "repeatable": false,
-    "choice": ""
+    "choice": "",
+    "choiceList": "criticalStrike"
   },
   "effects": [],
   "folder": null,

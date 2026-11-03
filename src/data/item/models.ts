@@ -1,4 +1,5 @@
 import { ABILITIES } from "../../config/abilities.ts";
+import { CHOICE_LIST_KEYS } from "../../config/choices.ts";
 import { DROID_SYSTEM_GROUP_KEYS } from "../../config/droids.ts";
 import { FORCE_DESCRIPTOR_KEYS } from "../../config/force.ts";
 import { SIZES } from "../../config/sizes.ts";
@@ -13,6 +14,7 @@ const int = (initial: number, min?: number) =>
   new fields.NumberField({ required: true, nullable: false, integer: true, initial, ...(min === undefined ? {} : { min }) });
 const text = (initial = "") => new fields.StringField({ required: true, blank: true, initial });
 const strings = () => new fields.ArrayField(new fields.StringField({ required: true, blank: false }));
+const choiceList = () => new fields.StringField({ required: true, blank: true, initial: "", choices: ["", ...CHOICE_LIST_KEYS] });
 
 /** A prerequisite as the fork stores it: the printed text, and the parsed tree the checker walks. */
 const prerequisite = () => new fields.SchemaField({
@@ -83,6 +85,8 @@ function featSchema() {
     repeatable: new fields.BooleanField({ initial: false }),
     /** What a choice feat was taken for: a weapon group or skill key ("pistols", "stealth"). */
     choice: text(),
+    /** The list its choice offers (config/choices.ts); blank for a feat with no choice. */
+    choiceList: choiceList(),
   };
 }
 export class FeatModel extends foundry.abstract.TypeDataModel<ReturnType<typeof featSchema>, Item.Implementation> {
@@ -99,7 +103,9 @@ function talentSchema() {
     repeatable: new fields.BooleanField({ initial: false }),
     /** For a repeatable talent with a limit (Commanding Officer: 3); 0 means no limit. */
     maxTimes: int(0, 0),
+    /** What a choice talent was taken for, and the list it offers (config/choices.ts). */
     choice: text(),
+    choiceList: choiceList(),
     /** The action an activated talent takes ("Standard", "Swift", "Reaction"); blank for a passive one. */
     action: text(),
   };

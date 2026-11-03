@@ -89,7 +89,7 @@ function prereqCharacter(actor: Actor.Implementation, traditionTrees: Map<string
   const items = actor.items;
   const classItems = Object.keys(s.classLevels).map((id) => items.get(id)).filter((i) => i?.type === "class");
   return {
-    talents: items.filter((i) => i.type === "talent").map((i) => ({ name: i.name ?? "", tree: (i.system as { tree?: string }).tree ?? "" })),
+    talents: items.filter((i) => i.type === "talent").map((i) => ({ name: i.name ?? "", tree: (i.system as { tree?: string }).tree ?? "", choice: (i.system as { choice?: string }).choice ?? "" })),
     feats: items.filter((i) => i.type === "feat").map((i) => ({ name: i.name ?? "", choice: (i.system as { choice?: string }).choice ?? "" })),
     bab: s.bab,
     level: s.level,

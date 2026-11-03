@@ -380,6 +380,101 @@ await game.settings.set("holocron", "browserOnlyQualified", qualifiedBefore);
   await s2.close();
 }
 
+// Choice feats (the fork's dialog, replicated): dropped on a Jedi, which is proficient with Advanced
+// Melee, Lightsabers, Pistols and Simple Weapons (the house class table).
+{
+  const probe = await Actor.create({ name: "Choice Probe", type: "character", flags: FLAG, items: [await source("species", "Human"), await source("classes", "Jedi")] });
+  await probe.update({ "system.progression": [{ class: probe.items.find((i) => i.type === "class").id }] });
+  const s3 = probe.sheet;
+  let w = new Promise((resolve) => Hooks.once("renderCharacterSheet", resolve));
+  await s3.render({ force: true });
+  await w;
+  s3.changeTab("build", "primary");
+  // Drops a compendium feat and answers its dialog: a value to choose, or null to cancel.
+  const dropChoosing = async (pack, name, answer) => {
+    const dialogShown = new Promise((resolve) => Hooks.once("renderDialogV2", (app) => resolve(app)));
+    const data = new DataTransfer();
+    data.setData("text/plain", JSON.stringify({ type: "Item", uuid: uuidOf(pack, name) }));
+    s3.element.querySelector("section.tab.active").dispatchEvent(new DragEvent("drop", { dataTransfer: data, bubbles: true, cancelable: true }));
+    const dialog = await dialogShown;
+    const offered = [...dialog.element.querySelectorAll('select[name="choice"] option')].map((o) => o.textContent);
+    const created = answer ? new Promise((resolve) => Hooks.once("createItem", resolve)) : null;
+    const closed = new Promise((resolve) => Hooks.once("closeDialogV2", resolve));
+    if (answer) dialog.element.querySelector('select[name="choice"]').value = answer;
+    dialog.element.querySelector(`[data-action="${answer ? "ok" : "cancel"}"]`).click();
+    await closed;
+    const item = created ? await created : null;
+    await s3.render();
+    return { offered, item };
+  };
+  const featNames = () => [...s3.element.querySelectorAll('[data-list="feats"] .nm')].map((n) => n.textContent.trim());
+  const first = await dropChoosing("feats", "Weapon Focus", "lightsabers");
+  const second = await dropChoosing("feats", "Weapon Focus", null);
+  check("Weapon Focus offers the Jedi's proficient groups; Lightsabers is stored and shown; a second offers the rest, and Cancel adds nothing",
+    JSON.stringify(first.offered) === '["Simple Weapons","Advanced Melee Weapons","Lightsabers","Pistols"]' && first.item?.system.choice === "lightsabers"
+    && featNames().includes("Weapon Focus (Lightsabers)") && JSON.stringify(second.offered) === '["Simple Weapons","Advanced Melee Weapons","Pistols"]'
+    && probe.items.filter((i) => i.name === "Weapon Focus").length === 1, { first: first.offered, second: second.offered, feats: featNames() });
+  const spec = await dropChoosing("feats", "Weapon Specialization", "lightsabers");
+  check("Weapon Specialization offers only the groups with Weapon Focus", JSON.stringify(spec.offered) === '["Lightsabers"]' && spec.item?.system.choice === "lightsabers", { offered: spec.offered });
+  {
+    // The warning is caught at ui.notifications.warn, which is put back by identity afterwards.
+    const original = ui.notifications.warn;
+    let warning = "";
+    const warned = new Promise((resolve) => {
+      ui.notifications.warn = function (message, ...rest) { warning = String(message); resolve(); return original.call(this, message, ...rest); };
+    });
+    const before = probe.items.size;
+    const data = new DataTransfer();
+    data.setData("text/plain", JSON.stringify({ type: "Item", uuid: uuidOf("feats", "Exotic Weapon Proficiency") }));
+    s3.element.querySelector("section.tab.active").dispatchEvent(new DragEvent("drop", { dataTransfer: data, bubbles: true, cancelable: true }));
+    await warned;
+    if (ui.notifications.warn !== original) ui.notifications.warn = original;
+    check("Exotic Weapon Proficiency has nothing to offer: a warning says why and nothing is added", probe.items.size === before
+      && warning === "Exotic Weapon Proficiency: Choice Probe has nothing to choose (the house weapon table has no exotic weapons).", { warning });
+  }
+  // The prerequisite marker reads the stored choice: Twin Attack (Lightsabers) needs Weapon Focus (Lightsabers).
+  const twinMarker = async () => {
+    shown = rendered();
+    s3.element.querySelector('[data-action="browse"][data-target="powers"]').click();
+    await shown;
+    await click('[data-action="showTab"][data-tab="talents"]');
+    await type("q", "twin attack");
+    const badge = el().querySelector(`.result-row[data-uuid="${uuidOf("talents", "Twin Attack (Lightsabers)")}"] .badge.unmet`)?.textContent ?? "";
+    await app().close();
+    return badge;
+  };
+  const metWithLightsabers = await twinMarker();
+  await probe.items.getName("Weapon Focus").update({ "system.choice": "pistols" });
+  const unmetWithPistols = await twinMarker();
+  check("Twin Attack (Lightsabers) is met with Weapon Focus (Lightsabers), and marked once the choice is Pistols", metWithLightsabers === "" && unmetWithPistols === "Prereq not met",
+    { metWithLightsabers, unmetWithPistols });
+
+  // A Skill Focus with no choice, as an item from before the picker arrives: Play says so, and Edit mode's Choose sets it.
+  // Skill Focus offers trained skills, so the probe is trained in Use the Force first.
+  await probe.update({ "system.skills.useTheForce.trained": true });
+  const [bare] = await probe.createEmbeddedDocuments("Item", [await source("feats", "Skill Focus")]);
+  await s3.render();
+  const rowOf = () => s3.element.querySelector(`[data-list="feats"] [data-item-id="${bare.id}"]`);
+  const playNote = rowOf()?.querySelector(".end")?.textContent.trim();
+  w = new Promise((resolve) => Hooks.once("renderCharacterSheet", resolve));
+  s3.element.querySelector('[data-action="toggleMode"]').click();
+  await w;
+  s3.changeTab("build", "primary");
+  const dialogShown = new Promise((resolve) => Hooks.once("renderDialogV2", (app) => resolve(app)));
+  rowOf().querySelector('[data-action="chooseFor"]').click();
+  const dialog = await dialogShown;
+  const offered = [...dialog.element.querySelectorAll('select[name="choice"] option')].map((o) => o.value);
+  const updated = new Promise((resolve) => Hooks.once("updateItem", resolve));
+  dialog.element.querySelector('select[name="choice"]').value = "useTheForce";
+  dialog.element.querySelector('[data-action="ok"]').click();
+  await updated;
+  await s3.render();
+  check("a Skill Focus with no choice reads 'Choice not set' in Play; Edit mode's Choose offers trained skills and stores Use the Force",
+    playNote === "Choice not set" && offered.includes("useTheForce") && bare.system.choice === "useTheForce"
+    && rowOf()?.querySelector(".nm").textContent.trim() === "Skill Focus (Use the Force)" && !rowOf()?.querySelector('[data-action="chooseFor"]'), { playNote, offered });
+  await s3.close();
+}
+
 // The results scroll (standing rule 19).
 shown = rendered();
 document.querySelector(".holocron-browser-button").click();

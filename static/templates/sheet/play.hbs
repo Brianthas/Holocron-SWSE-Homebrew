@@ -46,7 +46,7 @@
         {{#each talents}}
         <div class="list-row" data-item-id="{{id}}" data-pin-id="{{id}}">
           <div class="main"><span class="nm">{{name}}</span>{{#if action}}<span class="cost-tag">{{action}}</span>{{/if}}<span class="meta">{{tree}}</span></div>
-          <div class="end">{{#if @root.editMode}}<button type="button" class="btn remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}"><i class="fa-solid fa-trash" inert></i></button>{{/if}}
+          <div class="end">{{#if @root.editMode}}{{#if needsChoice}}<button type="button" class="btn primary" data-action="chooseFor" data-item-id="{{id}}">Choose</button>{{/if}}<button type="button" class="btn remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}"><i class="fa-solid fa-trash" inert></i></button>{{/if}}
             <button type="button" class="btn" data-action="useItem" data-item-id="{{id}}">Use</button>
             <button type="button" class="pin-toggle" data-action="togglePin" data-pin-id="{{id}}" aria-pressed="{{pinned}}" aria-label="Pin {{name}}"><i class="fa-solid fa-thumbtack" inert></i></button></div>
         </div>

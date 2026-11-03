@@ -52,7 +52,8 @@
       }
     },
     "repeatable": false,
-    "choice": ""
+    "choice": "",
+    "choiceList": ""
   },
   "effects": [],
   "folder": null,

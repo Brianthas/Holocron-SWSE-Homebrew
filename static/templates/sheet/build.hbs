@@ -126,7 +126,7 @@
       {{#each feats}}
       <div class="list-row" data-item-id="{{id}}">
         <div class="main"><span class="nm">{{name}}</span></div>
-        <div class="end">{{#if @root.editMode}}<button type="button" class="btn remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}"><i class="fa-solid fa-trash" inert></i></button>{{/if}}</div>
+        <div class="end">{{#if @root.editMode}}{{#if needsChoice}}<button type="button" class="btn primary" data-action="chooseFor" data-item-id="{{id}}">Choose</button>{{/if}}<button type="button" class="btn remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}"><i class="fa-solid fa-trash" inert></i></button>{{else if needsChoice}}<span class="hint">Choice not set</span>{{/if}}</div>
       </div>
       {{else}}
       <div class="empty-note">No feats. Drag one from the Feats compendium.</div>

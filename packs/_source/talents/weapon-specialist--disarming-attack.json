@@ -45,6 +45,7 @@
     "repeatable": true,
     "maxTimes": 0,
     "choice": "",
+    "choiceList": "disarmingAttack",
     "action": ""
   },
   "effects": [],

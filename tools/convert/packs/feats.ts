@@ -4,7 +4,7 @@
 // does not carry come from HOUSE_CHANGES, each with the line that states it.
 
 import {
-  attachEffect, bonus, dice, dropped, exact, flatOrSwap, grant, isFanContent, number, runChanges,
+  attachEffect, bonus, choiceListOf, dice, dropped, exact, flatOrSwap, grant, isFanContent, number, runChanges,
   type ChangeOut, type Context, type Mapper, type Prerequisite,
 } from "../lib/changes.ts";
 import { cleanDescription, rewriteParagraphs } from "../lib/html.ts";
@@ -181,6 +181,7 @@ export function convertFeats(report: Report): OutputDoc[] {
       prerequisite: { text: prerequisite?.text ?? "", nodes: prerequisite && Object.keys(prerequisite).length ? prerequisite : null },
       repeatable: ctx.repeatable,
       choice: "",
+      choiceList: choiceListOf(doc, report, PACK),
     }, doc, { sourceBook: String(doc.system["source"] ?? "") || sourceBook });
     attachEffect(item, seed, ctx.changes);
     out.push(item);

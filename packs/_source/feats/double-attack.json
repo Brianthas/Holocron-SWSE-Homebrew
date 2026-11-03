@@ -14,7 +14,8 @@
       }
     },
     "repeatable": true,
-    "choice": ""
+    "choice": "",
+    "choiceList": "doubleAttack"
   },
   "effects": [],
   "folder": null,

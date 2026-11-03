@@ -14,7 +14,8 @@
       }
     },
     "repeatable": true,
-    "choice": ""
+    "choice": "",
+    "choiceList": "exoticWeaponProficiency"
   },
   "effects": [],
   "folder": null,

@@ -10,7 +10,8 @@
       "nodes": null
     },
     "repeatable": true,
-    "choice": ""
+    "choice": "",
+    "choiceList": ""
   },
   "effects": [],
   "folder": null,

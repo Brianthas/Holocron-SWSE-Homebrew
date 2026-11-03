@@ -14,7 +14,8 @@
       }
     },
     "repeatable": true,
-    "choice": ""
+    "choice": "",
+    "choiceList": "greaterWeaponFocus"
   },
   "effects": [],
   "folder": null,

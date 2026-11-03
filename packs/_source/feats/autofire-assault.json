@@ -14,7 +14,8 @@
       }
     },
     "repeatable": false,
-    "choice": ""
+    "choice": "",
+    "choiceList": "autofireAssault"
   },
   "effects": [],
   "folder": null,

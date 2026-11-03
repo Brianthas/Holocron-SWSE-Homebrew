@@ -29,6 +29,7 @@
     "repeatable": false,
     "maxTimes": 0,
     "choice": "",
+    "choiceList": "",
     "action": ""
   },
   "effects": [

@@ -13,6 +13,7 @@
     "repeatable": true,
     "maxTimes": 0,
     "choice": "",
+    "choiceList": "exceptionalSkill",
     "action": ""
   },
   "effects": [],

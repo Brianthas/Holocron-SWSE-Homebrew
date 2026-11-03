@@ -17,6 +17,7 @@
     "repeatable": true,
     "maxTimes": 0,
     "choice": "",
+    "choiceList": "weaponSpecialization",
     "action": ""
   },
   "effects": [],

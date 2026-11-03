@@ -25,7 +25,8 @@
       }
     },
     "repeatable": true,
-    "choice": ""
+    "choice": "",
+    "choiceList": "tripleAttack"
   },
   "effects": [],
   "folder": null,

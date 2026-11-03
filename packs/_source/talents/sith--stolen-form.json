@@ -28,6 +28,7 @@
     "repeatable": true,
     "maxTimes": 0,
     "choice": "",
+    "choiceList": "lightsaberForms",
     "action": ""
   },
   "effects": [],

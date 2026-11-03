@@ -101,6 +101,16 @@
   trees read "Not a <class> tree" (warned, never blocked). Taking level 1 of a base class adds its
   starting feat, shown as granted; a starting feat already picked into a slot moves out of it,
   leaving the slot empty (rulings.md, Classes).
+- Choice feats and talents. Weapon Focus, Skill Focus and 24 others ask what they are taken for
+  when added (from the browser, a level slot or a drop), and show it in their name: "Weapon Focus
+  (Rifles)". The options follow the SWSE fork's: weapon groups the character is proficient with,
+  groups it already has Weapon Focus, Weapon Specialization or Double Attack in for the feats that
+  build on those, groups it is not proficient with for Weapon Proficiency, trained skills for Skill
+  Focus and Exceptional Skill, and Lightsaber Forms it does not have for Stolen Form; a choice
+  already taken is not offered again. With nothing to offer, a warning says why and nothing is
+  added. A choice feat without a choice reads "Choice not set", and Edit mode has a Choose button
+  for it. The prerequisite check reads the choice: Twin Attack (Lightsabers) needs Weapon Focus
+  taken for Lightsabers. The chosen weapon group or skill does not yet change any bonus.
 
 ## 0.0.1 - 2026-11-01
 

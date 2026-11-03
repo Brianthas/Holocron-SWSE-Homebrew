@@ -7,7 +7,7 @@
 import { SKILLS } from "../../../src/config/skills.ts";
 import { WEAPON_GROUPS } from "../../../src/config/weapons.ts";
 import {
-  attachEffect, bonus, dice, dropped, exact, flatOrSwap, grant, isFanContent, number, runChanges, shortDescriptionCarry,
+  attachEffect, bonus, choiceListOf, dice, dropped, exact, flatOrSwap, grant, isFanContent, number, runChanges, shortDescriptionCarry,
   type ChangeOut, type Context, type Mapper, type Prerequisite,
 } from "../lib/changes.ts";
 import { cleanDescription } from "../lib/html.ts";
@@ -129,7 +129,7 @@ function houseTalent(entry: (typeof HOUSE_TALENTS)[number], report: Report): Out
   report.note("house talents", `${entry.tree}/${entry.name}: ${entry.source}`);
   return {
     _id: id, _key: `!items!${id}`, name: entry.name, type: "talent", effects: [], folder: null, sort: 0,
-    system: { description: entry.description, tree: entry.tree, prerequisite: entry.prerequisite, repeatable: false, maxTimes: 0, choice: "", action: "" },
+    system: { description: entry.description, tree: entry.tree, prerequisite: entry.prerequisite, repeatable: false, maxTimes: 0, choice: "", choiceList: "", action: "" },
     flags: { holocron: { sourceBook: entry.sourceBook } },
   };
 }
@@ -208,6 +208,7 @@ export function convertTalents(report: Report): OutputDoc[] {
       repeatable: ctx.repeatable,
       maxTimes: ctx.maxTimes,
       choice: "",
+      choiceList: choiceListOf(doc, report, PACK),
       action: "",
     }, doc, { sourceBook: String(doc.system["source"] ?? "") || cleaned.sourceBook });
     attachEffect(item, seed, ctx.changes);

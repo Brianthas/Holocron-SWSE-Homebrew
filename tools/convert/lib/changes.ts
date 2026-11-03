@@ -1,6 +1,7 @@
 // The pieces feats and talents share: Holocron change constructors, the mapper context each fork
 // change key runs in, and the effect a converted item carries.
 
+import { CHOICE_LISTS, CHOICE_LIST_KEYS } from "../../../src/config/choices.ts";
 import { cleanDescription, textNotIn } from "./html.ts";
 import { idFor } from "./ids.ts";
 import type { OutputDoc, Report, SourceDoc } from "./pack.ts";
@@ -52,6 +53,23 @@ export function runChanges(doc: SourceDoc, mappers: Record<string, Mapper>, ctx:
     if (mapper) mapper(change.value, ctx);
     else ctx.fail(`unmapped change ${change.key}: ${JSON.stringify(change.value).slice(0, 80)}`);
   }
+}
+
+/**
+ * The list a fork choice feat or talent offers, as a Holocron key (src/config/choices.ts), from its
+ * `choices` block's option name ("AVAILABLE_WEAPON_FOCUS"). Blank for an item with no choice; an
+ * option name with no list is a problem, so a new fork list cannot pass unconverted.
+ */
+export function choiceListOf(doc: SourceDoc, report: Report, pack: string): string {
+  const choices = (doc.system["choices"] ?? []) as { options?: { payloads?: { payload?: string } }[] }[];
+  const names = choices.flatMap((c) => (c.options ?? []).map((o) => o.payloads?.payload ?? "")).filter((n) => n.startsWith("AVAILABLE_"));
+  if (!names.length) return "";
+  const keys = names.map((n) => CHOICE_LIST_KEYS.find((k) => CHOICE_LISTS[k].fork === n));
+  if (keys.some((k) => !k) || new Set(keys).size !== 1) {
+    report.problem(pack, doc, `choice options with no single Holocron list: ${names.join(", ")}`);
+    return "";
+  }
+  return keys[0] ?? "";
 }
 
 /** Adds a transferred effect named `name` to an item, its id derived from `idSeed`. */

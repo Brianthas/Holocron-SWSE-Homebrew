@@ -13,6 +13,7 @@
     "repeatable": true,
     "maxTimes": 3,
     "choice": "",
+    "choiceList": "",
     "action": ""
   },
   "effects": [],
