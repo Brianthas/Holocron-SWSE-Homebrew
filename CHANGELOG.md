@@ -39,6 +39,20 @@
   Dying.
 - Initiative: the combat tracker rolls 1d20 + the Initiative total; it had no formula. The
   sheet's Initiative roll also sets the character's initiative in each active combat it is in.
+- Force tab. Use the Force with its roll. The Dark Side track: pips from 0 to the maximum (half WIS,
+  rounded up), set by clicking one, Fallen at the maximum. Force powers with a pip per copy, where
+  a lit pip marks one used and an empty pip marks one ready; descriptor tags and the action; a row
+  opens to the power's text. Powers known against Force Training x (1 + INT modifier, at least 1),
+  over in red. Dropping a power the character knows adds a ready copy; in Edit mode the minus
+  removes one, and the last copy removes the power. End of combat readies every copy, and so does
+  ending a combat the character is in. A power's roll button rolls Use the Force through the check
+  dialog and posts the DC bands, the highest one met highlighted, or every one met for a
+  cumulative power. Force techniques and secrets against the slots the class levels give (a
+  technique at each even level of Force Adept, Jedi Knight, Sith Apprentice and Imperial
+  Legionnaire; a secret at levels 2 to 5 of Force Disciple, Jedi Master and Sith Lord). One line
+  names the powers, techniques and secrets still to choose. Browse opens the compendium until the
+  compendium browser is built.
+- Attack cards show the roll: Foundry leaves the roll out of a card that has its own content.
 
 ## 0.0.1 - 2026-11-01
 

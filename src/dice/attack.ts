@@ -42,7 +42,9 @@ export async function rollAttack(actor: Actor.Implementation, weapon: Item.Imple
     speaker: ChatMessage.getSpeaker({ actor: actor as Actor.Stored }),
     rolls: [roll],
     flavor: `${escape(weapon.name)}: attack`,
-    content: targets.length ? `<ul class="holocron-targets">${rows}</ul>` : "<p>No target</p>",
+    // Core shows a roll only when the content has no elements of its own (chat-message.mjs
+    // #renderRollContent), so the card carries the roll's HTML itself.
+    content: `${await roll.render()}${targets.length ? `<ul class="holocron-targets">${rows}</ul>` : "<p>No target</p>"}`,
     flags: { holocron: { attack: flag } },
   } as never);
 }

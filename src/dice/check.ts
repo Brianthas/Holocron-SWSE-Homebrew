@@ -12,20 +12,27 @@ export interface CheckFlag { skill: SkillKey; advantage: boolean; other: number;
  * A skill check: 1d20, or with a Force Point spent before the roll 2d20 keeping the higher
  * (rulings.md, The Force), plus the skill's terms and any other modifier. The Force Point is spent
  * once the roll is made. An Initiative check also sets the character's initiative in each active
- * combat the character is in.
+ * combat the character is in. `card` replaces the flavor and adds content and flags from the total
+ * (a Force power's bands).
  */
-export async function rollCheck(actor: Actor.Implementation, key: SkillKey, { advantage = false, other = 0 } = {}): Promise<ChatMessage.Implementation | null> {
+export async function rollCheck(
+  actor: Actor.Implementation, key: SkillKey, { advantage = false, other = 0 } = {},
+  card?: (total: number) => { flavor: string; content: string; flags: Record<string, unknown> },
+): Promise<ChatMessage.Implementation | null> {
   const system = actor.system as CharacterModel;
   const spend = advantage && system.forcePoints.value > 0;
   const formula = labelledFormula(spend ? "2d20kh" : "1d20", system.skillTotals[key]) + (other ? ` ${other < 0 ? "-" : "+"} ${Math.abs(other)}[Other modifier]` : "");
   const roll = await new Roll(formula).evaluate();
   if (spend) await actor.update({ system: { forcePoints: { value: system.forcePoints.value - 1 } } } as never);
   const flag: CheckFlag = { skill: key, advantage: spend, other, total: roll.total ?? 0 };
+  const custom = card?.(roll.total ?? 0);
   const message = await ChatMessage.create({
     speaker: ChatMessage.getSpeaker({ actor: actor as Actor.Stored }),
     rolls: [roll],
-    flavor: `${escape(SKILLS[key].label)} check${spend ? " (Force Point: 2d20, keep the higher)" : ""}`,
-    flags: { holocron: { check: flag } },
+    flavor: `${custom?.flavor ?? `${escape(SKILLS[key].label)} check`}${spend ? " (Force Point: 2d20, keep the higher)" : ""}`,
+    // Core shows the roll only when the content has no elements (attack.ts), so custom content carries it.
+    ...(custom ? { content: `${await roll.render()}${custom.content}` } : {}),
+    flags: { holocron: { check: flag, ...custom?.flags } },
   } as never);
   // Every active combat the character is in, not only the one on the scene being viewed.
   if (key === "initiative") {

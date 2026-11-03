@@ -4,6 +4,7 @@
     "Sheet": {
       "Tab": {
         "play": "Play",
+        "force": "Force",
         "build": "Build",
         "inventory": "Inventory",
         "notes": "Notes"

@@ -4,6 +4,9 @@ import { SKILLS, SKILL_KEYS, type SkillKey } from "../config/skills.ts";
 import type { CharacterModel, WeaponData } from "../data/actor/character.ts";
 import { rollAttack, rollDamage } from "../dice/attack.ts";
 import { checkDialog, rollCheck, useSecondWind } from "../dice/check.ts";
+import { actionTag, readyAllPowers, rollPower } from "../dice/force.ts";
+import { FORCE_DESCRIPTORS, type ForceDescriptorKey } from "../config/force.ts";
+import { featureSlots, forcePowersKnown } from "../rules/force.ts";
 import {
   ABILITY_INCREASE_LEVELS, defensePointLimits, POINT_BUY_BUDGET, POINT_BUY_MAX, pointBuyCost, pointBuySpent, speciesChoiceAllowed,
 } from "../rules/build.ts";
@@ -13,9 +16,9 @@ import { averageHitDie, hpEntry } from "../rules/resources.ts";
 import { breakdownHtml, signed } from "./breakdown.ts";
 
 /**
- * The character sheet signed off as mockup 1, built in slices. This slice: the sidebar (hit points,
- * Second Wind, Defenses, Force Points, Destiny, pooled Force, quick rolls), the header band, and the
- * Play, Build and Notes tabs. Tabs that are not built yet are left out rather than shown empty.
+ * The character sheet signed off as mockup 1, built in slices: the sidebar (hit points, Second
+ * Wind, Defenses, Force Points, Destiny, pooled Force, quick rolls), the header band, and the Play,
+ * Force, Build, Inventory and Notes tabs. Tabs that are not built yet are left out rather than shown empty.
  */
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
@@ -51,6 +54,8 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       increaseSave: CharacterSheet.#increaseSave, cycleCarry: CharacterSheet.#cycleCarry, toggleWorn: CharacterSheet.#toggleWorn,
       toggleInstalled: CharacterSheet.#toggleInstalled, deleteItem: CharacterSheet.#deleteItem, cycleSize: CharacterSheet.#cycleSize,
       rollSkill: CharacterSheet.#rollSkill, secondWind: CharacterSheet.#secondWind,
+      darkSide: CharacterSheet.#darkSide, powerPip: CharacterSheet.#powerPip, readyPowers: CharacterSheet.#readyPowers,
+      removeCopy: CharacterSheet.#removeCopy, rollPower: CharacterSheet.#rollPower, expand: CharacterSheet.#expand, browse: CharacterSheet.#browse,
     },
   };
 
@@ -59,13 +64,14 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     band: { template: `${TEMPLATES}/band.hbs` },
     tabs: { template: "templates/generic/tab-navigation.hbs" },
     play: { template: `${TEMPLATES}/play.hbs`, scrollable: [""] },
+    force: { template: `${TEMPLATES}/force.hbs`, scrollable: [""] },
     build: { template: `${TEMPLATES}/build.hbs`, scrollable: [""] },
     inventory: { template: `${TEMPLATES}/inventory.hbs`, scrollable: [""] },
     notes: { template: `${TEMPLATES}/notes.hbs`, scrollable: [""] },
   };
 
   static override TABS = {
-    primary: { tabs: [{ id: "play" }, { id: "build" }, { id: "inventory" }, { id: "notes" }], initial: "play", labelPrefix: "HOLOCRON.Sheet.Tab" },
+    primary: { tabs: [{ id: "play" }, { id: "force" }, { id: "build" }, { id: "inventory" }, { id: "notes" }], initial: "play", labelPrefix: "HOLOCRON.Sheet.Tab" },
   };
 
   /** Play or Edit (mockup 1's padlock). Edit unlocks build data; Play keeps the numbers that change in play editable. */
@@ -74,6 +80,8 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
   #levelUp: null | { step: "class" } | { step: "hp"; ref: ClassRef } = null;
   /** Abilities picked so far for a level's +1 and +1, by level. */
   #increasePicks = new Map<number, AbilityKey[]>();
+  /** Force tab rows shown open, by item id. */
+  #expanded = new Set<string>();
 
   override async _prepareContext(options: foundry.applications.sheets.ActorSheetV2.RenderOptions) {
     const context = await super._prepareContext(options);
@@ -177,6 +185,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       }),
       levelUp: await this.#levelUpContext(),
       inventory: this.#inventoryContext(droid),
+      force: await this.#forceContext(),
       talents: actor.items.filter((i) => i.type === "talent").map((t) => ({ id: t.id, name: t.name, tree: (t.system as { tree?: string }).tree ?? "", action: (t.system as { action?: string }).action ?? "" }))
         .sort((a, b) => a.name.localeCompare(b.name)),
       feats: actor.items.filter((i) => i.type === "feat").map((f) => ({ id: f.id, name: f.name })).sort((a, b) => a.name.localeCompare(b.name)),
@@ -273,6 +282,80 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       })
       .sort((a, b) => a.name.localeCompare(b.name));
     return { step: "class", level: next, taken, base: others.filter((o) => o.base), prestige: others.filter((o) => !o.base), packMissing: !pack };
+  }
+
+  /**
+   * The Force tab: Use the Force, the Dark Side track (set by hand; Fallen at the maximum), powers
+   * with their ready copies, and techniques and secrets against the slots the class levels give.
+   */
+  async #forceContext() {
+    const actor = this.actor as Actor.Implementation;
+    const s = actor.system as CharacterModel;
+    const enrich = (html: string) => foundry.applications.ux.TextEditor.implementation.enrichHTML(html, { relativeTo: actor });
+    const byName = (a: Item.Implementation, b: Item.Implementation) => (a.name ?? "").localeCompare(b.name ?? "");
+    const items = (type: string) => (actor.items.filter((i) => i.type === type) as Item.Implementation[]).sort(byName);
+
+    const trainings = actor.items.filter((i) => i.type === "feat" && i.name === "Force Training").length;
+    const perTraining = forcePowersKnown(1, s.scores.int.mod);
+    const powers = await Promise.all(items("forcePower").map(async (p) => {
+      // The description carries the power's target and DC table (every converted power with bands).
+      const d = p.system as unknown as { descriptors: ForceDescriptorKey[]; action: string; description: string; copies: number; ready: number };
+      return {
+        id: p.id, name: p.name, copies: d.copies, expanded: this.#expanded.has(p.id ?? ""),
+        pips: Array.from({ length: d.copies }, (_, i) => ({ index: i, number: i + 1, on: i < d.ready })),
+        tags: d.descriptors.map((k) => FORCE_DESCRIPTORS[k]), action: actionTag(d.action), actionTitle: d.action,
+        description: await enrich(d.description),
+      };
+    }));
+    const copies = powers.reduce((n, p) => n + p.copies, 0);
+    const known = forcePowersKnown(trainings, s.scores.int.mod);
+
+    // Technique and secret slots: each class's slot levels reached by the levels taken in it.
+    const classes = Object.entries(s.classLevels).map(([id, levels]) => ({ levels, system: actor.items.get(id)?.system as { techniqueLevels?: number[]; secretLevels?: number[] } | undefined }));
+    const feature = async (key: "techniques" | "secrets", category: string, slotKey: "techniqueLevels" | "secretLevels", label: string, plural: string, pack: string, empty: string) => {
+      const list = items("feature").filter((f) => (f.system as { category?: string }).category === category);
+      const slots = featureSlots(classes.map((c) => ({ levels: c.levels, slotLevels: c.system?.[slotKey] ?? [] })));
+      return {
+        key, label, plural, pack, empty, slots, count: list.length, over: list.length > slots,
+        items: await Promise.all(list.map(async (f) => ({
+          id: f.id, name: f.name, power: (f.system as { power?: string }).power ?? "", expanded: this.#expanded.has(f.id ?? ""),
+          description: await enrich((f.system as { description?: string }).description ?? ""),
+        }))),
+      };
+    };
+    const features = [
+      await feature("techniques", "forceTechnique", "techniqueLevels", "Force Techniques", "techniques", "holocron.force-techniques", "None yet. Force Adept, Jedi Knight, Sith Apprentice and Imperial Legionnaire earn one at each even class level."),
+      await feature("secrets", "forceSecret", "secretLevels", "Force Secrets", "secrets", "holocron.force-secrets", "None yet. Force Disciple, Jedi Master and Sith Lord earn one at each of class levels 2 to 5."),
+    ];
+
+    // One line naming what is still to choose, opening the first such compendium.
+    const waiting = [
+      { n: known - copies, noun: "Force power", pack: "holocron.force-powers" },
+      ...features.map((f) => ({ n: f.slots - f.count, noun: f.key === "techniques" ? "Force technique" : "Force secret", pack: f.pack })),
+    ].filter((w) => w.n > 0);
+    const pending = waiting.length ? { pack: waiting[0]?.pack, text: `${waiting.map((w) => `${w.n} ${w.noun}${w.n === 1 ? "" : "s"}`).join(" and ")} to choose` } : null;
+
+    const max = s.darkSideMax;
+    const value = Math.min(s.darkSide.value, max);
+    return {
+      utf: { total: signed(s.skillTotals.useTheForce.total), tooltip: breakdownHtml("Use the Force", s.skillTotals.useTheForce) },
+      darkSide: {
+        value, max, fallen: max > 0 && value >= max,
+        tooltip: `<div class="tip-title">Dark Side maximum ${max}</div><div class="tip-foot">Half of WIS ${s.scores.wis.value}, rounded up.</div>`,
+        // Shade per pip from its position on the track (Bryan's fork design, mockup 1).
+        pips: Array.from({ length: max + 1 }, (_, i) => {
+          const t = max > 0 ? i / max : 0;
+          const curve = 1 - (1 - t) ** 2;
+          const depth = (curve + t) / 2;
+          return { value: i, on: i <= value, current: i === value, shade: `hsl(0 ${Math.round(curve * 100)}% ${Math.round(100 - depth * 72)}%)` };
+        }),
+      },
+      known: {
+        copies, max: known, over: copies > known,
+        tooltip: `<div class="tip-title">Force powers known ${known}</div><table><tr><td>Force Training &times; ${trainings}</td><td></td></tr><tr><td>1 + INT mod each (at least 1)</td><td>${trainings} &times; ${perTraining}</td></tr></table>`,
+      },
+      powers, features, pending,
+    };
   }
 
   /** Records the chosen class; level 1 is taken at once (its hit points are the class's), later levels ask for hit points. */
@@ -417,6 +500,16 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
    * first and the old one removed after, so a failed drop leaves the character as it was.
    */
   override async _onDropItem(event: DragEvent, item: Item.Implementation) {
+    // A power the character knows gains a copy, ready (mockup 3: "adds a copy of a power already known").
+    if (item.type === "forcePower" && item.parent !== this.actor) {
+      const known = this.actor.items.find((i) => i.type === "forcePower" && i.name === item.name);
+      if (known) {
+        if (!this.isEditable) return null;
+        const d = known.system as unknown as { copies: number; ready: number };
+        await known.update({ "system.copies": d.copies + 1, "system.ready": d.ready + 1 } as never);
+        return known as Item.Implementation;
+      }
+    }
     const old = item.type === "species" ? this.actor.items.filter((i) => i.type === "species" && i.id !== item.id) : [];
     const created = await super._onDropItem(event, item);
     if (created && old.length && created.parent === this.actor) await this.actor.deleteEmbeddedDocuments("Item", old.map((i) => i.id ?? ""));
@@ -470,6 +563,59 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     if (!k || !SKILL_KEYS.includes(k)) return;
     const s = this.actor.system as CharacterModel;
     await this.actor.update({ [`system.skills.${k}.trained`]: !s.skills[k].trained });
+  }
+
+  /** Sets the Dark Side score to the clicked pip; set by hand only (Bryan, mockup 1). */
+  static async #darkSide(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const value = Number(target.dataset["value"]);
+    const s = this.actor.system as CharacterModel;
+    if (this.isEditable && Number.isInteger(value) && value >= 0 && value <= s.darkSideMax && value !== s.darkSide.value) await this.actor.update({ "system.darkSide.value": value } as never);
+  }
+
+  /** A power's ready copies: a lit pip marks one used, an empty pip marks one ready. */
+  static async #powerPip(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const item = this.actor.items.get(target.dataset["itemId"] ?? "");
+    if (item?.type !== "forcePower" || !this.isEditable) return;
+    const d = item.system as unknown as { copies: number; ready: number };
+    const lit = Number(target.dataset["index"]) < d.ready;
+    const next = Math.max(0, Math.min(d.copies, d.ready + (lit ? -1 : 1)));
+    if (next !== d.ready) await item.update({ "system.ready": next } as never);
+  }
+
+  static async #readyPowers(this: CharacterSheet): Promise<void> {
+    if (this.isEditable) await readyAllPowers(this.actor as Actor.Implementation);
+  }
+
+  /** Edit mode: one copy fewer; the last copy removes the power, after Foundry's confirmation. */
+  static async #removeCopy(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    if (!this.#editMode || !this.isEditable) return;
+    const item = this.actor.items.get(target.dataset["itemId"] ?? "");
+    if (item?.type !== "forcePower") return;
+    const d = item.system as unknown as { copies: number; ready: number };
+    if (d.copies <= 1) await item.deleteDialog();
+    else await item.update({ "system.copies": d.copies - 1, "system.ready": Math.min(d.ready, d.copies - 1) } as never);
+  }
+
+  /** A power's check, through the check dialog; Shift+click rolls straight away, as skills do. */
+  static async #rollPower(this: CharacterSheet, event: PointerEvent, target: HTMLElement): Promise<void> {
+    const item = this.actor.items.get(target.dataset["itemId"] ?? "");
+    if (item?.type !== "forcePower") return;
+    const actor = this.actor as Actor.Implementation;
+    const choice = event.shiftKey ? { advantage: false, other: 0 } : await checkDialog(actor, "useTheForce");
+    if (choice) await rollPower(actor, item as Item.Implementation, choice);
+  }
+
+  static async #expand(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const id = target.dataset["itemId"] ?? "";
+    if (!this.#expanded.delete(id)) this.#expanded.add(id);
+    await this.render();
+  }
+
+  /** Opens a compendium to drag from, until the compendium browser is built. */
+  static async #browse(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const pack = game.packs?.get(target.dataset["pack"] ?? "");
+    if (pack) await pack.render({ force: true } as never);
+    else ui.notifications?.warn(`Holocron: compendium ${target.dataset["pack"]} is not loaded.`);
   }
 
   /** A lit pip spends one, an empty pip restores one (mockup 1, sidebar pips). */

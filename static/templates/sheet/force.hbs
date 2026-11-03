@@ -1,0 +1,53 @@
+<section class="tab hc-panel {{tab.cssClass}}" data-tab="force" data-group="primary">
+  <div class="force-head">
+    <div class="card">
+      <div class="utf-row stat-row"><span class="name" data-tooltip-html="{{force.utf.tooltip}}">Use the Force</span><span class="stat-value">{{force.utf.total}}</span>
+        <button type="button" class="roll-btn" data-action="rollSkill" data-skill="useTheForce" aria-label="Roll Use the Force"><i class="fa-solid fa-dice-d20" inert></i></button></div>
+    </div>
+    <div class="card">
+      <div class="ds-head"><span class="label">Dark Side</span><b class="ds-score" data-tooltip-html="{{force.darkSide.tooltip}}">{{force.darkSide.value}} / {{force.darkSide.max}}</b>{{#if force.darkSide.fallen}}<span class="fallen-badge">Fallen</span>{{/if}}</div>
+      <div class="ds-track" role="radiogroup" aria-label="Dark Side Score">
+        {{#each force.darkSide.pips}}
+        <button type="button" class="ds-pip{{#if on}} on{{/if}}" data-action="darkSide" data-value="{{value}}" role="radio" aria-checked="{{current}}" aria-label="Dark Side {{value}}" style="--pip-shade: {{shade}}" {{#unless @root.editable}}disabled{{/unless}}><i></i>{{value}}</button>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+  {{#if force.pending}}<button type="button" class="inc-pending" data-action="browse" data-pack="{{force.pending.pack}}">{{force.pending.text}}</button>{{/if}}
+  <div>
+    <div class="section-head"><h3>Force Powers <span class="hint{{#if force.known.over}} over{{/if}}" data-tooltip-html="{{force.known.tooltip}}">{{force.known.copies}} / {{force.known.max}} known</span></h3>
+      <div class="btns"><button type="button" class="btn" data-action="readyPowers" data-tooltip="Mark every power ready again">End of combat</button><button type="button" class="btn" data-action="browse" data-pack="holocron.force-powers">Browse powers</button></div></div>
+    <div class="list" data-list="powers">
+      {{#each force.powers}}
+      <div class="list-row" data-item-id="{{id}}">
+        <div class="main"><button type="button" class="expander" data-action="expand" data-item-id="{{id}}" aria-expanded="{{expanded}}" aria-label="Show {{name}}">{{#if expanded}}&#9662;{{else}}&#9656;{{/if}}</button>
+          <span class="pips" data-tooltip="Ready copies: click to mark used or ready">{{#each pips}}<button type="button" class="pip{{#if on}} on{{/if}}" data-action="powerPip" data-item-id="{{../id}}" data-index="{{index}}" aria-label="Copy {{number}}: {{#if on}}ready{{else}}used{{/if}}" {{#unless @root.editable}}disabled{{/unless}}></button>{{/each}}</span>
+          <span class="nm">{{name}}</span>{{#each tags}}<span class="tag">{{this}}</span>{{/each}}{{#if action}}<span class="cost-tag" data-tooltip="{{actionTitle}}">{{action}}</span>{{/if}}</div>
+        <div class="end">{{#if @root.editMode}}<button type="button" class="pow-remove" data-action="removeCopy" data-item-id="{{id}}" aria-label="Remove a copy of {{name}}" data-tooltip="Remove a copy">&minus;</button>{{/if}}
+          <button type="button" class="roll-btn" data-action="rollPower" data-item-id="{{id}}" aria-label="Roll {{name}}" data-tooltip="Roll Use the Force (Shift: no dialog)"><i class="fa-solid fa-dice-d20" inert></i></button></div>
+        <div class="detail"{{#unless expanded}} hidden{{/unless}}><div class="description">{{{description}}}</div></div>
+      </div>
+      {{else}}
+      <div class="empty-note">No Force powers. Drag one from the Force Powers compendium.</div>
+      {{/each}}
+    </div>
+  </div>
+  {{#each force.features}}
+  <div>
+    <div class="section-head"><h3>{{label}} <span class="hint{{#if over}} over{{/if}}">{{count}} / {{slots}}</span></h3>
+      <div class="btns"><button type="button" class="btn" data-action="browse" data-pack="{{pack}}">Browse {{plural}}</button></div></div>
+    <div class="list" data-list="{{key}}">
+      {{#each items}}
+      <div class="list-row" data-item-id="{{id}}">
+        <div class="main"><button type="button" class="expander" data-action="expand" data-item-id="{{id}}" aria-expanded="{{expanded}}" aria-label="Show {{name}}">{{#if expanded}}&#9662;{{else}}&#9656;{{/if}}</button>
+          <span class="nm">{{name}}</span>{{#if power}}<span class="tag">{{power}}</span>{{/if}}</div>
+        <div class="end">{{#if @root.editMode}}<button type="button" class="pow-remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}" data-tooltip="Remove">&minus;</button>{{/if}}</div>
+        <div class="detail"{{#unless expanded}} hidden{{/unless}}><div class="description">{{{description}}}</div></div>
+      </div>
+      {{else}}
+      <div class="empty-note">{{empty}}</div>
+      {{/each}}
+    </div>
+  </div>
+  {{/each}}
+</section>

@@ -3,6 +3,7 @@ import { CharacterModel } from "./data/actor/character.ts";
 import { ITEM_MODELS } from "./data/item/models.ts";
 import { registerChanges } from "./effects/changes.ts";
 import { HolocronEffectModel } from "./effects/model.ts";
+import { onCombatEnd } from "./dice/force.ts";
 import { registerMigrations } from "./migrations.ts";
 import { longRest, newDay, onRestMessage, registerRestExpiry } from "./rest.ts";
 import { CharacterSheet } from "./sheets/character-sheet.ts";
@@ -50,6 +51,9 @@ Hooks.once("init", () => {
   // The combat tracker rolls initiative with this; without it Foundry's formula is unset.
   register("initiative", () => {
     CONFIG.Combat.initiative.formula = "1d20 + @skillTotals.initiative.total";
+  });
+  register("combat end", () => {
+    Hooks.on("deleteCombat", (combat: Combat.Implementation) => void onCombatEnd(combat));
   });
   register("migrations", registerMigrations);
   // The system's API: New Day (GM) until it has a button; the sheet's Rest calls longRest.

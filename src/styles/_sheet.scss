@@ -523,6 +523,82 @@
     font: 13px var(--hc-font-body);
   }
 
+  // Force tab (mockup 1): Use the Force, the Dark Side track, powers, techniques and secrets.
+  .btns { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+  .section-head h3 .hint { text-transform: none; letter-spacing: 0; font: 500 12px var(--hc-font-body); color: var(--hc-muted); margin-left: 6px; }
+  .section-head h3 .hint.over { color: var(--hc-failure); }
+  .force-head { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px; }
+  .force-head .card { gap: 6px; align-content: start; }
+  .utf-row { padding: 2px 0; grid-template-columns: 1fr auto auto; }
+  .utf-row:hover { background: none; }
+  .utf-row .name { font: 700 15px var(--hc-font-display); letter-spacing: 0.03em; }
+  .utf-row .stat-value { font-size: 28px; color: var(--hc-accent); }
+  .utf-row button.roll-btn { width: 36px; height: 36px; font-size: 18px; }
+  .ds-head { display: flex; align-items: baseline; gap: 8px; }
+  .ds-head b { font: 700 15px var(--hc-font-num); }
+  .fallen-badge {
+    font: 700 10.5px var(--hc-font-display);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--hc-darkside);
+    border: 1px solid var(--hc-darkside);
+    border-radius: 4px;
+    padding: 1px 5px;
+  }
+  .ds-track { display: flex; flex-wrap: wrap; gap: 6px; }
+  button.ds-pip {
+    flex: none;
+    width: auto;
+    height: auto;
+    min-height: 0;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    border: 0;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    font: 500 9.5px var(--hc-font-num);
+    color: var(--hc-muted);
+
+    i { display: block; flex: none; width: 16px; height: 16px; border-radius: 50%; border: 2px solid var(--pip-shade); box-shadow: 0 0 0 1px var(--hc-border); }
+    &.on i { background: var(--pip-shade); }
+    &:hover:not(:disabled) i { box-shadow: 0 0 0 3px var(--hc-accent-soft); }
+  }
+  button.inc-pending {
+    justify-self: start;
+    width: auto;
+    min-height: 0;
+    border: 1.5px dashed var(--hc-accent);
+    background: var(--hc-accent-soft);
+    color: var(--hc-text);
+    border-radius: 5px;
+    padding: 4px 8px;
+    font: 600 12px var(--hc-font-body);
+    cursor: pointer;
+  }
+  button.expander { flex: none; width: 18px; min-height: 0; border: 0; background: none; color: var(--hc-muted); cursor: pointer; padding: 0; font-size: 12px; }
+  button.pow-remove {
+    flex: none;
+    width: 26px;
+    height: 26px;
+    min-height: 0;
+    border-radius: 5px;
+    border: 1px solid var(--hc-border);
+    background: var(--hc-surface);
+    color: var(--hc-muted);
+    cursor: pointer;
+    padding: 0;
+    font: 700 15px/1 var(--hc-font-body);
+
+    &:hover { color: var(--hc-failure); border-color: var(--hc-failure); }
+  }
+  .list-row .detail { grid-column: 1 / -1; padding: 6px 4px 8px 26px; font-size: 13px; color: var(--hc-text); display: grid; gap: 6px; }
+  .list-row .detail[hidden] { display: none; }
+  .list-row .detail .description p { margin: 0 0 6px; }
+
   @container (max-width: 640px) {
     .play-grid { grid-template-columns: minmax(0, 1fr); }
   }

@@ -1,4 +1,4 @@
-/* global game, Actor, Hooks, getComputedStyle, Event, DataTransfer, DragEvent, MouseEvent, Roll, Scene, Combat, CONFIG, __PACK_DOCS__ */
+/* global game, Actor, Hooks, getComputedStyle, Event, DataTransfer, DragEvent, MouseEvent, Roll, Scene, Combat, CONFIG, fromUuid, __PACK_DOCS__ */
 // The character sheet (mockup 1, first slice), driven through its own controls on the rendered DOM.
 // pack-docs: species/bothan, species/jawa, classes/jedi, weapons/blaster-pistol
 //
@@ -128,7 +128,10 @@ check("tabs: Play first; Build shows WIS 10 and the language tier; Notes holds t
   const posted = new Promise((resolve) => Hooks.once("createChatMessage", resolve));
   el().querySelector('.list-row [data-action="attack"]').click();
   const message = await posted;
-  check("Attack on the Blaster Pistol row posts an attack card", message.speaker.actor === actor.id && message.rolls.length === 1, { flavor: message.flavor, rolls: message.rolls.length });
+  // Core leaves a roll out of a card with content of its own, so the card must carry it.
+  const shownTotal = (await message.renderHTML()).querySelector(".dice-total")?.textContent.trim();
+  check("Attack on the Blaster Pistol row posts an attack card that shows the roll's total", message.speaker.actor === actor.id && message.rolls.length === 1
+    && shownTotal === String(message.rolls[0].total), { flavor: message.flavor, rolls: message.rolls.length, shownTotal, total: message.rolls[0].total });
 }
 
 // Edit mode: the padlock, then each Build control, read back off the data and the rendered sheet.
@@ -478,6 +481,148 @@ await write({ system: { hp: { value: 30 } } });
   await combat.delete();
   await scene.delete();
 }
+
+// Force tab. INT 14 (+2): each Force Training gives 1 + 2 = 3 powers known (episode-vii:76 and
+// Core p85). WIS sets the Dark Side maximum, half the score rounded up.
+await ensureMode("play");
+await write({ system: { abilities: { int: { base: 14 } } } });
+el().querySelector('nav.sheet-tabs [data-tab="force"]').click();
+const powerHint = () => text('[data-tab="force"] .section-head h3 .hint');
+const forceStart = { tab: active(), known: powerHint(), pending: Boolean(el().querySelector(".inc-pending")) };
+await drop(uuidOf("feats", "Force Training"));
+await drop(uuidOf("feats", "Force Training"));
+const knownTwo = { known: powerHint(), pending: text(".inc-pending"), intMod: actor.system.scores.int.mod };
+check("Force tab: 0 / 0 known with no Force Training; two at INT 14 give 0 / 6 and '6 Force powers to choose'", JSON.stringify(forceStart.tab) === '["force"]'
+  && forceStart.known === "0 / 0 known" && !forceStart.pending && knownTwo.intMod === 2 && knownTwo.known === "0 / 6 known" && knownTwo.pending === "6 Force powers to choose", { forceStart, knownTwo });
+
+const moveObject = await drop(uuidOf("force-powers", "Move Object"));
+// A second drop of a known power updates it rather than creating an item.
+{
+  const updated = new Promise((resolve) => Hooks.once("updateItem", resolve));
+  const data = new DataTransfer();
+  data.setData("text/plain", JSON.stringify({ type: "Item", uuid: uuidOf("force-powers", "Move Object") }));
+  el().querySelector("section.tab.active").dispatchEvent(new DragEvent("drop", { dataTransfer: data, bubbles: true, cancelable: true }));
+  await updated;
+  await sheet.render();
+}
+const powerRow = () => el().querySelector(`[data-list="powers"] [data-item-id="${moveObject.id}"]`);
+const lit = () => powerRow().querySelectorAll(".pip.on").length;
+const secondCopy = {
+  rows: actor.items.filter((i) => i.name === "Move Object").length, copies: moveObject.system.copies, ready: moveObject.system.ready,
+  pips: powerRow().querySelectorAll(".pip").length, lit: lit(), known: powerHint(), tags: [...powerRow().querySelectorAll(".tag, .cost-tag")].map((t) => t.textContent.trim()),
+};
+check("Move Object dropped twice: one item with 2 copies, both ready, 2 / 6 known, tagged Telekinetic and Standard", secondCopy.rows === 1 && secondCopy.copies === 2
+  && secondCopy.ready === 2 && secondCopy.pips === 2 && secondCopy.lit === 2 && secondCopy.known === "2 / 6 known" && JSON.stringify(secondCopy.tags) === '["Telekinetic","Standard"]', secondCopy);
+
+const pipSteps = [];
+for (const index of [0, 0, 1]) {
+  await act(`[data-list="powers"] [data-item-id="${moveObject.id}"] .pip[data-index="${index}"]`, "updateItem");
+  pipSteps.push(moveObject.system.ready);
+}
+check("power pips: a lit pip marks one used (2 to 1 to 0), an empty pip marks one ready (1)", JSON.stringify(pipSteps) === "[1,0,1]", { pipSteps });
+await act('[data-action="readyPowers"]', "updateItem");
+check("End of combat readies every copy (2 / 2)", moveObject.system.ready === 2 && lit() === 2, { ready: moveObject.system.ready });
+
+// The power card: the highest band met is highlighted, lower ones cleared, higher ones dimmed. A
+// cumulative power highlights every band met. +20 makes at least DC 20 certain.
+const rollPowerWith = async (id, other) => {
+  const shown = new Promise((resolve) => Hooks.once("renderDialogV2", resolve));
+  el().querySelector(`[data-action="rollPower"][data-item-id="${id}"]`).click();
+  const dialog = await shown;
+  dialog.element.querySelector('input[name="other"]').value = String(other);
+  const message = nextMessage();
+  dialog.element.querySelector('[data-action="roll"]').click();
+  const m = await message;
+  const html = await m.renderHTML();
+  const rows = [...html.querySelectorAll(".bands tr")].map((tr) => ({ dc: Number(tr.cells[0].textContent.replace("DC ", "")), cls: tr.className }));
+  return { flavor: m.flavor, total: m.rolls[0].total, shownTotal: html.querySelector(".dice-total")?.textContent.trim(), rows, utf: actor.system.skillTotals.useTheForce.total, natural: m.rolls[0].dice[0].total };
+};
+const single = await rollPowerWith(moveObject.id, 20);
+const best = Math.max(...single.rows.filter((r) => r.dc <= single.total).map((r) => r.dc));
+check("Move Object's roll: Use the Force (Move Object), 1d20 + UtF + 20, only the highest DC met highlighted", single.flavor === "Use the Force (Move Object)"
+  && single.total === single.natural + single.utf + 20 && single.shownTotal === String(single.total) && single.rows.length === 5
+  && single.rows.every((r) => r.cls === (r.dc === best ? "reached" : r.dc <= single.total ? "cleared" : "dim")), single);
+const assured = await drop(uuidOf("force-powers", "Assured Strike"));
+const cumulative = await rollPowerWith(assured.id, 20);
+check("Assured Strike (cumulative): every DC met highlighted, the rest dimmed", assured.system.cumulative === true && cumulative.rows.length === 4
+  && cumulative.rows.some((r) => r.cls === "reached") && cumulative.rows.every((r) => r.cls === (r.dc <= cumulative.total ? "reached" : "dim")), cumulative);
+
+// Ending a combat readies the powers of the characters in it (active GM's client).
+{
+  const spent = new Promise((resolve) => Hooks.once("updateItem", resolve));
+  await moveObject.update({ "system.ready": 0 });
+  await spent;
+  const scene = await Scene.create({ name: "Sheet Combat End", width: 1000, height: 800, grid: { size: 100 }, flags: FLAG });
+  // Linked, as a player character's token is; an unlinked token's powers belong to its synthetic actor.
+  const [token] = await scene.createEmbeddedDocuments("Token", [{ name: actor.name, actorId: actor.id, actorLink: true, x: 100, y: 100 }]);
+  const combat = await Combat.create({ scene: scene.id, active: true, flags: FLAG });
+  await combat.createEmbeddedDocuments("Combatant", [{ tokenId: token.id, sceneId: scene.id, actorId: actor.id }]);
+  const readied = new Promise((resolve) => Hooks.once("updateItem", resolve));
+  await combat.delete();
+  await readied;
+  await scene.delete();
+  await sheet.render();
+  check("deleting a combat the character is in readies its powers (0 to 2)", moveObject.system.ready === 2 && lit() === 2, { ready: moveObject.system.ready });
+}
+
+// Dark Side, set by clicking a pip.
+const dsMax = Math.ceil(actor.system.scores.wis.value / 2);
+const ds = () => ({ score: text(".ds-score"), fallen: Boolean(el().querySelector(".fallen-badge")), pips: el().querySelectorAll(".ds-pip").length, on: el().querySelectorAll(".ds-pip.on").length });
+await act('.ds-pip[data-value="3"]');
+const dsThree = ds();
+await act(`.ds-pip[data-value="${dsMax}"]`);
+const dsFull = ds();
+await act(`.ds-pip[data-value="${dsMax - 1}"]`);
+const dsBelow = ds();
+check(`Dark Side: ${dsMax + 1} pips (0 to half WIS rounded up); 3 is not Fallen, ${dsMax} is, ${dsMax - 1} is not`, dsMax === actor.system.darkSideMax
+  && dsThree.pips === dsMax + 1 && dsThree.score === `3 / ${dsMax}` && dsThree.on === 4 && !dsThree.fallen && dsFull.fallen && dsFull.on === dsMax + 1 && !dsBelow.fallen, { dsMax, dsThree, dsFull, dsBelow });
+
+// Edit mode: the minus removes a copy; the last copy asks Foundry's confirmation and removes the power.
+await ensureMode("edit");
+el().querySelector('nav.sheet-tabs [data-tab="force"]').click();
+await act(`[data-action="removeCopy"][data-item-id="${moveObject.id}"]`, "updateItem");
+const oneCopy = { copies: moveObject.system.copies, ready: moveObject.system.ready, pips: powerRow().querySelectorAll(".pip").length };
+{
+  const deleted = new Promise((resolve) => Hooks.once("deleteItem", resolve));
+  const dialogShown = new Promise((resolve) => Hooks.once("renderDialogV2", (app) => resolve(app)));
+  el().querySelector(`[data-action="removeCopy"][data-item-id="${moveObject.id}"]`).click();
+  (await dialogShown).element.querySelector('[data-action="yes"]').click();
+  await deleted;
+  await sheet.render();
+}
+check("Edit mode's minus: 2 copies to 1 (ready 1), then the last copy deletes Move Object; 1 / 6 known", oneCopy.copies === 1 && oneCopy.ready === 1 && oneCopy.pips === 1
+  && !actor.items.get(moveObject.id) && powerHint() === "1 / 6 known", { oneCopy, known: powerHint() });
+
+// Techniques: Jedi Knight's even levels give one each (its techniqueLevels).
+await ensureMode("play");
+el().querySelector('nav.sheet-tabs [data-tab="force"]').click();
+const featureHint = (key) => el().querySelector(`[data-list="${key}"]`).previousElementSibling.querySelector(".hint").textContent.trim();
+const techStart = featureHint("techniques");
+const knight = (await actor.createEmbeddedDocuments("Item", [(await fromUuid(uuidOf("classes", "Jedi Knight"))).toObject()]))[0];
+await write({ "system.progression": [...actor._source.system.progression, { class: knight.id }, { class: knight.id }] });
+// Creating the class item rendered too, and that render can be the one write waited for.
+await sheet.render();
+const techSlot = { hint: featureHint("techniques"), pending: text(".inc-pending"), secrets: featureHint("secrets") };
+const extended = await drop(uuidOf("force-techniques", "Extended Move Object"));
+const techTaken = { hint: featureHint("techniques"), tag: text(`[data-list="techniques"] [data-item-id="${extended.id}"] .tag`), detailHidden: el().querySelector(`[data-list="techniques"] [data-item-id="${extended.id}"] .detail`).hidden };
+await sheet.render();
+el().querySelector(`[data-list="techniques"] [data-action="expand"][data-item-id="${extended.id}"]`).click();
+await new Promise((resolve) => Hooks.once("renderCharacterSheet", resolve));
+const opened = el().querySelector(`[data-list="techniques"] [data-item-id="${extended.id}"] .detail`);
+check("Jedi Knight 2 gives 0 / 1 techniques and names it in the pending line; Extended Move Object fills it (1 / 1), tagged Move Object; its row opens to the description",
+  techStart === "0 / 0" && techSlot.hint === "0 / 1" && techSlot.pending === "5 Force powers and 1 Force technique to choose" && techSlot.secrets === "0 / 0"
+  && techTaken.hint === "1 / 1" && techTaken.tag === "Move Object" && techTaken.detailHidden && !opened.hidden && opened.textContent.trim().length > 40,
+  { techStart, techSlot, techTaken, opened: opened.textContent.trim().slice(0, 60) });
+
+// Browse opens the compendium to drag from.
+{
+  const shown = new Promise((resolve) => Hooks.once("renderCompendium", resolve));
+  el().querySelector('[data-action="browse"][data-pack="holocron.force-secrets"]').click();
+  const app = await shown;
+  check("Browse secrets opens the Force Secrets compendium", app.collection?.collection === "holocron.force-secrets", { pack: app.collection?.collection });
+  await app.close();
+}
+el().querySelector('nav.sheet-tabs [data-tab="play"]').click();
 
 // Every region scrolls when the window is short (standing rule 19).
 sheet.setPosition({ height: 360 });
