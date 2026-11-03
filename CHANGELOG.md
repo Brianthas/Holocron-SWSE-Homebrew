@@ -82,6 +82,16 @@
   or restored, and any tree added by hand; the banned trees are listed. The browser marks the
   card's trees Yours, lists them first, and "Only trees my classes grant" (remembered per player)
   keeps only them.
+- Prerequisite markers in the browser (mockup 3). A talent whose prerequisite the character does
+  not meet shows "Prereq not met", with each missing requirement marked in its text. Checked:
+  talents (a named talent, a talent from a named tree, or any talent from a tree), feats with their
+  choice, weapon proficiency from the classes taken, base attack bonus, character level, trained
+  skills, ability scores, Force powers, traditions (met when the tradition's tree is unlocked) and
+  technique or secret counts. Species, equipment and the like are shown, never marked. A feat that
+  no longer exists counts as met and is struck through (episode-vii, Feats); Weapon
+  Specialization, Greater Weapon Focus and Greater Weapon Specialization count as feat or talent.
+  Feat prerequisites are shown, never marked. "Only talents I qualify for" (remembered per player)
+  hides the rest.
 
 ## 0.0.1 - 2026-11-01
 

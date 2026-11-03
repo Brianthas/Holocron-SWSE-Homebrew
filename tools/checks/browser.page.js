@@ -251,8 +251,32 @@ const expected = ["Control", "Dark Side", "Duelist", "Guardian Spirit", "Krath",
 check("browser: the card's 8 trees are Yours and come first; the switch keeps only them and is stored for this player",
   JSON.stringify([...mineFirst.yours].sort()) === JSON.stringify(expected) && JSON.stringify(mineFirst.firstHeads) === JSON.stringify(mineFirst.yours)
   && JSON.stringify([...onlyMine.heads].sort()) === JSON.stringify(expected) && onlyMine.count.endsWith("in your trees") && onlyMine.stored === true, { mineFirst, onlyMine });
+await tick("onlyMine", null, false);
+
+// Prerequisite markers, read off the probe's real items: it knows Move Object, not Mind Trick, has no
+// Telekinetic Power talent, and its Sith Order tradition with Krath unlocks the Krath tree.
+const qualifiedBefore = game.settings.get("holocron", "browserOnlyQualified");
+await game.settings.set("holocron", "browserOnlyQualified", false);
+await type("q", "");
+const marker = (name) => {
+  const row = el().querySelector(`.result-row[data-uuid="${uuidOf("talents", name)}"]`);
+  return { badge: row?.querySelector(".badge.unmet")?.textContent ?? "", miss: [...(row?.querySelectorAll(".prq .miss") ?? [])].map((m) => m.textContent), line: row?.querySelector(".prq")?.textContent.trim() };
+};
+const illusion = marker("Illusion");
+const massive = marker("Move Massive Object");
+const krathSurge = marker("Krath Surge");
+check("markers: Illusion lacks Mind Trick; Move Massive Object lacks only Telekinetic Power (Move Object is known); Krath Surge is met through the tradition",
+  illusion.badge === "Prereq not met" && JSON.stringify(illusion.miss) === '["Mind Trick force power"]'
+  && massive.badge === "Prereq not met" && JSON.stringify(massive.miss) === '["Telekinetic Power talent"]'
+  && krathSurge.badge === "" && krathSurge.miss.length === 0 && krathSurge.line === "Needs: a member of The Krath", { illusion, massive, krathSurge });
+await tick("onlyQualified", null);
+const qualified = { count: text(".cb-count"), names: names(), stored: game.settings.get("holocron", "browserOnlyQualified") };
+check("Only talents I qualify for hides Illusion and Move Massive Object, keeps Krath Surge, and no row left is marked", qualified.count.endsWith("you qualify for")
+  && !qualified.names.includes("Illusion") && !qualified.names.includes("Move Massive Object") && qualified.names.includes("Krath Surge")
+  && !el().querySelector(".badge.unmet") && qualified.stored === true, { count: qualified.count, stored: qualified.stored });
 await app().close();
 await game.settings.set("holocron", "browserOnlyMine", switchBefore);
+await game.settings.set("holocron", "browserOnlyQualified", qualifiedBefore);
 
 // The results scroll (standing rule 19).
 shown = rendered();

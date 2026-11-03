@@ -6,7 +6,7 @@
   <div class="result-row" data-uuid="{{uuid}}" draggable="true">
     <div>
       <div class="rn"><button type="button" class="rname" data-action="open" data-uuid="{{uuid}}" aria-expanded="{{open}}">{{name}}</button>{{#each tags}}<span class="tag">{{this}}</span>{{/each}}{{#if cost}}<span class="cost-tag" data-tooltip="{{costTitle}}">{{cost}}</span>{{/if}}{{#each badges}}<span class="badge {{cls}}">{{text}}</span>{{/each}}</div>
-      {{#if line}}<div class="prq">{{line}}</div>{{/if}}
+      {{#if line}}<div class="prq">{{{line}}}</div>{{/if}}
     </div>
     <div>{{#if add}}<button type="button" class="btn primary" data-action="add" data-uuid="{{uuid}}">Add</button>{{else}}<span class="drag-hint" data-tooltip="Drag onto a sheet"><i class="fa-solid fa-grip-vertical" inert></i> Drag</span>{{/if}}</div>
     {{#if open}}<div class="desc">{{{description}}}</div>{{/if}}

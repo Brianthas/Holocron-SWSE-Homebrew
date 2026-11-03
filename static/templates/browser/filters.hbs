@@ -10,7 +10,8 @@
     <div class="tag-list">{{#each classTags}}<button type="button" data-action="classTag" data-value="{{name}}" aria-pressed="{{on}}">{{name}}</button>{{/each}}</div>
     <select class="cb-input" name="prestige" aria-label="Prestige class"><option value="">Prestige class</option>{{#each prestige}}<option value="{{name}}" {{#if selected}}selected{{/if}}>{{name}}</option>{{/each}}</select>
     <div class="hint">Shows the trees that class unlocks.</div></div>
-  {{#if hasCharacter}}<label class="switch"><input type="checkbox" name="onlyMine" {{#if onlyMine}}checked{{/if}}> Only trees my classes grant</label>{{/if}}
+  {{#if hasCharacter}}<label class="switch"><input type="checkbox" name="onlyMine" {{#if onlyMine}}checked{{/if}}> Only trees my classes grant</label>
+  <label class="switch"><input type="checkbox" name="onlyQualified" {{#if onlyQualified}}checked{{/if}}> Only talents I qualify for</label>{{/if}}
   <div class="fgroup"><div class="label"><span>Talent tree</span><span class="count">{{#if treesPicked}}{{treesPicked}} picked{{else}}all{{/if}}</span></div>
     <input class="cb-input" type="search" name="treeQ" value="{{treeQ}}" placeholder="Find a tree" autocomplete="off">
     <div class="tree-list">{{#each trees}}<label class="check"><input type="checkbox" name="tree" value="{{name}}" {{#if checked}}checked{{/if}}><span>{{name}}{{#if mine}} <span class="badge mine">Yours</span>{{/if}}</span><span class="count">{{count}}</span></label>{{/each}}</div></div>

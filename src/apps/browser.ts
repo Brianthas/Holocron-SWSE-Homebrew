@@ -6,6 +6,10 @@ import { actionTag } from "../dice/force.ts";
 import { SLOT_LABELS, type SlotSize } from "../rules/inventory.ts";
 import { addItem } from "../sheets/add-item.ts";
 import { accessibleTrees, type AccessInput } from "../rules/talent-access.ts";
+import { prereqHtml, traditionTreeMap, unmet, type PrereqCharacter, type PrereqNode } from "../rules/prerequisites.ts";
+import { ABILITIES } from "../config/abilities.ts";
+import { SKILLS, SKILL_KEYS } from "../config/skills.ts";
+import type { CharacterModel } from "../data/actor/character.ts";
 
 /**
  * The compendium browser (mockup 3): Talents, Feats, Force, Equipment and Species, with search and
@@ -24,13 +28,14 @@ type EquipSub = "weapons" | "armor" | "equipment" | "droid";
 export type BrowseTarget = ForceSub | EquipSub | "species";
 
 interface Row { uuid: string; name: string; [key: string]: unknown }
-/** A result row as the template shows it; `add` names the target Add serves, or null for Drag. */
+/** A result row as the template shows it; `line` is HTML; `add` names the target Add serves, or null for Drag. */
 interface RowView {
   uuid: string; name: string; tags: string[]; cost: string; costTitle: string; badges: { cls: string; text: string }[];
   line: string; open: boolean; description: string; add: BrowseTarget | null;
 }
 interface Data {
-  talents: (Row & { tree: string; prereq: string })[];
+  talents: (Row & { tree: string; prereq: string; nodes: PrereqNode | null })[];
+  traditionTrees: Map<string, string>;
   feats: (Row & { prereq: string; repeatable: boolean })[];
   powers: (Row & { tags: string[]; action: string; actionTitle: string })[];
   techniques: (Row & { power: string; repeatable: boolean })[];
@@ -59,8 +64,34 @@ let loading: Promise<Data> | null = null;
 
 /** "Only trees my classes grant": off at first, remembered per player (plan, Compendium browser). */
 const ONLY_MINE = "browserOnlyMine";
+/** "Only talents I qualify for": off at first, remembered per player (mockup 3, item 3). */
+const ONLY_QUALIFIED = "browserOnlyQualified";
 export function registerBrowserSettings(): void {
   game.settings.register("holocron", ONLY_MINE, { scope: "client", config: false, type: Boolean, default: false });
+  game.settings.register("holocron", ONLY_QUALIFIED, { scope: "client", config: false, type: Boolean, default: false });
+}
+const escape = (s: string) => foundry.utils.escapeHTML(s);
+const ABILITY_NAMES = { str: "Strength", dex: "Dexterity", con: "Constitution", int: "Intelligence", wis: "Wisdom", cha: "Charisma" } as const;
+
+/** What the prerequisite check reads off a character (rules/prerequisites.ts). */
+function prereqCharacter(actor: Actor.Implementation, traditionTrees: Map<string, string>): PrereqCharacter {
+  const s = actor.system as CharacterModel;
+  const items = actor.items;
+  const classItems = Object.keys(s.classLevels).map((id) => items.get(id)).filter((i) => i?.type === "class");
+  return {
+    talents: items.filter((i) => i.type === "talent").map((i) => ({ name: i.name ?? "", tree: (i.system as { tree?: string }).tree ?? "" })),
+    feats: items.filter((i) => i.type === "feat").map((i) => ({ name: i.name ?? "", choice: (i.system as { choice?: string }).choice ?? "" })),
+    bab: s.bab,
+    level: s.level,
+    trained: new Set(SKILL_KEYS.filter((k) => s.isTrained(k)).map((k) => SKILLS[k].label)),
+    scores: Object.fromEntries(ABILITIES.map((a) => [ABILITY_NAMES[a], s.scores[a].value])),
+    powers: new Set(items.filter((i) => i.type === "forcePower").map((i) => i.name ?? "")),
+    techniques: items.filter((i) => i.type === "feature" && (i.system as { category?: string }).category === "forceTechnique").length,
+    secrets: items.filter((i) => i.type === "feature" && (i.system as { category?: string }).category === "forceSecret").length,
+    unlockedTrees: accessibleTrees(s.accessInput),
+    weaponGroups: new Set(classItems.flatMap((i) => (i?.system as { weaponProficiencies?: string[] } | undefined)?.weaponProficiencies ?? [])),
+    traditionTrees,
+  };
 }
 
 /** Every pack's index, read once per client with only the fields the browser filters on. */
@@ -72,7 +103,7 @@ async function loadData(): Promise<Data> {
   const sys = <T>(e: { system?: Record<string, unknown> }, path: string, fallback: T): T => (foundry.utils.getProperty(e.system ?? {}, path) as T | undefined) ?? fallback;
   const base = (e: { uuid: string; name: string }) => ({ uuid: e.uuid, name: e.name });
   const [talents, feats, powers, techniques, secrets, weapons, armor, equipment, droid, species, classes] = await Promise.all([
-    index("talents", ["system.tree", "system.prerequisite.text"]),
+    index("talents", ["system.tree", "system.prerequisite.text", "system.prerequisite.nodes"]),
     index("feats", ["system.prerequisite.text", "system.repeatable"]),
     index("force-powers", ["system.descriptors", "system.action"]),
     index("force-techniques", ["system.power", "system.repeatable"]),
@@ -85,8 +116,10 @@ async function loadData(): Promise<Data> {
     index("classes", ["system.category", "system.talentTrees"]),
   ]);
   const byName = <T extends { name: string }>(rows: T[]) => rows.sort((a, b) => a.name.localeCompare(b.name));
+  const talentRows = byName(talents.map((e) => ({ ...base(e), tree: sys(e, "tree", ""), prereq: sys(e, "prerequisite.text", ""), nodes: sys<PrereqNode | null>(e, "prerequisite.nodes", null) })));
   return {
-    talents: byName(talents.map((e) => ({ ...base(e), tree: sys(e, "tree", ""), prereq: sys(e, "prerequisite.text", "") }))),
+    talents: talentRows,
+    traditionTrees: traditionTreeMap(talentRows),
     feats: byName(feats.map((e) => ({ ...base(e), prereq: sys(e, "prerequisite.text", ""), repeatable: sys(e, "repeatable", false) }))),
     powers: byName(powers.map((e) => ({
       ...base(e), tags: sys<ForceDescriptorKey[]>(e, "descriptors", []).map((k) => FORCE_DESCRIPTORS[k] ?? k),
@@ -232,6 +265,7 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
       return {
         ...common, treeQ: this.#treeQ, treesPicked: this.#trees.size,
         hasCharacter: Boolean(mine), onlyMine: Boolean(mine) && game.settings.get("holocron", ONLY_MINE),
+        onlyQualified: Boolean(mine) && game.settings.get("holocron", ONLY_QUALIFIED),
         classTags: [...data.classes.filter((c) => c.base).map((c) => c.name).sort(), "Force Sensitivity"].map((c) => ({ name: c, on: this.#classTag === c })),
         prestige: data.classes.filter((c) => !c.base).map((c) => c.name).sort().map((c) => ({ name: c, selected: this.#classTag === c })),
         classTag: this.#classTag,
@@ -305,10 +339,20 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
       const tagged = this.#tagTrees(data);
       const mine = this.#mine();
       const onlyMine = Boolean(mine) && game.settings.get("holocron", ONLY_MINE);
+      // Unmet prerequisites are marked, never blocked (mockup 3); with no character nothing is marked.
+      const pc = this.#character ? prereqCharacter(this.#character, data.traditionTrees) : null;
+      const missing = new Map(data.talents.map((t) => [t.uuid, pc ? unmet(t.nodes, pc) : []]));
+      const onlyQualified = Boolean(pc) && game.settings.get("holocron", ONLY_QUALIFIED);
       const list = data.talents.filter((t) => this.#match(t.name, t.tree) && (!tagged || tagged.has(t.tree)) && (!this.#trees.size || this.#trees.has(t.tree))
-        && (!onlyMine || mine?.has(t.tree)) && !this.#has("talent", t.name));
-      const row = (t: Data["talents"][number]) => this.#row(t, { tags: this.#order === "name" ? [t.tree] : [], line: t.prereq ? `Needs: ${t.prereq}` : "" });
-      count = `${list.length} talents${this.#classTag ? ` · in ${this.#classTag} trees` : ""}${onlyMine ? " · in your trees" : ""}`;
+        && (!onlyMine || mine?.has(t.tree)) && (!onlyQualified || !missing.get(t.uuid)?.length) && !this.#has("talent", t.name));
+      const row = (t: Data["talents"][number]) => {
+        const miss = missing.get(t.uuid) ?? [];
+        return this.#row(t, {
+          tags: this.#order === "name" ? [t.tree] : [], badges: miss.length ? [{ cls: "unmet", text: "Prereq not met" }] : [],
+          line: t.prereq ? `Needs: ${prereqHtml(t.prereq, miss, escape)}` : "",
+        });
+      };
+      count = `${list.length} talents${this.#classTag ? ` · in ${this.#classTag} trees` : ""}${onlyMine ? " · in your trees" : ""}${onlyQualified ? " · you qualify for" : ""}`;
       if (this.#order === "name") group("", list.map(row), false);
       else {
         // Trees the character can use come first, each marked Yours (mockup 3).
@@ -319,7 +363,7 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
       // A taken feat is hidden unless it can be taken again (mockup 3, Feats).
       const list = data.feats.filter((f) => this.#match(f.name) && (f.repeatable || !this.#has("feat", f.name)));
       count = `${list.length} feats`;
-      group("", list.map((f) => this.#row(f, { badges: this.#has("feat", f.name) ? [{ cls: "taken", text: "Taken, can repeat" }] : [], line: f.prereq ? `Needs: ${f.prereq}` : "" })), false);
+      group("", list.map((f) => this.#row(f, { badges: this.#has("feat", f.name) ? [{ cls: "taken", text: "Taken, can repeat" }] : [], line: f.prereq ? `Needs: ${prereqHtml(f.prereq, [], escape)}` : "" })), false);
     } else if (this.#tab === "force" && this.#forceSub === "powers") {
       const list = data.powers.filter((p) => this.#match(p.name) && (!this.#sources.size || p.tags.some((t) => this.#sources.has(t))));
       count = `${list.length} Force powers`;
@@ -356,7 +400,7 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
       const row = (s: Data["species"][number]) => this.#row(s, {
         tags: [s.size, ...(this.#speciesGroup === "size" && !s.droid ? [rarityLabel(s)] : [])],
         badges: s.name === current ? [{ cls: "taken", text: `${this.#character?.name}'s species` }] : [],
-        line: s.traits.join(" · "), kind: "species", addable: s.name !== current,
+        line: escape(s.traits.join(" · ")), kind: "species", addable: s.name !== current,
       });
       count = `${list.length} species`;
       if (this.#speciesGroup === "size") {
@@ -393,6 +437,7 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
       } else if (input.name === "prestige") await this.#setClassTag(input.value || null, true);
       else if (input.name === "showDenied" && input instanceof HTMLInputElement) this.#showDenied = input.checked;
       else if (input.name === "onlyMine" && input instanceof HTMLInputElement) await game.settings.set("holocron", ONLY_MINE, input.checked);
+      else if (input.name === "onlyQualified" && input instanceof HTMLInputElement) await game.settings.set("holocron", ONLY_QUALIFIED, input.checked);
       else return;
       await this.render({ parts: ["filters", "results"] });
     });

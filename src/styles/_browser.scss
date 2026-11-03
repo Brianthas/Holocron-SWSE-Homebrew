@@ -54,7 +54,7 @@
   .fgroup { display: grid; gap: 6px; }
   .fgroup > .label { display: flex; justify-content: space-between; align-items: center; }
   .label { font: 700 11px var(--hc-font-display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--hc-muted); }
-  .cb-filters label.label { display: grid; gap: 4px; align-items: stretch; }
+  .cb-filters label.label { display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px; align-items: stretch; }
   .cb-filters input.cb-input { width: 100%; }
   .hint { font-size: 12px; color: var(--hc-muted); }
   .count { font: 500 11px var(--hc-font-num); color: var(--hc-muted); text-transform: none; letter-spacing: 0; }
@@ -151,6 +151,7 @@
 
     &.taken { color: var(--hc-success); }
     &.mine { color: var(--hc-accent); }
+    &.unmet { color: var(--hc-failure); }
   }
   .result-row {
     display: grid;
@@ -164,6 +165,7 @@
     .rn { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
     .rname { justify-content: flex-start; border: 0; background: none; color: var(--hc-text); font: 600 13.5px var(--hc-font-body); padding: 0; cursor: pointer; text-align: left; }
     .prq { font-size: 12px; color: var(--hc-muted); margin-top: 2px; }
+    .prq .miss { color: var(--hc-failure); font-weight: 600; text-decoration: underline dotted; }
     .desc { grid-column: 1 / -1; font-size: 13px; padding: 4px 0 4px 2px; display: grid; gap: 4px; }
     .desc p { margin: 0 0 4px; }
   }
