@@ -1,6 +1,7 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { CHOICE_LISTS, CHOICE_LIST_KEYS } from "../src/config/choices.ts";
+import { fillChoice, isChoiceSelector } from "../src/effects/selectors.ts";
 import { choiceOptions, type ChoiceState } from "../src/rules/choices.ts";
 
 const state = (over: Partial<ChoiceState> = {}): ChoiceState => ({
@@ -20,6 +21,13 @@ describe("choice lists", () => {
     const named = ["feats", "talents"].flatMap((pack) => readdirSync(`packs/_source/${pack}`)
       .map((f) => JSON.parse(readFileSync(`packs/_source/${pack}/${f}`, "utf8")).system.choiceList as string | undefined).filter(Boolean));
     expect(named.filter((k) => !(CHOICE_LIST_KEYS as readonly string[]).includes(k ?? ""))).toEqual([]);
+  });
+});
+
+describe("filling {choice}", () => {
+  it("puts the item's choice in the selector, gives null while unset, and leaves other keys alone", () => {
+    expect([fillChoice("attack.group.{choice}", "rifles"), fillChoice("skill.{choice}", ""), fillChoice("defense.will", "")]).toEqual(["attack.group.rifles", null, "defense.will"]);
+    expect([isChoiceSelector("attack.group.{choice}"), isChoiceSelector("skill.{choice}"), isChoiceSelector("attack.weapon.{choice}"), isChoiceSelector("attack.group.rifles")]).toEqual([true, true, false, false]);
   });
 });
 

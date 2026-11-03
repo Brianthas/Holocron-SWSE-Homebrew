@@ -20,7 +20,31 @@
     "choiceList": "weaponSpecialization",
     "action": ""
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "hpFWWwzKPIneM19L",
+      "_key": "!items.effects!FaUxxaz1OBF6kNz4.hpFWWwzKPIneM19L",
+      "name": "Weapon Specialization",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "damage.group.{choice}",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

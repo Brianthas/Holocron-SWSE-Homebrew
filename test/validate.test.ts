@@ -146,6 +146,11 @@ describe("the validator's effect and change checks", () => {
   it("rejects a selector outside the grammar", () => {
     expect(broken(TOUGHNESS, (d) => { change(d).key = "hp.maximum"; })).toEqual(['feats/toughness.json: change "hp.maximum": not a bonus selector (src/effects/selectors.ts)']);
   });
+  it("rejects {choice} on an item with no choice list, and one that is no selector once filled", () => {
+    expect(broken(TOUGHNESS, (d) => { change(d).key = "skill.{choice}"; })).toEqual(['feats/toughness.json: change "skill.{choice}": names {choice}, but the item has no choice list']);
+    expect(broken("feats/weapon-focus.json", (d) => { d.effects[0].system.changes[0].key = "attack.weapon.{choice}"; }))
+      .toEqual(['feats/weapon-focus.json: change "attack.weapon.{choice}": not a bonus selector once its choice is filled (src/effects/selectors.ts)']);
+  });
   it("rejects a bonus in the wrong phase, either way", () => {
     expect(broken(TOUGHNESS, (d) => { change(d).phase = "initial"; })).toEqual(['feats/toughness.json: change "hp.max": phase "initial", expected "derived"']);
     expect(broken("armor/power-armor.json", (d) => { d.effects[0].system.changes[0].phase = "derived"; })).toEqual(['armor/power-armor.json: change "ability.str": phase "derived", expected "initial"']);

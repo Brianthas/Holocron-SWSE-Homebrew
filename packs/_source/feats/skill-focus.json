@@ -17,7 +17,31 @@
     "choice": "",
     "choiceList": "skillFocus"
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "M66aOVDw4BhutGh0",
+      "_key": "!items.effects!4OnvLw7UOwTu7QH1.M66aOVDw4BhutGh0",
+      "name": "Skill Focus",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "skill.{choice}",
+            "type": "bonus",
+            "value": 5,
+            "phase": "derived",
+            "bonusType": "competence",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

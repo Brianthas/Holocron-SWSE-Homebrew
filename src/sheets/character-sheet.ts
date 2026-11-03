@@ -15,6 +15,7 @@ import { accessGroups, accessibleTrees } from "../rules/talent-access.ts";
 import { progressionSlots, type Pick, type SlotKind } from "../rules/slots.ts";
 import { BANNED_TREES, TRADITIONS } from "../config/talents.ts";
 import { describeChange, type ChangeLike } from "../effects/describe.ts";
+import { fillChoice } from "../effects/selectors.ts";
 import { STANCE_BONUS, toggleStance } from "../effects/stance.ts";
 import {
   ABILITY_INCREASE_LEVELS, defensePointLimits, POINT_BUY_BUDGET, POINT_BUY_MAX, pointBuyCost, pointBuySpent, speciesChoiceAllowed,
@@ -442,7 +443,11 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
    */
   #effectsContext() {
     const actor = this.actor as Actor.Implementation;
-    const text = (e: ActiveEffect.Implementation) => ((e.system as unknown as { changes?: ChangeLike[] }).changes ?? []).map(describeChange).join("; ");
+    // A choice feat's "{choice}" is shown filled with the item's choice, as the effect applies it.
+    const text = (e: ActiveEffect.Implementation) => {
+      const choice = ((e.parent as { system?: { choice?: string } } | null)?.system?.choice) ?? "";
+      return ((e.system as unknown as { changes?: ChangeLike[] }).changes ?? []).map((c) => describeChange({ ...c, key: fillChoice(c.key, choice) ?? c.key })).join("; ");
+    };
     const own = actor.effects.contents as ActiveEffect.Implementation[];
     const stance = own.find((e) => e.getFlag("holocron", "stance"));
     const remaining = (e: ActiveEffect.Implementation) => {

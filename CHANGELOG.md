@@ -110,7 +110,13 @@
   already taken is not offered again. With nothing to offer, a warning says why and nothing is
   added. A choice feat without a choice reads "Choice not set", and Edit mode has a Choose button
   for it. The prerequisite check reads the choice: Twin Attack (Lightsabers) needs Weapon Focus
-  taken for Lightsabers. The chosen weapon group or skill does not yet change any bonus.
+  taken for Lightsabers.
+- The choice drives the bonus, at the amounts the feats' own text gives: Weapon Focus and Greater
+  Weapon Focus +1 on attacks with the chosen group, Weapon Specialization and Greater Weapon
+  Specialization +2 on damage with it (as feats or as talents), and Skill Focus +5 competence on the
+  chosen skill. Each shows in the attack, damage or skill breakdown, and the Effects tab names the
+  group or skill. One with no choice set adds nothing. The other choice feats and talents (Double
+  Attack, Halt and the rest) are actions, not standing bonuses.
 
 ## 0.0.1 - 2026-11-01
 

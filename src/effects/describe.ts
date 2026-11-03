@@ -1,6 +1,7 @@
 import { ABILITY_LABELS, type AbilityKey } from "../config/abilities.ts";
 import { SKILLS, type SkillKey } from "../config/skills.ts";
 import { WEAPON_GROUPS, type WeaponGroupKey } from "../config/weapons.ts";
+import { CHOICE_TOKEN } from "./selectors.ts";
 
 /**
  * A change in words, for the Effects tab: "+1 attack with Lightsabers", "+2 species bonus to Will
@@ -22,10 +23,11 @@ function target(key: string): string | null {
   const [head, rest = "", group] = key.split(".");
   if (head === "ability") return ABILITY_LABELS[rest as AbilityKey] ?? null;
   if (head === "defense") return DEFENSE_TEXT[rest] ?? null;
-  if (head === "skill") return rest === "all" ? "all skills" : SKILLS[rest as SkillKey]?.label ?? null;
+  // A choice feat whose choice is not set yet still names what it will apply to.
+  if (head === "skill") return rest === "all" ? "all skills" : rest === CHOICE_TOKEN ? "the chosen skill" : SKILLS[rest as SkillKey]?.label ?? null;
   if (head === "attack" || head === "damage") {
     if (rest === "all") return head;
-    if (rest === "group") return `${head} with ${WEAPON_GROUPS[group as WeaponGroupKey] ?? group}`;
+    if (rest === "group") return `${head} with ${group === CHOICE_TOKEN ? "the chosen group" : WEAPON_GROUPS[group as WeaponGroupKey] ?? group}`;
     return `${rest} ${head}`;
   }
   return null;

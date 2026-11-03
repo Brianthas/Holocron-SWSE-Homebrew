@@ -65,10 +65,17 @@ try {
   check("every compendium item embeds and validates", embedded === items.length - 1 - otherJedi && sourced === embedded && invalid === 0,
     { items: items.length, embedded, sourced, invalid, actors: actors.length });
 
+  // A choice feat's "{choice}" change applies only once a choice is set: Pistols for a weapon group,
+  // Stealth for a skill, as a player's pick would.
+  const choiceFor = (item) => {
+    const key = item.effects.contents.flatMap((e) => e.system.changes).find((c) => c.key.includes("{choice}"))?.key;
+    return key ? (key.startsWith("skill.") ? "stealth" : "pistols") : null;
+  };
   for (const actor of actors) {
     const toggles = actor.items.filter((i) => i.type === "armor" || i.type === "droidSystem")
       .map((i) => ({ _id: i.id, [i.type === "armor" ? "system.worn" : "system.installed"]: true }));
-    if (toggles.length) await actor.updateEmbeddedDocuments("Item", toggles);
+    const choices = actor.items.filter((i) => choiceFor(i)).map((i) => ({ _id: i.id, "system.choice": choiceFor(i) }));
+    if (toggles.length || choices.length) await actor.updateEmbeddedDocuments("Item", [...toggles, ...choices]);
   }
   const unapplied = [];
   let changes = 0;
@@ -80,15 +87,17 @@ try {
         for (const c of effect.system.changes) {
           changes++;
           const collection = c.type === "bonus" ? sys.modifiers : c.type === "grant" ? sys.grants : sys.dice;
-          const landed = (collection[c.key] ?? []).some((m) => m.label === effect.name && (c.type !== "grant" || m.value === c.value));
+          const key = c.key.replace("{choice}", item.system.choice);
+          const landed = (collection[key] ?? []).some((m) => m.label === effect.name && (c.type !== "grant" || m.value === c.value));
           if (!landed) unapplied.push(`${item.name}: ${c.type} ${c.key}`);
         }
       }
     }
   }
   const expectedChanges = items.reduce((n, i) => n + i.effects.reduce((m, e) => m + e.system.changes.length, 0), 0);
-  check("with armor worn and droid systems installed, every change reaches the character", changes === expectedChanges && !unapplied.length,
-    { changes, expectedChanges, unapplied });
+  const chosen = actors.reduce((n, a) => n + a.items.filter((i) => i.system.choice).length, 0);
+  check("with armor worn, droid systems installed and choice feats chosen (8), every change reaches the character", changes === expectedChanges && !unapplied.length && chosen === 8,
+    { changes, expectedChanges, chosen, unapplied });
 
   const totals = actors.map((a) => [a.system.defenses.reflex.total, a.system.defenses.fortitude.total, a.system.defenses.will.total, a.system.hpMax.total]);
   check("each probe's Defenses and hit points total to numbers", totals.every((t) => t.every(Number.isFinite)), { totals });

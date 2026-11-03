@@ -27,6 +27,19 @@ const GRAMMAR: RegExp[] = [
 export const isSelector = (key: string): boolean => GRAMMAR.some((re) => re.test(key));
 
 /**
+ * A choice feat's change names "{choice}" where its weapon group or skill goes ("attack.group.{choice}",
+ * "skill.{choice}"); the handler fills it from the item's stored choice. A key with the token is
+ * never itself a selector, so an unfilled one cannot reach a statistic.
+ */
+export const CHOICE_TOKEN = "{choice}";
+/** Whether a key is a selector once its token is filled with a value that position takes. */
+export const isChoiceSelector = (key: string): boolean =>
+  key.includes(CHOICE_TOKEN) && isSelector(key.replace(CHOICE_TOKEN, key.startsWith("skill.") ? SKILL_KEYS[0] ?? "" : WEAPON_GROUP_KEYS[0] ?? ""));
+/** The key with the item's choice filled in; null while the item has no choice. */
+export const fillChoice = (key: string, choice: string): string | null =>
+  !key.includes(CHOICE_TOKEN) ? key : choice ? key.replace(CHOICE_TOKEN, choice) : null;
+
+/**
  * Grants: facts a document gives a character, as a kind and a value. The kinds are closed; the
  * values are checked where each kind is read (a skill key, a weapon group key).
  */

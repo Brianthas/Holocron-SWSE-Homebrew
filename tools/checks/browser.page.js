@@ -416,6 +416,27 @@ await game.settings.set("holocron", "browserOnlyQualified", qualifiedBefore);
     && probe.items.filter((i) => i.name === "Weapon Focus").length === 1, { first: first.offered, second: second.offered, feats: featNames() });
   const spec = await dropChoosing("feats", "Weapon Specialization", "lightsabers");
   check("Weapon Specialization offers only the groups with Weapon Focus", JSON.stringify(spec.offered) === '["Lightsabers"]' && spec.item?.system.choice === "lightsabers", { offered: spec.offered });
+
+  // The choices drive the bonuses, read off the Play tab: Weapon Focus "+1 bonus on all attack rolls"
+  // and Weapon Specialization "+2 bonus on damage rolls", with Lightsabers only. STR and DEX are both
+  // 10, so without them the lightsaber's and the pistol's attacks are equal.
+  {
+    const [saber, pistol] = await probe.createEmbeddedDocuments("Item", [await source("weapons", "Lightsaber"), await source("weapons", "Blaster Pistol")]);
+    await s3.render();
+    s3.changeTab("play", "primary");
+    const row = (item) => {
+      const r = s3.element.querySelector(`[data-tab="play"] .list-row[data-item-id="${item.id}"]`);
+      const [attack, damage] = [...r.querySelectorAll(".meta b")];
+      return { attack: Number(attack.textContent), tooltip: attack.dataset.tooltipHtml, damage: damage.textContent.trim() };
+    };
+    const s = row(saber), p = row(pistol);
+    s3.changeTab("effects", "primary");
+    const focusText = [...s3.element.querySelectorAll('[data-list="item-effects"] .list-row')].find((r) => r.querySelector(".nm").textContent.trim() === "Weapon Focus")?.querySelector(".meta").textContent.trim();
+    check("Weapon Focus (Lightsabers) adds 1 to lightsaber attacks only, named in the tooltip; Weapon Specialization adds 2 to its damage; the Effects tab reads '+1 attack with Lightsabers'",
+      s.attack === p.attack + 1 && s.tooltip.includes("Weapon Focus") && !p.tooltip.includes("Weapon Focus") && s.damage === "3d8 + 2" && p.damage === "3d6"
+      && focusText === "+1 attack with Lightsabers", { saber: s, pistol: { attack: p.attack, damage: p.damage }, focusText });
+    s3.changeTab("build", "primary");
+  }
   {
     // The warning is caught at ui.notifications.warn, which is put back by identity afterwards.
     const original = ui.notifications.warn;
@@ -454,6 +475,7 @@ await game.settings.set("holocron", "browserOnlyQualified", qualifiedBefore);
   await probe.update({ "system.skills.useTheForce.trained": true });
   const [bare] = await probe.createEmbeddedDocuments("Item", [await source("feats", "Skill Focus")]);
   await s3.render();
+  const utfBefore = Number(s3.element.querySelector('[data-tab="play"] .skill[data-skill="useTheForce"] .total')?.textContent);
   const rowOf = () => s3.element.querySelector(`[data-list="feats"] [data-item-id="${bare.id}"]`);
   const playNote = rowOf()?.querySelector(".end")?.textContent.trim();
   w = new Promise((resolve) => Hooks.once("renderCharacterSheet", resolve));
@@ -472,6 +494,12 @@ await game.settings.set("holocron", "browserOnlyQualified", qualifiedBefore);
   check("a Skill Focus with no choice reads 'Choice not set' in Play; Edit mode's Choose offers trained skills and stores Use the Force",
     playNote === "Choice not set" && offered.includes("useTheForce") && bare.system.choice === "useTheForce"
     && rowOf()?.querySelector(".nm").textContent.trim() === "Skill Focus (Use the Force)" && !rowOf()?.querySelector('[data-action="chooseFor"]'), { playNote, offered });
+  // Skill Focus "+5 competence bonus on all Skill Checks made with that Skill": before the choice was set
+  // it added nothing, now Use the Force reads 5 more, named in its tooltip.
+  const utf = () => s3.element.querySelector('[data-tab="play"] .skill[data-skill="useTheForce"] .total');
+  const utfAfter = { total: Number(utf()?.textContent), tooltip: utf()?.dataset.tooltipHtml ?? "" };
+  check("Skill Focus (Use the Force) adds +5 competence to Use the Force, named in the tooltip", utfAfter.total === utfBefore + 5 && utfAfter.tooltip.includes("Skill Focus"),
+    { before: utfBefore, after: utfAfter.total });
   await s3.close();
 }
 

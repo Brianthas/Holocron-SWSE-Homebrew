@@ -1,5 +1,5 @@
 import type { Modifier } from "../rules/modifiers.ts";
-import { isGrantKind, isSelector, type GrantKind } from "./selectors.ts";
+import { fillChoice, isGrantKind, isSelector, type GrantKind } from "./selectors.ts";
 
 /**
  * Holocron's Active Effect change types. None writes data: each adds to a collection on the actor's
@@ -28,7 +28,8 @@ interface Change {
   value: unknown;
   bonusType?: string;
   condition?: string;
-  effect?: { name?: string };
+  /** Core sets this to the change's ActiveEffect (active-effect.mjs); a transferred effect's parent is its item. */
+  effect?: { name?: string; parent?: { system?: unknown } | null };
 }
 type Target = { system?: unknown; name?: string };
 
@@ -69,13 +70,22 @@ function numeric(value: unknown, data: object | undefined): number {
   }
 }
 
+/**
+ * The change's selector, with a choice feat's "{choice}" filled from the item the effect is on
+ * (selectors.ts). Null while that item has no choice: an unchosen Weapon Focus applies nothing.
+ */
+const selectorOf = (change: Change): string | null =>
+  fillChoice(change.key, (change.effect?.parent?.system as { choice?: string } | undefined)?.choice ?? "");
+
 function applyBonus(target: Target, change: Change, options?: { replacementData?: object }): void {
   const t = targets(target);
   if (!t) return; // an Item target, or an actor type with no statistics
-  if (!isSelector(change.key)) return report(target, change, "not a bonus selector");
+  const key = selectorOf(change);
+  if (key === null) return;
+  if (!isSelector(key)) return report(target, change, "not a bonus selector");
   const value = numeric(change.value, options?.replacementData);
   if (!Number.isFinite(value)) return report(target, change, "value is not a number or a formula that resolves to one");
-  (t.modifiers[change.key] ??= []).push({
+  (t.modifiers[key] ??= []).push({
     label: label(change),
     value,
     type: change.bonusType || null,
@@ -95,8 +105,10 @@ function applyGrant(target: Target, change: Change): void {
 function applyDice(target: Target, change: Change): void {
   const t = targets(target);
   if (!t) return;
-  if (!change.key.startsWith("damage.") || !isSelector(change.key)) return report(target, change, "not a damage selector");
+  const key = selectorOf(change);
+  if (key === null) return;
+  if (!key.startsWith("damage.") || !isSelector(key)) return report(target, change, "not a damage selector");
   const value = Number(change.value);
   if (!Number.isInteger(value) || value === 0) return report(target, change, "value is not a whole number of dice");
-  (t.dice[change.key] ??= []).push({ value, label: label(change) });
+  (t.dice[key] ??= []).push({ value, label: label(change) });
 }

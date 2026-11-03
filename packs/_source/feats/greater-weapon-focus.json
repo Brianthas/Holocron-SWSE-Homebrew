@@ -17,7 +17,31 @@
     "choice": "",
     "choiceList": "greaterWeaponFocus"
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "Upphf7KYyjma8fja",
+      "_key": "!items.effects!GcDteEhBg6Wau4Eu.Upphf7KYyjma8fja",
+      "name": "Greater Weapon Focus",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "attack.group.{choice}",
+            "type": "bonus",
+            "value": 1,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {

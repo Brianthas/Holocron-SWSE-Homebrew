@@ -4,7 +4,7 @@
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { SKILL_KEYS } from "../../../src/config/skills.ts";
-import { GRANT_FLAGS, isGrantKind, isSelector } from "../../../src/effects/selectors.ts";
+import { CHOICE_TOKEN, GRANT_FLAGS, isChoiceSelector, isGrantKind, isSelector } from "../../../src/effects/selectors.ts";
 import { BANNED_TREES, REMOVED_POWERS } from "../rules.ts";
 import { fileName } from "./pack.ts";
 import { classTable } from "./rules-tables.ts";
@@ -133,7 +133,11 @@ export function validatePacks(files: PackFile[], manifest: SystemManifest = SYST
         if (typeof bonusType !== "string" || (change["type"] !== "bonus" && bonusType)) fail(`${at}: only a bonus takes a bonus type`);
         switch (change["type"]) {
           case "bonus":
-            if (!isSelector(key)) fail(`${at}: not a bonus selector (src/effects/selectors.ts)`);
+            // "{choice}" is filled from the item's choice, so it needs an item that asks for one.
+            if (key.includes(CHOICE_TOKEN)) {
+              if (!isChoiceSelector(key)) fail(`${at}: not a bonus selector once its choice is filled (src/effects/selectors.ts)`);
+              if (!system["choiceList"]) fail(`${at}: names {choice}, but the item has no choice list`);
+            } else if (!isSelector(key)) fail(`${at}: not a bonus selector (src/effects/selectors.ts)`);
             if (!(typeof value === "number" && Number.isFinite(value)) && !(typeof value === "string" && value.includes("@"))) fail(`${at}: value ${JSON.stringify(value)} is neither a number nor a formula`);
             // A bonus type the text never states is a typo or an invention: it decides what stacks.
             if (typeof bonusType === "string" && bonusType && !(/^[a-z]+$/.test(bonusType) && new RegExp(`\\b${bonusType}\\b`).test(description))) fail(`${at}: bonus type "${bonusType}" is not stated in the item's name or text`);

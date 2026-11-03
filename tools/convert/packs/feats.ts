@@ -54,7 +54,11 @@ const HOUSE_REPEATABLE: Record<string, string> = {
   "Toughness": 'episode-vii, Feats: "You can take Toughness more than once."',
 };
 
-const CHOICE = "choice feat: its change needs the chosen weapon or skill in its selector, which the grammar does not have yet";
+/** A choice feat's standing bonus, on the chosen group or skill; the fork marks the choice "#payload#". */
+const choiceBonus = (selector: string, amount: number, bonusType: string, source: string): Mapper => exact("#payload#", (_v, ctx) => {
+  ctx.changes.push(bonus(selector, amount, bonusType));
+  ctx.drop(`${source} (mapped)`);
+});
 const ACTION = "an attack or action option, applied by the card that uses it";
 
 export const FEAT_KEYS: Record<string, Mapper> = {
@@ -81,12 +85,16 @@ export const FEAT_KEYS: Record<string, Mapper> = {
   },
   // The fork's own homebrew marker; isFanContent excludes these by category before mapping.
   isHomebrew: (_v, ctx) => ctx.fail("isHomebrew on a feat that is not excluded"),
-  weaponFocus: dropped(CHOICE),
-  greaterWeaponFocus: dropped(CHOICE),
-  weaponSpecialization: dropped(CHOICE),
-  greaterWeaponSpecialization: dropped(CHOICE),
-  skillFocus: dropped(CHOICE),
-  weaponProficiency: dropped(CHOICE),
+  // Amounts from each feat's text: Weapon Focus and Greater Weapon Focus "+1 bonus on ... attack
+  // rolls", Weapon Specialization and Greater Weapon Specialization "+2 bonus on damage rolls",
+  // Skill Focus "+5 competence bonus on all Skill Checks made with that Skill". The group or skill is
+  // the item's choice, filled in when the effect applies (src/effects/selectors.ts).
+  weaponFocus: choiceBonus("attack.group.{choice}", 1, "", "Weapon Focus +1"),
+  greaterWeaponFocus: choiceBonus("attack.group.{choice}", 1, "", "Greater Weapon Focus +1"),
+  weaponSpecialization: choiceBonus("damage.group.{choice}", 2, "", "Weapon Specialization +2"),
+  greaterWeaponSpecialization: choiceBonus("damage.group.{choice}", 2, "", "Greater Weapon Specialization +2"),
+  skillFocus: choiceBonus("skill.{choice}", 5, "competence", "Skill Focus +5 competence"),
+  weaponProficiency: dropped("Weapon Proficiency: its chosen group is read by the choice lists and the prerequisite check, not a bonus"),
   trainedSkills: dropped("Skill Training: the skill is the player's choice, made on the sheet"),
   armorProficiency: dropped("nothing reads armor proficiency yet"),
   skillReRoll: dropped("rerolls are text until the roll dialog applies them"),

@@ -20,4 +20,8 @@ describe("change descriptions", () => {
     expect(describeChange({ key: "skill.trained", type: "grant", value: "perception" })).toBe("Trained in Perception");
     expect(describeChange({ key: "mystery", type: "bonus", value: 3 })).toBe("mystery +3");
   });
+  it("name what an unchosen choice feat will apply to", () => {
+    expect(describeChange({ key: "attack.group.{choice}", type: "bonus", value: 1 })).toBe("+1 attack with the chosen group");
+    expect(describeChange({ key: "skill.{choice}", type: "bonus", value: 5, bonusType: "competence" })).toBe("+5 competence bonus to the chosen skill");
+  });
 });

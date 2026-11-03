@@ -27,9 +27,15 @@ export const treeName = (folderName: string): string => folderName.replace(/ Tal
 export const plainName = (name: string, folderName: string): string => name.replace(` (${folderName})`, "");
 
 const GROUP_BY_LABEL = new Map(Object.entries(WEAPON_GROUPS).map(([key, label]) => [label as string, key]));
-/** A talent naming a weapon group ("Lightsabers") gets the bonus; "#payload#" is a choice, dropped. */
+/**
+ * A talent naming a weapon group ("Lightsabers") gets the bonus on that group; "#payload#" is a
+ * choice, and gets it on the chosen group, filled in when the effect applies (src/effects/selectors.ts).
+ */
 const groupBonus = (selector: "attack" | "damage", amount: number, source: string): Mapper => (value, ctx) => {
-  if (value === "#payload#") return ctx.drop(CHOICE);
+  if (value === "#payload#") {
+    ctx.changes.push(bonus(`${selector}.group.{choice}`, amount));
+    return ctx.drop(`${source} on the chosen group (mapped)`);
+  }
   const group = GROUP_BY_LABEL.get(String(value));
   if (!group) return ctx.fail(`no weapon group ${JSON.stringify(value)}`);
   ctx.changes.push(bonus(`${selector}.group.${group}`, amount));
@@ -46,7 +52,7 @@ export const HOUSE_CHANGES: Record<string, { changes: ChangeOut[]; source: strin
   },
 };
 
-const CHOICE = "choice talent: its change needs the chosen weapon or skill in its selector, which the grammar does not have yet";
+const CHOICE = "choice talent: its option is used by the action that takes it, not a standing bonus";
 const CARD = "applied by the card or dialog that uses it";
 const CONDITIONAL = "conditional: applies only in a situation the sheet cannot see";
 

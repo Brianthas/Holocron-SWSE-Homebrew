@@ -29,7 +29,31 @@
     "choice": "",
     "choiceList": "greaterWeaponSpecialization"
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "6srp6XNoTrP48FYU",
+      "_key": "!items.effects!ZisQu6IvLIdeoh0h.6srp6XNoTrP48FYU",
+      "name": "Greater Weapon Specialization",
+      "type": "base",
+      "img": "icons/svg/aura.svg",
+      "transfer": true,
+      "disabled": false,
+      "system": {
+        "changes": [
+          {
+            "key": "damage.group.{choice}",
+            "type": "bonus",
+            "value": 2,
+            "phase": "derived",
+            "bonusType": "",
+            "condition": ""
+          }
+        ]
+      },
+      "duration": {},
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "flags": {
