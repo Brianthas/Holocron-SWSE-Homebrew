@@ -51,6 +51,12 @@ declare module "fvtt-types/configuration" {
         newDay?: Record<string, string[]>;
       };
     };
+    ActiveEffect: {
+      holocron: {
+        /** Marks the Defensive Stance effect (src/effects/stance.ts). */
+        stance?: boolean;
+      };
+    };
   }
 }
 

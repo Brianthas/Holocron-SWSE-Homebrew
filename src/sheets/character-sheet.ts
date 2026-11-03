@@ -7,6 +7,8 @@ import { checkDialog, rollCheck, useSecondWind } from "../dice/check.ts";
 import { actionTag, readyAllPowers, rollPower } from "../dice/force.ts";
 import { FORCE_DESCRIPTORS, type ForceDescriptorKey } from "../config/force.ts";
 import { featureSlots, forcePowersKnown } from "../rules/force.ts";
+import { describeChange, type ChangeLike } from "../effects/describe.ts";
+import { STANCE_BONUS, toggleStance } from "../effects/stance.ts";
 import {
   ABILITY_INCREASE_LEVELS, defensePointLimits, POINT_BUY_BUDGET, POINT_BUY_MAX, pointBuyCost, pointBuySpent, speciesChoiceAllowed,
 } from "../rules/build.ts";
@@ -56,6 +58,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       rollSkill: CharacterSheet.#rollSkill, secondWind: CharacterSheet.#secondWind,
       darkSide: CharacterSheet.#darkSide, powerPip: CharacterSheet.#powerPip, readyPowers: CharacterSheet.#readyPowers,
       removeCopy: CharacterSheet.#removeCopy, rollPower: CharacterSheet.#rollPower, expand: CharacterSheet.#expand, browse: CharacterSheet.#browse,
+      toggleStance: CharacterSheet.#toggleStance, deleteEffect: CharacterSheet.#deleteEffect,
     },
   };
 
@@ -67,11 +70,12 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     force: { template: `${TEMPLATES}/force.hbs`, scrollable: [""] },
     build: { template: `${TEMPLATES}/build.hbs`, scrollable: [""] },
     inventory: { template: `${TEMPLATES}/inventory.hbs`, scrollable: [""] },
+    effects: { template: `${TEMPLATES}/effects.hbs`, scrollable: [""] },
     notes: { template: `${TEMPLATES}/notes.hbs`, scrollable: [""] },
   };
 
   static override TABS = {
-    primary: { tabs: [{ id: "play" }, { id: "force" }, { id: "build" }, { id: "inventory" }, { id: "notes" }], initial: "play", labelPrefix: "HOLOCRON.Sheet.Tab" },
+    primary: { tabs: [{ id: "play" }, { id: "force" }, { id: "build" }, { id: "inventory" }, { id: "effects" }, { id: "notes" }], initial: "play", labelPrefix: "HOLOCRON.Sheet.Tab" },
   };
 
   /** Play or Edit (mockup 1's padlock). Edit unlocks build data; Play keeps the numbers that change in play editable. */
@@ -186,6 +190,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       levelUp: await this.#levelUpContext(),
       inventory: this.#inventoryContext(droid),
       force: await this.#forceContext(),
+      effects: this.#effectsContext(),
       talents: actor.items.filter((i) => i.type === "talent").map((t) => ({ id: t.id, name: t.name, tree: (t.system as { tree?: string }).tree ?? "", action: (t.system as { action?: string }).action ?? "" }))
         .sort((a, b) => a.name.localeCompare(b.name)),
       feats: actor.items.filter((i) => i.type === "feat").map((f) => ({ id: f.id, name: f.name })).sort((a, b) => a.name.localeCompare(b.name)),
@@ -355,6 +360,37 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
         tooltip: `<div class="tip-title">Force powers known ${known}</div><table><tr><td>Force Training &times; ${trainings}</td><td></td></tr><tr><td>1 + INT mod each (at least 1)</td><td>${trainings} &times; ${perTraining}</td></tr></table>`,
       },
       powers, features, pending,
+    };
+  }
+
+  /**
+   * The Effects tab: Defensive Stance, effects on the character itself with their time left, and the
+   * effects its items carry. Each effect's text is written from its changes (effects/describe.ts).
+   */
+  #effectsContext() {
+    const actor = this.actor as Actor.Implementation;
+    const text = (e: ActiveEffect.Implementation) => ((e.system as unknown as { changes?: ChangeLike[] }).changes ?? []).map(describeChange).join("; ");
+    const own = actor.effects.contents as ActiveEffect.Implementation[];
+    const stance = own.find((e) => e.getFlag("holocron", "stance"));
+    const remaining = (e: ActiveEffect.Implementation) => {
+      const d = e.duration as unknown as { remaining: number; label: string };
+      const expiry = (e._source as { duration?: { expiry?: string | null } }).duration?.expiry;
+      if (Number.isFinite(d.remaining)) return d.label;
+      const event = expiry ? (ActiveEffect.EXPIRY_EVENTS as Record<string, string>)[expiry] : undefined;
+      return event ? `Until ${game.i18n?.localize(event) ?? event}` : "";
+    };
+    const items: { id: string; name: string; text: string; inactive: string }[] = [];
+    for (const item of actor.items) {
+      for (const e of item.effects as unknown as ActiveEffect.Implementation[]) {
+        if (!e.transfer) continue;
+        items.push({ id: e.id ?? "", name: e.name === item.name ? item.name : `${item.name}: ${e.name}`, text: text(e), inactive: e.disabled ? "Disabled" : e.isSuppressed ? "Not in use" : "" });
+      }
+    }
+    return {
+      stance: { on: Boolean(stance), text: `${signed(STANCE_BONUS)} to all Defenses` },
+      timed: own.filter((e) => e !== stance).map((e) => ({ id: e.id, name: e.name, text: text(e), remaining: remaining(e), expired: (e.duration as unknown as { expired?: boolean }).expired === true }))
+        .sort((a, b) => (a.name ?? "").localeCompare(b.name ?? "")),
+      items: items.sort((a, b) => a.name.localeCompare(b.name)),
     };
   }
 
@@ -563,6 +599,17 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     if (!k || !SKILL_KEYS.includes(k)) return;
     const s = this.actor.system as CharacterModel;
     await this.actor.update({ [`system.skills.${k}.trained`]: !s.skills[k].trained });
+  }
+
+  static async #toggleStance(this: CharacterSheet): Promise<void> {
+    if (this.isEditable) await toggleStance(this.actor as Actor.Implementation);
+  }
+
+  /** Edit mode: removes an effect on the character, after Foundry's confirmation. */
+  static async #deleteEffect(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    if (!this.#editMode || !this.isEditable) return;
+    const effect = this.actor.effects.get(target.dataset["effectId"] ?? "");
+    if (effect) await effect.deleteDialog();
   }
 
   /** Sets the Dark Side score to the clicked pip; set by hand only (Bryan, mockup 1). */

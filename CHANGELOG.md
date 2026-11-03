@@ -53,6 +53,12 @@
   names the powers, techniques and secrets still to choose. Browse opens the compendium until the
   compendium browser is built.
 - Attack cards show the roll: Foundry leaves the roll out of a card that has its own content.
+- Effects tab. Conditions: the HP state, and Defensive Stance, a switch that adds +5 to Reflex,
+  Fortitude and Will (episode-vii, Combat), and so to DT+5. Timed: effects on the character with
+  the time left or the event that ends them; in Edit mode each has a remove button. From talents,
+  feats and gear: each item's effects, an unworn armor's or uninstalled droid system's dimmed as
+  not in use. Every effect's text is written from its changes ("+1 attack with Lightsabers",
+  "+2 species bonus to Will Defense").
 
 ## 0.0.1 - 2026-11-01
 

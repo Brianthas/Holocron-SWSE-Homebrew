@@ -624,6 +624,54 @@ check("Jedi Knight 2 gives 0 / 1 techniques and names it in the pending line; Ex
 }
 el().querySelector('nav.sheet-tabs [data-tab="play"]').click();
 
+// Effects tab. Defensive Stance: +5 to Reflex, Fortitude and Will (episode-vii, Combat), and DT+5
+// with Fortitude.
+el().querySelector('nav.sheet-tabs [data-tab="effects"]').click();
+const sidebarDefense = (key) => Number(text(`.hc-sidebar [data-defense="${key}"] .total`));
+const defensesNow = () => ({ reflex: sidebarDefense("reflex"), fortitude: sidebarDefense("fortitude"), will: sidebarDefense("will"), maneuver: sidebarDefense("maneuver"), button: text('[data-action="toggleStance"]') });
+const stanceOff = defensesNow();
+await act('[data-action="toggleStance"]', "createActiveEffect");
+const stanceOn = defensesNow();
+await act('[data-action="toggleStance"]', "deleteActiveEffect");
+const stanceAgain = defensesNow();
+check("Defensive Stance On adds 5 to Reflex, Fortitude, Will and DT+5 in the sidebar; Off takes it away", stanceOff.button === "Off" && stanceOn.button === "On"
+  && ["reflex", "fortitude", "will", "maneuver"].every((k) => stanceOn[k] === stanceOff[k] + 5 && stanceAgain[k] === stanceOff[k]) && stanceAgain.button === "Off" && !actor.effects.size,
+  { stanceOff, stanceOn, stanceAgain });
+const effectRow = (list, name) => [...el().querySelectorAll(`[data-list="${list}"] .list-row`)].find((r) => r.querySelector(".nm")?.textContent.trim() === name);
+const conditions = text('[data-list="conditions"] .list-row .nm');
+const toughnessText = effectRow("item-effects", "Toughness")?.querySelector(".meta").textContent.trim();
+const armorRow = () => effectRow("item-effects", "Power Armor");
+const armorWorn = { text: armorRow()?.querySelector(".meta").textContent.trim(), inactive: armorRow()?.classList.contains("inactive"), str: actor.system.scores.str.value };
+el().querySelector('nav.sheet-tabs [data-tab="inventory"]').click();
+await act('[data-action="toggleWorn"]', "updateItem");
+el().querySelector('nav.sheet-tabs [data-tab="effects"]').click();
+const armorOff = { inactive: armorRow()?.classList.contains("inactive"), note: armorRow()?.querySelector(".end").textContent.trim(), str: actor.system.scores.str.value };
+// Toughness's +5 is typed "toughness" in the converted feat; the others are untyped.
+check("item effects: Toughness '+1 HP per level; +5 toughness bonus to HP; +1 healing received', Power Armor '+2 STR' while worn, dimmed, 'Not in use' and 2 STR less when not; the HP state under Conditions",
+  conditions === actor.system.hpState.charAt(0).toUpperCase() + actor.system.hpState.slice(1) && toughnessText === "+1 HP per level; +5 toughness bonus to HP; +1 healing received"
+  && armorWorn.text === "+2 STR" && !armorWorn.inactive && armorOff.inactive && armorOff.note === "Not in use" && armorOff.str === armorWorn.str - 2,
+  { conditions, toughnessText, armorWorn, armorOff });
+
+// A timed effect on the character: its changes and time left; Edit mode removes it.
+const [timed] = await actor.createEmbeddedDocuments("ActiveEffect", [{ name: "Until Rest Probe", duration: { expiry: "rest" },
+  system: { changes: [{ key: "skill.perception", type: "bonus", value: 2, bonusType: "insight", phase: "derived" }] } }]);
+await sheet.render();
+const timedRow = { text: effectRow("timed", "Until Rest Probe")?.querySelector(".meta").textContent.trim(), left: effectRow("timed", "Until Rest Probe")?.querySelector(".uses").textContent.trim() };
+await ensureMode("edit");
+el().querySelector('nav.sheet-tabs [data-tab="effects"]').click();
+{
+  const deleted = new Promise((resolve) => Hooks.once("deleteActiveEffect", resolve));
+  const dialogShown = new Promise((resolve) => Hooks.once("renderDialogV2", (app) => resolve(app)));
+  el().querySelector(`[data-action="deleteEffect"][data-effect-id="${timed.id}"]`).click();
+  (await dialogShown).element.querySelector('[data-action="yes"]').click();
+  await deleted;
+  await sheet.render();
+}
+check("a timed effect lists '+2 insight bonus to Perception' and 'Until Long rest'; Edit mode removes it after confirmation", timedRow.text === "+2 insight bonus to Perception"
+  && timedRow.left === "Until Long rest" && !actor.effects.get(timed.id) && !effectRow("timed", "Until Rest Probe"), timedRow);
+await ensureMode("play");
+el().querySelector('nav.sheet-tabs [data-tab="play"]').click();
+
 // Every region scrolls when the window is short (standing rule 19).
 sheet.setPosition({ height: 360 });
 const scrolls = (selector) => {

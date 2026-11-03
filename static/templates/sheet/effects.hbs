@@ -1,0 +1,36 @@
+<section class="tab hc-panel {{tab.cssClass}}" data-tab="effects" data-group="primary">
+  <div>
+    <div class="section-head"><h3>Conditions</h3></div>
+    <div class="list" data-list="conditions">
+      <div class="list-row"><div class="main"><span class="nm">{{hp.stateLabel}}</span><span class="meta">from HP</span></div></div>
+      <div class="list-row" data-effect="stance"><div class="main"><span class="nm">Defensive Stance</span><span class="meta">{{effects.stance.text}}</span></div>
+        <div class="end"><button type="button" class="btn{{#if effects.stance.on}} primary{{/if}}" data-action="toggleStance" aria-pressed="{{effects.stance.on}}" {{#unless editable}}disabled{{/unless}}>{{#if effects.stance.on}}On{{else}}Off{{/if}}</button></div></div>
+    </div>
+  </div>
+  <div>
+    <div class="section-head"><h3>Timed</h3></div>
+    <div class="list" data-list="timed">
+      {{#each effects.timed}}
+      <div class="list-row{{#if expired}} inactive{{/if}}" data-effect-id="{{id}}">
+        <div class="main"><span class="nm">{{name}}</span><span class="meta">{{text}}</span></div>
+        <div class="end"><span class="uses">{{#if expired}}Expired{{else}}{{remaining}}{{/if}}</span>{{#if @root.editMode}}<button type="button" class="btn remove" data-action="deleteEffect" data-effect-id="{{id}}" aria-label="Remove {{name}}"><i class="fa-solid fa-trash" inert></i></button>{{/if}}</div>
+      </div>
+      {{else}}
+      <div class="empty-note">None.</div>
+      {{/each}}
+    </div>
+  </div>
+  <div>
+    <div class="section-head"><h3>From talents, feats and gear</h3></div>
+    <div class="list" data-list="item-effects">
+      {{#each effects.items}}
+      <div class="list-row{{#if inactive}} inactive{{/if}}" data-effect-id="{{id}}">
+        <div class="main"><span class="nm">{{name}}</span><span class="meta">{{text}}</span></div>
+        <div class="end">{{#if inactive}}<span class="uses">{{inactive}}</span>{{/if}}</div>
+      </div>
+      {{else}}
+      <div class="empty-note">None.</div>
+      {{/each}}
+    </div>
+  </div>
+</section>

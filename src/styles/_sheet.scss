@@ -598,6 +598,8 @@
   .list-row .detail { grid-column: 1 / -1; padding: 6px 4px 8px 26px; font-size: 13px; color: var(--hc-text); display: grid; gap: 6px; }
   .list-row .detail[hidden] { display: none; }
   .list-row .detail .description p { margin: 0 0 6px; }
+  // Effects tab: an expired, disabled or suppressed effect (unworn armor) stays listed, dimmed.
+  .list-row.inactive { opacity: 0.6; }
 
   @container (max-width: 640px) {
     .play-grid { grid-template-columns: minmax(0, 1fr); }
