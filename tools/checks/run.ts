@@ -31,8 +31,9 @@ const counts = () => Object.fromEntries(readdirSync(sourceRoot).map((pack) => {
 }));
 let page = wanted.length ? source.replace("= __PACK_DOCS__", () => `= ${JSON.stringify(docs)}`) : source;
 if (page.includes("= __PACK_COUNTS__")) page = page.replace("= __PACK_COUNTS__", () => `= ${JSON.stringify(counts())}`);
-// The pack probe embeds every compendium item; the other checks answer well inside a minute.
-const report = JSON.parse((await evaluate(page, name === "packs" ? 300000 : 60000)) as string) as Report;
+// The pack probe embeds every compendium item and the sheet check drives every control; the
+// others answer well inside a minute.
+const report = JSON.parse((await evaluate(page, ["packs", "sheet"].includes(name) ? 300000 : 60000)) as string) as Report;
 
 if (report.refused) {
   console.error(`${name}: refused: ${report.refused}; open the holocron-testing world first`);

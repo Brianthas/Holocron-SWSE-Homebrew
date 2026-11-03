@@ -13,11 +13,18 @@
     <div class="hp-bar" aria-hidden="true"><i style="width: {{hp.percent}}%"></i></div>
   </div>
 
+  {{#unless secondWind.hidden}}
   <div class="block">
     <div class="resource-card" data-resource="secondWind">
       <div class="row"><span class="label">Second Wind</span><span class="uses total" data-tooltip-html="{{secondWind.tooltip}}">{{secondWind.value}} / {{secondWind.max}}</span></div>
+      {{#if secondWind.heals}}
+      <div class="row"><span>Heals <span class="num heals" data-tooltip-html="{{secondWind.healsTooltip}}">{{secondWind.heals}}</span></span>
+        <button type="button" class="btn primary" data-action="secondWind" {{#unless secondWind.canUse}}disabled{{/unless}}>Use</button></div>
+      <div class="hint">Swift action</div>
+      {{/if}}
     </div>
   </div>
+  {{/unless}}
 
   <div class="block">
     <span class="label">Defenses</span>
@@ -40,7 +47,8 @@
   <div class="block">
     <span class="label">Quick rolls</span>
     {{#each quickRolls}}
-    <div class="stat-row" data-skill="{{key}}"><span class="name">{{label}}</span><span class="stat-value total" data-tooltip-html="{{tooltip}}">{{total}}</span></div>
+    <div class="stat-row quick" data-skill="{{key}}"><span class="name">{{label}}</span><span class="stat-value total" data-tooltip-html="{{tooltip}}">{{total}}</span>
+      <button type="button" class="roll-btn" data-action="rollSkill" data-skill="{{key}}" aria-label="Roll {{label}}" data-tooltip="Roll (Shift+click: no dialog)"><i class="fa-solid fa-dice-d20" inert></i></button></div>
     {{/each}}
   </div>
 </aside>

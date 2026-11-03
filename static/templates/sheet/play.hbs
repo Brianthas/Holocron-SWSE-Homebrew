@@ -12,6 +12,7 @@
           <span class="dot{{#if trained}} on{{/if}}" {{#if trained}}aria-label="Trained"{{/if}}></span>
           {{/if}}
           <span>{{label}}</span><span class="num total" data-tooltip-html="{{tooltip}}">{{total}}</span>
+          <button type="button" class="roll-btn" data-action="rollSkill" data-skill="{{key}}" aria-label="Roll {{label}}"><i class="fa-solid fa-dice-d20" inert></i></button>
         </div>
         {{/each}}
       </div>

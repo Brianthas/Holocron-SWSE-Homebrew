@@ -47,6 +47,10 @@ Hooks.once("init", () => {
       label: "Holocron debug sheet (development)",
     });
   });
+  // The combat tracker rolls initiative with this; without it Foundry's formula is unset.
+  register("initiative", () => {
+    CONFIG.Combat.initiative.formula = "1d20 + @skillTotals.initiative.total";
+  });
   register("migrations", registerMigrations);
   // The system's API: New Day (GM) until it has a button; the sheet's Rest calls longRest.
   register("api", () => {

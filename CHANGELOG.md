@@ -30,6 +30,15 @@
   credits. Equipment the house tables do not size converts with no size; in Edit mode its size
   cycles none, Light, Kit. Talents are listed on Play, feats on Build. In Edit mode each item has a
   remove button, with Foundry's confirmation.
+- Skill checks: a roll button on every skill and on Perception, Use the Force and Initiative in the
+  sidebar opens a dialog: Normal 1d20, or Advantage, spending a Force Point for 2d20 keep the
+  higher, and an other modifier. Shift+click rolls a normal check with no dialog. The check posts
+  with each term labelled.
+- Second Wind's Use: heals the highest Hit Die rolled + CON + level + healing received (episode-
+  vii, Healing), up to the maximum, and uses one. The card shows the healing and is hidden while
+  Dying.
+- Initiative: the combat tracker rolls 1d20 + the Initiative total; it had no formula. The
+  sheet's Initiative roll also sets the character's initiative in each active combat it is in.
 
 ## 0.0.1 - 2026-11-01
 

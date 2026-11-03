@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { untyped } from "../src/rules/modifiers.ts";
 import {
-  averageHitDie, carrySlots, darkSideMax, destinyMax, forcePointsPerDay, hitPointMax, hpEntry, hpState, languages,
+  averageHitDie, carrySlots, darkSideMax, destinyMax, forcePointsPerDay, healing, healTo, hitPointMax, hpEntry, hpState, languages,
 } from "../src/rules/resources.ts";
 
 describe("Force Points per day (episode-vii)", () => {
@@ -36,6 +36,18 @@ describe("hit points (rulings.md)", () => {
 describe("HP state (episode-vii, Healing)", () => {
   it("is staggered at exactly 0, dying down to minus the maximum, dead below it", () => {
     expect([1, 0, -1, -29, -30, -31].map((v) => hpState(v, 30))).toEqual(["healthy", "staggered", "dying", "dying", "dying", "dead"]);
+  });
+});
+
+describe("healing (episode-vii, Healing)", () => {
+  it("rolls the highest Hit Die and adds CON, level and healing received", () => {
+    const h = healing({ hitDice: [10, 8, 6], conMod: 1, level: 6, bonuses: [untyped("Toughness", 1)] });
+    expect(h.die).toBe(10);
+    expect(h.flat.total).toBe(1 + 6 + 1);
+    expect(h.flat.applied.map((m) => m.label)).toEqual(["CON", "Level", "Toughness"]);
+  });
+  it("stops at the maximum, and never lowers hit points already over it", () => {
+    expect([healTo(20, 5, 30), healTo(28, 5, 30), healTo(-3, 5, 30), healTo(35, 5, 30)]).toEqual([25, 30, 2, 35]);
   });
 });
 

@@ -3,6 +3,7 @@ import { SIZE_ABILITY_ADJUSTMENTS } from "../config/sizes.ts";
 import { SKILLS, SKILL_KEYS, type SkillKey } from "../config/skills.ts";
 import type { CharacterModel, WeaponData } from "../data/actor/character.ts";
 import { rollAttack, rollDamage } from "../dice/attack.ts";
+import { checkDialog, rollCheck, useSecondWind } from "../dice/check.ts";
 import {
   ABILITY_INCREASE_LEVELS, defensePointLimits, POINT_BUY_BUDGET, POINT_BUY_MAX, pointBuyCost, pointBuySpent, speciesChoiceAllowed,
 } from "../rules/build.ts";
@@ -49,6 +50,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       levelHp: CharacterSheet.#levelHp, removeLevel: CharacterSheet.#removeLevel, increasePick: CharacterSheet.#increasePick,
       increaseSave: CharacterSheet.#increaseSave, cycleCarry: CharacterSheet.#cycleCarry, toggleWorn: CharacterSheet.#toggleWorn,
       toggleInstalled: CharacterSheet.#toggleInstalled, deleteItem: CharacterSheet.#deleteItem, cycleSize: CharacterSheet.#cycleSize,
+      rollSkill: CharacterSheet.#rollSkill, secondWind: CharacterSheet.#secondWind,
     },
   };
 
@@ -101,7 +103,13 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
         percent: max > 0 ? Math.max(0, Math.min(100, Math.round((s.hp.value / max) * 100))) : 0,
         tooltip: breakdownHtml("Hit points", s.hpMax),
       },
-      secondWind: { value: s.secondWind.value, max: s.secondWindMax.total, tooltip: breakdownHtml("Second Wind per day", s.secondWindMax) },
+      secondWind: {
+        value: s.secondWind.value, max: s.secondWindMax.total, tooltip: breakdownHtml("Second Wind per day", s.secondWindMax),
+        heals: s.healing.die ? `1d${s.healing.die} ${signed(s.healing.flat.total).replace(/^([+-])/, "$1 ")}` : "",
+        healsTooltip: breakdownHtml(`Heals 1d${s.healing.die} +`, s.healing.flat),
+        hidden: s.hpState === "dying" || s.hpState === "dead",
+        canUse: s.secondWind.value > 0 && s.healing.die > 0 && this.isEditable,
+      },
       defenses: [
         ...DEFENSES.map((d) => ({ key: d, label: DEFENSE_LABELS[d], total: s.defenses[d].total, tooltip: breakdownHtml(DEFENSE_LABELS[d], s.defenses[d]) })),
         { key: "maneuver", label: "DT+5", total: s.maneuver.total, tooltip: breakdownHtml("DT+5", s.maneuver) },
@@ -356,6 +364,19 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     entry.increases = [...picks];
     this.#increasePicks.delete(level);
     await this.actor.update({ "system.progression": progression } as never);
+  }
+
+  /** A skill check: the dialog (Normal or a Force Point's advantage, other modifier); Shift+click rolls straight away. */
+  static async #rollSkill(this: CharacterSheet, event: PointerEvent, target: HTMLElement): Promise<void> {
+    const key = target.dataset["skill"] as SkillKey | undefined;
+    if (!key || !SKILL_KEYS.includes(key)) return;
+    const actor = this.actor as Actor.Implementation;
+    const choice = event.shiftKey ? { advantage: false, other: 0 } : await checkDialog(actor, key);
+    if (choice) await rollCheck(actor, key, choice);
+  }
+
+  static async #secondWind(this: CharacterSheet): Promise<void> {
+    if (this.isEditable) await useSecondWind(this.actor as Actor.Implementation);
   }
 
   /** Carried, then In hands (one Kit, if the hands are free), then Stowed (episode-vii, Equipment). */

@@ -10,7 +10,7 @@ import { slotsUsed, type CarriedItem } from "../../rules/inventory.ts";
 import { DEFENSES, defense, maneuverDefense, reflexAbilityTerm, type DefenseKey } from "../../rules/defenses.ts";
 import { total, type Breakdown, type Modifier } from "../../rules/modifiers.ts";
 import {
-  POOLED_FORCE_MAX, carrySlots, darkSideMax, destinyMax, forcePointsPerDay, hitPointMax, hpState, languages, type HpState,
+  POOLED_FORCE_MAX, carrySlots, darkSideMax, destinyMax, forcePointsPerDay, healing, hitPointMax, hpState, languages, type HpState,
 } from "../../rules/resources.ts";
 import { skill } from "../../rules/skills.ts";
 
@@ -98,6 +98,8 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
   declare hpState: HpState;
   /** Second Wind uses per day: 1 unless a feat adds more (rulings.md, Hit points and healing). */
   declare secondWindMax: Breakdown;
+  /** What healing (Second Wind among it) rolls: the highest Hit Die, plus CON, level and healing received. */
+  declare healing: ReturnType<typeof healing>;
   declare forcePointsPerDay: Breakdown;
   declare destinyMax: number;
   declare pooledForceMax: number;
@@ -265,6 +267,12 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
     });
     this.hpState = hpState(this.hp.value, this.hpMax.total);
     this.secondWindMax = total([{ label: "Base", value: 1, type: null }, ...(this.modifiers["secondWind"] ?? [])]);
+    this.healing = healing({
+      hitDice: Object.keys(this.classLevels).map((id) => (classOf(id)?.system as { hitDie?: number } | undefined)?.hitDie ?? 0),
+      conMod: this.scores.con.mod,
+      level: this.level,
+      bonuses: this.modifiers["healing.received"] ?? [],
+    });
 
     this.forcePointsPerDay = forcePointsPerDay(this.level, this.modifiers["forcePoints"] ?? []);
     this.destinyMax = destinyMax(this.forcePointsPerDay.total);

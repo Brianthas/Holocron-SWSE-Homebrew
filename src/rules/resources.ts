@@ -55,6 +55,24 @@ export function hpState(value: number, max: number): HpState {
 }
 
 /**
+ * Healing (episode-vii, Healing: "Healing is: Hit Die + CON + Level"): the Hit Die is rolled, and a
+ * multiclass character uses "the highest Hit Die of all classes taken" (episode-vii, Classes).
+ * Healing received bonuses (Toughness's +1) add to the flat part. Second Wind heals this.
+ */
+export function healing({ hitDice, conMod, level, bonuses = [] }: {
+  hitDice: readonly number[];
+  conMod: number;
+  level: number;
+  bonuses?: readonly Modifier[];
+}): { die: number; flat: Breakdown } {
+  const die = Math.max(0, ...hitDice);
+  return { die, flat: total([untyped("CON", conMod), untyped("Level", level), ...bonuses]) };
+}
+
+/** Hit points after healing, which stops at the maximum (mockup 1's heal). */
+export const healTo = (current: number, amount: number, max: number): number => Math.max(current, Math.min(max, current + amount));
+
+/**
  * The sheet's hit point box: a whole number sets the value, "-n" takes damage and "+n" heals from the
  * current value. Anything else is null and changes nothing. The box records what is typed; healing
  * that has a cap applies it where the healing is rolled.

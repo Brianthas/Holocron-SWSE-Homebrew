@@ -1,4 +1,4 @@
-/* global game, Actor, Hooks, getComputedStyle, Event, DataTransfer, DragEvent, __PACK_DOCS__ */
+/* global game, Actor, Hooks, getComputedStyle, Event, DataTransfer, DragEvent, MouseEvent, Roll, Scene, Combat, CONFIG, __PACK_DOCS__ */
 // The character sheet (mockup 1, first slice), driven through its own controls on the rendered DOM.
 // pack-docs: species/bothan, species/jawa, classes/jedi, weapons/blaster-pistol
 //
@@ -19,6 +19,9 @@ const FLAG = { holocron: { sheetFixture: true } };
 
 const old = game.actors.filter((a) => a.getFlag("holocron", "sheetFixture")).map((a) => a.id);
 if (old.length) await Actor.deleteDocuments(old);
+// A run stopped part way can leave its initiative combat and scene behind.
+for (const combat of game.combats.filter((c) => c.getFlag("holocron", "sheetFixture"))) await combat.delete();
+for (const scene of game.scenes.filter((s) => s.getFlag("holocron", "sheetFixture"))) await scene.delete();
 check("previous fixtures deleted", old.every((id) => !game.actors.get(id)), { deleted: old.length });
 
 const withoutKey = (doc) => Object.fromEntries(Object.entries(doc).filter(([key]) => key !== "_key"));
@@ -389,6 +392,92 @@ check("dropping a species replaces the one the character has", JSON.stringify(sp
 replaced = new Promise((resolve) => Hooks.once("deleteItem", resolve));
 await drop(uuidOf("species", "Bothan"));
 await replaced;
+
+// Rolls. Expected totals are read off the roll and the character's own skill totals.
+await ensureMode("play");
+el().querySelector('nav.sheet-tabs [data-tab="play"]').click();
+const nextMessage = () => new Promise((resolve) => Hooks.once("createChatMessage", resolve));
+{
+  const message = nextMessage();
+  el().querySelector('.hc-sidebar [data-action="rollSkill"][data-skill="perception"]').dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true, shiftKey: true }));
+  const m = await message;
+  const roll = m.rolls[0];
+  check("Shift+click Perception rolls 1d20 + Perception with no dialog", m.flavor === "Perception check" && roll.formula.startsWith("1d20")
+    && roll.total === roll.dice[0].total + actor.system.skillTotals.perception.total, { flavor: m.flavor, formula: roll.formula, total: roll.total, skill: actor.system.skillTotals.perception.total });
+}
+await write({ system: { forcePoints: { value: 1 } } });
+{
+  const shown = new Promise((resolve) => Hooks.once("renderDialogV2", resolve));
+  el().querySelector('.skill [data-action="rollSkill"][data-skill="stealth"]').click();
+  const dialog = await shown;
+  dialog.element.querySelector('input[name="mode"][value="advantage"]').checked = true;
+  dialog.element.querySelector('input[name="other"]').value = "2";
+  const message = nextMessage();
+  dialog.element.querySelector('[data-action="roll"]').click();
+  const m = await message;
+  await sheet.render();
+  const roll = m.rolls[0];
+  const kept = Math.max(...roll.dice[0].results.map((r) => r.result));
+  check("Stealth with a Force Point and +2: 2d20 keep the higher + Stealth + 2, one Force Point spent", roll.formula.startsWith("2d20kh") && roll.dice[0].results.length === 2
+    && roll.total === kept + actor.system.skillTotals.stealth.total + 2 && actor._source.system.forcePoints.value === 0,
+  { formula: roll.formula, total: roll.total, kept, stealth: actor.system.skillTotals.stealth.total, fp: actor._source.system.forcePoints.value });
+}
+{
+  const shown = new Promise((resolve) => Hooks.once("renderDialogV2", resolve));
+  let posts = 0;
+  const count = () => posts++;
+  Hooks.on("createChatMessage", count);
+  el().querySelector('.skill [data-action="rollSkill"][data-skill="stealth"]').click();
+  const dialog = await shown;
+  const advantageDisabled = dialog.element.querySelector('input[name="mode"][value="advantage"]').disabled;
+  const closed = new Promise((resolve) => Hooks.once("closeDialogV2", resolve));
+  dialog.element.querySelector('[data-action="cancel"]').click();
+  await closed;
+  Hooks.off("createChatMessage", count);
+  check("with no Force Points Advantage is disabled; Cancel posts nothing", advantageDisabled && posts === 0, { advantageDisabled, posts });
+}
+
+// Second Wind: the highest Hit Die (Jedi and Soldier, d10) + CON + level + healing received.
+const heal = actor.system.healing;
+const healsShown = text('[data-resource="secondWind"] .heals');
+await write({ system: { hp: { value: 10 }, secondWind: { value: 1 } } });
+{
+  const message = nextMessage();
+  await act('[data-action="secondWind"]');
+  const m = await message;
+  const rolled = m.rolls[0].total;
+  const expected = Math.min(actor.system.hpMax.total, 10 + rolled);
+  check(`Second Wind shows ${healsShown}, heals the roll from 10, and uses its one use`, heal.die === 10 && healsShown === `1d10 + ${heal.flat.total}`
+    && actor._source.system.hp.value === expected && actor._source.system.secondWind.value === 0 && el().querySelector('[data-action="secondWind"]').disabled,
+  { healsShown, rolled, hp: actor._source.system.hp.value, expected, uses: actor._source.system.secondWind.value });
+}
+await write({ system: { hp: { value: actor.system.hpMax.total - 1 }, secondWind: { value: 1 } } });
+await act('[data-action="secondWind"]');
+check("Second Wind stops at the maximum", actor._source.system.hp.value === actor.system.hpMax.total, { hp: actor._source.system.hp.value, max: actor.system.hpMax.total });
+await write({ system: { hp: { value: -1 } } });
+check("while Dying the Second Wind card is gone", !el().querySelector('[data-resource="secondWind"]'), {});
+await write({ system: { hp: { value: 30 } } });
+
+// Initiative: the combat tracker's formula, and the sheet's roll setting the combatant.
+{
+  const formula = CONFIG.Combat.initiative.formula;
+  const roll = await new Roll(formula, actor.getRollData()).evaluate();
+  const scene = await Scene.create({ name: "Sheet Initiative", width: 1000, height: 800, grid: { size: 100 }, flags: FLAG });
+  const [token] = await scene.createEmbeddedDocuments("Token", [{ name: actor.name, actorId: actor.id, x: 100, y: 100 }]);
+  const combat = await Combat.create({ scene: scene.id, active: true, flags: FLAG });
+  await combat.createEmbeddedDocuments("Combatant", [{ tokenId: token.id, sceneId: scene.id, actorId: actor.id }]);
+  const message = nextMessage();
+  // Registered before the click: the roll sets the combatant straight after posting its message.
+  const combatantSet = new Promise((resolve) => Hooks.once("updateCombatant", resolve));
+  el().querySelector('.hc-sidebar [data-action="rollSkill"][data-skill="initiative"]').dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true, shiftKey: true }));
+  const m = await message;
+  await combatantSet;
+  const combatant = combat.combatants.contents[0];
+  check("initiative: the tracker's formula adds the Initiative total; the sheet's roll sets the combatant", roll.total === roll.dice[0].total + actor.system.skillTotals.initiative.total
+    && combatant.initiative === m.rolls[0].total, { formula, tracker: roll.total, sheetRoll: m.rolls[0].total, combatant: combatant.initiative });
+  await combat.delete();
+  await scene.delete();
+}
 
 // Every region scrolls when the window is short (standing rule 19).
 sheet.setPosition({ height: 360 });

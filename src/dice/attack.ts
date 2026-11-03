@@ -13,7 +13,7 @@ export interface AttackFlag {
 const escape = (s: string) => foundry.utils.escapeHTML(s);
 
 /** "1d20 + 1[Base attack bonus] + 2[DEX]": each term keeps its label in the roll. */
-const labelledFormula = (die: string, parts: Breakdown) =>
+export const labelledFormula = (die: string, parts: Breakdown) =>
   [die, ...parts.applied.filter((m) => m.value !== 0).map((m) => `${m.value < 0 ? "-" : "+"} ${Math.abs(m.value)}[${m.label}]`)].join(" ");
 
 /**
