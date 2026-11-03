@@ -511,7 +511,21 @@
     border: 1px solid var(--hc-border);
 
     .kind { font: 600 10px var(--hc-font-display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--hc-muted); }
+    .tree { font-size: 11px; color: var(--hc-muted); }
+    &.granted { border-style: dotted; }
     &.empty { border-style: dashed; border-color: var(--hc-accent-line); color: var(--hc-muted); }
+  }
+  // An empty slot in Edit mode opens the browser (mockup 1).
+  button.slot.empty {
+    flex: none;
+    width: auto;
+    min-height: 0;
+    line-height: inherit;
+    border: 1.5px dashed var(--hc-accent);
+    background: var(--hc-accent-soft);
+    color: var(--hc-text);
+    cursor: pointer;
+    font-weight: 600;
   }
   .levelup-row { background: var(--hc-accent-soft); border-radius: 6px; padding: 8px; }
   select.level-class {

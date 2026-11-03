@@ -152,6 +152,11 @@
           <span class="slot empty"><span class="kind">Abilities</span>+1 and +1 to choose in Edit mode</span>
           {{/if}}
         {{/if}}
+        {{#each slots}}
+          {{#if filled}}<span class="slot{{#if granted}} granted{{/if}}" data-slot-kind="{{kind}}"><span class="kind">{{label}}</span>{{filled.name}}{{#if filled.tree}} <span class="tree">{{filled.tree}}</span>{{/if}}</span>
+          {{else if canFill}}<button type="button" class="slot empty" data-action="fillSlot" data-level="{{level}}" data-kind="{{kind}}" data-class="{{cls}}"><span class="kind">{{label}}</span>Choose</button>
+          {{else}}<span class="slot empty" data-slot-kind="{{kind}}"><span class="kind">{{label}}</span>Choose in Edit mode</span>{{/if}}
+        {{/each}}
         {{#if @root.editMode}}{{#if isLast}}<button type="button" class="btn remove-level" data-action="removeLevel">Remove level {{level}}</button>{{/if}}{{/if}}
       </div>
     </div>

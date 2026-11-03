@@ -59,6 +59,15 @@ declare module "fvtt-types/configuration" {
         stance?: boolean;
       };
     };
+    Item: {
+      holocron: {
+        /** The level slot the item filled (src/rules/slots.ts): its level and kind. */
+        slot?: { level: number; kind: string };
+        /** The converted document's id in the fork, and its book (tools/convert). */
+        sourceId?: string;
+        sourceBook?: string;
+      };
+    };
   }
 }
 

@@ -92,6 +92,15 @@
   Specialization, Greater Weapon Focus and Greater Weapon Specialization count as feat or talent.
   Feat prerequisites are shown, never marked. "Only talents I qualify for" (remembered per player)
   hides the rest.
+- Level slots in Progression (mockup 1). Each level shows the picks it earns from the level-up
+  guide: a feat at odd levels, a talent every level, a class feat at even levels of a base class,
+  a species feat at level 1 for a species with Bonus Feat, a technique or secret at the class's
+  levels, and Force power slots for a Force Training taken at that level (1 + INT modifier, at
+  least 1). In Edit mode an empty slot opens the browser on what it takes; Add fills it and the item
+  records the slot. From a talent slot, Yours marks the trees that class's level may use and other
+  trees read "Not a <class> tree" (warned, never blocked). Taking level 1 of a base class adds its
+  starting feat, shown as granted; a starting feat already picked into a slot moves out of it,
+  leaving the slot empty (rulings.md, Classes).
 
 ## 0.0.1 - 2026-11-01
 

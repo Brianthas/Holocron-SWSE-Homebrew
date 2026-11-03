@@ -278,6 +278,108 @@ await app().close();
 await game.settings.set("holocron", "browserOnlyMine", switchBefore);
 await game.settings.set("holocron", "browserOnlyQualified", qualifiedBefore);
 
+// Level slots (mockup 1's Progression), on a fresh Human with INT 14, built through the sheet.
+{
+  const probe = await Actor.create({ name: "Slot Probe", type: "character", flags: FLAG, system: { abilities: { int: { base: 14 } } }, items: [await source("species", "Human")] });
+  const s2 = probe.sheet;
+  const sheetRendered = () => new Promise((resolve) => Hooks.once("renderCharacterSheet", resolve));
+  let w = sheetRendered();
+  await s2.render({ force: true });
+  await w;
+  const q = (sel) => s2.element.querySelector(sel);
+  // Waits are registered before the action fires. "render" is a step that only re-renders the sheet
+  // (starting a level-up, choosing a class after level 1); `until` waits for a hook call that passes a test.
+  const until = (hook, test) => new Promise((resolve) => {
+    const id = Hooks.on(hook, (...args) => { if (test(...args)) { Hooks.off(hook, id); resolve(args[0]); } });
+  });
+  const settle = async (hook, fire) => {
+    const done = hook === "render" ? sheetRendered() : new Promise((resolve) => Hooks.once(hook, resolve));
+    fire();
+    await done;
+    await s2.render();
+  };
+  w = sheetRendered();
+  q('[data-action="toggleMode"]').click();
+  await w;
+  s2.changeTab("build", "primary");
+  // Level 1: Jedi from the compendium select; its starting feat Force Sensitivity is created after the level.
+  await settle("render", () => q('[data-action="levelUpStart"]').click());
+  {
+    const granted = until("createItem", (item) => item.name === "Force Sensitivity" && item.parent === probe);
+    const sel = q("select.level-class");
+    sel.value = uuidOf("classes", "Jedi");
+    sel.dispatchEvent(new Event("change", { bubbles: true }));
+    await granted;
+    await s2.render();
+  }
+  const slotsAt = (level) => [...q(`.level-row[data-level="${level}"]`).querySelectorAll(".slot")].filter((x) => !x.querySelector(".hp-result"))
+    .map((x) => `${x.querySelector(".kind").textContent}: ${x.textContent.replace(x.querySelector(".kind").textContent, "").trim()}${x.classList.contains("granted") ? " (granted)" : ""}`);
+  const level1 = slotsAt(1);
+  check("level 1 Jedi on a Human: the starting feat Force Sensitivity is granted, with empty species feat, feat and talent slots",
+    JSON.stringify(level1) === '["Starting feat: Force Sensitivity (granted)","Species feat: Choose","Feat: Choose","Talent: Choose"]' && Boolean(probe.items.getName("Force Sensitivity")), { level1 });
+
+  // Fill a slot through the browser: the slot's button, then Add on its tab, which closes the window.
+  const fill = async (kind, uuid, hook) => {
+    shown = rendered();
+    q(`.level-row [data-action="fillSlot"][data-kind="${kind}"]`).click();
+    await shown;
+    const opened = { tab: text(".cb-tab.active"), banner: text(".cb-banner span"), button: text(".cb-banner button") };
+    const closed = new Promise((resolve) => Hooks.once("closeCompendiumBrowser", resolve));
+    await settle(hook, () => el().querySelector(`[data-action="add"][data-uuid="${uuid}"]`).click());
+    await closed;
+    return opened;
+  };
+  const featOpen = await fill("feat", uuidOf("feats", "Force Training"), "createItem");
+  const afterTraining = slotsAt(1);
+  const training = probe.items.getName("Force Training");
+  check("the Feat slot opens Feats to fill level 1's feat; Force Training fills it, records the slot, and gives 3 Force power slots (1 + INT 2)",
+    featOpen.tab === "Feats" && featOpen.banner === "Filling Slot Probe's level 1 feat. Pick one and press Add." && featOpen.button === "Cancel"
+    && JSON.stringify(training?.getFlag("holocron", "slot")) === '{"level":1,"kind":"feat"}' && afterTraining.includes("Feat: Force Training")
+    && afterTraining.filter((x) => x === "Force power: Choose").length === 3, { featOpen, afterTraining });
+  await fill("power", uuidOf("force-powers", "Move Object"), "createItem");
+  const afterPower = slotsAt(1);
+  await fill("talent", uuidOf("talents", "Dueling Stance"), "createItem").then(() => null);
+  const afterTalent = slotsAt(1);
+  check("a power slot takes Move Object (two left), and the talent slot Dueling Stance with its tree", afterPower.filter((x) => x === "Force power: Choose").length === 2
+    && afterPower.includes("Force power: Move Object") && afterTalent.includes("Talent: Dueling Stance Lightsaber Combat"), { afterPower, afterTalent });
+
+  // From a Jedi talent slot a Soldier tree is marked, never blocked.
+  await settle("render", () => q('[data-action="levelUpStart"]').click());
+  await settle("render", () => q(`[data-action="levelClass"][data-class-id="${probe.items.find((i) => i.type === "class").id}"]`).click());
+  await settle("updateActor", () => q('[data-action="levelHp"][data-mode="average"]').click());
+  const level2 = slotsAt(2);
+  shown = rendered();
+  q('.level-row[data-level="2"] [data-action="fillSlot"][data-kind="talent"]').click();
+  await shown;
+  await click('[data-action="seg"][data-key="order"][data-value="tree"]');
+  const commando = el().querySelector('.group-head[data-group="Commando"] .badge.warn')?.textContent;
+  const consular = el().querySelector('.group-head[data-group="Jedi Consular"] .badge.mine')?.textContent;
+  await app().close();
+  check("level 2 (Jedi 2) earns a class feat and a talent; from its talent slot Commando reads 'Not a Jedi tree' and Jedi Consular 'Yours'",
+    JSON.stringify(level2) === '["Class feat: Choose","Talent: Choose"]' && commando === "Not a Jedi tree" && consular === "Yours", { level2, commando, consular });
+
+  // A granted feat frees the pick (rulings.md, Classes): Quick Draw as the species feat, then Smuggler 1 grants it.
+  await fill("speciesFeat", uuidOf("feats", "Quick Draw"), "createItem");
+  const picked = slotsAt(1).find((x) => x.startsWith("Species feat"));
+  await settle("render", () => q('[data-action="levelUpStart"]').click());
+  await settle("render", () => { const sel = q("select.level-class"); sel.value = uuidOf("classes", "Smuggler"); sel.dispatchEvent(new Event("change", { bubbles: true })); });
+  await settle("updateActor", () => q('[data-action="levelHp"][data-mode="average"]').click());
+  const level3 = slotsAt(3);
+  const freed = slotsAt(1).find((x) => x.startsWith("Species feat"));
+  check("Quick Draw picked as the species feat, then Smuggler 1 at level 3 grants it: level 3 shows it granted, and the species feat slot is empty again",
+    picked === "Species feat: Quick Draw" && level3[0] === "Starting feat: Quick Draw (granted)" && freed === "Species feat: Choose"
+    && probe.items.filter((i) => i.name === "Quick Draw").length === 1, { picked, level3, freed });
+
+  // In Play mode an empty slot is text, not a button.
+  w = sheetRendered();
+  q('[data-action="toggleMode"]').click();
+  await w;
+  const playSlot = q('.level-row[data-level="2"] .slot.empty');
+  check("in Play mode an empty slot reads 'Choose in Edit mode' and opens nothing", playSlot?.tagName === "SPAN" && playSlot.textContent.includes("Choose in Edit mode")
+    && !q('[data-action="fillSlot"]'), { tag: playSlot?.tagName });
+  await s2.close();
+}
+
 // The results scroll (standing rule 19).
 shown = rendered();
 document.querySelector(".holocron-browser-button").click();

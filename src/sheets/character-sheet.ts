@@ -11,6 +11,7 @@ import { CompendiumBrowser, type BrowseTarget } from "../apps/browser.ts";
 import { FORCE_DESCRIPTORS, type ForceDescriptorKey } from "../config/force.ts";
 import { featureSlots, forcePowersKnown } from "../rules/force.ts";
 import { accessGroups, accessibleTrees } from "../rules/talent-access.ts";
+import { progressionSlots, type Pick, type SlotKind } from "../rules/slots.ts";
 import { BANNED_TREES, TRADITIONS } from "../config/talents.ts";
 import { describeChange, type ChangeLike } from "../effects/describe.ts";
 import { STANCE_BONUS, toggleStance } from "../effects/stance.ts";
@@ -68,6 +69,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       toggleStance: CharacterSheet.#toggleStance, deleteEffect: CharacterSheet.#deleteEffect,
       togglePin: CharacterSheet.#togglePin, usePin: CharacterSheet.#usePin, useItem: CharacterSheet.#useItem,
       toggleTree: CharacterSheet.#toggleTree, unaddTree: CharacterSheet.#unaddTree, addTree: CharacterSheet.#addTree,
+      fillSlot: CharacterSheet.#fillSlot,
     },
   };
 
@@ -111,6 +113,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     const pointsSpent = DEFENSES.reduce((n, d) => n + s.defensePoints[d], 0);
     // marked: trained by hand, which Edit mode toggles; trained also counts skills an effect grants.
     const pins = new Set(s.pins);
+    const levelSlots = this.#levelSlotsContext(editMode);
     const skill = (k: SkillKey) => ({ key: k, label: SKILLS[k].label, trained: s.isTrained(k), marked: s.skills[k].trained, total: signed(s.skillTotals[k].total), tooltip: breakdownHtml(SKILLS[k].label, s.skillTotals[k]) });
     return Object.assign(context, {
       img: actor.img,
@@ -195,6 +198,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
           increaseOptions: due ? ABILITIES.map((a) => ({ key: a, label: ABILITY_LABELS[a], picked: picks.includes(a) })) : [],
           increaseReady: picks.length === 2,
           isLast: i === s.progression.length - 1,
+          slots: levelSlots[i] ?? [],
         };
       }),
       levelUp: await this.#levelUpContext(),
@@ -469,6 +473,51 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     await this.render();
   }
 
+  /**
+   * Each level's slots (rules/slots.ts), filled from the items that record the slot they filled. A
+   * base class's starting feat shows as granted at that class's first level; the feat item it names
+   * is granted, not a pick, so a slot it once filled shows empty again (rulings.md, Classes).
+   */
+  #levelSlotsContext(editMode: boolean) {
+    const actor = this.actor as Actor.Implementation;
+    const s = actor.system as CharacterModel;
+    const counts = new Map<string, number>();
+    const levels = s.progression.map((entry, i) => {
+      const cls = actor.items.get(entry.class);
+      const sys = cls?.system as { category?: string; techniqueLevels?: number[]; secretLevels?: number[]; startingFeat?: string } | undefined;
+      const classLevel = (counts.get(entry.class) ?? 0) + 1;
+      counts.set(entry.class, classLevel);
+      return {
+        info: { level: i + 1, classLevel, base: sys?.category === "base", techniqueLevels: sys?.techniqueLevels ?? [], secretLevels: sys?.secretLevels ?? [] },
+        className: cls?.name ?? "", startingFeat: sys?.category === "base" && classLevel === 1 ? sys.startingFeat ?? "" : "",
+      };
+    });
+    const granted = new Map<number, Item.Implementation>();
+    for (const l of levels) {
+      const feat = l.startingFeat ? actor.items.find((i) => i.type === "feat" && i.name === l.startingFeat) as Item.Implementation | undefined : undefined;
+      if (feat) granted.set(l.info.level, feat);
+    }
+    const grantedIds = new Set([...granted.values()].map((i) => i.id));
+    const picks: Pick[] = actor.items.contents.flatMap((i) => {
+      const slot = i.getFlag("holocron", "slot");
+      if (!slot || grantedIds.has(i.id) || !["feat", "talent", "feature"].includes(i.type)) return [];
+      return [{ id: i.id ?? "", name: i.name ?? "", level: slot.level, kind: slot.kind as SlotKind, tree: (i.system as { tree?: string }).tree ?? "" }];
+    });
+    const species = actor.items.find((i) => i.type === "species");
+    const speciesBonusFeat = ((species?.system as { traits?: { name: string }[] } | undefined)?.traits ?? []).some((t) => t.name === "Bonus Feat");
+    const powers = actor.items.filter((i) => i.type === "forcePower").sort((a, b) => (a.name ?? "").localeCompare(b.name ?? ""))
+      .flatMap((p) => Array.from({ length: (p.system as { copies?: number }).copies ?? 1 }, () => ({ id: p.id ?? "", name: p.name ?? "" })));
+    const slots = progressionSlots(levels.map((l) => l.info), picks, { speciesBonusFeat, powersPerTraining: forcePowersKnown(1, s.scores.int.mod), powers });
+    return slots.map((row, i) => {
+      const level = levels[i];
+      const startingFeat = level ? granted.get(level.info.level) : undefined;
+      return [
+        ...(startingFeat ? [{ label: "Starting feat", granted: true, filled: { name: startingFeat.name, tree: "" }, kind: "", level: i + 1, cls: "", canFill: false }] : []),
+        ...row.map((slot) => ({ ...slot, granted: false, level: i + 1, cls: level?.className ?? "", canFill: editMode && !slot.filled })),
+      ];
+    });
+  }
+
   /** Adds the level: the class item from the compendium if the character does not have it, then the progression entry. */
   async #takeLevel(ref: ClassRef, hitPoints: number): Promise<void> {
     let itemId = ref.itemId;
@@ -480,9 +529,23 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     }
     if (!itemId) return;
     const progression = (this.actor.system as CharacterModel).toObject().progression;
+    const first = !progression.some((e) => e.class === itemId);
     progression.push({ class: itemId, hitPoints, increases: [] });
     this.#levelUp = null;
     await this.actor.update({ "system.progression": progression } as never);
+    if (first) await this.#grantStartingFeat(itemId);
+  }
+
+  /** "A base class grants its starting feat ... at its level 1" (rulings.md, Classes): added from the Feats compendium unless the character has it. */
+  async #grantStartingFeat(classId: string): Promise<void> {
+    const sys = this.actor.items.get(classId)?.system as { category?: string; startingFeat?: string } | undefined;
+    const name = sys?.category === "base" ? sys.startingFeat ?? "" : "";
+    if (!name || this.actor.items.some((i) => i.type === "feat" && i.name === name)) return;
+    const pack = game.packs?.get("holocron.feats");
+    const entry = pack?.index.getName(name);
+    const feat = entry ? await fromUuid(entry.uuid) as Item.Implementation | null : null;
+    if (feat) await this.actor.createEmbeddedDocuments("Item", [feat.toObject()]);
+    else ui.notifications?.warn(`Holocron: the starting feat ${name} is not in the Feats compendium.`);
   }
 
   static async #levelUpStart(this: CharacterSheet): Promise<void> {
@@ -764,6 +827,14 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     const id = target.dataset["itemId"] ?? "";
     if (!this.#expanded.delete(id)) this.#expanded.add(id);
     await this.render();
+  }
+
+  /** Edit mode: an empty level slot opens the browser to fill it (mockup 3). */
+  static async #fillSlot(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    if (!this.#editMode || !this.isEditable) return;
+    const level = Number(target.dataset["level"]);
+    const kind = target.dataset["kind"] as SlotKind;
+    await CompendiumBrowser.open({ actor: this.actor as Actor.Implementation, slot: { level, kind, cls: target.dataset["class"] ?? "" } });
   }
 
   /** Opens the compendium browser to add to this character: Force powers, gear, a species. */

@@ -5,7 +5,8 @@ import { WEAPON_GROUPS, type WeaponGroupKey } from "../config/weapons.ts";
 import { actionTag } from "../dice/force.ts";
 import { SLOT_LABELS, type SlotSize } from "../rules/inventory.ts";
 import { addItem } from "../sheets/add-item.ts";
-import { accessibleTrees, type AccessInput } from "../rules/talent-access.ts";
+import { accessibleTrees, accessibleTreesFor, type AccessInput } from "../rules/talent-access.ts";
+import { SLOT_KIND_LABELS, type SlotKind } from "../rules/slots.ts";
 import { prereqHtml, traditionTreeMap, unmet, type PrereqCharacter, type PrereqNode } from "../rules/prerequisites.ts";
 import { ABILITIES } from "../config/abilities.ts";
 import { SKILLS, SKILL_KEYS } from "../config/skills.ts";
@@ -15,7 +16,8 @@ import type { CharacterModel } from "../data/actor/character.ts";
  * The compendium browser (mockup 3): Talents, Feats, Force, Equipment and Species, with search and
  * filters over the system's compendiums. Rows drag onto a sheet. Opened from a sheet's Browse button
  * it adds to that character: Add puts the item on the sheet, as a drop does (sheets/add-item.ts).
- * Feats and talents have Add only from a level slot, which the Build tab does not have yet.
+ * Opened from a Build tab level slot it takes one pick, which records the slot it filled; feats and
+ * talents have Add only from a slot.
  */
 
 const { HandlebarsApplicationMixin, ApplicationV2 } = foundry.applications.api;
@@ -28,10 +30,10 @@ type EquipSub = "weapons" | "armor" | "equipment" | "droid";
 export type BrowseTarget = ForceSub | EquipSub | "species";
 
 interface Row { uuid: string; name: string; [key: string]: unknown }
-/** A result row as the template shows it; `line` is HTML; `add` names the target Add serves, or null for Drag. */
+/** A result row as the template shows it; `line` is HTML; `add` shows Add instead of Drag. */
 interface RowView {
   uuid: string; name: string; tags: string[]; cost: string; costTitle: string; badges: { cls: string; text: string }[];
-  line: string; open: boolean; description: string; add: BrowseTarget | null;
+  line: string; open: boolean; description: string; add: boolean;
 }
 interface Data {
   talents: (Row & { tree: string; prereq: string; nodes: PrereqNode | null })[];
@@ -55,6 +57,14 @@ const TARGET_TAB: Record<BrowseTarget, Tab> = {
 const TARGET_NOUN: Record<BrowseTarget, string> = {
   powers: "Force powers", techniques: "Force techniques", secrets: "Force secrets", weapons: "inventory", armor: "inventory", equipment: "inventory", droid: "droid systems", species: "species",
 };
+/** A level slot the browser fills (rules/slots.ts), with the class whose level earned it. */
+export interface Slot { level: number; kind: SlotKind; cls: string }
+/** The rows Add can serve: a Browse target's, or the feats and talents a level slot takes. */
+type RowKind = BrowseTarget | "feats" | "talents";
+const SLOT_ROWS: Record<SlotKind, RowKind> = {
+  speciesFeat: "feats", feat: "feats", classFeat: "feats", talent: "talents", power: "powers", technique: "techniques", secret: "secrets",
+};
+const ROW_TAB: Record<RowKind, Tab> = { ...TARGET_TAB, feats: "feats", talents: "talents" };
 /** Species rarity groups, in order (the species rarity page); droids are their own group (Bryan). */
 const RARITY_GROUPS: [string, string][] = [["common", "Common"], ["rare", "Rare"], ["droid", "Droids"], ["", "Not on the rarity page"], ["denied", "Denied (GM)"]];
 const SIZE_GROUPS = ["Small", "Medium", "Large"];
@@ -162,7 +172,7 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
   /** The one browser window; a sheet's Browse button reopens it with its own target. */
   static #instance: CompendiumBrowser | null = null;
 
-  static async open(options: { tab?: Tab; actor?: Actor.Implementation | null; target?: BrowseTarget | null } = {}): Promise<CompendiumBrowser> {
+  static async open(options: { tab?: Tab; actor?: Actor.Implementation | null; target?: BrowseTarget | null; slot?: Slot | null } = {}): Promise<CompendiumBrowser> {
     const app = (CompendiumBrowser.#instance ??= new CompendiumBrowser());
     app.#reset(options);
     await app.render({ force: true });
@@ -174,6 +184,8 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
   #equipSub: EquipSub = "weapons";
   #actor: Actor.Implementation | null = null;
   #target: BrowseTarget | null = null;
+  /** A level slot being filled: one pick, then the window closes. */
+  #slot: Slot | null = null;
   #q = "";
   #treeQ = "";
   #trees = new Set<string>();
@@ -192,10 +204,13 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
   /** The input to give focus back to after a render, by name. */
   #refocus: string | null = null;
 
-  #reset({ tab, actor = null, target = null }: { tab?: Tab; actor?: Actor.Implementation | null; target?: BrowseTarget | null }): void {
+  #reset({ tab, actor = null, target = null, slot = null }: { tab?: Tab; actor?: Actor.Implementation | null; target?: BrowseTarget | null; slot?: Slot | null }): void {
     this.#actor = actor;
     this.#target = target;
-    this.#tab = tab ?? (target ? TARGET_TAB[target] : "talents");
+    this.#slot = slot;
+    const slotRows = slot ? SLOT_ROWS[slot.kind] : null;
+    this.#tab = tab ?? (slotRows ? ROW_TAB[slotRows] : target ? TARGET_TAB[target] : "talents");
+    if (slotRows === "powers" || slotRows === "techniques" || slotRows === "secrets") this.#forceSub = slotRows;
     if (target === "powers" || target === "techniques" || target === "secrets") this.#forceSub = target;
     if (target === "weapons" || target === "armor" || target === "equipment" || target === "droid") this.#equipSub = target;
     this.#q = ""; this.#treeQ = ""; this.#trees.clear(); this.#classTag = null; this.#sources.clear(); this.#opened.clear();
@@ -207,10 +222,14 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
     return this.#actor ?? (game.user?.character as Actor.Implementation | null | undefined) ?? null;
   }
 
-  /** The trees the character can use (the Build tab's Talent tree access card), or null with no character. */
+  /**
+   * The trees the character can use (the Build tab's Talent tree access card), or null with no
+   * character. From a talent slot, only the trees that slot's class may use (core rulebook p54).
+   */
   #mine(): Set<string> | null {
     const system = this.#character?.system as { accessInput?: AccessInput } | undefined;
-    return system?.accessInput ? accessibleTrees(system.accessInput) : null;
+    if (!system?.accessInput) return null;
+    return this.#slot?.kind === "talent" ? accessibleTreesFor(system.accessInput, this.#slot.cls) : accessibleTrees(system.accessInput);
   }
 
   #has(type: string, name: string): number {
@@ -229,8 +248,10 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
     return new Set(data.classes.find((c) => c.name === this.#classTag)?.trees ?? []);
   }
 
-  #canAdd(kind: BrowseTarget): boolean {
-    return this.#target === kind && Boolean(this.#actor?.isOwner);
+  /** Whether rows of this kind get Add: the kind the sheet's Browse button or level slot asked for. */
+  #canAdd(kind: RowKind): boolean {
+    const wanted = this.#slot ? SLOT_ROWS[this.#slot.kind] : this.#target;
+    return wanted === kind && Boolean(this.#actor?.isOwner);
   }
 
   override async _prepareContext(options: object) {
@@ -238,10 +259,14 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
     const data = await (loading ??= loadData());
     const target = this.#target;
     const onTargetTab = target && TARGET_TAB[target] === this.#tab && (this.#tab !== "force" || this.#forceSub === target) && (this.#tab !== "equipment" || this.#equipSub === target);
+    const slot = this.#slot;
+    // A slot takes one pick, so its button abandons it; the add-many modes keep what was added (mockup 3).
+    const banner = slot && this.#actor ? `Filling ${this.#actor.name}'s level ${slot.level} ${SLOT_KIND_LABELS[slot.kind].toLowerCase()}. Pick one and press Add.`
+      : onTargetTab && this.#actor ? `Adding to ${this.#actor.name}'s ${TARGET_NOUN[target]}. Add as many as you like, then press Done.` : null;
     return Object.assign(context, {
       data, tab: this.#tab, forceSub: this.#forceSub, equipSub: this.#equipSub,
       tabs: (Object.keys(TAB_LABELS) as Tab[]).map((t) => ({ id: t, label: TAB_LABELS[t], active: t === this.#tab })),
-      banner: onTargetTab && this.#actor ? `Adding to ${this.#actor.name}'s ${TARGET_NOUN[target]}. Add as many as you like, then press Done.` : null,
+      banner, bannerButton: slot ? "Cancel" : "Done",
     });
   }
 
@@ -316,22 +341,22 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
     return data.species.filter((s) => this.#showDenied || s.rarity !== "denied");
   }
 
-  #row(r: Row, extra: { tags?: string[]; cost?: string; costTitle?: string; badges?: { cls: string; text: string }[]; line?: string; kind?: BrowseTarget; addable?: boolean }): RowView {
+  #row(r: Row, extra: { tags?: string[]; cost?: string; costTitle?: string; badges?: { cls: string; text: string }[]; line?: string; kind?: RowKind; addable?: boolean }): RowView {
     const open = this.#opened.has(r.uuid);
     return {
       uuid: r.uuid, name: r.name, tags: extra.tags ?? [], cost: extra.cost ?? "", costTitle: extra.costTitle ?? "", badges: extra.badges ?? [], line: extra.line ?? "",
       open, description: open ? this.#descriptions.get(r.uuid) ?? "" : "",
-      add: extra.kind && extra.addable !== false && this.#canAdd(extra.kind) ? extra.kind : null,
+      add: Boolean(extra.kind && extra.addable !== false && this.#canAdd(extra.kind)),
     };
   }
 
   #resultsContext(data: Data) {
-    type Group = { label: string; count: number; collapsed: boolean; head: boolean; mine: boolean; rows: RowView[] };
+    type Group = { label: string; count: number; collapsed: boolean; head: boolean; mine: boolean; warn: string; rows: RowView[] };
     const groups: Group[] = [];
-    const group = (label: string, rows: Group["rows"], head = true, mine = false) => {
+    const group = (label: string, rows: Group["rows"], head = true, mine = false, warn = "") => {
       if (!rows.length) return;
       const collapsed = head && this.#collapsed.has(label) && !this.#q;
-      groups.push({ label, count: rows.length, collapsed, head, mine, rows: collapsed ? [] : rows });
+      groups.push({ label, count: rows.length, collapsed, head, mine, warn, rows: collapsed ? [] : rows });
     };
     let count: string;
 
@@ -345,11 +370,15 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
       const onlyQualified = Boolean(pc) && game.settings.get("holocron", ONLY_QUALIFIED);
       const list = data.talents.filter((t) => this.#match(t.name, t.tree) && (!tagged || tagged.has(t.tree)) && (!this.#trees.size || this.#trees.has(t.tree))
         && (!onlyMine || mine?.has(t.tree)) && (!onlyQualified || !missing.get(t.uuid)?.length) && !this.#has("talent", t.name));
+      // From a talent slot a tree the slot's class may not use is marked; Add still works (warn, never block).
+      const outside = (tree: string) => (this.#slot?.kind === "talent" && mine && !mine.has(tree) ? `Not a ${this.#slot.cls} tree` : "");
       const row = (t: Data["talents"][number]) => {
         const miss = missing.get(t.uuid) ?? [];
+        const warn = this.#order === "name" ? outside(t.tree) : "";
         return this.#row(t, {
-          tags: this.#order === "name" ? [t.tree] : [], badges: miss.length ? [{ cls: "unmet", text: "Prereq not met" }] : [],
-          line: t.prereq ? `Needs: ${prereqHtml(t.prereq, miss, escape)}` : "",
+          tags: this.#order === "name" ? [t.tree] : [],
+          badges: [...(miss.length ? [{ cls: "unmet", text: "Prereq not met" }] : []), ...(warn ? [{ cls: "warn", text: warn }] : [])],
+          line: t.prereq ? `Needs: ${prereqHtml(t.prereq, miss, escape)}` : "", kind: "talents",
         });
       };
       count = `${list.length} talents${this.#classTag ? ` · in ${this.#classTag} trees` : ""}${onlyMine ? " · in your trees" : ""}${onlyQualified ? " · you qualify for" : ""}`;
@@ -357,13 +386,13 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
       else {
         // Trees the character can use come first, each marked Yours (mockup 3).
         const trees = [...new Set(list.map((t) => t.tree))].sort((a, b) => Number(mine?.has(b) ?? 0) - Number(mine?.has(a) ?? 0) || a.localeCompare(b));
-        for (const tree of trees) group(tree, list.filter((t) => t.tree === tree).map(row), true, mine?.has(tree) ?? false);
+        for (const tree of trees) group(tree, list.filter((t) => t.tree === tree).map(row), true, mine?.has(tree) ?? false, outside(tree));
       }
     } else if (this.#tab === "feats") {
       // A taken feat is hidden unless it can be taken again (mockup 3, Feats).
       const list = data.feats.filter((f) => this.#match(f.name) && (f.repeatable || !this.#has("feat", f.name)));
       count = `${list.length} feats`;
-      group("", list.map((f) => this.#row(f, { badges: this.#has("feat", f.name) ? [{ cls: "taken", text: "Taken, can repeat" }] : [], line: f.prereq ? `Needs: ${prereqHtml(f.prereq, [], escape)}` : "" })), false);
+      group("", list.map((f) => this.#row(f, { badges: this.#has("feat", f.name) ? [{ cls: "taken", text: "Taken, can repeat" }] : [], line: f.prereq ? `Needs: ${prereqHtml(f.prereq, [], escape)}` : "", kind: "feats" })), false);
     } else if (this.#tab === "force" && this.#forceSub === "powers") {
       const list = data.powers.filter((p) => this.#match(p.name) && (!this.#sources.size || p.tags.some((t) => this.#sources.has(t))));
       count = `${list.length} Force powers`;
@@ -512,10 +541,13 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
     if (!actor?.isOwner) return;
     const source = await fromUuid(target.dataset["uuid"] ?? "") as Item.Implementation | null;
     if (!source) return;
-    const added = await addItem(actor, source);
+    // An item filling a slot records it; a Force power slot is filled by copies and records nothing.
+    const slot = this.#slot;
+    const extra = slot && slot.kind !== "power" ? { flags: { holocron: { slot: { level: slot.level, kind: slot.kind } } } } : {};
+    const added = await addItem(actor, source, extra);
     if (added) ui.notifications?.info(`${source.name} added to ${actor.name}.`);
-    // Choosing a species is one pick (mockup 3); the other targets add as many as wanted.
-    if (this.#target === "species") await this.close();
+    // A slot and a species are one pick (mockup 3); the other targets add as many as wanted.
+    if (slot || this.#target === "species") await this.close();
     else await this.render({ parts: ["results"] });
   }
 

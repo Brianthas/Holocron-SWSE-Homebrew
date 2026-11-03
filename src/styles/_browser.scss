@@ -152,6 +152,7 @@
     &.taken { color: var(--hc-success); }
     &.mine { color: var(--hc-accent); }
     &.unmet { color: var(--hc-failure); }
+    &.warn { color: var(--hc-warn); }
   }
   .result-row {
     display: grid;
