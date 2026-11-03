@@ -12,7 +12,7 @@
  *
  * `fork` is the fork's option name, which the converter maps from. Greater Penetrating Attack has no
  * case in the fork's dialog, so it offered nothing; here it draws from Penetrating Attack, as the
- * other Greater talents draw from their base.
+ * other Greater talents draw from their base (Bryan, 2026-11-03; rulings.md, Talent trees).
  */
 export type ChoiceSource = "proficient" | "notProficient" | "exotic" | "trainedSkills" | "lightsaberForms" | readonly string[];
 

@@ -36,6 +36,8 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 
 ## Talent trees
 
+- **Greater Penetrating Attack** is taken for a weapon group the character has Penetrating Attack
+  in, as the other Greater talents build on their base (Bryan, 2026-11-03).
 - **Force Sensitivity** grants the general Force talent trees: Alter, Control, Dark Side, Guardian
   Spirit, Light Side, Sense. (The packs' "Force Talent Trees" minus "Force Tradition Talent Trees",
   minus Homebrew Content.) Anyone may take Force Sensitivity.
