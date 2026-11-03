@@ -17,6 +17,12 @@
   allowance (the level-1 class, INT, Bonus Trained Skill traits, Primitive, Skill Training), over
   it in red; the language spoken besides the species language, and other languages. The sheet
   reports a species +2 or Defense points the rules do not allow.
+- Progression on the Build tab: each level with its class and hit points. In Edit mode, Level up
+  takes a class the character has or any class from the Classes compendium (added to the
+  character); level 1 uses the class's level-1 hit points, later levels take the average
+  (floor(die / 2) + 1) or a roll posted to chat. Levels 4, 8, 12, 16 and 20 (the level-up guide's
+  table) choose +1 for two different abilities. The last level can be removed; its class stays on
+  the character.
 
 ## 0.0.1 - 2026-11-01
 

@@ -12,7 +12,8 @@ if (game.world.id !== "holocron-testing" || game.system.id !== "holocron") {
 }
 
 const results = [];
-const check = (name, pass, detail) => results.push({ name, pass: Boolean(pass), detail });
+// The detail is copied now: it can hold live document data that later steps change.
+const check = (name, pass, detail) => results.push({ name, pass: Boolean(pass), detail: JSON.parse(JSON.stringify(detail ?? null)) });
 const FLAG = { holocron: { f1Fixture: true } };
 // Actors open the debug sheet, whose DOM these checks read (src/sheets/debug-sheet.ts).
 const DEBUG_SHEET = { core: { sheetClass: "holocron.DebugSheet" } };

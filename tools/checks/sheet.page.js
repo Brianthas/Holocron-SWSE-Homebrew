@@ -13,7 +13,8 @@ if (game.world.id !== "holocron-testing" || game.system.id !== "holocron") {
 }
 const DOCS = __PACK_DOCS__;
 const results = [];
-const check = (name, pass, detail) => results.push({ name, pass: Boolean(pass), detail });
+// The detail is copied now: it can hold live document data that later steps change.
+const check = (name, pass, detail) => results.push({ name, pass: Boolean(pass), detail: JSON.parse(JSON.stringify(detail ?? null)) });
 const FLAG = { holocron: { sheetFixture: true } };
 
 const old = game.actors.filter((a) => a.getFlag("holocron", "sheetFixture")).map((a) => a.id);
@@ -122,12 +123,13 @@ check("tabs: Play first; Build shows WIS 10 and the language tier; Notes holds t
 }
 
 // Edit mode: the padlock, then each Build control, read back off the data and the rendered sheet.
+// After an action, render once more and wait for it: that render reflects the latest data, where a
+// render hook can catch an earlier one (adding a class item renders before the progression update).
 const act = async (selector) => {
   const updated = new Promise((resolve) => Hooks.once("updateActor", resolve));
-  wait = rendered();
   el().querySelector(selector).click();
   await updated;
-  await wait;
+  await sheet.render();
 };
 const playHasSteppers = Boolean(el().querySelector('[data-action="abilityStep"]'));
 wait = rendered();
@@ -228,6 +230,88 @@ await wait;
 check("the name and Also speaks save through the form; locking returns to Play with no steppers", actor.name === "Sheet Probe Renamed" && actor._source.system.languages.alsoSpeaks === "Huttese"
   && el().dataset.mode === "play" && !el().querySelector('[data-action="abilityStep"]'), { name: actor.name, speaks: actor._source.system.languages.alsoSpeaks, mode: el().dataset.mode });
 await write({ name: "Sheet Probe" });
+
+// Levels. Average hit points: floor(die / 2) + 1 (rulings.md, Hit points and healing): d10 gives 6.
+wait = rendered();
+el().querySelector('[data-action="toggleMode"]').click();
+await wait;
+el().querySelector('nav.sheet-tabs [data-tab="build"]').click();
+// The sheet's own state (the level-up row, the increase picks) is set before the action's first await.
+const clickAndRender = async (selector) => {
+  el().querySelector(selector).click();
+  await sheet.render();
+};
+await clickAndRender('[data-action="levelUpStart"]');
+const classStep = {
+  taken: [...el().querySelectorAll('[data-action="levelClass"]')].map((b) => b.textContent.trim()),
+  offersJedi: [...el().querySelectorAll("select.level-class option")].some((o) => o.textContent === "Jedi"),
+  offersSoldier: [...el().querySelectorAll("select.level-class option")].some((o) => o.textContent === "Soldier"),
+};
+await clickAndRender('[data-action="levelUpCancel"]');
+check("Level up offers Jedi 2 as a button and Soldier from the compendium, not Jedi again; Cancel changes nothing", JSON.stringify(classStep.taken) === '["Jedi 2"]'
+  && !classStep.offersJedi && classStep.offersSoldier && !el().querySelector("[data-level-up]") && actor._source.system.progression.length === 1, classStep);
+
+await clickAndRender('[data-action="levelUpStart"]');
+await clickAndRender('[data-action="levelClass"]');
+await act('[data-action="levelHp"][data-mode="average"]');
+check("Jedi 2 at the average: hit points 6, maximum 30 + 6 = 36, level 2", actor._source.system.progression.length === 2 && actor._source.system.progression[1].hitPoints === 6
+  && actor.system.hpMax.total === 36 && text(".hc-band .char-line") === "Bothan · MediumJedi 2Level 2BAB +2", { progression: actor._source.system.progression, max: actor.system.hpMax.total, band: text(".hc-band .char-line") });
+
+await clickAndRender('[data-action="levelUpStart"]');
+{
+  wait = rendered();
+  const select = el().querySelector("select.level-class");
+  select.value = [...select.options].find((o) => o.textContent === "Soldier").value;
+  select.dispatchEvent(new Event("change", { bubbles: true }));
+  await wait;
+  await sheet.render();
+}
+const posted = new Promise((resolve) => Hooks.once("createChatMessage", resolve));
+await act('[data-action="levelHp"][data-mode="roll"]');
+const hpRoll = await posted;
+const soldier = actor.items.find((i) => i.type === "class" && i.name === "Soldier");
+const rolled = actor._source.system.progression[2]?.hitPoints;
+check("Soldier 1 from the compendium, rolled: the class item is added, the roll is posted, and its die is the level's hit points", soldier && actor._source.system.progression[2].class === soldier.id
+  && hpRoll.flavor === "Level 3 hit points (Soldier)" && hpRoll.rolls[0].total === rolled && rolled >= 1 && rolled <= 10 && actor.system.hpMax.total === 36 + rolled,
+  { soldier: soldier?.id, rolled, flavor: hpRoll.flavor, max: actor.system.hpMax.total });
+
+await clickAndRender('[data-action="levelUpStart"]');
+await clickAndRender('[data-action="levelClass"][data-class-id="' + jedi + '"]');
+await act('[data-action="levelHp"][data-mode="average"]');
+for (const a of ["str", "dex", "con"]) await clickAndRender(`[data-action="increasePick"][data-level="4"][data-ability="${a}"]`);
+const picked = [...el().querySelectorAll('[data-action="increasePick"][data-level="4"].on')].map((b) => b.dataset.ability);
+await act('[data-action="increaseSave"][data-level="4"]');
+check("level 4: the picker takes two abilities and refuses a third; saving gives STR 11 and DEX 13 (10 + 2 species + 1)", JSON.stringify(picked) === '["str","dex"]'
+  && JSON.stringify(actor._source.system.progression[3].increases) === '["str","dex"]' && actor.system.scores.str.value === 11 && actor.system.scores.dex.value === 13,
+  { picked, increases: actor._source.system.progression[3]?.increases, str: actor.system.scores.str.value, dex: actor.system.scores.dex.value });
+
+await act('[data-action="removeLevel"]');
+check("Remove level 4 leaves three levels, the increase with it", actor._source.system.progression.length === 3 && actor.system.scores.str.value === 10, { levels: actor._source.system.progression.length });
+
+// Level 1 on a character with none: taken at once, with the class's level-1 hit points.
+{
+  const blank = await Actor.create({ name: "Sheet Probe Blank", type: "character", flags: FLAG, items: [item("species/bothan")] });
+  const sheet2 = blank.sheet;
+  let w = new Promise((resolve) => Hooks.once("renderCharacterSheet", resolve));
+  await sheet2.render({ force: true });
+  await w;
+  w = new Promise((resolve) => Hooks.once("renderCharacterSheet", resolve));
+  sheet2.element.querySelector('[data-action="toggleMode"]').click();
+  await w;
+  sheet2.changeTab("build", "primary");
+  w = new Promise((resolve) => Hooks.once("renderCharacterSheet", resolve));
+  sheet2.element.querySelector('[data-action="levelUpStart"]').click();
+  await w;
+  const updated = new Promise((resolve) => Hooks.once("updateActor", resolve));
+  const select = sheet2.element.querySelector("select.level-class");
+  select.value = [...select.options].find((o) => o.textContent === "Jedi").value;
+  select.dispatchEvent(new Event("change", { bubbles: true }));
+  await updated;
+  const cls = blank.items.find((i) => i.type === "class");
+  check("level 1 on a blank character: Jedi is added and taken at once, maximum hit points 30", cls?.name === "Jedi" && blank._source.system.progression.length === 1
+    && blank._source.system.progression[0].class === cls.id && blank.system.hpMax.total === 30, { cls: cls?.name, levels: blank._source.system.progression.length, max: blank.system.hpMax.total });
+  await sheet2.close();
+}
 
 // Every region scrolls when the window is short (standing rule 19).
 sheet.setPosition({ height: 360 });

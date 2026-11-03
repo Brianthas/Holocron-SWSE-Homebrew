@@ -4,10 +4,10 @@ import { SKILLS, SKILL_KEYS, type SkillKey } from "../config/skills.ts";
 import type { CharacterModel, WeaponData } from "../data/actor/character.ts";
 import { rollAttack, rollDamage } from "../dice/attack.ts";
 import {
-  defensePointLimits, POINT_BUY_BUDGET, POINT_BUY_MAX, pointBuyCost, pointBuySpent, speciesChoiceAllowed,
+  ABILITY_INCREASE_LEVELS, defensePointLimits, POINT_BUY_BUDGET, POINT_BUY_MAX, pointBuyCost, pointBuySpent, speciesChoiceAllowed,
 } from "../rules/build.ts";
 import { DEFENSES, DEFENSE_LABELS, type DefenseKey } from "../rules/defenses.ts";
-import { hpEntry } from "../rules/resources.ts";
+import { averageHitDie, hpEntry } from "../rules/resources.ts";
 import { breakdownHtml, signed } from "./breakdown.ts";
 
 /**
@@ -26,6 +26,9 @@ const PIP_RESOURCES = {
 } as const;
 type PipResource = keyof typeof PIP_RESOURCES;
 const QUICK_ROLLS: SkillKey[] = ["perception", "useTheForce", "initiative"];
+const CLASS_PACK = "holocron.classes";
+/** The class a new level goes to: one the character has (item id) or one from the Classes compendium (uuid). */
+interface ClassRef { name: string; die: number; itemId?: string; uuid?: string }
 const capitalise = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
 // @ts-expect-error fvtt-types beta: TS2321 on HandlebarsApplicationMixin(ActorSheetV2), reported once
@@ -40,6 +43,9 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       attack: CharacterSheet.#attack, damage: CharacterSheet.#damage, pip: CharacterSheet.#pip,
       toggleMode: CharacterSheet.#toggleMode, abilityStep: CharacterSheet.#abilityStep, abilityEntry: CharacterSheet.#abilityEntry,
       speciesPick: CharacterSheet.#speciesPick, defenseStep: CharacterSheet.#defenseStep, toggleTrained: CharacterSheet.#toggleTrained,
+      levelUpStart: CharacterSheet.#levelUpStart, levelUpCancel: CharacterSheet.#levelUpCancel, levelClass: CharacterSheet.#levelClass,
+      levelHp: CharacterSheet.#levelHp, removeLevel: CharacterSheet.#removeLevel, increasePick: CharacterSheet.#increasePick,
+      increaseSave: CharacterSheet.#increaseSave,
     },
   };
 
@@ -58,6 +64,10 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
 
   /** Play or Edit (mockup 1's padlock). Edit unlocks build data; Play keeps the numbers that change in play editable. */
   #editMode = false;
+  /** A level being taken: choosing its class, then (after level 1) its hit points. */
+  #levelUp: null | { step: "class" } | { step: "hp"; ref: ClassRef } = null;
+  /** Abilities picked so far for a level's +1 and +1, by level. */
+  #increasePicks = new Map<number, AbilityKey[]>();
 
   override async _prepareContext(options: foundry.applications.sheets.ActorSheetV2.RenderOptions) {
     const context = await super._prepareContext(options);
@@ -136,6 +146,24 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
         speakOptions: ["Galactic Basic", "Huttese", "Ryl"].map((l) => ({ value: l, selected: s.languages.alsoSpeaks === l })),
       },
       understands: { shown: s.languageTier.understands, tooltip: breakdownHtml("INT for languages", s.languageTier.effectiveInt) },
+      progression: s.progression.map((entry, i) => {
+        const cls = actor.items.get(entry.class);
+        const level = i + 1;
+        const picks = this.#increasePicks.get(level) ?? [];
+        const due = ABILITY_INCREASE_LEVELS.includes(level) && entry.increases.length < 2;
+        return {
+          level,
+          className: cls?.name ?? "Missing class",
+          classLevel: s.progression.slice(0, level).filter((e) => e.class === entry.class).length,
+          hitPoints: i === 0 ? `${(cls?.system as { hpFirstLevel?: number } | undefined)?.hpFirstLevel ?? 0} (level 1)` : `${entry.hitPoints} (1d${(cls?.system as { hitDie?: number } | undefined)?.hitDie ?? "?"})`,
+          increases: entry.increases.map((a) => ABILITY_LABELS[a as AbilityKey] ?? a).join(", "),
+          increaseDue: due,
+          increaseOptions: due ? ABILITIES.map((a) => ({ key: a, label: ABILITY_LABELS[a], picked: picks.includes(a) })) : [],
+          increaseReady: picks.length === 2,
+          isLast: i === s.progression.length - 1,
+        };
+      }),
+      levelUp: await this.#levelUpContext(),
       problems: s.problems,
       biography: {
         source: s.details.biography ?? "",
@@ -156,6 +184,13 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
   override async _onRender(context: object, options: foundry.applications.sheets.ActorSheetV2.RenderOptions): Promise<void> {
     await super._onRender(context as never, options);
     this.element.dataset["mode"] = this.#editMode && this.isEditable ? "edit" : "play";
+    // A class from the compendium is chosen from a select, which reports a change rather than a click.
+    const classSelect = this.element.querySelector<HTMLSelectElement>("select.level-class");
+    classSelect?.addEventListener("change", async () => {
+      const option = classSelect.selectedOptions[0];
+      if (!option?.value) return;
+      await this.#chooseClass({ name: option.text, die: Number(option.dataset["die"]) || 0, uuid: option.value });
+    });
     const input = this.element.querySelector<HTMLInputElement>("input.hp-input");
     input?.addEventListener("change", async () => {
       const actor = this.actor as Actor.Implementation;
@@ -174,6 +209,123 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
   static async #damage(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
     const weapon = this.actor.items.get(target.dataset["itemId"] ?? "");
     if (weapon) await rollDamage(this.actor as Actor.Implementation, weapon as Item.Implementation);
+  }
+
+  /** The level-up row: the classes to choose from, or the hit point choice for the chosen class. */
+  async #levelUpContext() {
+    const state = this.#levelUp;
+    if (!state || !this.isEditable) return null;
+    const s = this.actor.system as CharacterModel;
+    const next = s.level + 1;
+    if (state.step === "hp") {
+      const average = averageHitDie(state.ref.die);
+      return { step: "hp", level: next, name: state.ref.name, die: state.ref.die, average, conMod: signed(s.scores.con.mod) };
+    }
+    const taken = Object.keys(s.classLevels).map((id) => {
+      const item = this.actor.items.get(id);
+      return { id, name: item?.name ?? id, nextLevel: (s.classLevels[id] ?? 0) + 1 };
+    });
+    const takenNames = new Set(taken.map((t) => t.name));
+    const pack = game.packs?.get(CLASS_PACK);
+    const index = pack ? await pack.getIndex({ fields: ["system.category", "system.hitDie"] }) : [];
+    const others = [...index].filter((e) => !takenNames.has(e.name ?? ""))
+      .map((e) => {
+        const system = (e as { system?: { category?: string; hitDie?: number } }).system;
+        return { uuid: e.uuid, name: e.name ?? "", die: system?.hitDie ?? 0, base: system?.category === "base" };
+      })
+      .sort((a, b) => a.name.localeCompare(b.name));
+    return { step: "class", level: next, taken, base: others.filter((o) => o.base), prestige: others.filter((o) => !o.base), packMissing: !pack };
+  }
+
+  /** Records the chosen class; level 1 is taken at once (its hit points are the class's), later levels ask for hit points. */
+  async #chooseClass(ref: ClassRef): Promise<void> {
+    if ((this.actor.system as CharacterModel).progression.length === 0) {
+      this.#levelUp = null;
+      await this.#takeLevel(ref, 0);
+      return;
+    }
+    this.#levelUp = { step: "hp", ref };
+    await this.render();
+  }
+
+  /** Adds the level: the class item from the compendium if the character does not have it, then the progression entry. */
+  async #takeLevel(ref: ClassRef, hitPoints: number): Promise<void> {
+    let itemId = ref.itemId;
+    if (!itemId && ref.uuid) {
+      const source = await fromUuid(ref.uuid) as Item.Implementation | null;
+      if (!source) return void ui.notifications?.error(`Holocron: ${ref.name} is not in the Classes compendium.`);
+      const [created] = await this.actor.createEmbeddedDocuments("Item", [source.toObject()]);
+      itemId = created?.id ?? undefined;
+    }
+    if (!itemId) return;
+    const progression = (this.actor.system as CharacterModel).toObject().progression;
+    progression.push({ class: itemId, hitPoints, increases: [] });
+    this.#levelUp = null;
+    await this.actor.update({ "system.progression": progression } as never);
+  }
+
+  static async #levelUpStart(this: CharacterSheet): Promise<void> {
+    if (!this.isEditable) return;
+    this.#levelUp = { step: "class" };
+    await this.render();
+  }
+
+  static async #levelUpCancel(this: CharacterSheet): Promise<void> {
+    this.#levelUp = null;
+    await this.render();
+  }
+
+  /** A class the character already has. */
+  static async #levelClass(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const item = this.actor.items.get(target.dataset["classId"] ?? "");
+    if (item?.type !== "class") return;
+    await this.#chooseClass({ name: item.name ?? "", die: (item.system as { hitDie?: number }).hitDie ?? 0, itemId: item.id ?? undefined });
+  }
+
+  /** Hit points for the new level: the average, or a roll posted to chat (rulings.md, Hit points and healing). */
+  static async #levelHp(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const state = this.#levelUp;
+    if (state?.step !== "hp") return;
+    const { ref } = state;
+    let hitPoints = averageHitDie(ref.die);
+    if (target.dataset["mode"] === "roll") {
+      const roll = await new Roll(`1d${ref.die}`).evaluate();
+      const level = (this.actor.system as CharacterModel).level + 1;
+      await roll.toMessage({ speaker: ChatMessage.getSpeaker({ actor: this.actor as Actor.Stored }), flavor: `Level ${level} hit points (${ref.name})` });
+      hitPoints = roll.total ?? hitPoints;
+    }
+    await this.#takeLevel(ref, hitPoints);
+  }
+
+  /** Removes the last level. Its class item stays on the character. */
+  static async #removeLevel(this: CharacterSheet): Promise<void> {
+    if (!this.isEditable) return;
+    const progression = (this.actor.system as CharacterModel).toObject().progression;
+    if (!progression.length) return;
+    progression.pop();
+    await this.actor.update({ "system.progression": progression } as never);
+  }
+
+  /** Picks or unpicks an ability for a level's +1 and +1: two different abilities. */
+  static async #increasePick(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const level = Number(target.dataset["level"]);
+    const a = target.dataset["ability"] as AbilityKey;
+    if (!ABILITY_INCREASE_LEVELS.includes(level) || !ABILITIES.includes(a)) return;
+    const picks = this.#increasePicks.get(level) ?? [];
+    const next = picks.includes(a) ? picks.filter((x) => x !== a) : picks.length < 2 ? [...picks, a] : picks;
+    this.#increasePicks.set(level, next);
+    await this.render();
+  }
+
+  static async #increaseSave(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const level = Number(target.dataset["level"]);
+    const picks = this.#increasePicks.get(level) ?? [];
+    const progression = (this.actor.system as CharacterModel).toObject().progression;
+    const entry = progression[level - 1];
+    if (!entry || picks.length !== 2 || picks[0] === picks[1]) return;
+    entry.increases = [...picks];
+    this.#increasePicks.delete(level);
+    await this.actor.update({ "system.progression": progression } as never);
   }
 
   static async #toggleMode(this: CharacterSheet): Promise<void> {

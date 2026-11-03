@@ -19,7 +19,8 @@ if (game.world.id !== "holocron-testing" || game.system.id !== "holocron") {
   return JSON.stringify({ refused: `world ${game.world.id}, system ${game.system.id}` });
 }
 const results = [];
-const check = (name, pass, detail) => results.push({ name, pass: Boolean(pass), detail });
+// The detail is copied now: it can hold live document data that later steps change.
+const check = (name, pass, detail) => results.push({ name, pass: Boolean(pass), detail: JSON.parse(JSON.stringify(detail ?? null)) });
 
 const old = game.actors.filter((a) => a.getFlag("holocron", "resourcesFixture")).map((a) => ({ id: a.id, name: a.name }));
 if (old.length) await Actor.deleteDocuments(old.map((a) => a.id));

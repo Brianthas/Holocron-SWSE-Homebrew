@@ -86,4 +86,53 @@
       <div class="hint">May speak: {{languages.speaks}}. INT 12 understands Commons, 16 Commons and Rares, 20 Commons, Rares and Secrets.</div>
     </div>
   </div>
+
+  <div class="card" data-card="progression">
+    <div class="section-head"><h3>Progression</h3>
+      {{#if editMode}}{{#unless levelUp}}<button type="button" class="btn primary" data-action="levelUpStart">Level up</button>{{/unless}}{{/if}}</div>
+    {{#each progression}}
+    <div class="level-row" data-level="{{level}}">
+      <div class="lvl">Level {{level}}<small>{{className}} {{classLevel}}</small></div>
+      <div class="slots">
+        <span class="slot"><span class="kind">Hit points</span><span class="hp-result">{{hitPoints}}</span></span>
+        {{#if increases}}<span class="slot"><span class="kind">Abilities</span>+1 {{increases}}</span>{{/if}}
+        {{#if increaseDue}}
+          {{#if @root.editMode}}
+          <span class="slot increase-picker"><span class="kind">Abilities</span>+1 and +1:
+            {{#each increaseOptions}}<button type="button" class="sp-pick{{#if picked}} on{{/if}}" data-action="increasePick" data-level="{{../level}}" data-ability="{{key}}" aria-pressed="{{#if picked}}true{{else}}false{{/if}}">{{label}}</button>{{/each}}
+            <button type="button" class="btn primary" data-action="increaseSave" data-level="{{level}}" {{#unless increaseReady}}disabled{{/unless}}>Save</button></span>
+          {{else}}
+          <span class="slot empty"><span class="kind">Abilities</span>+1 and +1 to choose in Edit mode</span>
+          {{/if}}
+        {{/if}}
+        {{#if @root.editMode}}{{#if isLast}}<button type="button" class="btn remove-level" data-action="removeLevel">Remove level {{level}}</button>{{/if}}{{/if}}
+      </div>
+    </div>
+    {{else}}
+    <div class="empty-note">No levels yet.{{#unless editMode}} Unlock the sheet to take level 1.{{/unless}}</div>
+    {{/each}}
+
+    {{#if levelUp}}
+    <div class="level-row levelup-row" data-level-up="{{levelUp.step}}">
+      <div class="lvl">Level {{levelUp.level}}<small>{{#if (eq levelUp.step "hp")}}{{levelUp.name}}{{else}}Choose a class{{/if}}</small></div>
+      <div class="slots">
+        {{#if (eq levelUp.step "class")}}
+          {{#each levelUp.taken}}<button type="button" class="btn" data-action="levelClass" data-class-id="{{id}}">{{name}} {{nextLevel}}</button>{{/each}}
+          {{#if levelUp.packMissing}}<span class="hint">The Classes compendium is not loaded.</span>{{else}}
+          <select class="level-class" aria-label="Another class">
+            <option value="">Another class...</option>
+            <optgroup label="Base">{{#each levelUp.base}}<option value="{{uuid}}" data-die="{{die}}">{{name}}</option>{{/each}}</optgroup>
+            <optgroup label="Prestige">{{#each levelUp.prestige}}<option value="{{uuid}}" data-die="{{die}}">{{name}}</option>{{/each}}</optgroup>
+          </select>{{/if}}
+        {{else}}
+          <span class="hint">Hit points:</span>
+          <button type="button" class="btn primary" data-action="levelHp" data-mode="average">Take {{levelUp.average}}</button>
+          <button type="button" class="btn" data-action="levelHp" data-mode="roll">Roll 1d{{levelUp.die}}</button>
+          <span class="hint">CON {{levelUp.conMod}} is added per level.</span>
+        {{/if}}
+        <button type="button" class="btn" data-action="levelUpCancel">Cancel</button>
+      </div>
+    </div>
+    {{/if}}
+  </div>
 </section>

@@ -12,7 +12,8 @@ if (game.world.id !== "holocron-testing" || game.system.id !== "holocron") {
 }
 const COUNTS = __PACK_COUNTS__;
 const results = [];
-const check = (name, pass, detail) => results.push({ name, pass: Boolean(pass), detail });
+// The detail is copied now: it can hold live document data that later steps change.
+const check = (name, pass, detail) => results.push({ name, pass: Boolean(pass), detail: JSON.parse(JSON.stringify(detail ?? null)) });
 const FLAG = { holocron: { packFixture: true } };
 
 const old = game.actors.filter((a) => a.getFlag("holocron", "packFixture")).map((a) => a.id);

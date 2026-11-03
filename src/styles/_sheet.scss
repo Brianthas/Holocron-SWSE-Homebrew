@@ -464,6 +464,36 @@
   }
   .card label.label { display: grid; gap: 4px; }
 
+  // Progression (mockup 1's level rows; feat and talent slots come with the compendium browser).
+  .card[data-card="progression"] { grid-column: 1 / -1; }
+  .level-row { display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 10px; padding: 8px 0; border-top: 1px solid var(--hc-border); }
+  .level-row .lvl { font: 700 13px var(--hc-font-display); }
+  .level-row .lvl small { display: block; font: 500 11px var(--hc-font-body); color: var(--hc-muted); }
+  .slots { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+  .slot {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 5px 9px;
+    border-radius: 5px;
+    font-size: 13px;
+    background: var(--hc-surface);
+    border: 1px solid var(--hc-border);
+
+    .kind { font: 600 10px var(--hc-font-display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--hc-muted); }
+    &.empty { border-style: dashed; border-color: var(--hc-accent-line); color: var(--hc-muted); }
+  }
+  .levelup-row { background: var(--hc-accent-soft); border-radius: 6px; padding: 8px; }
+  select.level-class {
+    width: auto;
+    background: var(--hc-raised);
+    color: var(--hc-text);
+    border: 1px solid var(--hc-border);
+    border-radius: 5px;
+    font: 13px var(--hc-font-body);
+  }
+
   @container (max-width: 640px) {
     .play-grid { grid-template-columns: minmax(0, 1fr); }
   }

@@ -29,6 +29,12 @@ export function pointBuySpent(scores: readonly number[]): number | null {
 }
 
 /**
+ * Total levels that give +1 to two different abilities (level-up guide, "TOTAL LEVEL ABILITY SCORES"
+ * column: "+1 and +1"). test/build.test.ts reads the guide's table and checks this list against it.
+ */
+export const ABILITY_INCREASE_LEVELS: readonly number[] = [4, 8, 12, 16, 20];
+
+/**
  * Defense points (episode-vii, Classes): "all Heroic Characters are granted 4 points which they may
  * assign to whichever Defenses they wish, to a maximum of 2 to a single Defense. At level 10 this
  * increases to 8 points and 4 maximum to a single Defense."

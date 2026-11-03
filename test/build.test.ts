@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import {
-  defensePointLimits, POINT_BUY_COST, pointBuyCost, pointBuySpent, speciesChoiceAllowed, trainedSkillsAllowed,
+  ABILITY_INCREASE_LEVELS, defensePointLimits, POINT_BUY_COST, pointBuyCost, pointBuySpent, speciesChoiceAllowed, trainedSkillsAllowed,
 } from "../src/rules/build.ts";
 
 describe("point buy (rulings.md, Character creation)", () => {
@@ -21,6 +21,17 @@ describe("point buy (rulings.md, Character creation)", () => {
     expect(pointBuySpent([16, 16, 15, 10, 10, 8])).toBe(10 + 10 + 7 + 0 + 0 - 2);
     expect(10 + 10 + 7 + 0 + 0 - 2).toBe(25);
     expect(pointBuySpent([19, 10, 10, 10, 10, 10])).toBeNull();
+  });
+});
+
+describe("ability increases (level-up guide)", () => {
+  it("fall on the total levels whose ABILITY SCORES cell reads +1 and +1", () => {
+    const html = readFileSync(new URL("../docs/rules/level-up-guide.html", import.meta.url), "utf8");
+    const table = /<table[^>]*>([\s\S]*?)<\/table>/.exec(html)?.[1] ?? "";
+    const rows = [...table.matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map((r) => [...(r[1] ?? "").matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map((c) => (c[1] ?? "").trim()));
+    const levels = rows.filter((cells) => cells[1] === "+1 and +1").map((cells) => Number(cells[0]));
+    expect(rows.filter((cells) => cells.length).length).toBe(20);
+    expect(ABILITY_INCREASE_LEVELS).toEqual(levels);
   });
 });
 
