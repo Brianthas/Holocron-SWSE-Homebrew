@@ -1,4 +1,12 @@
 <header class="hc-band">
+  {{#if editable}}
+  <button type="button" class="lock" data-action="toggleMode" aria-pressed="{{#if editMode}}false{{else}}true{{/if}}"
+    data-tooltip="{{#if editMode}}Lock to play{{else}}Unlock to edit{{/if}}">{{#if editMode}}<i class="fa-solid fa-lock-open" inert></i> Edit{{else}}<i class="fa-solid fa-lock" inert></i> Play{{/if}}</button>
+  {{/if}}
+  {{#if editMode}}
+  <input class="char-name" type="text" name="name" value="{{name}}" aria-label="Name">
+  {{else}}
   <h2 class="char-name">{{name}}</h2>
+  {{/if}}
   <div class="char-line"><span>{{speciesName}} · {{sizeLabel}}</span>{{#if classLine}}<span>{{classLine}}</span>{{/if}}<span>Level {{level}}</span><span>BAB {{bab}}</span></div>
 </header>

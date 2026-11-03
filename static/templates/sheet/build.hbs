@@ -3,20 +3,87 @@
   <ul class="hc-problems">{{#each problems}}<li>{{this}}</li>{{/each}}</ul>
   {{/if}}
   <div class="cols">
-    <div class="card">
-      <div class="section-head"><h3>Abilities</h3></div>
+    <div class="card" data-card="abilities">
+      <div class="section-head"><h3>Ability scores</h3>
+        {{#if abilityBuy}}<span class="hint pb-count{{#if pointBuy.over}} over{{/if}}">Point buy {{pointBuy.spent}} / {{pointBuy.budget}}</span>{{else}}<span class="hint">Scores entered by hand</span>{{/if}}</div>
+      {{#if abilityBuy}}<div class="meter" aria-hidden="true"><i style="width: {{pointBuy.percent}}%"></i></div>{{/if}}
+      {{#if editMode}}
+      <div class="minseg" role="group" aria-label="How scores are set">
+        <button type="button" data-action="abilityEntry" data-mode="buy" aria-pressed="{{#if abilityBuy}}true{{else}}false{{/if}}">Point buy</button>
+        <button type="button" data-action="abilityEntry" data-mode="enter" aria-pressed="{{#if abilityBuy}}false{{else}}true{{/if}}">Enter scores</button>
+      </div>
+      {{/if}}
       <table class="abil">
-        <thead><tr><th>Ability</th><th>Score</th><th>Mod</th></tr></thead>
+        <thead><tr><th>Ability</th><th>Bought</th><th>Species</th><th>Level-ups</th><th>Score</th><th>Mod</th></tr></thead>
         <tbody>
           {{#each abilities}}
-          <tr data-ability="{{key}}"><td>{{label}}</td><td class="score total" data-tooltip-html="{{tooltip}}">{{value}}</td><td>{{mod}}</td></tr>
+          <tr data-ability="{{key}}">
+            <td>{{label}}</td>
+            <td>
+              {{#if @root.editMode}}
+                {{#if @root.abilityBuy}}
+                <span class="stepper-cell"><button type="button" class="step" data-action="abilityStep" data-ability="{{key}}" data-delta="-1" aria-label="Lower {{label}}" {{#unless canLower}}disabled{{/unless}}>-</button><b class="bought">{{base}}</b><button type="button" class="step" data-action="abilityStep" data-ability="{{key}}" data-delta="1" aria-label="Raise {{label}}" data-tooltip="{{nextCostHint}}" {{#unless canRaise}}disabled{{/unless}}>+</button></span>
+                {{else}}
+                <input class="ab-input" type="number" name="system.abilities.{{key}}.base" value="{{base}}" min="1" max="30" aria-label="{{label}} score">
+                {{/if}}
+              {{else}}<span class="bought">{{base}}</span>{{/if}}
+            </td>
+            <td>
+              {{#if @root.editMode}}
+              {{#if fixed}}<span>{{fixed}}</span> {{/if}}<button type="button" class="sp-pick{{#if chosen}} on{{/if}}" data-action="speciesPick" data-ability="{{key}}" aria-pressed="{{#if chosen}}true{{else}}false{{/if}}"
+                {{#unless pickAllowed}}disabled data-tooltip="A Small species may not put its +2 any on DEX"{{/unless}}>+2</button>
+              {{else}}{{speciesShown}}{{/if}}
+            </td>
+            <td>{{levelUps}}</td>
+            <td class="score total" data-tooltip-html="{{tooltip}}">{{value}}</td>
+            <td>{{mod}}</td>
+          </tr>
           {{/each}}
         </tbody>
       </table>
+      {{#if speciesUnplaced}}<div class="hint"><b>Place the species' +2 any{{#unless editMode}} in Edit mode{{/unless}}.</b></div>{{/if}}
     </div>
-    <div class="card">
+
+    <div class="card" data-card="defense-points">
+      <div class="section-head"><h3>Defense points</h3><span class="hint">{{defensePoints.spent}} / {{defensePoints.total}} spent</span></div>
+      <div class="defpts">
+        {{#each defensePoints.rows}}
+        <div class="defpt" data-defense-points="{{key}}">
+          <div class="label">{{label}}</div>
+          <div class="def-total num">{{total}}</div>
+          <div class="def-pts">
+            {{#if @root.editMode}}<button type="button" class="step" data-action="defenseStep" data-defense="{{key}}" data-delta="-1" aria-label="Take a point from {{label}}" {{#unless canLower}}disabled{{/unless}}>-</button>{{/if}}
+            <span class="pts">{{points}}</span>
+            {{#if @root.editMode}}<button type="button" class="step" data-action="defenseStep" data-defense="{{key}}" data-delta="1" aria-label="Add a point to {{label}}" {{#unless canRaise}}disabled{{/unless}}>+</button>{{/if}}
+          </div>
+        </div>
+        {{/each}}
+      </div>
+      <div class="hint">Max {{defensePoints.each}} in one Defense. At level 10: 8 points, max 4.</div>
+    </div>
+
+    <div class="card" data-card="identity">
+      <div class="section-head"><h3>Identity</h3></div>
+      <div class="row"><span>Species</span><span>{{speciesName}}</span></div>
+      <div class="row"><span>Classes</span><span>{{#if classLine}}{{classLine}}{{else}}None{{/if}}</span></div>
+      <div class="row"><span>Trained skills</span><span class="num{{#if trained.over}} over{{/if}}"><span class="total" data-tooltip-html="{{trained.tooltip}}">{{trained.marked}} / {{trained.allowed}}</span></span></div>
+    </div>
+
+    <div class="card" data-card="languages">
       <div class="section-head"><h3>Languages</h3></div>
+      <div class="row"><span>Also speaks</span>
+        {{#if editMode}}
+        <select name="system.languages.alsoSpeaks" aria-label="Also speaks">
+          <option value="" {{#unless languages.alsoSpeaks}}selected{{/unless}}>None</option>
+          {{#each languages.speakOptions}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{value}}</option>{{/each}}
+        </select>
+        {{else}}<span>{{#if languages.alsoSpeaks}}{{languages.alsoSpeaks}}{{else}}None{{/if}}</span>{{/if}}
+      </div>
       <div class="row" data-resource="understands"><span>Understands</span><span class="total" data-tooltip-html="{{understands.tooltip}}">{{understands.shown}}</span></div>
+      <label class="label">Other languages
+        <input type="text" name="system.languages.other" value="{{languages.other}}" placeholder="As the GM decides" {{#unless editMode}}disabled{{/unless}}>
+      </label>
+      <div class="hint">May speak: {{languages.speaks}}. INT 12 understands Commons, 16 Commons and Rares, 20 Commons, Rares and Secrets.</div>
     </div>
   </div>
 </section>

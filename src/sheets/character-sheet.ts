@@ -1,8 +1,12 @@
-import { ABILITIES, ABILITY_LABELS } from "../config/abilities.ts";
+import { ABILITIES, ABILITY_LABELS, type AbilityKey } from "../config/abilities.ts";
+import { SIZE_ABILITY_ADJUSTMENTS } from "../config/sizes.ts";
 import { SKILLS, SKILL_KEYS, type SkillKey } from "../config/skills.ts";
 import type { CharacterModel, WeaponData } from "../data/actor/character.ts";
 import { rollAttack, rollDamage } from "../dice/attack.ts";
-import { DEFENSES, DEFENSE_LABELS } from "../rules/defenses.ts";
+import {
+  defensePointLimits, POINT_BUY_BUDGET, POINT_BUY_MAX, pointBuyCost, pointBuySpent, speciesChoiceAllowed,
+} from "../rules/build.ts";
+import { DEFENSES, DEFENSE_LABELS, type DefenseKey } from "../rules/defenses.ts";
 import { hpEntry } from "../rules/resources.ts";
 import { breakdownHtml, signed } from "./breakdown.ts";
 
@@ -32,7 +36,11 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     position: { width: 900, height: 760 },
     window: { resizable: true },
     form: { submitOnChange: true },
-    actions: { attack: CharacterSheet.#attack, damage: CharacterSheet.#damage, pip: CharacterSheet.#pip },
+    actions: {
+      attack: CharacterSheet.#attack, damage: CharacterSheet.#damage, pip: CharacterSheet.#pip,
+      toggleMode: CharacterSheet.#toggleMode, abilityStep: CharacterSheet.#abilityStep, abilityEntry: CharacterSheet.#abilityEntry,
+      speciesPick: CharacterSheet.#speciesPick, defenseStep: CharacterSheet.#defenseStep, toggleTrained: CharacterSheet.#toggleTrained,
+    },
   };
 
   static override PARTS = {
@@ -48,13 +56,24 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     primary: { tabs: [{ id: "play" }, { id: "build" }, { id: "notes" }], initial: "play", labelPrefix: "HOLOCRON.Sheet.Tab" },
   };
 
+  /** Play or Edit (mockup 1's padlock). Edit unlocks build data; Play keeps the numbers that change in play editable. */
+  #editMode = false;
+
   override async _prepareContext(options: foundry.applications.sheets.ActorSheetV2.RenderOptions) {
     const context = await super._prepareContext(options);
     const actor = this.actor as Actor.Implementation;
     const s = actor.system as CharacterModel;
     const max = s.hpMax.total;
     const species = actor.items.find((i) => i.type === "species");
-    const skill = (k: SkillKey) => ({ key: k, label: SKILLS[k].label, trained: s.isTrained(k), total: signed(s.skillTotals[k].total), tooltip: breakdownHtml(SKILLS[k].label, s.skillTotals[k]) });
+    const droid = (species?.system as { droid?: boolean } | undefined)?.droid === true;
+    const editMode = this.#editMode && this.isEditable;
+    const buy = s.abilityEntry === "buy";
+    const spent = pointBuySpent(ABILITIES.map((a) => s.abilities[a].base));
+    const increases = s.progression.flatMap((entry) => entry.increases);
+    const limits = defensePointLimits(s.level);
+    const pointsSpent = DEFENSES.reduce((n, d) => n + s.defensePoints[d], 0);
+    // marked: trained by hand, which Edit mode toggles; trained also counts skills an effect grants.
+    const skill = (k: SkillKey) => ({ key: k, label: SKILLS[k].label, trained: s.isTrained(k), marked: s.skills[k].trained, total: signed(s.skillTotals[k].total), tooltip: breakdownHtml(SKILLS[k].label, s.skillTotals[k]) });
     return Object.assign(context, {
       img: actor.img,
       name: actor.name,
@@ -87,7 +106,35 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
         const type = data.damageTypes?.[0] ?? "";
         return { id: w.id, name: w.name, attack: signed(attack.total), attackTooltip: breakdownHtml("Attack", attack), damage: s.damageFor(data).formula, type, typeClass: type.toLowerCase() };
       }),
-      abilities: ABILITIES.map((a) => ({ key: a, label: ABILITY_LABELS[a], value: s.scores[a].value, mod: signed(s.scores[a].mod), tooltip: breakdownHtml(ABILITY_LABELS[a], s.scores[a].breakdown) })),
+      editMode,
+      abilityBuy: buy,
+      pointBuy: { spent: spent ?? "-", budget: POINT_BUY_BUDGET, over: spent === null || spent > POINT_BUY_BUDGET, percent: spent === null ? 100 : Math.max(0, Math.min(100, (spent / POINT_BUY_BUDGET) * 100)) },
+      abilities: ABILITIES.map((a) => {
+        const base = s.abilities[a].base;
+        const fixed = SIZE_ABILITY_ADJUSTMENTS[s.size]?.[a] ?? 0;
+        const chosen = s.speciesChoice === a;
+        const nextCost = base >= POINT_BUY_MAX ? null : (pointBuyCost(base + 1) ?? 0) - (pointBuyCost(base) ?? 0);
+        const ups = increases.filter((x) => x === a).length;
+        return {
+          key: a, label: ABILITY_LABELS[a], base, value: s.scores[a].value, mod: signed(s.scores[a].mod), tooltip: breakdownHtml(ABILITY_LABELS[a], s.scores[a].breakdown),
+          fixed: fixed ? signed(fixed) : "", chosen, speciesShown: fixed + (chosen ? 2 : 0) ? signed(fixed + (chosen ? 2 : 0)) : "",
+          pickAllowed: speciesChoiceAllowed(a, s.size, droid), levelUps: ups ? signed(ups) : "",
+          canRaise: nextCost !== null, canLower: base > 1, nextCostHint: nextCost === null ? `${POINT_BUY_MAX} is the most point buy allows` : `Next point costs ${nextCost}`,
+        };
+      }),
+      speciesUnplaced: s.speciesChoice === "",
+      defensePoints: {
+        spent: pointsSpent, total: limits.total, each: limits.each,
+        rows: DEFENSES.map((d) => ({
+          key: d, label: DEFENSE_LABELS[d], points: s.defensePoints[d], total: s.defenses[d].total,
+          canRaise: s.defensePoints[d] < limits.each && pointsSpent < limits.total, canLower: s.defensePoints[d] > 0,
+        })),
+      },
+      trained: { marked: s.trainedSkillsMarked, allowed: s.trainedSkillsAllowed.total, over: s.trainedSkillsMarked > s.trainedSkillsAllowed.total, tooltip: breakdownHtml("Trained skills", s.trainedSkillsAllowed) },
+      languages: {
+        speaks: s.languageTier.speaks, alsoSpeaks: s.languages.alsoSpeaks, other: s.languages.other,
+        speakOptions: ["Galactic Basic", "Huttese", "Ryl"].map((l) => ({ value: l, selected: s.languages.alsoSpeaks === l })),
+      },
       understands: { shown: s.languageTier.understands, tooltip: breakdownHtml("INT for languages", s.languageTier.effectiveInt) },
       problems: s.problems,
       biography: {
@@ -108,6 +155,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
   /** The hit point box takes a total, -n or +n (hpEntry); anything else puts the value back. */
   override async _onRender(context: object, options: foundry.applications.sheets.ActorSheetV2.RenderOptions): Promise<void> {
     await super._onRender(context as never, options);
+    this.element.dataset["mode"] = this.#editMode && this.isEditable ? "edit" : "play";
     const input = this.element.querySelector<HTMLInputElement>("input.hp-input");
     input?.addEventListener("change", async () => {
       const actor = this.actor as Actor.Implementation;
@@ -126,6 +174,55 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
   static async #damage(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
     const weapon = this.actor.items.get(target.dataset["itemId"] ?? "");
     if (weapon) await rollDamage(this.actor as Actor.Implementation, weapon as Item.Implementation);
+  }
+
+  static async #toggleMode(this: CharacterSheet): Promise<void> {
+    if (!this.isEditable) return;
+    this.#editMode = !this.#editMode;
+    await this.render();
+  }
+
+  /** Point buy's steppers: 1 to 18 (rulings.md, Character creation); entered scores use the inputs instead. */
+  static async #abilityStep(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const a = target.dataset["ability"] as AbilityKey | undefined;
+    if (!a || !ABILITIES.includes(a)) return;
+    const base = (this.actor.system as CharacterModel).abilities[a].base;
+    const next = base + Number(target.dataset["delta"]);
+    if (next >= 1 && next <= POINT_BUY_MAX && next !== base) await this.actor.update({ [`system.abilities.${a}.base`]: next });
+  }
+
+  static async #abilityEntry(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const mode = target.dataset["mode"];
+    if (mode === "buy" || mode === "enter") await this.actor.update({ "system.abilityEntry": mode } as never);
+  }
+
+  /** Moves the species' +2 to this ability, where the rule allows it (episode-vii, Species). */
+  static async #speciesPick(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const a = target.dataset["ability"] as AbilityKey | undefined;
+    const s = this.actor.system as CharacterModel;
+    const species = this.actor.items.find((i) => i.type === "species");
+    const droid = (species?.system as { droid?: boolean } | undefined)?.droid === true;
+    if (!a || !ABILITIES.includes(a) || !speciesChoiceAllowed(a, s.size, droid) || s.speciesChoice === a) return;
+    await this.actor.update({ "system.speciesChoice": a } as never);
+  }
+
+  /** Defense points within the level's limits (episode-vii, Classes). */
+  static async #defenseStep(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const d = target.dataset["defense"] as DefenseKey | undefined;
+    if (!d || !DEFENSES.includes(d)) return;
+    const s = this.actor.system as CharacterModel;
+    const limits = defensePointLimits(s.level);
+    const next = s.defensePoints[d] + Number(target.dataset["delta"]);
+    const others = DEFENSES.filter((x) => x !== d).reduce((n, x) => n + s.defensePoints[x], 0);
+    if (next >= 0 && next <= limits.each && others + next <= limits.total) await this.actor.update({ [`system.defensePoints.${d}`]: next });
+  }
+
+  /** Marks or clears a trained skill. Over the allowance is shown, not blocked. */
+  static async #toggleTrained(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const k = target.dataset["skill"] as SkillKey | undefined;
+    if (!k || !SKILL_KEYS.includes(k)) return;
+    const s = this.actor.system as CharacterModel;
+    await this.actor.update({ [`system.skills.${k}.trained`]: !s.skills[k].trained });
   }
 
   /** A lit pip spends one, an empty pip restores one (mockup 1, sidebar pips). */

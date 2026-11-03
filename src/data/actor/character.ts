@@ -5,6 +5,7 @@ import type { EffectTargets } from "../../effects/changes.ts";
 import type { GrantFlag } from "../../effects/selectors.ts";
 import { abilityMod, abilityScore } from "../../rules/abilities.ts";
 import { weaponAttack, weaponDamage } from "../../rules/attacks.ts";
+import { defensePointLimits, speciesChoiceAllowed, trainedSkillsAllowed } from "../../rules/build.ts";
 import { DEFENSES, defense, maneuverDefense, reflexAbilityTerm, type DefenseKey } from "../../rules/defenses.ts";
 import { total, type Breakdown, type Modifier } from "../../rules/modifiers.ts";
 import {
@@ -26,6 +27,8 @@ function characterSchema() {
   return {
     /** Scores as set at creation, before species, level increases and effects. */
     abilities: new fields.SchemaField({ str: ability(), dex: ability(), con: ability(), int: ability(), wis: ability(), cha: ability() }),
+    /** How the sheet sets those scores: point buy against the budget, or entered as rolled or as the GM sets them. */
+    abilityEntry: new fields.StringField({ required: true, blank: false, initial: "buy", choices: ["buy", "enter"] }),
     /** The ability that takes the species' "+2 ANY" (episode-vii species table); blank until chosen. */
     speciesChoice: new fields.StringField({ required: true, blank: true, initial: "", choices: [...ABILITIES] }),
     /** The size picked at creation, for a species that offers a choice (Killik); blank otherwise. */
@@ -86,6 +89,9 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
   /** DT+5: the Defense against forced movement, grapple and disarm. */
   declare maneuver: Breakdown;
   declare skillTotals: Record<SkillKey, Breakdown>;
+  /** Trained skills the character may mark (rulings.md, Skills), and how many are marked by hand. */
+  declare trainedSkillsAllowed: Breakdown;
+  declare trainedSkillsMarked: number;
   declare hpMax: Breakdown;
   declare hpState: HpState;
   /** Second Wind uses per day: 1 unless a feat adds more (rulings.md, Hit points and healing). */
@@ -222,8 +228,30 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
       })];
     })) as Record<SkillKey, Breakdown>;
 
-    // Hit points: the starting class's level-1 hit points, later levels' die results, CON per level.
+    // Trained skills: a skill an effect grants is free; the ones marked by hand count against this.
     const first = this.progression[0] ? classOf(this.progression[0].class) : undefined;
+    const traitNames = ((speciesData as { traits?: { name: string }[] } | undefined)?.traits ?? []).map((t) => t.name);
+    this.trainedSkillsAllowed = trainedSkillsAllowed({
+      firstClass: first ? { name: first.name ?? "Class", skills: (first.system as { trainedSkills?: number }).trainedSkills ?? 0 } : null,
+      intMod: this.scores.int.mod,
+      bonusTraits: traitNames.filter((n) => n.startsWith("Bonus Trained Skill")).length,
+      primitive: traitNames.includes("Primitive"),
+      skillTraining: items.filter((i) => i.type === "feat" && i.name === "Skill Training").length,
+    });
+    this.trainedSkillsMarked = SKILL_KEYS.filter((k) => this.skills[k].trained).length;
+
+    // Choices the sheet's controls prevent, reported when the data holds them anyway.
+    const droid = (speciesData as { droid?: boolean } | undefined)?.droid === true;
+    if (choice && !speciesChoiceAllowed(choice, this.size, droid)) {
+      this.problems.push(`A Small species may not put its +2 on ${ABILITY_LABELS[choice]} (episode-vii, Species).`);
+    }
+    const limits = defensePointLimits(this.level);
+    const points = DEFENSES.map((d) => this.defensePoints[d]);
+    if (points.reduce((a, b) => a + b, 0) > limits.total || points.some((p) => p > limits.each)) {
+      this.problems.push(`Defense points: ${limits.total} to spend, at most ${limits.each} in one Defense at level ${this.level}.`);
+    }
+
+    // Hit points: the starting class's level-1 hit points, later levels' die results, CON per level.
     this.hpMax = hitPointMax({
       firstLevel: (first?.system as { hpFirstLevel?: number } | undefined)?.hpFirstLevel ?? 0,
       firstLabel: first ? `${first.name} level 1` : "No level 1",

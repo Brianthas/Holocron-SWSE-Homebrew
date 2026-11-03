@@ -10,6 +10,13 @@
   (skills, and attacks with Attack and Damage), Build (abilities, the language tier, sheet
   problems), Notes (biography). Light and dark themes. The F1 debug sheet stays as a development
   view.
+- The sheet's padlock switches Play and Edit. Edit mode: the name; ability scores by point buy (25
+  points, the ruling's costs, 1 to 18, the next point's cost on the + button, over budget in red)
+  or entered by hand; the species +2, which a Small species other than a droid may not put on DEX;
+  Defense points (4, at most 2 in one, until level 10, then 8 and 4); trained skills against the
+  allowance (the level-1 class, INT, Bonus Trained Skill traits, Primitive, Skill Training), over
+  it in red; the language spoken besides the species language, and other languages. The sheet
+  reports a species +2 or Defense points the rules do not allow.
 
 ## 0.0.1 - 2026-11-01
 

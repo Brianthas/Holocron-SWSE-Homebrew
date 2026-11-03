@@ -2,10 +2,17 @@
   <div class="strip"><span>BAB <b>{{bab}}</b></span><span>Size <b>{{sizeLabel}}</b></span></div>
   <div class="play-grid">
     <div>
-      <div class="section-head"><h3>Skills</h3></div>
+      <div class="section-head"><h3>Skills</h3><span class="trained-count{{#if trained.over}} over{{/if}}">Trained <b class="total" data-tooltip-html="{{trained.tooltip}}">{{trained.marked}} / {{trained.allowed}}</b></span></div>
       <div class="skill-list">
         {{#each skills}}
-        <div class="skill" data-skill="{{key}}"><span class="dot{{#if trained}} on{{/if}}" {{#if trained}}aria-label="Trained"{{/if}}></span><span>{{label}}</span><span class="num total" data-tooltip-html="{{tooltip}}">{{total}}</span></div>
+        <div class="skill" data-skill="{{key}}">
+          {{#if @root.editMode}}
+          <button type="button" class="dot{{#if marked}} on{{/if}}" data-action="toggleTrained" data-skill="{{key}}" aria-pressed="{{#if marked}}true{{else}}false{{/if}}" aria-label="Trained: {{label}}"></button>
+          {{else}}
+          <span class="dot{{#if trained}} on{{/if}}" {{#if trained}}aria-label="Trained"{{/if}}></span>
+          {{/if}}
+          <span>{{label}}</span><span class="num total" data-tooltip-html="{{tooltip}}">{{total}}</span>
+        </div>
         {{/each}}
       </div>
     </div>
