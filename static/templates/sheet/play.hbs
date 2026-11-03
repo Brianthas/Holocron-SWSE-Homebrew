@@ -1,5 +1,15 @@
 <section class="tab hc-panel {{tab.cssClass}}" data-tab="play" data-group="primary">
   <div class="strip"><span>BAB <b>{{bab}}</b></span><span>Size <b>{{sizeLabel}}</b></span></div>
+  <div>
+    <div class="section-head"><h3>Pinned</h3><span class="hint">Pin anything from Play or Force with <i class="fa-solid fa-thumbtack" inert></i> or a right-click</span></div>
+    <div class="pinned" data-list="pins">
+      {{#each pins}}
+      <button type="button" class="pin-chip" data-action="usePin" data-pin-id="{{id}}" data-tooltip="{{hint}}"><i class="fa-solid fa-thumbtack" inert></i> {{name}}</button>
+      {{else}}
+      <span class="hint">Nothing pinned.</span>
+      {{/each}}
+    </div>
+  </div>
   <div class="play-grid">
     <div>
       <div class="section-head"><h3>Skills</h3><span class="trained-count{{#if trained.over}} over{{/if}}">Trained <b class="total" data-tooltip-html="{{trained.tooltip}}">{{trained.marked}} / {{trained.allowed}}</b></span></div>
@@ -21,25 +31,31 @@
       <div class="section-head"><h3>Attacks</h3></div>
       <div class="list">
         {{#each attacks}}
-        <div class="list-row" data-item-id="{{id}}">
+        <div class="list-row" data-item-id="{{id}}" data-pin-id="{{id}}">
           <div class="main"><span class="nm">{{name}}</span>{{#if type}}<span class="tag {{typeClass}}">{{type}}</span>{{/if}}
             <span class="meta"><b data-tooltip-html="{{attackTooltip}}">{{attack}}</b> · <b>{{damage}}</b></span></div>
-          <div class="end"><button type="button" class="btn primary" data-action="attack" data-item-id="{{id}}">Attack</button><button type="button" class="btn" data-action="damage" data-item-id="{{id}}">Damage</button></div>
+          <div class="end"><button type="button" class="btn primary" data-action="attack" data-item-id="{{id}}">Attack</button><button type="button" class="btn" data-action="damage" data-item-id="{{id}}">Damage</button>
+            <button type="button" class="pin-toggle" data-action="togglePin" data-pin-id="{{id}}" aria-pressed="{{pinned}}" aria-label="Pin {{name}}"><i class="fa-solid fa-thumbtack" inert></i></button></div>
         </div>
         {{else}}
         <div class="empty-note">No weapons.</div>
         {{/each}}
       </div>
-      <div class="section-head talents-head"><h3>Talents</h3></div>
+      <div class="section-head talents-head"><h3>Talents and stances</h3></div>
       <div class="list" data-list="talents">
         {{#each talents}}
-        <div class="list-row" data-item-id="{{id}}">
+        <div class="list-row" data-item-id="{{id}}" data-pin-id="{{id}}">
           <div class="main"><span class="nm">{{name}}</span>{{#if action}}<span class="cost-tag">{{action}}</span>{{/if}}<span class="meta">{{tree}}</span></div>
-          <div class="end">{{#if @root.editMode}}<button type="button" class="btn remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}"><i class="fa-solid fa-trash" inert></i></button>{{/if}}</div>
+          <div class="end">{{#if @root.editMode}}<button type="button" class="btn remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}"><i class="fa-solid fa-trash" inert></i></button>{{/if}}
+            <button type="button" class="btn" data-action="useItem" data-item-id="{{id}}">Use</button>
+            <button type="button" class="pin-toggle" data-action="togglePin" data-pin-id="{{id}}" aria-pressed="{{pinned}}" aria-label="Pin {{name}}"><i class="fa-solid fa-thumbtack" inert></i></button></div>
         </div>
-        {{else}}
-        <div class="empty-note">No talents. Drag one from the Talents compendium.</div>
         {{/each}}
+        <div class="list-row" data-pin-id="stance">
+          <div class="main"><span class="nm">Defensive Stance</span><span class="cost-tag">Full-Round</span><span class="meta">{{effects.stance.text}}, no actions</span></div>
+          <div class="end"><button type="button" class="btn{{#if effects.stance.on}} primary{{/if}}" data-action="toggleStance" aria-pressed="{{effects.stance.on}}" {{#unless editable}}disabled{{/unless}}>{{#if effects.stance.on}}Leave{{else}}Enter{{/if}}</button>
+            <button type="button" class="pin-toggle" data-action="togglePin" data-pin-id="stance" aria-pressed="{{stancePinned}}" aria-label="Pin Defensive Stance"><i class="fa-solid fa-thumbtack" inert></i></button></div>
+        </div>
       </div>
     </div>
   </div>

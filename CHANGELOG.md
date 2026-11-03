@@ -59,6 +59,11 @@
   feats and gear: each item's effects, an unworn armor's or uninstalled droid system's dimmed as
   not in use. Every effect's text is written from its changes ("+1 attack with Lightsabers",
   "+2 species bonus to Will Defense").
+- Pins. Every attack, talent, Defensive Stance, power, technique and secret row has a pin button,
+  and a right-click on the row does the same. Pinned rows show as chips at the top of Play, in the
+  order pinned; a chip does what its row's main button does (Attack, roll the power, Use, enter or
+  leave the stance). A deleted item's chip goes with it. Talents have a Use button that posts the
+  talent's text to chat, and Defensive Stance has a row on Play.
 
 ## 0.0.1 - 2026-11-01
 

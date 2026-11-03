@@ -5,6 +5,7 @@ import type { CharacterModel, WeaponData } from "../data/actor/character.ts";
 import { rollAttack, rollDamage } from "../dice/attack.ts";
 import { checkDialog, rollCheck, useSecondWind } from "../dice/check.ts";
 import { actionTag, readyAllPowers, rollPower } from "../dice/force.ts";
+import { postItem } from "../dice/item-card.ts";
 import { FORCE_DESCRIPTORS, type ForceDescriptorKey } from "../config/force.ts";
 import { featureSlots, forcePowersKnown } from "../rules/force.ts";
 import { describeChange, type ChangeLike } from "../effects/describe.ts";
@@ -34,6 +35,8 @@ const PIP_RESOURCES = {
 type PipResource = keyof typeof PIP_RESOURCES;
 const QUICK_ROLLS: SkillKey[] = ["perception", "useTheForce", "initiative"];
 const CLASS_PACK = "holocron.classes";
+/** What can be pinned, and what its chip does (mockup 1: "Pin anything from Play or Force"). */
+const PIN_HINTS = { weapon: "Attack", forcePower: "Roll Use the Force", talent: "Use", feature: "Use" } as const;
 const CARRY_LABELS: Record<Carry, string> = { carried: "Carried", hands: "In hands", stowed: "Stowed" };
 /** The class a new level goes to: one the character has (item id) or one from the Classes compendium (uuid). */
 interface ClassRef { name: string; die: number; itemId?: string; uuid?: string }
@@ -59,6 +62,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       darkSide: CharacterSheet.#darkSide, powerPip: CharacterSheet.#powerPip, readyPowers: CharacterSheet.#readyPowers,
       removeCopy: CharacterSheet.#removeCopy, rollPower: CharacterSheet.#rollPower, expand: CharacterSheet.#expand, browse: CharacterSheet.#browse,
       toggleStance: CharacterSheet.#toggleStance, deleteEffect: CharacterSheet.#deleteEffect,
+      togglePin: CharacterSheet.#togglePin, usePin: CharacterSheet.#usePin, useItem: CharacterSheet.#useItem,
     },
   };
 
@@ -101,6 +105,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     const limits = defensePointLimits(s.level);
     const pointsSpent = DEFENSES.reduce((n, d) => n + s.defensePoints[d], 0);
     // marked: trained by hand, which Edit mode toggles; trained also counts skills an effect grants.
+    const pins = new Set(s.pins);
     const skill = (k: SkillKey) => ({ key: k, label: SKILLS[k].label, trained: s.isTrained(k), marked: s.skills[k].trained, total: signed(s.skillTotals[k].total), tooltip: breakdownHtml(SKILLS[k].label, s.skillTotals[k]) });
     return Object.assign(context, {
       img: actor.img,
@@ -138,7 +143,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
         const data = w.system as WeaponData & { damageTypes?: string[] };
         const attack = s.attackFor(data);
         const type = data.damageTypes?.[0] ?? "";
-        return { id: w.id, name: w.name, attack: signed(attack.total), attackTooltip: breakdownHtml("Attack", attack), damage: s.damageFor(data).formula, type, typeClass: type.toLowerCase() };
+        return { id: w.id, name: w.name, attack: signed(attack.total), attackTooltip: breakdownHtml("Attack", attack), damage: s.damageFor(data).formula, type, typeClass: type.toLowerCase(), pinned: pins.has(w.id ?? "") };
       }),
       editMode,
       abilityBuy: buy,
@@ -191,7 +196,9 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       inventory: this.#inventoryContext(droid),
       force: await this.#forceContext(),
       effects: this.#effectsContext(),
-      talents: actor.items.filter((i) => i.type === "talent").map((t) => ({ id: t.id, name: t.name, tree: (t.system as { tree?: string }).tree ?? "", action: (t.system as { action?: string }).action ?? "" }))
+      pins: this.#pinsContext(),
+      stancePinned: pins.has("stance"),
+      talents: actor.items.filter((i) => i.type === "talent").map((t) => ({ id: t.id, name: t.name, tree: (t.system as { tree?: string }).tree ?? "", action: (t.system as { action?: string }).action ?? "", pinned: pins.has(t.id ?? "") }))
         .sort((a, b) => a.name.localeCompare(b.name)),
       feats: actor.items.filter((i) => i.type === "feat").map((f) => ({ id: f.id, name: f.name })).sort((a, b) => a.name.localeCompare(b.name)),
       problems: s.problems,
@@ -214,6 +221,16 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
   override async _onRender(context: object, options: foundry.applications.sheets.ActorSheetV2.RenderOptions): Promise<void> {
     await super._onRender(context as never, options);
     this.element.dataset["mode"] = this.#editMode && this.isEditable ? "edit" : "play";
+    // Right-click on a pinnable row pins or unpins it. The window element outlives renders, so the
+    // listener is added once.
+    if ((options as { isFirstRender?: boolean }).isFirstRender) {
+      this.element.addEventListener("contextmenu", (event) => {
+        const row = (event.target as HTMLElement).closest<HTMLElement>("[data-pin-id]");
+        if (!row || row.classList.contains("pin-chip")) return;
+        event.preventDefault();
+        void this.#pin(row.dataset["pinId"] ?? "");
+      });
+    }
     // A class from the compendium is chosen from a select, which reports a change rather than a click.
     const classSelect = this.element.querySelector<HTMLSelectElement>("select.level-class");
     classSelect?.addEventListener("change", async () => {
@@ -306,7 +323,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       // The description carries the power's target and DC table (every converted power with bands).
       const d = p.system as unknown as { descriptors: ForceDescriptorKey[]; action: string; description: string; copies: number; ready: number };
       return {
-        id: p.id, name: p.name, copies: d.copies, expanded: this.#expanded.has(p.id ?? ""),
+        id: p.id, name: p.name, copies: d.copies, expanded: this.#expanded.has(p.id ?? ""), pinned: s.pins.includes(p.id ?? ""),
         pips: Array.from({ length: d.copies }, (_, i) => ({ index: i, number: i + 1, on: i < d.ready })),
         tags: d.descriptors.map((k) => FORCE_DESCRIPTORS[k]), action: actionTag(d.action), actionTitle: d.action,
         description: await enrich(d.description),
@@ -323,7 +340,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       return {
         key, label, plural, pack, empty, slots, count: list.length, over: list.length > slots,
         items: await Promise.all(list.map(async (f) => ({
-          id: f.id, name: f.name, power: (f.system as { power?: string }).power ?? "", expanded: this.#expanded.has(f.id ?? ""),
+          id: f.id, name: f.name, power: (f.system as { power?: string }).power ?? "", expanded: this.#expanded.has(f.id ?? ""), pinned: s.pins.includes(f.id ?? ""),
           description: await enrich((f.system as { description?: string }).description ?? ""),
         }))),
       };
@@ -361,6 +378,20 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       },
       powers, features, pending,
     };
+  }
+
+  /**
+   * Pinned chips, in pin order. Only ids that still name an item (or "stance") become chips, so a
+   * deleted item drops out; each chip says what clicking it does, which is what its row's main button does.
+   */
+  #pinsContext() {
+    const s = this.actor.system as CharacterModel;
+    return s.pins.flatMap((id) => {
+      if (id === "stance") return [{ id, name: "Defensive Stance", hint: "Enter or leave the stance" }];
+      const item = this.actor.items.get(id);
+      if (!item || !(item.type in PIN_HINTS)) return [];
+      return [{ id, name: item.name, hint: PIN_HINTS[item.type as keyof typeof PIN_HINTS] }];
+    });
   }
 
   /**
@@ -601,6 +632,37 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     await this.actor.update({ [`system.skills.${k}.trained`]: !s.skills[k].trained });
   }
 
+  /** Pins or unpins a row; a new pin goes last. */
+  async #pin(id: string): Promise<void> {
+    if (!this.isEditable || !id) return;
+    const pins = [...(this.actor.system as CharacterModel).pins];
+    const at = pins.indexOf(id);
+    if (at >= 0) pins.splice(at, 1);
+    else pins.push(id);
+    await this.actor.update({ "system.pins": pins } as never);
+  }
+
+  static async #togglePin(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    await this.#pin(target.dataset["pinId"] ?? "");
+  }
+
+  /** A chip does what its row's main button does: Attack, roll the power, Use, or the stance. */
+  static async #usePin(this: CharacterSheet, event: PointerEvent, target: HTMLElement): Promise<void> {
+    const id = target.dataset["pinId"] ?? "";
+    if (id === "stance") return CharacterSheet.#toggleStance.call(this);
+    const item = this.actor.items.get(id);
+    if (!item) return;
+    const actor = this.actor as Actor.Implementation;
+    if (item.type === "weapon") await rollAttack(actor, item as Item.Implementation);
+    else if (item.type === "forcePower") await this.#powerRoll(item as Item.Implementation, event.shiftKey);
+    else await postItem(actor, item as Item.Implementation);
+  }
+
+  static async #useItem(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const item = this.actor.items.get(target.dataset["itemId"] ?? "");
+    if (item) await postItem(this.actor as Actor.Implementation, item as Item.Implementation);
+  }
+
   static async #toggleStance(this: CharacterSheet): Promise<void> {
     if (this.isEditable) await toggleStance(this.actor as Actor.Implementation);
   }
@@ -646,10 +708,13 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
   /** A power's check, through the check dialog; Shift+click rolls straight away, as skills do. */
   static async #rollPower(this: CharacterSheet, event: PointerEvent, target: HTMLElement): Promise<void> {
     const item = this.actor.items.get(target.dataset["itemId"] ?? "");
-    if (item?.type !== "forcePower") return;
+    if (item?.type === "forcePower") await this.#powerRoll(item as Item.Implementation, event.shiftKey);
+  }
+
+  async #powerRoll(power: Item.Implementation, skipDialog: boolean): Promise<void> {
     const actor = this.actor as Actor.Implementation;
-    const choice = event.shiftKey ? { advantage: false, other: 0 } : await checkDialog(actor, "useTheForce");
-    if (choice) await rollPower(actor, item as Item.Implementation, choice);
+    const choice = skipDialog ? { advantage: false, other: 0 } : await checkDialog(actor, "useTheForce");
+    if (choice) await rollPower(actor, power, choice);
   }
 
   static async #expand(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {

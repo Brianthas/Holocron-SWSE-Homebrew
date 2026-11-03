@@ -628,11 +628,11 @@ el().querySelector('nav.sheet-tabs [data-tab="play"]').click();
 // with Fortitude.
 el().querySelector('nav.sheet-tabs [data-tab="effects"]').click();
 const sidebarDefense = (key) => Number(text(`.hc-sidebar [data-defense="${key}"] .total`));
-const defensesNow = () => ({ reflex: sidebarDefense("reflex"), fortitude: sidebarDefense("fortitude"), will: sidebarDefense("will"), maneuver: sidebarDefense("maneuver"), button: text('[data-action="toggleStance"]') });
+const defensesNow = () => ({ reflex: sidebarDefense("reflex"), fortitude: sidebarDefense("fortitude"), will: sidebarDefense("will"), maneuver: sidebarDefense("maneuver"), button: text('[data-tab="effects"] [data-action="toggleStance"]') });
 const stanceOff = defensesNow();
-await act('[data-action="toggleStance"]', "createActiveEffect");
+await act('[data-tab="effects"] [data-action="toggleStance"]', "createActiveEffect");
 const stanceOn = defensesNow();
-await act('[data-action="toggleStance"]', "deleteActiveEffect");
+await act('[data-tab="effects"] [data-action="toggleStance"]', "deleteActiveEffect");
 const stanceAgain = defensesNow();
 check("Defensive Stance On adds 5 to Reflex, Fortitude, Will and DT+5 in the sidebar; Off takes it away", stanceOff.button === "Off" && stanceOn.button === "On"
   && ["reflex", "fortitude", "will", "maneuver"].every((k) => stanceOn[k] === stanceOff[k] + 5 && stanceAgain[k] === stanceOff[k]) && stanceAgain.button === "Off" && !actor.effects.size,
@@ -671,6 +671,59 @@ check("a timed effect lists '+2 insight bonus to Perception' and 'Until Long res
   && timedRow.left === "Until Long rest" && !actor.effects.get(timed.id) && !effectRow("timed", "Until Rest Probe"), timedRow);
 await ensureMode("play");
 el().querySelector('nav.sheet-tabs [data-tab="play"]').click();
+
+// Pins: the toggle on a row, a right-click on a row, chips in pin order at the top of Play, and a
+// chip doing what its row's main button does.
+const pistol = actor.items.getName("Blaster Pistol");
+const assuredStrike = actor.items.getName("Assured Strike");
+const duelingStance = actor.items.getName("Dueling Stance");
+const chips = () => [...el().querySelectorAll('[data-list="pins"] .pin-chip')].map((c) => c.textContent.trim());
+const chipsStart = chips();
+await act(`[data-action="togglePin"][data-pin-id="${pistol.id}"]`);
+{
+  const updated = new Promise((resolve) => Hooks.once("updateActor", resolve));
+  el().querySelector('.list-row[data-pin-id="stance"] .nm').dispatchEvent(new MouseEvent("contextmenu", { bubbles: true, cancelable: true }));
+  await updated;
+  await sheet.render();
+}
+el().querySelector('nav.sheet-tabs [data-tab="force"]').click();
+await act(`[data-action="togglePin"][data-pin-id="${assuredStrike.id}"]`);
+const forcePressed = el().querySelector(`[data-action="togglePin"][data-pin-id="${assuredStrike.id}"]`).getAttribute("aria-pressed");
+el().querySelector('nav.sheet-tabs [data-tab="play"]').click();
+const pinned = { chips: chips(), pins: [...actor._source.system.pins], pistolPressed: el().querySelector(`[data-action="togglePin"][data-pin-id="${pistol.id}"]`).getAttribute("aria-pressed"), forcePressed };
+check("pinning: the Blaster Pistol's pin, a right-click on Defensive Stance, and Assured Strike's pin on Force make three chips in that order",
+  chipsStart.length === 0 && JSON.stringify(pinned.chips) === '["Blaster Pistol","Defensive Stance","Assured Strike"]'
+  && JSON.stringify(pinned.pins) === JSON.stringify([pistol.id, "stance", assuredStrike.id]) && pinned.pistolPressed === "true" && forcePressed === "true", { chipsStart, ...pinned });
+
+const chip = (id) => el().querySelector(`[data-list="pins"] [data-pin-id="${id}"]`);
+let card = nextMessage();
+chip(pistol.id).click();
+const chipAttack = await card;
+await act(`[data-list="pins"] [data-pin-id="stance"]`, "createActiveEffect");
+const stanceFromChip = actor.effects.some((e) => e.getFlag("holocron", "stance"));
+await act(`[data-list="pins"] [data-pin-id="stance"]`, "deleteActiveEffect");
+card = nextMessage();
+chip(assuredStrike.id).dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true, shiftKey: true }));
+const chipPower = await card;
+card = nextMessage();
+el().querySelector(`[data-action="useItem"][data-item-id="${duelingStance.id}"]`).click();
+const used = await card;
+check("chips: the pistol's attacks, the stance's enters and leaves, Assured Strike's (Shift) rolls the power; a talent's Use posts its text",
+  chipAttack.getFlag("holocron", "attack")?.weapon === "Blaster Pistol" && stanceFromChip && !actor.effects.size && chipPower.flavor === "Use the Force (Assured Strike)"
+  && used.flavor === "Dueling Stance" && used.content.includes("Block"), { attack: chipAttack.getFlag("holocron", "attack")?.weapon, stanceFromChip, power: chipPower.flavor, used: used.flavor, usedText: used.content.slice(0, 80) });
+
+// A deleted item's chip goes; unpinning by right-click takes the stance's away.
+{
+  const deleted = new Promise((resolve) => Hooks.once("deleteItem", resolve));
+  await assuredStrike.delete();
+  await deleted;
+  await sheet.render();
+  const updated = new Promise((resolve) => Hooks.once("updateActor", resolve));
+  el().querySelector('.list-row[data-pin-id="stance"]').dispatchEvent(new MouseEvent("contextmenu", { bubbles: true, cancelable: true }));
+  await updated;
+  await sheet.render();
+}
+check("a deleted pinned item drops out of the chips; a second right-click unpins the stance", JSON.stringify(chips()) === '["Blaster Pistol"]', { chips: chips() });
 
 // Every region scrolls when the window is short (standing rule 19).
 sheet.setPosition({ height: 360 });

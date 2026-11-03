@@ -65,6 +65,8 @@ function characterSchema() {
     }),
     details: new fields.SchemaField({ biography: new fields.HTMLField() }),
     credits: int(0, 0),
+    /** Pinned to the top of Play, in order: item ids, or "stance" for Defensive Stance (mockup 1). */
+    pins: new fields.ArrayField(new fields.StringField({ required: true, blank: false })),
   };
 }
 

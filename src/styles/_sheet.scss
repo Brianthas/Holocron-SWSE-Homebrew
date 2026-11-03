@@ -598,6 +598,42 @@
   .list-row .detail { grid-column: 1 / -1; padding: 6px 4px 8px 26px; font-size: 13px; color: var(--hc-text); display: grid; gap: 6px; }
   .list-row .detail[hidden] { display: none; }
   .list-row .detail .description p { margin: 0 0 6px; }
+  // Pins (mockup 1): the toggle on each row, and the chips at the top of Play.
+  button.pin-toggle {
+    flex: none;
+    width: auto;
+    min-height: 0;
+    border: 0;
+    background: none;
+    color: var(--hc-muted);
+    cursor: pointer;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    opacity: 0.55;
+
+    &[aria-pressed="true"] { color: var(--hc-accent); opacity: 1; }
+  }
+  .list-row:hover button.pin-toggle { opacity: 1; }
+  .pinned { display: flex; flex-wrap: wrap; gap: 6px; min-height: 30px; align-items: center; padding-top: 6px; }
+  button.pin-chip {
+    flex: none;
+    width: auto;
+    min-height: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: var(--hc-accent-soft);
+    border: 1px solid var(--hc-accent-line);
+    color: var(--hc-text);
+    font: 13px var(--hc-font-body);
+    cursor: pointer;
+
+    i { font-size: 11px; color: var(--hc-accent); }
+    &:hover { border-color: var(--hc-accent); }
+  }
   // Effects tab: an expired, disabled or suppressed effect (unworn armor) stays listed, dimmed.
   .list-row.inactive { opacity: 0.6; }
 

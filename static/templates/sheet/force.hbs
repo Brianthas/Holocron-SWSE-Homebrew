@@ -19,12 +19,13 @@
       <div class="btns"><button type="button" class="btn" data-action="readyPowers" data-tooltip="Mark every power ready again">End of combat</button><button type="button" class="btn" data-action="browse" data-pack="holocron.force-powers">Browse powers</button></div></div>
     <div class="list" data-list="powers">
       {{#each force.powers}}
-      <div class="list-row" data-item-id="{{id}}">
+      <div class="list-row" data-item-id="{{id}}" data-pin-id="{{id}}">
         <div class="main"><button type="button" class="expander" data-action="expand" data-item-id="{{id}}" aria-expanded="{{expanded}}" aria-label="Show {{name}}">{{#if expanded}}&#9662;{{else}}&#9656;{{/if}}</button>
           <span class="pips" data-tooltip="Ready copies: click to mark used or ready">{{#each pips}}<button type="button" class="pip{{#if on}} on{{/if}}" data-action="powerPip" data-item-id="{{../id}}" data-index="{{index}}" aria-label="Copy {{number}}: {{#if on}}ready{{else}}used{{/if}}" {{#unless @root.editable}}disabled{{/unless}}></button>{{/each}}</span>
           <span class="nm">{{name}}</span>{{#each tags}}<span class="tag">{{this}}</span>{{/each}}{{#if action}}<span class="cost-tag" data-tooltip="{{actionTitle}}">{{action}}</span>{{/if}}</div>
         <div class="end">{{#if @root.editMode}}<button type="button" class="pow-remove" data-action="removeCopy" data-item-id="{{id}}" aria-label="Remove a copy of {{name}}" data-tooltip="Remove a copy">&minus;</button>{{/if}}
-          <button type="button" class="roll-btn" data-action="rollPower" data-item-id="{{id}}" aria-label="Roll {{name}}" data-tooltip="Roll Use the Force (Shift: no dialog)"><i class="fa-solid fa-dice-d20" inert></i></button></div>
+          <button type="button" class="roll-btn" data-action="rollPower" data-item-id="{{id}}" aria-label="Roll {{name}}" data-tooltip="Roll Use the Force (Shift: no dialog)"><i class="fa-solid fa-dice-d20" inert></i></button>
+          <button type="button" class="pin-toggle" data-action="togglePin" data-pin-id="{{id}}" aria-pressed="{{pinned}}" aria-label="Pin {{name}}"><i class="fa-solid fa-thumbtack" inert></i></button></div>
         <div class="detail"{{#unless expanded}} hidden{{/unless}}><div class="description">{{{description}}}</div></div>
       </div>
       {{else}}
@@ -38,10 +39,11 @@
       <div class="btns"><button type="button" class="btn" data-action="browse" data-pack="{{pack}}">Browse {{plural}}</button></div></div>
     <div class="list" data-list="{{key}}">
       {{#each items}}
-      <div class="list-row" data-item-id="{{id}}">
+      <div class="list-row" data-item-id="{{id}}" data-pin-id="{{id}}">
         <div class="main"><button type="button" class="expander" data-action="expand" data-item-id="{{id}}" aria-expanded="{{expanded}}" aria-label="Show {{name}}">{{#if expanded}}&#9662;{{else}}&#9656;{{/if}}</button>
           <span class="nm">{{name}}</span>{{#if power}}<span class="tag">{{power}}</span>{{/if}}</div>
-        <div class="end">{{#if @root.editMode}}<button type="button" class="pow-remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}" data-tooltip="Remove">&minus;</button>{{/if}}</div>
+        <div class="end">{{#if @root.editMode}}<button type="button" class="pow-remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}" data-tooltip="Remove">&minus;</button>{{/if}}
+          <button type="button" class="pin-toggle" data-action="togglePin" data-pin-id="{{id}}" aria-pressed="{{pinned}}" aria-label="Pin {{name}}"><i class="fa-solid fa-thumbtack" inert></i></button></div>
         <div class="detail"{{#unless expanded}} hidden{{/unless}}><div class="description">{{{description}}}</div></div>
       </div>
       {{else}}
