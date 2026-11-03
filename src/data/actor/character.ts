@@ -6,6 +6,7 @@ import type { GrantFlag } from "../../effects/selectors.ts";
 import { abilityMod, abilityScore } from "../../rules/abilities.ts";
 import { weaponAttack, weaponDamage } from "../../rules/attacks.ts";
 import { defensePointLimits, speciesChoiceAllowed, trainedSkillsAllowed } from "../../rules/build.ts";
+import { slotsUsed, type CarriedItem } from "../../rules/inventory.ts";
 import { DEFENSES, defense, maneuverDefense, reflexAbilityTerm, type DefenseKey } from "../../rules/defenses.ts";
 import { total, type Breakdown, type Modifier } from "../../rules/modifiers.ts";
 import {
@@ -63,6 +64,7 @@ function characterSchema() {
       other: new fields.StringField({ required: true, blank: true, initial: "" }),
     }),
     details: new fields.SchemaField({ biography: new fields.HTMLField() }),
+    credits: int(0, 0),
   };
 }
 
@@ -102,6 +104,8 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
   declare darkSideMax: number;
   declare languageTier: ReturnType<typeof languages>;
   declare slots: ReturnType<typeof carrySlots>;
+  /** Light and Kit slots the carried weapons and equipment use (src/rules/inventory.ts). */
+  declare slotsUsed: { light: number; kit: number };
   /** Problems derivation found in the data, e.g. a progression entry naming a class item that is gone. */
   declare problems: string[];
 
@@ -275,5 +279,6 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
       lightBonuses: this.modifiers["slots.light"] ?? [],
       kitBonuses: this.modifiers["slots.kit"] ?? [],
     });
+    this.slotsUsed = slotsUsed(items.filter((i) => i.type === "weapon" || i.type === "equipment").map((i) => i.system as unknown as CarriedItem));
   }
 }

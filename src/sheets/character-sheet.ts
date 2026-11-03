@@ -7,6 +7,7 @@ import {
   ABILITY_INCREASE_LEVELS, defensePointLimits, POINT_BUY_BUDGET, POINT_BUY_MAX, pointBuyCost, pointBuySpent, speciesChoiceAllowed,
 } from "../rules/build.ts";
 import { DEFENSES, DEFENSE_LABELS, type DefenseKey } from "../rules/defenses.ts";
+import { nextCarry, nextSize, SLOT_LABELS, type Carry, type SlotSize } from "../rules/inventory.ts";
 import { averageHitDie, hpEntry } from "../rules/resources.ts";
 import { breakdownHtml, signed } from "./breakdown.ts";
 
@@ -27,6 +28,7 @@ const PIP_RESOURCES = {
 type PipResource = keyof typeof PIP_RESOURCES;
 const QUICK_ROLLS: SkillKey[] = ["perception", "useTheForce", "initiative"];
 const CLASS_PACK = "holocron.classes";
+const CARRY_LABELS: Record<Carry, string> = { carried: "Carried", hands: "In hands", stowed: "Stowed" };
 /** The class a new level goes to: one the character has (item id) or one from the Classes compendium (uuid). */
 interface ClassRef { name: string; die: number; itemId?: string; uuid?: string }
 const capitalise = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
@@ -45,7 +47,8 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       speciesPick: CharacterSheet.#speciesPick, defenseStep: CharacterSheet.#defenseStep, toggleTrained: CharacterSheet.#toggleTrained,
       levelUpStart: CharacterSheet.#levelUpStart, levelUpCancel: CharacterSheet.#levelUpCancel, levelClass: CharacterSheet.#levelClass,
       levelHp: CharacterSheet.#levelHp, removeLevel: CharacterSheet.#removeLevel, increasePick: CharacterSheet.#increasePick,
-      increaseSave: CharacterSheet.#increaseSave,
+      increaseSave: CharacterSheet.#increaseSave, cycleCarry: CharacterSheet.#cycleCarry, toggleWorn: CharacterSheet.#toggleWorn,
+      toggleInstalled: CharacterSheet.#toggleInstalled, deleteItem: CharacterSheet.#deleteItem, cycleSize: CharacterSheet.#cycleSize,
     },
   };
 
@@ -55,11 +58,12 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     tabs: { template: "templates/generic/tab-navigation.hbs" },
     play: { template: `${TEMPLATES}/play.hbs`, scrollable: [""] },
     build: { template: `${TEMPLATES}/build.hbs`, scrollable: [""] },
+    inventory: { template: `${TEMPLATES}/inventory.hbs`, scrollable: [""] },
     notes: { template: `${TEMPLATES}/notes.hbs`, scrollable: [""] },
   };
 
   static override TABS = {
-    primary: { tabs: [{ id: "play" }, { id: "build" }, { id: "notes" }], initial: "play", labelPrefix: "HOLOCRON.Sheet.Tab" },
+    primary: { tabs: [{ id: "play" }, { id: "build" }, { id: "inventory" }, { id: "notes" }], initial: "play", labelPrefix: "HOLOCRON.Sheet.Tab" },
   };
 
   /** Play or Edit (mockup 1's padlock). Edit unlocks build data; Play keeps the numbers that change in play editable. */
@@ -164,6 +168,10 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
         };
       }),
       levelUp: await this.#levelUpContext(),
+      inventory: this.#inventoryContext(droid),
+      talents: actor.items.filter((i) => i.type === "talent").map((t) => ({ id: t.id, name: t.name, tree: (t.system as { tree?: string }).tree ?? "", action: (t.system as { action?: string }).action ?? "" }))
+        .sort((a, b) => a.name.localeCompare(b.name)),
+      feats: actor.items.filter((i) => i.type === "feat").map((f) => ({ id: f.id, name: f.name })).sort((a, b) => a.name.localeCompare(b.name)),
       problems: s.problems,
       biography: {
         source: s.details.biography ?? "",
@@ -209,6 +217,28 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
   static async #damage(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
     const weapon = this.actor.items.get(target.dataset["itemId"] ?? "");
     if (weapon) await rollDamage(this.actor as Actor.Implementation, weapon as Item.Implementation);
+  }
+
+  /** Capacity, and the gear lists by type. Droid systems show only for a droid species (mockup 1). */
+  #inventoryContext(droid: boolean) {
+    const s = this.actor.system as CharacterModel;
+    const bar = (used: number, b: { total: number }, label: string) => ({
+      used, total: b.total, over: used > b.total, percent: b.total > 0 ? Math.min(100, Math.round((used / b.total) * 100)) : used ? 100 : 0, tooltip: breakdownHtml(label, b as never),
+    });
+    const of = (type: string) => this.actor.items.filter((i) => i.type === type).sort((a, b) => (a.name ?? "").localeCompare(b.name ?? ""));
+    const carried = (i: Item.Implementation) => {
+      const sys = i.system as { slot?: SlotSize; carry?: Carry; quantity?: number; integrated?: boolean };
+      return { id: i.id, name: i.name, size: SLOT_LABELS[sys.slot ?? "light"], quantity: sys.quantity, integrated: sys.integrated === true, carry: sys.carry ?? "carried", carryLabel: CARRY_LABELS[sys.carry ?? "carried"] };
+    };
+    return {
+      light: bar(s.slotsUsed.light, s.slots.light, "Light slots"),
+      kit: bar(s.slotsUsed.kit, s.slots.kit, "Kit slots"),
+      weapons: of("weapon").map((i) => carried(i as Item.Implementation)),
+      equipment: of("equipment").map((i) => carried(i as Item.Implementation)),
+      armor: of("armor").map((i) => ({ id: i.id, name: i.name, worn: (i.system as { worn?: boolean }).worn === true })),
+      droidSystems: droid ? of("droidSystem").map((i) => ({ id: i.id, name: i.name, installed: (i.system as { installed?: boolean }).installed === true })) : null,
+      credits: s.credits,
+    };
   }
 
   /** The level-up row: the classes to choose from, or the hit point choice for the chosen class. */
@@ -326,6 +356,50 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     entry.increases = [...picks];
     this.#increasePicks.delete(level);
     await this.actor.update({ "system.progression": progression } as never);
+  }
+
+  /** Carried, then In hands (one Kit, if the hands are free), then Stowed (episode-vii, Equipment). */
+  static async #cycleCarry(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const item = this.actor.items.get(target.dataset["itemId"] ?? "");
+    if (!item || !["weapon", "equipment"].includes(item.type)) return;
+    const sys = item.system as { slot: SlotSize; carry: Carry };
+    const handsTaken = this.actor.items.some((i) => i.id !== item.id && (i.system as { carry?: Carry }).carry === "hands");
+    await item.update({ "system.carry": nextCarry(sys.carry, sys.slot, handsTaken) } as never);
+  }
+
+  /** Edit mode: an equipment item's size, none, Light, Kit (src/rules/inventory.ts, nextSize). */
+  static async #cycleSize(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    if (!this.#editMode) return;
+    const item = this.actor.items.get(target.dataset["itemId"] ?? "");
+    if (item?.type === "equipment") await item.update({ "system.slot": nextSize((item.system as { slot: SlotSize }).slot) } as never);
+  }
+
+  static async #toggleWorn(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const item = this.actor.items.get(target.dataset["itemId"] ?? "");
+    if (item?.type === "armor") await item.update({ "system.worn": !(item.system as { worn?: boolean }).worn } as never);
+  }
+
+  static async #toggleInstalled(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const item = this.actor.items.get(target.dataset["itemId"] ?? "");
+    if (item?.type === "droidSystem") await item.update({ "system.installed": !(item.system as { installed?: boolean }).installed } as never);
+  }
+
+  /** Removes an item, after Foundry's own confirmation. Edit mode only. */
+  static async #deleteItem(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    if (!this.#editMode || !this.isEditable) return;
+    const item = this.actor.items.get(target.dataset["itemId"] ?? "");
+    if (item) await item.deleteDialog();
+  }
+
+  /**
+   * A character has one species: a dropped species replaces the one it has. The new one is created
+   * first and the old one removed after, so a failed drop leaves the character as it was.
+   */
+  override async _onDropItem(event: DragEvent, item: Item.Implementation) {
+    const old = item.type === "species" ? this.actor.items.filter((i) => i.type === "species" && i.id !== item.id) : [];
+    const created = await super._onDropItem(event, item);
+    if (created && old.length && created.parent === this.actor) await this.actor.deleteEmbeddedDocuments("Item", old.map((i) => i.id ?? ""));
+    return created;
   }
 
   static async #toggleMode(this: CharacterSheet): Promise<void> {

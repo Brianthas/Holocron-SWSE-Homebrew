@@ -3,6 +3,7 @@ import { DROID_SYSTEM_GROUP_KEYS } from "../../config/droids.ts";
 import { FORCE_DESCRIPTOR_KEYS } from "../../config/force.ts";
 import { SIZES } from "../../config/sizes.ts";
 import { WEAPON_GROUP_KEYS } from "../../config/weapons.ts";
+import { CARRY_STATES, SLOT_SIZES } from "../../rules/inventory.ts";
 
 // Item models. The converter fills them from the fork's packs; fields hold what the house tables and
 // the fork's data carry, and the character's derivation reads them.
@@ -20,9 +21,9 @@ const prerequisite = () => new fields.SchemaField({
 });
 
 /** Where a carried item is: carried (uses slots), in hands (one Kit rides free), stowed (no slots). */
-const carry = () => new fields.StringField({ required: true, blank: false, initial: "carried", choices: ["carried", "hands", "stowed"] });
+const carry = () => new fields.StringField({ required: true, blank: false, initial: "carried", choices: [...CARRY_STATES] });
 /** Inventory size from the house tables: Light, 2 Light, Kit, 2 Kits; worn and installed use none. */
-const slot = () => new fields.StringField({ required: true, blank: false, initial: "light", choices: ["light", "twoLight", "kit", "twoKits", "none"] });
+const slot = () => new fields.StringField({ required: true, blank: false, initial: "light", choices: [...SLOT_SIZES] });
 
 function speciesSchema() {
   return {

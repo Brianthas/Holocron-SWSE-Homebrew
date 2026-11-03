@@ -1,4 +1,4 @@
-/* global game, Actor, Hooks, getComputedStyle, Event, __PACK_DOCS__ */
+/* global game, Actor, Hooks, getComputedStyle, Event, DataTransfer, DragEvent, __PACK_DOCS__ */
 // The character sheet (mockup 1, first slice), driven through its own controls on the rendered DOM.
 // pack-docs: species/bothan, species/jawa, classes/jedi, weapons/blaster-pistol
 //
@@ -38,6 +38,12 @@ await sheet.render({ force: true });
 await wait;
 const el = () => sheet.element;
 const text = (sel) => el().querySelector(sel)?.textContent.trim().replace(/\s+/g, " ");
+/** Puts the sheet in Play or Edit mode through the padlock, whatever mode the last step left. */
+const ensureMode = async (mode) => {
+  if (el().dataset.mode === mode) return;
+  el().querySelector('[data-action="toggleMode"]').click();
+  await sheet.render();
+};
 /** A setup write, waiting for the render it causes, so no stale render resolves a later wait. */
 const write = async (data) => {
   const done = rendered();
@@ -125,8 +131,9 @@ check("tabs: Play first; Build shows WIS 10 and the language tier; Notes holds t
 // Edit mode: the padlock, then each Build control, read back off the data and the rendered sheet.
 // After an action, render once more and wait for it: that render reflects the latest data, where a
 // render hook can catch an earlier one (adding a class item renders before the progression update).
-const act = async (selector) => {
-  const updated = new Promise((resolve) => Hooks.once("updateActor", resolve));
+// An item's own buttons (carry, size, worn) update the item, which fires updateItem instead.
+const act = async (selector, hook = "updateActor") => {
+  const updated = new Promise((resolve) => Hooks.once(hook, resolve));
   el().querySelector(selector).click();
   await updated;
   await sheet.render();
@@ -232,9 +239,7 @@ check("the name and Also speaks save through the form; locking returns to Play w
 await write({ name: "Sheet Probe" });
 
 // Levels. Average hit points: floor(die / 2) + 1 (rulings.md, Hit points and healing): d10 gives 6.
-wait = rendered();
-el().querySelector('[data-action="toggleMode"]').click();
-await wait;
+await ensureMode("edit");
 el().querySelector('nav.sheet-tabs [data-tab="build"]').click();
 // The sheet's own state (the level-up row, the increase picks) is set before the action's first await.
 const clickAndRender = async (selector) => {
@@ -312,6 +317,78 @@ check("Remove level 4 leaves three levels, the increase with it", actor._source.
     && blank._source.system.progression[0].class === cls.id && blank.system.hpMax.total === 30, { cls: cls?.name, levels: blank._source.system.progression.length, max: blank.system.hpMax.total });
   await sheet2.close();
 }
+
+// Items, added the way a player adds them: a compendium entry dropped on the sheet.
+const uuidOf = (pack, name) => game.packs.get(`holocron.${pack}`).index.getName(name)?.uuid;
+const drop = async (uuid) => {
+  const created = new Promise((resolve) => Hooks.once("createItem", resolve));
+  const data = new DataTransfer();
+  data.setData("text/plain", JSON.stringify({ type: "Item", uuid }));
+  el().querySelector("section.tab.active").dispatchEvent(new DragEvent("drop", { dataTransfer: data, bubbles: true, cancelable: true }));
+  const item = await created;
+  await sheet.render();
+  return item;
+};
+el().querySelector('nav.sheet-tabs [data-tab="inventory"]').click();
+const cap = () => ({ light: text('[data-capacity="light"] .total'), kit: text('[data-capacity="kit"] .total'), kitOver: el().querySelector('[data-capacity="kit"]').classList.contains("over") });
+const capStart = cap();
+const glow = await drop(uuidOf("equipment", "Glow Rod"));
+const medkit = await drop(uuidOf("equipment", "Medical Kit"));
+const rifle = await drop(uuidOf("weapons", "Blaster Rifle"));
+const capFull = cap();
+check("dropped from compendiums: STR 10 gives 1 / 10 Light and 0 / 1 Kit with the pistol; Glow Rod, Medical Kit and Blaster Rifle make 2 / 10 and 2 / 1, over",
+  capStart.light === "1 / 10" && capStart.kit === "0 / 1" && capFull.light === "2 / 10" && capFull.kit === "2 / 1" && capFull.kitOver
+  && [glow, medkit, rifle].every((i) => i?.parent === actor), { capStart, capFull });
+
+const carryOf = (item) => el().querySelector(`[data-action="cycleCarry"][data-item-id="${item.id}"]`)?.textContent.trim();
+await act(`[data-action="cycleCarry"][data-item-id="${medkit.id}"]`, "updateItem");
+const kitInHands = { medkit: carryOf(medkit), cap: cap() };
+await act(`[data-action="cycleCarry"][data-item-id="${rifle.id}"]`, "updateItem");
+const rifleNext = { rifle: carryOf(rifle), cap: cap() };
+check("Medical Kit to In hands frees its Kit slot (1 / 1); with the hands full the Rifle goes to Stowed (0 / 1)", kitInHands.medkit === "In hands" && kitInHands.cap.kit === "1 / 1"
+  && !kitInHands.cap.kitOver && rifleNext.rifle === "Stowed" && rifleNext.cap.kit === "0 / 1", { kitInHands, rifleNext });
+
+const armor = await drop(uuidOf("armor", "Power Armor"));
+await act(`[data-action="toggleWorn"][data-item-id="${armor.id}"]`, "updateItem");
+const worn = { str: actor.system.scores.str.value, cap: cap(), button: el().querySelector(`[data-action="toggleWorn"][data-item-id="${armor.id}"]`)?.textContent.trim() };
+check("Power Armor worn: STR 12 (its +2), so 12 Light and 2 Kit slots; droid systems are not shown for a Bothan", worn.str === 12 && worn.button === "Worn"
+  && worn.cap.light === "2 / 12" && worn.cap.kit === "0 / 2" && !el().querySelector('[data-list="droidSystems"]'), worn);
+
+// Sizes and removal are Edit mode controls.
+await ensureMode("edit");
+el().querySelector('nav.sheet-tabs [data-tab="inventory"]').click();
+const medpac = await drop(uuidOf("equipment", "Medpac"));
+const sizeStart = el().querySelector(`[data-action="cycleSize"][data-item-id="${medpac.id}"]`)?.textContent.trim();
+await act(`[data-action="cycleSize"][data-item-id="${medpac.id}"]`, "updateItem");
+const sized = { size: medpac.system.slot, cap: cap() };
+check("Medpac converts with no size; the size button makes it Light, adding one Light slot (3 / 12)", sizeStart === "No size" && sized.size === "light" && sized.cap.light === "3 / 12", { sizeStart, sized });
+
+const deleted = new Promise((resolve) => Hooks.once("deleteItem", resolve));
+const dialogShown = new Promise((resolve) => Hooks.once("renderDialogV2", (app) => resolve(app)));
+el().querySelector(`[data-action="deleteItem"][data-item-id="${glow.id}"]`).click();
+const dialog = await dialogShown;
+dialog.element.querySelector('[data-action="yes"]').click();
+await deleted;
+await sheet.render();
+check("Remove asks Foundry's confirmation, then deletes the Glow Rod (Light 2 / 12)", !actor.items.get(glow.id) && cap().light === "2 / 12", { light: cap().light });
+
+const toughness = await drop(uuidOf("feats", "Toughness"));
+const stance = await drop(uuidOf("talents", "Dueling Stance"));
+el().querySelector('nav.sheet-tabs [data-tab="build"]').click();
+const featListed = Boolean(el().querySelector(`[data-list="feats"] [data-item-id="${toughness.id}"]`));
+el().querySelector('nav.sheet-tabs [data-tab="play"]').click();
+const talentRow = el().querySelector(`[data-list="talents"] [data-item-id="${stance.id}"]`)?.textContent.replace(/\s+/g, " ").trim();
+check("a dropped feat is listed on Build, a dropped talent on Play with its action and tree", featListed && talentRow?.startsWith("Dueling Stance") && talentRow.includes("Lightsaber Combat"), { featListed, talentRow });
+
+// The old species is deleted after the new one is created, so wait for the delete too.
+let replaced = new Promise((resolve) => Hooks.once("deleteItem", resolve));
+const jawaSpecies = await drop(uuidOf("species", "Jawa"));
+await replaced;
+const species = actor.items.filter((i) => i.type === "species").map((i) => i.name);
+check("dropping a species replaces the one the character has", JSON.stringify(species) === '["Jawa"]' && jawaSpecies.parent === actor && actor.system.size === "small", { species, size: actor.system.size });
+replaced = new Promise((resolve) => Hooks.once("deleteItem", resolve));
+await drop(uuidOf("species", "Bothan"));
+await replaced;
 
 // Every region scrolls when the window is short (standing rule 19).
 sheet.setPosition({ height: 360 });

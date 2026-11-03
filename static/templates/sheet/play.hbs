@@ -29,6 +29,17 @@
         <div class="empty-note">No weapons.</div>
         {{/each}}
       </div>
+      <div class="section-head talents-head"><h3>Talents</h3></div>
+      <div class="list" data-list="talents">
+        {{#each talents}}
+        <div class="list-row" data-item-id="{{id}}">
+          <div class="main"><span class="nm">{{name}}</span>{{#if action}}<span class="cost-tag">{{action}}</span>{{/if}}<span class="meta">{{tree}}</span></div>
+          <div class="end">{{#if @root.editMode}}<button type="button" class="btn remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}"><i class="fa-solid fa-trash" inert></i></button>{{/if}}</div>
+        </div>
+        {{else}}
+        <div class="empty-note">No talents. Drag one from the Talents compendium.</div>
+        {{/each}}
+      </div>
     </div>
   </div>
 </section>

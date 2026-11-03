@@ -1,0 +1,72 @@
+<section class="tab hc-panel {{tab.cssClass}}" data-tab="inventory" data-group="primary">
+  <div class="card" data-card="capacity">
+    <div class="cap{{#if inventory.light.over}} over{{/if}}" data-capacity="light"><span class="label">Light</span><div class="meter"><i style="width: {{inventory.light.percent}}%"></i></div>
+      <span class="num total" data-tooltip-html="{{inventory.light.tooltip}}">{{inventory.light.used}} / {{inventory.light.total}}</span></div>
+    <div class="cap{{#if inventory.kit.over}} over{{/if}}" data-capacity="kit"><span class="label">Kit</span><div class="meter"><i style="width: {{inventory.kit.percent}}%"></i></div>
+      <span class="num total" data-tooltip-html="{{inventory.kit.tooltip}}">{{inventory.kit.used}} / {{inventory.kit.total}}</span></div>
+    <div class="hint">Only carried gear uses slots. One Kit can be carried in both hands on top. Drag items from a compendium onto the sheet to add them.</div>
+  </div>
+
+  {{#*inline "carriedList"}}
+  <div class="list" data-list="{{kind}}">
+    {{#each rows}}
+    <div class="list-row" data-item-id="{{id}}">
+      <div class="main"><span class="nm">{{name}}</span>
+        {{#if (and @root.editMode (eq ../kind "equipment"))}}<button type="button" class="tag size-cycle" data-action="cycleSize" data-item-id="{{id}}" data-tooltip="Size: none, Light, Kit">{{#if size}}{{size}}{{else}}No size{{/if}}</button>
+        {{else}}{{#if size}}<span class="tag">{{size}}</span>{{/if}}{{/if}}{{#if integrated}}<span class="tag">Integrated</span>{{/if}}{{#if quantity}}<span class="meta">x{{quantity}}</span>{{/if}}</div>
+      <div class="end">
+        <button type="button" class="btn carry {{carry}}" data-action="cycleCarry" data-item-id="{{id}}" {{#unless @root.editable}}disabled{{/unless}}>{{carryLabel}}</button>
+        {{#if @root.editMode}}<button type="button" class="btn remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}"><i class="fa-solid fa-trash" inert></i></button>{{/if}}
+      </div>
+    </div>
+    {{else}}
+    <div class="empty-note">None.</div>
+    {{/each}}
+  </div>
+  {{/inline}}
+
+  <div>
+    <div class="section-head"><h3>Weapons</h3></div>
+    {{> carriedList kind="weapons" rows=inventory.weapons}}
+  </div>
+  <div>
+    <div class="section-head"><h3>Armor</h3></div>
+    <div class="list" data-list="armor">
+      {{#each inventory.armor}}
+      <div class="list-row" data-item-id="{{id}}">
+        <div class="main"><span class="nm">{{name}}</span></div>
+        <div class="end">
+          <button type="button" class="btn{{#if worn}} primary{{/if}}" data-action="toggleWorn" data-item-id="{{id}}" aria-pressed="{{#if worn}}true{{else}}false{{/if}}" {{#unless @root.editable}}disabled{{/unless}}>{{#if worn}}Worn{{else}}Not worn{{/if}}</button>
+          {{#if @root.editMode}}<button type="button" class="btn remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}"><i class="fa-solid fa-trash" inert></i></button>{{/if}}
+        </div>
+      </div>
+      {{else}}
+      <div class="empty-note">None.</div>
+      {{/each}}
+    </div>
+  </div>
+  <div>
+    <div class="section-head"><h3>Equipment</h3></div>
+    {{> carriedList kind="equipment" rows=inventory.equipment}}
+  </div>
+  {{#if inventory.droidSystems}}
+  <div>
+    <div class="section-head"><h3>Droid systems</h3></div>
+    <div class="list" data-list="droidSystems">
+      {{#each inventory.droidSystems}}
+      <div class="list-row" data-item-id="{{id}}">
+        <div class="main"><span class="nm">{{name}}</span></div>
+        <div class="end">
+          <button type="button" class="btn{{#if installed}} primary{{/if}}" data-action="toggleInstalled" data-item-id="{{id}}" aria-pressed="{{#if installed}}true{{else}}false{{/if}}" {{#unless @root.editable}}disabled{{/unless}}>{{#if installed}}Installed{{else}}Removed{{/if}}</button>
+          {{#if @root.editMode}}<button type="button" class="btn remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}"><i class="fa-solid fa-trash" inert></i></button>{{/if}}
+        </div>
+      </div>
+      {{else}}
+      <div class="empty-note">None.</div>
+      {{/each}}
+    </div>
+  </div>
+  {{/if}}
+  <div class="row" data-resource="credits"><span class="label">Credits</span>
+    <input class="credits num" type="number" name="system.credits" value="{{inventory.credits}}" min="0" aria-label="Credits" {{#unless editable}}disabled{{/unless}}></div>
+</section>

@@ -5,6 +5,7 @@
       "Tab": {
         "play": "Play",
         "build": "Build",
+        "inventory": "Inventory",
         "notes": "Notes"
       }
     }

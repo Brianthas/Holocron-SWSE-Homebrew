@@ -23,6 +23,13 @@
   (floor(die / 2) + 1) or a roll posted to chat. Levels 4, 8, 12, 16 and 20 (the level-up guide's
   table) choose +1 for two different abilities. The last level can be removed; its class stays on
   the character.
+- Items on the sheet. Dragging an item from a compendium adds it; a dropped species replaces the
+  character's species. Inventory tab: Light and Kit slots used against capacity (over in red),
+  weapons and equipment with a Carried / In hands / Stowed button (one Kit in hands uses no slot,
+  episode-vii), armor Worn or not, droid systems Installed or Removed for a droid species, and
+  credits. Equipment the house tables do not size converts with no size; in Edit mode its size
+  cycles none, Light, Kit. Talents are listed on Play, feats on Build. In Edit mode each item has a
+  remove button, with Foundry's confirmation.
 
 ## 0.0.1 - 2026-11-01
 

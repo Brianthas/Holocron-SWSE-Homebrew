@@ -464,6 +464,17 @@
   }
   .card label.label { display: grid; gap: 4px; }
 
+  // Inventory and item lists.
+  .card[data-card="feats"] { grid-column: 1 / -1; }
+  .cap { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; gap: 10px; align-items: center; }
+  .cap.over .num { color: var(--hc-failure); }
+  .cost-tag { font: 600 10px var(--hc-font-display); text-transform: uppercase; letter-spacing: 0.06em; color: var(--hc-muted); }
+  .talents-head { margin-top: 14px; }
+  button.btn.carry.stowed { color: var(--hc-muted); }
+  button.btn.carry.hands { border-color: var(--hc-accent); }
+  button.btn.remove { padding: 4px 7px; color: var(--hc-muted); &:hover { color: var(--hc-failure); border-color: var(--hc-failure); } }
+  input.credits { width: 10ch; height: auto; background: var(--hc-raised); color: var(--hc-text); border: 1px solid var(--hc-border); border-radius: 4px; text-align: right; box-shadow: none; }
+
   // Progression (mockup 1's level rows; feat and talent slots come with the compendium browser).
   .card[data-card="progression"] { grid-column: 1 / -1; }
   .level-row { display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 10px; padding: 8px 0; border-top: 1px solid var(--hc-border); }

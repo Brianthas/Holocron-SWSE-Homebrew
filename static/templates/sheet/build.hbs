@@ -87,6 +87,20 @@
     </div>
   </div>
 
+  <div class="card" data-card="feats">
+    <div class="section-head"><h3>Feats</h3></div>
+    <div class="list" data-list="feats">
+      {{#each feats}}
+      <div class="list-row" data-item-id="{{id}}">
+        <div class="main"><span class="nm">{{name}}</span></div>
+        <div class="end">{{#if @root.editMode}}<button type="button" class="btn remove" data-action="deleteItem" data-item-id="{{id}}" aria-label="Remove {{name}}"><i class="fa-solid fa-trash" inert></i></button>{{/if}}</div>
+      </div>
+      {{else}}
+      <div class="empty-note">No feats. Drag one from the Feats compendium.</div>
+      {{/each}}
+    </div>
+  </div>
+
   <div class="card" data-card="progression">
     <div class="section-head"><h3>Progression</h3>
       {{#if editMode}}{{#unless levelUp}}<button type="button" class="btn primary" data-action="levelUpStart">Level up</button>{{/unless}}{{/if}}</div>
