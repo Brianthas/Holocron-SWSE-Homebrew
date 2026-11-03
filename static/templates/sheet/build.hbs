@@ -87,6 +87,39 @@
     </div>
   </div>
 
+  <div class="card" data-card="trees">
+    <div class="section-head"><h3>Talent tree access</h3><span class="hint">{{treeAccess.total}} trees</span></div>
+    {{#if treeAccess.jedi}}
+    <div class="tradition-row">
+      <span class="label">Tradition (Jedi class)</span>
+      {{#if editMode}}
+      <select name="system.talentAccess.tradition" aria-label="Tradition">{{#each treeAccess.traditions}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</select>
+      {{#if treeAccess.picks}}<select name="system.talentAccess.traditionTree" aria-label="Tradition tree"><option value="" {{#unless treeAccess.pickChosen}}selected{{/unless}}>Choose a tree</option>{{#each treeAccess.picks}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{value}}</option>{{/each}}</select>{{/if}}
+      {{else}}<span>{{treeAccess.traditionLabel}}</span>{{/if}}
+      {{#if treeAccess.species}}<span class="hint">{{treeAccess.species}} only</span>{{/if}}
+    </div>
+    {{/if}}
+    <div class="tree-groups">
+      {{#each treeAccess.groups}}
+      <div class="tree-group" data-group="{{label}}"><span class="label">{{label}}</span>
+        <div class="chips">{{#each trees}}<span class="chip{{#if removed}} removed{{/if}}" data-tree="{{name}}">{{name}}{{#if @root.editMode}}<button type="button" data-action="toggleTree" data-tree="{{name}}" aria-label="{{#if removed}}Restore{{else}}Remove{{/if}} {{name}}">{{#if removed}}&#8634;{{else}}&#10005;{{/if}}</button>{{/if}}</span>{{else}}<span class="hint">Pick the tradition tree above</span>{{/each}}</div>
+      </div>
+      {{/each}}
+      <div class="tree-group" data-group="Added by hand"><span class="label">Added by hand</span>
+        <div class="chips">{{#each treeAccess.added}}<span class="chip hand" data-tree="{{this}}">{{this}}{{#if @root.editMode}}<button type="button" data-action="unaddTree" data-tree="{{this}}" aria-label="Remove {{this}}">&#10005;</button>{{/if}}</span>{{else}}<span class="hint">None</span>{{/each}}</div>
+      </div>
+      <div class="tree-group"><span class="label">Banned</span><div class="hint">{{treeAccess.banned}}</div></div>
+    </div>
+    {{#if editMode}}
+    <div class="add-tree-row">
+      <select class="add-tree" aria-label="Tree to add">{{#each treeAccess.addable}}<option value="{{this}}">{{this}}</option>{{/each}}</select>
+      <button type="button" class="btn primary" data-action="addTree">Add tree</button>
+    </div>
+    {{else}}
+    <div class="hint">Unlock the sheet to add or remove trees by hand. The browser's "Only trees my classes grant" uses this list.</div>
+    {{/if}}
+  </div>
+
   <div class="card" data-card="feats">
     <div class="section-head"><h3>Feats</h3></div>
     <div class="list" data-list="feats">

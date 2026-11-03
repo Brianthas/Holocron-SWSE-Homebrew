@@ -1,7 +1,7 @@
 <section class="cb-results">
   <div class="cb-count">{{count}}</div>
   {{#each groups}}
-  {{#if head}}<button type="button" class="group-head" data-action="group" data-group="{{label}}" aria-expanded="{{#if collapsed}}false{{else}}true{{/if}}"><span>{{#if collapsed}}&#9656;{{else}}&#9662;{{/if}}</span><span class="gname">{{label}}</span><span class="gcount">{{count}}</span></button>{{/if}}
+  {{#if head}}<button type="button" class="group-head" data-action="group" data-group="{{label}}" aria-expanded="{{#if collapsed}}false{{else}}true{{/if}}"><span>{{#if collapsed}}&#9656;{{else}}&#9662;{{/if}}</span><span class="gname">{{label}}</span><span class="gcount">{{count}}</span>{{#if mine}}<span class="badge mine">Yours</span>{{/if}}</button>{{/if}}
   {{#each rows}}
   <div class="result-row" data-uuid="{{uuid}}" draggable="true">
     <div>

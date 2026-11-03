@@ -10,9 +10,10 @@
     <div class="tag-list">{{#each classTags}}<button type="button" data-action="classTag" data-value="{{name}}" aria-pressed="{{on}}">{{name}}</button>{{/each}}</div>
     <select class="cb-input" name="prestige" aria-label="Prestige class"><option value="">Prestige class</option>{{#each prestige}}<option value="{{name}}" {{#if selected}}selected{{/if}}>{{name}}</option>{{/each}}</select>
     <div class="hint">Shows the trees that class unlocks.</div></div>
+  {{#if hasCharacter}}<label class="switch"><input type="checkbox" name="onlyMine" {{#if onlyMine}}checked{{/if}}> Only trees my classes grant</label>{{/if}}
   <div class="fgroup"><div class="label"><span>Talent tree</span><span class="count">{{#if treesPicked}}{{treesPicked}} picked{{else}}all{{/if}}</span></div>
     <input class="cb-input" type="search" name="treeQ" value="{{treeQ}}" placeholder="Find a tree" autocomplete="off">
-    <div class="tree-list">{{#each trees}}<label class="check"><input type="checkbox" name="tree" value="{{name}}" {{#if checked}}checked{{/if}}><span>{{name}}</span><span class="count">{{count}}</span></label>{{/each}}</div></div>
+    <div class="tree-list">{{#each trees}}<label class="check"><input type="checkbox" name="tree" value="{{name}}" {{#if checked}}checked{{/if}}><span>{{name}}{{#if mine}} <span class="badge mine">Yours</span>{{/if}}</span><span class="count">{{count}}</span></label>{{/each}}</div></div>
   <div class="fgroup"><span class="label">Order</span><div class="minseg">{{#each order.options}}<button type="button" data-action="seg" data-key="order" data-value="{{value}}" aria-pressed="{{on}}">{{label}}</button>{{/each}}</div></div>
   {{else if (eq tab "feats")}}
   <div class="hint">Feat prerequisites are negotiable at this table: every feat is shown and none is greyed out.</div>

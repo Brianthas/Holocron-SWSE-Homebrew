@@ -21,7 +21,7 @@ const source = async (pack, name) => (await fromUuid(uuidOf(pack, name))).toObje
 const jedi = await source("classes", "Jedi");
 const actor = await Actor.create({
   name: "Browser Probe", type: "character", flags: FLAG,
-  items: [await source("species", "Bothan"), jedi, await source("feats", "Force Training"), await source("feats", "Quick Draw")],
+  items: [await source("species", "Bothan"), jedi, await source("feats", "Force Sensitivity"), await source("feats", "Force Training"), await source("feats", "Quick Draw")],
 });
 const jediItem = actor.items.find((i) => i.type === "class");
 await actor.update({ "system.progression": [{ class: jediItem.id }] });
@@ -138,8 +138,10 @@ check("techniques: 'For powers you know' comes first and holds only Move Object'
 await click('[data-action="showTab"][data-tab="feats"]');
 await type("q", "");
 const featNames = names();
-check("feats: Quick Draw (taken) is hidden, Force Training (taken, repeatable) shows 'Taken, can repeat'", !featNames.includes("Quick Draw")
-  && text(`.result-row[data-uuid="${uuidOf("feats", "Force Training")}"] .badge`) === "Taken, can repeat" && featNames.length === index("feats").length - 1, { count: featNames.length });
+// Two taken feats are not repeatable: Quick Draw and Force Sensitivity.
+check("feats: Quick Draw and Force Sensitivity (taken) are hidden, Force Training (taken, repeatable) shows 'Taken, can repeat'", !featNames.includes("Quick Draw")
+  && !featNames.includes("Force Sensitivity") && text(`.result-row[data-uuid="${uuidOf("feats", "Force Training")}"] .badge`) === "Taken, can repeat"
+  && featNames.length === index("feats").length - 2, { count: featNames.length, total: index("feats").length });
 
 // A row dragged onto the sheet adds the item.
 {
@@ -196,6 +198,61 @@ el().querySelector(`[data-action="add"][data-uuid="${jawaUuid}"]`).click();
 await replaced;
 await closed;
 check("Add on Jawa replaces Bothan and closes the browser", JSON.stringify(actor.items.filter((i) => i.type === "species").map((i) => i.name)) === '["Jawa"]' && !app()?.rendered, {});
+
+// The Build tab's Talent tree access card (the sheet is still in Edit mode on Build). Force
+// Sensitivity gives the six Force trees; Jedi Order the three Jedi trees; every Jedi Lightsaber Combat.
+const sheetText = (sel) => sheet.element.querySelector(sel)?.textContent.trim().replace(/\s+/g, " ");
+const card = () => ({
+  total: sheetText('[data-card="trees"] .section-head .hint'),
+  groups: Object.fromEntries([...sheet.element.querySelectorAll('[data-card="trees"] .tree-group[data-group]')]
+    .map((g) => [g.dataset.group, [...g.querySelectorAll(".chip")].map((c) => `${c.dataset.tree}${c.classList.contains("removed") ? " (removed)" : ""}`)])),
+});
+const sheetAct = async (selector, setup) => {
+  const done = Promise.all([new Promise((resolve) => Hooks.once("updateActor", resolve)), new Promise((resolve) => Hooks.once("renderCharacterSheet", resolve))]);
+  const node = sheet.element.querySelector(selector);
+  if (setup) setup(node); else node.click();
+  await done;
+  await sheet.render();
+};
+const choose = (value) => (node) => { node.value = value; node.dispatchEvent(new Event("change", { bubbles: true })); };
+const jediOrder = card();
+await sheetAct('select[name="system.talentAccess.tradition"]', choose("sithOrder"));
+const sithUnpicked = { ...card(), hint: sheetText('.tree-group[data-group="Jedi: Sith Order"] .hint') };
+await sheetAct('select[name="system.talentAccess.traditionTree"]', choose("Krath"));
+const sith = card();
+check("tree card: Jedi Order gives 10 trees (6 Force, 3 Jedi, Lightsaber Combat); Sith Order asks for its tree, and Krath replaces the three Jedi trees (8)",
+  jediOrder.total === "10 trees" && JSON.stringify(jediOrder.groups["Jedi: Jedi Order"]) === '["Jedi Consular","Jedi Guardian","Jedi Sentinel"]'
+  && JSON.stringify(jediOrder.groups["Jedi: every tradition"]) === '["Lightsaber Combat"]' && jediOrder.groups["Force Sensitivity"]?.length === 6
+  && sithUnpicked.hint === "Pick the tradition tree above" && sithUnpicked.total === "7 trees" && sith.total === "8 trees"
+  && JSON.stringify(sith.groups["Jedi: Sith Order"]) === '["Krath"]', { jediOrder, sithUnpicked, sith });
+await sheetAct('[data-action="toggleTree"][data-tree="Alter"]');
+const removedAlter = card();
+await sheetAct("select.add-tree", (node) => { node.value = "Duelist"; sheet.element.querySelector('[data-action="addTree"]').click(); });
+const withDuelist = card();
+check("tree card: removing Alter strikes it out (7 trees); adding Duelist puts it under Added by hand (8)", removedAlter.total === "7 trees"
+  && removedAlter.groups["Force Sensitivity"].includes("Alter (removed)") && withDuelist.total === "8 trees" && JSON.stringify(withDuelist.groups["Added by hand"]) === '["Duelist"]',
+  { removedAlter, withDuelist });
+
+// The browser marks those trees Yours, lists them first, and its switch keeps only them.
+const switchBefore = game.settings.get("holocron", "browserOnlyMine");
+await game.settings.set("holocron", "browserOnlyMine", false);
+sheet.changeTab("force", "primary");
+shown = rendered();
+sheet.element.querySelector('[data-action="browse"][data-target="powers"]').click();
+await shown;
+await click('[data-action="showTab"][data-tab="talents"]');
+await click('[data-action="seg"][data-key="order"][data-value="tree"]');
+const yours = () => [...el().querySelectorAll(".group-head")].filter((g) => g.querySelector(".badge.mine")).map((g) => g.dataset.group);
+const allHeads = [...el().querySelectorAll(".group-head")].map((g) => g.dataset.group);
+const mineFirst = { yours: yours(), firstHeads: allHeads.slice(0, yours().length) };
+await tick("onlyMine", null);
+const onlyMine = { heads: [...el().querySelectorAll(".group-head")].map((g) => g.dataset.group), count: text(".cb-count"), stored: game.settings.get("holocron", "browserOnlyMine") };
+const expected = ["Control", "Dark Side", "Duelist", "Guardian Spirit", "Krath", "Light Side", "Lightsaber Combat", "Sense"];
+check("browser: the card's 8 trees are Yours and come first; the switch keeps only them and is stored for this player",
+  JSON.stringify([...mineFirst.yours].sort()) === JSON.stringify(expected) && JSON.stringify(mineFirst.firstHeads) === JSON.stringify(mineFirst.yours)
+  && JSON.stringify([...onlyMine.heads].sort()) === JSON.stringify(expected) && onlyMine.count.endsWith("in your trees") && onlyMine.stored === true, { mineFirst, onlyMine });
+await app().close();
+await game.settings.set("holocron", "browserOnlyMine", switchBefore);
 
 // The results scroll (standing rule 19).
 shown = rendered();

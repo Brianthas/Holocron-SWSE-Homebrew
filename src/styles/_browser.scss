@@ -150,6 +150,7 @@
     border: 1px solid currentColor;
 
     &.taken { color: var(--hc-success); }
+    &.mine { color: var(--hc-accent); }
   }
   .result-row {
     display: grid;

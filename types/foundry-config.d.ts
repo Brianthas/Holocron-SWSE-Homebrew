@@ -39,6 +39,7 @@ declare module "fvtt-types/configuration" {
 
   interface SettingConfig {
     "holocron.migrationVersion": number;
+    "holocron.browserOnlyMine": boolean;
   }
 
   interface FlagConfig {

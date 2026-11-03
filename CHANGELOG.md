@@ -75,6 +75,13 @@
   sheet's Browse buttons (Force powers, techniques, secrets, each inventory section, and Change
   species in Edit mode) open it to add to that character: Add puts the item on, a known power gains
   a copy, and a species replaces the old one.
+- Talent tree access card on Build: the trees each class grants, Force Sensitivity's six Force
+  trees, and for the Jedi class its tradition (episode-vii, Jedi): another tradition replaces Jedi
+  Consular, Guardian and Sentinel with its tree, picked where the text lists several, and Lightsaber
+  Combat stays. Species-limited traditions say which species. In Edit mode any tree can be removed
+  or restored, and any tree added by hand; the banned trees are listed. The browser marks the
+  card's trees Yours, lists them first, and "Only trees my classes grant" (remembered per player)
+  keeps only them.
 
 ## 0.0.1 - 2026-11-01
 

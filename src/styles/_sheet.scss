@@ -598,6 +598,38 @@
   .list-row .detail { grid-column: 1 / -1; padding: 6px 4px 8px 26px; font-size: 13px; color: var(--hc-text); display: grid; gap: 6px; }
   .list-row .detail[hidden] { display: none; }
   .list-row .detail .description p { margin: 0 0 6px; }
+  // Talent tree access card (mockup 1).
+  .card[data-card="trees"] { grid-column: 1 / -1; }
+  .tradition-row, .add-tree-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .tradition-row select, .add-tree-row select {
+    width: auto;
+    min-width: 180px;
+    background: var(--hc-raised);
+    color: var(--hc-text);
+    border: 1px solid var(--hc-border);
+    border-radius: 5px;
+    font: 13px var(--hc-font-body);
+  }
+  .tree-groups { display: grid; gap: 8px; }
+  .tree-group { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 8px; align-items: start; font-size: 13px; }
+  .tree-group > .label { padding-top: 5px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 8px;
+    border-radius: 999px;
+    font-size: 12.5px;
+    background: var(--hc-raised);
+    border: 1px solid var(--hc-border);
+
+    &.hand { border-color: var(--hc-warn); }
+    &.removed { text-decoration: line-through; opacity: 0.6; }
+    button { flex: none; width: auto; min-height: 0; border: 0; background: none; color: var(--hc-muted); cursor: pointer; padding: 0 2px; font-size: 12px; line-height: 1; }
+    button:hover { color: var(--hc-text); }
+  }
+
   // Pins (mockup 1): the toggle on each row, and the chips at the top of Play.
   button.pin-toggle {
     flex: none;

@@ -5,6 +5,7 @@ import { WEAPON_GROUPS, type WeaponGroupKey } from "../config/weapons.ts";
 import { actionTag } from "../dice/force.ts";
 import { SLOT_LABELS, type SlotSize } from "../rules/inventory.ts";
 import { addItem } from "../sheets/add-item.ts";
+import { accessibleTrees, type AccessInput } from "../rules/talent-access.ts";
 
 /**
  * The compendium browser (mockup 3): Talents, Feats, Force, Equipment and Species, with search and
@@ -55,6 +56,12 @@ const SIZE_GROUPS = ["Small", "Medium", "Large"];
 const capitalise = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
 let loading: Promise<Data> | null = null;
+
+/** "Only trees my classes grant": off at first, remembered per player (plan, Compendium browser). */
+const ONLY_MINE = "browserOnlyMine";
+export function registerBrowserSettings(): void {
+  game.settings.register("holocron", ONLY_MINE, { scope: "client", config: false, type: Boolean, default: false });
+}
 
 /** Every pack's index, read once per client with only the fields the browser filters on. */
 async function loadData(): Promise<Data> {
@@ -167,6 +174,12 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
     return this.#actor ?? (game.user?.character as Actor.Implementation | null | undefined) ?? null;
   }
 
+  /** The trees the character can use (the Build tab's Talent tree access card), or null with no character. */
+  #mine(): Set<string> | null {
+    const system = this.#character?.system as { accessInput?: AccessInput } | undefined;
+    return system?.accessInput ? accessibleTrees(system.accessInput) : null;
+  }
+
   #has(type: string, name: string): number {
     return this.#character?.items.filter((i) => i.type === type && i.name === name).length ?? 0;
   }
@@ -215,13 +228,15 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
       const tagged = this.#tagTrees(data);
       const trees = [...new Set(data.talents.map((t) => t.tree))].sort();
       const treeQ = this.#treeQ.trim().toLowerCase();
+      const mine = this.#mine();
       return {
         ...common, treeQ: this.#treeQ, treesPicked: this.#trees.size,
+        hasCharacter: Boolean(mine), onlyMine: Boolean(mine) && game.settings.get("holocron", ONLY_MINE),
         classTags: [...data.classes.filter((c) => c.base).map((c) => c.name).sort(), "Force Sensitivity"].map((c) => ({ name: c, on: this.#classTag === c })),
         prestige: data.classes.filter((c) => !c.base).map((c) => c.name).sort().map((c) => ({ name: c, selected: this.#classTag === c })),
         classTag: this.#classTag,
         trees: trees.filter((t) => (!treeQ || t.toLowerCase().includes(treeQ)) && (!tagged || tagged.has(t)))
-          .map((t) => ({ name: t, checked: this.#trees.has(t), count: data.talents.filter((x) => x.tree === t && !taken(x)).length })),
+          .map((t) => ({ name: t, checked: this.#trees.has(t), mine: mine?.has(t) ?? false, count: data.talents.filter((x) => x.tree === t && !taken(x)).length })),
         order: seg("order", this.#order, [["tree", "By tree"], ["name", "A to Z"]]),
       };
     }
@@ -277,22 +292,29 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
   }
 
   #resultsContext(data: Data) {
-    type Group = { label: string; count: number; collapsed: boolean; head: boolean; rows: RowView[] };
+    type Group = { label: string; count: number; collapsed: boolean; head: boolean; mine: boolean; rows: RowView[] };
     const groups: Group[] = [];
-    const group = (label: string, rows: Group["rows"], head = true) => {
+    const group = (label: string, rows: Group["rows"], head = true, mine = false) => {
       if (!rows.length) return;
       const collapsed = head && this.#collapsed.has(label) && !this.#q;
-      groups.push({ label, count: rows.length, collapsed, head, rows: collapsed ? [] : rows });
+      groups.push({ label, count: rows.length, collapsed, head, mine, rows: collapsed ? [] : rows });
     };
     let count: string;
 
     if (this.#tab === "talents") {
       const tagged = this.#tagTrees(data);
-      const list = data.talents.filter((t) => this.#match(t.name, t.tree) && (!tagged || tagged.has(t.tree)) && (!this.#trees.size || this.#trees.has(t.tree)) && !this.#has("talent", t.name));
+      const mine = this.#mine();
+      const onlyMine = Boolean(mine) && game.settings.get("holocron", ONLY_MINE);
+      const list = data.talents.filter((t) => this.#match(t.name, t.tree) && (!tagged || tagged.has(t.tree)) && (!this.#trees.size || this.#trees.has(t.tree))
+        && (!onlyMine || mine?.has(t.tree)) && !this.#has("talent", t.name));
       const row = (t: Data["talents"][number]) => this.#row(t, { tags: this.#order === "name" ? [t.tree] : [], line: t.prereq ? `Needs: ${t.prereq}` : "" });
-      count = `${list.length} talents${this.#classTag ? ` · in ${this.#classTag} trees` : ""}`;
+      count = `${list.length} talents${this.#classTag ? ` · in ${this.#classTag} trees` : ""}${onlyMine ? " · in your trees" : ""}`;
       if (this.#order === "name") group("", list.map(row), false);
-      else for (const tree of [...new Set(list.map((t) => t.tree))].sort()) group(tree, list.filter((t) => t.tree === tree).map(row));
+      else {
+        // Trees the character can use come first, each marked Yours (mockup 3).
+        const trees = [...new Set(list.map((t) => t.tree))].sort((a, b) => Number(mine?.has(b) ?? 0) - Number(mine?.has(a) ?? 0) || a.localeCompare(b));
+        for (const tree of trees) group(tree, list.filter((t) => t.tree === tree).map(row), true, mine?.has(tree) ?? false);
+      }
     } else if (this.#tab === "feats") {
       // A taken feat is hidden unless it can be taken again (mockup 3, Feats).
       const list = data.feats.filter((f) => this.#match(f.name) && (f.repeatable || !this.#has("feat", f.name)));
@@ -370,6 +392,7 @@ export class CompendiumBrowser extends HandlebarsApplicationMixin(ApplicationV2)
         if (input.checked) set.add(input.value); else set.delete(input.value);
       } else if (input.name === "prestige") await this.#setClassTag(input.value || null, true);
       else if (input.name === "showDenied" && input instanceof HTMLInputElement) this.#showDenied = input.checked;
+      else if (input.name === "onlyMine" && input instanceof HTMLInputElement) await game.settings.set("holocron", ONLY_MINE, input.checked);
       else return;
       await this.render({ parts: ["filters", "results"] });
     });

@@ -3,6 +3,8 @@ import { SKILLS, SKILL_KEYS, type SkillKey } from "../../config/skills.ts";
 import { REFLEX_SIZE_MODIFIER, SIZES, type SizeKey } from "../../config/sizes.ts";
 import type { EffectTargets } from "../../effects/changes.ts";
 import type { GrantFlag } from "../../effects/selectors.ts";
+import { TRADITIONS } from "../../config/talents.ts";
+import type { AccessInput } from "../../rules/talent-access.ts";
 import { abilityMod, abilityScore } from "../../rules/abilities.ts";
 import { weaponAttack, weaponDamage } from "../../rules/attacks.ts";
 import { defensePointLimits, speciesChoiceAllowed, trainedSkillsAllowed } from "../../rules/build.ts";
@@ -65,6 +67,16 @@ function characterSchema() {
     }),
     details: new fields.SchemaField({ biography: new fields.HTMLField() }),
     credits: int(0, 0),
+    /**
+     * Talent tree access (mockup 1): the Jedi class's tradition and the tree picked where the
+     * tradition lists several, and trees added or removed by hand (rules/talent-access.ts).
+     */
+    talentAccess: new fields.SchemaField({
+      tradition: new fields.StringField({ required: true, blank: false, initial: "jediOrder", choices: Object.keys(TRADITIONS) }),
+      traditionTree: new fields.StringField({ required: true, blank: true, initial: "" }),
+      added: new fields.ArrayField(new fields.StringField({ required: true, blank: false })),
+      removed: new fields.ArrayField(new fields.StringField({ required: true, blank: false })),
+    }),
     /** Pinned to the top of Play, in order: item ids, or "stance" for Defensive Stance (mockup 1). */
     pins: new fields.ArrayField(new fields.StringField({ required: true, blank: false })),
   };
@@ -127,6 +139,17 @@ export class CharacterModel extends foundry.abstract.TypeDataModel<ReturnType<ty
 
   hasFlag(flag: GrantFlag): boolean {
     return (this.grants["flag"] ?? []).some((g) => g.value === flag);
+  }
+
+  /** What tree access is computed from: the classes taken with their trees, Force Sensitivity, and the stored choices. */
+  get accessInput(): AccessInput {
+    const items = this.parent.items;
+    return {
+      classes: Object.keys(this.classLevels ?? {}).map((id) => items.get(id)).filter((i) => i?.type === "class")
+        .map((i) => ({ name: i?.name ?? "", trees: (i?.system as { talentTrees?: string[] } | undefined)?.talentTrees ?? [] })),
+      forceSensitive: items.some((i) => i.type === "feat" && i.name === "Force Sensitivity"),
+      ...this.talentAccess,
+    };
   }
 
   /** The bonuses an attack or damage roll with this weapon collects: all, melee or ranged, its group. */

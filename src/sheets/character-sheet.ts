@@ -10,6 +10,8 @@ import { addItem } from "./add-item.ts";
 import { CompendiumBrowser, type BrowseTarget } from "../apps/browser.ts";
 import { FORCE_DESCRIPTORS, type ForceDescriptorKey } from "../config/force.ts";
 import { featureSlots, forcePowersKnown } from "../rules/force.ts";
+import { accessGroups, accessibleTrees } from "../rules/talent-access.ts";
+import { BANNED_TREES, TRADITIONS } from "../config/talents.ts";
 import { describeChange, type ChangeLike } from "../effects/describe.ts";
 import { STANCE_BONUS, toggleStance } from "../effects/stance.ts";
 import {
@@ -65,6 +67,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       removeCopy: CharacterSheet.#removeCopy, rollPower: CharacterSheet.#rollPower, expand: CharacterSheet.#expand, browse: CharacterSheet.#browse,
       toggleStance: CharacterSheet.#toggleStance, deleteEffect: CharacterSheet.#deleteEffect,
       togglePin: CharacterSheet.#togglePin, usePin: CharacterSheet.#usePin, useItem: CharacterSheet.#useItem,
+      toggleTree: CharacterSheet.#toggleTree, unaddTree: CharacterSheet.#unaddTree, addTree: CharacterSheet.#addTree,
     },
   };
 
@@ -197,6 +200,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       levelUp: await this.#levelUpContext(),
       inventory: this.#inventoryContext(droid),
       force: await this.#forceContext(),
+      treeAccess: await this.#treeAccessContext(),
       effects: this.#effectsContext(),
       pins: this.#pinsContext(),
       stancePinned: pins.has("stance"),
@@ -379,6 +383,33 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
         tooltip: `<div class="tip-title">Force powers known ${known}</div><table><tr><td>Force Training &times; ${trainings}</td><td></td></tr><tr><td>1 + INT mod each (at least 1)</td><td>${trainings} &times; ${perTraining}</td></tr></table>`,
       },
       powers, features, pending,
+    };
+  }
+
+  /**
+   * The Talent tree access card: the Jedi tradition, each group's trees (removable in Edit mode),
+   * trees added by hand, and the banned list. The trees to add are every tree in the Talents
+   * compendium the character cannot already use.
+   */
+  async #treeAccessContext() {
+    const s = this.actor.system as CharacterModel;
+    const input = s.accessInput;
+    const effective = accessibleTrees(input);
+    const tradition = TRADITIONS[input.tradition];
+    const index = await game.packs?.get("holocron.talents")?.getIndex({ fields: ["system.tree"] } as never);
+    const allTrees = [...new Set([...(index ?? [])].map((e) => (e as { system?: { tree?: string } }).system?.tree ?? "").filter(Boolean))].sort();
+    return {
+      total: effective.size,
+      jedi: input.classes.some((c) => c.name === "Jedi"),
+      traditions: Object.entries(TRADITIONS).map(([value, t]) => ({ value, label: t.species ? `${t.label} (${t.species} only)` : t.label, selected: value === input.tradition })),
+      traditionLabel: tradition?.label ?? "",
+      picks: tradition?.pick?.map((value) => ({ value, selected: value === input.traditionTree })) ?? null,
+      pickChosen: Boolean(tradition?.pick?.includes(input.traditionTree)),
+      species: tradition?.species ?? "",
+      groups: accessGroups(input).map((g) => ({ label: g.label, trees: g.trees.map((name) => ({ name, removed: input.removed.includes(name) })) })),
+      added: input.added,
+      banned: [...BANNED_TREES].join(", "),
+      addable: allTrees.filter((t) => !effective.has(t)),
     };
   }
 
@@ -619,6 +650,29 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     if (!k || !SKILL_KEYS.includes(k)) return;
     const s = this.actor.system as CharacterModel;
     await this.actor.update({ [`system.skills.${k}.trained`]: !s.skills[k].trained });
+  }
+
+  /** Edit mode: a derived tree is removed, or a removed one restored. */
+  static async #toggleTree(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const tree = target.dataset["tree"] ?? "";
+    if (!this.#editMode || !this.isEditable || !tree) return;
+    const removed = (this.actor.system as CharacterModel).talentAccess.removed;
+    await this.actor.update({ "system.talentAccess.removed": removed.includes(tree) ? removed.filter((t) => t !== tree) : [...removed, tree] } as never);
+  }
+
+  static async #unaddTree(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const tree = target.dataset["tree"] ?? "";
+    if (!this.#editMode || !this.isEditable || !tree) return;
+    const added = (this.actor.system as CharacterModel).talentAccess.added;
+    await this.actor.update({ "system.talentAccess.added": added.filter((t) => t !== tree) } as never);
+  }
+
+  /** Edit mode: adds the tree chosen in the card's select (Bryan: no note, no badge; mockup 1). */
+  static async #addTree(this: CharacterSheet): Promise<void> {
+    const tree = this.element.querySelector<HTMLSelectElement>("select.add-tree")?.value ?? "";
+    if (!this.#editMode || !this.isEditable || !tree) return;
+    const added = (this.actor.system as CharacterModel).talentAccess.added;
+    if (!added.includes(tree)) await this.actor.update({ "system.talentAccess.added": [...added, tree] } as never);
   }
 
   /** Pins or unpins a row; a new pin goes last. */
