@@ -32,6 +32,7 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 - **Denied species stay in the packs** (the Species Rarity page's Denied list), in case the GM
   allows one. Felucian Shamans stays a tradition for the same reason.
 - **Shield Expansion Module** (droid system) is left out: no personal shields.
+- **Force regimens are banned** (Bryan, 2026-11-02). The character sheet has no place for them.
 
 ## Talent trees
 
