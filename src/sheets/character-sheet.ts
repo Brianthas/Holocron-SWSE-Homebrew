@@ -2,7 +2,7 @@ import { ABILITIES, ABILITY_LABELS, type AbilityKey } from "../config/abilities.
 import { SIZE_ABILITY_ADJUSTMENTS } from "../config/sizes.ts";
 import { SKILLS, SKILL_KEYS, type SkillKey } from "../config/skills.ts";
 import type { CharacterModel, WeaponData } from "../data/actor/character.ts";
-import { rollAttack, rollDamage } from "../dice/attack.ts";
+import { askCritical, damageTypeOf, rollAttack, rollDamage } from "../dice/attack.ts";
 import { checkDialog, rollCheck, useSecondWind } from "../dice/check.ts";
 import { actionTag, readyAllPowers, rollPower } from "../dice/force.ts";
 import { postItem } from "../dice/item-card.ts";
@@ -58,7 +58,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     window: { resizable: true },
     form: { submitOnChange: true },
     actions: {
-      attack: CharacterSheet.#attack, damage: CharacterSheet.#damage, pip: CharacterSheet.#pip,
+      attack: CharacterSheet.#attack, damage: CharacterSheet.#damage, cycleDamageType: CharacterSheet.#cycleDamageType, pip: CharacterSheet.#pip,
       toggleMode: CharacterSheet.#toggleMode, abilityStep: CharacterSheet.#abilityStep, abilityEntry: CharacterSheet.#abilityEntry,
       speciesPick: CharacterSheet.#speciesPick, defenseStep: CharacterSheet.#defenseStep, toggleTrained: CharacterSheet.#toggleTrained,
       levelUpStart: CharacterSheet.#levelUpStart, levelUpCancel: CharacterSheet.#levelUpCancel, levelClass: CharacterSheet.#levelClass,
@@ -152,10 +152,14 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       quickRolls: QUICK_ROLLS.map(skill),
       skills: SKILL_KEYS.map(skill),
       attacks: actor.items.filter((i) => i.type === "weapon").map((w) => {
-        const data = w.system as WeaponData & { damageTypes?: string[] };
+        const data = w.system as WeaponData & { damageTypes?: string[]; damageType?: string };
         const attack = s.attackFor(data);
-        const type = data.damageTypes?.[0] ?? "";
-        return { id: w.id, name: w.name, attack: signed(attack.total), attackTooltip: breakdownHtml("Attack", attack), damage: s.damageFor(data).formula, type, typeClass: type.toLowerCase(), pinned: pins.has(w.id ?? "") };
+        const type = damageTypeOf(data);
+        const types = data.damageTypes ?? [];
+        return {
+          id: w.id, name: w.name, attack: signed(attack.total), attackTooltip: breakdownHtml("Attack", attack), damage: s.damageFor(data).formula,
+          type, typeClass: type.toLowerCase(), switchable: types.length > 1, types: types.join(", "), pinned: pins.has(w.id ?? ""),
+        };
       }),
       editMode,
       abilityBuy: buy,
@@ -269,9 +273,22 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     if (weapon) await rollAttack(this.actor as Actor.Implementation, weapon as Item.Implementation);
   }
 
+  /** Damage with no attack card: the sheet cannot know whether it was a critical, so it asks (mockup 2). */
   static async #damage(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
     const weapon = this.actor.items.get(target.dataset["itemId"] ?? "");
-    if (weapon) await rollDamage(this.actor as Actor.Implementation, weapon as Item.Implementation);
+    if (!weapon) return;
+    const crit = await askCritical(weapon.name);
+    if (crit !== null) await rollDamage(this.actor as Actor.Implementation, weapon as Item.Implementation, { crit });
+  }
+
+  /** The Play tab's damage-type tag steps through the weapon's types (mockup 1: the blaster's Energy / Stun). */
+  static async #cycleDamageType(this: CharacterSheet, _event: PointerEvent, target: HTMLElement): Promise<void> {
+    const weapon = this.actor.items.get(target.dataset["itemId"] ?? "");
+    const data = weapon?.system as { damageTypes?: string[]; damageType?: string } | undefined;
+    const types = data?.damageTypes ?? [];
+    if (!weapon || types.length < 2) return;
+    const next = types[(types.indexOf(damageTypeOf(data ?? {})) + 1) % types.length];
+    await weapon.update({ system: { damageType: next } } as never);
   }
 
   /** Capacity, and the gear lists by type. Droid systems show only for a droid species (mockup 1). */

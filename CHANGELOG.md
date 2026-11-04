@@ -117,6 +117,22 @@
   chosen skill. Each shows in the attack, damage or skill breakdown, and the Effects tab names the
   group or skill. One with no choice set adds nothing. The other choice feats and talents (Double
   Attack, Halt and the rest) are actions, not standing bonuses.
+- Attack and damage cards (mockup 2). The attack card carries the speaker's token image, the
+  weapon's range and damage type, and a row per target: Hit (the total meets or beats Reflex),
+  Miss, Critical on a natural 20, a miss on a natural 1, or "No defense set" for a target with no
+  Reflex Defense. The GM also sees each margin ("vs Reflex 16, by 8"). Its Roll damage button
+  (Roll critical damage after a natural 20) is for the attacker's owners. The damage card gives each
+  target its own number and the steps behind it: a miss deals nothing, or half for a half-on-a-miss
+  weapon; a droid takes nothing from Stun and an organic nothing from Ion (episode-vii); worn
+  armor's DR comes off after any halving and applies to Stun, unless the weapon's group bypasses it
+  (Battle Armor, lightsabers). Apply per row or Apply all; damage comes off temporary hit points
+  first; Undo gives back exactly what was taken. A Selected token row applies the damage, full or
+  half, to the token you control, through that token's own DR and immunity, and to an unlinked
+  token's own actor. Applying needs ownership of the target and of the card, so a player applies to
+  their own character from their own card and the GM to anyone. The sheet's Damage button asks
+  Normal or Critical; a critical doubles the whole result. Cards follow chat's light theme.
+- A weapon with several damage types (Blaster Pistol: Energy or Stun) shows its type as a button on
+  Play; a click switches to the next, and attack and damage cards use it.
 
 ## 0.0.1 - 2026-11-01
 

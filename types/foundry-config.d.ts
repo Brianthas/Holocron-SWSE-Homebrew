@@ -5,7 +5,7 @@
 // instead of failing silently at the table.
 
 import type { CharacterModel } from "../src/data/actor/character.ts";
-import type { AttackFlag } from "../src/dice/attack.ts";
+import type { AttackFlag, DamageFlag } from "../src/dice/attack.ts";
 import type {
   ArmorModel, ClassModel, DroidSystemModel, EquipmentModel, FeatModel, FeatureModel, ForcePowerModel, SpeciesModel, TalentModel, WeaponModel,
 } from "../src/data/item/models.ts";
@@ -47,6 +47,7 @@ declare module "fvtt-types/configuration" {
     ChatMessage: {
       holocron: {
         attack?: AttackFlag;
+        damage?: DamageFlag;
         /** A long rest's changes, one line each (src/rest.ts). */
         rest?: string[];
         /** New Day's changes per character name. */

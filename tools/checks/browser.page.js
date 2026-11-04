@@ -421,7 +421,9 @@ await game.settings.set("holocron", "browserOnlyQualified", qualifiedBefore);
   // and Weapon Specialization "+2 bonus on damage rolls", with Lightsabers only. STR and DEX are both
   // 10, so without them the lightsaber's and the pistol's attacks are equal.
   {
-    const [saber, pistol] = await probe.createEmbeddedDocuments("Item", [await source("weapons", "Lightsaber"), await source("weapons", "Blaster Pistol")]);
+    // Found by name: the created array's order is not the order passed in.
+    const made = await probe.createEmbeddedDocuments("Item", [await source("weapons", "Lightsaber"), await source("weapons", "Blaster Pistol")]);
+    const saber = made.find((i) => i.name === "Lightsaber"), pistol = made.find((i) => i.name === "Blaster Pistol");
     await s3.render();
     s3.changeTab("play", "primary");
     const row = (item) => {

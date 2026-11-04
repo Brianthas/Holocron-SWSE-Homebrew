@@ -32,7 +32,7 @@
       <div class="list">
         {{#each attacks}}
         <div class="list-row" data-item-id="{{id}}" data-pin-id="{{id}}">
-          <div class="main"><span class="nm">{{name}}</span>{{#if type}}<span class="tag {{typeClass}}">{{type}}</span>{{/if}}
+          <div class="main"><span class="nm">{{name}}</span>{{#if type}}{{#if switchable}}<button type="button" class="tag {{typeClass}} type-switch" data-action="cycleDamageType" data-item-id="{{id}}" data-tooltip="Damage type: click to switch ({{types}})">{{type}}</button>{{else}}<span class="tag {{typeClass}}">{{type}}</span>{{/if}}{{/if}}
             <span class="meta"><b data-tooltip-html="{{attackTooltip}}">{{attack}}</b> · <b>{{damage}}</b></span></div>
           <div class="end"><button type="button" class="btn primary" data-action="attack" data-item-id="{{id}}">Attack</button><button type="button" class="btn" data-action="damage" data-item-id="{{id}}">Damage</button>
             <button type="button" class="pin-toggle" data-action="togglePin" data-pin-id="{{id}}" aria-pressed="{{pinned}}" aria-label="Pin {{name}}"><i class="fa-solid fa-thumbtack" inert></i></button></div>

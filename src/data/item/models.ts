@@ -165,6 +165,8 @@ function weaponSchema() {
     /** Damage dice, e.g. "3d6". */
     damage: new fields.StringField({ required: true, blank: false, initial: "1d6" }),
     damageTypes: strings(),
+    /** The damage type in use, switched on the Play tab (mockup 1); blank or not listed means the first. */
+    damageType: new fields.StringField({ required: true, blank: true, initial: "" }),
     /** Two-handed melee weapons use STR only and add STR x 2 to damage (episode-vii). */
     twoHanded: new fields.BooleanField({ initial: false }),
     thrown: new fields.BooleanField({ initial: false }),

@@ -1,0 +1,85 @@
+// Attack and damage cards in chat (mockup 2). The card is a .holocron element, so it takes the
+// design tokens, always the light set (holocron.scss).
+
+.chat-message.holocron-message .message-header {
+  .hc-token {
+    width: 32px;
+    height: 32px;
+    flex: none;
+    margin-right: 6px;
+    border: none;
+    object-fit: contain;
+  }
+}
+
+.holocron.holocron-card {
+  display: grid;
+  gap: 8px;
+  color: var(--hc-text);
+  font-family: var(--hc-font-body);
+
+  .card-title { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .card-title h4 { margin: 0; border: none; font: 700 14px var(--hc-font-display); letter-spacing: 0.03em; }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px; }
+  .tag {
+    padding: 1px 6px;
+    border-radius: 3px;
+    font: 600 10px/1.5 var(--hc-font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border: 1px solid var(--hc-border);
+    color: var(--hc-muted);
+
+    &.type-energy { color: var(--hc-tag-energy); border-color: color-mix(in oklab, var(--hc-tag-energy) 50%, transparent); }
+    &.type-stun { color: var(--hc-tag-stun); border-color: color-mix(in oklab, var(--hc-tag-stun) 50%, transparent); }
+    &.type-physical { color: var(--hc-tag-physical); border-color: color-mix(in oklab, var(--hc-tag-physical) 50%, transparent); }
+  }
+  .dice-roll { margin: 0; }
+  .hint { font-size: 12px; color: var(--hc-muted); }
+
+  .targets { display: grid; gap: 4px; }
+  .target, .dmg-row {
+    display: grid;
+    gap: 8px;
+    align-items: center;
+    font-size: 13px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: color-mix(in oklab, var(--hc-text) 7%, transparent);
+  }
+  .target { grid-template-columns: minmax(0, 1fr) auto; }
+  .dmg-row { grid-template-columns: minmax(0, 1fr) auto auto; padding: 5px 8px; }
+  .dmg-row.done { background: color-mix(in oklab, var(--hc-success) 14%, transparent); }
+  .dmg-row.sel-row { border: 1px dashed var(--hc-border); }
+  .result { font: 700 11px var(--hc-font-display); text-transform: uppercase; letter-spacing: 0.08em; }
+  .result.hit { color: var(--hc-success); }
+  .result.miss { color: var(--hc-failure); }
+  .result.crit { color: var(--hc-critical); }
+  .gm-only { font-size: 11px; color: var(--hc-muted); font-family: var(--hc-font-num); }
+  .chips-line { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 3px; }
+  .dchip { font-size: 11px; color: var(--hc-muted); border: 1px solid var(--hc-border); border-radius: 3px; padding: 0 5px; }
+  .dchip.immune { color: var(--hc-accent); border-color: var(--hc-accent-line); }
+  .dchip.took { color: var(--hc-success); border-color: color-mix(in oklab, var(--hc-success) 50%, transparent); }
+  .dmg-final { font: 700 16px var(--hc-font-num); min-width: 2.5ch; text-align: right; }
+
+  .btns { display: flex; flex-wrap: wrap; gap: 6px; }
+  button.btn {
+    flex: none;
+    width: auto;
+    height: auto;
+    min-height: 0;
+    border: 1px solid var(--hc-border);
+    background: color-mix(in oklab, var(--hc-text) 7%, transparent);
+    color: var(--hc-text);
+    border-radius: 5px;
+    padding: 4px 10px;
+    font: 600 12px var(--hc-font-body);
+    line-height: 1.4;
+    cursor: pointer;
+    white-space: nowrap;
+
+    &:hover { border-color: var(--hc-accent); }
+    &.primary { background: var(--hc-accent); color: var(--hc-on-accent); border-color: var(--hc-accent); }
+    &:disabled { opacity: 0.5; cursor: wait; }
+  }
+}

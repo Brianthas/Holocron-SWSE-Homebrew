@@ -1,5 +1,6 @@
 @use "sheet";
 @use "browser";
+@use "chat";
 
 // Design tokens, mockup 1's values. Colours are custom properties so a character's accent can
 // override --hc-accent on its own sheet root; every tint is mixed from it. Light is the default set
@@ -34,7 +35,9 @@
   --hc-font-num: "Roboto Mono", ui-monospace, monospace;
 }
 
-.theme-dark .holocron:not(.theme-light),
+// Chat cards keep the light set: core draws every chat message on light parchment, whatever the
+// interface theme (templates/sidebar/tabs/chat/log.hbs and notifications.hbs, chat-popout.mjs).
+.theme-dark .holocron:not(.theme-light, .holocron-card),
 .holocron.theme-dark {
   --hc-bg: #0e111a;
   --hc-surface: #161a26;

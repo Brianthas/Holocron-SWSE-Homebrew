@@ -30,6 +30,7 @@
     "verify:packs": "node tools/checks/run.ts packs",
     "verify:sheet": "node tools/checks/run.ts sheet",
     "verify:browser": "node tools/checks/run.ts browser",
+    "verify:cards": "node tools/checks/run.ts cards",
     "rules:snapshot": "node tools/snapshot-rules.ts",
     "packs:convert": "node tools/convert/convert.ts",
     "packs:validate": "node tools/convert/validate.ts",

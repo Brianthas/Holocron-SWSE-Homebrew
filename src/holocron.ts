@@ -3,6 +3,7 @@ import { CharacterModel } from "./data/actor/character.ts";
 import { ITEM_MODELS } from "./data/item/models.ts";
 import { registerChanges } from "./effects/changes.ts";
 import { HolocronEffectModel } from "./effects/model.ts";
+import { onControlToken, renderCard } from "./dice/cards.ts";
 import { onCombatEnd } from "./dice/force.ts";
 import { CompendiumBrowser, registerBrowserSettings } from "./apps/browser.ts";
 import { registerMigrations } from "./migrations.ts";
@@ -52,6 +53,10 @@ Hooks.once("init", () => {
   // The combat tracker rolls initiative with this; without it Foundry's formula is unset.
   register("initiative", () => {
     CONFIG.Combat.initiative.formula = "1d20 + @skillTotals.initiative.total";
+  });
+  register("chat cards", () => {
+    Hooks.on("renderChatMessageHTML", (message: ChatMessage.Implementation, html: HTMLElement) => renderCard(message, html));
+    Hooks.on("controlToken", onControlToken);
   });
   register("combat end", () => {
     Hooks.on("deleteCombat", (combat: Combat.Implementation) => void onCombatEnd(combat));

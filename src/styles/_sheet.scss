@@ -301,6 +301,7 @@
     &.stun { color: var(--hc-tag-stun); border-color: color-mix(in oklab, var(--hc-tag-stun) 50%, transparent); }
     &.physical { color: var(--hc-tag-physical); border-color: color-mix(in oklab, var(--hc-tag-physical) 50%, transparent); }
   }
+  button.tag.type-switch { width: auto; height: auto; min-height: 0; background: none; cursor: pointer; &:hover { border-color: currentColor; } }
   button.btn {
     flex: none;
     width: auto;
