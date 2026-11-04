@@ -1,4 +1,4 @@
-/* global game, canvas, ui, foundry, CONFIG, Actor, Scene, Hooks, MouseEvent, document, setTimeout */
+/* global game, canvas, ui, foundry, CONFIG, Actor, Scene, Hooks, MouseEvent, Event, document, setTimeout, getComputedStyle */
 // Attack and damage cards (mockup 2), evaluated inside the running client by tools/checks/run.ts.
 // The dice are forced through CONFIG.Dice.randomUniform (core maps a value u to the face
 // ceil((1 - u) * faces), dice.mjs:366) and put back afterwards. Every result is read off the chat
@@ -85,7 +85,7 @@ CONFIG.Dice.randomUniform = () => (forced.length ? forced.shift() : realUniform(
 // Waits for a hook whose first argument passes the test, or gives up after 20 seconds and resolves
 // null, so a missing update fails its check instead of hanging the run (a timed-out eval keeps
 // running in the page, with the dice still forced).
-const waitHook = (name, test = () => true) => new Promise((resolve) => {
+const waitHook = (name, test = () => true, ms = 20000) => new Promise((resolve) => {
   const id = Hooks.on(name, (doc, ...rest) => {
     if (!test(doc, ...rest)) return;
     Hooks.off(name, id);
@@ -94,7 +94,7 @@ const waitHook = (name, test = () => true) => new Promise((resolve) => {
   setTimeout(() => {
     Hooks.off(name, id);
     resolve(null);
-  }, 20000);
+  }, ms);
 });
 // The card as the chat log shows it, once the log's render queue has drawn it.
 const shown = async (message) => {
@@ -330,7 +330,7 @@ try {
   const p4 = await created;
   let pel = await shown(p4);
   const bandsOf = (card) => [...card.querySelectorAll(".bands tr")].map((tr) => tr.className);
-  const b1 = bandsOf(pel), t1 = p4.rolls[0].total;
+  const b1 = bandsOf(pel), powerTotal = p4.rolls[0].total;
   entry = await menuEntry(pel);
   force(20, 20 - utf);
   // The Force Point is spent after the card is updated, so both updates are waited for.
@@ -339,10 +339,10 @@ try {
   entry?.click();
   await updated;
   pel = await shown(p4);
-  check(`power card: titled with the power and its tags; the reroll redraws the bands (Medium reached at ${t1}, then Large reached and Medium cleared at ${p4.rolls[0].total})`,
+  check(`power card: titled with the power and its tags; the reroll redraws the bands (Medium reached at ${powerTotal}, then Large reached and Medium cleared at ${p4.rolls[0].total})`,
     pel.querySelector(".card-title h4")?.textContent.trim() === "Probe Lift" && tagsOf(pel).includes("Telekinetic") && tagsOf(pel).includes("Standard")
     && JSON.stringify(b1) === '["reached","dim","dim"]' && JSON.stringify(bandsOf(pel)) === '["cleared","reached","dim"]'
-    && JSON.stringify(p4.getFlag("holocron", "power")?.reached) === "[1]" && tagsOf(pel).includes(`Rerolled, was ${t1}`) && fp() === fp4 - 2,
+    && JSON.stringify(p4.getFlag("holocron", "power")?.reached) === "[1]" && tagsOf(pel).includes(`Rerolled, was ${powerTotal}`) && fp() === fp4 - 2,
     { before: b1, after: bandsOf(pel), tags: tagsOf(pel), reached: p4.getFlag("holocron", "power")?.reached, fp: fp() });
 
   // A skill check: Perception rerolled from a 5 to a 15, which spends the last Force Point.
@@ -369,6 +369,136 @@ try {
   for (let i = 0; i < 5; i++) await new Promise((r) => setTimeout(r, 0));
   check("with no Force Points the reroll changes nothing", entry && c4.rolls[0].total === c1 + 10 && forced.length === 1 && fp() === 0, { total: c4.rolls[0].total, unusedDice: forced.length });
   forced.length = 0;
+
+  // 12. The sheet's settings gear (mockup 1): accent, portrait shape, dice at the table.
+  const gear = sheet.element.querySelector('.window-header [data-action="sheetSettings"]');
+  const dialogShown = waitHook("renderDialogV2");
+  gear?.click();
+  const settings = await dialogShown;
+  const swatches = [...(settings?.element.querySelectorAll("[data-accent]") ?? [])].map((b) => b.getAttribute("aria-label"));
+  const saving = () => waitHook("updateActor", (a) => a.id === attacker.id);
+  let saved = saving();
+  settings?.element.querySelector('[data-accent="#1fa39a"]')?.click();
+  await saved;
+  saved = saving();
+  settings?.element.querySelector('[data-shape="square"]')?.click();
+  await saved;
+  saved = saving();
+  const tableBox = settings?.element.querySelector('input[name="rollAtTable"]');
+  if (tableBox) {
+    tableBox.checked = true;
+    tableBox.dispatchEvent(new Event("change", { bubbles: true }));
+  }
+  await saved;
+  settings?.element.querySelector('button[data-action="done"]')?.click();
+  await sheet.render();
+  const rootStyle = getComputedStyle(sheet.element);
+  const portrait = sheet.element.querySelector(".portrait");
+  const settingParts = {
+    gear: Boolean(gear),
+    swatches: swatches.join() === "Purple,Teal,Crimson,Amber,Blue,Pale yellow",
+    // The prepared value is a Color (ColorField); the stored one is the hex string.
+    stored: attacker._source.system.appearance.accent === "#1fa39a",
+    css: rootStyle.getPropertyValue("--hc-accent").trim() === "#1fa39a",
+    on: rootStyle.getPropertyValue("--hc-on-accent").trim() === "#000000",
+    shape: portrait?.dataset.shape === "square",
+    radius: Boolean(portrait) && getComputedStyle(portrait).borderRadius === "6px",
+    table: attacker.system.settings.rollAtTable === true,
+  };
+  check("the title bar's gear opens six accents; Teal becomes the sheet's accent with black text on it (6.8:1); Square shapes the portrait; the table switch is stored",
+    Object.values(settingParts).every(Boolean), { ...settingParts, accent: attacker.system.appearance.accent, swatchList: swatches });
+
+  // 13. Dice at the table. `fill` is a face, a total, "foundry", or null to close the entry.
+  const tableEntry = async (trigger, fill) => {
+    const asked = waitHook("renderDialogV2");
+    const made = waitHook("createChatMessage", () => true, fill === null ? 3000 : 20000);
+    trigger();
+    const app = await asked;
+    const what = app?.element.querySelector(".hc-table-entry")?.textContent.replace(/\s+/g, " ").trim();
+    if (!app) return { message: await made, what };
+    if (fill === null) await app.close();
+    else if (fill === "foundry") app.element.querySelector('button[data-action="foundry"]').click();
+    else {
+      if (fill.face !== undefined) app.element.querySelector('input[name="face"]').value = String(fill.face);
+      if (fill.total !== undefined) app.element.querySelector('input[name="total"]').value = String(fill.total);
+      app.element.querySelector('button[data-action="enter"]').click();
+    }
+    return { message: await made, what };
+  };
+  const shiftClick = (selector) => () => sheet.element.querySelector(selector).dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true, shiftKey: true }));
+  const perception = shiftClick('.hc-sidebar [data-action="rollSkill"][data-skill="perception"]');
+  const per = attacker.system.skillTotals.perception.total;
+  const TABLE = "Rolled at the table";
+
+  const t1 = await tableEntry(perception, { face: 17 });
+  let tEl = t1.message ? await shown(t1.message) : null;
+  check(`Perception at the table: face 17 gives ${17 + per} with a natural 17, tagged; the card's head takes the Teal accent`,
+    t1.message?.rolls[0].total === 17 + per && t1.message.rolls[0].dice[0]?.total === 17 && tagsOf(tEl).includes(TABLE) && tEl.style.getPropertyValue("--speaker") === "#1fa39a",
+    { total: t1.message?.rolls[0].total, natural: t1.message?.rolls[0].dice[0]?.total, tags: tEl && tagsOf(tEl), what: t1.what, speaker: tEl?.style.getPropertyValue("--speaker") });
+  const t2 = await tableEntry(perception, { total: 23 });
+  check("a finished total of 23 is the whole roll, with no die", t2.message?.rolls[0].total === 23 && t2.message.rolls[0].dice.length === 0, { total: t2.message?.rolls[0].total, formula: t2.message?.rolls[0].formula });
+  force(20, 8);
+  const t3 = await tableEntry(perception, "foundry");
+  tEl = t3.message ? await shown(t3.message) : null;
+  check(`Roll in Foundry rolls as usual (8 + ${per}), untagged`, t3.message?.rolls[0].total === 8 + per && !tagsOf(tEl).includes(TABLE), { total: t3.message?.rolls[0].total });
+  const t4 = await tableEntry(perception, null);
+  check("closing the entry posts nothing", t4.message === null, { posted: t4.message?.id });
+  let asked = 0;
+  const counting = Hooks.on("renderDialogV2", () => asked++);
+  force(20, 11);
+  const initiativeMade = waitHook("createChatMessage");
+  shiftClick('.hc-sidebar [data-action="rollSkill"][data-skill="initiative"]')();
+  const ini = await initiativeMade;
+  Hooks.off("renderDialogV2", counting);
+  check("Initiative never asks: it rolls in Foundry", ini && asked === 0 && ini.rolls[0].dice[0]?.total === 11, { asked, natural: ini?.rolls[0].dice[0]?.total });
+
+  // An attack entered as a natural 20, then its critical damage entered as 12 for the 3d8.
+  target(trooper);
+  const t5 = await tableEntry(() => weaponRow("Lightsaber").querySelector('[data-action="attack"]').click(), { face: 20 });
+  tEl = t5.message ? await shown(t5.message) : null;
+  const flatDamage = Number(weaponRow("Lightsaber").querySelectorAll(".meta b")[1].textContent.split("+")[1] ?? 0);
+  const t6 = tEl ? await tableEntry(() => tEl.querySelector('button[data-hc="damage"]').click(), { face: 12 }) : {};
+  check(`an attack entered as a natural 20 is a critical; its damage asks for "Total of your 3d8" and doubles 12 + ${flatDamage}`,
+    rows(tEl)[0]?.result === "Critical" && tagsOf(tEl).includes(TABLE) && t6.what?.includes("Total of your 3d8") && t6.what.includes("critical")
+    && t6.message?.rolls[0].total === (12 + flatDamage) * 2 && t6.message.rolls[0].formula.includes("12[3d8 rolled at the table]"),
+    { attack: rows(tEl), what: t6.what, total: t6.message?.rolls[0].total, formula: t6.message?.rolls[0].formula });
+
+  // A Force Point reroll at the table asks for the new face.
+  await attacker.update({ "system.forcePoints.value": 1 });
+  const t1Card = await shown(t1.message);
+  entry = await menuEntry(t1Card);
+  const rerollAsked = waitHook("renderDialogV2");
+  entry?.click();
+  const rerollApp = await rerollAsked;
+  if (rerollApp) rerollApp.element.querySelector('input[name="face"]').value = "3";
+  const rerolled = spent(t1.message);
+  rerollApp?.element.querySelector('button[data-action="enter"]').click();
+  await rerolled;
+  const t1After = await shown(t1.message);
+  check(`a Force Point reroll at the table takes the entered face: ${17 + per} to ${3 + per}, one table tag, the Force Point spent`,
+    t1.message.rolls[0].total === 3 + per && tagsOf(t1After).filter((t) => t === TABLE).length === 1 && tagsOf(t1After).includes(`Rerolled, was ${17 + per}`) && fp() === 0,
+    { total: t1.message.rolls[0].total, tags: tagsOf(t1After), fp: fp() });
+
+  // Level up in Edit mode with a rolled hit die: the face is entered.
+  // Waits for the control the last click should bring up: a render hook can be one queued earlier.
+  const appears = async (selector) => {
+    for (let i = 0; i < 40; i++) {
+      const found = sheet.element.querySelector(selector);
+      if (found) return found;
+      await new Promise((r) => setTimeout(r, 0));
+    }
+    return null;
+  };
+  (await appears('[data-action="toggleMode"]'))?.click();
+  (await appears('[data-action="levelUpStart"]'))?.click();
+  (await appears('[data-action="levelClass"]'))?.click();
+  await appears('[data-action="levelHp"][data-mode="roll"]');
+  const levelled = waitHook("updateActor", (a) => a.id === attacker.id && a._source.system.progression.length === 2);
+  const t7 = await tableEntry(() => sheet.element.querySelector('[data-action="levelHp"][data-mode="roll"]')?.click(), { face: 7 });
+  await levelled;
+  check("a rolled level-up hit die at the table takes the entered face: level 2 gets 7 hit points",
+    t7.message?.flavor === "Level 2 hit points (Jedi)" && t7.message.rolls[0].total === 7 && attacker._source.system.progression[1]?.hitPoints === 7,
+    { flavor: t7.message?.flavor, total: t7.message?.rolls[0].total, progression: attacker._source.system.progression });
 } finally {
   CONFIG.Dice.randomUniform = realUniform;
   game.user.targets.forEach((t) => t.setTarget(false, { releaseOthers: false }));

@@ -140,6 +140,18 @@
   score follow the new total, and so do the unapplied rows of a damage card already rolled from the
   attack (a new natural 20 reads as a hit there, since its damage was rolled already). Offered to
   the card's speaker's owners; the card says so under the roll.
+- Sheet settings (mockup 1): a gear in the sheet's title bar, for the owner and the GM. Accent
+  colour (six presets or any colour), portrait shape (round, square, token), and "Enter my own roll
+  results". The accent colours the sheet, with black or white text on it, whichever contrasts more
+  (4.5:1 or better for any colour), and the head of the character's chat cards, read when a card
+  is drawn so old cards follow a change. A character without its own accent uses the world's
+  "Default accent colour" setting, purple until the GM changes it.
+- Dice rolled at the table. With "Enter my own roll results" on, checks, Force powers, attacks,
+  damage, a Force Point reroll and a rolled level-up hit die ask for the result: the d20's face (the
+  higher one after a Force Point), with the modifiers added and natural 1 and 20 still counting, or
+  a finished total; for damage, the total of the dice. "Roll in Foundry" rolls as usual, and closing
+  the entry rolls nothing. Cards are tagged "Rolled at the table". Initiative always rolls in
+  Foundry.
 - Check and power cards share the attack card's layout: a title (the skill, or the power), tags (a
   Force Point spent before the roll, a power's descriptors and action), the roll, and a power's
   target line and DC bands.

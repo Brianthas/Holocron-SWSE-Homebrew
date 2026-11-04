@@ -1,7 +1,9 @@
+import { accentOf, applyAccent } from "../appearance.ts";
 import type { CharacterModel } from "../data/actor/character.ts";
 import { attackOutcome, damageFor, marginText, takeDamage, type Chip, type DamageTarget as TargetInfo, type Outcome } from "../rules/damage.ts";
 import { groupLabel, rollDamage, tagHtml, type Applied, type AttackFlag, type DamageFlag } from "./attack.ts";
-import { setInitiative } from "./check.ts";
+import { setInitiative, type CheckFlag } from "./check.ts";
+import { askCheckEntry, enteredD20, rollsAtTable, TABLE_TAG } from "./table.ts";
 import { powerBands } from "./force.ts";
 
 /**
@@ -182,6 +184,11 @@ export function renderCard(message: ChatMessage.Implementation, html: HTMLElemen
   const live = html.querySelector<HTMLElement>(".holocron-card .hc-live");
   if (!live) return;
   html.classList.add("holocron-message");
+  // The speaker's accent, read now, so a changed accent recolours old cards too (mockup 1).
+  const accent = accentOf(message.speakerActor as Actor.Implementation | null);
+  html.style.setProperty("--speaker", accent);
+  const card = html.querySelector<HTMLElement>(".holocron-card");
+  if (card) applyAccent(card, accent);
   addTokenImage(message, html);
   const attack = message.getFlag("holocron", "attack") as AttackFlag | undefined;
   const damage = message.getFlag("holocron", "damage") as DamageFlag | undefined;
@@ -222,17 +229,26 @@ export async function forcePointReroll(message: ChatMessage.Implementation): Pro
     return;
   }
   const old = message.rolls[0]!;
-  const roll = await old.reroll();
-  const total = roll.total ?? 0;
+  const attack = message.getFlag("holocron", "attack") as AttackFlag | undefined;
+  const check = message.getFlag("holocron", "check") as CheckFlag | undefined;
+  const power = message.getFlag("holocron", "power") as { itemId: string } | undefined;
   const card = document.createElement("div");
   card.innerHTML = message.content ?? "";
+  // Rolled again from the stored formula (a card from before it was stored uses the roll's own), or
+  // entered at the table the same way the first roll could be; closing the entry spends nothing.
+  const formula = check?.formula ?? attack?.formula ?? old.formula;
+  const atTable = rollsAtTable(actor) && check?.skill !== "initiative";
+  const title = card.querySelector(".card-title h4")?.textContent?.trim() ?? "Roll";
+  const entry = atTable ? await askCheckEntry(`${title}: Force Point reroll`, check?.advantage === true, check?.modifier ?? attack?.bonus ?? 0) : "foundry";
+  if (!entry) return;
+  const roll = entry === "foundry" ? await new Roll(formula).evaluate() : await enteredD20(formula, entry);
+  const total = roll.total ?? 0;
   card.querySelector(".dice-roll")?.replaceWith(foundry.utils.parseHTML(await roll.render()) as HTMLElement);
-  card.querySelector(".card-title .tags")?.insertAdjacentHTML("beforeend", tagHtml(`Rerolled, was ${old.total ?? 0}`));
+  const tags = card.querySelector(".card-title .tags");
+  tags?.insertAdjacentHTML("beforeend", tagHtml(`Rerolled, was ${old.total ?? 0}`));
+  if (entry !== "foundry" && ![...(tags?.children ?? [])].some((t) => t.textContent === TABLE_TAG)) tags?.insertAdjacentHTML("beforeend", tagHtml(TABLE_TAG));
 
   const update: Record<string, unknown> = {};
-  const attack = message.getFlag("holocron", "attack") as AttackFlag | undefined;
-  const check = message.getFlag("holocron", "check") as { skill: string } | undefined;
-  const power = message.getFlag("holocron", "power") as { itemId: string } | undefined;
   if (check) update["flags.holocron.check.total"] = total;
   if (power) {
     const item = actor.items.get(power.itemId);

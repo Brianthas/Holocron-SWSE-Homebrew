@@ -1,4 +1,5 @@
 import "./styles/holocron.scss";
+import { registerAppearanceSettings } from "./appearance.ts";
 import { CharacterModel } from "./data/actor/character.ts";
 import { ITEM_MODELS } from "./data/item/models.ts";
 import { registerChanges } from "./effects/changes.ts";
@@ -54,6 +55,7 @@ Hooks.once("init", () => {
   register("initiative", () => {
     CONFIG.Combat.initiative.formula = "1d20 + @skillTotals.initiative.total";
   });
+  register("appearance", registerAppearanceSettings);
   register("chat cards", () => {
     Hooks.on("renderChatMessageHTML", (message: ChatMessage.Implementation, html: HTMLElement) => renderCard(message, html));
     Hooks.on("controlToken", onControlToken);

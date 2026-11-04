@@ -2,6 +2,7 @@ import { WEAPON_GROUPS, type WeaponGroupKey } from "../config/weapons.ts";
 import type { CharacterModel, WeaponData } from "../data/actor/character.ts";
 import { attackOutcome, type Outcome } from "../rules/damage.ts";
 import type { Breakdown } from "../rules/modifiers.ts";
+import { askCheckEntry, askTable, enteredD20, enteredDice, rollsAtTable, TABLE_TAG } from "./table.ts";
 
 /** One target of an attack, as the attack card judged it. `uuid` is the target's token. */
 export interface AttackTarget { name: string; uuid: string; reflex: number | null; outcome: Outcome; hit: boolean }
@@ -15,6 +16,8 @@ export interface AttackFlag {
   total: number;
   crit: boolean;
   targets: AttackTarget[];
+  /** The roll's formula, so a Force Point reroll rolls or enters it again. */
+  formula: string;
 }
 
 /** One row of a damage card: a target and how the card treats it. */
@@ -75,7 +78,10 @@ export async function rollAttack(actor: Actor.Implementation, weapon: Item.Imple
   const system = actor.system as CharacterModel;
   const data = weapon.system as WeaponData & { damageTypes?: string[]; damageType?: string };
   const parts = system.attackFor(data);
-  const roll = await new Roll(labelledFormula("1d20", parts)).evaluate();
+  const formula = labelledFormula("1d20", parts);
+  const entry = rollsAtTable(actor) ? await askCheckEntry(`${weapon.name}: attack`, false, parts.total) : "foundry";
+  if (!entry) return null;
+  const roll = entry === "foundry" ? await new Roll(formula).evaluate() : await enteredD20(formula, entry);
   const natural = roll.dice[0]?.total ?? 0;
   const total = roll.total ?? 0;
 
@@ -87,7 +93,7 @@ export async function rollAttack(actor: Actor.Implementation, weapon: Item.Imple
     return [{ name: token.name ?? target.name, uuid: token.document.uuid ?? "", reflex, outcome, hit: outcome === "hit" || outcome === "crit" }];
   });
 
-  const flag: AttackFlag = { weapon: weapon.name, weaponId: weapon.id ?? "", bonus: parts.total, natural, total, crit: natural === 20, targets };
+  const flag: AttackFlag = { weapon: weapon.name, weaponId: weapon.id ?? "", bonus: parts.total, natural, total, crit: natural === 20, targets, formula };
   const type = damageTypeOf(data);
   const message = await ChatMessage.create({
     speaker: ChatMessage.getSpeaker({ actor: actor as Actor.Stored }),
@@ -95,7 +101,7 @@ export async function rollAttack(actor: Actor.Implementation, weapon: Item.Imple
     flavor: `${escape(weapon.name)} attack`,
     // Core shows a roll only when the content has no elements of its own (chat-message.mjs
     // #renderRollContent), so the card carries the roll's HTML itself.
-    content: await cardHtml(weapon.name, [data.category === "melee" ? "Melee" : "Ranged", ...(type ? [type] : [])], roll),
+    content: await cardHtml(weapon.name, [data.category === "melee" ? "Melee" : "Ranged", ...(type ? [type] : []), ...(entry === "foundry" ? [] : [TABLE_TAG])], roll),
     flags: { holocron: { attack: flag } },
   } as never);
   return (message as ChatMessage.Implementation | undefined) ?? null;
@@ -129,7 +135,22 @@ export async function rollDamage(
 ): Promise<ChatMessage.Implementation | null> {
   const system = actor.system as CharacterModel;
   const data = weapon.system as WeaponData & { damageTypes?: string[]; damageType?: string; halfOnMiss?: boolean };
-  const formula = system.damageFor(data).formula;
+  const damage = system.damageFor(data);
+  let formula = damage.formula;
+  // At the table the dice's total is entered and the modifiers added; closing the entry rolls nothing.
+  const dice = /^\s*(\d+)d(\d+)/.exec(formula);
+  let entered = false;
+  if (dice && rollsAtTable(actor)) {
+    const entry = await askTable({
+      title: `${weapon.name}: damage`, what: `${dice[0].trim()}${crit ? " (critical: the whole result doubles)" : ""}`,
+      faceLabel: `Total of your ${dice[0].trim()}`, faces: Number(dice[1]) * Number(dice[2]), modifier: damage.flat.total, allowTotal: false,
+    });
+    if (!entry) return null;
+    if (entry !== "foundry") {
+      formula = enteredDice(formula, entry.face ?? 0);
+      entered = true;
+    }
+  }
   const roll = await new Roll(crit ? `(${formula}) * 2` : formula).evaluate();
   const attackFlag = attack?.getFlag("holocron", "attack") as AttackFlag | undefined;
   const targets: DamageTarget[] = attackFlag
@@ -140,7 +161,7 @@ export async function rollDamage(
     weapon: weapon.name, type, group: data.group, halfOnMiss: data.halfOnMiss === true, total: roll.total ?? 0, crit,
     attackId: attack?.id ?? null, targets, applied: [], selected: null,
   };
-  const tags = [...(type ? [type] : []), ...(crit ? ["Critical"] : []), ...(flag.halfOnMiss ? ["Half damage on a miss"] : [])];
+  const tags = [...(type ? [type] : []), ...(crit ? ["Critical"] : []), ...(flag.halfOnMiss ? ["Half damage on a miss"] : []), ...(entered ? [TABLE_TAG] : [])];
   const message = await ChatMessage.create({
     speaker: ChatMessage.getSpeaker({ actor: actor as Actor.Stored }),
     rolls: [roll],

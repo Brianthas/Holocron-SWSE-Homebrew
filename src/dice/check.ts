@@ -2,11 +2,12 @@ import { SKILLS, type SkillKey } from "../config/skills.ts";
 import type { CharacterModel } from "../data/actor/character.ts";
 import { healTo } from "../rules/resources.ts";
 import { cardHtml, labelledFormula } from "./attack.ts";
+import { askCheckEntry, enteredD20, rollsAtTable, TABLE_TAG } from "./table.ts";
 
 const escape = (s: string) => foundry.utils.escapeHTML(s);
 
 /** What a check card records. */
-export interface CheckFlag { skill: SkillKey; advantage: boolean; other: number; total: number }
+export interface CheckFlag { skill: SkillKey; advantage: boolean; other: number; total: number; formula: string; modifier: number }
 
 /** What a check card shows besides the roll: a Force power's title, tags and bands (force.ts). */
 export interface CheckCard { title: string; tags: string[]; extra: string; flavor: string; flags: Record<string, unknown> }
@@ -34,11 +35,14 @@ export async function rollCheck(
   const system = actor.system as CharacterModel;
   const spend = advantage && system.forcePoints.value > 0;
   const formula = labelledFormula(spend ? "2d20kh" : "1d20", system.skillTotals[key]) + (other ? ` ${other < 0 ? "-" : "+"} ${Math.abs(other)}[Other modifier]` : "");
-  const roll = await new Roll(formula).evaluate();
+  // Initiative always rolls in Foundry (table.ts). Closing the entry rolls nothing and spends nothing.
+  const entry = key !== "initiative" && rollsAtTable(actor) ? await askCheckEntry(`${SKILLS[key].label} check`, spend, system.skillTotals[key].total + other) : "foundry";
+  if (!entry) return null;
+  const roll = entry === "foundry" ? await new Roll(formula).evaluate() : await enteredD20(formula, entry);
   if (spend) await actor.update({ system: { forcePoints: { value: system.forcePoints.value - 1 } } } as never);
-  const flag: CheckFlag = { skill: key, advantage: spend, other, total: roll.total ?? 0 };
+  const flag: CheckFlag = { skill: key, advantage: spend, other, total: roll.total ?? 0, formula, modifier: system.skillTotals[key].total + other };
   const custom = card?.(roll.total ?? 0);
-  const tags = [...(spend ? ["Force Point"] : []), ...(custom?.tags ?? [])];
+  const tags = [...(spend ? ["Force Point"] : []), ...(custom?.tags ?? []), ...(entry === "foundry" ? [] : [TABLE_TAG])];
   const message = await ChatMessage.create({
     speaker: ChatMessage.getSpeaker({ actor: actor as Actor.Stored }),
     rolls: [roll],

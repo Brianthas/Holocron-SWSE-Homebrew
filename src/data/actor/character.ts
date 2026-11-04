@@ -79,6 +79,15 @@ function characterSchema() {
     }),
     /** Pinned to the top of Play, in order: item ids, or "stance" for Defensive Stance (mockup 1). */
     pins: new fields.ArrayField(new fields.StringField({ required: true, blank: false })),
+    /** The sheet's own settings (mockup 1, the gear in its title bar). An unset accent uses the world's. */
+    appearance: new fields.SchemaField({
+      accent: new fields.ColorField({ nullable: true, initial: null }),
+      portrait: new fields.StringField({ required: true, blank: false, initial: "round", choices: ["round", "square", "token"] }),
+    }),
+    settings: new fields.SchemaField({
+      /** "Enter my own roll results": dice rolled at the table (mockup 1). */
+      rollAtTable: new fields.BooleanField({ initial: false }),
+    }),
   };
 }
 

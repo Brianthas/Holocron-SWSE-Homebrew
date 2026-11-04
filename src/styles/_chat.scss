@@ -1,14 +1,21 @@
 // Attack and damage cards in chat (mockup 2). The card is a .holocron element, so it takes the
 // design tokens, always the light set (holocron.scss).
 
+// The head takes the speaker's accent (--speaker, set per message in dice/cards.ts).
 .chat-message.holocron-message .message-header {
+  border-left: 4px solid var(--speaker, #7b4fd6);
+  padding-left: 6px;
+  background: color-mix(in oklab, var(--speaker, #7b4fd6) 14%, transparent);
+  border-radius: 3px;
+
   .hc-token {
     width: 32px;
     height: 32px;
     flex: none;
     margin-right: 6px;
-    border: none;
-    object-fit: contain;
+    border: 2px solid var(--speaker, #7b4fd6);
+    border-radius: 50%;
+    object-fit: cover;
   }
 }
 

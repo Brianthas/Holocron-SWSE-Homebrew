@@ -82,6 +82,9 @@
     border: 2px solid var(--hc-accent-line);
     background: var(--hc-raised);
     cursor: pointer;
+
+    &[data-shape="square"] { border-radius: 6px; }
+    &[data-shape="token"] { border-width: 5px; border-style: double; }
   }
   .block { display: grid; gap: 6px; }
   .block + .block { border-top: 1px solid var(--hc-border); padding-top: 10px; }
@@ -687,4 +690,44 @@
   @container (max-width: 640px) {
     .play-grid { grid-template-columns: minmax(0, 1fr); }
   }
+}
+
+// The sheet's settings dialog (mockup 1). The dialog is a .holocron window, so it takes the tokens.
+.holocron.hc-settings {
+  color: var(--hc-text);
+
+  .hc-settings-body { display: grid; gap: 10px; min-width: 360px; }
+  .label { font: 600 10.5px/1.2 var(--hc-font-display); text-transform: uppercase; letter-spacing: 0.09em; color: var(--hc-muted); }
+  .hint { font-size: 12px; color: var(--hc-muted); margin: 0; }
+  .set-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .swatches { display: inline-flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  button.swatch {
+    flex: none;
+    width: 22px;
+    height: 22px;
+    min-height: 0;
+    padding: 0;
+    border-radius: 50%;
+    border: 2px solid var(--hc-surface);
+    box-shadow: 0 0 0 1px var(--hc-border);
+    cursor: pointer;
+
+    &[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--hc-text); }
+  }
+  input[type="color"] { width: 30px; height: 24px; border: 1px solid var(--hc-border); border-radius: 4px; padding: 0; background: none; }
+  .minseg { display: inline-flex; border: 1px solid var(--hc-border); border-radius: 5px; overflow: hidden; }
+  .minseg button { flex: none; width: auto; min-height: 0; border: 0; border-radius: 0; background: none; color: var(--hc-muted); padding: 4px 9px; font: 600 12px var(--hc-font-body); cursor: pointer; }
+  .minseg button + button { border-left: 1px solid var(--hc-border); }
+  .minseg button[aria-pressed="true"] { background: var(--hc-accent-soft); color: var(--hc-text); }
+}
+
+// The entry for dice rolled at the table (dice/table.ts).
+.holocron.hc-table {
+  color: var(--hc-text);
+
+  .hc-table-entry { display: grid; gap: 8px; min-width: 300px; }
+  .hc-table-entry p { margin: 0; }
+  .hc-table-entry label { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .hc-table-entry input[type="number"] { width: 90px; }
+  .hint { font-size: 12px; color: var(--hc-muted); }
 }

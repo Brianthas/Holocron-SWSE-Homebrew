@@ -24,6 +24,9 @@ import { DEFENSES, DEFENSE_LABELS, type DefenseKey } from "../rules/defenses.ts"
 import { nextCarry, nextSize, SLOT_LABELS, type Carry, type SlotSize } from "../rules/inventory.ts";
 import { averageHitDie, hpEntry } from "../rules/resources.ts";
 import { breakdownHtml, signed } from "./breakdown.ts";
+import { openSheetSettings } from "./settings.ts";
+import { askTable, enteredDice, rollsAtTable } from "../dice/table.ts";
+import { accentOf, applyAccent } from "../appearance.ts";
 
 /**
  * The character sheet signed off as mockup 1, built in slices: the sidebar (hit points, Second
@@ -71,7 +74,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
       toggleStance: CharacterSheet.#toggleStance, deleteEffect: CharacterSheet.#deleteEffect,
       togglePin: CharacterSheet.#togglePin, usePin: CharacterSheet.#usePin, useItem: CharacterSheet.#useItem,
       toggleTree: CharacterSheet.#toggleTree, unaddTree: CharacterSheet.#unaddTree, addTree: CharacterSheet.#addTree,
-      fillSlot: CharacterSheet.#fillSlot, chooseFor: CharacterSheet.#chooseFor,
+      fillSlot: CharacterSheet.#fillSlot, chooseFor: CharacterSheet.#chooseFor, sheetSettings: CharacterSheet.#sheetSettings,
     },
   };
 
@@ -121,6 +124,7 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     const skill = (k: SkillKey) => ({ key: k, label: SKILLS[k].label, trained: s.isTrained(k), marked: s.skills[k].trained, total: signed(s.skillTotals[k].total), tooltip: breakdownHtml(SKILLS[k].label, s.skillTotals[k]) });
     return Object.assign(context, {
       img: actor.img,
+      portraitShape: s.appearance.portrait,
       name: actor.name,
       speciesName: species?.name ?? "No species",
       sizeLabel: capitalise(s.size),
@@ -237,10 +241,22 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     return Object.assign(prepared, { tab: tabs?.[partId] });
   }
 
+  /** The sheet's settings gear in the title bar (mockup 1), for those who can edit the character. */
+  override _getFrameButtons(options: never) {
+    const buttons = super._getFrameButtons(options);
+    if (this.isEditable) buttons.push({ icon: "fa-solid fa-gear", label: "Sheet settings", action: "sheetSettings" });
+    return buttons;
+  }
+
+  static async #sheetSettings(this: CharacterSheet): Promise<void> {
+    await openSheetSettings(this.actor as Actor.Implementation);
+  }
+
   /** The hit point box takes a total, -n or +n (hpEntry); anything else puts the value back. */
   override async _onRender(context: object, options: foundry.applications.sheets.ActorSheetV2.RenderOptions): Promise<void> {
     await super._onRender(context as never, options);
     this.element.dataset["mode"] = this.#editMode && this.isEditable ? "edit" : "play";
+    applyAccent(this.element, accentOf(this.actor as Actor.Implementation));
     // Right-click on a pinnable row pins or unpins it. The window element outlives renders, so the
     // listener is added once.
     if ((options as { isFirstRender?: boolean }).isFirstRender) {
@@ -600,8 +616,15 @@ export class CharacterSheet extends HandlebarsApplicationMixin(foundry.applicati
     const { ref } = state;
     let hitPoints = averageHitDie(ref.die);
     if (target.dataset["mode"] === "roll") {
-      const roll = await new Roll(`1d${ref.die}`).evaluate();
       const level = (this.actor.system as CharacterModel).level + 1;
+      // At the table the die's face is entered; closing the entry takes no level.
+      let formula = `1d${ref.die}`;
+      if (rollsAtTable(this.actor as Actor.Implementation)) {
+        const entry = await askTable({ title: `Level ${level} hit points`, what: `1d${ref.die}`, faceLabel: `d${ref.die} face`, faces: ref.die, modifier: 0, allowTotal: false });
+        if (!entry) return;
+        if (entry !== "foundry") formula = enteredDice(formula, entry.face ?? 0);
+      }
+      const roll = await new Roll(formula).evaluate();
       await roll.toMessage({ speaker: ChatMessage.getSpeaker({ actor: this.actor as Actor.Stored }), flavor: `Level ${level} hit points (${ref.name})` });
       hitPoints = roll.total ?? hitPoints;
     }
