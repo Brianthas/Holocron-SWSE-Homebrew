@@ -6,6 +6,7 @@
 
 import type { CharacterModel } from "../src/data/actor/character.ts";
 import type { AttackFlag, DamageFlag } from "../src/dice/attack.ts";
+import type { CheckFlag } from "../src/dice/check.ts";
 import type {
   ArmorModel, ClassModel, DroidSystemModel, EquipmentModel, FeatModel, FeatureModel, ForcePowerModel, SpeciesModel, TalentModel, WeaponModel,
 } from "../src/data/item/models.ts";
@@ -48,6 +49,10 @@ declare module "fvtt-types/configuration" {
       holocron: {
         attack?: AttackFlag;
         damage?: DamageFlag;
+        /** A check card (src/dice/check.ts). */
+        check?: CheckFlag;
+        /** A Force power's check: the power and the bands its total reached (src/dice/force.ts). */
+        power?: { itemId: string; reached: number[] };
         /** A long rest's changes, one line each (src/rest.ts). */
         rest?: string[];
         /** New Day's changes per character name. */

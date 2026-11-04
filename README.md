@@ -27,7 +27,7 @@ npm run verify:droids   # converted droid systems embed; the Translator Unit ins
 npm run verify:packs    # the built compendiums load, and every item embeds and prepares cleanly
 npm run verify:sheet    # the character sheet, driven through its own controls
 npm run verify:browser  # the compendium browser: search, filters, Add from a sheet, drag onto one
-npm run verify:cards    # attack and damage cards, with forced dice: results, DR, immunity, Apply and Undo
+npm run verify:cards    # chat cards, with forced dice: results, DR, immunity, Apply and Undo, Force Point rerolls
 ```
 
 `npm run typecheck`, `npm run lint`, `npm test`, `npm run build` and `npm run packs:build` run in

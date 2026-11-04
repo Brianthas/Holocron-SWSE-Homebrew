@@ -1,4 +1,4 @@
-/* global game, canvas, ui, foundry, CONFIG, Actor, Scene, Hooks */
+/* global game, canvas, ui, foundry, CONFIG, Actor, Scene, Hooks, MouseEvent, document, setTimeout */
 // Attack and damage cards (mockup 2), evaluated inside the running client by tools/checks/run.ts.
 // The dice are forced through CONFIG.Dice.randomUniform (core maps a value u to the face
 // ceil((1 - u) * faces), dice.mjs:366) and put back afterwards. Every result is read off the chat
@@ -34,7 +34,10 @@ const character = (name, { abilities = {}, items = [], system = {} } = {}) => {
 const human = { name: "Human", type: "species", system: { size: "medium" } };
 const attacker = await character("Cards Attacker", {
   abilities: { dex: { base: 14 } },
+  system: { forcePoints: { value: 3 } },
   items: [human,
+    { name: "Probe Lift", type: "forcePower", system: { skill: "useTheForce", descriptors: ["telekinetic"], action: "Standard Action", cumulative: false, copies: 1, ready: 1,
+      bands: [{ dc: 15, text: "Medium" }, { dc: 20, text: "Large" }, { dc: 25, text: "Huge" }] } },
     { name: "Lightsaber", type: "weapon", system: { category: "melee", group: "lightsabers", damage: "3d8", damageTypes: ["Energy"] } },
     { name: "Blaster Pistol", type: "weapon", system: { category: "ranged", group: "pistols", damage: "3d6", damageTypes: ["Energy", "Stun"] } },
     { name: "Frag Grenade", type: "weapon", system: { category: "ranged", group: "simple", damage: "4d6", damageTypes: ["Stun"], halfOnMiss: true, thrown: true } }],
@@ -69,19 +72,29 @@ const target = (...actors) => {
 };
 canvas.tokens.releaseAll();
 
-const realUniform = CONFIG.Dice.randomUniform;
+// Core's own source (config.mjs: dice.MersenneTwister.random). Anything else is a patch left behind,
+// and the run refuses rather than keep it as the thing to put back.
+const realUniform = foundry.dice.MersenneTwister.random;
+if (CONFIG.Dice.randomUniform !== realUniform) {
+  return JSON.stringify({ refused: "CONFIG.Dice.randomUniform is not core's; reload the client" });
+}
 const forced = [];
 const force = (die, ...faces) => forced.push(...faces.map((f) => 1 - (f - 0.5) / die));
 CONFIG.Dice.randomUniform = () => (forced.length ? forced.shift() : realUniform());
 
-// Waits for a hook whose first argument passes the test. Hooks are promises, not timers, so a
-// hidden tab does not slow them.
+// Waits for a hook whose first argument passes the test, or gives up after 20 seconds and resolves
+// null, so a missing update fails its check instead of hanging the run (a timed-out eval keeps
+// running in the page, with the dice still forced).
 const waitHook = (name, test = () => true) => new Promise((resolve) => {
   const id = Hooks.on(name, (doc, ...rest) => {
     if (!test(doc, ...rest)) return;
     Hooks.off(name, id);
     resolve(doc);
   });
+  setTimeout(() => {
+    Hooks.off(name, id);
+    resolve(null);
+  }, 20000);
 });
 // The card as the chat log shows it, once the log's render queue has drawn it.
 const shown = async (message) => {
@@ -267,6 +280,95 @@ try {
   weaponRow("Blaster Pistol").querySelector('[data-action="cycleDamageType"]').click();
   await back;
   check("a second click goes back to Energy", pistolItem.system.damageType === "Energy", { stored: pistolItem.system.damageType });
+
+  // 11. Force Point reroll, from the chat log's right-click menu. The menu builds its items before
+  // its open animation, so they are found by polling, then clicked.
+  const REROLL = "Spend a Force Point: take a new roll";
+  const menuEntry = async (card) => {
+    card.dispatchEvent(new MouseEvent("contextmenu", { bubbles: true, cancelable: true, clientX: 40, clientY: 40 }));
+    for (let i = 0; i < 20; i++) {
+      const item = [...document.querySelectorAll("#context-menu .context-item")].find((li) => li.textContent.trim() === REROLL);
+      if (item) return item;
+      await new Promise((r) => setTimeout(r, 0));
+    }
+    return null;
+  };
+  const fp = () => attacker.system.forcePoints.value;
+  const tagsOf = (card) => [...card.querySelectorAll(".card-title .tag")].map((t) => t.textContent.trim());
+
+  // An attack that misses both targets by one or more, its damage rolled (both rows 0), rerolled to a natural 20.
+  target(trooper, droid);
+  const a4 = await attack("Lightsaber", reflex(trooper) - saberBonus - 1);
+  force(8, 5, 5, 5);
+  const d4 = await press(a4.el, 'button[data-hc="damage"]', "createChatMessage");
+  el = await shown(d4);
+  const before4 = rows(el);
+  const was4 = a4.message.rolls[0].total;
+  const fp4 = fp();
+  let entry = await menuEntry(await shown(a4.message));
+  force(20, 20);
+  const attackUpdated = waitHook("updateChatMessage", (m) => m.id === a4.message.id);
+  const damageFollowed = waitHook("updateChatMessage", (m) => m.id === d4.id);
+  entry?.click();
+  await attackUpdated;
+  await damageFollowed;
+  const a4el = await shown(a4.message);
+  el = await shown(d4);
+  const after4 = rows(a4el), dmg4 = rows(el);
+  check(`Force Point reroll of a missed attack to a natural 20: both targets Critical, tagged "Rerolled, was ${was4}", one Force Point spent; the damage card's rows turn to Hit (15, Apply), not doubled`,
+    entry && before4.every((r) => r.result === "Miss" && r.n === "0") && after4.every((r) => r.result === "Critical") && tagsOf(a4el).includes(`Rerolled, was ${was4}`)
+    && fp() === fp4 - 1 && a4el.querySelector('[data-hc="damage"]')?.textContent.trim() === "Roll critical damage" && a4el.querySelector(".hc-live .hint")?.textContent.includes(REROLL)
+    && dmg4[0]?.result === "Hit" && dmg4[0].n === "15" && dmg4[0].button === "Apply" && d4.rolls[0].total === 15,
+    { entry: Boolean(entry), before: before4, after: after4, damage: dmg4, tags: tagsOf(a4el), fp: [fp4, fp()] });
+
+  // A Force power: the first total reaches the 15 band only; the reroll reaches 20, so the bands move.
+  const lift = attacker.items.getName("Probe Lift");
+  const utf = attacker.system.skillTotals.useTheForce.total;
+  force(20, 16 - utf);
+  let created = waitHook("createChatMessage");
+  sheet.element.querySelector(`[data-action="rollPower"][data-item-id="${lift.id}"]`).dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true, shiftKey: true }));
+  const p4 = await created;
+  let pel = await shown(p4);
+  const bandsOf = (card) => [...card.querySelectorAll(".bands tr")].map((tr) => tr.className);
+  const b1 = bandsOf(pel), t1 = p4.rolls[0].total;
+  entry = await menuEntry(pel);
+  force(20, 20 - utf);
+  // The Force Point is spent after the card is updated, so both updates are waited for.
+  const spent = (m) => Promise.all([waitHook("updateChatMessage", (x) => x.id === m.id), waitHook("updateActor", (a) => a.id === attacker.id)]);
+  let updated = spent(p4);
+  entry?.click();
+  await updated;
+  pel = await shown(p4);
+  check(`power card: titled with the power and its tags; the reroll redraws the bands (Medium reached at ${t1}, then Large reached and Medium cleared at ${p4.rolls[0].total})`,
+    pel.querySelector(".card-title h4")?.textContent.trim() === "Probe Lift" && tagsOf(pel).includes("Telekinetic") && tagsOf(pel).includes("Standard")
+    && JSON.stringify(b1) === '["reached","dim","dim"]' && JSON.stringify(bandsOf(pel)) === '["cleared","reached","dim"]'
+    && JSON.stringify(p4.getFlag("holocron", "power")?.reached) === "[1]" && tagsOf(pel).includes(`Rerolled, was ${t1}`) && fp() === fp4 - 2,
+    { before: b1, after: bandsOf(pel), tags: tagsOf(pel), reached: p4.getFlag("holocron", "power")?.reached, fp: fp() });
+
+  // A skill check: Perception rerolled from a 5 to a 15, which spends the last Force Point.
+  force(20, 5);
+  created = waitHook("createChatMessage");
+  sheet.element.querySelector('[data-action="rollSkill"][data-skill="perception"]').dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true, shiftKey: true }));
+  const c4 = await created;
+  let cel = await shown(c4);
+  const c1 = c4.rolls[0].total;
+  entry = await menuEntry(cel);
+  force(20, 15);
+  updated = spent(c4);
+  entry?.click();
+  await updated;
+  cel = await shown(c4);
+  check(`skill card: titled Perception; the reroll takes ${c1} to ${c1 + 10} and spends the last Force Point`,
+    cel.querySelector(".card-title h4")?.textContent.trim() === "Perception" && c4.rolls[0].total === c1 + 10 && c4.getFlag("holocron", "check")?.total === c1 + 10
+    && tagsOf(cel).includes(`Rerolled, was ${c1}`) && fp() === 0, { before: c1, after: c4.rolls[0].total, tags: tagsOf(cel), fp: fp() });
+
+  // With no Force Point left the entry warns and changes nothing: the forced die stays unused.
+  entry = await menuEntry(cel);
+  force(20, 1);
+  entry?.click();
+  for (let i = 0; i < 5; i++) await new Promise((r) => setTimeout(r, 0));
+  check("with no Force Points the reroll changes nothing", entry && c4.rolls[0].total === c1 + 10 && forced.length === 1 && fp() === 0, { total: c4.rolls[0].total, unusedDice: forced.length });
+  forced.length = 0;
 } finally {
   CONFIG.Dice.randomUniform = realUniform;
   game.user.targets.forEach((t) => t.setTarget(false, { releaseOthers: false }));

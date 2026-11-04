@@ -52,11 +52,18 @@ export const groupLabel = (group: string): string => WEAPON_GROUPS[group as Weap
 /** Damage types (fork v1.4.1, alphabetical); a tag naming one is coloured for it. */
 const DAMAGE_TYPES = ["Burn", "Energy", "Ion", "Physical", "Sonic", "Stun"];
 
-/** The card's fixed part: title, tags and the roll. The live part (targets, buttons) is drawn per viewer (cards.ts). */
-export const cardHtml = async (title: string, tags: string[], roll: Roll) => `
+export const tagHtml = (t: string) => `<span class="tag${DAMAGE_TYPES.includes(t) ? ` type-${t.toLowerCase()}` : ""}">${escape(t)}</span>`;
+
+/**
+ * The card's stored part: title, tags, the roll, and `extra` drawn from the total (a power's bands).
+ * The live part (targets, buttons) is drawn per viewer (cards.ts); a Force Point reroll replaces the
+ * roll and the extra in place.
+ */
+export const cardHtml = async (title: string, tags: string[], roll: Roll, extra = "") => `
   <div class="holocron holocron-card">
-    <div class="card-title"><h4>${escape(title)}</h4><div class="tags">${tags.map((t) => `<span class="tag${DAMAGE_TYPES.includes(t) ? ` type-${t.toLowerCase()}` : ""}">${escape(t)}</span>`).join("")}</div></div>
+    <div class="card-title"><h4>${escape(title)}</h4><div class="tags">${tags.map(tagHtml).join("")}</div></div>
     ${await roll.render()}
+    <div class="hc-extra">${extra}</div>
     <div class="hc-live"></div>
   </div>`;
 

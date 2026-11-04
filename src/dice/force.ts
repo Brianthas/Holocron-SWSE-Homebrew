@@ -20,18 +20,27 @@ export async function rollPower(actor: Actor.Implementation, power: Item.Impleme
   const data = power.system as unknown as PowerData;
   const skill = (SKILL_KEYS as readonly string[]).includes(data.skill) ? (data.skill as SkillKey) : "useTheForce";
   return rollCheck(actor, skill, options, (total) => {
-    const highlighted = bandsReached(data.bands, total, data.cumulative);
-    const rows = data.bands.map((b, i) => {
-      const cls = highlighted.includes(i) ? "reached" : total >= b.dc ? "cleared" : "dim";
-      return `<tr class="${cls}"><td>DC ${b.dc}</td><td>${escape(b.text)}</td></tr>`;
-    }).join("");
-    const tags = [...data.descriptors.map((d) => FORCE_DESCRIPTORS[d]), actionTag(data.action)].filter(Boolean).map((t) => `<span class="tag">${escape(t)}</span>`).join("");
+    const { html, reached } = powerBands(power, total);
     return {
+      title: power.name ?? "",
+      tags: [...data.descriptors.map((d) => FORCE_DESCRIPTORS[d]), actionTag(data.action)].filter(Boolean),
+      extra: html,
       flavor: `Use the Force (${escape(power.name ?? "")})`,
-      content: `<div class="holocron-power">${tags ? `<div class="tags">${tags}</div>` : ""}${data.target ? `<p class="hint">${escape(data.target)}</p>` : ""}${rows ? `<table class="bands"><tbody>${rows}</tbody></table>` : ""}</div>`,
-      flags: { power: { itemId: power.id, reached: highlighted } },
+      flags: { power: { itemId: power.id, reached } },
     };
   });
+}
+
+/** The power's target line and its DC bands for a total, the reached ones highlighted. */
+export function powerBands(power: Item.Implementation, total: number): { html: string; reached: number[] } {
+  const data = power.system as unknown as PowerData;
+  const reached = bandsReached(data.bands, total, data.cumulative);
+  const rows = data.bands.map((b, i) => {
+    const cls = reached.includes(i) ? "reached" : total >= b.dc ? "cleared" : "dim";
+    return `<tr class="${cls}"><td>DC ${b.dc}</td><td>${escape(b.text)}</td></tr>`;
+  }).join("");
+  const html = `<div class="holocron-power">${data.target ? `<p class="hint">${escape(data.target)}</p>` : ""}${rows ? `<table class="bands"><tbody>${rows}</tbody></table>` : ""}</div>`;
+  return { html, reached };
 }
 
 /**

@@ -133,6 +133,16 @@
   Normal or Critical; a critical doubles the whole result. Cards follow chat's light theme.
 - A weapon with several damage types (Blaster Pistol: Energy or Stun) shows its type as a button on
   Play; a click switches to the next, and attack and damage cards use it.
+- Force Point reroll (mockup 2): right-click a check, power or attack card, "Spend a Force Point:
+  take a new roll". The roll is made the way the first was (2d20 keep the higher stays so), replaces
+  the result on the card with a "Rerolled, was N" tag, and spends one Force Point; with none left it
+  warns and changes nothing. A power's bands, an attack's per-target results and an Initiative
+  score follow the new total, and so do the unapplied rows of a damage card already rolled from the
+  attack (a new natural 20 reads as a hit there, since its damage was rolled already). Offered to
+  the card's speaker's owners; the card says so under the roll.
+- Check and power cards share the attack card's layout: a title (the skill, or the power), tags (a
+  Force Point spent before the roll, a power's descriptors and action), the roll, and a power's
+  target line and DC bands.
 
 ## 0.0.1 - 2026-11-01
 

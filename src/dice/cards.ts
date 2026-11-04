@@ -1,6 +1,8 @@
 import type { CharacterModel } from "../data/actor/character.ts";
-import { damageFor, marginText, takeDamage, type Chip, type DamageTarget as TargetInfo, type Outcome } from "../rules/damage.ts";
-import { groupLabel, rollDamage, type Applied, type AttackFlag, type DamageFlag } from "./attack.ts";
+import { attackOutcome, damageFor, marginText, takeDamage, type Chip, type DamageTarget as TargetInfo, type Outcome } from "../rules/damage.ts";
+import { groupLabel, rollDamage, tagHtml, type Applied, type AttackFlag, type DamageFlag } from "./attack.ts";
+import { setInitiative } from "./check.ts";
+import { powerBands } from "./force.ts";
 
 /**
  * Attack and damage cards (mockup 2). The stored content holds the title, tags and roll; the part
@@ -185,11 +187,97 @@ export function renderCard(message: ChatMessage.Implementation, html: HTMLElemen
   const damage = message.getFlag("holocron", "damage") as DamageFlag | undefined;
   if (attack) live.innerHTML = attackLive(message, attack);
   else if (damage) live.innerHTML = damageLive(message, damage);
+  if (canReroll(message)) live.insertAdjacentHTML("beforeend", `<div class="hint">Right-click this card: ${REROLL_LABEL}.</div>`);
   live.addEventListener("click", (event) => {
     const button = (event.target as HTMLElement).closest<HTMLButtonElement>("button[data-hc]");
     if (!button || button.disabled) return;
     button.disabled = true;
     void onAction(message, button).finally(() => { button.disabled = false; });
+  });
+}
+
+const REROLL_LABEL = "Spend a Force Point: take a new roll";
+
+/** A check or attack card whose speaker the user owns and whose message the user may change. */
+function canReroll(message: ChatMessage.Implementation | undefined): message is ChatMessage.Implementation {
+  if (!message?.rolls.length) return false;
+  const flags = message.flags.holocron as Record<string, unknown> | undefined;
+  return Boolean(flags?.["check"] || flags?.["attack"]) && message.speakerActor?.isOwner === true && message.canUserModify(game.user, "update");
+}
+
+/**
+ * A Force Point after a roll: "reroll and take the new roll" (rulings.md, The Force). The roll is
+ * made the way the first was (advantage stays 2d20 keep the higher), replaces it in place with a
+ * "Rerolled, was N" tag, and costs one Force Point once the card is updated. A power's bands, an
+ * attack's per-target results and an Initiative score follow the new total; so do the unapplied rows
+ * of a damage card already rolled from the attack, where a new natural 20 reads as a hit (its damage
+ * was rolled already, so it is not doubled).
+ */
+export async function forcePointReroll(message: ChatMessage.Implementation): Promise<void> {
+  const actor = message.speakerActor as Actor.Implementation | null;
+  if (!actor || !canReroll(message)) return;
+  const left = (actor.system as CharacterModel).forcePoints.value;
+  if (left < 1) {
+    ui.notifications?.warn(`${actor.name} has no Force Points left.`);
+    return;
+  }
+  const old = message.rolls[0]!;
+  const roll = await old.reroll();
+  const total = roll.total ?? 0;
+  const card = document.createElement("div");
+  card.innerHTML = message.content ?? "";
+  card.querySelector(".dice-roll")?.replaceWith(foundry.utils.parseHTML(await roll.render()) as HTMLElement);
+  card.querySelector(".card-title .tags")?.insertAdjacentHTML("beforeend", tagHtml(`Rerolled, was ${old.total ?? 0}`));
+
+  const update: Record<string, unknown> = {};
+  const attack = message.getFlag("holocron", "attack") as AttackFlag | undefined;
+  const check = message.getFlag("holocron", "check") as { skill: string } | undefined;
+  const power = message.getFlag("holocron", "power") as { itemId: string } | undefined;
+  if (check) update["flags.holocron.check.total"] = total;
+  if (power) {
+    const item = actor.items.get(power.itemId);
+    const extra = card.querySelector(".hc-extra");
+    if (item && extra) {
+      const bands = powerBands(item as Item.Implementation, total);
+      extra.innerHTML = bands.html;
+      update["flags.holocron.power.reached"] = bands.reached;
+    }
+  }
+  let attackTargets: AttackFlag["targets"] = [];
+  if (attack) {
+    const natural = roll.dice[0]?.total ?? 0;
+    attackTargets = attack.targets.map((t) => {
+      const outcome = attackOutcome(natural, total, t.reflex);
+      return { ...t, outcome, hit: outcome === "hit" || outcome === "crit" };
+    });
+    Object.assign(update, { "flags.holocron.attack.natural": natural, "flags.holocron.attack.total": total, "flags.holocron.attack.crit": natural === 20, "flags.holocron.attack.targets": attackTargets });
+  }
+  await message.update({ content: card.innerHTML, rolls: [roll], ...update } as never);
+  await actor.update({ system: { forcePoints: { value: left - 1 } } } as never);
+  if (check?.skill === "initiative") await setInitiative(actor, total);
+  if (!attack) return;
+  for (const m of game.messages?.contents ?? []) {
+    const damage = m.getFlag("holocron", "damage") as DamageFlag | undefined;
+    if (damage?.attackId !== message.id || !m.canUserModify(game.user, "update")) continue;
+    const targets = damage.targets.map((t) => {
+      const now = attackTargets.find((a) => a.uuid === t.uuid);
+      if (!now || damage.applied.some((a) => a.uuid === t.uuid)) return t;
+      return { ...t, outcome: now.outcome === "crit" ? "hit" as const : now.outcome };
+    });
+    await m.update({ "flags.holocron.damage.targets": targets } as never);
+  }
+}
+
+/** The chat log's right-click entry on check and attack cards (mockup 2). */
+export function onChatContextOptions(_app: unknown, options: { label: string; icon: string; visible: (li: HTMLElement) => boolean; onClick: (event: Event, li: HTMLElement) => unknown }[]): void {
+  options.push({
+    label: REROLL_LABEL,
+    icon: "fa-solid fa-dice-d20",
+    visible: (li) => canReroll(game.messages?.get(li.dataset["messageId"] ?? "")),
+    onClick: (_event, li) => {
+      const message = game.messages?.get(li.dataset["messageId"] ?? "");
+      if (message) return forcePointReroll(message);
+    },
   });
 }
 

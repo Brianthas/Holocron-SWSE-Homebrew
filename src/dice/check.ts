@@ -1,23 +1,35 @@
 import { SKILLS, type SkillKey } from "../config/skills.ts";
 import type { CharacterModel } from "../data/actor/character.ts";
 import { healTo } from "../rules/resources.ts";
-import { labelledFormula } from "./attack.ts";
+import { cardHtml, labelledFormula } from "./attack.ts";
 
 const escape = (s: string) => foundry.utils.escapeHTML(s);
 
 /** What a check card records. */
 export interface CheckFlag { skill: SkillKey; advantage: boolean; other: number; total: number }
 
+/** What a check card shows besides the roll: a Force power's title, tags and bands (force.ts). */
+export interface CheckCard { title: string; tags: string[]; extra: string; flavor: string; flags: Record<string, unknown> }
+
+/** Sets the character's initiative in every active combat it is in, not only the one on the scene being viewed. */
+export async function setInitiative(actor: Actor.Implementation, total: number): Promise<void> {
+  for (const combat of game.combats ?? []) {
+    if (!combat.active) continue;
+    for (const combatant of combat.combatants) {
+      if (combatant.actorId === actor.id && combatant.id) await combat.setInitiative(combatant.id, total);
+    }
+  }
+}
+
 /**
  * A skill check: 1d20, or with a Force Point spent before the roll 2d20 keeping the higher
  * (rulings.md, The Force), plus the skill's terms and any other modifier. The Force Point is spent
- * once the roll is made. An Initiative check also sets the character's initiative in each active
- * combat the character is in. `card` replaces the flavor and adds content and flags from the total
- * (a Force power's bands).
+ * once the roll is made. An Initiative check also sets the character's initiative. `card` replaces
+ * the title and flavor and adds tags, an extra block and flags from the total (a Force power).
  */
 export async function rollCheck(
   actor: Actor.Implementation, key: SkillKey, { advantage = false, other = 0 } = {},
-  card?: (total: number) => { flavor: string; content: string; flags: Record<string, unknown> },
+  card?: (total: number) => CheckCard,
 ): Promise<ChatMessage.Implementation | null> {
   const system = actor.system as CharacterModel;
   const spend = advantage && system.forcePoints.value > 0;
@@ -26,23 +38,15 @@ export async function rollCheck(
   if (spend) await actor.update({ system: { forcePoints: { value: system.forcePoints.value - 1 } } } as never);
   const flag: CheckFlag = { skill: key, advantage: spend, other, total: roll.total ?? 0 };
   const custom = card?.(roll.total ?? 0);
+  const tags = [...(spend ? ["Force Point"] : []), ...(custom?.tags ?? [])];
   const message = await ChatMessage.create({
     speaker: ChatMessage.getSpeaker({ actor: actor as Actor.Stored }),
     rolls: [roll],
     flavor: `${custom?.flavor ?? `${escape(SKILLS[key].label)} check`}${spend ? " (Force Point: 2d20, keep the higher)" : ""}`,
-    // Core shows the roll only when the content has no elements (attack.ts), so custom content carries it.
-    ...(custom ? { content: `${await roll.render()}${custom.content}` } : {}),
+    content: await cardHtml(custom?.title ?? SKILLS[key].label, tags, roll, custom?.extra ?? ""),
     flags: { holocron: { check: flag, ...custom?.flags } },
   } as never);
-  // Every active combat the character is in, not only the one on the scene being viewed.
-  if (key === "initiative") {
-    for (const combat of game.combats ?? []) {
-      if (!combat.active) continue;
-      for (const combatant of combat.combatants) {
-        if (combatant.actorId === actor.id && combatant.id) await combat.setInitiative(combatant.id, roll.total ?? 0);
-      }
-    }
-  }
+  if (key === "initiative") await setInitiative(actor, roll.total ?? 0);
   return (message as ChatMessage.Implementation | undefined) ?? null;
 }
 
