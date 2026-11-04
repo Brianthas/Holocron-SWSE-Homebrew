@@ -82,7 +82,8 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
   only to Block against a melee area attack (such as Whirlwind Attack) and to Deflect against an
   autofire area attack or Force Lightning. Burst Fire attacks one creature, so Deflect negates it.
   Deflect has no effect on other area attacks (grenades, missiles, flamethrowers). Sonic damage
-  cannot be deflected (weapon table, Sonic Pistol).
+  cannot be deflected (weapon table, Sonic Pistol). A wielded lightsaber is an ignited one (Bryan,
+  2026-11-03): Dueling Stance's "ignited lightsaber" is a lightsaber in hands.
 - **Redirection Stance** (Bryan, 2026-09-24): Redirect Shot's attack roll is the defender's own
   ranged attack, and a hit deals the damage the deflected bolt would have dealt, dice and
   modifiers: a 3d8+15 shot comes back as 3d8+15. Only a single blaster bolt can be redirected.
@@ -102,6 +103,7 @@ and a snapshot differ, the ruling wins. Code and tests cite the ruling by its he
 - Later levels: roll the class die + Constitution modifier, or take floor(die / 2) + 1 +
   Constitution modifier.
 - Second Wind: 1 use unless a feat adds more; heals Hit Die + Constitution modifier + level.
+- **Temporary hit points absorb damage first** (Bryan, 2026-11-03); the rest comes off hit points.
 - **Rest is a long rest** (Bryan, 2026-09-25): hit points to full, Force Points to their per-day
   number, every Force power ready, Second Wind and per-day uses restored. The sheet's Rest does this
   for one character; the GM's New Day does it for every player character.

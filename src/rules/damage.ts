@@ -69,8 +69,8 @@ export function damageFor(target: DamageTarget, outcome: Outcome, roll: DamageRo
 }
 
 /**
- * Damage taken: temporary hit points absorb it first, the rest comes off hit points, which may go
- * below 0 (Dying, then Dead below minus the maximum; rulings.md, Death).
+ * Damage taken: temporary hit points absorb it first (rulings.md, Hit points and healing), the rest
+ * comes off hit points, which may go below 0 (Dying, then Dead below minus the maximum; Death).
  */
 export function takeDamage(hp: number, temp: number, n: number): { hp: number; temp: number; fromTemp: number; fromHp: number } {
   const fromTemp = Math.min(Math.max(temp, 0), n);
